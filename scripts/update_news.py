@@ -47,7 +47,7 @@ def summarize_with_minimax(raw_items):
     )
     items_text = "\n\n".join([
         f"来源：{i['source']}\n标题：{i['title']}\n内容：{i['summary'][:300]}\n链接：{i['link']}"
-        for i in raw_items
+        for i in raw_items[:12]
     ])
     today = datetime.date.today().strftime("%Y年%m月%d日")
     prompt = f"""你是一位专注中国制药装备行业的研究分析师。
@@ -77,7 +77,7 @@ def summarize_with_minimax(raw_items):
 """
     message = client.messages.create(
         model="MiniMax-M2.5",
-        max_tokens=2000,
+        max_tokens=4000,
         messages=[{"role": "user", "content": prompt}],
     )
     raw_json = next(b.text for b in message.content if b.type == "text").strip()
