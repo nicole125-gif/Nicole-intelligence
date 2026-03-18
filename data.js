@@ -38,7 +38,7 @@ window.MARKET_DATA = {
       },
       {
         label: "工业增加值", labelEn: "IND. VALUE ADD",
-        value: 6.2, unit: "%", trend: "↑ Upward",
+        value: 6.3, unit: "%", trend: "↑ Upward",
         insight: "新质生产力贡献率超 35%",
         color: "#00C8FF",
         sparkData: [5.1, 5.7, 6.2], years: ["2024","2025","2026E"],
