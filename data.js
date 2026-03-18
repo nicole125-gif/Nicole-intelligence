@@ -6,7 +6,7 @@
 
 window.MARKET_DATA = {
   meta: {
-    lastUpdated: "2026-02-28",
+    lastUpdated: "2026-03-18",
     updatedBy: "Nicole",
     version: "2.1"
   },
@@ -64,7 +64,7 @@ window.MARKET_DATA = {
       },
       {
         label: "出口增速", labelEn: "EXPORT GROWTH",
-        value: 4.8, unit: "%", trend: "Shift",
+        value: 21.8, unit: "%", trend: "↑ Sharp Increase",
         insight: "高附加值组件替代传统代工",
         color: "#FF6B35",
         sparkData: [5.9, 4.2, 4.8], years: ["2024","2025","2026E"],
