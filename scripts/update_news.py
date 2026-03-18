@@ -15,10 +15,16 @@ GOOGLE_NEWS_FEEDS = [
 
 def collect_raw_items():
     all_items = []
+    cutoff = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=30)
     for source_name, url in GOOGLE_NEWS_FEEDS:
         try:
             feed = feedparser.parse(url)
-            for entry in feed.entries[:5]:
+            for entry in feed.entries[:10]:
+                published = entry.get("published_parsed")
+                if published:
+                    pub_dt = datetime.datetime(*published[:6], tzinfo=datetime.timezone.utc)
+                    if pub_dt < cutoff:
+                        continue
                 all_items.append({
                     "source": source_name,
                     "title": entry.get("title", "").strip(),
