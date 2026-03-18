@@ -3,87 +3,33 @@ import re
 import json
 import datetime
 import feedparser
-import requests
-from bs4 import BeautifulSoup
 import anthropic
 
-SOURCES = [
-    {"name": "医药经济报", "url": "https://www.yyjjb.com.cn/rss.xml", "type": "rss"},
+
+GOOGLE_NEWS_FEEDS = [
+    ("制药装备动态", "https://news.google.com/rss/search?q=制药装备&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"),
+    ("龙头企业", "https://news.google.com/rss/search?q=楚天科技+OR+东富龙+OR+森松国际&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"),
+    ("国产替代", "https://news.google.com/rss/search?q=生物制药设备+国产替代&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"),
+    ("政策监管", "https://news.google.com/rss/search?q=制药装备+政策+NMPA&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"),
 ]
-
-MAX_ITEMS = 10
-MAX_CHARS = 300
-
-
-def fetch_rss(url, source_name, limit=4):
-    items = []
-    try:
-        feed = feedparser.parse(url)
-        for entry in feed.entries[:limit]:
-            items.append({
-                "source": source_name,
-                "title": entry.get("title", "").strip(),
-                "link": entry.get("link", ""),
-                "summary": BeautifulSoup(
-                    entry.get("summary", entry.get("description", "")), "html.parser"
-                ).get_text()[:500],
-                "date": entry.get("published", ""),
-            })
-    except Exception as e:
-        print(f"[WARN] RSS fetch failed for {source_name}: {e}")
-    return items
-
-
-def fetch_baidu_news(keyword, source_name, limit=5):
-    items = []
-    try:
-        url = f"https://www.baidu.com/s?tn=news&rtt=1&bsst=1&cl=2&wd={requests.utils.quote(keyword)}&ie=utf-8"
-        headers = {"User-Agent": "Mozilla/5.0 (compatible; research-bot/1.0)"}
-        resp = requests.get(url, headers=headers, timeout=10)
-        soup = BeautifulSoup(resp.text, "html.parser")
-        for a in soup.select("h3 a")[:limit]:
-            items.append({
-                "source": source_name,
-                "title": a.get_text().strip(),
-                "link": a.get("href", ""),
-                "summary": "",
-                "date": "",
-            })
-    except Exception as e:
-        print(f"[WARN] Baidu news fetch failed: {e}")
-    return items
-
-
-def fetch_nmpa(limit=3):
-    items = []
-    try:
-        url = "https://www.nmpa.gov.cn/xxgk/ggtg/index.html"
-        headers = {"User-Agent": "Mozilla/5.0"}
-        resp = requests.get(url, headers=headers, timeout=10)
-        resp.encoding = "utf-8"
-        soup = BeautifulSoup(resp.text, "html.parser")
-        for li in soup.select("ul.list li")[:limit]:
-            a = li.find("a")
-            span = li.find("span")
-            if a:
-                items.append({
-                    "source": "NMPA政策",
-                    "title": a.get_text().strip(),
-                    "link": "https://www.nmpa.gov.cn" + a.get("href", ""),
-                    "summary": "",
-                    "date": span.get_text().strip() if span else "",
-                })
-    except Exception as e:
-        print(f"[WARN] NMPA fetch failed: {e}")
-    return items
 
 
 def collect_raw_items():
     all_items = []
-    all_items += fetch_rss(SOURCES[0]["url"], SOURCES[0]["name"], limit=4)
-    all_items += fetch_baidu_news("制药装备 国产替代", "制药装备动态", limit=5)
-    all_items += fetch_baidu_news("东富龙 楚天科技 森松", "龙头动态", limit=4)
-    all_items += fetch_nmpa(limit=3)
+    for source_name, url in GOOGLE_NEWS_FEEDS:
+        try:
+            feed = feedparser.parse(url)
+            for entry in feed.entries[:5]:
+                all_items.append({
+                    "source": source_name,
+                    "title": entry.get("title", "").strip(),
+                    "link": entry.get("link", ""),
+                    "summary": entry.get("summary", "")[:300],
+                    "date": entry.get("published", ""),
+                })
+            print(f"[OK] {source_name}: {len(feed.entries)} 条")
+        except Exception as e:
+            print(f"[WARN] {source_name} 抓取失败: {e}")
     seen = set()
     unique = []
     for item in all_items:
@@ -94,19 +40,16 @@ def collect_raw_items():
     return unique[:20]
 
 
-def summarize_with_claude(raw_items):
+def summarize_with_minimax(raw_items):
     client = anthropic.Anthropic(
         api_key=os.environ["MINIMAX_API_KEY"],
         base_url="https://api.minimaxi.com/anthropic"
     )
-
     items_text = "\n\n".join([
         f"来源：{i['source']}\n标题：{i['title']}\n内容：{i['summary'][:300]}\n链接：{i['link']}"
         for i in raw_items
     ])
-
     today = datetime.date.today().strftime("%Y年%m月%d日")
-
     prompt = f"""你是一位专注中国制药装备行业的研究分析师。
 
 以下是本周抓取的行业原始信息（共{len(raw_items)}条），请：
@@ -132,13 +75,11 @@ def summarize_with_claude(raw_items):
 原始信息：
 {items_text}
 """
-
     message = client.messages.create(
         model="MiniMax-M2.5",
         max_tokens=2000,
         messages=[{"role": "user", "content": prompt}],
     )
-
     raw_json = message.content[0].text.strip()
     raw_json = re.sub(r"^```json\s*", "", raw_json)
     raw_json = re.sub(r"\s*```$", "", raw_json)
@@ -171,7 +112,6 @@ def build_news_html(data):
     {items_html}
   </div>
 </section>
-
 <style>
 .news-section {{
   margin: 60px auto 40px;
@@ -270,7 +210,7 @@ def inject_into_html(news_html, html_path="pharma.html"):
         content = content.replace("</body>", news_html + "\n</body>")
     with open(html_path, "w", encoding="utf-8") as f:
         f.write(content)
-    print(f"[OK] Injected {len(news_html)} chars into {html_path}")
+    print(f"[OK] 已更新 {html_path}")
 
 
 if __name__ == "__main__":
@@ -281,7 +221,8 @@ if __name__ == "__main__":
         print("[WARN] 无有效条目，跳过更新")
         exit(0)
     print("[INFO] 调用 MiniMax 生成摘要...")
-    data = summarize_with_claude(raw)
+    data = summarize_with_minimax(raw)
     print(f"[OK] 返回 {len(data['items'])} 条摘要")
-    inject_into_html(news_html=build_news_html(data), html_path="pharma.html")
+    news_html = build_news_html(data)
+    inject_into_html(news_html, html_path="pharma.html")
     print("=== 完成 ===")
