@@ -5,18 +5,32 @@ import feedparser
 import anthropic
 
 
-GOOGLE_NEWS_FEEDS = [
+GOOGLE_NEWS_FEEDS_PHARMA = [
     ("制药装备动态", "https://news.google.com/rss/search?q=制药装备&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"),
     ("龙头企业", "https://news.google.com/rss/search?q=楚天科技+OR+东富龙+OR+森松国际&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"),
     ("国产替代", "https://news.google.com/rss/search?q=生物制药设备+国产替代&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"),
     ("政策监管", "https://news.google.com/rss/search?q=制药装备+政策+NMPA&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"),
 ]
 
+GOOGLE_NEWS_FEEDS_MACRO = [
+    ("宏观经济", "https://news.google.com/rss/search?q=中国GDP增速+国家统计局&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"),
+    ("工业数据", "https://news.google.com/rss/search?q=中国工业增加值+制造业固定资产投资&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"),
+    ("外贸数据", "https://news.google.com/rss/search?q=中国出口增速+商务部&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"),
+    ("PPI数据", "https://news.google.com/rss/search?q=中国PPI+生产者价格指数&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"),
+]
 
-def collect_raw_items():
+
+def get_minimax_client():
+    return anthropic.Anthropic(
+        api_key=os.environ["MINIMAX_API_KEY"],
+        base_url="https://api.minimaxi.com/anthropic"
+    )
+
+
+def collect_news(feeds):
     all_items = []
     cutoff = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=30)
-    for source_name, url in GOOGLE_NEWS_FEEDS:
+    for source_name, url in feeds:
         try:
             feed = feedparser.parse(url)
             for entry in feed.entries[:10]:
@@ -45,11 +59,10 @@ def collect_raw_items():
     return unique[:20]
 
 
-def summarize_with_minimax(raw_items):
-    client = anthropic.Anthropic(
-        api_key=os.environ["MINIMAX_API_KEY"],
-        base_url="https://api.minimaxi.com/anthropic"
-    )
+# ── 制药装备：生成新闻摘要 ────────────────────────────────────
+
+def summarize_pharma_news(raw_items):
+    client = get_minimax_client()
     items_text = "\n\n".join([
         f"[{idx+1}] 来源：{i['source']}\n标题：{i['title']}\n链接：{i['link']}"
         for idx, i in enumerate(raw_items[:12])
@@ -69,7 +82,6 @@ def summarize_with_minimax(raw_items):
         messages=[{"role": "user", "content": prompt}],
     )
     raw_text = next(b.text for b in message.content if b.type == "text").strip()
-
     items = []
     for line in raw_text.strip().split("\n"):
         line = line.strip()
@@ -86,6 +98,115 @@ def summarize_with_minimax(raw_items):
             })
     return {"updated": today, "items": items[:10]}
 
+
+# ── 宏观数据：提取最新指标数值 ───────────────────────────────
+
+def extract_macro_data(raw_items):
+    client = get_minimax_client()
+    items_text = "\n\n".join([
+        f"标题：{i['title']}\n内容：{i['summary']}"
+        for i in raw_items[:15]
+    ])
+    prompt = f"""你是中国宏观经济数据分析师。从以下最新新闻中提取五个指标的最新数值。
+
+如果某个指标在新闻中找不到明确数据，保留原值不变（原值已在括号中给出）。
+只返回如下格式，不要其他文字：
+
+GDP增速|数值|趋势描述
+工业增加值|数值|趋势描述
+制造业固投|数值|趋势描述
+出口增速|数值|趋势描述
+PPI|数值|趋势描述
+
+原值参考（找不到新数据时保留）：
+GDP增速|5.0|+0.2%
+工业增加值|6.2|↑ Upward
+制造业固投|11.4|Stable
+出口增速|4.8|Shift
+PPI|1.2|Recovery
+
+新闻内容：
+{items_text}"""
+
+    message = client.messages.create(
+        model="MiniMax-M2.5-highspeed",
+        max_tokens=500,
+        messages=[{"role": "user", "content": prompt}],
+    )
+    raw_text = next(b.text for b in message.content if b.type == "text").strip()
+
+    result = {}
+    for line in raw_text.strip().split("\n"):
+        parts = line.strip().split("|")
+        if len(parts) >= 3:
+            result[parts[0].strip()] = {
+                "value": parts[1].strip(),
+                "trend": parts[2].strip()
+            }
+    return result
+
+
+def update_data_js(macro_data):
+    """把提取到的宏观数据写入 data.js"""
+    with open("data.js", "r", encoding="utf-8") as f:
+        content = f.read()
+
+    today = datetime.date.today().strftime("%Y-%m-%d")
+
+    # 更新 lastUpdated
+    content = re.sub(
+        r'lastUpdated:\s*"[^"]*"',
+        f'lastUpdated: "{today}"',
+        content
+    )
+
+    # 指标名映射
+    field_map = {
+        "GDP增速":   ("GDP GROWTH",    "GDP 增速"),
+        "工业增加值": ("IND. VALUE ADD", "工业增加值"),
+        "制造业固投": ("MFG. CAPEX",    "制造业固投"),
+        "出口增速":   ("EXPORT GROWTH", "出口增速"),
+        "PPI":       ("PPI TREND",     "PPI 走势"),
+    }
+
+    for key, (label_en, label_zh) in field_map.items():
+        if key not in macro_data:
+            continue
+        new_value = macro_data[key]["value"]
+        new_trend = macro_data[key]["trend"]
+
+        # 尝试转为数字
+        try:
+            num = float(new_value.replace("%", "").replace("+", "").strip())
+        except ValueError:
+            num = None
+
+        if num is not None:
+            # 更新 value（找到对应 labelEn 后的 value 字段）
+            content = re.sub(
+                rf'(labelEn:\s*"{re.escape(label_en)}"[^}}]*?value:\s*)[0-9.-]+',
+                rf'\g<1>{num}',
+                content,
+                flags=re.DOTALL
+            )
+
+        # 更新 trend
+        content = re.sub(
+            rf'(labelEn:\s*"{re.escape(label_en)}"[^}}]*?trend:\s*")[^"]*"',
+            rf'\g<1>{new_trend}"',
+            content,
+            flags=re.DOTALL
+        )
+
+    with open("data.js", "w", encoding="utf-8") as f:
+        f.write(content)
+
+    print(f"[OK] data.js 宏观数据已更新：{today}")
+    for k, v in macro_data.items():
+        print(f"     {k}: {v['value']} / {v['trend']}")
+
+
+# ── HTML 新闻模块 ────────────────────────────────────────────
 
 def build_news_html(data):
     items_html = ""
@@ -191,7 +312,7 @@ def build_news_html(data):
 <!-- NEWS_BLOCK_END -->"""
 
 
-def inject_into_html(news_html, html_path="pharma.html"):
+def inject_into_html(news_html, html_path):
     with open(html_path, "r", encoding="utf-8") as f:
         content = f.read()
     if "<!-- NEWS_BLOCK_START -->" in content:
@@ -208,19 +329,30 @@ def inject_into_html(news_html, html_path="pharma.html"):
     print(f"[OK] 已更新 {html_path}")
 
 
+# ── 主流程 ───────────────────────────────────────────────────
+
 if __name__ == "__main__":
-    print("=== 开始抓取行业动态 ===")
-    raw = collect_raw_items()
-    print(f"[INFO] 抓取原始条目 {len(raw)} 条")
-    if not raw:
-        print("[WARN] 无有效条目，跳过更新")
-        exit(0)
-    print("[INFO] 调用 MiniMax 生成摘要...")
-    data = summarize_with_minimax(raw)
-    print(f"[OK] 返回 {len(data['items'])} 条摘要")
-    if not data["items"]:
-        print("[WARN] 摘要为空，跳过更新")
-        exit(0)
-    news_html = build_news_html(data)
-    inject_into_html(news_html, html_path="pharma.html")
-    print("=== 完成 ===")
+    print("=== 开始更新 ===")
+
+    # 1. 制药装备新闻
+    print("\n--- 制药装备行业动态 ---")
+    pharma_raw = collect_news(GOOGLE_NEWS_FEEDS_PHARMA)
+    print(f"[INFO] 抓取 {len(pharma_raw)} 条")
+    if pharma_raw:
+        pharma_data = summarize_pharma_news(pharma_raw)
+        print(f"[OK] 生成 {len(pharma_data['items'])} 条摘要")
+        if pharma_data["items"]:
+            news_html = build_news_html(pharma_data)
+            inject_into_html(news_html, "pharma.html")
+
+    # 2. 宏观数据更新
+    print("\n--- 宏观经济指标 ---")
+    macro_raw = collect_news(GOOGLE_NEWS_FEEDS_MACRO)
+    print(f"[INFO] 抓取 {len(macro_raw)} 条")
+    if macro_raw:
+        macro_data = extract_macro_data(macro_raw)
+        print(f"[OK] 提取 {len(macro_data)} 个指标")
+        if macro_data:
+            update_data_js(macro_data)
+
+    print("\n=== 全部完成 ===")
