@@ -5,49 +5,50 @@ import datetime
 import feedparser
 import requests
 import anthropic
+from urllib.parse import quote
 
 # ── 子赛道配置 ─────────────────────────────────────────────
 TRACKS = [
     {"id": "EI·液冷数据中心", "board": "EI",
-     "keywords": ["AI液冷数据中心 CDU冷板", "液冷渗透率 数据中心", "AI基础设施 液冷设备"]},
+     "keywords": ["AI液冷数据中心+CDU冷板", "液冷渗透率+数据中心", "AI基础设施+液冷设备"]},
     {"id": "EI·半导体设备国产化", "board": "EI",
-     "keywords": ["半导体设备国产化 北方华创", "晶圆厂扩产 设备投资", "DRAM 半导体涨价"]},
+     "keywords": ["半导体设备国产化+北方华创", "晶圆厂扩产+设备投资", "DRAM+半导体涨价"]},
     {"id": "EI·绿氢电解槽", "board": "EI",
-     "keywords": ["PEM电解槽 绿氢", "氢能 电解槽招标", "质子交换膜 氢能设备"]},
+     "keywords": ["PEM电解槽+绿氢", "氢能+电解槽招标", "质子交换膜+氢能设备"]},
     {"id": "EI·燃料电池", "board": "EI",
-     "keywords": ["燃料电池 FCEV重卡", "氢燃料电池 销量", "燃料电池补贴政策"]},
+     "keywords": ["燃料电池+FCEV重卡", "氢燃料电池+销量", "燃料电池+补贴政策"]},
     {"id": "GI·锂电设备", "board": "GI",
-     "keywords": ["锂电设备 宁德时代 CATL", "锂电池产能扩张 设备订单", "先导智能 赢合科技"]},
+     "keywords": ["锂电设备+宁德时代", "锂电池产能扩张+设备订单", "先导智能+赢合科技"]},
     {"id": "P&B·生物药出海", "board": "P&B",
-     "keywords": ["创新药 License-out BD交易", "司美格鲁肽 GLP-1 CDMO", "生物药出海 ADC"]},
+     "keywords": ["创新药+License-out+BD交易", "司美格鲁肽+GLP-1+CDMO", "生物药出海+ADC"]},
     {"id": "P&B·合成生物学", "board": "P&B",
-     "keywords": ["合成生物学 中试车间", "华恒生物 凯赛生物 发酵罐", "合成生物学 十五五"]},
+     "keywords": ["合成生物学+中试车间", "华恒生物+凯赛生物+发酵罐", "合成生物学+十五五"]},
     {"id": "P&B·生物药融资", "board": "P&B",
-     "keywords": ["生物医药投融资 一级市场", "创新药融资 生物科技"]},
+     "keywords": ["生物医药投融资+一级市场", "创新药融资+生物科技"]},
     {"id": "P&B·制药装备Capex", "board": "P&B",
-     "keywords": ["医药制造业固定资产投资 FAI", "制药装备 资本支出", "医药FAI 国家统计局"]},
+     "keywords": ["医药制造业固定资产投资+FAI", "制药装备+资本支出", "医药FAI+国家统计局"]},
     {"id": "P&B·CDMO", "board": "P&B",
-     "keywords": ["CDMO 药明康德 凯莱英", "TIDES ADC CDMO订单", "CDMO询单 多肽原料药"]},
+     "keywords": ["CDMO+药明康德+凯莱英", "TIDES+ADC+CDMO订单", "CDMO询单+多肽原料药"]},
     {"id": "L&M·质谱色谱仪器", "board": "L&M",
-     "keywords": ["质谱仪 国产替代 禾信谱育", "色谱仪器 进口替代", "分析仪器 国产化率"]},
+     "keywords": ["质谱仪+国产替代+禾信谱育", "色谱仪器+进口替代", "分析仪器+国产化率"]},
     {"id": "L&M·基因测序", "board": "L&M",
-     "keywords": ["基因测序 华大智造 因美纳", "测序仪 国产替代", "WGS 肿瘤早检 测序"]},
+     "keywords": ["基因测序+华大智造+因美纳", "测序仪+国产替代", "WGS+肿瘤早检+测序"]},
     {"id": "L&M·医疗IVD", "board": "L&M",
-     "keywords": ["IVD体外诊断 集采降价", "化学发光 国产化率", "医疗IVD 市场规模"]},
+     "keywords": ["IVD体外诊断+集采降价", "化学发光+国产化率", "医疗IVD+市场规模"]},
     {"id": "F&B·食品制造FAI", "board": "F&B",
-     "keywords": ["食品制造业 固定资产投资", "食品装备 预制菜 产线", "食品制造FAI 统计局"]},
+     "keywords": ["食品制造业+固定资产投资", "食品装备+预制菜+产线", "食品制造FAI+统计局"]},
     {"id": "F&B·酒饮料制造FAI", "board": "F&B",
-     "keywords": ["酒饮料制造 固定资产投资", "白酒产能 碳酸饮料 投资", "饮料制造FAI"]},
+     "keywords": ["酒饮料制造+固定资产投资", "白酒产能+碳酸饮料+投资", "饮料制造FAI"]},
     {"id": "F&B·食品饮料消费", "board": "F&B",
-     "keywords": ["食品饮料 消费数据 零售", "春节消费 年货 餐饮", "功能饮品 无糖茶 消费"]},
+     "keywords": ["食品饮料+消费数据+零售", "春节消费+年货+餐饮", "功能饮品+无糖茶+消费"]},
     {"id": "F&B·食品添加剂", "board": "F&B",
-     "keywords": ["食品添加剂 合成生物学 发酵", "天然甜味剂 益生菌 扩产", "功能性食品成分 市场"]},
+     "keywords": ["食品添加剂+合成生物学+发酵", "天然甜味剂+益生菌+扩产", "功能性食品成分+市场"]},
     {"id": "Macro·制造业PMI", "board": "Macro",
-     "keywords": ["中国制造业PMI 官方 财新", "PMI 制造业景气指数"]},
+     "keywords": ["中国制造业PMI+官方+财新", "PMI+制造业景气指数"]},
     {"id": "Macro·M2社融CPIPPI", "board": "Macro",
-     "keywords": ["中国M2 社融 货币政策", "CPI PPI 通胀 价格指数"]},
+     "keywords": ["中国M2+社融+货币政策", "CPI+PPI+通胀+价格指数"]},
     {"id": "Macro·投资工业增加值", "board": "Macro",
-     "keywords": ["固定资产投资 工业增加值 统计局", "制造业FAI 规上工业增加值"]},
+     "keywords": ["固定资产投资+工业增加值+统计局", "制造业FAI+规上工业增加值"]},
 ]
 
 BOARD_WEIGHTS = {
@@ -63,11 +64,6 @@ BOARD_WEIGHTS = {
                "Macro·投资工业增加值": 0.30},
 }
 
-EM_HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-    "Referer": "https://data.eastmoney.com/"
-}
-
 
 def get_client():
     return anthropic.Anthropic(
@@ -76,50 +72,58 @@ def get_client():
     )
 
 
-# ── 东方财富精确宏观数据 ───────────────────────────────────
+def get_text(msg):
+    """从 MiniMax 响应中安全提取文本，跳过 ThinkingBlock"""
+    for b in msg.content:
+        if hasattr(b, "type") and b.type == "text":
+            return b.text.strip()
+    return ""
 
-def fetch_em(sty, field_index, name):
-    """通用东方财富数据接口抓取"""
-    try:
-        url = f"https://datainterface3.eastmoney.com/EM_DataCenter/JS.aspx?type=CR&sty={sty}&js=({{data}})&p=1&ps=3&mkt=0"
-        r = requests.get(url, headers=EM_HEADERS, timeout=10)
-        text = r.text.strip().lstrip("(").rstrip(")")
-        data = json.loads(text)
-        if data and "data" in data and data["data"]:
-            parts = data["data"][0].split(",")
-            if len(parts) > field_index:
-                val = float(parts[field_index])
-                print(f"  [OK] {name}: {val}")
-                return val
-    except Exception as e:
-        print(f"  [WARN] {name} 抓取失败: {e}")
-    return None
 
+# ── 宏观数据：Google News 提取精确数值 ─────────────────────
 
 def fetch_eastmoney_macro():
-    """从东方财富接口抓取所有精确宏观数值"""
+    client = get_client()
     result = {}
+    queries = {
+        "PPI":    "中国PPI工业品出厂价格指数+同比+2026",
+        "PMI":    "中国制造业PMI+官方+国家统计局+2026",
+        "工业增加值": "规模以上工业增加值+同比增长+2026",
+        "GDP":    "中国GDP+同比增速+国家统计局+2026",
+    }
+    for key, query in queries.items():
+        try:
+            url = f"https://news.google.com/rss/search?q={query}&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+            feed = feedparser.parse(url)
+            titles = [e.get("title", "") for e in feed.entries[:6]]
+            if not titles:
+                continue
+            news_text = "\n".join(titles)
+            prompt = f"""从以下新闻标题中提取{key}最新数值。
+只返回一个数字（如 -0.9 或 49.0），不要任何其他文字。
+如果找不到则返回 none。
 
-    ppi = fetch_em("PPI", 2, "PPI同比")
-    if ppi is not None:
-        result["PPI"] = {"value": ppi, "trend": "↑" if ppi > -1.0 else "↓"}
-
-    cpi = fetch_em("CPI", 2, "CPI同比")
-    if cpi is not None:
-        result["CPI"] = {"value": cpi, "trend": "↑" if cpi > 0 else "↓"}
-
-    pmi = fetch_em("PMI", 1, "制造业PMI")
-    if pmi is not None:
-        result["PMI"] = {"value": pmi, "trend": "↑" if pmi >= 50 else "↓"}
-
-    gyzjz = fetch_em("GYZJZ", 1, "工业增加值")
-    if gyzjz is not None:
-        result["工业增加值"] = {"value": gyzjz, "trend": "↑" if gyzjz > 5.5 else "→"}
-
-    gdp = fetch_em("GDP", 1, "GDP")
-    if gdp is not None:
-        result["GDP"] = {"value": gdp, "trend": "↑" if gdp >= 5.0 else "↓"}
-
+新闻标题：
+{news_text}"""
+            msg = client.messages.create(
+                model="MiniMax-M2.5-highspeed",
+                max_tokens=20,
+                messages=[{"role": "user", "content": prompt}],
+            )
+            raw = get_text(msg)
+            if raw and raw.lower() != "none":
+                val = float(raw)
+                if key == "PPI":
+                    result[key] = {"value": val, "trend": "↑" if val > -1.0 else "↓"}
+                elif key == "PMI":
+                    result[key] = {"value": val, "trend": "↑" if val >= 50 else "↓"}
+                elif key == "工业增加值":
+                    result[key] = {"value": val, "trend": "↑" if val > 5.5 else "→"}
+                elif key == "GDP":
+                    result[key] = {"value": val, "trend": "↑" if val >= 5.0 else "↓"}
+                print(f"  [OK] {key}: {val}")
+        except Exception as e:
+            print(f"  [WARN] {key} 提取失败: {e}")
     return result
 
 
@@ -157,7 +161,6 @@ def score_track(client, track, news_items):
     if not news_items:
         return {"D": 50, "C": 50, "P": 50, "Pol": 50,
                 "core_data": "本期无有效新闻数据", "comment": "数据不足，参考上期"}
-
     news_text = "\n".join([f"- {i['title']}" for i in news_items[:10]])
     prompt = f"""你是中国B2B设备行业景气度分析师，使用以下打分方法论对赛道进行评分。
 
@@ -174,14 +177,13 @@ def score_track(client, track, news_items):
 
 只返回以下格式，不要其他文字：
 D|C|P|Pol|核心数据摘要(30字)|一句话点评(40字)"""
-
     try:
         msg = client.messages.create(
             model="MiniMax-M2.5-highspeed",
             max_tokens=300,
             messages=[{"role": "user", "content": prompt}],
         )
-        raw = next(b.text for b in msg.content if b.type == "text").strip()
+        raw = get_text(msg)
         parts = raw.split("|")
         if len(parts) >= 6:
             return {
@@ -239,16 +241,13 @@ def get_prev_heat(history, track_id):
 def update_data_js(macro_values, today_str):
     with open("data.js", "r", encoding="utf-8") as f:
         content = f.read()
-
     content = re.sub(r'lastUpdated:\s*"[^"]*"', f'lastUpdated: "{today_str}"', content)
-
     field_map = {
         "GDP":    "GDP GROWTH",
         "工业增加值": "IND. VALUE ADD",
         "PPI":    "PPI TREND",
         "PMI":    "MFG. PMI",
     }
-
     for key, label_en in field_map.items():
         if key not in macro_values:
             continue
@@ -265,7 +264,6 @@ def update_data_js(macro_values, today_str):
             content, flags=re.DOTALL
         )
         print(f"  [OK] {label_en}: {new_val} / {new_trend}")
-
     with open("data.js", "w", encoding="utf-8") as f:
         f.write(content)
     print("[OK] data.js 已更新")
@@ -328,7 +326,7 @@ def summarize_pharma(client, raw_items):
         max_tokens=3000,
         messages=[{"role": "user", "content": prompt}],
     )
-    raw = next(b.text for b in msg.content if b.type == "text").strip()
+    raw = get_text(msg)
     items = []
     for line in raw.strip().split("\n"):
         line = line.strip()
@@ -430,8 +428,8 @@ if __name__ == "__main__":
     # 3. 保存历史
     save_history(history, period, results)
 
-    # 4. 东方财富精确数据 + 更新 data.js
-    print("\n--- 东方财富宏观数据 ---")
+    # 4. 宏观数据 + 更新 data.js
+    print("\n--- 宏观数据提取 ---")
     macro_values = fetch_eastmoney_macro()
     update_data_js(macro_values, today_str)
 
