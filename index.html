@@ -239,10 +239,10 @@ body{background:#020810;color:#fff;font-family:'Helvetica Neue',Arial,sans-serif
 .nav-dot{width:7px;height:7px;border-radius:50%;background:#E30613;box-shadow:0 0 8px #E30613;animation:dotBlink 2.4s ease-in-out infinite}
 .nav-logo{font-family:'Courier New',monospace;font-size:11px;font-weight:700;color:#fff;letter-spacing:.22em}
 .nav-sub{font-family:'Courier New',monospace;font-size:9px;color:rgba(255,255,255,.70);letter-spacing:.15em}
-.nav-links{display:flex;gap:4px;margin-left:auto}
-.nav-link{padding:5px 14px;font-size:11px;font-family:'Courier New',monospace;letter-spacing:.12em;color:rgba(255,255,255,.82);text-decoration:none;border:1px solid transparent;transition:all .2s ease}
+.nav-links{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
+.nav-link{padding:5px 12px;font-size:11px;font-family:var(--mono);letter-spacing:.08em;color:rgba(255,255,255,.65);text-decoration:none;border:1px solid transparent;transition:all .2s;white-space:nowrap}
 .nav-link:hover{color:#fff;border-color:rgba(255,255,255,.12)}
-.nav-link.active{color:#E30613;border-color:#E30613;background:rgba(227,6,19,.08)}
+
 .nav-status{display:flex;align-items:center;gap:6px;flex-shrink:0}
 .status-dot{width:5px;height:5px;border-radius:50%;background:#00FFB2;animation:dotBlink 2.8s ease-in-out infinite}
 .status-txt{font-family:'Courier New',monospace;font-size:8px;color:rgba(255,255,255,.70);letter-spacing:.2em}
@@ -267,8 +267,8 @@ body{background:#020810;color:#fff;font-family:'Helvetica Neue',Arial,sans-serif
 <nav id="site-nav">
   <div class="nav-inner">
     
-    <div class="nav-links">
-      <a href="index.html" class="nav-link active">宏观脉搏</a>
+        <div class="nav-links">
+      <a href="index.html" class="nav-link" style="color:#00FFB2;border-color:#00FFB2;background:rgba(0,255,178,.06)">宏观脉搏</a>
       <a href="liquid.html" class="nav-link">AI 液冷</a>
       <a href="semiconductor.html" class="nav-link">半导体 SBU</a>
       <a href="mscc.html" class="nav-link">质谱·色谱</a>

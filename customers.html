@@ -25,10 +25,10 @@ body{background:var(--bg);color:var(--text);font-family:var(--display);min-heigh
 /* NAV */
 #site-nav{position:fixed;top:0;left:0;right:0;z-index:10000;background:rgba(2,5,18,.92);backdrop-filter:blur(24px);border-bottom:1px solid var(--border)}
 .nav-inner{max-width:1380px;margin:0 auto;padding:0 32px;display:flex;align-items:center;height:52px}
-.nav-links{display:flex;gap:2px;margin-left:auto;flex-wrap:wrap}
-.nav-link{padding:6px 14px;font-size:12px;font-family:var(--mono);letter-spacing:.08em;color:rgba(255,255,255,.72);text-decoration:none;border:1px solid transparent;transition:all .2s;white-space:nowrap}
-.nav-link:hover{color:#fff;border-color:var(--border2)}
-.nav-link.active{color:var(--gold);border-color:var(--gold);background:rgba(255,215,0,.07)}
+.nav-links{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
+.nav-link{padding:5px 12px;font-size:11px;font-family:var(--mono);letter-spacing:.08em;color:rgba(255,255,255,.65);text-decoration:none;border:1px solid transparent;transition:all .2s;white-space:nowrap}
+.nav-link:hover{color:#fff;border-color:rgba(255,255,255,.12)}
+
 
 .bg-grid{position:fixed;inset:0;z-index:0;pointer-events:none;
   background-image:linear-gradient(rgba(255,255,255,.007) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.007) 1px,transparent 1px);
@@ -231,15 +231,15 @@ body:has(.mtab:hover) #cursor-dot{
 
 <nav id="site-nav">
   <div class="nav-inner">
-    <div class="nav-links">
+        <div class="nav-links">
       <a href="index.html" class="nav-link">宏观脉搏</a>
       <a href="liquid.html" class="nav-link">AI 液冷</a>
-      <a href="semiconductor.html" class="nav-link">半导体</a>
+      <a href="semiconductor.html" class="nav-link">半导体 SBU</a>
       <a href="mscc.html" class="nav-link">质谱·色谱</a>
       <a href="pharma.html" class="nav-link">制药装备</a>
       <a href="food.html" class="nav-link">食品饮料</a>
       <a href="hydrogen.html" class="nav-link">氢能行业</a>
-      <a href="customers.html" class="nav-link active">客户监控</a>
+      <a href="customers.html" class="nav-link" style="color:#FFD700;border-color:#FFD700;background:rgba(255,215,0,.06)">客户监控</a>
     </div>
   </div>
 </nav>

@@ -214,10 +214,10 @@ body{background:linear-gradient(160deg,#040912 0%,#050A18 60%,#040810 100%);colo
 .nav-dot{width:7px;height:7px;border-radius:50%;background:#E30613;box-shadow:0 0 8px #E30613;animation:dotBlink 2.4s ease-in-out infinite}
 .nav-logo{font-family:'Courier New',monospace;font-size:11px;font-weight:700;color:#fff;letter-spacing:.22em}
 .nav-sub{font-family:'Courier New',monospace;font-size:9px;color:rgba(255,255,255,.22);letter-spacing:.15em}
-.nav-links{display:flex;gap:4px;margin-left:auto}
-.nav-link{padding:5px 14px;font-size:11px;font-family:'Courier New',monospace;letter-spacing:.12em;color:rgba(255,255,255,.82);text-decoration:none;border:1px solid transparent;transition:all .2s}
+.nav-links{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
+.nav-link{padding:5px 12px;font-size:11px;font-family:var(--mono);letter-spacing:.08em;color:rgba(255,255,255,.65);text-decoration:none;border:1px solid transparent;transition:all .2s;white-space:nowrap}
 .nav-link:hover{color:#fff;border-color:rgba(255,255,255,.12)}
-.nav-link.active{color:#E30613;border-color:#E30613;background:rgba(227,6,19,.08)}
+
 .status-dot{width:5px;height:5px;border-radius:50%;background:#00FFB2;animation:dotBlink 2.8s ease-in-out infinite;display:inline-block}
 .nav-bar{height:2px;background:linear-gradient(90deg,#E30613,transparent);width:0;transition:width .3s}
 @media(max-width:600px){.nav-sub,.nav-link:last-child+span{display:none}.nav-link{padding:5px 8px;font-size:10px}}
@@ -227,9 +227,9 @@ body{background:linear-gradient(160deg,#040912 0%,#050A18 60%,#040810 100%);colo
 <nav id="site-nav">
   <div class="nav-inner">
     
-    <div class="nav-links">
+        <div class="nav-links">
       <a href="index.html" class="nav-link">宏观脉搏</a>
-      <a href="liquid.html" class="nav-link active">AI 液冷</a>
+      <a href="liquid.html" class="nav-link" style="color:#00C8FF;border-color:#00C8FF;background:rgba(0,200,255,.06)">AI 液冷</a>
       <a href="semiconductor.html" class="nav-link">半导体 SBU</a>
       <a href="mscc.html" class="nav-link">质谱·色谱</a>
       <a href="pharma.html" class="nav-link">制药装备</a>

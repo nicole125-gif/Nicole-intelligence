@@ -24,10 +24,10 @@ body{background:var(--bg);color:var(--text);font-family:var(--display);min-heigh
 .nav-brand{font-family:var(--mono);font-size:12px;font-weight:700;letter-spacing:.25em;color:var(--white);margin-right:16px}
 .nav-brand span{color:var(--red)}
 .nav-divider{width:1px;height:16px;background:var(--border2);margin:0 4px}
-.nav-links{display:flex;gap:4px;margin-left:auto}
-.nav-link{padding:5px 14px;font-size:11px;font-family:var(--mono);letter-spacing:.12em;color:rgba(255,255,255,.82);text-decoration:none;border:1px solid transparent;transition:all .2s}
+.nav-links{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
+.nav-link{padding:5px 12px;font-size:11px;font-family:var(--mono);letter-spacing:.08em;color:rgba(255,255,255,.65);text-decoration:none;border:1px solid transparent;transition:all .2s;white-space:nowrap}
 .nav-link:hover{color:#fff;border-color:rgba(255,255,255,.12)}
-.nav-link.active{color:var(--gold);border-color:var(--gold);background:rgba(255,215,0,.06)}
+
 .nav-progress{position:absolute;bottom:0;left:0;height:1px;background:var(--gold);width:0%;transition:width .1s}
 
 /* ── HERO ────────────────────────────────── */
@@ -217,11 +217,11 @@ body{background:var(--bg);color:var(--text);font-family:var(--display);min-heigh
   <div class="nav-inner">
     
     <div class="nav-divider"></div>
-    <div class="nav-links">
+        <div class="nav-links">
       <a href="index.html" class="nav-link">宏观脉搏</a>
       <a href="liquid.html" class="nav-link">AI 液冷</a>
       <a href="semiconductor.html" class="nav-link">半导体 SBU</a>
-      <a href="mscc.html" class="nav-link active">质谱·色谱</a>
+      <a href="mscc.html" class="nav-link" style="color:#FFD700;border-color:#FFD700;background:rgba(255,215,0,.06)">质谱·色谱</a>
       <a href="pharma.html" class="nav-link">制药装备</a>
       <a href="food.html" class="nav-link">食品饮料</a>
       <a href="hydrogen.html" class="nav-link">氢能行业</a>
