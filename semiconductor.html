@@ -154,7 +154,204 @@
 .proc-step:first-child{border-left:2px solid #22d3ee}
 .proc-step:nth-child(odd){background:rgba(34,211,238,.025)}
 
+/* ── CURSOR ── */
+#cursor-glow{position:fixed;pointer-events:none;z-index:99999;width:320px;height:320px;border-radius:50%;transform:translate(-50%,-50%);background:radial-gradient(circle,rgba(34,211,238,.07) 0%,rgba(0,200,255,.04) 30%,transparent 70%);transition:opacity .3s ease;mix-blend-mode:screen}
+#cursor-dot{position:fixed;pointer-events:none;z-index:100000;width:24px;height:24px;border-radius:50%;background:transparent;border:1.5px solid rgba(34,211,238,.8);transform:translate(-50%,-50%);box-shadow:0 0 8px rgba(34,211,238,.4),inset 0 0 6px rgba(34,211,238,.2);transition:width .2s ease,height .2s ease,border-color .2s,box-shadow .2s}
+body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([onclick]:hover) #cursor-dot{width:36px;height:36px;border-color:rgba(255,215,0,.9);box-shadow:0 0 16px rgba(255,215,0,.4),inset 0 0 10px rgba(255,215,0,.08)}
 
+.nav-links{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
+.nav-link{padding:5px 12px;font-size:11px;font-family:'IBM Plex Mono',monospace;letter-spacing:.08em;color:rgba(255,255,255,.65);text-decoration:none;border:1px solid transparent;transition:all .2s;white-space:nowrap}
+.nav-link:hover{color:#fff;border-color:rgba(255,255,255,.12);background:rgba(255,255,255,.04)}
+.nav-link.active{color:#22d3ee;border-color:#22d3ee;background:rgba(34,211,238,.08)}
+</style>
+</head>
+<body style="padding-top:52px;background:linear-gradient(168deg,#020617 0%,#030c22 55%,#020a1a 100%);min-height:100vh" style="background:linear-gradient(168deg,#020617 0%,#030c22 55%,#020a1a 100%);min-height:100vh;font-family:'Helvetica Neue',Arial,sans-serif">
+<div id="cursor-glow"></div>
+<div id="cursor-dot"></div>
+
+<nav id="site-nav" style="position:fixed;top:0;left:0;right:0;z-index:10000;background:rgba(2,5,18,.88);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border-bottom:1px solid rgba(255,255,255,.06)">
+  <div style="max-width:1280px;margin:0 auto;display:flex;align-items:center;gap:16px;padding:0 clamp(16px,4vw,40px);height:52px">
+    <div style="display:flex;align-items:center;gap:8px;flex-shrink:0">
+      <span style="width:7px;height:7px;border-radius:50%;background:#22d3ee;box-shadow:0 0 8px #22d3ee;animation:sc-blink 2.4s ease-in-out infinite;display:inline-block"></span>
+      <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:700;color:#fff;letter-spacing:.22em"></span>
+      <span style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:rgba(255,255,255,.22);letter-spacing:.15em"></span>
+    </div>
+    <div style="display:flex;gap:4px;margin-left:auto">
+      <a href="index.html" class="nav-link">宏观脉搏</a>
+      <a href="liquid.html" class="nav-link">AI 液冷</a>
+      <a href="semiconductor.html" class="nav-link active">半导体 SBU</a>
+      <a href="mscc.html" class="nav-link">质谱·色谱</a>
+      <a href="pharma.html" class="nav-link">制药装备</a>
+      <a href="food.html" class="nav-link">食品饮料</a>
+      <a href="hydrogen.html" class="nav-link">氢能行业</a>
+      <a href="customers.html" class="nav-link">客户监控</a>
+    </div>
+    <div style="display:flex;align-items:center;gap:6px;flex-shrink:0">
+      <span style="width:5px;height:5px;border-radius:50%;background:#00FFB2;animation:sc-blink 2.8s ease-in-out infinite;display:inline-block"></span>
+      <span style="font-family:'IBM Plex Mono',monospace;font-size:8px;color:rgba(255,255,255,.22);letter-spacing:.2em">LIVE 2026</span>
+    </div>
+  </div>
+  <div id="sc-nav-bar" style="height:2px;background:linear-gradient(90deg,#22d3ee,transparent);width:0;transition:width .3s"></div>
+</nav>
+<script>
+window.addEventListener('scroll',()=>{
+  const pct=window.scrollY/(document.documentElement.scrollHeight-window.innerHeight)*100;
+  document.getElementById('sc-nav-bar').style.width=pct+'%';
+});
+</script>
+
+<section id="root" style="padding:clamp(56px,8vw,88px) clamp(16px,5vw,48px);position:relative;overflow:visible;z-index:1">
+
+  <!-- BG: laser grid -->
+  <div style="position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(rgba(34,211,238,.042) 1px,transparent 1px),linear-gradient(90deg,rgba(34,211,238,.042) 1px,transparent 1px);background-size:100px 100px"></div>
+
+  <!-- Cyan ambient glow -->
+  <div class="sca-glowPulse" style="position:absolute;top:-80px;left:38%;width:clamp(280px,48vw,560px);height:clamp(280px,48vw,560px);background:#22d3ee;border-radius:50%;filter:blur(145px);opacity:.045;pointer-events:none"></div>
+
+  <!-- Vertical scanline -->
+  <div class="sca-scanV" style="position:absolute;top:0;left:22%;width:1px;background:linear-gradient(180deg,transparent,rgba(34,211,238,.14),transparent);pointer-events:none;height:100%"></div>
+
+  <!-- Horizontal scanline -->
+  <div class="sca-scanH" style="position:absolute;left:0;top:38%;height:1px;background:linear-gradient(90deg,transparent,rgba(34,211,238,.1),transparent);pointer-events:none;width:100%"></div>
+
+  <!-- Decorative wafer top-right -->
+  <div style="position:absolute;top:-60px;right:-80px;opacity:.07;pointer-events:none">
+    <svg id="wafer-bg" width="340" height="340" viewBox="0 0 340 340" style="overflow:visible">
+      <defs>
+        <radialGradient id="wg" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#22d3ee" stop-opacity=".14"/>
+          <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+    </svg>
+  </div>
+
+  <!-- Content -->
+  <div style="max-width:1280px;margin:0 auto;position:relative;z-index:1">
+
+    <!-- ═══ HEADER ═══ -->
+    <header class="sca-fadeUp" style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:clamp(20px,4vw,40px);margin-bottom:clamp(36px,6vw,64px)">
+      <div style="max-width:640px">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px">
+          <span class="sca-blink" style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#22d3ee;box-shadow:0 0 10px #22d3ee;flex-shrink:0"></span>
+          <span class="f-label f-mono" style="color:rgba(34,211,238,.5);letter-spacing:.3em;text-transform:uppercase">SBU · Advanced Process · Semiconductor</span>
+        </div>
+        <h1 class="f-hero" style="margin:0 0 10px">
+          SEMI&shy;CONDUCTOR
+          <span class="f-mono" style="display:block;font-size:.3em;font-weight:400;color:#22d3ee;letter-spacing:.15em;margin-top:8px">// 先进制程 · 超高纯气路控制</span>
+        </h1>
+        <p class="f-body" style="color:rgba(255,255,255,.65);line-height:1.78;margin:0;max-width:520px">
+          在 2026 年国产 7nm/5nm 产线爬坡的关键窗口期，<span style="color:#22d3ee;font-weight:600">原子级精度</span>的流体控制，为刻蚀、薄膜沉积与超纯介质输送工艺提供绝对的良率保障。
+        </p>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:10px;align-items:flex-end">
+        <div class="f-mono f-label" style="display:inline-flex;align-items:center;gap:8px;padding:8px 16px;background:rgba(34,211,238,.07);border:1px solid rgba(34,211,238,.25);backdrop-filter:blur(8px);color:#22d3ee;letter-spacing:.2em;text-transform:uppercase">
+          <span class="sca-dotPulse" style="display:inline-block;width:6px;height:6px;border-radius:50%;background:#22d3ee;flex-shrink:0"></span>
+          2026 战略地位：核心护城河
+        </div>
+        <!-- Metrics strip -->
+        <div id="metrics-strip" style="display:flex;gap:2px"></div>
+      </div>
+    </header>
+
+    <!-- ═══ MAIN GRID ═══ -->
+    <div class="main-grid">
+
+      <!-- ── LEFT: Spec Wall + Risk ── -->
+      <div style="display:flex;flex-direction:column;gap:clamp(10px,2vw,16px)">
+
+        <div class="sec-label">
+          <span class="f-label f-mono" style="color:rgba(34,211,238,.42);letter-spacing:.25em;text-transform:uppercase">01 · 核心技术规格</span>
+          <div class="line"></div>
+        </div>
+
+        <div id="spec-wall" style="display:flex;flex-direction:column;gap:clamp(7px,1.5vw,10px)"></div>
+
+        <!-- Risk Matrix -->
+        <div style="margin-top:4px">
+          <div class="sec-label red" style="margin-bottom:12px">
+            <span class="f-label f-mono" style="color:rgba(239,68,68,.45);letter-spacing:.25em;text-transform:uppercase">04 · 风险矩阵</span>
+            <div class="line"></div>
+          </div>
+          <div id="risk-wall" style="display:flex;flex-direction:column;gap:5px"></div>
+        </div>
+      </div>
+
+      <!-- ── RIGHT: Actions + Product + Process ── -->
+      <div style="display:flex;flex-direction:column;gap:clamp(12px,2vw,18px)">
+
+        <!-- Strategic Actions -->
+        <div class="sc-glass sc-corner-tl sc-corner-tr sc-corner-bl sc-corner-br" style="padding:clamp(18px,3vw,28px)">
+          <div style="display:flex;align-items:center;gap:12px;margin-bottom:clamp(16px,3vw,24px);position:relative;z-index:1">
+            <div style="width:2px;height:clamp(28px,4vw,36px);background:linear-gradient(180deg,#22d3ee,rgba(34,211,238,.08));flex-shrink:0"></div>
+            <div>
+              <h2 class="f-h3" style="margin-bottom:2px">2026 战略行动路线</h2>
+              <p class="f-label f-mono" style="color:rgba(34,211,238,.35);letter-spacing:.18em;margin:0;text-transform:uppercase">02 · Strategic Actions &amp; Execution Timing</p>
+            </div>
+          </div>
+          <div id="action-list" style="display:flex;flex-direction:column;gap:7px;position:relative;z-index:1"></div>
+        </div>
+
+        <!-- Product Matrix -->
+        <div class="sc-glass" style="padding:clamp(16px,3vw,22px)">
+          <div class="sec-label" style="margin-bottom:14px;position:relative;z-index:1">
+            <span class="f-label f-mono" style="color:rgba(34,211,238,.42);letter-spacing:.22em;text-transform:uppercase">03 · 产品适配矩阵</span>
+            <div class="line"></div>
+          </div>
+          <!-- Table header -->
+          <div style="display:grid;grid-template-columns:100px 1fr 1fr 56px;gap:8px;padding:5px 0 8px;border-bottom:1px solid rgba(34,211,238,.08);margin-bottom:4px;position:relative;z-index:1">
+            <span class="f-label f-mono" style="color:rgba(34,211,238,.38);letter-spacing:.15em;text-transform:uppercase">产品型号</span>
+            <span class="f-label f-mono" style="color:rgba(34,211,238,.38);letter-spacing:.15em;text-transform:uppercase">阀门功能</span>
+            <span class="f-label f-mono" style="color:rgba(34,211,238,.38);letter-spacing:.15em;text-transform:uppercase">适用工艺</span>
+            <span class="f-label f-mono" style="color:rgba(34,211,238,.38);letter-spacing:.15em;text-transform:uppercase">匹配度</span>
+          </div>
+          <div id="product-table" style="position:relative;z-index:1"></div>
+          <!-- <div style="margin-top:12px;padding:11px 13px;background:rgba(34,211,238,.045);border:1px solid rgba(34,211,238,.14);border-left:2px solid #22d3ee;position:relative;z-index:1">
+            <span class="f-label f-mono" style="color:#22d3ee;letter-spacing:.15em;display:block;margin-bottom:5px"></span>
+            <p class="f-body" style="color:rgba(255,255,255,.82);line-height:1.65;margin:0">高洁净度隔膜阀 · 质量流量控制器 · 腐蚀介质电磁阀 · 超纯水回路精密阀组 —— EP 全电解抛光内壁全系列，覆盖 14nm 以下先进节点全工艺流程。</p>
+          </div>
+        </div>
+
+        <!-- Process Flow -->
+        <div class="sc-glass" style="overflow:hidden">
+          <div style="padding:clamp(14px,2.5vw,20px) clamp(16px,3vw,22px);border-bottom:1px solid rgba(34,211,238,.07);position:relative;z-index:1">
+            <div class="sec-label">
+              <span class="f-label f-mono" style="color:rgba(34,211,238,.42);letter-spacing:.22em;text-transform:uppercase">05 </span>
+              <div class="line"></div>
+              <!-- Mini wafer -->
+              <div style="opacity:.4;flex-shrink:0">
+                <svg width="48" height="48" viewBox="0 0 48 48" style="overflow:visible">
+                  <defs><radialGradient id="wg2" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#22d3ee" stop-opacity=".14"/><stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/></radialGradient></defs>
+                  <circle cx="24" cy="24" r="21" fill="url(#wg2)"/>
+                  <circle cx="24" cy="24" r="21" fill="none" stroke="rgba(34,211,238,.14)" stroke-width="1"/>
+                  <circle cx="24" cy="24" r="16" fill="none" stroke="rgba(34,211,238,.09)" stroke-width="1" stroke-dasharray="4 6"/>
+                  <circle cx="24" cy="24" r="10" fill="none" stroke="rgba(34,211,238,.07)" stroke-width="1"/>
+                  <circle cx="24" cy="24" r="5" fill="none" stroke="rgba(34,211,238,.18)" stroke-width="1.5"/>
+                  <line x1="14" y1="24" x2="34" y2="24" stroke="rgba(34,211,238,.7)" stroke-width="1"/>
+                  <line x1="24" y1="14" x2="24" y2="34" stroke="rgba(34,211,238,.7)" stroke-width="1"/>
+                  <circle cx="24" cy="24" r="2.5" fill="#22d3ee" filter="drop-shadow(0 0 5px #22d3ee)"/>
+                  <g class="sca-rotate" style="transform-origin:24px 24px"><circle cx="24" cy="24" r="23" fill="none" stroke="rgba(34,211,238,.2)" stroke-width="1" stroke-dasharray="8 10"/></g>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div id="process-flow" style="display:flex;flex-wrap:wrap"></div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer style="margin-top:clamp(28px,5vw,48px);padding-top:16px;border-top:1px solid rgba(34,211,238,.07);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
+      <span class="f-label f-mono" style="color:rgba(255,255,255,.18);letter-spacing:.15em">'S STRATEGIC ANALYSIS 2026</span>
+      <span class="f-label f-mono" style="color:rgba(34,211,238,.3);letter-spacing:.12em">DATA SOURCE: SEMI · NBS · DELOITTE · MCKINSEY</span>
+    </footer>
+
+  </div><!-- /content -->
+</section>
+
+<script>
 /* ══════════════════════════════════════════════════════════
    DATA
 ══════════════════════════════════════════════════════════ */
@@ -493,10 +690,6 @@ document.addEventListener("DOMContentLoaded", () => {
 .ti.on span:first-child{color:#22d3ee}
 .ti.on span:last-child{color:#fff}
 @media(max-width:768px){#toc-btn,#toc-panel{display:none!important}}
-/* ── CURSOR ── */
-#cursor-glow{position:fixed;pointer-events:none;z-index:99999;width:320px;height:320px;border-radius:50%;transform:translate(-50%,-50%);background:radial-gradient(circle,rgba(34,211,238,.07) 0%,rgba(0,200,255,.04) 30%,transparent 70%);transition:opacity .3s ease;mix-blend-mode:screen}
-#cursor-dot{position:fixed;pointer-events:none;z-index:100000;width:24px;height:24px;border-radius:50%;background:transparent;border:1.5px solid rgba(34,211,238,.8);transform:translate(-50%,-50%);box-shadow:0 0 8px rgba(34,211,238,.4),inset 0 0 6px rgba(34,211,238,.2);transition:width .2s ease,height .2s ease,border-color .2s,box-shadow .2s}
-body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([onclick]:hover) #cursor-dot,body:has(.hm-row:hover) #cursor-dot,body:has(.co-card:hover) #cursor-dot{width:36px;height:36px;border-color:rgba(255,215,0,.9);box-shadow:0 0 16px rgba(255,215,0,.4),inset 0 0 10px rgba(255,215,0,.08)}
 </style>
 <button id="toc-btn" onclick="tocToggle()" title="目录">☰</button>
 <div id="toc-panel">
