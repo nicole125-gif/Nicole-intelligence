@@ -260,142 +260,33 @@ body{background:#020810;color:#fff;font-family:'Helvetica Neue',Arial,sans-serif
 .sbu-detail.active-sbu{border-color:var(--sc)40;background:linear-gradient(135deg,var(--sc)06 0%,rgba(6,12,28,.98) 100%)}
 .sbu-detail-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0}
 @media(max-width:700px){.sbu-detail-grid{grid-template-columns:1fr}}
-</style>
-</head>
-<body>
-<!-- NAV -->
-<nav id="site-nav">
-  <div class="nav-inner">
-    
-        <div class="nav-links">
-      <a href="index.html" class="nav-link" style="color:#00FFB2;border-color:#00FFB2;background:rgba(0,255,178,.06)">宏观脉搏</a>
-      <a href="liquid.html" class="nav-link">AI 液冷</a>
-      <a href="semiconductor.html" class="nav-link">半导体 SBU</a>
-      <a href="mscc.html" class="nav-link">质谱·色谱</a>
-      <a href="pharma.html" class="nav-link">制药装备</a>
-      <a href="food.html" class="nav-link">食品饮料</a>
-      <a href="hydrogen.html" class="nav-link">氢能行业</a>
-      <a href="customers.html" class="nav-link">客户监控</a>
-    </div>
-    <div class="nav-status"><span class="status-dot"></span><span class="status-txt">LIVE 2026</span></div>
-  </div>
-  <div class="nav-bar" id="nav-bar"></div>
-</nav>
 
-<!-- BG -->
-<div style="position:fixed;inset:0;z-index:0;pointer-events:none;background-image:linear-gradient(rgba(255,255,255,.012) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.012) 1px,transparent 1px);background-size:60px 60px"></div>
-<div style="position:fixed;top:-25%;left:40%;transform:translateX(-50%);width:90vw;height:700px;background:radial-gradient(ellipse,rgba(0,180,255,.035) 0%,transparent 65%);pointer-events:none;z-index:0"></div>
-<div style="position:fixed;bottom:-10%;right:10%;width:40vw;height:500px;background:radial-gradient(ellipse,rgba(227,6,19,.025) 0%,transparent 70%);pointer-events:none;z-index:0"></div>
-
-<div class="main-wrap">
-  <!-- HEADER -->
-  <header style="margin-bottom:48px">
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:30px;padding-bottom:16px;border-bottom:1px solid rgba(255,255,255,.06)">
-      <div style="display:flex;align-items:center;gap:10px">
-        <div style="width:6px;height:6px;border-radius:50%;background:#00FFB2;box-shadow:0 0 12px #00FFB2;animation:dotBlink 2.4s ease-in-out infinite"></div>
-        <span style="font-family:'Courier New',monospace;font-size:10px;color:rgba(255,255,255,.65);letter-spacing:.25em">SYSTEM ACTIVE — CLICK ANY CARD FOR DEEP ANALYSIS</span>
-      </div>
-      <span style="font-family:'Courier New',monospace;font-size:10px;color:rgba(255,255,255,.65);letter-spacing:.15em">十五五规划开局年 / FY-2026</span>
-    </div>
-    <div style="display:flex;align-items:flex-start;gap:22px">
-      <div style="width:3px;height:68px;flex-shrink:0;background:linear-gradient(180deg,#E30613,rgba(227,6,19,.15))"></div>
-      <div>
-        <h1 style="font-size:clamp(26px,4vw,42px);font-weight:800;color:#fff;margin:0 0 8px;letter-spacing:-.02em;line-height:1.1">
-          中国宏观脉搏 <span style="color:rgba(255,255,255,.65);font-weight:200;margin-left:14px;font-size:.58em;letter-spacing:.1em">THE PULSE 2026</span>
-        </h1>
-        <p style="color:rgba(255,255,255,.82);font-size:13px;margin:0 0 3px;letter-spacing:.04em">基于"十五五"规划开局之年的精密流体市场环境分析 · 点击指标卡片查看深度解读</p>
-        <p style="color:rgba(255,255,255,.65);font-size:10.5px;margin:0;font-family:'Courier New',monospace;letter-spacing:.08em">Trend analysis · Downstream impact · Strategic actions · Data provenance</p>
-      </div>
-    </div>
-  </header>
-
-  <!-- METRICS GRID -->
-  <div class="metrics-grid" id="metrics-grid"></div>
-
-  <!-- SUMMARY STRIP -->
-  <div style="margin-top:24px;position:relative;overflow:hidden">
-    <div style="height:1px;background:linear-gradient(90deg,rgba(227,6,19,.5),rgba(255,255,255,.08) 30%,rgba(227,6,19,.3) 70%,transparent);background-size:300% 100%;animation:borderFlow 5s ease infinite"></div>
-    <div style="padding:18px 24px;background:rgba(5,9,22,.82);backdrop-filter:blur(18px) saturate(150%);display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;border-bottom:1px solid rgba(255,255,255,.04)">
-      <div style="display:flex;gap:30px;flex-wrap:wrap" id="summary-stats"></div>
-      <button onclick="openProvenance([])" style="display:flex;align-items:center;gap:10px;background:rgba(227,6,19,.06);border:1px solid rgba(227,6,19,.3);padding:10px 18px;cursor:pointer;font-family:'Courier New',monospace;transition:all .25s" onmouseenter="this.style.background='rgba(227,6,19,.14)'" onmouseleave="this.style.background='rgba(227,6,19,.06)'">
-        <span style="width:7px;height:7px;border-radius:50%;background:#E30613;box-shadow:0 0 8px #E30613;animation:dotBlink 2.4s ease-in-out infinite;display:inline-block"></span>
-        <div style="text-align:left">
-          <div style="font-size:10px;color:rgba(255,255,255,.82);letter-spacing:.15em">数据溯源中心</div>
-          <div style="font-size:8px;color:rgba(255,255,255,.65);letter-spacing:.1em;margin-top:1px">DATA PROVENANCE HUB · 8 SOURCES</div>
-        </div>
-        <span style="color:rgba(227,6,19,.7);font-size:14px;margin-left:4px">→</span>
-      </button>
-    </div>
-  </div>
-
-  <!-- SBU NAVIGATOR -->
-  <div style="margin-top:48px">
-    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:20px">
-      <div style="display:flex;align-items:center;gap:16px">
-        <div style="width:3px;height:44px;background:linear-gradient(180deg,#FF6B35,rgba(255,107,53,.15))"></div>
-        <div>
-          <h2 style="margin:0 0 3px;font-size:20px;font-weight:800;color:#fff;letter-spacing:-.01em">Strategic Business Units <span style="color:rgba(255,255,255,.65);font-weight:200;margin-left:12px;font-size:.55em;letter-spacing:.1em">SBU NAVIGATOR</span></h2>
-          <p style="margin:0;font-family:'Courier New',monospace;font-size:9px;color:rgba(255,255,255,.65);letter-spacing:.18em">点击卡片跳转至行业深度分析 · CLICK TO EXPLORE INDUSTRY ANALYSIS</p>
-        </div>
-      </div>
-      <div style="display:flex;gap:6px">
-        <button onclick="scrollSBU(-1)" style="width:30px;height:30px;background:rgba(255,107,53,.08);border:1px solid rgba(255,107,53,.3);color:#FF6B35;cursor:pointer;font-family:'Courier New',monospace;font-size:13px;display:flex;align-items:center;justify-content:center">←</button>
-        <button onclick="scrollSBU(1)"  style="width:30px;height:30px;background:rgba(255,107,53,.08);border:1px solid rgba(255,107,53,.3);color:#FF6B35;cursor:pointer;font-family:'Courier New',monospace;font-size:13px;display:flex;align-items:center;justify-content:center">→</button>
-      </div>
-    </div>
-    <div style="position:relative"><div class="sbu-scroll" id="sbu-scroll"></div><div style="position:absolute;top:0;right:0;bottom:12px;width:60px;background:linear-gradient(270deg,#030810,transparent);pointer-events:none"></div></div>
-  </div>
-
-  <!-- SBU DETAIL -->
-  <div style="margin-top:56px">
-    <div style="display:flex;align-items:center;gap:16px;margin-bottom:32px">
-      <div style="width:3px;height:44px;background:linear-gradient(180deg,#BF80FF,rgba(191,128,255,.15))"></div>
-      <div>
-        <h2 style="margin:0 0 3px;font-size:20px;font-weight:800;color:#fff;letter-spacing:-.01em">行业深度分析 <span style="color:rgba(255,255,255,.65);font-weight:200;margin-left:12px;font-size:.55em;letter-spacing:.1em">INDUSTRY DEEP ANALYSIS</span></h2>
-        <p style="margin:0;font-family:'Courier New',monospace;font-size:9px;color:rgba(255,255,255,.65);letter-spacing:.18em"></p>
-      </div>
-    </div>
-    <div id="sbu-details"></div>
-  </div>
-</div>
-
-<!-- DEEP DIVE PANEL -->
-<div class="panel-overlay" id="dd-overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel-slide" id="dd-panel"></div>
-</div>
-
-<!-- PROVENANCE PANEL -->
-<div class="panel-overlay" id="prov-overlay" onclick="if(event.target===this)closeProv()">
-  <div class="panel-slide" id="prov-panel"></div>
-</div>
-
-<script>
-/* ── DATA ─────────────────────────────────────────── */
-const AUTHORITIES = {
-  CICC:{id:"CICC",shortName:"中金公司",fullName:"中国国际金融股份有限公司",report:"《2026 年中国宏观展望》",date:"2025-12",color:"#FFD700",type:"投行研究",desc:"中国顶级投资银行，覆盖宏观策略、行业深度与资本市场研究。"},
-  DELOITTE:{id:"DELOITTE",shortName:"德勤",fullName:"Deloitte China",report:"《2026 中国制造业数字化转型白皮书》",date:"2025-11",color:"#00C8FF",type:"咨询研究",desc:"全球四大会计师事务所之一，中国制造业数字化转型权威研究来源。"},
-  MCKINSEY:{id:"MCKINSEY",shortName:"麦肯锡",fullName:"McKinsey & Company",report:"《China Industrial Productivity 2026》",date:"2026-01",color:"#00FFB2",type:"战略咨询",desc:"全球顶级战略咨询机构，聚焦工业生产力、供应链与新兴市场分析。"},
-  NBS:{id:"NBS",shortName:"国家统计局",fullName:"中华人民共和国国家统计局",report:"《2025 年国民经济和社会发展统计公报》",date:"2026-02",color:"#E30613",type:"政府统计",desc:"中国官方宏观经济数据权威发布机构，覆盖 GDP、工业产值、PPI 等核心指标。"},
-  MOFCOM:{id:"MOFCOM",shortName:"商务部",fullName:"中华人民共和国商务部",report:"《2025 年对外贸易形势报告》",date:"2026-01",color:"#FF6B35",type:"政府统计",desc:"中国对外贸易数据权威来源，提供出口结构、商品分类及贸易趋势分析。"},
-  CAITEC:{id:"CAITEC",shortName:"商务部研究院",fullName:"中国国际贸易经济合作研究院",report:"《全球供应链重构与中国出口竞争力报告 2026》",date:"2025-12",color:"#BF80FF",type:"政策研究",desc:"商务部直属研究机构，专注国际贸易政策、出口竞争力与全球供应链分析。"},
-  GOLDMAN:{id:"GOLDMAN",shortName:"高盛",fullName:"Goldman Sachs Research",report:"《China 2026 Macro Outlook》",date:"2025-12",color:"#00FFB2",type:"投行研究",desc:"全球顶级投行，提供中国宏观前瞻预测与跨资产配置策略研究。"},
-  CDIRF:{id:"CDIRF",shortName:"中国发展研究基金会",fullName:"China Development Research Foundation",report:"《新质生产力发展蓝皮书 2026》",date:"2026-01",color:"#FFD700",type:"政策研究",desc:"国务院发展研究中心主管，聚焦中国经济转型、产业政策与可持续发展研究。"},
-};
-
-const METRICS = [
-  {label:"GDP 增速",labelEn:"GDP GROWTH",value:5.0,unit:"%",trend:"+0.2%",insight:"结构性增长优于规模扩张",color:"#00FFB2",sparkData:[4.6,4.8,5.0],years:["2024","2025","2026E"],dataSource:{primary:["NBS","CICC"],supporting:["GOLDMAN","CDIRF"],note:"GDP 目标值 5.0% 来源于国家统计局公报及中金宏观研究团队预测，高盛与中国发展研究基金会提供交叉验证。"},deepDive:{chartLabel:"年度 GDP 增速 (%)",downstream:[{sector:"半导体制造",icon:"◈",logic:"GDP 温和扩张支撑晶圆厂扩产资本开支，12英寸产线投资增速维持 18-22%，带动精密流体阀组采购量同步上升。"},{sector:"数据中心液冷",icon:"◉",logic:"经济质量优先导向推动 AI 算力基础设施快速落地，液冷系统渗透率从 12% 跃升至 28%，冷却水路流量调节阀需求打开增量空间。"},{sector:"生命科学",icon:"◎",logic:"GDP 增长释放医疗基础设施投入，生物制药固投同比 +16%，无菌流体系统与纯化控制阀采购周期缩短至 Q2。"}],actions:[{tag:"Q1",text:"完成重点晶圆客户年框合同续签，锁定 Q2–Q3 备货需求"},{tag:"Q2",text:"联动液冷集成商预演 2026 扩容节点，提前部署冷却阀组样品"},{tag:"H2",text:"布局生物医药园区本地化服务站，缩短响应链路至 48H"}]}},
-  {label:"工业增加值",labelEn:"IND. VALUE ADD",value:6.2,unit:"%",trend:"↑ Upward",insight:"新质生产力贡献率超 35%",color:"#00C8FF",sparkData:[5.1,5.7,6.2],years:["2024","2025","2026E"],dataSource:{primary:["NBS","DELOITTE"],supporting:["CDIRF","MCKINSEY"],note:"工业增加值数据来源于国家统计局月度数据，德勤白皮书提供数字化转型对工业产值贡献的量化分析。"},deepDive:{chartLabel:"工业增加值增速 (%)",downstream:[{sector:"先进封装产线",icon:"◈",logic:"工业产出质量跃升驱动 CoWoS、HBM 封装产能扩张，超纯水与特气输送精度要求提升，推动高洁净度隔膜阀替换传统球阀。"},{sector:"新能源热管理",icon:"◉",logic:"工业增加值中新能源占比超 22%，动力电池热管理系统对温控精度要求达 ±0.5℃，比例阀组获得结构性进入机会。"},{sector:"工业机器人",icon:"◎",logic:"工业自动化密度提升加速末端流体控制场景渗透，协作机器人配套气动精控需求规模 CAGR 预估 31%。"}],actions:[{tag:"立即",text:"梳理先进封装 TOP 15 客户，建立超纯水阀组专项产品组合"},{tag:"Q2",text:"与动力电池热管理集成商联合定义比例控制阀技术规格书"},{tag:"Q3",text:"在长三角/珠三角工业园区推进流体诊断服务包订阅模式试点"}]}},
-  {label:"制造业固投",labelEn:"MFG. CAPEX",value:11.4,unit:"%",trend:"Stable",insight:"数字化转型进入产线深水区",color:"#FFD700",sparkData:[9.2,10.8,11.4],years:["2024","2025","2026E"],dataSource:{primary:["NBS","MCKINSEY"],supporting:["DELOITTE","CICC"],note:"制造业固定资产投资数据引自国家统计局固投月报，麦肯锡报告提供行业拆解与趋势预测。"},deepDive:{chartLabel:"制造业固定资产投资增速 (%)",downstream:[{sector:"智能工厂产线",icon:"◈",logic:"固投高位运行意味着新建产线密集落地，每条 12 英寸晶圆线需配套约 3,200 个精密流体控制节点，批量采购窗口集中于投产前 6-9 个月。"},{sector:"液冷基础设施",icon:"◉",logic:"数据中心固投中液冷改造占比从 8% 升至 17%，单个超大规模节点阀组采购额突破 800 万元，需要定制化集成方案支持。"},{sector:"化工精细化",icon:"◎",logic:"制造业固投向高附加值化工延伸，危险介质流体控制（电磁阀+传感器+控制器三位一体）替换传统仪表需求持续释放。"}],actions:[{tag:"战略",text:"建立制造业固投项目预警数据库，锁定 6 个月前采购决策窗口"},{tag:"产品",text:"推出智能工厂流体控制套件（含 IO-Link 数字接口），匹配数字化产线需求"},{tag:"渠道",text:"与系统集成商签署优先供应协议，覆盖华东/华南重点工业园区"}]}},
-  {label:"出口增速",labelEn:"EXPORT GROWTH",value:4.8,unit:"%",trend:"Shift",insight:"高附加值组件替代传统代工",color:"#FF6B35",sparkData:[5.9,4.2,4.8],years:["2024","2025","2026E"],dataSource:{primary:["MOFCOM","CAITEC"],supporting:["GOLDMAN","CICC"],note:"出口增速数据来源于商务部月度贸易统计，商务部研究院提供出口结构升级与高附加值转型的专项分析报告。"},deepDive:{chartLabel:"出口增速 (%)",downstream:[{sector:"半导体设备出海",icon:"◈",logic:"出口结构升级推动半导体设备国产化替代加速，配套流体系统须满足国际洁净度标准（ISO Class 1），欧洲品质背书成为关键差异点。"},{sector:"储能系统出口",icon:"◉",logic:"储能系统出口量 YoY +67%，液冷 BESS 对热管理流体精控要求严苛，"},{sector:"医疗设备全球化",icon:"◎",logic:"高端医疗设备出口 CAGR 19%，CE/FDA 认证流体系统需求迫切，全球合规认证体系直接赋能客户出口资质。"}],actions:[{tag:"品牌",text:"联合半导体设备商打造「洁净流体合规出口」联合解决方案白皮书"},{tag:"服务",text:"在东南亚/中东布局本地化备件库，支持随主机出海的售后服务"},{tag:"认证",text:"加速推进 SEMI F57/F19 认证体系，提升客户出口竞争力背书"}]}},
-  {label:"PPI 走势",labelEn:"PPI TREND",value:1.2,unit:"%",trend:"Recovery",insight:"中下游利润空间重构",color:"#BF80FF",sparkData:[-2.7,-0.8,1.2],years:["2024","2025","2026E"],dataSource:{primary:["NBS","CICC"],supporting:["MCKINSEY","DELOITTE"],note:"PPI 数据来源于国家统计局价格统计司，中金宏观团队提供 PPI 回升路径预测与中下游传导分析。"},deepDive:{chartLabel:"PPI 同比 (%)",downstream:[{sector:"半导体材料成本",icon:"◈",logic:"PPI 回正压缩晶圆厂原材料采购议价空间，倒逼向精密控制降本增效转移，高精度流体控制可节省 UPW 耗损 12-18%。"},{sector:"液冷系统经济性",icon:"◉",logic:"PPI 上行使液冷介质成本上涨 8-12%，精密流量控制的节液效益凸显，采购方更愿为可量化节本的高端阀组支付溢价。"},{sector:"工业客户预算重构",icon:"◎",logic:"中下游制造商利润修复推动设备升级预算释放，2026 年工业自动化采购意愿指数较 2024 年底回升 23 个百分点。"}],actions:[{tag:"定价",text:"基于 PPI 回升重新校准产品定价策略，推出 ROI 可视化计算工具辅助客户决策"},{tag:"价值",text:"将「降耗增效」纳入核心销售话术，量化流体控制精度带来的原材料节省数据"},{tag:"时机",text:"把握利润修复窗口，推进存量客户设备升级与服务合同升级谈判"}]}},
-];
-
-const SBU_LIST = [
-  {id:"semiconductor",label:"半导体与电子",labelEn:"SEMICONDUCTOR & ELECTRONICS",prosperityIndex:9.2,trend:"+1.4 YoY",color:"#00C8FF",tagline:"AI 驱动产能扩张，精密流体需求激增",icon:"SEMI",keyMetrics:[{k:"晶圆厂固投增速",v:"+21%"},{k:"液体管控节点/线",v:"3,200+"},{k:"超纯水用量 CAGR",v:"18%"}],overview:"2026 年中国半导体产业进入扩产深水期，CoWoS 先进封装与国产 12 英寸晶圆线密集落地。每条生产线对腐蚀性介质、超纯水、特种气体的精密流体管控需求超过 3,200 个节点，形成对 ",burkertAngle:"高洁净度隔膜阀 · 质量流量控制器 · 腐蚀介质电磁阀",opportunities:[{label:"CoWoS 封装产线配套",urgency:"HIGH",timing:"Q1–Q2"},{label:"国产 12\" 晶圆厂首批采购窗口",urgency:"HIGH",timing:"Q2"},{label:"超纯水回路精密流量替换",urgency:"MED",timing:"Q3"}],risks:["美国出口管制扩大范围","设备交期延误传导至配套采购"]},
-  {id:"datacenter",label:"数据中心液冷",labelEn:"DATA CENTER LIQUID COOLING",prosperityIndex:9.7,trend:"+2.1 YoY",color:"#00FFB2",tagline:"液冷渗透率三年翻三倍，阀组需求爆发式增长",icon:"DC",keyMetrics:[{k:"液冷渗透率",v:"12%→28%"},{k:"单节点阀组采购额",v:"800 万+"},{k:"市场规模 CAGR",v:"47%"}],overview:"AI 大模型训练集群功率密度突破 100kW/机柜，风冷散热已达物理极限。2026 年数据中心液冷改造及新建项目密集落地，冷却水路的精密流量调节、温控精度（±0.3℃）和泄漏检测成为核心痛点，直接映射 ",burkertAngle:"冷却水路比例调节阀 · 温控传感集成 · 泄漏检测系统",opportunities:[{label:"超大规模 AI 训练集群配套",urgency:"HIGH",timing:"Q1"},{label:"存量数据中心液冷改造",urgency:"HIGH",timing:"Q2–Q3"},{label:"边缘计算节点热管理",urgency:"MED",timing:"H2"}],risks:["液冷集成商标准碎片化","铜价上涨压缩配件预算"]},
-  {id:"lifescience",label:"生命科学",labelEn:"LIFE SCIENCE & BIOPHARMA",prosperityIndex:8.1,trend:"+0.9 YoY",color:"#BF80FF",tagline:"国产替代与 GMP 升级双轮驱动无菌流体需求",icon:"BIO",keyMetrics:[{k:"生物制药固投同比",v:"+16%"},{k:"GMP 合规改造项目",v:"320+"},{k:"无菌阀组需求增速",v:"+22%"}],overview:"中国生物制药产业进入 GMP 全面升级周期，创新药 CMO/CDMO 产能扩张与合规改造同步推进。无菌流体系统（隔膜阀、卫生级蝶阀、纯蒸汽管路控制）是 FDA/EMA 认证的必要条件，",burkertAngle:"卫生级隔膜阀 · 纯蒸汽控制 · 无菌取样系统",opportunities:[{label:"CMO 产线 GMP 认证配套",urgency:"HIGH",timing:"Q1–Q2"},{label:"mRNA 疫苗生产线流体系统",urgency:"HIGH",timing:"Q2"},{label:"血液透析耗材生产配套",urgency:"MED",timing:"Q3–Q4"}],risks:["医疗设备集采压缩设备预算","认证周期拉长影响交付节奏"]},
-  {id:"hydrogen",label:"新能源氢能",labelEn:"NEW ENERGY & HYDROGEN",prosperityIndex:7.6,trend:"+1.8 YoY",color:"#FFD700",tagline:"氢能基础设施元年，高压流体控制迎来窗口期",icon:"H2",keyMetrics:[{k:"加氢站新建计划",v:"1,000+"},{k:"电解槽出货量 CAGR",v:"83%"},{k:"氢能管控阀市场规模",v:"42亿"}],overview:"2026 年是中国氢能基础设施的规模化元年，「十五五」规划明确 1,000 座加氢站及 GW 级电解槽目标。高压氢气（70MPa）的安全管控、碱性电解槽的 KOH 溶液精密输送、燃料电池热管理系统均对阀门精度、材质兼容性提出极高要求，",burkertAngle:"高压氢气电磁阀 · KOH 腐蚀介质隔膜阀 · 燃料电池热管理控制",opportunities:[{label:"碱性电解槽 KOH 管路配套",urgency:"HIGH",timing:"Q2–Q3"},{label:"加氢站安全截止阀标准化",urgency:"MED",timing:"Q3"},{label:"燃料电池热管理集成",urgency:"MED",timing:"H2"}],risks:["氢能政策落地节奏不确定","高压认证壁垒导致导入周期长"]},
-];
+/* ── CURSOR ── */
+#cursor-glow{
+  position:fixed;pointer-events:none;z-index:99999;
+  width:320px;height:320px;border-radius:50%;
+  transform:translate(-50%,-50%);
+  background:radial-gradient(circle,rgba(0,255,178,.06)) 0%,rgba(0,200,255,.04)) 30%,transparent 70%);
+  transition:opacity .3s ease;mix-blend-mode:screen;
+}
+#cursor-dot{
+  position:fixed;pointer-events:none;z-index:100000;
+  width:24px;height:24px;border-radius:50%;
+  background:transparent;border:1.5px solid rgba(0,255,178,.8);
+  transform:translate(-50%,-50%);
+  box-shadow:0 0 8px rgba(0,255,178,.4),inset 0 0 6px rgba(0,255,178,.2);
+  transition:width .2s ease,height .2s ease,border-color .2s,box-shadow .2s;
+}
+body:has(a:hover) #cursor-dot,
+body:has(button:hover) #cursor-dot,
+body:has([onclick]:hover) #cursor-dot,
+body:has(.hm-row:hover) #cursor-dot,
+body:has(.co-card:hover) #cursor-dot,
+body:has(.reveal:hover) #cursor-dot{
+  width:36px;height:36px;
+  border-color:rgba(255,215,0,.9);
+  box-shadow:0 0 8px rgba(0,255,178,.4),inset 0 0 6px rgba(0,255,178,.2);
+}
 
 /* ── RENDER HELPERS ──────────────────────────────── */
 let activeSBU = null;
@@ -777,6 +668,27 @@ document.querySelectorAll('.ti').forEach(function(a){
 var _ids=Array.from(document.querySelectorAll('.ti')).map(function(a){return a.getAttribute('href').slice(1);});
 function _at(){var c=_ids[0];_ids.forEach(function(id){var e=document.getElementById(id);if(e&&e.getBoundingClientRect().top<=120)c=id;});document.querySelectorAll('.ti').forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+c);});}
 window.addEventListener('scroll',_at,{passive:true});_at();
+</script>
+
+
+<script>
+(function(){
+  const glow=document.getElementById('cursor-glow');
+  const dot=document.getElementById('cursor-dot');
+  let mx=0,my=0,gx=0,gy=0;
+  document.addEventListener('mousemove',e=>{
+    mx=e.clientX;my=e.clientY;
+    dot.style.left=mx+'px';dot.style.top=my+'px';
+  });
+  function animGlow(){
+    gx+=(mx-gx)*.08;gy+=(my-gy)*.08;
+    glow.style.left=gx+'px';glow.style.top=gy+'px';
+    requestAnimationFrame(animGlow);
+  }
+  animGlow();
+  document.addEventListener('mouseleave',()=>{glow.style.opacity='0';dot.style.opacity='0';});
+  document.addEventListener('mouseenter',()=>{glow.style.opacity='1';dot.style.opacity='1';});
+})();
 </script>
 
 </body>
