@@ -152,8 +152,8 @@ body{background:var(--bg);color:var(--text);font-family:var(--display);min-heigh
 .mtab2:hover{color:var(--text2)}
 .mtab2.on{color:var(--gold);border-bottom-color:var(--gold)}
 
-.reveal{opacity:0;transform:translateY(16px);transition:all .5s cubic-bezier(.16,1,.3,1)}
-.reveal.visible{opacity:1;transform:translateY(0)}
+.reveal{opacity:1;transform:none;transition:none}
+.reveal.visible{opacity:1;transform:none}
 
 @media(max-width:768px){
   .wrap{padding:72px 16px 40px}
@@ -310,125 +310,1225 @@ const HEATMAP_DATA = {
   }
 };
 
-// Company-level data [name, sector, industry, periods: {rev, profit, contract, notes}]
+// Company-level data
 const COMPANIES = [
-  // PB
-  {name:'森松国际',  sector:'EPC制药',    ind:'PB', periods:[
-    {rev:-0.05, profit:null, contract:null, note:'EPC海外拉动'},
-    {rev: 0.20, profit:null, contract:0.65, note:'大幅增长'},
-    {rev: 0.20, profit:null, contract:0.65, note:'收入+20%，订单+65%'},
-    {rev:null,  profit:null, contract:null,  note:'Q3数据待更新'}
+  {name:'森松（制药）', sector:'EPC', ind:'PB', periods:[
+    {rev:-0.288, profit:null, contract:-0.141, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.201, profit:null, contract:0.65, note:'制药订单+65% 2025 年上半年，森松已经从“海外略多于国内”，进一步变成了一个明显以海外市场为主的 EPC / 模块化系统供应商。 海外收入占比从 ~56'},
+    {rev:null, profit:null, contract:null, note:null}
   ]},
-  {name:'楚天科技',  sector:'EPC制药',    ind:'PB', periods:[
-    {rev:-0.08, profit:-0.5, contract:null},
-    {rev:-0.10, profit:null, contract:null},
-    {rev: 0.05, profit:null, contract:0.15},
-    {rev:-0.02, profit:null, contract:0.01}
+  {name:'奥星', sector:'EPC', ind:'PB', periods:[
+    {rev:-0.149, profit:null, contract:0.121, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.056, profit:-0.043, contract:0.15, note:'上半年，总订单额约为人民币10.418亿元，同比增加约人民币1.357亿元或15.0%，国内下滑，国际增长'},
+    {rev:null, profit:null, contract:null, note:null}
   ]},
-  {name:'东富龙',    sector:'EPC制药',    ind:'PB', periods:[
-    {rev:-0.12, profit:-0.8, contract:null},
-    {rev: 0.05, profit:null, contract:0.20},
-    {rev: 0.08, profit:null, contract:0.25},
-    {rev: 0.02, profit:null, contract:0.02}
+  {name:'楚天', sector:'EPC', ind:'PB', periods:[
+    {rev:-0.149, profit:null, contract:0.155, note:null},
+    {rev:-0.222, profit:null, contract:0.037, note:null},
+    {rev:-0.145, profit:null, contract:0.059, note:null},
+    {rev:-0.066, profit:1.451, contract:0.054, note:null}
   ]},
-  {name:'凯莱英',    sector:'CDMO',       ind:'PB', periods:[
-    {rev: 0.10, profit: 0.3, contract:0.20},
-    {rev: 0.18, profit: 0.6, contract:0.10},
-    {rev: 0.22, profit: 0.5, contract:0.18},
-    {rev: 0.15, profit: 0.4, contract:-0.08}
+  {name:'东富龙（制药）', sector:'EPC', ind:'PB', periods:[
+    {rev:-0.14, profit:null, contract:0.042, note:null},
+    {rev:0.026, profit:-0.689, contract:null, note:null},
+    {rev:0.06, profit:-0.597, contract:null, note:'国际业务占比33.14%，同期增长63.25%'},
+    {rev:0.061, profit:-0.139, contract:0.109, note:null}
   ]},
-  {name:'赛多利斯',  sector:'CDMO',       ind:'PB', periods:[
-    {rev:-0.15, profit:-0.6, contract:0.18},
-    {rev: 0.10, profit: 0.4, contract:0.08},
-    {rev: 0.18, profit: 0.45,contract:0.19, note:'生物制药反弹'},
-    {rev: 0.12, profit: 0.45,contract:-0.07}
+  {name:'正帆（医药）', sector:'EPC', ind:'PB', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.06, profit:-0.9, contract:-0.14, note:null}
   ]},
-  // FB
-  {name:'达意隆',    sector:'食饮EPC',    ind:'FB', periods:[
-    {rev: 0.22, profit: 0.30,contract:0.15},
-    {rev: 0.35, profit: 1.20,contract:0.10},
-    {rev: 0.26, profit: 0.82,contract:0.07, note:'出口覆盖80+国家'},
-    {rev: 0.25, profit: 1.46,contract:0.35, note:'净利暴增+146%'}
+  {name:'成都英德', sector:'EPC', ind:'PB', periods:[
+    {rev:0.12, profit:null, contract:-0.071, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.049, profit:-0.162, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
   ]},
-  {name:'永创智能',  sector:'食饮EPC',    ind:'FB', periods:[
-    {rev: 0.05, profit:-0.3, contract:0.08},
-    {rev: 0.15, profit: 0.6, contract:0.12},
-    {rev: 0.19, profit: 0.61,contract:0.09, note:'饮料线+37%'},
-    {rev: 0.19, profit: 7.22,contract:0.29, note:'净利+722%预增'}
+  {name:'迦南科技', sector:'OEM', ind:'PB', periods:[
+    {rev:0.321, profit:null, contract:-0.258, note:null},
+    {rev:0.124, profit:null, contract:-0.075, note:null},
+    {rev:0.013, profit:-0.385, contract:-0.127, note:null},
+    {rev:-0.029, profit:-0.33, contract:-0.024, note:null}
   ]},
-  {name:'新美星',    sector:'食饮EPC',    ind:'FB', periods:[
-    {rev: 0.08, profit: 0.2, contract:0.06},
-    {rev: 0.22, profit: 1.2, contract:0.15},
-    {rev: 0.16, profit: 1.92,contract:0.09, note:'净利率9.4%'},
-    {rev: 0.22, profit: 1.92,contract:0.31, note:'香港子公司布局出海'}
+  {name:'珐成制药', sector:'OEM', ind:'PB', periods:[
+    {rev:-0.64, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
   ]},
-  {name:'中亚股份',  sector:'食饮EPC',    ind:'FB', periods:[
-    {rev:-0.05, profit:-0.4, contract:0.04},
-    {rev: 0.12, profit: 0.5, contract:0.08},
-    {rev: 0.16, profit: 0.21,contract:0.06, note:'现金流转正'},
-    {rev: 0.16, profit: 0.21,contract:0.27}
+  {name:'汉邦', sector:'OEM', ind:'PB', periods:[
+    {rev:0.117, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.06, profit:-0.258, contract:0.2, note:'报告期订单同比增长20%以上，小分子、大分子装备均保持良好增长'},
+    {rev:0.046, profit:-0.17, contract:0.056, note:null}
   ]},
-  {name:'Krones',    sector:'食饮EPC',    ind:'FB', periods:[
-    {rev: 0.12, profit: 0.15,contract:0.09},
-    {rev: 0.28, profit: 0.88,contract:0.12},
-    {rev: 0.20, profit: 0.45,contract:0.09, note:'营收首破50亿欧'},
-    {rev: 0.22, profit: 1.03,contract:0.31}
+  {name:'凯贤', sector:'OEM', ind:'PB', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.381, profit:0.346, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
   ]},
-  // LM
-  {name:'聚光科技',  sector:'环境监测',   ind:'LM', periods:[
-    {rev: 0.05, profit: 0.2, contract:0.04},
-    {rev: 0.08, profit: 0.75,contract:0.00},
-    {rev: 0.01, profit:-0.35,contract:0.02},
-    {rev: 0.05, profit: 0.19,contract:0.06}
+  {name:'赛多利斯', sector:'EPC', ind:'PB', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.1, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
   ]},
-  {name:'谱育科技',  sector:'环境监测',   ind:'LM', periods:[
-    {rev: 0.04, profit: 0.2, contract:0.03},
-    {rev: 0.07, profit: 0.7, contract:0.00},
-    {rev: 0.01, profit:-0.36,contract:0.01},
-    {rev: 0.05, profit: 0.18,contract:0.05}
+  {name:'Cytiva', sector:'EPC', ind:'PB', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
   ]},
-  {name:'天瑞仪器',  sector:'实验室设备', ind:'LM', periods:[
-    {rev:-0.05, profit:-0.2, contract:0.21},
-    {rev: 0.06, profit: 0.81,contract:-0.01},
-    {rev:-0.04, profit:-0.01,contract:-0.07, note:'在手订单变多'},
-    {rev:-0.12, profit:-0.04,contract:-0.34, note:'在手订单转好'}
+  {name:'天坛生物', sector:'血制品', ind:'PB', periods:[
+    {rev:0.164, profit:null, contract:0.213, note:null},
+    {rev:0.078, profit:-0.229, contract:0.008, note:null},
+    {rev:0.095, profit:-0.128, contract:0.026, note:'天坛上海在云南省昆明市滇中新区投资新建云南项目， 天坛兰州在甘肃省兰州市国家高新技术开发区投资新建兰州项目'},
+    {rev:0.096, profit:-0.219, contract:-0.132, note:null}
   ]},
-  // EI/GI
-  {name:'捷佳伟创',  sector:'光伏设备',   ind:'EI', periods:[
-    {rev: 0.31, profit:-0.11,contract:-0.20},
-    {rev: 0.00, profit:-0.31,contract:-0.08},
-    {rev:-0.13, profit:-0.24,contract:-0.07, note:'扩产潮退去'},
-    {rev:-0.22, profit:-0.30,contract:-0.32}
+  {name:'上海莱士', sector:'血制品', ind:'PB', periods:[
+    {rev:0.027, profit:null, contract:1.158, note:null},
+    {rev:-0.025, profit:-0.252, contract:0.154, note:null},
+    {rev:-0.071, profit:-0.17, contract:0.318, note:null},
+    {rev:-0.035, profit:-0.2, contract:0.289, note:null}
   ]},
-  {name:'先导智能',  sector:'锂电设备',   ind:'GI', periods:[
-    {rev:null,  profit:null, contract:null},
-    {rev:null,  profit:null, contract:null},
-    {rev:-0.04, profit: 0.21,contract:0.78, note:'头部客户新一轮扩产'},
-    {rev: 0.06, profit: 0.42,contract:0.27, note:'固态电池兑现'}
+  {name:'华兰生物（血制）', sector:'血制品', ind:'PB', periods:[
+    {rev:0.109, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.075, profit:0.185, contract:0.059, note:null},
+    {rev:-0.032, profit:-0.151, contract:0.118, note:null}
   ]},
-  {name:'晶盛机电',  sector:'半导体设备', ind:'EI', periods:[
-    {rev: 0.35, profit: 0.00,contract:0.53},
-    {rev: 0.28, profit: 0.24,contract:0.11},
-    {rev: 0.32, profit: 0.67,contract:0.19, note:'晶圆厂扩产'},
-    {rev: 0.29, profit: 0.36,contract:0.29}
+  {name:'派林生物', sector:'血制品', ind:'PB', periods:[
+    {rev:0.14, profit:null, contract:-0.119, note:null},
+    {rev:-0.14, profit:-0.27, contract:0.006, note:null},
+    {rev:-0.132, profit:-0.279, contract:-0.024, note:'广东双林新一代免疫球蛋白生产车间项目部分资产验收'},
+    {rev:-0.144, profit:-0.342, contract:-0.43, note:null}
   ]},
-  {name:'北方华创',  sector:'半导体设备', ind:'EI', periods:[
-    {rev: 0.35, profit: 0.01,contract:0.52},
-    {rev: 0.28, profit: 0.24,contract:0.11},
-    {rev: 0.32, profit: 0.66,contract:0.19, note:'国产化替代'},
-    {rev: 0.29, profit: 0.37,contract:0.28}
+  {name:'博晖创新', sector:'血制品', ind:'PB', periods:[
+    {rev:-0.185, profit:null, contract:0.05, note:null},
+    {rev:-0.231, profit:-1.204, contract:0.025, note:null},
+    {rev:-0.17, profit:-1.676, contract:0.053, note:null},
+    {rev:-0.027, profit:-2.417, contract:0.068, note:null}
   ]},
-  {name:'三环集团',  sector:'氢能/SOFC',  ind:'EI', periods:[
-    {rev:-0.34, profit:-0.64,contract:0.12},
-    {rev:-0.12, profit:null, contract:0.12},
-    {rev:-0.30, profit:null, contract:0.04, note:'SOFC 300kW投产'},
-    {rev:-0.35, profit:-0.01,contract:null, note:'商业化拐点临近'}
+  {name:'博雅生物', sector:'血制品', ind:'PB', periods:[
+    {rev:-0.346, profit:null, contract:7.038, note:null},
+    {rev:0.195, profit:-0.083, contract:0.295, note:null},
+    {rev:0.125, profit:-0.287, contract:1.161, note:'智能工厂项目建设投入增加所致'},
+    {rev:0.184, profit:-0.169, contract:1.494, note:null}
   ]},
-  {name:'亿华通',    sector:'氢能设备',   ind:'EI', periods:[
-    {rev:-0.33, profit:-0.60,contract:0.13},
-    {rev:-0.12, profit:null, contract:0.13},
-    {rev:-0.29, profit:null, contract:0.04},
-    {rev:-0.35, profit:-0.01,contract:null, note:'在手订单变多'}
+  {name:'卫光生物', sector:'血制品', ind:'PB', periods:[
+    {rev:0.147, profit:null, contract:-0.539, note:null},
+    {rev:-0.006, profit:-0.065, contract:0.267, note:null},
+    {rev:-0.009, profit:-0.02, contract:null, note:'在建工程转固定资产所致'},
+    {rev:-0.074, profit:-0.136, contract:-0.687, note:null}
+  ]},
+  {name:'皓元医药', sector:'CXO', ind:'PB', periods:[
+    {rev:0.207, profit:null, contract:0.793, note:null},
+    {rev:0.201, profit:2.723, contract:0.103, note:null},
+    {rev:0.242, profit:1.31, contract:0.099, note:'强化 ADC、PROTAC、小核酸药物 等新兴赛道布局'},
+    {rev:0.272, profit:0.821, contract:0.167, note:null}
+  ]},
+  {name:'药明康德', sector:'CXO', ind:'PB', periods:[
+    {rev:-0.027, profit:null, contract:-0.146, note:null},
+    {rev:0.21, profit:0.891, contract:0.069, note:null},
+    {rev:0.206, profit:0.962, contract:0.109, note:null},
+    {rev:0.186, profit:0.914, contract:-0.02, note:null}
+  ]},
+  {name:'药明生物', sector:'CXO', ind:'PB', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.161, profit:0.27, contract:0.249, note:'• 今年上半年新签86个项目 • 商业化项目数同比+50% • 综合项目数同比+16.4% •临床三期+商业化收入同比上升24.9% 2025上半年资本开支约为'},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'药明合联', sector:'CXO', ind:'PB', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.622, profit:0.822, contract:null, note:'•无锡基地：XDP3车间GMP放行，XDP5预计2027年投产；抗体和偶联原料药产能持续扩展 •新签37个综合项目 •新增3个PPQ项目 •综合项目总数 由20'},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'凯莱英', sector:'CXO', ind:'PB', periods:[
+    {rev:-0.258, profit:null, contract:0.403, note:null},
+    {rev:0.101, profit:0.158, contract:0.065, note:null},
+    {rev:0.182, profit:0.237, contract:null, note:'•小分子 CDMO：24.29亿元，占比76.2%，+10.64% •新兴业务：7.56亿元，占比23.7%，同比增长51.22%，增长主要来自多肽、寡核苷酸、'},
+    {rev:0.118, profit:0.127, contract:0.129, note:null}
+  ]},
+  {name:'博腾股份', sector:'CXO', ind:'PB', periods:[
+    {rev:-0.179, profit:null, contract:-0.024, note:null},
+    {rev:0.182, profit:null, contract:0.15, note:null},
+    {rev:0.199, profit:1.159, contract:null, note:'2025年上半年，公司新分子业务新签订单4,186万元'},
+    {rev:0.197, profit:1.387, contract:0.11, note:null}
+  ]},
+  {name:'康龙化成', sector:'CXO', ind:'PB', periods:[
+    {rev:0.064, profit:null, contract:-0.144, note:null},
+    {rev:0.16, profit:0.325, contract:0.092, note:null},
+    {rev:0.149, profit:-0.37, contract:0.2, note:'小分子CDMO服务新签订单同比增长约20%，预计更多的项目将于 2025 年下半年交付'},
+    {rev:0.144, profit:-0.198, contract:0.088, note:null}
+  ]},
+  {name:'九洲药业', sector:'CXO', ind:'PB', periods:[
+    {rev:-0.066, profit:null, contract:0.307, note:null},
+    {rev:0.01, profit:0.057, contract:-0.013, note:null},
+    {rev:0.039, profit:0.172, contract:null, note:'海外仍贡献近 36%'},
+    {rev:0.049, profit:0.218, contract:-0.182, note:null}
+  ]},
+  {name:'毕得医药', sector:'CXO', ind:'PB', periods:[
+    {rev:0.009, profit:null, contract:null, note:null},
+    {rev:0.128, profit:0.177, contract:null, note:null},
+    {rev:0.179, profit:0.57, contract:null, note:'海外收入同比增长 21.33%，是公司增长的重要驱动力 前沿研发热点：ADC、PROTAC、GLP-1减肥药、KRAS抑制剂等带动砌块与试剂需求'},
+    {rev:0.207, profit:0.558, contract:-0.79, note:null}
+  ]},
+  {name:'阳光诺和', sector:'CXO', ind:'PB', periods:[
+    {rev:0.157, profit:null, contract:0.456, note:null},
+    {rev:-0.085, profit:-0.593, contract:0.223, note:null},
+    {rev:0.049, profit:-0.122, contract:null, note:null},
+    {rev:-0.067, profit:-0.238, contract:null, note:null}
+  ]},
+  {name:'诺泰生物', sector:'多肽', ind:'PB', periods:[
+    {rev:0.572, profit:null, contract:0.828, note:null},
+    {rev:0.59, profit:1.301, contract:0.904, note:null},
+    {rev:0.261, profit:0.322, contract:0.785, note:'主要系中华药港项目、原料药制造与绿色生产提升项目、寡核苷酸单体产业化项目、多肽原料药车间建设项目、长链多肽药物规模化生产项目等项目在建'},
+    {rev:0.22, profit:0.276, contract:0.158, note:null}
+  ]},
+  {name:'圣诺生物', sector:'多肽', ind:'PB', periods:[
+    {rev:0.048, profit:null, contract:0.272, note:null},
+    {rev:0.771, profit:1.861, contract:0.064, note:null},
+    {rev:0.697, profit:3.408, contract:-0.338, note:'转固'},
+    {rev:0.54, profit:1.279, contract:-0.392, note:null}
+  ]},
+  {name:'药明康德-多肽', sector:'多肽', ind:'PB', periods:[
+    {rev:0.701, profit:null, contract:1.039, note:null},
+    {rev:1.876, profit:null, contract:1.055, note:null},
+    {rev:1.416, profit:null, contract:0.488, note:null},
+    {rev:1.211, profit:null, contract:0.171, note:null}
+  ]},
+  {name:'昊帆生物', sector:'多肽', ind:'PB', periods:[
+    {rev:0.162, profit:null, contract:-0.701, note:null},
+    {rev:0.482, profit:0.167, contract:0.365, note:null},
+    {rev:0.201, profit:0.153, contract:2.186, note:null},
+    {rev:0.325, profit:0.03, contract:3.383, note:null}
+  ]},
+  {name:'翰宇', sector:'多肽', ind:'PB', periods:[
+    {rev:0.368, profit:null, contract:-0.449, note:null},
+    {rev:1.063, profit:5.955, contract:0.063, note:null},
+    {rev:1.149, profit:null, contract:1.456, note:'产能建设：2025年建成siRNA百克级中试平台，2026年实现公斤级产能 国内收入：1.24 亿元，同比下降 12.32% 国外收入：4.25 亿元，同比增长'},
+    {rev:0.821, profit:3.05, contract:2.457, note:null}
+  ]},
+  {name:'奥锐特', sector:'多肽', ind:'PB', periods:[
+    {rev:0.169, profit:null, contract:2.099, note:null},
+    {rev:0.198, profit:0.453, contract:-0.149, note:null},
+    {rev:0.125, profit:0.237, contract:-0.365, note:'转固'},
+    {rev:0.137, profit:0.245, contract:-0.625, note:null}
+  ]},
+  {name:'泰德医药', sector:'多肽', ind:'PB', periods:[
+    {rev:0.231, profit:null, contract:0.0, note:null},
+    {rev:0.054, profit:-0.189, contract:null, note:null},
+    {rev:0.285, profit:0.443, contract:null, note:'1.取得的新项目数4,674，增加7.37% 2.美国：1.48亿元（占比约 58%） 3.产能：杭州钱塘园区年产能 >500kg 多肽 API，并具备 1–1'},
+    {rev:-0.056, profit:-0.582, contract:0.001, note:null}
+  ]},
+  {name:'双成药业', sector:'多肽', ind:'PB', periods:[
+    {rev:-0.262, profit:null, contract:-0.056, note:null},
+    {rev:-0.142, profit:null, contract:0.035, note:null},
+    {rev:-0.114, profit:-0.09, contract:null, note:'国内大部分区域收入下滑幅度在 -46% ~ -74%，仅华中、西北地区保持增长。 国外地区：44,105,431.71元，占比 52.43%，同比增长134.8'},
+    {rev:0.33, profit:null, contract:0.341, note:null}
+  ]},
+  {name:'长春高新', sector:'多肽', ind:'PB', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.056, profit:-0.582, contract:0.001, note:null}
+  ]},
+  {name:'康宁杰瑞', sector:'多肽', ind:'PB', periods:[
+    {rev:1.926, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.84, profit:1.019, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'健元医药', sector:'多肽', ind:'PB', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'丽珠医药', sector:'多肽', ind:'PB', periods:[
+    {rev:-0.05, profit:null, contract:null, note:null},
+    {rev:-0.019, profit:0.048, contract:0.141, note:null},
+    {rev:-0.002, profit:0.094, contract:null, note:null},
+    {rev:0.004, profit:0.049, contract:0.098, note:null}
+  ]},
+  {name:'银诺医药', sector:'GLP-1', ind:'PB', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'神州细胞', sector:'ADC', ind:'PB', periods:[
+    {rev:0.331, profit:null, contract:0.562, note:null},
+    {rev:-0.151, profit:-0.141, contract:0.069, note:null},
+    {rev:-0.255, profit:-1.269, contract:0.172, note:null},
+    {rev:-0.323, profit:null, contract:0.447, note:null}
+  ]},
+  {name:'君实', sector:'PD-1', ind:'PB', periods:[
+    {rev:0.297, profit:null, contract:0.402, note:null},
+    {rev:0.315, profit:null, contract:0.015, note:null},
+    {rev:0.486, profit:null, contract:0.07, note:null},
+    {rev:0.421, profit:null, contract:0.124, note:null}
+  ]},
+  {name:'百利天恒', sector:'ADC', ind:'PB', periods:[
+    {rev:9.363, profit:null, contract:-0.564, note:null},
+    {rev:-0.988, profit:null, contract:1.104, note:null},
+    {rev:-0.969, profit:-1.234, contract:1.593, note:'主要系报告期内抗体药物产业化续建项目投入增加所致'},
+    {rev:-0.635, profit:-1.043, contract:2.403, note:null}
+  ]},
+  {name:'科伦药业', sector:'ADC', ind:'PB', periods:[
+    {rev:0.017, profit:null, contract:-0.41, note:null},
+    {rev:-0.294, profit:-0.431, contract:0.033, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.209, profit:-0.514, contract:0.312, note:null}
+  ]},
+  {name:'百奥泰', sector:'ADC', ind:'PB', periods:[
+    {rev:0.054, profit:null, contract:0.15, note:null},
+    {rev:0.278, profit:null, contract:0.013, note:null},
+    {rev:0.098, profit:null, contract:-0.443, note:'转固'},
+    {rev:0.176, profit:null, contract:-0.634, note:null}
+  ]},
+  {name:'荣昌生物', sector:'ADC', ind:'PB', periods:[
+    {rev:0.585, profit:null, contract:-0.644, note:null},
+    {rev:0.592, profit:null, contract:-0.031, note:null},
+    {rev:0.48, profit:0.476, contract:0.435, note:'是不锈钢罐车间建设投入增加'},
+    {rev:0.473, profit:null, contract:0.891, note:null}
+  ]},
+  {name:'康方生物', sector:'ADC', ind:'PB', periods:[
+    {rev:-0.531, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.378, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'科伦博泰', sector:'ADC', ind:'PB', periods:[
+    {rev:0.255, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.313, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'巨子生物', sector:'医美', ind:'PB', periods:[
+    {rev:0.572, profit:null, contract:0.089, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.225, profit:0.215, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'锦波生物', sector:'医美', ind:'PB', periods:[
+    {rev:0.849, profit:null, contract:-0.853, note:null},
+    {rev:0.625, profit:0.662, contract:6.3, note:null},
+    {rev:0.424, profit:0.267, contract:8.709, note:'产业园注射用重组人源化胶原蛋白生产车间建设投入增加所致'},
+    {rev:0.311, profit:0.093, contract:10.743, note:null}
+  ]},
+  {name:'江苏吴中-医美', sector:'医美', ind:'PB', periods:[
+    {rev:42.257, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'华熙生物', sector:'医美', ind:'PB', periods:[
+    {rev:-0.116, profit:null, contract:-0.422, note:null},
+    {rev:-0.208, profit:-0.581, contract:-0.009, note:null},
+    {rev:-0.196, profit:-0.354, contract:-0.309, note:null},
+    {rev:-0.184, profit:-0.332, contract:-0.223, note:null}
+  ]},
+  {name:'昊海生科', sector:'医美', ind:'PB', periods:[
+    {rev:0.017, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.071, profit:-0.102, contract:0.08, note:null},
+    {rev:-0.085, profit:-0.106, contract:0.113, note:null}
+  ]},
+  {name:'华东医药', sector:'医美', ind:'PB', periods:[
+    {rev:0.032, profit:null, contract:-0.084, note:null},
+    {rev:0.031, profit:0.061, contract:0.138, note:null},
+    {rev:-0.08, profit:null, contract:null, note:null},
+    {rev:0.038, profit:0.072, contract:null, note:null}
+  ]},
+  {name:'创健医疗', sector:'医美', ind:'PB', periods:[
+    {rev:0.018, profit:null, contract:24.081, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'智飞生物', sector:'疫苗', ind:'PB', periods:[
+    {rev:-0.507, profit:null, contract:-0.218, note:null},
+    {rev:-0.792, profit:null, contract:-0.152, note:null},
+    {rev:-0.731, profit:-1.267, contract:null, note:'无重大变化'},
+    {rev:-0.665, profit:-1.569, contract:-0.223, note:null}
+  ]},
+  {name:'沃森生物', sector:'疫苗', ind:'PB', periods:[
+    {rev:-0.314, profit:null, contract:0.285, note:null},
+    {rev:-0.229, profit:-0.813, contract:0.012, note:null},
+    {rev:-0.195, profit:-0.747, contract:0.021, note:'公司疫苗产品产业化投资增加所致。'},
+    {rev:-0.179, profit:-0.362, contract:0.058, note:null}
+  ]},
+  {name:'万泰生物', sector:'疫苗', ind:'PB', periods:[
+    {rev:-0.593, profit:null, contract:0.803, note:null},
+    {rev:-0.468, profit:null, contract:0.0, note:null},
+    {rev:-0.383, profit:-1.564, contract:-0.037, note:null},
+    {rev:-0.231, profit:null, contract:-0.025, note:null}
+  ]},
+  {name:'康希诺', sector:'疫苗', ind:'PB', periods:[
+    {rev:1.37, profit:null, contract:0.138, note:null},
+    {rev:0.2, profit:null, contract:0.031, note:null},
+    {rev:0.26, profit:null, contract:null, note:null},
+    {rev:0.221, profit:null, contract:-0.204, note:null}
+  ]},
+  {name:'成大生物', sector:'疫苗', ind:'PB', periods:[
+    {rev:-0.042, profit:null, contract:0.061, note:null},
+    {rev:-0.017, profit:-0.114, contract:0.089, note:null},
+    {rev:-0.198, profit:-0.464, contract:0.105, note:null},
+    {rev:-0.156, profit:-0.479, contract:0.074, note:null}
+  ]},
+  {name:'华兰疫苗', sector:'疫苗', ind:'PB', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'金迪克', sector:'疫苗', ind:'PB', periods:[
+    {rev:null, profit:null, contract:0.019, note:null},
+    {rev:-0.31, profit:null, contract:0.037, note:null},
+    {rev:0.072, profit:null, contract:null, note:null},
+    {rev:0.919, profit:null, contract:0.044, note:null}
+  ]},
+  {name:'康泰生物', sector:'疫苗', ind:'PB', periods:[
+    {rev:-0.237, profit:null, contract:-0.083, note:null},
+    {rev:0.428, profit:-0.585, contract:-0.028, note:null},
+    {rev:0.158, profit:-0.773, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'百克生物', sector:'疫苗', ind:'PB', periods:[
+    {rev:-0.326, profit:null, contract:0.259, note:null},
+    {rev:-0.4, profit:-0.982, contract:0.054, note:null},
+    {rev:-0.539, profit:1.627, contract:0.079, note:null},
+    {rev:-0.538, profit:-1.732, contract:0.109, note:null}
+  ]},
+  {name:'艾美疫苗', sector:'疫苗', ind:'PB', periods:[
+    {rev:0.082, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.042, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'川宁生物', sector:'合成生物', ind:'PB', periods:[
+    {rev:0.194, profit:null, contract:-0.026, note:null},
+    {rev:-0.148, profit:-0.183, contract:0.076, note:null},
+    {rev:-0.265, profit:-0.406, contract:0.155, note:'在建项目投资增加 2025年4月，公司获得农业农村部颁发的硫氰酸红霉素原料药的兽药生产许可证和 GMP 证书，正式进入兽药原料药市场'},
+    {rev:-0.229, profit:-0.432, contract:0.158, note:null}
+  ]},
+  {name:'凯赛生物', sector:'合成生物', ind:'PB', periods:[
+    {rev:0.399, profit:null, contract:0.093, note:null},
+    {rev:0.133, profit:0.301, contract:0.011, note:null},
+    {rev:0.157, profit:0.218, contract:0.033, note:'年产 50 万吨生物基戊二胺及年产 90 万吨生物基聚酰胺项目等项目正在建设中'},
+    {rev:0.149, profit:0.3, contract:0.078, note:null}
+  ]},
+  {name:'华恒生物', sector:'合成生物', ind:'PB', periods:[
+    {rev:0.124, profit:null, contract:0.05, note:null},
+    {rev:0.372, profit:-0.41, contract:-0.048, note:null},
+    {rev:0.465, profit:-0.279, contract:1.119, note:'公司在建项目包括：赤峰基地丁二酸联产缬氨酸/肌醇项目和年产5万吨的生物基1,3-丙二醇建设项目，秦皇岛基地建设苹果酸联产色氨酸项目，巴彦淖尔基地交替年产6万吨三'},
+    {rev:0.425, profit:-0.069, contract:-0.219, note:null}
+  ]},
+  {name:'金达威', sector:'合成生物', ind:'PB', periods:[
+    {rev:0.044, profit:null, contract:0.624, note:null},
+    {rev:0.113, profit:0.72, contract:0.096, note:null},
+    {rev:0.135, profit:0.901, contract:0.181, note:'主要系金达威药业在建工程增加'},
+    {rev:0.112, profit:0.635, contract:null, note:null}
+  ]},
+  {name:'永创智能', sector:'EPC', ind:'FB', periods:[
+    {rev:0.134, profit:null, contract:null, note:null},
+    {rev:0.071, profit:0.058, contract:null, note:null},
+    {rev:0.129, profit:0.152, contract:0.067, note:'标准单机设备的销售增加；啤酒、饮料等智能包装生产线的交付增加'},
+    {rev:0.191, profit:0.54, contract:0.155, note:null}
+  ]},
+  {name:'达意隆', sector:'EPC', ind:'FB', periods:[
+    {rev:0.184, profit:null, contract:null, note:null},
+    {rev:0.742, profit:2.458, contract:null, note:null},
+    {rev:0.574, profit:2.179, contract:0.225, note:'海外收入占比高（46%）且增速快'},
+    {rev:0.39, profit:1.462, contract:0.608, note:'主要是报告期内在手订单增加，预收货款增加所致'}
+  ]},
+  {name:'新美星', sector:'EPC', ind:'FB', periods:[
+    {rev:0.158, profit:0.944, contract:null, note:null},
+    {rev:0.06, profit:1.184, contract:null, note:null},
+    {rev:0.146, profit:1.18, contract:-0.033, note:null},
+    {rev:0.159, profit:1.919, contract:0.038, note:null}
+  ]},
+  {name:'乐惠国际', sector:'EPC', ind:'FB', periods:[
+    {rev:-0.098, profit:0.072, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.082, profit:-0.194, contract:0.097, note:'装备板块，2025年上半年，新签订单总数7.74亿元，同比增长36.51%。累积在手订单 24.44 亿元，较 2024 年 12 月 31 日增长 9.74%'},
+    {rev:0.003, profit:-0.178, contract:0.27, note:'利润变化由2022年仲裁案计提的预计负债与实际支付的差额计入2024 年营业外收入所致。'}
+  ]},
+  {name:'Krones', sector:'EPC', ind:'FB', periods:[
+    {rev:0.171, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.031, profit:null, contract:null, note:'收入增长有限：虽然实现了正增长，但增速（3.1%）低于集团整体（6.7%），显示中国市场相对疲软。 市场份额下滑：收入占比从7.2%下降到7.0%，显示中国在集'},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'新莱应材', sector:'EPC', ind:'FB', periods:[
+    {rev:0.051, profit:-0.041, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.006, profit:-0.231, contract:-0.118, note:null},
+    {rev:0.043, profit:-0.267, contract:-0.118, note:null}
+  ]},
+  {name:'中亚股份', sector:'EPC', ind:'FB', periods:[
+    {rev:-0.003, profit:-0.358, contract:null, note:null},
+    {rev:0.242, profit:-0.161, contract:null, note:null},
+    {rev:0.095, profit:-0.02, contract:0.296, note:null},
+    {rev:0.157, profit:0.21, contract:0.45, note:'系期末预收货款增加'}
+  ]},
+  {name:'东富龙承欢', sector:'EPC', ind:'FB', periods:[
+    {rev:0.359, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.738, profit:0.054, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'GEA', sector:'EPC', ind:'FB', periods:[
+    {rev:-0.111, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:'中国在集团订单收入中的占比约为 8% 订单动能：中国的 Book-to-Bill比率为1.03，意味着订单流入略高于销售，实现了轻微的正增长动能'},
+    {rev:null, profit:null, contract:null, note:'Unleash opportunities in China and India'}
+  ]},
+  {name:'燕京啤酒', sector:'啤酒', ind:'FB', periods:[
+    {rev:0.032, profit:0.637, contract:null, note:null},
+    {rev:0.067, profit:0.611, contract:null, note:null},
+    {rev:0.064, profit:0.455, contract:0.377, note:null},
+    {rev:0.046, profit:0.374, contract:1.214, note:null}
+  ]},
+  {name:'青岛啤酒', sector:'啤酒', ind:'FB', periods:[
+    {rev:-0.053, profit:0.018, contract:null, note:null},
+    {rev:0.029, profit:0.071, contract:null, note:null},
+    {rev:0.021, profit:0.072, contract:0.653, note:null},
+    {rev:0.014, profit:0.066, contract:0.952, note:null}
+  ]},
+  {name:'珠江啤酒', sector:'啤酒', ind:'FB', periods:[
+    {rev:0.066, profit:0.299, contract:null, note:null},
+    {rev:0.107, profit:0.298, contract:null, note:null},
+    {rev:0.071, profit:0.225, contract:0.224, note:null},
+    {rev:0.038, profit:0.171, contract:0.364, note:'在建工程比年初增长 36.42%，主要是在建项目增加所致'}
+  ]},
+  {name:'华润啤酒', sector:'啤酒', ind:'FB', periods:[
+    {rev:-0.0, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.008, profit:0.489, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'重庆啤酒', sector:'啤酒', ind:'FB', periods:[
+    {rev:-0.011, profit:-0.166, contract:null, note:null},
+    {rev:0.015, profit:0.046, contract:null, note:null},
+    {rev:-0.002, profit:-0.001, contract:-0.308, note:'主要系SMARTCORE智慧核项目阶段上线本期部分转无形资产所致'},
+    {rev:-0.0, profit:-0.025, contract:-0.121, note:null}
+  ]},
+  {name:'惠泉啤酒', sector:'啤酒', ind:'FB', periods:[
+    {rev:0.054, profit:0.336, contract:null, note:null},
+    {rev:0.004, profit:0.237, contract:null, note:null},
+    {rev:0.01, profit:0.25, contract:null, note:'转固'},
+    {rev:-0.026, profit:0.241, contract:null, note:null}
+  ]},
+  {name:'百威中国', sector:'啤酒', ind:'FB', periods:[
+    {rev:-0.13, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.095, profit:-0.11, contract:null, note:'2025年上半年，销量減少8.2%'},
+    {rev:-0.151, profit:null, contract:null, note:'第三季度中国市场销量减少11.4%，收入减少15.1%，每升收入减少4.1%，下滑幅度拉大'}
+  ]},
+  {name:'光明', sector:'乳制品', ind:'FB', periods:[
+    {rev:-0.083, profit:-0.254, contract:null, note:null},
+    {rev:-0.008, profit:-0.182, contract:null, note:null},
+    {rev:-0.019, profit:0.145, contract:0.476, note:'在建工程增加，主要原因是本报告期新莱特项目及牧场建设投资增加'},
+    {rev:-0.01, profit:null, contract:-0.031, note:null}
+  ]},
+  {name:'蒙牛', sector:'乳制品', ind:'FB', periods:[
+    {rev:-0.101, profit:-0.042, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.069, profit:-0.035, contract:-0.4, note:null},
+    {rev:null, profit:null, contract:null, note:'降幅接近双位数'}
+  ]},
+  {name:'伊利', sector:'乳制品', ind:'FB', periods:[
+    {rev:-0.082, profit:-0.189, contract:null, note:null},
+    {rev:0.015, profit:-0.177, contract:null, note:null},
+    {rev:0.035, profit:-0.055, contract:null, note:null},
+    {rev:0.018, profit:-0.05, contract:-0.573, note:'常温液奶,年初定的5%增长目标，最后只做到同比略降2%到3%'}
+  ]},
+  {name:'三元', sector:'乳制品', ind:'FB', periods:[
+    {rev:-0.107, profit:-0.774, contract:null, note:null},
+    {rev:-0.195, profit:0.208, contract:null, note:null},
+    {rev:-0.138, profit:0.276, contract:0.217, note:'基本完工'},
+    {rev:-0.101, profit:0.883, contract:0.407, note:null}
+  ]},
+  {name:'茅台', sector:'白酒', ind:'FB', periods:[
+    {rev:0.157, profit:0.154, contract:null, note:null},
+    {rev:0.105, profit:0.116, contract:null, note:null},
+    {rev:0.091, profit:0.09, contract:0.285, note:null},
+    {rev:0.064, profit:0.064, contract:0.644, note:null}
+  ]},
+  {name:'五粮液', sector:'白酒', ind:'FB', periods:[
+    {rev:0.071, profit:0.054, contract:null, note:null},
+    {rev:0.06, profit:0.058, contract:null, note:null},
+    {rev:0.042, profit:0.023, contract:0.024, note:null},
+    {rev:-0.103, profit:-0.137, contract:0.058, note:null}
+  ]},
+  {name:'泸州老窖', sector:'白酒', ind:'FB', periods:[
+    {rev:0.032, profit:0.017, contract:null, note:null},
+    {rev:0.018, profit:0.004, contract:null, note:null},
+    {rev:-0.027, profit:-0.045, contract:0.444, note:null},
+    {rev:-0.048, profit:-0.072, contract:0.675, note:'在建工程期末余额较期初余额增加 545,311,852.79 元，增幅 67.55%，主要系本期智能酿造技改等在建工程项目投入增加所致'}
+  ]},
+  {name:'今世缘', sector:'白酒', ind:'FB', periods:[
+    {rev:0.143, profit:0.088, contract:null, note:null},
+    {rev:0.092, profit:0.073, contract:null, note:null},
+    {rev:-0.048, profit:-0.097, contract:0.292, note:null},
+    {rev:-0.107, profit:-0.179, contract:0.251, note:null}
+  ]},
+  {name:'洋河股份', sector:'白酒', ind:'FB', periods:[
+    {rev:-0.128, profit:-0.334, contract:null, note:null},
+    {rev:-0.319, profit:-0.399, contract:null, note:null},
+    {rev:-0.353, profit:-0.453, contract:null, note:null},
+    {rev:-0.343, profit:-0.537, contract:-0.156, note:null}
+  ]},
+  {name:'古井贡酒', sector:'白酒', ind:'FB', periods:[
+    {rev:0.164, profit:0.202, contract:null, note:null},
+    {rev:0.104, profit:0.128, contract:null, note:null},
+    {rev:0.005, profit:0.025, contract:null, note:null},
+    {rev:-0.139, profit:-0.166, contract:-0.392, note:'工程项目达到预定可使用状态转为固定资产所致'}
+  ]},
+  {name:'山西汾酒', sector:'白酒', ind:'FB', periods:[
+    {rev:0.128, profit:0.173, contract:null, note:null},
+    {rev:0.077, profit:0.061, contract:null, note:null},
+    {rev:0.053, profit:0.012, contract:0.136, note:null},
+    {rev:0.05, profit:0.011, contract:0.426, note:null}
+  ]},
+  {name:'水井坊', sector:'白酒', ind:'FB', periods:[
+    {rev:0.053, profit:0.057, contract:null, note:null},
+    {rev:0.093, profit:0.021, contract:null, note:null},
+    {rev:-0.128, profit:-0.576, contract:-0.394, note:null},
+    {rev:-0.38, profit:-0.712, contract:-0.302, note:null}
+  ]},
+  {name:'酒鬼酒', sector:'白酒', ind:'FB', periods:[
+    {rev:-0.497, profit:-0.977, contract:null, note:null},
+    {rev:-0.303, profit:-0.568, contract:null, note:null},
+    {rev:-0.435, profit:-0.926, contract:0.12, note:'公司主要生产馥郁香型白酒，公司目前产能 15000 吨左右，生产三区二期工程在建，项目投产后将新增 7800 吨产能'},
+    {rev:-0.362, profit:-1.174, contract:0.196, note:null}
+  ]},
+  {name:'老白干', sector:'白酒', ind:'FB', periods:[
+    {rev:0.019, profit:0.198, contract:null, note:null},
+    {rev:0.034, profit:0.119, contract:null, note:null},
+    {rev:0.005, profit:0.043, contract:-0.091, note:null},
+    {rev:-0.185, profit:-0.273, contract:-0.01, note:null}
+  ]},
+  {name:'舍得酒', sector:'白酒', ind:'FB', periods:[
+    {rev:-0.244, profit:-0.805, contract:null, note:null},
+    {rev:-0.251, profit:-0.371, contract:null, note:null},
+    {rev:-0.174, profit:-0.293, contract:0.064, note:null},
+    {rev:-0.17, profit:-0.333, contract:0.128, note:null}
+  ]},
+  {name:'迎驾贡酒', sector:'白酒', ind:'FB', periods:[
+    {rev:0.085, profit:0.135, contract:null, note:null},
+    {rev:-0.123, profit:-0.095, contract:null, note:null},
+    {rev:-0.169, profit:-0.182, contract:1.404, note:'主要系迎驾数字化循环经济产业园项目投资所致'},
+    {rev:-0.181, profit:-0.248, contract:1.797, note:null}
+  ]},
+  {name:'百润股份', sector:'威士忌', ind:'FB', periods:[
+    {rev:-0.066, profit:-0.112, contract:null, note:null},
+    {rev:-0.081, profit:0.07, contract:null, note:null},
+    {rev:-0.086, profit:-0.033, contract:null, note:null},
+    {rev:-0.049, profit:-0.043, contract:-0.703, note:'公司在建工程余额较上年期末降幅为70.25%，主要系报告期内工程项目转固及持续投入综合所致'}
+  ]},
+  {name:'东鹏饮料', sector:'饮料', ind:'FB', periods:[
+    {rev:0.406, profit:0.631, contract:null, note:null},
+    {rev:0.392, profit:0.476, contract:null, note:null},
+    {rev:0.364, profit:0.401, contract:0.706, note:null},
+    {rev:0.341, profit:0.424, contract:2.217, note:'主要系天津及昆明基地建设工程增加所致'}
+  ]},
+  {name:'华润饮料', sector:'饮料', ind:'FB', periods:[
+    {rev:0.0, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.185, profit:-0.286, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'农夫山泉', sector:'饮料', ind:'FB', periods:[
+    {rev:0.005, profit:0.0, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.156, profit:0.221, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'统一（饮料）', sector:'饮料', ind:'FB', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.076, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'海天味业', sector:'调味品', ind:'FB', periods:[
+    {rev:0.095, profit:0.128, contract:null, note:null},
+    {rev:0.081, profit:0.148, contract:null, note:null},
+    {rev:0.076, profit:0.141, contract:null, note:null},
+    {rev:0.06, profit:0.133, contract:0.067, note:null}
+  ]},
+  {name:'中粮科技', sector:'淀粉糖', ind:'FB', periods:[
+    {rev:-0.016, profit:1.042, contract:null, note:null},
+    {rev:-0.073, profit:0.632, contract:null, note:null},
+    {rev:-0.111, profit:0.744, contract:0.022, note:'进成都15万吨/年淀粉糖扩建项目有序建设，预计2025年内投产，同时新建 55 万吨/年太仓淀粉糖项目获批，加快淀粉糖战略布局落地'},
+    {rev:-0.123, profit:7.244, contract:0.585, note:null}
+  ]},
+  {name:'保龄宝', sector:'淀粉糖', ind:'FB', periods:[
+    {rev:-0.048, profit:1.06, contract:null, note:null},
+    {rev:0.242, profit:1.173, contract:null, note:null},
+    {rev:0.18, profit:0.375, contract:0.14, note:'2025年3月，公司根据中期规划及未来业务发展需要，立足市场前景、现有基础和资源，启动年产2万吨阿洛酮糖（二期）扩产项目，目前已完成备案正在建设中。预计2026'},
+    {rev:0.16, profit:0.465, contract:0.245, note:null}
+  ]},
+  {name:'华康股份', sector:'淀粉糖', ind:'FB', periods:[
+    {rev:0.009, profit:-0.277, contract:null, note:null},
+    {rev:0.286, profit:0.013, contract:null, note:null},
+    {rev:0.373, profit:0.029, contract:null, note:'本期舟山华康公司部分项目转固所致'},
+    {rev:0.405, profit:-0.004, contract:-0.59, note:null}
+  ]},
+  {name:'安琪酵母', sector:'添加剂', ind:'FB', periods:[
+    {rev:0.119, profit:0.041, contract:null, note:null},
+    {rev:0.089, profit:0.16, contract:null, note:null},
+    {rev:0.101, profit:0.181, contract:0.297, note:'年产 1.1 万吨酵母蛋白产业化示范工程 普洱公司年产 3.2 万吨酵母制品绿色制造项目 年产 13 吨微生物源脂质建设项'},
+    {rev:0.08, profit:0.196, contract:0.298, note:null}
+  ]},
+  {name:'梅花生物', sector:'添加剂', ind:'FB', periods:[
+    {rev:-0.097, profit:-0.139, contract:null, note:null},
+    {rev:-0.034, profit:0.355, contract:null, note:null},
+    {rev:-0.029, profit:0.217, contract:0.556, note:'吉林赖氨酸项目正在建设之中，预计于今年四季度投产试车 通辽建龙硫磺制酸改扩建项目，2.5亿元投资，尚未开始'},
+    {rev:-0.025, profit:0.47, contract:1.202, note:null}
+  ]},
+  {name:'新和成', sector:'添加剂', ind:'FB', periods:[
+    {rev:0.429, profit:1.17, contract:null, note:null},
+    {rev:0.209, profit:1.162, contract:null, note:null},
+    {rev:0.128, profit:0.635, contract:null, note:'天津尼龙新材料项目完成审批'},
+    {rev:0.054, profit:0.334, contract:0.132, note:null}
+  ]},
+  {name:'蔚蓝生物', sector:'添加剂', ind:'FB', periods:[
+    {rev:0.102, profit:-0.224, contract:null, note:null},
+    {rev:0.082, profit:-0.247, contract:null, note:null},
+    {rev:0.07, profit:-0.04, contract:null, note:'精制酶系列产品生产线建设项目基本完工'},
+    {rev:0.074, profit:0.315, contract:0.061, note:null}
+  ]},
+  {name:'星湖科技', sector:'添加剂', ind:'FB', periods:[
+    {rev:-0.002, profit:0.391, contract:null, note:null},
+    {rev:-0.038, profit:0.885, contract:null, note:null},
+    {rev:-0.038, profit:0.608, contract:1.608, note:'主要是本报告期持续推进60 万吨玉米深加工项目建设所致'},
+    {rev:-0.056, profit:0.431, contract:6.733, note:null}
+  ]},
+  {name:'伊品生物', sector:'添加剂', ind:'FB', periods:[
+    {rev:-0.004, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'阜丰集团', sector:'添加剂', ind:'FB', periods:[
+    {rev:-0.009, profit:-0.265, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.044, profit:0.379, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'溢多利', sector:'添加剂', ind:'FB', periods:[
+    {rev:0.038, profit:3.892, contract:null, note:null},
+    {rev:0.018, profit:-0.752, contract:null, note:null},
+    {rev:0.045, profit:-0.665, contract:null, note:null},
+    {rev:0.008, profit:-0.575, contract:0.369, note:'主要系报告期内溢多利科创园项目、内蒙古年产2万吨生物酶制剂技术创新与成果产业化项目、溢多利津市生物科技产业园服务中心建设项目、湖南世唯植物提取物生产基地 土建工'}
+  ]},
+  {name:'三元生物', sector:'添加剂', ind:'FB', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.156, profit:0.107, contract:1.511, note:null},
+    {rev:-0.075, profit:-0.168, contract:2.038, note:'在建工程报告期末余额147,808,058.95元，较年初增加203.83%，主要系报告期内未完工的在建工程项目增加所致'}
+  ]},
+  {name:'聚光科技', sector:'环境监测', ind:'LM', periods:[
+    {rev:0.136, profit:1.641, contract:-0.076, note:null},
+    {rev:0.014, profit:0.188, contract:0.063, note:null},
+    {rev:-0.082, profit:-2.109, contract:0.1, note:'国内市场：下滑明显（PPP收缩、环保项目周期性）'},
+    {rev:-0.111, profit:null, contract:0.054, note:null}
+  ]},
+  {name:'谱育科技', sector:'环境监测', ind:'LM', periods:[
+    {rev:0.206, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.058, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'雪迪龙', sector:'环境监测', ind:'LM', periods:[
+    {rev:-0.06, profit:-0.169, contract:-0.159, note:null},
+    {rev:0.097, profit:2.572, contract:0.074, note:null},
+    {rev:0.037, profit:0.255, contract:0.029, note:null},
+    {rev:0.063, profit:0.521, contract:0.281, note:null}
+  ]},
+  {name:'力合科技', sector:'环境监测', ind:'LM', periods:[
+    {rev:0.15, profit:-0.156, contract:0.021, note:null},
+    {rev:-0.075, profit:-0.155, contract:-0.081, note:null},
+    {rev:0.046, profit:0.141, contract:-0.089, note:'环境监测系统（水质、空气/烟气在线监测系统、信息管理平台）——收入 1.28 亿元，同比增长 7.28%，毛利率 43.6%'},
+    {rev:0.051, profit:0.022, contract:0.054, note:null}
+  ]},
+  {name:'碧兴物联', sector:'环境监测', ind:'LM', periods:[
+    {rev:-0.059, profit:null, contract:0.673, note:null},
+    {rev:0.092, profit:null, contract:-0.018, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.131, profit:null, contract:-0.02, note:null}
+  ]},
+  {name:'先河环保', sector:'环境监测', ind:'LM', periods:[
+    {rev:-0.014, profit:-0.232, contract:0.038, note:null},
+    {rev:0.171, profit:0.38, contract:-0.144, note:null},
+    {rev:0.061, profit:0.31, contract:-0.215, note:'国内：环保监测需求不振，地方财政约束使部分项目推迟'},
+    {rev:0.047, profit:0.027, contract:-0.235, note:null}
+  ]},
+  {name:'皖仪科技', sector:'环境监测', ind:'LM', periods:[
+    {rev:-0.059, profit:-0.06, contract:-0.276, note:null},
+    {rev:0.169, profit:null, contract:0.123, note:null},
+    {rev:0.038, profit:null, contract:0.265, note:null},
+    {rev:0.138, profit:null, contract:0.204, note:null}
+  ]},
+  {name:'禾信仪器', sector:'实验室', ind:'LM', periods:[
+    {rev:-0.447, profit:-0.453, contract:-0.415, note:null},
+    {rev:-0.32, profit:null, contract:-0.12, note:null},
+    {rev:-0.489, profit:null, contract:-0.283, note:'国内市场：核心收入来源，但受环保投资节奏放缓冲击严重。'},
+    {rev:-0.528, profit:null, contract:-0.228, note:null}
+  ]},
+  {name:'天瑞仪器', sector:'实验室', ind:'LM', periods:[
+    {rev:-0.163, profit:null, contract:-0.331, note:null},
+    {rev:-0.059, profit:null, contract:0.118, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.262, profit:null, contract:2.037, note:'预售账款增加'}
+  ]},
+  {name:'海能技术', sector:'实验室', ind:'LM', periods:[
+    {rev:-0.091, profit:-0.71, contract:2.36, note:null},
+    {rev:0.379, profit:null, contract:0.194, note:null},
+    {rev:0.349, profit:null, contract:0.337, note:null},
+    {rev:0.235, profit:null, contract:-0.277, note:null}
+  ]},
+  {name:'莱伯泰科', sector:'实验室', ind:'LM', periods:[
+    {rev:0.019, profit:0.42, contract:-0.161, note:null},
+    {rev:-0.061, profit:0.103, contract:-0.324, note:null},
+    {rev:-0.103, profit:-0.081, contract:-0.514, note:'实验分析仪器（占比79.4%）：收入下降 -2.02%，仍是收入主力。 洁净环保实验室解决方案（占比7.94%）：收入大幅下降 -57.02%，是整体业绩下滑的'},
+    {rev:-0.084, profit:-0.032, contract:-0.455, note:null}
+  ]},
+  {name:'新芝生物', sector:'实验室', ind:'LM', periods:[
+    {rev:-0.119, profit:-0.285, contract:0.5, note:null},
+    {rev:0.191, profit:1.215, contract:0.026, note:null},
+    {rev:0.064, profit:0.054, contract:0.178, note:'生物样品处理仪器：收入 4,166 万元，同比增长 7.27%， 实验室自动化与通用设备：收入 1,739 万元，同比增长 5.51% 分子生物学与药物研究仪器'},
+    {rev:0.05, profit:-0.044, contract:0.599, note:'当期预收款项增加'}
+  ]},
+  {name:'岛津 （日元）', sector:'实验室', ind:'LM', periods:[
+    {rev:0.009, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.103, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'沃特世 （Waters)', sector:'实验室', ind:'LM', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.05, profit:null, contract:null, note:null},
+    {rev:0.11, profit:null, contract:null, note:'Q2收入1.17亿美元，创下近三年新高，增长17%'},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'丹纳赫', sector:'实验室', ind:'LM', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'赛默飞', sector:'实验室', ind:'LM', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.06, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'安捷伦 (美元)', sector:'实验室', ind:'LM', periods:[
+    {rev:-0.12, profit:null, contract:null, note:null},
+    {rev:-0.05, profit:null, contract:null, note:null},
+    {rev:-0.023, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'华大智造', sector:'基因', ind:'LM', periods:[
+    {rev:0.035, profit:0.031, contract:-0.003, note:null},
+    {rev:-0.143, profit:null, contract:0.076, note:null},
+    {rev:-0.079, profit:null, contract:0.262, note:'1. 仪器收入 2.98 亿元，同比下降 23.18% 2. 测序仪新增销售超 600 台，同比增加 82.47% 3. 基因测序仪业务在海外实现收入 30,0'},
+    {rev:-0.0, profit:null, contract:0.258, note:null}
+  ]},
+  {name:'诺禾致源', sector:'基因', ind:'LM', periods:[
+    {rev:0.054, profit:0.105, contract:-0.032, note:null},
+    {rev:0.072, profit:0.24, contract:-0.039, note:null},
+    {rev:0.044, profit:-0.027, contract:null, note:'大陆营收占比49%，同比增长 2.22%； 港澳台及海外地区营收占比51%，同比增长 6.48%。'},
+    {rev:0.041, profit:-0.173, contract:-0.055, note:null}
+  ]},
+  {name:'贝瑞基因', sector:'基因', ind:'LM', periods:[
+    {rev:-0.064, profit:null, contract:-0.066, note:null},
+    {rev:-0.221, profit:null, contract:-0.029, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.167, profit:null, contract:-0.064, note:null}
+  ]},
+  {name:'迈瑞', sector:'IVD', ind:'LM', periods:[
+    {rev:0.051, profit:0.007, contract:0.098, note:null},
+    {rev:-0.121, profit:-0.168, contract:0.028, note:null},
+    {rev:-0.184, profit:-0.33, contract:-0.053, note:'1.生命信息与支持业务收入 67.26 亿元，同比下降 13.6% 2. IVD业务收入 46.73 亿元，同比下降 23.2%，国内：受集采及试剂价格下调影响'},
+    {rev:-0.124, profit:-0.288, contract:0.045, note:'Q3业绩有所改善'}
+  ]},
+  {name:'达安基因', sector:'IVD', ind:'LM', periods:[
+    {rev:-0.278, profit:-9.84, contract:0.934, note:null},
+    {rev:-0.147, profit:null, contract:-0.101, note:null},
+    {rev:-0.154, profit:null, contract:null, note:null},
+    {rev:-0.148, profit:null, contract:-0.27, note:'前海外业务占营收比重相对较小，海外市场的业务发展尚需要一段时间的培育'}
+  ]},
+  {name:'科华生物', sector:'IVD', ind:'LM', periods:[
+    {rev:-0.276, profit:-1.737, contract:0.424, note:null},
+    {rev:-0.12, profit:null, contract:-0.036, note:null},
+    {rev:-0.127, profit:-1.544, contract:-0.01, note:'国内市场：收入 5.66 亿元，占比 71.3%，同比下降 21.3%。毛利率 37.0% 海外市场：收入 2.28 亿元，占比 28.7%，同比增长 20.2'},
+    {rev:-0.118, profit:-0.904, contract:0.033, note:null}
+  ]},
+  {name:'迈克生物', sector:'IVD', ind:'LM', periods:[
+    {rev:-0.12, profit:-0.594, contract:-0.004, note:null},
+    {rev:-0.172, profit:-0.801, contract:0.082, note:null},
+    {rev:-0.159, profit:-0.831, contract:0.281, note:null},
+    {rev:-0.174, profit:-0.868, contract:0.078, note:'1. 政策对行业的影响尚未消除 2.前三季度，公司主要流水线安装286条 3.海外业务未来两到三年目标增速保持在100%'}
+  ]},
+  {name:'科华生物', sector:'IVD', ind:'LM', periods:[
+    {rev:0.154, profit:0.106, contract:-0.124, note:null},
+    {rev:0.101, profit:0.026, contract:-0.353, note:null},
+    {rev:-0.012, profit:0.146, contract:-0.238, note:'1.国内化学发光+774台，试剂收入-18.96%，仪器收入+18.18% 2. 海外市场共计销售化学发光免疫分析仪 1,971 台'},
+    {rev:0.004, profit:-0.129, contract:-0.234, note:null}
+  ]},
+  {name:'迪瑞医疗', sector:'IVD', ind:'LM', periods:[
+    {rev:-0.116, profit:-0.485, contract:-0.761, note:null},
+    {rev:-0.725, profit:-0.871, contract:-0.024, note:null},
+    {rev:-0.601, profit:-1.171, contract:-0.234, note:'1. 仪器收入下滑75.97% 2.试剂收入下滑22.75%'},
+    {rev:-0.601, profit:null, contract:-0.223, note:null}
+  ]},
+  {name:'万孚生物', sector:'IVD', ind:'LM', periods:[
+    {rev:0.108, profit:0.152, contract:0.058, note:null},
+    {rev:-0.071, profit:-0.134, contract:-0.181, note:null},
+    {rev:-0.209, profit:-0.468, contract:-0.158, note:'1.自主大型仪器及流水线市场端出库 2,409 台（条），其中： 海外 913 台'},
+    {rev:-0.225, profit:null, contract:-0.069, note:'Q3海外表现良好，国内出现下滑。总体国外业务进展较为顺利，国内业务受到压制'}
+  ]},
+  {name:'英诺特', sector:'IVD', ind:'LM', periods:[
+    {rev:0.3, profit:0.419, contract:-0.431, note:null},
+    {rev:-0.265, profit:-0.348, contract:-0.081, note:null},
+    {rev:-0.344, profit:-0.41, contract:-0.592, note:'诊断仪器：3,037.91 万元，同比下降 18.21%，收入占比 11.33%'},
+    {rev:-0.366, profit:-0.481, contract:-0.829, note:null}
+  ]},
+  {name:'亚辉龙', sector:'IVD', ind:'LM', periods:[
+    {rev:-0.02, profit:-0.151, contract:0.008, note:null},
+    {rev:-0.031, profit:-0.846, contract:-0.067, note:null},
+    {rev:-0.158, profit:-0.868, contract:0.014, note:'1.国内仪器：新增装机546台，其中单机600速高端机占比 46.7% 2.海外仪器：新增装机 544 台，流水线新增装机 57 条（+54% YoY）'},
+    {rev:-0.077, profit:null, contract:-0.058, note:null}
+  ]},
+  {name:'安图生物', sector:'IVD', ind:'LM', periods:[
+    {rev:0.006, profit:-0.019, contract:0.146, note:null},
+    {rev:-0.086, profit:-0.168, contract:-0.307, note:null},
+    {rev:-0.067, profit:-0.078, contract:-0.079, note:'仪器收入226,416,200.28,同比下滑18%'},
+    {rev:-0.075, profit:-0.09, contract:-0.032, note:null}
+  ]},
+  {name:'睿昂基因', sector:'IVD', ind:'LM', periods:[
+    {rev:-0.062, profit:null, contract:0.057, note:null},
+    {rev:-0.147, profit:5.293, contract:-0.202, note:null},
+    {rev:-0.223, profit:null, contract:-0.388, note:null},
+    {rev:-0.266, profit:null, contract:-0.478, note:null}
+  ]},
+  {name:'基蛋生物', sector:'IVD', ind:'LM', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.17, profit:-0.335, contract:null, note:null},
+    {rev:-0.139, profit:-0.194, contract:0.138, note:null}
+  ]},
+  {name:'美康生物', sector:'IVD', ind:'LM', periods:[
+    {rev:-0.076, profit:0.006, contract:-0.277, note:null},
+    {rev:-0.223, profit:-0.616, contract:-0.019, note:null},
+    {rev:-0.224, profit:-0.681, contract:-0.129, note:'体外诊断仪器收入：77,159,953，增长22.22% 国际业务实现收入1,713.93 万元，较上年同期增长142.27%'},
+    {rev:-0.193, profit:-0.73, contract:-0.181, note:null}
+  ]},
+  {name:'普门科技', sector:'IVD', ind:'LM', periods:[
+    {rev:0.002, profit:0.051, contract:-0.446, note:null},
+    {rev:-0.297, profit:-0.499, contract:-0.215, note:null},
+    {rev:-0.141, profit:-0.409, contract:-0.148, note:null},
+    {rev:-0.107, profit:-0.444, contract:0.355, note:null}
+  ]},
+  {name:'浩欧博', sector:'IVD', ind:'LM', periods:[
+    {rev:0.02, profit:-0.222, contract:-0.323, note:null},
+    {rev:-0.093, profit:-0.57, contract:-0.045, note:null},
+    {rev:-0.065, profit:-0.467, contract:-0.155, note:null},
+    {rev:-0.048, profit:-0.12, contract:-0.116, note:null}
+  ]},
+  {name:'赛科希德', sector:'IVD', ind:'LM', periods:[
+    {rev:0.11, profit:-0.034, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.126, profit:-0.235, contract:-0.048, note:null},
+    {rev:-0.136, profit:-0.219, contract:-0.186, note:null}
+  ]},
+  {name:'利德曼', sector:'IVD', ind:'LM', periods:[
+    {rev:-0.198, profit:null, contract:-0.139, note:null},
+    {rev:-0.166, profit:null, contract:-0.061, note:null},
+    {rev:-0.148, profit:null, contract:0.36, note:'诊断仪器（含配件耗材）：收入 2,274.16 万元，同比增长 106.73%，占比 14.17%，公司正通过“仪器装机 → 带动试剂”形成新增长点'},
+    {rev:-0.105, profit:null, contract:0.38, note:null}
+  ]},
+  {name:'美康生物', sector:'IVD', ind:'LM', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.193, profit:-0.73, contract:-0.181, note:null}
+  ]},
+  {name:'凯普生物', sector:'IVD', ind:'LM', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.204, profit:null, contract:-0.154, note:null}
+  ]},
+  {name:'理邦精密仪器', sector:'IVD', ind:'LM', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.046, profit:0.493, contract:0.539, note:'本期预收货款增加'}
+  ]},
+  {name:'新华-医疗器械', sector:'感染控制', ind:'LM', periods:[
+    {rev:-0.028, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.107, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'怡和嘉业', sector:'呼吸机', ind:'LM', periods:[
+    {rev:-0.248, profit:-0.477, contract:0.353, note:null},
+    {rev:0.381, profit:0.441, contract:0.184, note:null},
+    {rev:0.423, profit:0.422, contract:null, note:null},
+    {rev:0.342, profit:0.439, contract:0.012, note:null}
+  ]},
+  {name:'航天长峰-医疗', sector:'呼吸机', ind:'LM', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'健帆生物', sector:'血透', ind:'LM', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.241, profit:-0.295, contract:1.33, note:null},
+    {rev:-0.291, profit:-0.427, contract:null, note:null}
+  ]},
+  {name:'山外山', sector:'血透', ind:'LM', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.287, profit:0.345, contract:-0.022, note:null},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'威高血净', sector:'血透', ind:'LM', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.085, profit:0.109, contract:-0.199, note:'主要来自国内'},
+    {rev:0.035, profit:0.097, contract:-0.302, note:null}
+  ]},
+  {name:'捷佳伟创', sector:'光伏', ind:'EI', periods:[
+    {rev:1.163, profit:null, contract:-0.073, note:null},
+    {rev:0.59, profit:0.224, contract:-0.075, note:null},
+    {rev:0.264, profit:0.493, contract:-0.06, note:null},
+    {rev:0.062, profit:0.329, contract:-0.506, note:null}
+  ]},
+  {name:'迈为', sector:'光伏', ind:'EI', periods:[
+    {rev:0.215, profit:null, contract:-0.03, note:null},
+    {rev:0.005, profit:-0.377, contract:-0.096, note:null},
+    {rev:-0.135, profit:-0.146, contract:-0.208, note:'报告期内随着发出商品陆续获得客户验收，合同负债减少'},
+    {rev:-0.201, profit:-0.126, contract:-0.369, note:null}
+  ]},
+  {name:'晶盛机电', sector:'光伏', ind:'EI', periods:[
+    {rev:-0.023, profit:null, contract:-0.475, note:null},
+    {rev:-0.304, profit:-0.464, contract:-0.317, note:null},
+    {rev:-0.423, profit:-0.695, contract:null, note:null},
+    {rev:-0.429, profit:-0.696, contract:-0.475, note:null}
+  ]},
+  {name:'奥特维', sector:'光伏', ind:'EI', periods:[
+    {rev:0.459, profit:null, contract:-0.326, note:null},
+    {rev:-0.219, profit:-0.576, contract:-0.022, note:null},
+    {rev:-0.236, profit:-0.61, contract:0.046, note:null},
+    {rev:-0.327, profit:-0.713, contract:0.08, note:null}
+  ]},
+  {name:'亿华通', sector:'氢能', ind:'EI', periods:[
+    {rev:-0.542, profit:null, contract:8.699, note:null},
+    {rev:-0.199, profit:null, contract:0.061, note:null},
+    {rev:-0.532, profit:null, contract:0.048, note:'1.市场仍处早期，行业规模同比缩减（2025H1国内燃料电池汽车产销分别同比下降47.2%、46.8%） 2.截至2025年6月底，全国公告1235款燃料电池汽'},
+    {rev:-0.673, profit:null, contract:0.837, note:null}
+  ]},
+  {name:'国鸿氢能', sector:'氢能', ind:'EI', periods:[
+    {rev:-0.369, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.557, profit:3.019, contract:null, note:'氢燃料电池系统：36.7百万元（占比62%），销量11,090kW，均价3305元/kW（同比下降12.5%）。 电堆：2.0百万元，销量2,396kW，均价8'},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'国富氢能', sector:'氢能', ind:'EI', periods:[
+    {rev:-0.122, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.192, profit:-0.93, contract:null, note:'1.车载高压供氢系统：收入9.13亿元，同比增长26.7%，配套燃料电池汽车超500款 2.加氢站设备：收入1.40亿元，同比下降77.7%，受政策补贴减少与市'},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'重塑能源', sector:'氢能', ind:'EI', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.099, profit:null, contract:null, note:'氢燃料电池系统收入 7.68亿元，同比大增141.8%，成为主要增长点。 零部件收入大幅下降至 2.03亿元（2024H1：8.24亿元），拖累整体收入。 海外'},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'科威尔', sector:'测试', ind:'EI', periods:[
+    {rev:-0.096, profit:null, contract:0.112, note:null},
+    {rev:-0.036, profit:0.113, contract:0.189, note:null},
+    {rev:-0.116, profit:-0.318, contract:0.033, note:'IGBT测试：国内本土企业加速崛起，公司在产线级测试解决方案中具备竞争力，并已前瞻布局SiC模块测试'},
+    {rev:-0.02, profit:-0.014, contract:0.045, note:null}
+  ]},
+  {name:'三环集团', sector:'SOFC', ind:'EI', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:'公司正在积极规划SOFC和SOEC的未来发展'}
+  ]},
+  {name:'微导纳米', sector:'光伏', ind:'EI', periods:[
+    {rev:0.607, profit:null, contract:0.049, note:null},
+    {rev:1.99, profit:22.536, contract:-0.066, note:null},
+    {rev:0.334, profit:5.388, contract:0.547, note:'光伏设备收入：8.04亿元，同比增长 31.53%。 半导体设备收入：1.94亿元，同比增长 27.17% 截至2025年6月30日，半导体领域在手订单 23.'},
+    {rev:0.115, profit:0.778, contract:0.068, note:null}
+  ]},
+  {name:'北方华创', sector:'半导体', ind:'EI', periods:[
+    {rev:0.351, profit:null, contract:-0.253, note:null},
+    {rev:0.379, profit:0.388, contract:-0.075, note:null},
+    {rev:0.295, profit:0.15, contract:-0.196, note:null},
+    {rev:0.33, profit:0.148, contract:-0.244, note:null}
+  ]},
+  {name:'中微公司', sector:'半导体', ind:'EI', periods:[
+    {rev:0.447, profit:null, contract:2.352, note:null},
+    {rev:0.354, profit:0.257, contract:0.186, note:null},
+    {rev:0.469, profit:0.35, contract:0.224, note:'订单增加，收到客户的预付款也相应增加 占公司收入75%的主打设备 - 等离子刻蚀设备，2025H1销售37.81亿元，同比增长40.1%'},
+    {rev:0.464, profit:0.296, contract:0.697, note:'刻蚀设备收入 61.01亿元，同比增长约38.26%；LPCVD 和 ALD 等薄膜设备收入4.03 亿元，同比增长约 1332.69%'}
+  ]},
+  {name:'至纯科技', sector:'半导体', ind:'EI', periods:[
+    {rev:0.144, profit:null, contract:-0.288, note:null},
+    {rev:-0.102, profit:-0.701, contract:0.342, note:null},
+    {rev:0.052, profit:-0.298, contract:0.584, note:'在手订单的合同预收款增加'},
+    {rev:-0.103, profit:-0.502, contract:1.265, note:null}
+  ]},
+  {name:'盛美上海', sector:'半导体', ind:'EI', periods:[
+    {rev:0.445, profit:null, contract:0.262, note:null},
+    {rev:0.417, profit:2.072, contract:0.111, note:null},
+    {rev:0.358, profit:0.753, contract:-0.221, note:'清洗设备：全球市占率 8%（第 4），中国市场单片清洗市占率超 30%，居第 2 电镀设备：全球市占率 8.2%（第 3），ECP 电镀腔累计交付超 1500 '},
+    {rev:0.294, profit:0.654, contract:-0.377, note:null}
+  ]},
+  {name:'拓荆科技', sector:'半导体', ind:'EI', periods:[
+    {rev:0.517, profit:null, contract:1.159, note:null},
+    {rev:0.502, profit:null, contract:0.258, note:null},
+    {rev:0.542, profit:-0.316, contract:0.521, note:'合同负债达453,577.43万元，相较2024年年末增长52.07%，主要系在手订单增加所致，为后续收入持续增长奠定了基础。'},
+    {rev:0.853, profit:1.101, contract:0.641, note:null}
+  ]},
+  {name:'华海清科', sector:'半导体', ind:'EI', periods:[
+    {rev:0.358, profit:null, contract:0.349, note:null},
+    {rev:0.341, profit:0.155, contract:-0.084, note:null},
+    {rev:0.303, profit:0.117, contract:null, note:'本期预收款减少 扩产布局：北京厂区启用，昆山晶圆再生扩产，形成南北协同'},
+    {rev:0.303, profit:0.068, contract:-0.156, note:null}
+  ]},
+  {name:'芯源微', sector:'半导体', ind:'EI', periods:[
+    {rev:0.021, profit:null, contract:0.201, note:null},
+    {rev:0.127, profit:-0.709, contract:0.216, note:null},
+    {rev:0.022, profit:-0.798, contract:0.119, note:null},
+    {rev:-0.103, profit:null, contract:0.781, note:null}
+  ]},
+  {name:'中科飞测', sector:'半导体', ind:'EI', periods:[
+    {rev:0.549, profit:null, contract:0.429, note:null},
+    {rev:0.249, profit:null, contract:-0.043, note:null},
+    {rev:0.514, profit:null, contract:-0.034, note:null},
+    {rev:0.479, profit:null, contract:-0.097, note:null}
+  ]},
+  {name:'英维克', sector:'液冷', ind:'EI', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.502, profit:0.175, contract:0.762, note:'主要原因系报告期预收客户货款增加所致'},
+    {rev:0.402, profit:0.131, contract:0.424, note:null}
+  ]},
+  {name:'申菱环境', sector:'液冷', ind:'EI', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.289, profit:0.359, contract:0.214, note:null},
+    {rev:0.268, profit:0.051, contract:0.222, note:null}
+  ]},
+  {name:'高澜股份', sector:'液冷', ind:'EI', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.478, profit:null, contract:1.21, note:'主要系报告期内项目预收款增加影响所致'},
+    {rev:0.625, profit:2.94, contract:2.514, note:null}
+  ]},
+  {name:'同飞股份', sector:'液冷', ind:'EI', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.58, profit:4.667, contract:0.747, note:null},
+    {rev:0.515, profit:1.581, contract:0.836, note:null}
+  ]},
+  {name:'浪潮信息', sector:'液冷', ind:'EI', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.9, profit:0.349, contract:1.463, note:null},
+    {rev:0.449, profit:0.153, contract:1.789, note:'合同负债较期初增加 178.92%，主要系预收客户货款增多所致'}
+  ]},
+  {name:'依米康', sector:'液冷', ind:'EI', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.548, profit:1.241, contract:0.238, note:null},
+    {rev:0.526, profit:2.737, contract:0.303, note:'主要系本期预收项目款增加所致'}
+  ]},
+  {name:'捷佳伟创', sector:'光伏', ind:'GI', periods:[
+    {rev:1.163, profit:null, contract:-0.073, note:null},
+    {rev:0.59, profit:0.224, contract:-0.075, note:null},
+    {rev:0.264, profit:0.493, contract:-0.06, note:null},
+    {rev:0.062, profit:0.329, contract:-0.506, note:null}
+  ]},
+  {name:'迈为', sector:'光伏', ind:'GI', periods:[
+    {rev:0.215, profit:null, contract:-0.03, note:null},
+    {rev:0.005, profit:-0.377, contract:-0.096, note:null},
+    {rev:-0.135, profit:-0.146, contract:-0.208, note:'报告期内随着发出商品陆续获得客户验收，合同负债减少'},
+    {rev:-0.201, profit:-0.126, contract:-0.369, note:null}
+  ]},
+  {name:'晶盛机电', sector:'光伏', ind:'GI', periods:[
+    {rev:-0.023, profit:null, contract:-0.475, note:null},
+    {rev:-0.304, profit:-0.464, contract:-0.317, note:null},
+    {rev:-0.423, profit:-0.695, contract:null, note:null},
+    {rev:-0.429, profit:-0.696, contract:-0.475, note:null}
+  ]},
+  {name:'奥特维', sector:'光伏', ind:'GI', periods:[
+    {rev:0.459, profit:null, contract:-0.326, note:null},
+    {rev:-0.219, profit:-0.576, contract:-0.022, note:null},
+    {rev:-0.236, profit:-0.61, contract:0.046, note:null},
+    {rev:-0.327, profit:-0.713, contract:0.08, note:null}
+  ]},
+  {name:'先导智能', sector:'锂电', ind:'GI', periods:[
+    {rev:-0.287, profit:null, contract:-0.078, note:null},
+    {rev:-0.064, profit:-0.353, contract:0.131, note:null},
+    {rev:0.149, profit:0.612, contract:0.7, note:'1.核心业务：新能源智能装备，涵盖锂电池、光伏、3C 等下游领域设备 2.上半年锂电设备订单 65 亿元（同比增120%-150%），头部客户进入新一轮资本开支'},
+    {rev:0.146, profit:0.95, contract:0.146, note:null}
+  ]},
+  {name:'亿纬锂能', sector:'锂电', ind:'GI', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.301, profit:-0.249, contract:0.551, note:'1.出货量预期猛增，海外突破。动力：25年50G动力，26年100G，27年150G 2.储能：25年80G储能，26年120G，27年150G。现在产能利用率'},
+    {rev:0.322, profit:-0.117, contract:0.426, note:null}
+  ]},
+  {name:'宏工科技 锂电', sector:'锂电', ind:'GI', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.166, profit:0.266, contract:null, note:'2024年，锂电行业整体仍处于弱复苏状态，部分电池厂商的产能利用率承压，扩产计划停滞或放缓，上游锂电池设备制造企业获取的新增订单较少，受此情形影响，公司 202'},
+    {rev:null, profit:null, contract:null, note:null}
+  ]},
+  {name:'利元亨', sector:'锂电', ind:'GI', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.175, profit:null, contract:0.7, note:'公司上半年新签订单金额已超过去年全年签单金额'},
+    {rev:0.044, profit:null, contract:0.059, note:null}
+  ]},
+  {name:'海目星', sector:'锂电', ind:'GI', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.305, profit:null, contract:1.175, note:'公司实现新增订单约44.21亿元，同比增长约117.5%；截至2025年6月30日，在手订单约为100.85亿元，同比增长约46% 公司海外的新签订单（含交付地'},
+    {rev:-0.255, profit:null, contract:0.466, note:null}
+  ]},
+  {name:'铂力特', sector:'3D 打印', ind:'GI', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.172, profit:0.23, contract:0.223, note:null},
+    {rev:0.465, profit:7.188, contract:1.253, note:null}
+  ]},
+  {name:'华曙高科', sector:'3D 打印', ind:'GI', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.054, profit:-1.121, contract:-0.003, note:null},
+    {rev:0.154, profit:-0.819, contract:0.269, note:null}
   ]},
 ];
 
