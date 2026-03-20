@@ -152,7 +152,7 @@ body{background:var(--bg);color:var(--text);font-family:var(--display);min-heigh
 .mtab2:hover{color:var(--text2)}
 .mtab2.on{color:var(--gold);border-bottom-color:var(--gold)}
 
-.reveal{opacity:0;transform:translateY(16px);transition:all .6s cubic-bezier(.16,1,.3,1)}
+.reveal{opacity:0;transform:translateY(16px);transition:all .5s cubic-bezier(.16,1,.3,1)}
 .reveal.visible{opacity:1;transform:translateY(0)}
 
 @media(max-width:768px){
@@ -646,6 +646,14 @@ function renderCards() {
     });
   }, 50);
 }
+
+// Also trigger reveal on scroll
+function checkReveal() {
+  document.querySelectorAll('.reveal:not(.visible)').forEach(el => {
+    el.classList.add('visible');
+  });
+}
+window.addEventListener('scroll', checkReveal, {passive: true});
 
 // ══ MODAL ══════════════════════════════════════════════════════════
 function openModal(co) {
