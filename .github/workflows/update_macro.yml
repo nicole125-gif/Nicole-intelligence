@@ -20,11 +20,8 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: 安装依赖
-        run: pip install akshare
-
       - name: 运行更新脚本
-        run: python scripts/update_macro.py
+        run: python scripts/debug_te.py
 
       - name: Commit并Push
         run: |
