@@ -259,7 +259,7 @@ body{background:#020810;color:#fff;font-family:'Helvetica Neue',Arial,sans-serif
 .metrics-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:2px}
 @media(max-width:900px){.metrics-grid{grid-template-columns:1fr 1fr;gap:2px}}
 @media(max-width:500px){.metrics-grid{grid-template-columns:1fr;gap:2px}}
-.sbu-scroll{display:flex;gap:10px;}
+.sbu-scroll{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;}
 .sbu-scroll::-webkit-scrollbar{display:none}
 .sbu-detail{margin-bottom:24px;border:1px solid rgba(255,255,255,.05);background:rgba(6,12,28,.95);transition:border-color .5s,background .5s}
 .sbu-detail.active-sbu{border-color:var(--sc)40;background:linear-gradient(135deg,var(--sc)06 0%,rgba(6,12,28,.98) 100%)}
@@ -358,7 +358,7 @@ body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([oncli
         <button onclick="scrollSBU(1)"  style="width:30px;height:30px;background:rgba(255,107,53,.08);border:1px solid rgba(255,107,53,.3);color:#FF6B35;cursor:pointer;font-family:'Courier New',monospace;font-size:13px;display:flex;align-items:center;justify-content:center">→</button>
       </div>
     </div>
-    <div style="position:relative"><div class="sbu-scroll" id="sbu-scroll"></div><div style="position:absolute;top:0;right:0;bottom:12px;width:60px;background:linear-gradient(270deg,#030810,transparent);pointer-events:none"></div></div>
+    <div class="sbu-scroll" id="sbu-scroll"></div>
   </div>
 
   <!-- SBU DETAIL -->
@@ -495,7 +495,7 @@ function renderSummaryStats() {
 
 function renderSBUCards() {
   const scroll = document.getElementById('sbu-scroll');
-  const widths = ['calc(25% - 8px)','calc(25% - 8px)','calc(25% - 8px)','calc(25% - 8px)'];
+  const widths = ['auto','auto','auto','auto'];
   const clips = [
     "polygon(0 0,calc(100% - 12px) 0,100% 12px,100% 100%,0 100%)",
     "polygon(12px 0,100% 0,100% 100%,0 100%,0 12px)",
