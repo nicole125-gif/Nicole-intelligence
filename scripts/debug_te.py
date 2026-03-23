@@ -1,7 +1,4 @@
 #!/usr/bin/env python3
-"""
-调试脚本：打印TE页面原始HTML结构，帮助确认正则
-"""
 import urllib.request, re
 
 url = "https://tradingeconomics.com/china/indicators"
@@ -14,11 +11,11 @@ with urllib.request.urlopen(req, timeout=20) as r:
 
 print(f"页面总长度: {len(page)}")
 
-# 找Industrial Production附近原始HTML
-for keyword in ["Industrial Production", "Producer Prices", "Exports YoY", "GDP Annual"]:
+# 搜索PPI相关所有关键词
+for keyword in ["Producer Prices Change", "PPI", "producer-prices-change", "producer-prices"]:
     idx = page.find(keyword)
     if idx >= 0:
-        print(f"\n=== {keyword} @{idx} ===")
-        print(page[idx-50:idx+200])
+        print(f"\n=== '{keyword}' @{idx} ===")
+        print(page[idx-50:idx+300])
     else:
-        print(f"\n=== {keyword}: 未找到 ===")
+        print(f"\n=== '{keyword}': 未找到 ===")
