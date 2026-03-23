@@ -18,7 +18,7 @@ TE_KEY = "guest:guest"
 TE_SOURCES = [
     {
         "label":        "工业增加值",
-        "te_indicator": "Industrial Production",
+        "te_indicator": "Industrial Production YoY",
         "trend_tmpl":   "↑ {date}同比",
         "insight_tmpl": "工业生产同比{value}%",
         "sparkData_2024": 5.1,
