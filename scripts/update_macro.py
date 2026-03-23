@@ -26,7 +26,13 @@ INDICATOR_MAP = {
         "sparkData_2024": 5.9,
         "sparkData_2025": 4.2,
     },
-    "GDP 增速": {
+    "制造业PMI": {
+        "te_name":        "NBS Manufacturing PMI",
+        "trend_tmpl":     "{date}",
+        "insight_tmpl":   "制造业PMI {value}",
+        "sparkData_2024": 50.2,
+        "sparkData_2025": 50.1,
+    },
         "te_name":        "GDP Annual Growth Rate",
         "trend_tmpl":     "{date}季度同比",
         "insight_tmpl":   "GDP同比{value}%",
@@ -36,7 +42,7 @@ INDICATOR_MAP = {
 }
 
 STATIC_METRICS = [
-    {"label": "制造业固投", "value": 3.1, "trend": "1-2月同比", "insight": "制造业投资稳步推进", "sparkData": [9.2, 10.8, 3.1]},
+    {"label": "制造业PMI", "value": 50.8, "trend": "2026-02", "insight": "制造业扩张区间", "sparkData": [50.2, 50.1, 50.8]},
 ]
 
 STATIC_SUMMARY = [
