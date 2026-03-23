@@ -13,55 +13,33 @@ from datetime import datetime
 
 HTML_FILE = "index.html"
 
-# ── 统计局数据源配置 ──────────────────────────────────────
-# 每月统计局发布新数据后，只需更新这里的URL即可
+# ── 统计局数据源（每月更新URL即可）───────────────────────
 NBS_SOURCES = [
     {
         "label": "工业增加值",
         "url": "https://www.stats.gov.cn/sj/zxfb/202603/t20260316_1962782.html",
-        # 从页面正文提取数值的正则（匹配"同比实际增长X.X%"）
         "pattern": r"规模以上工业增加值同比实际增长([\d.]+)%",
-        "unit": "%",
-        "trend_template": "↑ {period}同比",
-        "period": "1-2月",
+        "trend": "↑ 1-2月同比",
+        "insight": "开年工业生产强劲",
         "sparkData_2024": 5.1,
         "sparkData_2025": 5.7,
-        "insight_template": "工业生产{period}同比增{value}%",
     },
     {
         "label": "制造业固投",
         "url": "https://www.stats.gov.cn/sj/zxfb/202603/t20260316_1962784.html",
-        # 从页面正文提取制造业投资数值
         "pattern": r"制造业投资增长([\d.]+)%",
-        "unit": "%",
-        "trend_template": "{period}同比",
-        "period": "1-2月",
+        "trend": "1-2月同比",
+        "insight": "制造业投资稳步推进",
         "sparkData_2024": 9.2,
         "sparkData_2025": 10.8,
-        "insight_template": "制造业投资{period}增{value}%",
     },
 ]
 
-# 其余指标暂用上次确认值（后续可逐步加入抓取）
+# 其余指标用固定值
 STATIC_METRICS = [
-    {
-        "label": "GDP 增速",
-        "value": 5.0, "unit": "%", "trend": "目标值",
-        "insight": "结构性增长优于规模扩张",
-        "sparkData": [4.6, 4.8, 5.0],
-    },
-    {
-        "label": "出口增速",
-        "value": 4.8, "unit": "%", "trend": "Shift",
-        "insight": "高附加值组件替代传统代工",
-        "sparkData": [5.9, 4.2, 4.8],
-    },
-    {
-        "label": "PPI 走势",
-        "value": 1.2, "unit": "%", "trend": "Recovery",
-        "insight": "中下游利润空间重构",
-        "sparkData": [-2.7, -0.8, 1.2],
-    },
+    {"label": "GDP 增速",   "value": 5.0,  "trend": "目标值",   "insight": "结构性增长优于规模扩张",   "sparkData": [4.6, 4.8, 5.0]},
+    {"label": "出口增速",   "value": 4.8,  "trend": "Shift",    "insight": "高附加值组件替代传统代工", "sparkData": [5.9, 4.2, 4.8]},
+    {"label": "PPI 走势",   "value": 1.2,  "trend": "Recovery", "insight": "中下游利润空间重构",       "sparkData": [-2.7, -0.8, 1.2]},
 ]
 
 STATIC_SUMMARY = [
@@ -72,98 +50,68 @@ STATIC_SUMMARY = [
 ]
 
 
-# ── 抓取统计局页面并解析数值 ──────────────────────────────
+# ── 抓取统计局 ────────────────────────────────────────────
 
-def fetch_nbs_value(source: dict) -> dict | None:
-    """抓取统计局页面，用正则提取目标数值，返回指标更新dict"""
+def fetch_nbs(source: dict) -> dict | None:
     label = source["label"]
-    url = source["url"]
-    pattern = source["pattern"]
-
     try:
         req = urllib.request.Request(
-            url,
+            source["url"],
             headers={"User-Agent": "Mozilla/5.0 (compatible; market-dashboard/1.0)"}
         )
         with urllib.request.urlopen(req, timeout=20) as resp:
-            html = resp.read().decode("utf-8", errors="ignore")
+            page = resp.read().decode("utf-8", errors="ignore")
 
-        match = re.search(pattern, html)
-        if not match:
-            print(f"⚠️  {label}：页面已抓取但正则未匹配，检查pattern")
+        m = re.search(source["pattern"], page)
+        if not m:
+            print(f"⚠️  {label}：正则未匹配，检查pattern")
             return None
 
-        value = float(match.group(1))
-        period = source["period"]
-        trend = source["trend_template"].format(period=period)
-        insight = source["insight_template"].format(period=period, value=value)
-        spark = [source["sparkData_2024"], source["sparkData_2025"], value]
-
-        print(f"✅ {label}：{value}{source['unit']}（来源：stats.gov.cn）")
+        value = float(m.group(1))
+        print(f"✅ {label}：{value}%（stats.gov.cn）")
         return {
             "label": label,
             "value": value,
-            "unit": source["unit"],
-            "trend": trend,
-            "insight": insight,
-            "sparkData": spark,
+            "trend": source["trend"],
+            "insight": source["insight"],
+            "sparkData": [source["sparkData_2024"], source["sparkData_2025"], value],
         }
-
     except Exception as e:
         print(f"⚠️  {label}：抓取失败（{e}）")
         return None
 
 
-# ── HTML更新函数 ──────────────────────────────────────────
+# ── 核心替换：按位置切块，每块独立替换 ───────────────────
 
-def read_html(path):
-    with open(path, "r", encoding="utf-8") as f:
-        return f.read()
-
-def write_html(path, content):
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(content)
-    print(f"✓ 已写入 {path}")
-
-def update_one_metric(html: str, m: dict) -> str:
+def update_metric(html: str, label: str, value, trend: str, insight: str, sparkData: list) -> str:
     """
-    HTML中每个指标存在两份数据：
-    - 格式化多行版（label: "xxx", 含空格换行）
-    - 压缩单行版（label:"xxx", 无空格）
-    使用 subn 不限次数替换，确保两处都被更新。
+    HTML中每个指标存在2处（格式化版+压缩版）。
+    策略：找到每处label的位置，取后1500字符作为独立块，
+    在块内做字段替换，避免跨指标污染。
+    从后往前处理，保证位置不偏移。
     """
-    label = m["label"]
-    original = html
-    lp = rf'label:\s*"{re.escape(label)}"'  # 兼容有无空格
+    spark_str = "[" + ",".join(str(v) for v in sparkData) + "]"
+    positions = [m.start() for m in re.finditer(rf'"{re.escape(label)}"', html)]
 
-    html, n1 = re.subn(
-        rf'({lp}.*?value:\s*)[\d.\-]+',
-        lambda x: x.group(1) + str(m["value"]),
-        html, flags=re.DOTALL
-    )
-    html, n2 = re.subn(
-        rf'({lp}.*?trend:\s*)"[^"]*"',
-        rf'\g<1>"{m["trend"]}"',
-        html, flags=re.DOTALL
-    )
-    html, n3 = re.subn(
-        rf'({lp}.*?insight:\s*)"[^"]*"',
-        rf'\g<1>"{m["insight"]}"',
-        html, flags=re.DOTALL
-    )
-    spark_str = "[" + ",".join(str(v) for v in m["sparkData"]) + "]"
-    html, n4 = re.subn(
-        rf'({lp}.*?sparkData:\s*)\[[^\]]*\]',
-        rf'\g<1>{spark_str}',
-        html, flags=re.DOTALL
-    )
+    if not positions:
+        print(f"⚠️  {label}：未找到，跳过")
+        return html
 
-    total = n1 + n2 + n3 + n4
-    if html == original:
-        print(f"⚠️  {label}：未找到匹配")
-    else:
-        print(f"✓ {label}：{total}处替换（{m['value']}{m['unit']}）")
+    changed = 0
+    for pos in reversed(positions):
+        chunk = html[pos:pos + 1500]
+        new_chunk = chunk
+        new_chunk = re.sub(r'(value:\s*)[\d.\-]+',      rf'\g<1>{value}',    new_chunk, count=1)
+        new_chunk = re.sub(r'(trend:\s*)"[^"]*"',        rf'\g<1>"{trend}"',  new_chunk, count=1)
+        new_chunk = re.sub(r'(insight:\s*)"[^"]*"',      rf'\g<1>"{insight}"',new_chunk, count=1)
+        new_chunk = re.sub(r'(sparkData:\s*)\[[^\]]*\]', rf'\g<1>{spark_str}',new_chunk, count=1)
+        if new_chunk != chunk:
+            html = html[:pos] + new_chunk + html[pos + 1500:]
+            changed += 1
+
+    print(f"✓ {label}：{changed}处更新（value={value}%）")
     return html
+
 
 def update_summary_stats(html: str, stats: list) -> str:
     lines = ["    summaryStats: ["]
@@ -172,11 +120,11 @@ def update_summary_stats(html: str, stats: list) -> str:
         lines.append(f'      {{ label: "{s["label"]}",   value: "{s["value"]}" }}{comma}')
     lines.append("    ],")
     new_block = "\n".join(lines)
-    pattern = r'    summaryStats:\s*\[.*?\],'
-    new_html = re.sub(pattern, new_block, html, flags=re.DOTALL)
+    new_html = re.sub(r'    summaryStats:\s*\[.*?\],', new_block, html, flags=re.DOTALL)
     if new_html != html:
         print("✓ summaryStats 已更新")
     return new_html
+
 
 def update_timestamp(html: str) -> str:
     today = datetime.now().strftime("%Y-%m-%d")
@@ -184,8 +132,9 @@ def update_timestamp(html: str) -> str:
     print(f"✓ 时间戳 → {today}")
     return new_html
 
+
 def git_push(filepath, message):
-    subprocess.run(["git", "config", "user.name", "github-actions[bot]"], capture_output=True)
+    subprocess.run(["git", "config", "user.name",  "github-actions[bot]"], capture_output=True)
     subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"], capture_output=True)
     subprocess.run(["git", "add", filepath], capture_output=True)
     diff = subprocess.run(["git", "diff", "--staged", "--quiet"])
@@ -193,9 +142,9 @@ def git_push(filepath, message):
         print("ℹ️  内容无变化，跳过commit")
         return
     r = subprocess.run(["git", "commit", "-m", message], capture_output=True, text=True)
-    print("✓ commit" if r.returncode == 0 else f"⚠️  commit失败: {r.stderr}")
+    print("✓ commit" if r.returncode == 0 else f"⚠️  commit失败:\n{r.stderr}")
     r = subprocess.run(["git", "push"], capture_output=True, text=True)
-    print("✓ push" if r.returncode == 0 else f"⚠️  push失败: {r.stderr}")
+    print("✓ push"   if r.returncode == 0 else f"⚠️  push失败:\n{r.stderr}")
 
 
 # ── 主流程 ────────────────────────────────────────────────
@@ -205,28 +154,29 @@ def main():
     print(f"宏观Dashboard更新 · {datetime.now().strftime('%Y-%m-%d %H:%M')}")
     print(f"{'='*52}\n")
 
-    html = read_html(HTML_FILE)
+    with open(HTML_FILE, "r", encoding="utf-8") as f:
+        html = f.read()
     print(f"✓ 已读取 {HTML_FILE}（{len(html):,} 字符）\n")
 
     # 1. 抓取统计局实时数据
     print("[ 抓取国家统计局数据... ]")
-    live_metrics = []
-    for source in NBS_SOURCES:
-        result = fetch_nbs_value(source)
+    live = []
+    for src in NBS_SOURCES:
+        result = fetch_nbs(src)
         if result:
-            live_metrics.append(result)
+            live.append(result)
 
     # 2. 更新实时指标
-    print(f"\n[ 更新 {len(live_metrics)} 个实时指标... ]")
-    for m in live_metrics:
-        html = update_one_metric(html, m)
+    print(f"\n[ 更新实时指标（{len(live)}个）... ]")
+    for m in live:
+        html = update_metric(html, m["label"], m["value"], m["trend"], m["insight"], m["sparkData"])
 
-    # 3. 更新静态指标（GDP/出口/PPI暂用固定值）
-    print(f"\n[ 更新 {len(STATIC_METRICS)} 个静态指标... ]")
+    # 3. 更新静态指标
+    print(f"\n[ 更新静态指标（{len(STATIC_METRICS)}个）... ]")
     for m in STATIC_METRICS:
-        html = update_one_metric(html, m)
+        html = update_metric(html, m["label"], m["value"], m["trend"], m["insight"], m["sparkData"])
 
-    # 4. 更新景气度条
+    # 4. summaryStats
     print("\n[ 更新 summaryStats... ]")
     html = update_summary_stats(html, STATIC_SUMMARY)
 
@@ -234,10 +184,12 @@ def main():
     html = update_timestamp(html)
 
     # 6. 写入并推送
-    write_html(HTML_FILE, html)
-    msg = f"auto: 宏观数据更新 {datetime.now().strftime('%Y-%m-%d')}（统计局实时）"
-    print(f"\n[ Git提交... ]")
-    git_push(HTML_FILE, msg)
+    with open(HTML_FILE, "w", encoding="utf-8") as f:
+        f.write(html)
+    print(f"✓ 已写入 {HTML_FILE}\n")
+
+    print("[ Git提交... ]")
+    git_push(HTML_FILE, f"auto: 宏观数据更新 {datetime.now().strftime('%Y-%m-%d')}（统计局实时）")
 
     print(f"\n{'='*52}")
     print("✅ 完成")
