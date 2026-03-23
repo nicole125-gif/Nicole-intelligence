@@ -1,56 +1,49 @@
 #!/usr/bin/env python3
 """
 宏观Dashboard更新脚本
-数据来源：Trading Economics API（guest:guest免费key，境外可访问）
+数据来源：直接解析 tradingeconomics.com/china/indicators 页面表格
+该页面数据在HTML里，无需JS渲染
 git操作由workflow负责
 """
 
 import re
-import json
 import urllib.request
 from datetime import datetime
 
 HTML_FILE = "index.html"
-TE_KEY = "guest:guest"
 
-# ── Trading Economics 指标配置 ────────────────────────────
-# 指标名称参考：https://tradingeconomics.com/china/indicators
-TE_SOURCES = [
-    {
-        "label":        "工业增加值",
-        "te_indicator": "Industrial Production YoY",
-        "trend_tmpl":   "↑ {date}同比",
-        "insight_tmpl": "工业生产同比{value}%",
+# 指标名称对应TE页面表格中的链接文字
+INDICATOR_MAP = {
+    "工业增加值": {
+        "te_name":       "Industrial Production",
+        "trend_tmpl":    "↑ {date}同比",
+        "insight_tmpl":  "工业生产同比{value}%",
         "sparkData_2024": 5.1,
         "sparkData_2025": 5.7,
     },
-    {
-        "label":        "PPI 走势",
-        "te_indicator": "Producer Prices Change",
-        "trend_tmpl":   "{date}同比",
-        "insight_tmpl": "PPI同比{value}%",
+    "PPI 走势": {
+        "te_name":       "Producer Prices Change",
+        "trend_tmpl":    "{date}同比",
+        "insight_tmpl":  "PPI同比{value}%",
         "sparkData_2024": -2.7,
         "sparkData_2025": -0.8,
     },
-    {
-        "label":        "出口增速",
-        "te_indicator": "Exports YoY",
-        "trend_tmpl":   "{date}同比",
-        "insight_tmpl": "出口同比{value}%",
+    "出口增速": {
+        "te_name":       "Exports YoY",
+        "trend_tmpl":    "{date}同比",
+        "insight_tmpl":  "出口同比{value}%",
         "sparkData_2024": 5.9,
         "sparkData_2025": 4.2,
     },
-    {
-        "label":        "GDP 增速",
-        "te_indicator": "GDP Annual Growth Rate",
-        "trend_tmpl":   "{date}年增速",
-        "insight_tmpl": "GDP同比{value}%",
+    "GDP 增速": {
+        "te_name":       "GDP Annual Growth Rate",
+        "trend_tmpl":    "{date}季度同比",
+        "insight_tmpl":  "GDP同比{value}%",
         "sparkData_2024": 4.6,
         "sparkData_2025": 4.8,
     },
-]
+}
 
-# 无对应TE指标的，保持固定值
 STATIC_METRICS = [
     {"label": "制造业固投", "value": 3.1, "trend": "1-2月同比", "insight": "制造业投资稳步推进", "sparkData": [9.2, 10.8, 3.1]},
 ]
@@ -63,37 +56,41 @@ STATIC_SUMMARY = [
 ]
 
 
-def fetch_te(source: dict) -> dict | None:
-    name      = source["label"]
-    indicator = source["te_indicator"]
-    # TE API用Category名称，空格转%20
-    indicator_encoded = indicator.replace(" ", "%20")
-    url = f"https://api.tradingeconomics.com/country/china/indicator/{indicator_encoded}?c={TE_KEY}&f=json"
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=15) as r:
-            data = json.loads(r.read())
+def fetch_te_table() -> dict:
+    """
+    抓取 tradingeconomics.com/china/indicators 页面表格
+    返回 {indicator_name: {"value": float, "date": str}} 字典
+    """
+    url = "https://tradingeconomics.com/china/indicators"
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml",
+            "Accept-Language": "en-US,en;q=0.9",
+        }
+    )
+    with urllib.request.urlopen(req, timeout=20) as r:
+        page = r.read().decode("utf-8", errors="ignore")
 
-        if not data:
-            print(f"⚠️  {name}: 返回空数据")
-            return None
+    results = {}
+    # 解析表格行：<tr><td><a href="/china/xxx">Name</a></td><td>Value</td>...<td>Date</td></tr>
+    # 格式：| Name | Last | Previous | Highest | Lowest | unit | date |
+    rows = re.findall(
+        r'<tr[^>]*>.*?<a[^>]+href="/china/[^"]*"[^>]*>([^<]+)</a>.*?<td[^>]*>([-\d.]+)</td>.*?</tr>',
+        page, re.DOTALL
+    )
+    for name, value in rows:
+        name = name.strip()
+        try:
+            results[name] = float(value.strip())
+        except ValueError:
+            pass
 
-        record  = data[0]
-        value   = round(float(record.get("LastValue") or record.get("Value") or 0), 1)
-        date    = str(record.get("LastUpdate", ""))[:7]
-        trend   = source["trend_tmpl"].format(date=date)
-        insight = source["insight_tmpl"].format(value=value)
-        spark   = [source["sparkData_2024"], source["sparkData_2025"], value]
-
-        print(f"✅ {name}: {value}%（{date}，TradingEconomics）")
-        return {"label": name, "value": value, "trend": trend, "insight": insight, "sparkData": spark}
-
-    except Exception as e:
-        print(f"⚠️  {name}: 获取失败（{e}）")
-        return None
+    return results
 
 
-def update_metric(html: str, label: str, value, trend: str, insight: str, sparkData: list) -> str:
+def update_metric(html, label, value, trend, insight, sparkData):
     spark_str = "[" + ",".join(str(v) for v in sparkData) + "]"
     positions = [m.start() for m in re.finditer(rf'"{re.escape(label)}"', html)]
     if not positions:
@@ -110,11 +107,11 @@ def update_metric(html: str, label: str, value, trend: str, insight: str, sparkD
         if new_chunk != chunk:
             html = html[:pos] + new_chunk + html[pos+1500:]
             changed += 1
-    print(f"{'✅' if changed else '⚠️ '} {label}: {changed}处更新 → {value}%")
+    print(f"{'✅' if changed else '⚠️ '} {label}: {changed}处写入 → {value}%")
     return html
 
 
-def update_summary(html: str, stats: list) -> str:
+def update_summary(html, stats):
     lines = ["    summaryStats: ["]
     for i, s in enumerate(stats):
         comma = "," if i < len(stats)-1 else ""
@@ -135,20 +132,33 @@ def main():
         html = f.read()
     print(f"✓ 读取 {HTML_FILE}（{len(html):,} 字符）\n")
 
-    # 1. Trading Economics实时数据
-    print("[ Trading Economics API... ]")
-    for src in TE_SOURCES:
-        result = fetch_te(src)
-        if result:
-            html = update_metric(html, result["label"], result["value"],
-                                 result["trend"], result["insight"], result["sparkData"])
+    # 抓取TE表格
+    print("[ 抓取 tradingeconomics.com/china/indicators 表格... ]")
+    try:
+        te_data = fetch_te_table()
+        print(f"✓ 获取到 {len(te_data)} 个指标\n")
+    except Exception as e:
+        print(f"❌ 抓取失败: {e}")
+        te_data = {}
 
-    # 2. 静态指标
+    # 更新指标
+    today = datetime.now().strftime("%Y-%m")
+    for label, cfg in INDICATOR_MAP.items():
+        te_name = cfg["te_name"]
+        if te_name in te_data:
+            value   = te_data[te_name]
+            trend   = cfg["trend_tmpl"].format(date=today)
+            insight = cfg["insight_tmpl"].format(value=value)
+            spark   = [cfg["sparkData_2024"], cfg["sparkData_2025"], value]
+            print(f"✅ {label}: {value}% (来自TE表格)")
+            html = update_metric(html, label, value, trend, insight, spark)
+        else:
+            print(f"⚠️  {label}: 表格中未找到 '{te_name}'")
+
     print("\n[ 静态指标... ]")
     for m in STATIC_METRICS:
         html = update_metric(html, m["label"], m["value"], m["trend"], m["insight"], m["sparkData"])
 
-    # 3. summaryStats
     print("\n[ summaryStats... ]")
     html = update_summary(html, STATIC_SUMMARY)
 
