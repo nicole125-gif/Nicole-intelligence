@@ -18,7 +18,7 @@ TE_KEY = "guest:guest"
 TE_SOURCES = [
     {
         "label":        "工业增加值",
-        "te_indicator": "industrial-production",
+        "te_indicator": "Industrial Production",
         "trend_tmpl":   "↑ {date}同比",
         "insight_tmpl": "工业生产同比{value}%",
         "sparkData_2024": 5.1,
@@ -26,7 +26,7 @@ TE_SOURCES = [
     },
     {
         "label":        "PPI 走势",
-        "te_indicator": "producer-prices-change",
+        "te_indicator": "Producer Prices Change",
         "trend_tmpl":   "{date}同比",
         "insight_tmpl": "PPI同比{value}%",
         "sparkData_2024": -2.7,
@@ -34,7 +34,7 @@ TE_SOURCES = [
     },
     {
         "label":        "出口增速",
-        "te_indicator": "exports-yoy",
+        "te_indicator": "Exports YoY",
         "trend_tmpl":   "{date}同比",
         "insight_tmpl": "出口同比{value}%",
         "sparkData_2024": 5.9,
@@ -42,7 +42,7 @@ TE_SOURCES = [
     },
     {
         "label":        "GDP 增速",
-        "te_indicator": "gdp-growth-annual",
+        "te_indicator": "GDP Annual Growth Rate",
         "trend_tmpl":   "{date}年增速",
         "insight_tmpl": "GDP同比{value}%",
         "sparkData_2024": 4.6,
@@ -64,9 +64,11 @@ STATIC_SUMMARY = [
 
 
 def fetch_te(source: dict) -> dict | None:
-    label = source["te_indicator"]
-    name  = source["label"]
-    url = f"https://api.tradingeconomics.com/country/china/indicator/{label}?c={TE_KEY}&f=json"
+    name      = source["label"]
+    indicator = source["te_indicator"]
+    # TE API用Category名称，空格转%20
+    indicator_encoded = indicator.replace(" ", "%20")
+    url = f"https://api.tradingeconomics.com/country/china/indicator/{indicator_encoded}?c={TE_KEY}&f=json"
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=15) as r:
@@ -76,12 +78,12 @@ def fetch_te(source: dict) -> dict | None:
             print(f"⚠️  {name}: 返回空数据")
             return None
 
-        record = data[0]
-        value  = round(float(record.get("LastValue") or record.get("Value") or 0), 1)
-        date   = str(record.get("LastUpdate", ""))[:7]
-        trend  = source["trend_tmpl"].format(date=date)
-        insight= source["insight_tmpl"].format(value=value)
-        spark  = [source["sparkData_2024"], source["sparkData_2025"], value]
+        record  = data[0]
+        value   = round(float(record.get("LastValue") or record.get("Value") or 0), 1)
+        date    = str(record.get("LastUpdate", ""))[:7]
+        trend   = source["trend_tmpl"].format(date=date)
+        insight = source["insight_tmpl"].format(value=value)
+        spark   = [source["sparkData_2024"], source["sparkData_2025"], value]
 
         print(f"✅ {name}: {value}%（{date}，TradingEconomics）")
         return {"label": name, "value": value, "trend": trend, "insight": insight, "sparkData": spark}
