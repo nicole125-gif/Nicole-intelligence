@@ -457,14 +457,12 @@ function renderMetrics() {
         <div style="position:absolute;inset:0;opacity:.022;pointer-events:none;background-image:url('data:image/svg+xml,%3Csvg viewBox=\\'0 0 200 200\\' xmlns=\\'http://www.w3.org/2000/svg\\'%3E%3Cfilter id=\\'n\\'%3E%3CfeTurbulence type=\\'fractalNoise\\' baseFrequency=\\'0.9\\' numOctaves=\\'4\\'/%3E%3C/filter%3E%3Crect width=\\'100%25\\' height=\\'100%25\\' filter=\\'url(%23n)\\'/%3E%3C/svg%3E');background-size:128px"></div>
         <div style="position:relative;z-index:1">
           <div style="display:flex;justify-content:space-between;align-items:center;margin:0 0 6px"><p style="font-family:'Courier New',monospace;font-size:8.5px;color:${m.color};letter-spacing:.2em;margin:0;text-transform:uppercase">${m.labelEn}</p><p style="font-family:'Courier New',monospace;font-size:8.5px;color:rgba(255,255,255,.45);letter-spacing:.1em;margin:0">${m.date||''}</p></div>
-          <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:8px">
-            <div style="display:flex;align-items:flex-end;gap:2px;min-width:0;flex-shrink:1">
+          <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:8px;margin-bottom:8px">
+            <div style="display:flex;align-items:flex-end;gap:2px">
               <span style="font-family:'Courier New',monospace;font-size:38px;font-weight:700;color:${m.color};line-height:1;text-shadow:0 0 24px ${m.color}70" id="mv-${i}">0</span>
-              <span style="font-family:'Courier New',monospace;font-size:11px;color:rgba(255,255,255,.7);margin-bottom:5px">${m.unit}</span>
+              <span style="font-family:'Courier New',monospace;font-size:10px;color:rgba(255,255,255,.7);margin-bottom:4px">${m.unit}</span>
             </div>
-            <div style="text-align:right;flex-shrink:0;margin-left:auto;padding-left:8px">
-              <div style="font-size:9px;font-family:'Courier New',monospace;color:${m.color};white-space:nowrap">${m.trend}</div>
-            </div>
+            <span style="font-size:9px;font-family:'Courier New',monospace;color:${m.color};white-space:nowrap;margin-bottom:4px">${m.trend}</span>
           </div>
           <h3 style="font-size:14px;font-weight:700;color:#fff;margin:0 0 3px">${m.label}</h3>
           <p style="font-size:10.5px;color:rgba(255,255,255,.65);margin:0 0 10px;line-height:1.4">${m.insight}</p>
