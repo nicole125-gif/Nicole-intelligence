@@ -275,6 +275,15 @@ body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([oncli
 .nav-links{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
 .nav-link{padding:5px 12px;font-size:11px;font-family:'IBM Plex Mono',monospace;letter-spacing:.08em;color:rgba(255,255,255,.65);text-decoration:none;border:1px solid transparent;transition:all .2s;white-space:nowrap}
 .nav-link:hover{color:#fff;border-color:rgba(255,255,255,.12);background:rgba(255,255,255,.04)}
+
+/* HERO */
+.hero{padding:40px 40px 40px;max-width:1300px;margin:0 auto}
+.hero-eye{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.35em;color:#00FFB2;margin-bottom:24px;display:flex;align-items:center;gap:12px}
+.hero-eye::before{content:'';width:32px;height:1px;background:#00FFB2}
+.hero-title{font-size:clamp(28px,3.5vw,44px);font-weight:800;line-height:1.0;letter-spacing:-.03em;margin-bottom:20px;color:#fff}
+.hero-title .a1{color:#00FFB2}
+.hero-title .a2{color:rgba(255,255,255,.45)}
+.hero-sub{font-size:14px;color:rgba(255,255,255,.65);max-width:640px;line-height:1.7;margin-bottom:48px}
 </style>
 </head>
 <body>
@@ -305,25 +314,11 @@ body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([oncli
 
 <div class="main-wrap">
   <!-- HEADER -->
-  <header style="margin-bottom:48px">
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:30px;padding-bottom:16px;border-bottom:1px solid rgba(255,255,255,.06)">
-      <div style="display:flex;align-items:center;gap:10px">
-        <div style="width:6px;height:6px;border-radius:50%;background:#00FFB2;box-shadow:0 0 12px #00FFB2;animation:dotBlink 2.4s ease-in-out infinite"></div>
-        <span style="font-family:'Courier New',monospace;font-size:10px;color:rgba(255,255,255,.65);letter-spacing:.25em">SYSTEM ACTIVE — CLICK ANY CARD FOR DEEP ANALYSIS</span>
-      </div>
-      <span style="font-family:'Courier New',monospace;font-size:10px;color:rgba(255,255,255,.65);letter-spacing:.15em">十五五规划开局年 / FY-2026</span>
-    </div>
-    <div style="display:flex;align-items:flex-start;gap:22px">
-      <div style="width:3px;height:68px;flex-shrink:0;background:linear-gradient(180deg,#E30613,rgba(227,6,19,.15))"></div>
-      <div>
-        <h1 style="font-size:clamp(28px,3.5vw,44px);font-weight:800;color:#fff;margin:0 0 8px;letter-spacing:-.02em;line-height:1.1">
-          中国宏观脉搏 <span style="color:rgba(255,255,255,.65);font-weight:200;margin-left:14px;font-size:.58em;letter-spacing:.1em">THE PULSE 2026</span>
-        </h1>
-        <p style="color:rgba(255,255,255,.82);font-size:13px;margin:0 0 3px;letter-spacing:.04em">基于"十五五"规划开局之年的精密流体市场环境分析 · 点击指标卡片查看深度解读</p>
-        <p style="color:rgba(255,255,255,.65);font-size:10.5px;margin:0;font-family:'Courier New',monospace;letter-spacing:.08em">Trend analysis · Downstream impact · Strategic actions · Data provenance</p>
-      </div>
-    </div>
-  </header>
+<div class="hero">
+  <div class="hero-eye">STRATEGY RESEARCH · MACRO ECONOMY · 2026</div>
+  <h1 class="hero-title">中国宏观脉搏<br/><span class="a1">THE PULSE</span><span class="a2"> 2026</span></h1>
+  <p class="hero-sub">基于「十五五」规划开局之年的精密流体市场环境分析 · 点击指标卡片查看深度解读</p>
+</div>
 
   <!-- METRICS GRID -->
   <div class="metrics-grid" id="metrics-grid"></div>

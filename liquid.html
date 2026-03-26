@@ -256,6 +256,15 @@ body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([oncli
 .nav-links{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
 .nav-link{padding:5px 12px;font-size:11px;font-family:'IBM Plex Mono',monospace;letter-spacing:.08em;color:rgba(255,255,255,.65);text-decoration:none;border:1px solid transparent;transition:all .2s;white-space:nowrap}
 .nav-link:hover{color:#fff;border-color:rgba(255,255,255,.12);background:rgba(255,255,255,.04)}
+
+/* HERO */
+.hero{padding:40px 40px 40px;max-width:1300px;margin:0 auto}
+.hero-eye{font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.35em;color:#E30613;margin-bottom:24px;display:flex;align-items:center;gap:12px}
+.hero-eye::before{content:'';width:32px;height:1px;background:#E30613}
+.hero-title{font-size:clamp(28px,3.5vw,44px);font-weight:800;line-height:1.0;letter-spacing:-.03em;margin-bottom:20px;color:#fff}
+.hero-title .a1{color:#E30613}
+.hero-title .a2{color:rgba(255,255,255,.45)}
+.hero-sub{font-size:14px;color:rgba(255,255,255,.65);max-width:640px;line-height:1.7;margin-bottom:48px}
 </style>
 </head>
 <body>
@@ -287,23 +296,12 @@ body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([oncli
 <section style="padding:clamp(70px,10vw,100px) clamp(16px,5vw,40px) 60px;position:relative;z-index:1">
 <div style="max-width:1280px;margin:0 auto">
 
-  <!-- HEADER -->
-  <header style="margin-bottom:clamp(28px,5vw,52px);animation:fadeUp .5s ease both">
-    <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px">
-      <span class="animate-dot-blink" style="display:inline-block;width:6px;height:6px;border-radius:50%;background:#E30613;box-shadow:0 0 10px #E30613;flex-shrink:0"></span>
-      <span class="t-label" style="font-family:monospace;color:rgba(255,255,255,.65);letter-spacing:.28em;text-transform:uppercase">SBU · AI Infrastructure · Liquid Cooling</span>
-    </div>
-    <div style="display:flex;align-items:flex-start;gap:clamp(14px,3vw,22px)">
-      <div style="width:3px;height:clamp(52px,7vw,68px);flex-shrink:0;margin-top:2px;background:linear-gradient(180deg,#E30613,rgba(227,6,19,.08))"></div>
-      <div>
-        <h1 class="t-hero" style="font-weight:800;color:#fff;letter-spacing:-.02em;line-height:1.1;margin-bottom:6px">
-          AI Infrastructure
-          <span style="display:block;font-weight:200;font-size:.56em;letter-spacing:.08em;color:rgba(255,255,255,.2);margin-top:5px;font-family:monospace">LIQUID COOLING · 2026 STRATEGIC OUTLOOK</span>
-        </h1>
-        <p class="t-body" style="color:rgba(255,255,255,.82);letter-spacing:.03em;max-width:560px;line-height:1.65">算力密度突破物理极限，流体控制成为 AI 基础设施的关键变量</p>
-      </div>
-    </div>
-  </header>
+<!-- HEADER -->
+<div class="hero">
+  <div class="hero-eye">STRATEGY RESEARCH · AI LIQUID COOLING · 2026</div>
+  <h1 class="hero-title">AI 液冷基础设施<br/><span class="a1">战略分析</span><span class="a2">报告</span></h1>
+  <p class="hero-sub">算力密度突破物理极限，流体控制成为 AI 基础设施的关键变量 · 2026 战略切入窗口分析</p>
+</div>
 
   <!-- MAIN GRID -->
   <div class="main-grid">
