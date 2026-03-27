@@ -761,7 +761,7 @@ footer {
       <a href="index.html" class="nav-link">总览</a>
       <a href="macro.html" class="nav-link">宏观脉搏</a>
       <a href="liquid.html" class="nav-link">AI 液冷</a>
-      <a href="semiconductor.html" class="nav-link active">半导体 SBU</a>
+      <a href="semiconductor.html" class="nav-link active">半导体</a>
       <a href="mscc.html" class="nav-link">质谱·色谱</a>
       <a href="pharma.html" class="nav-link">制药装备</a>
       <a href="food.html" class="nav-link">食品饮料</a>
@@ -1941,38 +1941,38 @@ function renderCompBrand(containerId, data) {
     const ovC   = OVERLAP_COLOR[c.overlap] || "#fbbf24";
     const d = document.createElement("div");
     d.style.cssText = `
-      display:grid;grid-template-columns:160px 1fr;gap:12px;align-items:start;
-      padding:clamp(11px,1.8vw,14px) clamp(12px,2vw,16px);
-      background:rgba(255,255,255,.018);border:1px solid rgba(255,255,255,.04);
-      border-left:2px solid ${tierC}55;border-radius:6px;
+      display:grid;grid-template-columns:170px 1fr;gap:14px;align-items:start;
+      padding:clamp(13px,2vw,18px) clamp(14px,2vw,18px);
+      background:rgba(255,255,255,.025);border:1px solid rgba(255,255,255,.07);
+      border-left:3px solid ${tierC};border-radius:8px;
       transition:all .22s ease;cursor:default;
       animation:fadeUp .55s ease both;animation-delay:${i*60}ms`;
     d.innerHTML = `
       <div>
-        <div style="display:flex;align-items:center;gap:6px;margin-bottom:5px;flex-wrap:wrap">
-          <span style="font-family:var(--mono);font-size:12px;font-weight:700;color:${tierC};line-height:1">${c.brand}</span>
+        <div style="margin-bottom:7px">
+          <span style="font-family:var(--mono);font-size:13.5px;font-weight:700;color:#fff;line-height:1.2;display:block;margin-bottom:4px">${c.brand}</span>
+          <span style="font-family:var(--mono);font-size:9.5px;color:${tierC};opacity:.85">${c.origin} · 梯队${c.tier}</span>
         </div>
-        <div style="display:flex;gap:5px;flex-wrap:wrap">
-          <span style="font-family:var(--mono);font-size:8.5px;padding:1px 6px;background:${tierC}18;border:1px solid ${tierC}35;color:${tierC};border-radius:3px;letter-spacing:.1em">T${c.tier} · ${c.origin}</span>
-          <span style="font-family:var(--mono);font-size:8.5px;padding:1px 6px;background:${ovC}12;border:1px solid ${ovC}35;color:${ovC};border-radius:3px;letter-spacing:.1em">${c.overlap}</span>
+        <div style="display:flex;gap:5px;flex-wrap:wrap;margin-bottom:8px">
+          <span style="font-family:var(--mono);font-size:9px;padding:2px 8px;background:${ovC}20;border:1px solid ${ovC}55;color:${ovC};border-radius:4px;font-weight:700">${c.overlap}</span>
         </div>
-        <div style="margin-top:6px;font-size:10.5px;color:var(--text-lo);font-family:var(--mono);line-height:1.5">${c.scene}</div>
+        <div style="font-size:11.5px;color:rgba(255,255,255,.55);font-family:var(--mono);line-height:1.5">${c.scene}</div>
       </div>
-      <div style="display:flex;flex-direction:column;gap:5px">
-        <div style="display:flex;gap:6px;align-items:flex-start">
-          <span style="flex-shrink:0;font-family:var(--mono);font-size:8.5px;color:rgba(52,211,153,.6);margin-top:2px;letter-spacing:.08em">强项</span>
-          <p style="margin:0;font-size:clamp(11px,1.5vw,12.5px);color:var(--text-mid);line-height:1.55">${c.strength}</p>
+      <div style="display:flex;flex-direction:column;gap:8px">
+        <div style="display:flex;gap:8px;align-items:flex-start">
+          <span style="flex-shrink:0;font-family:var(--mono);font-size:9px;font-weight:700;color:#34d399;background:rgba(52,211,153,.12);padding:2px 7px;border-radius:3px;margin-top:1px;white-space:nowrap">强项</span>
+          <p style="margin:0;font-size:13px;color:rgba(255,255,255,.85);line-height:1.6">${c.strength}</p>
         </div>
-        <div style="display:flex;gap:6px;align-items:flex-start">
-          <span style="flex-shrink:0;font-family:var(--mono);font-size:8.5px;color:rgba(239,68,68,.6);margin-top:2px;letter-spacing:.08em">弱项</span>
-          <p style="margin:0;font-size:clamp(11px,1.5vw,12.5px);color:var(--text-mid);line-height:1.55">${c.weakness}</p>
+        <div style="display:flex;gap:8px;align-items:flex-start">
+          <span style="flex-shrink:0;font-family:var(--mono);font-size:9px;font-weight:700;color:#f87171;background:rgba(239,68,68,.12);padding:2px 7px;border-radius:3px;margin-top:1px;white-space:nowrap">弱项</span>
+          <p style="margin:0;font-size:13px;color:rgba(255,255,255,.85);line-height:1.6">${c.weakness}</p>
         </div>
-        <div style="padding:5px 9px;background:rgba(34,211,238,.04);border-left:2px solid rgba(34,211,238,.3);border-radius:0 4px 4px 0;margin-top:2px">
-          <span style="font-size:11px;color:rgba(34,211,238,.8);font-style:italic">${c.note}</span>
+        <div style="padding:7px 11px;background:rgba(34,211,238,.06);border-left:2px solid rgba(34,211,238,.5);border-radius:0 5px 5px 0;margin-top:2px">
+          <span style="font-size:12px;color:rgba(34,211,238,.95);font-style:italic">${c.note}</span>
         </div>
       </div>`;
-    d.addEventListener("mouseenter", () => { d.style.background = `rgba(255,255,255,.035)`; d.style.borderColor = `rgba(255,255,255,.1)`; });
-    d.addEventListener("mouseleave", () => { d.style.background = "rgba(255,255,255,.018)"; d.style.borderColor = "rgba(255,255,255,.04)"; });
+    d.addEventListener("mouseenter", () => { d.style.background = `rgba(255,255,255,.045)`; });
+    d.addEventListener("mouseleave", () => { d.style.background = "rgba(255,255,255,.025)"; });
     el.appendChild(d);
   });
 }
