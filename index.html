@@ -15,11 +15,13 @@ html{font-size:15px;scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
   /* spacing scale — 8px base grid */
   --space-xs:  8px;
   --space-sm:  16px;
-  --space-md:  24px;
-  --space-lg:  40px;
-  --space-xl:  56px;
-  --content-w: 1440px;   /* unified max-width for ALL sections */
-  --page-px:   48px;     /* unified horizontal padding = left/right margin */
+  --space-md:  28px;
+  --space-lg:  48px;
+  --space-xl:  64px;
+  --content-w: 1440px;
+  --page-px:   64px;     /* 1. global margin: 64px left/right */
+  --card-pad:  32px;     /* 3. card internal padding */
+  --row-gap:   2px;      /* 2. gap between rows */
   /* backgrounds */
   --bg:#080e18;--bg2:#0c1420;--bg3:#101b2c;--bg4:#152030;--bgm:#0d1524;
   /* borders */
@@ -189,10 +191,10 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
 .bheat{font-size:2.6rem;font-weight:700;letter-spacing:-.04em;line-height:1;color:var(--c)}
 .btrend{font-size:1.1rem;line-height:1;display:inline-block}
 
-.bname{font-family:'Noto Sans SC',sans-serif;font-size:.92rem;font-weight:600;margin-bottom:.28rem;line-height:1.3;color:var(--t1)}
+.bname{font-family:"Noto Sans SC",sans-serif;font-size:.94rem;font-weight:600;margin-bottom:.32rem;line-height:1.4;color:var(--t1)}
 
 /* ── 3. INSIGHT PHRASE ── */
-.bsum{font-size:.62rem;line-height:1.65;margin-bottom:.8rem;
+.bsum{font-size:.64rem;line-height:1.7;margin-bottom:.8rem;
   display:flex;align-items:flex-start;gap:.5rem;
   background:rgba(255,255,255,.03);border-radius:5px;
   padding:.45rem .6rem;border-left:2px solid color-mix(in srgb,var(--c) 40%,transparent)}
@@ -250,18 +252,18 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
   transition:background .2s;
 }
 .sr-card:hover{background:var(--bg3)}
-.sr-card .bcard{height:100%;background:transparent;padding:var(--space-md) var(--space-md) var(--space-md) var(--page-px)}
+.sr-card .bcard{height:100%;background:transparent;padding:var(--card-pad) var(--space-md) var(--card-pad) var(--page-px)}
 
 /* right: track list, always visible */
 .sr-tracks{
   background:var(--bg);
-  padding:var(--space-md) var(--page-px) var(--space-md) var(--space-md);
+  padding:var(--card-pad) var(--page-px) var(--card-pad) var(--space-md);
   display:flex;
   flex-direction:column;
   justify-content:center;
 }
 .sr-tracks-inner{
-  max-width:680px;
+  max-width:660px;
 }
 
 /* header */
@@ -275,7 +277,7 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
 .tp-link:hover{border-color:var(--bline);color:var(--blue);background:var(--bdim)}
 .tp-title{font-size:.7rem;color:var(--t2);margin-bottom:.85rem;line-height:1.5}
 
-/* track rows — compact, balanced */
+/* track rows — balanced spacing */
 .trows{display:flex;flex-direction:column}
 
 .trow{
@@ -283,34 +285,35 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
   grid-template-columns:1fr 56px 22px;
   align-items:center;
   gap:.8rem;
-  padding:.55rem 0;
+  padding:.8rem 0;          /* 2. more vertical breathing room */
   border-bottom:1px solid var(--l1);
   cursor:pointer;
   transition:all .15s;
 }
 .trow:last-child{border-bottom:none}
-.trow:hover{background:rgba(255,255,255,.03);
-  padding-left:.5rem;padding-right:.5rem;margin:0 -.5rem;border-radius:4px}
+.trow:hover{background:rgba(255,255,255,.04);
+  padding-left:.6rem;padding-right:.6rem;margin:0 -.6rem;border-radius:5px}
 
-/* name line */
-.tr-name-row{display:flex;align-items:baseline;gap:.6rem;margin-bottom:.18rem}
-.tr-n{font-family:'Noto Sans SC',sans-serif;font-size:.86rem;font-weight:600;color:var(--t1)}
-.tr-s{font-size:.56rem;color:var(--t2)}
+/* name line — 4. line-height */
+.tr-name-row{display:flex;align-items:baseline;gap:.6rem;margin-bottom:.22rem}
+.tr-n{font-family:'Noto Sans SC',sans-serif;font-size:.88rem;font-weight:600;
+  color:var(--t1);line-height:1.6;letter-spacing:.01em}
+.tr-s{font-size:.58rem;color:var(--t2);line-height:1.6}
 
 /* bar */
-.tr-bw{position:relative;height:3px;background:var(--bg4);border-radius:2px;margin-bottom:.28rem}
+.tr-bw{position:relative;height:3px;background:var(--bg4);border-radius:2px;margin-bottom:.32rem;margin-top:.1rem}
 .tr-b50{position:absolute;left:50%;top:-3px;bottom:-3px;width:1px;background:var(--l2)}
 .tr-b{height:100%;border-radius:2px;transition:width .6s cubic-bezier(.16,1,.3,1)}
 
-/* score chips — inline after bar */
-.tr-scs{display:flex;gap:.16rem}
-.tr-sc{font-family:'DM Mono',monospace;font-size:.48rem;padding:.08rem .26rem;
-  border-radius:3px;background:var(--bg4);display:inline-flex;gap:.12rem}
-.tr-sc b{font-weight:700}
+/* 5. score chips — higher contrast */
+.tr-scs{display:flex;gap:.18rem}
+.tr-sc{font-family:'DM Mono',monospace;font-size:.5rem;padding:.1rem .3rem;
+  border-radius:3px;background:var(--bg4);display:inline-flex;gap:.14rem}
+.tr-sc b{font-weight:700;color:rgba(255,255,255,.85)}  /* boosted from dim to 85% white */
 .h b{color:var(--up)}.m b{color:var(--fl)}.l b{color:var(--dn)}
 
-.tr-hv{font-size:1.1rem;font-weight:700;letter-spacing:-.03em;text-align:right}
-.tr-tr{font-size:.85rem;text-align:center}
+.tr-hv{font-size:1.15rem;font-weight:700;letter-spacing:-.03em;text-align:right}
+.tr-tr{font-size:.88rem;text-align:center}
 
 .src-inline{display:inline-flex;font-family:'DM Mono',monospace;font-size:.45rem;color:var(--t3);
   border:1px solid var(--l1);border-radius:3px;padding:.04rem .28rem;margin-left:4px;
