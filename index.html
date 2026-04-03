@@ -68,8 +68,8 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
 
 /* Vercel/Linear style nav links */
 .nav-link{
-  font-size:.78rem;font-weight:400;
-  color:var(--t3);
+  font-size:.82rem;font-weight:400;
+  color:var(--t2);
   text-decoration:none;
   padding:0 10px;height:30px;
   display:inline-flex;align-items:center;
@@ -78,15 +78,15 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
   border-radius:6px;
   letter-spacing:.01em;
 }
-.nav-link:hover{color:var(--t1);background:rgba(255,255,255,.07)}
+.nav-link:hover{color:var(--t1);background:rgba(255,255,255,.09)}
 .nav-link.active{
   color:var(--t1);
-  background:rgba(255,255,255,.06);
-  font-weight:500;
+  background:rgba(255,255,255,.09);
+  font-weight:600;
 }
 
 .nav-right{display:flex;align-items:center;gap:8px;margin-left:auto;flex-shrink:0}
-.nav-live{display:flex;align-items:center;gap:6px;font-family:'DM Mono',monospace;font-size:.6rem;color:var(--t3);letter-spacing:.07em}
+.nav-live{display:flex;align-items:center;gap:6px;font-family:'DM Mono',monospace;font-size:.65rem;color:var(--t2);letter-spacing:.07em}
 .nav-dot{width:5px;height:5px;border-radius:50%;background:var(--up);animation:blink 2.4s ease-in-out infinite}
 @keyframes blink{0%,100%{opacity:1}50%{opacity:.2}}
 .nav-btn{
@@ -96,6 +96,8 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
   text-transform:uppercase;
 }
 .nav-btn:hover{color:var(--t1);border-color:var(--l3);background:rgba(255,255,255,.05)}
+.nav-btn-src{border-color:var(--bline);color:var(--blue);}
+.nav-btn-src:hover{background:var(--bdim);border-color:var(--blue)}
 
 /* ── HERO ── */
 .hero{max-width:var(--content-w);margin:0 auto;padding:var(--space-md) var(--page-px) var(--space-sm);border-bottom:1px solid var(--l1);
@@ -104,16 +106,16 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
   text-transform:uppercase;margin-bottom:.7rem;display:flex;align-items:center;gap:9px}
 .hero-eyebrow::before{content:'';width:14px;height:1px;background:var(--blue)}
 .hero h1{font-size:clamp(1.6rem,2.8vw,2.4rem);font-weight:600;letter-spacing:-.03em;line-height:1.1;margin-bottom:.55rem}
-.hero h1 .dim{color:var(--t3);font-weight:300}
-.hero-meta{font-family:'DM Mono',monospace;font-size:.57rem;color:var(--t3);letter-spacing:.08em;line-height:1.85}
+.hero h1 .dim{color:var(--t2);font-weight:300}
+.hero-meta{font-family:'DM Mono',monospace;font-size:.65rem;color:var(--t2);letter-spacing:.06em;line-height:1.85}
 
 /* ── KPI ── */
 .kpis{display:flex;gap:1px;background:var(--l1);border:1px solid var(--l2);border-radius:10px;overflow:hidden;flex-shrink:0;align-self:flex-end}
 .kpi{padding:.95rem 1.3rem;background:var(--bg2);display:flex;flex-direction:column;gap:.22rem;min-width:108px;transition:background .18s}
 .kpi:hover{background:var(--bg3)}
 .kpi-v{font-size:1.25rem;font-weight:600;line-height:1;letter-spacing:-.02em}
-.kpi-l{font-family:'DM Mono',monospace;font-size:.47rem;letter-spacing:.13em;text-transform:uppercase;color:var(--t3)}
-.kpi-d{font-size:.56rem}
+.kpi-l{font-family:'DM Mono',monospace;font-size:.54rem;letter-spacing:.1em;text-transform:uppercase;color:var(--t2)}
+.kpi-d{font-size:.6rem}
 .up{color:var(--up)}.dn{color:var(--dn)}.fl{color:var(--fl)}
 .hot{color:var(--hot)}.exp{color:var(--exp)}.neu{color:var(--neu)}.cold{color:var(--cold)}
 
@@ -127,27 +129,27 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
 .ai-banner{max-width:var(--content-w);margin:0 auto;padding:10px var(--page-px);border-bottom:1px solid var(--l1);
   position:relative;z-index:1;display:flex;align-items:center;gap:12px;
   background:linear-gradient(90deg,rgba(45,139,255,.05),transparent)}
-.ai-badge{font-family:'DM Mono',monospace;font-size:.5rem;letter-spacing:.12em;text-transform:uppercase;
-  padding:.16rem .5rem;border-radius:3px;background:var(--bdim);color:var(--blue);
+.ai-badge{font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;
+  padding:.18rem .56rem;border-radius:3px;background:var(--bdim);color:var(--blue);
   border:1px solid var(--bline);white-space:nowrap;flex-shrink:0}
-.ai-text{font-size:.68rem;color:var(--t2);line-height:1.7;transition:opacity .35s}
-.ai-text strong{color:var(--t1);font-weight:500}
-.ai-src{display:inline-flex;font-family:'DM Mono',monospace;font-size:.46rem;color:var(--t3);
+.ai-text{font-size:.74rem;color:var(--t1);line-height:1.7;transition:opacity .35s}
+.ai-text strong{color:var(--t1);font-weight:600}
+.ai-src{display:inline-flex;font-family:'DM Mono',monospace;font-size:.5rem;color:var(--t2);
   border:1px solid var(--l2);border-radius:3px;padding:.04rem .3rem;margin-left:5px;
   cursor:default;vertical-align:middle;position:relative}
 .ai-src:hover::after{content:attr(data-src);position:absolute;bottom:calc(100% + 5px);left:0;
   background:var(--bg4);border:1px solid var(--l2);border-radius:5px;padding:.35rem .55rem;
-  font-size:.54rem;color:var(--t2);white-space:nowrap;z-index:20;box-shadow:0 8px 24px rgba(0,0,0,.5)}
-.ai-next{margin-left:auto;flex-shrink:0;font-family:'DM Mono',monospace;font-size:.5rem;
-  color:var(--t3);background:none;border:none;cursor:pointer;letter-spacing:.06em;text-transform:uppercase;transition:color .15s}
-.ai-next:hover{color:var(--t2)}
+  font-size:.58rem;color:var(--t2);white-space:nowrap;z-index:20;box-shadow:0 8px 24px rgba(0,0,0,.5)}
+.ai-next{margin-left:auto;flex-shrink:0;font-family:'DM Mono',monospace;font-size:.58rem;
+  color:var(--t2);background:none;border:none;cursor:pointer;letter-spacing:.06em;text-transform:uppercase;transition:color .15s}
+.ai-next:hover{color:var(--t1)}
 
 /* ── SECTION HDR ── */
 .shdr{max-width:var(--content-w);margin:0 auto;padding:var(--space-sm) var(--page-px) var(--space-xs);display:flex;align-items:center;gap:14px;position:relative;z-index:1}
-.slabel{font-family:'DM Mono',monospace;font-size:.53rem;letter-spacing:.18em;text-transform:uppercase;color:var(--t3);white-space:nowrap}
-.sline{flex:1;height:1px;background:var(--l1)}
-.scollapse{font-family:'DM Mono',monospace;font-size:.53rem;color:var(--t3);cursor:pointer;white-space:nowrap;background:none;border:none;transition:color .15s}
-.scollapse:hover{color:var(--t2)}
+.slabel{font-family:'DM Mono',monospace;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--t2);white-space:nowrap}
+.sline{flex:1;height:1px;background:var(--l2)}
+.scollapse{font-family:'DM Mono',monospace;font-size:.6rem;color:var(--t2);cursor:pointer;white-space:nowrap;background:none;border:none;transition:color .15s}
+.scollapse:hover{color:var(--t1)}
 
 /* ── MACRO ENTRY CARD ── */
 .macro-entry{
@@ -201,8 +203,8 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
 .macro-zone .sector-row{border-top:none}
 
 .zone-divider{max-width:var(--content-w);margin:0 auto;padding:var(--space-xs) var(--page-px);display:flex;align-items:center;gap:14px;position:relative;z-index:1}
-.zone-label{font-family:'DM Mono',monospace;font-size:.5rem;letter-spacing:.2em;text-transform:uppercase;color:var(--t3);white-space:nowrap}
-.zone-dash{flex:1;border-top:1px dashed rgba(100,180,255,.12)}
+.zone-label{font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.16em;text-transform:uppercase;color:var(--t2);white-space:nowrap}
+.zone-dash{flex:1;border-top:1px dashed rgba(100,180,255,.2)}
 
 /* ── BCARD ── */
 .bcard{background:var(--bg2);padding:1.5rem 1.6rem 1.3rem;cursor:pointer;border:none;text-align:left;width:100%;
@@ -243,25 +245,25 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
 
 /* ── 4. SPARKLINE with breathe ── */
 .bspark{display:flex;align-items:flex-end;gap:2px;height:16px;margin-bottom:.7rem}
-.bbar{flex:1;border-radius:2px;min-height:3px;background:color-mix(in srgb,var(--c) 14%,transparent);transition:background .2s}
-.bcard:hover .bbar,.bcard.on .bbar{background:color-mix(in srgb,var(--c) 26%,transparent)}
+.bbar{flex:1;border-radius:2px;min-height:3px;background:color-mix(in srgb,var(--c) 22%,transparent);transition:background .2s}
+.bcard:hover .bbar,.bcard.on .bbar{background:color-mix(in srgb,var(--c) 36%,transparent)}
 .bbar.pk{background:color-mix(in srgb,var(--c) 60%,transparent)!important}
 .bbar.breathe{animation:breathe 2s ease-in-out infinite}
 
 .btags{display:flex;flex-wrap:wrap;gap:.25rem;margin-bottom:.75rem}
-.btag{font-family:'DM Mono',monospace;font-size:.48rem;padding:.11rem .38rem;
-  border:1px solid var(--l1);border-radius:100px;color:var(--t3);letter-spacing:.04em;transition:all .15s}
-.bcard:hover .btag,.bcard.on .btag{border-color:color-mix(in srgb,var(--c) 22%,transparent);color:var(--t2)}
-.bfoot{display:flex;justify-content:space-between;align-items:center;padding-top:.65rem;border-top:1px solid var(--l1)}
-.bcount{font-family:'DM Mono',monospace;font-size:.5rem;color:var(--t3);letter-spacing:.06em}
-.bchev{font-size:.68rem;color:var(--t3);transition:all .22s}
+.btag{font-family:'DM Mono',monospace;font-size:.56rem;padding:.14rem .44rem;
+  border:1px solid var(--l2);border-radius:100px;color:var(--t2);letter-spacing:.03em;transition:all .15s}
+.bcard:hover .btag,.bcard.on .btag{border-color:color-mix(in srgb,var(--c) 35%,transparent);color:var(--t1)}
+.bfoot{display:flex;justify-content:space-between;align-items:center;padding-top:.65rem;border-top:1px solid var(--l2)}
+.bcount{font-family:'DM Mono',monospace;font-size:.6rem;color:var(--t2);letter-spacing:.05em}
+.bchev{font-size:.78rem;color:var(--t2);transition:all .22s}
 .bcard:hover .bchev{color:var(--c);transform:translateX(3px)}.bcard.on .bchev{color:var(--c);transform:rotate(90deg)}
 
 /* ── RADAR ── */
-.radar-wrap{width:86px;height:86px;flex-shrink:0;position:relative}
-.radar-labels{display:grid;grid-template-columns:1fr 1fr;gap:2px;width:86px}
-.radar-lbl{font-family:'DM Mono',monospace;font-size:.42rem;text-align:center;color:var(--t3);letter-spacing:.04em;padding:.1rem 0;transition:color .15s}
-.radar-lbl span{color:var(--c);font-weight:500}
+.radar-wrap{width:100px;height:100px;flex-shrink:0;position:relative}
+.radar-labels{display:grid;grid-template-columns:1fr 1fr;gap:3px;width:100px}
+.radar-lbl{font-family:'DM Mono',monospace;font-size:.56rem;text-align:center;color:var(--t2);letter-spacing:.03em;padding:.14rem 0;transition:color .15s}
+.radar-lbl span{color:var(--c);font-weight:600;font-size:.6rem}
 /* 2. hover tooltip */
 .radar-tip{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
   text-align:center;pointer-events:none;opacity:0;transition:opacity .15s;z-index:10}
@@ -321,7 +323,7 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
 
 .trow{
   display:grid;
-  grid-template-columns:1fr 56px 22px;
+  grid-template-columns:1fr 56px 22px 18px;
   align-items:center;
   gap:.8rem;
   padding:.8rem 0;          /* 2. more vertical breathing room */
@@ -423,9 +425,46 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
 .sptags{display:flex;flex-wrap:wrap;gap:.22rem}
 .sptag{font-family:'DM Mono',monospace;font-size:.48rem;padding:.1rem .34rem;background:var(--bg4);border:1px solid var(--l1);border-radius:100px;color:var(--t3)}
 
-footer{border-top:1px solid var(--l1);padding:var(--space-sm) var(--page-px);display:flex;justify-content:space-between;
+footer{border-top:1px solid var(--l1);padding:var(--space-sm) var(--page-px);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem;
   font-family:'DM Mono',monospace;font-size:.53rem;color:var(--t3);letter-spacing:.07em;
   max-width:var(--content-w);margin:0 auto;position:relative;z-index:1}
+.footer-left{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap}
+.footer-right{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap}
+.footer-divider{opacity:.4}
+.footer-disclaimer{color:var(--t3);opacity:.65;font-style:italic}
+
+/* Track delta (MoM change) */
+.tr-delta{font-size:.45rem;font-family:'DM Mono',monospace;margin-left:.25rem;opacity:.8;vertical-align:super}
+.tr-delta.up{color:var(--up)}.tr-delta.dn{color:var(--dn)}
+
+/* ── NEW ADDITIONS ── */
+/* Hero tagline */
+.hero-tagline{font-size:.72rem;color:var(--t2);letter-spacing:.02em;margin-bottom:.55rem;line-height:1.5;border-left:2px solid var(--blue);padding-left:.6rem}
+
+/* AI gen note */
+.ai-gen-note{font-family:'DM Mono',monospace;font-size:.52rem;color:var(--t2);letter-spacing:.05em;white-space:nowrap;padding:.14rem .4rem;border:1px solid var(--l2);border-radius:3px;flex-shrink:0}
+
+/* Heat formula tooltip */
+.heat-formula-tip{position:relative;display:flex;align-items:center;gap:.3rem;cursor:help;flex-shrink:0}
+.formula-badge{font-family:'DM Mono',monospace;font-size:.54rem;letter-spacing:.1em;color:var(--t2);border:1px solid var(--l2);border-radius:3px;padding:.1rem .4rem}
+.formula-hint{width:16px;height:16px;border-radius:50%;background:var(--bg3);border:1px solid var(--l3);display:flex;align-items:center;justify-content:center;font-size:.52rem;color:var(--t2);font-family:'DM Mono',monospace}
+.heat-formula-tip::after{content:'D = 需求景气度 Demand (×35%)\\A C = 资本开支/产能 Capex (×30%)\\A P = 价格信号 Price (×20%)\\A Pol = 政策支持 Policy (×15%)';
+  position:absolute;top:calc(100% + 6px);left:0;white-space:pre;
+  background:var(--bg4);border:1px solid var(--l2);border-radius:7px;padding:.55rem .75rem;
+  font-family:'DM Mono',monospace;font-size:.52rem;color:var(--t2);line-height:1.9;
+  z-index:50;box-shadow:0 8px 28px rgba(0,0,0,.55);pointer-events:none;
+  opacity:0;transform:translateY(-4px);transition:opacity .15s,transform .15s}
+.heat-formula-tip:hover::after{opacity:1;transform:none}
+
+/* Track source icon */
+.tr-src-ico{position:relative;font-family:'DM Mono',monospace;font-size:.52rem;color:var(--t3);cursor:help;text-align:center;opacity:.6;transition:opacity .15s}
+.tr-src-ico:hover{opacity:1}
+.tr-src-tip{position:absolute;right:0;top:calc(100% + 4px);white-space:nowrap;
+  background:var(--bg4);border:1px solid var(--l2);border-radius:5px;padding:.3rem .55rem;
+  font-family:'DM Mono',monospace;font-size:.48rem;color:var(--t2);
+  z-index:30;box-shadow:0 6px 20px rgba(0,0,0,.5);
+  opacity:0;pointer-events:none;transform:translateY(-3px);transition:opacity .15s,transform .15s}
+.tr-src-ico:hover .tr-src-tip{opacity:1;transform:none}
 
 @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 .rise{animation:rise .46s cubic-bezier(.16,1,.3,1) both}
@@ -459,17 +498,18 @@ footer{border-top:1px solid var(--l1);padding:var(--space-sm) var(--page-px);dis
       <a href="customers.html" class="nav-link">客户监控</a>
     </div>
     <div class="nav-right">
-      <div class="nav-live"><div class="nav-dot"></div>202603·0331</div>
-      <button class="nav-btn" onclick="toggleSrc()">数据溯源</button>
+      <div class="nav-live"><div class="nav-dot"></div>202603 · 0331 UPDATED</div>
+      <button class="nav-btn nav-btn-src" onclick="toggleSrc()">数据溯源 ⓘ</button>
     </div>
   </div>
 </nav>
 
 <div class="hero rise">
   <div>
-    <div class="hero-eyebrow">Market Intelligence · Live</div>
+    <div class="hero-eyebrow">MARKET INTELLIGENCE · LIVE</div>
     <h1>行业景气度<br><span class="dim">监测报告 2026</span></h1>
-    <div class="hero-meta">HEAT SCORE · D×35% + C×30% + P×20% + Pol×15%<br>6 SECTORS · 20 TRACKS · 202603 · 0331</div>
+    <div class="hero-tagline">为精密流体控制供应商设计的行业景气度信号系统</div>
+    <div class="hero-meta">HEAT SCORE · D×35% + C×30% + P×20% + Pol×15%<br>6 SECTORS · 20 TRACKS · 最近更新：2026年3月31日 · 下次更新预计：4月末</div>
   </div>
   <div class="kpis" id="hkpis"></div>
 </div>
@@ -477,11 +517,16 @@ footer{border-top:1px solid var(--l1);padding:var(--space-sm) var(--page-px);dis
 <div class="ai-banner rise" style="animation-delay:.06s">
   <span class="ai-badge">AI 简评</span>
   <div class="ai-text" id="ai-text"></div>
+  <span class="ai-gen-note">由 Claude 基于当期数据生成 · 仅供参考</span>
   <button class="ai-next" onclick="nextInsight()">下一条 ›</button>
 </div>
 
 <div class="shdr">
   <span class="slabel">板块总览 · 6 Sectors</span>
+  <div class="heat-formula-tip" title="D=需求景气度 Demand · C=资本开支/产能 Capex · P=价格信号 Price · Pol=政策支持 Policy">
+    <span class="formula-badge">D · C · P · Pol</span>
+    <span class="formula-hint">?</span>
+  </div>
   <div class="sline"></div>
   <button class="scollapse" onclick="collapseAll()">收起 ↑</button>
 </div>
@@ -532,8 +577,16 @@ footer{border-top:1px solid var(--l1);padding:var(--space-sm) var(--page-px);dis
 </div>
 
 <footer>
-  <span>© 2026 PULSE · 行业景气度监测 · 202603 · 0331</span>
-  <span>国家统计局 / 央行 / 行业协会 / 上市公司公告</span>
+  <div class="footer-left">
+    <span>© 2026 PULSE · 行业景气度监测系统</span>
+    <span class="footer-divider">·</span>
+    <span>国家统计局 / 央行 / 行业协会 / 上市公司公告</span>
+  </div>
+  <div class="footer-right">
+    <span class="footer-disclaimer">本报告仅供内部分析参考，不构成投资建议</span>
+    <span class="footer-divider">·</span>
+    <span>最近更新 2026-03-31</span>
+  </div>
 </footer>
 
 <script>
@@ -544,9 +597,9 @@ const HEAT_RANK={};
 
 const BM={
   Macro:{n:'宏观背景',    heat:50.2,tr:'up', D:50,C:44,P:56,Pol:62,
-    sum:'3月PMI 50.5%重返扩张！Q1开局双信号确认',
+    sum:'3月制造业PMI 50.4%重返扩张！Q1开局信号确认',
     sumAlert:'🟢',href:'macro.html',tracks:['m1','m2','m3'],sparks:[48,50,53],hotIdx:2,
-    insight:'<strong>宏观背景</strong> — 3月官方PMI 50.5%（+1.5pp），重返扩张区间；生产52.6%、新订单51.8%，中小企业同步改善。FAI+1.8%转正叠加PMI双重确认，Q1开局信号转强。<span class="ai-src" data-src="国家统计局 · 2026-03-31">NSB</span>'},
+    insight:'<strong>宏观背景</strong> — 3月制造业PMI 50.4%，重返扩张区间；生产52.6%、新订单51.8%，中小企业同步改善。FAI+1.8%转正叠加PMI确认，Q1开局信号转强。<span class="ai-src" data-src="国家统计局 · 2026-03-31">NSB</span>'},
   EI:{n:'能源·基础设施',  heat:72.5,tr:'up', D:82,C:80,P:68,Pol:86,
     sum:'两会AI基建落地+美半导体232关税双重催化',
     sumAlert:'🔥',href:'hydrogen.html',tracks:['e1','e2','e3','e4'],sparks:[64,72,74,44],hotIdx:2,
@@ -571,26 +624,26 @@ const BM={
 const BO=['Macro','EI','GI','P&B','L&M','F&B'];
 
 const T={
-  m1:{b:'Macro',n:'制造业 PMI',sub:'总体景气指数',heat:50.8,tr:'up',D:50,C:38,P:52,Pol:65,data:['3月官方PMI 50.5%（+1.5pp），重返扩张区间','生产指数52.6%、新订单51.8%，中小企业景气同步改善','财新制造业PMI 4月1日公布，预计维持扩张'],tw:'3月PMI重返50%以上，验证春节扰动消退后制造业景气快速修复。综合PMI 51.4%，三大指数全线扩张，Q1开门红格局确立。',act:'信号确认 · 跟踪4月1日财新PMI交叉验证',src:['国家统计局 2026-03-31','财新/标普全球']},
-  m2:{b:'Macro',n:'M2 / 社融',sub:'货币政策综合信号',heat:50.5,tr:'fl',D:47,C:40,P:56,Pol:68,data:['1月M2同比+9%（近两年新高），社融7.22万亿（历史同期最高）','两会已确认：赤字率4%、Q1降准50BP预期仍在'],tw:'两会货币政策定调清晰，但关税诉讼引入外需不确定性。货币宽松重心转向内需提振。',act:'关注 · Q1信贷及3月PMI',src:['中国人民银行']},
-  m3:{b:'Macro',n:'固定资产投资',sub:'制造业FAI/规上增加值',heat:48.5,tr:'up',D:48,C:42,P:54,Pol:58,data:['2026年1-2月全国FAI +1.8%（vs 2025全年-3.8%，实现转正）','制造业投资+2.5%；高技术制造业+9.4%'],tw:'FAI转正是年内最重要的宏观好转信号之一。需观察Q1是否延续。',act:'关注 · FAI转正信号，跟踪Q1延续性',src:['国家统计局']},
-  e1:{b:'EI',n:'液冷数据中心',sub:'AI液冷渗透率/市场规模',heat:86.1,tr:'up',D:90,C:92,P:72,Pol:84,data:['TrendForce：2026年AI芯片液冷渗透率47%（上调7pp）；北美市场100亿美元','美国对先进AI半导体加征25%关税（232条，1月15日起）','GB200 NVL72单柜功耗130kW+，风冷已触达物理极限'],tw:'美国232关税直接强化国内算力国产化紧迫性，液冷设备作为核心配套，渗透率47%+政策+技术三重驱动维持全表最高优先级。',act:'立即跟进 · CDU/冷板/管路系统',src:['TrendForce','国信证券']},
-  e2:{b:'EI',n:'半导体设备国产化',sub:'龙头设备商/前道市场',heat:80.1,tr:'up',D:82,C:82,P:68,Pol:88,data:['DRAM Q1合约价+90-95%，全产业链20+企业发涨价函','WSTS预测2026年全球半导体+26.3%达9750亿美元'],tw:'全产业链涨价潮确认AI需求爆发，Policy分88全表最高之一。出口管制倒逼国产替代升级为必选项。',act:'持续跟进 · 存储/设备/封测多环节',src:['WSTS','北方华创财报']},
-  e3:{b:'EI',n:'绿氢电解槽',sub:'PEM/AEM高壁垒路线',heat:68.7,tr:'up',D:68,C:72,P:55,Pol:82,data:['2025年电解槽招标6055MW（+155.6%），ALK内卷','PEM+AEM增速+263%，卡脖子材料国产化率<20%'],tw:'《能源法》氢能入法是历史性信号，精准切入质子交换膜/铱催化剂国产替代，规避ALK内卷。',act:'布局 · 质子交换膜/铱催化剂',src:['香橙会氢能数据库']},
-  e4:{b:'EI',n:'燃料电池',sub:'FCEV重卡/系统集成',heat:47.1,tr:'dn',D:40,C:50,P:38,Pol:70,data:['2026年1月销量70辆（-47% YoY），政策空窗期','五大示范城市群国补2025年底到期'],tw:'1月-47%彻底验证2025数据失真，等待十五五接续补贴，港口/钢厂封闭场景是唯一确定性机会。',act:'暂缓 · 仅盯质子交换膜/碳纸',src:['中汽协']},
-  g1:{b:'GI',n:'锂电设备',sub:'宁德时代产能扩张',heat:75.8,tr:'fl',D:80,C:82,P:62,Pol:72,data:['匈牙利工厂Q1量产，海外产能正式兑现','济宁储能基地新增>100GWh','2026-01全球首款量产钠离子电池首发'],tw:'CATL三线共振支撑景气度高位，先导/赢合设备订单确定性全板块最强。',act:'稳步跟进 · 先导智能/赢合科技',src:['宁德时代公告']},
-  p1:{b:'P&B',n:'生物药出海',sub:'创新药License-out/BD',heat:69.7,tr:'up',D:80,C:72,P:48,Pol:70,data:['司美格鲁肽核心专利3月20日已正式到期','11款国产上市申请排队；Q3最快获批首仿'],tw:'专利已到期是P&B本月最重要里程碑。多肽CDMO产线订单爆发确定性高。',act:'立即跟进 · 多肽CDMO/仿制药产线',src:['摩熵医药']},
-  p2:{b:'P&B',n:'合成生物学',sub:'中试车间开工数',heat:67.75,tr:'up',D:70,C:68,P:58,Pol:75,data:['华东中试车间开工数+~30% YoY（2026年2月）','华恒/凯赛/嘉必优新产线2026H1验收'],tw:'进入中试→量产转化关键期，发酵罐+分离纯化设备需求从预期变为实质交付。',act:'立即跟进 · 发酵罐/分离纯化',src:['华恒/凯赛年报']},
-  p3:{b:'P&B',n:'生物药融资',sub:'早期融资额',heat:47.55,tr:'dn',D:55,C:35,P:50,Pol:52,data:['2026年1月生物医药投融资57.66亿元（-11% YoY）','融资→设备需求传导链长达3-5年'],tw:'早期融资收缩是3-5年滞后指标，勿用于短期Capex判断。',act:'观察 · 勿用于短期Capex判断',src:['动脉网']},
-  p4:{b:'P&B',n:'制药装备Capex',sub:'医药制造业FAI',heat:59.6,tr:'dn',D:72,C:46,P:55,Pol:72,data:['医药FAI 2025年全年-13.5%，设备端最直接负面指标'],tw:'FAI-13.5%是最直接负面信号，H2仿制药产线建设是中期转折。',act:'暂缓 · 精选ADC/多肽专线',src:['国家统计局FAI']},
-  p5:{b:'P&B',n:'CDMO',sub:'海外大客户询单量',heat:67.55,tr:'up',D:72,C:65,P:58,Pol:62,data:['早期分子询单Index~108（+8% MoM），近期新高','凯莱英GLP-1多肽商业化订单确认'],tw:'询单+8%是本月最强P&B正面信号，TIDES/ADC/CGT三条高附加值产线是精准切入方向。',act:'跟进 · TIDES/GLP-1多肽专线',src:['凯莱英公告']},
-  l1:{b:'L&M',n:'质谱/色谱仪器',sub:'高端分析仪器国产替代',heat:68,tr:'fl',D:72,C:65,P:58,Pol:78,data:['质谱仪进口报关量-12.4% YoY，最强国产替代信号','2026年国内质谱市场预计突破230亿元'],tw:'进口-12.4%是最强国产替代确认信号，Policy分78。禾信/谱育是近期最高优先级拓展客户。',act:'跟进 · 禾信/谱育客户拓展',src:['海关总署']},
-  l2:{b:'L&M',n:'基因测序',sub:'测序服务需求',heat:66.4,tr:'fl',D:70,C:62,P:55,Pol:82,data:['商务部将因美纳列入"不可靠实体清单"','华大智造CoolMPS受益，三甲医院测序仪替换潮启动'],tw:'因美纳禁令是最强催化，Policy分82。华大智造/真迈生物是直接受益标的。',act:'跟进 · 测序仪替换+耗材双线',src:['商务部公告']},
-  l3:{b:'L&M',n:'医疗IVD',sub:'IVD体外诊断',heat:52.55,tr:'dn',D:62,C:45,P:38,Pol:65,data:['2025年中国IVD市场规模超1400亿元','化学发光国产化率<30%，第28省集采降价50-70%'],tw:'Price分38全表最低，集采降价50-70%最强负面信号。',act:'精选 · 基层POCT/化学发光国产',src:['智研咨询']},
-  f1:{b:'F&B',n:'食品制造FAI',sub:'设备端Capex信号',heat:54.6,tr:'dn',D:62,C:48,P:55,Pol:50,data:['食品制造业FAI 2025年+2.2%（vs 2024年+22.9%，降速超20pp）'],tw:'FAI从+22.9%骤降至+2.2%，新建逻辑彻底终结，存量替换是切入点。',act:'存量替换 · 预制菜/烘焙产线',src:['国家统计局FAI']},
-  f2:{b:'F&B',n:'酒/饮料制造FAI',sub:'设备端Capex信号',heat:48,tr:'dn',D:58,C:35,P:50,Pol:48,data:['酒饮料制造业FAI 2025年-0.2%（vs 2024年+18%，直接转负）'],tw:'F&B最强负面信号：FAI直接转负，传统酒饮料扩产逻辑彻底终结。',act:'暂停 · 规避白酒/碳酸新建产线',src:['国家统计局FAI']},
-  f3:{b:'F&B',n:'食品饮料消费',sub:'春节/年货消费端参考',heat:54.3,tr:'dn',D:68,C:40,P:55,Pol:50,data:['春节年货市场+17.5%，广州饮料消费+38.5%'],tw:'消费端超预期但与设备投资有3-6月滞后，功能饮品/预制菜是值得跟进的品类方向。',act:'观察 · 功能饮品/预制菜方向',src:['商务部']},
-  f4:{b:'F&B',n:'食品添加剂',sub:'合成生物学/功能成分',heat:61.15,tr:'fl',D:70,C:55,P:52,Pol:65,data:['功能性食品成分市场>800亿，天然甜味剂/益生菌高增长'],tw:'F&B板块最强结构性机会：发酵罐+分离纯化设备迎来替代窗口。聚焦益生菌/胶原肽。',act:'跟进 · 发酵罐/纯化设备商',src:['华恒/凯赛年报']},
+  m1:{b:'Macro',n:'制造业 PMI',sub:'制造业景气指数',heat:50.4,tr:'up',delta:+1.4,D:50,C:38,P:52,Pol:65,data:['3月制造业PMI 50.4%，重返扩张区间（荣枯线以上）','生产指数52.6%、新订单51.8%，中小企业景气同步改善','财新制造业PMI 4月1日公布，预计维持扩张'],tw:'制造业PMI重返50%以上，验证春节扰动消退后制造业景气快速修复。生产与新订单双线扩张，Q1开门红格局确立。后续仅跟踪制造业PMI作为核心景气信号。',act:'信号确认 · 跟踪4月财新制造业PMI交叉验证',src:['国家统计局 2026-03-31','财新/标普全球']},
+  m2:{b:'Macro',n:'M2 / 社融',sub:'货币政策综合信号',heat:50.5,tr:'fl',delta:0,D:47,C:40,P:56,Pol:68,data:['1月M2同比+9%（近两年新高），社融7.22万亿（历史同期最高）','两会已确认：赤字率4%、Q1降准50BP预期仍在'],tw:'两会货币政策定调清晰，但关税诉讼引入外需不确定性。货币宽松重心转向内需提振。',act:'关注 · Q1信贷及3月PMI',src:['中国人民银行']},
+  m3:{b:'Macro',n:'固定资产投资',sub:'制造业FAI/规上增加值',heat:48.5,tr:'up',delta:+2.1,D:48,C:42,P:54,Pol:58,data:['2026年1-2月全国FAI +1.8%（vs 2025全年-3.8%，实现转正）','制造业投资+2.5%；高技术制造业+9.4%'],tw:'FAI转正是年内最重要的宏观好转信号之一。需观察Q1是否延续。',act:'关注 · FAI转正信号，跟踪Q1延续性',src:['国家统计局']},
+  e1:{b:'EI',n:'液冷数据中心',sub:'AI液冷渗透率/市场规模',heat:86.1,tr:'up',delta:+4.2,D:90,C:92,P:72,Pol:84,data:['TrendForce：2026年AI芯片液冷渗透率47%（上调7pp）；北美市场100亿美元','美国对先进AI半导体加征25%关税（232条，1月15日起）','GB200 NVL72单柜功耗130kW+，风冷已触达物理极限'],tw:'美国232关税直接强化国内算力国产化紧迫性，液冷设备作为核心配套，渗透率47%+政策+技术三重驱动维持全表最高优先级。',act:'立即跟进 · CDU/冷板/管路系统',src:['TrendForce','国信证券']},
+  e2:{b:'EI',n:'半导体设备国产化',sub:'龙头设备商/前道市场',heat:80.1,tr:'up',delta:+3.5,D:82,C:82,P:68,Pol:88,data:['DRAM Q1合约价+90-95%，全产业链20+企业发涨价函','WSTS预测2026年全球半导体+26.3%达9750亿美元'],tw:'全产业链涨价潮确认AI需求爆发，Policy分88全表最高之一。出口管制倒逼国产替代升级为必选项。',act:'持续跟进 · 存储/设备/封测多环节',src:['WSTS','北方华创财报']},
+  e3:{b:'EI',n:'绿氢电解槽',sub:'PEM/AEM高壁垒路线',heat:68.7,tr:'up',delta:+1.8,D:68,C:72,P:55,Pol:82,data:['2025年电解槽招标6055MW（+155.6%），ALK内卷','PEM+AEM增速+263%，卡脖子材料国产化率<20%'],tw:'《能源法》氢能入法是历史性信号，精准切入质子交换膜/铱催化剂国产替代，规避ALK内卷。',act:'布局 · 质子交换膜/铱催化剂',src:['香橙会氢能数据库']},
+  e4:{b:'EI',n:'燃料电池',sub:'FCEV重卡/系统集成',heat:47.1,tr:'dn',delta:-3.2,D:40,C:50,P:38,Pol:70,data:['2026年1月销量70辆（-47% YoY），政策空窗期','五大示范城市群国补2025年底到期'],tw:'1月-47%彻底验证2025数据失真，等待十五五接续补贴，港口/钢厂封闭场景是唯一确定性机会。',act:'暂缓 · 仅盯质子交换膜/碳纸',src:['中汽协']},
+  g1:{b:'GI',n:'锂电设备',sub:'宁德时代产能扩张',heat:75.8,tr:'fl',delta:0,D:80,C:82,P:62,Pol:72,data:['匈牙利工厂Q1量产，海外产能正式兑现','济宁储能基地新增>100GWh','2026-01全球首款量产钠离子电池首发'],tw:'CATL三线共振支撑景气度高位，先导/赢合设备订单确定性全板块最强。',act:'稳步跟进 · 先导智能/赢合科技',src:['宁德时代公告']},
+  p1:{b:'P&B',n:'生物药出海',sub:'创新药License-out/BD',heat:69.7,tr:'up',delta:+2.8,D:80,C:72,P:48,Pol:70,data:['司美格鲁肽核心专利3月20日已正式到期','11款国产上市申请排队；Q3最快获批首仿'],tw:'专利已到期是P&B本月最重要里程碑。多肽CDMO产线订单爆发确定性高。',act:'立即跟进 · 多肽CDMO/仿制药产线',src:['摩熵医药']},
+  p2:{b:'P&B',n:'合成生物学',sub:'中试车间开工数',heat:67.75,tr:'up',delta:+1.5,D:70,C:68,P:58,Pol:75,data:['华东中试车间开工数+~30% YoY（2026年2月）','华恒/凯赛/嘉必优新产线2026H1验收'],tw:'进入中试→量产转化关键期，发酵罐+分离纯化设备需求从预期变为实质交付。',act:'立即跟进 · 发酵罐/分离纯化',src:['华恒/凯赛年报']},
+  p3:{b:'P&B',n:'生物药融资',sub:'早期融资额',heat:47.55,tr:'dn',delta:-2.1,D:55,C:35,P:50,Pol:52,data:['2026年1月生物医药投融资57.66亿元（-11% YoY）','融资→设备需求传导链长达3-5年'],tw:'早期融资收缩是3-5年滞后指标，勿用于短期Capex判断。',act:'观察 · 勿用于短期Capex判断',src:['动脉网']},
+  p4:{b:'P&B',n:'制药装备Capex',sub:'医药制造业FAI',heat:59.6,tr:'dn',delta:-1.4,D:72,C:46,P:55,Pol:72,data:['医药FAI 2025年全年-13.5%，设备端最直接负面指标'],tw:'FAI-13.5%是最直接负面信号，H2仿制药产线建设是中期转折。',act:'暂缓 · 精选ADC/多肽专线',src:['国家统计局FAI']},
+  p5:{b:'P&B',n:'CDMO',sub:'海外大客户询单量',heat:67.55,tr:'up',delta:+2.0,D:72,C:65,P:58,Pol:62,data:['早期分子询单Index~108（+8% MoM），近期新高','凯莱英GLP-1多肽商业化订单确认'],tw:'询单+8%是本月最强P&B正面信号，TIDES/ADC/CGT三条高附加值产线是精准切入方向。',act:'跟进 · TIDES/GLP-1多肽专线',src:['凯莱英公告']},
+  l1:{b:'L&M',n:'质谱/色谱仪器',sub:'高端分析仪器国产替代',heat:68,tr:'fl',delta:+0.5,D:72,C:65,P:58,Pol:78,data:['质谱仪进口报关量-12.4% YoY，最强国产替代信号','2026年国内质谱市场预计突破230亿元'],tw:'进口-12.4%是最强国产替代确认信号，Policy分78。禾信/谱育是近期最高优先级拓展客户。',act:'跟进 · 禾信/谱育客户拓展',src:['海关总署']},
+  l2:{b:'L&M',n:'基因测序',sub:'测序服务需求',heat:66.4,tr:'fl',delta:+1.2,D:70,C:62,P:55,Pol:82,data:['商务部将因美纳列入"不可靠实体清单"','华大智造CoolMPS受益，三甲医院测序仪替换潮启动'],tw:'因美纳禁令是最强催化，Policy分82。华大智造/真迈生物是直接受益标的。',act:'跟进 · 测序仪替换+耗材双线',src:['商务部公告']},
+  l3:{b:'L&M',n:'医疗IVD',sub:'IVD体外诊断',heat:52.55,tr:'dn',delta:-1.8,D:62,C:45,P:38,Pol:65,data:['2025年中国IVD市场规模超1400亿元','化学发光国产化率<30%，第28省集采降价50-70%'],tw:'Price分38全表最低，集采降价50-70%最强负面信号。',act:'精选 · 基层POCT/化学发光国产',src:['智研咨询']},
+  f1:{b:'F&B',n:'食品制造FAI',sub:'设备端Capex信号',heat:54.6,tr:'dn',delta:-2.3,D:62,C:48,P:55,Pol:50,data:['食品制造业FAI 2025年+2.2%（vs 2024年+22.9%，降速超20pp）'],tw:'FAI从+22.9%骤降至+2.2%，新建逻辑彻底终结，存量替换是切入点。',act:'存量替换 · 预制菜/烘焙产线',src:['国家统计局FAI']},
+  f2:{b:'F&B',n:'酒/饮料制造FAI',sub:'设备端Capex信号',heat:48,tr:'dn',delta:-1.5,D:58,C:35,P:50,Pol:48,data:['酒饮料制造业FAI 2025年-0.2%（vs 2024年+18%，直接转负）'],tw:'F&B最强负面信号：FAI直接转负，传统酒饮料扩产逻辑彻底终结。',act:'暂停 · 规避白酒/碳酸新建产线',src:['国家统计局FAI']},
+  f3:{b:'F&B',n:'食品饮料消费',sub:'春节/年货消费端参考',heat:54.3,tr:'dn',delta:-0.8,D:68,C:40,P:55,Pol:50,data:['春节年货市场+17.5%，广州饮料消费+38.5%'],tw:'消费端超预期但与设备投资有3-6月滞后，功能饮品/预制菜是值得跟进的品类方向。',act:'观察 · 功能饮品/预制菜方向',src:['商务部']},
+  f4:{b:'F&B',n:'食品添加剂',sub:'合成生物学/功能成分',heat:61.15,tr:'fl',delta:+0.9,D:70,C:55,P:52,Pol:65,data:['功能性食品成分市场>800亿，天然甜味剂/益生菌高增长'],tw:'F&B板块最强结构性机会：发酵罐+分离纯化设备迎来替代窗口。聚焦益生菌/胶原肽。',act:'跟进 · 发酵罐/纯化设备商',src:['华恒/凯赛年报']},
 };
 
 const SOURCES=[
@@ -623,7 +676,7 @@ DIM_KEYS.forEach(k=>{
 [{v:'86.1',l:'最高 Heat',d:'↑ 液冷+关税双催化',c:'exp'},
  {v:'到期',l:'司美格鲁肽',d:'3/20 仿制战启动',c:'dn'},
  {v:'10%',l:'美国新关税',d:'122条 4月听证',c:'dn'},
- {v:'50.5%',l:'3月 PMI',d:'↑ 重返扩张区间',c:'up'}
+ {v:'50.4%',l:'3月制造业PMI',d:'↑ 重返扩张区间',c:'up'}
 ].forEach(k=>{
   document.getElementById('hkpis').innerHTML+=
     `<div class="kpi"><span class="kpi-v ${k.c}">${k.v}</span><span class="kpi-l">${k.l}</span><span class="kpi-d ${k.c}">${k.d}</span></div>`;
@@ -665,9 +718,9 @@ function makeRadar(b,D,C,P,Pol){
   const cornerlbls=lbls.map((l,i)=>{
     const a=angles[i],lr=r+11;
     return `<text x="${cx+lr*Math.cos(a)}" y="${cy+lr*Math.sin(a)}" text-anchor="middle" dominant-baseline="middle"
-      fill="rgba(100,180,255,.45)" font-family="DM Mono,monospace" font-size="7.5" letter-spacing=".5">${l}</text>`;
+      fill="rgba(100,180,255,.55)" font-family="DM Mono,monospace" font-size="8.5" letter-spacing=".5">${l}</text>`;
   }).join('');
-  return `<svg width="86" height="86" viewBox="0 0 86 86" class="radar-svg" data-b="${b}">
+  return `<svg width="100" height="100" viewBox="0 0 86 86" class="radar-svg" data-b="${b}">
     ${rings}${axes}
     <polygon points="${ptStr}" style="fill:${cv};fill-opacity:.15;stroke:${cv};stroke-opacity:.6;stroke-width:1.5;stroke-linejoin:round"/>
     ${verts}${cornerlbls}
@@ -791,7 +844,7 @@ const macroZone=document.getElementById('macro-zone');
       <div class="macro-entry-left">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:.7rem">
           <span class="bbadge" style="--c:${cv}">MACRO</span>
-          <span style="font-family:'DM Mono',monospace;font-size:.52rem;letter-spacing:.14em;color:var(--t3);text-transform:uppercase">Global Context · 宏观背景</span>
+          <span style="font-family:'DM Mono',monospace;font-size:.52rem;letter-spacing:.14em;color:var(--t3);text-transform:uppercase">GLOBAL CONTEXT · 宏观背景</span>
         </div>
         <div class="bname">${m.n}</div>
         <div class="bsum" style="--c:${cv}">
@@ -845,8 +898,9 @@ function buildTrackHTML(b){
           <span class="tr-sc ${SC(t.Pol)}">Pol<b>${t.Pol}</b></span>
         </div>
         </div>
-        <div class="tr-hv ${HC(t.heat)}">${t.heat}</div>
+        <div class="tr-hv ${HC(t.heat)}">${t.heat}${t.delta!==undefined?`<span class="tr-delta ${t.delta>=0?'up':'dn'}">${t.delta>=0?'+':''}${t.delta}</span>`:''}</div>
         <div class="tr-tr">${trendEl(t.tr)}</div>
+        <div class="tr-src-ico" title="${(t.src||[]).join(' / ')}" onclick="event.stopPropagation()">ⓘ<span class="tr-src-tip">${(t.src||[]).join(' · ')}</span></div>
       </div>`).join('')}
     </div>
   </div>`;
