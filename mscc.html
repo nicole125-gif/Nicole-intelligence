@@ -208,54 +208,10 @@ body{padding-top:56px;background:var(--bg);color:var(--text);font-family:var(--d
   .section,.hero{padding:40px 40px 40px;max-width:1300px;margin:0 auto}
 }
 
-/* ── CURSOR ── */
-
-
-body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([onclick]:hover) 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.nav-links::-webkit-scrollbar{display:none}
-
-
-
-50%{opacity:.2}}
-
-
-
-
 /* ═══ NAV — unified semiconductor style ═══ */
 #site-nav {
-  position: fixed; top: 0; left: 0; right: 0; z-index: 10000;
+  --nav-accent: #FFD700;
+  position: fixed !important; top: 0 !important; left: 0; right: 0; z-index: 10000;
   background: rgba(2,5,18,.94);
   backdrop-filter: blur(24px) saturate(160%);
   -webkit-backdrop-filter: blur(24px) saturate(160%);
@@ -322,7 +278,7 @@ body:has(a:hover) #cursor-dot, body:has(button:hover) #cursor-dot {
 <div id="cursor-dot"></div>
 
 <!-- NAV -->
-<nav id="site-nav" style="--nav-accent: #FFD700;">
+<nav id="site-nav">
   <div class="nav-inner">
     <div class="nav-brand">质谱·色谱</div>
     <div class="nav-links">
