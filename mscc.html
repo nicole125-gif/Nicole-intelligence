@@ -19,12 +19,12 @@ body{padding-top:56px;background:var(--bg);color:var(--text);font-family:var(--d
 ::-webkit-scrollbar{width:3px}::-webkit-scrollbar-thumb{background:rgba(255,255,255,.08)}
 
 
-/* unified nav CSS injected below */
 
 
 
 
-.nav-progress{position:absolute;bottom:0;left:0;height:1px;background:var(--gold);width:0%;transition:width .1s}
+
+
 
 /* ── HERO ────────────────────────────────── */
 .hero{
@@ -1008,7 +1008,7 @@ MATRIX_DATA.forEach(row => {
 // Scroll progress
 window.addEventListener('scroll', () => {
   const pct = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight) * 100;
-  document.getElementById('nav-bar').style.width = pct + '%';
+  // nav-bar removed
 });
 
 // Reveal on scroll
@@ -1026,9 +1026,9 @@ reveals.forEach(r => observer.observe(r));
 
 
 <style>
-#toc-btn{position:fixed;top:80px;left:14px;z-index:9500;width:30px;height:30px;background:rgba(2,5,18,.9);border:1px solid #FFD70055;border-left:2px solid #FFD700;color:rgba(255,255,255,.7);cursor:pointer;font-size:14px;display:flex;align-items:center;justify-content:center;transition:all .2s;font-family:sans-serif}
+#toc-btn{position:fixed;top:84px;left:14px;z-index:9500;width:30px;height:30px;background:rgba(2,5,18,.9);border:1px solid #FFD70055;border-left:2px solid #FFD700;color:rgba(255,255,255,.7);cursor:pointer;font-size:14px;display:flex;align-items:center;justify-content:center;transition:all .2s;font-family:sans-serif}
 #toc-btn:hover{color:#fff;background:#FFD70022}
-#toc-panel{position:fixed;top:80px;left:14px;z-index:9499;width:200px;background:rgba(2,5,18,.96);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,.08);border-left:2px solid #FFD700;transform:translateX(-220px);opacity:0;pointer-events:none;transition:transform .28s cubic-bezier(.16,1,.3,1),opacity .28s}
+#toc-panel{position:fixed;top:84px;left:14px;z-index:9499;width:200px;background:rgba(2,5,18,.96);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,.08);border-left:2px solid #FFD700;transform:translateX(-220px);opacity:0;pointer-events:none;transition:transform .28s cubic-bezier(.16,1,.3,1),opacity .28s}
 #toc-panel.open{transform:translateX(0);opacity:1;pointer-events:auto}
 #toc-head{display:flex;justify-content:space-between;align-items:center;padding:10px 14px;border-bottom:1px solid rgba(255,255,255,.07)}
 #toc-head span{font-family:'IBM Plex Mono',monospace;font-size:8px;letter-spacing:.25em;color:#FFD70099}
