@@ -51,24 +51,10 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
 @keyframes pulse-dn{0%,100%{text-shadow:0 0 0 rgba(232,64,64,0)}
   50%{text-shadow:0 0 14px rgba(232,64,64,.8),0 0 28px rgba(232,64,64,.4)}}
 @keyframes breathe{0%,100%{opacity:.4;box-shadow:0 0 4px var(--c)}
-  50%{opacity:.9;box-shadow:0 0 10px var(--c),0 0 20px color-mix(in srgb,var(--c) 50%,transparent)}}
-
 .trend-up{animation:pulse-up 2.2s ease-in-out infinite}
 .trend-dn{animation:pulse-dn 1.8s ease-in-out infinite}
 
 /* ── CURSOR ── */
-
-
-body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([onclick]:hover) 
-
-
-
-
-
-
-
-
-.nav-links::-webkit-scrollbar{display:none}
 
 
 
@@ -499,6 +485,7 @@ footer{border-top:1px solid var(--l1);padding:var(--space-sm) var(--page-px);dis
   transition: width .2s, height .2s, border-color .2s, box-shadow .2s, opacity .2s;
   opacity: .5;
 }
+
 body:has(a:hover) #cursor-dot, body:has(button:hover) #cursor-dot {
   width: 30px; height: 30px; opacity: 1;
   border-color: rgba(34,211,238,.9);
