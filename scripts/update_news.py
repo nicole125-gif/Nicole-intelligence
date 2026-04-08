@@ -44,11 +44,11 @@ TRACKS = [
     {"id": "F&B·食品添加剂", "board": "F&B",
      "keywords": ["食品添加剂+合成生物学+发酵", "天然甜味剂+益生菌+扩产", "功能性食品成分+市场"]},
     {"id": "Macro·制造业PMI", "board": "Macro",
-     "keywords": ["中国制造业PMI+官方+财新", "PMI+制造业景气指数"]},
+     "keywords": ["制造业PMI+国家统计局", "财新PMI+制造业", "PMI+景气+制造业扩张"]},
     {"id": "Macro·M2社融CPIPPI", "board": "Macro",
-     "keywords": ["中国M2+社融+货币政策", "CPI+PPI+通胀+价格指数"]},
+     "keywords": ["社会融资规模+央行", "PPI同比+工业品价格", "CPI+居民消费价格"]},
     {"id": "Macro·投资工业增加值", "board": "Macro",
-     "keywords": ["固定资产投资+工业增加值+统计局", "制造业FAI+规上工业增加值"]},
+     "keywords": ["规模以上工业增加值+同比", "制造业固定资产投资+增速", "工业生产+统计局发布"]},
 ]
 
 BOARD_WEIGHTS = {
@@ -125,6 +125,62 @@ def fetch_eastmoney_macro():
         except Exception as e:
             print(f"  [WARN] {key} 提取失败: {e}")
     return result
+
+
+# ── 宏观数据：直接爬国家统计局 PPI ─────────────────────────
+
+def fetch_ppi_from_stats():
+    """
+    直接从国家统计局最新发布页抓 PPI 同比数值。
+    优先英文版（stats.gov.cn/english/PressRelease/），
+    标题格式稳定，正文第一句即含完整数字，无需 AI。
+    返回 {"value": float, "trend": str} 或 None（失败时）。
+    """
+    import re as _re
+    LIST_URL = "https://www.stats.gov.cn/english/PressRelease/"
+    HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PULSE-bot/1.0)"}
+    try:
+        from bs4 import BeautifulSoup
+        # 1. 拿列表页，找最新 PPI 发布链接
+        r = requests.get(LIST_URL, headers=HEADERS, timeout=15)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "html.parser")
+        ppi_link = None
+        for a in soup.find_all("a", href=True):
+            text = a.get_text(strip=True)
+            if "Industrial Producer Price" in text:
+                href = a["href"]
+                if not href.startswith("http"):
+                    href = "https://www.stats.gov.cn" + href
+                ppi_link = href
+                break          # 列表倒序，第一个即最新
+        if not ppi_link:
+            print("  [WARN] PPI: 未找到最新发布链接")
+            return None
+        print(f"  [PPI] 找到页面: {ppi_link}")
+
+        # 2. 进入详情页，从第一段提取同比数值
+        r2 = requests.get(ppi_link, headers=HEADERS, timeout=15)
+        r2.raise_for_status()
+        soup2 = BeautifulSoup(r2.text, "html.parser")
+        # 取正文所有段落文字
+        text_body = " ".join(p.get_text(" ", strip=True) for p in soup2.find_all("p"))
+        # 匹配 "decreased/increased by X.X% year on year"
+        m = _re.search(
+            r"(decreased|increased)\s+by\s+([\d.]+)%\s+year\s+on\s+year",
+            text_body, _re.IGNORECASE
+        )
+        if not m:
+            print("  [WARN] PPI: 正则未匹配到同比数值")
+            return None
+        direction, num = m.group(1).lower(), float(m.group(2))
+        value = -num if direction == "decreased" else num
+        trend = "↑" if value > -1.0 else "↓"
+        print(f"  [OK] PPI（统计局）: {value}% YoY")
+        return {"value": value, "trend": trend}
+    except Exception as e:
+        print(f"  [WARN] fetch_ppi_from_stats 失败: {e}")
+        return None
 
 
 # ── Heat Score 打分 ────────────────────────────────────────
@@ -431,6 +487,16 @@ if __name__ == "__main__":
     # 4. 宏观数据 + 更新 data.js
     print("\n--- 宏观数据提取 ---")
     macro_values = fetch_eastmoney_macro()
+
+    # PPI 改用国家统计局官网直接爬取，更准确，无需 AI
+    print("\n--- PPI 国家统计局直抓 ---")
+    ppi_official = fetch_ppi_from_stats()
+    if ppi_official:
+        macro_values["PPI"] = ppi_official
+        print(f"  [OK] PPI 已用统计局数据覆盖: {ppi_official['value']}% / {ppi_official['trend']}")
+    else:
+        print("  [WARN] 统计局 PPI 抓取失败，保留 Google News 结果（如有）")
+
     update_data_js(macro_values, today_str)
 
     # 5. 制药装备新闻
