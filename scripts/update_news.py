@@ -6,62 +6,188 @@ import feedparser
 import requests
 import anthropic
 from urllib.parse import quote
+from bs4 import BeautifulSoup
 
 # ── 子赛道配置 ─────────────────────────────────────────────
 TRACKS = [
-    {"id": "EI·液冷数据中心", "board": "EI",
-     "keywords": ["AI液冷数据中心+CDU冷板", "液冷渗透率+数据中心", "AI基础设施+液冷设备"]},
-    {"id": "EI·半导体设备国产化", "board": "EI",
-     "keywords": ["半导体设备国产化+北方华创", "晶圆厂扩产+设备投资", "DRAM+半导体涨价"]},
-    {"id": "EI·绿氢电解槽", "board": "EI",
-     "keywords": ["PEM电解槽+绿氢", "氢能+电解槽招标", "质子交换膜+氢能设备"]},
-    {"id": "EI·燃料电池", "board": "EI",
-     "keywords": ["燃料电池+FCEV重卡", "氢燃料电池+销量", "燃料电池+补贴政策"]},
-    {"id": "GI·锂电设备", "board": "GI",
-     "keywords": ["锂电设备+宁德时代", "锂电池产能扩张+设备订单", "先导智能+赢合科技"]},
-    {"id": "P&B·生物药出海", "board": "P&B",
-     "keywords": ["创新药+License-out+BD交易", "司美格鲁肽+GLP-1+CDMO", "生物药出海+ADC"]},
-    {"id": "P&B·合成生物学", "board": "P&B",
-     "keywords": ["合成生物学+中试车间", "华恒生物+凯赛生物+发酵罐", "合成生物学+十五五"]},
-    {"id": "P&B·生物药融资", "board": "P&B",
-     "keywords": ["生物医药投融资+一级市场", "创新药融资+生物科技"]},
-    {"id": "P&B·制药装备Capex", "board": "P&B",
-     "keywords": ["医药制造业固定资产投资+FAI", "制药装备+资本支出", "医药FAI+国家统计局"]},
-    {"id": "P&B·CDMO", "board": "P&B",
-     "keywords": ["CDMO+药明康德+凯莱英", "TIDES+ADC+CDMO订单", "CDMO询单+多肽原料药"]},
-    {"id": "L&M·质谱色谱仪器", "board": "L&M",
-     "keywords": ["质谱仪+国产替代+禾信谱育", "色谱仪器+进口替代", "分析仪器+国产化率"]},
-    {"id": "L&M·基因测序", "board": "L&M",
-     "keywords": ["基因测序+华大智造+因美纳", "测序仪+国产替代", "WGS+肿瘤早检+测序"]},
-    {"id": "L&M·医疗IVD", "board": "L&M",
-     "keywords": ["IVD体外诊断+集采降价", "化学发光+国产化率", "医疗IVD+市场规模"]},
-    {"id": "F&B·食品制造FAI", "board": "F&B",
-     "keywords": ["食品制造业+固定资产投资", "食品装备+预制菜+产线", "食品制造FAI+统计局"]},
-    {"id": "F&B·酒饮料制造FAI", "board": "F&B",
-     "keywords": ["酒饮料制造+固定资产投资", "白酒产能+碳酸饮料+投资", "饮料制造FAI"]},
-    {"id": "F&B·食品饮料消费", "board": "F&B",
-     "keywords": ["食品饮料+消费数据+零售", "春节消费+年货+餐饮", "功能饮品+无糖茶+消费"]},
-    {"id": "F&B·食品添加剂", "board": "F&B",
-     "keywords": ["食品添加剂+合成生物学+发酵", "天然甜味剂+益生菌+扩产", "功能性食品成分+市场"]},
-    {"id": "Macro·制造业PMI", "board": "Macro",
-     "keywords": ["制造业PMI+国家统计局", "财新PMI+制造业", "PMI+景气+制造业扩张"]},
-    {"id": "Macro·M2社融CPIPPI", "board": "Macro",
-     "keywords": ["社会融资规模+央行", "PPI同比+工业品价格", "CPI+居民消费价格"]},
-    {"id": "Macro·投资工业增加值", "board": "Macro",
-     "keywords": ["规模以上工业增加值+同比", "制造业固定资产投资+增速", "工业生产+统计局发布"]},
+    # EI
+    {"id": "EI·液冷数据中心", "board": "EI", "keywords": [
+        "AI液冷+数据中心",
+        "液冷+英维克+申菱+高澜股份",
+        "冷板液冷+IDC",
+    ]},
+    {"id": "EI·半导体设备国产化", "board": "EI", "keywords": [
+        "中微公司+北方华创+拓荆科技+盛美上海+业绩",
+        "先进封装+CoWoS+TSV+国产设备",
+        "晶圆厂+扩产+国产设备+采购+招标",
+    ]},
+    {"id": "EI·绿氢电解槽", "board": "EI", "keywords": [
+        "PEM电解槽+AEM电解槽+SOEC+SOFC+招标+中标",
+        "隆基氢能+阳光氢能+考克利尔+三环集团+扩产",
+        "绿氢+制氢+十五五+补贴+国家战略",
+        "绿氢项目+制氢基地+开工+投产",
+        "PEM+AEM+SOEC+SOFC+量产+商业化",
+    ]},
+    {"id": "EI·燃料电池", "board": "EI", "keywords": [
+        "氢燃料电池+FCEV+重卡+客车+销量",
+        "亿华通+国鸿氢能+重塑能源+捷氢科技+科威尔+订单",
+        "燃料电池+氢能汽车+补贴+示范城市",
+        "加氢站+新建+投产+规划",
+        "燃料电池+电堆+功率密度+降本",
+    ]},
+    {"id": "EI·光伏设备", "board": "EI", "keywords": [
+        "迈为股份+捷佳伟创+奥特维+帝尔激光+订单+业绩",
+        "HJT+TOPCon+钙钛矿+扩产+产线+投资",
+        "光伏+组件+东南亚建厂+欧洲工厂+海外产能",
+        "光伏+新能源+装机目标+补贴+十五五",
+        "光伏设备+硅片+兼并重组+产能出清",
+    ]},
+    # GI
+    {"id": "GI·锂电设备", "board": "GI", "keywords": [
+        "宁德时代+比亚迪+亿纬锂能+设备采购+招标+扩产",
+        "涂布机+注液机+电解液+精密泵+质量流量计+阀门",
+        "固态电池+干法电极+大圆柱电池+试产线+商业化",
+        "锂电出海+欧洲工厂+补贴+中标+设备交付",
+        "电池护照+碳足迹+欧盟电池法规",
+    ]},
+    {"id": "GI·3D打印", "board": "GI", "keywords": [
+        "铂力特+华曙高科+易加三维+鑫精合+订单+业绩",
+        "3D打印+增材制造+航空航天+发动机+叶片+量产",
+        "3D打印+增材制造+医疗器械+植入物+骨科+获批",
+        "金属3D打印+增材制造+新建产线+扩产+投资",
+        "3D打印+增材制造+AI设计+数字孪生+智能制造",
+    ]},
+    # P&B
+    {"id": "P&B·合成生物学", "board": "P&B", "keywords": [
+        "凯赛生物+华恒生物+川宁生物+嘉必优+扩产+新建+投资",
+        "发酵罐+生物反应器+扩产+中标+新签+投资",
+        "合成生物学+生物制造+十五五+国家战略+补贴+投资",
+        "胶原蛋白+透明质酸+多肽+DHA+磷脂+生物合成+发酵+扩产",
+        "赖氨酸+色氨酸+有机酸+维生素+赤藓糖醇+工业酶+扩产+投资",
+        "PHA+PLA+生物塑料+生物基材料+量产+商业化+投资",
+    ]},
+    {"id": "P&B·生物药融资", "board": "P&B", "keywords": [
+        "生物医药+生物药+融资+A轮+B轮+C轮+IPO+定增",
+        "生物医药+创新药+亿元+过亿+超10亿",
+        "ADC+mRNA+细胞治疗+GLP-1+融资+投资+建厂",
+        "募资用途+募集资金+生产基地+智能化改造+产能扩充",
+        "生物医药+医疗器械+设备更新+贴息贷款+技术改造",
+        "生物医药+创新药+科创板+港股+上市募资",
+    ]},
+    {"id": "P&B·制药装备Capex", "board": "P&B", "keywords": [
+        "森松+东富龙+楚天+奥星+合同负债+在手订单+业绩",
+        "制药装备+EPC+发酵+层析+纯化+灌装+注液+冻干+中标+新签",
+        "森松+东富龙+楚天+海外订单+德国工厂+东南亚+中东",
+        "辉瑞+阿斯利康+诺华+莫德纳+赛诺菲+中国建厂+投资扩产",
+        "生物制药+原料药+GMP车间+扩产+新建",
+        "一次性技术+Single-use+SUS+扩产+应用",
+    ]},
+    {"id": "P&B·CDMO", "board": "P&B", "keywords": [
+        "药明康德+凯莱英+博腾+订单+签约+业绩",
+        "药明康德+凯莱英+博腾+FDA认证+海外客户+国际订单",
+        "CDMO+合同研发+海外建厂+东南亚产能+爱尔兰工厂",
+    ]},
+    # L&M
+    {"id": "L&M·质谱色谱仪器", "board": "L&M", "keywords": [
+        "禾信仪器+谱育科技+天瑞仪器+皖仪科技+订单+业绩+中标",
+        "质谱仪+色谱仪+国产替代+进口替代+国产化率",
+        "环境监测+食品检测+药品检测+仪器采购+招标",
+        "科学仪器+分析仪器+国产化+政府采购+补贴",
+        "岛津+沃特世+安捷伦+赛默飞+中国市场+竞争",
+    ]},
+    {"id": "L&M·基因测序", "board": "L&M", "keywords": [
+        "华大智造+诺禾致源+贝瑞基因+合同负债+业绩+中标",
+        "测序仪+基因测序+国产替代+自主可控+核心零部件",
+        "微流控芯片+Lab-on-a-chip+高通量+集成化+自动配液",
+        "肿瘤早筛+MCED+无创产检+商业化+纳入医保+获批",
+        "Illumina+Thermo+Fisher+出口管制+供应链风险+本土化",
+        "华大智造+迈瑞+贝瑞基因+出口+海外市场+国际订单+海外建厂",
+    ]},
+    {"id": "L&M·医疗IVD", "board": "L&M", "keywords": [
+        "迈瑞+安图生物+迈克生物+亚辉龙+迪瑞医疗+合同负债+扩产+募投项目",
+        "万孚生物+英诺特+基蛋生物+美康生物+凯普生物+扩产+新建+募投项目",
+        "达安基因+科华生物+理邦精密+睿昂基因+扩产+新建+募投项目",
+        "迈瑞+安图生物+迈克生物+海外工厂+海外研发中心+全球本地化",
+        "募资用途+募集资金+IVD+诊断仪器+生产基地+智能化改造",
+        "IVD+实验室自动化+流水线+模块化集成",
+        "化学发光仪+全自动生化+血液分析仪+新品+发布+高通量+紧凑型",
+        "分子诊断仪+PCR仪+测序仪+新品+发布+量产+自动化",
+        "POCT设备+即时检测仪+新品+发布+小型化+高通量",
+        "IVD+体外诊断+出口+CE认证+FDA+海外市场",
+        "化学发光+生化试剂+IVD+集采+降价+价格战",
+        "IVD+实验室自动化+降本+模块化+系统集成",
+        "医疗设备+诊断仪器+设备更新+以旧换新+两新政策",
+        "体外诊断+IVD+基层医疗+分级诊疗+县域医院",
+    ]},
+    # F&B
+    {"id": "F&B·食品制造FAI", "board": "F&B", "keywords": [
+        "食品制造+食品加工+中标+产线+自动化改造+投资",
+        "雀巢+卡夫亨氏+百事+可口可乐+中国建厂+扩产+投资",
+    ]},
+    {"id": "F&B·酒饮料制造FAI", "board": "F&B", "keywords": [
+        "伊利+蒙牛+光明+三元+建厂+扩产+投资",
+        "农夫山泉+东鹏+华润饮料+元气森林+建厂+扩产+投资",
+        "华润啤酒+青岛啤酒+百威+燕京+建厂+扩产+投资",
+        "茅台+五粮液+泸州老窖+洋河+技改+扩产+投资",
+        "中粮+金龙鱼+益海嘉里+建厂+扩产+投资",
+        "永创智能+达意隆+新美星+乐惠国际+Krones+中亚股份+东富龙承欢+GEA+利乐+订单+中标+扩产",
+    ]},
+    {"id": "F&B·食品饮料消费", "board": "F&B", "keywords": [
+        "食品饮料+餐饮+零售额+消费增速+社零",
+        "即时零售+外卖+市场规模+增速",
+    ]},
+    {"id": "F&B·食品添加剂", "board": "F&B", "keywords": [
+        "安琪酵母+保龄宝+华康股份+梅花生物+扩产+投资+业绩",
+        "益生菌+天然甜味剂+食用香精+产能+扩产+建厂",
+        "食品添加剂+大发酵+新建+扩产+投资",
+    ]},
+    # Macro — 由统计局爬取，keywords 留空
+    {"id": "Macro·制造业PMI",     "board": "Macro", "keywords": []},
+    {"id": "Macro·M2社融CPIPPI",  "board": "Macro", "keywords": []},
+    {"id": "Macro·投资工业增加值", "board": "Macro", "keywords": []},
 ]
 
 BOARD_WEIGHTS = {
-    "EI":    {"EI·液冷数据中心": 0.30, "EI·半导体设备国产化": 0.30,
-               "EI·绿氢电解槽": 0.25, "EI·燃料电池": 0.15},
-    "GI":    {"GI·锂电设备": 1.0},
-    "P&B":   {"P&B·生物药出海": 0.25, "P&B·合成生物学": 0.15,
-               "P&B·生物药融资": 0.10, "P&B·制药装备Capex": 0.25, "P&B·CDMO": 0.25},
-    "L&M":   {"L&M·质谱色谱仪器": 0.40, "L&M·基因测序": 0.35, "L&M·医疗IVD": 0.25},
-    "F&B":   {"F&B·食品制造FAI": 0.30, "F&B·酒饮料制造FAI": 0.25,
-               "F&B·食品饮料消费": 0.20, "F&B·食品添加剂": 0.25},
-    "Macro": {"Macro·制造业PMI": 0.35, "Macro·M2社融CPIPPI": 0.35,
-               "Macro·投资工业增加值": 0.30},
+    "EI":    {
+        "EI·液冷数据中心": 0.25,
+        "EI·半导体设备国产化": 0.25,
+        "EI·绿氢电解槽": 0.15,
+        "EI·燃料电池": 0.10,
+        "EI·光伏设备": 0.25,
+    },
+    "GI":    {
+        "GI·锂电设备": 0.70,
+        "GI·3D打印": 0.30,
+    },
+    "P&B":   {
+        "P&B·合成生物学": 0.20,
+        "P&B·生物药融资": 0.15,
+        "P&B·制药装备Capex": 0.35,
+        "P&B·CDMO": 0.30,
+    },
+    "L&M":   {
+        "L&M·质谱色谱仪器": 0.30,
+        "L&M·基因测序": 0.30,
+        "L&M·医疗IVD": 0.40,
+    },
+    "F&B":   {
+        "F&B·食品制造FAI": 0.25,
+        "F&B·酒饮料制造FAI": 0.30,
+        "F&B·食品饮料消费": 0.20,
+        "F&B·食品添加剂": 0.25,
+    },
+    "Macro": {
+        "Macro·制造业PMI": 0.35,
+        "Macro·M2社融CPIPPI": 0.35,
+        "Macro·投资工业增加值": 0.30,
+    },
+}
+
+# ── Macro 负信号赛道（打分时Price反向）────────────────────
+NEGATIVE_SIGNAL_TRACKS = {
+    "P&B·CDMO": ["CDMO+合同研发+海外建厂+东南亚产能+爱尔兰工厂"],
+    "EI·光伏设备": ["光伏设备+硅片+兼并重组+产能出清"],
+    "L&M·医疗IVD": ["化学发光+生化试剂+IVD+集采+降价+价格战"],
 }
 
 
@@ -73,114 +199,110 @@ def get_client():
 
 
 def get_text(msg):
-    """从 MiniMax 响应中安全提取文本，跳过 ThinkingBlock"""
     for b in msg.content:
         if hasattr(b, "type") and b.type == "text":
             return b.text.strip()
     return ""
 
 
-# ── 宏观数据：Google News 提取精确数值 ─────────────────────
+# ── 统计局爬取 Macro 数据 ──────────────────────────────────
 
-def fetch_eastmoney_macro():
-    client = get_client()
+STATS_PATTERNS = {
+    "PMI":    r"制造业[采购经理指数PMI]*[为是](\d+\.?\d*)%",
+    "PPI":    r"PPI[同比]*[下降上涨增长]*(\-?\d+\.?\d*)%",
+    "工业增加值": r"规模以上工业增加值[同比实际增长]*(\d+\.?\d*)%",
+    "社融":   r"社会融资规模[存量同比]*增长(\d+\.?\d*)%",
+    "CPI":    r"CPI[同比]*[上涨下降]*(\-?\d+\.?\d*)%",
+    "食品制造FAI": r"食品制造业[固定资产投资同比增长]*(\-?\d+\.?\d*)%",
+    "酒饮料FAI":   r"酒[、饮料和精制茶制造业固定资产投资同比增长]*(\-?\d+\.?\d*)%",
+}
+
+def fetch_stats_gov_macro():
+    """爬取国家统计局最新发布页，提取宏观数据"""
     result = {}
-    queries = {
-        "PPI":    "中国PPI工业品出厂价格指数+同比+2026",
-        "PMI":    "中国制造业PMI+官方+国家统计局+2026",
-        "工业增加值": "规模以上工业增加值+同比增长+2026",
-        "GDP":    "中国GDP+同比增速+国家统计局+2026",
-    }
-    for key, query in queries.items():
-        try:
-            url = f"https://news.google.com/rss/search?q={quote(query)}&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
-            feed = feedparser.parse(url)
-            titles = [e.get("title", "") for e in feed.entries[:6]]
-            if not titles:
-                continue
-            news_text = "\n".join(titles)
-            prompt = f"""从以下新闻标题中提取{key}最新数值。
-只返回一个数字（如 -0.9 或 49.0），不要任何其他文字。
-如果找不到则返回 none。
+    try:
+        url = "https://www.stats.gov.cn/sj/zxfb/"
+        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+        resp = requests.get(url, headers=headers, timeout=15)
+        resp.encoding = "utf-8"
+        soup = BeautifulSoup(resp.text, "html.parser")
+        links = soup.find_all("a", href=True)
+        articles = []
+        for a in links:
+            title = a.get_text(strip=True)
+            href = a.get("href", "")
+            if len(title) > 10 and ("统计局" in title or "PMI" in title or
+                "PPI" in title or "工业" in title or "CPI" in title or
+                "固定资产" in title or "社会融资" in title):
+                if href.startswith("/"):
+                    href = "https://www.stats.gov.cn" + href
+                articles.append((title, href))
+        print(f"  [OK] 统计局发布页找到 {len(articles)} 条相关标题")
 
-新闻标题：
-{news_text}"""
-            msg = client.messages.create(
-                model="MiniMax-M2.5-highspeed",
-                max_tokens=20,
-                messages=[{"role": "user", "content": prompt}],
-            )
-            raw = get_text(msg)
-            if raw and raw.lower() != "none":
-                val = float(raw)
-                if key == "PPI":
-                    result[key] = {"value": val, "trend": "↑" if val > -1.0 else "↓"}
-                elif key == "PMI":
-                    result[key] = {"value": val, "trend": "↑" if val >= 50 else "↓"}
-                elif key == "工业增加值":
-                    result[key] = {"value": val, "trend": "↑" if val > 5.5 else "→"}
-                elif key == "GDP":
-                    result[key] = {"value": val, "trend": "↑" if val >= 5.0 else "↓"}
-                print(f"  [OK] {key}: {val}")
-        except Exception as e:
-            print(f"  [WARN] {key} 提取失败: {e}")
+        # 从标题直接提取数字
+        for title, href in articles[:30]:
+            for key, pattern in STATS_PATTERNS.items():
+                if key not in result:
+                    m = re.search(pattern, title)
+                    if m:
+                        val = float(m.group(1))
+                        result[key] = val
+                        print(f"  [OK] {key}: {val}% (from: {title[:40]})")
+
+        # 对没找到的指标，尝试进入详情页
+        missing = [k for k in ["PMI","PPI","工业增加值"] if k not in result]
+        for title, href in articles[:10]:
+            if not missing:
+                break
+            try:
+                r2 = requests.get(href, headers=headers, timeout=10)
+                r2.encoding = "utf-8"
+                text = BeautifulSoup(r2.text, "html.parser").get_text()
+                for key in missing[:]:
+                    m = re.search(STATS_PATTERNS[key], text)
+                    if m:
+                        val = float(m.group(1))
+                        result[key] = val
+                        missing.remove(key)
+                        print(f"  [OK] {key}: {val}% (from detail page)")
+            except Exception:
+                pass
+
+    except Exception as e:
+        print(f"  [WARN] 统计局爬取失败: {e}")
     return result
 
 
-# ── 宏观数据：直接爬国家统计局 PPI ─────────────────────────
+def build_macro_scores(stats):
+    """将统计局数据转为 Macro 赛道的 Heat Score"""
+    scores = {}
 
-def fetch_ppi_from_stats():
-    """
-    直接从国家统计局最新发布页抓 PPI 同比数值。
-    优先英文版（stats.gov.cn/english/PressRelease/），
-    标题格式稳定，正文第一句即含完整数字，无需 AI。
-    返回 {"value": float, "trend": str} 或 None（失败时）。
-    """
-    import re as _re
-    LIST_URL = "https://www.stats.gov.cn/english/PressRelease/"
-    HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PULSE-bot/1.0)"}
-    try:
-        from bs4 import BeautifulSoup
-        # 1. 拿列表页，找最新 PPI 发布链接
-        r = requests.get(LIST_URL, headers=HEADERS, timeout=15)
-        r.raise_for_status()
-        soup = BeautifulSoup(r.text, "html.parser")
-        ppi_link = None
-        for a in soup.find_all("a", href=True):
-            text = a.get_text(strip=True)
-            if "Industrial Producer Price" in text:
-                href = a["href"]
-                if not href.startswith("http"):
-                    href = "https://www.stats.gov.cn" + href
-                ppi_link = href
-                break          # 列表倒序，第一个即最新
-        if not ppi_link:
-            print("  [WARN] PPI: 未找到最新发布链接")
-            return None
-        print(f"  [PPI] 找到页面: {ppi_link}")
+    # 制造业PMI
+    pmi = stats.get("PMI")
+    if pmi:
+        d = 75 if pmi >= 51 else (60 if pmi >= 50 else (45 if pmi >= 49 else 30))
+        scores["Macro·制造业PMI"] = {"D": d, "C": d, "P": 60, "Pol": 60,
+            "core_data": f"制造业PMI {pmi}%", "comment": "扩张" if pmi >= 50 else "收缩"}
 
-        # 2. 进入详情页，从第一段提取同比数值
-        r2 = requests.get(ppi_link, headers=HEADERS, timeout=15)
-        r2.raise_for_status()
-        soup2 = BeautifulSoup(r2.text, "html.parser")
-        # 取正文所有段落文字
-        text_body = " ".join(p.get_text(" ", strip=True) for p in soup2.find_all("p"))
-        # 匹配 "decreased/increased by X.X% year on year"
-        m = _re.search(
-            r"(decreased|increased)\s+by\s+([\d.]+)%\s+year\s+on\s+year",
-            text_body, _re.IGNORECASE
-        )
-        if not m:
-            print("  [WARN] PPI: 正则未匹配到同比数值")
-            return None
-        direction, num = m.group(1).lower(), float(m.group(2))
-        value = -num if direction == "decreased" else num
-        trend = "↑" if value > -1.0 else "↓"
-        print(f"  [OK] PPI（统计局）: {value}% YoY")
-        return {"value": value, "trend": trend}
-    except Exception as e:
-        print(f"  [WARN] fetch_ppi_from_stats 失败: {e}")
-        return None
+    # M2社融CPIPPI
+    ppi = stats.get("PPI")
+    she = stats.get("社融")
+    if ppi is not None or she is not None:
+        p_score = 65 if (ppi or 0) > 0 else (50 if (ppi or 0) > -1 else 35)
+        c_score = 70 if (she or 0) > 8 else (55 if (she or 0) > 6 else 40)
+        core = f"PPI {ppi}%" if ppi else ""
+        if she: core += f" 社融 {she}%"
+        scores["Macro·M2社融CPIPPI"] = {"D": 55, "C": c_score, "P": p_score, "Pol": 60,
+            "core_data": core, "comment": "货币环境"}
+
+    # 投资工业增加值
+    fai = stats.get("工业增加值")
+    if fai:
+        d = 75 if fai >= 7 else (65 if fai >= 6 else (50 if fai >= 5 else 38))
+        scores["Macro·投资工业增加值"] = {"D": d, "C": d, "P": 55, "Pol": 60,
+            "core_data": f"工业增加值 {fai}%", "comment": "工业产出"}
+
+    return scores
 
 
 # ── Heat Score 打分 ────────────────────────────────────────
@@ -210,29 +332,38 @@ def fetch_news_for_track(track, days=35):
         if k and k not in seen:
             seen.add(k)
             unique.append(i)
-    return unique[:12]
+    return unique[:15]
 
 
 def score_track(client, track, news_items):
     if not news_items:
         return {"D": 50, "C": 50, "P": 50, "Pol": 50,
                 "core_data": "本期无有效新闻数据", "comment": "数据不足，参考上期"}
-    news_text = "\n".join([f"- {i['title']}" for i in news_items[:10]])
-    prompt = f"""你是中国B2B设备行业景气度分析师，使用以下打分方法论对赛道进行评分。
+
+    # 负信号说明
+    neg_note = ""
+    neg_kws = NEGATIVE_SIGNAL_TRACKS.get(track["id"], [])
+    if neg_kws:
+        neg_note = f"\n注意：以下关键词为负信号，出现时Price(P)维度应降分：{', '.join(neg_kws)}"
+
+    news_text = "\n".join([f"- {i['title']}" for i in news_items[:12]])
+    prompt = f"""你是中国B2B设备行业景气度分析师，对以下赛道进行打分。
 
 打分方法论：
-- Demand(需求动能,35%)：出货量YoY/新订单/渗透率变化，领先指标为主
-- Capex(投资强度,30%)：招标规模YoY/融资额/固定资产投资，设备链最直接领先指标
-- Price(价格盈利,20%)：反向指标！价格下跌=低分。集采降价50%→38分
-- Policy(政策情绪,15%)：产业补贴/社融/监管，政策强催化→80+分
+- Demand(需求动能,35%)：新订单/出货量/渗透率变化，领先指标为主
+- Capex(投资强度,30%)：招标规模/融资额/固定资产投资/合同负债，最直接领先指标
+- Price(价格盈利,20%)：反向指标！价格下跌/集采降价=低分
+- Policy(政策情绪,15%)：产业补贴/政府支持/监管政策
+{neg_note}
 
 当前赛道：{track['id']}
 
-本期相关新闻：
+本期相关新闻（{len(news_items)}条）：
 {news_text}
 
 只返回以下格式，不要其他文字：
-D|C|P|Pol|核心数据摘要(30字)|一句话点评(40字)"""
+D|C|P|Pol|核心数据摘要(30字以内)|一句话点评(40字以内)"""
+
     try:
         msg = client.messages.create(
             model="MiniMax-M2.5-highspeed",
@@ -250,8 +381,10 @@ D|C|P|Pol|核心数据摘要(30字)|一句话点评(40字)"""
                 "core_data": parts[4].strip(),
                 "comment":   parts[5].strip(),
             }
+        else:
+            print(f"  [WARN] 格式不对 {track['id']}: {raw[:80]}")
     except Exception as e:
-        print(f"  [WARN] 打分解析失败 {track['id']}: {e}")
+        print(f"  [WARN] 打分失败 {track['id']}: {e}")
     return {"D": 50, "C": 50, "P": 50, "Pol": 50, "core_data": "解析失败", "comment": ""}
 
 
@@ -263,8 +396,8 @@ def calc_trend(heat_now, heat_prev):
     if heat_prev is None:
         return "→"
     delta = heat_now - heat_prev
-    if delta >= 2:   return "↑"
-    if delta <= -2:  return "↓"
+    if delta >= 2:  return "↑"
+    if delta <= -2: return "↓"
     return "→"
 
 
@@ -279,7 +412,7 @@ def load_history():
 
 
 def save_history(history, period, results):
-    history[period] = {t["id"]: results[t["id"]]["heat"] for t in TRACKS}
+    history[period] = {t["id"]: results[t["id"]]["heat"] for t in TRACKS if t["id"] in results}
     with open("data/history.json", "w", encoding="utf-8") as f:
         json.dump(history, f, ensure_ascii=False, indent=2)
     print(f"[OK] history.json 已更新，新增 {period}")
@@ -294,32 +427,32 @@ def get_prev_heat(history, track_id):
 
 # ── 更新 data.js ───────────────────────────────────────────
 
-def update_data_js(macro_values, today_str):
+def update_data_js(stats, today_str):
     with open("data.js", "r", encoding="utf-8") as f:
         content = f.read()
     content = re.sub(r'lastUpdated:\s*"[^"]*"', f'lastUpdated: "{today_str}"', content)
     field_map = {
-        "GDP":    "GDP GROWTH",
         "工业增加值": "IND. VALUE ADD",
-        "PPI":    "PPI TREND",
-        "PMI":    "MFG. PMI",
+        "PPI":        "PPI TREND",
+        "PMI":        "MFG. PMI",
+    }
+    trend_map = {
+        "工业增加值": lambda v: "↑" if v > 5.5 else "→",
+        "PPI":        lambda v: "↑" if v > 0 else "↓",
+        "PMI":        lambda v: "↑" if v >= 50 else "↓",
     }
     for key, label_en in field_map.items():
-        if key not in macro_values:
+        if key not in stats:
             continue
-        new_val = macro_values[key]["value"]
-        new_trend = macro_values[key]["trend"]
+        val = stats[key]
+        trend = trend_map[key](val)
         content = re.sub(
             rf'(labelEn:\s*"{re.escape(label_en)}"[^}}]*?value:\s*)[0-9.-]+',
-            rf'\g<1>{new_val}',
-            content, flags=re.DOTALL
-        )
+            rf'\g<1>{val}', content, flags=re.DOTALL)
         content = re.sub(
             rf'(labelEn:\s*"{re.escape(label_en)}"[^}}]*?trend:\s*")[^"]*"',
-            rf'\g<1>{new_trend}"',
-            content, flags=re.DOTALL
-        )
-        print(f"  [OK] {label_en}: {new_val} / {new_trend}")
+            rf'\g<1>{trend}"', content, flags=re.DOTALL)
+        print(f"  [OK] {label_en}: {val} / {trend}")
     with open("data.js", "w", encoding="utf-8") as f:
         f.write(content)
     print("[OK] data.js 已更新")
@@ -329,9 +462,9 @@ def update_data_js(macro_values, today_str):
 
 PHARMA_FEEDS = [
     ("制药装备动态", "https://news.google.com/rss/search?q=%E5%88%B6%E8%8D%AF%E8%A3%85%E5%A4%87&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"),
-    ("龙头企业", "https://news.google.com/rss/search?q=%E6%A5%9A%E5%A4%A9%E7%A7%91%E6%8A%80+OR+%E4%B8%9C%E5%AF%8C%E9%BE%99+OR+%E6%A3%AE%E6%9D%BE%E5%9B%BD%E9%99%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"),
-    ("国产替代", "https://news.google.com/rss/search?q=%E7%94%9F%E7%89%A9%E5%88%B6%E8%8D%AF%E8%AE%BE%E5%A4%87+%E5%9B%BD%E4%BA%A7%E6%9B%BF%E4%BB%A3&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"),
-    ("政策监管", "https://news.google.com/rss/search?q=%E5%88%B6%E8%8D%AF%E8%A3%85%E5%A4%87+%E6%94%BF%E7%AD%96+NMPA&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"),
+    ("龙头企业",     "https://news.google.com/rss/search?q=%E6%A5%9A%E5%A4%A9%E7%A7%91%E6%8A%80+OR+%E4%B8%9C%E5%AF%8C%E9%BE%99+OR+%E6%A3%AE%E6%9D%BE%E5%9B%BD%E9%99%85&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"),
+    ("国产替代",     "https://news.google.com/rss/search?q=%E7%94%9F%E7%89%A9%E5%88%B6%E8%8D%AF%E8%AE%BE%E5%A4%87+%E5%9B%BD%E4%BA%A7%E6%9B%BF%E4%BB%A3&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"),
+    ("政策监管",     "https://news.google.com/rss/search?q=%E5%88%B6%E8%8D%AF%E8%A3%85%E5%A4%87+%E6%94%BF%E7%AD%96+NMPA&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"),
 ]
 
 
@@ -349,8 +482,8 @@ def fetch_pharma_news():
                         continue
                 all_items.append({
                     "source": source_name,
-                    "title": entry.get("title", "").strip(),
-                    "link": entry.get("link", ""),
+                    "title":  entry.get("title", "").strip(),
+                    "link":   entry.get("link", ""),
                     "summary": entry.get("summary", "")[:300],
                 })
             print(f"[OK] {source_name}: {len(feed.entries)} 条")
@@ -456,19 +589,33 @@ if __name__ == "__main__":
     history = load_history()
     results = {}
 
-    # 1. Heat Score 打分
+    # 1. 统计局 Macro 数据
+    print("\n--- 统计局宏观数据 ---")
+    stats = fetch_stats_gov_macro()
+    macro_scores = build_macro_scores(stats)
+
+    # 2. Heat Score 打分
     print("\n--- Heat Score 打分 ---")
     for track in TRACKS:
         print(f"  处理: {track['id']}")
-        news = fetch_news_for_track(track)
-        scores = score_track(client, track, news)
+        # Macro 赛道用统计局数据
+        if track["board"] == "Macro":
+            scores = macro_scores.get(track["id"],
+                {"D": 50, "C": 50, "P": 50, "Pol": 50,
+                 "core_data": "统计局数据待更新", "comment": ""})
+        else:
+            news = fetch_news_for_track(track)
+            print(f"    新闻: {len(news)}条")
+            scores = score_track(client, track, news)
         heat = calc_heat(scores)
         prev_heat = get_prev_heat(history, track["id"])
         trend = calc_trend(heat, prev_heat)
         results[track["id"]] = {"heat": heat, "trend": trend, "scores": scores}
         print(f"    Heat={heat} Trend={trend} D={scores['D']} C={scores['C']} P={scores['P']} Pol={scores['Pol']}")
+        if scores.get("core_data") and scores["core_data"] not in ("解析失败","本期无有效新闻数据","统计局数据待更新"):
+            print(f"    摘要: {scores['core_data']}")
 
-    # 2. 板块综合分
+    # 3. 板块综合分
     board_heats = {}
     for board, weights in BOARD_WEIGHTS.items():
         total_w, total_score = 0, 0
@@ -481,25 +628,14 @@ if __name__ == "__main__":
     for b, h in board_heats.items():
         print(f"  {b}: {h}")
 
-    # 3. 保存历史
+    # 4. 保存历史
     save_history(history, period, results)
 
-    # 4. 宏观数据 + 更新 data.js
-    print("\n--- 宏观数据提取 ---")
-    macro_values = fetch_eastmoney_macro()
+    # 5. 更新 data.js
+    print("\n--- 更新 data.js ---")
+    update_data_js(stats, today_str)
 
-    # PPI 改用国家统计局官网直接爬取，更准确，无需 AI
-    print("\n--- PPI 国家统计局直抓 ---")
-    ppi_official = fetch_ppi_from_stats()
-    if ppi_official:
-        macro_values["PPI"] = ppi_official
-        print(f"  [OK] PPI 已用统计局数据覆盖: {ppi_official['value']}% / {ppi_official['trend']}")
-    else:
-        print("  [WARN] 统计局 PPI 抓取失败，保留 Google News 结果（如有）")
-
-    update_data_js(macro_values, today_str)
-
-    # 5. 制药装备新闻
+    # 6. 制药装备新闻
     print("\n--- 制药装备行业动态 ---")
     pharma_raw = fetch_pharma_news()
     print(f"[INFO] 抓取 {len(pharma_raw)} 条")
