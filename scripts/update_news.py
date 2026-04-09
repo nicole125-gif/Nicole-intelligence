@@ -164,54 +164,50 @@ def score_track(client, track, news_items):
     news_text = "\n".join([f"- {i['title']}" for i in news_items[:10]])
     track_name = track.get("name", track["id"])
 
-    prompt = (
-        "你是中国B2B设备行业景气度分析师。\n\n"
-        f"赛道：{track_name}\n\n"
-        "打分维度：\n"
-        "D=需求动能(强劲订单/渗透率提升=80+，疲软=40-)\n"
-        "C=投资强度(大额招标/融资=80+，FAI收缩=40-)\n"
-        "P=价格盈利(反向！涨价=高分，集采降价50%=38分)\n"
-        "Pol=政策情绪(强补贴=85+，政策空窗=45-)\n\n"
-        f"新闻：\n{news_text}\n\n"
-        "分析完后，在最后一行输出JSON（不加代码块）：\n"
-        '{"D":整数,"C":整数,"P":整数,"Pol":整数,"s":"摘要30字","c":"点评40字"}'
-    )
+    dims = [
+        ("D",   "需求动能", "出货量/新订单/渗透率提升。强劲=80+，一般=55，疲软=40-"),
+        ("C",   "投资强度", "招标规模/融资额/固定资产投资。旺盛=80+，一般=55，收缩=40-"),
+        ("P",   "价格盈利", "反向指标！行业涨价=高分，集采降价50%=38分，价格稳定=60"),
+        ("Pol", "政策情绪", "产业补贴/政策催化。强催化=85+，政策空窗=45-，中性=60"),
+    ]
 
+    scores = {}
     try:
-        msg = client.messages.create(
-            model="MiniMax-M2.5-highspeed",
-            max_tokens=600,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        raw = ""
-        for b in msg.content:
-            text = getattr(b, "text", None) or getattr(b, "thinking", None) or ""
-            if text:
-                raw = text.strip()
-                break
-
-        print(f"  [DEBUG] 返回尾部: {raw[-80:]}")
-
-        matches = re.findall(r'\{"D"\s*:\s*\d+[^{}]*\}', raw)
-        if matches:
-            parsed = json.loads(matches[-1])
-            result = {
-                "D":         min(100, max(0, int(parsed.get("D", 50)))),
-                "C":         min(100, max(0, int(parsed.get("C", 50)))),
-                "P":         min(100, max(0, int(parsed.get("P", 50)))),
-                "Pol":       min(100, max(0, int(parsed.get("Pol", 50)))),
-                "core_data": parsed.get("s", ""),
-                "comment":   parsed.get("c", ""),
-            }
-            return result
-        else:
-            print(f"  [WARN] 未找到JSON: {raw[:100]}")
+        for key, dim_name, rule in dims:
+            q = (
+                f"新闻列表（赛道：{track_name}）：\n{news_text}\n\n"
+                f"根据以上新闻，评估"{dim_name}"维度（{rule}）。\n"
+                f"只回答一个0-100的整数，不要任何解释。"
+            )
+            msg = client.messages.create(
+                model="MiniMax-M2.5-highspeed",
+                max_tokens=10,
+                messages=[{"role": "user", "content": q}],
+            )
+            raw = ""
+            for b in msg.content:
+                text = getattr(b, "text", None) or getattr(b, "thinking", None) or ""
+                if text:
+                    raw = text.strip()
+                    break
+            # 从回答里提取第一个数字
+            nums = re.findall(r'\d+', raw)
+            val = min(100, max(0, int(nums[0]))) if nums else 50
+            scores[key] = val
+            print(f"  [DEBUG] {key}={val} (raw: {raw[:30]})")
     except Exception as e:
         print(f"  [WARN] 打分失败 {track['id']}: {e}")
+        return {"D": 50, "C": 50, "P": 50, "Pol": 50,
+                "core_data": "打分异常", "comment": "请人工核查"}
 
-    return {"D": 50, "C": 50, "P": 50, "Pol": 50,
-            "core_data": "打分异常", "comment": "请人工核查"}
-
+    return {
+        "D":         scores.get("D", 50),
+        "C":         scores.get("C", 50),
+        "P":         scores.get("P", 50),
+        "Pol":       scores.get("Pol", 50),
+        "core_data": "",
+        "comment":   "",
+    }
 
 def calc_heat(scores):
     """加权公式：D×35% + C×30% + P×20% + Pol×15%"""
