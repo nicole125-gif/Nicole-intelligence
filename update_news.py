@@ -21,119 +21,118 @@ import anthropic
 TRACKS = [
     {"id": "e1", "name": "液冷数据中心", "board": "EI",
      "keywords": [
-         "AI液冷数据中心", "液冷渗透率+数据中心", "AI基础设施+液冷",
-         "CDU冷板+液冷", "TrendForce+液冷", "数据中心液冷+算力",
-         "液冷设备+市场规模", "浸没式液冷+冷板液冷",
+         "液冷数据中心", "数据中心液冷", "CDU液冷",
+         "冷板液冷", "浸没式液冷", "液冷渗透率",
+         "AI液冷", "液冷设备市场",
      ]},
     {"id": "e2", "name": "半导体设备国产化", "board": "EI",
      "keywords": [
-         "半导体设备国产化", "北方华创+中微公司", "晶圆厂扩产+设备",
-         "DRAM涨价+半导体", "半导体设备+出口管制", "封测设备+先进封装",
-         "半导体+国产替代", "存储芯片+涨价",
+         "半导体设备国产化", "北方华创半导体", "中微公司刻蚀",
+         "DRAM涨价", "晶圆厂扩产", "半导体国产替代",
+         "存储芯片涨价", "封测设备先进封装",
      ]},
     {"id": "e3", "name": "绿氢电解槽", "board": "EI",
      "keywords": [
-         "PEM电解槽+绿氢", "氢能+电解槽招标", "质子交换膜+氢能",
-         "ALK电解槽+招标", "绿氢+项目中标", "氢能+十五五",
-         "电解水制氢+设备", "氢辉+阳光氢能+电解槽",
+         "PEM电解槽", "绿氢电解槽", "氢能电解槽招标",
+         "ALK电解槽", "绿氢项目中标", "质子交换膜制氢",
+         "电解水制氢", "阳光氢能招标",
      ]},
     {"id": "e4", "name": "燃料电池", "board": "EI",
      "keywords": [
-         "燃料电池+重卡", "氢燃料电池+销量", "燃料电池+补贴",
-         "FCEV+氢车", "燃料电池+商业化", "氢能汽车+政策",
+         "燃料电池重卡", "氢燃料电池销量", "燃料电池补贴",
+         "氢能汽车政策", "燃料电池商业化", "FCEV销量",
      ]},
     {"id": "g1", "name": "锂电设备", "board": "GI",
      "keywords": [
-         "锂电设备+宁德时代", "先导智能+赢合科技", "锂电池+产能扩张",
-         "动力电池+设备订单", "CATL+扩产", "锂电+固态电池+设备",
-         "锂电设备+海外订单", "钠离子电池+产线",
+         "锂电设备订单", "先导智能订单", "赢合科技业绩",
+         "宁德时代扩产", "动力电池产能", "固态电池产线",
+         "锂电设备海外", "钠离子电池产线",
      ]},
     {"id": "p1", "name": "生物药出海/CDMO", "board": "P&B",
      "keywords": [
-         "创新药+License-out", "司美格鲁肽+仿制药", "生物药+BD交易",
-         "ADC+出海", "GLP-1+CDMO", "创新药+NDA申报",
-         "生物类似药+上市", "多肽药物+CDMO",
+         "创新药License-out", "司美格鲁肽仿制药", "生物药BD交易",
+         "ADC药物出海", "GLP-1多肽CDMO", "创新药NDA申报",
+         "多肽药物CDMO", "生物类似药上市",
      ]},
     {"id": "p2", "name": "合成生物学", "board": "P&B",
      "keywords": [
-         "合成生物学+中试", "华恒生物+发酵", "凯赛生物+产能",
-         "合成生物+十五五", "生物制造+设备", "发酵罐+合成生物",
-         "合成生物学+融资", "生物基材料+扩产",
+         "合成生物学中试", "华恒生物发酵", "凯赛生物产能",
+         "合成生物十五五", "生物制造设备", "合成生物学融资",
+         "生物基材料扩产", "发酵罐合成生物",
      ]},
     {"id": "p3", "name": "生物药融资", "board": "P&B",
      "keywords": [
-         "生物医药+投融资", "创新药+融资", "生物科技+一级市场",
-         "医药+IPO", "生物技术+风险投资", "创新药+pre-IPO",
+         "生物医药投融资", "创新药融资亿", "生物科技一级市场",
+         "医药IPO上市", "生物技术融资", "创新药投资",
      ]},
     {"id": "p4", "name": "制药装备Capex/FAI", "board": "P&B",
      "keywords": [
-         "医药制造业+固定资产投资", "制药装备+资本支出",
-         "医药FAI+统计局", "制药设备+招标", "楚天科技+东富龙",
-         "制药装备+新建产线", "原料药+设备投资",
+         "医药制造业固定资产投资", "制药装备招标",
+         "楚天科技订单", "东富龙业绩", "制药设备新建",
+         "原料药设备投资", "医药FAI统计局",
      ]},
     {"id": "p5", "name": "CDMO订单景气", "board": "P&B",
      "keywords": [
-         "CDMO+订单", "药明康德+凯莱英", "TIDES+多肽CDMO",
-         "ADC+CDMO", "凯莱英+GLP-1", "CDMO+询单",
-         "博腾股份+九洲药业", "小分子CDMO+产能",
+         "CDMO订单", "药明康德业绩", "凯莱英GLP-1",
+         "TIDES多肽CDMO", "ADC+CDMO", "CDMO询单",
+         "博腾股份订单", "九洲药业CDMO",
      ]},
     {"id": "l1", "name": "质谱/色谱仪器国产替代", "board": "L&M",
      "keywords": [
-         "质谱仪+国产替代", "禾信仪器+谱育科技", "色谱仪+进口替代",
-         "分析仪器+国产化", "质谱+招标", "液相色谱+国产",
-         "科学仪器+国产化率", "高端仪器+进口替代",
+         "质谱仪国产替代", "禾信仪器", "谱育科技质谱",
+         "色谱仪进口替代", "分析仪器国产化", "质谱招标",
+         "液相色谱国产", "科学仪器国产化",
      ]},
     {"id": "l2", "name": "基因测序", "board": "L&M",
      "keywords": [
-         "基因测序+华大智造", "因美纳+禁令", "测序仪+国产替代",
-         "华大智造+订单", "真迈生物+测序", "WGS+肿瘤检测",
-         "基因组学+测序", "三代测序+国产",
+         "华大智造测序", "因美纳禁令", "测序仪国产替代",
+         "华大智造订单", "真迈生物测序仪", "基因测序市场",
+         "三代测序国产", "WGS肿瘤检测",
      ]},
     {"id": "l3", "name": "医疗IVD体外诊断", "board": "L&M",
      "keywords": [
-         "IVD+集采", "化学发光+国产化", "体外诊断+市场规模",
-         "迈瑞医疗+IVD", "POCT+基层医疗", "IVD+降价",
-         "体外诊断+国产替代", "化学发光+进口替代",
+         "IVD集采降价", "化学发光国产化", "体外诊断市场规模",
+         "迈瑞医疗IVD", "POCT基层医疗", "体外诊断国产替代",
+         "化学发光进口替代", "IVD市场增长",
      ]},
     {"id": "f1", "name": "食品制造业FAI", "board": "F&B",
      "keywords": [
-         "食品制造业+固定资产投资", "食品装备+预制菜", "食品设备+新建产线",
-         "食品机械+招标", "预制菜+产线投资", "烘焙+食品装备",
-         "食品制造+FAI",
+         "食品制造固定资产投资", "食品装备预制菜",
+         "食品机械招标", "预制菜产线投资", "食品设备新建",
+         "烘焙食品装备", "食品制造FAI",
      ]},
     {"id": "f2", "name": "酒/饮料制造FAI", "board": "F&B",
      "keywords": [
-         "白酒+产能投资", "酒饮料+固定资产投资", "碳酸饮料+扩产",
-         "白酒+新建产能", "饮料制造+FAI", "啤酒+产线投资",
-         "白酒+资本支出",
+         "白酒产能投资", "酒饮料固定资产投资", "碳酸饮料扩产",
+         "白酒新建产能", "饮料制造投资", "啤酒产线",
+         "白酒资本支出",
      ]},
     {"id": "f3", "name": "食品饮料消费端", "board": "F&B",
      "keywords": [
-         "食品饮料+消费数据", "功能饮品+无糖茶", "餐饮+复苏",
-         "食品+社零数据", "预制菜+消费增长", "饮料+销量增长",
-         "功能食品+市场规模",
+         "食品饮料消费数据", "功能饮品无糖茶", "餐饮消费复苏",
+         "食品社零数据", "预制菜消费增长", "饮料销量增长",
+         "功能食品市场规模",
      ]},
     {"id": "f4", "name": "食品添加剂/合成生物发酵", "board": "F&B",
      "keywords": [
-         "食品添加剂+合成生物", "天然甜味剂+赤藓糖醇", "益生菌+扩产",
-         "功能性食品成分+市场", "发酵设备+食品添加剂", "代糖+生物发酵",
-         "功能性糖醇+产能",
+         "食品添加剂合成生物", "赤藓糖醇代糖", "益生菌扩产",
+         "功能性食品成分市场", "天然甜味剂市场", "代糖生物发酵",
+         "功能性糖醇产能",
      ]},
     {"id": "m1", "name": "制造业PMI", "board": "Macro",
      "keywords": [
-         "中国制造业PMI", "财新PMI+制造业", "PMI+扩张区间",
-         "制造业景气指数", "PMI+新订单", "官方PMI+统计局",
+         "中国制造业PMI", "财新制造业PMI", "PMI扩张区间",
+         "制造业景气指数", "官方PMI统计局", "PMI新订单",
      ]},
     {"id": "m2", "name": "M2/社融/CPI/PPI", "board": "Macro",
      "keywords": [
-         "中国M2+社融", "货币政策+央行", "CPI+PPI+通胀",
-         "社会融资规模", "M2+信贷数据", "降准+降息",
-         "PPI+工业品价格",
+         "中国M2社融", "货币政策央行", "CPI+PPI通胀",
+         "社会融资规模", "M2信贷数据", "央行降准降息",
      ]},
     {"id": "m3", "name": "固定资产投资/工业增加值", "board": "Macro",
      "keywords": [
-         "固定资产投资+统计局", "规上工业增加值", "制造业FAI",
-         "工业增加值+增速", "高技术制造业+投资", "工业生产+复苏",
+         "固定资产投资统计局", "规上工业增加值", "制造业FAI增速",
+         "工业增加值增速", "高技术制造业投资", "工业生产复苏",
      ]},
 ]
 
@@ -291,20 +290,71 @@ def score_track(client, track, news_items):
         return {"D": 50, "C": 50, "P": 50, "Pol": 50,
                 "core_data": "本期无有效新闻数据", "comment": "数据不足，参考上期"}
 
-    titles = [i['title'] for i in news_items]
+    news_text = "\n".join([f"- {i['title']}" for i in news_items[:12]])
+    track_name = track.get("name", track["id"])
 
-    tid = track["id"]
-    D   = _keyword_score(tid, titles, POSITIVE_D,   NEGATIVE_D,   base=58)
-    C   = _keyword_score(tid, titles, POSITIVE_C,   NEGATIVE_C,   base=55)
-    P   = _keyword_score(tid, titles, POSITIVE_P,   NEGATIVE_P,   base=60)
-    Pol = _keyword_score(tid, titles, POSITIVE_POL, NEGATIVE_POL, base=58)
+    prompt = (
+        f"你是中国B2B设备行业景气度分析师。根据以下新闻标题，对赛道【{track_name}】打分。\n\n"
+        f"新闻列表：\n{news_text}\n\n"
+        "打分规则（每项0-100分）：\n"
+        "D=需求动能：强劲订单/渗透率提升→80+，需求疲软→40-\n"
+        "C=投资强度：大额招标/融资扩产→80+，FAI收缩→40-\n"
+        "P=价格盈利：反向指标！行业涨价→高分，集采降价50%→38分\n"
+        "Pol=政策情绪：强补贴/产业催化→85+，政策空窗→45-\n\n"
+        "请直接输出以下格式，不要任何解释：\n"
+        "D=数字 C=数字 P=数字 Pol=数字"
+    )
 
-    print(f"  [RULE] D={D} C={C} P={P} Pol={Pol}")
-    return {
-        "D": D, "C": C, "P": P, "Pol": Pol,
-        "core_data": titles[0][:30] if titles else "",
-        "comment":   f"基于{len(titles)}条新闻关键词打分",
-    }
+    try:
+        import urllib.request, json as _json
+        api_key = os.environ["GEMINI_API_KEY"]
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={api_key}"
+        payload = _json.dumps({
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"temperature": 0, "maxOutputTokens": 40}
+        }).encode()
+        req = urllib.request.Request(url, data=payload,
+                                     headers={"Content-Type": "application/json"})
+        import time
+        for attempt in range(3):
+            try:
+                with urllib.request.urlopen(req, timeout=20) as resp:
+                    data = _json.loads(resp.read())
+                break
+            except Exception as ex:
+                if "429" in str(ex) and attempt < 2:
+                    wait = 15 * (attempt + 1)
+                    print(f"  [RATE] 限速，等待{wait}秒后重试...")
+                    time.sleep(wait)
+                    req = urllib.request.Request(url, data=payload,
+                                                 headers={"Content-Type": "application/json"})
+                else:
+                    raise
+        raw = data["candidates"][0]["content"]["parts"][0]["text"].strip()
+        print(f"  [DEBUG] Gemini: {raw}")
+        time.sleep(8)  # 免费层限速保护
+
+        d   = re.search(r'D\s*=\s*(\d+)', raw)
+        c   = re.search(r'C\s*=\s*(\d+)', raw)
+        p   = re.search(r'\bP\s*=\s*(\d+)', raw)
+        pol = re.search(r'Pol\s*=\s*(\d+)', raw)
+
+        if d and c and p and pol:
+            return {
+                "D":         min(100, max(0, int(d.group(1)))),
+                "C":         min(100, max(0, int(c.group(1)))),
+                "P":         min(100, max(0, int(p.group(1)))),
+                "Pol":       min(100, max(0, int(pol.group(1)))),
+                "core_data": "",
+                "comment":   "",
+            }
+        else:
+            print(f"  [WARN] 解析失败: {raw}")
+    except Exception as e:
+        print(f"  [WARN] Gemini 调用失败 {track['id']}: {e}")
+
+    return {"D": 50, "C": 50, "P": 50, "Pol": 50,
+            "core_data": "打分异常", "comment": "请人工核查"}
 
 
 def calc_heat(scores):
