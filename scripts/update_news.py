@@ -77,15 +77,10 @@ BOARD_WEIGHTS = {
 # 3. Claude API 客户端
 # ══════════════════════════════════════════════════════════════
 def get_client():
-    """
-    默认用 Anthropic 官方 API。
-    如需切换 MiniMax，改成：
-        return anthropic.Anthropic(
-            api_key=os.environ["MINIMAX_API_KEY"],
-            base_url="https://api.minimaxi.com/anthropic"
-        )
-    """
-    return anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+    return anthropic.Anthropic(
+        api_key=os.environ["MINIMAX_API_KEY"],
+        base_url="https://api.minimaxi.com/anthropic"
+    )
 
 
 # ══════════════════════════════════════════════════════════════
@@ -187,7 +182,7 @@ D|C|P|Pol|核心数据摘要(30字以内)|一句话点评(40字以内)
 
     try:
         msg = client.messages.create(
-            model="claude-haiku-4-5-20251001",  # 速度快，适合批量打分
+            model="MiniMax-M2.5-highspeed",  # 速度快，适合批量打分
             max_tokens=200,
             messages=[{"role": "user", "content": prompt}],
         )
@@ -282,7 +277,7 @@ def summarize_pharma(client, raw_items):
 
     try:
         msg = client.messages.create(
-            model="claude-haiku-4-5-20251001",
+            model="MiniMax-M2.5-highspeed",
             max_tokens=800,
             messages=[{"role": "user", "content": prompt}],
         )
