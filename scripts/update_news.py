@@ -155,84 +155,41 @@ def fetch_news_for_track(track, days=35):
 # ══════════════════════════════════════════════════════════════
 # 6. 打分逻辑
 # ══════════════════════════════════════════════════════════════
+# 关键词规则打分 — 不依赖任何 AI API
+POSITIVE_D = ["扩产","大单","订单","渗透率","需求旺","出货","销量增","增长","爆发","新高","放量"]
+NEGATIVE_D = ["需求疲","订单下滑","出货下降","销量降","萎缩","去库存"]
+POSITIVE_C = ["招标","融资","投资","Capex","扩建","新基地","开工","产能","募资","并购"]
+NEGATIVE_C = ["FAI下滑","投资收缩","暂缓","推迟","缩减","降速"]
+POSITIVE_P = ["涨价","提价","价格上涨","盈利提升","毛利率提升","量价齐升"]
+NEGATIVE_P = ["降价","集采","价格下跌","亏损","毛利下滑","价格战","内卷"]
+POSITIVE_POL = ["补贴","政策支持","利好政策","入法","规划","十五五","国家战略","催化","专项资金"]
+NEGATIVE_POL = ["政策空窗","监管收紧","限制","禁令","处罚","暂停审批"]
+
+def _keyword_score(titles, pos_words, neg_words, base=60):
+    text = " ".join(titles)
+    pos = sum(1 for w in pos_words if w in text)
+    neg = sum(1 for w in neg_words if w in text)
+    score = base + pos * 5 - neg * 8
+    return min(95, max(30, score))
+
 def score_track(client, track, news_items):
     if not news_items:
         print(f"  [WARN] {track['id']} 无新闻，使用默认分 50")
         return {"D": 50, "C": 50, "P": 50, "Pol": 50,
                 "core_data": "本期无有效新闻数据", "comment": "数据不足，参考上期"}
 
-    news_text = "\n".join([f"- {i['title']}" for i in news_items[:10]])
-    track_name = track.get("name", track["id"])
+    titles = [i['title'] for i in news_items]
 
-    dims = [
-        ("D",   "Demand momentum", "Strong orders/penetration=80+, weak=40-"),
-        ("C",   "Capex intensity", "Large tenders/financing=80+, FAI contraction=40-"),
-        ("P",   "Price/margin",    "REVERSE indicator: price rise=high score, price cut/procurement=-low score, 50% cut=38"),
-        ("Pol", "Policy sentiment","Strong subsidy/catalyst=85+, policy vacuum=45-"),
-    ]
+    D   = _keyword_score(titles, POSITIVE_D,   NEGATIVE_D,   base=58)
+    C   = _keyword_score(titles, POSITIVE_C,   NEGATIVE_C,   base=55)
+    P   = _keyword_score(titles, POSITIVE_P,   NEGATIVE_P,   base=60)
+    Pol = _keyword_score(titles, POSITIVE_POL, NEGATIVE_POL, base=58)
 
-    scores = {}
-    try:
-        for key, dim_name, rule in dims:
-            messages = [
-                # Few-shot example
-                {
-                    "role": "user",
-                    "content": (
-                        "News (track: liquid cooling data centers):\n"
-                        "- TrendForce raises liquid cooling penetration to 47%\n"
-                        "- Three operators boost computing power, liquid cooling leader market cap exceeds 100B\n"
-                        "- US 232 tariffs force domestic AI infrastructure\n\n"
-                        f"Score the '{dim_name}' dimension ({rule}).\n"
-                        "Reply with ONE integer 0-100. Nothing else."
-                    )
-                },
-                {
-                    "role": "assistant",
-                    "content": "90"
-                },
-                {
-                    "role": "user",
-                    "content": (
-                        f"News (track: {track_name}):\n"
-                        f"{news_text}\n\n"
-                        f"Score the '{dim_name}' dimension ({rule}).\n"
-                        "Reply with ONE integer 0-100. Nothing else."
-                    )
-                }
-            ]
-
-            msg = client.messages.create(
-                model="abab6.5s-chat",
-                max_tokens=20,
-                temperature=0,
-                messages=messages,
-            )
-            raw = ""
-            for b in msg.content:
-                text = getattr(b, "text", None) or getattr(b, "thinking", None) or ""
-                if text:
-                    raw = text.strip()
-                    break
-
-            # Take last 1-3 digit number in response (model often concludes at end)
-            nums = re.findall(r'\b(\d{1,3})\b', raw)
-            val = min(100, max(0, int(nums[-1]))) if nums else 50
-            scores[key] = val
-            print(f"  [DEBUG] {key}={val} (raw: {raw[:40]})")
-
-    except Exception as e:
-        print(f"  [WARN] 打分失败 {track['id']}: {e}")
-        return {"D": 50, "C": 50, "P": 50, "Pol": 50,
-                "core_data": "打分异常", "comment": "请人工核查"}
-
+    print(f"  [RULE] D={D} C={C} P={P} Pol={Pol}")
     return {
-        "D":         scores.get("D", 50),
-        "C":         scores.get("C", 50),
-        "P":         scores.get("P", 50),
-        "Pol":       scores.get("Pol", 50),
-        "core_data": "",
-        "comment":   "",
+        "D": D, "C": C, "P": P, "Pol": Pol,
+        "core_data": titles[0][:30] if titles else "",
+        "comment":   f"基于{len(titles)}条新闻关键词打分",
     }
 
 
