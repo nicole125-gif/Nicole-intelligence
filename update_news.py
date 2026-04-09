@@ -20,45 +20,121 @@ import anthropic
 # ══════════════════════════════════════════════════════════════
 TRACKS = [
     {"id": "e1", "name": "液冷数据中心", "board": "EI",
-     "keywords": ["AI液冷数据中心+CDU冷板", "液冷渗透率+数据中心", "AI基础设施+液冷设备"]},
+     "keywords": [
+         "AI液冷数据中心", "液冷渗透率+数据中心", "AI基础设施+液冷",
+         "CDU冷板+液冷", "TrendForce+液冷", "数据中心液冷+算力",
+         "液冷设备+市场规模", "浸没式液冷+冷板液冷",
+     ]},
     {"id": "e2", "name": "半导体设备国产化", "board": "EI",
-     "keywords": ["半导体设备国产化+北方华创", "晶圆厂扩产+设备投资", "DRAM+半导体涨价"]},
+     "keywords": [
+         "半导体设备国产化", "北方华创+中微公司", "晶圆厂扩产+设备",
+         "DRAM涨价+半导体", "半导体设备+出口管制", "封测设备+先进封装",
+         "半导体+国产替代", "存储芯片+涨价",
+     ]},
     {"id": "e3", "name": "绿氢电解槽", "board": "EI",
-     "keywords": ["PEM电解槽+绿氢", "氢能+电解槽招标", "质子交换膜+氢能设备"]},
+     "keywords": [
+         "PEM电解槽+绿氢", "氢能+电解槽招标", "质子交换膜+氢能",
+         "ALK电解槽+招标", "绿氢+项目中标", "氢能+十五五",
+         "电解水制氢+设备", "氢辉+阳光氢能+电解槽",
+     ]},
     {"id": "e4", "name": "燃料电池", "board": "EI",
-     "keywords": ["燃料电池+FCEV重卡", "氢燃料电池+销量", "燃料电池+补贴政策"]},
+     "keywords": [
+         "燃料电池+重卡", "氢燃料电池+销量", "燃料电池+补贴",
+         "FCEV+氢车", "燃料电池+商业化", "氢能汽车+政策",
+     ]},
     {"id": "g1", "name": "锂电设备", "board": "GI",
-     "keywords": ["锂电设备+宁德时代", "锂电池产能扩张+设备订单", "先导智能+赢合科技"]},
+     "keywords": [
+         "锂电设备+宁德时代", "先导智能+赢合科技", "锂电池+产能扩张",
+         "动力电池+设备订单", "CATL+扩产", "锂电+固态电池+设备",
+         "锂电设备+海外订单", "钠离子电池+产线",
+     ]},
     {"id": "p1", "name": "生物药出海/CDMO", "board": "P&B",
-     "keywords": ["创新药+License-out+BD交易", "司美格鲁肽+GLP-1+CDMO", "生物药出海+ADC"]},
+     "keywords": [
+         "创新药+License-out", "司美格鲁肽+仿制药", "生物药+BD交易",
+         "ADC+出海", "GLP-1+CDMO", "创新药+NDA申报",
+         "生物类似药+上市", "多肽药物+CDMO",
+     ]},
     {"id": "p2", "name": "合成生物学", "board": "P&B",
-     "keywords": ["合成生物学+中试车间", "华恒生物+凯赛生物+发酵罐", "合成生物学+十五五"]},
+     "keywords": [
+         "合成生物学+中试", "华恒生物+发酵", "凯赛生物+产能",
+         "合成生物+十五五", "生物制造+设备", "发酵罐+合成生物",
+         "合成生物学+融资", "生物基材料+扩产",
+     ]},
     {"id": "p3", "name": "生物药融资", "board": "P&B",
-     "keywords": ["生物医药投融资+一级市场", "创新药融资+生物科技"]},
+     "keywords": [
+         "生物医药+投融资", "创新药+融资", "生物科技+一级市场",
+         "医药+IPO", "生物技术+风险投资", "创新药+pre-IPO",
+     ]},
     {"id": "p4", "name": "制药装备Capex/FAI", "board": "P&B",
-     "keywords": ["医药制造业固定资产投资+FAI", "制药装备+资本支出", "医药FAI+国家统计局"]},
+     "keywords": [
+         "医药制造业+固定资产投资", "制药装备+资本支出",
+         "医药FAI+统计局", "制药设备+招标", "楚天科技+东富龙",
+         "制药装备+新建产线", "原料药+设备投资",
+     ]},
     {"id": "p5", "name": "CDMO订单景气", "board": "P&B",
-     "keywords": ["CDMO+药明康德+凯莱英", "TIDES+ADC+CDMO订单", "CDMO询单+多肽原料药"]},
+     "keywords": [
+         "CDMO+订单", "药明康德+凯莱英", "TIDES+多肽CDMO",
+         "ADC+CDMO", "凯莱英+GLP-1", "CDMO+询单",
+         "博腾股份+九洲药业", "小分子CDMO+产能",
+     ]},
     {"id": "l1", "name": "质谱/色谱仪器国产替代", "board": "L&M",
-     "keywords": ["质谱仪+国产替代+禾信谱育", "色谱仪器+进口替代", "分析仪器+国产化率"]},
+     "keywords": [
+         "质谱仪+国产替代", "禾信仪器+谱育科技", "色谱仪+进口替代",
+         "分析仪器+国产化", "质谱+招标", "液相色谱+国产",
+         "科学仪器+国产化率", "高端仪器+进口替代",
+     ]},
     {"id": "l2", "name": "基因测序", "board": "L&M",
-     "keywords": ["基因测序+华大智造+因美纳", "测序仪+国产替代", "WGS+肿瘤早检+测序"]},
+     "keywords": [
+         "基因测序+华大智造", "因美纳+禁令", "测序仪+国产替代",
+         "华大智造+订单", "真迈生物+测序", "WGS+肿瘤检测",
+         "基因组学+测序", "三代测序+国产",
+     ]},
     {"id": "l3", "name": "医疗IVD体外诊断", "board": "L&M",
-     "keywords": ["IVD体外诊断+集采降价", "化学发光+国产化率", "医疗IVD+市场规模"]},
+     "keywords": [
+         "IVD+集采", "化学发光+国产化", "体外诊断+市场规模",
+         "迈瑞医疗+IVD", "POCT+基层医疗", "IVD+降价",
+         "体外诊断+国产替代", "化学发光+进口替代",
+     ]},
     {"id": "f1", "name": "食品制造业FAI", "board": "F&B",
-     "keywords": ["食品制造业+固定资产投资", "食品装备+预制菜+产线", "食品制造FAI+统计局"]},
+     "keywords": [
+         "食品制造业+固定资产投资", "食品装备+预制菜", "食品设备+新建产线",
+         "食品机械+招标", "预制菜+产线投资", "烘焙+食品装备",
+         "食品制造+FAI",
+     ]},
     {"id": "f2", "name": "酒/饮料制造FAI", "board": "F&B",
-     "keywords": ["酒饮料制造+固定资产投资", "白酒产能+碳酸饮料+投资", "饮料制造FAI"]},
+     "keywords": [
+         "白酒+产能投资", "酒饮料+固定资产投资", "碳酸饮料+扩产",
+         "白酒+新建产能", "饮料制造+FAI", "啤酒+产线投资",
+         "白酒+资本支出",
+     ]},
     {"id": "f3", "name": "食品饮料消费端", "board": "F&B",
-     "keywords": ["食品饮料+消费数据+零售", "春节消费+年货+餐饮", "功能饮品+无糖茶+消费"]},
+     "keywords": [
+         "食品饮料+消费数据", "功能饮品+无糖茶", "餐饮+复苏",
+         "食品+社零数据", "预制菜+消费增长", "饮料+销量增长",
+         "功能食品+市场规模",
+     ]},
     {"id": "f4", "name": "食品添加剂/合成生物发酵", "board": "F&B",
-     "keywords": ["食品添加剂+合成生物学+发酵", "天然甜味剂+益生菌+扩产", "功能性食品成分+市场"]},
+     "keywords": [
+         "食品添加剂+合成生物", "天然甜味剂+赤藓糖醇", "益生菌+扩产",
+         "功能性食品成分+市场", "发酵设备+食品添加剂", "代糖+生物发酵",
+         "功能性糖醇+产能",
+     ]},
     {"id": "m1", "name": "制造业PMI", "board": "Macro",
-     "keywords": ["中国制造业PMI+官方+财新", "PMI+制造业景气指数"]},
+     "keywords": [
+         "中国制造业PMI", "财新PMI+制造业", "PMI+扩张区间",
+         "制造业景气指数", "PMI+新订单", "官方PMI+统计局",
+     ]},
     {"id": "m2", "name": "M2/社融/CPI/PPI", "board": "Macro",
-     "keywords": ["中国M2+社融+货币政策", "CPI+PPI+通胀+价格指数"]},
+     "keywords": [
+         "中国M2+社融", "货币政策+央行", "CPI+PPI+通胀",
+         "社会融资规模", "M2+信贷数据", "降准+降息",
+         "PPI+工业品价格",
+     ]},
     {"id": "m3", "name": "固定资产投资/工业增加值", "board": "Macro",
-     "keywords": ["固定资产投资+工业增加值+统计局", "制造业FAI+规上工业增加值"]},
+     "keywords": [
+         "固定资产投资+统计局", "规上工业增加值", "制造业FAI",
+         "工业增加值+增速", "高技术制造业+投资", "工业生产+复苏",
+     ]},
 ]
 
 # ══════════════════════════════════════════════════════════════
@@ -155,69 +231,80 @@ def fetch_news_for_track(track, days=35):
 # ══════════════════════════════════════════════════════════════
 # 6. 打分逻辑
 # ══════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════
+# 关键词规则打分 — 不依赖任何 AI API
+# ══════════════════════════════════════════════════════════════
+
+# 通用关键词
+POSITIVE_D = ["扩产","大单","订单","渗透率","需求旺","出货","销量增","增长","爆发",
+              "新高","放量","旺盛","景气","中标","量产","交付","供不应求"]
+NEGATIVE_D = ["需求疲","订单下滑","出货下降","销量降","萎缩","去库存","下行","低迷","收缩"]
+
+POSITIVE_C = ["招标","融资","投资","Capex","扩建","新基地","开工","产能","募资","并购",
+              "新建","上马","立项","开建","签约","中标","资本支出"]
+NEGATIVE_C = ["FAI下滑","投资收缩","暂缓","推迟","缩减","降速","停工","撤资","亏损"]
+
+POSITIVE_P = ["涨价","提价","价格上涨","盈利提升","毛利率提升","量价齐升","价格回升","涨幅"]
+NEGATIVE_P = ["降价","集采","价格下跌","亏损","毛利下滑","价格战","内卷","杀价","降本"]
+
+POSITIVE_POL = ["补贴","政策支持","利好政策","入法","规划","十五五","国家战略","催化",
+                "专项资金","政策红利","重点支持","列入","优先","加快推进"]
+NEGATIVE_POL = ["政策空窗","监管收紧","限制","禁令","处罚","暂停审批","叫停","整顿"]
+
+# 赛道专属加分词（命中即额外+8）
+TRACK_BONUS = {
+    "e1": ["液冷","CDU","冷板","TrendForce","浸没","算力","液冷渗透率"],
+    "e2": ["北方华创","中微","晶圆","DRAM","HBM","封测","出口管制","国产设备"],
+    "e3": ["电解槽","绿氢","PEM","AEM","质子交换膜","制氢","招标"],
+    "e4": ["燃料电池","FCEV","氢车","氢重卡","示范城市"],
+    "g1": ["宁德时代","CATL","先导智能","赢合科技","动力电池","固态电池"],
+    "p1": ["司美格鲁肽","GLP-1","ADC","License-out","BD交易","仿制药","多肽"],
+    "p2": ["合成生物","华恒生物","凯赛生物","中试","发酵罐","生物制造"],
+    "p3": ["生物医药融资","创新药融资","IPO","风险投资","一级市场"],
+    "p4": ["楚天科技","东富龙","制药装备","原料药","GMP","FAI"],
+    "p5": ["药明康德","凯莱英","CDMO","TIDES","博腾","九洲"],
+    "l1": ["质谱仪","禾信","谱育","色谱","分析仪器","进口替代","国产仪器"],
+    "l2": ["华大智造","因美纳","测序仪","基因测序","WGS","真迈生物"],
+    "l3": ["IVD","化学发光","迈瑞","体外诊断","POCT","集采"],
+    "f1": ["预制菜","食品装备","食品机械","冷链","食品产线"],
+    "f2": ["白酒","碳酸饮料","啤酒","饮料产线","酒类投资"],
+    "f3": ["社零","餐饮","功能饮品","无糖","预制菜消费"],
+    "f4": ["赤藓糖醇","益生菌","天然甜味剂","代糖","功能成分","生物发酵"],
+    "m1": ["PMI","采购经理","扩张区间","荣枯线","景气指数"],
+    "m2": ["M2","社融","央行","降准","降息","货币政策","社会融资"],
+    "m3": ["工业增加值","FAI","固定资产投资","规上工业","高技术制造"],
+}
+
+def _keyword_score(track_id, titles, pos_words, neg_words, base=58):
+    text = " ".join(titles)
+    pos = sum(1 for w in pos_words if w in text)
+    neg = sum(1 for w in neg_words if w in text)
+    # 赛道专属词加分
+    bonus_words = TRACK_BONUS.get(track_id, [])
+    bonus = sum(1 for w in bonus_words if w in text)
+    score = base + pos * 5 - neg * 8 + bonus * 8
+    return min(95, max(30, score))
+
 def score_track(client, track, news_items):
     if not news_items:
         print(f"  [WARN] {track['id']} 无新闻，使用默认分 50")
         return {"D": 50, "C": 50, "P": 50, "Pol": 50,
                 "core_data": "本期无有效新闻数据", "comment": "数据不足，参考上期"}
 
-    news_text = "\n".join([f"- {i['title']}" for i in news_items[:10]])
+    titles = [i['title'] for i in news_items]
 
-    track_name = track.get("name", track["id"])
-    prompt = f"""当前赛道：{track_name}
+    tid = track["id"]
+    D   = _keyword_score(tid, titles, POSITIVE_D,   NEGATIVE_D,   base=58)
+    C   = _keyword_score(tid, titles, POSITIVE_C,   NEGATIVE_C,   base=55)
+    P   = _keyword_score(tid, titles, POSITIVE_P,   NEGATIVE_P,   base=60)
+    Pol = _keyword_score(tid, titles, POSITIVE_POL, NEGATIVE_POL, base=58)
 
-本期相关新闻：
-{news_text}
-
-请对该赛道打分，直接输出数字，格式如下（不要任何分析过程）：
-D|C|P|Pol|核心数据摘要(30字)|一句话点评(40字)
-
-示例：82|75|58|88|DRAM Q1合约价+90%，设备投资2622亿|全产业链涨价潮确认，国产替代升级必选项"""
-
-    system = """你是中国B2B设备行业景气度打分机器人。
-打分规则：
-- D（需求动能35%）：出货量/新订单/渗透率，强劲=80+，疲软=40-
-- C（投资强度30%）：招标/融资/FAI，旺盛=80+，收缩=40-
-- P（价格盈利20%）：反向指标！涨价=高分，降价/集采=低分
-- Pol（政策15%）：强催化=85+，政策空窗=45-
-
-严格只输出一行：D|C|P|Pol|摘要|点评，禁止任何分析过程或其他文字。"""
-
-    try:
-        msg = client.messages.create(
-            model="MiniMax-M2.5-highspeed",
-            max_tokens=150,
-            system=system,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        # MiniMax 可能返回 ThinkingBlock，需要兼容
-        raw = ""
-        for b in msg.content:
-            text = getattr(b, "text", None) or getattr(b, "thinking", None) or ""
-            if text:
-                raw = text.strip()
-                break
-        if not raw:
-            print(f"  [DEBUG] MiniMax 返回空，完整content: {msg.content}")
-        else:
-            print(f"  [DEBUG] MiniMax 原始返回: {raw[:80]}")
-        parts = raw.split("|")
-        if len(parts) >= 4:
-            return {
-                "D":         min(100, max(0, int(float(parts[0].strip())))),
-                "C":         min(100, max(0, int(float(parts[1].strip())))),
-                "P":         min(100, max(0, int(float(parts[2].strip())))),
-                "Pol":       min(100, max(0, int(float(parts[3].strip())))),
-                "core_data": parts[4].strip() if len(parts) > 4 else "",
-                "comment":   parts[5].strip() if len(parts) > 5 else "",
-            }
-        else:
-            print(f"  [WARN] 解析失败，原始内容: {raw}")
-    except Exception as e:
-        print(f"  [WARN] 打分失败 {track['id']}: {e}")
-
-    return {"D": 50, "C": 50, "P": 50, "Pol": 50,
-            "core_data": "打分异常", "comment": "请人工核查"}
+    print(f"  [RULE] D={D} C={C} P={P} Pol={Pol}")
+    return {
+        "D": D, "C": C, "P": P, "Pol": Pol,
+        "core_data": titles[0][:30] if titles else "",
+        "comment":   f"基于{len(titles)}条新闻关键词打分",
+    }
 
 
 def calc_heat(scores):
@@ -293,8 +380,9 @@ def summarize_pharma(client, raw_items):
 
     try:
         msg = client.messages.create(
-            model="MiniMax-M2.5-highspeed",
+            model="abab6.5s-chat",
             max_tokens=800,
+            temperature=0,
             messages=[{"role": "user", "content": prompt}],
         )
         raw = ""
@@ -304,7 +392,11 @@ def summarize_pharma(client, raw_items):
                 break
         if not raw:
             raw = "[]"
-        raw = re.sub(r"^```json\s*|^```\s*|```$", "", raw, flags=re.MULTILINE).strip()
+        # strip markdown fences
+        raw = re.sub(r"^```[a-z]*\s*|```$", "", raw, flags=re.MULTILINE).strip()
+        # find JSON array
+        m = re.search(r"\[.*\]", raw, re.DOTALL)
+        raw = m.group(0) if m else "[]"
         parsed = json.loads(raw)
         # 补充原始链接
         title_to_link = {i["title"]: i["link"] for i in raw_items}
