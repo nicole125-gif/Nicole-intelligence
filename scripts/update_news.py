@@ -165,24 +165,48 @@ def score_track(client, track, news_items):
     track_name = track.get("name", track["id"])
 
     dims = [
-        ("D",   "需求动能", "出货量/新订单/渗透率提升。强劲=80+，一般=55，疲软=40-"),
-        ("C",   "投资强度", "招标规模/融资额/固定资产投资。旺盛=80+，一般=55，收缩=40-"),
-        ("P",   "价格盈利", "反向指标！行业涨价=高分，集采降价50%=38分，价格稳定=60"),
-        ("Pol", "政策情绪", "产业补贴/政策催化。强催化=85+，政策空窗=45-，中性=60"),
+        ("D",   "Demand momentum", "Strong orders/penetration=80+, weak=40-"),
+        ("C",   "Capex intensity", "Large tenders/financing=80+, FAI contraction=40-"),
+        ("P",   "Price/margin",    "REVERSE indicator: price rise=high score, price cut/procurement=-low score, 50% cut=38"),
+        ("Pol", "Policy sentiment","Strong subsidy/catalyst=85+, policy vacuum=45-"),
     ]
 
     scores = {}
     try:
         for key, dim_name, rule in dims:
-            q = (
-                f"新闻列表（赛道：{track_name}）：\n{news_text}\n\n"
-                f"根据以上新闻，评估【{dim_name}】维度（{rule}）。\n"
-                f"只回答一个0-100的整数，不要任何解释。"
-            )
+            messages = [
+                # Few-shot example
+                {
+                    "role": "user",
+                    "content": (
+                        "News (track: liquid cooling data centers):\n"
+                        "- TrendForce raises liquid cooling penetration to 47%\n"
+                        "- Three operators boost computing power, liquid cooling leader market cap exceeds 100B\n"
+                        "- US 232 tariffs force domestic AI infrastructure\n\n"
+                        f"Score the '{dim_name}' dimension ({rule}).\n"
+                        "Reply with ONE integer 0-100. Nothing else."
+                    )
+                },
+                {
+                    "role": "assistant",
+                    "content": "90"
+                },
+                {
+                    "role": "user",
+                    "content": (
+                        f"News (track: {track_name}):\n"
+                        f"{news_text}\n\n"
+                        f"Score the '{dim_name}' dimension ({rule}).\n"
+                        "Reply with ONE integer 0-100. Nothing else."
+                    )
+                }
+            ]
+
             msg = client.messages.create(
                 model="MiniMax-M2.5-highspeed",
-                max_tokens=10,
-                messages=[{"role": "user", "content": q}],
+                max_tokens=20,
+                temperature=0,
+                messages=messages,
             )
             raw = ""
             for b in msg.content:
@@ -190,11 +214,13 @@ def score_track(client, track, news_items):
                 if text:
                     raw = text.strip()
                     break
-            # 从回答里提取第一个数字
-            nums = re.findall(r'\d+', raw)
-            val = min(100, max(0, int(nums[0]))) if nums else 50
+
+            # Take last 1-3 digit number in response (model often concludes at end)
+            nums = re.findall(r'\b(\d{1,3})\b', raw)
+            val = min(100, max(0, int(nums[-1]))) if nums else 50
             scores[key] = val
-            print(f"  [DEBUG] {key}={val} (raw: {raw[:30]})")
+            print(f"  [DEBUG] {key}={val} (raw: {raw[:40]})")
+
     except Exception as e:
         print(f"  [WARN] 打分失败 {track['id']}: {e}")
         return {"D": 50, "C": 50, "P": 50, "Pol": 50,
@@ -208,6 +234,7 @@ def score_track(client, track, news_items):
         "core_data": "",
         "comment":   "",
     }
+
 
 def calc_heat(scores):
     """加权公式：D×35% + C×30% + P×20% + Pol×15%"""
@@ -284,6 +311,7 @@ def summarize_pharma(client, raw_items):
         msg = client.messages.create(
             model="MiniMax-M2.5-highspeed",
             max_tokens=800,
+            temperature=0,
             messages=[{"role": "user", "content": prompt}],
         )
         raw = ""
@@ -293,7 +321,11 @@ def summarize_pharma(client, raw_items):
                 break
         if not raw:
             raw = "[]"
-        raw = re.sub(r"^```json\s*|^```\s*|```$", "", raw, flags=re.MULTILINE).strip()
+        # strip markdown fences
+        raw = re.sub(r"^```[a-z]*\s*|```$", "", raw, flags=re.MULTILINE).strip()
+        # find JSON array
+        m = re.search(r"\[.*\]", raw, re.DOTALL)
+        raw = m.group(0) if m else "[]"
         parsed = json.loads(raw)
         # 补充原始链接
         title_to_link = {i["title"]: i["link"] for i in raw_items}
