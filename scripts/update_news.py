@@ -290,20 +290,57 @@ def score_track(client, track, news_items):
         return {"D": 50, "C": 50, "P": 50, "Pol": 50,
                 "core_data": "本期无有效新闻数据", "comment": "数据不足，参考上期"}
 
-    titles = [i['title'] for i in news_items]
+    news_text = "\n".join([f"- {i['title']}" for i in news_items[:12]])
+    track_name = track.get("name", track["id"])
 
-    tid = track["id"]
-    D   = _keyword_score(tid, titles, POSITIVE_D,   NEGATIVE_D,   base=58)
-    C   = _keyword_score(tid, titles, POSITIVE_C,   NEGATIVE_C,   base=55)
-    P   = _keyword_score(tid, titles, POSITIVE_P,   NEGATIVE_P,   base=60)
-    Pol = _keyword_score(tid, titles, POSITIVE_POL, NEGATIVE_POL, base=58)
+    prompt = (
+        f"你是中国B2B设备行业景气度分析师。根据以下新闻标题，对赛道【{track_name}】打分。\n\n"
+        f"新闻列表：\n{news_text}\n\n"
+        "打分规则（每项0-100分）：\n"
+        "D=需求动能：强劲订单/渗透率提升→80+，需求疲软→40-\n"
+        "C=投资强度：大额招标/融资扩产→80+，FAI收缩→40-\n"
+        "P=价格盈利：反向指标！行业涨价→高分，集采降价50%→38分\n"
+        "Pol=政策情绪：强补贴/产业催化→85+，政策空窗→45-\n\n"
+        "请直接输出以下格式，不要任何解释：\n"
+        "D=数字 C=数字 P=数字 Pol=数字"
+    )
 
-    print(f"  [RULE] D={D} C={C} P={P} Pol={Pol}")
-    return {
-        "D": D, "C": C, "P": P, "Pol": Pol,
-        "core_data": titles[0][:30] if titles else "",
-        "comment":   f"基于{len(titles)}条新闻关键词打分",
-    }
+    try:
+        import urllib.request, json as _json
+        api_key = os.environ["GEMINI_API_KEY"]
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={api_key}"
+        payload = _json.dumps({
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"temperature": 0, "maxOutputTokens": 40}
+        }).encode()
+        req = urllib.request.Request(url, data=payload,
+                                     headers={"Content-Type": "application/json"})
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            data = _json.loads(resp.read())
+        raw = data["candidates"][0]["content"]["parts"][0]["text"].strip()
+        print(f"  [DEBUG] Gemini: {raw}")
+
+        d   = re.search(r'D\s*=\s*(\d+)', raw)
+        c   = re.search(r'C\s*=\s*(\d+)', raw)
+        p   = re.search(r'\bP\s*=\s*(\d+)', raw)
+        pol = re.search(r'Pol\s*=\s*(\d+)', raw)
+
+        if d and c and p and pol:
+            return {
+                "D":         min(100, max(0, int(d.group(1)))),
+                "C":         min(100, max(0, int(c.group(1)))),
+                "P":         min(100, max(0, int(p.group(1)))),
+                "Pol":       min(100, max(0, int(pol.group(1)))),
+                "core_data": "",
+                "comment":   "",
+            }
+        else:
+            print(f"  [WARN] 解析失败: {raw}")
+    except Exception as e:
+        print(f"  [WARN] Gemini 调用失败 {track['id']}: {e}")
+
+    return {"D": 50, "C": 50, "P": 50, "Pol": 50,
+            "core_data": "打分异常", "comment": "请人工核查"}
 
 
 def calc_heat(scores):
