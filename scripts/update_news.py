@@ -186,7 +186,13 @@ D|C|P|Pol|核心数据摘要(30字以内)|一句话点评(40字以内)
             max_tokens=200,
             messages=[{"role": "user", "content": prompt}],
         )
-        raw = next((b.text for b in msg.content if b.type == "text"), "").strip()
+        # MiniMax 可能返回 ThinkingBlock，需要兼容
+        raw = ""
+        for b in msg.content:
+            if hasattr(b, "text") and b.text:
+                raw = b.text.strip()
+                break
+        print(f"  [DEBUG] MiniMax 原始返回: {raw[:80]}")
         parts = raw.split("|")
         if len(parts) >= 4:
             return {
@@ -197,6 +203,8 @@ D|C|P|Pol|核心数据摘要(30字以内)|一句话点评(40字以内)
                 "core_data": parts[4].strip() if len(parts) > 4 else "",
                 "comment":   parts[5].strip() if len(parts) > 5 else "",
             }
+        else:
+            print(f"  [WARN] 解析失败，原始内容: {raw}")
     except Exception as e:
         print(f"  [WARN] 打分失败 {track['id']}: {e}")
 
@@ -281,7 +289,13 @@ def summarize_pharma(client, raw_items):
             max_tokens=800,
             messages=[{"role": "user", "content": prompt}],
         )
-        raw = next((b.text for b in msg.content if b.type == "text"), "[]").strip()
+        raw = ""
+        for b in msg.content:
+            if hasattr(b, "text") and b.text:
+                raw = b.text.strip()
+                break
+        if not raw:
+            raw = "[]"
         raw = re.sub(r"^```json\s*|^```\s*|```$", "", raw, flags=re.MULTILINE).strip()
         parsed = json.loads(raw)
         # 补充原始链接
@@ -409,7 +423,6 @@ if __name__ == "__main__":
 
         # 板块级
         for b, heat in board_heats.items():
-            prev_board_heat = None
             # 用板块内子赛道的平均 prev 估算板块趋势
             tids = list(BOARD_WEIGHTS[b].keys())
             prev_heats = [results[t]["prev_heat"] for t in tids if t in results]
