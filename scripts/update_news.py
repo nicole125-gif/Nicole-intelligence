@@ -148,6 +148,7 @@ def fetch_news_for_track(track, days=35):
         if k and k not in seen:
             seen.add(k)
             unique.append(i)
+    print(f"  [INFO] {track['id']} 抓到 {len(unique)} 条新闻")
     return unique[:12]
 
 
@@ -189,10 +190,14 @@ D|C|P|Pol|核心数据摘要(30字以内)|一句话点评(40字以内)
         # MiniMax 可能返回 ThinkingBlock，需要兼容
         raw = ""
         for b in msg.content:
-            if hasattr(b, "text") and b.text:
-                raw = b.text.strip()
+            text = getattr(b, "text", None) or getattr(b, "thinking", None) or ""
+            if text:
+                raw = text.strip()
                 break
-        print(f"  [DEBUG] MiniMax 原始返回: {raw[:80]}")
+        if not raw:
+            print(f"  [DEBUG] MiniMax 返回空，完整content: {msg.content}")
+        else:
+            print(f"  [DEBUG] MiniMax 原始返回: {raw[:80]}")
         parts = raw.split("|")
         if len(parts) >= 4:
             return {
