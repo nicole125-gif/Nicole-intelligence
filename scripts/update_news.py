@@ -19,45 +19,45 @@ import anthropic
 # 1. 子赛道配置（id 必须和 index.html 里的 T 对象 key 对应）
 # ══════════════════════════════════════════════════════════════
 TRACKS = [
-    {"id": "e1", "board": "EI",
+    {"id": "e1", "name": "液冷数据中心", "board": "EI",
      "keywords": ["AI液冷数据中心+CDU冷板", "液冷渗透率+数据中心", "AI基础设施+液冷设备"]},
-    {"id": "e2", "board": "EI",
+    {"id": "e2", "name": "半导体设备国产化", "board": "EI",
      "keywords": ["半导体设备国产化+北方华创", "晶圆厂扩产+设备投资", "DRAM+半导体涨价"]},
-    {"id": "e3", "board": "EI",
+    {"id": "e3", "name": "绿氢电解槽", "board": "EI",
      "keywords": ["PEM电解槽+绿氢", "氢能+电解槽招标", "质子交换膜+氢能设备"]},
-    {"id": "e4", "board": "EI",
+    {"id": "e4", "name": "燃料电池", "board": "EI",
      "keywords": ["燃料电池+FCEV重卡", "氢燃料电池+销量", "燃料电池+补贴政策"]},
-    {"id": "g1", "board": "GI",
+    {"id": "g1", "name": "锂电设备", "board": "GI",
      "keywords": ["锂电设备+宁德时代", "锂电池产能扩张+设备订单", "先导智能+赢合科技"]},
-    {"id": "p1", "board": "P&B",
+    {"id": "p1", "name": "生物药出海/CDMO", "board": "P&B",
      "keywords": ["创新药+License-out+BD交易", "司美格鲁肽+GLP-1+CDMO", "生物药出海+ADC"]},
-    {"id": "p2", "board": "P&B",
+    {"id": "p2", "name": "合成生物学", "board": "P&B",
      "keywords": ["合成生物学+中试车间", "华恒生物+凯赛生物+发酵罐", "合成生物学+十五五"]},
-    {"id": "p3", "board": "P&B",
+    {"id": "p3", "name": "生物药融资", "board": "P&B",
      "keywords": ["生物医药投融资+一级市场", "创新药融资+生物科技"]},
-    {"id": "p4", "board": "P&B",
+    {"id": "p4", "name": "制药装备Capex/FAI", "board": "P&B",
      "keywords": ["医药制造业固定资产投资+FAI", "制药装备+资本支出", "医药FAI+国家统计局"]},
-    {"id": "p5", "board": "P&B",
+    {"id": "p5", "name": "CDMO订单景气", "board": "P&B",
      "keywords": ["CDMO+药明康德+凯莱英", "TIDES+ADC+CDMO订单", "CDMO询单+多肽原料药"]},
-    {"id": "l1", "board": "L&M",
+    {"id": "l1", "name": "质谱/色谱仪器国产替代", "board": "L&M",
      "keywords": ["质谱仪+国产替代+禾信谱育", "色谱仪器+进口替代", "分析仪器+国产化率"]},
-    {"id": "l2", "board": "L&M",
+    {"id": "l2", "name": "基因测序", "board": "L&M",
      "keywords": ["基因测序+华大智造+因美纳", "测序仪+国产替代", "WGS+肿瘤早检+测序"]},
-    {"id": "l3", "board": "L&M",
+    {"id": "l3", "name": "医疗IVD体外诊断", "board": "L&M",
      "keywords": ["IVD体外诊断+集采降价", "化学发光+国产化率", "医疗IVD+市场规模"]},
-    {"id": "f1", "board": "F&B",
+    {"id": "f1", "name": "食品制造业FAI", "board": "F&B",
      "keywords": ["食品制造业+固定资产投资", "食品装备+预制菜+产线", "食品制造FAI+统计局"]},
-    {"id": "f2", "board": "F&B",
+    {"id": "f2", "name": "酒/饮料制造FAI", "board": "F&B",
      "keywords": ["酒饮料制造+固定资产投资", "白酒产能+碳酸饮料+投资", "饮料制造FAI"]},
-    {"id": "f3", "board": "F&B",
+    {"id": "f3", "name": "食品饮料消费端", "board": "F&B",
      "keywords": ["食品饮料+消费数据+零售", "春节消费+年货+餐饮", "功能饮品+无糖茶+消费"]},
-    {"id": "f4", "board": "F&B",
+    {"id": "f4", "name": "食品添加剂/合成生物发酵", "board": "F&B",
      "keywords": ["食品添加剂+合成生物学+发酵", "天然甜味剂+益生菌+扩产", "功能性食品成分+市场"]},
-    {"id": "m1", "board": "Macro",
+    {"id": "m1", "name": "制造业PMI", "board": "Macro",
      "keywords": ["中国制造业PMI+官方+财新", "PMI+制造业景气指数"]},
-    {"id": "m2", "board": "Macro",
+    {"id": "m2", "name": "M2/社融/CPI/PPI", "board": "Macro",
      "keywords": ["中国M2+社融+货币政策", "CPI+PPI+通胀+价格指数"]},
-    {"id": "m3", "board": "Macro",
+    {"id": "m3", "name": "固定资产投资/工业增加值", "board": "Macro",
      "keywords": ["固定资产投资+工业增加值+统计局", "制造业FAI+规上工业增加值"]},
 ]
 
@@ -162,54 +162,50 @@ def score_track(client, track, news_items):
                 "core_data": "本期无有效新闻数据", "comment": "数据不足，参考上期"}
 
     news_text = "\n".join([f"- {i['title']}" for i in news_items[:10]])
+    track_name = track.get("name", track["id"])
 
-    prompt = f"""你是中国B2B设备行业景气度分析师，对赛道按以下方法打分：
-
-打分方法论：
-- Demand（需求动能，35%）：出货量YoY / 新订单 / 渗透率变化，领先指标为主
-- Capex（投资强度，30%）：招标规模YoY / 融资额 / 固定资产投资
-- Price（价格盈利，20%）：反向指标！价格下跌=低分。集采降价50%→38分
-- Policy（政策情绪，15%）：产业补贴 / 社融 / 监管，政策强催化→80+分
-
-当前赛道：{track['id']}
-
-本期相关新闻：
-{news_text}
-
-只返回以下格式，不要其他文字：
-D|C|P|Pol|核心数据摘要(30字以内)|一句话点评(40字以内)
-
-示例：82|75|58|88|DRAM Q1合约价+90%，设备投资2622亿|全产业链涨价潮确认，国产替代升级为必选项"""
+    prompt = (
+        "你是中国B2B设备行业景气度分析师。\n\n"
+        f"赛道：{track_name}\n\n"
+        "打分维度：\n"
+        "D=需求动能(强劲订单/渗透率提升=80+，疲软=40-)\n"
+        "C=投资强度(大额招标/融资=80+，FAI收缩=40-)\n"
+        "P=价格盈利(反向！涨价=高分，集采降价50%=38分)\n"
+        "Pol=政策情绪(强补贴=85+，政策空窗=45-)\n\n"
+        f"新闻：\n{news_text}\n\n"
+        "分析完后，在最后一行输出JSON（不加代码块）：\n"
+        '{"D":整数,"C":整数,"P":整数,"Pol":整数,"s":"摘要30字","c":"点评40字"}'
+    )
 
     try:
         msg = client.messages.create(
-            model="MiniMax-M2.5-highspeed",  # 速度快，适合批量打分
-            max_tokens=200,
+            model="MiniMax-M2.5-highspeed",
+            max_tokens=600,
             messages=[{"role": "user", "content": prompt}],
         )
-        # MiniMax 可能返回 ThinkingBlock，需要兼容
         raw = ""
         for b in msg.content:
             text = getattr(b, "text", None) or getattr(b, "thinking", None) or ""
             if text:
                 raw = text.strip()
                 break
-        if not raw:
-            print(f"  [DEBUG] MiniMax 返回空，完整content: {msg.content}")
-        else:
-            print(f"  [DEBUG] MiniMax 原始返回: {raw[:80]}")
-        parts = raw.split("|")
-        if len(parts) >= 4:
-            return {
-                "D":         min(100, max(0, int(float(parts[0].strip())))),
-                "C":         min(100, max(0, int(float(parts[1].strip())))),
-                "P":         min(100, max(0, int(float(parts[2].strip())))),
-                "Pol":       min(100, max(0, int(float(parts[3].strip())))),
-                "core_data": parts[4].strip() if len(parts) > 4 else "",
-                "comment":   parts[5].strip() if len(parts) > 5 else "",
+
+        print(f"  [DEBUG] 返回尾部: {raw[-80:]}")
+
+        matches = re.findall(r'\{"D"\s*:\s*\d+[^{}]*\}', raw)
+        if matches:
+            parsed = json.loads(matches[-1])
+            result = {
+                "D":         min(100, max(0, int(parsed.get("D", 50)))),
+                "C":         min(100, max(0, int(parsed.get("C", 50)))),
+                "P":         min(100, max(0, int(parsed.get("P", 50)))),
+                "Pol":       min(100, max(0, int(parsed.get("Pol", 50)))),
+                "core_data": parsed.get("s", ""),
+                "comment":   parsed.get("c", ""),
             }
+            return result
         else:
-            print(f"  [WARN] 解析失败，原始内容: {raw}")
+            print(f"  [WARN] 未找到JSON: {raw[:100]}")
     except Exception as e:
         print(f"  [WARN] 打分失败 {track['id']}: {e}")
 
