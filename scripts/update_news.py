@@ -635,7 +635,8 @@ if __name__ == "__main__":
             }
             # 加入文字字段（如果有）
             if r["scores"].get("core_data"):
-                entry["core_data"] = r["scores"]["core_data"]
+                # data 字段是数组格式
+                entry["data"] = [r["scores"]["core_data"]]
             if r["scores"].get("comment"):
                 entry["tw"] = r["scores"]["comment"]
             if r["scores"].get("act"):
