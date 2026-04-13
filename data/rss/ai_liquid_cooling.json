@@ -3,9 +3,39 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-04-13T06:38:50.508620+00:00",
+  "updated_at": "2026-04-13T07:02:10.506483+00:00",
   "item_count": 15,
   "items": [
+    {
+      "id": "a0ef7f221a",
+      "title": "IT manager approved downtime over lunch, but made a meal of it",
+      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/13/who_me/",
+      "summary": "Optimism is always risky, and defective hardware makes it indigestible Who, Me?  The best part of the working day is lunchtime, but The Register tries to start Mondays in a pleasant fashion by bringing you a new installment of \"Who, Me?\" – the reader-contributed column in which you admit to your mis…",
+      "source": "The Register - Data Center",
+      "lang": "en",
+      "pub_date": "2026-04-13T07:00:06+00:00",
+      "pub_ts": 1776063606
+    },
+    {
+      "id": "f46da7a627",
+      "title": "包容 探索 求真 守正｜2026光幕计划终审阵容与年度面孔公布",
+      "url": "https://36kr.com/p/3764886161048323?f=rss",
+      "summary": "&nbsp;\n  当短剧成为当下备受关注的叙事形态，当AI不断拓展表达的边界，表演这门古老的艺术，也站在了新的岔路口。效率与流量构筑了可见的赛道，而真正的叩问始终沉在深处：在技术的“巧”与媒介的“快”之外，那些源于血肉之躯的、笨拙而恳切的“真”，是否依然拥有抵达人心的力量？\n  辨识这份真实，需要深耕岁月、敬畏专业的目光。为此，我们荣幸地邀请到李少红导演担任第十六届北京国际电影节BE SEEN 光幕计划终评审主席，赵小丁、吴刚、俞白眉、魏钦涛担任终审评委。他们以多年的创作生命为标尺，为这份最终的年度面孔入选演员名单注入了厚重的公信力与深远的期待。\n  “表演有无数个高山要翻跃。”终审现场，评委…",
+      "source": "36氪-AI硬件",
+      "lang": "zh",
+      "pub_date": "2026-04-13T06:59:19+00:00",
+      "pub_ts": 1776063559
+    },
+    {
+      "id": "65b86a098a",
+      "title": "这届留学生，用AI看病省出一辆特斯拉",
+      "url": "https://36kr.com/p/3764892434711049?f=rss",
+      "summary": "01. 用AI硬扛20天，省出一辆特斯拉\n  回国做完四颗牙的根管治疗后，英国留学生土土盯着一万多的账单算了算，发现自己回国这一趟，竟然省下了一辆二手“特斯拉”。\n  就在20天前，土土的牙痛又犯了，连吃饭都变成了一种酷刑。他迫切需要找点缓解的办法，但脑海里闪过之前在国外的看牙经历——\n  之前一次，同样是牙疼，土土挂了当地的一家私人医院的牙医号。一套检查下来，医生给出的治疗方案是根管治疗，要先磨牙、清洗，价格1900磅，还要做牙冠，1500磅，再加上4、500磅的手术费，治一颗牙至少要花4000磅，折合人民币近40000块。花了天价不说，效果也一言难尽。治完没多久，土土的牙冠就掉了，技术完全…",
+      "source": "36氪-AI硬件",
+      "lang": "zh",
+      "pub_date": "2026-04-13T06:50:56+00:00",
+      "pub_ts": 1776063056
+    },
     {
       "id": "80ab3e873c",
       "title": "对话雅诗兰黛集团总裁兼CEO司泰峰：让一家“慢”公司变快，这是他的第一年｜New Look专访",
@@ -37,16 +67,6 @@
       "pub_ts": 1776053206
     },
     {
-      "id": "3072f39f92",
-      "title": "估值 2.5 亿，成立 4 个月，潮玩中的爱马仕 「MOMOTOY」获数千万元融资",
-      "url": "https://36kr.com/p/3756978314511110?f=rss",
-      "summary": "资本市场对潮玩的关注一直未曾退却。\n  近日，36氪获悉，AI潮玩品牌「MOMOTOY」已完成数千万元融资，由翼朴基金投资，投后估值2.5亿。\n  成立仅4个月，MOMOTOY以999足金盲盒+AI情感交互为核心特色，走出高奢化与科技化并行的差异化路径。品牌负责人透露，本轮融资资金，会重点投向AI技术迭代、高端产品矩阵落地、全球渠道拓展及核心商圈旗舰店铺设四大核心领域。\n  行业数据显示，2025年中国潮玩市场规模已达879.7亿元，同比增长21%，首次超越传统玩具市场规模，预计2026年将突破1100亿元，年均增速保持在20%以上。\n  在这样一个千亿级赛道持续扩容、资本热度不减的背景下，「…",
-      "source": "36氪-AI硬件",
-      "lang": "zh",
-      "pub_date": "2026-04-13T02:42:29+00:00",
-      "pub_ts": 1776048149
-    },
-    {
       "id": "a43776fa86",
       "title": "China wants AI to prepare school lessons and mark homework",
       "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/13/asia_tech_news_roundup/",
@@ -55,16 +75,6 @@
       "lang": "en",
       "pub_date": "2026-04-13T02:09:07+00:00",
       "pub_ts": 1776046147
-    },
-    {
-      "id": "ad38a0d431",
-      "title": "36氪首发｜港中文博士和前大疆智能制造负责人创业，要做AI时代的“个性化乐高”",
-      "url": "https://36kr.com/p/3763919765226240?f=rss",
-      "summary": "作者&nbsp;|&nbsp;张子怡\n  编辑&nbsp;|&nbsp;袁斯来\n  36氪获悉，个性化制造品牌UNICUS（原方仔照相馆，深圳千帜科技有限公司）于近日完成新一轮融资。融资金额达数百万美金。本轮由线性资本领投，九坤创投、天际资本跟投，元一资本担任独家财务顾问。公司创始团队及Maker赛道头部公司创始人以个人身份参与跟投。\n  本轮资金将主要用于积木生成大模型训练、AI Agent的研发以及海外市场的拓展，持续构建“AI驱动的个性化制造”核心能力体系。\n  过去两年，生成式AI的爆发大多集中在数字世界，而UNICUS选择让AI走进物理工厂。基于自研的全自动化设计及生产系统，UNIC…",
-      "source": "36氪-AI硬件",
-      "lang": "zh",
-      "pub_date": "2026-04-13T01:00:26+00:00",
-      "pub_ts": 1776042026
     },
     {
       "id": "f2b7710a5b",
@@ -145,16 +155,6 @@
       "lang": "en",
       "pub_date": "2026-04-10T15:44:59+00:00",
       "pub_ts": 1775835899
-    },
-    {
-      "id": "0c370c5020",
-      "title": "Amazon would rather shareholders did not look too closely at carbon footprint",
-      "url": "https://go.theregister.com/feed/www.theregister.com/2026/04/10/amazon_climate_goals/",
-      "summary": "Investors urged to reject proposal for more disclosure on whether AWS expansion risks climate goals Amazon's board of directors is urging shareholders to reject a proposal that would have the megacorp disclose more information on the impact of datacenters on its climate commitments.…",
-      "source": "The Register - Data Center",
-      "lang": "en",
-      "pub_date": "2026-04-10T12:33:30+00:00",
-      "pub_ts": 1775824410
     }
   ]
 }
