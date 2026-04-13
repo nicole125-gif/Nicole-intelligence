@@ -1,9 +1,9 @@
-name: Weekly News Update
+name: Monthly Intelligence Update
 
 on:
   schedule:
-    - cron: '0 1 * * 1'  # 每周一 UTC 01:00（北京时间早上9点）
-  workflow_dispatch:      # 允许手动触发（方便测试）
+    - cron: '0 2 1 * *'   # 每月1日 UTC 02:00（北京时间早上10点）
+  workflow_dispatch:        # 允许手动触发
 
 jobs:
   update:
@@ -21,19 +21,17 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests anthropic feedparser beautifulsoup4
+        run: pip install anthropic
 
       - name: Run update script
         env:
-          MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/update_news.py
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add pharma.html data.js data/history.json index.html
-          git diff --staged --quiet || git commit -m "chore: auto update pharma news $(date +'%Y-%m-%d')"
+          git add index.html pharma.html data/history.json
+          git diff --staged --quiet || git commit -m "chore: auto update PULSE $(date +'%Y-%m')"
           git push
