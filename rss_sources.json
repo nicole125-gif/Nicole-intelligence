@@ -51,46 +51,40 @@
       "color": "#ff6b9d",
       "sources": [
         {
-          "name": "芯东西",
-          "url": "https://xingdongxi.com/feed",
-          "lang": "zh",
-          "priority": 1
-        },
-        {
           "name": "半导体行业观察",
-          "url": "https://www.semiinsights.com/feed",
+          "url": "https://decemberpei.cyou/rssbox/wechat-bandaotihangyeguancha.xml",
           "lang": "zh",
           "priority": 1
         },
         {
-          "name": "电子工程专辑",
-          "url": "https://www.eet-china.com/rss/news.xml",
+          "name": "36氪-半导体",
+          "url": "https://rsshub.app/36kr/search/items/半导体",
           "lang": "zh",
           "priority": 1
         },
         {
-          "name": "EE Times",
-          "url": "https://www.eetimes.com/feed/",
-          "lang": "en",
+          "name": "第一财经-科技",
+          "url": "https://rsshub.app/yicai/article/2",
+          "lang": "zh",
           "priority": 2
+        },
+        {
+          "name": "SEMI大半导体产业网",
+          "url": "https://www.semi.org.cn/rss.xml",
+          "lang": "zh",
+          "priority": 1
+        },
+        {
+          "name": "半导体产业纵横",
+          "url": "https://decemberpei.cyou/rssbox/wechat-bandaotichanyezongheng.xml",
+          "lang": "zh",
+          "priority": 1
         },
         {
           "name": "Semiconductor Engineering",
           "url": "https://semiengineering.com/feed/",
           "lang": "en",
-          "priority": 2
-        },
-        {
-          "name": "DIGITIMES半导体",
-          "url": "https://www.digitimes.com/rss/semiconductor.xml",
-          "lang": "en",
-          "priority": 2
-        },
-        {
-          "name": "集微网",
-          "url": "https://www.laoyaoba.com/feed",
-          "lang": "zh",
-          "priority": 1
+          "priority": 3
         }
       ]
     },
