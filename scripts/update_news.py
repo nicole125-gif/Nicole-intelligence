@@ -206,20 +206,21 @@ def fetch_news_for_track(track, days=30):
             params = urllib.parse.urlencode({
                 "q": kw,
                 "count": 8,
-                "search_lang": "zh",
-                "country": "CN",
-                "freshness": "pm",
             })
             req = urllib.request.Request(
                 f"https://api.search.brave.com/res/v1/news/search?{params}",
                 headers={
                     "Accept": "application/json",
-                    "Accept-Encoding": "gzip",
                     "X-Subscription-Token": api_key,
                 }
             )
             with urllib.request.urlopen(req, timeout=15) as resp:
-                data = _json.loads(resp.read())
+                raw = resp.read()
+                # 处理 gzip 压缩响应
+                if resp.info().get("Content-Encoding") == "gzip":
+                    import gzip as _gz
+                    raw = _gz.decompress(raw)
+                data = _json.loads(raw)
             results = data.get("results", [])
             for r in results:
                 items.append({
@@ -420,9 +421,12 @@ def fetch_pharma_news(days=30):
     items = []
     api_key = os.environ.get("BRAVE_API_KEY", "")
     keywords = [
-        "制药装备 楚天科技", "制药装备 东富龙",
-        "制药设备 国产替代", "制药装备 招标",
-        "生物制药设备 新建", "CDMO 制药装备",
+        "pharmaceutical equipment China Chinasun",
+        "pharma machinery China Truking",
+        "pharmaceutical equipment domestic substitution China",
+        "biopharmaceutical equipment tender China",
+        "CDMO equipment China manufacturing",
+        "GMP pharmaceutical production line China",
     ]
     for kw in keywords:
         try:
@@ -437,12 +441,16 @@ def fetch_pharma_news(days=30):
                 f"https://api.search.brave.com/res/v1/news/search?{params}",
                 headers={
                     "Accept": "application/json",
-                    "Accept-Encoding": "gzip",
                     "X-Subscription-Token": api_key,
                 }
             )
             with urllib.request.urlopen(req, timeout=15) as resp:
-                data = _json.loads(resp.read())
+                raw = resp.read()
+                # 处理 gzip 压缩响应
+                if resp.info().get("Content-Encoding") == "gzip":
+                    import gzip as _gz
+                    raw = _gz.decompress(raw)
+                data = _json.loads(raw)
             for r in data.get("results", []):
                 items.append({
                     "title":   r.get("title", "").strip(),
