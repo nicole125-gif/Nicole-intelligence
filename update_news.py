@@ -12,7 +12,6 @@ import os
 import re
 import json
 import datetime
-import feedparser
 import anthropic
 
 # ══════════════════════════════════════════════════════════════
