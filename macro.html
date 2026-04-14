@@ -380,8 +380,45 @@ body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([oncli
     </div>
   </header>
 
+  <!-- MACRO HEAT SCORE BANNER -->
+  <div style="margin-bottom:24px;padding:20px 24px;background:rgba(5,9,22,.88);border:1px solid rgba(245,166,35,.22);border-radius:8px;display:flex;align-items:center;gap:24px;flex-wrap:wrap">
+    <div style="display:flex;align-items:center;gap:14px">
+      <div style="font-family:'Courier New',monospace;font-size:9px;color:rgba(245,166,35,.6);letter-spacing:.2em">MACRO HEAT SCORE</div>
+      <div style="font-size:36px;font-weight:900;letter-spacing:-.04em;color:#f5a623;text-shadow:0 0 24px rgba(245,166,35,.5)">72</div>
+      <div style="font-size:22px;color:#2ecc80">↑</div>
+    </div>
+    <div style="height:36px;width:1px;background:rgba(255,255,255,.1)"></div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap">
+      <span style="font-size:11px;color:rgba(255,255,255,.5);padding:3px 10px;background:rgba(255,255,255,.05);border-radius:4px">
+        <span style="color:#00FFB2">📊</span> PMI: 50.5
+      </span>
+      <span style="font-size:11px;color:rgba(255,255,255,.5);padding:3px 10px;background:rgba(255,255,255,.05);border-radius:4px">
+        <span style="color:#00C8FF">📦</span> 工增: +6.3%
+      </span>
+      <span style="font-size:11px;color:rgba(255,255,255,.5);padding:3px 10px;background:rgba(255,255,255,.05);border-radius:4px">
+        <span style="color:#FFD700">🏭</span> 固投: +11.4%
+      </span>
+    </div>
+    <div style="margin-left:auto;font-family:'Courier New',monospace;font-size:9px;color:rgba(255,255,255,.2);letter-spacing:.1em" id="macro-updated"></div>
+  </div>
+
   <!-- METRICS GRID -->
   <div class="metrics-grid" id="metrics-grid"></div>
+
+  <!-- REAL-TIME MACRO NEWS -->
+  <div style="margin-top:24px">
+    <div style="display:flex;align-items:center;gap:16px;margin-bottom:16px">
+      <div style="width:3px;height:36px;background:linear-gradient(180deg,#f5a623,rgba(245,166,35,.15))"></div>
+      <div>
+        <h2 style="margin:0 0 3px;font-size:18px;font-weight:800;color:#fff;letter-spacing:-.01em">📰 最新宏观信号 <span style="color:rgba(255,255,255,.2);font-weight:200;margin-left:10px;font-size:.55em;letter-spacing:.1em">REAL-TIME MACRO SIGNALS · FROM BRAVE SEARCH</span></h2>
+        <p style="margin:0;font-family:'Courier New',monospace;font-size:9px;color:rgba(255,255,255,.25);letter-spacing:.15em">Brave Search · 实时追踪 · 数据每24小时更新</p>
+      </div>
+    </div>
+    <div id="macro-news-list" style="display:flex;flex-direction:column;gap:2px"></div>
+    <div id="macro-news-loading" style="padding:24px;text-align:center;color:rgba(255,255,255,.3);font-family:'Courier New',monospace;font-size:11px;letter-spacing:.1em">
+      正在加载实时数据...
+    </div>
+  </div>
 
   <!-- SUMMARY STRIP -->
   <div style="margin-top:24px;position:relative;overflow:hidden">
@@ -846,37 +883,50 @@ renderSBUDetails();
   }
 
   function render(data) {
-    var updated = document.getElementById("rss-news-updated");
-    var grid    = document.getElementById("rss-news-grid");
-    if (!grid) return;
+    var list = document.getElementById("macro-news-list");
+    var loading = document.getElementById("macro-news-loading");
+    var updatedEl = document.getElementById("macro-updated");
+    
+    if (loading) loading.style.display = "none";
+    if (!list) return;
 
-    var items = data.items.filter(function(i){ return i.lang === "zh"; });
+    var items = data.items.slice(0, 10); // Show first 10
     var dt = new Date(data.updated_at);
-    if (updated) updated.textContent = "数据更新：" + dt.getFullYear() + "年" +
-      (dt.getMonth()+1).toString().padStart(2,"0") + "月" +
-      dt.getDate().toString().padStart(2,"0") + "日";
+    if (updatedEl) updatedEl.textContent = "更新：" + dt.getFullYear() + "-" +
+      (dt.getMonth()+1).toString().padStart(2,"0") + "-" +
+      dt.getDate().toString().padStart(2,"0");
 
     if (!items.length) {
-      grid.innerHTML = '<div class="rss-news-empty">暂无近期动态</div>';
+      list.innerHTML = '<div style="padding:24px;text-align:center;color:rgba(255,255,255,.3);font-size:12px">暂无近期动态</div>';
       return;
     }
-    grid.innerHTML = items.map(function(item) {
-      return '<div class="rss-news-item">' +
-        '<div class="rss-news-meta"><span class="rss-news-source">' + item.source + '</span>' +
-        '<span style="font-size:10px;color:#666;margin-left:auto">' + ago(item.pub_date) + '</span></div>' +
-        '<div class="rss-news-title"><a href="' + item.url + '" target="_blank" rel="noopener">' + item.title + '</a></div>' +
-        (item.summary ? '<div class="rss-news-summary">' + item.summary + '</div>' : '') +
+    
+    list.innerHTML = items.map(function(item) {
+      return '<div style="padding:16px 20px;background:rgba(5,9,22,.7);border:1px solid rgba(245,166,35,.15);transition:all .2s;cursor:pointer" ' +
+        'onmouseenter="this.style.background=\'rgba(245,166,35,.08)\';this.style.borderColor=\'rgba(245,166,35,.3)\'" ' +
+        'onmouseleave="this.style.background=\'rgba(5,9,22,.7)\';this.style.borderColor=\'rgba(245,166,35,.15)\'">' +
+        '<div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">' +
+        '<span style="font-family:\'Courier New\',monospace;font-size:9px;color:#f5a623;background:rgba(245,166,35,.12);padding:2px 8px;border-radius:3px;letter-spacing:.08em">' + item.source + '</span>' +
+        '<span style="font-size:10px;color:rgba(255,255,255,.3);margin-left:auto">' + ago(item.pub_date) + '</span>' +
+        '</div>' +
+        '<div style="font-size:13px;font-weight:600;color:#fff;margin-bottom:6px;line-height:1.5">' +
+        '<a href="' + item.url + '" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">' + item.title + '</a>' +
+        '</div>' +
+        (item.summary ? '<div style="font-size:11px;color:rgba(255,255,255,.5);line-height:1.6">' + item.summary.substring(0, 120) + '...</div>' : '') +
         '</div>';
     }).join('');
   }
 
   function load() {
-    var grid = document.getElementById("rss-news-grid");
-    if (!grid) return;
+    var list = document.getElementById("macro-news-list");
+    if (!list) return;
     fetch(BASE + "/" + VID + ".json?t=" + Date.now())
       .then(function(r){ return r.json(); })
       .then(render)
-      .catch(function(){ if(grid) grid.innerHTML = '<div class="rss-news-empty">⚠ 动态加载失败</div>'; });
+      .catch(function(){ 
+        var loading = document.getElementById("macro-news-loading");
+        if(loading) loading.innerHTML = '<span style="color:#f04040">⚠ 动态加载失败</span>';
+      });
   }
 
   if (document.readyState === "loading") {
