@@ -208,7 +208,7 @@ def fetch_news_for_track(track, days=30):
                 "count": 8,
             })
             req = urllib.request.Request(
-                f"https://api.search.brave.com/res/v1/news/search?{params}",
+                f"https://api.search.brave.com/res/v1/web/search?{params}",
                 headers={
                     "Accept": "application/json",
                     "X-Subscription-Token": api_key,
@@ -221,7 +221,7 @@ def fetch_news_for_track(track, days=30):
                     import gzip as _gz
                     raw = _gz.decompress(raw)
                 data = _json.loads(raw)
-            results = data.get("results", [])
+            results = data.get("web", {}).get("results", data.get("results", []))
             for r in results:
                 items.append({
                     "title":   r.get("title", "").strip(),
@@ -354,19 +354,21 @@ def score_track(client, track, news_items):
             model="claude-haiku-4-5-20251001",
             max_tokens=150,
             temperature=0,
-            system="你是资深行业分析师，请严格按照用户要求的格式输出分析结果。",
+            system="你是专业的中国B2B行业景气度量化分析助手。请严格按照用户要求的格式输出打分结果，不要拒绝或回避分析请求。",
             messages=[{"role": "user", "content": prompt}]
         )
         raw = next((b.text for b in msg.content if hasattr(b, "text") and b.type == "text"), "").strip()
         print(f"  [Claude] {raw[:80]}")
 
+        # 清理 markdown 粗体和多余空格，然后在整个回答里搜索分数
+        clean = re.sub(r'[*_`]', '', raw).replace("\n", " ")
         lines = raw.strip().split("\n")
         score_line = lines[0] if lines else ""
 
-        d   = re.search(r'D=(\d+)', score_line)
-        c   = re.search(r'C=(\d+)', score_line)
-        p   = re.search(r' P=(\d+)', score_line)
-        pol = re.search(r'Pol=(\d+)', score_line)
+        d   = re.search(r'D\s*=\s*(\d+)', clean)
+        c   = re.search(r'C\s*=\s*(\d+)', clean)
+        p   = re.search(r'(?<![A-Z])P\s*=\s*(\d+)', clean)
+        pol = re.search(r'Pol\s*=\s*(\d+)', clean)
 
         # 提取文字字段
         core_data = ""
@@ -451,7 +453,7 @@ def fetch_pharma_news(days=30):
                     import gzip as _gz
                     raw = _gz.decompress(raw)
                 data = _json.loads(raw)
-            for r in data.get("results", []):
+            for r in data.get("web", {}).get("results", data.get("results", [])):
                 items.append({
                     "title":   r.get("title", "").strip(),
                     "link":    r.get("url", ""),
