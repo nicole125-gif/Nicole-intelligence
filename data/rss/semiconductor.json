@@ -3,158 +3,208 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-04-14T03:24:37.713353+00:00",
-  "item_count": 15,
+  "updated_at": "2026-04-14T13:47:04.643452+00:00",
+  "item_count": 20,
   "items": [
     {
-      "id": "9c094ca851",
-      "title": "供应告急！PCB产业链正在经历什么?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810081&idx=1&sn=51b62e710cd1004e556909d2c4fd8eec",
-      "summary": "供应告急！PCB产业链正在经历什么?",
-      "source": "半导体产业纵横",
-      "lang": "zh",
-      "pub_date": "2026-04-14T03:24:33.597088+00:00",
-      "pub_ts": 1776137073
-    },
-    {
-      "id": "4f527778c9",
-      "title": "存储长约潮蔓延，铠侠正洽谈三年长期供货协议",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810081&idx=2&sn=c8924512449e5d8a842df695ba224a94",
-      "summary": "存储长约潮蔓延，铠侠正洽谈三年长期供货协议",
-      "source": "半导体产业纵横",
-      "lang": "zh",
-      "pub_date": "2026-04-14T03:24:33.597127+00:00",
-      "pub_ts": 1776137073
-    },
-    {
-      "id": "a43f5e5a62",
-      "title": "10×10nm！全球最小的商用传感器",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810081&idx=3&sn=12ed56ead53e91f0399b212043fb43e6",
-      "summary": "10×10nm！全球最小的商用传感器",
-      "source": "半导体产业纵横",
-      "lang": "zh",
-      "pub_date": "2026-04-14T03:24:33.597147+00:00",
-      "pub_ts": 1776137073
-    },
-    {
-      "id": "a54b9cded8",
-      "title": "3DIC和Chiplet技术正成为竞争焦点",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810081&idx=4&sn=3d588a1f5af96c87cce05aee77b51a23",
-      "summary": "3DIC和Chiplet技术正成为竞争焦点",
-      "source": "半导体产业纵横",
-      "lang": "zh",
-      "pub_date": "2026-04-14T03:24:33.597165+00:00",
-      "pub_ts": 1776137073
-    },
-    {
-      "id": "81bd2e8a52",
-      "title": "台积电先进封装，全面提速",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810081&idx=5&sn=785b6f6af0f5eb74dc2ec8c167b2863e",
-      "summary": "台积电先进封装，全面提速",
-      "source": "半导体产业纵横",
-      "lang": "zh",
-      "pub_date": "2026-04-14T03:24:33.597180+00:00",
-      "pub_ts": 1776137073
-    },
-    {
-      "id": "12bf4a8c0a",
-      "title": "华为重申：不造车",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247815877&idx=1&sn=ac4d341e80e00dbb62f7efe631fee66f",
-      "summary": "华为重申：不造车",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-04-14T03:24:21.777606+00:00",
-      "pub_ts": 1776137061
-    },
-    {
-      "id": "5c25831150",
-      "title": "被看好的3D DRAM",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247815870&idx=1&sn=e473d5ae1536c8d1498e55413f9244b9",
-      "summary": "被看好的3D DRAM",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-04-14T03:24:21.777654+00:00",
-      "pub_ts": 1776137061
-    },
-    {
-      "id": "d1500ff415",
-      "title": "先进封装，疯狂扩产",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247815870&idx=2&sn=80fe255c0275743d51e75f03abcfa7a8",
-      "summary": "先进封装，疯狂扩产",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-04-14T03:24:21.777673+00:00",
-      "pub_ts": 1776137061
-    },
-    {
-      "id": "2136d8b471",
-      "title": "应用牵引，全链协同|Chiplet与先进封装产业协同论坛圆满举行",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247815870&idx=3&sn=05eff9c18e8c8a871a6f5ca1a7819f45",
-      "summary": "应用牵引，全链协同|Chiplet与先进封装产业协同论坛圆满举行",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-04-14T03:24:21.777690+00:00",
-      "pub_ts": 1776137061
-    },
-    {
-      "id": "ae49fa21fd",
-      "title": "这项技术，或颠覆芯片测试",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247815870&idx=4&sn=401676f0097eb0928f7ea0d1c2d5e868",
-      "summary": "这项技术，或颠覆芯片测试",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-04-14T03:24:21.777706+00:00",
-      "pub_ts": 1776137061
-    },
-    {
-      "id": "f5df53dee1",
-      "title": "EDA And IP Numbers Up Again, But Numbers Are More Nuanced",
-      "url": "https://semiengineering.com/eda-and-ip-numbers-up-again-but-numbers-are-more-nuanced/",
-      "summary": "Q4 numbers reflect strengths and weaknesses in different segments.\nThe post EDA And IP Numbers Up Again, But Numbers Are More Nuanced appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
+      "id": "2f82c8a1d4",
+      "title": "Breakthrough computer-chip tech could help meet ‘monumental demand’ driven by AI",
+      "url": "https://www.nature.com/articles/d41586-026-01050-5",
+      "summary": "Those are thought to be the smallest ever made in a single step by a commericial chip-patterning system. According to the system’s manufacturer, it could be used to make computer chips patterned with 2.9 times more transistors than chips produced with the previous generation of the light sources use",
+      "source": "nature.com",
       "lang": "en",
-      "pub_date": "2026-04-13T14:00:04+00:00",
-      "pub_ts": 1776088804
+      "pub_date": "2026-04-14T13:47:03.778992+00:00",
+      "pub_ts": 1776174423
     },
     {
-      "id": "e38f47f7bc",
-      "title": "Startup Funding: Q1 2026",
-      "url": "https://semiengineering.com/startup-funding-q1-2026/",
-      "summary": "Massive rounds for AI, EDA, and manufacturing; 80 startups raise $8.4B.\nThe post Startup Funding: Q1 2026 appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
+      "id": "c5f18f85cb",
+      "title": "NIST Researchers Develop Photonic Chip Packaging That Can Withstand Extreme Environments | NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/03/nist-researchers-develop-photonic-chip-packaging-can-withstand-extreme",
+      "summary": "The advance could allow photonic chip-based technologies to operate in deep-space probes, inside nuclear reactors, in ultrahigh vacuum systems, and at temperatures both near absolute zero and in scorchingly hot industrial settings. Although the new process now requires several days to complete, engi",
+      "source": "nist.gov",
       "lang": "en",
-      "pub_date": "2026-04-13T07:01:58+00:00",
-      "pub_ts": 1776063718
+      "pub_date": "2026-04-14T13:47:03.779341+00:00",
+      "pub_ts": 1776174423
     },
     {
-      "id": "1ce9d94093",
-      "title": "Why Hardware Monitoring Needs Infrastructure, Not Just Sensors",
-      "url": "https://semiengineering.com/why-hardware-monitoring-needs-infrastructure-not-just-sensors/",
-      "summary": "Embedded intelligence enables a system to respond to critical events before they cause failures in runtime applications. \nThe post Why Hardware Monitoring Needs Infrastructure, Not Just Sensors appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
+      "id": "33087ac132",
+      "title": "Intel Stock Analysis 2026: INTC Investment Outlook & ...",
+      "url": "https://intellectia.ai/blog/intel-stock-analysis-2026-intc-investment-outlook",
+      "summary": "This advanced node incorporates breakthrough innovations including <strong>RibbonFET transistor architecture and PowerVia backside power delivery</strong>, technologies that promise significant improvements in power efficiency and performance density compared to previous generations.",
+      "source": "intellectia.ai",
       "lang": "en",
-      "pub_date": "2026-04-13T07:01:56+00:00",
-      "pub_ts": 1776063716
+      "pub_date": "2026-04-14T13:47:03.779461+00:00",
+      "pub_ts": 1776174423
     },
     {
-      "id": "136f7ea8c7",
-      "title": "GPU Rowhammer Attacks Beyond Data Corruption (U. of Toronto)",
-      "url": "https://semiengineering.com/gpu-rowhammer-attacks-beyond-data-corruption-u-of-toronto/",
-      "summary": "A new technical paper, &#8220;GPUBreach: Privilege Escalation Attacks via GPU Rowhammer,&#8221; was published by researchers at University of Toronto. Summary &#8220;GPUBreach shows that GPU Rowhammer attacks can move beyond data corruption to real privilege escalation. By corrupting GPU page tables…",
-      "source": "Semiconductor Engineering",
+      "id": "896d508de5",
+      "title": "Musk’s Mega Plan for Chip Manufacturing | Bloomberg Tech 3/23/2026 - YouTube",
+      "url": "https://www.youtube.com/watch?v=GW2gao4ushE",
+      "summary": "Bloomberg’s Caroline Hyde and Ed Ludlow discuss whiplash in the markets as President Trump outlines talks to potentially end the war in Iran. Plus, Elon Musk...",
+      "source": "youtube.com",
       "lang": "en",
-      "pub_date": "2026-04-13T07:01:27+00:00",
-      "pub_ts": 1776063687
+      "pub_date": "2026-04-14T13:47:03.779569+00:00",
+      "pub_ts": 1776174423
     },
     {
-      "id": "86c1b33abf",
-      "title": "Silent Data Corruption:  A Major Reliability Challenge in Large-Scale LLM Training (TU Berlin)",
-      "url": "https://semiengineering.com/silent-data-corruption-a-major-reliability-challenge-in-large-scale-llm-training-tu-berlin/",
-      "summary": "A new technical paper, &#8220;Exploring Silent Data Corruption as a Reliability Challenge in LLM Training,&#8221; was published by researchers at Technische Universitat Berlin. Abstract &#8220;As Large Language Models (LLMs) scale in size and complexity, the consequences of failures during training …",
-      "source": "Semiconductor Engineering",
+      "id": "d488bd084c",
+      "title": "Key Trends Shaping the Semiconductor Industry in 2026 - Edge AI and Vision Alliance",
+      "url": "https://www.edge-ai-vision.com/2026/04/key-trends-shaping-the-semiconductor-industry-in-2026/",
+      "summary": "What replaces the pyramid is a more balanced structure: hardware consolidated around a smaller number of dominant software ecosystems, connected to a validated layer of end-use applications across manufacturing, physical AI, and healthcare. The organizations crossing the chasm in 2026 will be those",
+      "source": "edge-ai-vision.com",
       "lang": "en",
-      "pub_date": "2026-04-12T19:19:40+00:00",
-      "pub_ts": 1776021580
+      "pub_date": "2026-04-14T13:47:03.779673+00:00",
+      "pub_ts": 1776174423
+    },
+    {
+      "id": "395eb42483",
+      "title": "Japan going back to the future by reviving its chip industry • The Register",
+      "url": "https://www.theregister.com/2026/04/14/japan_semiconductor_industry_comeback_rapidus",
+      "summary": "This makes <strong>smaller, more loss-tolerant chips, like those used in high-end smartphones, more economical than reticle-sized datacenter chips</strong>. Rapidus hopes to capitalize on this by making its 2nm manufacturing capacity available in much lower ...",
+      "source": "theregister.com",
+      "lang": "en",
+      "pub_date": "2026-04-14T13:47:03.779774+00:00",
+      "pub_ts": 1776174423
+    },
+    {
+      "id": "10d2398950",
+      "title": "Lace Lithography Raises €34.5M for Atom Chip Technology",
+      "url": "https://inforcapital.com/news/norways-lace-lithography-lands-345-million-to-extend-moores-law-by-replacing-light-with-atoms/",
+      "summary": "Startup Fundraising•Mar 25, 2026 · <strong>Lace Lithography secures €34.5M Series A led by Atomico to advance atom-based chip manufacturing</strong>, promising finer resolutions and extended Moore&#x27;s Law. Share: AM · Alvaro de la Maza · Partner at Aninver · Published · Mar 25, 2026 ·",
+      "source": "inforcapital.com",
+      "lang": "en",
+      "pub_date": "2026-04-14T13:47:03.779873+00:00",
+      "pub_ts": 1776174423
+    },
+    {
+      "id": "61d9dea3e8",
+      "title": "Intel Terafab Chips Project: 7 Critical Facts About Intel Joining Musk's Texas Fab Plan - Progressive Robot",
+      "url": "https://www.progressiverobot.com/2026/04/13/intel-terafab-chips-project/",
+      "summary": "That makes the <strong>Intel Terafab chips</strong> project more than another Musk announcement. It changes the story from a two-company ambition led by Tesla and SpaceX into a potential foundry and industrial-capacity story with Intel at the center of actual ...",
+      "source": "progressiverobot.com",
+      "lang": "en",
+      "pub_date": "2026-04-14T13:47:03.779973+00:00",
+      "pub_ts": 1776174423
+    },
+    {
+      "id": "30e14994ff",
+      "title": "Navigating the Microchip Revolution: Major Innovations and Critical Implications – Frank's World of Data Science & AI",
+      "url": "https://www.franksworld.com/2026/03/30/navigating-the-microchip-revolution-major-innovations-and-critical-implications/",
+      "summary": "The Arizona desert, a place traditionally seen as inhospitable, is now playing host to one of the most ambitious projects in chip manufacturing history. We’re talking about Intel’s <strong>Fab 52,</strong> a formidable facility aiming to challenge industry ...",
+      "source": "franksworld.com",
+      "lang": "en",
+      "pub_date": "2026-04-14T13:47:03.780068+00:00",
+      "pub_ts": 1776174423
+    },
+    {
+      "id": "e95a419aac",
+      "title": "Musk Finds a Partner in Intel for Dream of Terafab Chip Plant - Bloomberg",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-04-13/musk-finds-a-partner-in-intel-for-dream-of-terafab-chip-plant",
+      "summary": "The Tesla CEO is compiling a team for his planned Terafab chip manufacturing operation",
+      "source": "bloomberg.com",
+      "lang": "en",
+      "pub_date": "2026-04-14T13:47:03.780164+00:00",
+      "pub_ts": 1776174423
+    },
+    {
+      "id": "b2d5a90ff8",
+      "title": "Wafer Fab Equipment Market 2026 Semiconductor Manufacturing Expansion",
+      "url": "https://www.einpresswire.com/article_pdf/899766440/wafer-fab-equipment-market-2026-semiconductor-manufacturing-expansion-driving-investment",
+      "summary": "manufacturing, <strong>rapid expansion of foundry and memory fabrication capacities</strong>, strong presence · of leading semiconductor manufacturers and equipment suppliers, increasing adoption of · advanced process technologies such as EUV lithography and 3D packaging, and growing · Wafer Fab Equ",
+      "source": "einpresswire.com",
+      "lang": "en",
+      "pub_date": "2026-04-14T13:46:58.879251+00:00",
+      "pub_ts": 1776174418
+    },
+    {
+      "id": "d864c5da6c",
+      "title": "List of semiconductor fabrication plants - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_semiconductor_fabrication_plants",
+      "summary": "Utilization – the number of wafers that a manufacturing plant processes in relation to its production capacity. Technology/products – Type of product that the facility is capable of producing, as not all plants can produce all products on the market. Operating fabs include foundries from TSMC, Globa",
+      "source": "en.wikipedia.org",
+      "lang": "en",
+      "pub_date": "2026-04-14T13:46:58.879526+00:00",
+      "pub_ts": 1776174418
+    },
+    {
+      "id": "ff0025c58b",
+      "title": "Micron's $24 billion Singapore fab could need 500 transformers, more than double the output of any single manufacturer — heavy electrical infrastructure the latest AI buildout bottleneck | Tom's Hardware",
+      "url": "https://www.tomshardware.com/pc-components/dram/microns-24-billion-singapore-fab-could-need-500-transformers",
+      "summary": "<strong>The company has acquired PSMC&#x27;s Miaoli Tongluo fab in Taiwan for $1.8 billion, with that facility slated for 2026</strong>, while new plants in Idaho and New York are underway, and a Hiroshima facility is expected to begin operations in the second half ...",
+      "source": "tomshardware.com",
+      "lang": "en",
+      "pub_date": "2026-04-14T13:46:58.879617+00:00",
+      "pub_ts": 1776174418
+    },
+    {
+      "id": "c467355b83",
+      "title": "[News] China Achieves 14-Inch SiC Breakthrough, Intensifying Global Large-Wafer Competition",
+      "url": "https://www.trendforce.com/news/2026/03/19/news-china-achieves-14-inch-sic-breakthrough-intensifying-global-large-wafer-competition/",
+      "summary": "Wolfspeed: <strong>In January 2026, it announced the manufacture of a 300 mm (12-inch) SiC single-crystal wafer</strong>. Its 300 mm platform is designed to support both power device manufacturing and high-purity semi-insulating substrate development.",
+      "source": "trendforce.com",
+      "lang": "en",
+      "pub_date": "2026-04-14T13:46:58.879695+00:00",
+      "pub_ts": 1776174418
+    },
+    {
+      "id": "e4cf737092",
+      "title": "Yole Group - Follow the latest trend news in the Semiconductor Industry",
+      "url": "https://www.yolegroup.com/product/quarterly-monitor/wafer-fab-equipment-market-monitor/",
+      "summary": "Added analysis of Mainland China WFE supplier CapEx and inventory ... Upwards, slight, revision of 2025 WFE and service and support revenue. Downwards revision of 2026 and 2027 overall WFE revenue. ... Upwards revision of etch and clean segment. We refine interconnect systems subsegments. ... Provid",
+      "source": "yolegroup.com",
+      "lang": "en",
+      "pub_date": "2026-04-14T13:46:58.879769+00:00",
+      "pub_ts": 1776174418
+    },
+    {
+      "id": "3020aa9582",
+      "title": "Semiconductor Manufacturing International Corporation - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Semiconductor_Manufacturing_International_Corporation",
+      "summary": "State-owned civilian and military telecommunications equipment provider Datang Telecom Group as well as the China Integrated Circuit Industry Investment Fund are major shareholders of SMIC. Notable customers include Huawei, Qualcomm, Broadcom, and Texas Instruments. SMIC is a major shareholder and s",
+      "source": "en.wikipedia.org",
+      "lang": "en",
+      "pub_date": "2026-04-14T13:46:58.879842+00:00",
+      "pub_ts": 1776174418
+    },
+    {
+      "id": "2edbfe2775",
+      "title": "Silicon Carbide (SiC) Wafer Market Size | Growth Forecast To 2035",
+      "url": "https://www.marketgrowthreports.com/market-reports/silicon-carbide-sic-wafer-market-122908",
+      "summary": "The Silicon Carbide (SiC) Wafer Market size valued at <strong>USD 1556.84 million</strong> in 2026 and is expected to reach USD 5551.1 million by 2035, growing at a CAGR of 14.8% from 2026 to 2035.",
+      "source": "marketgrowthreports.com",
+      "lang": "en",
+      "pub_date": "2026-04-14T13:46:58.879912+00:00",
+      "pub_ts": 1776174418
+    },
+    {
+      "id": "cf50c804f6",
+      "title": "AI Arms Race Triggers $143 Billion Explosion In Chip Gear Spending - Applied Materials (NASDAQ:AMAT) - Benzinga",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/04/51798066/ai-arms-race-triggers-143-billion-explosion-in-chip-gear-spending",
+      "summary": "Analyst William Li noted, &quot;Given ... partnerships with OSAT vendors. As a result, <strong>industry capacity for advanced packaging could expand by roughly 80% YoY in 2026</strong>.&quot;...",
+      "source": "benzinga.com",
+      "lang": "en",
+      "pub_date": "2026-04-14T13:46:58.879983+00:00",
+      "pub_ts": 1776174418
+    },
+    {
+      "id": "f724bee8b2",
+      "title": "[News] Chinese Semiconductor Equipment Manufacturers Draw in New Investment",
+      "url": "https://www.trendforce.com/news/2026/03/30/news-chinese-semiconductor-equipment-manufacturers-draw-in-new-investment/",
+      "summary": "Since the start of 2026, <strong>sustained demand from AI and high-performance computing (HPC) has kept global semiconductor equipment financing highly active</strong>. In China, under the push for supply chain self-reliance, localization is accelerating across ...",
+      "source": "trendforce.com",
+      "lang": "en",
+      "pub_date": "2026-04-14T13:46:51.889772+00:00",
+      "pub_ts": 1776174411
+    },
+    {
+      "id": "8a3231a813",
+      "title": "Semicon China 2026: AI drives semiconductor market to US$1.8 trillion by 2030, China leads capacity and equipment",
+      "url": "https://www.digitimes.com/news/a20260327PD205/semicon-china-semiconductors-capacity-equipment-china-2030.html",
+      "summary": "SEMI forecasts <strong>18 new semiconductor fabs to be built in 2025</strong> · Global 300mm fab equipment spending to hit US$400 billion from 2025 to 2027, says SEMI ... 2030 capacity China demand equipment growth HBM infrastructure investment market packaging ...",
+      "source": "digitimes.com",
+      "lang": "en",
+      "pub_date": "2026-04-14T13:46:51.890044+00:00",
+      "pub_ts": 1776174411
     }
   ]
 }
