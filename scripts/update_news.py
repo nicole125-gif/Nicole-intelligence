@@ -354,7 +354,7 @@ def score_track(client, track, news_items):
             model="claude-haiku-4-5-20251001",
             max_tokens=150,
             temperature=0,
-            system="你是行业景气度分析机器人，严格按格式输出4行内容，不添加任何额外文字。",
+            system="你是资深行业分析师，请严格按照用户要求的格式输出分析结果。",
             messages=[{"role": "user", "content": prompt}]
         )
         raw = next((b.text for b in msg.content if hasattr(b, "text") and b.type == "text"), "").strip()
@@ -438,7 +438,7 @@ def fetch_pharma_news(days=30):
                 "freshness": "pm",
             })
             req = urllib.request.Request(
-                f"https://api.search.brave.com/res/v1/news/search?{params}",
+                f"https://api.search.brave.com/res/v1/web/search?{params}",
                 headers={
                     "Accept": "application/json",
                     "X-Subscription-Token": api_key,
@@ -487,7 +487,7 @@ def summarize_pharma(client, raw_items):
             temperature=0,
             messages=[{"role": "user", "content": prompt}]
         )
-        raw = msg.content[0].text.strip()
+        raw = next((b.text for b in msg.content if hasattr(b, "text") and b.type == "text"), "").strip()
         if not raw:
             raw = "[]"
         # strip markdown fences
