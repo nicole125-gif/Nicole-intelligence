@@ -10,7 +10,7 @@ from datetime import datetime
 
 SCORED_FILE = Path("data/pharma_scored.json")
 SIGNALS_FILE = Path("data/pharma_signals.json")
-DATA_JS = Path("../data.js")  # 相对路径，指向 PULSE 根目录
+DATA_JS = Path("data.js")  # 相对路径，指向 PULSE 根目录
 
 def load_scored():
     f = SCORED_FILE if SCORED_FILE.exists() else SIGNALS_FILE
