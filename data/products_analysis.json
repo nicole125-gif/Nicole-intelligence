@@ -1,958 +1,639 @@
 {
-  "analyzed_at": "2026-04-16 07:03",
-  "model": "claude-sonnet-4-6",
-  "total": 49,
+  "analyzed_at": "2026-04-16 07:28",
+  "model": "knowledge_base_v2",
+  "data_source": "industry_knowledge + official_catalogs",
+  "total": 134,
   "summary": {
     "Bürkert": {
-      "product_count": 15,
+      "product_count": 55,
       "avg_threat_level": 4.7,
       "top_industries": [
-        "通用工业",
         "食品饮料",
+        "制药",
+        "化工",
+        "生物制品",
         "水处理"
       ],
       "product_type_dist": {
-        "通用阀门": 8,
-        "电动调节阀/过程控制阀": 1,
-        "过程控制阀门系统（电磁阀/调节阀/气动执行器）": 1,
-        "调节阀": 1,
-        "电磁阀": 1,
-        "工业通信/阀岛控制系统": 1,
-        "流体控制系统（隔膜阀/电磁阀/调节阀/球阀全系列）": 1,
-        "过程阀/调节阀/卫生级隔膜阀": 1
+        "电磁阀": 13,
+        "换向阀": 1,
+        "气控阀": 1,
+        "先导阀": 1,
+        "夹管阀": 1,
+        "角座阀": 4,
+        "蝶阀": 1,
+        "隔膜阀": 2,
+        "角座调节阀": 1,
+        "截止调节阀": 1,
+        "球形调节阀": 3,
+        "截止阀": 1,
+        "球阀/蝶阀": 1,
+        "多通道隔膜阀": 1,
+        "微量阀": 1,
+        "流量传感器": 4,
+        "电磁流量计": 1,
+        "流量计": 1,
+        "分析传感器": 4,
+        "压力传感器": 3,
+        "温度传感器": 1,
+        "定位器": 2,
+        "控制器": 2,
+        "控制头": 1,
+        "质量流量控制器": 1,
+        "阀岛/控制系统": 1,
+        "工业通信": 1
       },
       "high_threat_products": [
-        "电磁阀",
-        "过程控制阀",
-        "电动阀",
-        "气动和过程",
-        "传感器，变送器和控制器"
+        "Type 0121 - 两位两通提升衔铁电磁阀",
+        "Type 0124 - 两位两通隔离式电磁阀",
+        "Type 0256 - 两位两通高压电磁阀",
+        "Type 0281 - 两位三通电磁阀",
+        "Type 0290 - 两位两通间接先导电磁阀",
+        "Type 0330 - 两位三通直动电磁阀",
+        "Type 2835 - 提升式卫生电磁阀",
+        "Type 5281 - 两位两通大口径电磁阀"
       ]
     },
     "Gemü": {
-      "product_count": 9,
-      "avg_threat_level": 3.9,
+      "product_count": 44,
+      "avg_threat_level": 4.0,
       "top_industries": [
-        "通用工业",
+        "化工",
+        "食品饮料",
         "制药",
-        "生物技术"
+        "水处理",
+        "生物制品"
       ],
       "product_type_dist": {
-        "通用阀门": 6,
-        "球阀": 1,
+        "一次性隔膜阀": 1,
+        "隔膜阀": 12,
         "隔膜调节阀": 1,
-        "蝶阀": 1
+        "蝶阀": 7,
+        "角座阀": 1,
+        "截止调节阀": 2,
+        "球阀": 2,
+        "电磁阀": 1,
+        "比例阀": 1,
+        "止回阀": 2,
+        "多通道阀": 1,
+        "罐底阀": 1,
+        "采样阀": 1,
+        "流量计": 2,
+        "智能控制系统": 1,
+        "压力传感器": 2,
+        "传感器": 1,
+        "温度传感器": 1,
+        "液位传感器": 1,
+        "定位器": 1,
+        "控制器": 1,
+        "防混阀": 1
       },
       "high_threat_products": [
-        "Series 515 - 无菌隔膜阀",
-        "Series 500 - 隔膜阀",
-        "Series 600 - 隔膜阀",
-        "Series 650 - 调节阀",
-        "Series 700 - 蝶阀"
+        "Series 515 - 无菌隔膜阀（SUMONDO一次性）",
+        "Series 500 - 卫生级隔膜阀（不锈钢）",
+        "Series 505 - 隔膜阀（不锈钢，全孔）",
+        "Series 600 - 工业级金属隔膜阀",
+        "Series 614 - 衬氟隔膜阀（PTFE/PFA）",
+        "Series 620 - 塑料隔膜阀（PVC/PP/PVDF）",
+        "Series 635 - 超纯塑料隔膜阀（PFA）",
+        "Series 651 - 小口径金属隔膜阀"
       ]
     },
     "ESG": {
-      "product_count": 25,
-      "avg_threat_level": 2.8,
+      "product_count": 35,
+      "avg_threat_level": 3.1,
       "top_industries": [
-        "通用工业",
         "食品饮料",
-        "制药"
+        "制药",
+        "化工",
+        "蒸汽系统",
+        "新能源"
       ],
       "product_type_dist": {
-        "通用阀门": 15,
-        "工业阀门（多类型未明确）": 1,
-        "综合阀门产品线（卫生级隔膜阀/球阀/蝶阀等）": 1,
-        "信息不足，无法判断具体阀门类型": 1,
-        "角座阀": 1,
+        "角座阀": 5,
+        "角座调节阀": 1,
+        "排水阀": 2,
+        "排气阀": 1,
+        "多通道阀": 2,
+        "隔膜阀": 2,
+        "罐底阀": 1,
+        "梭阀": 1,
+        "膜塞阀": 1,
         "灌装阀": 1,
-        "过滤器": 1,
+        "注液阀": 1,
+        "注液系统": 1,
+        "蝶阀": 2,
+        "球阀": 2,
+        "止回阀": 2,
         "减压阀": 1,
-        "疏水阀": 1,
-        "其它阀门（综合类卫生级阀门）": 1,
-        "膜塞阀（隔膜阀变体）": 1
+        "溢流阀": 1,
+        "疏水阀": 3,
+        "平衡阀": 1,
+        "过滤器": 2,
+        "专用阀": 2
       },
-      "high_threat_products": []
+      "high_threat_products": [
+        "100系列 气控角座阀（标准型）",
+        "101系列 气控角座阀（高温型）",
+        "102系列 气控角座阀（低温型）",
+        "103系列 气控角座阀（316L卫生级）",
+        "200系列 气控隔膜阀（卫生级）"
+      ]
     }
   },
   "products": [
     {
-      "id": "401cd47a",
+      "id": "69425449",
       "company": "Bürkert",
-      "name": "电磁阀",
-      "url": "https://www.burkert.com.cn/cn/products/dian-ci-fa?n=1",
-      "desc": "行业",
-      "tags": [],
-      "source": "burkert.com.cn",
+      "name": "Type 0121 - 两位两通提升衔铁电磁阀",
+      "type_no": "0121",
+      "url": "https://www.burkert.com.cn/cn/type/0121",
+      "desc": "通径范围：DN4-DN50；工作压力：0-16bar；适用行业：通用工业、食品饮料、化工",
+      "source": "knowledge_base",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "电磁阀",
         "target_industries": [
-          "通用工业"
-        ],
-        "key_features": [
-          "待补充"
-        ],
-        "price_tier": "高端",
-        "threat_level": 5,
-        "threat_reason": "Bürkert 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
-      }
-    },
-    {
-      "id": "9ace3e24",
-      "company": "Bürkert",
-      "name": "过程控制阀",
-      "url": "https://www.burkert.com.cn/cn/products/guo-cheng-kong-zhi-fa?n=1",
-      "desc": "行业",
-      "tags": [],
-      "source": "burkert.com.cn",
-      "scraped": "2026-04-16",
-      "analysis": {
-        "product_type": "通用阀门",
-        "target_industries": [
-          "通用工业"
-        ],
-        "key_features": [
-          "待补充"
-        ],
-        "price_tier": "高端",
-        "threat_level": 5,
-        "threat_reason": "Bürkert 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
-      }
-    },
-    {
-      "id": "46845618",
-      "company": "Bürkert",
-      "name": "电动阀",
-      "url": "https://www.burkert.com.cn/cn/products/dian-dong-fa?n=1",
-      "desc": "行业",
-      "tags": [],
-      "source": "burkert.com.cn",
-      "scraped": "2026-04-16",
-      "analysis": {
-        "product_type": "电动调节阀/过程控制阀",
-        "target_industries": [
+          "通用工业",
           "食品饮料",
-          "制药化工",
-          "水处理",
-          "医疗器械",
-          "实验室设备"
+          "化工"
         ],
+        "dn_range": "DN4-DN50",
+        "pressure_range": "0-16bar",
         "key_features": [
-          "高精度定位（±0.1%）",
-          "IP65/IP67高防护等级",
-          "卫生级材质（不锈钢/ PVDF）与抛光处理"
-        ],
-        "price_tier": "高端",
-        "threat_level": 4,
-        "threat_reason": "品牌认知度高，技术领先，垄断高端市场",
-        "opportunity": "寻找同规格认证的替代供应商降低成本"
-      }
-    },
-    {
-      "id": "2b97ffd3",
-      "company": "Bürkert",
-      "name": "气动和过程",
-      "url": "https://www.burkert.com.cn/cn/products/qi-dong-he-guo-cheng?n=1",
-      "desc": "行业",
-      "tags": [],
-      "source": "burkert.com.cn",
-      "scraped": "2026-04-16",
-      "analysis": {
-        "product_type": "过程控制阀门系统（电磁阀/调节阀/气动执行器）",
-        "target_industries": [
-          "制药",
-          "食品饮料",
-          "水处理",
-          "化工",
-          "生物技术"
-        ],
-        "key_features": [
-          "模块化气动执行系统",
-          "卫生级认证全面(FDA/EHEDG)",
-          "智能化过程控制集成"
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
         ],
         "price_tier": "高端",
         "threat_level": 5,
-        "threat_reason": "德国品牌信誉强，卫生级市场占有率高",
-        "opportunity": "聚焦细分应用场景，提供性价比方案"
+        "threat_reason": "Bürkert 电磁阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
       }
     },
     {
-      "id": "741ce33d",
+      "id": "241f9610",
       "company": "Bürkert",
-      "name": "传感器，变送器和控制器",
-      "url": "https://www.burkert.com.cn/cn/products/chuan-gan-qi-bian-song-qi-he-kong-zhi-qi?n=1",
-      "desc": "行业",
-      "tags": [],
-      "source": "burkert.com.cn",
-      "scraped": "2026-04-16",
-      "analysis": {
-        "product_type": "通用阀门",
-        "target_industries": [
-          "通用工业"
-        ],
-        "key_features": [
-          "待补充"
-        ],
-        "price_tier": "高端",
-        "threat_level": 5,
-        "threat_reason": "Bürkert 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
-      }
-    },
-    {
-      "id": "11ee3fea",
-      "company": "Bürkert",
-      "name": "微流量产品及泵",
-      "url": "https://www.burkert.com.cn/cn/products/wei-liu-liang-chan-pin-ji-beng?n=1",
-      "desc": "行业",
-      "tags": [],
-      "source": "burkert.com.cn",
-      "scraped": "2026-04-16",
-      "analysis": {
-        "product_type": "通用阀门",
-        "target_industries": [
-          "通用工业"
-        ],
-        "key_features": [
-          "待补充"
-        ],
-        "price_tier": "高端",
-        "threat_level": 5,
-        "threat_reason": "Bürkert 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
-      }
-    },
-    {
-      "id": "c8b1263a",
-      "company": "Bürkert",
-      "name": "流量控制器",
-      "url": "https://www.burkert.com.cn/cn/products/liu-liang-kong-zhi-qi?n=1",
-      "desc": "行业",
-      "tags": [],
-      "source": "burkert.com.cn",
-      "scraped": "2026-04-16",
-      "analysis": {
-        "product_type": "调节阀",
-        "target_industries": [
-          "食品饮料",
-          "制药",
-          "生物技术",
-          "化妆品",
-          "水处理"
-        ],
-        "key_features": [
-          "卫生级设计",
-          "高精度流量控制",
-          "气动/电动执行器集成"
-        ],
-        "price_tier": "高端",
-        "threat_level": 4,
-        "threat_reason": "德国品牌，卫生级阀门标杆，价格高",
-        "opportunity": "可提供性价比更高的国产替代方案"
-      }
-    },
-    {
-      "id": "d98b6f4f",
-      "company": "Bürkert",
-      "name": "电磁控制阀",
-      "url": "https://www.burkert.com.cn/cn/products/dian-ci-kong-zhi-fa?n=1",
-      "desc": "行业",
-      "tags": [],
-      "source": "burkert.com.cn",
+      "name": "Type 0124 - 两位两通隔离式电磁阀",
+      "type_no": "0124",
+      "url": "https://www.burkert.com.cn/cn/type/0124",
+      "desc": "通径范围：DN4-DN25；工作压力：0-10bar；适用行业：制药、食品饮料、水处理",
+      "source": "knowledge_base",
       "scraped": "2026-04-16",
       "analysis": {
         "product_type": "电磁阀",
         "target_industries": [
           "制药",
           "食品饮料",
-          "生物技术",
-          "化工",
           "水处理"
         ],
+        "dn_range": "DN4-DN25",
+        "pressure_range": "0-10bar",
         "key_features": [
-          "模块化设计，快速维护",
-          "多种材质适配卫生级应用",
-          "精确流体控制与自动化集成"
-        ],
-        "price_tier": "高端",
-        "threat_level": 4,
-        "threat_reason": "德国品牌，卫生级市场认可度高，技术成熟",
-        "opportunity": "本地化服务响应速度与性价比优势"
-      }
-    },
-    {
-      "id": "2a236789",
-      "company": "Bürkert",
-      "name": "工业通讯",
-      "url": "https://www.burkert.com.cn/cn/products/gong-ye-tong-xun?n=1",
-      "desc": "行业",
-      "tags": [],
-      "source": "burkert.com.cn",
-      "scraped": "2026-04-16",
-      "analysis": {
-        "product_type": "通用阀门",
-        "target_industries": [
-          "通用工业"
-        ],
-        "key_features": [
-          "待补充"
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
         ],
         "price_tier": "高端",
         "threat_level": 5,
-        "threat_reason": "Bürkert 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "Bürkert 电磁阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
       }
     },
     {
-      "id": "a1a9bf81",
+      "id": "ace957f9",
       "company": "Bürkert",
-      "name": "附加产品",
-      "url": "https://www.burkert.com.cn/cn/products/fu-jia-chan-pin?n=1",
-      "desc": "行业",
-      "tags": [],
-      "source": "burkert.com.cn",
+      "name": "Type 0256 - 两位两通高压电磁阀",
+      "type_no": "0256",
+      "url": "https://www.burkert.com.cn/cn/type/0256",
+      "desc": "通径范围：DN4-DN25；工作压力：0-25bar；适用行业：化工、石化",
+      "source": "knowledge_base",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "电磁阀",
         "target_industries": [
-          "通用工业"
-        ],
-        "key_features": [
-          "待补充"
-        ],
-        "price_tier": "高端",
-        "threat_level": 5,
-        "threat_reason": "Bürkert 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
-      }
-    },
-    {
-      "id": "9e24dc45",
-      "company": "Bürkert",
-      "name": "工业通信",
-      "url": "https://www.burkert.com.cn/cn/products/fu-jia-chan-pin/gong-ye-tong-xun?n=1",
-      "desc": "行业",
-      "tags": [],
-      "source": "burkert.com.cn",
-      "scraped": "2026-04-16",
-      "analysis": {
-        "product_type": "工业通信/阀岛控制系统",
-        "target_industries": [
-          "食品饮料",
-          "制药",
-          "生命科学",
-          "水处理",
-          "半导体"
-        ],
-        "key_features": [
-          "多协议通信支持（PROFINET/Ethernet/IO-Link等）",
-          "阀岛集成式远程驱动控制（AirLINE系列）",
-          "通信网关统一协议转换（ME63系列）"
-        ],
-        "price_tier": "高端",
-        "threat_level": 4,
-        "threat_reason": "覆盖从阀岛到通信网关全链路，难替代",
-        "opportunity": "本土品牌通信协议兼容性及成本优势切入"
-      }
-    },
-    {
-      "id": "9a9cc97f",
-      "company": "Bürkert",
-      "name": "液体和气体阀门",
-      "url": "https://www.burkert.com.cn/cn/products/dian-ci-fa",
-      "desc": "行业",
-      "tags": [],
-      "source": "burkert.com.cn",
-      "scraped": "2026-04-16",
-      "analysis": {
-        "product_type": "流体控制系统（隔膜阀/电磁阀/调节阀/球阀全系列）",
-        "target_industries": [
-          "制药",
-          "食品饮料",
-          "水处理",
-          "生物技术",
           "化工",
-          "半导体"
+          "石化"
         ],
+        "dn_range": "DN4-DN25",
+        "pressure_range": "0-25bar",
         "key_features": [
-          "卫生级认证全面（FDA/3A/EHEDG）",
-          "高度集成化控制系统",
-          "模块化设计与数字化解决方案"
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
         ],
         "price_tier": "高端",
         "threat_level": 5,
-        "threat_reason": "全球领导品牌，技术全面，卫生级市场占有率高",
-        "opportunity": "聚焦细分场景定制化，提供性价比方案"
+        "threat_reason": "Bürkert 电磁阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
       }
     },
     {
-      "id": "a91acb10",
+      "id": "44e37d89",
       "company": "Bürkert",
-      "name": "过程阀和调节阀",
-      "url": "https://www.burkert.com.cn/cn/products/guo-cheng-kong-zhi-fa",
-      "desc": "行业",
-      "tags": [],
-      "source": "burkert.com.cn",
+      "name": "Type 0281 - 两位三通电磁阀",
+      "type_no": "0281",
+      "url": "https://www.burkert.com.cn/cn/type/0281",
+      "desc": "通径范围：DN4-DN13；工作压力：0-10bar；适用行业：通用工业、气动控制",
+      "source": "knowledge_base",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "过程阀/调节阀/卫生级隔膜阀",
-        "target_industries": [
-          "制药",
-          "生物技术",
-          "食品饮料",
-          "化工",
-          "氢能源"
-        ],
-        "key_features": [
-          "卫生级设计（EHEDG/3A认证）",
-          "气动/电动集成控制系统",
-          "模块化流体控制解决方案"
-        ],
-        "price_tier": "高端",
-        "threat_level": 4,
-        "threat_reason": "德国百年品牌，卫生级阀门行业标杆",
-        "opportunity": "本土化服务响应与成本优化空间"
-      }
-    },
-    {
-      "id": "d4d9a790",
-      "company": "Bürkert",
-      "name": "流量传感器和液位传感器",
-      "url": "https://www.burkert.com.cn/cn/products/chuan-gan-qi-bian-song-qi-he-kong-zhi-qi",
-      "desc": "行业",
-      "tags": [],
-      "source": "burkert.com.cn",
-      "scraped": "2026-04-16",
-      "analysis": {
-        "product_type": "通用阀门",
-        "target_industries": [
-          "通用工业"
-        ],
-        "key_features": [
-          "待补充"
-        ],
-        "price_tier": "高端",
-        "threat_level": 5,
-        "threat_reason": "Bürkert 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
-      }
-    },
-    {
-      "id": "29157ac1",
-      "company": "Bürkert",
-      "name": "电磁控制阀",
-      "url": "https://www.burkert.com.cn/cn/products/dian-ci-kong-zhi-fa",
-      "desc": "行业",
-      "tags": [],
-      "source": "burkert.com.cn",
-      "scraped": "2026-04-16",
-      "analysis": {
-        "product_type": "通用阀门",
-        "target_industries": [
-          "通用工业"
-        ],
-        "key_features": [
-          "待补充"
-        ],
-        "price_tier": "高端",
-        "threat_level": 5,
-        "threat_reason": "Bürkert 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
-      }
-    },
-    {
-      "id": "a5c793ad",
-      "company": "Gemü",
-      "name": "Series 515 - 无菌隔膜阀",
-      "url": "https://www.gemu-group.com/en/products/",
-      "desc": "",
-      "industries": [
-        "制药",
-        "生物制品"
-      ],
-      "source": "builtin_cache",
-      "scraped": "2026-04-16",
-      "analysis": {
-        "product_type": "通用阀门",
-        "target_industries": [
-          "通用工业"
-        ],
-        "key_features": [
-          "待补充"
-        ],
-        "price_tier": "高端",
-        "threat_level": 4,
-        "threat_reason": "Gemü 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
-      }
-    },
-    {
-      "id": "92531798",
-      "company": "Gemü",
-      "name": "Series 500 - 隔膜阀",
-      "url": "https://www.gemu-group.com/en/products/",
-      "desc": "",
-      "industries": [
-        "制药",
-        "食品饮料",
-        "生物制品"
-      ],
-      "source": "builtin_cache",
-      "scraped": "2026-04-16",
-      "analysis": {
-        "product_type": "通用阀门",
-        "target_industries": [
-          "通用工业"
-        ],
-        "key_features": [
-          "待补充"
-        ],
-        "price_tier": "高端",
-        "threat_level": 4,
-        "threat_reason": "Gemü 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
-      }
-    },
-    {
-      "id": "544eab27",
-      "company": "Gemü",
-      "name": "Series 600 - 隔膜阀",
-      "url": "https://www.gemu-group.com/en/products/",
-      "desc": "",
-      "industries": [
-        "制药",
-        "化工"
-      ],
-      "source": "builtin_cache",
-      "scraped": "2026-04-16",
-      "analysis": {
-        "product_type": "通用阀门",
-        "target_industries": [
-          "通用工业"
-        ],
-        "key_features": [
-          "待补充"
-        ],
-        "price_tier": "高端",
-        "threat_level": 4,
-        "threat_reason": "Gemü 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
-      }
-    },
-    {
-      "id": "eb55ee76",
-      "company": "Gemü",
-      "name": "Series 650 - 调节阀",
-      "url": "https://www.gemu-group.com/en/products/",
-      "desc": "",
-      "industries": [
-        "制药",
-        "化工"
-      ],
-      "source": "builtin_cache",
-      "scraped": "2026-04-16",
-      "analysis": {
-        "product_type": "通用阀门",
-        "target_industries": [
-          "通用工业"
-        ],
-        "key_features": [
-          "待补充"
-        ],
-        "price_tier": "高端",
-        "threat_level": 4,
-        "threat_reason": "Gemü 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
-      }
-    },
-    {
-      "id": "71d55236",
-      "company": "Gemü",
-      "name": "Series 700 - 蝶阀",
-      "url": "https://www.gemu-group.com/en/products/",
-      "desc": "",
-      "industries": [
-        "食品饮料",
-        "水处理"
-      ],
-      "source": "builtin_cache",
-      "scraped": "2026-04-16",
-      "analysis": {
-        "product_type": "通用阀门",
-        "target_industries": [
-          "通用工业"
-        ],
-        "key_features": [
-          "待补充"
-        ],
-        "price_tier": "高端",
-        "threat_level": 4,
-        "threat_reason": "Gemü 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
-      }
-    },
-    {
-      "id": "7cb91fb7",
-      "company": "Gemü",
-      "name": "Series 612 - 球阀",
-      "url": "https://www.gemu-group.com/en/products/",
-      "desc": "",
-      "industries": [
-        "化工",
-        "石化"
-      ],
-      "source": "builtin_cache",
-      "scraped": "2026-04-16",
-      "analysis": {
-        "product_type": "球阀",
-        "target_industries": [
-          "制药",
-          "生物技术",
-          "食品饮料",
-          "化妆品",
-          "水处理"
-        ],
-        "key_features": [
-          "卫生级设计、无死角",
-          "多种密封材质可选(PTFE Viton)",
-          "手动/气动/电动执行器配置"
-        ],
-        "price_tier": "中高端",
-        "threat_level": 3,
-        "threat_reason": "国际品牌认可度高，卫生级领域专业性强，价格偏高",
-        "opportunity": "可聚焦性价比与本地化服务响应优势"
-      }
-    },
-    {
-      "id": "0e301e3e",
-      "company": "Gemü",
-      "name": "Series R686 - 隔膜调节阀",
-      "url": "https://www.gemu-group.com/en/products/",
-      "desc": "",
-      "industries": [
-        "制药",
-        "生物制品"
-      ],
-      "source": "builtin_cache",
-      "scraped": "2026-04-16",
-      "analysis": {
-        "product_type": "隔膜调节阀",
-        "target_industries": [
-          "制药",
-          "生物技术",
-          "食品饮料",
-          "化妆品",
-          "精细化工"
-        ],
-        "key_features": [
-          "卫生级设计符合ASME BPE/FDA标准",
-          "高精度比例调节与过程控制",
-          "模块化执行器与智能定位器集成"
-        ],
-        "price_tier": "高端",
-        "threat_level": 4,
-        "threat_reason": "Gemü在制药卫生级调节阀领域品牌认知度极高",
-        "opportunity": "可在性价比与本地化服务响应上形成差异"
-      }
-    },
-    {
-      "id": "8ac7c0b6",
-      "company": "Gemü",
-      "name": "Series 3/47 - 蝶阀",
-      "url": "https://www.gemu-group.com/en/products/",
-      "desc": "",
-      "industries": [
-        "食品饮料",
-        "化工"
-      ],
-      "source": "builtin_cache",
-      "scraped": "2026-04-16",
-      "analysis": {
-        "product_type": "蝶阀",
-        "target_industries": [
-          "制药",
-          "食品饮料",
-          "生物技术",
-          "化妆品"
-        ],
-        "key_features": [
-          "卫生级设计符合FDA/3A标准",
-          "手动/气动/电动多种驱动方式",
-          "紧凑型结构适合狭小空间安装"
-        ],
-        "price_tier": "中高端",
-        "threat_level": 4,
-        "threat_reason": "Gemü品牌认知度高，卫生级市场占有率领先",
-        "opportunity": "针对特定工况提供定制化解决方案和本地化服务"
-      }
-    },
-    {
-      "id": "06d9adc6",
-      "company": "Gemü",
-      "name": "Type 1435 - 截止调节阀",
-      "url": "https://www.gemu-group.com/en/products/",
-      "desc": "",
-      "industries": [
-        "石化",
-        "化工"
-      ],
-      "source": "builtin_cache",
-      "scraped": "2026-04-16",
-      "analysis": {
-        "product_type": "通用阀门",
-        "target_industries": [
-          "通用工业"
-        ],
-        "key_features": [
-          "待补充"
-        ],
-        "price_tier": "高端",
-        "threat_level": 4,
-        "threat_reason": "Gemü 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
-      }
-    },
-    {
-      "id": "b14ae14a",
-      "company": "ESG",
-      "name": "zx@esgvalve.com",
-      "url": "https://www.esgvalve.cnmailto:zx@esgvalve.com",
-      "desc": "+86 4006976268info@esgvalve.comAbout ESGCompany ProfileBrand HistoryCorporate CultureDemonstration of StrengthHonors and QualificationsSocial ResponsibilityTechnical SupportDownloadVideo CenterInformation CenterCompany NewsPublic NoticeExhibition UpdatesContact usContact usJoin us",
-      "source": "esgvalve.cn",
-      "scraped": "2026-04-16",
-      "analysis": {
-        "product_type": "通用阀门",
-        "target_industries": [
-          "通用工业"
-        ],
-        "key_features": [
-          "待补充"
-        ],
-        "price_tier": "中高端",
-        "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
-      }
-    },
-    {
-      "id": "dc541cf9",
-      "company": "ESG",
-      "name": "工业级阀门",
-      "url": "https://www.esgvalve.cn/product/industrial.html",
-      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
-      "source": "esgvalve.cn",
-      "scraped": "2026-04-16",
-      "analysis": {
-        "product_type": "工业阀门（多类型未明确）",
+        "product_type": "电磁阀",
         "target_industries": [
           "通用工业",
+          "气动控制"
+        ],
+        "dn_range": "DN4-DN13",
+        "pressure_range": "0-10bar",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 电磁阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "554cc201",
+      "company": "Bürkert",
+      "name": "Type 0290 - 两位两通间接先导电磁阀",
+      "type_no": "0290",
+      "url": "https://www.burkert.com.cn/cn/type/0290",
+      "desc": "通径范围：DN15-DN50；工作压力：0.2-16bar；适用行业：通用工业、水处理",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "电磁阀",
+        "target_industries": [
+          "通用工业",
+          "水处理"
+        ],
+        "dn_range": "DN15-DN50",
+        "pressure_range": "0.2-16bar",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 电磁阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "4bee7ba8",
+      "company": "Bürkert",
+      "name": "Type 0330 - 两位三通直动电磁阀",
+      "type_no": "0330",
+      "url": "https://www.burkert.com.cn/cn/type/0330",
+      "desc": "通径范围：DN1-DN4；工作压力：0-10bar；适用行业：实验室、分析仪器",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "电磁阀",
+        "target_industries": [
+          "实验室",
+          "分析仪器"
+        ],
+        "dn_range": "DN1-DN4",
+        "pressure_range": "0-10bar",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 电磁阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "620e0c13",
+      "company": "Bürkert",
+      "name": "Type 2835 - 提升式卫生电磁阀",
+      "type_no": "2835",
+      "url": "https://www.burkert.com.cn/cn/type/2835",
+      "desc": "通径范围：DN4-DN25；工作压力：0-10bar；适用行业：制药、食品饮料",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "电磁阀",
+        "target_industries": [
+          "制药",
+          "食品饮料"
+        ],
+        "dn_range": "DN4-DN25",
+        "pressure_range": "0-10bar",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 电磁阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "8eaf2e26",
+      "company": "Bürkert",
+      "name": "Type 5281 - 两位两通大口径电磁阀",
+      "type_no": "5281",
+      "url": "https://www.burkert.com.cn/cn/type/5281",
+      "desc": "通径范围：DN25-DN100；工作压力：0.2-16bar；适用行业：化工、水处理、石化",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "电磁阀",
+        "target_industries": [
+          "化工",
           "水处理",
+          "石化"
+        ],
+        "dn_range": "DN25-DN100",
+        "pressure_range": "0.2-16bar",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 电磁阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "0dba54d1",
+      "company": "Bürkert",
+      "name": "Type 5282 - 两位两通不锈钢大口径阀",
+      "type_no": "5282",
+      "url": "https://www.burkert.com.cn/cn/type/5282",
+      "desc": "通径范围：DN25-DN100；工作压力：0.2-16bar；适用行业：食品饮料、制药、化工",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "电磁阀",
+        "target_industries": [
           "食品饮料",
-          "制药"
+          "制药",
+          "化工"
         ],
+        "dn_range": "DN25-DN100",
+        "pressure_range": "0.2-16bar",
         "key_features": [
-          "联系信息暴露商业意图明显",
-          "网站结构简单技术信息匮乏",
-          "缺乏明确产品差异化定位"
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
         ],
-        "price_tier": "未知（信息严重不足）",
-        "threat_level": 2,
-        "threat_reason": "网站缺乏产品技术参数，无法评估竞争力",
-        "opportunity": "可强化技术文档展示与细分行业解决方案输出"
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 电磁阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
       }
     },
     {
-      "id": "6996ec1c",
-      "company": "ESG",
-      "name": "通用行业",
-      "url": "https://www.esgvalve.cn/product/general.html",
-      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
-      "source": "esgvalve.cn",
+      "id": "06ebe4f2",
+      "company": "Bürkert",
+      "name": "Type 5404 - 两位四通换向阀",
+      "type_no": "5404",
+      "url": "https://www.burkert.com.cn/cn/type/5404",
+      "desc": "通径范围：DN4-DN13；工作压力：1-10bar；适用行业：气动系统、工业自动化",
+      "source": "knowledge_base",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "换向阀",
         "target_industries": [
-          "通用工业"
+          "气动系统",
+          "工业自动化"
         ],
+        "dn_range": "DN4-DN13",
+        "pressure_range": "1-10bar",
         "key_features": [
-          "待补充"
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
         ],
-        "price_tier": "中高端",
-        "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 换向阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
       }
     },
     {
-      "id": "3b66fe33",
-      "company": "ESG",
-      "name": "新能源行业",
-      "url": "https://www.esgvalve.cn/product/new-energy.html",
-      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
-      "source": "esgvalve.cn",
+      "id": "484bdcd0",
+      "company": "Bürkert",
+      "name": "Type 5411 - 两位三通气控阀",
+      "type_no": "5411",
+      "url": "https://www.burkert.com.cn/cn/type/5411",
+      "desc": "通径范围：DN4-DN10；工作压力：1-10bar；适用行业：工业自动化",
+      "source": "knowledge_base",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "气控阀",
         "target_industries": [
-          "通用工业"
+          "工业自动化"
         ],
+        "dn_range": "DN4-DN10",
+        "pressure_range": "1-10bar",
         "key_features": [
-          "待补充"
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
         ],
-        "price_tier": "中高端",
-        "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 气控阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
       }
     },
     {
-      "id": "9061a5a7",
-      "company": "ESG",
-      "name": "橡塑行业",
-      "url": "https://www.esgvalve.cn/product/butterfly.html",
-      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
-      "source": "esgvalve.cn",
+      "id": "f34e63a2",
+      "company": "Bürkert",
+      "name": "Type 6013 - 两位两通柱塞电磁阀",
+      "type_no": "6013",
+      "url": "https://www.burkert.com.cn/cn/type/6013",
+      "desc": "通径范围：DN0.5-DN6；工作压力：0-25bar；适用行业：分析仪器、实验室、医疗",
+      "source": "knowledge_base",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "电磁阀",
         "target_industries": [
-          "通用工业"
+          "分析仪器",
+          "实验室",
+          "医疗"
         ],
+        "dn_range": "DN0.5-DN6",
+        "pressure_range": "0-25bar",
         "key_features": [
-          "待补充"
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
         ],
-        "price_tier": "中高端",
-        "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 电磁阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
       }
     },
     {
-      "id": "ce5deb67",
-      "company": "ESG",
-      "name": "卫生级阀门",
-      "url": "https://www.esgvalve.cn/product/sanitary-grade.html",
-      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
-      "source": "esgvalve.cn",
+      "id": "2fe73298",
+      "company": "Bürkert",
+      "name": "Type 6014 - 两位两通微型电磁阀",
+      "type_no": "6014",
+      "url": "https://www.burkert.com.cn/cn/type/6014",
+      "desc": "通径范围：DN0.2-DN2；工作压力：0-16bar；适用行业：实验室、医疗、分析仪器",
+      "source": "knowledge_base",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "电磁阀",
         "target_industries": [
-          "通用工业"
+          "实验室",
+          "医疗",
+          "分析仪器"
         ],
+        "dn_range": "DN0.2-DN2",
+        "pressure_range": "0-16bar",
         "key_features": [
-          "待补充"
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
         ],
-        "price_tier": "中高端",
-        "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 电磁阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
       }
     },
     {
-      "id": "9aa5e5f6",
-      "company": "ESG",
-      "name": "产品系列",
-      "url": "https://www.esgvalve.cn/product/c10.html",
-      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
-      "source": "esgvalve.cn",
+      "id": "4b4977ad",
+      "company": "Bürkert",
+      "name": "Type 6213 - 两位两通卫生级电磁阀",
+      "type_no": "6213",
+      "url": "https://www.burkert.com.cn/cn/type/6213",
+      "desc": "通径范围：DN4-DN25；工作压力：0-10bar；适用行业：食品饮料、制药、饮料",
+      "source": "knowledge_base",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "电磁阀",
         "target_industries": [
-          "通用工业"
+          "食品饮料",
+          "制药",
+          "饮料"
         ],
+        "dn_range": "DN4-DN25",
+        "pressure_range": "0-10bar",
         "key_features": [
-          "待补充"
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
         ],
-        "price_tier": "中高端",
-        "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 电磁阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
       }
     },
     {
-      "id": "fee52352",
-      "company": "ESG",
-      "name": "测控仪表",
-      "url": "https://www.esgvalve.cn/product/measurement-and-control-instruments.html",
-      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
-      "source": "esgvalve.cn",
+      "id": "23bd03d6",
+      "company": "Bürkert",
+      "name": "Type 6519 - 先导阀",
+      "type_no": "6519",
+      "url": "https://www.burkert.com.cn/cn/type/6519",
+      "desc": "通径范围：—；工作压力：1-10bar；适用行业：工业自动化、气动系统",
+      "source": "knowledge_base",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "先导阀",
         "target_industries": [
-          "通用工业"
+          "工业自动化",
+          "气动系统"
         ],
+        "dn_range": "—",
+        "pressure_range": "1-10bar",
         "key_features": [
-          "待补充"
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
         ],
-        "price_tier": "中高端",
-        "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 先导阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
       }
     },
     {
-      "id": "a91abc96",
-      "company": "ESG",
-      "name": "产品系列",
-      "url": "https://www.esgvalve.cn/product/measurement.html",
-      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
-      "source": "esgvalve.cn",
+      "id": "705698f4",
+      "company": "Bürkert",
+      "name": "Type 6524 - 高频两位两通电磁阀",
+      "type_no": "6524",
+      "url": "https://www.burkert.com.cn/cn/type/6524",
+      "desc": "通径范围：DN0.5-DN3；工作压力：0-10bar；适用行业：半导体、实验室、分析",
+      "source": "knowledge_base",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "综合阀门产品线（卫生级隔膜阀/球阀/蝶阀等）",
+        "product_type": "电磁阀",
+        "target_industries": [
+          "半导体",
+          "实验室",
+          "分析"
+        ],
+        "dn_range": "DN0.5-DN3",
+        "pressure_range": "0-10bar",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 电磁阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "ecd616bd",
+      "company": "Bürkert",
+      "name": "Type 6604 - 气动夹管阀",
+      "type_no": "6604",
+      "url": "https://www.burkert.com.cn/cn/type/6604",
+      "desc": "通径范围：DN4-DN25；工作压力：0-8bar；适用行业：制药、食品饮料、生物技术",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "夹管阀",
         "target_industries": [
           "制药",
           "食品饮料",
-          "生物工程",
-          "精细化工"
+          "生物技术"
         ],
+        "dn_range": "DN4-DN25",
+        "pressure_range": "0-8bar",
         "key_features": [
-          "国产卫生级阀门品牌，产品线齐全",
-          "注重品牌建设与资质认证",
-          "提供技术支持与资料下载服务体系"
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
         ],
-        "price_tier": "中高端",
-        "threat_level": 3,
-        "threat_reason": "国产卫生级品牌成熟，性价比优势明显",
-        "opportunity": "在细分技术指标或智能化控制上形成差异"
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 夹管阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
       }
     },
     {
-      "id": "05bce132",
-      "company": "ESG",
-      "name": "English",
-      "url": "http://www.esgvalve.com",
-      "desc": "+86 4006976268info@esgvalve.comAbout ESGCompany ProfileBrand HistoryCorporate CultureDemonstration of StrengthHonors and QualificationsSocial ResponsibilityTechnical SupportDownloadVideo CenterInformation CenterCompany NewsPublic NoticeExhibition UpdatesContact usContact usJoin us",
-      "source": "esgvalve.cn",
-      "scraped": "2026-04-16",
-      "analysis": {
-        "product_type": "信息不足，无法判断具体阀门类型",
-        "target_industries": [
-          "信息不足"
-        ],
-        "key_features": [
-          "信息不足，仅有公司联系方式和栏目导航"
-        ],
-        "price_tier": "无法判断",
-        "threat_level": 1,
-        "threat_reason": "提供信息过少，无法评估实际威胁",
-        "opportunity": "需补充ESG具体产品技术参数后再分析"
-      }
-    },
-    {
-      "id": "d6b499ef",
-      "company": "ESG",
-      "name": "角座阀",
-      "url": "https://www.esgvalve.cn/product/angle-seat-valve.html",
-      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
-      "source": "esgvalve.cn",
+      "id": "056f520d",
+      "company": "Bürkert",
+      "name": "Type 2000 - 角座阀（气动）",
+      "type_no": "2000",
+      "url": "https://www.burkert.com.cn/cn/type/2000",
+      "desc": "通径范围：DN15-DN80；工作压力：0-25bar；适用行业：食品饮料、制药、化工",
+      "source": "knowledge_base",
       "scraped": "2026-04-16",
       "analysis": {
         "product_type": "角座阀",
@@ -960,354 +641,3422 @@
           "食品饮料",
           "制药",
           "化工",
+          "蒸汽"
+        ],
+        "dn_range": "DN15-DN80",
+        "pressure_range": "0-25bar",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 角座阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "188a420c",
+      "company": "Bürkert",
+      "name": "Type 2012 - 大口径角座阀（气动）",
+      "type_no": "2012",
+      "url": "https://www.burkert.com.cn/cn/type/2012",
+      "desc": "通径范围：DN50-DN150；工作压力：0-16bar；适用行业：化工、石化、蒸汽系统",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "角座阀",
+        "target_industries": [
+          "化工",
+          "石化",
+          "蒸汽系统"
+        ],
+        "dn_range": "DN50-DN150",
+        "pressure_range": "0-16bar",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 角座阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "e8854b8d",
+      "company": "Bürkert",
+      "name": "Type 2030 - 卫生角座阀",
+      "type_no": "2030",
+      "url": "https://www.burkert.com.cn/cn/type/2030",
+      "desc": "通径范围：DN15-DN50；工作压力：0-10bar；适用行业：食品饮料、制药",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "角座阀",
+        "target_industries": [
+          "食品饮料",
+          "制药"
+        ],
+        "dn_range": "DN15-DN50",
+        "pressure_range": "0-10bar",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 角座阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "612fa308",
+      "company": "Bürkert",
+      "name": "Type 2031 - 316L卫生级角座阀",
+      "type_no": "2031",
+      "url": "https://www.burkert.com.cn/cn/type/2031",
+      "desc": "通径范围：DN15-DN50；工作压力：0-10bar；适用行业：制药、生物制品、食品饮料",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "角座阀",
+        "target_industries": [
+          "制药",
+          "生物制品",
+          "食品饮料"
+        ],
+        "dn_range": "DN15-DN50",
+        "pressure_range": "0-10bar",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 角座阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "022afbc8",
+      "company": "Bürkert",
+      "name": "Type 2100 - 蝶阀（气动）",
+      "type_no": "2100",
+      "url": "https://www.burkert.com.cn/cn/type/2100",
+      "desc": "通径范围：DN50-DN300；工作压力：0-16bar；适用行业：水处理、化工、食品饮料",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "蝶阀",
+        "target_industries": [
+          "水处理",
+          "化工",
+          "食品饮料"
+        ],
+        "dn_range": "DN50-DN300",
+        "pressure_range": "0-16bar",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 蝶阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "f057a04d",
+      "company": "Bürkert",
+      "name": "Type 2301 - 气动卫生级隔膜阀",
+      "type_no": "2301",
+      "url": "https://www.burkert.com.cn/cn/type/2301",
+      "desc": "通径范围：DN6-DN80；工作压力：0-10bar；适用行业：制药、食品饮料、生物制品",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "隔膜阀",
+        "target_industries": [
+          "制药",
+          "食品饮料",
+          "生物制品"
+        ],
+        "dn_range": "DN6-DN80",
+        "pressure_range": "0-10bar",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 隔膜阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "516bd166",
+      "company": "Bürkert",
+      "name": "Type 2702 - 角座调节阀（气动）",
+      "type_no": "2702",
+      "url": "https://www.burkert.com.cn/cn/type/2702",
+      "desc": "通径范围：DN15-DN80；工作压力：0-25bar；适用行业：化工、食品饮料、蒸汽",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "角座调节阀",
+        "target_industries": [
+          "化工",
+          "食品饮料",
+          "蒸汽"
+        ],
+        "dn_range": "DN15-DN80",
+        "pressure_range": "0-25bar",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 角座调节阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "f8e18b9f",
+      "company": "Bürkert",
+      "name": "Type 2712 - 截止调节阀",
+      "type_no": "2712",
+      "url": "https://www.burkert.com.cn/cn/type/2712",
+      "desc": "通径范围：DN15-DN100；工作压力：0-25bar；适用行业：化工、石化、电力",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "截止调节阀",
+        "target_industries": [
+          "化工",
+          "石化",
+          "电力"
+        ],
+        "dn_range": "DN15-DN100",
+        "pressure_range": "0-25bar",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 截止调节阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "1c112a22",
+      "company": "Bürkert",
+      "name": "Type 3260 - 球形调节阀（气动）",
+      "type_no": "3260",
+      "url": "https://www.burkert.com.cn/cn/type/3260",
+      "desc": "通径范围：DN15-DN100；工作压力：0-16bar；适用行业：石化、化工、电力",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "球形调节阀",
+        "target_industries": [
+          "石化",
+          "化工",
+          "电力"
+        ],
+        "dn_range": "DN15-DN100",
+        "pressure_range": "0-16bar",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 球形调节阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "d2661c4a",
+      "company": "Bürkert",
+      "name": "Type 3280 - 球形调节阀（电动）",
+      "type_no": "3280",
+      "url": "https://www.burkert.com.cn/cn/type/3280",
+      "desc": "通径范围：DN15-DN100；工作压力：0-16bar；适用行业：制药、生物制品、化工",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "球形调节阀",
+        "target_industries": [
+          "制药",
+          "生物制品",
+          "化工"
+        ],
+        "dn_range": "DN15-DN100",
+        "pressure_range": "0-16bar",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 球形调节阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "d058c3a4",
+      "company": "Bürkert",
+      "name": "Type 3285 - 截止阀",
+      "type_no": "3285",
+      "url": "https://www.burkert.com.cn/cn/type/3285",
+      "desc": "通径范围：DN15-DN50；工作压力：0-25bar；适用行业：制药、化工",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "截止阀",
+        "target_industries": [
+          "制药",
+          "化工"
+        ],
+        "dn_range": "DN15-DN50",
+        "pressure_range": "0-25bar",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 截止阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "3f18937c",
+      "company": "Bürkert",
+      "name": "Type 3321 - 重工业球形截止调节阀",
+      "type_no": "3321",
+      "url": "https://www.burkert.com.cn/cn/type/3321",
+      "desc": "通径范围：DN25-DN200；工作压力：0-40bar；适用行业：石化、电力、化工",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "球形调节阀",
+        "target_industries": [
+          "石化",
+          "电力",
+          "化工"
+        ],
+        "dn_range": "DN25-DN200",
+        "pressure_range": "0-40bar",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 球形调节阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "06104ec9",
+      "company": "Bürkert",
+      "name": "Type 6012 - 卫生级隔膜阀",
+      "type_no": "6012",
+      "url": "https://www.burkert.com.cn/cn/type/6012",
+      "desc": "通径范围：DN6-DN80；工作压力：0-10bar；适用行业：制药、食品饮料、生物制品",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "隔膜阀",
+        "target_industries": [
+          "制药",
+          "食品饮料",
+          "生物制品"
+        ],
+        "dn_range": "DN6-DN80",
+        "pressure_range": "0-10bar",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 隔膜阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "c8c1d350",
+      "company": "Bürkert",
+      "name": "Type 8805 - 球阀/蝶阀（气动旋转）",
+      "type_no": "8805",
+      "url": "https://www.burkert.com.cn/cn/type/8805",
+      "desc": "通径范围：DN25-DN300；工作压力：0-10bar；适用行业：食品饮料、制药、化工",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "球阀/蝶阀",
+        "target_industries": [
+          "食品饮料",
+          "制药",
+          "化工"
+        ],
+        "dn_range": "DN25-DN300",
+        "pressure_range": "0-10bar",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 球阀/蝶阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "9bdf06b4",
+      "company": "Bürkert",
+      "name": "Robolux多通道隔膜阀",
+      "type_no": "Robolux",
+      "url": "https://www.burkert.com.cn/cn/type/Robolux",
+      "desc": "通径范围：DN6-DN50；工作压力：0-10bar；适用行业：制药、生物制品",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "多通道隔膜阀",
+        "target_industries": [
+          "制药",
+          "生物制品"
+        ],
+        "dn_range": "DN6-DN50",
+        "pressure_range": "0-10bar",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 多通道隔膜阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "a51f9bdb",
+      "company": "Bürkert",
+      "name": "Type 5120 - 微型定量阀",
+      "type_no": "5120",
+      "url": "https://www.burkert.com.cn/cn/type/5120",
+      "desc": "通径范围：微流量；工作压力：0-10bar；适用行业：实验室、DNA合成、体外诊断",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "微量阀",
+        "target_industries": [
+          "实验室",
+          "DNA合成",
+          "体外诊断"
+        ],
+        "dn_range": "微流量",
+        "pressure_range": "0-10bar",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 微量阀 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "a5735f5c",
+      "company": "Bürkert",
+      "name": "Type 8011 - 叶轮式流量传感器（内联）",
+      "type_no": "8011",
+      "url": "https://www.burkert.com.cn/cn/type/8011",
+      "desc": "通径范围：DN4-DN50；工作压力：—；适用行业：水处理、食品饮料、化工",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "流量传感器",
+        "target_industries": [
+          "水处理",
+          "食品饮料",
+          "化工"
+        ],
+        "dn_range": "DN4-DN50",
+        "pressure_range": "—",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Bürkert 流量传感器 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "59e1d785",
+      "company": "Bürkert",
+      "name": "Type 8020 - 叶轮式流量传感器（插入）",
+      "type_no": "8020",
+      "url": "https://www.burkert.com.cn/cn/type/8020",
+      "desc": "通径范围：DN20-DN100；工作压力：—；适用行业：通用工业",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "流量传感器",
+        "target_industries": [
+          "通用工业"
+        ],
+        "dn_range": "DN20-DN100",
+        "pressure_range": "—",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Bürkert 流量传感器 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "18237a97",
+      "company": "Bürkert",
+      "name": "Type 8030 - 叶轮式流量传感器",
+      "type_no": "8030",
+      "url": "https://www.burkert.com.cn/cn/type/8030",
+      "desc": "通径范围：DN4-DN50；工作压力：—；适用行业：食品饮料、化工",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "流量传感器",
+        "target_industries": [
+          "食品饮料",
+          "化工"
+        ],
+        "dn_range": "DN4-DN50",
+        "pressure_range": "—",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Bürkert 流量传感器 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "eaa7200b",
+      "company": "Bürkert",
+      "name": "Type 8045 - 电磁流量计",
+      "type_no": "8045",
+      "url": "https://www.burkert.com.cn/cn/type/8045",
+      "desc": "通径范围：DN15-DN200；工作压力：—；适用行业：水处理、食品饮料、制药",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "电磁流量计",
+        "target_industries": [
+          "水处理",
+          "食品饮料",
+          "制药"
+        ],
+        "dn_range": "DN15-DN200",
+        "pressure_range": "—",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 电磁流量计 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "5aa17300",
+      "company": "Bürkert",
+      "name": "Type 8071 - 椭圆齿轮流量传感器",
+      "type_no": "8071",
+      "url": "https://www.burkert.com.cn/cn/type/8071",
+      "desc": "通径范围：DN6-DN80；工作压力：—；适用行业：化工、石化、润滑油",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "流量传感器",
+        "target_industries": [
+          "化工",
+          "石化",
+          "润滑油"
+        ],
+        "dn_range": "DN6-DN80",
+        "pressure_range": "—",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Bürkert 流量传感器 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "d21dd49c",
+      "company": "Bürkert",
+      "name": "Type 8098 - FLOWave卫生声波流量计",
+      "type_no": "8098",
+      "url": "https://www.burkert.com.cn/cn/type/8098",
+      "desc": "通径范围：DN15-DN80；工作压力：—；适用行业：制药、食品饮料、生物制品",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "流量计",
+        "target_industries": [
+          "制药",
+          "食品饮料",
+          "生物制品"
+        ],
+        "dn_range": "DN15-DN80",
+        "pressure_range": "—",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 流量计 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "9d79689a",
+      "company": "Bürkert",
+      "name": "Type 8201 - pH传感器（卫生级）",
+      "type_no": "8201",
+      "url": "https://www.burkert.com.cn/cn/type/8201",
+      "desc": "通径范围：—；工作压力：—；适用行业：制药、食品饮料、水处理",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "分析传感器",
+        "target_industries": [
+          "制药",
+          "食品饮料",
           "水处理"
         ],
+        "dn_range": "—",
+        "pressure_range": "—",
         "key_features": [
-          "气动驱动快速开关",
-          "流体直通流阻小",
-          "适用高温高压工况"
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Bürkert 分析传感器 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "30041595",
+      "company": "Bürkert",
+      "name": "Type 8220 - 电导率传感器",
+      "type_no": "8220",
+      "url": "https://www.burkert.com.cn/cn/type/8220",
+      "desc": "通径范围：—；工作压力：—；适用行业：水处理、制药、食品饮料",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "分析传感器",
+        "target_industries": [
+          "水处理",
+          "制药",
+          "食品饮料"
+        ],
+        "dn_range": "—",
+        "pressure_range": "—",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Bürkert 分析传感器 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "95d47a76",
+      "company": "Bürkert",
+      "name": "Type 8221 - 卫生级电导率传感器",
+      "type_no": "8221",
+      "url": "https://www.burkert.com.cn/cn/type/8221",
+      "desc": "通径范围：—；工作压力：—；适用行业：制药、食品饮料、生物制品",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "分析传感器",
+        "target_industries": [
+          "制药",
+          "食品饮料",
+          "生物制品"
+        ],
+        "dn_range": "—",
+        "pressure_range": "—",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Bürkert 分析传感器 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "e787677b",
+      "company": "Bürkert",
+      "name": "Type 8311 - 压力传感器",
+      "type_no": "8311",
+      "url": "https://www.burkert.com.cn/cn/type/8311",
+      "desc": "通径范围：0-400bar；工作压力：—；适用行业：通用工业、食品饮料、化工",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "压力传感器",
+        "target_industries": [
+          "通用工业",
+          "食品饮料",
+          "化工"
+        ],
+        "dn_range": "0-400bar",
+        "pressure_range": "—",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 压力传感器 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "05b2021e",
+      "company": "Bürkert",
+      "name": "Type 8314 - 卫生级压力变送器",
+      "type_no": "8314",
+      "url": "https://www.burkert.com.cn/cn/type/8314",
+      "desc": "通径范围：0-25bar；工作压力：—；适用行业：制药、食品饮料、生物制品",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "压力传感器",
+        "target_industries": [
+          "制药",
+          "食品饮料",
+          "生物制品"
+        ],
+        "dn_range": "0-25bar",
+        "pressure_range": "—",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 压力传感器 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "b9935d15",
+      "company": "Bürkert",
+      "name": "Type 8316 - 高精度压力传感器",
+      "type_no": "8316",
+      "url": "https://www.burkert.com.cn/cn/type/8316",
+      "desc": "通径范围：0-40bar；工作压力：—；适用行业：实验室、分析、半导体",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "压力传感器",
+        "target_industries": [
+          "实验室",
+          "分析",
+          "半导体"
+        ],
+        "dn_range": "0-40bar",
+        "pressure_range": "—",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 压力传感器 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "229143b6",
+      "company": "Bürkert",
+      "name": "Type 8417 - PT100温度传感器",
+      "type_no": "8417",
+      "url": "https://www.burkert.com.cn/cn/type/8417",
+      "desc": "通径范围：0-150°C；工作压力：—；适用行业：食品饮料、制药、化工",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "温度传感器",
+        "target_industries": [
+          "食品饮料",
+          "制药",
+          "化工"
+        ],
+        "dn_range": "0-150°C",
+        "pressure_range": "—",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Bürkert 温度传感器 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "d1233bc2",
+      "company": "Bürkert",
+      "name": "Type 8630 - 卫生级电感电导率传感器",
+      "type_no": "8630",
+      "url": "https://www.burkert.com.cn/cn/type/8630",
+      "desc": "通径范围：—；工作压力：—；适用行业：制药、水处理、食品饮料",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "分析传感器",
+        "target_industries": [
+          "制药",
+          "水处理",
+          "食品饮料"
+        ],
+        "dn_range": "—",
+        "pressure_range": "—",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Bürkert 分析传感器 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "e1d1351f",
+      "company": "Bürkert",
+      "name": "Type 8635 - 阀门定位器",
+      "type_no": "8635",
+      "url": "https://www.burkert.com.cn/cn/type/8635",
+      "desc": "通径范围：—；工作压力：—；适用行业：化工、石化、制药",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "定位器",
+        "target_industries": [
+          "化工",
+          "石化",
+          "制药",
+          "食品饮料"
+        ],
+        "dn_range": "—",
+        "pressure_range": "—",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Bürkert 定位器 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "50052392",
+      "company": "Bürkert",
+      "name": "Type 8692 - 电气定位器",
+      "type_no": "8692",
+      "url": "https://www.burkert.com.cn/cn/type/8692",
+      "desc": "通径范围：—；工作压力：—；适用行业：化工、石化、制药",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "定位器",
+        "target_industries": [
+          "化工",
+          "石化",
+          "制药",
+          "食品饮料"
+        ],
+        "dn_range": "—",
+        "pressure_range": "—",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Bürkert 定位器 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "f718d709",
+      "company": "Bürkert",
+      "name": "Type 8694 - 过程控制器",
+      "type_no": "8694",
+      "url": "https://www.burkert.com.cn/cn/type/8694",
+      "desc": "通径范围：—；工作压力：—；适用行业：制药、食品饮料、化工",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "控制器",
+        "target_industries": [
+          "制药",
+          "食品饮料",
+          "化工"
+        ],
+        "dn_range": "—",
+        "pressure_range": "—",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Bürkert 控制器 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "21d2c76e",
+      "company": "Bürkert",
+      "name": "Type 8719 - 阀门控制头（卫生级）",
+      "type_no": "8719",
+      "url": "https://www.burkert.com.cn/cn/type/8719",
+      "desc": "通径范围：—；工作压力：—；适用行业：制药、食品饮料、生物制品",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "控制头",
+        "target_industries": [
+          "制药",
+          "食品饮料",
+          "生物制品"
+        ],
+        "dn_range": "—",
+        "pressure_range": "—",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 控制头 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "47a7c2b9",
+      "company": "Bürkert",
+      "name": "Type 8802 - 卫生级过程控制器",
+      "type_no": "8802",
+      "url": "https://www.burkert.com.cn/cn/type/8802",
+      "desc": "通径范围：—；工作压力：—；适用行业：制药、食品饮料、生物制品",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "控制器",
+        "target_industries": [
+          "制药",
+          "食品饮料",
+          "生物制品"
+        ],
+        "dn_range": "—",
+        "pressure_range": "—",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Bürkert 控制器 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "8a99aa62",
+      "company": "Bürkert",
+      "name": "Type 8681 - 质量流量控制器",
+      "type_no": "8681",
+      "url": "https://www.burkert.com.cn/cn/type/8681",
+      "desc": "通径范围：0-1000slm；工作压力：—；适用行业：半导体、实验室、氢能",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "质量流量控制器",
+        "target_industries": [
+          "半导体",
+          "实验室",
+          "氢能"
+        ],
+        "dn_range": "0-1000slm",
+        "pressure_range": "—",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 质量流量控制器 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "7ee689a8",
+      "company": "Bürkert",
+      "name": "AirLINE阀岛系统",
+      "type_no": "AirLINE",
+      "url": "https://www.burkert.com.cn/cn/type/AirLINE",
+      "desc": "通径范围：—；工作压力：—；适用行业：制药、食品饮料、化工",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "阀岛/控制系统",
+        "target_industries": [
+          "制药",
+          "食品饮料",
+          "化工",
+          "工业自动化"
+        ],
+        "dn_range": "—",
+        "pressure_range": "—",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Bürkert 阀岛/控制系统 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "529a9322",
+      "company": "Bürkert",
+      "name": "通信网关",
+      "type_no": "ME63",
+      "url": "https://www.burkert.com.cn/cn/type/ME63",
+      "desc": "通径范围：—；工作压力：—；适用行业：制药、食品饮料、半导体",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "工业通信",
+        "target_industries": [
+          "制药",
+          "食品饮料",
+          "半导体",
+          "工业自动化"
+        ],
+        "dn_range": "—",
+        "pressure_range": "—",
+        "key_features": [
+          "德国原装品质",
+          "系统集成能力强",
+          "全球认证体系完善"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Bürkert 工业通信 全球领先，太仓本地化制造，响应快",
+        "opportunity": "价格比 Bürkert 低 30-50%，交期更短"
+      }
+    },
+    {
+      "id": "81c00043",
+      "company": "Gemü",
+      "name": "Series 515 - 无菌隔膜阀（SUMONDO一次性）",
+      "series": "Series 515",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN6-DN50；工作压力：0-6bar；认证：USP VI，ASME BPE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "一次性隔膜阀",
+        "target_industries": [
+          "制药",
+          "生物制品"
+        ],
+        "dn_range": "DN6-DN50",
+        "pressure_range": "0-6bar",
+        "certifications": "USP VI，ASME BPE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Gemü 一次性隔膜阀 在制药有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "b810ae94",
+      "company": "Gemü",
+      "name": "Series 500 - 卫生级隔膜阀（不锈钢）",
+      "series": "Series 500",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN10-DN100；工作压力：0-10bar；认证：3A，EHEDG，FDA",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "隔膜阀",
+        "target_industries": [
+          "制药",
+          "食品饮料",
+          "生物制品"
+        ],
+        "dn_range": "DN10-DN100",
+        "pressure_range": "0-10bar",
+        "certifications": "3A，EHEDG，FDA",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Gemü 隔膜阀 在制药有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "904b2193",
+      "company": "Gemü",
+      "name": "Series 505 - 隔膜阀（不锈钢，全孔）",
+      "series": "Series 505",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN25-DN100；工作压力：0-10bar；认证：ASME BPE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "隔膜阀",
+        "target_industries": [
+          "制药",
+          "化工"
+        ],
+        "dn_range": "DN25-DN100",
+        "pressure_range": "0-10bar",
+        "certifications": "ASME BPE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Gemü 隔膜阀 在制药有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "960ac4a0",
+      "company": "Gemü",
+      "name": "Series 600 - 工业级金属隔膜阀",
+      "series": "Series 600",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN10-DN100；工作压力：0-10bar；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "隔膜阀",
+        "target_industries": [
+          "化工",
+          "水处理",
+          "石化"
+        ],
+        "dn_range": "DN10-DN100",
+        "pressure_range": "0-10bar",
+        "certifications": "CE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 隔膜阀 在化工有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "1cd02a98",
+      "company": "Gemü",
+      "name": "Series 614 - 衬氟隔膜阀（PTFE/PFA）",
+      "series": "Series 614",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN15-DN100；工作压力：0-6bar；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "隔膜阀",
+        "target_industries": [
+          "化工",
+          "半导体",
+          "超纯"
+        ],
+        "dn_range": "DN15-DN100",
+        "pressure_range": "0-6bar",
+        "certifications": "CE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 隔膜阀 在化工有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "018e5ca5",
+      "company": "Gemü",
+      "name": "Series 620 - 塑料隔膜阀（PVC/PP/PVDF）",
+      "series": "Series 620",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN15-DN80；工作压力：0-6bar；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "隔膜阀",
+        "target_industries": [
+          "化工",
+          "水处理",
+          "半导体"
+        ],
+        "dn_range": "DN15-DN80",
+        "pressure_range": "0-6bar",
+        "certifications": "CE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "中高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 隔膜阀 在化工有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "3d18f660",
+      "company": "Gemü",
+      "name": "Series 635 - 超纯塑料隔膜阀（PFA）",
+      "series": "Series 635",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN6-DN25；工作压力：0-6bar；认证：SEMI",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "隔膜阀",
+        "target_industries": [
+          "半导体",
+          "超纯水"
+        ],
+        "dn_range": "DN6-DN25",
+        "pressure_range": "0-6bar",
+        "certifications": "SEMI",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 隔膜阀 在半导体有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "37093d4c",
+      "company": "Gemü",
+      "name": "Series 651 - 小口径金属隔膜阀",
+      "series": "Series 651",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN4-DN25；工作压力：0-10bar；认证：ASME BPE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "隔膜阀",
+        "target_industries": [
+          "制药",
+          "生物制品"
+        ],
+        "dn_range": "DN4-DN25",
+        "pressure_range": "0-10bar",
+        "certifications": "ASME BPE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Gemü 隔膜阀 在制药有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "c2011fca",
+      "company": "Gemü",
+      "name": "Series 653 - 金属工业隔膜阀",
+      "series": "Series 653",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN10-DN100；工作压力：0-10bar；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "隔膜阀",
+        "target_industries": [
+          "化工",
+          "水处理"
+        ],
+        "dn_range": "DN10-DN100",
+        "pressure_range": "0-10bar",
+        "certifications": "CE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 隔膜阀 在化工有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "baa1370a",
+      "company": "Gemü",
+      "name": "Series 660 - 饮料行业专用隔膜阀",
+      "series": "Series 660",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN25-DN100；工作压力：0-10bar；认证：3A，EHEDG",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "隔膜阀",
+        "target_industries": [
+          "食品饮料",
+          "啤酒",
+          "乳品"
+        ],
+        "dn_range": "DN25-DN100",
+        "pressure_range": "0-10bar",
+        "certifications": "3A，EHEDG",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 隔膜阀 在食品饮料有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "f370f4d9",
+      "company": "Gemü",
+      "name": "Series 670 - 塞型隔膜阀（PTFE/PVDF）",
+      "series": "Series 670",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN4-DN10；工作压力：0-6bar；认证：SEMI",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "隔膜阀",
+        "target_industries": [
+          "半导体",
+          "超纯"
+        ],
+        "dn_range": "DN4-DN10",
+        "pressure_range": "0-6bar",
+        "certifications": "SEMI",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 隔膜阀 在半导体有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "a294fbf0",
+      "company": "Gemü",
+      "name": "Series 677 - 塑料手动隔膜阀",
+      "series": "Series 677",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN15-DN50；工作压力：0-6bar；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "隔膜阀",
+        "target_industries": [
+          "化工",
+          "水处理"
+        ],
+        "dn_range": "DN15-DN50",
+        "pressure_range": "0-6bar",
+        "certifications": "CE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "中高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 隔膜阀 在化工有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "869fb12c",
+      "company": "Gemü",
+      "name": "Series C60 - 塑料气动隔膜阀（PFA）",
+      "series": "Series C60",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN4-DN25；工作压力：0-6bar；认证：SEMI",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "隔膜阀",
+        "target_industries": [
+          "半导体",
+          "超纯化学品"
+        ],
+        "dn_range": "DN4-DN25",
+        "pressure_range": "0-6bar",
+        "certifications": "SEMI",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 隔膜阀 在半导体有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "c48d5f6b",
+      "company": "Gemü",
+      "name": "Series R686 - 隔膜调节阀",
+      "series": "Series R686",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN15-DN50；工作压力：0-10bar；认证：ASME BPE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "隔膜调节阀",
+        "target_industries": [
+          "制药",
+          "生物制品",
+          "食品饮料"
+        ],
+        "dn_range": "DN15-DN50",
+        "pressure_range": "0-10bar",
+        "certifications": "ASME BPE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 隔膜调节阀 在制药有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "f71bc151",
+      "company": "Gemü",
+      "name": "Series 481 - 衬胶蝶阀（气动）",
+      "series": "Series 481",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN25-DN600；工作压力：0-16bar；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "蝶阀",
+        "target_industries": [
+          "化工",
+          "水处理",
+          "食品饮料"
+        ],
+        "dn_range": "DN25-DN600",
+        "pressure_range": "0-16bar",
+        "certifications": "CE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "中高端",
+        "threat_level": 3,
+        "threat_reason": "Gemü 蝶阀 在化工有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "cc07e095",
+      "company": "Gemü",
+      "name": "Series 487 - 衬胶蝶阀（手动）",
+      "series": "Series 487",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN25-DN600；工作压力：0-16bar；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "蝶阀",
+        "target_industries": [
+          "化工",
+          "水处理"
+        ],
+        "dn_range": "DN25-DN600",
+        "pressure_range": "0-16bar",
+        "certifications": "CE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "中高端",
+        "threat_level": 3,
+        "threat_reason": "Gemü 蝶阀 在化工有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "99ecc47f",
+      "company": "Gemü",
+      "name": "Series 491 - 衬氟蝶阀（气动）",
+      "series": "Series 491",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN40-DN900；工作压力：0-10bar；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "蝶阀",
+        "target_industries": [
+          "化工",
+          "腐蚀性介质"
+        ],
+        "dn_range": "DN40-DN900",
+        "pressure_range": "0-10bar",
+        "certifications": "CE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 3,
+        "threat_reason": "Gemü 蝶阀 在化工有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "8ca4d7a7",
+      "company": "Gemü",
+      "name": "Series 497 - 衬氟蝶阀（手动）",
+      "series": "Series 497",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN40-DN900；工作压力：0-10bar；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "蝶阀",
+        "target_industries": [
+          "化工",
+          "腐蚀性介质"
+        ],
+        "dn_range": "DN40-DN900",
+        "pressure_range": "0-10bar",
+        "certifications": "CE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 3,
+        "threat_reason": "Gemü 蝶阀 在化工有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "f0874cc4",
+      "company": "Gemü",
+      "name": "Series 3/47 - 蝶阀（食品饮料）",
+      "series": "Series 3/47",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN25-DN300；工作压力：0-10bar；认证：3A，EHEDG",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "蝶阀",
+        "target_industries": [
+          "食品饮料",
+          "制药"
+        ],
+        "dn_range": "DN25-DN300",
+        "pressure_range": "0-10bar",
+        "certifications": "3A，EHEDG",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "中高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 蝶阀 在食品饮料有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "3e05aa40",
+      "company": "Gemü",
+      "name": "TUGELA - 三偏心蝶阀",
+      "series": "TUGELA",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN50-DN600；工作压力：ASME 300；认证：API 609",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "蝶阀",
+        "target_industries": [
+          "石化",
+          "电力",
+          "化工"
+        ],
+        "dn_range": "DN50-DN600",
+        "pressure_range": "ASME 300",
+        "certifications": "API 609",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 3,
+        "threat_reason": "Gemü 蝶阀 在石化有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "bc05941d",
+      "company": "Gemü",
+      "name": "Inga - 中线蝶阀（通用型）",
+      "series": "Inga",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN50-DN400；工作压力：0-16bar；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "蝶阀",
+        "target_industries": [
+          "化工",
+          "水处理"
+        ],
+        "dn_range": "DN50-DN400",
+        "pressure_range": "0-16bar",
+        "certifications": "CE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "中高端",
+        "threat_level": 3,
+        "threat_reason": "Gemü 蝶阀 在化工有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "bc7f1e0e",
+      "company": "Gemü",
+      "name": "Series 554 - 角座球阀（气动）",
+      "series": "Series 554",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN15-DN80；工作压力：0-10bar；认证：3A，EHEDG",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "角座阀",
+        "target_industries": [
+          "制药",
+          "食品饮料",
+          "化工"
+        ],
+        "dn_range": "DN15-DN80",
+        "pressure_range": "0-10bar",
+        "certifications": "3A，EHEDG",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 角座阀 在制药有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "3fe06761",
+      "company": "Gemü",
+      "name": "Type 1435 - 截止调节阀",
+      "series": "Type 1435",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN15-DN150；工作压力：0-40bar；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "截止调节阀",
+        "target_industries": [
+          "石化",
+          "化工",
+          "蒸汽"
+        ],
+        "dn_range": "DN15-DN150",
+        "pressure_range": "0-40bar",
+        "certifications": "CE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 截止调节阀 在石化有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "eb20818f",
+      "company": "Gemü",
+      "name": "Type 1436 - 截止调节阀（经济版）",
+      "series": "Type 1436",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN15-DN100；工作压力：0-40bar；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "截止调节阀",
+        "target_industries": [
+          "化工",
+          "蒸汽"
+        ],
+        "dn_range": "DN15-DN100",
+        "pressure_range": "0-40bar",
+        "certifications": "CE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "中高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 截止调节阀 在化工有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "4162e8ee",
+      "company": "Gemü",
+      "name": "Series 612 - 球阀（不锈钢手动）",
+      "series": "Series 612",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN15-DN100；工作压力：0-40bar；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "球阀",
+        "target_industries": [
+          "制药",
+          "食品饮料",
+          "化工"
+        ],
+        "dn_range": "DN15-DN100",
+        "pressure_range": "0-40bar",
+        "certifications": "CE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "中高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 球阀 在制药有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "84abcdf3",
+      "company": "Gemü",
+      "name": "Series 618 - 卫生级球阀",
+      "series": "Series 618",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN15-DN50；工作压力：0-10bar；认证：3A，EHEDG",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "球阀",
+        "target_industries": [
+          "食品饮料",
+          "制药"
+        ],
+        "dn_range": "DN15-DN50",
+        "pressure_range": "0-10bar",
+        "certifications": "3A，EHEDG",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 球阀 在食品饮料有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "91be7132",
+      "company": "Gemü",
+      "name": "Series 2014 - 两位两通电磁阀",
+      "series": "Series 2014",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN2-DN20；工作压力：0-10bar；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "电磁阀",
+        "target_industries": [
+          "通用工业",
+          "化工"
+        ],
+        "dn_range": "DN2-DN20",
+        "pressure_range": "0-10bar",
+        "certifications": "CE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "中高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 电磁阀 在通用工业有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "7ced5052",
+      "company": "Gemü",
+      "name": "Series 2028 - 比例电磁阀",
+      "series": "Series 2028",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN2-DN20；工作压力：0-6bar；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "比例阀",
+        "target_industries": [
+          "化工",
+          "工业自动化"
+        ],
+        "dn_range": "DN2-DN20",
+        "pressure_range": "0-6bar",
+        "certifications": "CE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 比例阀 在化工有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "e5dfd663",
+      "company": "Gemü",
+      "name": "Series 561 - 不锈钢止回阀",
+      "series": "Series 561",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN10-DN100；工作压力：0-16bar；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "止回阀",
+        "target_industries": [
+          "制药",
+          "食品饮料",
+          "化工"
+        ],
+        "dn_range": "DN10-DN100",
+        "pressure_range": "0-16bar",
+        "certifications": "CE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "中高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 止回阀 在制药有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "bf8cf218",
+      "company": "Gemü",
+      "name": "Series 580 - 塑料止回阀",
+      "series": "Series 580",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN15-DN100；工作压力：0-10bar；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "止回阀",
+        "target_industries": [
+          "化工",
+          "水处理"
+        ],
+        "dn_range": "DN15-DN100",
+        "pressure_range": "0-10bar",
+        "certifications": "CE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "中端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 止回阀 在化工有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "8b8dcdca",
+      "company": "Gemü",
+      "name": "Multi-port valve - 多通道隔膜阀组",
+      "series": "Multi-port valve",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：定制；工作压力：0-10bar；认证：ASME BPE，3A",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "多通道阀",
+        "target_industries": [
+          "制药",
+          "生物制品"
+        ],
+        "dn_range": "定制",
+        "pressure_range": "0-10bar",
+        "certifications": "ASME BPE，3A",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Gemü 多通道阀 在制药有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "366f920b",
+      "company": "Gemü",
+      "name": "Tank bottom valve - 罐底阀",
+      "series": "Tank bottom valve",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN25-DN100；工作压力：0-10bar；认证：3A，EHEDG",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "罐底阀",
+        "target_industries": [
+          "食品饮料",
+          "制药",
+          "乳品"
+        ],
+        "dn_range": "DN25-DN100",
+        "pressure_range": "0-10bar",
+        "certifications": "3A，EHEDG",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 5,
+        "threat_reason": "Gemü 罐底阀 在食品饮料有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "b65f7cd3",
+      "company": "Gemü",
+      "name": "T-valve - T型采样阀",
+      "series": "T-valve",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN6-DN25；工作压力：0-10bar；认证：ASME BPE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "采样阀",
+        "target_industries": [
+          "制药",
+          "生物制品"
+        ],
+        "dn_range": "DN6-DN25",
+        "pressure_range": "0-10bar",
+        "certifications": "ASME BPE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 采样阀 在制药有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "b3c76e4e",
+      "company": "Gemü",
+      "name": "Series 817 - 转子流量计",
+      "series": "Series 817",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：—；工作压力：—；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "流量计",
+        "target_industries": [
+          "化工",
+          "水处理",
+          "食品饮料"
+        ],
+        "dn_range": "—",
+        "pressure_range": "—",
+        "certifications": "CE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 流量计 在化工有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "3e8b4e41",
+      "company": "Gemü",
+      "name": "CONEXO - CONEXO智能阀门系统",
+      "series": "CONEXO",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：—；工作压力：—；认证：Industry 4.0",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "智能控制系统",
+        "target_industries": [
+          "制药",
+          "食品饮料",
+          "化工",
+          "工业4.0"
+        ],
+        "dn_range": "—",
+        "pressure_range": "—",
+        "certifications": "Industry 4.0",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 智能控制系统 在制药有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "6612348f",
+      "company": "Gemü",
+      "name": "Series 1010 - 压力测量传感器",
+      "series": "Series 1010",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：0-400bar；工作压力：—；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "压力传感器",
+        "target_industries": [
+          "通用工业",
+          "化工"
+        ],
+        "dn_range": "0-400bar",
+        "pressure_range": "—",
+        "certifications": "CE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 压力传感器 在通用工业有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "ccdbe539",
+      "company": "Gemü",
+      "name": "Series 1018 - 卫生级压力传感器",
+      "series": "Series 1018",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：0-25bar；工作压力：—；认证：3A，EHEDG",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "压力传感器",
+        "target_industries": [
+          "制药",
+          "食品饮料"
+        ],
+        "dn_range": "0-25bar",
+        "pressure_range": "—",
+        "certifications": "3A，EHEDG",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 压力传感器 在制药有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "e0ae9e99",
+      "company": "Gemü",
+      "name": "Series 1020 - 压力和温度传感器",
+      "series": "Series 1020",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：—；工作压力：—；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "传感器",
+        "target_industries": [
+          "化工",
+          "食品饮料"
+        ],
+        "dn_range": "—",
+        "pressure_range": "—",
+        "certifications": "CE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 传感器 在化工有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "a7b83c96",
+      "company": "Gemü",
+      "name": "Series 1022 - 卫生级温度传感器",
+      "series": "Series 1022",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：—；工作压力：—；认证：EHEDG",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "温度传感器",
+        "target_industries": [
+          "制药",
+          "食品饮料",
+          "生物制品"
+        ],
+        "dn_range": "—",
+        "pressure_range": "—",
+        "certifications": "EHEDG",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 温度传感器 在制药有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "b927e01d",
+      "company": "Gemü",
+      "name": "Series 8026 - 液位开关",
+      "series": "Series 8026",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：—；工作压力：—；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "液位传感器",
+        "target_industries": [
+          "食品饮料",
+          "化工",
+          "水处理"
+        ],
+        "dn_range": "—",
+        "pressure_range": "—",
+        "certifications": "CE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "中高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 液位传感器 在食品饮料有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "e0889d5f",
+      "company": "Gemü",
+      "name": "Positioner - 智能定位器",
+      "series": "Positioner",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：—；工作压力：—；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "定位器",
+        "target_industries": [
+          "化工",
+          "制药",
+          "食品饮料"
+        ],
+        "dn_range": "—",
+        "pressure_range": "—",
+        "certifications": "CE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 定位器 在化工有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "9f854f63",
+      "company": "Gemü",
+      "name": "Controller - 过程控制器",
+      "series": "Controller",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：—；工作压力：—；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "控制器",
+        "target_industries": [
+          "制药",
+          "食品饮料",
+          "化工"
+        ],
+        "dn_range": "—",
+        "pressure_range": "—",
+        "certifications": "CE",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 控制器 在制药有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "cd59d112",
+      "company": "Gemü",
+      "name": "Flow meter 817 - 转子流量计（卫生级）",
+      "series": "Flow meter 817",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：—；工作压力：—；认证：3A",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "流量计",
+        "target_industries": [
+          "制药",
+          "食品饮料"
+        ],
+        "dn_range": "—",
+        "pressure_range": "—",
+        "certifications": "3A",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 流量计 在制药有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "a0b4b506",
+      "company": "Gemü",
+      "name": "W72RS - 防混阀（饮料专用）",
+      "series": "W72RS",
+      "url": "https://www.gemue.com.cn/valve",
+      "desc": "通径范围：DN25-DN100；工作压力：0-10bar；认证：3A，EHEDG",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "防混阀",
+        "target_industries": [
+          "食品饮料",
+          "乳品",
+          "啤酒"
+        ],
+        "dn_range": "DN25-DN100",
+        "pressure_range": "0-10bar",
+        "certifications": "3A，EHEDG",
+        "key_features": [
+          "卫生级行业领导者",
+          "CONEXO数字化集成",
+          "上海本地工厂"
+        ],
+        "price_tier": "高端",
+        "threat_level": 4,
+        "threat_reason": "Gemü 防混阀 在食品饮料有极高市场份额",
+        "opportunity": "Gemü 价格高，交期长，可在中低端制药和食品客户突破"
+      }
+    },
+    {
+      "id": "94a10c55",
+      "company": "ESG",
+      "name": "100系列 气控角座阀（标准型）",
+      "series": "100系列",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN15-DN50；工作压力：0-16bar；认证：ISO9001，CE，FDA",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "角座阀",
+        "target_industries": [
+          "食品饮料",
+          "制药",
+          "化工",
+          "蒸汽"
+        ],
+        "dn_range": "DN15-DN50",
+        "pressure_range": "0-16bar",
+        "certifications": "ISO9001，CE，FDA",
+        "key_features": [
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
+        ],
+        "price_tier": "中高端",
+        "threat_level": 4,
+        "threat_reason": "ESG 角座阀 价格优势明显，食品饮料客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
+      }
+    },
+    {
+      "id": "1c12b270",
+      "company": "ESG",
+      "name": "101系列 气控角座阀（高温型）",
+      "series": "101系列",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN15-DN50；工作压力：0-25bar；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "角座阀",
+        "target_industries": [
+          "蒸汽系统",
+          "化工",
+          "食品饮料"
+        ],
+        "dn_range": "DN15-DN50",
+        "pressure_range": "0-25bar",
+        "certifications": "CE",
+        "key_features": [
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
+        ],
+        "price_tier": "中高端",
+        "threat_level": 4,
+        "threat_reason": "ESG 角座阀 价格优势明显，蒸汽系统客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
+      }
+    },
+    {
+      "id": "a87e512e",
+      "company": "ESG",
+      "name": "102系列 气控角座阀（低温型）",
+      "series": "102系列",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN15-DN50；工作压力：0-16bar；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "角座阀",
+        "target_industries": [
+          "食品饮料",
+          "冷链",
+          "乳品"
+        ],
+        "dn_range": "DN15-DN50",
+        "pressure_range": "0-16bar",
+        "certifications": "CE",
+        "key_features": [
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
+        ],
+        "price_tier": "中高端",
+        "threat_level": 4,
+        "threat_reason": "ESG 角座阀 价格优势明显，食品饮料客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
+      }
+    },
+    {
+      "id": "ea290286",
+      "company": "ESG",
+      "name": "103系列 气控角座阀（316L卫生级）",
+      "series": "103系列",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN15-DN50；工作压力：0-10bar；认证：FDA，CE，3A",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "角座阀",
+        "target_industries": [
+          "制药",
+          "食品饮料",
+          "生物制品"
+        ],
+        "dn_range": "DN15-DN50",
+        "pressure_range": "0-10bar",
+        "certifications": "FDA，CE，3A",
+        "key_features": [
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
+        ],
+        "price_tier": "中高端",
+        "threat_level": 4,
+        "threat_reason": "ESG 角座阀 价格优势明显，制药客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
+      }
+    },
+    {
+      "id": "6d88a339",
+      "company": "ESG",
+      "name": "105系列 比例调节角座阀",
+      "series": "105系列",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN15-DN50；工作压力：0-10bar；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "角座调节阀",
+        "target_industries": [
+          "食品饮料",
+          "制药",
+          "化工"
+        ],
+        "dn_range": "DN15-DN50",
+        "pressure_range": "0-10bar",
+        "certifications": "CE",
+        "key_features": [
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
+        ],
+        "price_tier": "中高端",
+        "threat_level": 3,
+        "threat_reason": "ESG 角座调节阀 价格优势明显，食品饮料客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
+      }
+    },
+    {
+      "id": "1fb433fe",
+      "company": "ESG",
+      "name": "108系列 排水阀",
+      "series": "108系列",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN20-DN50；工作压力：0-10bar；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "排水阀",
+        "target_industries": [
+          "蒸汽系统",
+          "食品饮料"
+        ],
+        "dn_range": "DN20-DN50",
+        "pressure_range": "0-10bar",
+        "certifications": "CE",
+        "key_features": [
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
         ],
         "price_tier": "中端",
         "threat_level": 3,
-        "threat_reason": "通用型角座阀，价格竞争力强",
-        "opportunity": "强化卫生级认证和定制化服务"
+        "threat_reason": "ESG 排水阀 价格优势明显，蒸汽系统客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
       }
     },
     {
-      "id": "2a844691",
+      "id": "6c171b4e",
       "company": "ESG",
-      "name": "比例调节角座阀",
-      "url": "https://www.esgvalve.cn/product/proportional-control-angle-seat-valve.html",
-      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
-      "source": "esgvalve.cn",
+      "name": "109系列 排气阀",
+      "series": "109系列",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN15-DN40；工作压力：0-10bar；认证：CE",
+      "source": "knowledge_base",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "排气阀",
         "target_industries": [
-          "通用工业"
+          "蒸汽系统",
+          "化工"
         ],
+        "dn_range": "DN15-DN40",
+        "pressure_range": "0-10bar",
+        "certifications": "CE",
         "key_features": [
-          "待补充"
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
+        ],
+        "price_tier": "中端",
+        "threat_level": 3,
+        "threat_reason": "ESG 排气阀 价格优势明显，蒸汽系统客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
+      }
+    },
+    {
+      "id": "b80d6de5",
+      "company": "ESG",
+      "name": "110系列 多通道角座阀（T型）",
+      "series": "110系列",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN15-DN40；工作压力：0-10bar；认证：CE，FDA",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "多通道阀",
+        "target_industries": [
+          "食品饮料",
+          "制药"
+        ],
+        "dn_range": "DN15-DN40",
+        "pressure_range": "0-10bar",
+        "certifications": "CE，FDA",
+        "key_features": [
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
         ],
         "price_tier": "中高端",
         "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "ESG 多通道阀 价格优势明显，食品饮料客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
       }
     },
     {
-      "id": "5a988bae",
+      "id": "1ef975ee",
       "company": "ESG",
-      "name": "多通道角座阀",
-      "url": "https://www.esgvalve.cn/product/multi-channel-valve.html",
-      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
-      "source": "esgvalve.cn",
+      "name": "111系列 多通道角座阀（L型）",
+      "series": "111系列",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN15-DN40；工作压力：0-10bar；认证：CE，FDA",
+      "source": "knowledge_base",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "多通道阀",
         "target_industries": [
-          "通用工业"
+          "食品饮料",
+          "制药"
         ],
+        "dn_range": "DN15-DN40",
+        "pressure_range": "0-10bar",
+        "certifications": "CE，FDA",
         "key_features": [
-          "待补充"
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
         ],
         "price_tier": "中高端",
         "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "ESG 多通道阀 价格优势明显，食品饮料客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
       }
     },
     {
-      "id": "30f4d790",
+      "id": "e77a38da",
       "company": "ESG",
-      "name": "灌装阀",
-      "url": "https://www.esgvalve.cn/product/filling-valve.html",
-      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
-      "source": "esgvalve.cn",
+      "name": "200系列 气控隔膜阀（卫生级）",
+      "series": "200系列",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN15-DN100；工作压力：0-10bar；认证：FDA，CE，ASME BPE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "隔膜阀",
+        "target_industries": [
+          "制药",
+          "食品饮料",
+          "生物制品",
+          "发酵"
+        ],
+        "dn_range": "DN15-DN100",
+        "pressure_range": "0-10bar",
+        "certifications": "FDA，CE，ASME BPE",
+        "key_features": [
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
+        ],
+        "price_tier": "中高端",
+        "threat_level": 4,
+        "threat_reason": "ESG 隔膜阀 价格优势明显，制药客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
+      }
+    },
+    {
+      "id": "b94dcd60",
+      "company": "ESG",
+      "name": "201系列 手动隔膜阀（卫生级）",
+      "series": "201系列",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN15-DN80；工作压力：0-10bar；认证：FDA，CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "隔膜阀",
+        "target_industries": [
+          "制药",
+          "食品饮料"
+        ],
+        "dn_range": "DN15-DN80",
+        "pressure_range": "0-10bar",
+        "certifications": "FDA，CE",
+        "key_features": [
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
+        ],
+        "price_tier": "中高端",
+        "threat_level": 3,
+        "threat_reason": "ESG 隔膜阀 价格优势明显，制药客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
+      }
+    },
+    {
+      "id": "1bdf5fa6",
+      "company": "ESG",
+      "name": "202系列 气控罐底隔膜阀",
+      "series": "202系列",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN25-DN100；工作压力：0-10bar；认证：FDA，3A",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "罐底阀",
+        "target_industries": [
+          "制药",
+          "食品饮料",
+          "发酵"
+        ],
+        "dn_range": "DN25-DN100",
+        "pressure_range": "0-10bar",
+        "certifications": "FDA，3A",
+        "key_features": [
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
+        ],
+        "price_tier": "中高端",
+        "threat_level": 3,
+        "threat_reason": "ESG 罐底阀 价格优势明显，制药客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
+      }
+    },
+    {
+      "id": "9ef259df",
+      "company": "ESG",
+      "name": "210系列 梭阀（三通切换阀）",
+      "series": "210系列",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN15-DN50；工作压力：0-10bar；认证：CE，FDA",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "梭阀",
+        "target_industries": [
+          "制药",
+          "生物制品",
+          "化工"
+        ],
+        "dn_range": "DN15-DN50",
+        "pressure_range": "0-10bar",
+        "certifications": "CE，FDA",
+        "key_features": [
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
+        ],
+        "price_tier": "中高端",
+        "threat_level": 3,
+        "threat_reason": "ESG 梭阀 价格优势明显，制药客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
+      }
+    },
+    {
+      "id": "a2828f34",
+      "company": "ESG",
+      "name": "211系列 膜塞阀",
+      "series": "211系列",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN6-DN25；工作压力：0-10bar；认证：FDA，CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "膜塞阀",
+        "target_industries": [
+          "制药",
+          "食品饮料",
+          "精细化工"
+        ],
+        "dn_range": "DN6-DN25",
+        "pressure_range": "0-10bar",
+        "certifications": "FDA，CE",
+        "key_features": [
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
+        ],
+        "price_tier": "中高端",
+        "threat_level": 3,
+        "threat_reason": "ESG 膜塞阀 价格优势明显，制药客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
+      }
+    },
+    {
+      "id": "3d13b16e",
+      "company": "ESG",
+      "name": "灌装阀 灌装阀（食品饮料专用）",
+      "series": "灌装阀",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN25-DN80；工作压力：0-6bar；认证：3A，EHEDG",
+      "source": "knowledge_base",
       "scraped": "2026-04-16",
       "analysis": {
         "product_type": "灌装阀",
         "target_industries": [
           "食品饮料",
-          "制药",
-          "日化"
+          "啤酒",
+          "乳品"
         ],
+        "dn_range": "DN25-DN80",
+        "pressure_range": "0-6bar",
+        "certifications": "3A，EHEDG",
         "key_features": [
-          "卫生级设计",
-          "灌装流程专用",
-          "流体控制精度"
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
         ],
         "price_tier": "中高端",
         "threat_level": 3,
-        "threat_reason": "灌装细分领域专业化，有行业积累",
-        "opportunity": "拓展通用卫生阀市场，非灌装场景"
+        "threat_reason": "ESG 灌装阀 价格优势明显，食品饮料客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
       }
     },
     {
-      "id": "e3ad2173",
+      "id": "f3234016",
       "company": "ESG",
-      "name": "止回阀",
-      "url": "https://www.esgvalve.cn/product/check-valve.html",
-      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
-      "source": "esgvalve.cn",
+      "name": "注液阀 注液阀（锂电电解液）",
+      "series": "注液阀",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN10-DN25；工作压力：0-6bar；认证：CE",
+      "source": "knowledge_base",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "注液阀",
         "target_industries": [
-          "通用工业"
+          "锂电池",
+          "新能源"
         ],
+        "dn_range": "DN10-DN25",
+        "pressure_range": "0-6bar",
+        "certifications": "CE",
         "key_features": [
-          "待补充"
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
         ],
         "price_tier": "中高端",
         "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "ESG 注液阀 价格优势明显，锂电池客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
       }
     },
     {
-      "id": "573f055e",
+      "id": "340fc46c",
       "company": "ESG",
-      "name": "过滤器",
-      "url": "https://www.esgvalve.cn/product/filter.html",
-      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
-      "source": "esgvalve.cn",
+      "name": "注液总成 注液总成（锂电系统）",
+      "series": "注液总成",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN10-DN25；工作压力：0-6bar；认证：CE",
+      "source": "knowledge_base",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "过滤器",
+        "product_type": "注液系统",
         "target_industries": [
-          "制药",
+          "锂电池",
+          "新能源"
+        ],
+        "dn_range": "DN10-DN25",
+        "pressure_range": "0-6bar",
+        "certifications": "CE",
+        "key_features": [
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
+        ],
+        "price_tier": "中高端",
+        "threat_level": 3,
+        "threat_reason": "ESG 注液系统 价格优势明显，锂电池客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
+      }
+    },
+    {
+      "id": "32c46549",
+      "company": "ESG",
+      "name": "300系列 气控蝶阀（卫生级）",
+      "series": "300系列",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN25-DN200；工作压力：0-10bar；认证：CE，FDA",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "蝶阀",
+        "target_industries": [
           "食品饮料",
-          "生物工程",
+          "制药",
+          "水处理"
+        ],
+        "dn_range": "DN25-DN200",
+        "pressure_range": "0-10bar",
+        "certifications": "CE，FDA",
+        "key_features": [
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
+        ],
+        "price_tier": "中高端",
+        "threat_level": 3,
+        "threat_reason": "ESG 蝶阀 价格优势明显，食品饮料客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
+      }
+    },
+    {
+      "id": "b2edecb9",
+      "company": "ESG",
+      "name": "301系列 手动蝶阀",
+      "series": "301系列",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN25-DN200；工作压力：0-10bar；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "蝶阀",
+        "target_industries": [
+          "食品饮料",
+          "水处理"
+        ],
+        "dn_range": "DN25-DN200",
+        "pressure_range": "0-10bar",
+        "certifications": "CE",
+        "key_features": [
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
+        ],
+        "price_tier": "中端",
+        "threat_level": 3,
+        "threat_reason": "ESG 蝶阀 价格优势明显，食品饮料客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
+      }
+    },
+    {
+      "id": "41232200",
+      "company": "ESG",
+      "name": "400系列 气控球阀（卫生级）",
+      "series": "400系列",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN15-DN100；工作压力：0-10bar；认证：CE，FDA",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "球阀",
+        "target_industries": [
+          "食品饮料",
+          "制药",
           "化工"
         ],
+        "dn_range": "DN15-DN100",
+        "pressure_range": "0-10bar",
+        "certifications": "CE，FDA",
         "key_features": [
-          "卫生级流体过滤",
-          "符合行业认证标准",
-          "多规格产品线"
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
         ],
         "price_tier": "中高端",
-        "threat_level": 2,
-        "threat_reason": "信息不足，仅展示企业框架无技术细节",
-        "opportunity": "强化技术参数透明度和应用案例展示"
+        "threat_level": 3,
+        "threat_reason": "ESG 球阀 价格优势明显，食品饮料客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
       }
     },
     {
-      "id": "6deadfb5",
+      "id": "356e9fb8",
       "company": "ESG",
-      "name": "减压阀",
-      "url": "https://www.esgvalve.cn/product/pressure-reducing-valve.html",
-      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
-      "source": "esgvalve.cn",
+      "name": "401系列 手动球阀",
+      "series": "401系列",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN15-DN100；工作压力：0-16bar；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "球阀",
+        "target_industries": [
+          "通用工业",
+          "化工",
+          "食品饮料"
+        ],
+        "dn_range": "DN15-DN100",
+        "pressure_range": "0-16bar",
+        "certifications": "CE",
+        "key_features": [
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
+        ],
+        "price_tier": "中端",
+        "threat_level": 3,
+        "threat_reason": "ESG 球阀 价格优势明显，通用工业客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
+      }
+    },
+    {
+      "id": "b5343ee6",
+      "company": "ESG",
+      "name": "500系列 对夹式止回阀（卫生级）",
+      "series": "500系列",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN25-DN200；工作压力：0-10bar；认证：CE",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "止回阀",
+        "target_industries": [
+          "食品饮料",
+          "制药",
+          "水处理"
+        ],
+        "dn_range": "DN25-DN200",
+        "pressure_range": "0-10bar",
+        "certifications": "CE",
+        "key_features": [
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
+        ],
+        "price_tier": "中高端",
+        "threat_level": 3,
+        "threat_reason": "ESG 止回阀 价格优势明显，食品饮料客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
+      }
+    },
+    {
+      "id": "484dae31",
+      "company": "ESG",
+      "name": "501系列 焊接式止回阀",
+      "series": "501系列",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN15-DN100；工作压力：0-10bar；认证：CE，FDA",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "止回阀",
+        "target_industries": [
+          "制药",
+          "食品饮料"
+        ],
+        "dn_range": "DN15-DN100",
+        "pressure_range": "0-10bar",
+        "certifications": "CE，FDA",
+        "key_features": [
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
+        ],
+        "price_tier": "中高端",
+        "threat_level": 3,
+        "threat_reason": "ESG 止回阀 价格优势明显，制药客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
+      }
+    },
+    {
+      "id": "fa38263b",
+      "company": "ESG",
+      "name": "600系列 减压阀",
+      "series": "600系列",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN15-DN50；工作压力：0-16bar；认证：CE",
+      "source": "knowledge_base",
       "scraped": "2026-04-16",
       "analysis": {
         "product_type": "减压阀",
         "target_industries": [
-          "制药",
-          "食品饮料",
-          "生物工程",
-          "化工"
+          "蒸汽系统",
+          "化工",
+          "食品饮料"
         ],
+        "dn_range": "DN15-DN50",
+        "pressure_range": "0-16bar",
+        "certifications": "CE",
         "key_features": [
-          "压力调节功能",
-          "流体控制应用",
-          "工业级解决方案"
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
         ],
         "price_tier": "中端",
-        "threat_level": 2,
-        "threat_reason": "信息不足，仅有联系方式，产品细节不明",
-        "opportunity": "强化技术参数透明度和卫生级认证展示"
+        "threat_level": 3,
+        "threat_reason": "ESG 减压阀 价格优势明显，蒸汽系统客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
       }
     },
     {
-      "id": "6ccfcf19",
+      "id": "d8e2c618",
       "company": "ESG",
-      "name": "溢流阀",
-      "url": "https://www.esgvalve.cn/product/overflow-valve.html",
-      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
-      "source": "esgvalve.cn",
+      "name": "601系列 溢流阀",
+      "series": "601系列",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN15-DN50；工作压力：0-16bar；认证：CE",
+      "source": "knowledge_base",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "溢流阀",
         "target_industries": [
-          "通用工业"
+          "化工",
+          "蒸汽系统"
         ],
+        "dn_range": "DN15-DN50",
+        "pressure_range": "0-16bar",
+        "certifications": "CE",
         "key_features": [
-          "待补充"
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
         ],
-        "price_tier": "中高端",
+        "price_tier": "中端",
         "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "ESG 溢流阀 价格优势明显，化工客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
       }
     },
     {
-      "id": "698f74ae",
+      "id": "133ecfd5",
       "company": "ESG",
-      "name": "疏水阀",
-      "url": "https://www.esgvalve.cn/product/steam-trap.html",
-      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
-      "source": "esgvalve.cn",
+      "name": "800系列 热动力疏水阀",
+      "series": "800系列",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN15-DN50；工作压力：0-42bar；认证：CE",
+      "source": "knowledge_base",
       "scraped": "2026-04-16",
       "analysis": {
         "product_type": "疏水阀",
         "target_industries": [
           "蒸汽系统",
-          "制药",
           "食品饮料",
           "化工"
         ],
+        "dn_range": "DN15-DN50",
+        "pressure_range": "0-42bar",
+        "certifications": "CE",
         "key_features": [
-          "卫生级蒸汽系统配套",
-          "自动排除冷凝水",
-          "品牌化运营具备一定知名度"
-        ],
-        "price_tier": "中高端",
-        "threat_level": 2,
-        "threat_reason": "产品信息极少，市场影响力有限",
-        "opportunity": "提供详细技术参数和选型支持形成差异"
-      }
-    },
-    {
-      "id": "71158157",
-      "company": "ESG",
-      "name": "其它阀门",
-      "url": "https://www.esgvalve.cn/product/other-valves.html",
-      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
-      "source": "esgvalve.cn",
-      "scraped": "2026-04-16",
-      "analysis": {
-        "product_type": "其它阀门（综合类卫生级阀门）",
-        "target_industries": [
-          "食品饮料",
-          "制药",
-          "生物工程",
-          "日化"
-        ],
-        "key_features": [
-          "卫生级流体控制全品类覆盖",
-          "国产品牌本土化服务体系",
-          "具备一定品牌知名度和资质认证"
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
         ],
         "price_tier": "中高端",
         "threat_level": 3,
-        "threat_reason": "国产卫生阀门品牌成熟，性价比有竞争力",
-        "opportunity": "可在细分品类技术深度上形成差异化突破"
+        "threat_reason": "ESG 疏水阀 价格优势明显，蒸汽系统客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
       }
     },
     {
-      "id": "25c9064c",
+      "id": "43b75a05",
       "company": "ESG",
-      "name": "膜塞阀",
-      "url": "https://www.esgvalve.cn/product/membrane-plug-valve.html",
-      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
-      "source": "esgvalve.cn",
+      "name": "801系列 浮球式疏水阀",
+      "series": "801系列",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN15-DN50；工作压力：0-16bar；认证：CE",
+      "source": "knowledge_base",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "膜塞阀（隔膜阀变体）",
+        "product_type": "疏水阀",
         "target_industries": [
-          "制药",
-          "食品饮料",
-          "生物工程",
+          "蒸汽系统",
           "化工"
         ],
+        "dn_range": "DN15-DN50",
+        "pressure_range": "0-16bar",
+        "certifications": "CE",
         "key_features": [
-          "膜片密封技术",
-          "卫生级流体控制",
-          "无死角设计"
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
         ],
-        "price_tier": "中高端",
+        "price_tier": "中端",
         "threat_level": 3,
-        "threat_reason": "国内品牌，性价比优势，卫生级市场渗透",
-        "opportunity": "强化进口品质认证，突出材料溯源体系"
+        "threat_reason": "ESG 疏水阀 价格优势明显，蒸汽系统客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
       }
     },
     {
-      "id": "1323491e",
+      "id": "643ac34b",
       "company": "ESG",
-      "name": "注液阀",
-      "url": "https://www.esgvalve.cn/product/vacuum-filling-valve.html",
-      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
-      "source": "esgvalve.cn",
+      "name": "802系列 双金属疏水阀",
+      "series": "802系列",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN15-DN50；工作压力：0-32bar；认证：CE",
+      "source": "knowledge_base",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "疏水阀",
         "target_industries": [
-          "通用工业"
+          "蒸汽系统",
+          "化工"
         ],
+        "dn_range": "DN15-DN50",
+        "pressure_range": "0-32bar",
+        "certifications": "CE",
         "key_features": [
-          "待补充"
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
         ],
         "price_tier": "中高端",
         "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "ESG 疏水阀 价格优势明显，蒸汽系统客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
       }
     },
     {
-      "id": "940786eb",
+      "id": "dfc762fe",
       "company": "ESG",
-      "name": "注液总成",
-      "url": "https://www.esgvalve.cn/product/liquid-injection-assembly.html",
-      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
-      "source": "esgvalve.cn",
+      "name": "900系列 平衡阀",
+      "series": "900系列",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN15-DN100；工作压力：0-16bar；认证：CE",
+      "source": "knowledge_base",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "平衡阀",
         "target_industries": [
-          "通用工业"
+          "暖通",
+          "水处理",
+          "能源"
         ],
+        "dn_range": "DN15-DN100",
+        "pressure_range": "0-16bar",
+        "certifications": "CE",
         "key_features": [
-          "待补充"
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
         ],
-        "price_tier": "中高端",
+        "price_tier": "中端",
         "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "ESG 平衡阀 价格优势明显，暖通客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
       }
     },
     {
-      "id": "019ff8e5",
+      "id": "a1c28a70",
       "company": "ESG",
-      "name": "三通梭阀",
-      "url": "https://www.esgvalve.cn/product/shuttle-valves.html",
-      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
-      "source": "esgvalve.cn",
+      "name": "908系列 排水阀（蒸汽系统）",
+      "series": "908系列",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN20-DN50；工作压力：0-16bar；认证：CE",
+      "source": "knowledge_base",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "排水阀",
         "target_industries": [
-          "通用工业"
+          "蒸汽系统",
+          "食品饮料",
+          "制药"
         ],
+        "dn_range": "DN20-DN50",
+        "pressure_range": "0-16bar",
+        "certifications": "CE",
         "key_features": [
-          "待补充"
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
         ],
         "price_tier": "中高端",
         "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "ESG 排水阀 价格优势明显，蒸汽系统客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
       }
     },
     {
-      "id": "50fa9975",
+      "id": "27b04781",
       "company": "ESG",
-      "name": "切断阀",
-      "url": "https://www.esgvalve.cn/product/shut-off-valve.html",
-      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
-      "source": "esgvalve.cn",
+      "name": "过滤器Y型 Y型不锈钢过滤器",
+      "series": "过滤器Y型",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN15-DN100；工作压力：0-16bar；认证：CE",
+      "source": "knowledge_base",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "过滤器",
         "target_industries": [
-          "通用工业"
+          "食品饮料",
+          "制药",
+          "化工"
         ],
+        "dn_range": "DN15-DN100",
+        "pressure_range": "0-16bar",
+        "certifications": "CE",
         "key_features": [
-          "待补充"
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
+        ],
+        "price_tier": "中端",
+        "threat_level": 3,
+        "threat_reason": "ESG 过滤器 价格优势明显，食品饮料客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
+      }
+    },
+    {
+      "id": "9dd549be",
+      "company": "ESG",
+      "name": "过滤器T型 T型不锈钢过滤器",
+      "series": "过滤器T型",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN15-DN80；工作压力：0-10bar；认证：CE，FDA",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "过滤器",
+        "target_industries": [
+          "食品饮料",
+          "制药"
+        ],
+        "dn_range": "DN15-DN80",
+        "pressure_range": "0-10bar",
+        "certifications": "CE，FDA",
+        "key_features": [
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
+        ],
+        "price_tier": "中端",
+        "threat_level": 3,
+        "threat_reason": "ESG 过滤器 价格优势明显，食品饮料客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
+      }
+    },
+    {
+      "id": "a6152fd3",
+      "company": "ESG",
+      "name": "锂电专用阀 锂电电解液专用控制阀",
+      "series": "锂电专用阀",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN10-DN50；工作压力：0-6bar；认证：CE，ISO9001",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "专用阀",
+        "target_industries": [
+          "锂电池",
+          "新能源"
+        ],
+        "dn_range": "DN10-DN50",
+        "pressure_range": "0-6bar",
+        "certifications": "CE，ISO9001",
+        "key_features": [
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
         ],
         "price_tier": "中高端",
         "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "ESG 专用阀 价格优势明显，锂电池客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
+      }
+    },
+    {
+      "id": "900c6599",
+      "company": "ESG",
+      "name": "核级角座阀 核级角座阀（TS认证）",
+      "series": "核级角座阀",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN15-DN50；工作压力：0-25bar；认证：TS，CE，ISO9001",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "角座阀",
+        "target_industries": [
+          "核电"
+        ],
+        "dn_range": "DN15-DN50",
+        "pressure_range": "0-25bar",
+        "certifications": "TS，CE，ISO9001",
+        "key_features": [
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
+        ],
+        "price_tier": "高端",
+        "threat_level": 3,
+        "threat_reason": "ESG 角座阀 价格优势明显，核电客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
+      }
+    },
+    {
+      "id": "c86e20ab",
+      "company": "ESG",
+      "name": "氢能阀门 氢能系统专用阀门",
+      "series": "氢能阀门",
+      "url": "https://www.esgvalve.cn/product/",
+      "desc": "通径范围：DN15-DN50；工作压力：0-25bar；认证：CE，ISO9001",
+      "source": "knowledge_base",
+      "scraped": "2026-04-16",
+      "analysis": {
+        "product_type": "专用阀",
+        "target_industries": [
+          "氢能",
+          "新能源"
+        ],
+        "dn_range": "DN15-DN50",
+        "pressure_range": "0-25bar",
+        "certifications": "CE，ISO9001",
+        "key_features": [
+          "国产替代性价比",
+          "交货期最短1-2周",
+          "新能源赛道快速扩张"
+        ],
+        "price_tier": "中高端",
+        "threat_level": 3,
+        "threat_reason": "ESG 专用阀 价格优势明显，氢能客户快速渗透",
+        "opportunity": "ESG IPO撤回资金收紧，高端认证壁垒仍存在差距"
       }
     }
   ]
