@@ -1,10 +1,504 @@
 {
-  "scraped_at": "2026-04-16 06:39",
-  "total": 0,
+  "scraped_at": "2026-04-16 06:47",
+  "total": 49,
   "by_company": {
-    "Bürkert": 0,
-    "Gemü": 0,
-    "ESG": 0
+    "Bürkert": 15,
+    "Gemü": 9,
+    "ESG": 25
   },
-  "products": []
+  "products": [
+    {
+      "id": "401cd47a",
+      "company": "Bürkert",
+      "name": "电磁阀",
+      "url": "https://www.burkert.com.cn/cn/products/dian-ci-fa?n=1",
+      "desc": "行业",
+      "tags": [],
+      "source": "burkert.com.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "9ace3e24",
+      "company": "Bürkert",
+      "name": "过程控制阀",
+      "url": "https://www.burkert.com.cn/cn/products/guo-cheng-kong-zhi-fa?n=1",
+      "desc": "行业",
+      "tags": [],
+      "source": "burkert.com.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "46845618",
+      "company": "Bürkert",
+      "name": "电动阀",
+      "url": "https://www.burkert.com.cn/cn/products/dian-dong-fa?n=1",
+      "desc": "行业",
+      "tags": [],
+      "source": "burkert.com.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "2b97ffd3",
+      "company": "Bürkert",
+      "name": "气动和过程",
+      "url": "https://www.burkert.com.cn/cn/products/qi-dong-he-guo-cheng?n=1",
+      "desc": "行业",
+      "tags": [],
+      "source": "burkert.com.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "741ce33d",
+      "company": "Bürkert",
+      "name": "传感器，变送器和控制器",
+      "url": "https://www.burkert.com.cn/cn/products/chuan-gan-qi-bian-song-qi-he-kong-zhi-qi?n=1",
+      "desc": "行业",
+      "tags": [],
+      "source": "burkert.com.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "11ee3fea",
+      "company": "Bürkert",
+      "name": "微流量产品及泵",
+      "url": "https://www.burkert.com.cn/cn/products/wei-liu-liang-chan-pin-ji-beng?n=1",
+      "desc": "行业",
+      "tags": [],
+      "source": "burkert.com.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "c8b1263a",
+      "company": "Bürkert",
+      "name": "流量控制器",
+      "url": "https://www.burkert.com.cn/cn/products/liu-liang-kong-zhi-qi?n=1",
+      "desc": "行业",
+      "tags": [],
+      "source": "burkert.com.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "d98b6f4f",
+      "company": "Bürkert",
+      "name": "电磁控制阀",
+      "url": "https://www.burkert.com.cn/cn/products/dian-ci-kong-zhi-fa?n=1",
+      "desc": "行业",
+      "tags": [],
+      "source": "burkert.com.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "2a236789",
+      "company": "Bürkert",
+      "name": "工业通讯",
+      "url": "https://www.burkert.com.cn/cn/products/gong-ye-tong-xun?n=1",
+      "desc": "行业",
+      "tags": [],
+      "source": "burkert.com.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "a1a9bf81",
+      "company": "Bürkert",
+      "name": "附加产品",
+      "url": "https://www.burkert.com.cn/cn/products/fu-jia-chan-pin?n=1",
+      "desc": "行业",
+      "tags": [],
+      "source": "burkert.com.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "9e24dc45",
+      "company": "Bürkert",
+      "name": "工业通信",
+      "url": "https://www.burkert.com.cn/cn/products/fu-jia-chan-pin/gong-ye-tong-xun?n=1",
+      "desc": "行业",
+      "tags": [],
+      "source": "burkert.com.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "9a9cc97f",
+      "company": "Bürkert",
+      "name": "液体和气体阀门",
+      "url": "https://www.burkert.com.cn/cn/products/dian-ci-fa",
+      "desc": "行业",
+      "tags": [],
+      "source": "burkert.com.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "a91acb10",
+      "company": "Bürkert",
+      "name": "过程阀和调节阀",
+      "url": "https://www.burkert.com.cn/cn/products/guo-cheng-kong-zhi-fa",
+      "desc": "行业",
+      "tags": [],
+      "source": "burkert.com.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "d4d9a790",
+      "company": "Bürkert",
+      "name": "流量传感器和液位传感器",
+      "url": "https://www.burkert.com.cn/cn/products/chuan-gan-qi-bian-song-qi-he-kong-zhi-qi",
+      "desc": "行业",
+      "tags": [],
+      "source": "burkert.com.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "29157ac1",
+      "company": "Bürkert",
+      "name": "电磁控制阀",
+      "url": "https://www.burkert.com.cn/cn/products/dian-ci-kong-zhi-fa",
+      "desc": "行业",
+      "tags": [],
+      "source": "burkert.com.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "a5c793ad",
+      "company": "Gemü",
+      "name": "Series 515 - 无菌隔膜阀",
+      "url": "https://www.gemu-group.com/en/products/",
+      "desc": "",
+      "industries": [
+        "制药",
+        "生物制品"
+      ],
+      "source": "builtin_cache",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "92531798",
+      "company": "Gemü",
+      "name": "Series 500 - 隔膜阀",
+      "url": "https://www.gemu-group.com/en/products/",
+      "desc": "",
+      "industries": [
+        "制药",
+        "食品饮料",
+        "生物制品"
+      ],
+      "source": "builtin_cache",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "544eab27",
+      "company": "Gemü",
+      "name": "Series 600 - 隔膜阀",
+      "url": "https://www.gemu-group.com/en/products/",
+      "desc": "",
+      "industries": [
+        "制药",
+        "化工"
+      ],
+      "source": "builtin_cache",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "eb55ee76",
+      "company": "Gemü",
+      "name": "Series 650 - 调节阀",
+      "url": "https://www.gemu-group.com/en/products/",
+      "desc": "",
+      "industries": [
+        "制药",
+        "化工"
+      ],
+      "source": "builtin_cache",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "71d55236",
+      "company": "Gemü",
+      "name": "Series 700 - 蝶阀",
+      "url": "https://www.gemu-group.com/en/products/",
+      "desc": "",
+      "industries": [
+        "食品饮料",
+        "水处理"
+      ],
+      "source": "builtin_cache",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "7cb91fb7",
+      "company": "Gemü",
+      "name": "Series 612 - 球阀",
+      "url": "https://www.gemu-group.com/en/products/",
+      "desc": "",
+      "industries": [
+        "化工",
+        "石化"
+      ],
+      "source": "builtin_cache",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "0e301e3e",
+      "company": "Gemü",
+      "name": "Series R686 - 隔膜调节阀",
+      "url": "https://www.gemu-group.com/en/products/",
+      "desc": "",
+      "industries": [
+        "制药",
+        "生物制品"
+      ],
+      "source": "builtin_cache",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "8ac7c0b6",
+      "company": "Gemü",
+      "name": "Series 3/47 - 蝶阀",
+      "url": "https://www.gemu-group.com/en/products/",
+      "desc": "",
+      "industries": [
+        "食品饮料",
+        "化工"
+      ],
+      "source": "builtin_cache",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "06d9adc6",
+      "company": "Gemü",
+      "name": "Type 1435 - 截止调节阀",
+      "url": "https://www.gemu-group.com/en/products/",
+      "desc": "",
+      "industries": [
+        "石化",
+        "化工"
+      ],
+      "source": "builtin_cache",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "b14ae14a",
+      "company": "ESG",
+      "name": "zx@esgvalve.com",
+      "url": "https://www.esgvalve.cnmailto:zx@esgvalve.com",
+      "desc": "+86 4006976268info@esgvalve.comAbout ESGCompany ProfileBrand HistoryCorporate CultureDemonstration of StrengthHonors and QualificationsSocial ResponsibilityTechnical SupportDownloadVideo CenterInformation CenterCompany NewsPublic NoticeExhibition UpdatesContact usContact usJoin us",
+      "source": "esgvalve.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "dc541cf9",
+      "company": "ESG",
+      "name": "工业级阀门",
+      "url": "https://www.esgvalve.cn/product/industrial.html",
+      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
+      "source": "esgvalve.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "6996ec1c",
+      "company": "ESG",
+      "name": "通用行业",
+      "url": "https://www.esgvalve.cn/product/general.html",
+      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
+      "source": "esgvalve.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "3b66fe33",
+      "company": "ESG",
+      "name": "新能源行业",
+      "url": "https://www.esgvalve.cn/product/new-energy.html",
+      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
+      "source": "esgvalve.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "9061a5a7",
+      "company": "ESG",
+      "name": "橡塑行业",
+      "url": "https://www.esgvalve.cn/product/butterfly.html",
+      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
+      "source": "esgvalve.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "ce5deb67",
+      "company": "ESG",
+      "name": "卫生级阀门",
+      "url": "https://www.esgvalve.cn/product/sanitary-grade.html",
+      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
+      "source": "esgvalve.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "9aa5e5f6",
+      "company": "ESG",
+      "name": "产品系列",
+      "url": "https://www.esgvalve.cn/product/c10.html",
+      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
+      "source": "esgvalve.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "fee52352",
+      "company": "ESG",
+      "name": "测控仪表",
+      "url": "https://www.esgvalve.cn/product/measurement-and-control-instruments.html",
+      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
+      "source": "esgvalve.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "a91abc96",
+      "company": "ESG",
+      "name": "产品系列",
+      "url": "https://www.esgvalve.cn/product/measurement.html",
+      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
+      "source": "esgvalve.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "05bce132",
+      "company": "ESG",
+      "name": "English",
+      "url": "http://www.esgvalve.com",
+      "desc": "+86 4006976268info@esgvalve.comAbout ESGCompany ProfileBrand HistoryCorporate CultureDemonstration of StrengthHonors and QualificationsSocial ResponsibilityTechnical SupportDownloadVideo CenterInformation CenterCompany NewsPublic NoticeExhibition UpdatesContact usContact usJoin us",
+      "source": "esgvalve.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "d6b499ef",
+      "company": "ESG",
+      "name": "角座阀",
+      "url": "https://www.esgvalve.cn/product/angle-seat-valve.html",
+      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
+      "source": "esgvalve.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "2a844691",
+      "company": "ESG",
+      "name": "比例调节角座阀",
+      "url": "https://www.esgvalve.cn/product/proportional-control-angle-seat-valve.html",
+      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
+      "source": "esgvalve.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "5a988bae",
+      "company": "ESG",
+      "name": "多通道角座阀",
+      "url": "https://www.esgvalve.cn/product/multi-channel-valve.html",
+      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
+      "source": "esgvalve.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "30f4d790",
+      "company": "ESG",
+      "name": "灌装阀",
+      "url": "https://www.esgvalve.cn/product/filling-valve.html",
+      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
+      "source": "esgvalve.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "e3ad2173",
+      "company": "ESG",
+      "name": "止回阀",
+      "url": "https://www.esgvalve.cn/product/check-valve.html",
+      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
+      "source": "esgvalve.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "573f055e",
+      "company": "ESG",
+      "name": "过滤器",
+      "url": "https://www.esgvalve.cn/product/filter.html",
+      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
+      "source": "esgvalve.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "6deadfb5",
+      "company": "ESG",
+      "name": "减压阀",
+      "url": "https://www.esgvalve.cn/product/pressure-reducing-valve.html",
+      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
+      "source": "esgvalve.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "6ccfcf19",
+      "company": "ESG",
+      "name": "溢流阀",
+      "url": "https://www.esgvalve.cn/product/overflow-valve.html",
+      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
+      "source": "esgvalve.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "698f74ae",
+      "company": "ESG",
+      "name": "疏水阀",
+      "url": "https://www.esgvalve.cn/product/steam-trap.html",
+      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
+      "source": "esgvalve.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "71158157",
+      "company": "ESG",
+      "name": "其它阀门",
+      "url": "https://www.esgvalve.cn/product/other-valves.html",
+      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
+      "source": "esgvalve.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "25c9064c",
+      "company": "ESG",
+      "name": "膜塞阀",
+      "url": "https://www.esgvalve.cn/product/membrane-plug-valve.html",
+      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
+      "source": "esgvalve.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "1323491e",
+      "company": "ESG",
+      "name": "注液阀",
+      "url": "https://www.esgvalve.cn/product/vacuum-filling-valve.html",
+      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
+      "source": "esgvalve.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "940786eb",
+      "company": "ESG",
+      "name": "注液总成",
+      "url": "https://www.esgvalve.cn/product/liquid-injection-assembly.html",
+      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
+      "source": "esgvalve.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "019ff8e5",
+      "company": "ESG",
+      "name": "三通梭阀",
+      "url": "https://www.esgvalve.cn/product/shuttle-valves.html",
+      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
+      "source": "esgvalve.cn",
+      "scraped": "2026-04-16"
+    },
+    {
+      "id": "50fa9975",
+      "company": "ESG",
+      "name": "切断阀",
+      "url": "https://www.esgvalve.cn/product/shut-off-valve.html",
+      "desc": "400-697-6268zx@esgvalve.com走进ESG企业简介品牌历程企业文化实力展示荣誉资质社会责任技术支持资料下载视频中心资讯中心公司新闻公示文件展会动态联系我们联系我们加入ESG",
+      "source": "esgvalve.cn",
+      "scraped": "2026-04-16"
+    }
+  ]
 }
