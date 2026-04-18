@@ -3,108 +3,128 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-04-17T03:26:09.369008+00:00",
+  "updated_at": "2026-04-18T02:57:19.577318+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "ad73d4cb7f",
-      "title": "上游材料预付款暴涨10倍！中际旭创Q1营收194.96亿元",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810256&idx=1&sn=4a0f634d281237105cec246bdaed3b0d",
-      "summary": "上游材料预付款暴涨10倍！中际旭创Q1营收194.96亿元",
+      "id": "41530f1313",
+      "title": "算力巨头排好队，只为“拿下”Anthropic",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810296&idx=1&sn=db191b610ebe8b6a48f25f3dcfe05174",
+      "summary": "算力巨头排好队，只为“拿下”Anthropic",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-17T03:26:05.305015+00:00",
-      "pub_ts": 1776396365
+      "pub_date": "2026-04-18T02:57:15.440589+00:00",
+      "pub_ts": 1776481035
     },
     {
-      "id": "72f13ba573",
-      "title": "NPO、CPO与XPO，谁能执掌未来数据中心话语权?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810250&idx=1&sn=04c434a23a67a9316fed7d7e76afbf8a",
-      "summary": "NPO、CPO与XPO，谁能执掌未来数据中心话语权?",
+      "id": "9a2063ae9e",
+      "title": "捷捷微电，5月1日起IGBT涨价10%~20%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810296&idx=2&sn=1a9a6e1955aadd06d8f88bed1537d4e7",
+      "summary": "捷捷微电，5月1日起IGBT涨价10%~20%",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-17T03:26:05.305055+00:00",
-      "pub_ts": 1776396365
+      "pub_date": "2026-04-18T02:57:15.440633+00:00",
+      "pub_ts": 1776481035
     },
     {
-      "id": "789fe67be3",
-      "title": "魏哲家、陈立武，入选2026年《时代》百大影响力人物",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810250&idx=2&sn=c0d81976e4ddcf40d48971fc0cae36bf",
-      "summary": "魏哲家、陈立武，入选2026年《时代》百大影响力人物",
+      "id": "aebd8d0682",
+      "title": "长电科技玻璃基TGV射频IPD，实现性能突破",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810296&idx=3&sn=466dda0f3e58dda5f6c42dae5d698cef",
+      "summary": "长电科技玻璃基TGV射频IPD，实现性能突破",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-17T03:26:05.305083+00:00",
-      "pub_ts": 1776396365
+      "pub_date": "2026-04-18T02:57:15.440656+00:00",
+      "pub_ts": 1776481035
     },
     {
-      "id": "ca5a024b7f",
-      "title": "百亿落子！日月光扩产先进封装",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810250&idx=3&sn=227d0e87ca1ef924e0640d7314f7a1a0",
-      "summary": "百亿落子！日月光扩产先进封装",
+      "id": "302b6b2e04",
+      "title": "RISC-V，再获巨头加持",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810296&idx=4&sn=d48ac6f48a25b2b3c6a020d0190f3fae",
+      "summary": "RISC-V，再获巨头加持",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-17T03:26:05.305107+00:00",
-      "pub_ts": 1776396365
+      "pub_date": "2026-04-18T02:57:15.440677+00:00",
+      "pub_ts": 1776481035
     },
     {
-      "id": "67083f0fc1",
-      "title": "图解AI算力新瓶颈：下一个主角是CPU?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810250&idx=4&sn=f94d09a9e301b881cd3e840dc1fe9299",
-      "summary": "图解AI算力新瓶颈：下一个主角是CPU?",
+      "id": "bdaef17ae2",
+      "title": "成熟制程涨价，联电下半年调价",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810296&idx=5&sn=048c2afaf209610e550b82d4e8d62831",
+      "summary": "成熟制程涨价，联电下半年调价",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-17T03:26:05.305129+00:00",
-      "pub_ts": 1776396365
+      "pub_date": "2026-04-18T02:57:15.440697+00:00",
+      "pub_ts": 1776481035
     },
     {
-      "id": "83106e84e4",
-      "title": "芯原戴伟民回应：传言不实",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816362&idx=1&sn=2ef05a03fa6e0f6a16da8dc2a1838cb6",
-      "summary": "芯原戴伟民回应：传言不实",
+      "id": "0af91ab6d6",
+      "title": "联电官宣涨价",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816596&idx=1&sn=2003f2d9dcb72b56848d3e9f5b2ad9ec",
+      "summary": "联电官宣涨价",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-17T03:25:52.822796+00:00",
-      "pub_ts": 1776396352
+      "pub_date": "2026-04-18T02:57:02.250708+00:00",
+      "pub_ts": 1776481022
     },
     {
-      "id": "88aa6e19a8",
-      "title": "黄仁勋最新采访：谈CUDA、TPU、华为和其他",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816315&idx=1&sn=faa9148c89110d0c93a8de1d26683499",
-      "summary": "黄仁勋最新采访：谈CUDA、TPU、华为和其他",
+      "id": "3ebfabee80",
+      "title": "电波微讯GlassRadioTM技术，让通信与GPU、HBM共同驱动“玻璃芯”产业",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816481&idx=1&sn=b1d19c5b837407cf577a42b141677692",
+      "summary": "电波微讯GlassRadioTM技术，让通信与GPU、HBM共同驱动“玻璃芯”产业",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-17T03:25:52.822842+00:00",
-      "pub_ts": 1776396352
+      "pub_date": "2026-04-18T02:57:02.250760+00:00",
+      "pub_ts": 1776481022
     },
     {
-      "id": "182274327a",
-      "title": "大普微上市：开盘暴涨399%，市值破千亿",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816309&idx=1&sn=31dc6cf71c998375fd5d5a480e10b088",
-      "summary": "大普微上市：开盘暴涨399%，市值破千亿",
+      "id": "d8fa9eba88",
+      "title": "单通道400G已就绪！全栈互联公司揭开800G AI超级网卡序幕",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816481&idx=2&sn=57ba823beb6eca95023beb96162c7b83",
+      "summary": "单通道400G已就绪！全栈互联公司揭开800G AI超级网卡序幕",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-17T03:25:52.822873+00:00",
-      "pub_ts": 1776396352
+      "pub_date": "2026-04-18T02:57:02.250783+00:00",
+      "pub_ts": 1776481022
     },
     {
-      "id": "b769e016ef",
-      "title": "万字精读ISSCC：存储、光电互联、处理器和其他",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816297&idx=1&sn=297afa8533a5fa8c61b8a9ec26efceb4",
-      "summary": "万字精读ISSCC：存储、光电互联、处理器和其他",
+      "id": "6d6afdb29a",
+      "title": "面板级封装，拐点已至？",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816481&idx=3&sn=4334aca7b573e203b7c626eed0a229be",
+      "summary": "面板级封装，拐点已至？",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-17T03:25:52.822896+00:00",
-      "pub_ts": 1776396352
+      "pub_date": "2026-04-18T02:57:02.250804+00:00",
+      "pub_ts": 1776481022
     },
     {
-      "id": "06754479a6",
-      "title": "台积电COUPE，被低估的光平台",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816297&idx=2&sn=e39b7439fb4fd26e3dfa32a1b75100a3",
-      "summary": "台积电COUPE，被低估的光平台",
+      "id": "30d1b4c8a5",
+      "title": "一文看懂NPU",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816481&idx=4&sn=db60b194bd2a8f22d86d270726ce119e",
+      "summary": "一文看懂NPU",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-17T03:25:52.822919+00:00",
-      "pub_ts": 1776396352
+      "pub_date": "2026-04-18T02:57:02.250823+00:00",
+      "pub_ts": 1776481022
+    },
+    {
+      "id": "57ac218498",
+      "title": "Emulation-based SoC Security Verification (U. of Florida)",
+      "url": "https://semiengineering.com/emulation-based-soc-security-verification-u-of-florida/",
+      "summary": "A new technical paper, &#8220;Emulation-based System-on-Chip Security Verification: Challenges and Opportunities,&#8221; was published by researchers at University of Florida. Abstract &#8220;Increasing system-on-chip (SoC) heterogeneity, deep hardware/software integration, and the proliferation of …",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-04-17T14:39:28+00:00",
+      "pub_ts": 1776436768
+    },
+    {
+      "id": "63812caac6",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-134/",
+      "summary": "From shoes to GPUs; super agents; TSMC, ASML results; new chiplets and test facilities; Stanford AI index; photonics deals; compute architecture hall of fame; teens for chips; AI security; automotive edge data architecture; mid $20k e-truck; magnesium battery progress.\nThe post Chip Industry Week In…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-04-17T07:01:13+00:00",
+      "pub_ts": 1776409273
     },
     {
       "id": "7435788e5e",
@@ -135,26 +155,6 @@
       "lang": "en",
       "pub_date": "2026-04-16T07:08:26+00:00",
       "pub_ts": 1776323306
-    },
-    {
-      "id": "0cd510d836",
-      "title": "eBeam Initiative At SPIE ALP 2026: Continuing Progress On Curvilinear, EUV, And Data Challenges",
-      "url": "https://semiengineering.com/ebeam-initiative-at-spie-alp-2026-continuing-progress-on-curvilinear-euv-and-data-challenges/",
-      "summary": "Advances in GPU computing and multi-beam mask writing are removing constraints to enable entirely curvilinear masks.\nThe post eBeam Initiative At SPIE ALP 2026: Continuing Progress On Curvilinear, EUV, And Data Challenges appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-04-16T07:06:42+00:00",
-      "pub_ts": 1776323202
-    },
-    {
-      "id": "86d242bf58",
-      "title": "Breakthrough Thin GaN Chiplet Technology",
-      "url": "https://semiengineering.com/breakthrough-thin-gan-chiplet-technology/",
-      "summary": "Combining GaN transistors with silicon-based digital circuits enables complex computing functions built directly into power chiplets.\nThe post Breakthrough Thin GaN Chiplet Technology appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-04-16T07:05:03+00:00",
-      "pub_ts": 1776323103
     }
   ]
 }

@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-04-17T03:26:24.927087+00:00",
+  "updated_at": "2026-04-18T02:57:33.568064+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "4e406ec66a",
-      "title": "刚刚，机器人练成了宁次的「白眼」：∞帧画面边看边3D重建我们的世界！",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247883890&idx=1&sn=2f2b46fb4b33278005caffab386e840c",
-      "summary": "刚刚，机器人练成了宁次的「白眼」：∞帧画面边看边3D重建我们的世界！",
+      "id": "68be77d58c",
+      "title": "4.55亿美金！中国具身智能最大单笔融资诞生，高领红杉联手押注具身大脑",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247884218&idx=1&sn=3cdada2b117db3dafb1e7f97432d8739",
+      "summary": "4.55亿美金！中国具身智能最大单笔融资诞生，高领红杉联手押注具身大脑",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-04-17T03:26:18.940138+00:00",
-      "pub_ts": 1776396378
+      "pub_date": "2026-04-18T02:57:29.326743+00:00",
+      "pub_ts": 1776481049
     },
     {
-      "id": "236edfcef2",
-      "title": "72天，从0到千万小时产能，这个具身「新锐派」凭什么接管数据赛道?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247883890&idx=2&sn=7a9009af721e24ad0987e61fd4a3c469",
-      "summary": "72天，从0到千万小时产能，这个具身「新锐派」凭什么接管数据赛道?",
+      "id": "14748d9a4d",
+      "title": "Claude降智实锤了！还变相涨价，Opus跌下神坛",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247884218&idx=2&sn=ffeb0108358887aa3489a34e4c0b11e5",
+      "summary": "Claude降智实锤了！还变相涨价，Opus跌下神坛",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-04-17T03:26:18.940177+00:00",
-      "pub_ts": 1776396378
+      "pub_date": "2026-04-18T02:57:29.326783+00:00",
+      "pub_ts": 1776481049
     },
     {
-      "id": "ce76da32d8",
-      "title": "视频世界模型跑长序列不「崩」了！用光流约束+历史记忆+多步训练，让动...",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247883890&idx=3&sn=542d3c26f9dec066fa87b25cedf859d8",
-      "summary": "视频世界模型跑长序列不「崩」了！用光流约束+历史记忆+多步训练，让动...",
+      "id": "d817546a53",
+      "title": "Claude有的，国产也有！紫东太初科研龙虾ScienceClaw，已经把Harness卷...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247884140&idx=1&sn=8b10e7bed0f3e947651e609e7c613df0",
+      "summary": "Claude有的，国产也有！紫东太初科研龙虾ScienceClaw，已经把Harness卷...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-04-17T03:26:18.940221+00:00",
-      "pub_ts": 1776396378
+      "pub_date": "2026-04-18T02:57:29.326803+00:00",
+      "pub_ts": 1776481049
     },
     {
-      "id": "600c0364b0",
-      "title": "扔掉你的Token账单吧，荣耀YOYOClaw技术把养虾成本打下来了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247883814&idx=1&sn=bdfd388eefd8480592feee5087dde476",
-      "summary": "扔掉你的Token账单吧，荣耀YOYOClaw技术把养虾成本打下来了",
+      "id": "a0ef8bf768",
+      "title": "πO.7发布，VLA押出了机器人的GPT-3时刻",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247884140&idx=2&sn=a26f0706c04bc3c8dd53f152e4133e38",
+      "summary": "πO.7发布，VLA押出了机器人的GPT-3时刻",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-04-17T03:26:18.940244+00:00",
-      "pub_ts": 1776396378
+      "pub_date": "2026-04-18T02:57:29.326822+00:00",
+      "pub_ts": 1776481049
     },
     {
-      "id": "8407151086",
-      "title": "把屁声发给ChatGPT，它说这是艺术",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247883814&idx=2&sn=3e9f3f99169b7983e106dcdb9213e913",
-      "summary": "把屁声发给ChatGPT，它说这是艺术",
+      "id": "84034ef3f9",
+      "title": "NatureⅠ告别「炼丹」！Al+机器人闭环搞光伏：效率 27.18%，可重复性直接...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247884140&idx=3&sn=92ad696d7367b42e1b4c2b1a0c35f2d9",
+      "summary": "NatureⅠ告别「炼丹」！Al+机器人闭环搞光伏：效率 27.18%，可重复性直接...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-04-17T03:26:18.940265+00:00",
-      "pub_ts": 1776396378
+      "pub_date": "2026-04-18T02:57:29.326840+00:00",
+      "pub_ts": 1776481049
     }
   ]
 }

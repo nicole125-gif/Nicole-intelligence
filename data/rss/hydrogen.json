@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-04-17T03:26:36.135335+00:00",
+  "updated_at": "2026-04-18T02:57:45.815205+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "97f0a0feec",
-      "title": "Hydrogen and Ammonia as a Structural Response to the Hormuz Shock. Warsaw, Budapest, and Tokyo Sign Two Agreements on the Same Day",
-      "url": "https://fuelcellsworks.com/2026/04/16/clean-energy/hydrogen-and-ammonia-as-a-structural-response-to-the-hormuz-shock-warsaw-budapest-and-tokyo-sign-two-agreements-on-the-same-day",
+      "id": "875af26be6",
+      "title": "Arequipa Sets Its Sights on 5% of Global Green Hydrogen Demand",
+      "url": "https://fuelcellsworks.com/2026/04/16/h2/arequipa-sets-its-sights-on-5-percent-of-global-green-hydrogen-demand",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-04-16T15:56:35+00:00",
-      "pub_ts": 1776354995
+      "pub_date": "2026-04-17T16:02:55+00:00",
+      "pub_ts": 1776441775
     },
     {
-      "id": "e401ddc259",
-      "title": "Over 100 Hydrogen Projects Registered Across China in Q1",
-      "url": "https://fuelcellsworks.com/2026/04/13/green-investment/over-100-hydrogen-projects-registered-across-china-in-q1",
+      "id": "9dc34347a3",
+      "title": "FPH2 Expands California Renewable Hydrogen Supply Partnerships to Support Public Fleets, Data Infrastructure, and Energy Resilience",
+      "url": "https://fuelcellsworks.com/2026/04/17/h2/fph2-expands-california-renewable-hydrogen-supply-partnerships-to-support-public-fleets-data-infrastructure-and-energy-resilience",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-04-16T15:27:27+00:00",
-      "pub_ts": 1776353247
+      "pub_date": "2026-04-17T15:57:51+00:00",
+      "pub_ts": 1776441471
     },
     {
-      "id": "6fa7a5b607",
-      "title": "Bosch Chairman Calls Out Europe's Hydrogen Paralysis — 'There's Currently No Market' As Policy Inaction Bites",
-      "url": "https://fuelcellsworks.com/2026/04/16/energy-policy/bosch-chairman-calls-out-europe-s-hydrogen-paralysis-there-s-currently-no-market-as-policy-inaction-bites",
+      "id": "a8786ca87c",
+      "title": "South Korea's Seosan City Wins Government Backing to Build Hydrogen Transport Hub at Daesan Industrial Complex",
+      "url": "https://fuelcellsworks.com/2026/04/14/h2/south-korea-s-seosan-city-wins-government-backing-to-build-hydrogen-transport-hub-at-daesan-industrial-complex",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-04-16T15:24:32+00:00",
-      "pub_ts": 1776353072
+      "pub_date": "2026-04-17T15:50:05+00:00",
+      "pub_ts": 1776441005
     },
     {
-      "id": "f84ba5e025",
-      "title": "Natural Hydrogen in Béarn: 45-8 Energy's Field Surveys Slip Again — Now Targeting Second Half of 2026",
-      "url": "https://fuelcellsworks.com/2026/04/15/green-hydrogen/natural-hydrogen-in-bearn-45-8-energy-s-field-surveys-slip-again-now-targeting-second-half-of-2026",
+      "id": "466e89a05e",
+      "title": "Watami Launches Fuel Cell Truck Trial to Decarbonise Logistics in Aichi",
+      "url": "https://fuelcellsworks.com/2026/04/17/fuel-cells/watami-launches-fuel-cell-truck-trial-to-decarbonise-logistics-in-aichi",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-04-16T15:12:15+00:00",
-      "pub_ts": 1776352335
+      "pub_date": "2026-04-17T15:45:42+00:00",
+      "pub_ts": 1776440742
     },
     {
-      "id": "a4b3571c69",
-      "title": "Kent Awarded EPCm Contract for MorGen Energy's West Wales 20MW Green Hydrogen Plant",
-      "url": "https://fuelcellsworks.com/2026/04/16/green-hydrogen/kent-awarded-epcm-contract-for-morgen-energy-s-west-wales-20mw-green-hydrogen-plant",
+      "id": "021e22aedf",
+      "title": "France Studies 850 Km Hydrogen Pipeline From Marseille to German Border Led by NaTran",
+      "url": "https://fuelcellsworks.com/2026/04/16/h2/france-studies-850-km-hydrogen-pipeline-from-marseille-to-german-border-led-by-natran",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-04-16T15:05:12+00:00",
-      "pub_ts": 1776351912
+      "pub_date": "2026-04-17T15:36:59+00:00",
+      "pub_ts": 1776440219
     }
   ]
 }
