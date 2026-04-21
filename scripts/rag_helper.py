@@ -1,6 +1,6 @@
 """
 rag_helper.py — 年报向量检索模块
-包含：Query Expansion + Hybrid Search(BM25) + Reranking
+包含：Query Expansion + Hybrid Search(BM25) + Reranking + Injection Filter
 """
 from pathlib import Path
 
@@ -10,6 +10,13 @@ _collection = None
 _reranker = None
 _bm25 = None
 _all_texts = None
+
+INJECTION_KEYWORDS = [
+    "忽略之前", "ignore previous", "你是Claude", "you are Claude",
+    "I am Claude", "我是Claude", "不能假扮", "can't fulfill",
+    "Anthropic", "由Anthropic", "developed by", "I need to clarify",
+    "I appreciate you", "我需要澄清", "我理解你的请求"
+]
 
 
 def _init():
@@ -31,7 +38,6 @@ def _init():
         client = chromadb.PersistentClient(path=str(_DB_DIR))
         _collection = client.get_collection("reports")
 
-        # 构建 BM25 索引（从向量库读取所有文本）
         print("[RAG] 构建 BM25 索引...")
         all_results = _collection.get()
         _all_texts = all_results["documents"]
@@ -44,7 +50,6 @@ def _init():
 
 
 def _expand_query(query: str) -> list:
-    """基于规则扩展查询词，覆盖更多年报表达方式。"""
     expansions = {
         "液冷数据中心": ["AI算力 数据中心冷却 设备投资", "CDU冷板 浸没式液冷 渗透率", "服务器散热 热管理 算力基础设施"],
         "半导体设备":   ["晶圆厂 国产替代 设备采购", "刻蚀机 薄膜沉积 国产化", "北方华创 中微 设备收入"],
@@ -72,6 +77,14 @@ def _expand_query(query: str) -> list:
     return extras[:4]
 
 
+def _is_safe(doc: str) -> bool:
+    doc_lower = doc.lower()
+    for kw in INJECTION_KEYWORDS:
+        if kw.lower() in doc_lower:
+            return False
+    return True
+
+
 def retrieve(query: str, top_k: int = 3) -> str:
     _init()
     if _collection is None or _embedder is None:
@@ -85,7 +98,7 @@ def retrieve(query: str, top_k: int = 3) -> str:
         all_candidates = []
         seen = set()
 
-        # ── 1. 向量搜索（多查询）──
+        # 1. 向量搜索（多查询）
         for q in queries:
             vector = _embedder.encode(q).tolist()
             results = _collection.query(
@@ -98,7 +111,7 @@ def retrieve(query: str, top_k: int = 3) -> str:
                     seen.add(key)
                     all_candidates.append(doc)
 
-        # ── 2. BM25 关键词搜索（补充精确命中）──
+        # 2. BM25 关键词搜索
         if _bm25 is not None and _all_texts is not None:
             tokens = list(jieba.cut(query))
             scores = _bm25.get_scores(tokens)
@@ -116,15 +129,24 @@ def retrieve(query: str, top_k: int = 3) -> str:
 
         print(f"[RAG] 召回候选: {len(all_candidates)} 条（向量+BM25）")
 
-        # ── 3. Reranking 精选 Top K ──
+        # 3. Injection Filter 过滤危险片段
+        safe_candidates = [doc for doc in all_candidates if _is_safe(doc)]
+        filtered = len(all_candidates) - len(safe_candidates)
+        if filtered > 0:
+            print(f"[RAG] 过滤疑似注入片段: {filtered} 条")
+
+        if not safe_candidates:
+            return ""
+
+        # 4. Reranking 精选 Top K
         if _reranker is not None:
-            pairs = [(query, doc) for doc in all_candidates]
+            pairs = [(query, doc) for doc in safe_candidates]
             scores = _reranker.predict(pairs)
-            ranked = sorted(zip(all_candidates, scores),
+            ranked = sorted(zip(safe_candidates, scores),
                           key=lambda x: x[1], reverse=True)
             top_docs = [doc for doc, score in ranked[:top_k]]
         else:
-            top_docs = all_candidates[:top_k]
+            top_docs = safe_candidates[:top_k]
 
         context = "\n---\n".join(top_docs)
         return f"\n## 相关年报背景\n{context}\n"
