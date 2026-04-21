@@ -13,6 +13,10 @@ import re
 import json
 import datetime
 import anthropic
+try:
+    from rag_helper import retrieve as rag_retrieve
+except ImportError:
+    def rag_retrieve(query, top_k=3): return ""
 
 # ══════════════════════════════════════════════════════════════
 # 1. 子赛道配置（id 必须和 index.html 里的 T 对象 key 对应）
@@ -333,9 +337,14 @@ def score_track(client, track, news_items):
     strategy = TRACK_STRATEGY.get(tid, "")
     strategy_line = f"赛道策略：{strategy}\n\n" if strategy else ""
 
+# RAG：检索相关年报背景
+    rag_query = f"{track_name} 市场需求 营收 竞争格局"
+    rag_context = rag_retrieve(rag_query, top_k=3)
+
     prompt = (
         f"你是中国B2B设备行业景气度分析师。根据以下新闻标题，对赛道【{track_name}】打分并生成摘要。\n\n"
         + strategy_line
+        + rag_context
         + f"新闻：\n{news_text}\n\n"
         "打分规则（0-100整数）：\n"
         "D=需求动能：强劲订单/扩产/渗透率→80+，需求疲软→40-\n"
