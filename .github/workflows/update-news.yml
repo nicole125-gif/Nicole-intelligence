@@ -1,16 +1,13 @@
 name: Monthly Intelligence Update
-
 on:
   schedule:
-    - cron: '0 2 1 * *'   # 每月1日 UTC 02:00（北京时间早上10点）
-  workflow_dispatch:        # 允许手动触发
-
+    - cron: '0 2 1 * *'
+  workflow_dispatch:
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -21,12 +18,61 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install anthropic
+        run: pip install anthropic chromadb sentence-transformers pypdf langchain-community langchain-text-splitters
+
+      - name: Build RAG vector database
+        run: |
+          python - <<'EOF'
+          from pathlib import Path
+          from langchain_community.document_loaders import PyPDFLoader
+          from langchain_text_splitters import RecursiveCharacterTextSplitter
+          from sentence_transformers import SentenceTransformer
+          import chromadb
+
+          REPORTS_DIR = Path("reports")
+          DB_DIR = "pulse_vectordb"
+          pdf_files = list(REPORTS_DIR.glob("*.pdf"))
+          if not pdf_files:
+              print("No PDFs found, skipping RAG build")
+              exit()
+
+          all_docs = []
+          for p in pdf_files:
+              try:
+                  loader = PyPDFLoader(str(p))
+                  docs = loader.load()
+                  for d in docs:
+                      d.metadata["company"] = p.stem
+                  all_docs.extend(docs)
+                  print(f"Loaded: {p.name}")
+              except Exception as e:
+                  print(f"Skip {p.name}: {e}")
+
+          chunks = RecursiveCharacterTextSplitter(chunk_size=600, chunk_overlap=100).split_documents(all_docs)
+          print(f"Chunks: {len(chunks)}")
+
+          embedder = SentenceTransformer("BAAI/bge-small-zh-v1.5")
+          client = chromadb.PersistentClient(path=DB_DIR)
+          if "reports" in [c.name for c in client.list_collections()]:
+              client.delete_collection("reports")
+          collection = client.create_collection("reports")
+
+          batch_size = 50
+          for i in range(0, len(chunks), batch_size):
+              batch = chunks[i:i+batch_size]
+              texts = [c.page_content for c in batch]
+              metas = [c.metadata for c in batch]
+              ids = [f"chunk_{i+j}" for j in range(len(batch))]
+              vectors = embedder.encode(texts, show_progress_bar=False).tolist()
+              collection.add(ids=ids, embeddings=vectors, documents=texts, metadatas=metas)
+
+          print(f"RAG DB ready: {collection.count()} chunks")
+          EOF
 
       - name: Run update script
         env:
-         CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
-         BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+          CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
         run: python scripts/update_news.py
 
       - name: Commit and push if changed
