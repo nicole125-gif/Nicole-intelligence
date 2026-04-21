@@ -1,5 +1,6 @@
 """
-rag_helper.py — 年报向量检索模块（含 Reranking）
+rag_helper.py — 年报向量检索模块
+包含：Reranking + Query Expansion
 """
 from pathlib import Path
 
@@ -7,6 +8,7 @@ _DB_DIR = Path(__file__).parent.parent / "pulse_vectordb"
 _embedder = None
 _collection = None
 _reranker = None
+
 
 def _init():
     global _embedder, _collection, _reranker
@@ -26,30 +28,76 @@ def _init():
     except Exception as e:
         print(f"[RAG] 初始化失败，跳过: {e}")
 
+
+def _expand_query(query: str) -> list:
+    """基于规则扩展查询词，零成本，覆盖更多年报表达方式。"""
+    expansions = {
+        "液冷数据中心": ["AI算力 数据中心冷却 设备投资", "CDU冷板 浸没式液冷 渗透率", "服务器散热 热管理 算力基础设施"],
+        "半导体设备":   ["晶圆厂 国产替代 设备采购", "刻蚀机 薄膜沉积 国产化", "北方华创 中微 设备收入"],
+        "绿氢电解槽":   ["PEM电解槽 招标 中标", "质子交换膜 制氢设备 投资", "氢能 电解水 产能"],
+        "燃料电池":     ["氢燃料电池 重卡 商业化", "FCEV 氢车 示范城市", "燃料电池 补贴 销量"],
+        "锂电":         ["动力电池 产线设备 订单", "先导智能 赢合 设备收入", "固态电池 产能 扩产"],
+        "生物药":       ["GMP产线 新建 投资", "ADC 多肽 生产设备", "创新药 国内获批 产能"],
+        "合成生物":     ["发酵罐 中试 量产", "华恒生物 凯赛生物 扩产", "生物制造 生物基材料"],
+        "制药装备":     ["楚天科技 东富龙 订单", "医药FAI 固定资产投资", "GMP 制药设备 招标"],
+        "CDMO":         ["药明康德 凯莱英 订单", "TIDES 多肽 GLP-1 产线", "合同研发生产 景气"],
+        "质谱":         ["分析仪器 国产替代 采购", "禾信仪器 谱育科技 收入", "质谱 色谱 进口替代"],
+        "基因测序":     ["华大智造 测序仪 订单", "因美纳 国产替代", "WGS 基因检测 市场"],
+        "IVD":          ["化学发光 国产化 集采", "迈瑞医疗 体外诊断 收入", "POCT 基层医疗 采购"],
+        "食品":         ["食品制造 固定资产投资", "预制菜 食品装备 产线", "食品机械 招标 新建"],
+        "白酒":         ["白酒 产能 资本支出", "酒类 固定资产投资", "饮料 碳酸 产线 扩产"],
+        "PMI":          ["制造业景气 新订单 生产", "官方PMI 财新PMI 荣枯线", "工业生产 扩张 收缩"],
+        "M2":           ["货币政策 央行 降准降息", "社会融资 信贷 流动性", "M2增速 宽松 收紧"],
+        "固定资产投资":  ["制造业FAI 增速", "规上工业增加值 高技术制造", "工业生产 资本支出 统计局"],
+    }
+
+    extras = [query]
+    for keyword, variants in expansions.items():
+        if keyword in query:
+            extras.extend(variants)
+            break
+
+    return extras[:4]
+
+
 def retrieve(query: str, top_k: int = 3) -> str:
     _init()
     if _collection is None or _embedder is None:
         return ""
     try:
-        # 1. 粗召回：多取一些候选
-        vector = _embedder.encode(query).tolist()
-        results = _collection.query(
-            query_embeddings=[vector],
-            n_results=min(20, _collection.count())
-        )
-        candidates = results["documents"][0]
-        if not candidates:
+        # 1. Query Expansion
+        queries = _expand_query(query)
+        print(f"[RAG] 查询扩展: {len(queries)} 个变体")
+
+        # 2. 多查询检索，合并去重
+        all_candidates = []
+        seen = set()
+        for q in queries:
+            vector = _embedder.encode(q).tolist()
+            results = _collection.query(
+                query_embeddings=[vector],
+                n_results=10
+            )
+            for doc in results["documents"][0]:
+                key = doc[:50]
+                if key not in seen:
+                    seen.add(key)
+                    all_candidates.append(doc)
+
+        if not all_candidates:
             return ""
 
-        # 2. Reranking：重新打分排序
+        print(f"[RAG] 召回候选: {len(all_candidates)} 条")
+
+        # 3. Reranking 精选
         if _reranker is not None:
-            pairs = [(query, doc) for doc in candidates]
+            pairs = [(query, doc) for doc in all_candidates]
             scores = _reranker.predict(pairs)
-            ranked = sorted(zip(candidates, scores),
+            ranked = sorted(zip(all_candidates, scores),
                           key=lambda x: x[1], reverse=True)
             top_docs = [doc for doc, score in ranked[:top_k]]
         else:
-            top_docs = candidates[:top_k]
+            top_docs = all_candidates[:top_k]
 
         context = "\n---\n".join(top_docs)
         return f"\n## 相关年报背景\n{context}\n"
