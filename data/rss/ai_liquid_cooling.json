@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-04-21T03:27:38.483484+00:00",
+  "updated_at": "2026-04-22T03:25:57.510252+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "96e942ad79",
-      "title": "跨维智能DexWorldModel斩获榜首，世界模型真正的考场在机器人执行里",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247884789&idx=1&sn=162416bd7f7fe4dbc29830096205d920",
-      "summary": "跨维智能DexWorldModel斩获榜首，世界模型真正的考场在机器人执行里",
+      "id": "a0d6ec514f",
+      "title": "单Agent时代结束，AI们开始组团上班",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247885150&idx=1&sn=b77812936e7f6d2536d5ca340484aacf",
+      "summary": "单Agent时代结束，AI们开始组团上班",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-04-21T03:27:33.213908+00:00",
-      "pub_ts": 1776742053
+      "pub_date": "2026-04-22T03:25:53.237871+00:00",
+      "pub_ts": 1776828353
     },
     {
-      "id": "e0c29457d6",
-      "title": "把人类驾驶员赶出机场，复旦大牛校友要港股IPO了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247884789&idx=2&sn=80b3e36d72023e21bfafeeaa57b8e44b",
-      "summary": "把人类驾驶员赶出机场，复旦大牛校友要港股IPO了",
+      "id": "b7183a300a",
+      "title": "Mythos逼谷歌再拉红色警报！布林连夜成立Coding突击队",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247885150&idx=2&sn=490fd627b4c7a71b2cef3b68849ca120",
+      "summary": "Mythos逼谷歌再拉红色警报！布林连夜成立Coding突击队",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-04-21T03:27:33.213949+00:00",
-      "pub_ts": 1776742053
+      "pub_date": "2026-04-22T03:25:53.237933+00:00",
+      "pub_ts": 1776828353
     },
     {
-      "id": "885171ec48",
-      "title": "晶圆级芯片和存算一体结合：中科院提出15万tokens/s晶圆级芯片方案...",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247884789&idx=3&sn=0cd1a2e9a75d5a9b2b61ada1744c884a",
-      "summary": "晶圆级芯片和存算一体结合：中科院提出15万tokens/s晶圆级芯片方案...",
+      "id": "e6e1cfa8e2",
+      "title": "AI4S设计的新抗生素通过湿实验！双层思考+多目标优化，主动发现「代谢不...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247885150&idx=3&sn=57db407fa5c58bfecb014ef584f0fc38",
+      "summary": "AI4S设计的新抗生素通过湿实验！双层思考+多目标优化，主动发现「代谢不...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-04-21T03:27:33.213972+00:00",
-      "pub_ts": 1776742053
+      "pub_date": "2026-04-22T03:25:53.237958+00:00",
+      "pub_ts": 1776828353
     },
     {
-      "id": "d02e0b3d22",
-      "title": "Mythos架构被22岁小伙“逆推”开源了！MoE和注意力借鉴DeepSeek",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247884771&idx=1&sn=557d1a4d731bd2588e87396481118883",
-      "summary": "Mythos架构被22岁小伙“逆推”开源了！MoE和注意力借鉴DeepSeek",
+      "id": "bb4abd2f7b",
+      "title": "5月20日，马上AI起来！中国AIGC产业峰会报名已启动|首波嘉宾官宣",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247885136&idx=1&sn=8185f8cfd921502a507151a014844a10",
+      "summary": "5月20日，马上AI起来！中国AIGC产业峰会报名已启动|首波嘉宾官宣",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-04-21T03:27:33.213994+00:00",
-      "pub_ts": 1776742053
+      "pub_date": "2026-04-22T03:25:53.237980+00:00",
+      "pub_ts": 1776828353
     },
     {
-      "id": "805933096d",
-      "title": "一帮机器人公司苦练一年，冠军被搞手机的给抢了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247884771&idx=2&sn=78417a4e26ccac7e869d69de2ae6f466",
-      "summary": "一帮机器人公司苦练一年，冠军被搞手机的给抢了",
+      "id": "117f3f51f5",
+      "title": "Codex现在随时能截屏你的桌面！OpenAI建议：开会前记得关",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247885136&idx=2&sn=109746c4b7bbc8f624e3138742a23606",
+      "summary": "Codex现在随时能截屏你的桌面！OpenAI建议：开会前记得关",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-04-21T03:27:33.214014+00:00",
-      "pub_ts": 1776742053
+      "pub_date": "2026-04-22T03:25:53.238001+00:00",
+      "pub_ts": 1776828353
     }
   ]
 }

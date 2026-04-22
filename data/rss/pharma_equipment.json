@@ -3,9 +3,49 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-04-21T03:28:01.699655+00:00",
+  "updated_at": "2026-04-22T03:26:20.383191+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "d1b5f73ffa",
+      "title": "Eli Lilly doubles down on in vivo with $7bn Kelonia buyout",
+      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-acquires-kelonia-in-vivo-gene-therapy-for-7bn/",
+      "summary": "Lilly now has a lentiviral and LNP-based platform for in vivo delivery under its belt, which could broaden the company's chance of success.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-04-21T10:05:53+00:00",
+      "pub_ts": 1776765953
+    },
+    {
+      "id": "08dc735b1d",
+      "title": "Pfizer and Astellas secure FDA priority review for Padcev MIBC combo therapy",
+      "url": "https://www.pharmaceutical-technology.com/news/pfizer-astellas-fda-review-padcev-combo/",
+      "summary": "Pfizer and Astellas have received FDA acceptance for priority review of their sBLA for perioperative Padcev combined with Keytruda for MIBC.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-04-21T09:35:56+00:00",
+      "pub_ts": 1776764156
+    },
+    {
+      "id": "f8fa716f94",
+      "title": "Asahi Kasei acquires German company Aicuris",
+      "url": "https://www.pharmaceutical-technology.com/news/asahi-kasei-acquires-aicuris/",
+      "summary": "Asahi Kasei has completed its acquisition of Aicuris Anti-infective Cures, a German biopharmaceutical company.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-04-21T08:34:42+00:00",
+      "pub_ts": 1776760482
+    },
+    {
+      "id": "be6ef038a5",
+      "title": "British patients risking “fake” weight loss drugs, despite safety concerns, survey says",
+      "url": "https://www.pharmaceutical-technology.com/news/zava-uk-unregulated-fake-weight-loss-drug-survey/",
+      "summary": "Some British people are turning to unregulated weight loss medications sold online as drug prices climb and prescription waits lengthen.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-04-20T15:56:37+00:00",
+      "pub_ts": 1776700597
+    },
     {
       "id": "4bd61db0be",
       "title": "Boehringer Ingelheim launches AI centre in London",
@@ -15,46 +55,6 @@
       "lang": "en",
       "pub_date": "2026-04-20T14:36:09+00:00",
       "pub_ts": 1776695769
-    },
-    {
-      "id": "cd51da4a9f",
-      "title": "Beyond GLP-1Rs: emerging targets poised to gain share of obesity market",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/beyond-glp-1rs-emerging-targets-obesity-market/",
-      "summary": "Non-GLP-1 obesity drugs are emerging in the market, with this landscape expected to surge 50-fold, generating $15.5bn in 2031.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-04-20T13:33:33+00:00",
-      "pub_ts": 1776692013
-    },
-    {
-      "id": "cb98db0b2f",
-      "title": "Trump backs psychedelics for mental health in new executive order",
-      "url": "https://www.pharmaceutical-technology.com/news/trump-executive-order-psychedelics-regulation-review-research/",
-      "summary": "Trump's executive order sets out to speed up the review of psychedelics, while supporting research into this burgeoning field.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-04-20T10:30:55+00:00",
-      "pub_ts": 1776681055
-    },
-    {
-      "id": "8d5cfc594d",
-      "title": "UCB to purchase Neurona and NRTX-1001 for $1.15bn",
-      "url": "https://www.pharmaceutical-technology.com/news/ucb-to-buy-neurona-nrtx1001/",
-      "summary": "UCB has signed a definitive agreement to acquire Neurona Therapeutics in a deal worth up to $1.15bn, adding the latter’s lead asset NRTX-1001 to its epilepsy portfolio.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-04-20T09:50:06+00:00",
-      "pub_ts": 1776678606
-    },
-    {
-      "id": "fc7b35e563",
-      "title": "Magazine: Digital twins become the new battleground for CDMOs",
-      "url": "https://www.pharmaceutical-technology.com/features/magazine-digital-twins-become-the-new-battleground-for-cdmos/",
-      "summary": "In this issue: CDMOs use of digital twins to realise a strategic advantage, Physical AI's rise in pharma manufacturing, and more.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-04-20T09:47:15+00:00",
-      "pub_ts": 1776678435
     }
   ]
 }

@@ -3,108 +3,128 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-04-21T03:27:23.628216+00:00",
+  "updated_at": "2026-04-22T03:25:43.456064+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "3230a769e5",
-      "title": "DDR3第二春：一场没得选的狂欢",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810423&idx=1&sn=3b5daf2d7d5ed907b1a6ffc7258eca6e",
-      "summary": "DDR3第二春：一场没得选的狂欢",
+      "id": "42ec071c9a",
+      "title": "AI Infra产业链卡在哪里了?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810503&idx=1&sn=8e6534d1ad453bdbdfaeb34429feb5b0",
+      "summary": "AI Infra产业链卡在哪里了?",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-21T03:27:19.469613+00:00",
-      "pub_ts": 1776742039
+      "pub_date": "2026-04-22T03:25:39.396112+00:00",
+      "pub_ts": 1776828339
     },
     {
-      "id": "333c4a2e8f",
-      "title": "大厂ALLINAI烧钱不止，硬件持续涨价，字节利润暴跌超70%",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810423&idx=2&sn=e79d873b5d66d20eaa9aed88cd743904",
-      "summary": "大厂ALLINAI烧钱不止，硬件持续涨价，字节利润暴跌超70%",
+      "id": "fcad0a4778",
+      "title": "长鑫科技，投资昆仑万维子公司",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810503&idx=2&sn=cd28b229f28e2233a45814b38cfabef9",
+      "summary": "长鑫科技，投资昆仑万维子公司",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-21T03:27:19.469657+00:00",
-      "pub_ts": 1776742039
+      "pub_date": "2026-04-22T03:25:39.396155+00:00",
+      "pub_ts": 1776828339
     },
     {
-      "id": "0f4270c03a",
-      "title": "华为首发麒麟9030S芯片，手机后续或迎涨价",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810423&idx=3&sn=f94d7aea0e3b7baf7e9f4c1aa7d2d26b",
-      "summary": "华为首发麒麟9030S芯片，手机后续或迎涨价",
+      "id": "f3446407cb",
+      "title": "超1800家优质企业齐聚7月电子盛会！慕尼黑上海电子展观众注册火热进行中",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810503&idx=3&sn=bb424b88e6a2e4c23147c4a05fee8596",
+      "summary": "超1800家优质企业齐聚7月电子盛会！慕尼黑上海电子展观众注册火热进行中",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-21T03:27:19.469683+00:00",
-      "pub_ts": 1776742039
+      "pub_date": "2026-04-22T03:25:39.396183+00:00",
+      "pub_ts": 1776828339
     },
     {
-      "id": "2d98b82b01",
-      "title": "SK海力士正式量产192GB容量SOCAMM2",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810423&idx=4&sn=83f8434bef7adc5985d88cf277a35270",
-      "summary": "SK海力士正式量产192GB容量SOCAMM2",
+      "id": "44dbb86625",
+      "title": "事关存储涨价、太空算力，工信部回应",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810503&idx=4&sn=4012bfe55100769b0c7673ec6207a56d",
+      "summary": "事关存储涨价、太空算力，工信部回应",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-21T03:27:19.469707+00:00",
-      "pub_ts": 1776742039
+      "pub_date": "2026-04-22T03:25:39.396207+00:00",
+      "pub_ts": 1776828339
     },
     {
-      "id": "e3fca0040c",
-      "title": "随着2DNAND谢幕，联电困境重重",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810423&idx=5&sn=a17d84232b45f908af69c34b14998d20",
-      "summary": "随着2DNAND谢幕，联电困境重重",
+      "id": "610aa6a2f6",
+      "title": "HPC收入碾压手机业务！台积电正式变身为一家“AI公司”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810503&idx=5&sn=ebd9ba1fc1ad5f7d32d5e949323c4644",
+      "summary": "HPC收入碾压手机业务！台积电正式变身为一家“AI公司”",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-21T03:27:19.469728+00:00",
-      "pub_ts": 1776742039
+      "pub_date": "2026-04-22T03:25:39.396229+00:00",
+      "pub_ts": 1776828339
     },
     {
-      "id": "cdd44cacf5",
-      "title": "不用EUV，也能做3nm？",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816716&idx=1&sn=1d5ea73850d41dfca4ea398099461442",
-      "summary": "不用EUV，也能做3nm？",
+      "id": "42f6f2916a",
+      "title": "武汉芯源宣布：全面涨价",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816879&idx=1&sn=65def9e14bc5af267b03d5cdf6d505cf",
+      "summary": "武汉芯源宣布：全面涨价",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-21T03:27:11.885573+00:00",
-      "pub_ts": 1776742031
+      "pub_date": "2026-04-22T03:25:26.978958+00:00",
+      "pub_ts": 1776828326
     },
     {
-      "id": "b13b0d0914",
-      "title": "传联电进军2DNAND代工",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816716&idx=2&sn=12b06913f3370ee319e6c03848c1bb25",
-      "summary": "传联电进军2DNAND代工",
+      "id": "8feb3fc391",
+      "title": "这类SPAD-SoC，速腾聚创全球首发",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816833&idx=1&sn=7e411f6de2f0b3143bb56bd7da3718ba",
+      "summary": "这类SPAD-SoC，速腾聚创全球首发",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-21T03:27:11.885623+00:00",
-      "pub_ts": 1776742031
+      "pub_date": "2026-04-22T03:25:26.979006+00:00",
+      "pub_ts": 1776828326
     },
     {
-      "id": "f45af3492a",
-      "title": "一位芯片老兵，要取代CPO",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816716&idx=3&sn=c365c39d088a8843207985d9cf97aca0",
-      "summary": "一位芯片老兵，要取代CPO",
+      "id": "3c0b1e3ed9",
+      "title": "盛合晶微登陆科创板，市值突破1400亿",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816807&idx=1&sn=58b3a7462ec8293889d056d63ccb8648",
+      "summary": "盛合晶微登陆科创板，市值突破1400亿",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-21T03:27:11.885648+00:00",
-      "pub_ts": 1776742031
+      "pub_date": "2026-04-22T03:25:26.979032+00:00",
+      "pub_ts": 1776828326
     },
     {
-      "id": "17cf550cb2",
-      "title": "40年前今日，美国DRAM反击日本",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816716&idx=4&sn=9934fdba821b6cf712fc1086ccf657d5",
-      "summary": "40年前今日，美国DRAM反击日本",
+      "id": "16c7675c62",
+      "title": "1nm后的芯片：硅迎来最强继任者",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816801&idx=1&sn=da3fcd78bee2bce3f32105740aa1f430",
+      "summary": "1nm后的芯片：硅迎来最强继任者",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-21T03:27:11.885670+00:00",
-      "pub_ts": 1776742031
+      "pub_date": "2026-04-22T03:25:26.979055+00:00",
+      "pub_ts": 1776828326
     },
     {
-      "id": "f021fefadb",
-      "title": "SK海力士拟发323万奖金惹争议，韩国网友：最好与公众分享",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816716&idx=5&sn=aac2f72443caa08a2ba9ad082544271d",
-      "summary": "SK海力士拟发323万奖金惹争议，韩国网友：最好与公众分享",
+      "id": "69e532a049",
+      "title": "拆解英伟达硅光路线图",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816801&idx=2&sn=a7c87d8d3e3a724bc615e89510fe8846",
+      "summary": "拆解英伟达硅光路线图",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-21T03:27:11.885691+00:00",
-      "pub_ts": 1776742031
+      "pub_date": "2026-04-22T03:25:26.979077+00:00",
+      "pub_ts": 1776828326
+    },
+    {
+      "id": "0dd4d86f0d",
+      "title": "Chip Industry Technical Paper Roundup: Apr. 21",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-apr-21/",
+      "summary": "Neural computers; AFM on EUV nanostructures; photonic chip packaging; extreme-environment photonics; SSD emulation for GPU-centric storage; ruthenium interconnects; DRAM power delivery on CIM; silent data corruption; LLM training reliability; GPU Rowhammer; privilege escalation.\nThe post Chip Indust…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-04-21T07:01:46+00:00",
+      "pub_ts": 1776754906
+    },
+    {
+      "id": "e7208b1881",
+      "title": "Research Bits: Apr. 21",
+      "url": "https://semiengineering.com/research-bits-apr-21/",
+      "summary": "Compute-in-memory: State space models; ultra-thin AlScN memory; brain-inspired edge AI.\nThe post Research Bits: Apr. 21 appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-04-21T07:01:11+00:00",
+      "pub_ts": 1776754871
     },
     {
       "id": "160d821c78",
@@ -135,26 +155,6 @@
       "lang": "en",
       "pub_date": "2026-04-17T14:39:28+00:00",
       "pub_ts": 1776436768
-    },
-    {
-      "id": "63812caac6",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-134/",
-      "summary": "From shoes to GPUs; super agents; TSMC, ASML results; new chiplets and test facilities; Stanford AI index; photonics deals; compute architecture hall of fame; teens for chips; AI security; automotive edge data architecture; mid $20k e-truck; magnesium battery progress.\nThe post Chip Industry Week In…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-04-17T07:01:13+00:00",
-      "pub_ts": 1776409273
-    },
-    {
-      "id": "7435788e5e",
-      "title": "Panel-Level Packaging’s Second Wave Meets Engineering Reality",
-      "url": "https://semiengineering.com/panel-level-packagings-second-wave-meets-engineering-reality/",
-      "summary": "The cost case is strengthening, but glass, warpage, and bonding yield stand in the way.\nThe post Panel-Level Packaging&#8217;s Second Wave Meets Engineering Reality appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-04-16T07:10:14+00:00",
-      "pub_ts": 1776323414
     }
   ]
 }

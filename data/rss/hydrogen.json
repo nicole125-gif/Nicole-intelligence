@@ -3,68 +3,108 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-04-21T03:27:49.092860+00:00",
-  "item_count": 6,
+  "updated_at": "2026-04-22T03:26:07.985528+00:00",
+  "item_count": 10,
   "items": [
     {
-      "id": "129eb98011",
-      "title": "Why hydrogen must be a building block in global energy system resilience",
-      "url": "https://hydrogen-central.com/why-hydrogen-must-be-a-building-block-in-global-energy-system-resilience/",
-      "summary": "Why hydrogen must be a building block in global energy system resilience &#8211; An outlook on the landscape for electrolysis ahead of the World Hydrogen Summit Author: Lennart Welter, director [&#8230;]\nThe post Why hydrogen must be a building block in global energy system resilience appeared first…",
+      "id": "dc3dd9c892",
+      "title": "Seven New Companies Join the Hydrogen Council, Strengthening the Global Industry Coalition Advancing Hydrogen Solutions",
+      "url": "https://hydrogen-central.com/seven-new-companies-join-the-hydrogen-council-strengthening-the-global-industry-coalition-advancing-hydrogen-solutions/",
+      "summary": "Seven New Companies Join the Hydrogen Council, Strengthening the Global Industry Coalition Advancing Hydrogen Solutions The Hydrogen Council, the world’s largest and only CEO-led global alliance, is proud to welcome [&#8230;]\nThe post Seven New Companies Join the Hydrogen Council, Strengthening the …",
       "source": "Hydrogen Central",
       "lang": "en",
-      "pub_date": "2026-04-20T23:04:53+00:00",
-      "pub_ts": 1776726293
+      "pub_date": "2026-04-21T18:19:48+00:00",
+      "pub_ts": 1776795588
     },
     {
-      "id": "38c61dd939",
-      "title": "Atlántico, a Department in the Colombian Caribbean, Strengthens Its Leadership in the Energy Transition Within the Framework of the National Congress",
-      "url": "https://fuelcellsworks.com/2026/04/20/green-hydrogen/atlantico-a-department-in-the-colombian-caribbean-strengthens-its-leadership-in-the-energy-transition-within-the-framework-of-the-national-congress",
+      "id": "1cac866110",
+      "title": "Purem by Eberspaecher De-Hydrator reduces steam formation in fuel cells",
+      "url": "https://hydrogen-central.com/purem-by-eberspaecher-de-hydrator-reduces-steam-formation-in-fuel-cells/",
+      "summary": "Purem by Eberspaecher De-Hydrator reduces steam formation in fuel cells Esslingen (Germany), 14 April 2026 – Visible steam formation is one of the previously underestimated aspects of operating mobile fuel cell [&#8230;]\nThe post Purem by Eberspaecher De-Hydrator reduces steam formation in fuel cell…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-04-21T18:16:23+00:00",
+      "pub_ts": 1776795383
+    },
+    {
+      "id": "471f878712",
+      "title": "Fuel Cells – Bloom Energy and Oracle Expand Strategic Partnership to Deploy up to 2,8 GW to Accelerate AI Infrastructure Build-Out",
+      "url": "https://hydrogen-central.com/fuel-cells-bloom-energy-and-oracle-expand-strategic-partnership-to-deploy-up-to-28-gw-to-accelerate-ai-infrastructure-build-out/",
+      "summary": "Fuel Cells &#8211; Bloom Energy and Oracle Expand Strategic Partnership to Deploy up to 2,8 GW to Accelerate AI Infrastructure Build-Out SAN JOSE, Calif.&#8211;(BUSINESS WIRE)&#8211; Bloom Energy (NYSE: BE), a global leader [&#8230;]\nThe post Fuel Cells &#8211; Bloom Energy and Oracle Expand Strateg…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-04-21T18:12:18+00:00",
+      "pub_ts": 1776795138
+    },
+    {
+      "id": "1b5da7da90",
+      "title": "SoCal drivers finding long lines for hydrogen fuel amid supply chain issue",
+      "url": "https://hydrogen-central.com/socal-drivers-finding-long-lines-for-hydrogen-fuel-amid-supply-chain-issue/",
+      "summary": "SoCal drivers finding long lines for hydrogen fuel amid supply chain issue STUDIO CITY, LOS ANGELES (KABC) &#8212;&#160;Fuel cell electric vehicle (FCEV) owners aren&#8217;t worried about high gas prices, but [&#8230;]\nThe post SoCal drivers finding long lines for hydrogen fuel amid supply chain iss…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-04-21T18:08:17+00:00",
+      "pub_ts": 1776794897
+    },
+    {
+      "id": "5a87fecd29",
+      "title": "Hydrogen Utopia International plc and Powerhouse Energy Group plc Enter Marketing Agreement",
+      "url": "https://hydrogen-central.com/hydrogen-utopia-international-plc-and-powerhouse-energy-group-plc-enter-marketing-agreement/",
+      "summary": "Hydrogen Utopia International plc and Powerhouse Energy Group plc Enter Marketing Agreement Hydrogen Utopia International PLC entered into a Non-Exclusive Marketing Agreement with Powerhouse Energy Group PLC to promote Powerhouse [&#8230;]\nThe post Hydrogen Utopia International plc and Powerhouse En…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-04-21T18:08:04+00:00",
+      "pub_ts": 1776794884
+    },
+    {
+      "id": "cda1ba0e5c",
+      "title": "Saarbahn Puts Hydrogen Filling Station Into Operation",
+      "url": "https://fuelcellsworks.com/2026/04/21/fuel-cells/saarbahn-puts-hydrogen-filling-station-into-operation",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-04-20T16:26:51+00:00",
-      "pub_ts": 1776702411
+      "pub_date": "2026-04-21T15:56:53+00:00",
+      "pub_ts": 1776787013
     },
     {
-      "id": "68424b1542",
-      "title": "Kaunas Airport Tests Hydrogen-Powered Truck",
-      "url": "https://fuelcellsworks.com/2026/04/20/energy-innovation/kaunas-airport-tests-hydrogen-powered-truck",
+      "id": "f319fbc40d",
+      "title": "Ansaldo Energia Eyes Former AC Boilers Factory in Puglia for €50M Hydrogen and Green Fuels Hub",
+      "url": "https://fuelcellsworks.com/2026/04/18/h2/ansaldo-energia-eyes-former-ac-boilers-factory-in-puglia-for-50m-hydrogen-and-green-fuels-hub",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-04-20T15:53:03+00:00",
-      "pub_ts": 1776700383
+      "pub_date": "2026-04-21T15:47:55+00:00",
+      "pub_ts": 1776786475
     },
     {
-      "id": "254e013096",
-      "title": "Prominence Secures CSIRO Kick-Start Funding to Advance Gawler Natural Hydrogen Project",
-      "url": "https://fuelcellsworks.com/2026/04/20/green-hydrogen/prominence-secures-csiro-kick-start-funding-to-advance-gawler-natural-hydrogen-project",
+      "id": "40461cabe2",
+      "title": "Ammonia Engine Passes “Huge Milestone” En Route to Commercial Debut",
+      "url": "https://fuelcellsworks.com/2026/04/21/clean-energy/ammonia-engine-passes-huge-milestone-en-route-to-commercial-debut",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-04-20T15:45:50+00:00",
-      "pub_ts": 1776699950
+      "pub_date": "2026-04-21T15:38:24+00:00",
+      "pub_ts": 1776785904
     },
     {
-      "id": "7a6cd8c541",
-      "title": "Fuel Cell and Hydrogen News Highlights From China: April 12-April 17 2026",
-      "url": "https://fuelcellsworks.com/2026/04/17/clean-energy/fuel-cell-and-hydrogen-news-highlights-from-china-april-12-april-17-2026",
+      "id": "c1381588c1",
+      "title": "AI Data Centres Drive Surge in Renewable Energy Demand",
+      "url": "https://fuelcellsworks.com/2026/04/21/clean-energy/ai-data-centres-drive-surge-in-renewable-energy-demand",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-04-20T15:28:33+00:00",
-      "pub_ts": 1776698913
+      "pub_date": "2026-04-21T15:23:27+00:00",
+      "pub_ts": 1776785007
     },
     {
-      "id": "54e6710aab",
-      "title": "How Hydrogen Fuel Cells Support the Power Grid",
-      "url": "https://fuelcellsworks.com/2026/04/20/energy-innovation/how-hydrogen-fuel-cells-support-the-power-grid",
+      "id": "251ac9ad2a",
+      "title": "Oregon Department of Aviation Signs MOU with Cellen H2 to Explore Hydrogen-Powered Uncrewed Aircraft Systems",
+      "url": "https://fuelcellsworks.com/2026/04/21/energy-innovation/oregon-department-of-aviation-signs-mou-with-cellen-h2-to-explore-hydrogen-powered-uncrewed-aircraft-systems",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-04-20T15:25:15+00:00",
-      "pub_ts": 1776698715
+      "pub_date": "2026-04-21T15:17:54+00:00",
+      "pub_ts": 1776784674
     }
   ]
 }
