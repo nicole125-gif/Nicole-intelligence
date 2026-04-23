@@ -3,108 +3,128 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-04-22T03:25:43.456064+00:00",
+  "updated_at": "2026-04-23T03:29:02.530570+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "42ec071c9a",
-      "title": "AI Infra产业链卡在哪里了?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810503&idx=1&sn=8e6534d1ad453bdbdfaeb34429feb5b0",
-      "summary": "AI Infra产业链卡在哪里了?",
+      "id": "742edb0b67",
+      "title": "半导体IP，变得炙手可热",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810528&idx=1&sn=623a7c5fdde8c95772944c5d71c77b65",
+      "summary": "半导体IP，变得炙手可热",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-22T03:25:39.396112+00:00",
-      "pub_ts": 1776828339
+      "pub_date": "2026-04-23T03:28:58.471986+00:00",
+      "pub_ts": 1776914938
     },
     {
-      "id": "fcad0a4778",
-      "title": "长鑫科技，投资昆仑万维子公司",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810503&idx=2&sn=cd28b229f28e2233a45814b38cfabef9",
-      "summary": "长鑫科技，投资昆仑万维子公司",
+      "id": "29536eb056",
+      "title": "供不应求！CPU大厂Q3酝酿新一轮涨价",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810528&idx=2&sn=ed67307c85bc006ccc04f28f5b3c0859",
+      "summary": "供不应求！CPU大厂Q3酝酿新一轮涨价",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-22T03:25:39.396155+00:00",
-      "pub_ts": 1776828339
+      "pub_date": "2026-04-23T03:28:58.472030+00:00",
+      "pub_ts": 1776914938
     },
     {
-      "id": "f3446407cb",
-      "title": "超1800家优质企业齐聚7月电子盛会！慕尼黑上海电子展观众注册火热进行中",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810503&idx=3&sn=bb424b88e6a2e4c23147c4a05fee8596",
-      "summary": "超1800家优质企业齐聚7月电子盛会！慕尼黑上海电子展观众注册火热进行中",
+      "id": "045cfb3bf5",
+      "title": "2025年全球半导体设备厂商Top10，出炉",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810528&idx=3&sn=e145f3f99a2431d205ccc40a1ba13c70",
+      "summary": "2025年全球半导体设备厂商Top10，出炉",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-22T03:25:39.396183+00:00",
-      "pub_ts": 1776828339
+      "pub_date": "2026-04-23T03:28:58.472057+00:00",
+      "pub_ts": 1776914938
     },
     {
-      "id": "44dbb86625",
-      "title": "事关存储涨价、太空算力，工信部回应",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810503&idx=4&sn=4012bfe55100769b0c7673ec6207a56d",
-      "summary": "事关存储涨价、太空算力，工信部回应",
+      "id": "f7026fd7fc",
+      "title": "TSV，太难了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810528&idx=4&sn=05117c865e089fd2537cdbe15d84c916",
+      "summary": "TSV，太难了",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-22T03:25:39.396207+00:00",
-      "pub_ts": 1776828339
+      "pub_date": "2026-04-23T03:28:58.472081+00:00",
+      "pub_ts": 1776914938
     },
     {
-      "id": "610aa6a2f6",
-      "title": "HPC收入碾压手机业务！台积电正式变身为一家“AI公司”",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810503&idx=5&sn=ebd9ba1fc1ad5f7d32d5e949323c4644",
-      "summary": "HPC收入碾压手机业务！台积电正式变身为一家“AI公司”",
+      "id": "bb73dabf4f",
+      "title": "15亿！国产RISC-V迎来新一轮融资",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810528&idx=5&sn=e33c040db49aa1d9c6bf285c4accd704",
+      "summary": "15亿！国产RISC-V迎来新一轮融资",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-22T03:25:39.396229+00:00",
-      "pub_ts": 1776828339
+      "pub_date": "2026-04-23T03:28:58.472103+00:00",
+      "pub_ts": 1776914938
     },
     {
-      "id": "42f6f2916a",
-      "title": "武汉芯源宣布：全面涨价",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816879&idx=1&sn=65def9e14bc5af267b03d5cdf6d505cf",
-      "summary": "武汉芯源宣布：全面涨价",
+      "id": "05399f6796",
+      "title": "刚刚，谷歌发布两款芯片",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817015&idx=1&sn=a85588e011adad7fec428f9d8a35aeb6",
+      "summary": "刚刚，谷歌发布两款芯片",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-22T03:25:26.978958+00:00",
-      "pub_ts": 1776828326
+      "pub_date": "2026-04-23T03:28:47.879962+00:00",
+      "pub_ts": 1776914927
     },
     {
-      "id": "8feb3fc391",
-      "title": "这类SPAD-SoC，速腾聚创全球首发",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816833&idx=1&sn=7e411f6de2f0b3143bb56bd7da3718ba",
-      "summary": "这类SPAD-SoC，速腾聚创全球首发",
+      "id": "a626e21684",
+      "title": "中国首款舱驾融合整车智能体芯片，正式发布",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816984&idx=1&sn=26eaf3fd9014bfee9f58d0bf170ece33",
+      "summary": "中国首款舱驾融合整车智能体芯片，正式发布",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-22T03:25:26.979006+00:00",
-      "pub_ts": 1776828326
+      "pub_date": "2026-04-23T03:28:47.880011+00:00",
+      "pub_ts": 1776914927
     },
     {
-      "id": "3c0b1e3ed9",
-      "title": "盛合晶微登陆科创板，市值突破1400亿",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816807&idx=1&sn=58b3a7462ec8293889d056d63ccb8648",
-      "summary": "盛合晶微登陆科创板，市值突破1400亿",
+      "id": "589002361b",
+      "title": "刚刚，安克发布一颗芯片",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816962&idx=1&sn=fff70c7fc07a5354a90b038e15fd90d7",
+      "summary": "刚刚，安克发布一颗芯片",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-22T03:25:26.979032+00:00",
-      "pub_ts": 1776828326
+      "pub_date": "2026-04-23T03:28:47.880038+00:00",
+      "pub_ts": 1776914927
     },
     {
-      "id": "16c7675c62",
-      "title": "1nm后的芯片：硅迎来最强继任者",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816801&idx=1&sn=da3fcd78bee2bce3f32105740aa1f430",
-      "summary": "1nm后的芯片：硅迎来最强继任者",
+      "id": "3338effaad",
+      "title": "芯片制造，新竞赛",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816910&idx=1&sn=91d4f2415a4948c7bbfe9c25dafb2533",
+      "summary": "芯片制造，新竞赛",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-22T03:25:26.979055+00:00",
-      "pub_ts": 1776828326
+      "pub_date": "2026-04-23T03:28:47.880062+00:00",
+      "pub_ts": 1776914927
     },
     {
-      "id": "69e532a049",
-      "title": "拆解英伟达硅光路线图",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816801&idx=2&sn=a7c87d8d3e3a724bc615e89510fe8846",
-      "summary": "拆解英伟达硅光路线图",
+      "id": "0ae1d9e4e7",
+      "title": "机器人关节芯片，新方案",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816910&idx=2&sn=e8c2a190b11dbdb4e58911b8ce6260ae",
+      "summary": "机器人关节芯片，新方案",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-22T03:25:26.979077+00:00",
-      "pub_ts": 1776828326
+      "pub_date": "2026-04-23T03:28:47.880084+00:00",
+      "pub_ts": 1776914927
+    },
+    {
+      "id": "47ef42dd66",
+      "title": "Blog Review: Apr. 22",
+      "url": "https://semiengineering.com/blog-review-apr-22/",
+      "summary": "Coverage closure; EM sim for AMS; CXL 4; root of trust for ATMs.\nThe post Blog Review: Apr. 22 appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-04-22T07:01:50+00:00",
+      "pub_ts": 1776841310
+    },
+    {
+      "id": "3e6db65f5e",
+      "title": "TSV Complexity Leads To Manufacturing Bottleneck",
+      "url": "https://semiengineering.com/tsv-complexity-leads-to-manufacturing-bottleneck/",
+      "summary": "Creating through-silicon vias is a necessary but daunting challenge.\nThe post TSV Complexity Leads To Manufacturing Bottleneck appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-04-22T07:01:40+00:00",
+      "pub_ts": 1776841300
     },
     {
       "id": "0dd4d86f0d",
@@ -135,26 +155,6 @@
       "lang": "en",
       "pub_date": "2026-04-20T07:15:16+00:00",
       "pub_ts": 1776669316
-    },
-    {
-      "id": "71dc198f3c",
-      "title": "Batteries Charge To The Edge",
-      "url": "https://semiengineering.com/batteries-charge-to-the-edge/",
-      "summary": "Chemistry is becoming the determining factor across many markets as focus shifts to power.\nThe post Batteries Charge To The Edge appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-04-20T07:01:56+00:00",
-      "pub_ts": 1776668516
-    },
-    {
-      "id": "57ac218498",
-      "title": "Emulation-based SoC Security Verification (U. of Florida)",
-      "url": "https://semiengineering.com/emulation-based-soc-security-verification-u-of-florida/",
-      "summary": "A new technical paper, &#8220;Emulation-based System-on-Chip Security Verification: Challenges and Opportunities,&#8221; was published by researchers at University of Florida. Abstract &#8220;Increasing system-on-chip (SoC) heterogeneity, deep hardware/software integration, and the proliferation of …",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-04-17T14:39:28+00:00",
-      "pub_ts": 1776436768
     }
   ]
 }

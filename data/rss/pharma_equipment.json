@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-04-22T03:26:20.383191+00:00",
+  "updated_at": "2026-04-23T03:29:41.894240+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "d1b5f73ffa",
-      "title": "Eli Lilly doubles down on in vivo with $7bn Kelonia buyout",
-      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-acquires-kelonia-in-vivo-gene-therapy-for-7bn/",
-      "summary": "Lilly now has a lentiviral and LNP-based platform for in vivo delivery under its belt, which could broaden the company's chance of success.",
+      "id": "64acfc4d25",
+      "title": "Medicare weight loss drug pilot on ice as insurers decline to contribute",
+      "url": "https://www.pharmaceutical-technology.com/news/medicare-medicaid-glp-1-weight-loss-drugs-balance-pilot/",
+      "summary": "The US Government will now pick up the cost of weight loss drugs offered through the Medicare GLP-1 Bridge scheme until 31 December 2027.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-04-21T10:05:53+00:00",
-      "pub_ts": 1776765953
+      "pub_date": "2026-04-22T16:28:04+00:00",
+      "pub_ts": 1776875284
     },
     {
-      "id": "08dc735b1d",
-      "title": "Pfizer and Astellas secure FDA priority review for Padcev MIBC combo therapy",
-      "url": "https://www.pharmaceutical-technology.com/news/pfizer-astellas-fda-review-padcev-combo/",
-      "summary": "Pfizer and Astellas have received FDA acceptance for priority review of their sBLA for perioperative Padcev combined with Keytruda for MIBC.",
+      "id": "39946bc15e",
+      "title": "Immunotherapy in locally advanced HNSCC: is there still room for new agents?",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/immunotherapy-in-locally-advanced-hnscc/",
+      "summary": "The treatment landscape for locally advanced head and neck squamous cell carcinoma (LA HNSCC) has changed significantly.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-04-21T09:35:56+00:00",
-      "pub_ts": 1776764156
+      "pub_date": "2026-04-22T15:00:02+00:00",
+      "pub_ts": 1776870002
     },
     {
-      "id": "f8fa716f94",
-      "title": "Asahi Kasei acquires German company Aicuris",
-      "url": "https://www.pharmaceutical-technology.com/news/asahi-kasei-acquires-aicuris/",
-      "summary": "Asahi Kasei has completed its acquisition of Aicuris Anti-infective Cures, a German biopharmaceutical company.",
+      "id": "4814641690",
+      "title": "MSD-backed Ray locks in $125m to back eye drug pipeline",
+      "url": "https://www.pharmaceutical-technology.com/news/ray-therapeutics-125m-series-b-eye-disease-gene-therapy/",
+      "summary": "Ray's MSD and Novo Holdings-backed Series B will shed light on the potential of the company's vision restoration gene therapy pipeline.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-04-21T08:34:42+00:00",
-      "pub_ts": 1776760482
+      "pub_date": "2026-04-22T11:57:43+00:00",
+      "pub_ts": 1776859063
     },
     {
-      "id": "be6ef038a5",
-      "title": "British patients risking “fake” weight loss drugs, despite safety concerns, survey says",
-      "url": "https://www.pharmaceutical-technology.com/news/zava-uk-unregulated-fake-weight-loss-drug-survey/",
-      "summary": "Some British people are turning to unregulated weight loss medications sold online as drug prices climb and prescription waits lengthen.",
+      "id": "45e62d4309",
+      "title": "FDA approves MSD’s once-daily HIV combo Idvynso",
+      "url": "https://www.pharmaceutical-technology.com/news/msd-merck-idvynso-fda-approval-hiv-combination-regimen/",
+      "summary": "GlobalData analysts forecast a blockbuster future for Idvynso, though they note it is unlikely it will displace market dominator, Biktarvy.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-04-20T15:56:37+00:00",
-      "pub_ts": 1776700597
+      "pub_date": "2026-04-22T10:57:04+00:00",
+      "pub_ts": 1776855424
     },
     {
-      "id": "4bd61db0be",
-      "title": "Boehringer Ingelheim launches AI centre in London",
-      "url": "https://www.pharmaceutical-technology.com/news/boehringer-ingelheim-launches-ai-centre-in-london/",
-      "summary": "The new site will focus on the use of AI models for purposes including the discovery and development of targeted medicines for patients with unmet medical needs.",
+      "id": "a7fc2f8a79",
+      "title": "BioAegis and Prenosis partner for inflammatory disease therapies",
+      "url": "https://www.pharmaceutical-technology.com/news/bioaegis-prenosis-partner-inflammatory-disease-therapies/",
+      "summary": "BioAegis Therapeutics has entered a strategic partnership with Prenosis to advance AI-driven precision medicine for inflammatory diseases.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-04-20T14:36:09+00:00",
-      "pub_ts": 1776695769
+      "pub_date": "2026-04-22T09:31:46+00:00",
+      "pub_ts": 1776850306
     }
   ]
 }
