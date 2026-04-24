@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-04-23T03:29:41.894240+00:00",
+  "updated_at": "2026-04-24T03:32:07.244144+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "64acfc4d25",
-      "title": "Medicare weight loss drug pilot on ice as insurers decline to contribute",
-      "url": "https://www.pharmaceutical-technology.com/news/medicare-medicaid-glp-1-weight-loss-drugs-balance-pilot/",
-      "summary": "The US Government will now pick up the cost of weight loss drugs offered through the Medicare GLP-1 Bridge scheme until 31 December 2027.",
+      "id": "325c05bfa5",
+      "title": "ESCMID Global 2026: Zelicapavir demonstrates benefits for high-risk adults with RSV",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/escmid-global-2026-zelicapavir-demonstrates-benefits-for-high-risk-adults-with-rsv/",
+      "summary": "Enanta is in a strong position to dominate the largely untapped RSV therapeutics market with a Phase III trial on the horizon.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-04-22T16:28:04+00:00",
-      "pub_ts": 1776875284
+      "pub_date": "2026-04-23T21:18:30+00:00",
+      "pub_ts": 1776979110
     },
     {
-      "id": "39946bc15e",
-      "title": "Immunotherapy in locally advanced HNSCC: is there still room for new agents?",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/immunotherapy-in-locally-advanced-hnscc/",
-      "summary": "The treatment landscape for locally advanced head and neck squamous cell carcinoma (LA HNSCC) has changed significantly.",
+      "id": "09a8d00b90",
+      "title": "Pharma Meets AI Conference 2026: Key barriers to scaling AI in drug development",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/pharma-meets-ai-conference-2026-key-barriers-to-scaling-ai-in-drug-development/",
+      "summary": "Strong systems that enable trust and governance are key to enabling the growth of AI technologies in drug development.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-04-22T15:00:02+00:00",
-      "pub_ts": 1776870002
+      "pub_date": "2026-04-23T20:42:35+00:00",
+      "pub_ts": 1776976955
     },
     {
-      "id": "4814641690",
-      "title": "MSD-backed Ray locks in $125m to back eye drug pipeline",
-      "url": "https://www.pharmaceutical-technology.com/news/ray-therapeutics-125m-series-b-eye-disease-gene-therapy/",
-      "summary": "Ray's MSD and Novo Holdings-backed Series B will shed light on the potential of the company's vision restoration gene therapy pipeline.",
+      "id": "1fe7611aff",
+      "title": "ESCMID Global 2026: Adibelivir emerges as potential disease-modifying therapy for HSV",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/escmid-global-2026-adibelivir-emerges-as-potential-disease-modifying-therapy-for-hsv/",
+      "summary": "Innovative Molecules' adibelivir had a favourable pharmacokinetic profile and proved safe and efficacious in Phase I clinical trials.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-04-22T11:57:43+00:00",
-      "pub_ts": 1776859063
+      "pub_date": "2026-04-23T19:17:53+00:00",
+      "pub_ts": 1776971873
     },
     {
-      "id": "45e62d4309",
-      "title": "FDA approves MSD’s once-daily HIV combo Idvynso",
-      "url": "https://www.pharmaceutical-technology.com/news/msd-merck-idvynso-fda-approval-hiv-combination-regimen/",
-      "summary": "GlobalData analysts forecast a blockbuster future for Idvynso, though they note it is unlikely it will displace market dominator, Biktarvy.",
+      "id": "3d181ac0df",
+      "title": "500,000 patients’ data for sale online after UK Biobank breach",
+      "url": "https://www.pharmaceutical-technology.com/news/500000-patients-data-for-sale-online-after-uk-biobank-breach/",
+      "summary": "UK Biobank data from all 500,000 participants within the charity’s health database was put up for sale on the Chinese e-commerce website Alibaba.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-04-22T10:57:04+00:00",
-      "pub_ts": 1776855424
+      "pub_date": "2026-04-23T15:15:37+00:00",
+      "pub_ts": 1776957337
     },
     {
-      "id": "a7fc2f8a79",
-      "title": "BioAegis and Prenosis partner for inflammatory disease therapies",
-      "url": "https://www.pharmaceutical-technology.com/news/bioaegis-prenosis-partner-inflammatory-disease-therapies/",
-      "summary": "BioAegis Therapeutics has entered a strategic partnership with Prenosis to advance AI-driven precision medicine for inflammatory diseases.",
+      "id": "67fabe20de",
+      "title": "Sanofi receives FDA approval for Tzield in paediatric diabetes",
+      "url": "https://www.pharmaceutical-technology.com/news/sanofi-fda-approval-tzield/",
+      "summary": "Sanofi has received approval from the US FDA for a supplemental biologic licence application for Tzield, allowing its use to delay stage 3 T1D onset in children as young as one year diagnosed with stage 2 T1D.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-04-22T09:31:46+00:00",
-      "pub_ts": 1776850306
+      "pub_date": "2026-04-23T09:57:52+00:00",
+      "pub_ts": 1776938272
     }
   ]
 }

@@ -3,108 +3,128 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-04-23T03:29:02.530570+00:00",
+  "updated_at": "2026-04-24T03:31:29.915036+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "742edb0b67",
-      "title": "半导体IP，变得炙手可热",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810528&idx=1&sn=623a7c5fdde8c95772944c5d71c77b65",
-      "summary": "半导体IP，变得炙手可热",
+      "id": "fc17e8bf72",
+      "title": "晶圆代工，角逐1nm",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810577&idx=1&sn=69f22f099c241eafcaf356f0f5f97d7d",
+      "summary": "晶圆代工，角逐1nm",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-23T03:28:58.471986+00:00",
-      "pub_ts": 1776914938
+      "pub_date": "2026-04-24T03:31:25.903857+00:00",
+      "pub_ts": 1777001485
     },
     {
-      "id": "29536eb056",
-      "title": "供不应求！CPU大厂Q3酝酿新一轮涨价",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810528&idx=2&sn=ed67307c85bc006ccc04f28f5b3c0859",
-      "summary": "供不应求！CPU大厂Q3酝酿新一轮涨价",
+      "id": "e25e02e291",
+      "title": "锁定北京车展直播！智能汽车下半场，核心全在芯片",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810577&idx=2&sn=a4dcae689c7354ee1da35d09610e3130",
+      "summary": "锁定北京车展直播！智能汽车下半场，核心全在芯片",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-23T03:28:58.472030+00:00",
-      "pub_ts": 1776914938
+      "pub_date": "2026-04-24T03:31:25.903904+00:00",
+      "pub_ts": 1777001485
     },
     {
-      "id": "045cfb3bf5",
-      "title": "2025年全球半导体设备厂商Top10，出炉",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810528&idx=3&sn=e145f3f99a2431d205ccc40a1ba13c70",
-      "summary": "2025年全球半导体设备厂商Top10，出炉",
+      "id": "4800bf97f7",
+      "title": "又一家MCU公司，发布涨价函！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810577&idx=3&sn=9274e6e3a4668fd9675bc93695333015",
+      "summary": "又一家MCU公司，发布涨价函！",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-23T03:28:58.472057+00:00",
-      "pub_ts": 1776914938
+      "pub_date": "2026-04-24T03:31:25.903930+00:00",
+      "pub_ts": 1777001485
     },
     {
-      "id": "f7026fd7fc",
+      "id": "64e2e98d0c",
+      "title": "2030年CPU增量市场达600亿美元",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810577&idx=4&sn=b5fcd6ba6f3e41112dd22c521081f30c",
+      "summary": "2030年CPU增量市场达600亿美元",
+      "source": "半导体产业纵横",
+      "lang": "zh",
+      "pub_date": "2026-04-24T03:31:25.903953+00:00",
+      "pub_ts": 1777001485
+    },
+    {
+      "id": "3c4d02ad37",
+      "title": "20栈HBM、EMIB封装，OpenAI芯片藏大招！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810577&idx=5&sn=b0846fa95d50883347a9b0142db20820",
+      "summary": "20栈HBM、EMIB封装，OpenAI芯片藏大招！",
+      "source": "半导体产业纵横",
+      "lang": "zh",
+      "pub_date": "2026-04-24T03:31:25.903972+00:00",
+      "pub_ts": 1777001485
+    },
+    {
+      "id": "7a32784117",
+      "title": "谷歌撰文，剖析最新TPU架构",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817138&idx=1&sn=38e25ed59f698285c176863d76599cc6",
+      "summary": "谷歌撰文，剖析最新TPU架构",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-04-24T03:31:17.829604+00:00",
+      "pub_ts": 1777001477
+    },
+    {
+      "id": "b19ff28228",
+      "title": "AI自主设计了一颗CPU：RISC-V架构，主频1.48GHz，可跑Linux",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817124&idx=1&sn=1344ccd20bafe5c94a6d630fd8690803",
+      "summary": "AI自主设计了一颗CPU：RISC-V架构，主频1.48GHz，可跑Linux",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-04-24T03:31:17.829658+00:00",
+      "pub_ts": 1777001477
+    },
+    {
+      "id": "8f99bba68d",
       "title": "TSV，太难了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810528&idx=4&sn=05117c865e089fd2537cdbe15d84c916",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817124&idx=2&sn=6504f76012738c1082a47de02e584249",
       "summary": "TSV，太难了",
-      "source": "半导体产业纵横",
-      "lang": "zh",
-      "pub_date": "2026-04-23T03:28:58.472081+00:00",
-      "pub_ts": 1776914938
-    },
-    {
-      "id": "bb73dabf4f",
-      "title": "15亿！国产RISC-V迎来新一轮融资",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810528&idx=5&sn=e33c040db49aa1d9c6bf285c4accd704",
-      "summary": "15亿！国产RISC-V迎来新一轮融资",
-      "source": "半导体产业纵横",
-      "lang": "zh",
-      "pub_date": "2026-04-23T03:28:58.472103+00:00",
-      "pub_ts": 1776914938
-    },
-    {
-      "id": "05399f6796",
-      "title": "刚刚，谷歌发布两款芯片",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817015&idx=1&sn=a85588e011adad7fec428f9d8a35aeb6",
-      "summary": "刚刚，谷歌发布两款芯片",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-23T03:28:47.879962+00:00",
-      "pub_ts": 1776914927
+      "pub_date": "2026-04-24T03:31:17.829683+00:00",
+      "pub_ts": 1777001477
     },
     {
-      "id": "a626e21684",
-      "title": "中国首款舱驾融合整车智能体芯片，正式发布",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816984&idx=1&sn=26eaf3fd9014bfee9f58d0bf170ece33",
-      "summary": "中国首款舱驾融合整车智能体芯片，正式发布",
+      "id": "db088602a1",
+      "title": "关于“2026年度中国汽车芯片产业创新成果”公示的通知",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817124&idx=3&sn=1492ed514037d3f2babf3e06a20f4e72",
+      "summary": "关于“2026年度中国汽车芯片产业创新成果”公示的通知",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-23T03:28:47.880011+00:00",
-      "pub_ts": 1776914927
+      "pub_date": "2026-04-24T03:31:17.829704+00:00",
+      "pub_ts": 1777001477
     },
     {
-      "id": "589002361b",
-      "title": "刚刚，安克发布一颗芯片",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816962&idx=1&sn=fff70c7fc07a5354a90b038e15fd90d7",
-      "summary": "刚刚，安克发布一颗芯片",
+      "id": "78b5e50363",
+      "title": "JEDEC发布LPDDR6路线图",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817124&idx=4&sn=21cdb019550e79175380c3f55d93cefa",
+      "summary": "JEDEC发布LPDDR6路线图",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-23T03:28:47.880038+00:00",
-      "pub_ts": 1776914927
+      "pub_date": "2026-04-24T03:31:17.829725+00:00",
+      "pub_ts": 1777001477
     },
     {
-      "id": "3338effaad",
-      "title": "芯片制造，新竞赛",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816910&idx=1&sn=91d4f2415a4948c7bbfe9c25dafb2533",
-      "summary": "芯片制造，新竞赛",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-04-23T03:28:47.880062+00:00",
-      "pub_ts": 1776914927
+      "id": "8bee964fb3",
+      "title": "System-in-Package Challenges",
+      "url": "https://semiengineering.com/system-in-package-challenges/",
+      "summary": "Engineering considerations in multi-chiplet designs.\nThe post System-in-Package Challenges appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-04-23T07:15:33+00:00",
+      "pub_ts": 1776928533
     },
     {
-      "id": "0ae1d9e4e7",
-      "title": "机器人关节芯片，新方案",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247816910&idx=2&sn=e8c2a190b11dbdb4e58911b8ce6260ae",
-      "summary": "机器人关节芯片，新方案",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-04-23T03:28:47.880084+00:00",
-      "pub_ts": 1776914927
+      "id": "23a68287a1",
+      "title": "Can Edge AI Keep Up?",
+      "url": "https://semiengineering.com/can-edge-ai-keep-up/",
+      "summary": "As models evolve faster than silicon cycles, experts weigh how much adaptability architects can afford without sacrificing power, area, or efficiency.\nThe post Can Edge AI Keep Up? appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-04-23T07:01:11+00:00",
+      "pub_ts": 1776927671
     },
     {
       "id": "47ef42dd66",
@@ -135,26 +155,6 @@
       "lang": "en",
       "pub_date": "2026-04-21T07:01:46+00:00",
       "pub_ts": 1776754906
-    },
-    {
-      "id": "e7208b1881",
-      "title": "Research Bits: Apr. 21",
-      "url": "https://semiengineering.com/research-bits-apr-21/",
-      "summary": "Compute-in-memory: State space models; ultra-thin AlScN memory; brain-inspired edge AI.\nThe post Research Bits: Apr. 21 appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-04-21T07:01:11+00:00",
-      "pub_ts": 1776754871
-    },
-    {
-      "id": "160d821c78",
-      "title": "Why Proof Convergence Matters",
-      "url": "https://semiengineering.com/why-proof-convergence-matters/",
-      "summary": "Leveraging patterns in formal verification to reach sign-off faster.\nThe post Why Proof Convergence Matters appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-04-20T07:15:16+00:00",
-      "pub_ts": 1776669316
     }
   ]
 }
