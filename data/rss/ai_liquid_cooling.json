@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-04-27T03:42:11.402542+00:00",
+  "updated_at": "2026-04-28T03:48:38.323030+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "5d368a85d0",
-      "title": "首波嘉宾来了！5月20日，来AIGC峰会一起AI",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247886574&idx=1&sn=024a34d77b8261cc9fb061c83d19cb6a",
-      "summary": "首波嘉宾来了！5月20日，来AIGC峰会一起AI",
+      "id": "9954772037",
+      "title": "打工人五一自救指南：把活全甩给AI，准备免打扰出门",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247886925&idx=1&sn=f4764444a81cf40cf6ab593eb5981a73",
+      "summary": "打工人五一自救指南：把活全甩给AI，准备免打扰出门",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-04-27T03:42:06.902236+00:00",
-      "pub_ts": 1777261326
+      "pub_date": "2026-04-28T03:48:33.595045+00:00",
+      "pub_ts": 1777348113
     },
     {
-      "id": "26010023ad",
-      "title": "虽然OpenClaw为DeepSeekV4又更了一版，但“更新新版需谨慎”",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247886574&idx=2&sn=ba35bc6ecc8edba0a761702228afe14e",
-      "summary": "虽然OpenClaw为DeepSeekV4又更了一版，但“更新新版需谨慎”",
+      "id": "2947954871",
+      "title": "Agent群体智能来了！魔搭开源Agent自进化群体智能框架：群体记忆自动蒸...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247886925&idx=2&sn=31f1ff7bd1c7611e5a0b36cfd2867b46",
+      "summary": "Agent群体智能来了！魔搭开源Agent自进化群体智能框架：群体记忆自动蒸...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-04-27T03:42:06.902283+00:00",
-      "pub_ts": 1777261326
+      "pub_date": "2026-04-28T03:48:33.595082+00:00",
+      "pub_ts": 1777348113
     },
     {
-      "id": "1cb8bec3bc",
-      "title": "全球首个医疗视频理解大模型开源！6k+组精标测试集与英雄榜同步上线，…..",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247886522&idx=1&sn=e8863f01ab4d3b8bad8cc3c0b49ffad1",
-      "summary": "全球首个医疗视频理解大模型开源！6k+组精标测试集与英雄榜同步上线，…..",
+      "id": "17e9efcd71",
+      "title": "李飞飞引爆的3D新技术，为什么这家深圳公司两年前就“玩腻”了？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247886635&idx=1&sn=8733e666b6d61ac014bada27785a38f2",
+      "summary": "李飞飞引爆的3D新技术，为什么这家深圳公司两年前就“玩腻”了？",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-04-27T03:42:06.902306+00:00",
-      "pub_ts": 1777261326
+      "pub_date": "2026-04-28T03:48:33.595099+00:00",
+      "pub_ts": 1777348113
     },
     {
-      "id": "22fc1fb63f",
-      "title": "Skill也有语言虚拟机了！上交大开源SkVM，实现一次编写，处处高效",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247886522&idx=2&sn=47ce59a04d9eeda4afbbd9a5aeca7b6b",
-      "summary": "Skill也有语言虚拟机了！上交大开源SkVM，实现一次编写，处处高效",
+      "id": "be82bf88d6",
+      "title": "Claude第一款Al桌宠硬件，深圳制造",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247886635&idx=2&sn=ad5e789d2c92060c7a1f7e9d3370bb62",
+      "summary": "Claude第一款Al桌宠硬件，深圳制造",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-04-27T03:42:06.902328+00:00",
-      "pub_ts": 1777261326
+      "pub_date": "2026-04-28T03:48:33.595115+00:00",
+      "pub_ts": 1777348113
     },
     {
-      "id": "9544edb81b",
-      "title": "最后1天！2026年最值得关注的AI企业&产品Ⅰ申报即将截止",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247886522&idx=3&sn=5d5289100fb6cbcdb0e3d5ff0299aec1",
-      "summary": "最后1天！2026年最值得关注的AI企业&产品Ⅰ申报即将截止",
+      "id": "891de05316",
+      "title": "Meshy用户破千万后杀向新战场：ARR年翻14倍，头部厂商集体买单",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247886631&idx=1&sn=f4c1f8faece9b49afa707d78820fc577",
+      "summary": "Meshy用户破千万后杀向新战场：ARR年翻14倍，头部厂商集体买单",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-04-27T03:42:06.902348+00:00",
-      "pub_ts": 1777261326
+      "pub_date": "2026-04-28T03:48:33.595130+00:00",
+      "pub_ts": 1777348113
     }
   ]
 }

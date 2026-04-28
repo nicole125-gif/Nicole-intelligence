@@ -3,9 +3,59 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-04-27T03:42:22.542160+00:00",
+  "updated_at": "2026-04-28T03:48:50.687520+00:00",
   "item_count": 10,
   "items": [
+    {
+      "id": "73aa168643",
+      "title": "Fuel Cell and Hydrogen News Highlights From China: April 19-April 24 2026",
+      "url": "https://fuelcellsworks.com/2026/04/26/clean-hydrogen/fuel-cell-and-hydrogen-news-highlights-from-china-april-19-april-24-2026",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-04-27T15:57:19+00:00",
+      "pub_ts": 1777305439
+    },
+    {
+      "id": "bf037532ee",
+      "title": "Pasadena Transit Zero-Emission Bus Rollout Faces Real-World Range Challenges as Hydrogen Strategy Advances",
+      "url": "https://fuelcellsworks.com/2026/04/27/fuel-cells/pasadena-transit-zero-emission-bus-rollout-faces-real-world-range-challenges-as-hydrogen-strategy-advances",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-04-27T15:51:34+00:00",
+      "pub_ts": 1777305094
+    },
+    {
+      "id": "5d685ba355",
+      "title": "Advancing the Global Green Hydrogen Economy",
+      "url": "https://fuelcellsworks.com/2026/04/27/electrolyzer/advancing-the-global-green-hydrogen-economy",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-04-27T15:42:04+00:00",
+      "pub_ts": 1777304524
+    },
+    {
+      "id": "d67ac137a8",
+      "title": "Researchers Design Membrane That Increases Hydrogen Purification Efficiency 10X",
+      "url": "https://fuelcellsworks.com/2026/04/26/fuel-cells/researchers-design-membrane-that-increases-hydrogen-purification-efficiency-10x",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-04-27T15:21:08+00:00",
+      "pub_ts": 1777303268
+    },
+    {
+      "id": "85c8d8d652",
+      "title": "Mine Scars Healed with Green Technology",
+      "url": "https://fuelcellsworks.com/2026/04/27/clean-energy/mine-scars-healed-with-green-technology",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-04-27T15:19:14+00:00",
+      "pub_ts": 1777303154
+    },
     {
       "id": "e973ccfd49",
       "title": "GAZ-SYSTEM is Europe’s first hydrogen transmission network operator on the path to obtaining the certificate of independence",
@@ -45,56 +95,6 @@
       "lang": "en",
       "pub_date": "2026-04-24T17:59:36+00:00",
       "pub_ts": 1777053576
-    },
-    {
-      "id": "c4452d07ae",
-      "title": "Official Opening and Commissioning of the New Logistics Area in Bernau for Hydrogen Mobility",
-      "url": "https://fuelcellsworks.com/2026/04/24/h2/official-opening-and-commissioning-of-the-new-logistics-area-in-bernau-for-hydrogen-mobility",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-04-24T15:44:32+00:00",
-      "pub_ts": 1777045472
-    },
-    {
-      "id": "b6fe25c96c",
-      "title": "Qair Opens Its First Renewable Hydrogen Station in Béziers",
-      "url": "https://fuelcellsworks.com/2026/04/24/fuel-cells/qair-opens-its-first-renewable-hydrogen-station-in-beziers",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-04-24T15:35:17+00:00",
-      "pub_ts": 1777044917
-    },
-    {
-      "id": "108c6090ac",
-      "title": "Hydrogen Costs Stable Week on Week but Volatility Elevated Amid Middle East Tensions",
-      "url": "https://fuelcellsworks.com/2026/04/22/h2/hydrogen-costs-stable-week-on-week-but-volatility-elevated-amid-middle-east-tensions",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-04-24T15:32:14+00:00",
-      "pub_ts": 1777044734
-    },
-    {
-      "id": "304cf3790b",
-      "title": "ABS, Marinteknik, Seatech, and VINSSEN Launch Hydrogen Fuel Cell Harbor Craft Pilot Study in Singapore",
-      "url": "https://fuelcellsworks.com/2026/04/24/energy-innovation/abs-marinteknik-seatech-and-vinssen-launch-hydrogen-fuel-cell-harbor-craft-pilot-study-in-singapore",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-04-24T15:27:49+00:00",
-      "pub_ts": 1777044469
-    },
-    {
-      "id": "d1f148f680",
-      "title": "Tokyo Launches Japan's First Government-Operated Hydrogen Fuel Cell Ships",
-      "url": "https://fuelcellsworks.com/2026/04/22/news/tokyo-launches-japan-s-first-government-operated-hydrogen-fuel-cell-ships",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-04-24T15:06:23+00:00",
-      "pub_ts": 1777043183
     },
     {
       "id": "cad7e3ef85",

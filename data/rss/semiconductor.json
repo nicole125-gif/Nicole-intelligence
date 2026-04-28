@@ -3,108 +3,118 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-04-27T03:41:56.910390+00:00",
-  "item_count": 15,
+  "updated_at": "2026-04-28T03:48:23.908737+00:00",
+  "item_count": 14,
   "items": [
     {
-      "id": "3556523a6f",
-      "title": "光通信“中国链”：从材料、代工到模块",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810736&idx=1&sn=57d6b7c9ea67322f7cf05b79e88d624f",
-      "summary": "光通信“中国链”：从材料、代工到模块",
+      "id": "7d22df5824",
+      "title": "DeepSeekV4：中国算力，中国模型，中国节奏",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810797&idx=1&sn=de82feeabf98333b3e690d3e16abbb16",
+      "summary": "DeepSeekV4：中国算力，中国模型，中国节奏",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-27T03:41:52.880469+00:00",
-      "pub_ts": 1777261312
+      "pub_date": "2026-04-28T03:48:19.867574+00:00",
+      "pub_ts": 1777348099
     },
     {
-      "id": "8ca14a680c",
-      "title": "英特尔下一代独立游戏显卡，仍是个谜",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810736&idx=2&sn=65263a0b71ebb5c6da444022bbd188dd",
-      "summary": "英特尔下一代独立游戏显卡，仍是个谜",
+      "id": "19277ee4c8",
+      "title": "强强联合，氮化镓赛道再升级",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810797&idx=2&sn=e69df276708b35095cced13505dcf52a",
+      "summary": "强强联合，氮化镓赛道再升级",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-27T03:41:52.880542+00:00",
-      "pub_ts": 1777261312
+      "pub_date": "2026-04-28T03:48:19.867614+00:00",
+      "pub_ts": 1777348099
     },
     {
-      "id": "b91d950bb5",
-      "title": "2026年半导体大涨62.7%、DRAM、NAND成核心引擎",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810736&idx=3&sn=e202a90a3b4974286c19f93f128c6c54",
-      "summary": "2026年半导体大涨62.7%、DRAM、NAND成核心引擎",
+      "id": "66e712895a",
+      "title": "图解CPU、GPU、TPU、NPU、LPU",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810797&idx=3&sn=71e86c1ef6f23c876d6bf84ac3cec494",
+      "summary": "图解CPU、GPU、TPU、NPU、LPU",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-27T03:41:52.880585+00:00",
-      "pub_ts": 1777261312
+      "pub_date": "2026-04-28T03:48:19.867631+00:00",
+      "pub_ts": 1777348099
     },
     {
-      "id": "f9c83abf09",
-      "title": "试验迈入新阶段，6G的核心能力究竟是什么？",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810736&idx=4&sn=32d0fac8c2242ea1833499befb1f6e55",
-      "summary": "试验迈入新阶段，6G的核心能力究竟是什么？",
+      "id": "21dbb29709",
+      "title": "半导体材料，出问题了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810797&idx=4&sn=0dfb06d4967ea303ff9b90192030f81b",
+      "summary": "半导体材料，出问题了",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-27T03:41:52.880621+00:00",
-      "pub_ts": 1777261312
+      "pub_date": "2026-04-28T03:48:19.867649+00:00",
+      "pub_ts": 1777348099
     },
     {
-      "id": "f991c145a3",
-      "title": "海外产能告急，国产AI芯片迎来窗口期",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810736&idx=5&sn=46c7e2f4bac05c195d526dff604372f0",
-      "summary": "海外产能告急，国产AI芯片迎来窗口期",
+      "id": "43af06371c",
+      "title": "扬杰科技回应，被列入欧盟制裁名单",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810797&idx=5&sn=8611c1d8c8b77279437ab1a0cfe291bc",
+      "summary": "扬杰科技回应，被列入欧盟制裁名单",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-27T03:41:52.880653+00:00",
-      "pub_ts": 1777261312
+      "pub_date": "2026-04-28T03:48:19.867666+00:00",
+      "pub_ts": 1777348099
     },
     {
-      "id": "f7f8a07f3c",
-      "title": "从被动座舱到主动式智能体，联发科开启“AI定义汽车”新纪元",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817433&idx=1&sn=d1578e1db9f0eb461d23f605891616e5",
-      "summary": "从被动座舱到主动式智能体，联发科开启“AI定义汽车”新纪元",
+      "id": "13a560e19c",
+      "title": "高通股价暴涨，传与OpenAl合作研发芯片",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817531&idx=1&sn=662b24ce0e6e6c7c65ac6d7c34452c79",
+      "summary": "高通股价暴涨，传与OpenAl合作研发芯片",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-27T03:41:44.238719+00:00",
-      "pub_ts": 1777261304
+      "pub_date": "2026-04-28T03:48:11.277503+00:00",
+      "pub_ts": 1777348091
     },
     {
-      "id": "f2b00a4176",
-      "title": "2026北京车展|佰维高带宽、高可靠车规级UFS3.1发布！疾速向前，稳应万变",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817433&idx=2&sn=f71963b8cfd18f25add3f9ce84bf7868",
-      "summary": "2026北京车展|佰维高带宽、高可靠车规级UFS3.1发布！疾速向前，稳应万变",
+      "id": "e3bfd4702f",
+      "title": "PCB，价格暴涨",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817520&idx=1&sn=235f0e7a64df0c9994a05c652e790036",
+      "summary": "PCB，价格暴涨",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-27T03:41:44.238773+00:00",
-      "pub_ts": 1777261304
+      "pub_date": "2026-04-28T03:48:11.277548+00:00",
+      "pub_ts": 1777348091
     },
     {
-      "id": "bd7014d484",
-      "title": "光芯片的真正瓶颈",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817433&idx=3&sn=02d581effa7dd1635c7f375155595d8f",
-      "summary": "光芯片的真正瓶颈",
+      "id": "0c6a3dc957",
+      "title": "刚刚，Manus收购，被要求撤销",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817512&idx=1&sn=a376c2760b231f017a4b48864cffe94f",
+      "summary": "刚刚，Manus收购，被要求撤销",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-27T03:41:44.238798+00:00",
-      "pub_ts": 1777261304
+      "pub_date": "2026-04-28T03:48:11.277567+00:00",
+      "pub_ts": 1777348091
     },
     {
-      "id": "259f3d8674",
-      "title": "DRAM，首次突破10nm",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817433&idx=4&sn=c1cf87b638be51d71765aa1e37d7497f",
-      "summary": "DRAM，首次突破10nm",
+      "id": "8bfe3a7565",
+      "title": "扬杰公告，被欧盟制裁",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817503&idx=1&sn=f45801b1f9d5160dfab45ef67578e4c8",
+      "summary": "扬杰公告，被欧盟制裁",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-27T03:41:44.238819+00:00",
-      "pub_ts": 1777261304
+      "pub_date": "2026-04-28T03:48:11.277583+00:00",
+      "pub_ts": 1777348091
     },
     {
-      "id": "9e0305d354",
-      "title": "面板封装，最强科普",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817433&idx=5&sn=c5cd94734d97f5aff84e5ab39a295c20",
-      "summary": "面板封装，最强科普",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-04-27T03:41:44.238839+00:00",
-      "pub_ts": 1777261304
+      "id": "19d82739f0",
+      "title": "When Semiconductor Materials Misbehave",
+      "url": "https://semiengineering.com/when-semiconductor-materials-misbehave/",
+      "summary": "The gap between lab performance and fab reality is growing wider as packages grow more complex.\nThe post When Semiconductor Materials Misbehave appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-04-27T07:01:30+00:00",
+      "pub_ts": 1777273290
+    },
+    {
+      "id": "cdce4102b2",
+      "title": "TSMC Tech Symposium 2026, By The Numbers",
+      "url": "https://semiengineering.com/tsmc-tech-symposium-2026-by-the-numbers/",
+      "summary": "Foundry rolls out aggressive new roadmap, focusing on area, power, and latency.\nThe post TSMC Tech Symposium 2026, By The Numbers appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-04-27T07:01:14+00:00",
+      "pub_ts": 1777273274
     },
     {
       "id": "44fbe84220",
@@ -135,26 +145,6 @@
       "lang": "en",
       "pub_date": "2026-04-23T07:01:11+00:00",
       "pub_ts": 1776927671
-    },
-    {
-      "id": "47ef42dd66",
-      "title": "Blog Review: Apr. 22",
-      "url": "https://semiengineering.com/blog-review-apr-22/",
-      "summary": "Coverage closure; EM sim for AMS; CXL 4; root of trust for ATMs.\nThe post Blog Review: Apr. 22 appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-04-22T07:01:50+00:00",
-      "pub_ts": 1776841310
-    },
-    {
-      "id": "3e6db65f5e",
-      "title": "TSV Complexity Leads To Manufacturing Bottleneck",
-      "url": "https://semiengineering.com/tsv-complexity-leads-to-manufacturing-bottleneck/",
-      "summary": "Creating through-silicon vias is a necessary but daunting challenge.\nThe post TSV Complexity Leads To Manufacturing Bottleneck appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-04-22T07:01:40+00:00",
-      "pub_ts": 1776841300
     }
   ]
 }
