@@ -3,148 +3,158 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-04-28T03:48:23.908737+00:00",
-  "item_count": 14,
+  "updated_at": "2026-04-29T03:44:19.661913+00:00",
+  "item_count": 15,
   "items": [
     {
-      "id": "7d22df5824",
-      "title": "DeepSeekV4：中国算力，中国模型，中国节奏",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810797&idx=1&sn=de82feeabf98333b3e690d3e16abbb16",
-      "summary": "DeepSeekV4：中国算力，中国模型，中国节奏",
+      "id": "a435095125",
+      "title": "26.51亿战略增持！华勤技术成为晶合集成第三大股东",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810843&idx=1&sn=7efe7a0589ef73debdfd72f4eab3a2f6",
+      "summary": "26.51亿战略增持！华勤技术成为晶合集成第三大股东",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-28T03:48:19.867574+00:00",
-      "pub_ts": 1777348099
+      "pub_date": "2026-04-29T03:44:15.553357+00:00",
+      "pub_ts": 1777434255
     },
     {
-      "id": "19277ee4c8",
-      "title": "强强联合，氮化镓赛道再升级",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810797&idx=2&sn=e69df276708b35095cced13505dcf52a",
-      "summary": "强强联合，氮化镓赛道再升级",
+      "id": "6a569f37b9",
+      "title": "国产车规芯片，走入深水区",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810836&idx=1&sn=af5bfc8cfe2243c072fc488665c9368b",
+      "summary": "国产车规芯片，走入深水区",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-28T03:48:19.867614+00:00",
-      "pub_ts": 1777348099
+      "pub_date": "2026-04-29T03:44:15.553412+00:00",
+      "pub_ts": 1777434255
     },
     {
-      "id": "66e712895a",
-      "title": "图解CPU、GPU、TPU、NPU、LPU",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810797&idx=3&sn=71e86c1ef6f23c876d6bf84ac3cec494",
-      "summary": "图解CPU、GPU、TPU、NPU、LPU",
+      "id": "7f4047e078",
+      "title": "工业芯片，进入拉力赛",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810836&idx=2&sn=789d3c6f241b17dbb3bfd0d0f12e64dc",
+      "summary": "工业芯片，进入拉力赛",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-28T03:48:19.867631+00:00",
-      "pub_ts": 1777348099
+      "pub_date": "2026-04-29T03:44:15.553437+00:00",
+      "pub_ts": 1777434255
     },
     {
-      "id": "21dbb29709",
-      "title": "半导体材料，出问题了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810797&idx=4&sn=0dfb06d4967ea303ff9b90192030f81b",
-      "summary": "半导体材料，出问题了",
+      "id": "ea9c19a870",
+      "title": "AI封装刚需爆发，新一代陶瓷基板登场",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810836&idx=3&sn=1c4e1f9d56c52a249bf04736e7d2fa9b",
+      "summary": "AI封装刚需爆发，新一代陶瓷基板登场",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-28T03:48:19.867649+00:00",
-      "pub_ts": 1777348099
+      "pub_date": "2026-04-29T03:44:15.553459+00:00",
+      "pub_ts": 1777434255
     },
     {
-      "id": "43af06371c",
-      "title": "扬杰科技回应，被列入欧盟制裁名单",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810797&idx=5&sn=8611c1d8c8b77279437ab1a0cfe291bc",
-      "summary": "扬杰科技回应，被列入欧盟制裁名单",
+      "id": "802ebca3cb",
+      "title": "MLCC市场分化，AI成需求核心支撑",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810836&idx=4&sn=10cbe16bf0bd92a6a1a25083af356860",
+      "summary": "MLCC市场分化，AI成需求核心支撑",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-28T03:48:19.867666+00:00",
-      "pub_ts": 1777348099
+      "pub_date": "2026-04-29T03:44:15.553479+00:00",
+      "pub_ts": 1777434255
     },
     {
-      "id": "13a560e19c",
-      "title": "高通股价暴涨，传与OpenAl合作研发芯片",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817531&idx=1&sn=662b24ce0e6e6c7c65ac6d7c34452c79",
-      "summary": "高通股价暴涨，传与OpenAl合作研发芯片",
+      "id": "c411a6e286",
+      "title": "初创公司，要干掉内存墙",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817703&idx=1&sn=7786c959bfd37b56529e38332aea5ee2",
+      "summary": "初创公司，要干掉内存墙",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-28T03:48:11.277503+00:00",
-      "pub_ts": 1777348091
+      "pub_date": "2026-04-29T03:44:06.565798+00:00",
+      "pub_ts": 1777434246
     },
     {
-      "id": "e3bfd4702f",
-      "title": "PCB，价格暴涨",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817520&idx=1&sn=235f0e7a64df0c9994a05c652e790036",
-      "summary": "PCB，价格暴涨",
+      "id": "e5f91021b0",
+      "title": "一份专利，暴露OpenAI自研芯",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817608&idx=1&sn=867dd49cb9a5c603485f55840db44489",
+      "summary": "一份专利，暴露OpenAI自研芯",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-28T03:48:11.277548+00:00",
-      "pub_ts": 1777348091
+      "pub_date": "2026-04-29T03:44:06.565849+00:00",
+      "pub_ts": 1777434246
     },
     {
-      "id": "0c6a3dc957",
-      "title": "刚刚，Manus收购，被要求撤销",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817512&idx=1&sn=a376c2760b231f017a4b48864cffe94f",
-      "summary": "刚刚，Manus收购，被要求撤销",
+      "id": "4a2e4e54cb",
+      "title": "国产算力，兵分三路对抗CUDA",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817608&idx=2&sn=9cd6d3eb18c32e8dace13a55d9969c68",
+      "summary": "国产算力，兵分三路对抗CUDA",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-28T03:48:11.277567+00:00",
-      "pub_ts": 1777348091
+      "pub_date": "2026-04-29T03:44:06.565872+00:00",
+      "pub_ts": 1777434246
     },
     {
-      "id": "8bfe3a7565",
-      "title": "扬杰公告，被欧盟制裁",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817503&idx=1&sn=f45801b1f9d5160dfab45ef67578e4c8",
-      "summary": "扬杰公告，被欧盟制裁",
+      "id": "1cac29dbdb",
+      "title": "射频前端高集成模组：半导体领域的珠峰挑战与技术破局",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817608&idx=3&sn=07457078f9b9c4ae72f635dc3fa7fa07",
+      "summary": "射频前端高集成模组：半导体领域的珠峰挑战与技术破局",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-28T03:48:11.277583+00:00",
-      "pub_ts": 1777348091
+      "pub_date": "2026-04-29T03:44:06.565891+00:00",
+      "pub_ts": 1777434246
     },
     {
-      "id": "19d82739f0",
-      "title": "When Semiconductor Materials Misbehave",
-      "url": "https://semiengineering.com/when-semiconductor-materials-misbehave/",
-      "summary": "The gap between lab performance and fab reality is growing wider as packages grow more complex.\nThe post When Semiconductor Materials Misbehave appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-04-27T07:01:30+00:00",
-      "pub_ts": 1777273290
+      "id": "ba733b47b5",
+      "title": "台积电擘画下一代芯片",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817608&idx=4&sn=06ba6f95fbc2ec8fef228c2dc5a68bd1",
+      "summary": "台积电擘画下一代芯片",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-04-29T03:44:06.565911+00:00",
+      "pub_ts": 1777434246
     },
     {
-      "id": "cdce4102b2",
-      "title": "TSMC Tech Symposium 2026, By The Numbers",
-      "url": "https://semiengineering.com/tsmc-tech-symposium-2026-by-the-numbers/",
-      "summary": "Foundry rolls out aggressive new roadmap, focusing on area, power, and latency.\nThe post TSMC Tech Symposium 2026, By The Numbers appeared first on Semiconductor Engineering.",
+      "id": "2f1e987d20",
+      "title": "Microarchitecture Tailored to 3D-Stacked Near-Memory Processing LLM Decoding (U. of Edinburgh, Peking U., Cambridge et al.)",
+      "url": "https://semiengineering.com/microarchitecture-tailored-to-3d-stacked-near-memory-processing-llm-decoding-u-of-edinburg-peking-u-cambridge-et-al/",
+      "summary": "A new technical paper, &#8220;Rethinking Compute Substrates for 3D-Stacked Near-Memory LLM Decoding: Microarchitecture-Scheduling Co-Design,&#8221; was published by researchers at University of Edinburgh, Peking University, University of Cambridge, University of Chinese Academy of Sciences, and the …",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-04-27T07:01:14+00:00",
-      "pub_ts": 1777273274
+      "pub_date": "2026-04-28T17:06:26+00:00",
+      "pub_ts": 1777395986
     },
     {
-      "id": "44fbe84220",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-135/",
-      "summary": "Marvell's photonics buy; Onto's process control stake; TSMC A14/13 and EDA flows; Apple shuffle; LPDDR6; SOCAMM2 chipset; MATCH Act progress; EUV resist crunch; India 3D packaging; digital test card for HPC; telemetry platform for power management; edge AI MCU for voice; new Google TPUs.\nThe post Ch…",
+      "id": "3df80d8d4c",
+      "title": "Rethinking ESD Protection for System-On-Integrated Chiplets (UC Riverside)",
+      "url": "https://semiengineering.com/rethinking-esd-protection-for-system-on-integrated-chiplets-uc-riverside/",
+      "summary": "A new technical paper, &#8220;In-SoIC ESD Protection for Chiplet-Based 3D Microsystems: Future Research Directions,&#8221; was published by researchers at the University of California, Riverside. Abstract &#8220;Heterogeneous integration opens a pathway to three-dimensional chiplet-based microsystem…",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-04-24T07:01:37+00:00",
-      "pub_ts": 1777014097
+      "pub_date": "2026-04-28T16:52:45+00:00",
+      "pub_ts": 1777395165
     },
     {
-      "id": "8bee964fb3",
-      "title": "System-in-Package Challenges",
-      "url": "https://semiengineering.com/system-in-package-challenges/",
-      "summary": "Engineering considerations in multi-chiplet designs.\nThe post System-in-Package Challenges appeared first on Semiconductor Engineering.",
+      "id": "fca6abf1e3",
+      "title": "Alumina Nanowires Improve Thermal Management in Advanced Packaging (Georgia Tech et al.)",
+      "url": "https://semiengineering.com/alumina-nanowires-improve-thermal-management-in-advanced-packaging-georgia-tech-et-al/",
+      "summary": "A new technical paper, &#8220;Epoxy Composites Reinforced with Long Al2O3 Nanowires for Enhanced Thermal Management in Advanced Semiconductor Packaging,&#8221; was published by researchers at the Georgia Institute of Technology and National Cheng Kung University. Abstract &#8220;The rapid increase i…",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-04-23T07:15:33+00:00",
-      "pub_ts": 1776928533
+      "pub_date": "2026-04-28T16:39:12+00:00",
+      "pub_ts": 1777394352
     },
     {
-      "id": "23a68287a1",
-      "title": "Can Edge AI Keep Up?",
-      "url": "https://semiengineering.com/can-edge-ai-keep-up/",
-      "summary": "As models evolve faster than silicon cycles, experts weigh how much adaptability architects can afford without sacrificing power, area, or efficiency.\nThe post Can Edge AI Keep Up? appeared first on Semiconductor Engineering.",
+      "id": "644b7ba27f",
+      "title": "Mapping and Routing Fault-Tolerant Quantum Circuits Onto Chiplet Architectures (TU Munich)",
+      "url": "https://semiengineering.com/mapping-and-routing-fault-tolerant-quantum-circuits-onto-chiplet-architectures-tu-munich/",
+      "summary": "A new technical paper, &#8220;Chipmunq: A Fault-Tolerant Compiler for Chiplet Quantum Architectures,&#8221; was published by researchers at the Technical University of Munich. Abstract &#8220;As quantum computing advances toward fault-tolerance through quantum error correction, modular chiplet archi…",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-04-23T07:01:11+00:00",
-      "pub_ts": 1776927671
+      "pub_date": "2026-04-28T16:19:46+00:00",
+      "pub_ts": 1777393186
+    },
+    {
+      "id": "f75d6601e0",
+      "title": "Leveraging Agentic AI Techniques to Improve Formal Verification (Infineon, et al.)",
+      "url": "https://semiengineering.com/leveraging-agentic-ai-techniques-to-improve-formal-verification-infineon-et-al/",
+      "summary": "A new technical paper, &#8220;Agentic AI-based Coverage Closure for Formal Verification,&#8221; was published by researchers at Infineon and the NIT Jalandhar. Abstract &#8220;Coverage closure is a critical requirement in Integrated Chip (IC) development process and key metric for verification sign-…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-04-28T16:13:20+00:00",
+      "pub_ts": 1777392800
     }
   ]
 }

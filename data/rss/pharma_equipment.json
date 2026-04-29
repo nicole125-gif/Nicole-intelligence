@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-04-28T03:49:03.497605+00:00",
+  "updated_at": "2026-04-29T03:44:58.516587+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "88674d767f",
-      "title": "Eli Lilly outlays $2.3bn to acquire blood cancer specialist Ajax Therapeutics",
-      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-outlays-2-3bn-to-acquire-blood-cancer-specialist-ajax-therapeutics/",
-      "summary": "Ajax’s lead asset is AJ1-11095, a once-daily Type II JAK2 inhibitor taken orally, which is currently in a Phase I trial.",
+      "id": "862b989c3d",
+      "title": "Merck KGaA and Remepy join forces to develop combo drug-digital therapies",
+      "url": "https://www.pharmaceutical-technology.com/news/merck-kgaa-remepy-collaboration-drug-digital-therapeutic-combination/",
+      "summary": "Merck KGaA and Remepy will work in tandem to develop drug-digital therapy combinations for a rare cancer indication.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-04-27T15:27:53+00:00",
-      "pub_ts": 1777303673
+      "pub_date": "2026-04-28T11:00:25+00:00",
+      "pub_ts": 1777374025
     },
     {
-      "id": "0e0730f628",
-      "title": "Pharma Meets AI Conference 2026: AI in pharma begins delivering measurable ROI",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/pharma-meets-ai-conference-2026-ai-in-pharma-begins-delivering-measurable-roi/",
-      "summary": "AI tools that slash time spent on administration prove their worth and free up pharma workers for higher value tasks.",
+      "id": "97ad6f74d6",
+      "title": "Seaport and Hemab target $180m IPOs as biotech listings accumulate",
+      "url": "https://www.pharmaceutical-technology.com/news/seaport-and-hemab-target-180m-ipos-as-biotech-listings-accumulate/",
+      "summary": "Seaport will use the funds for its neuropsychiatric drug pipeline, while Hemab will focus on bleeding disorder medicines.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-04-27T15:20:38+00:00",
-      "pub_ts": 1777303238
+      "pub_date": "2026-04-28T10:22:38+00:00",
+      "pub_ts": 1777371758
     },
     {
-      "id": "49d2fe6a11",
-      "title": "Pharma Meets AI Conference 2026: AI governance shifts to embedded practice",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/pharma-meets-ai-conference-2026-ai-governance-shifts-to-embedded-practice/",
-      "summary": "AI capabilities within pharma are evolving from add-on to an arm of core business demanding overhauled AI governance.",
+      "id": "a834d81705",
+      "title": "BioMarin acquires Amicus Therapeutics for $4.8bn",
+      "url": "https://www.pharmaceutical-technology.com/news/biomarin-acquires-amicus-therapeutics/",
+      "summary": "BioMarin Pharmaceutical has completed its acquisition of Amicus Therapeutics, buying the company for $14.50 per share in an all-cash deal.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-04-27T14:53:40+00:00",
-      "pub_ts": 1777301620
+      "pub_date": "2026-04-28T08:51:54+00:00",
+      "pub_ts": 1777366314
     },
     {
-      "id": "7b50de23b8",
-      "title": "ESCMID Global 2026: Pritelivir excels in immunocompromised refractory HSV patients",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/escmid-global-2026-pritelivir-excels-in-immunocompromised-refractory-hsv-patients/",
-      "summary": "Aicuris’s pritelivir is forecast to be a significant advancement for immunocompromised patients with refractory HSV infections.",
+      "id": "ccc9e2ce9a",
+      "title": "FDA approves AstraZeneca’s Saphnelo for SLE",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-approves-astrazeneca-saphnelo-sle/",
+      "summary": "AstraZeneca has received approval from the FDA for the subcutaneous self-administration of Saphnelo using the Saphnelo pen for SLE.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-04-27T14:52:22+00:00",
-      "pub_ts": 1777301542
+      "pub_date": "2026-04-28T08:25:11+00:00",
+      "pub_ts": 1777364711
     },
     {
-      "id": "baee56e481",
-      "title": "MFN changing the rules of the game for the Nordic countries",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/mfn-changing-rules-for-nordic-countries/",
-      "summary": "Pharmaceutical trade associations across the Nordic region have reacted with vigilance to a recent GlobalData report that highlighted the potential effect on product launch and withdrawal trends in Europe caused by the US' MFN policy.",
+      "id": "b4ae28c7db",
+      "title": "Early detection of bowel Cancer in the UK represents success of screening program",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/early-detection-of-bowel-cancer-in-the-uk-represents-success-of-screening-program/",
+      "summary": "With the introduction of a home testing kit, it is easier for people to get screened for bowel cancer.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-04-27T14:36:08+00:00",
-      "pub_ts": 1777300568
+      "pub_date": "2026-04-27T19:07:52+00:00",
+      "pub_ts": 1777316872
     }
   ]
 }
