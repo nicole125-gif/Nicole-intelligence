@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-04-29T03:44:34.695702+00:00",
+  "updated_at": "2026-04-30T03:46:24.850517+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "065c6e125e",
-      "title": "不卷参数卷架构，这个开源模型把图像理解和生成统一了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247887537&idx=1&sn=67703ab483decc9a6e33b26c07636b5e",
-      "summary": "不卷参数卷架构，这个开源模型把图像理解和生成统一了",
+      "id": "1fb923b425",
+      "title": "生数科技认领神秘登顶模型：AI视频公司拿出工业级Demo，跨本体跑通复杂...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247887827&idx=1&sn=1145c1ec9d0e0f6755512d756d2f2909",
+      "summary": "生数科技认领神秘登顶模型：AI视频公司拿出工业级Demo，跨本体跑通复杂...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-04-29T03:44:29.423043+00:00",
-      "pub_ts": 1777434269
+      "pub_date": "2026-04-30T03:46:19.350392+00:00",
+      "pub_ts": 1777520779
     },
     {
-      "id": "cdcd055753",
-      "title": "小米双模型正式开源！MiMo-V2.5-Pro无中断肝出“macOS”：54个应用全开、…..",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247887537&idx=2&sn=ed9dfac76ce1fd72fb8417c2fed5d512",
-      "summary": "小米双模型正式开源！MiMo-V2.5-Pro无中断肝出“macOS”：54个应用全开、…..",
+      "id": "5e48d8f80a",
+      "title": "确认！DeepSeek多模态Al已经开测",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247887827&idx=2&sn=6801c43c3dc9126d3e6bc2dd94a372b4",
+      "summary": "确认！DeepSeek多模态Al已经开测",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-04-29T03:44:29.423086+00:00",
-      "pub_ts": 1777434269
+      "pub_date": "2026-04-30T03:46:19.350434+00:00",
+      "pub_ts": 1777520779
     },
     {
-      "id": "b62acb3d00",
-      "title": "消费级显卡可以快速上手跑！面壁智能MiniCPM-o4.5发技术报告",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247887537&idx=3&sn=c1a2b1c2e82579a31cf2d14d21a3d51e",
-      "summary": "消费级显卡可以快速上手跑！面壁智能MiniCPM-o4.5发技术报告",
+      "id": "3e8e05143b",
+      "title": "龙虾冲浪终于不迷路了！网页智能体新框架Avenir-Web开源即SOTA",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247887827&idx=3&sn=6f15e73e3e9766986b064a1fce6fe955",
+      "summary": "龙虾冲浪终于不迷路了！网页智能体新框架Avenir-Web开源即SOTA",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-04-29T03:44:29.423107+00:00",
-      "pub_ts": 1777434269
+      "pub_date": "2026-04-30T03:46:19.350457+00:00",
+      "pub_ts": 1777520779
     },
     {
-      "id": "36fa52dccc",
-      "title": "成功率最高暴跌36.9%！南洋理工首个“模糊指令”测试，直击具身智能落地软肋",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247887537&idx=4&sn=c33b83af20538a881c2f7a64fae4b6b7",
-      "summary": "成功率最高暴跌36.9%！南洋理工首个“模糊指令”测试，直击具身智能落地软肋",
+      "id": "55a3b0925f",
+      "title": "火速吃瓜：Kimi K2.6设计能力超越Claude Design",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247887762&idx=1&sn=6614b29eb6e66a8ddd54433cb44c052e",
+      "summary": "火速吃瓜：Kimi K2.6设计能力超越Claude Design",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-04-29T03:44:29.423125+00:00",
-      "pub_ts": 1777434269
+      "pub_date": "2026-04-30T03:46:19.350509+00:00",
+      "pub_ts": 1777520779
     },
     {
-      "id": "f231c2b866",
-      "title": "我嘞个豆！中国企业牵头，ICLR这场Workshop被挤爆了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247887535&idx=1&sn=cedd957e8c26564223314d520264b317",
-      "summary": "我嘞个豆！中国企业牵头，ICLR这场Workshop被挤爆了",
+      "id": "c8e00991b8",
+      "title": "养了只东北味熊猫当AI合伙人，一口一个老铁，还真帮我开了家「一人公司」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247887762&idx=2&sn=27624effc2b5c7555f1531b5a9f3f051",
+      "summary": "养了只东北味熊猫当AI合伙人，一口一个老铁，还真帮我开了家「一人公司」",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-04-29T03:44:29.423143+00:00",
-      "pub_ts": 1777434269
+      "pub_date": "2026-04-30T03:46:19.350536+00:00",
+      "pub_ts": 1777520779
     }
   ]
 }

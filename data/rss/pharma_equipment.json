@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-04-29T03:44:58.516587+00:00",
+  "updated_at": "2026-04-30T03:46:48.547882+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "862b989c3d",
-      "title": "Merck KGaA and Remepy join forces to develop combo drug-digital therapies",
-      "url": "https://www.pharmaceutical-technology.com/news/merck-kgaa-remepy-collaboration-drug-digital-therapeutic-combination/",
-      "summary": "Merck KGaA and Remepy will work in tandem to develop drug-digital therapy combinations for a rare cancer indication.",
+      "id": "49217ba6a4",
+      "title": "Pfizer protects $6.4bn heart disease blockbuster from generics, for now",
+      "url": "https://www.pharmaceutical-technology.com/news/pfizer-protects-6-4bn-heart-disease-blockbuster-from-generics-for-now/",
+      "summary": "Pfizer’s Vyndamax will be free from generics competition until 2031 in a boost to the company’s revenue streams.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-04-28T11:00:25+00:00",
-      "pub_ts": 1777374025
+      "pub_date": "2026-04-29T15:59:24+00:00",
+      "pub_ts": 1777478364
     },
     {
-      "id": "97ad6f74d6",
-      "title": "Seaport and Hemab target $180m IPOs as biotech listings accumulate",
-      "url": "https://www.pharmaceutical-technology.com/news/seaport-and-hemab-target-180m-ipos-as-biotech-listings-accumulate/",
-      "summary": "Seaport will use the funds for its neuropsychiatric drug pipeline, while Hemab will focus on bleeding disorder medicines.",
+      "id": "aebecc4109",
+      "title": "Eli Lilly bets on recombinases in $2.25bn Profluent R&D pact",
+      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-profluent-recombinase-development-partnership/",
+      "summary": "Eli Lilly and Profluent will harness AI to discover and develop recombinases for precise, large-scale gene editing.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-04-28T10:22:38+00:00",
-      "pub_ts": 1777371758
+      "pub_date": "2026-04-29T10:51:54+00:00",
+      "pub_ts": 1777459914
     },
     {
-      "id": "a834d81705",
-      "title": "BioMarin acquires Amicus Therapeutics for $4.8bn",
-      "url": "https://www.pharmaceutical-technology.com/news/biomarin-acquires-amicus-therapeutics/",
-      "summary": "BioMarin Pharmaceutical has completed its acquisition of Amicus Therapeutics, buying the company for $14.50 per share in an all-cash deal.",
+      "id": "471de335e8",
+      "title": "The strategic investments expanding CDMO capabilities for HPAPIs and ADCs",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/the-strategic-investments-expanding-cdmo-capabilities-for-hpapis-and-adcs/",
+      "summary": "Demand for HPAPIs and ADCs is accelerating, prompting CDMOs to invest to strengthen manufacturing capabilities for oncology.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-04-28T08:51:54+00:00",
-      "pub_ts": 1777366314
+      "pub_date": "2026-04-29T10:42:51+00:00",
+      "pub_ts": 1777459371
     },
     {
-      "id": "ccc9e2ce9a",
-      "title": "FDA approves AstraZeneca’s Saphnelo for SLE",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-approves-astrazeneca-saphnelo-sle/",
-      "summary": "AstraZeneca has received approval from the FDA for the subcutaneous self-administration of Saphnelo using the Saphnelo pen for SLE.",
+      "id": "3ef41bf438",
+      "title": "Novartis’ Q1 sales miss hints at industry’s utilisation of M&A remedies",
+      "url": "https://www.pharmaceutical-technology.com/news/novartis-q1-sales-miss-hints-at-industrys-utilisation-of-ma-remedies/",
+      "summary": "Novartis’ Q1 was hit by generics erosion, though its Avidity-bolstered pipeline is set for a robust future.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-04-28T08:25:11+00:00",
-      "pub_ts": 1777364711
+      "pub_date": "2026-04-29T10:18:12+00:00",
+      "pub_ts": 1777457892
     },
     {
-      "id": "b4ae28c7db",
-      "title": "Early detection of bowel Cancer in the UK represents success of screening program",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/early-detection-of-bowel-cancer-in-the-uk-represents-success-of-screening-program/",
-      "summary": "With the introduction of a home testing kit, it is easier for people to get screened for bowel cancer.",
+      "id": "1de2cd6596",
+      "title": "Arcera and Fosun sign MoU for neuroscience innovation",
+      "url": "https://www.pharmaceutical-technology.com/news/arcera-fosun-mou-neuroscience-innovation/",
+      "summary": "Arcera Life Sciences and Fosun Pharma have signed an MoU for a strategic long-term collaboration in the global life sciences industry.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-04-27T19:07:52+00:00",
-      "pub_ts": 1777316872
+      "pub_date": "2026-04-29T09:47:15+00:00",
+      "pub_ts": 1777456035
     }
   ]
 }

@@ -3,158 +3,138 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-04-29T03:44:19.661913+00:00",
-  "item_count": 15,
+  "updated_at": "2026-04-30T03:46:09.952963+00:00",
+  "item_count": 13,
   "items": [
     {
-      "id": "a435095125",
-      "title": "26.51亿战略增持！华勤技术成为晶合集成第三大股东",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810843&idx=1&sn=7efe7a0589ef73debdfd72f4eab3a2f6",
-      "summary": "26.51亿战略增持！华勤技术成为晶合集成第三大股东",
+      "id": "e4ccd64122",
+      "title": "CPU超级周期，拦不住了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810872&idx=1&sn=6a457c5cead865e094dae191de3fb58b",
+      "summary": "CPU超级周期，拦不住了",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-29T03:44:15.553357+00:00",
-      "pub_ts": 1777434255
+      "pub_date": "2026-04-30T03:46:06.011084+00:00",
+      "pub_ts": 1777520766
     },
     {
-      "id": "6a569f37b9",
-      "title": "国产车规芯片，走入深水区",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810836&idx=1&sn=af5bfc8cfe2243c072fc488665c9368b",
-      "summary": "国产车规芯片，走入深水区",
+      "id": "67c41dbc71",
+      "title": "狂涨770%！AI捧红芯片基板厂商们",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810872&idx=2&sn=fea612894d36ddcf9d822c163fb9773f",
+      "summary": "狂涨770%！AI捧红芯片基板厂商们",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-29T03:44:15.553412+00:00",
-      "pub_ts": 1777434255
+      "pub_date": "2026-04-30T03:46:06.011128+00:00",
+      "pub_ts": 1777520766
     },
     {
-      "id": "7f4047e078",
-      "title": "工业芯片，进入拉力赛",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810836&idx=2&sn=789d3c6f241b17dbb3bfd0d0f12e64dc",
-      "summary": "工业芯片，进入拉力赛",
+      "id": "1f9bd29d8e",
+      "title": "财报超预期！希捷：产能几乎卖光，已锁定至2027",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810872&idx=3&sn=fed2cef44a8e7ccb14ed5a521c7038b5",
+      "summary": "财报超预期！希捷：产能几乎卖光，已锁定至2027",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-29T03:44:15.553437+00:00",
-      "pub_ts": 1777434255
+      "pub_date": "2026-04-30T03:46:06.011152+00:00",
+      "pub_ts": 1777520766
     },
     {
-      "id": "ea9c19a870",
-      "title": "AI封装刚需爆发，新一代陶瓷基板登场",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810836&idx=3&sn=1c4e1f9d56c52a249bf04736e7d2fa9b",
-      "summary": "AI封装刚需爆发，新一代陶瓷基板登场",
+      "id": "533126310f",
+      "title": "光刻胶供应，有新门槛",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810872&idx=4&sn=fdb5f051f810393ce9fed12e1948c075",
+      "summary": "光刻胶供应，有新门槛",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-29T03:44:15.553459+00:00",
-      "pub_ts": 1777434255
+      "pub_date": "2026-04-30T03:46:06.011174+00:00",
+      "pub_ts": 1777520766
     },
     {
-      "id": "802ebca3cb",
-      "title": "MLCC市场分化，AI成需求核心支撑",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810836&idx=4&sn=10cbe16bf0bd92a6a1a25083af356860",
-      "summary": "MLCC市场分化，AI成需求核心支撑",
+      "id": "c6a3aeacc9",
+      "title": "面板巨头，抢滩半导体封装",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810872&idx=5&sn=21632ebf44bbd44ffd5f0ca3cbb5b763",
+      "summary": "面板巨头，抢滩半导体封装",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-29T03:44:15.553479+00:00",
-      "pub_ts": 1777434255
+      "pub_date": "2026-04-30T03:46:06.011198+00:00",
+      "pub_ts": 1777520766
     },
     {
-      "id": "c411a6e286",
-      "title": "初创公司，要干掉内存墙",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817703&idx=1&sn=7786c959bfd37b56529e38332aea5ee2",
-      "summary": "初创公司，要干掉内存墙",
+      "id": "92ad16dd0f",
+      "title": "兆易创新，净利大增超500%",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817951&idx=1&sn=d911b37e545151270a847f863294ecff",
+      "summary": "兆易创新，净利大增超500%",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-29T03:44:06.565798+00:00",
-      "pub_ts": 1777434246
+      "pub_date": "2026-04-30T03:45:58.360143+00:00",
+      "pub_ts": 1777520758
     },
     {
-      "id": "e5f91021b0",
-      "title": "一份专利，暴露OpenAI自研芯",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817608&idx=1&sn=867dd49cb9a5c603485f55840db44489",
-      "summary": "一份专利，暴露OpenAI自研芯",
+      "id": "23dc2b38b5",
+      "title": "事关华虹，外交部回应",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817893&idx=1&sn=240d8a5bc5d7690253b63a9f102ca926",
+      "summary": "事关华虹，外交部回应",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-29T03:44:06.565849+00:00",
-      "pub_ts": 1777434246
+      "pub_date": "2026-04-30T03:45:58.360193+00:00",
+      "pub_ts": 1777520758
     },
     {
-      "id": "4a2e4e54cb",
-      "title": "国产算力，兵分三路对抗CUDA",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817608&idx=2&sn=9cd6d3eb18c32e8dace13a55d9969c68",
-      "summary": "国产算力，兵分三路对抗CUDA",
+      "id": "41772650ea",
+      "title": "矽力杰官宣收购",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817835&idx=1&sn=4d8ef29cc5dd2ed8644d5c204cf38a5d",
+      "summary": "矽力杰官宣收购",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-29T03:44:06.565872+00:00",
-      "pub_ts": 1777434246
+      "pub_date": "2026-04-30T03:45:58.360219+00:00",
+      "pub_ts": 1777520758
     },
     {
-      "id": "1cac29dbdb",
-      "title": "射频前端高集成模组：半导体领域的珠峰挑战与技术破局",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817608&idx=3&sn=07457078f9b9c4ae72f635dc3fa7fa07",
-      "summary": "射频前端高集成模组：半导体领域的珠峰挑战与技术破局",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-04-29T03:44:06.565891+00:00",
-      "pub_ts": 1777434246
-    },
-    {
-      "id": "ba733b47b5",
-      "title": "台积电擘画下一代芯片",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817608&idx=4&sn=06ba6f95fbc2ec8fef228c2dc5a68bd1",
-      "summary": "台积电擘画下一代芯片",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-04-29T03:44:06.565911+00:00",
-      "pub_ts": 1777434246
-    },
-    {
-      "id": "2f1e987d20",
-      "title": "Microarchitecture Tailored to 3D-Stacked Near-Memory Processing LLM Decoding (U. of Edinburgh, Peking U., Cambridge et al.)",
-      "url": "https://semiengineering.com/microarchitecture-tailored-to-3d-stacked-near-memory-processing-llm-decoding-u-of-edinburg-peking-u-cambridge-et-al/",
-      "summary": "A new technical paper, &#8220;Rethinking Compute Substrates for 3D-Stacked Near-Memory LLM Decoding: Microarchitecture-Scheduling Co-Design,&#8221; was published by researchers at University of Edinburgh, Peking University, University of Cambridge, University of Chinese Academy of Sciences, and the …",
+      "id": "60285eb83c",
+      "title": "Energy-Efficient Liquid Cooling for Advanced Semiconductor Packaging (KAIST)",
+      "url": "https://semiengineering.com/energy-efficient-liquid-cooling-for-advanced-semiconductor-packaging-kaist/",
+      "summary": "A new technical paper, &#8220;Highly energy-efficient manifold microchannel for cooling electronics with a coefficient of performance over 100,000,&#8221; was published by researchers at KAIST. The study presents a CMOS-compatible manifold microchannel cooler that removes over 2,000 W/cm² using sing…",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-04-28T17:06:26+00:00",
-      "pub_ts": 1777395986
+      "pub_date": "2026-04-29T19:42:23+00:00",
+      "pub_ts": 1777491743
     },
     {
-      "id": "3df80d8d4c",
-      "title": "Rethinking ESD Protection for System-On-Integrated Chiplets (UC Riverside)",
-      "url": "https://semiengineering.com/rethinking-esd-protection-for-system-on-integrated-chiplets-uc-riverside/",
-      "summary": "A new technical paper, &#8220;In-SoIC ESD Protection for Chiplet-Based 3D Microsystems: Future Research Directions,&#8221; was published by researchers at the University of California, Riverside. Abstract &#8220;Heterogeneous integration opens a pathway to three-dimensional chiplet-based microsystem…",
+      "id": "416f59c27d",
+      "title": "Assuring Comprehensive Security Coverage In Hardware Design",
+      "url": "https://semiengineering.com/assuring-comprehensive-security-coverage-in-hardware-design/",
+      "summary": "Security coverage is a key component of a systematic framework for comprehensive, traceable security verification.\nThe post Assuring Comprehensive Security Coverage In Hardware Design appeared first on Semiconductor Engineering.",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-04-28T16:52:45+00:00",
-      "pub_ts": 1777395165
+      "pub_date": "2026-04-29T07:02:56+00:00",
+      "pub_ts": 1777446176
     },
     {
-      "id": "fca6abf1e3",
-      "title": "Alumina Nanowires Improve Thermal Management in Advanced Packaging (Georgia Tech et al.)",
-      "url": "https://semiengineering.com/alumina-nanowires-improve-thermal-management-in-advanced-packaging-georgia-tech-et-al/",
-      "summary": "A new technical paper, &#8220;Epoxy Composites Reinforced with Long Al2O3 Nanowires for Enhanced Thermal Management in Advanced Semiconductor Packaging,&#8221; was published by researchers at the Georgia Institute of Technology and National Cheng Kung University. Abstract &#8220;The rapid increase i…",
+      "id": "6f6abd80d7",
+      "title": "How Long Will CAN Stick Around As Rival Networks Speed Up?",
+      "url": "https://semiengineering.com/how-long-will-can-stick-around-as-rival-networks-speed-up/",
+      "summary": "New in-vehicle networking technology will likely take over as more AI is added, but in the near term designers face challenges integrating new with old.\nThe post How Long Will CAN Stick Around As Rival Networks Speed Up? appeared first on Semiconductor Engineering.",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-04-28T16:39:12+00:00",
-      "pub_ts": 1777394352
+      "pub_date": "2026-04-29T07:01:53+00:00",
+      "pub_ts": 1777446113
     },
     {
-      "id": "644b7ba27f",
-      "title": "Mapping and Routing Fault-Tolerant Quantum Circuits Onto Chiplet Architectures (TU Munich)",
-      "url": "https://semiengineering.com/mapping-and-routing-fault-tolerant-quantum-circuits-onto-chiplet-architectures-tu-munich/",
-      "summary": "A new technical paper, &#8220;Chipmunq: A Fault-Tolerant Compiler for Chiplet Quantum Architectures,&#8221; was published by researchers at the Technical University of Munich. Abstract &#8220;As quantum computing advances toward fault-tolerance through quantum error correction, modular chiplet archi…",
+      "id": "a9730ba8ae",
+      "title": "Blog Review: Apr. 29",
+      "url": "https://semiengineering.com/blog-review-apr-29/",
+      "summary": "Interface IP in 3D; SOCAMM in data centers; edge intelligence implementations; deposition, etch for 3D; interconnect telemetry; design–manufacturing collaboration.\nThe post Blog Review: Apr. 29 appeared first on Semiconductor Engineering.",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-04-28T16:19:46+00:00",
-      "pub_ts": 1777393186
+      "pub_date": "2026-04-29T07:01:37+00:00",
+      "pub_ts": 1777446097
     },
     {
-      "id": "f75d6601e0",
-      "title": "Leveraging Agentic AI Techniques to Improve Formal Verification (Infineon, et al.)",
-      "url": "https://semiengineering.com/leveraging-agentic-ai-techniques-to-improve-formal-verification-infineon-et-al/",
-      "summary": "A new technical paper, &#8220;Agentic AI-based Coverage Closure for Formal Verification,&#8221; was published by researchers at Infineon and the NIT Jalandhar. Abstract &#8220;Coverage closure is a critical requirement in Integrated Chip (IC) development process and key metric for verification sign-…",
+      "id": "ef9b57f998",
+      "title": "From Silos to Systems, from Data to Insight",
+      "url": "https://semiengineering.com/from-silos-to-systems-from-data-to-insight/",
+      "summary": "Transform fragmented, siloed data into a governed, connected, and reusable organizational knowledge base.\nThe post From Silos to Systems, from Data to Insight appeared first on Semiconductor Engineering.",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-04-28T16:13:20+00:00",
-      "pub_ts": 1777392800
+      "pub_date": "2026-04-29T07:01:11+00:00",
+      "pub_ts": 1777446071
     }
   ]
 }
