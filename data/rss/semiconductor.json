@@ -3,138 +3,158 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-04-30T03:46:09.952963+00:00",
-  "item_count": 13,
+  "updated_at": "2026-05-01T03:58:04.784970+00:00",
+  "item_count": 15,
   "items": [
     {
-      "id": "e4ccd64122",
-      "title": "CPU超级周期，拦不住了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810872&idx=1&sn=6a457c5cead865e094dae191de3fb58b",
-      "summary": "CPU超级周期，拦不住了",
+      "id": "0cc94d97bc",
+      "title": "2026北京国际车展智驾新车盘点",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811029&idx=1&sn=24e63e954e0b55cb41bf1e6073a92595",
+      "summary": "2026北京国际车展智驾新车盘点",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-30T03:46:06.011084+00:00",
-      "pub_ts": 1777520766
+      "pub_date": "2026-05-01T03:58:00.686854+00:00",
+      "pub_ts": 1777607880
     },
     {
-      "id": "67c41dbc71",
-      "title": "狂涨770%！AI捧红芯片基板厂商们",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810872&idx=2&sn=fea612894d36ddcf9d822c163fb9773f",
-      "summary": "狂涨770%！AI捧红芯片基板厂商们",
+      "id": "a6cbc91718",
+      "title": "企业级GPU集群平均利用率仅为5%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811029&idx=2&sn=eb788427c8af212549cd9916045611e3",
+      "summary": "企业级GPU集群平均利用率仅为5%",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-30T03:46:06.011128+00:00",
-      "pub_ts": 1777520766
+      "pub_date": "2026-05-01T03:58:00.686898+00:00",
+      "pub_ts": 1777607880
     },
     {
-      "id": "1f9bd29d8e",
-      "title": "财报超预期！希捷：产能几乎卖光，已锁定至2027",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810872&idx=3&sn=fed2cef44a8e7ccb14ed5a521c7038b5",
-      "summary": "财报超预期！希捷：产能几乎卖光，已锁定至2027",
+      "id": "755a369ba2",
+      "title": "赋能汽车电子、半导体、数据中心产业，FacTecChina电子工厂设施展来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811029&idx=3&sn=df97bfa51302fb69c8ff4316fa902b76",
+      "summary": "赋能汽车电子、半导体、数据中心产业，FacTecChina电子工厂设施展来了",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-30T03:46:06.011152+00:00",
-      "pub_ts": 1777520766
+      "pub_date": "2026-05-01T03:58:00.686924+00:00",
+      "pub_ts": 1777607880
     },
     {
-      "id": "533126310f",
-      "title": "光刻胶供应，有新门槛",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810872&idx=4&sn=fdb5f051f810393ce9fed12e1948c075",
-      "summary": "光刻胶供应，有新门槛",
+      "id": "7c63bedb7b",
+      "title": "AISoC与芯粒普及，NoC一致性挑战陡增",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811029&idx=4&sn=2dc880da2b7773d803ffeb9ad776fc83",
+      "summary": "AISoC与芯粒普及，NoC一致性挑战陡增",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-30T03:46:06.011174+00:00",
-      "pub_ts": 1777520766
+      "pub_date": "2026-05-01T03:58:00.686947+00:00",
+      "pub_ts": 1777607880
     },
     {
-      "id": "c6a3aeacc9",
-      "title": "面板巨头，抢滩半导体封装",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247810872&idx=5&sn=21632ebf44bbd44ffd5f0ca3cbb5b763",
-      "summary": "面板巨头，抢滩半导体封装",
+      "id": "3e4ac6f353",
+      "title": "传统制程缩放走到尽头，算力、内存、功耗、数据传输全面遇阻",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811029&idx=5&sn=b0ff9b3e300a1bbe9f1ee1829aa80ad9",
+      "summary": "传统制程缩放走到尽头，算力、内存、功耗、数据传输全面遇阻",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-04-30T03:46:06.011198+00:00",
-      "pub_ts": 1777520766
+      "pub_date": "2026-05-01T03:58:00.686968+00:00",
+      "pub_ts": 1777607880
     },
     {
-      "id": "92ad16dd0f",
-      "title": "兆易创新，净利大增超500%",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817951&idx=1&sn=d911b37e545151270a847f863294ecff",
-      "summary": "兆易创新，净利大增超500%",
+      "id": "9ab6ca0dd4",
+      "title": "小芯片公司，产能告急！",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818036&idx=1&sn=efee1606894f07a2a45935d8c44e62fa",
+      "summary": "小芯片公司，产能告急！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-30T03:45:58.360143+00:00",
-      "pub_ts": 1777520758
+      "pub_date": "2026-05-01T03:57:52.837459+00:00",
+      "pub_ts": 1777607872
     },
     {
-      "id": "23dc2b38b5",
-      "title": "事关华虹，外交部回应",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817893&idx=1&sn=240d8a5bc5d7690253b63a9f102ca926",
-      "summary": "事关华虹，外交部回应",
+      "id": "34eb2b5701",
+      "title": "寒武纪大涨，重夺“股王”",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818019&idx=1&sn=5c7231ce09113947c2ee2e9db4147f6b",
+      "summary": "寒武纪大涨，重夺“股王”",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-30T03:45:58.360193+00:00",
-      "pub_ts": 1777520758
+      "pub_date": "2026-05-01T03:57:52.837518+00:00",
+      "pub_ts": 1777607872
     },
     {
-      "id": "41772650ea",
-      "title": "矽力杰官宣收购",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817835&idx=1&sn=4d8ef29cc5dd2ed8644d5c204cf38a5d",
-      "summary": "矽力杰官宣收购",
+      "id": "94fd796824",
+      "title": "144通道PCle5.0超大规格交换芯片，国产首发，青芯“造”",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818012&idx=1&sn=508938111ea2a51266e4e56b32afa17a",
+      "summary": "144通道PCle5.0超大规格交换芯片，国产首发，青芯“造”",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-04-30T03:45:58.360219+00:00",
-      "pub_ts": 1777520758
+      "pub_date": "2026-05-01T03:57:52.837544+00:00",
+      "pub_ts": 1777607872
     },
     {
-      "id": "60285eb83c",
-      "title": "Energy-Efficient Liquid Cooling for Advanced Semiconductor Packaging (KAIST)",
-      "url": "https://semiengineering.com/energy-efficient-liquid-cooling-for-advanced-semiconductor-packaging-kaist/",
-      "summary": "A new technical paper, &#8220;Highly energy-efficient manifold microchannel for cooling electronics with a coefficient of performance over 100,000,&#8221; was published by researchers at KAIST. The study presents a CMOS-compatible manifold microchannel cooler that removes over 2,000 W/cm² using sing…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-04-29T19:42:23+00:00",
-      "pub_ts": 1777491743
+      "id": "de51e4d88c",
+      "title": "光刻机，差异化突围",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818012&idx=2&sn=502f0b319c56769f3882530f5d92a2d4",
+      "summary": "光刻机，差异化突围",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-05-01T03:57:52.837566+00:00",
+      "pub_ts": 1777607872
     },
     {
-      "id": "416f59c27d",
-      "title": "Assuring Comprehensive Security Coverage In Hardware Design",
-      "url": "https://semiengineering.com/assuring-comprehensive-security-coverage-in-hardware-design/",
-      "summary": "Security coverage is a key component of a systematic framework for comprehensive, traceable security verification.\nThe post Assuring Comprehensive Security Coverage In Hardware Design appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-04-29T07:02:56+00:00",
-      "pub_ts": 1777446176
+      "id": "3a7e1859d4",
+      "title": "台积电先进封装路线图",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818012&idx=3&sn=25e0fe39c6d3a49e7c336891e3281b45",
+      "summary": "台积电先进封装路线图",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-05-01T03:57:52.837587+00:00",
+      "pub_ts": 1777607872
     },
     {
-      "id": "6f6abd80d7",
-      "title": "How Long Will CAN Stick Around As Rival Networks Speed Up?",
-      "url": "https://semiengineering.com/how-long-will-can-stick-around-as-rival-networks-speed-up/",
-      "summary": "New in-vehicle networking technology will likely take over as more AI is added, but in the near term designers face challenges integrating new with old.\nThe post How Long Will CAN Stick Around As Rival Networks Speed Up? appeared first on Semiconductor Engineering.",
+      "id": "5c84116d5f",
+      "title": "Transforming DRC Closure At Advanced Nodes",
+      "url": "https://semiengineering.com/transforming-drc-closure-at-advanced-nodes/",
+      "summary": "Turning billions of violations into actionable insights.\nThe post Transforming DRC Closure At Advanced Nodes appeared first on Semiconductor Engineering.",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-04-29T07:01:53+00:00",
-      "pub_ts": 1777446113
+      "pub_date": "2026-04-30T07:05:47+00:00",
+      "pub_ts": 1777532747
     },
     {
-      "id": "a9730ba8ae",
-      "title": "Blog Review: Apr. 29",
-      "url": "https://semiengineering.com/blog-review-apr-29/",
-      "summary": "Interface IP in 3D; SOCAMM in data centers; edge intelligence implementations; deposition, etch for 3D; interconnect telemetry; design–manufacturing collaboration.\nThe post Blog Review: Apr. 29 appeared first on Semiconductor Engineering.",
+      "id": "9a8af4e55b",
+      "title": "Creating Agentic EDA Methodologies",
+      "url": "https://semiengineering.com/creating-agentic-eda-methodologies/",
+      "summary": "Current approaches involve multiple tools, vendors, designs, data formats, and abstractions. Can agents really use them all?\nThe post Creating Agentic EDA Methodologies appeared first on Semiconductor Engineering.",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-04-29T07:01:37+00:00",
-      "pub_ts": 1777446097
+      "pub_date": "2026-04-30T07:05:34+00:00",
+      "pub_ts": 1777532734
     },
     {
-      "id": "ef9b57f998",
-      "title": "From Silos to Systems, from Data to Insight",
-      "url": "https://semiengineering.com/from-silos-to-systems-from-data-to-insight/",
-      "summary": "Transform fragmented, siloed data into a governed, connected, and reusable organizational knowledge base.\nThe post From Silos to Systems, from Data to Insight appeared first on Semiconductor Engineering.",
+      "id": "61b899cdfa",
+      "title": "Foundry Capacity Is Limiting Who Competes At Leading Edge Nodes",
+      "url": "https://semiengineering.com/foundries-capacity-is-limiting-who-competes-at-leading-edge-nodes/",
+      "summary": "But the inability to utilize leading-edge process nodes has created opportunities for small and midsize chip developers in multi-die design, along with some sophisticated architectural design tradeoffs.\nThe post Foundry Capacity Is Limiting Who Competes At Leading Edge Nodes appeared first on Semico…",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-04-29T07:01:11+00:00",
-      "pub_ts": 1777446071
+      "pub_date": "2026-04-30T07:05:15+00:00",
+      "pub_ts": 1777532715
+    },
+    {
+      "id": "338195c2df",
+      "title": "Unlocking High-Speed Serial Link Signal Integrity With AMI Model",
+      "url": "https://semiengineering.com/unlocking-high-speed-serial-link-signal-integrity-with-ami-model/",
+      "summary": "Analyze the effects on eye diagrams, BER, and timing margins by integrating advanced equalization algorithms into channel simulations. \nThe post Unlocking High-Speed Serial Link Signal Integrity With AMI Model appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-04-30T07:04:58+00:00",
+      "pub_ts": 1777532698
+    },
+    {
+      "id": "59bf70cbce",
+      "title": "Facilitating Complex SoC Design Through Automation And Integration",
+      "url": "https://semiengineering.com/facilitating-complex-soc-design-through-automation-and-integration/",
+      "summary": "The boundaries between IP reuse, interconnect design, and hardware-software integration are no longer independent.\nThe post Facilitating Complex SoC Design Through Automation And Integration appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-04-30T07:04:06+00:00",
+      "pub_ts": 1777532646
     }
   ]
 }
