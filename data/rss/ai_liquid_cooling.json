@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-05-01T03:58:18.129121+00:00",
+  "updated_at": "2026-05-02T03:31:44.442693+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "9e7764d9da",
-      "title": "GPT之父：只用上世纪数据训AI，它居然也会写Python?!",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247887945&idx=1&sn=4ae7aef7f33377a3b2bda14bc320f454",
-      "summary": "GPT之父：只用上世纪数据训AI，它居然也会写Python?!",
+      "id": "64cd11e7ed",
+      "title": "智谱公布“降智”的秘密：Scaling不可避免的痛",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888065&idx=1&sn=bd31d70ff89f5fb8efcc6086af8099aa",
+      "summary": "智谱公布“降智”的秘密：Scaling不可避免的痛",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-01T03:58:14.119559+00:00",
-      "pub_ts": 1777607894
+      "pub_date": "2026-05-02T03:31:39.283840+00:00",
+      "pub_ts": 1777692699
     },
     {
-      "id": "6efd996c55",
-      "title": "IMO/OI奖牌得主18000人追踪：1500倍概率成亿万富翁",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247887944&idx=1&sn=39aa3b78b53d22309c945a23ac976d13",
-      "summary": "IMO/OI奖牌得主18000人追踪：1500倍概率成亿万富翁",
+      "id": "ec2758a9bf",
+      "title": "太抓马了！马斯克OpenAl开庭，硅谷巨富互揭老底像极了村口吵架",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888068&idx=1&sn=a48bc02fc07cf085457a2e3fe20315a2",
+      "summary": "太抓马了！马斯克OpenAl开庭，硅谷巨富互揭老底像极了村口吵架",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-01T03:58:14.119603+00:00",
-      "pub_ts": 1777607894
+      "pub_date": "2026-05-02T03:31:39.283881+00:00",
+      "pub_ts": 1777692699
     },
     {
-      "id": "3c891254db",
-      "title": "DeepSeek识图模式是个新模型？！一手实测在此(没错我被灰度到了)",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247887929&idx=1&sn=a2716676b1cafb02c0429f5b7b60653f",
-      "summary": "DeepSeek识图模式是个新模型？！一手实测在此(没错我被灰度到了)",
+      "id": "544d0d8449",
+      "title": "突破视觉仿真算力瓶颈！新一代具身智能仿真框架开源：高吞吐并行高保真渲..",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888068&idx=2&sn=34706e4b91b9c47df968f116230d2b1f",
+      "summary": "突破视觉仿真算力瓶颈！新一代具身智能仿真框架开源：高吞吐并行高保真渲..",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-01T03:58:14.119626+00:00",
-      "pub_ts": 1777607894
+      "pub_date": "2026-05-02T03:31:39.283905+00:00",
+      "pub_ts": 1777692699
     },
     {
-      "id": "21a908d18d",
-      "title": "华为携手中科大发布灵境造物，openJiuwen 首发Coordination...",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247887926&idx=1&sn=dbd9ca8dfac3edd12eb7a8e8dae304da",
-      "summary": "华为携手中科大发布灵境造物，openJiuwen 首发Coordination...",
+      "id": "a795383379",
+      "title": "他用AI办了个音乐节，主题：别读博",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888004&idx=1&sn=cf0920402625bb5d0af65be63e9578b5",
+      "summary": "他用AI办了个音乐节，主题：别读博",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-01T03:58:14.119647+00:00",
-      "pub_ts": 1777607894
+      "pub_date": "2026-05-02T03:31:39.283927+00:00",
+      "pub_ts": 1777692699
     },
     {
-      "id": "0d04f5a779",
-      "title": "OpenAI公告正经解释：为什么GPT-5.5爱说“哥布林”",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247887926&idx=2&sn=4a609a8ba6f99eda15cbdfa33cf23719",
-      "summary": "OpenAI公告正经解释：为什么GPT-5.5爱说“哥布林”",
+      "id": "b51e4c99ef",
+      "title": "北大开源统一世界模型框架：多类合成推理任务一套搞定",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888004&idx=2&sn=df1394c7a8d411439011d14c12233470",
+      "summary": "北大开源统一世界模型框架：多类合成推理任务一套搞定",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-01T03:58:14.119667+00:00",
-      "pub_ts": 1777607894
+      "pub_date": "2026-05-02T03:31:39.283948+00:00",
+      "pub_ts": 1777692699
     }
   ]
 }

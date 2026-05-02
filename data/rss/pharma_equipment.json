@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-05-01T03:58:42.714802+00:00",
+  "updated_at": "2026-05-02T03:32:07.884660+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "e5275b3c35",
-      "title": "Thinning revenues: inside the $14bn Eliquis patent cliff",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/thinning-revenues-eliquis-patent-cliff/",
-      "summary": "With $14.bn in projected revenue losses over six years, the Eliquis loss-of-exclusivity event is set to become one of the most consequential patent cliffs in pharmaceutical history.",
+      "id": "b0ed66a5c5",
+      "title": "The cost of inefficiencies in clinical trials",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/the-cost-of-inefficiencies-in-clinical-trials/",
+      "summary": "Estimates suggest fragmented technology can raise clinical trial costs by 45%, but a unified approach to clinical data management can enable efficiency.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-04-30T15:08:26+00:00",
-      "pub_ts": 1777561706
+      "pub_date": "2026-05-01T10:15:45+00:00",
+      "pub_ts": 1777630545
     },
     {
-      "id": "74a4498a49",
-      "title": "Chiesi widens rare disease portfolio with $1.9bn KalVista buyout",
-      "url": "https://www.pharmaceutical-technology.com/news/chiesi-widens-rare-disease-portfolio-with-1-9bn-kalvista-buyout/",
-      "summary": "Chiesi will assume ownership of Ekterly, an on-demand pill approved for hereditary angioedema.",
+      "id": "3e685d0635",
+      "title": "How Saudi Arabia is developing as a Middle East hub for clinical trials",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/how-saudi-arabia-is-developing-as-a-middle-east-hub-for-clinical-trials/",
+      "summary": "Saudi Arabia is emerging as a major growth market for clinical trials in the Middle East, underpinned by strong funding and rapidly developing infrastructure.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-04-30T10:50:11+00:00",
-      "pub_ts": 1777546211
+      "pub_date": "2026-05-01T09:58:00+00:00",
+      "pub_ts": 1777629480
     },
     {
-      "id": "a4f73d7f6f",
-      "title": "Teva signs off $900m Emalex buyout amid strategic pipeline boosting ploy",
-      "url": "https://www.pharmaceutical-technology.com/news/teva-acquires-emalex-ecopipam-paediatric-tourettes-syndrome/",
-      "summary": "Teva’s Emalex buyout falls under the company's wider strategy of prioritising deals around de-risked, differentiated, late-stage assets.",
+      "id": "3e0a6135b7",
+      "title": "Axsome receives FDA approval for Auvelity to treat Alzheimer’s agitation",
+      "url": "https://www.pharmaceutical-technology.com/news/axsome-fda-approval-auvelity-alzheimers-agitation/",
+      "summary": "Axsome Therapeutics has received FDA approval for Auvelity to treat agitation associated with dementia due to Alzheimer’s.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-04-30T10:01:00+00:00",
-      "pub_ts": 1777543260
+      "pub_date": "2026-05-01T09:41:08+00:00",
+      "pub_ts": 1777628468
     },
     {
-      "id": "12e0b8605f",
-      "title": "EU’s Joint Clinical Assessment system still finding its footing",
-      "url": "https://www.pharmaceutical-technology.com/features/eus-joint-clinical-assessment-system-still-finding-its-footing/",
-      "summary": "With publication of the first JCA report imminent, procedural and methodological challenges persist.",
+      "id": "6a94358566",
+      "title": "Eli Lilly lifts 2026 revenue guidance as Q1 marks dominant opening",
+      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-lifts-2026-revenue-guidance-as-q1-marks-dominant-opening/",
+      "summary": "Sales for Lilly blew past expectations in the quarter as demand for weight loss treatments showed no signs of abating.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-04-30T09:55:35+00:00",
-      "pub_ts": 1777542935
+      "pub_date": "2026-05-01T09:32:32+00:00",
+      "pub_ts": 1777627952
     },
     {
-      "id": "dc08a5b450",
-      "title": "How eSource adoption is saving time and costs in clinical research",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/how-esource-adoption-is-saving-time-and-costs-in-clinical-research/",
-      "summary": "",
+      "id": "1576eb628f",
+      "title": "BMS brings the buzz around late-stage readouts amid a so-so Q1",
+      "url": "https://www.pharmaceutical-technology.com/news/bms-late-stage-readouts-cobenfy-milvexian-q1-2026-results/",
+      "summary": "BMS is awaiting Phase III readouts from potential Eliquis successor, milvexian and schizophrenia med, Cobenfy, expected later this year.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-04-30T09:47:49+00:00",
-      "pub_ts": 1777542469
+      "pub_date": "2026-05-01T09:20:53+00:00",
+      "pub_ts": 1777627253
     }
   ]
 }
