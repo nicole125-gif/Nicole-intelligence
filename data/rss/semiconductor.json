@@ -3,108 +3,118 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-05-02T03:31:29.946895+00:00",
+  "updated_at": "2026-05-03T03:52:52.228027+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "53e9a3ba8b",
-      "title": "存储、代工、设备龙头，集体杀入混合键合",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811054&idx=1&sn=86e829bdc394ae727edada7d6ac15efd",
-      "summary": "存储、代工、设备龙头，集体杀入混合键合",
+      "id": "cabf418a2e",
+      "title": "功率半导体，缺货",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811076&idx=1&sn=2bf6ff1b22b1430e7ae429460ba0e134",
+      "summary": "功率半导体，缺货",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-02T03:31:25.788075+00:00",
-      "pub_ts": 1777692685
+      "pub_date": "2026-05-03T03:52:48.150444+00:00",
+      "pub_ts": 1777780368
     },
     {
-      "id": "a9732d93b6",
-      "title": "库克收官答卷：苹果Q2净利润296亿美元，同比增19.4%",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811054&idx=2&sn=534829d178000b9297fd13d2fa7e3536",
-      "summary": "库克收官答卷：苹果Q2净利润296亿美元，同比增19.4%",
+      "id": "6a48c64200",
+      "title": "AI热潮如何让消费电子沦为“芯片荒”的受害者？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811076&idx=2&sn=e75f18f5655f26adb8aac58a75e5fe6e",
+      "summary": "AI热潮如何让消费电子沦为“芯片荒”的受害者？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-02T03:31:25.788135+00:00",
-      "pub_ts": 1777692685
+      "pub_date": "2026-05-03T03:52:48.150487+00:00",
+      "pub_ts": 1777780368
     },
     {
-      "id": "1482cf1ef0",
-      "title": "10皮秒，半导体光学新速度",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811054&idx=3&sn=e6da18cae8bd929ef91c200c09547eba",
-      "summary": "10皮秒，半导体光学新速度",
+      "id": "c560d1ea12",
+      "title": "晶圆厂产能，固化尖端工艺竞争格局",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811076&idx=3&sn=306ce106040fa6df92baa253f5db6bd2",
+      "summary": "晶圆厂产能，固化尖端工艺竞争格局",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-02T03:31:25.788164+00:00",
-      "pub_ts": 1777692685
+      "pub_date": "2026-05-03T03:52:48.150514+00:00",
+      "pub_ts": 1777780368
     },
     {
-      "id": "1f03be7181",
-      "title": "量子计算的天敌",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811054&idx=4&sn=a10fe684b99d2e30bb43f2eb6fbe2edf",
-      "summary": "量子计算的天敌",
+      "id": "c3a8cb5e33",
+      "title": "CPU逻辑回归?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811076&idx=4&sn=658544e7f53ca361eec3d6f6beeb7ba1",
+      "summary": "CPU逻辑回归?",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-02T03:31:25.788189+00:00",
-      "pub_ts": 1777692685
+      "pub_date": "2026-05-03T03:52:48.150538+00:00",
+      "pub_ts": 1777780368
     },
     {
-      "id": "df9fd6448a",
-      "title": "光模块风口之下，AI重塑产业新圈层",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811054&idx=5&sn=808a19f09df4c0c0f763f9c91a0c9201",
-      "summary": "光模块风口之下，AI重塑产业新圈层",
+      "id": "ce0390fc64",
+      "title": "国产芯片，能否解决智谱和MiniMax的算力荒问题",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811076&idx=5&sn=243c45256bac35621a5955a7c57b1813",
+      "summary": "国产芯片，能否解决智谱和MiniMax的算力荒问题",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-02T03:31:25.788211+00:00",
-      "pub_ts": 1777692685
+      "pub_date": "2026-05-03T03:52:48.150559+00:00",
+      "pub_ts": 1777780368
     },
     {
-      "id": "bf5b12730f",
-      "title": "存储芯片成为印钞机",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818082&idx=1&sn=662dae43cbf9572ca36aa811e6b9fa5a",
-      "summary": "存储芯片成为印钞机",
+      "id": "51b2759c0c",
+      "title": "日本马桶厂商，靠芯片闷声发大财",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818208&idx=1&sn=974646a406bec48792bbbbc0bdbfb5ba",
+      "summary": "日本马桶厂商，靠芯片闷声发大财",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-02T03:31:17.385637+00:00",
-      "pub_ts": 1777692677
+      "pub_date": "2026-05-03T03:52:36.347988+00:00",
+      "pub_ts": 1777780356
     },
     {
-      "id": "1fbeaf2dcc",
-      "title": "NoC，日益严峻",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818082&idx=2&sn=6992e826d4bb3e7302b823ba0be7081d",
-      "summary": "NoC，日益严峻",
+      "id": "e4cbae4a73",
+      "title": "TGV，愈发重要",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818208&idx=2&sn=e815ef2bfa0da1f7c6482b5aaaa2968e",
+      "summary": "TGV，愈发重要",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-02T03:31:17.385684+00:00",
-      "pub_ts": 1777692677
+      "pub_date": "2026-05-03T03:52:36.348039+00:00",
+      "pub_ts": 1777780356
     },
     {
-      "id": "d826625a6e",
-      "title": "英伟达芯片帝国，面临冲击",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818082&idx=3&sn=44b774362a938a7a98679b4bb3e43b3f",
-      "summary": "英伟达芯片帝国，面临冲击",
+      "id": "3dc622cac7",
+      "title": "英特尔详细介绍18A-P工艺",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818208&idx=3&sn=bb28cce27e68b5c602aaad7be1b633ee",
+      "summary": "英特尔详细介绍18A-P工艺",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-02T03:31:17.385710+00:00",
-      "pub_ts": 1777692677
+      "pub_date": "2026-05-03T03:52:36.348065+00:00",
+      "pub_ts": 1777780356
     },
     {
-      "id": "358bbd20e2",
-      "title": "1000层NAND，里程碑",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818082&idx=4&sn=1fe8634687faa0ff4f7a8d492059ce89",
-      "summary": "1000层NAND，里程碑",
+      "id": "c0e0ad9e42",
+      "title": "台积电先进封装功臣：余振华传入职联发科",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818208&idx=4&sn=b52fa8abff4f1ad9f89675cf013d48ce",
+      "summary": "台积电先进封装功臣：余振华传入职联发科",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-02T03:31:17.385733+00:00",
-      "pub_ts": 1777692677
+      "pub_date": "2026-05-03T03:52:36.348088+00:00",
+      "pub_ts": 1777780356
     },
     {
-      "id": "928086fb91",
-      "title": "英特尔先进封装，火力全开",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818082&idx=5&sn=addd7add6487fcc792b61905898cdccd",
-      "summary": "英特尔先进封装，火力全开",
+      "id": "ce98a65ec7",
+      "title": "昇腾销量飙升，华为成为大赢家",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818208&idx=5&sn=f9694922d020837164432c9ab33005dc",
+      "summary": "昇腾销量飙升，华为成为大赢家",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-02T03:31:17.385754+00:00",
-      "pub_ts": 1777692677
+      "pub_date": "2026-05-03T03:52:36.348110+00:00",
+      "pub_ts": 1777780356
+    },
+    {
+      "id": "d7ffaa5995",
+      "title": "Potential Route To Photonic FPCA Using NV Low-Loss Phase Change Material (Oxford)",
+      "url": "https://semiengineering.com/potential-route-to-photonic-fpca-using-nv-low-loss-phase-change-material-oxford/",
+      "summary": "A new technical paper, &#8220;Nonvolatile photonic field-programmable coupler array,&#8221; was published by researchers at University of Oxford. Abstract &#8220;Programmable photonic networks carry out universal unitary functions by independently operating on the amplitude and phase of guided light…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-05-02T17:15:42+00:00",
+      "pub_ts": 1777742142
     },
     {
       "id": "1089ea1e95",
@@ -145,16 +155,6 @@
       "lang": "en",
       "pub_date": "2026-04-30T07:05:15+00:00",
       "pub_ts": 1777532715
-    },
-    {
-      "id": "338195c2df",
-      "title": "Unlocking High-Speed Serial Link Signal Integrity With AMI Model",
-      "url": "https://semiengineering.com/unlocking-high-speed-serial-link-signal-integrity-with-ami-model/",
-      "summary": "Analyze the effects on eye diagrams, BER, and timing margins by integrating advanced equalization algorithms into channel simulations. \nThe post Unlocking High-Speed Serial Link Signal Integrity With AMI Model appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-04-30T07:04:58+00:00",
-      "pub_ts": 1777532698
     }
   ]
 }

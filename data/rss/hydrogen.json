@@ -3,9 +3,39 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-05-02T03:31:55.560276+00:00",
+  "updated_at": "2026-05-03T03:53:18.045590+00:00",
   "item_count": 10,
   "items": [
+    {
+      "id": "3c476042d8",
+      "title": "Rotterdam The Hague Airport Trials Hydrogen Electric Pickup Truck",
+      "url": "https://hydrogen-central.com/rotterdam-the-hague-airport-trials-hydrogen-electric-pickup-truck/",
+      "summary": "Rotterdam The Hague Airport Trials Hydrogen Electric Pickup Truck Rotterdam The Hague Airport (RTM) has celebrated the completion of a recent trial utilising a new hydrogen-electric pickup truck from Toyota. [&#8230;]\nThe post Rotterdam The Hague Airport Trials Hydrogen Electric Pickup Truck appeare…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-05-02T04:28:04+00:00",
+      "pub_ts": 1777696084
+    },
+    {
+      "id": "99235cdfe5",
+      "title": "IE – Hydrogen engine hits 60% efficiency with zero emissions, rivals diesel in power output",
+      "url": "https://hydrogen-central.com/ie-hydrogen-engine-hits-60-efficiency-with-zero-emissions-rivals-diesel-in-power-output/",
+      "summary": "IE &#8211; Hydrogen engine hits 60% efficiency with zero emissions, rivals diesel in power output Researchers in Germany have recently unveiled a hydrogen-powered engine that could challenge diesel in some [&#8230;]\nThe post IE &#8211; Hydrogen engine hits 60% efficiency with zero emissions, rivals …",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-05-02T04:26:27+00:00",
+      "pub_ts": 1777695987
+    },
+    {
+      "id": "5c6e12ae21",
+      "title": "Netflix Australia selects a Hydrogen Generator to power the base camp of APEX movie",
+      "url": "https://hydrogen-central.com/netflix-australia-selects-a-hydrogen-generator-to-power-the-base-camp-of-apex-movie/",
+      "summary": "Netflix Australia selects a Hydrogen Generator to power the base camp of APEX movie Produced by Netflix Australia and starring Charlize Theron and Taron Egerton, APEX reflects the film industry’s [&#8230;]\nThe post Netflix Australia selects a Hydrogen Generator to power the base camp of APEX movie a…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-05-02T04:23:36+00:00",
+      "pub_ts": 1777695816
+    },
     {
       "id": "f6eef8335a",
       "title": "Hong Kong's First In-Building Hydrogen Power System Goes Live",
@@ -75,36 +105,6 @@
       "lang": "en",
       "pub_date": "2026-04-30T16:28:17+00:00",
       "pub_ts": 1777566497
-    },
-    {
-      "id": "51bcb156db",
-      "title": "Encore Technologies Expands Partnership with Greenfoot Energy Solutions to Advance HYGN Retrofit Applications Across Industrial Markets",
-      "url": "https://hydrogen-central.com/encore-technologies-expands-partnership-with-greenfoot-energy-solutions-to-advance-hygn-retrofit-applications-across-industrial-markets/",
-      "summary": "Encore Technologies Expands Partnership with Greenfoot Energy Solutions to Advance HYGN Retrofit Applications Across Industrial Markets VANCOUVER, British Columbia, April 30, 2026 (GLOBE NEWSWIRE) &#8212; Encore Technologies Inc. (“Encore” or [&#8230;]\nThe post Encore Technologies Expands Partnershi…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-04-30T16:27:54+00:00",
-      "pub_ts": 1777566474
-    },
-    {
-      "id": "6f53cff88c",
-      "title": "MAX Power Engages GLJ Ltd to Advance Commercial Evaluation of Lawson Natural Hydrogen Discovery",
-      "url": "https://hydrogen-central.com/max-power-engages-glj-ltd-to-advance-commercial-evaluation-of-lawson-natural-hydrogen-discovery/",
-      "summary": "MAX Power Engages GLJ Ltd to Advance Commercial Evaluation of Lawson Natural Hydrogen Discovery Globally recognized energy consulting firm retained following transformational 3D seismic results to support modeling, reservoir analysis, [&#8230;]\nThe post MAX Power Engages GLJ Ltd to Advance Commercia…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-04-30T16:27:01+00:00",
-      "pub_ts": 1777566421
-    },
-    {
-      "id": "a90e9a36ac",
-      "title": "Hydrogen – CEF Energy launches €600 million call for energy infrastructure projects",
-      "url": "https://hydrogen-central.com/hydrogen-cef-energy-launches-e600-million-call-for-energy-infrastructure-projects/",
-      "summary": "Hydrogen &#8211; CEF Energy launches €600 million call for energy infrastructure projects CINEA is publishing today a new call for proposals for key cross-border EU energy infrastructure projects included in the second Union [&#8230;]\nThe post Hydrogen &#8211; CEF Energy launches €600 million call f…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-04-30T16:25:17+00:00",
-      "pub_ts": 1777566317
     }
   ]
 }

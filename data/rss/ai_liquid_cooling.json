@@ -3,58 +3,38 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-05-02T03:31:44.442693+00:00",
-  "item_count": 5,
+  "updated_at": "2026-05-03T03:53:07.067965+00:00",
+  "item_count": 3,
   "items": [
     {
-      "id": "64cd11e7ed",
-      "title": "智谱公布“降智”的秘密：Scaling不可避免的痛",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888065&idx=1&sn=bd31d70ff89f5fb8efcc6086af8099aa",
-      "summary": "智谱公布“降智”的秘密：Scaling不可避免的痛",
+      "id": "9f8b5bd933",
+      "title": "Meta收购华农校友机器人AI公司，团队并入超级智能实验室",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888102&idx=1&sn=bcecf7a09118e8a1e5b8b0fad0293645",
+      "summary": "Meta收购华农校友机器人AI公司，团队并入超级智能实验室",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-02T03:31:39.283840+00:00",
-      "pub_ts": 1777692699
+      "pub_date": "2026-05-03T03:53:01.566049+00:00",
+      "pub_ts": 1777780381
     },
     {
-      "id": "ec2758a9bf",
-      "title": "太抓马了！马斯克OpenAl开庭，硅谷巨富互揭老底像极了村口吵架",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888068&idx=1&sn=a48bc02fc07cf085457a2e3fe20315a2",
-      "summary": "太抓马了！马斯克OpenAl开庭，硅谷巨富互揭老底像极了村口吵架",
+      "id": "63888ae001",
+      "title": "苹果官方App误打包了Claude.md，这么大的公司也VibeCoding啊?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888083&idx=1&sn=5f9d0d2ce294818d552144825fbd36af",
+      "summary": "苹果官方App误打包了Claude.md，这么大的公司也VibeCoding啊?",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-02T03:31:39.283881+00:00",
-      "pub_ts": 1777692699
+      "pub_date": "2026-05-03T03:53:01.566093+00:00",
+      "pub_ts": 1777780381
     },
     {
-      "id": "544d0d8449",
-      "title": "突破视觉仿真算力瓶颈！新一代具身智能仿真框架开源：高吞吐并行高保真渲..",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888068&idx=2&sn=34706e4b91b9c47df968f116230d2b1f",
-      "summary": "突破视觉仿真算力瓶颈！新一代具身智能仿真框架开源：高吞吐并行高保真渲..",
+      "id": "0100a4fdd4",
+      "title": "腾讯混元最新开源：440M翻译模型手机离线就能用，翻译质量超谷歌",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888083&idx=2&sn=00de0945461f678f57edca79146a4004",
+      "summary": "腾讯混元最新开源：440M翻译模型手机离线就能用，翻译质量超谷歌",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-02T03:31:39.283905+00:00",
-      "pub_ts": 1777692699
-    },
-    {
-      "id": "a795383379",
-      "title": "他用AI办了个音乐节，主题：别读博",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888004&idx=1&sn=cf0920402625bb5d0af65be63e9578b5",
-      "summary": "他用AI办了个音乐节，主题：别读博",
-      "source": "量子位-AI硬件",
-      "lang": "zh",
-      "pub_date": "2026-05-02T03:31:39.283927+00:00",
-      "pub_ts": 1777692699
-    },
-    {
-      "id": "b51e4c99ef",
-      "title": "北大开源统一世界模型框架：多类合成推理任务一套搞定",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888004&idx=2&sn=df1394c7a8d411439011d14c12233470",
-      "summary": "北大开源统一世界模型框架：多类合成推理任务一套搞定",
-      "source": "量子位-AI硬件",
-      "lang": "zh",
-      "pub_date": "2026-05-02T03:31:39.283948+00:00",
-      "pub_ts": 1777692699
+      "pub_date": "2026-05-03T03:53:01.566117+00:00",
+      "pub_ts": 1777780381
     }
   ]
 }
