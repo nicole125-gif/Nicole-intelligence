@@ -1,16 +1,24 @@
 {
-  "analyzed_at": "2026-04-27 05:38",
+  "analyzed_at": "2026-05-04 05:42",
   "model": "claude-sonnet-4-6",
   "total": 49,
   "summary": {
     "Bürkert": {
       "product_count": 15,
-      "avg_threat_level": 5.0,
+      "avg_threat_level": 4.1,
       "top_industries": [
-        "通用工业"
+        "食品饮料",
+        "制药",
+        "生物技术"
       ],
       "product_type_dist": {
-        "通用阀门": 15
+        "电磁阀": 7,
+        "调节阀": 3,
+        "隔膜阀/调节阀/电磁阀": 1,
+        "传感器/变送器/控制器": 1,
+        "微流量控制阀/泵": 1,
+        "过程阀和调节阀": 1,
+        "传感器": 1
       },
       "high_threat_products": [
         "电磁阀",
@@ -24,10 +32,16 @@
       "product_count": 9,
       "avg_threat_level": 4.0,
       "top_industries": [
-        "通用工业"
+        "食品饮料",
+        "精细化工",
+        "生物制药"
       ],
       "product_type_dist": {
-        "通用阀门": 9
+        "隔膜阀": 3,
+        "调节阀": 2,
+        "蝶阀": 2,
+        "球阀": 1,
+        "隔膜调节阀": 1
       },
       "high_threat_products": [
         "Series 515 - 无菌隔膜阀",
@@ -39,21 +53,31 @@
     },
     "ESG": {
       "product_count": 25,
-      "avg_threat_level": 2.8,
+      "avg_threat_level": 2.4,
       "top_industries": [
-        "通用工业",
         "食品饮料",
-        "制药"
+        "制药",
+        "精细化工"
       ],
       "product_type_dist": {
-        "通用阀门": 18,
-        "多类型阀门（隔膜阀/球阀/蝶阀）": 1,
-        "测控仪表（仪器仪表类，非阀门本体）": 1,
-        "调节阀（角座阀）": 1,
+        "信息不足，无法判断": 1,
+        "工业级阀门": 1,
+        "通用工业阀门": 1,
+        "未明确": 1,
+        "隔膜阀": 5,
+        "卫生级阀门": 1,
+        "产品系列": 2,
+        "测控仪表": 1,
+        "角座阀": 2,
+        "调节阀": 2,
+        "灌装阀": 1,
         "止回阀": 1,
         "过滤器": 1,
         "溢流阀": 1,
-        "膜塞阀（隔膜阀）": 1
+        "疏水阀": 1,
+        "其它阀门": 1,
+        "注液总成": 1,
+        "三通梭阀": 1
       },
       "high_threat_products": []
     }
@@ -69,17 +93,23 @@
       "source": "burkert.com.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "电磁阀",
         "target_industries": [
-          "通用工业"
+          "食品饮料",
+          "制药",
+          "生物技术",
+          "半导体",
+          "精细化工"
         ],
         "key_features": [
-          "待补充"
+          "高卫生标准设计（如3A, EHEDG认证）",
+          "快速响应与精确控制",
+          "模块化设计，易于清洁与维护"
         ],
         "price_tier": "高端",
-        "threat_level": 5,
-        "threat_reason": "Bürkert 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_level": 4,
+        "threat_reason": "品牌认知度高，技术标准严苛，客户粘性强。",
+        "opportunity": "在特定细分应用（如超纯介质）或性价比上寻求突破。"
       }
     },
     {
@@ -92,17 +122,22 @@
       "source": "burkert.com.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "调节阀",
         "target_industries": [
-          "通用工业"
+          "制药",
+          "生物技术",
+          "食品饮料",
+          "精细化工"
         ],
         "key_features": [
-          "待补充"
+          "高精度流量控制",
+          "模块化设计便于维护",
+          "符合卫生标准（如EHEDG）"
         ],
         "price_tier": "高端",
-        "threat_level": 5,
-        "threat_reason": "Bürkert 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_level": 4,
+        "threat_reason": "品牌认知度高，技术成熟，客户粘性强。",
+        "opportunity": "在特定细分工艺或性价比上建立优势。"
       }
     },
     {
@@ -115,17 +150,21 @@
       "source": "burkert.com.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "调节阀",
         "target_industries": [
-          "通用工业"
+          "生物制药",
+          "食品饮料",
+          "精细化工"
         ],
         "key_features": [
-          "待补充"
+          "高精度流量控制",
+          "模块化设计便于维护",
+          "符合EHEDG卫生标准"
         ],
         "price_tier": "高端",
-        "threat_level": 5,
-        "threat_reason": "Bürkert 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_level": 4,
+        "threat_reason": "品牌与技术壁垒高，客户粘性强。",
+        "opportunity": "提供更优性价比与本地化服务响应。"
       }
     },
     {
@@ -138,17 +177,23 @@
       "source": "burkert.com.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "隔膜阀/调节阀/电磁阀",
         "target_industries": [
-          "通用工业"
+          "制药",
+          "生物技术",
+          "食品饮料",
+          "半导体",
+          "精细化工"
         ],
         "key_features": [
-          "待补充"
+          "高洁净度设计",
+          "模块化结构",
+          "智能诊断与通信"
         ],
         "price_tier": "高端",
         "threat_level": 5,
-        "threat_reason": "Bürkert 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "品牌与技术壁垒高，客户粘性强。",
+        "opportunity": "提供更灵活的定制化与本地化服务。"
       }
     },
     {
@@ -161,17 +206,22 @@
       "source": "burkert.com.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "传感器/变送器/控制器",
         "target_industries": [
-          "通用工业"
+          "制药",
+          "生物技术",
+          "食品饮料",
+          "半导体"
         ],
         "key_features": [
-          "待补充"
+          "高精度过程监控",
+          "模块化系统集成",
+          "卫生级设计"
         ],
         "price_tier": "高端",
-        "threat_level": 5,
-        "threat_reason": "Bürkert 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_level": 4,
+        "threat_reason": "提供完整过程控制解决方案，客户粘性高。",
+        "opportunity": "在特定细分应用或性价比上寻求突破。"
       }
     },
     {
@@ -184,17 +234,23 @@
       "source": "burkert.com.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "微流量控制阀/泵",
         "target_industries": [
-          "通用工业"
+          "生物制药",
+          "实验室",
+          "分析仪器",
+          "半导体",
+          "精细化工"
         ],
         "key_features": [
-          "待补充"
+          "超高精度微流量控制",
+          "模块化设计，易于集成",
+          "高洁净度与耐腐蚀材料"
         ],
         "price_tier": "高端",
-        "threat_level": 5,
-        "threat_reason": "Bürkert 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_level": 4,
+        "threat_reason": "在精密流体控制领域技术领先，品牌认知度高。",
+        "opportunity": "提供更具性价比的定制化解决方案。"
       }
     },
     {
@@ -207,17 +263,21 @@
       "source": "burkert.com.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "调节阀",
         "target_industries": [
-          "通用工业"
+          "生物制药",
+          "食品饮料",
+          "精细化工"
         ],
         "key_features": [
-          "待补充"
+          "高精度流量控制",
+          "卫生级设计（3A/DIN）",
+          "集成式传感器与执行器"
         ],
         "price_tier": "高端",
-        "threat_level": 5,
-        "threat_reason": "Bürkert 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_level": 4,
+        "threat_reason": "品牌与技术壁垒高，客户粘性强。",
+        "opportunity": "提供更灵活的定制化与本地化服务。"
       }
     },
     {
@@ -230,17 +290,23 @@
       "source": "burkert.com.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "电磁阀",
         "target_industries": [
-          "通用工业"
+          "制药",
+          "生物技术",
+          "食品饮料",
+          "半导体",
+          "精细化工"
         ],
         "key_features": [
-          "待补充"
+          "高精度流体控制",
+          "模块化设计，易于维护",
+          "符合卫生级标准（如EHEDG, 3-A）"
         ],
         "price_tier": "高端",
-        "threat_level": 5,
-        "threat_reason": "Bürkert 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_level": 4,
+        "threat_reason": "品牌认知度高，技术成熟，客户粘性强。",
+        "opportunity": "在特定细分应用（如超纯介质）或性价比上寻求突破。"
       }
     },
     {
@@ -253,17 +319,23 @@
       "source": "burkert.com.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "电磁阀",
         "target_industries": [
-          "通用工业"
+          "食品饮料",
+          "制药",
+          "生物技术",
+          "半导体",
+          "水处理"
         ],
         "key_features": [
-          "待补充"
+          "IO-Link通讯技术",
+          "模块化设计",
+          "高卫生标准"
         ],
         "price_tier": "高端",
-        "threat_level": 5,
-        "threat_reason": "Bürkert 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_level": 4,
+        "threat_reason": "通讯集成度高，品牌认知强。",
+        "opportunity": "提供更灵活的定制化通讯方案。"
       }
     },
     {
@@ -276,17 +348,22 @@
       "source": "burkert.com.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "电磁阀",
         "target_industries": [
-          "通用工业"
+          "制药",
+          "生物技术",
+          "食品饮料",
+          "半导体"
         ],
         "key_features": [
-          "待补充"
+          "高精度流体控制",
+          "模块化设计便于维护",
+          "符合卫生级标准"
         ],
         "price_tier": "高端",
-        "threat_level": 5,
-        "threat_reason": "Bürkert 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_level": 4,
+        "threat_reason": "品牌认知度高，技术成熟，客户粘性强。",
+        "opportunity": "提供更灵活的定制化解决方案或更快的本地化服务。"
       }
     },
     {
@@ -299,17 +376,23 @@
       "source": "burkert.com.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "电磁阀",
         "target_industries": [
-          "通用工业"
+          "食品饮料",
+          "制药",
+          "生物技术",
+          "半导体",
+          "水处理"
         ],
         "key_features": [
-          "待补充"
+          "IO-Link通信技术",
+          "模块化设计",
+          "高卫生标准"
         ],
         "price_tier": "高端",
-        "threat_level": 5,
-        "threat_reason": "Bürkert 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_level": 4,
+        "threat_reason": "智能化与模块化设计领先",
+        "opportunity": "强化定制化与本地服务响应"
       }
     },
     {
@@ -322,17 +405,23 @@
       "source": "burkert.com.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "电磁阀",
         "target_industries": [
-          "通用工业"
+          "制药",
+          "食品饮料",
+          "生物技术",
+          "半导体",
+          "精细化工"
         ],
         "key_features": [
-          "待补充"
+          "高精度流体控制",
+          "模块化设计，易于清洁和维护",
+          "广泛的介质兼容性"
         ],
         "price_tier": "高端",
-        "threat_level": 5,
-        "threat_reason": "Bürkert 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_level": 4,
+        "threat_reason": "品牌认知度高，技术领先，客户粘性强。",
+        "opportunity": "在特定细分应用或性价比上寻求突破。"
       }
     },
     {
@@ -345,17 +434,22 @@
       "source": "burkert.com.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "过程阀和调节阀",
         "target_industries": [
-          "通用工业"
+          "制药",
+          "生物技术",
+          "食品饮料",
+          "精细化工"
         ],
         "key_features": [
-          "待补充"
+          "高精度流体控制",
+          "符合卫生级标准（如EHEDG, 3-A）",
+          "模块化设计，易于清洁和维护"
         ],
         "price_tier": "高端",
-        "threat_level": 5,
-        "threat_reason": "Bürkert 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_level": 4,
+        "threat_reason": "品牌认知度高，技术标准严格，客户粘性强。",
+        "opportunity": "提供更具性价比的定制化解决方案或更快的本地化服务。"
       }
     },
     {
@@ -368,17 +462,22 @@
       "source": "burkert.com.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "传感器",
         "target_industries": [
-          "通用工业"
+          "制药",
+          "生物技术",
+          "食品饮料",
+          "半导体"
         ],
         "key_features": [
-          "待补充"
+          "高精度测量",
+          "卫生级设计",
+          "集成通信协议"
         ],
         "price_tier": "高端",
-        "threat_level": 5,
-        "threat_reason": "Bürkert 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_level": 4,
+        "threat_reason": "品牌认知度高，技术集成度强。",
+        "opportunity": "提供更灵活的定制化解决方案。"
       }
     },
     {
@@ -391,17 +490,23 @@
       "source": "burkert.com.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "电磁阀",
         "target_industries": [
-          "通用工业"
+          "制药",
+          "生物技术",
+          "食品饮料",
+          "半导体",
+          "精细化工"
         ],
         "key_features": [
-          "待补充"
+          "高精度流体控制",
+          "模块化设计便于维护",
+          "符合卫生级标准（如EHEDG）"
         ],
         "price_tier": "高端",
-        "threat_level": 5,
-        "threat_reason": "Bürkert 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_level": 4,
+        "threat_reason": "品牌认知度高，技术成熟，客户粘性强。",
+        "opportunity": "在特定细分应用或性价比上寻求突破。"
       }
     },
     {
@@ -417,17 +522,21 @@
       "source": "builtin_cache",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "隔膜阀",
         "target_industries": [
-          "通用工业"
+          "生物制药",
+          "食品饮料",
+          "个人护理"
         ],
         "key_features": [
-          "待补充"
+          "无菌设计",
+          "高纯度流体控制",
+          "易于清洁和维护"
         ],
         "price_tier": "高端",
         "threat_level": 4,
-        "threat_reason": "Gemü 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "品牌认知度高，技术成熟，客户粘性强。",
+        "opportunity": "在特定工艺或定制化服务上寻求突破。"
       }
     },
     {
@@ -444,17 +553,22 @@
       "source": "builtin_cache",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "隔膜阀",
         "target_industries": [
-          "通用工业"
+          "制药",
+          "生物技术",
+          "食品饮料",
+          "精细化工"
         ],
         "key_features": [
-          "待补充"
+          "无菌设计，符合卫生标准",
+          "模块化结构，易于维护",
+          "高密封性，适用于高纯度介质"
         ],
         "price_tier": "高端",
         "threat_level": 4,
-        "threat_reason": "Gemü 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "品牌认知度高，技术成熟，客户粘性强。",
+        "opportunity": "在定制化解决方案或特定工况的性价比上寻求突破。"
       }
     },
     {
@@ -470,17 +584,22 @@
       "source": "builtin_cache",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "隔膜阀",
         "target_industries": [
-          "通用工业"
+          "制药",
+          "生物技术",
+          "食品饮料",
+          "精细化工"
         ],
         "key_features": [
-          "待补充"
+          "无菌设计，符合卫生标准",
+          "模块化结构，易于维护",
+          "高密封性，适用于高纯度介质"
         ],
         "price_tier": "高端",
         "threat_level": 4,
-        "threat_reason": "Gemü 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "在高端卫生级市场品牌认知度高，技术成熟。",
+        "opportunity": "在特定工况或定制化服务上提供更优性价比。"
       }
     },
     {
@@ -496,17 +615,21 @@
       "source": "builtin_cache",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "调节阀",
         "target_industries": [
-          "通用工业"
+          "生物制药",
+          "食品饮料",
+          "精细化工"
         ],
         "key_features": [
-          "待补充"
+          "高精度流量控制",
+          "卫生级设计（3-A, EHEDG认证）",
+          "模块化结构，易于维护"
         ],
         "price_tier": "高端",
         "threat_level": 4,
-        "threat_reason": "Gemü 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "在高端生物制药领域品牌认可度高，技术成熟。",
+        "opportunity": "在性价比、定制化服务或特定工况适应性上寻找突破。"
       }
     },
     {
@@ -522,17 +645,22 @@
       "source": "builtin_cache",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "蝶阀",
         "target_industries": [
-          "通用工业"
+          "食品饮料",
+          "制药",
+          "生物技术",
+          "化工"
         ],
         "key_features": [
-          "待补充"
+          "卫生级设计，符合EHEDG/3A标准",
+          "紧凑型结构，节省安装空间",
+          "多种驱动方式可选（手动/气动/电动）"
         ],
         "price_tier": "高端",
         "threat_level": 4,
-        "threat_reason": "Gemü 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "品牌认知度高，卫生级市场标杆。",
+        "opportunity": "在特定工况下提供更优性价比或定制化解决方案。"
       }
     },
     {
@@ -548,17 +676,21 @@
       "source": "builtin_cache",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "球阀",
         "target_industries": [
-          "通用工业"
+          "生物制药",
+          "食品饮料",
+          "精细化工"
         ],
         "key_features": [
-          "待补充"
+          "卫生级设计，符合3A/DIN标准",
+          "全通径流道，低流阻",
+          "模块化设计，易于维护"
         ],
         "price_tier": "高端",
         "threat_level": 4,
-        "threat_reason": "Gemü 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "品牌认知度高，技术成熟，客户粘性强。",
+        "opportunity": "在特定工况（如高粘度、颗粒介质）或定制化服务上寻求突破。"
       }
     },
     {
@@ -574,17 +706,21 @@
       "source": "builtin_cache",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "隔膜调节阀",
         "target_industries": [
-          "通用工业"
+          "生物制药",
+          "食品饮料",
+          "精细化工"
         ],
         "key_features": [
-          "待补充"
+          "高精度流量调节",
+          "无菌设计",
+          "耐腐蚀隔膜材料"
         ],
         "price_tier": "高端",
         "threat_level": 4,
-        "threat_reason": "Gemü 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "品牌认知度高，技术成熟，客户粘性强。",
+        "opportunity": "在特定工况下提供更优性价比或定制化解决方案。"
       }
     },
     {
@@ -600,17 +736,21 @@
       "source": "builtin_cache",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "蝶阀",
         "target_industries": [
-          "通用工业"
+          "生物制药",
+          "食品饮料",
+          "精细化工"
         ],
         "key_features": [
-          "待补充"
+          "卫生级设计，符合EHEDG/3A标准",
+          "紧凑型结构，节省安装空间",
+          "多种驱动方式可选（手动/气动/电动）"
         ],
         "price_tier": "高端",
         "threat_level": 4,
-        "threat_reason": "Gemü 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "品牌认知度高，卫生标准严格。",
+        "opportunity": "提供更优性价比或定制化解决方案。"
       }
     },
     {
@@ -626,17 +766,21 @@
       "source": "builtin_cache",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "调节阀",
         "target_industries": [
-          "通用工业"
+          "生物制药",
+          "食品饮料",
+          "精细化工"
         ],
         "key_features": [
-          "待补充"
+          "高精度流量调节",
+          "卫生级设计（3-A, EHEDG）",
+          "模块化结构，易于维护"
         ],
         "price_tier": "高端",
         "threat_level": 4,
-        "threat_reason": "Gemü 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "在高端卫生级调节阀市场占据主导地位。",
+        "opportunity": "提供更具性价比的同等精度解决方案。"
       }
     },
     {
@@ -648,17 +792,17 @@
       "source": "esgvalve.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "信息不足，无法判断",
         "target_industries": [
-          "通用工业"
+          "信息不足，无法判断"
         ],
         "key_features": [
-          "待补充"
+          "信息不足，无法判断"
         ],
-        "price_tier": "中高端",
-        "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "price_tier": "信息不足，无法判断",
+        "threat_level": 1,
+        "threat_reason": "提供的信息仅为公司官网通用内容，无具体产品信息。",
+        "opportunity": "可针对其信息不透明，提供更专业、透明的产品方案。"
       }
     },
     {
@@ -670,17 +814,19 @@
       "source": "esgvalve.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "工业级阀门",
         "target_industries": [
           "通用工业"
         ],
         "key_features": [
-          "待补充"
+          "工业级应用",
+          "标准化产品",
+          "广泛适用性"
         ],
-        "price_tier": "中高端",
-        "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "price_tier": "中端",
+        "threat_level": 2,
+        "threat_reason": "定位通用，缺乏卫生级专业性。",
+        "opportunity": "强调卫生级专业认证与定制化服务。"
       }
     },
     {
@@ -692,17 +838,20 @@
       "source": "esgvalve.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "通用工业阀门",
         "target_industries": [
-          "通用工业"
+          "通用工业",
+          "流体控制"
         ],
         "key_features": [
-          "待补充"
+          "通用性设计",
+          "标准化产品线",
+          "广泛适用性"
         ],
-        "price_tier": "中高端",
-        "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "price_tier": "中端",
+        "threat_level": 2,
+        "threat_reason": "通用型产品，缺乏明确技术差异化。",
+        "opportunity": "聚焦卫生级/高洁净度细分市场，强化技术壁垒。"
       }
     },
     {
@@ -714,17 +863,17 @@
       "source": "esgvalve.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "未明确",
         "target_industries": [
-          "通用工业"
+          "新能源"
         ],
         "key_features": [
-          "待补充"
+          "未明确"
         ],
-        "price_tier": "中高端",
-        "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "price_tier": "未明确",
+        "threat_level": 1,
+        "threat_reason": "信息不足，无法评估具体产品威胁。",
+        "opportunity": "可针对其信息模糊，提供更专业、透明的产品方案。"
       }
     },
     {
@@ -736,21 +885,19 @@
       "source": "esgvalve.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "多类型阀门（隔膜阀/球阀/蝶阀）",
+        "product_type": "隔膜阀",
         "target_industries": [
-          "橡塑行业",
-          "食品饮料",
-          "制药"
+          "橡塑行业"
         ],
         "key_features": [
-          "产品线覆盖广，规格齐全",
-          "提供技术资料下载支持",
-          "具备一定品牌宣传体系"
+          "卫生级设计",
+          "耐腐蚀材料",
+          "流体控制精度高"
         ],
-        "price_tier": "中端",
-        "threat_level": 2,
-        "threat_reason": "信息展示有限，无明显技术差异化",
-        "opportunity": "聚焦高端卫生级隔膜阀定制化服务"
+        "price_tier": "中高端",
+        "threat_level": 3,
+        "threat_reason": "在橡塑行业有明确应用案例和品牌认知。",
+        "opportunity": "可强调更广泛的行业适用性或定制化解决方案。"
       }
     },
     {
@@ -762,17 +909,21 @@
       "source": "esgvalve.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "卫生级阀门",
         "target_industries": [
-          "通用工业"
+          "食品饮料",
+          "制药",
+          "生物工程"
         ],
         "key_features": [
-          "待补充"
+          "符合卫生级标准",
+          "全不锈钢材质",
+          "易于清洁和维护"
         ],
         "price_tier": "中高端",
         "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "品牌有一定知名度，产品线覆盖基础卫生级需求。",
+        "opportunity": "在特定工艺（如无菌、高粘度）或定制化服务上建立技术壁垒。"
       }
     },
     {
@@ -784,17 +935,17 @@
       "source": "esgvalve.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "产品系列",
         "target_industries": [
-          "通用工业"
+          "未明确"
         ],
         "key_features": [
-          "待补充"
+          "未明确"
         ],
-        "price_tier": "中高端",
-        "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "price_tier": "未明确",
+        "threat_level": 1,
+        "threat_reason": "信息不足，无法评估具体威胁。",
+        "opportunity": "需获取其具体产品参数与定位信息。"
       }
     },
     {
@@ -806,21 +957,21 @@
       "source": "esgvalve.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "测控仪表（仪器仪表类，非阀门本体）",
+        "product_type": "测控仪表",
         "target_industries": [
           "工业自动化",
-          "流体控制系统集成商",
-          "终端工业用户"
+          "过程控制",
+          "流体测量"
         ],
         "key_features": [
-          "仪表与阀门配套销售",
-          "一站式流体控制解决方案",
-          "本地化技术支持"
+          "集成测控功能",
+          "工业级设计",
+          "品牌服务体系"
         ],
-        "price_tier": "中端",
+        "price_tier": "中高端",
         "threat_level": 2,
-        "threat_reason": "仪表类产品，非阀门核心供应商，影响有限",
-        "opportunity": "专注阀门本体差异化，弱化仪表捆绑策略"
+        "threat_reason": "产品类型不同，非直接竞争。",
+        "opportunity": "聚焦阀门本体技术与卫生级标准。"
       }
     },
     {
@@ -832,17 +983,17 @@
       "source": "esgvalve.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "产品系列",
         "target_industries": [
-          "通用工业"
+          "未明确"
         ],
         "key_features": [
-          "待补充"
+          "信息不足，无法判断"
         ],
-        "price_tier": "中高端",
-        "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "price_tier": "未明确",
+        "threat_level": 1,
+        "threat_reason": "信息不足，无法评估威胁。",
+        "opportunity": "可针对其信息不透明进行差异化沟通。"
       }
     },
     {
@@ -854,17 +1005,22 @@
       "source": "esgvalve.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "隔膜阀",
         "target_industries": [
-          "通用工业"
+          "制药",
+          "生物工程",
+          "食品饮料",
+          "精细化工"
         ],
         "key_features": [
-          "待补充"
+          "卫生级设计",
+          "无死角流道",
+          "高洁净度材料"
         ],
         "price_tier": "中高端",
         "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "品牌知名度高，行业应用广泛。",
+        "opportunity": "在特定细分领域或定制化服务上建立优势。"
       }
     },
     {
@@ -876,17 +1032,22 @@
       "source": "esgvalve.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "角座阀",
         "target_industries": [
-          "通用工业"
+          "食品饮料",
+          "制药",
+          "生物工程",
+          "精细化工"
         ],
         "key_features": [
-          "待补充"
+          "气动执行机构",
+          "卫生级设计",
+          "快速启闭"
         ],
         "price_tier": "中高端",
         "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "品牌有一定知名度，产品线覆盖基础卫生级应用。",
+        "opportunity": "在高端定制化、特殊介质或极端工况应用上建立技术壁垒。"
       }
     },
     {
@@ -898,22 +1059,22 @@
       "source": "esgvalve.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "调节阀（角座阀）",
+        "product_type": "调节阀",
         "target_industries": [
           "食品饮料",
           "制药",
-          "日化",
-          "生物工程"
+          "生物工程",
+          "精细化工"
         ],
         "key_features": [
-          "比例调节功能，精确流量控制",
-          "角座结构设计，压降低流量大",
-          "气动驱动，响应速度快"
+          "比例调节控制",
+          "角座阀结构",
+          "卫生级设计"
         ],
         "price_tier": "中高端",
         "threat_level": 3,
-        "threat_reason": "卫生级角座阀国内厂商众多，价格竞争激烈",
-        "opportunity": "可强调更高精度、更优密封材料及完整认证体系"
+        "threat_reason": "在卫生级调节阀细分市场有直接竞争。",
+        "opportunity": "强化在特定工况下的性能与可靠性优势。"
       }
     },
     {
@@ -925,17 +1086,22 @@
       "source": "esgvalve.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "角座阀",
         "target_industries": [
-          "通用工业"
+          "食品饮料",
+          "制药",
+          "生物工程",
+          "精细化工"
         ],
         "key_features": [
-          "待补充"
+          "多通道设计",
+          "卫生级标准",
+          "气动控制"
         ],
         "price_tier": "中高端",
         "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "多通道设计满足复杂流体控制需求。",
+        "opportunity": "强调更优的密封性或定制化服务。"
       }
     },
     {
@@ -947,17 +1113,21 @@
       "source": "esgvalve.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "灌装阀",
         "target_industries": [
-          "通用工业"
+          "食品饮料",
+          "制药",
+          "生物工程"
         ],
         "key_features": [
-          "待补充"
+          "卫生级设计",
+          "无菌灌装",
+          "快速拆装"
         ],
         "price_tier": "中高端",
         "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "专注卫生级灌装，品牌有一定行业认知度。",
+        "opportunity": "在定制化、智能化或特定介质兼容性上寻求突破。"
       }
     },
     {
@@ -971,20 +1141,20 @@
       "analysis": {
         "product_type": "止回阀",
         "target_industries": [
-          "食品饮料",
           "制药",
-          "水处理",
-          "一般工业"
+          "生物技术",
+          "食品饮料",
+          "精细化工"
         ],
         "key_features": [
-          "防止流体倒流",
-          "自动启闭无需外力",
-          "结构简单维护便利"
+          "卫生级设计",
+          "无菌流体控制",
+          "符合GMP标准"
         ],
         "price_tier": "中高端",
         "threat_level": 3,
-        "threat_reason": "产品线覆盖广且具备一定品牌知名度",
-        "opportunity": "突出更高洁净标准与定制化流体控制方案"
+        "threat_reason": "品牌在卫生级领域有成熟渠道和资质。",
+        "opportunity": "可强调更优的密封性或定制化服务。"
       }
     },
     {
@@ -998,20 +1168,20 @@
       "analysis": {
         "product_type": "过滤器",
         "target_industries": [
-          "食品饮料",
           "制药",
-          "乳制品",
+          "生物技术",
+          "食品饮料",
           "精细化工"
         ],
         "key_features": [
-          "标准过滤精度",
-          "卫生级连接",
-          "易拆洗设计"
+          "卫生级设计",
+          "在线清洗/灭菌能力",
+          "高过滤精度"
         ],
         "price_tier": "中高端",
-        "threat_level": 2,
-        "threat_reason": "官网仅展示联系方式，无产品技术参数",
-        "opportunity": "客户可提供详细参数对比与选型服务"
+        "threat_level": 3,
+        "threat_reason": "品牌在卫生级领域有成熟渠道和案例。",
+        "opportunity": "强调定制化解决方案与快速响应服务。"
       }
     },
     {
@@ -1023,17 +1193,19 @@
       "source": "esgvalve.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "调节阀",
         "target_industries": [
-          "通用工业"
+          "工业流体控制",
+          "过程工业"
         ],
         "key_features": [
-          "待补充"
+          "压力调节功能",
+          "工业级应用"
         ],
-        "price_tier": "中高端",
-        "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "price_tier": "中端",
+        "threat_level": 2,
+        "threat_reason": "信息不足，定位模糊，威胁有限。",
+        "opportunity": "聚焦卫生级细分市场，强化技术参数与认证优势。"
       }
     },
     {
@@ -1047,20 +1219,17 @@
       "analysis": {
         "product_type": "溢流阀",
         "target_industries": [
-          "食品饮料",
-          "制药",
-          "乳制品",
-          "精细化工"
+          "流体控制",
+          "工业管道系统"
         ],
         "key_features": [
-          "卫生级设计",
-          "316L不锈钢材质",
-          "快装/焊接/法兰连接"
+          "溢流控制功能",
+          "工业级应用"
         ],
-        "price_tier": "中高端",
+        "price_tier": "中端",
         "threat_level": 2,
-        "threat_reason": "网站信息贫乏，产品细节缺失，难以评估真实竞争力",
-        "opportunity": "补充详细技术参数与行业应用案例，凸显技术差异化"
+        "threat_reason": "产品信息模糊，定位不清晰。",
+        "opportunity": "明确技术参数与卫生级认证优势。"
       }
     },
     {
@@ -1072,17 +1241,21 @@
       "source": "esgvalve.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "疏水阀",
         "target_industries": [
-          "通用工业"
+          "蒸汽系统",
+          "暖通空调",
+          "工业加热"
         ],
         "key_features": [
-          "待补充"
+          "蒸汽系统专用",
+          "热能管理",
+          "节能降耗"
         ],
-        "price_tier": "中高端",
-        "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "price_tier": "中端",
+        "threat_level": 2,
+        "threat_reason": "产品线单一，非核心流体控制产品。",
+        "opportunity": "可强调全系列流体控制解决方案优势。"
       }
     },
     {
@@ -1094,17 +1267,17 @@
       "source": "esgvalve.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "其它阀门",
         "target_industries": [
-          "通用工业"
+          "未明确"
         ],
         "key_features": [
-          "待补充"
+          "信息不足，无法判断"
         ],
-        "price_tier": "中高端",
-        "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "price_tier": "未明确",
+        "threat_level": 1,
+        "threat_reason": "产品信息模糊，威胁极低。",
+        "opportunity": "明确自身产品定位与技术优势。"
       }
     },
     {
@@ -1116,23 +1289,22 @@
       "source": "esgvalve.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "膜塞阀（隔膜阀）",
+        "product_type": "隔膜阀",
         "target_industries": [
-          "食品饮料",
           "制药",
           "生物工程",
-          "化妆品",
-          "纯化水系统"
+          "食品饮料",
+          "精细化工"
         ],
         "key_features": [
-          "无死角阀体设计，符合卫生级标准",
-          " PTFE/橡胶复合膜片，密封性能优异",
-          "快拆结构设计，维护便捷"
+          "卫生级设计",
+          "无死角流道",
+          "耐腐蚀隔膜材料"
         ],
         "price_tier": "中高端",
         "threat_level": 3,
-        "threat_reason": "信息严重匮乏，无法判断技术深度与市场策略",
-        "opportunity": "强化技术白皮书与行业应用案例披露，差异化突围"
+        "threat_reason": "品牌在卫生级领域有一定认知度。",
+        "opportunity": "强调更优的密封性能或定制化服务。"
       }
     },
     {
@@ -1144,17 +1316,21 @@
       "source": "esgvalve.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "隔膜阀",
         "target_industries": [
-          "通用工业"
+          "生物制药",
+          "食品饮料",
+          "精细化工"
         ],
         "key_features": [
-          "待补充"
+          "卫生级设计",
+          "无死角结构",
+          "易于清洁和灭菌"
         ],
         "price_tier": "中高端",
         "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "品牌在卫生级领域有一定知名度。",
+        "opportunity": "强调更优的密封性能或定制化服务。"
       }
     },
     {
@@ -1166,17 +1342,21 @@
       "source": "esgvalve.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "注液总成",
         "target_industries": [
-          "通用工业"
+          "锂电池",
+          "新能源",
+          "流体控制"
         ],
         "key_features": [
-          "待补充"
+          "集成化设计",
+          "高精度注液控制",
+          "卫生级标准"
         ],
         "price_tier": "中高端",
         "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "集成化方案可能抢占单一阀门市场",
+        "opportunity": "提供更灵活的模块化解决方案"
       }
     },
     {
@@ -1188,17 +1368,22 @@
       "source": "esgvalve.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "三通梭阀",
         "target_industries": [
-          "通用工业"
+          "制药",
+          "生物技术",
+          "食品饮料",
+          "精细化工"
         ],
         "key_features": [
-          "待补充"
+          "卫生级设计",
+          "快速切换流路",
+          "无死角结构"
         ],
         "price_tier": "中高端",
         "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "品牌知名度高，产品线完整。",
+        "opportunity": "强调定制化服务与本地化技术支持。"
       }
     },
     {
@@ -1210,17 +1395,22 @@
       "source": "esgvalve.cn",
       "scraped": "2026-04-16",
       "analysis": {
-        "product_type": "通用阀门",
+        "product_type": "隔膜阀",
         "target_industries": [
-          "通用工业"
+          "制药",
+          "生物技术",
+          "食品饮料",
+          "精细化工"
         ],
         "key_features": [
-          "待补充"
+          "卫生级设计",
+          "无菌切断",
+          "易清洁结构"
         ],
         "price_tier": "中高端",
         "threat_level": 3,
-        "threat_reason": "ESG 在 通用阀门 领域产品成熟",
-        "opportunity": "价格与交期优势"
+        "threat_reason": "品牌在卫生级领域有成熟应用案例。",
+        "opportunity": "可强调更优的密封性能或定制化服务。"
       }
     }
   ]
