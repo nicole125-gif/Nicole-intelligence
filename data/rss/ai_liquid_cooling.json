@@ -3,38 +3,38 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-05-03T03:53:07.067965+00:00",
+  "updated_at": "2026-05-04T03:51:14.753725+00:00",
   "item_count": 3,
   "items": [
     {
-      "id": "9f8b5bd933",
-      "title": "Meta收购华农校友机器人AI公司，团队并入超级智能实验室",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888102&idx=1&sn=bcecf7a09118e8a1e5b8b0fad0293645",
-      "summary": "Meta收购华农校友机器人AI公司，团队并入超级智能实验室",
+      "id": "a85f4b3c06",
+      "title": "不好！1930年的AI都来抢程序员饭碗了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888138&idx=1&sn=adf9bf86ab952aaa8c52b6289f2b27e7",
+      "summary": "不好！1930年的AI都来抢程序员饭碗了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-03T03:53:01.566049+00:00",
-      "pub_ts": 1777780381
+      "pub_date": "2026-05-04T03:51:10.267050+00:00",
+      "pub_ts": 1777866670
     },
     {
-      "id": "63888ae001",
-      "title": "苹果官方App误打包了Claude.md，这么大的公司也VibeCoding啊?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888083&idx=1&sn=5f9d0d2ce294818d552144825fbd36af",
-      "summary": "苹果官方App误打包了Claude.md，这么大的公司也VibeCoding啊?",
+      "id": "e44aff17f7",
+      "title": "OpenAl参与，重卷ImageNet：终于把FID做成训练",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888139&idx=1&sn=a0dc25df3ca4f977bbb5349c6336c7c1",
+      "summary": "OpenAl参与，重卷ImageNet：终于把FID做成训练",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-03T03:53:01.566093+00:00",
-      "pub_ts": 1777780381
+      "pub_date": "2026-05-04T03:51:10.267092+00:00",
+      "pub_ts": 1777866670
     },
     {
-      "id": "0100a4fdd4",
-      "title": "腾讯混元最新开源：440M翻译模型手机离线就能用，翻译质量超谷歌",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888083&idx=2&sn=00de0945461f678f57edca79146a4004",
-      "summary": "腾讯混元最新开源：440M翻译模型手机离线就能用，翻译质量超谷歌",
+      "id": "ac9337e671",
+      "title": "DeepSeekV4最大的遗憾",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888140&idx=1&sn=f57cc7f01fd2b460196ea80daa29e893",
+      "summary": "DeepSeekV4最大的遗憾",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-03T03:53:01.566117+00:00",
-      "pub_ts": 1777780381
+      "pub_date": "2026-05-04T03:51:10.267115+00:00",
+      "pub_ts": 1777866670
     }
   ]
 }
