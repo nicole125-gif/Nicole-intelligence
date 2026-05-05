@@ -3,108 +3,128 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-05-04T03:51:00.884785+00:00",
+  "updated_at": "2026-05-05T03:32:50.373111+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "9b0878a706",
-      "title": "绕过顶级EUV，晶圆一哥的底牌终于摊开",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811098&idx=1&sn=f744ca48b2e4b03f5358ebeab1a11afd",
-      "summary": "绕过顶级EUV，晶圆一哥的底牌终于摊开",
+      "id": "741d56691b",
+      "title": "“失速”的高通，正在重新定义自己",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811117&idx=1&sn=dff37ba7292b16cc88ecc621b027a571",
+      "summary": "“失速”的高通，正在重新定义自己",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-04T03:50:56.862850+00:00",
-      "pub_ts": 1777866656
+      "pub_date": "2026-05-05T03:32:46.266828+00:00",
+      "pub_ts": 1777951966
     },
     {
-      "id": "2c6b792b59",
-      "title": "日本双企跨界，瓜分AI芯片上游红利",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811098&idx=2&sn=4c9ee497a04bd738b1668bf4dae0b338",
-      "summary": "日本双企跨界，瓜分AI芯片上游红利",
+      "id": "e8f3816064",
+      "title": "Anthropic大动作！拟采购初创公司Fractile Al芯片",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811117&idx=2&sn=3cc1a60205e3c9ffea822a854b455c16",
+      "summary": "Anthropic大动作！拟采购初创公司Fractile Al芯片",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-04T03:50:56.862896+00:00",
-      "pub_ts": 1777866656
+      "pub_date": "2026-05-05T03:32:46.266873+00:00",
+      "pub_ts": 1777951966
     },
     {
-      "id": "3516ade159",
-      "title": "新型类脑芯片可将人工智能的能耗降低70%",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811098&idx=3&sn=5c00723b489667f5424486edd82ff98f",
-      "summary": "新型类脑芯片可将人工智能的能耗降低70%",
+      "id": "f9ddb8b24e",
+      "title": "台积电加码2nm：2026年-2028年产能年增70%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811117&idx=3&sn=b14d58338802cb29641f62d33e2729c1",
+      "summary": "台积电加码2nm：2026年-2028年产能年增70%",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-04T03:50:56.862922+00:00",
-      "pub_ts": 1777866656
+      "pub_date": "2026-05-05T03:32:46.266899+00:00",
+      "pub_ts": 1777951966
     },
     {
-      "id": "51ff61ea7c",
-      "title": "铜箔、电子布“一货难求”，CCL行业超级周期已至",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811098&idx=4&sn=926abed0b40749daf4c02d1f43bec03c",
-      "summary": "铜箔、电子布“一货难求”，CCL行业超级周期已至",
+      "id": "ef51fa2428",
+      "title": "马斯克的GPU也在摸鱼？狂囤几十万张显卡，只有11%在干活",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811117&idx=4&sn=0b63323312b6165ee7a7b76ed4799ecb",
+      "summary": "马斯克的GPU也在摸鱼？狂囤几十万张显卡，只有11%在干活",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-04T03:50:56.862945+00:00",
-      "pub_ts": 1777866656
+      "pub_date": "2026-05-05T03:32:46.266922+00:00",
+      "pub_ts": 1777951966
     },
     {
-      "id": "18d7313f24",
-      "title": "算力政策讨论实录：全国一体化算力网到底是张什么网？",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811098&idx=5&sn=e514642dee8fc07a035fea222b3e4a26",
-      "summary": "算力政策讨论实录：全国一体化算力网到底是张什么网？",
+      "id": "91cdf69312",
+      "title": "造车的不赚钱，卖激光雷达的赚钱了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811117&idx=5&sn=02f2e521843921650283f14fb6f4090f",
+      "summary": "造车的不赚钱，卖激光雷达的赚钱了",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-04T03:50:56.862967+00:00",
-      "pub_ts": 1777866656
+      "pub_date": "2026-05-05T03:32:46.266942+00:00",
+      "pub_ts": 1777951966
     },
     {
-      "id": "cb8b4d47fa",
-      "title": "一层“膜”，难住了芯片巨头",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818268&idx=1&sn=9a451156dd1d269b5147b0f57b393c1e",
-      "summary": "一层“膜”，难住了芯片巨头",
+      "id": "4d9f376d57",
+      "title": "2026中国汽车芯片产业创新成果【结果公告】",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817907&idx=1&sn=bf2da772c8200c5f54b8b69c64b0fbb5",
+      "summary": "2026中国汽车芯片产业创新成果【结果公告】",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-04T03:50:42.681535+00:00",
-      "pub_ts": 1777866642
+      "pub_date": "2026-05-05T03:32:32.988246+00:00",
+      "pub_ts": 1777951952
     },
     {
-      "id": "beaaf0adf0",
-      "title": "千芯聚力，筑基未来：2026北京车展“中国芯”展区暨产业生态交流日盛大举办",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818268&idx=2&sn=65be3c1989f5961cea29f15eb148b595",
-      "summary": "千芯聚力，筑基未来：2026北京车展“中国芯”展区暨产业生态交流日盛大举办",
+      "id": "2c5bbdee20",
+      "title": "ASML进军混合键合?",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818316&idx=1&sn=c2e5bd4112faeb26bb0a1e6c5ff850ae",
+      "summary": "ASML进军混合键合?",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-04T03:50:42.681588+00:00",
-      "pub_ts": 1777866642
+      "pub_date": "2026-05-05T03:32:32.988307+00:00",
+      "pub_ts": 1777951952
     },
     {
-      "id": "dbe8d630ae",
-      "title": "模拟芯片工程师薪资登顶",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818268&idx=3&sn=9bdcfaca4490bf7fe044debe35be2f88",
-      "summary": "模拟芯片工程师薪资登顶",
+      "id": "0f0fd95512",
+      "title": "最强挑战者，硬刚台积电",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818316&idx=2&sn=5d589277ce1b7d116ef3d68a2472bd3f",
+      "summary": "最强挑战者，硬刚台积电",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-04T03:50:42.681613+00:00",
-      "pub_ts": 1777866642
+      "pub_date": "2026-05-05T03:32:32.988332+00:00",
+      "pub_ts": 1777951952
     },
     {
-      "id": "4243fa2b0e",
-      "title": "接棒CoWoS，CoPoS凭啥?",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818268&idx=4&sn=e052261128f7ab71e8fc96d215f9d86f",
-      "summary": "接棒CoWoS，CoPoS凭啥?",
+      "id": "69c7aab1f8",
+      "title": "当芯片遇见工业买家：国芯展如何成为集成电路产业最关键的那扇门",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818316&idx=3&sn=4dec08c4d309aec224c033e9be78d961",
+      "summary": "当芯片遇见工业买家：国芯展如何成为集成电路产业最关键的那扇门",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-04T03:50:42.681680+00:00",
-      "pub_ts": 1777866642
+      "pub_date": "2026-05-05T03:32:32.988367+00:00",
+      "pub_ts": 1777951952
     },
     {
-      "id": "23e5cfed6b",
-      "title": "ASIC设计服务厂商，赚翻了",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818268&idx=5&sn=caf85ca8cdf9901f95805fd5bd8ac776",
-      "summary": "ASIC设计服务厂商，赚翻了",
+      "id": "803db4bf97",
+      "title": "先进封装，成为关键",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818316&idx=4&sn=038f8729730ee87508be0a14c0833491",
+      "summary": "先进封装，成为关键",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-04T03:50:42.681707+00:00",
-      "pub_ts": 1777866642
+      "pub_date": "2026-05-05T03:32:32.988388+00:00",
+      "pub_ts": 1777951952
+    },
+    {
+      "id": "6d041f589c",
+      "title": "From Simulation Checkpoints To Continuous Physics",
+      "url": "https://semiengineering.com/from-simulation-checkpoints-to-continuous-physics/",
+      "summary": "Reasoning in semiconductor design.\nThe post From Simulation Checkpoints To Continuous Physics appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-05-04T07:01:51+00:00",
+      "pub_ts": 1777878111
+    },
+    {
+      "id": "9638c68173",
+      "title": "Designing Chips In The Context Of Rapidly Evolving AI",
+      "url": "https://semiengineering.com/designing-chips-in-the-context-of-rapidly-evolving-ai/",
+      "summary": "Long‑running agents, tool-calling LLMs, and multimodal chaos are rewriting edge compute rules, and making chip design more challenging.\nThe post Designing Chips In The Context Of Rapidly Evolving AI appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-05-04T07:01:51+00:00",
+      "pub_ts": 1777878111
     },
     {
       "id": "d7ffaa5995",
@@ -135,26 +155,6 @@
       "lang": "en",
       "pub_date": "2026-04-30T07:05:47+00:00",
       "pub_ts": 1777532747
-    },
-    {
-      "id": "9a8af4e55b",
-      "title": "Creating Agentic EDA Methodologies",
-      "url": "https://semiengineering.com/creating-agentic-eda-methodologies/",
-      "summary": "Current approaches involve multiple tools, vendors, designs, data formats, and abstractions. Can agents really use them all?\nThe post Creating Agentic EDA Methodologies appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-04-30T07:05:34+00:00",
-      "pub_ts": 1777532734
-    },
-    {
-      "id": "61b899cdfa",
-      "title": "Foundry Capacity Is Limiting Who Competes At Leading Edge Nodes",
-      "url": "https://semiengineering.com/foundries-capacity-is-limiting-who-competes-at-leading-edge-nodes/",
-      "summary": "But the inability to utilize leading-edge process nodes has created opportunities for small and midsize chip developers in multi-die design, along with some sophisticated architectural design tradeoffs.\nThe post Foundry Capacity Is Limiting Who Competes At Leading Edge Nodes appeared first on Semico…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-04-30T07:05:15+00:00",
-      "pub_ts": 1777532715
     }
   ]
 }

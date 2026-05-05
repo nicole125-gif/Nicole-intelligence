@@ -3,9 +3,29 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-05-04T03:51:38.096105+00:00",
+  "updated_at": "2026-05-05T03:33:28.076170+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "f59d777ad9",
+      "title": "Arrowhead’s Redemplo secures Australian TGA approval for FCS therapy",
+      "url": "https://www.pharmaceutical-technology.com/news/arrowheads-redemplo-australian-tga-approval/",
+      "summary": "Arrowhead Pharmaceuticals has received approval from the Australian TGA for Redemplo to treat familial chylomicronemia syndrome.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-05-04T10:57:42+00:00",
+      "pub_ts": 1777892262
+    },
+    {
+      "id": "1391ecb02b",
+      "title": "Novo Nordisk to launch Ozempic for type 2 diabetes in US",
+      "url": "https://www.pharmaceutical-technology.com/news/novo-nordisk-to-launch-ozempic/",
+      "summary": "Novo Nordisk is set to launch Ozempic, its oral GLP-1 receptor agonist pill for adults with type 2 diabetes, in the US.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-05-04T08:16:55+00:00",
+      "pub_ts": 1777882615
+    },
     {
       "id": "b0ed66a5c5",
       "title": "The cost of inefficiencies in clinical trials",
@@ -35,26 +55,6 @@
       "lang": "en",
       "pub_date": "2026-05-01T09:41:08+00:00",
       "pub_ts": 1777628468
-    },
-    {
-      "id": "6a94358566",
-      "title": "Eli Lilly lifts 2026 revenue guidance as Q1 marks dominant opening",
-      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-lifts-2026-revenue-guidance-as-q1-marks-dominant-opening/",
-      "summary": "Sales for Lilly blew past expectations in the quarter as demand for weight loss treatments showed no signs of abating.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-05-01T09:32:32+00:00",
-      "pub_ts": 1777627952
-    },
-    {
-      "id": "1576eb628f",
-      "title": "BMS brings the buzz around late-stage readouts amid a so-so Q1",
-      "url": "https://www.pharmaceutical-technology.com/news/bms-late-stage-readouts-cobenfy-milvexian-q1-2026-results/",
-      "summary": "BMS is awaiting Phase III readouts from potential Eliquis successor, milvexian and schizophrenia med, Cobenfy, expected later this year.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-05-01T09:20:53+00:00",
-      "pub_ts": 1777627253
     }
   ]
 }
