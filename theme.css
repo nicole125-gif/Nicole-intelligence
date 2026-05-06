@@ -1,0 +1,41 @@
+/* ── PULSE · 通用主题 ── */
+/* 修改这一个文件，所有页面同步生效 */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500;600&family=Noto+Sans+SC:wght@300;400;500&display=swap');
+
+:root {
+  /* 背景层次 */
+  --bg:       #f9fafb;
+  --bg2:      #f3f4f6;
+  --bg3:      #e5e7eb;
+
+  /* 边框 */
+  --border:   #e5e7eb;
+  --border2:  #d1d5db;
+
+  /* 文字 */
+  --text:     #111827;
+  --muted:    #6b7280;
+  --dim:      #9ca3af;
+
+  /* Bürkert 蓝 */
+  --b-accent: #2563EB;
+  --b-glow:   rgba(37,99,235,0.07);
+
+  /* Gemü 绿 */
+  --g-accent: #059669;
+  --g-glow:   rgba(5,150,105,0.07);
+
+  /* ESG 琥珀 */
+  --e-accent: #d97706;
+  --e-glow:   rgba(217,119,6,0.07);
+
+  /* 状态色 */
+  --red:      #dc2626;
+  --amber:    #d97706;
+  --green:    #16a34a;
+
+  /* 字体 */
+  --font-body: 'DM Sans', 'Noto Sans SC', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+}
