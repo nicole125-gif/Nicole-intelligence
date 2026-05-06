@@ -3,28 +3,38 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-05-05T03:33:04.392521+00:00",
-  "item_count": 2,
+  "updated_at": "2026-05-06T03:47:02.268291+00:00",
+  "item_count": 3,
   "items": [
     {
-      "id": "01c81cf1a7",
-      "title": "“DeepSeek版ClaudeCode\",Github2.3k星",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888322&idx=1&sn=2ec6c1b3f8f61e7cf7549aaae6fb603e",
-      "summary": "“DeepSeek版ClaudeCode\",Github2.3k星",
+      "id": "39e1ad4dda",
+      "title": "马斯克破大防了：私信求和遭拒，怒喷奥特曼Brockman「全美最恶人」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888359&idx=1&sn=5cac1385dc798887fe474546d017fa91",
+      "summary": "马斯克破大防了：私信求和遭拒，怒喷奥特曼Brockman「全美最恶人」",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-05T03:33:00.282923+00:00",
-      "pub_ts": 1777951980
+      "pub_date": "2026-05-06T03:46:57.649751+00:00",
+      "pub_ts": 1778039217
     },
     {
-      "id": "de83bd4fb3",
-      "title": "5月20日，马上AI起来！峰会首波嘉宾已官宣",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888147&idx=1&sn=5554e53e9a42721ccc56e9e601fa2061",
-      "summary": "5月20日，马上AI起来！峰会首波嘉宾已官宣",
+      "id": "f74cada86a",
+      "title": "豆包要收费了：三档订阅最贵500元/月，保留免费基础版",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888337&idx=1&sn=83bf3454c92df81197ba82282d28eb51",
+      "summary": "豆包要收费了：三档订阅最贵500元/月，保留免费基础版",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-05T03:33:00.282968+00:00",
-      "pub_ts": 1777951980
+      "pub_date": "2026-05-06T03:46:57.649797+00:00",
+      "pub_ts": 1778039217
+    },
+    {
+      "id": "01c81cf1a7",
+      "title": "\"DeepSeek版 Claude Code\",Github2.3k星",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888322&idx=1&sn=2ec6c1b3f8f61e7cf7549aaae6fb603e",
+      "summary": "\"DeepSeek版 Claude Code\",Github2.3k星",
+      "source": "量子位-AI硬件",
+      "lang": "zh",
+      "pub_date": "2026-05-06T03:46:57.649820+00:00",
+      "pub_ts": 1778039217
     }
   ]
 }

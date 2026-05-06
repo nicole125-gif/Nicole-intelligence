@@ -3,158 +3,158 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-05-05T03:32:50.373111+00:00",
+  "updated_at": "2026-05-06T03:46:48.300650+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "741d56691b",
-      "title": "“失速”的高通，正在重新定义自己",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811117&idx=1&sn=dff37ba7292b16cc88ecc621b027a571",
-      "summary": "“失速”的高通，正在重新定义自己",
+      "id": "c54e211643",
+      "title": "英特尔宣布领导层任命，推进客户端计算与未来创新",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811143&idx=1&sn=4797c351ba157a6bfa04e29cb71e6fa9",
+      "summary": "英特尔宣布领导层任命，推进客户端计算与未来创新",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-05T03:32:46.266828+00:00",
-      "pub_ts": 1777951966
+      "pub_date": "2026-05-06T03:46:44.295792+00:00",
+      "pub_ts": 1778039204
     },
     {
-      "id": "e8f3816064",
-      "title": "Anthropic大动作！拟采购初创公司Fractile Al芯片",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811117&idx=2&sn=3cc1a60205e3c9ffea822a854b455c16",
-      "summary": "Anthropic大动作！拟采购初创公司Fractile Al芯片",
+      "id": "58b57d678a",
+      "title": "国产CIS的翻身仗",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811138&idx=1&sn=1ab92fc74ada5146606fb7718cedc733",
+      "summary": "国产CIS的翻身仗",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-05T03:32:46.266873+00:00",
-      "pub_ts": 1777951966
+      "pub_date": "2026-05-06T03:46:44.295840+00:00",
+      "pub_ts": 1778039204
     },
     {
-      "id": "f9ddb8b24e",
-      "title": "台积电加码2nm：2026年-2028年产能年增70%",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811117&idx=3&sn=b14d58338802cb29641f62d33e2729c1",
-      "summary": "台积电加码2nm：2026年-2028年产能年增70%",
+      "id": "d1b48dda51",
+      "title": "暴涨17倍！NVIDIAFeynman功率半导体成本突破19万美元",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811138&idx=2&sn=9a59e226ba6fc8b32fc8d50b1062e6f0",
+      "summary": "暴涨17倍！NVIDIAFeynman功率半导体成本突破19万美元",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-05T03:32:46.266899+00:00",
-      "pub_ts": 1777951966
+      "pub_date": "2026-05-06T03:46:44.295867+00:00",
+      "pub_ts": 1778039204
     },
     {
-      "id": "ef51fa2428",
-      "title": "马斯克的GPU也在摸鱼？狂囤几十万张显卡，只有11%在干活",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811117&idx=4&sn=0b63323312b6165ee7a7b76ed4799ecb",
-      "summary": "马斯克的GPU也在摸鱼？狂囤几十万张显卡，只有11%在干活",
+      "id": "af55b9ca7d",
+      "title": "为什么冷却硬件在半导体制造中起着至关重要的作用?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811138&idx=3&sn=92ea59a05248ea58bfe15e92ea326b3d",
+      "summary": "为什么冷却硬件在半导体制造中起着至关重要的作用?",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-05T03:32:46.266922+00:00",
-      "pub_ts": 1777951966
+      "pub_date": "2026-05-06T03:46:44.295892+00:00",
+      "pub_ts": 1778039204
     },
     {
-      "id": "91cdf69312",
-      "title": "造车的不赚钱，卖激光雷达的赚钱了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811117&idx=5&sn=02f2e521843921650283f14fb6f4090f",
-      "summary": "造车的不赚钱，卖激光雷达的赚钱了",
+      "id": "036b75c91d",
+      "title": "闪迪，将会是下一个SK海力士?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811138&idx=4&sn=a9ca7dcec19af0961cb986bcf8dbe5f9",
+      "summary": "闪迪，将会是下一个SK海力士?",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-05T03:32:46.266942+00:00",
-      "pub_ts": 1777951966
+      "pub_date": "2026-05-06T03:46:44.295913+00:00",
+      "pub_ts": 1778039204
     },
     {
-      "id": "4d9f376d57",
-      "title": "2026中国汽车芯片产业创新成果【结果公告】",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247817907&idx=1&sn=bf2da772c8200c5f54b8b69c64b0fbb5",
-      "summary": "2026中国汽车芯片产业创新成果【结果公告】",
+      "id": "12b9b3a899",
+      "title": "CPO，还要十年?",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818349&idx=1&sn=6657ed71e1077b982ac501141589ec49",
+      "summary": "CPO，还要十年?",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-05T03:32:32.988246+00:00",
-      "pub_ts": 1777951952
+      "pub_date": "2026-05-06T03:46:31.452368+00:00",
+      "pub_ts": 1778039191
     },
     {
-      "id": "2c5bbdee20",
-      "title": "ASML进军混合键合?",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818316&idx=1&sn=c2e5bd4112faeb26bb0a1e6c5ff850ae",
-      "summary": "ASML进军混合键合?",
+      "id": "259f6aa1c7",
+      "title": "对算力瓶颈发起总攻：新紫光亮出“全家桶”",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818349&idx=2&sn=2b5ed69a76a24d04f48521b3e90b0248",
+      "summary": "对算力瓶颈发起总攻：新紫光亮出“全家桶”",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-05T03:32:32.988307+00:00",
-      "pub_ts": 1777951952
+      "pub_date": "2026-05-06T03:46:31.452424+00:00",
+      "pub_ts": 1778039191
     },
     {
-      "id": "0f0fd95512",
-      "title": "最强挑战者，硬刚台积电",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818316&idx=2&sn=5d589277ce1b7d116ef3d68a2472bd3f",
-      "summary": "最强挑战者，硬刚台积电",
+      "id": "ee6f27e6f5",
+      "title": "AI芯片设计，越来越难",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818349&idx=3&sn=e27b7ffac23aad40b4c5a3836bd683cb",
+      "summary": "AI芯片设计，越来越难",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-05T03:32:32.988332+00:00",
-      "pub_ts": 1777951952
+      "pub_date": "2026-05-06T03:46:31.452451+00:00",
+      "pub_ts": 1778039191
     },
     {
-      "id": "69c7aab1f8",
-      "title": "当芯片遇见工业买家：国芯展如何成为集成电路产业最关键的那扇门",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818316&idx=3&sn=4dec08c4d309aec224c033e9be78d961",
-      "summary": "当芯片遇见工业买家：国芯展如何成为集成电路产业最关键的那扇门",
+      "id": "af9e5398f5",
+      "title": "OSAT厂商，资本支出创历史新高",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818349&idx=4&sn=a748ca0413fe3d363c90cbc6b9d3427c",
+      "summary": "OSAT厂商，资本支出创历史新高",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-05T03:32:32.988367+00:00",
-      "pub_ts": 1777951952
+      "pub_date": "2026-05-06T03:46:31.452474+00:00",
+      "pub_ts": 1778039191
     },
     {
-      "id": "803db4bf97",
-      "title": "先进封装，成为关键",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818316&idx=4&sn=038f8729730ee87508be0a14c0833491",
-      "summary": "先进封装，成为关键",
+      "id": "d064f26d0a",
+      "title": "19.1万美元，Feynman机架电力成本飙升17倍",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818349&idx=5&sn=9044120d2be37b5d1412c0894e835222",
+      "summary": "19.1万美元，Feynman机架电力成本飙升17倍",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-05T03:32:32.988388+00:00",
-      "pub_ts": 1777951952
+      "pub_date": "2026-05-06T03:46:31.452496+00:00",
+      "pub_ts": 1778039191
     },
     {
-      "id": "6d041f589c",
-      "title": "From Simulation Checkpoints To Continuous Physics",
-      "url": "https://semiengineering.com/from-simulation-checkpoints-to-continuous-physics/",
-      "summary": "Reasoning in semiconductor design.\nThe post From Simulation Checkpoints To Continuous Physics appeared first on Semiconductor Engineering.",
+      "id": "010c77f93f",
+      "title": "A Detailed Evaluation of A Production Server With High-End MRDIMM Main Memory (BSC, Micron, Intel, UPC)",
+      "url": "https://semiengineering.com/a-detailed-evaluation-of-a-production-server-with-high-end-mrdimm-main-memory-bsc-micron-intel-upc/",
+      "summary": "A new technical paper, &#8220;Performance and Energy Benefits of MRDIMMs,&#8221; was published by researchers at Barcelona Supercomputing Center, Universitat Politecnica de Catalunya, Micron and Intel Corporation. Abstract &#8220;Multiplexed Rank DIMMs (MRDIMMs) have recently emerged as memory devic…",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-05-04T07:01:51+00:00",
-      "pub_ts": 1777878111
+      "pub_date": "2026-05-05T21:14:20+00:00",
+      "pub_ts": 1778015660
     },
     {
-      "id": "9638c68173",
-      "title": "Designing Chips In The Context Of Rapidly Evolving AI",
-      "url": "https://semiengineering.com/designing-chips-in-the-context-of-rapidly-evolving-ai/",
-      "summary": "Long‑running agents, tool-calling LLMs, and multimodal chaos are rewriting edge compute rules, and making chip design more challenging.\nThe post Designing Chips In The Context Of Rapidly Evolving AI appeared first on Semiconductor Engineering.",
+      "id": "35a8286145",
+      "title": "GPU Power Prediction Tool for AI Workloads (MIT, IBM)",
+      "url": "https://semiengineering.com/gpu-power-prediction-tool-for-ai-workloads-mit-ibm/",
+      "summary": "A new technical paper, &#8220;EnergAIzer: Fast and Accurate GPU Power Estimation Framework for AI Workloads,&#8221; was published by researchers at MIT and IBM Research. Abstract &#8220;As AI workloads drive increases in datacenter power consumption, accurate GPU power estimation is critical for pro…",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-05-04T07:01:51+00:00",
-      "pub_ts": 1777878111
+      "pub_date": "2026-05-05T20:45:14+00:00",
+      "pub_ts": 1778013914
     },
     {
-      "id": "d7ffaa5995",
-      "title": "Potential Route To Photonic FPCA Using NV Low-Loss Phase Change Material (Oxford)",
-      "url": "https://semiengineering.com/potential-route-to-photonic-fpca-using-nv-low-loss-phase-change-material-oxford/",
-      "summary": "A new technical paper, &#8220;Nonvolatile photonic field-programmable coupler array,&#8221; was published by researchers at University of Oxford. Abstract &#8220;Programmable photonic networks carry out universal unitary functions by independently operating on the amplitude and phase of guided light…",
+      "id": "1efdec3410",
+      "title": "Pre-Silicon Verification and Validation Methodology Targeting Robust RISC-V Chip Designs (BSC)",
+      "url": "https://semiengineering.com/pre-silicon-verification-and-validation-methodology-targeting-robust-risc-v-chip-designs-bsc/",
+      "summary": "A new technical paper, &#8220;Verification and Validation (V&#38;V)-in-the-Loop for RISC-V Design: The Holistic Vision of BZL,&#8221; was published by researchers at Barcelona Supercomputing Center. Abstract &#8220;The Barcelona Zetascale Lab (BZL) project aims to strengthening Europe&#8217;s capaci…",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-05-02T17:15:42+00:00",
-      "pub_ts": 1777742142
+      "pub_date": "2026-05-05T20:37:56+00:00",
+      "pub_ts": 1778013476
     },
     {
-      "id": "1089ea1e95",
-      "title": "Chip Industry Week in Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-136/",
-      "summary": "Google's TPUs now for sale; 2/3nm capacity crunch; IC tool sales to China stopped; memory shortage widens in 2027; mega-earnings; Arm's agentic toolkit; Intel seeds universities; KAIST's liquid cooling for advanced packages; MIT-IBM tool for estimating power; V2X collaboration.\nThe post Chip Industr…",
+      "id": "6b05a19561",
+      "title": "Foundry-Compatible Grating Couplers Using an Inverse Design Framework (Yale)",
+      "url": "https://semiengineering.com/foundry-compatible-grating-couplers-using-an-inverse-design-framework-yale/",
+      "summary": "A new technical paper, &#8220;Multimode grating couplers via foundry-compliant inverse design,&#8221; was published by researchers at Yale University. Abstract &#8220;We apply a systematic inverse design approach to discover foundry-compliant, multilayer grating couplers that can efficiently couple …",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-05-01T07:01:00+00:00",
-      "pub_ts": 1777618860
+      "pub_date": "2026-05-05T20:29:57+00:00",
+      "pub_ts": 1778012997
     },
     {
-      "id": "5c84116d5f",
-      "title": "Transforming DRC Closure At Advanced Nodes",
-      "url": "https://semiengineering.com/transforming-drc-closure-at-advanced-nodes/",
-      "summary": "Turning billions of violations into actionable insights.\nThe post Transforming DRC Closure At Advanced Nodes appeared first on Semiconductor Engineering.",
+      "id": "a8d7aea3ae",
+      "title": "SDVs: Modular Drive Architecture Using Power-Packet-Based Sensorless Control (Kyoto U.)",
+      "url": "https://semiengineering.com/sdvs-modular-drive-architecture-using-power-packet-based-sensorless-control-kyoto-u/",
+      "summary": "A new technical paper, &#8220;Modular Drive Architecture for Software-defined Vehicles Enabled by Power-packet-based Sensorless Control,&#8221; was published by researchers at Kyoto University. Abstract &#8220;The transition toward software-defined vehicles requires standardization and modularizatio…",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-04-30T07:05:47+00:00",
-      "pub_ts": 1777532747
+      "pub_date": "2026-05-05T20:22:25+00:00",
+      "pub_ts": 1778012545
     }
   ]
 }

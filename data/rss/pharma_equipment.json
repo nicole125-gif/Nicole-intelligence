@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-05-05T03:33:28.076170+00:00",
+  "updated_at": "2026-05-06T03:47:26.397144+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "f59d777ad9",
-      "title": "Arrowhead’s Redemplo secures Australian TGA approval for FCS therapy",
-      "url": "https://www.pharmaceutical-technology.com/news/arrowheads-redemplo-australian-tga-approval/",
-      "summary": "Arrowhead Pharmaceuticals has received approval from the Australian TGA for Redemplo to treat familial chylomicronemia syndrome.",
+      "id": "94b7e10a63",
+      "title": "Madrigal outlays $1bn for Arrowhead’s siRNA MASH asset",
+      "url": "https://www.pharmaceutical-technology.com/news/madrigal-outlays-1bn-for-arrowheads-sirna-mash-asset/",
+      "summary": "As with its previous siRNA deal, Madrigal plans to explore whether gene-silencing could complement its lead drug Rezdiffra.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-04T10:57:42+00:00",
-      "pub_ts": 1777892262
+      "pub_date": "2026-05-05T14:53:45+00:00",
+      "pub_ts": 1777992825
     },
     {
-      "id": "1391ecb02b",
-      "title": "Novo Nordisk to launch Ozempic for type 2 diabetes in US",
-      "url": "https://www.pharmaceutical-technology.com/news/novo-nordisk-to-launch-ozempic/",
-      "summary": "Novo Nordisk is set to launch Ozempic, its oral GLP-1 receptor agonist pill for adults with type 2 diabetes, in the US.",
+      "id": "f7fbaa29f9",
+      "title": "Non-viral gene therapies emerge as key players amid viral safety bottlenecks",
+      "url": "https://www.pharmaceutical-technology.com/features/non-viral-gene-therapies-future-potential/",
+      "summary": "Non-viral gene therapies may hold potential to overcome some safety, pricing and manufacturing hurdles linked to viral alternatives.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-04T08:16:55+00:00",
-      "pub_ts": 1777882615
+      "pub_date": "2026-05-05T10:46:29+00:00",
+      "pub_ts": 1777977989
     },
     {
-      "id": "b0ed66a5c5",
-      "title": "The cost of inefficiencies in clinical trials",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/the-cost-of-inefficiencies-in-clinical-trials/",
-      "summary": "Estimates suggest fragmented technology can raise clinical trial costs by 45%, but a unified approach to clinical data management can enable efficiency.",
+      "id": "3289b933fe",
+      "title": "UCB doubles down on TCEs with $2.2bn Candid buyout",
+      "url": "https://www.pharmaceutical-technology.com/news/ucb-candid-therapeutics-acquisition-2-2bn-autoimmune/",
+      "summary": "UCB’s Candid acquisition marks its second foray into the TCE space – closely following a $1.1bn licensing deal with TCE specialist, Antengene.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-01T10:15:45+00:00",
-      "pub_ts": 1777630545
+      "pub_date": "2026-05-05T10:12:54+00:00",
+      "pub_ts": 1777975974
     },
     {
-      "id": "3e685d0635",
-      "title": "How Saudi Arabia is developing as a Middle East hub for clinical trials",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/how-saudi-arabia-is-developing-as-a-middle-east-hub-for-clinical-trials/",
-      "summary": "Saudi Arabia is emerging as a major growth market for clinical trials in the Middle East, underpinned by strong funding and rapidly developing infrastructure.",
+      "id": "21c209d801",
+      "title": "Lannett, Lanexa Biologics and Sunshine Lake secure FDA approval for Langlara",
+      "url": "https://www.pharmaceutical-technology.com/news/lannett-sunshine-lake-secure-fda-approval-langlara/",
+      "summary": "Sunshine Lake Pharma, Lannett and its wholly owned subsidiary Lanexa Biologics have received FDA approval for Langlara.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-01T09:58:00+00:00",
-      "pub_ts": 1777629480
+      "pub_date": "2026-05-05T09:14:15+00:00",
+      "pub_ts": 1777972455
     },
     {
-      "id": "3e0a6135b7",
-      "title": "Axsome receives FDA approval for Auvelity to treat Alzheimer’s agitation",
-      "url": "https://www.pharmaceutical-technology.com/news/axsome-fda-approval-auvelity-alzheimers-agitation/",
-      "summary": "Axsome Therapeutics has received FDA approval for Auvelity to treat agitation associated with dementia due to Alzheimer’s.",
+      "id": "9dec600b9d",
+      "title": "Tell us: Is hospital connectivity keeping up with the demands of modern care in 2026?",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/tell-us-is-hospital-connectivity-keeping-up-with-the-demands-of-modern-care-in-2026/",
+      "summary": "A new global survey from GlobalData and Ericsson explores how healthcare leaders are navigating hospital connectivity challenges, and what it means for the future of digital care delivery.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-01T09:41:08+00:00",
-      "pub_ts": 1777628468
+      "pub_date": "2026-05-05T08:55:36+00:00",
+      "pub_ts": 1777971336
     }
   ]
 }

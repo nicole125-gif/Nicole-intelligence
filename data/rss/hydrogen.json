@@ -3,9 +3,59 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-05-05T03:33:15.361878+00:00",
+  "updated_at": "2026-05-06T03:47:14.055475+00:00",
   "item_count": 10,
   "items": [
+    {
+      "id": "0ead51a156",
+      "title": "Hydrogen Pickup Truck Participates in Ground Operations at Rotterdam the Hague Airport",
+      "url": "https://fuelcellsworks.com/2026/05/05/energy-innovation/hydrogen-pickup-truck-participates-in-ground-operations-at-rotterdam-the-hague-airport",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-05-05T15:57:08+00:00",
+      "pub_ts": 1777996628
+    },
+    {
+      "id": "0acf87c8d0",
+      "title": "Veneto Commerce Reform Opens Door to Hydrogen",
+      "url": "https://fuelcellsworks.com/2026/05/04/h2/veneto-commerce-reform-opens-door-to-hydrogen",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-05-05T15:37:02+00:00",
+      "pub_ts": 1777995422
+    },
+    {
+      "id": "f33f4b2066",
+      "title": "Australia: WAH2 Clean Ammonia Project Granted Federal Major Project Status",
+      "url": "https://fuelcellsworks.com/2026/05/05/energy-innovation/australia-wah2-clean-ammonia-project-granted-federal-major-project-status",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-05-05T15:32:23+00:00",
+      "pub_ts": 1777995143
+    },
+    {
+      "id": "fe08889714",
+      "title": "Green Hydrogen Powerhouse: How Chile's Atacama Desert Is Rewriting Energy Rules",
+      "url": "https://fuelcellsworks.com/2026/05/04/clean-energy/first-hydrogen-bus-made-in-chile-it-has-a-capacity-for-24-passengers-and-a-maximum-speed-of-90-km-h",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-05-05T15:31:52+00:00",
+      "pub_ts": 1777995112
+    },
+    {
+      "id": "d8fa76f3a9",
+      "title": "First Hydrogen Assembles Advanced Robotics and Ugv Drone Development Team",
+      "url": "https://fuelcellsworks.com/2026/05/05/fuel-cells/first-hydrogen-assembles-advanced-robotics-and-ugv-drone-development-team",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-05-05T15:23:00+00:00",
+      "pub_ts": 1777994580
+    },
     {
       "id": "475ec8235c",
       "title": "Jordan – Green Ammonia Project: From Clean Energy to Export",
@@ -55,56 +105,6 @@
       "lang": "en",
       "pub_date": "2026-05-04T18:00:29+00:00",
       "pub_ts": 1777917629
-    },
-    {
-      "id": "0f89a151a8",
-      "title": "Atomic Design for Green Hydrogen",
-      "url": "https://fuelcellsworks.com/2026/05/04/energy-innovation/atomic-design-for-green-hydrogen",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-05-04T15:15:32+00:00",
-      "pub_ts": 1777907732
-    },
-    {
-      "id": "e9dff61b5c",
-      "title": "Fuel Cell and Hydrogen News Highlights From China: April 20-May 01 2026",
-      "url": "https://fuelcellsworks.com/2026/05/02/clean-energy/fuel-cell-and-hydrogen-news-highlights-from-china-april-20-may-01-2026",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-05-04T15:05:22+00:00",
-      "pub_ts": 1777907122
-    },
-    {
-      "id": "37f373ab9b",
-      "title": "HTEC Recognized at the Canadian Hydrogen Convention for Production and Mobility Projects",
-      "url": "https://fuelcellsworks.com/2026/05/04/h2/htec-recognized-at-the-canadian-hydrogen-convention-for-production-and-mobility-projects",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-05-04T15:04:09+00:00",
-      "pub_ts": 1777907049
-    },
-    {
-      "id": "b4f61c3a7a",
-      "title": "Green Hydrogen: Adjusting Course without Losing Ambition",
-      "url": "https://fuelcellsworks.com/2026/05/04/energy-policy/green-hydrogen-adjusting-course-without-losing-ambition",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-05-04T14:32:17+00:00",
-      "pub_ts": 1777905137
-    },
-    {
-      "id": "cafa582584",
-      "title": "Breakthrough in Seawater Hydrogen Production Technology",
-      "url": "https://fuelcellsworks.com/2026/05/03/h2/breakthrough-in-seawater-hydrogen-production-technology",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-05-04T14:29:18+00:00",
-      "pub_ts": 1777904958
     }
   ]
 }
