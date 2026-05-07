@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-05-06T03:47:26.397144+00:00",
+  "updated_at": "2026-05-07T03:46:13.669329+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "94b7e10a63",
-      "title": "Madrigal outlays $1bn for Arrowhead’s siRNA MASH asset",
-      "url": "https://www.pharmaceutical-technology.com/news/madrigal-outlays-1bn-for-arrowheads-sirna-mash-asset/",
-      "summary": "As with its previous siRNA deal, Madrigal plans to explore whether gene-silencing could complement its lead drug Rezdiffra.",
+      "id": "45d547b99a",
+      "title": "An essential framework to navigating technical challenges in contemporary OSD development",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/an-essential-framework-to-navigating-technical-challenges-in-contemporary-osd-development/",
+      "summary": "Navigate key challenge in OSD development with an early risk-identification framework to improve bioavailability, stability, and scale-up with CDMO support.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-05T14:53:45+00:00",
-      "pub_ts": 1777992825
+      "pub_date": "2026-05-06T20:44:49+00:00",
+      "pub_ts": 1778100289
     },
     {
-      "id": "f7fbaa29f9",
-      "title": "Non-viral gene therapies emerge as key players amid viral safety bottlenecks",
-      "url": "https://www.pharmaceutical-technology.com/features/non-viral-gene-therapies-future-potential/",
-      "summary": "Non-viral gene therapies may hold potential to overcome some safety, pricing and manufacturing hurdles linked to viral alternatives.",
+      "id": "b77da816d1",
+      "title": "Bayer looks to uphold Eylea legacy with $2.45bn Perfuse buyout",
+      "url": "https://www.pharmaceutical-technology.com/news/bayer-perfuse-therapeutics-buyout-ophthalmology-per-001/",
+      "summary": "If approved, Perfuse's PER-001 could continue Bayer’s ophthalmology legacy defined by blockbuster retinal disease therapy, Eylea.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-05T10:46:29+00:00",
-      "pub_ts": 1777977989
+      "pub_date": "2026-05-06T15:13:21+00:00",
+      "pub_ts": 1778080401
     },
     {
-      "id": "3289b933fe",
-      "title": "UCB doubles down on TCEs with $2.2bn Candid buyout",
-      "url": "https://www.pharmaceutical-technology.com/news/ucb-candid-therapeutics-acquisition-2-2bn-autoimmune/",
-      "summary": "UCB’s Candid acquisition marks its second foray into the TCE space – closely following a $1.1bn licensing deal with TCE specialist, Antengene.",
+      "id": "2bd2dab0d3",
+      "title": "Citius raises $36.5m for Lymphir commercialisation",
+      "url": "https://www.pharmaceutical-technology.com/news/citius-oncology-raises-36m-lymphir-commercialisation/",
+      "summary": "Citius Oncology has secured up to $36.5m to accelerate the commercialisation of Lymphir, a recombinant fusion protein immune therapy.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-05T10:12:54+00:00",
-      "pub_ts": 1777975974
+      "pub_date": "2026-05-06T12:04:52+00:00",
+      "pub_ts": 1778069092
     },
     {
-      "id": "21c209d801",
-      "title": "Lannett, Lanexa Biologics and Sunshine Lake secure FDA approval for Langlara",
-      "url": "https://www.pharmaceutical-technology.com/news/lannett-sunshine-lake-secure-fda-approval-langlara/",
-      "summary": "Sunshine Lake Pharma, Lannett and its wholly owned subsidiary Lanexa Biologics have received FDA approval for Langlara.",
+      "id": "ff798f3fc6",
+      "title": "DDW 2026: key readouts from the conference",
+      "url": "https://www.pharmaceutical-technology.com/news/ddw-2026-key-trial-roundup-digestive-oncology-ibd-oesophageal-disease-2/",
+      "summary": "Pharmaceutical Technology rounds up the key readouts from the 2026 Digestive Disease Week conference held in Chicago.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-05T09:14:15+00:00",
-      "pub_ts": 1777972455
+      "pub_date": "2026-05-06T11:27:32+00:00",
+      "pub_ts": 1778066852
     },
     {
-      "id": "9dec600b9d",
-      "title": "Tell us: Is hospital connectivity keeping up with the demands of modern care in 2026?",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/tell-us-is-hospital-connectivity-keeping-up-with-the-demands-of-modern-care-in-2026/",
-      "summary": "A new global survey from GlobalData and Ericsson explores how healthcare leaders are navigating hospital connectivity challenges, and what it means for the future of digital care delivery.",
+      "id": "d933a6d388",
+      "title": "MSD concludes Terns acquisition to expand CML pipeline",
+      "url": "https://www.pharmaceutical-technology.com/news/msd-concludes-terns-acquisition/",
+      "summary": "MSD has completed its acquisition of Terns Pharmaceuticals, expanding its pipeline of treatments for chronic myeloid leukaemia (CML).",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-05T08:55:36+00:00",
-      "pub_ts": 1777971336
+      "pub_date": "2026-05-06T08:47:44+00:00",
+      "pub_ts": 1778057264
     }
   ]
 }
