@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-05-08T03:38:21.425063+00:00",
+  "updated_at": "2026-05-09T03:39:08.714448+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "e90513a329",
-      "title": "GSK spends $1bn on rights to SiranBio’s metabolic oligonucleotide",
-      "url": "https://www.pharmaceutical-technology.com/news/gsk-siranbio-1bn-licensing-deal-sa030-metabolic-disease/",
-      "summary": "This deal aligns with GSK's focus on addressing the complications of obesity, while restocking its pipeline amid key patent expiries.",
+      "id": "d2adeb2e95",
+      "title": "Japan’s FY26 price revision expands G1 repricing and drives price reduction",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/japan-fy26-price-revision/",
+      "summary": "Japan’s latest NHI drug price revision for FY26 has now come into effect, with an average 4.02% drop in prices on a spending basis across 15,800 products.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-07T16:13:14+00:00",
-      "pub_ts": 1778170394
+      "pub_date": "2026-05-08T15:59:59+00:00",
+      "pub_ts": 1778255999
     },
     {
-      "id": "42f71a2cfb",
-      "title": "Podcast: Autonomous labs redefine the role of biopharma researchers",
-      "url": "https://www.pharmaceutical-technology.com/interviews/podcast-autonomous-labs-redefine-the-role-of-biopharma-researchers/",
-      "summary": "Ginkgo Bioworks CEO Jason Kelly discusses the company’s work on autonomous labs and their impact on biopharma R&amp;D.",
+      "id": "86b59138ce",
+      "title": "Gilead posts positive Q1 buoyed by HIV drug growth",
+      "url": "https://www.pharmaceutical-technology.com/news/gilead-sciences-q1-results-hiv-biktarvy-yeztugo/",
+      "summary": "Biktarvy continues to be a strong growth asset for Gilead, while Yeztugo’s launch rides an upward trajectory.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-07T13:32:46+00:00",
-      "pub_ts": 1778160766
+      "pub_date": "2026-05-08T15:59:53+00:00",
+      "pub_ts": 1778255993
     },
     {
-      "id": "c5d5288d86",
-      "title": "Eli Lilly pledges $4.5bn to bolster Indiana-based manufacturing",
-      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-4-5bn-indiana-manufacturing-expansion-api-genetic-medicines/",
-      "summary": "When Eli Lilly's Lebanon campus is complete, it will manufacture several of the pharma's APIs and genetic medicines to serve US patients.",
+      "id": "e8acc7e847",
+      "title": "AI-guided labs are approaching full autonomy",
+      "url": "https://www.pharmaceutical-technology.com/features/ai-guided-labs-are-approaching-full-autonomy/",
+      "summary": "Autonomous labs guided by AI can operate with increasing independence and are beginning to outperform human researchers.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-07T10:30:55+00:00",
-      "pub_ts": 1778149855
+      "pub_date": "2026-05-08T14:57:21+00:00",
+      "pub_ts": 1778252241
     },
     {
-      "id": "2050b6f0ea",
-      "title": "Daiichi Sankyo and Waiv partner for ADC biomarkers",
-      "url": "https://www.pharmaceutical-technology.com/news/daiichi-sankyo-waiv-adc-biomarkers/",
-      "summary": "Daiichi Sankyo has entered into a collaboration with Paris-based Waiv intended at digital pathology biomarker discovery for an ADC programme.",
+      "id": "43d6293a56",
+      "title": "Novo’s CEO champions “record-breaking start” for Wegovy pill in US market",
+      "url": "https://www.pharmaceutical-technology.com/news/novos-ceo-champions-record-breaking-start-for-wegovy-pill-in-us-market/",
+      "summary": "Novo Nordisk’s Wegovy pill is already providing financial fuel in the company’s bid to catch Eli Lilly.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-07T09:03:01+00:00",
-      "pub_ts": 1778144581
+      "pub_date": "2026-05-08T10:34:07+00:00",
+      "pub_ts": 1778236447
     },
     {
-      "id": "e92bc57f0e",
-      "title": "Halozyme and Oruka sign agreement for Hypercon technology",
-      "url": "https://www.pharmaceutical-technology.com/news/halozyme-oruka-agreement-hypercon-technology/",
-      "summary": "Halozyme Hypercon has signed an exclusive global collaboration and licence agreement with Oruka Therapeutics to develop ORKA-001 using Hypercon Technology.",
+      "id": "4845670207",
+      "title": "Construction begins on Novartis’ RLT centre in Texas, US",
+      "url": "https://www.pharmaceutical-technology.com/news/construction-begins-on-novartis-rlt-centre/",
+      "summary": "Novartis has begun construction on its new 46,000ft² RLT manufacturing facility in Denton, Texas, marking the latest step in its $23bn investment in US manufacturing and research.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-07T08:07:28+00:00",
-      "pub_ts": 1778141248
+      "pub_date": "2026-05-08T09:54:49+00:00",
+      "pub_ts": 1778234089
     }
   ]
 }

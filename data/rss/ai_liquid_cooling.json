@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-05-08T03:37:57.779738+00:00",
+  "updated_at": "2026-05-09T03:38:45.596963+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "2398c79443",
-      "title": "离谱！一句话+百元预算，这只龙虾就给我搓出了一支百万级广告片?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889236&idx=1&sn=734b4f2a90b13769479eaea924a36061",
-      "summary": "离谱！一句话+百元预算，这只龙虾就给我搓出了一支百万级广告片?",
+      "id": "c18b3cee69",
+      "title": "快来，和AI实战派一起AI！AIGC峰会最新嘉宾阵容来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889381&idx=1&sn=03e42252d2bf47b30429d9ee95231d95",
+      "summary": "快来，和AI实战派一起AI！AIGC峰会最新嘉宾阵容来了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-08T03:37:53.768177+00:00",
-      "pub_ts": 1778211473
+      "pub_date": "2026-05-09T03:38:41.771484+00:00",
+      "pub_ts": 1778297921
     },
     {
-      "id": "3a6b024114",
-      "title": "原生Agent杀入画布！一站式搞定专业创作，全程可控、不抽卡",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889236&idx=2&sn=a2082831eca5be476cc1f7d8d3a82b7d",
-      "summary": "原生Agent杀入画布！一站式搞定专业创作，全程可控、不抽卡",
+      "id": "6a04843366",
+      "title": "CVPR冠军代码开源！小米SVOR破解视频消除三大“顽疾”，连人带影一键抹除",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889381&idx=2&sn=f420d9774b42d99ea4d51b095b373e65",
+      "summary": "CVPR冠军代码开源！小米SVOR破解视频消除三大“顽疾”，连人带影一键抹除",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-08T03:37:53.768240+00:00",
-      "pub_ts": 1778211473
+      "pub_date": "2026-05-09T03:38:41.771521+00:00",
+      "pub_ts": 1778297921
     },
     {
-      "id": "628ff2b94e",
-      "title": "只看图片就能学会压缩Token！浙大&阿里新框架多轮VQA压缩率90%，精...",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889236&idx=3&sn=c7df379968508005e66d604552a3e491",
-      "summary": "只看图片就能学会压缩Token！浙大&阿里新框架多轮VQA压缩率90%，精...",
+      "id": "ace404bf5c",
+      "title": "Redis之父下场，给DeepSeekV4单独造了一台推理引擎",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889327&idx=1&sn=8f9855c6d488b4fcb86fb3853f28dcbf",
+      "summary": "Redis之父下场，给DeepSeekV4单独造了一台推理引擎",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-08T03:37:53.768266+00:00",
-      "pub_ts": 1778211473
+      "pub_date": "2026-05-09T03:38:41.771545+00:00",
+      "pub_ts": 1778297921
     },
     {
-      "id": "48bac6144a",
-      "title": "一年磨一剑，今年最炸机器人Demo来了！1亿美元种子轮团队出手，单个...",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889117&idx=1&sn=b84e871edbe935965dcefd2690a9a4d4",
-      "summary": "一年磨一剑，今年最炸机器人Demo来了！1亿美元种子轮团队出手，单个...",
+      "id": "ea716e721c",
+      "title": "Anthropic出手！AI的内心独白，曝光了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889327&idx=2&sn=15edcbcbbc8ecaf0a8a55d85f3789c9a",
+      "summary": "Anthropic出手！AI的内心独白，曝光了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-08T03:37:53.768293+00:00",
-      "pub_ts": 1778211473
+      "pub_date": "2026-05-09T03:38:41.771565+00:00",
+      "pub_ts": 1778297921
     },
     {
-      "id": "0f318eb978",
-      "title": "00后下场整顿Agent：啥都不学就能用好AI，这才是正确打开方式",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889117&idx=2&sn=c6d2be27e9feef9b0116261f26d5b94d",
-      "summary": "00后下场整顿Agent：啥都不学就能用好AI，这才是正确打开方式",
+      "id": "04369aaad1",
+      "title": "所有实验室都怕字节，所有人都在夸DeepSeek！美国研究员36小时中国Al行",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889299&idx=1&sn=863c9a13fb74272f1808f0b3472e591f",
+      "summary": "所有实验室都怕字节，所有人都在夸DeepSeek！美国研究员36小时中国Al行",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-08T03:37:53.768313+00:00",
-      "pub_ts": 1778211473
+      "pub_date": "2026-05-09T03:38:41.771586+00:00",
+      "pub_ts": 1778297921
     }
   ]
 }

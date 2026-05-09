@@ -3,108 +3,108 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-05-08T03:38:08.925474+00:00",
+  "updated_at": "2026-05-09T03:38:56.358387+00:00",
   "item_count": 10,
   "items": [
     {
-      "id": "ec870db371",
-      "title": "Hyundai Motor Launches New 2027 Xcient Hydrogen Fuel Cell Truck",
-      "url": "https://fuelcellsworks.com/2026/05/07/fuel-cells/hyundai-motor-launches-new-2027-xcient-hydrogen-fuel-cell-truck",
+      "id": "5dfa449b95",
+      "title": "Uniper – Darmstadt Authority issues preliminary approval for the planned hydrogen-ready gas-fired power plant at the Staudinger power station",
+      "url": "https://hydrogen-central.com/uniper-darmstadt-authority-issues-preliminary-approval-for-the-planned-hydrogen-ready-gas-fired-power-plant-at-the-staudinger-power-station/",
+      "summary": "Uniper &#8211; Darmstadt Authority issues preliminary approval for the planned hydrogen-ready gas-fired power plant at the Staudinger power station Großkrotzenburg. With today’s issuance of the preliminary approval by district president [&#8230;]\nThe post Uniper &#8211; Darmstadt Authority issues pr…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-05-08T17:38:09+00:00",
+      "pub_ts": 1778261889
+    },
+    {
+      "id": "04f66e5f98",
+      "title": "EU awards over €1 billion to European hydrogen projects to accelerate the clean transition",
+      "url": "https://hydrogen-central.com/eu-awards-over-e1-billion-to-european-hydrogen-projects-to-accelerate-the-clean-transition/",
+      "summary": "EU awards over €1 billion to European hydrogen projects to accelerate the clean transition Today, the European Commission has selected nine hydrogen production projects under the third auction of the European [&#8230;]\nThe post EU awards over €1 billion to European hydrogen projects to accelerate th…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-05-08T17:33:37+00:00",
+      "pub_ts": 1778261617
+    },
+    {
+      "id": "b2294d55df",
+      "title": "Bavarian state government pledges support for Onyx Power to build an hydrogen ready gas turbine power plant",
+      "url": "https://hydrogen-central.com/bavarian-state-government-pledges-support-for-onyx-power-to-build-an-hydrogen-ready-gas-turbine-power-plant/",
+      "summary": "Bavarian state government pledges support for Onyx Power to build an hydrogen ready gas turbine power plant Zolling, May 7, 2026 – On May 7, Bavaria’s Minister of Economic Affairs [&#8230;]\nThe post Bavarian state government pledges support for Onyx Power to build an hydrogen ready gas turbine power…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-05-08T17:30:48+00:00",
+      "pub_ts": 1778261448
+    },
+    {
+      "id": "736440287b",
+      "title": "MorGen Energy secures European Hydrogen Bank support for 300MW Njordkraft green hydrogen project in Denmark",
+      "url": "https://hydrogen-central.com/morgen-energy-secures-european-hydrogen-bank-support-for-300mw-njordkraft-green-hydrogen-project-in-denmark/",
+      "summary": "MorGen Energy secures European Hydrogen Bank support for 300MW Njordkraft green hydrogen project in Denmark Esbjerg, 7 May 2026 – MorGen Energy, a European developer of large-scale green hydrogen projects [&#8230;]\nThe post MorGen Energy secures European Hydrogen Bank support for 300MW Njordkraft gr…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-05-08T17:29:42+00:00",
+      "pub_ts": 1778261382
+    },
+    {
+      "id": "c7d3a5d49a",
+      "title": "Liquid Wind submits environmental permit application for large‑scale eFuel facility in Örnsköldsvik",
+      "url": "https://hydrogen-central.com/liquid-wind-submits-environmental-permit-application-for-large-scale-efuel-facility-in-ornskoldsvik/",
+      "summary": "Liquid Wind submits environmental permit application for large‑scale eFuel facility in Örnsköldsvik Liquid Wind is applying for an environmental permit for EFÖvik (eFuel Facility Övik) at the Land and Environment [&#8230;]\nThe post Liquid Wind submits environmental permit application for large‑scale…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-05-08T16:34:17+00:00",
+      "pub_ts": 1778258057
+    },
+    {
+      "id": "635f712b37",
+      "title": "Carinthia Is Taking Off with Hydrogen: ÖBB Postbuses and a Hydrogen Filling Station Are Now in Operation",
+      "url": "https://fuelcellsworks.com/2026/05/08/energy-innovation/carinthia-is-taking-off-with-hydrogen-obb-postbuses-and-a-hydrogen-filling-station-are-now-in-operation",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-05-07T16:17:39+00:00",
-      "pub_ts": 1778170659
+      "pub_date": "2026-05-08T15:54:55+00:00",
+      "pub_ts": 1778255695
     },
     {
-      "id": "56d5f7255d",
-      "title": "Brazil Bets R$ 9.5M [$1.7M] on Homegrown Green Hydrogen Electrolyzer Technology",
-      "url": "https://fuelcellsworks.com/2026/05/05/green-investment/clark-solutions-receives-r-9-5-million-investment-from-finep-for-a-national-electrolyzer",
+      "id": "c81b6589c8",
+      "title": "Five Years On, Dutch Fuel Operator Greenpoint Clocks 40,000 Hydrogen Fills Across Three Stations — With More to Come",
+      "url": "https://fuelcellsworks.com/2026/05/08/clean-energy/five-years-on-dutch-fuel-operator-greenpoint-clocks-40-000-hydrogen-fills-across-three-stations-with-more-to-come",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-05-07T16:09:41+00:00",
-      "pub_ts": 1778170181
+      "pub_date": "2026-05-08T15:50:09+00:00",
+      "pub_ts": 1778255409
     },
     {
-      "id": "6364b38faa",
-      "title": "Accelerating Hydrogen Production: A Research Collaboration Between the BRGM and VEMA Hydrogen",
-      "url": "https://fuelcellsworks.com/2026/05/07/energy-innovation/accelerating-hydrogen-production-a-research-collaboration-between-the-brgm-and-vema-hydrogen-i07909413",
+      "id": "1a44a9f46a",
+      "title": "Fusion Fuel Reports Revenue Growth to €14.4 Million in Fiscal Year 2025 and Provides Business Update",
+      "url": "https://fuelcellsworks.com/2026/05/08/green-investment/fusion-fuel-reports-revenue-growth-to-14-4-million-in-fiscal-year-2025-and-provides-business-update",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-05-07T16:01:26+00:00",
-      "pub_ts": 1778169686
+      "pub_date": "2026-05-08T15:39:06+00:00",
+      "pub_ts": 1778254746
     },
     {
-      "id": "6de24e9842",
-      "title": "Hydrogen Combustion Goes Small: Suzuki and AVL Put H2 Engine in Swift Compact Car",
-      "url": "https://fuelcellsworks.com/2026/05/07/fuel-cells/hydrogen-combustion-goes-small-suzuki-and-avl-put-h2-engine-in-swift-compact-car",
+      "id": "26e23a2b17",
+      "title": "1 MW Green Hydrogen Electrolyzer Goes Live at Italian Steel Mill Cogne Acciai",
+      "url": "https://fuelcellsworks.com/2026/05/05/clean-hydrogen/1-mw-green-hydrogen-electrolyzer-goes-live-at-italian-steel-mill-cogne-acciai",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-05-07T15:38:28+00:00",
-      "pub_ts": 1778168308
+      "pub_date": "2026-05-08T15:11:19+00:00",
+      "pub_ts": 1778253079
     },
     {
-      "id": "c1d2dc33f7",
-      "title": "South Korea's Hydrogen Vehicle Fleet Nears 50,000 Units",
-      "url": "https://fuelcellsworks.com/2026/05/04/fuel-cells/south-korea-s-hydrogen-vehicle-fleet-nears-50-000-units",
+      "id": "fd0f0a4198",
+      "title": "Bavarian State Government Pledges Support for Onyx Power to Build an H2 Ready Gas Turbine Power Plant",
+      "url": "https://fuelcellsworks.com/2026/05/08/hydrogen/bavarian-state-government-pledges-support-for-onyx-power-to-build-an-h2-ready-gas-turbine-power-plant",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-05-07T15:37:36+00:00",
-      "pub_ts": 1778168256
-    },
-    {
-      "id": "475ec8235c",
-      "title": "Jordan – Green Ammonia Project: From Clean Energy to Export",
-      "url": "https://hydrogen-central.com/jordan-green-ammonia-project-from-clean-energy-to-export/",
-      "summary": "Jordan &#8211; Green Ammonia Project: From Clean Energy to Export May 3, 2026 &#8211; The Cabinet approved on Sunday, May 3, an agreement with the Jordan Green Ammonia Company for [&#8230;]\nThe post Jordan &#8211; Green Ammonia Project: From Clean Energy to Export appeared first on Hydrogen Central.",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-05-04T18:11:59+00:00",
-      "pub_ts": 1777918319
-    },
-    {
-      "id": "1500db61ed",
-      "title": "Fraunhofer – Innovative Numerical Simulation Methods for Resilient Hydrogen Networks",
-      "url": "https://hydrogen-central.com/fraunhofer-innovative-numerical-simulation-methods-for-resilient-hydrogen-networks/",
-      "summary": "Fraunhofer &#8211; Innovative Numerical Simulation Methods for Resilient Hydrogen Networks Green hydrogen is a key area of opportunity in the energy transition. However, the use of pipelines to transport this [&#8230;]\nThe post Fraunhofer &#8211; Innovative Numerical Simulation Methods for Resilient…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-05-04T18:11:44+00:00",
-      "pub_ts": 1777918304
-    },
-    {
-      "id": "054d6786d1",
-      "title": "Photreon – Green Hydrogen from Just Sun and Water",
-      "url": "https://hydrogen-central.com/photreon-green-hydrogen-from-just-sun-and-water/",
-      "summary": "Photreon &#8211; Green Hydrogen from Just Sun and Water Photreon, a start-up project at Karlsruhe Institute of Technology (KIT), aims to boost the hydrogen economy with mass-produced photoreactor panels that [&#8230;]\nThe post Photreon &#8211; Green Hydrogen from Just Sun and Water appeared first on…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-05-04T18:05:21+00:00",
-      "pub_ts": 1777917921
-    },
-    {
-      "id": "9bca45bc86",
-      "title": "PHINIA to Showcase Hydrogen Combustion Innovation at ACT Expo 2026, Including First Homologated H2ICE LCV",
-      "url": "https://hydrogen-central.com/phinia-to-showcase-hydrogen-combustion-innovation-at-act-expo-2026-including-first-homologated-h2ice-lcv/",
-      "summary": "PHINIA to Showcase Hydrogen Combustion Innovation at ACT Expo 2026, Including First Homologated H2ICE LCV AUBURN HILLS, Mich.&#8211;(BUSINESS WIRE)&#8211;PHINIA INC. (NYSE: PHIN), a global leader in premium fuel systems, electrical [&#8230;]\nThe post PHINIA to Showcase Hydrogen Combustion Innovation…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-05-04T18:00:45+00:00",
-      "pub_ts": 1777917645
-    },
-    {
-      "id": "18890cb13f",
-      "title": "Max Power Appoints Tony Van Burgsteden as CFO to Support Commercial Advancement of Saskatchewan’s First Subsurface Natural Hydrogen System",
-      "url": "https://hydrogen-central.com/max-power-appoints-tony-van-burgsteden-as-cfo-to-support-commercial-advancement-of-saskatchewans-first-subsurface-natural-hydrogen-system/",
-      "summary": "Max Power Appoints Tony Van Burgsteden as CFO to Support Commercial Advancement of Saskatchewan’s First Subsurface Natural Hydrogen System REGINA, Saskatchewan, May 04, 2026 (GLOBE NEWSWIRE) &#8212; MAX Power Mining [&#8230;]\nThe post Max Power Appoints Tony Van Burgsteden as CFO to Support Commerci…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-05-04T18:00:29+00:00",
-      "pub_ts": 1777917629
+      "pub_date": "2026-05-08T15:08:33+00:00",
+      "pub_ts": 1778252913
     }
   ]
 }

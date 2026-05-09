@@ -3,68 +3,118 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-05-08T03:37:44.386360+00:00",
-  "item_count": 11,
+  "updated_at": "2026-05-09T03:38:32.120106+00:00",
+  "item_count": 15,
   "items": [
     {
-      "id": "580a6dee1f",
-      "title": "160%、155%、75%！国产A1芯片集体向上",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811226&idx=1&sn=03b71ab9d0e2aea691c7c2d8767a9585",
-      "summary": "160%、155%、75%！国产A1芯片集体向上",
+      "id": "c7deea34fe",
+      "title": "创纪录！DeepSeek拟募资最高500亿元",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811273&idx=1&sn=3abd244cec10b490c30fc3df0683ebe5",
+      "summary": "创纪录！DeepSeek拟募资最高500亿元",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-08T03:37:40.361690+00:00",
-      "pub_ts": 1778211460
+      "pub_date": "2026-05-09T03:38:28.030459+00:00",
+      "pub_ts": 1778297908
     },
     {
-      "id": "74df76a6d1",
-      "title": "ARM2026财年成绩亮眼，AGICPU需求将超20亿美元",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811226&idx=2&sn=5bd992769c2cd121d55b8c0b41d8af01",
-      "summary": "ARM2026财年成绩亮眼，AGICPU需求将超20亿美元",
+      "id": "7785571d4b",
+      "title": "WiFi6的芯片玩家们，谁在台前，谁在幕后？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811268&idx=1&sn=1551c9044f385dc70303b7331edf6ff1",
+      "summary": "WiFi6的芯片玩家们，谁在台前，谁在幕后？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-08T03:37:40.361733+00:00",
-      "pub_ts": 1778211460
+      "pub_date": "2026-05-09T03:38:28.030497+00:00",
+      "pub_ts": 1778297908
     },
     {
-      "id": "7c6312eb2f",
-      "title": "FPGA制造商，进军固件领域",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811226&idx=3&sn=6e5969eb814d3ed746b9b27c18b9a952",
-      "summary": "FPGA制造商，进军固件领域",
+      "id": "74edddeda5",
+      "title": "SK海力士，产能被疯抢",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811268&idx=2&sn=8940cc210f145338f142b7477ba8ec89",
+      "summary": "SK海力士，产能被疯抢",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-08T03:37:40.361757+00:00",
-      "pub_ts": 1778211460
+      "pub_date": "2026-05-09T03:38:28.030525+00:00",
+      "pub_ts": 1778297908
     },
     {
-      "id": "032f300d6e",
-      "title": "2035年，全球功率半导体市场规模将超过7万亿日元",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811226&idx=4&sn=81dbf626088adbef85d26e7945dec41d",
-      "summary": "2035年，全球功率半导体市场规模将超过7万亿日元",
+      "id": "a5b7555567",
+      "title": "AI芯片，迎来MRAM时代",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811268&idx=3&sn=e3f548d2ac1b9d9850f612845f4cf797",
+      "summary": "AI芯片，迎来MRAM时代",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-08T03:37:40.361779+00:00",
-      "pub_ts": 1778211460
+      "pub_date": "2026-05-09T03:38:28.030548+00:00",
+      "pub_ts": 1778297908
     },
     {
-      "id": "c2b4d42cc3",
-      "title": "1000层超高密度3D NAND，迎来重要里程碑",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811226&idx=5&sn=2b77f4c3447e336a12afd396d3dda742",
-      "summary": "1000层超高密度3D NAND，迎来重要里程碑",
+      "id": "f2ea498b7f",
+      "title": "芯片设计，RISC-V正成为首选",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811268&idx=4&sn=1169f8b9fbca6c06773e4fddc9c52310",
+      "summary": "芯片设计，RISC-V正成为首选",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-08T03:37:40.361800+00:00",
-      "pub_ts": 1778211460
+      "pub_date": "2026-05-09T03:38:28.030570+00:00",
+      "pub_ts": 1778297908
     },
     {
-      "id": "0e68d90729",
-      "title": "AMD LisaSu：CPU需求会超过GPU",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818507&idx=7&sn=4c3b557c086b3d61dae9a8e449d76fe4",
-      "summary": "AMD LisaSu：CPU需求会超过GPU",
+      "id": "fd1f4d4922",
+      "title": "台积电与索尼成立合资公司",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818667&idx=1&sn=8c3f09a316aa3816fb2c6d9f0c00dbdd",
+      "summary": "台积电与索尼成立合资公司",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-08T03:37:26.958011+00:00",
-      "pub_ts": 1778211446
+      "pub_date": "2026-05-09T03:38:19.257999+00:00",
+      "pub_ts": 1778297899
+    },
+    {
+      "id": "3a8a380535",
+      "title": "新紫光发布“紫弦”近存计算架构",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818654&idx=1&sn=6d806defcfb3a2a97b9e0064f84e2578",
+      "summary": "新紫光发布“紫弦”近存计算架构",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-05-09T03:38:19.258041+00:00",
+      "pub_ts": 1778297899
+    },
+    {
+      "id": "a0dd5e6953",
+      "title": "人形机器人量产元年，南芯科技破局电源管理难题",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818599&idx=1&sn=60d11fadf0e53f4584912273bf98e82b",
+      "summary": "人形机器人量产元年，南芯科技破局电源管理难题",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-05-09T03:38:19.258066+00:00",
+      "pub_ts": 1778297899
+    },
+    {
+      "id": "3fdc2aedd6",
+      "title": "这类DRAM，真的是救世主？",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818599&idx=2&sn=47bc43bf102bf71f1eecd0048fe21869",
+      "summary": "这类DRAM，真的是救世主？",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-05-09T03:38:19.258087+00:00",
+      "pub_ts": 1778297899
+    },
+    {
+      "id": "ab3b86bfee",
+      "title": "八款国产Al芯片，DayO实现DeepSeek-V4适配",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818599&idx=3&sn=1295933397f5c1142956aa7adb8d5742",
+      "summary": "八款国产Al芯片，DayO实现DeepSeek-V4适配",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-05-09T03:38:19.258108+00:00",
+      "pub_ts": 1778297899
+    },
+    {
+      "id": "6a29172c68",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-137/",
+      "summary": "New Taiwan adv. packaging site; M&#038;A activity; GF's CPO solution; Apple looks beyond TSMC; EU chip companies map; strong earnings; MIT's new lidar chip; gallium production; AI inferencing at sea; quantum HW funding; PCIe 7 tool; home data centers; AI security warnings; temperature impact on EVs.…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-05-08T07:01:11+00:00",
+      "pub_ts": 1778223671
     },
     {
       "id": "70949b7736",
@@ -105,16 +155,6 @@
       "lang": "en",
       "pub_date": "2026-05-07T07:05:41+00:00",
       "pub_ts": 1778137541
-    },
-    {
-      "id": "b4fa855389",
-      "title": "Building AI Without Guardrails",
-      "url": "https://semiengineering.com/building-ai-without-guardrails/",
-      "summary": "The semiconductor ecosystem is wrestling with fragmented standards, IP exposure, and the urgent need for runtime assurance.\nThe post Building AI Without Guardrails appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-05-07T07:05:12+00:00",
-      "pub_ts": 1778137512
     }
   ]
 }
