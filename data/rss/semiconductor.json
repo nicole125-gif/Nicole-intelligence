@@ -3,108 +3,68 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-05-09T03:38:32.120106+00:00",
-  "item_count": 15,
+  "updated_at": "2026-05-10T03:55:00.723063+00:00",
+  "item_count": 11,
   "items": [
     {
-      "id": "c7deea34fe",
-      "title": "创纪录！DeepSeek拟募资最高500亿元",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811273&idx=1&sn=3abd244cec10b490c30fc3df0683ebe5",
-      "summary": "创纪录！DeepSeek拟募资最高500亿元",
+      "id": "a946b29280",
+      "title": "MCU，今年迎来第二轮涨价潮！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811329&idx=1&sn=f041e0770d7e7be633e767b63aa70eb5",
+      "summary": "MCU，今年迎来第二轮涨价潮！",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-09T03:38:28.030459+00:00",
-      "pub_ts": 1778297908
+      "pub_date": "2026-05-10T03:54:56.503151+00:00",
+      "pub_ts": 1778385296
     },
     {
-      "id": "7785571d4b",
-      "title": "WiFi6的芯片玩家们，谁在台前，谁在幕后？",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811268&idx=1&sn=1551c9044f385dc70303b7331edf6ff1",
-      "summary": "WiFi6的芯片玩家们，谁在台前，谁在幕后？",
+      "id": "833c66fad6",
+      "title": "四大电脑主板厂预计销量暴跌超25%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811329&idx=2&sn=df114d210ac2fcc38de1045f046a1cb9",
+      "summary": "四大电脑主板厂预计销量暴跌超25%",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-09T03:38:28.030497+00:00",
-      "pub_ts": 1778297908
+      "pub_date": "2026-05-10T03:54:56.503201+00:00",
+      "pub_ts": 1778385296
     },
     {
-      "id": "74edddeda5",
-      "title": "SK海力士，产能被疯抢",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811268&idx=2&sn=8940cc210f145338f142b7477ba8ec89",
-      "summary": "SK海力士，产能被疯抢",
+      "id": "90eeb278e7",
+      "title": "三年瓶颈更迭：AI高端芯片供应链演变与成本拆解",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811329&idx=3&sn=4e1eac1ddbd0ba2783ba988edd48ca44",
+      "summary": "三年瓶颈更迭：AI高端芯片供应链演变与成本拆解",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-09T03:38:28.030525+00:00",
-      "pub_ts": 1778297908
+      "pub_date": "2026-05-10T03:54:56.503256+00:00",
+      "pub_ts": 1778385296
     },
     {
-      "id": "a5b7555567",
-      "title": "AI芯片，迎来MRAM时代",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811268&idx=3&sn=e3f548d2ac1b9d9850f612845f4cf797",
-      "summary": "AI芯片，迎来MRAM时代",
+      "id": "676813caef",
+      "title": "晶圆代工生态系统报告：事关Terafab、产能、EUV、GaN",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811329&idx=4&sn=5016f359e78eccba9bdbc7cf6f5a8a46",
+      "summary": "晶圆代工生态系统报告：事关Terafab、产能、EUV、GaN",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-09T03:38:28.030548+00:00",
-      "pub_ts": 1778297908
+      "pub_date": "2026-05-10T03:54:56.503307+00:00",
+      "pub_ts": 1778385296
     },
     {
-      "id": "f2ea498b7f",
-      "title": "芯片设计，RISC-V正成为首选",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811268&idx=4&sn=1169f8b9fbca6c06773e4fddc9c52310",
-      "summary": "芯片设计，RISC-V正成为首选",
+      "id": "c57c3835b8",
+      "title": "接棒联电！力积电跻身英特尔EMIB阵营",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811329&idx=5&sn=1a1bb647972bb5c48ee4a110754cd2a3",
+      "summary": "接棒联电！力积电跻身英特尔EMIB阵营",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-09T03:38:28.030570+00:00",
-      "pub_ts": 1778297908
+      "pub_date": "2026-05-10T03:54:56.503344+00:00",
+      "pub_ts": 1778385296
     },
     {
-      "id": "fd1f4d4922",
-      "title": "台积电与索尼成立合资公司",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818667&idx=1&sn=8c3f09a316aa3816fb2c6d9f0c00dbdd",
-      "summary": "台积电与索尼成立合资公司",
+      "id": "f90aa01eb7",
+      "title": "英特尔，完成救赎？",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818699&idx=1&sn=37fb92e838589fe5800dea4511ec95c7",
+      "summary": "英特尔，完成救赎？",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-09T03:38:19.257999+00:00",
-      "pub_ts": 1778297899
-    },
-    {
-      "id": "3a8a380535",
-      "title": "新紫光发布“紫弦”近存计算架构",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818654&idx=1&sn=6d806defcfb3a2a97b9e0064f84e2578",
-      "summary": "新紫光发布“紫弦”近存计算架构",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-05-09T03:38:19.258041+00:00",
-      "pub_ts": 1778297899
-    },
-    {
-      "id": "a0dd5e6953",
-      "title": "人形机器人量产元年，南芯科技破局电源管理难题",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818599&idx=1&sn=60d11fadf0e53f4584912273bf98e82b",
-      "summary": "人形机器人量产元年，南芯科技破局电源管理难题",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-05-09T03:38:19.258066+00:00",
-      "pub_ts": 1778297899
-    },
-    {
-      "id": "3fdc2aedd6",
-      "title": "这类DRAM，真的是救世主？",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818599&idx=2&sn=47bc43bf102bf71f1eecd0048fe21869",
-      "summary": "这类DRAM，真的是救世主？",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-05-09T03:38:19.258087+00:00",
-      "pub_ts": 1778297899
-    },
-    {
-      "id": "ab3b86bfee",
-      "title": "八款国产Al芯片，DayO实现DeepSeek-V4适配",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247818599&idx=3&sn=1295933397f5c1142956aa7adb8d5742",
-      "summary": "八款国产Al芯片，DayO实现DeepSeek-V4适配",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-05-09T03:38:19.258108+00:00",
-      "pub_ts": 1778297899
+      "pub_date": "2026-05-10T03:54:47.985272+00:00",
+      "pub_ts": 1778385287
     },
     {
       "id": "6a29172c68",

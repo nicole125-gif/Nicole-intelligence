@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-05-09T03:38:45.596963+00:00",
+  "updated_at": "2026-05-10T03:55:14.968552+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "c18b3cee69",
-      "title": "快来，和AI实战派一起AI！AIGC峰会最新嘉宾阵容来了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889381&idx=1&sn=03e42252d2bf47b30429d9ee95231d95",
-      "summary": "快来，和AI实战派一起AI！AIGC峰会最新嘉宾阵容来了",
+      "id": "4c153ebc91",
+      "title": "不更新参数就能强化学习！OpenAl翁家翌提出新范式：决策只需AI手搓一个...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889510&idx=1&sn=a5343493b3458a3dea508d0febac7175",
+      "summary": "不更新参数就能强化学习！OpenAl翁家翌提出新范式：决策只需AI手搓一个...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-09T03:38:41.771484+00:00",
-      "pub_ts": 1778297921
+      "pub_date": "2026-05-10T03:55:10.220958+00:00",
+      "pub_ts": 1778385310
     },
     {
-      "id": "6a04843366",
-      "title": "CVPR冠军代码开源！小米SVOR破解视频消除三大“顽疾”，连人带影一键抹除",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889381&idx=2&sn=f420d9774b42d99ea4d51b095b373e65",
-      "summary": "CVPR冠军代码开源！小米SVOR破解视频消除三大“顽疾”，连人带影一键抹除",
+      "id": "045d996ee9",
+      "title": "怎么判断大模型是真懂还是假懂？浙大x爱丁堡大学新指标NCB：给它的知识...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889510&idx=2&sn=e7e5e9154f880b173b01bb8ff41b5ffd",
+      "summary": "怎么判断大模型是真懂还是假懂？浙大x爱丁堡大学新指标NCB：给它的知识...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-09T03:38:41.771521+00:00",
-      "pub_ts": 1778297921
+      "pub_date": "2026-05-10T03:55:10.220996+00:00",
+      "pub_ts": 1778385310
     },
     {
-      "id": "ace404bf5c",
-      "title": "Redis之父下场，给DeepSeekV4单独造了一台推理引擎",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889327&idx=1&sn=8f9855c6d488b4fcb86fb3853f28dcbf",
-      "summary": "Redis之父下场，给DeepSeekV4单独造了一台推理引擎",
+      "id": "36a3c36116",
+      "title": "xAI再失华人大将：预训练负责人已离职，马斯克又留不住人了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889508&idx=1&sn=55ce7c27d7bf8f22d8dcc47669b31dd5",
+      "summary": "xAI再失华人大将：预训练负责人已离职，马斯克又留不住人了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-09T03:38:41.771545+00:00",
-      "pub_ts": 1778297921
+      "pub_date": "2026-05-10T03:55:10.221020+00:00",
+      "pub_ts": 1778385310
     },
     {
-      "id": "ea716e721c",
-      "title": "Anthropic出手！AI的内心独白，曝光了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889327&idx=2&sn=15edcbcbbc8ecaf0a8a55d85f3789c9a",
-      "summary": "Anthropic出手！AI的内心独白，曝光了",
+      "id": "bb36573b0f",
+      "title": "VLA死了，遥操也死了！英伟达机器人一号位说的",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889508&idx=2&sn=6e042ce19e47508c3e9dc96fa9a09af1",
+      "summary": "VLA死了，遥操也死了！英伟达机器人一号位说的",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-09T03:38:41.771565+00:00",
-      "pub_ts": 1778297921
+      "pub_date": "2026-05-10T03:55:10.221040+00:00",
+      "pub_ts": 1778385310
     },
     {
-      "id": "04369aaad1",
-      "title": "所有实验室都怕字节，所有人都在夸DeepSeek！美国研究员36小时中国Al行",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889299&idx=1&sn=863c9a13fb74272f1808f0b3472e591f",
-      "summary": "所有实验室都怕字节，所有人都在夸DeepSeek！美国研究员36小时中国Al行",
+      "id": "2f89ff080f",
+      "title": "行业首创空间3D显示，还能主动提醒和帮忙叫车，千问AI眼镜这操作真把我...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889444&idx=1&sn=11b87d82d2146bd22ae15f346962de7e",
+      "summary": "行业首创空间3D显示，还能主动提醒和帮忙叫车，千问AI眼镜这操作真把我...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-09T03:38:41.771586+00:00",
-      "pub_ts": 1778297921
+      "pub_date": "2026-05-10T03:55:10.221061+00:00",
+      "pub_ts": 1778385310
     }
   ]
 }
