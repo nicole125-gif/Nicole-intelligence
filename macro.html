@@ -4,7 +4,10 @@
 <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>宏观脉搏 · 战略分析 2026</title>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet"/>
-<script>
+<link rel="stylesheet" href="styles/core.css"/>
+<link rel="stylesheet" href="styles/layout.css"/>
+<link rel="stylesheet" href="styles/components.css"/>
+<link rel="stylesheet" href="styles/sector.css"/>
 // ═══════════════════════════════════════════════════════════
 //  "2026-03-31",
     updatedBy: "Nicole",
@@ -332,32 +335,14 @@ body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([oncli
 </head>
 <body>
 <div id="cursor-glow"></div>
-<div id="cursor-dot"></div>
 
-<!-- NAV -->
-<nav id="site-nav" style="--nav-accent: #00FFB2;">
-  <div class="nav-inner">
-    <div class="nav-brand">宏观脉搏</div>
-    <div class="nav-links">
-      <a href="index.html" class="nav-link">总览</a>
-      <a href="macro.html" class="nav-link active">宏观脉搏</a>
-      <a href="liquid.html" class="nav-link">AI 液冷</a>
-      <a href="semiconductor.html" class="nav-link">半导体 SBU</a>
-      <a href="mscc.html" class="nav-link">质谱·色谱</a>
-      <a href="pharma.html" class="nav-link">制药装备</a>
-      <a href="food.html" class="nav-link">食品饮料</a>
-      <a href="hydrogen.html" class="nav-link">氢能行业</a>
-      <a href="customers.html" class="nav-link">客户监控</a>
-      <a href="competitor.html" class="nav-link">竞品监控</a>
-    </div>
-    <div id="nav-progress"></div>
-  </div>
-</nav>
+<div class="bg-grid"></div>
+<div class="bg-g1"></div>
+<div class="bg-g2"></div>
 
-<!-- BG -->
-<div style="position:fixed;inset:0;z-index:0;pointer-events:none;background-image:linear-gradient(rgba(255,255,255,.012) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.012) 1px,transparent 1px);background-size:60px 60px"></div>
-<div style="position:fixed;top:-25%;left:40%;transform:translateX(-50%);width:90vw;height:700px;background:radial-gradient(ellipse,rgba(0,180,255,.035) 0%,transparent 65%);pointer-events:none;z-index:0"></div>
-<div style="position:fixed;bottom:-10%;right:10%;width:40vw;height:500px;background:radial-gradient(ellipse,rgba(227,6,19,.025) 0%,transparent 70%);pointer-events:none;z-index:0"></div>
+<script src="scripts/nav.js"></script>
+<script>injectNav('macro','#f5a623');</script>
+<script src="scripts/cursor-glow.js"></script>
 
 <div class="main-wrap">
   <!-- HEADER -->

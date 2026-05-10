@@ -1,0 +1,177 @@
+/* ══════════════════════════════════════════════
+   PULSE 2026 · Design System Core
+   ══════════════════════════════════════════════ */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;700&family=Syne:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@300;400;500;700&display=swap');
+
+/* ── Reset ── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+
+/* ── Custom Properties ── */
+:root{
+  /* Background layers */
+  --bg:       #020810;
+  --bg2:      rgba(6,13,32,.9);
+  --bg3:      rgba(10,18,40,.85);
+  --bg-card:  rgba(6,13,32,.9);
+
+  /* Borders */
+  --border:   rgba(255,255,255,.07);
+  --border2:  rgba(255,255,255,.13);
+  --border3:  rgba(255,255,255,.2);
+
+  /* Text hierarchy */
+  --text:     rgba(255,255,255,.92);
+  --text2:    rgba(255,255,255,.68);
+  --text3:    rgba(255,255,255,.38);
+
+  /* Accent — per-page override via <body style="--accent:#xxx"> */
+  --accent:   #E30613;
+  --accent-dim:  rgba(227,6,19,.1);
+  --accent-glow: rgba(227,6,19,.25);
+
+  /* Palette */
+  --red:      #E30613;
+  --cyan:     #22d3ee;
+  --green:    #00FFB2;
+  --gold:     #FFD700;
+  --purple:   #BF80FF;
+  --orange:   #FF6B35;
+  --teal:     #00C8FF;
+  --lime:     #AAFF00;
+  --pink:     #FF6EB4;
+  --blue:     #3d94ff;
+
+  /* Status */
+  --up:   #2ecc80;
+  --dn:   #f04040;
+  --fl:   #f5a623;
+  --hot:  #f04040;
+  --exp:  #3d94ff;
+  --neu:  #f5a623;
+  --cold: #586880;
+
+  /* Fonts */
+  --mono:    'IBM Plex Mono','DM Mono',monospace;
+  --display: 'Syne','Outfit',sans-serif;
+  --cjk:     'Noto Sans SC',sans-serif;
+
+  /* Spacing */
+  --page-px:  clamp(20px,4vw,48px);
+  --max-w:    1300px;
+  --nav-h:    52px;
+}
+
+/* ── Base ── */
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family:var(--display);
+  overflow-x:hidden;
+  padding-top:var(--nav-h);
+  min-height:100vh;
+}
+
+/* Dot-grid background */
+body::before{
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
+  background-image:
+    radial-gradient(circle,rgba(160,200,255,.03) 1px,transparent 1px);
+  background-size:40px 40px;
+  mask-image:linear-gradient(to bottom,rgba(0,0,0,.5) 0%,transparent 60%);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar{width:3px}
+::-webkit-scrollbar-thumb{background:rgba(255,255,255,.08)}
+::-webkit-scrollbar-track{background:transparent}
+
+/* Selection */
+::selection{background:var(--accent-dim);color:var(--text)}
+
+/* ── Keyframe Animations ── */
+
+@keyframes fadeUp{
+  from{opacity:0;transform:translateY(18px)}
+  to{opacity:1;transform:translateY(0)}
+}
+
+@keyframes fadeIn{
+  from{opacity:0}
+  to{opacity:1}
+}
+
+@keyframes shimmer{
+  0%{background-position:-200% 0}
+  100%{background-position:200% 0}
+}
+
+@keyframes glowPulse{
+  0%,100%{opacity:.4}
+  50%{opacity:1}
+}
+
+@keyframes blink{
+  0%,100%{opacity:1}
+  50%{opacity:.2}
+}
+
+@keyframes dotPulse{
+  0%,100%{box-shadow:0 0 0 0 var(--accent-glow)}
+  50%{box-shadow:0 0 0 6px transparent}
+}
+
+@keyframes borderFlow{
+  0%{background-position:0% 50%}
+  100%{background-position:200% 50%}
+}
+
+@keyframes scanV{
+  0%{top:-2px}
+  100%{top:100%}
+}
+
+@keyframes scanH{
+  0%{left:-2px}
+  100%{left:100%}
+}
+
+@keyframes barGrow{
+  from{transform:scaleX(0)}
+  to{transform:scaleX(1)}
+}
+
+@keyframes glassIn{
+  from{opacity:0;backdrop-filter:blur(0)}
+  to{opacity:1;backdrop-filter:blur(16px)}
+}
+
+@keyframes pulse-up{
+  0%,100%{text-shadow:0 0 0 rgba(40,200,122,0);transform:translateY(0)}
+  50%{text-shadow:0 0 14px rgba(40,200,122,.7),0 0 28px rgba(40,200,122,.35);transform:translateY(-1.5px)}
+}
+
+@keyframes pulse-dn{
+  0%,100%{text-shadow:0 0 0 rgba(232,64,64,0)}
+  50%{text-shadow:0 0 14px rgba(232,64,64,.8),0 0 28px rgba(232,64,64,.4)}
+}
+
+@keyframes breathe{
+  0%,100%{opacity:.4}
+  50%{opacity:1}
+}
+
+@keyframes rotate{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+@keyframes rotateR{from{transform:rotate(360deg)}to{transform:rotate(0deg)}}
+
+@keyframes navBlink{
+  0%,100%{opacity:1}
+  50%{opacity:.25}
+}
+
+/* Utility animation classes */
+.fade-up{animation:fadeUp .6s ease both}
+.fade-in{animation:fadeIn .5s ease both}
+.trend-up{animation:pulse-up 2.2s ease-in-out infinite}
+.trend-dn{animation:pulse-dn 1.8s ease-in-out infinite}

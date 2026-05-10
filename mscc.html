@@ -3,52 +3,34 @@
 <head>
 <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>质谱·色谱 · 战略分析 2026</title>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&family=Syne:wght@400;700;800&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles/core.css"/>
+<link rel="stylesheet" href="styles/layout.css"/>
+<link rel="stylesheet" href="styles/components.css"/>
+<link rel="stylesheet" href="styles/sector.css"/>
 <style>
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{
-  --bg:#020810;--bg2:rgba(6,13,32,.9);--bg3:rgba(10,18,40,.8);
-  --red:#E30613;--cyan:#22d3ee;--green:#00FFB2;--gold:#FFD700;--purple:#BF80FF;--orange:#FF6B35;
-  --teal:#00C8FF;--white:#fff;
-  --text:rgba(255,255,255,.9);--text2:rgba(255,255,255,.78);--text3:rgba(255,255,255,.65);
-  --border:rgba(255,255,255,.07);--border2:rgba(255,255,255,.13);
-  --mono:'IBM Plex Mono',monospace;--display:'Syne',sans-serif;
-}
-html{scroll-behavior:smooth}
-body{padding-top:56px;background:var(--bg);color:var(--text);font-family:var(--display);overflow-x:hidden}
-::-webkit-scrollbar{width:3px}::-webkit-scrollbar-thumb{background:rgba(255,255,255,.08)}
+/* ── MSCC-specific overrides ── */
+:root{--accent:#FFD700;--accent-dim:rgba(255,215,0,.08);--accent-glow:rgba(255,215,0,.25)}
 
+/* section label/title/sub aliases (shared uses .sec-label etc.) */
+.section-label{font-family:var(--mono);font-size:8px;letter-spacing:.35em;color:var(--text3);margin-bottom:12px;display:flex;align-items:center;gap:10px}
+.section-label::after{content:'';flex:1;max-width:60px;height:1px;background:var(--border2)}
+.section-title{font-size:clamp(22px,3vw,36px);font-weight:800;letter-spacing:-.02em;margin-bottom:8px}
+.section-sub{color:var(--text2);font-size:13px;line-height:1.7;max-width:700px;margin-bottom:48px}
 
-
-
-
-
-
-
-
-/* ── HERO ────────────────────────────────── */
-.hero{
-  padding:32px 40px 32px;max-width:1300px;margin:0 auto;position:relative;
-}
+/* hero eyebrow alias */
 .hero-eyebrow{font-family:var(--mono);font-size:9px;letter-spacing:.35em;color:var(--gold);margin-bottom:24px;display:flex;align-items:center;gap:12px}
 .hero-eyebrow::before{content:'';width:32px;height:1px;background:var(--gold)}
-.hero-eye{font-family:var(--mono);font-size:9px;letter-spacing:.35em;color:var(--gold);margin-bottom:24px;display:flex;align-items:center;gap:12px}
-.hero-eye::before{content:'';width:32px;height:1px;background:var(--gold)}
 .hero-title .a1{color:var(--gold)}
 .hero-title .a2{color:rgba(255,255,255,.45)}
-.hero-title{font-size:clamp(28px,3.5vw,44px);font-weight:800;line-height:1.0;letter-spacing:-.03em;margin-bottom:20px}
-.hero-title .accent{color:var(--gold)}
-.hero-sub{font-size:15px;color:var(--text2);max-width:600px;line-height:1.7;margin-bottom:48px;font-weight:400}
+
+/* hero meta */
 .hero-meta{display:flex;gap:24px;flex-wrap:wrap}
 .hero-meta-item{font-family:var(--mono);font-size:8.5px;letter-spacing:.15em;color:var(--text3)}
 .hero-meta-item span{color:var(--text2);display:block;font-size:11px;margin-top:2px}
 
 /* key stats strip */
-.stats-strip{
-  display:grid;grid-template-columns:repeat(4,1fr);gap:1px;
-  background:var(--border);border:1px solid var(--border);
-  margin-bottom:80px;
-}
+.stats-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--border);border:1px solid var(--border);margin-bottom:80px}
 .stat-cell{background:var(--bg2);padding:24px 28px;position:relative;overflow:hidden;transition:background .2s}
 .stat-cell:hover{background:rgba(255,215,0,.04)}
 .stat-val{font-size:clamp(24px,3.5vw,40px);font-weight:800;letter-spacing:-.03em;line-height:1;margin-bottom:6px}
@@ -56,15 +38,7 @@ body{padding-top:56px;background:var(--bg);color:var(--text);font-family:var(--d
 .stat-note{font-family:var(--mono);font-size:9px;color:var(--text2)}
 .stat-cell::after{content:'';position:absolute;top:0;left:0;right:0;height:2px}
 
-/* ── SECTION ─────────────────────────────── */
-.section{max-width:1300px;margin:0 auto;padding:32px 40px 32px}
-.section-label{font-family:var(--mono);font-size:8px;letter-spacing:.35em;color:var(--text3);margin-bottom:12px;display:flex;align-items:center;gap:10px}
-.section-label::after{content:'';flex:1;max-width:60px;height:1px;background:var(--border2)}
-.section-title{font-size:clamp(22px,3vw,36px);font-weight:800;letter-spacing:-.02em;margin-bottom:8px}
-.section-sub{color:var(--text2);font-size:13px;line-height:1.7;max-width:700px;margin-bottom:48px}
-.divider{height:1px;background:var(--border);max-width:1300px;margin:0 auto}
-
-/* ── GLOBAL MARKET ───────────────────────── */
+/* ── GLOBAL MARKET ── */
 .market-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:32px}
 .market-card{background:var(--bg2);border:1px solid var(--border);padding:28px;position:relative;overflow:hidden;transition:all .25s}
 .market-card:hover{border-color:var(--border2);transform:translateY(-2px)}
@@ -76,7 +50,7 @@ body{padding-top:56px;background:var(--bg);color:var(--text);font-family:var(--d
 .market-card-note{font-size:11px;color:var(--text2);line-height:1.6}
 .market-card::before{content:'';position:absolute;bottom:0;left:0;right:0;height:1px}
 
-/* ── CUSTOMER EVOLUTION ─────────────────── */
+/* ── CUSTOMER EVOLUTION ── */
 .evo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border);margin-bottom:48px}
 .evo-col{background:var(--bg2);padding:28px 24px}
 .evo-year{font-family:var(--mono);font-size:10px;letter-spacing:.2em;color:var(--text3);margin-bottom:16px}
@@ -97,7 +71,7 @@ body{padding-top:56px;background:var(--bg);color:var(--text);font-family:var(--d
 .cc-title{font-size:12px;font-weight:700;margin-bottom:3px}
 .cc-desc{font-size:11px;color:var(--text2);line-height:1.6}
 
-/* ── COMPETITOR MATRIX ───────────────────── */
+/* ── COMPETITOR MATRIX ── */
 .comp-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:32px}
 .comp-card{background:var(--bg2);border:1px solid var(--border);padding:24px;position:relative;transition:all .25s}
 .comp-card:hover{border-color:var(--border2)}
@@ -119,7 +93,7 @@ body{padding-top:56px;background:var(--bg);color:var(--text);font-family:var(--d
 .dot-filled{color:var(--gold)}
 .dot-empty{color:var(--border2)}
 
-/* ── CHINA MARKET ────────────────────────── */
+/* ── CHINA MARKET ── */
 .china-strip{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--border);margin-bottom:48px}
 .china-cell{background:var(--bg2);padding:20px 18px}
 .china-val{font-size:24px;font-weight:800;letter-spacing:-.02em;margin-bottom:4px}
@@ -142,7 +116,7 @@ body{padding-top:56px;background:var(--bg);color:var(--text);font-family:var(--d
 .price-label{font-family:var(--mono);font-size:9px;letter-spacing:.15em;color:var(--text3)}
 .price-vs{font-family:var(--mono);font-size:11px;color:var(--text3);letter-spacing:.1em}
 
-/* ── TRADE ───────────────────────────────── */
+/* ── TRADE ── */
 .trade-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:48px}
 .trade-card{background:var(--bg2);border:1px solid var(--border);padding:28px}
 .trade-card-title{font-family:var(--mono);font-size:9px;letter-spacing:.2em;color:var(--text3);margin-bottom:20px}
@@ -156,7 +130,7 @@ body{padding-top:56px;background:var(--bg);color:var(--text);font-family:var(--d
 .origin-bar-track{flex:1;height:3px;background:rgba(255,255,255,.06);border-radius:2px;overflow:hidden}
 .origin-bar{height:100%;border-radius:2px}
 
-/* ── POLICY TIMELINE ─────────────────────── */
+/* ── POLICY TIMELINE ── */
 .timeline{position:relative;padding-left:32px}
 .timeline::before{content:'';position:absolute;left:6px;top:0;bottom:0;width:1px;background:var(--border)}
 .tl-item{position:relative;margin-bottom:32px}
@@ -166,7 +140,7 @@ body{padding-top:56px;background:var(--bg);color:var(--text);font-family:var(--d
 .tl-title{font-size:13px;font-weight:700;margin-bottom:4px}
 .tl-desc{font-size:11px;color:var(--text2);line-height:1.7}
 
-/* ── SIGNAL CARDS ────────────────────────── */
+/* ── SIGNAL CARDS ── */
 .signals{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
 .signal-card{background:var(--bg2);border:1px solid var(--border);padding:24px;position:relative;transition:all .25s}
 .signal-card:hover{border-color:var(--border2);transform:translateY(-2px)}
@@ -176,7 +150,7 @@ body{padding-top:56px;background:var(--bg);color:var(--text);font-family:var(--d
 .signal-desc{font-size:11px;color:var(--text2);line-height:1.7}
 .signal-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px}
 
-/* ── DOMESTIC BRANDS ─────────────────────── */
+/* ── DOMESTIC BRANDS ── */
 .brand-matrix{overflow-x:auto;margin-bottom:48px}
 .brand-row{display:grid;grid-template-columns:120px 80px 100px 100px 1fr;gap:1px;background:var(--border);margin-bottom:1px}
 .brand-cell{background:var(--bg2);padding:12px 16px;font-size:11px}
@@ -185,14 +159,12 @@ body{padding-top:56px;background:var(--bg);color:var(--text);font-family:var(--d
 .maturity-empty{color:var(--border2)}
 .brand-badge{display:inline-block;padding:2px 8px;font-family:var(--mono);font-size:8px;letter-spacing:.1em;border:1px solid}
 
-/* ── ANIMATIONS ──────────────────────────── */
-@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+/* ── ANIMATIONS ── */
 @keyframes countUp{from{opacity:0}to{opacity:1}}
-@keyframes shimmer{0%{transform:translateX(-100%)}100%{transform:translateX(200%)}}
 .reveal{opacity:0;transform:translateY(20px);transition:all .7s cubic-bezier(.16,1,.3,1)}
 .reveal.visible{opacity:1;transform:translateY(0)}
 
-/* ── RESPONSIVE ──────────────────────────── */
+/* ── RESPONSIVE ── */
 @media(max-width:900px){
   .market-grid,.comp-grid,.signals{grid-template-columns:1fr 1fr}
   .stats-strip{grid-template-columns:1fr 1fr}
@@ -204,89 +176,18 @@ body{padding-top:56px;background:var(--bg);color:var(--text);font-family:var(--d
 @media(max-width:600px){
   .market-grid,.comp-grid,.signals,.stats-strip{grid-template-columns:1fr}
   .price-compare{grid-template-columns:1fr;text-align:left}
-  
   .section,.hero{padding:40px 40px 40px;max-width:1300px;margin:0 auto}
 }
-
-/* ═══ NAV — unified semiconductor style ═══ */
-#site-nav {
-  --nav-accent: #FFD700;
-  position: fixed !important; top: 0 !important; left: 0; right: 0; z-index: 10000;
-  background: rgba(2,5,18,.94);
-  backdrop-filter: blur(24px) saturate(160%);
-  -webkit-backdrop-filter: blur(24px) saturate(160%);
-  border-bottom: 1px solid rgba(255,255,255,.06);
-}
-.nav-inner {
-  max-width: 1400px; margin: 0 auto;
-  padding: 0 28px;
-  display: flex; align-items: center; height: 56px;
-  gap: 16px;
-}
-.nav-brand {
-  font-family: var(--mono, 'IBM Plex Mono', monospace); font-size: 10px; letter-spacing: .2em;
-  color: var(--nav-accent, #22d3ee); flex-shrink: 0;
-  display: flex; align-items: center; gap: 8px;
-}
-.nav-brand::before {
-  content: ''; width: 6px; height: 6px; border-radius: 50%;
-  background: var(--nav-accent, #22d3ee);
-  box-shadow: 0 0 8px var(--nav-accent, #22d3ee);
-  animation: dotPulse 2.2s ease-in-out infinite;
-}
-@keyframes dotPulse { 0%,100%{box-shadow:0 0 0 0 rgba(34,211,238,.55)} 50%{box-shadow:0 0 0 5px rgba(34,211,238,0)} }
-.nav-links { display: flex; gap: 2px; margin-left: auto; flex-wrap: wrap; }
-.nav-link {
-  padding: 5px 11px;
-  font-size: 10.5px; font-family: var(--mono, 'IBM Plex Mono', monospace); letter-spacing: .07em;
-  color: rgba(255,255,255,.55); text-decoration: none;
-  border: 1px solid transparent; border-radius: 4px;
-  transition: all .2s ease; white-space: nowrap;
-}
-.nav-link:hover { color: rgba(255,255,255,.95); border-color: rgba(255,255,255,.1); background: rgba(255,255,255,.04); }
-.nav-link.active { color: var(--nav-accent, #22d3ee); border-color: rgba(34,211,238,.35); background: rgba(34,211,238,.08); }
-#nav-progress {
-  position: absolute; bottom: 0; left: 0; height: 1px;
-  background: linear-gradient(90deg, var(--nav-accent, #22d3ee), transparent);
-  width: 0; transition: width .1s linear;}
-#cursor-glow{position:fixed;pointer-events:none;z-index:99999;width:320px;height:320px;border-radius:50%;transform:translate(-50%,-50%);background:radial-gradient(circle,rgba(255,215,0,.07) 0%,rgba(255,215,0,.03) 30%,transparent 70%);transition:opacity .3s ease;mix-blend-mode:screen}
-#cursor-dot{position:fixed;pointer-events:none;z-index:100000;width:24px;height:24px;border-radius:50%;background:transparent;border:1.5px solid rgba(255,215,0,.85);transform:translate(-50%,-50%);box-shadow:0 0 8px rgba(255,215,0,.45),inset 0 0 6px rgba(255,215,0,.2);transition:width .2s ease,height .2s ease,border-color .2s,box-shadow .2s}
-body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([onclick]:hover) #cursor-dot{width:36px;height:36px;border-color:rgba(255,215,0,.9);box-shadow:0 0 16px rgba(255,215,0,.4),inset 0 0 10px rgba(255,215,0,.08)}
-@media(pointer:coarse){#cursor-glow,#cursor-dot{display:none}}
-
 </style>
 </head>
 <body>
 <div id="cursor-glow"></div>
-<div id="cursor-dot"></div>
-
-<!-- NAV -->
-<nav id="site-nav">
-  <div class="nav-inner">
-    <div class="nav-brand">质谱·色谱</div>
-    <div class="nav-links">
-      <a href="index.html" class="nav-link">总览</a>
-      <a href="macro.html" class="nav-link">宏观脉搏</a>
-      <a href="liquid.html" class="nav-link">AI 液冷</a>
-      <a href="semiconductor.html" class="nav-link">半导体 SBU</a>
-      <a href="mscc.html" class="nav-link active">质谱·色谱</a>
-      <a href="pharma.html" class="nav-link">制药装备</a>
-      <a href="food.html" class="nav-link">食品饮料</a>
-      <a href="hydrogen.html" class="nav-link">氢能行业</a>
-      <a href="customers.html" class="nav-link">客户监控</a>
-      <a href="competitor.html" class="nav-link">竞品监控</a>
-    </div>
-    <div id="nav-progress"></div>
-  </div>
-</nav>
-
-
-<!-- BG -->
-<div style="position:fixed;inset:0;z-index:0;pointer-events:none;background-image:linear-gradient(rgba(255,255,255,.01) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.01) 1px,transparent 1px);background-size:60px 60px"></div>
-<div style="position:fixed;top:-20%;left:30%;width:80vw;height:600px;background:radial-gradient(ellipse,rgba(255,215,0,.03) 0%,transparent 65%);pointer-events:none;z-index:0"></div>
-<div style="position:fixed;bottom:-10%;right:5%;width:50vw;height:500px;background:radial-gradient(ellipse,rgba(34,211,238,.025) 0%,transparent 70%);pointer-events:none;z-index:0"></div>
-
-<div style="position:relative;z-index:1">
+<div class="bg-grid"></div>
+<div class="bg-g1"></div>
+<div class="bg-g2"></div>
+<script src="scripts/nav.js"></script>
+<script>injectNav('mscc','#FFD700');</script>
+<div class="wrap">
 
 <!-- HERO -->
 <div class="hero">
@@ -922,7 +823,7 @@ body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([oncli
     </div>
 </div>
 
-</div><!-- /z-index wrapper -->
+</div><!-- /wrap -->
 
 <script>
 // Matrix data
@@ -1018,12 +919,13 @@ window.addEventListener('scroll',_at,{passive:true});_at();
 <script>
 (function(){
   const glow=document.getElementById('cursor-glow'),dot=document.getElementById('cursor-dot');
+  if(!glow)return;
   let mx=0,my=0,gx=0,gy=0;
-  document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;dot.style.left=mx+'px';dot.style.top=my+'px';});
+  document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;if(dot){dot.style.left=mx+'px';dot.style.top=my+'px';}});
   function animGlow(){gx+=(mx-gx)*.08;gy+=(my-gy)*.08;glow.style.left=gx+'px';glow.style.top=gy+'px';requestAnimationFrame(animGlow);}
   animGlow();
-  document.addEventListener('mouseleave',()=>{glow.style.opacity='0';dot.style.opacity='0';});
-  document.addEventListener('mouseenter',()=>{glow.style.opacity='1';dot.style.opacity='1';});
+  document.addEventListener('mouseleave',()=>{glow.style.opacity='0';if(dot)dot.style.opacity='0';});
+  document.addEventListener('mouseenter',()=>{glow.style.opacity='1';if(dot)dot.style.opacity='1';});
 })();
 </script>
 
