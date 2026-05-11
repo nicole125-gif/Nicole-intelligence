@@ -3,9 +3,69 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-05-10T03:55:28.583667+00:00",
-  "item_count": 5,
+  "updated_at": "2026-05-11T04:06:19.928454+00:00",
+  "item_count": 10,
   "items": [
+    {
+      "id": "96eb017ae0",
+      "title": "Hyundai Motor to Sign Hydrogen Business Agreement With Korea South-East Power",
+      "url": "https://fuelcellsworks.com/2026/05/10/electrolyzer/hyundai-motor-to-sign-hydrogen-business-agreement-with-korea-south-east-power",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-05-10T18:40:28+00:00",
+      "pub_ts": 1778438428
+    },
+    {
+      "id": "5dfa449b95",
+      "title": "Uniper – Darmstadt Authority issues preliminary approval for the planned hydrogen-ready gas-fired power plant at the Staudinger power station",
+      "url": "https://hydrogen-central.com/uniper-darmstadt-authority-issues-preliminary-approval-for-the-planned-hydrogen-ready-gas-fired-power-plant-at-the-staudinger-power-station/",
+      "summary": "Uniper &#8211; Darmstadt Authority issues preliminary approval for the planned hydrogen-ready gas-fired power plant at the Staudinger power station Großkrotzenburg. With today’s issuance of the preliminary approval by district president [&#8230;]\nThe post Uniper &#8211; Darmstadt Authority issues pr…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-05-08T17:38:09+00:00",
+      "pub_ts": 1778261889
+    },
+    {
+      "id": "04f66e5f98",
+      "title": "EU awards over €1 billion to European hydrogen projects to accelerate the clean transition",
+      "url": "https://hydrogen-central.com/eu-awards-over-e1-billion-to-european-hydrogen-projects-to-accelerate-the-clean-transition/",
+      "summary": "EU awards over €1 billion to European hydrogen projects to accelerate the clean transition Today, the European Commission has selected nine hydrogen production projects under the third auction of the European [&#8230;]\nThe post EU awards over €1 billion to European hydrogen projects to accelerate th…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-05-08T17:33:37+00:00",
+      "pub_ts": 1778261617
+    },
+    {
+      "id": "b2294d55df",
+      "title": "Bavarian state government pledges support for Onyx Power to build an hydrogen ready gas turbine power plant",
+      "url": "https://hydrogen-central.com/bavarian-state-government-pledges-support-for-onyx-power-to-build-an-hydrogen-ready-gas-turbine-power-plant/",
+      "summary": "Bavarian state government pledges support for Onyx Power to build an hydrogen ready gas turbine power plant Zolling, May 7, 2026 – On May 7, Bavaria’s Minister of Economic Affairs [&#8230;]\nThe post Bavarian state government pledges support for Onyx Power to build an hydrogen ready gas turbine power…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-05-08T17:30:48+00:00",
+      "pub_ts": 1778261448
+    },
+    {
+      "id": "736440287b",
+      "title": "MorGen Energy secures European Hydrogen Bank support for 300MW Njordkraft green hydrogen project in Denmark",
+      "url": "https://hydrogen-central.com/morgen-energy-secures-european-hydrogen-bank-support-for-300mw-njordkraft-green-hydrogen-project-in-denmark/",
+      "summary": "MorGen Energy secures European Hydrogen Bank support for 300MW Njordkraft green hydrogen project in Denmark Esbjerg, 7 May 2026 – MorGen Energy, a European developer of large-scale green hydrogen projects [&#8230;]\nThe post MorGen Energy secures European Hydrogen Bank support for 300MW Njordkraft gr…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-05-08T17:29:42+00:00",
+      "pub_ts": 1778261382
+    },
+    {
+      "id": "c7d3a5d49a",
+      "title": "Liquid Wind submits environmental permit application for large‑scale eFuel facility in Örnsköldsvik",
+      "url": "https://hydrogen-central.com/liquid-wind-submits-environmental-permit-application-for-large-scale-efuel-facility-in-ornskoldsvik/",
+      "summary": "Liquid Wind submits environmental permit application for large‑scale eFuel facility in Örnsköldsvik Liquid Wind is applying for an environmental permit for EFÖvik (eFuel Facility Övik) at the Land and Environment [&#8230;]\nThe post Liquid Wind submits environmental permit application for large‑scale…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-05-08T16:34:17+00:00",
+      "pub_ts": 1778258057
+    },
     {
       "id": "635f712b37",
       "title": "Carinthia Is Taking Off with Hydrogen: ÖBB Postbuses and a Hydrogen Filling Station Are Now in Operation",
@@ -45,16 +105,6 @@
       "lang": "en",
       "pub_date": "2026-05-08T15:11:19+00:00",
       "pub_ts": 1778253079
-    },
-    {
-      "id": "fd0f0a4198",
-      "title": "Bavarian State Government Pledges Support for Onyx Power to Build an H2 Ready Gas Turbine Power Plant",
-      "url": "https://fuelcellsworks.com/2026/05/08/hydrogen/bavarian-state-government-pledges-support-for-onyx-power-to-build-an-h2-ready-gas-turbine-power-plant",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-05-08T15:08:33+00:00",
-      "pub_ts": 1778252913
     }
   ]
 }

@@ -3,58 +3,38 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-05-10T03:55:14.968552+00:00",
-  "item_count": 5,
+  "updated_at": "2026-05-11T04:06:09.151304+00:00",
+  "item_count": 3,
   "items": [
     {
-      "id": "4c153ebc91",
-      "title": "不更新参数就能强化学习！OpenAl翁家翌提出新范式：决策只需AI手搓一个...",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889510&idx=1&sn=a5343493b3458a3dea508d0febac7175",
-      "summary": "不更新参数就能强化学习！OpenAl翁家翌提出新范式：决策只需AI手搓一个...",
+      "id": "4023279b14",
+      "title": "做AI漫剧的、搞Agent的、投硅谷的，5.20这些赛道顶流碰头了|最新嘉宾阵容",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889546&idx=1&sn=34afd430f96fb9d3e8b41f36f7ef8d98",
+      "summary": "做AI漫剧的、搞Agent的、投硅谷的，5.20这些赛道顶流碰头了|最新嘉宾阵容",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-10T03:55:10.220958+00:00",
-      "pub_ts": 1778385310
+      "pub_date": "2026-05-11T04:06:04.841133+00:00",
+      "pub_ts": 1778472364
     },
     {
-      "id": "045d996ee9",
-      "title": "怎么判断大模型是真懂还是假懂？浙大x爱丁堡大学新指标NCB：给它的知识...",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889510&idx=2&sn=e7e5e9154f880b173b01bb8ff41b5ffd",
-      "summary": "怎么判断大模型是真懂还是假懂？浙大x爱丁堡大学新指标NCB：给它的知识...",
+      "id": "c8cc1c4dc0",
+      "title": "浙大校友用AI突破32年拉姆齐数下界",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889542&idx=1&sn=5ccec8ac583f5112d169e360152c1baf",
+      "summary": "浙大校友用AI突破32年拉姆齐数下界",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-10T03:55:10.220996+00:00",
-      "pub_ts": 1778385310
+      "pub_date": "2026-05-11T04:06:04.841175+00:00",
+      "pub_ts": 1778472364
     },
     {
-      "id": "36a3c36116",
-      "title": "xAI再失华人大将：预训练负责人已离职，马斯克又留不住人了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889508&idx=1&sn=55ce7c27d7bf8f22d8dcc47669b31dd5",
-      "summary": "xAI再失华人大将：预训练负责人已离职，马斯克又留不住人了",
+      "id": "67cb321d08",
+      "title": "浙大推出让AI会「导演」的角色扮演框架！四通道消息沉浸式交互ⅠACL2026",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889542&idx=2&sn=019d6fde7cd8788d51d391dee67cfa7e",
+      "summary": "浙大推出让AI会「导演」的角色扮演框架！四通道消息沉浸式交互ⅠACL2026",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-10T03:55:10.221020+00:00",
-      "pub_ts": 1778385310
-    },
-    {
-      "id": "bb36573b0f",
-      "title": "VLA死了，遥操也死了！英伟达机器人一号位说的",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889508&idx=2&sn=6e042ce19e47508c3e9dc96fa9a09af1",
-      "summary": "VLA死了，遥操也死了！英伟达机器人一号位说的",
-      "source": "量子位-AI硬件",
-      "lang": "zh",
-      "pub_date": "2026-05-10T03:55:10.221040+00:00",
-      "pub_ts": 1778385310
-    },
-    {
-      "id": "2f89ff080f",
-      "title": "行业首创空间3D显示，还能主动提醒和帮忙叫车，千问AI眼镜这操作真把我...",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889444&idx=1&sn=11b87d82d2146bd22ae15f346962de7e",
-      "summary": "行业首创空间3D显示，还能主动提醒和帮忙叫车，千问AI眼镜这操作真把我...",
-      "source": "量子位-AI硬件",
-      "lang": "zh",
-      "pub_date": "2026-05-10T03:55:10.221061+00:00",
-      "pub_ts": 1778385310
+      "pub_date": "2026-05-11T04:06:04.841197+00:00",
+      "pub_ts": 1778472364
     }
   ]
 }

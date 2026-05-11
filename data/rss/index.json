@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-05-10T03:56:10.668889+00:00",
+  "generated_at": "2026-05-11T04:07:01.012596+00:00",
   "verticals": {
     "macro": {
       "name": "宏观经济",
       "item_count": 0,
-      "updated_at": "2026-05-10T03:54:47.467939+00:00"
+      "updated_at": "2026-05-11T04:05:28.472050+00:00"
     },
     "semiconductor": {
       "name": "半导体",
       "item_count": 11,
-      "updated_at": "2026-05-10T03:55:00.723063+00:00"
+      "updated_at": "2026-05-11T04:05:55.439251+00:00"
     },
     "ai_liquid_cooling": {
       "name": "AI液冷",
-      "item_count": 5,
-      "updated_at": "2026-05-10T03:55:14.968552+00:00"
+      "item_count": 3,
+      "updated_at": "2026-05-11T04:06:09.151304+00:00"
     },
     "hydrogen": {
       "name": "氢能",
-      "item_count": 5,
-      "updated_at": "2026-05-10T03:55:28.583667+00:00"
+      "item_count": 10,
+      "updated_at": "2026-05-11T04:06:19.928454+00:00"
     },
     "pharma_equipment": {
       "name": "医药设备",
       "item_count": 5,
-      "updated_at": "2026-05-10T03:55:41.194572+00:00"
+      "updated_at": "2026-05-11T04:06:32.286890+00:00"
     },
     "food_beverage": {
       "name": "食品饮料",
       "item_count": 0,
-      "updated_at": "2026-05-10T03:55:54.310707+00:00"
+      "updated_at": "2026-05-11T04:06:45.167460+00:00"
     },
     "mass_spec": {
       "name": "质谱色谱",
       "item_count": 0,
-      "updated_at": "2026-05-10T03:56:10.668488+00:00"
+      "updated_at": "2026-05-11T04:07:01.012158+00:00"
     }
   }
 }
