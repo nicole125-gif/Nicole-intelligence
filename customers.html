@@ -12,7 +12,46 @@
 <style>
 /* ── Customers page inline overrides ── */
 
-/* Period tabs — enhanced */
+/* ── GLOBAL TEXT CLARITY OVERRIDE ── */
+* { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+body { color: rgba(255,255,255,.92) !important; }
+
+/* Heatmap global */
+.hm-th { font-family:'IBM Plex Mono',monospace !important; font-weight:600 !important; }
+.hm-sector { color:rgba(255,255,255,.88) !important; }
+.hm-notes { color:rgba(255,255,255,.68) !important; font-size:11.5px !important; }
+.cell-val { font-family:'IBM Plex Mono',monospace !important; font-size:14px !important; font-weight:700 !important; }
+
+/* Cards global */
+.co-name { font-size:15px !important; font-weight:700 !important; color:#ffffff !important; }
+.co-sector { font-size:10px !important; color:rgba(255,255,255,.6) !important; }
+.co-metric-label { font-family:'IBM Plex Mono',monospace !important; font-size:9px !important; color:rgba(255,255,255,.5) !important; letter-spacing:.1em !important; text-transform:uppercase !important; margin-bottom:4px !important; }
+.co-metric-val { font-family:'IBM Plex Mono',monospace !important; font-size:18px !important; font-weight:700 !important; letter-spacing:-.02em !important; }
+
+/* Summary strip */
+.ss-label { font-family:'IBM Plex Mono',monospace !important; font-size:9px !important; color:rgba(255,255,255,.45) !important; letter-spacing:.15em !important; }
+.ss-val { font-family:'IBM Plex Mono',monospace !important; font-weight:700 !important; }
+.ss-note { font-size:10px !important; color:rgba(255,255,255,.5) !important; }
+
+/* Modal */
+.modal-title { font-size:20px !important; font-weight:700 !important; color:#ffffff !important; }
+.modal-sector { font-size:11px !important; color:rgba(255,255,255,.6) !important; }
+.tl-row { border-radius:4px !important; }
+.modal-note-text { font-size:12px !important; color:rgba(255,255,255,.75) !important; line-height:1.6 !important; }
+
+/* Search box */
+.search-box { font-size:13px !important; color:rgba(255,255,255,.9) !important; }
+.search-box::placeholder { color:rgba(255,255,255,.35) !important; }
+
+/* Legend */
+.leg-item { font-size:11px !important; color:rgba(255,255,255,.75) !important; font-weight:500 !important; }
+
+/* Period/Metric tabs */
+.ptab, .mtab { font-size:11px !important; }
+.ptab.on { color:#FFD700 !important; font-weight:700 !important; }
+
+/* Period tab — enhanced */
 .period-tabs { display:flex; gap:4px; flex-wrap:wrap; }
 .ptab {
   font-family:'IBM Plex Mono',monospace;
@@ -2063,9 +2102,9 @@ function renderSummary() {
 
   document.getElementById('summary-strip').innerHTML = `
     <div class="ss-cell">
-      <div class="ss-label">当前期间</div>
-      <div class="ss-val" style="color:var(--gold);font-size:18px">${PERIODS[currentPeriod]}</div>
-      <div class="ss-note">覆盖 ${COMPANIES.length} 家企业</div>
+      <div class="ss-label" style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:rgba(255,255,255,.45);letter-spacing:.15em;margin-bottom:6px">当前期间</div>
+      <div class="ss-val" style="font-family:'IBM Plex Mono',monospace;font-size:20px;font-weight:700;color:#FFD700;letter-spacing:-.01em">${PERIODS[currentPeriod]}</div>
+      <div class="ss-note" style="font-size:10px;color:rgba(255,255,255,.5);margin-top:3px">覆盖 ${COMPANIES.length} 家企业</div>
     </div>
     <div class="ss-cell" style="flex:1.4">
       <div class="ss-label">收入增速分布</div>
@@ -2104,36 +2143,36 @@ function renderHeatmap() {
   const metricLabel = METRIC_LABELS[metricIdx];
 
   let html = `<thead><tr>
-    <th class="hm-th left">行业分组</th>
-    <th class="hm-th sector">细分赛道</th>
-    <th class="hm-th" colspan="2" style="color:var(--gold)">${PERIODS[periodIdx]} · ${metricLabel}</th>
-    <th class="hm-th" style="color:var(--text3)">备注</th>
+    <th class="hm-th left" style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:rgba(255,255,255,.4);letter-spacing:.12em;font-weight:500">行业分组</th>
+    <th class="hm-th sector" style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:rgba(255,255,255,.4);letter-spacing:.12em;font-weight:500">细分赛道</th>
+    <th class="hm-th" colspan="2" style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:700;color:#FFD700;letter-spacing:.1em">${PERIODS[periodIdx]} · ${metricLabel}</th>
+    <th class="hm-th" style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:rgba(255,255,255,.4);letter-spacing:.1em">备注</th>
   </tr></thead><tbody>`;
 
   const metricMap = {'收入增速':0,'利润增速':1,'合同负债/在建':2};
   const mi = metricIdx;
 
   Object.entries(HEATMAP_DATA).forEach(([key, group]) => {
-    html += `<tr class="hm-group-row"><td colspan="5"><span class="hm-group-label" style="color:var(--gold)">${key} · ${group.label}</span></td></tr>`;
+    html += `<tr class="hm-group-row"><td colspan="5" style="padding:10px 16px 6px"><span class="hm-group-label" style="font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.18em;color:#FFD700">${key} · ${group.label}</span></td></tr>`;
     group.sectors.forEach(sector => {
       const d = sector.data[periodIdx];
       const v = d ? d[mi] : null;
       const note = d ? d[3] : null;
       const sc = sigClass(v, mi);
       html += `<tr class="hm-row">
-        <td class="hm-sector" style="padding-left:24px;color:var(--text3);font-size:10px;font-family:var(--mono)">${key}</td>
-        <td class="hm-sector">${sector.name}</td>
-        <td class="hm-cell">
-          <div class="cell-inner ${sc}">
+        <td class="hm-sector" style="padding-left:24px;color:rgba(255,255,255,.35);font-size:10px;font-family:'IBM Plex Mono',monospace;letter-spacing:.08em">${key}</td>
+        <td class="hm-sector" style="font-size:13px;font-weight:600;color:rgba(255,255,255,.92);letter-spacing:-.01em;padding-right:12px">${sector.name}</td>
+        <td class="hm-cell" style="min-width:80px">
+          <div class="cell-inner ${sc}" style="font-family:'IBM Plex Mono',monospace;font-size:14px;font-weight:700;padding:4px 10px;border-radius:3px">
             <span class="cell-val">${fmt(v)}</span>
           </div>
         </td>
         <td class="hm-cell" style="min-width:130px">
-          <div style="position:relative;height:8px;background:rgba(255,255,255,.06);border-radius:4px;overflow:hidden;max-width:110px">
-            ${v !== null && typeof v === 'number' ? `<div style="height:100%;width:${Math.min(Math.abs(v)*80, 100)}%;background:${sigColor(v)};border-radius:4px;opacity:.85;${v<0?'margin-left:auto':''};transition:width .4s ease"></div>` : ''}
+          <div style="position:relative;height:8px;background:rgba(255,255,255,.08);border-radius:4px;overflow:hidden;max-width:110px">
+            ${v !== null && typeof v === 'number' ? `<div style="height:100%;width:${Math.min(Math.abs(v)*80, 100)}%;background:${sigColor(v)};border-radius:4px;opacity:.9;${v<0?'margin-left:auto':''};transition:width .4s ease"></div>` : ''}
           </div>
         </td>
-        <td class="hm-notes">${note||''}</td>
+        <td class="hm-notes" style="font-size:11.5px;color:rgba(255,255,255,.68);line-height:1.5;font-family:'Noto Sans SC',sans-serif">${note||''}</td>
       </tr>`;
     });
   });
@@ -2234,30 +2273,39 @@ function renderCards() {
           trendArrow = `<span style="font-size:14px;color:${trendCol};margin-left:4px">${trendArrow}</span>`;
         }
         card.innerHTML =
-          '<div class="co-header">' +
+          '<div class="co-header" style="display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:10px">' +
             '<div style="flex:1;min-width:0">' +
-              '<div class="co-name">' + co.name + trendArrow + '</div>' +
-              '<div class="co-sector">' + co.sector + ' · ' + ind + '</div>' +
+              '<div class="co-name" style="font-size:15px;font-weight:700;color:#ffffff;letter-spacing:-.01em;line-height:1.3;margin-bottom:3px">' + co.name + trendArrow + '</div>' +
+              '<div class="co-sector" style="font-family:\'IBM Plex Mono\',monospace;font-size:10px;color:' + cfg.color + ';opacity:.85;letter-spacing:.08em">' + co.sector + ' · ' + ind + '</div>' +
             '</div>' +
-            '<div class="co-signal" style="background:' + overallSignal + ';box-shadow:0 0 6px ' + overallSignal + '"></div>' +
+            '<div class="co-signal" style="width:10px;height:10px;border-radius:50%;flex-shrink:0;margin-top:3px;background:' + overallSignal + ';box-shadow:0 0 8px ' + overallSignal + '"></div>' +
           '</div>' +
-          '<div class="co-metrics">' +
-            '<div class="co-metric"><div class="co-metric-label">收入增速</div><div class="co-metric-val" style="color:' + sigColor(rev) + '">' + fmt(rev) + '</div></div>' +
-            '<div class="co-metric"><div class="co-metric-label">利润增速</div><div class="co-metric-val" style="color:' + sigColor(profit) + '">' + fmt(profit) + '</div></div>' +
-            '<div class="co-metric"><div class="co-metric-label">合同负债</div><div class="co-metric-val" style="color:' + sigColor(contract) + '">' + fmt(contract) + '</div></div>' +
+          '<div class="co-metrics" style="display:flex;gap:0;margin-bottom:0;border-top:1px solid rgba(255,255,255,.07);padding-top:10px">' +
+            '<div class="co-metric" style="flex:1;padding-right:8px;border-right:1px solid rgba(255,255,255,.06)">' +
+              '<div class="co-metric-label" style="font-family:\'IBM Plex Mono\',monospace;font-size:9px;color:rgba(255,255,255,.45);letter-spacing:.1em;margin-bottom:4px;text-transform:uppercase">收入增速</div>' +
+              '<div class="co-metric-val" style="font-family:\'IBM Plex Mono\',monospace;font-size:18px;font-weight:700;color:' + sigColor(rev) + ';letter-spacing:-.02em;line-height:1">' + fmt(rev) + '</div>' +
+            '</div>' +
+            '<div class="co-metric" style="flex:1;padding:0 8px;border-right:1px solid rgba(255,255,255,.06)">' +
+              '<div class="co-metric-label" style="font-family:\'IBM Plex Mono\',monospace;font-size:9px;color:rgba(255,255,255,.45);letter-spacing:.1em;margin-bottom:4px;text-transform:uppercase">利润增速</div>' +
+              '<div class="co-metric-val" style="font-family:\'IBM Plex Mono\',monospace;font-size:18px;font-weight:700;color:' + sigColor(profit) + ';letter-spacing:-.02em;line-height:1">' + fmt(profit) + '</div>' +
+            '</div>' +
+            '<div class="co-metric" style="flex:1;padding-left:8px">' +
+              '<div class="co-metric-label" style="font-family:\'IBM Plex Mono\',monospace;font-size:9px;color:rgba(255,255,255,.45);letter-spacing:.1em;margin-bottom:4px;text-transform:uppercase">合同负债</div>' +
+              '<div class="co-metric-val" style="font-family:\'IBM Plex Mono\',monospace;font-size:18px;font-weight:700;color:' + sigColor(contract) + ';letter-spacing:-.02em;line-height:1">' + fmt(contract) + '</div>' +
+            '</div>' +
           '</div>' +
           '<div style="margin-top:10px">' +
-            '<div style="display:flex;gap:3px;margin-bottom:4px;align-items:center">' +
+            '<div style="display:flex;gap:3px;margin-bottom:5px;align-items:center">' +
               PERIODS.map((per, pi) => {
                 const v = co.periods[pi]?.rev;
                 const col = v !== null && v !== undefined ? sigColor(v) : 'rgba(255,255,255,.1)';
                 const isCur = pi === currentPeriod;
-                return `<div title="${per}: ${fmt(v)}" style="flex:1;height:${isCur?'6':'4'}px;background:${col};border-radius:1px;opacity:${isCur?'1':'0.55'};transition:all .2s;cursor:help"></div>`;
+                return `<div title="${per}: ${fmt(v)}" style="flex:1;height:${isCur?'7':'4'}px;background:${col};border-radius:1px;opacity:${isCur?'1':'0.5'};transition:all .2s;cursor:help"></div>`;
               }).join('') +
             '</div>' +
-            '<div style="padding:2px 0 2px">' + sparkSvg + '</div>' +
+            '<div style="padding:1px 0 2px">' + sparkSvg + '</div>' +
           '</div>' +
-          (note ? '<div style="margin-top:8px;padding:5px 10px;background:rgba(255,215,0,.05);border-left:2px solid rgba(255,215,0,.3);font-size:10px;color:rgba(255,255,255,.55);line-height:1.5">' + note + '</div>' : '');
+          (note ? '<div style="margin-top:8px;padding:6px 10px;background:rgba(255,255,255,.04);border-left:2px solid ' + cfg.color + '60;font-size:10.5px;color:rgba(255,255,255,.7);line-height:1.55;font-family:\'Noto Sans SC\',sans-serif">' + note + '</div>' : '');
         grid.appendChild(card);
       });
 
@@ -2326,7 +2374,7 @@ function openModal(co) {
           const borderLeft = isCurrent ? '2px solid rgba(255,215,0,.6)' : isLatest ? '2px solid rgba(0,255,178,.3)' : '2px solid transparent';
           return `
           <div class="tl-row" style="background:${rowBg};border-left:${borderLeft};margin-left:-2px;padding-left:2px;border-radius:0 4px 4px 0;transition:background .2s">
-            <div class="tl-period" style="${isCurrent ? 'color:rgba(255,215,0,.9);font-weight:700' : isLatest ? 'color:rgba(0,255,178,.8)' : ''}">${PERIODS[i]}${isCurrent ? ' ●' : ''}</div>
+            <div class="tl-period" style="font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:${isCurrent?'700':'500'};letter-spacing:.12em;min-width:56px;padding-top:1px;${isCurrent ? 'color:#FFD700' : isLatest ? 'color:rgba(0,255,178,.85)' : 'color:rgba(255,255,255,.45)'}">${PERIODS[i]}${isCurrent ? ' ●' : ''}</div>
             <div class="tl-bar-wrap" style="flex:1">
               <div style="display:flex;flex-direction:column;gap:5px;flex:1">
                 ${['rev','profit','contract'].map((key,ki) => {
@@ -2335,15 +2383,15 @@ function openModal(co) {
                   const barW = v !== null && typeof v === 'number' ? Math.min(Math.abs(v) * 80, 100) : 0;
                   const barCol = sigColor(v);
                   const isNeg = typeof v === 'number' && v < 0;
-                  return `<div style="display:flex;align-items:center;gap:8px">
-                    <div style="font-family:var(--mono);font-size:8px;color:rgba(255,255,255,.35);width:54px;flex-shrink:0;text-align:right">${labels[ki]}</div>
-                    <div style="flex:1;height:4px;background:rgba(255,255,255,.07);border-radius:2px;position:relative;max-width:100px">
-                      ${barW > 0 ? `<div style="position:absolute;${isNeg?'right:0':'left:0'};top:0;height:100%;width:${barW}%;background:${barCol};border-radius:2px;opacity:.85"></div>` : ''}
+                  return `<div style="display:flex;align-items:center;gap:10px">
+                    <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;font-weight:500;color:rgba(255,255,255,.5);width:58px;flex-shrink:0;text-align:right;letter-spacing:.06em">${labels[ki]}</div>
+                    <div style="flex:1;height:5px;background:rgba(255,255,255,.09);border-radius:3px;position:relative;max-width:110px">
+                      ${barW > 0 ? `<div style="position:absolute;${isNeg?'right:0':'left:0'};top:0;height:100%;width:${barW}%;background:${barCol};border-radius:3px;opacity:.9"></div>` : ''}
                     </div>
-                    <div style="font-family:var(--mono);font-size:11px;font-weight:600;color:${barCol};min-width:44px">${fmt(v)}</div>
+                    <div style="font-family:'IBM Plex Mono',monospace;font-size:13px;font-weight:700;color:${barCol};min-width:48px;letter-spacing:-.01em">${fmt(v)}</div>
                   </div>`;
                 }).join('')}
-                ${pd.note ? `<div style="margin-top:3px;font-size:9.5px;color:rgba(255,255,255,.42);line-height:1.55;font-style:italic;border-left:1px solid rgba(255,255,255,.1);padding-left:6px">${pd.note}</div>` : ''}
+                ${pd.note ? `<div style="margin-top:5px;font-size:10.5px;color:rgba(255,255,255,.72);line-height:1.6;font-family:'Noto Sans SC',sans-serif;border-left:2px solid rgba(255,215,0,.3);padding-left:8px;background:rgba(255,215,0,.04);padding:4px 8px;border-radius:0 3px 3px 0">${pd.note}</div>` : ''}
               </div>
             </div>
           </div>`;
