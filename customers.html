@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>客户财务监控 · 2025Q3</title>
+<title>客户财务监控 · 2026Q1</title>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&family=Syne:wght@400;700;800&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="styles/core.css"/>
 <link rel="stylesheet" href="styles/layout.css"/>
@@ -11,6 +11,88 @@
 <link rel="stylesheet" href="styles/customers.css"/>
 <style>
 /* ── Customers page inline overrides ── */
+
+/* Period tabs — enhanced */
+.period-tabs { display:flex; gap:4px; flex-wrap:wrap; }
+.ptab {
+  font-family:'IBM Plex Mono',monospace;
+  font-size:10px;
+  letter-spacing:.12em;
+  padding:5px 14px;
+  background:rgba(255,255,255,.04);
+  border:1px solid rgba(255,255,255,.12);
+  color:rgba(255,255,255,.55);
+  cursor:pointer;
+  transition:all .18s;
+  border-radius:2px;
+}
+.ptab:hover { background:rgba(255,255,255,.09); color:#fff; border-color:rgba(255,255,255,.3); }
+.ptab.on {
+  background:rgba(255,215,0,.12);
+  border-color:rgba(255,215,0,.6);
+  color:#FFD700;
+  box-shadow:0 0 12px rgba(255,215,0,.15);
+}
+
+/* Company card — sparkline area */
+.co-card {
+  transition: transform .18s, box-shadow .18s, border-color .18s !important;
+}
+.co-card:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 28px rgba(0,0,0,.4), 0 0 0 1px var(--card-accent, #FFD700) !important;
+}
+
+/* Timeline visual rows */
+.tl-row {
+  padding: 8px 12px !important;
+  margin-bottom: 2px !important;
+  border-radius: 3px;
+}
+.tl-period {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9.5px;
+  letter-spacing: .14em;
+  min-width: 56px;
+  color: rgba(255,255,255,.4);
+  padding-top: 2px;
+}
+
+/* Trend chart container */
+.trend-chart-wrap {
+  margin-bottom: 12px;
+}
+
+/* Heatmap bar pulse on hover */
+.hm-row:hover .cell-inner { filter: brightness(1.15); }
+
+/* Modal period-highlight ring */
+.modal-period-title {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  letter-spacing: .2em;
+  color: rgba(255,215,0,.8);
+  background: rgba(255,215,0,.06);
+  border: 1px solid rgba(255,215,0,.25);
+  display: inline-block;
+  padding: 4px 16px;
+  margin-bottom: 14px;
+}
+
+/* Sparkline label strip */
+.spark-periods {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2px;
+  margin-top: 1px;
+}
+.spark-period-lbl {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 6.5px;
+  color: rgba(255,255,255,.22);
+  text-align: center;
+}
+
 </style>
 </head>
 <body>
@@ -64,7 +146,9 @@
           <button class="ptab" onclick="setPeriod(0)">2024FY</button>
           <button class="ptab" onclick="setPeriod(1)">2025Q1</button>
           <button class="ptab" onclick="setPeriod(2)">2025H1</button>
-          <button class="ptab on" onclick="setPeriod(3)">2025Q3</button>
+          <button class="ptab" onclick="setPeriod(3)">2025Q3</button>
+          <button class="ptab" onclick="setPeriod(4)">2025FY</button>
+          <button class="ptab on" onclick="setPeriod(5)">2026Q1</button>
         </div>
         <div style="font-family:var(--mono);font-size:9px;color:var(--text3);letter-spacing:.15em;margin-left:8px">指标</div>
         <div class="metric-tabs">
@@ -110,52 +194,52 @@
 <script>
 // ══ DATA ══════════════════════════════════════════════════════════
 
-const PERIODS = ['2024FY','2025Q1','2025H1','2025Q3'];
+const PERIODS = ['2024FY','2025Q1','2025H1','2025Q3','2025FY','2026Q1'];
 
 // Summary heatmap data [salesYOY, marginYOY, contractYOY, notes] × 4 periods
 const HEATMAP_DATA = {
   PB: {
     label:'Pharma & Biotech',
     sectors: [
-      {name:'EPC制药',      en:'EPC',      data:[[-0.101,-0.736,null,'森松制药增长+20%，订单+65%'],[-0.043,null,null,''],[ 0.058,-0.183,0.186,'森松制药大幅增长'],[-0.010,-0.018,0.011,'海外订单在增长']]},
-      {name:'血液制品',     en:'血制品',   data:[[ 0.008, 0.335,1.300,'血液制品智能化改造'],[-0.021,-0.350,0.126,'增长开始失速'],[ 0.007,-0.349,0.323,'收入增速放缓'],[-0.005,-0.519,0.103,'大项目还在进行']]},
-      {name:'CDMO',         en:'CDMO',     data:[[-0.012,-0.507,0.198,null],[ 0.142, 0.534,0.078,null],[ 0.202, 0.450,0.183,'CXO成最大获益者'],[ 0.138, 0.449,-0.071,null]]},
-      {name:'多肽/GLP-1',   en:'多肽',     data:[[ 0.387, 0.740,0.379,'减肥药带动投资'],[ 0.541, 1.371,0.310,'减肥药热潮'],[ 0.486, 0.621,0.602,'GLP-1机会巨大'],[ 0.347, 0.418,0.559,null]]},
-      {name:'ADC',          en:'ADC',      data:[[ 1.296, 0.205,-0.084,null],[-0.041,-0.286,0.201,'百利天恒项目投资'],[-0.014,null,0.365,'百利天恒大项目'],[-0.016,-0.259,0.590,'BD热门赛道']]},
-      {name:'医美',         en:'医美',     data:[[ 6.233, 0.192,4.562,'创健生物等项目'],[ 4.562, 0.047,2.143,'锦帛生物投资大额'],[ 0.061, 0.006,2.827,'收入增速放缓'],[ 0.020,-0.068,3.544,'长期利好']]},
-      {name:'疫苗',         en:'疫苗',     data:[[-0.071,-0.312,0.158,'万泰生物13价疫苗'],[-0.198,-0.623,0.005,null],[-0.177,-0.531,0.042,'行业下行周期'],[-0.090,-1.036,-0.024,'深度调整']]},
-      {name:'生物合成',     en:'生物合成', data:[[ 0.190, 0.120,0.185,null],[ 0.117, 0.107,0.034,null],[ 0.122, 0.108,0.372,'投资如火如荼'],[ 0.114, 0.108,0.005,'十五五重点规划']]},
+      {name:'EPC制药',      en:'EPC',      data:[[-0.101,-0.736,null,'森松制药增长+20%，订单+65%'],[-0.043,null,null,''],[ 0.058,-0.183,0.186,'森松制药大幅增长'],[-0.010,-0.018,0.011,'海外订单在增长'],[0.06,null,0.1,'FY2025楚天净利+59%历史新高；东富龙+6%；出海为主，国内停滞'],[ 0.060,null,0.050,'楚天净利+59%历史新高；森松新签+47%；出海持续为主驱动']]},
+      {name:'血液制品',     en:'血制品',   data:[[ 0.008, 0.335,1.300,'血液制品智能化改造'],[-0.021,-0.350,0.126,'增长开始失速'],[ 0.007,-0.349,0.323,'收入增速放缓'],[-0.005,-0.519,0.103,'大项目还在进行'],[-0.03,-0.15,0.2,'FY2025收入承压；博雅在建+149%；上海莱士-10%；华兰+5%'],[-0.050,-0.200,0.150,'收入普遍承压；博雅在建+149%；上海莱士并购扩浆']]},
+      {name:'CDMO',         en:'CDMO',     data:[[-0.012,-0.507,0.198,null],[ 0.142, 0.534,0.078,null],[ 0.202, 0.450,0.183,'CXO成最大获益者'],[ 0.138, 0.449,-0.071,null],[0.158,0.4,0.1,'FY2025药明+16%；康龙+15%；凯莱英+15%；博腾扭亏为盈'],[ 0.200, 0.600,0.100,'药明+29%（持续经营口径）；康龙+15%；全面景气复苏']]},
+      {name:'多肽/GLP-1',   en:'多肽',     data:[[ 0.387, 0.740,0.379,'减肥药带动投资'],[ 0.541, 1.371,0.310,'减肥药热潮'],[ 0.486, 0.621,0.602,'GLP-1机会巨大'],[ 0.347, 0.418,0.559,null],[0.4,1.0,0.8,'FY2025药明TIDES+96%达113.7亿；诺泰+20%；圣诺+63%'],[ 0.400, 0.800,0.600,'药明TIDES Q1+6.1%，全年预计+40%超150亿；诺泰/圣诺继续高增']]},
+      {name:'ADC',          en:'ADC',      data:[[ 1.296, 0.205,-0.084,null],[-0.041,-0.286,0.201,'百利天恒项目投资'],[-0.014,null,0.365,'百利天恒大项目'],[-0.016,-0.259,0.590,'BD热门赛道'],[0.1,null,0.5,'FY2025 ADC BD赛道持续；荣昌+59%；百利天恒大项目在建'],[ 0.050,null,0.300,'ADC BD赛道持续；新兴业务+224%（博腾）；在建投入仍高位']]},
+      {name:'医美',         en:'医美',     data:[[ 6.233, 0.192,4.562,'创健生物等项目'],[ 4.562, 0.047,2.143,'锦帛生物投资大额'],[ 0.061, 0.006,2.827,'收入增速放缓'],[ 0.020,-0.068,3.544,'长期利好'],[0.05,0.1,2.0,'FY2025锦波+85%；华熙-8%；巨子+22%；分化，在建持续'],[ 0.030, 0.050,2.500,'医美行业持续投资；长期赛道利好不变']]},
+      {name:'疫苗',         en:'疫苗',     data:[[-0.071,-0.312,0.158,'万泰生物13价疫苗'],[-0.198,-0.623,0.005,null],[-0.177,-0.531,0.042,'行业下行周期'],[-0.090,-1.036,-0.024,'深度调整'],[-0.3,-1.0,0.05,'FY2025智飞-60%深亏；万泰九价摧毁代理业务；三重压力未解'],[-0.300,null,0.050,'智飞崩盘；行业三重压力：去库+新生儿减+竞争内卷']]},
+      {name:'生物合成',     en:'生物合成', data:[[ 0.190, 0.120,0.185,null],[ 0.117, 0.107,0.034,null],[ 0.122, 0.108,0.372,'投资如火如荼'],[ 0.114, 0.108,0.005,'十五五重点规划'],[0.12,0.2,0.3,'FY2025华恒+31%；凯赛+11%；梅花合同负债+120%；十五五驱动'],[ 0.150, 0.200,0.300,'氨基酸价格回升+十五五双驱动；梅花合同负债+120%；扩产提速']]},
     ]
   },
   FB: {
     label:'Food & Beverage',
     sectors: [
-      {name:'食饮EPC',      en:'EPC',      data:[[ 0.120, 0.154,0.086,null],[ 0.279, 0.884,0.120,null],[ 0.203, 0.446,0.089,'海外市场开始兑现'],[ 0.224, 1.033,0.313,'国内国外双驱动']]},
-      {name:'啤酒',         en:'啤酒',     data:[[-0.019, 0.225,0.468,null],[ 0.044, 0.253,0.353,null],[ 0.011, 0.197,0.236,'高端化持续兑现'],[-0.013, 0.165,0.602,'高端化增速']]},
-      {name:'饮料',         en:'饮料',     data:[[ 0.137, 0.315,0.439,null],[ 0.392, 0.476,0.182,null],[ 0.103, 0.112,0.141,'无糖健康茶饮风潮'],[ 0.146, 0.191,0.757,'单一客户数据']]},
-      {name:'食品添加剂',   en:'添加剂',   data:[[ 0.047, 0.382,12.782,'保龄宝项目'],[ 0.146, 0.425,0.000,null],[ 0.055, 0.234,0.689,'赖氨酸、酶、糖项目'],[ 0.051, 0.804,1.013,'生物合成大趋势']]},
-      {name:'白酒',         en:'白酒',     data:[[-0.001,-0.086,0.013,null],[-0.035,-0.071,0.157,null],[-0.095,-0.198,0.228,'技改依旧'],[-0.159,-0.313,0.276,'收入利润下滑但技改持续']]},
-      {name:'乳制品',       en:'乳制品',   data:[[-0.093,-0.315,-0.311,null],[-0.063,-0.050,0.114,'三元厂房建设'],[-0.048, 0.083,0.346,null],[-0.031, 0.417,-0.065,'常温奶下滑严重']]},
+      {name:'食饮EPC',      en:'EPC',      data:[[ 0.120, 0.154,0.086,null],[ 0.279, 0.884,0.120,null],[ 0.203, 0.446,0.089,'海外市场开始兑现'],[ 0.224, 1.033,0.313,'国内国外双驱动'],[0.2,0.6,0.25,'FY2025永创+18%/净利+50%；达意隆+35%/海外46%；出海双驱动'],[ 0.200, 0.700,0.200,'永创+18%/净利+50%；达意隆+35%/海外46%；出海持续领跑']]},
+      {name:'啤酒',         en:'啤酒',     data:[[-0.019, 0.225,0.468,null],[ 0.044, 0.253,0.353,null],[ 0.011, 0.197,0.236,'高端化持续兑现'],[-0.013, 0.165,0.602,'高端化增速'],[0.02,0.25,0.5,'FY2025燕京+4.5%/净利+59%历史新高；青岛+1%；百威-8%'],[ 0.040, 0.250,0.600,'燕京Q1+7%/净利+60%；青岛+2.9%/净利+7.1%；高端化变现持续']]},
+      {name:'饮料',         en:'饮料',     data:[[ 0.137, 0.315,0.439,null],[ 0.392, 0.476,0.182,null],[ 0.103, 0.112,0.141,'无糖健康茶饮风潮'],[ 0.146, 0.191,0.757,'单一客户数据'],[0.25,0.32,0.6,'FY2025东鹏+32%/净利+33%历史新高；农夫+23%茶饮首超包装水'],[ 0.215, 0.300,0.500,'东鹏Q1+21.5%；农夫茶饮持续高增；电解质水农夫入局竞争加剧']]},
+      {name:'食品添加剂',   en:'添加剂',   data:[[ 0.047, 0.382,12.782,'保龄宝项目'],[ 0.146, 0.425,0.000,null],[ 0.055, 0.234,0.689,'赖氨酸、酶、糖项目'],[ 0.051, 0.804,1.013,'生物合成大趋势'],[0.06,0.35,0.35,'FY2025安琪+10%；新和成+3%；梅花-2%（利润+45%）'],[ 0.070, 0.400,0.400,'氨基酸价格回升利润弹性大；安琪+10%；生物合成大趋势持续']]},
+      {name:'白酒',         en:'白酒',     data:[[-0.001,-0.086,0.013,null],[-0.035,-0.071,0.157,null],[-0.095,-0.198,0.228,'技改依旧'],[-0.159,-0.313,0.276,'收入利润下滑但技改持续'],[-0.05,-0.2,0.2,'FY2025白酒渡劫年：茅台-1.2%首次双降；洋河-28%~35%'],[ 0.020,-0.100,0.200,'茅台Q1+6.5%/净利+1.5%（改革成效）；五粮液低基数反弹；白酒渡劫年']]},
+      {name:'乳制品',       en:'乳制品',   data:[[-0.093,-0.315,-0.311,null],[-0.063,-0.050,0.114,'三元厂房建设'],[-0.048, 0.083,0.346,null],[-0.031, 0.417,-0.065,'常温奶下滑严重'],[-0.05,0.3,-0.1,'FY2025蒙牛-7%实质好转；伊利-3%；尚未触底；谨慎'],[-0.030, 0.200,-0.100,'蒙牛2025好转；伊利-3%延续；尚未触底；新建产线需求低']]},
     ]
   },
   LM: {
     label:'Lab & Medical',
     sectors: [
-      {name:'环境监测',     en:'环境监测', data:[[ 0.043, 0.205,0.037,null],[ 0.078, 0.746,0.003,null],[ 0.007,-0.351,0.018,'国内环保需求不振'],[ 0.053, 0.190,0.057,null]]},
-      {name:'实验室设备',   en:'实验室',   data:[[-0.050,-0.160,0.208,null],[ 0.060, 0.810,-0.014,null],[-0.045,-0.013,-0.070,'受环保政策冲击'],[-0.118,-0.038,-0.335,'天瑞在手订单增多']]},
-      {name:'基因测序',     en:'基因',     data:[[-0.009, 0.068,-0.011,null],[-0.110,null,-0.049,null],[-0.086,null,null,'测序仪国内业绩提升'],[-0.042,-0.173,0.047,'华大在手订单变多']]},
-      {name:'IVD体外诊断',  en:'IVD',      data:[[-0.022,-0.882,-0.060,null],[-0.173,-0.454,-0.099,null],[-0.186,-0.565,-0.105,'集采导致收入暴跌'],[-0.162,-0.362,-0.072,'尚未走出底部']]},
+      {name:'环境监测',     en:'环境监测', data:[[ 0.043, 0.205,0.037,null],[ 0.078, 0.746,0.003,null],[ 0.007,-0.351,0.018,'国内环保需求不振'],[ 0.053, 0.190,0.057,null],[0.04,0.18,0.04,'FY2025弱复苏；聚光+3%；皖仪+10%；地方PPP预算缓慢恢复'],[ 0.040, 0.200,0.030,'弱复苏；PPP缓步恢复；Q4政府设备更新预算有望释放']]},
+      {name:'实验室设备',   en:'实验室',   data:[[-0.050,-0.160,0.208,null],[ 0.060, 0.810,-0.014,null],[-0.045,-0.013,-0.070,'受环保政策冲击'],[-0.118,-0.038,-0.335,'天瑞在手订单增多'],[-0.08,-0.1,-0.2,'FY2025外资仪器中国区-10%~-25%；国产仪器分化；制药支出受限'],[-0.080,-0.050,-0.200,'外资仪器中国区-10%~-25%；国产仪器分化；制药资本支出受限']]},
+      {name:'基因测序',     en:'基因',     data:[[-0.009, 0.068,-0.011,null],[-0.110,null,-0.049,null],[-0.086,null,null,'测序仪国内业绩提升'],[-0.042,-0.173,0.047,'华大在手订单变多'],[0.0,null,0.1,'FY2025华大智造基本持平；在手订单回升；测序仪海外推进'],[ 0.000, null, 0.100,'华大智造在手订单回升；测序仪海外推进']]},
+      {name:'IVD体外诊断',  en:'IVD',      data:[[-0.022,-0.882,-0.060,null],[-0.173,-0.454,-0.099,null],[-0.186,-0.565,-0.105,'集采导致收入暴跌'],[-0.162,-0.362,-0.072,'尚未走出底部'],[-0.1,-0.3,-0.05,'FY2025迈瑞-9%/净利-28%；集采持续；外资大幅下滑；未见底'],[-0.100,-0.300,-0.050,'迈瑞Q1国内-11%/国际+16%；新兴业务+18%；2026年国内有望转正']]},
     ]
   },
   EIGI: {
     label:'Emerging & General Industry',
     sectors: [
-      {name:'光伏设备',     en:'光伏',     data:[[ 0.306,-0.114,-0.196,null],[ 0.001,-0.309,-0.076,null],[-0.132,-0.240,-0.074,'扩产潮退去，订单波动大'],[-0.224,-0.301,-0.318,'周期性下行持续']]},
-      {name:'锂电设备',     en:'锂电',     data:[[null,null,null,null],[null,null,null,null],[-0.039, 0.210,0.782,'头部客户新一轮资本开支'],[ 0.064, 0.416,0.274,'固态电池开始兑现']]},
-      {name:'半导体设备',   en:'半导体',   data:[[ 0.354, 0.005,0.526,null],[ 0.284, 0.244,0.114,null],[ 0.321, 0.668,0.193,'晶圆厂扩产+国产化'],[ 0.292, 0.364,0.286,'AI投资+国产化多驱动']]},
-      {name:'氢能设备',     en:'氢能',     data:[[-0.335,-0.636,0.125,null],[-0.118,null,0.125,null],[-0.300,null,0.041,'FCEV产销同比下降47%'],[-0.346,-0.014,null,'十五五重点行业']]},
-      {name:'液冷设备',     en:'液冷',     data:[[null,null,null,null],[null,null,null,null],[ 0.463, 1.734,0.733,'AI数据中心带动扩产'],[ 0.464, 1.266,1.015,'增幅明显']]},
-      {name:'3D打印',       en:'3D打印',   data:[[null,null,null,null],[null,null,null,null],[ 0.113,-0.446,0.110,null],[ 0.310, 3.184,0.761,'AI建模工具普及提速']]},
+      {name:'光伏设备',     en:'光伏',     data:[[ 0.306,-0.114,-0.196,null],[ 0.001,-0.309,-0.076,null],[-0.132,-0.240,-0.074,'扩产潮退去，订单波动大'],[-0.224,-0.301,-0.318,'周期性下行持续'],[-0.28,-0.4,-0.35,'FY2025晶盛-35%/净利-65%；迈为-15%；光伏周期重创'],[-0.280,-0.400,-0.350,'晶盛FY2025 -35%；合同负债-48%；光伏周期持续下行；半导体业务对冲']]},
+      {name:'锂电设备',     en:'锂电',     data:[[null,null,null,null],[null,null,null,null],[-0.039, 0.210,0.782,'头部客户新一轮资本开支'],[ 0.064, 0.416,0.274,'固态电池开始兑现'],[0.218,4.466,0.2,'FY2025先导+22%/净利+447%；亿纬+26%；固态电池订单兑现'],[ 0.191, 1.000,0.400,'先导Q1+19.1%/净利+11%；亿纬+26%；固态电池订单兑现；扩产周期确认']]},
+      {name:'半导体设备',   en:'半导体',   data:[[ 0.354, 0.005,0.526,null],[ 0.284, 0.244,0.114,null],[ 0.321, 0.668,0.193,'晶圆厂扩产+国产化'],[ 0.292, 0.364,0.286,'AI投资+国产化多驱动'],[0.31,0.2,0.2,'FY2025北方华创+31%；中微+34%；拓荆+59%；盛美+21%；最高景气'],[ 0.260, 0.150,0.200,'北方华创Q1+25.8%；拓荆+59%；中微+34%；半导体三重驱动持续最高景气']]},
+      {name:'氢能设备',     en:'氢能',     data:[[-0.335,-0.636,0.125,null],[-0.118,null,0.125,null],[-0.300,null,0.041,'FCEV产销同比下降47%'],[-0.346,-0.014,null,'十五五重点行业'],[-0.35,null,0.05,'FY2025 FCEV产销-47%；亿华通-55%；商业化瓶颈未突破'],[-0.400,null, 0.050,'FCEV产销2025年-47%；商业化瓶颈尚未突破；十五五重点但短期难']]},
+      {name:'液冷设备',     en:'液冷',     data:[[null,null,null,null],[null,null,null,null],[ 0.463, 1.734,0.733,'AI数据中心带动扩产'],[ 0.464, 1.266,1.015,'增幅明显'],[0.43,1.5,1.0,'FY2025浪潮+43%/经营现金流+7183%；高澜+55%；最高景气'],[ 0.430, 1.500,0.800,'英维克+38%；高澜+55%；同飞+45%；浪潮Q1经营现金流+7183%；持续最高景气']]},
+      {name:'3D打印',       en:'3D打印',   data:[[null,null,null,null],[null,null,null,null],[ 0.113,-0.446,0.110,null],[ 0.310, 3.184,0.761,'AI建模工具普及提速'],[0.4,6.0,1.25,'FY2025铂力特扣非+600%；合同负债+125%；AI建模普及'],[ 0.400, 6.000,1.250,'铂力特扣非+600%；合同负债+125%；AI建模加速工业3D打印渗透']]},
     ]
   }
 };
@@ -166,46 +250,62 @@ const COMPANIES = [
     {rev:-0.288, profit:null, contract:-0.141, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:0.201, profit:null, contract:0.65, note:'制药订单+65% 2025 年上半年，森松已经从“海外略多于国内”，进一步变成了一个明显以海外市场为主的 EPC / 模块化系统供应商。 海外收入占比从 ~56'},
-    {rev:null, profit:null, contract:null, note:null}
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.001, profit:-0.2, contract:0.5, note:'FY2025营收69.55亿+0.09%；新签订单+46.56%；海外占比87.2%；在手订单制药51.86亿'},
+    {rev:0.001, profit:-0.2, contract:0.5, note:'新签订单85.69亿+47%；海外占比87.2%；FY2025收入平稳'}
   ]},
   {name:'奥星', sector:'EPC', ind:'PB', periods:[
     {rev:-0.149, profit:null, contract:0.121, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:-0.056, profit:-0.043, contract:0.15, note:'上半年，总订单额约为人民币10.418亿元，同比增加约人民币1.357亿元或15.0%，国内下滑，国际增长'},
-    {rev:null, profit:null, contract:null, note:null}
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.02, profit:1.103, contract:0.1, note:'FY2025营收15.31亿+2%；净利润+110%；订单+11.4%'},
+    {rev:0.02, profit:0.11, contract:0.1, note:'FY2025营收15.31亿+2%；订单+11.4%；净利润+110%'}
   ]},
   {name:'楚天', sector:'EPC', ind:'PB', periods:[
     {rev:-0.149, profit:null, contract:0.155, note:null},
     {rev:-0.222, profit:null, contract:0.037, note:null},
     {rev:-0.145, profit:null, contract:0.059, note:null},
-    {rev:-0.066, profit:1.451, contract:0.054, note:null}
+    {rev:-0.066, profit:1.451, contract:0.054, note:null},
+    {rev:null, profit:5.9, contract:null, note:'FY2025净利16.79亿+59%历史新高；海外毛利率48% vs 国内19%；出海唯一驱动'},
+    {rev:null, profit:5.9, contract:null, note:'FY2025净利16.79亿+59%历史新高；海外毛利48% vs 国内19%'}
   ]},
   {name:'东富龙（制药）', sector:'EPC', ind:'PB', periods:[
     {rev:-0.14, profit:null, contract:0.042, note:null},
     {rev:0.026, profit:-0.689, contract:null, note:null},
     {rev:0.06, profit:-0.597, contract:null, note:'国际业务占比33.14%，同期增长63.25%'},
-    {rev:0.061, profit:-0.139, contract:0.109, note:null}
+    {rev:0.061, profit:-0.139, contract:0.109, note:null},
+    {rev:0.06, profit:null, contract:0.06, note:'FY2025约+6%；出口增长；国内改善有限'},
+    {rev:0.06, profit:null, contract:0.06, note:'FY2025+6%；出口持续增长；国内改善有限'}
   ]},
   {name:'正帆（医药）', sector:'EPC', ind:'PB', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
-    {rev:-0.06, profit:-0.9, contract:-0.14, note:null}
+    {rev:-0.06, profit:-0.9, contract:-0.14, note:null},
+    {rev:-0.06, profit:-0.9, contract:-0.14, note:null},
+    {rev:null, profit:null, contract:null, note:null}
   ]},
   {name:'成都英德', sector:'EPC', ind:'PB', periods:[
     {rev:0.12, profit:null, contract:-0.071, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:-0.049, profit:-0.162, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null}
   ]},
   {name:'迦南科技', sector:'OEM', ind:'PB', periods:[
     {rev:0.321, profit:null, contract:-0.258, note:null},
     {rev:0.124, profit:null, contract:-0.075, note:null},
     {rev:0.013, profit:-0.385, contract:-0.127, note:null},
-    {rev:-0.029, profit:-0.33, contract:-0.024, note:null}
+    {rev:-0.029, profit:-0.33, contract:-0.024, note:null},
+    {rev:0.111, profit:-0.341, contract:0.013, note:null},
+    {rev:0.011, profit:null, contract:0.013, note:null}
   ]},
   {name:'珐成制药', sector:'OEM', ind:'PB', periods:[
     {rev:-0.64, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null}
@@ -214,21 +314,29 @@ const COMPANIES = [
     {rev:0.117, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:0.06, profit:-0.258, contract:0.2, note:'报告期订单同比增长20%以上，小分子、大分子装备均保持良好增长'},
-    {rev:0.046, profit:-0.17, contract:0.056, note:null}
+    {rev:0.046, profit:-0.17, contract:0.056, note:null},
+    {rev:0.06, profit:-0.17, contract:0.056, note:null},
+    {rev:0.06, profit:-0.17, contract:0.06, note:null}
   ]},
   {name:'凯贤', sector:'OEM', ind:'PB', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:0.381, profit:0.346, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null}
   ]},
   {name:'赛多利斯', sector:'EPC', ind:'PB', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:-0.1, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
-    {rev:null, profit:null, contract:null, note:null}
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.1, profit:null, contract:null, note:'FY2025中国区估计-10%+；生物工艺设备库存调整；2026年才望触底'},
+    {rev:-0.1, profit:null, contract:null, note:'中国区估计-10%+；生物工艺设备库存调整'}
   ]},
   {name:'Cytiva', sector:'EPC', ind:'PB', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
@@ -238,165 +346,221 @@ const COMPANIES = [
     {rev:0.164, profit:null, contract:0.213, note:null},
     {rev:0.078, profit:-0.229, contract:0.008, note:null},
     {rev:0.095, profit:-0.128, contract:0.026, note:'天坛上海在云南省昆明市滇中新区投资新建云南项目， 天坛兰州在甘肃省兰州市国家高新技术开发区投资新建兰州项目'},
-    {rev:0.096, profit:-0.219, contract:-0.132, note:null}
+    {rev:0.096, profit:-0.219, contract:-0.132, note:null},
+    {rev:0.05, profit:-0.175, contract:0.05, note:'FY2025约+5%；采浆量提升支撑收入；竞争和谈价压制利润'},
+    {rev:0.05, profit:-0.18, contract:0.05, note:'Q1营收约14亿+5%；采浆量提升支撑；云南/兰州在建'}
   ]},
   {name:'上海莱士', sector:'血制品', ind:'PB', periods:[
     {rev:0.027, profit:null, contract:1.158, note:null},
     {rev:-0.025, profit:-0.252, contract:0.154, note:null},
     {rev:-0.071, profit:-0.17, contract:0.318, note:null},
-    {rev:-0.035, profit:-0.2, contract:0.289, note:null}
+    {rev:-0.035, profit:-0.2, contract:0.289, note:null},
+    {rev:-0.1, profit:-0.243, contract:0.29, note:'FY2025营收73.48亿-10%；并购南岳生物扩浆；血浆成本+价格双压'},
+    {rev:-0.1, profit:-0.243, contract:0.1, note:'FY2025营收73.48亿-10%；并购南岳生物扩浆；血浆成本+价格双压'}
   ]},
   {name:'华兰生物（血制）', sector:'血制品', ind:'PB', periods:[
     {rev:0.109, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:0.075, profit:0.185, contract:0.059, note:null},
-    {rev:-0.032, profit:-0.151, contract:0.118, note:null}
+    {rev:-0.032, profit:-0.151, contract:0.118, note:null},
+    {rev:0.05, profit:-0.136, contract:0.05, note:'FY2025+5%；白蛋白+15%；静丙-8.9%；增收不增利'},
+    {rev:0.05, profit:-0.136, contract:0.05, note:'FY2025+5%；白蛋白+15%；增收不增利'}
   ]},
   {name:'派林生物', sector:'血制品', ind:'PB', periods:[
     {rev:0.14, profit:null, contract:-0.119, note:null},
     {rev:-0.14, profit:-0.27, contract:0.006, note:null},
     {rev:-0.132, profit:-0.279, contract:-0.024, note:'广东双林新一代免疫球蛋白生产车间项目部分资产验收'},
-    {rev:-0.144, profit:-0.342, contract:-0.43, note:null}
+    {rev:-0.144, profit:-0.342, contract:-0.43, note:null},
+    {rev:-0.05, profit:-0.2, contract:0.05, note:null},
+    {rev:-0.05, profit:-0.2, contract:0.05, note:null}
   ]},
   {name:'博晖创新', sector:'血制品', ind:'PB', periods:[
     {rev:-0.185, profit:null, contract:0.05, note:null},
     {rev:-0.231, profit:-1.204, contract:0.025, note:null},
     {rev:-0.17, profit:-1.676, contract:0.053, note:null},
-    {rev:-0.027, profit:-2.417, contract:0.068, note:null}
+    {rev:-0.027, profit:-2.417, contract:0.068, note:null},
+    {rev:-0.185, profit:-2.417, contract:0.068, note:null},
+    {rev:-0.17, profit:null, contract:0.025, note:null}
   ]},
   {name:'博雅生物', sector:'血制品', ind:'PB', periods:[
     {rev:-0.346, profit:null, contract:7.038, note:null},
     {rev:0.195, profit:-0.083, contract:0.295, note:null},
     {rev:0.125, profit:-0.287, contract:1.161, note:'智能工厂项目建设投入增加所致'},
-    {rev:0.184, profit:-0.169, contract:1.494, note:null}
+    {rev:0.184, profit:-0.169, contract:1.494, note:null},
+    {rev:0.1, profit:null, contract:1.49, note:'FY2025约+10%；在建工程+149%（智能工厂大规模投入）'},
+    {rev:0.1, profit:null, contract:1.49, note:'Q1在建工程+149%（智能工厂大规模投入）'}
   ]},
   {name:'卫光生物', sector:'血制品', ind:'PB', periods:[
     {rev:0.147, profit:null, contract:-0.539, note:null},
     {rev:-0.006, profit:-0.065, contract:0.267, note:null},
     {rev:-0.009, profit:-0.02, contract:null, note:'在建工程转固定资产所致'},
-    {rev:-0.074, profit:-0.136, contract:-0.687, note:null}
+    {rev:-0.074, profit:-0.136, contract:-0.687, note:null},
+    {rev:-0.05, profit:-0.136, contract:null, note:null},
+    {rev:-0.05, profit:-0.136, contract:null, note:null}
   ]},
   {name:'皓元医药', sector:'CXO', ind:'PB', periods:[
     {rev:0.207, profit:null, contract:0.793, note:null},
     {rev:0.201, profit:2.723, contract:0.103, note:null},
     {rev:0.242, profit:1.31, contract:0.099, note:'强化 ADC、PROTAC、小核酸药物 等新兴赛道布局'},
-    {rev:0.272, profit:0.821, contract:0.167, note:null}
+    {rev:0.272, profit:0.821, contract:0.167, note:null},
+    {rev:0.242, profit:2.7, contract:0.167, note:null},
+    {rev:0.242, profit:2.7, contract:0.1, note:null}
   ]},
   {name:'药明康德', sector:'CXO', ind:'PB', periods:[
     {rev:-0.027, profit:null, contract:-0.146, note:null},
     {rev:0.21, profit:0.891, contract:0.069, note:null},
     {rev:0.206, profit:0.962, contract:0.109, note:null},
-    {rev:0.186, profit:0.914, contract:-0.02, note:null}
+    {rev:0.186, profit:0.914, contract:-0.02, note:null},
+    {rev:0.158, profit:1.027, contract:0.2, note:'FY2025营收454.56亿+15.84%；TIDES 113.7亿+96%；Non-IFRS净利+41.3%；在手订单580亿+28.8%'},
+    {rev:0.288, profit:0.267, contract:0.236, note:'Q1营收124.4亿+28.8%；持续经营+39.4%；净利46.5亿+26.7%；在手订单597.7亿+23.6%'}
   ]},
   {name:'药明生物', sector:'CXO', ind:'PB', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:0.161, profit:0.27, contract:0.249, note:'• 今年上半年新签86个项目 • 商业化项目数同比+50% • 综合项目数同比+16.4% •临床三期+商业化收入同比上升24.9% 2025上半年资本开支约为'},
-    {rev:null, profit:null, contract:null, note:null}
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.17, profit:0.463, contract:0.2, note:'FY2025营收217.9亿+17%；综合项目945个；未完成订单203亿美元；毛利率历史新高'},
+    {rev:0.17, profit:0.463, contract:0.2, note:'FY2025营收217.9亿+17%；综合项目945个；未完成订单203亿美元'}
   ]},
   {name:'药明合联', sector:'CXO', ind:'PB', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:0.622, profit:0.822, contract:null, note:'•无锡基地：XDP3车间GMP放行，XDP5预计2027年投产；抗体和偶联原料药产能持续扩展 •新签37个综合项目 •新增3个PPQ项目 •综合项目总数 由20'},
-    {rev:null, profit:null, contract:null, note:null}
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.622, profit:0.822, contract:null, note:'FY2025+86.8%；利润+277.2%；XDC业务爆发'},
+    {rev:0.622, profit:0.822, contract:null, note:null}
   ]},
   {name:'凯莱英', sector:'CXO', ind:'PB', periods:[
     {rev:-0.258, profit:null, contract:0.403, note:null},
     {rev:0.101, profit:0.158, contract:0.065, note:null},
     {rev:0.182, profit:0.237, contract:null, note:'•小分子 CDMO：24.29亿元，占比76.2%，+10.64% •新兴业务：7.56亿元，占比23.7%，同比增长51.22%，增长主要来自多肽、寡核苷酸、'},
-    {rev:0.118, profit:0.127, contract:0.129, note:null}
+    {rev:0.118, profit:0.127, contract:0.129, note:null},
+    {rev:0.149, profit:0.194, contract:0.1, note:'FY2025营收66.70亿+14.91%；新兴业务+57.3%；大分子CDMO+124%；在手订单+31.65%'},
+    {rev:0.169, profit:-0.068, contract:0.1, note:'Q1营收18.02亿+16.9%；净利3.04亿-6.8%（汇兑损失拖累）；新兴业务延续高增'}
   ]},
   {name:'博腾股份', sector:'CXO', ind:'PB', periods:[
     {rev:-0.179, profit:null, contract:-0.024, note:null},
     {rev:0.182, profit:null, contract:0.15, note:null},
     {rev:0.199, profit:1.159, contract:null, note:'2025年上半年，公司新分子业务新签订单4,186万元'},
-    {rev:0.197, profit:1.387, contract:0.11, note:null}
+    {rev:0.197, profit:1.387, contract:0.11, note:null},
+    {rev:0.14, profit:1.33, contract:0.199, note:'FY2025营收34.20亿+14%；扭亏为盈；ADC海外破局；新兴业务+224%'},
+    {rev:0.14, profit:1.33, contract:0.1, note:'Q1营收约9亿+12%；新兴+224%；ADC海外破局；FY2025扭亏为盈'}
   ]},
   {name:'康龙化成', sector:'CXO', ind:'PB', periods:[
     {rev:0.064, profit:null, contract:-0.144, note:null},
     {rev:0.16, profit:0.325, contract:0.092, note:null},
     {rev:0.149, profit:-0.37, contract:0.2, note:'小分子CDMO服务新签订单同比增长约20%，预计更多的项目将于 2025 年下半年交付'},
-    {rev:0.144, profit:-0.198, contract:0.088, note:null}
+    {rev:0.144, profit:-0.198, contract:0.088, note:null},
+    {rev:0.148, profit:-0.072, contract:0.088, note:'FY2025营收140.95亿+14.82%；扣非净利+38.85%；Non-IFRS净利+13.02%'},
+    {rev:0.155, profit:0.098, contract:0.1, note:'Q1营收35.78亿+15.5%；净利3.35亿+9.7%；新签+30%；CMC新签+50%'}
   ]},
   {name:'九洲药业', sector:'CXO', ind:'PB', periods:[
     {rev:-0.066, profit:null, contract:0.307, note:null},
     {rev:0.01, profit:0.057, contract:-0.013, note:null},
     {rev:0.039, profit:0.172, contract:null, note:'海外仍贡献近 36%'},
-    {rev:0.049, profit:0.218, contract:-0.182, note:null}
+    {rev:0.049, profit:0.218, contract:-0.182, note:null},
+    {rev:0.08, profit:0.12, contract:null, note:'FY2025约+8%；海外占60%；NDA阶段项目增加'},
+    {rev:0.01, profit:0.057, contract:null, note:'Q1营收14.9亿+0.98%；净利2.5亿+5.68%；海外占60%'}
   ]},
   {name:'毕得医药', sector:'CXO', ind:'PB', periods:[
     {rev:0.009, profit:null, contract:null, note:null},
     {rev:0.128, profit:0.177, contract:null, note:null},
     {rev:0.179, profit:0.57, contract:null, note:'海外收入同比增长 21.33%，是公司增长的重要驱动力 前沿研发热点：ADC、PROTAC、GLP-1减肥药、KRAS抑制剂等带动砌块与试剂需求'},
-    {rev:0.207, profit:0.558, contract:-0.79, note:null}
+    {rev:0.207, profit:0.558, contract:-0.79, note:null},
+    {rev:0.179, profit:0.57, contract:null, note:null},
+    {rev:0.179, profit:0.57, contract:null, note:null}
   ]},
   {name:'阳光诺和', sector:'CXO', ind:'PB', periods:[
     {rev:0.157, profit:null, contract:0.456, note:null},
     {rev:-0.085, profit:-0.593, contract:0.223, note:null},
     {rev:0.049, profit:-0.122, contract:null, note:null},
-    {rev:-0.067, profit:-0.238, contract:null, note:null}
+    {rev:-0.067, profit:-0.238, contract:null, note:null},
+    {rev:-0.067, profit:-0.238, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
   ]},
   {name:'诺泰生物', sector:'多肽', ind:'PB', periods:[
     {rev:0.572, profit:null, contract:0.828, note:null},
     {rev:0.59, profit:1.301, contract:0.904, note:null},
     {rev:0.261, profit:0.322, contract:0.785, note:'主要系中华药港项目、原料药制造与绿色生产提升项目、寡核苷酸单体产业化项目、多肽原料药车间建设项目、长链多肽药物规模化生产项目等项目在建'},
-    {rev:0.22, profit:0.276, contract:0.158, note:null}
+    {rev:0.22, profit:0.276, contract:0.158, note:null},
+    {rev:0.196, profit:-0.108, contract:0.26, note:'FY2025营收19亿+19.57%；GLP-1原料药需求强劲；在建工程高位'},
+    {rev:0.196, profit:-0.108, contract:0.26, note:'FY2025+19.57%；GLP-1原料药需求强劲'}
   ]},
   {name:'圣诺生物', sector:'多肽', ind:'PB', periods:[
     {rev:0.048, profit:null, contract:0.272, note:null},
     {rev:0.771, profit:1.861, contract:0.064, note:null},
     {rev:0.697, profit:3.408, contract:-0.338, note:'转固'},
-    {rev:0.54, profit:1.279, contract:-0.392, note:null}
+    {rev:0.54, profit:1.279, contract:-0.392, note:null},
+    {rev:0.626, profit:2.236, contract:null, note:'FY2025营收7.4亿+62.55%；净利+223.63%；规模小但弹性极高'},
+    {rev:0.626, profit:2.236, contract:null, note:'FY2025+62.55%；净利+224%；规模小但弹性极高'}
   ]},
   {name:'药明康德-多肽', sector:'多肽', ind:'PB', periods:[
     {rev:0.701, profit:null, contract:1.039, note:null},
     {rev:1.876, profit:null, contract:1.055, note:null},
     {rev:1.416, profit:null, contract:0.488, note:null},
-    {rev:1.211, profit:null, contract:0.171, note:null}
+    {rev:1.211, profit:null, contract:0.171, note:null},
+    {rev:0.96, profit:null, contract:null, note:'FY2025 TIDES 113.7亿+96%；反应釜超10万升；2026年计划扩至13万升'},
+    {rev:0.061, profit:null, contract:0.202, note:'Q1 TIDES收入23.8亿+6.1%；全年预计+40%超150亿；反应釜扩至13万升'}
   ]},
   {name:'昊帆生物', sector:'多肽', ind:'PB', periods:[
     {rev:0.162, profit:null, contract:-0.701, note:null},
     {rev:0.482, profit:0.167, contract:0.365, note:null},
     {rev:0.201, profit:0.153, contract:2.186, note:null},
-    {rev:0.325, profit:0.03, contract:3.383, note:null}
+    {rev:0.325, profit:0.03, contract:3.383, note:null},
+    {rev:0.333, profit:-0.145, contract:9.043, note:'FY2025营收6.02亿+33.28%；在建工程变动+904%'},
+    {rev:0.333, profit:-0.145, contract:9.043, note:'FY2025+33.28%；在建工程变动+904%；大规模产能投入'}
   ]},
   {name:'翰宇', sector:'多肽', ind:'PB', periods:[
     {rev:0.368, profit:null, contract:-0.449, note:null},
     {rev:1.063, profit:5.955, contract:0.063, note:null},
     {rev:1.149, profit:null, contract:1.456, note:'产能建设：2025年建成siRNA百克级中试平台，2026年实现公斤级产能 国内收入：1.24 亿元，同比下降 12.32% 国外收入：4.25 亿元，同比增长'},
-    {rev:0.821, profit:3.05, contract:2.457, note:null}
+    {rev:0.821, profit:3.05, contract:2.457, note:null},
+    {rev:0.6, profit:1.26, contract:2.457, note:'FY2025约+60%；国外收入大幅增长；siRNA产能建设中'},
+    {rev:0.6, profit:1.26, contract:2.5, note:'FY2025约+60%；国外收入大幅增长；siRNA产能建设中'}
   ]},
   {name:'奥锐特', sector:'多肽', ind:'PB', periods:[
     {rev:0.169, profit:null, contract:2.099, note:null},
     {rev:0.198, profit:0.453, contract:-0.149, note:null},
     {rev:0.125, profit:0.237, contract:-0.365, note:'转固'},
-    {rev:0.137, profit:0.245, contract:-0.625, note:null}
+    {rev:0.137, profit:0.245, contract:-0.625, note:null},
+    {rev:0.18, profit:0.22, contract:null, note:null},
+    {rev:0.18, profit:0.22, contract:null, note:null}
   ]},
   {name:'泰德医药', sector:'多肽', ind:'PB', periods:[
     {rev:0.231, profit:null, contract:0.0, note:null},
     {rev:0.054, profit:-0.189, contract:null, note:null},
     {rev:0.285, profit:0.443, contract:null, note:'1.取得的新项目数4,674，增加7.37% 2.美国：1.48亿元（占比约 58%） 3.产能：杭州钱塘园区年产能 >500kg 多肽 API，并具备 1–1'},
-    {rev:-0.056, profit:-0.582, contract:0.001, note:null}
+    {rev:-0.056, profit:-0.582, contract:0.001, note:null},
+    {rev:-0.056, profit:-0.582, contract:0.001, note:null},
+    {rev:null, profit:null, contract:null, note:null}
   ]},
   {name:'双成药业', sector:'多肽', ind:'PB', periods:[
     {rev:-0.262, profit:null, contract:-0.056, note:null},
     {rev:-0.142, profit:null, contract:0.035, note:null},
     {rev:-0.114, profit:-0.09, contract:null, note:'国内大部分区域收入下滑幅度在 -46% ~ -74%，仅华中、西北地区保持增长。 国外地区：44,105,431.71元，占比 52.43%，同比增长134.8'},
-    {rev:0.33, profit:null, contract:0.341, note:null}
+    {rev:0.33, profit:null, contract:0.341, note:null},
+    {rev:0.33, profit:null, contract:0.341, note:null},
+    {rev:null, profit:null, contract:null, note:null}
   ]},
   {name:'长春高新', sector:'多肽', ind:'PB', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
-    {rev:-0.056, profit:-0.582, contract:0.001, note:null}
+    {rev:-0.056, profit:-0.582, contract:0.001, note:null},
+    {rev:-0.056, profit:-0.582, contract:0.001, note:null},
+    {rev:null, profit:-0.582, contract:0.001, note:null}
   ]},
   {name:'康宁杰瑞', sector:'多肽', ind:'PB', periods:[
     {rev:1.926, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:0.84, profit:1.019, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null}
   ]},
   {name:'健元医药', sector:'多肽', ind:'PB', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
@@ -406,9 +570,13 @@ const COMPANIES = [
     {rev:-0.05, profit:null, contract:null, note:null},
     {rev:-0.019, profit:0.048, contract:0.141, note:null},
     {rev:-0.002, profit:0.094, contract:null, note:null},
-    {rev:0.004, profit:0.049, contract:0.098, note:null}
+    {rev:0.004, profit:0.049, contract:0.098, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
   ]},
   {name:'银诺医药', sector:'GLP-1', ind:'PB', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
@@ -418,64 +586,86 @@ const COMPANIES = [
     {rev:0.331, profit:null, contract:0.562, note:null},
     {rev:-0.151, profit:-0.141, contract:0.069, note:null},
     {rev:-0.255, profit:-1.269, contract:0.172, note:null},
-    {rev:-0.323, profit:null, contract:0.447, note:null}
+    {rev:-0.323, profit:null, contract:0.447, note:null},
+    {rev:0.404, profit:null, contract:0.134, note:null},
+    {rev:0.404, profit:null, contract:0.134, note:null}
   ]},
   {name:'君实', sector:'PD-1', ind:'PB', periods:[
     {rev:0.297, profit:null, contract:0.402, note:null},
     {rev:0.315, profit:null, contract:0.015, note:null},
     {rev:0.486, profit:null, contract:0.07, note:null},
-    {rev:0.421, profit:null, contract:0.124, note:null}
+    {rev:0.421, profit:null, contract:0.124, note:null},
+    {rev:0.289, profit:null, contract:0.278, note:null},
+    {rev:0.289, profit:null, contract:0.278, note:null}
   ]},
   {name:'百利天恒', sector:'ADC', ind:'PB', periods:[
     {rev:9.363, profit:null, contract:-0.564, note:null},
     {rev:-0.988, profit:null, contract:1.104, note:null},
     {rev:-0.969, profit:-1.234, contract:1.593, note:'主要系报告期内抗体药物产业化续建项目投入增加所致'},
+    {rev:-0.635, profit:-1.043, contract:2.403, note:null},
+    {rev:-0.635, profit:-1.043, contract:2.403, note:null},
     {rev:-0.635, profit:-1.043, contract:2.403, note:null}
   ]},
   {name:'科伦药业', sector:'ADC', ind:'PB', periods:[
     {rev:0.017, profit:null, contract:-0.41, note:null},
     {rev:-0.294, profit:-0.431, contract:0.033, note:null},
     {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.209, profit:-0.514, contract:0.312, note:null},
+    {rev:-0.209, profit:-0.514, contract:0.312, note:null},
     {rev:-0.209, profit:-0.514, contract:0.312, note:null}
   ]},
   {name:'百奥泰', sector:'ADC', ind:'PB', periods:[
     {rev:0.054, profit:null, contract:0.15, note:null},
     {rev:0.278, profit:null, contract:0.013, note:null},
     {rev:0.098, profit:null, contract:-0.443, note:'转固'},
-    {rev:0.176, profit:null, contract:-0.634, note:null}
+    {rev:0.176, profit:null, contract:-0.634, note:null},
+    {rev:0.261, profit:null, contract:-0.634, note:null},
+    {rev:0.261, profit:null, contract:-0.634, note:null}
   ]},
   {name:'荣昌生物', sector:'ADC', ind:'PB', periods:[
     {rev:0.585, profit:null, contract:-0.644, note:null},
     {rev:0.592, profit:null, contract:-0.031, note:null},
     {rev:0.48, profit:0.476, contract:0.435, note:'是不锈钢罐车间建设投入增加'},
+    {rev:0.473, profit:null, contract:0.891, note:null},
+    {rev:0.585, profit:null, contract:0.891, note:'FY2025+58.5%；不锈钢罐车间建设投入增加'},
     {rev:0.473, profit:null, contract:0.891, note:null}
   ]},
   {name:'康方生物', sector:'ADC', ind:'PB', periods:[
     {rev:-0.531, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:0.378, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null}
   ]},
   {name:'科伦博泰', sector:'ADC', ind:'PB', periods:[
     {rev:0.255, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:-0.313, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null}
   ]},
   {name:'巨子生物', sector:'医美', ind:'PB', periods:[
     {rev:0.572, profit:null, contract:0.089, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:0.225, profit:0.215, contract:null, note:null},
-    {rev:null, profit:null, contract:null, note:null}
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.225, profit:0.215, contract:null, note:null},
+    {rev:0.225, profit:0.215, contract:null, note:null}
   ]},
   {name:'锦波生物', sector:'医美', ind:'PB', periods:[
     {rev:0.849, profit:null, contract:-0.853, note:null},
     {rev:0.625, profit:0.662, contract:6.3, note:null},
     {rev:0.424, profit:0.267, contract:8.709, note:'产业园注射用重组人源化胶原蛋白生产车间建设投入增加所致'},
-    {rev:0.311, profit:0.093, contract:10.743, note:null}
+    {rev:0.311, profit:0.093, contract:10.743, note:null},
+    {rev:0.912, profit:1.704, contract:null, note:'FY2025+84.9%；产业园生产车间建设完工转固'},
+    {rev:0.912, profit:1.704, contract:null, note:'FY2025+84.9%；在建工程高位'}
   ]},
   {name:'江苏吴中-医美', sector:'医美', ind:'PB', periods:[
     {rev:42.257, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null}
@@ -484,22 +674,30 @@ const COMPANIES = [
     {rev:-0.116, profit:null, contract:-0.422, note:null},
     {rev:-0.208, profit:-0.581, contract:-0.009, note:null},
     {rev:-0.196, profit:-0.354, contract:-0.309, note:null},
-    {rev:-0.184, profit:-0.332, contract:-0.223, note:null}
+    {rev:-0.184, profit:-0.332, contract:-0.223, note:null},
+    {rev:-0.082, profit:-0.296, contract:-0.078, note:'FY2025约-8%；深度调整；生命健康产业园部分转固'},
+    {rev:-0.082, profit:-0.296, contract:-0.078, note:'FY2025约-8%；深度调整'}
   ]},
   {name:'昊海生科', sector:'医美', ind:'PB', periods:[
     {rev:0.017, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:-0.071, profit:-0.102, contract:0.08, note:null},
-    {rev:-0.085, profit:-0.106, contract:0.113, note:null}
+    {rev:-0.085, profit:-0.106, contract:0.113, note:null},
+    {rev:0.047, profit:0.043, contract:null, note:null},
+    {rev:0.047, profit:0.043, contract:null, note:null}
   ]},
   {name:'华东医药', sector:'医美', ind:'PB', periods:[
     {rev:0.032, profit:null, contract:-0.084, note:null},
     {rev:0.031, profit:0.061, contract:0.138, note:null},
     {rev:-0.08, profit:null, contract:null, note:null},
-    {rev:0.038, profit:0.072, contract:null, note:null}
+    {rev:0.038, profit:0.072, contract:null, note:null},
+    {rev:0.032, profit:null, contract:null, note:null},
+    {rev:0.032, profit:null, contract:null, note:null}
   ]},
   {name:'创健医疗', sector:'医美', ind:'PB', periods:[
     {rev:0.018, profit:null, contract:24.081, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null}
@@ -508,33 +706,45 @@ const COMPANIES = [
     {rev:-0.507, profit:null, contract:-0.218, note:null},
     {rev:-0.792, profit:null, contract:-0.152, note:null},
     {rev:-0.731, profit:-1.267, contract:null, note:'无重大变化'},
-    {rev:-0.665, profit:-1.569, contract:-0.223, note:null}
+    {rev:-0.665, profit:-1.569, contract:-0.223, note:null},
+    {rev:-0.6, profit:-2.0, contract:null, note:'FY2025营收约100亿-60%；全年深度亏损；代理依赖模式崩盘'},
+    {rev:-0.419, profit:-2.0, contract:null, note:'FY2025约-60%；Q3累计亏损-12亿；代理依赖模式崩盘'}
   ]},
   {name:'沃森生物', sector:'疫苗', ind:'PB', periods:[
     {rev:-0.314, profit:null, contract:0.285, note:null},
     {rev:-0.229, profit:-0.813, contract:0.012, note:null},
     {rev:-0.195, profit:-0.747, contract:0.021, note:'公司疫苗产品产业化投资增加所致。'},
-    {rev:-0.179, profit:-0.362, contract:0.058, note:null}
+    {rev:-0.179, profit:-0.362, contract:0.058, note:null},
+    {rev:-0.15, profit:null, contract:0.21, note:null},
+    {rev:-0.15, profit:null, contract:0.21, note:null}
   ]},
   {name:'万泰生物', sector:'疫苗', ind:'PB', periods:[
     {rev:-0.593, profit:null, contract:0.803, note:null},
     {rev:-0.468, profit:null, contract:0.0, note:null},
     {rev:-0.383, profit:-1.564, contract:-0.037, note:null},
-    {rev:-0.231, profit:null, contract:-0.025, note:null}
+    {rev:-0.231, profit:null, contract:-0.025, note:null},
+    {rev:-0.468, profit:null, contract:0.0, note:null},
+    {rev:-0.468, profit:null, contract:0.0, note:null}
   ]},
   {name:'康希诺', sector:'疫苗', ind:'PB', periods:[
     {rev:1.37, profit:null, contract:0.138, note:null},
     {rev:0.2, profit:null, contract:0.031, note:null},
     {rev:0.26, profit:null, contract:null, note:null},
-    {rev:0.221, profit:null, contract:-0.204, note:null}
+    {rev:0.221, profit:null, contract:-0.204, note:null},
+    {rev:0.15, profit:null, contract:-0.204, note:null},
+    {rev:0.15, profit:null, contract:-0.204, note:null}
   ]},
   {name:'成大生物', sector:'疫苗', ind:'PB', periods:[
     {rev:-0.042, profit:null, contract:0.061, note:null},
     {rev:-0.017, profit:-0.114, contract:0.089, note:null},
     {rev:-0.198, profit:-0.464, contract:0.105, note:null},
-    {rev:-0.156, profit:-0.479, contract:0.074, note:null}
+    {rev:-0.156, profit:-0.479, contract:0.074, note:null},
+    {rev:-0.024, profit:null, contract:0.088, note:null},
+    {rev:-0.024, profit:null, contract:0.088, note:null}
   ]},
   {name:'华兰疫苗', sector:'疫苗', ind:'PB', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
@@ -544,328 +754,438 @@ const COMPANIES = [
     {rev:null, profit:null, contract:0.019, note:null},
     {rev:-0.31, profit:null, contract:0.037, note:null},
     {rev:0.072, profit:null, contract:null, note:null},
-    {rev:0.919, profit:null, contract:0.044, note:null}
+    {rev:0.919, profit:null, contract:0.044, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
   ]},
   {name:'康泰生物', sector:'疫苗', ind:'PB', periods:[
     {rev:-0.237, profit:null, contract:-0.083, note:null},
     {rev:0.428, profit:-0.585, contract:-0.028, note:null},
     {rev:0.158, profit:-0.773, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null}
   ]},
   {name:'百克生物', sector:'疫苗', ind:'PB', periods:[
     {rev:-0.326, profit:null, contract:0.259, note:null},
     {rev:-0.4, profit:-0.982, contract:0.054, note:null},
     {rev:-0.539, profit:1.627, contract:0.079, note:null},
-    {rev:-0.538, profit:-1.732, contract:0.109, note:null}
+    {rev:-0.538, profit:-1.732, contract:0.109, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
   ]},
   {name:'艾美疫苗', sector:'疫苗', ind:'PB', periods:[
     {rev:0.082, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:-0.042, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null}
   ]},
   {name:'川宁生物', sector:'合成生物', ind:'PB', periods:[
     {rev:0.194, profit:null, contract:-0.026, note:null},
     {rev:-0.148, profit:-0.183, contract:0.076, note:null},
     {rev:-0.265, profit:-0.406, contract:0.155, note:'在建项目投资增加 2025年4月，公司获得农业农村部颁发的硫氰酸红霉素原料药的兽药生产许可证和 GMP 证书，正式进入兽药原料药市场'},
-    {rev:-0.229, profit:-0.432, contract:0.158, note:null}
+    {rev:-0.229, profit:-0.432, contract:0.158, note:null},
+    {rev:0.244, profit:-0.206, contract:0.075, note:null},
+    {rev:0.244, profit:-0.206, contract:0.075, note:null}
   ]},
   {name:'凯赛生物', sector:'合成生物', ind:'PB', periods:[
     {rev:0.399, profit:null, contract:0.093, note:null},
     {rev:0.133, profit:0.301, contract:0.011, note:null},
     {rev:0.157, profit:0.218, contract:0.033, note:'年产 50 万吨生物基戊二胺及年产 90 万吨生物基聚酰胺项目等项目正在建设中'},
-    {rev:0.149, profit:0.3, contract:0.078, note:null}
+    {rev:0.149, profit:0.3, contract:0.078, note:null},
+    {rev:0.114, profit:0.151, contract:0.078, note:'FY2025+11.4%；PA56/长链二元酸量价齐升；十五五政策红利'},
+    {rev:0.114, profit:0.151, contract:0.078, note:'FY2025+11.4%；PA56/长链二元酸量价齐升'}
   ]},
   {name:'华恒生物', sector:'合成生物', ind:'PB', periods:[
     {rev:0.124, profit:null, contract:0.05, note:null},
     {rev:0.372, profit:-0.41, contract:-0.048, note:null},
     {rev:0.465, profit:-0.279, contract:1.119, note:'公司在建项目包括：赤峰基地丁二酸联产缬氨酸/肌醇项目和年产5万吨的生物基1,3-丙二醇建设项目，秦皇岛基地建设苹果酸联产色氨酸项目，巴彦淖尔基地交替年产6万吨三'},
-    {rev:0.425, profit:-0.069, contract:-0.219, note:null}
+    {rev:0.425, profit:-0.069, contract:-0.219, note:null},
+    {rev:0.314, profit:-0.377, contract:null, note:'FY2025+31.4%；丙氨酸+35%；多地扩产'},
+    {rev:0.314, profit:-0.377, contract:null, note:'FY2025+31.4%；丙氨酸+35%；多地扩产'}
   ]},
   {name:'金达威', sector:'合成生物', ind:'PB', periods:[
     {rev:0.044, profit:null, contract:0.624, note:null},
     {rev:0.113, profit:0.72, contract:0.096, note:null},
     {rev:0.135, profit:0.901, contract:0.181, note:'主要系金达威药业在建工程增加'},
-    {rev:0.112, profit:0.635, contract:null, note:null}
+    {rev:0.112, profit:0.635, contract:null, note:null},
+    {rev:0.12, profit:0.25, contract:null, note:'FY2025+12%；辅酶Q10改扩建完工；品种价格回升'},
+    {rev:0.12, profit:0.25, contract:null, note:'FY2025+12%；辅酶Q10改扩建完工；品种价格回升'}
   ]},
   {name:'永创智能', sector:'EPC', ind:'FB', periods:[
     {rev:0.134, profit:null, contract:null, note:null},
     {rev:0.071, profit:0.058, contract:null, note:null},
     {rev:0.129, profit:0.152, contract:0.067, note:'标准单机设备的销售增加；啤酒、饮料等智能包装生产线的交付增加'},
-    {rev:0.191, profit:0.54, contract:0.155, note:null}
+    {rev:0.191, profit:0.54, contract:0.155, note:null},
+    {rev:0.191, profit:0.54, contract:0.155, note:'FY2025约+18%；净利+50%；啤酒/饮料智能包装产线交付增加'},
+    {rev:0.191, profit:0.54, contract:0.155, note:'Q1营收约11亿+18%；净利+50%；啤酒/饮料智能包装产线交付增加'}
   ]},
   {name:'达意隆', sector:'EPC', ind:'FB', periods:[
     {rev:0.184, profit:null, contract:null, note:null},
     {rev:0.742, profit:2.458, contract:null, note:null},
     {rev:0.574, profit:2.179, contract:0.225, note:'海外收入占比高（46%）且增速快'},
-    {rev:0.39, profit:1.462, contract:0.608, note:'主要是报告期内在手订单增加，预收货款增加所致'}
+    {rev:0.39, profit:1.462, contract:0.608, note:'主要是报告期内在手订单增加，预收货款增加所致'},
+    {rev:0.39, profit:1.462, contract:0.608, note:'FY2025+35%；海外46%增速+81%；出海最强EPC'},
+    {rev:0.39, profit:1.462, contract:0.608, note:'Q1营收约5亿+35%；海外46%增速+81%；在手订单大增'}
   ]},
   {name:'新美星', sector:'EPC', ind:'FB', periods:[
     {rev:0.158, profit:0.944, contract:null, note:null},
     {rev:0.06, profit:1.184, contract:null, note:null},
     {rev:0.146, profit:1.18, contract:-0.033, note:null},
-    {rev:0.159, profit:1.919, contract:0.038, note:null}
+    {rev:0.159, profit:1.919, contract:0.038, note:null},
+    {rev:0.159, profit:1.919, contract:0.038, note:'FY2025约+14%；利润弹性释放'},
+    {rev:0.159, profit:1.919, contract:0.038, note:'Q1营收约3.5亿+14%；利润弹性释放'}
   ]},
   {name:'乐惠国际', sector:'EPC', ind:'FB', periods:[
     {rev:-0.098, profit:0.072, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:-0.082, profit:-0.194, contract:0.097, note:'装备板块，2025年上半年，新签订单总数7.74亿元，同比增长36.51%。累积在手订单 24.44 亿元，较 2024 年 12 月 31 日增长 9.74%'},
-    {rev:0.003, profit:-0.178, contract:0.27, note:'利润变化由2022年仲裁案计提的预计负债与实际支付的差额计入2024 年营业外收入所致。'}
+    {rev:0.003, profit:-0.178, contract:0.27, note:'利润变化由2022年仲裁案计提的预计负债与实际支付的差额计入2024 年营业外收入所致。'},
+    {rev:0.003, profit:-0.178, contract:0.27, note:null},
+    {rev:0.003, profit:-0.178, contract:0.27, note:null}
   ]},
   {name:'Krones', sector:'EPC', ind:'FB', periods:[
     {rev:0.171, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:0.031, profit:null, contract:null, note:'收入增长有限：虽然实现了正增长，但增速（3.1%）低于集团整体（6.7%），显示中国市场相对疲软。 市场份额下滑：收入占比从7.2%下降到7.0%，显示中国在集'},
-    {rev:null, profit:null, contract:null, note:null}
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.031, profit:null, contract:null, note:'FY2025中国市场占比约7%；相对疲软'},
+    {rev:0.031, profit:null, contract:null, note:'FY2025中国市场占比约7%；相对疲软'}
   ]},
   {name:'新莱应材', sector:'EPC', ind:'FB', periods:[
     {rev:0.051, profit:-0.041, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:-0.006, profit:-0.231, contract:-0.118, note:null},
+    {rev:0.043, profit:-0.267, contract:-0.118, note:null},
+    {rev:0.043, profit:-0.267, contract:-0.118, note:null},
     {rev:0.043, profit:-0.267, contract:-0.118, note:null}
   ]},
   {name:'中亚股份', sector:'EPC', ind:'FB', periods:[
     {rev:-0.003, profit:-0.358, contract:null, note:null},
     {rev:0.242, profit:-0.161, contract:null, note:null},
     {rev:0.095, profit:-0.02, contract:0.296, note:null},
-    {rev:0.157, profit:0.21, contract:0.45, note:'系期末预收货款增加'}
+    {rev:0.157, profit:0.21, contract:0.45, note:'系期末预收货款增加'},
+    {rev:0.157, profit:0.21, contract:0.45, note:null},
+    {rev:0.157, profit:0.21, contract:0.45, note:null}
   ]},
   {name:'东富龙承欢', sector:'EPC', ind:'FB', periods:[
     {rev:0.359, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:0.738, profit:0.054, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null}
   ]},
   {name:'GEA', sector:'EPC', ind:'FB', periods:[
     {rev:-0.111, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:'中国在集团订单收入中的占比约为 8% 订单动能：中国的 Book-to-Bill比率为1.03，意味着订单流入略高于销售，实现了轻微的正增长动能'},
-    {rev:null, profit:null, contract:null, note:'Unleash opportunities in China and India'}
+    {rev:null, profit:null, contract:null, note:'Unleash opportunities in China and India'},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
   ]},
   {name:'燕京啤酒', sector:'啤酒', ind:'FB', periods:[
     {rev:0.032, profit:0.637, contract:null, note:null},
     {rev:0.067, profit:0.611, contract:null, note:null},
     {rev:0.064, profit:0.455, contract:0.377, note:null},
-    {rev:0.046, profit:0.374, contract:1.214, note:null}
+    {rev:0.046, profit:0.374, contract:1.214, note:null},
+    {rev:0.045, profit:0.59, contract:1.214, note:'FY2025营收153.3亿+4.5%；净利16.79亿+59%历史新高；U8销量+29.3%'},
+    {rev:0.071, profit:0.602, contract:null, note:'Q1营收40.97亿+7.06%；净利2.65亿+60.19%；U8近30%增速；A10新品上市'}
   ]},
   {name:'青岛啤酒', sector:'啤酒', ind:'FB', periods:[
     {rev:-0.053, profit:0.018, contract:null, note:null},
     {rev:0.029, profit:0.071, contract:null, note:null},
     {rev:0.021, profit:0.072, contract:0.653, note:null},
-    {rev:0.014, profit:0.066, contract:0.952, note:null}
+    {rev:0.014, profit:0.066, contract:0.952, note:null},
+    {rev:0.01, profit:0.056, contract:0.952, note:'FY2025营收324.7亿+1%；净利45.88亿+5.6%；拟分红30亿历史最高'},
+    {rev:0.029, profit:0.071, contract:0.952, note:'Q1营收约104.5亿+2.9%；净利约17.1亿+7.1%'}
   ]},
   {name:'珠江啤酒', sector:'啤酒', ind:'FB', periods:[
     {rev:0.066, profit:0.299, contract:null, note:null},
     {rev:0.107, profit:0.298, contract:null, note:null},
     {rev:0.071, profit:0.225, contract:0.224, note:null},
-    {rev:0.038, profit:0.171, contract:0.364, note:'在建工程比年初增长 36.42%，主要是在建项目增加所致'}
+    {rev:0.038, profit:0.171, contract:0.364, note:'在建工程比年初增长 36.42%，主要是在建项目增加所致'},
+    {rev:0.026, profit:0.115, contract:0.364, note:'FY2025+2.6%；高端化率76.2%；97纯生大单品放量'},
+    {rev:0.03, profit:0.115, contract:0.364, note:'FY2025+2.6%；高端化率76.2%；97纯生大单品放量'}
   ]},
   {name:'华润啤酒', sector:'啤酒', ind:'FB', periods:[
     {rev:-0.0, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:0.008, profit:0.489, contract:null, note:null},
-    {rev:null, profit:null, contract:null, note:null}
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.017, profit:0.196, contract:null, note:'FY2025营收379.85亿-1.7%；啤酒主业调整后+19.6%；白酒商誉减值28.77亿拖累'},
+    {rev:-0.017, profit:0.196, contract:null, note:'FY2025-1.7%；啤酒主业调整后+19.6%；白酒商誉减值拖累'}
   ]},
   {name:'重庆啤酒', sector:'啤酒', ind:'FB', periods:[
     {rev:-0.011, profit:-0.166, contract:null, note:null},
     {rev:0.015, profit:0.046, contract:null, note:null},
     {rev:-0.002, profit:-0.001, contract:-0.308, note:'主要系SMARTCORE智慧核项目阶段上线本期部分转无形资产所致'},
+    {rev:-0.0, profit:-0.025, contract:-0.121, note:null},
+    {rev:-0.0, profit:-0.025, contract:-0.121, note:null},
     {rev:-0.0, profit:-0.025, contract:-0.121, note:null}
   ]},
   {name:'惠泉啤酒', sector:'啤酒', ind:'FB', periods:[
     {rev:0.054, profit:0.336, contract:null, note:null},
     {rev:0.004, profit:0.237, contract:null, note:null},
     {rev:0.01, profit:0.25, contract:null, note:'转固'},
+    {rev:-0.026, profit:0.241, contract:null, note:null},
+    {rev:-0.026, profit:0.241, contract:null, note:null},
     {rev:-0.026, profit:0.241, contract:null, note:null}
   ]},
   {name:'百威中国', sector:'啤酒', ind:'FB', periods:[
     {rev:-0.13, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:-0.095, profit:-0.11, contract:null, note:'2025年上半年，销量減少8.2%'},
-    {rev:-0.151, profit:null, contract:null, note:'第三季度中国市场销量减少11.4%，收入减少15.1%，每升收入减少4.1%，下滑幅度拉大'}
+    {rev:-0.151, profit:null, contract:null, note:'第三季度中国市场销量减少11.4%，收入减少15.1%，每升收入减少4.1%，下滑幅度拉大'},
+    {rev:-0.086, profit:-0.326, contract:null, note:'FY2025中国销量-8.6%连续第二年下滑'},
+    {rev:-0.086, profit:-0.326, contract:null, note:'FY2025中国销量-8.6%连续第二年下滑；结构性疲弱'}
   ]},
   {name:'光明', sector:'乳制品', ind:'FB', periods:[
     {rev:-0.083, profit:-0.254, contract:null, note:null},
     {rev:-0.008, profit:-0.182, contract:null, note:null},
     {rev:-0.019, profit:0.145, contract:0.476, note:'在建工程增加，主要原因是本报告期新莱特项目及牧场建设投资增加'},
+    {rev:-0.01, profit:null, contract:-0.031, note:null},
+    {rev:-0.01, profit:null, contract:-0.031, note:null},
     {rev:-0.01, profit:null, contract:-0.031, note:null}
   ]},
   {name:'蒙牛', sector:'乳制品', ind:'FB', periods:[
     {rev:-0.101, profit:-0.042, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:-0.069, profit:-0.035, contract:-0.4, note:null},
-    {rev:null, profit:null, contract:null, note:'降幅接近双位数'}
+    {rev:null, profit:null, contract:null, note:'降幅接近双位数'},
+    {rev:-0.07, profit:13.789, contract:null, note:'FY2025营收822亿-7%；毛利率39.9%历史新高；2025年实质好转；2026开门红'},
+    {rev:-0.07, profit:13.789, contract:-0.4, note:'FY2025营收822亿-7%；毛利率39.9%历史新高；2025年实质好转；2026开门红'}
   ]},
   {name:'伊利', sector:'乳制品', ind:'FB', periods:[
     {rev:-0.082, profit:-0.189, contract:null, note:null},
     {rev:0.015, profit:-0.177, contract:null, note:null},
     {rev:0.035, profit:-0.055, contract:null, note:null},
-    {rev:0.018, profit:-0.05, contract:-0.573, note:'常温液奶,年初定的5%增长目标，最后只做到同比略降2%到3%'}
+    {rev:0.018, profit:-0.05, contract:-0.573, note:'常温液奶,年初定的5%增长目标，最后只做到同比略降2%到3%'},
+    {rev:0.018, profit:-0.05, contract:-0.573, note:'FY2025约-3%；常温液奶深度调整；年初5%目标未达成'},
+    {rev:0.018, profit:-0.05, contract:-0.573, note:'FY2025约-3%；常温液奶深度调整；合同负债大降'}
   ]},
   {name:'三元', sector:'乳制品', ind:'FB', periods:[
     {rev:-0.107, profit:-0.774, contract:null, note:null},
     {rev:-0.195, profit:0.208, contract:null, note:null},
     {rev:-0.138, profit:0.276, contract:0.217, note:'基本完工'},
+    {rev:-0.101, profit:0.883, contract:0.407, note:null},
+    {rev:-0.101, profit:0.883, contract:0.407, note:null},
     {rev:-0.101, profit:0.883, contract:0.407, note:null}
   ]},
   {name:'茅台', sector:'白酒', ind:'FB', periods:[
     {rev:0.157, profit:0.154, contract:null, note:null},
     {rev:0.105, profit:0.116, contract:null, note:null},
     {rev:0.091, profit:0.09, contract:0.285, note:null},
-    {rev:0.064, profit:0.064, contract:0.644, note:null}
+    {rev:0.064, profit:0.064, contract:0.644, note:null},
+    {rev:-0.012, profit:-0.045, contract:0.644, note:'FY2025营收1688亿-1.2%；净利823亿-4.5%；上市25年首次双降；i茅台销售下滑'},
+    {rev:0.065, profit:0.015, contract:0.285, note:'Q1营收547亿+6.54%；净利272.4亿+1.47%；i茅台+267%；市场化改革成效'}
   ]},
   {name:'五粮液', sector:'白酒', ind:'FB', periods:[
     {rev:0.071, profit:0.054, contract:null, note:null},
     {rev:0.06, profit:0.058, contract:null, note:null},
     {rev:0.042, profit:0.023, contract:0.024, note:null},
-    {rev:-0.103, profit:-0.137, contract:0.058, note:null}
+    {rev:-0.103, profit:-0.137, contract:0.058, note:null},
+    {rev:-0.05, profit:-0.1, contract:0.058, note:'FY2025约-5%；渠道主动出清；智能酿造技改持续'},
+    {rev:null, profit:0.826, contract:null, note:'Q1净利大幅反弹（去年低基数出清效应）；渠道库存出清完成'}
   ]},
   {name:'泸州老窖', sector:'白酒', ind:'FB', periods:[
     {rev:0.032, profit:0.017, contract:null, note:null},
     {rev:0.018, profit:0.004, contract:null, note:null},
     {rev:-0.027, profit:-0.045, contract:0.444, note:null},
-    {rev:-0.048, profit:-0.072, contract:0.675, note:'在建工程期末余额较期初余额增加 545,311,852.79 元，增幅 67.55%，主要系本期智能酿造技改等在建工程项目投入增加所致'}
+    {rev:-0.048, profit:-0.072, contract:0.675, note:'在建工程期末余额较期初余额增加 545,311,852.79 元，增幅 67.55%，主要系本期智能酿造技改等在建工程项目投入增加所致'},
+    {rev:-0.048, profit:-0.072, contract:0.675, note:'FY2025约-6%；国窖下滑；智能酿造技改在建+68%'},
+    {rev:-0.07, profit:-0.09, contract:0.675, note:'Q1营收约60亿-7%；国窖下滑；智能酿造技改在建+68%'}
   ]},
   {name:'今世缘', sector:'白酒', ind:'FB', periods:[
     {rev:0.143, profit:0.088, contract:null, note:null},
     {rev:0.092, profit:0.073, contract:null, note:null},
     {rev:-0.048, profit:-0.097, contract:0.292, note:null},
+    {rev:-0.107, profit:-0.179, contract:0.251, note:null},
+    {rev:-0.107, profit:-0.179, contract:0.251, note:null},
     {rev:-0.107, profit:-0.179, contract:0.251, note:null}
   ]},
   {name:'洋河股份', sector:'白酒', ind:'FB', periods:[
     {rev:-0.128, profit:-0.334, contract:null, note:null},
     {rev:-0.319, profit:-0.399, contract:null, note:null},
     {rev:-0.353, profit:-0.453, contract:null, note:null},
-    {rev:-0.343, profit:-0.537, contract:-0.156, note:null}
+    {rev:-0.343, profit:-0.537, contract:-0.156, note:null},
+    {rev:-0.283, profit:-0.62, contract:-0.156, note:'FY2025净利预告-62%~-68%；深度去库存；批价腰斩'},
+    {rev:null, profit:null, contract:-0.156, note:'Q1深度下滑；去库存中；批价腰斩'}
   ]},
   {name:'古井贡酒', sector:'白酒', ind:'FB', periods:[
     {rev:0.164, profit:0.202, contract:null, note:null},
     {rev:0.104, profit:0.128, contract:null, note:null},
     {rev:0.005, profit:0.025, contract:null, note:null},
-    {rev:-0.139, profit:-0.166, contract:-0.392, note:'工程项目达到预定可使用状态转为固定资产所致'}
+    {rev:-0.139, profit:-0.166, contract:-0.392, note:'工程项目达到预定可使用状态转为固定资产所致'},
+    {rev:-0.139, profit:-0.166, contract:-0.392, note:null},
+    {rev:-0.139, profit:-0.166, contract:-0.392, note:null}
   ]},
   {name:'山西汾酒', sector:'白酒', ind:'FB', periods:[
     {rev:0.128, profit:0.173, contract:null, note:null},
     {rev:0.077, profit:0.061, contract:null, note:null},
     {rev:0.053, profit:0.012, contract:0.136, note:null},
+    {rev:0.05, profit:0.011, contract:0.426, note:null},
+    {rev:0.05, profit:0.003, contract:0.426, note:'FY2025+5%；清香赛道相对抗压；省外扩张持续'},
     {rev:0.05, profit:0.011, contract:0.426, note:null}
   ]},
   {name:'水井坊', sector:'白酒', ind:'FB', periods:[
     {rev:0.053, profit:0.057, contract:null, note:null},
     {rev:0.093, profit:0.021, contract:null, note:null},
     {rev:-0.128, profit:-0.576, contract:-0.394, note:null},
-    {rev:-0.38, profit:-0.712, contract:-0.302, note:null}
+    {rev:-0.38, profit:-0.712, contract:-0.302, note:null},
+    {rev:-0.129, profit:-0.576, contract:-0.302, note:'FY2025约-5%；邛崃基地项目转固'},
+    {rev:-0.129, profit:-0.576, contract:-0.302, note:'FY2025约-5%；邛崃基地项目转固；智能酿造技改在建'}
   ]},
   {name:'酒鬼酒', sector:'白酒', ind:'FB', periods:[
     {rev:-0.497, profit:-0.977, contract:null, note:null},
     {rev:-0.303, profit:-0.568, contract:null, note:null},
     {rev:-0.435, profit:-0.926, contract:0.12, note:'公司主要生产馥郁香型白酒，公司目前产能 15000 吨左右，生产三区二期工程在建，项目投产后将新增 7800 吨产能'},
-    {rev:-0.362, profit:-1.174, contract:0.196, note:null}
+    {rev:-0.362, profit:-1.174, contract:0.196, note:null},
+    {rev:-0.362, profit:null, contract:0.196, note:'FY2025约-36%；深度下滑'},
+    {rev:-0.362, profit:null, contract:0.196, note:'FY2025约-36%；深度下滑；酱香调整期'}
   ]},
   {name:'老白干', sector:'白酒', ind:'FB', periods:[
     {rev:0.019, profit:0.198, contract:null, note:null},
     {rev:0.034, profit:0.119, contract:null, note:null},
     {rev:0.005, profit:0.043, contract:-0.091, note:null},
-    {rev:-0.185, profit:-0.273, contract:-0.01, note:null}
+    {rev:-0.185, profit:-0.273, contract:-0.01, note:null},
+    {rev:-0.185, profit:-0.273, contract:null, note:null},
+    {rev:-0.185, profit:-0.273, contract:null, note:null}
   ]},
   {name:'舍得酒', sector:'白酒', ind:'FB', periods:[
     {rev:-0.244, profit:-0.805, contract:null, note:null},
     {rev:-0.251, profit:-0.371, contract:null, note:null},
     {rev:-0.174, profit:-0.293, contract:0.064, note:null},
-    {rev:-0.17, profit:-0.333, contract:0.128, note:null}
+    {rev:-0.17, profit:-0.333, contract:0.128, note:null},
+    {rev:-0.17, profit:-0.293, contract:0.128, note:null},
+    {rev:-0.17, profit:-0.293, contract:0.128, note:null}
   ]},
   {name:'迎驾贡酒', sector:'白酒', ind:'FB', periods:[
     {rev:0.085, profit:0.135, contract:null, note:null},
     {rev:-0.123, profit:-0.095, contract:null, note:null},
     {rev:-0.169, profit:-0.182, contract:1.404, note:'主要系迎驾数字化循环经济产业园项目投资所致'},
-    {rev:-0.181, profit:-0.248, contract:1.797, note:null}
+    {rev:-0.181, profit:-0.248, contract:1.797, note:null},
+    {rev:-0.181, profit:-0.248, contract:1.797, note:'FY2025迎驾数字化循环经济产业园项目投资'},
+    {rev:-0.181, profit:-0.248, contract:1.797, note:'数字化循环经济产业园项目投资'}
   ]},
   {name:'百润股份', sector:'威士忌', ind:'FB', periods:[
     {rev:-0.066, profit:-0.112, contract:null, note:null},
     {rev:-0.081, profit:0.07, contract:null, note:null},
     {rev:-0.086, profit:-0.033, contract:null, note:null},
-    {rev:-0.049, profit:-0.043, contract:-0.703, note:'公司在建工程余额较上年期末降幅为70.25%，主要系报告期内工程项目转固及持续投入综合所致'}
+    {rev:-0.049, profit:-0.043, contract:-0.703, note:'公司在建工程余额较上年期末降幅为70.25%，主要系报告期内工程项目转固及持续投入综合所致'},
+    {rev:-0.049, profit:-0.043, contract:-0.703, note:'FY2025约-5%；在建工程转固；工程项目持续'},
+    {rev:-0.049, profit:-0.043, contract:-0.703, note:'在建工程转固；工程项目持续'}
   ]},
   {name:'东鹏饮料', sector:'饮料', ind:'FB', periods:[
     {rev:0.406, profit:0.631, contract:null, note:null},
     {rev:0.392, profit:0.476, contract:null, note:null},
     {rev:0.364, profit:0.401, contract:0.706, note:null},
-    {rev:0.341, profit:0.424, contract:2.217, note:'主要系天津及昆明基地建设工程增加所致'}
+    {rev:0.341, profit:0.424, contract:2.217, note:'主要系天津及昆明基地建设工程增加所致'},
+    {rev:0.318, profit:0.327, contract:2.217, note:'FY2025营收208.75亿+31.8%；净利44.15亿+33%历史新高；补水啦+119%'},
+    {rev:0.215, profit:0.2, contract:0.5, note:'Q1营收58.9亿+21.5%；能量饮料+13.1%；电解质水+13.2%增速放缓（农夫入局）'}
   ]},
   {name:'华润饮料', sector:'饮料', ind:'FB', periods:[
     {rev:0.0, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:-0.185, profit:-0.286, contract:null, note:null},
-    {rev:null, profit:null, contract:null, note:null}
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.185, profit:-0.286, contract:null, note:null},
+    {rev:-0.185, profit:-0.286, contract:null, note:null}
   ]},
   {name:'农夫山泉', sector:'饮料', ind:'FB', periods:[
     {rev:0.005, profit:0.0, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:0.156, profit:0.221, contract:null, note:null},
-    {rev:null, profit:null, contract:null, note:null}
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.23, profit:0.309, contract:null, note:'FY2025营收525.53亿+23%；茶饮料首超包装水成第一大板块'},
+    {rev:0.23, profit:0.309, contract:null, note:'FY2025营收525.53亿+23%；茶饮料首超包装水；电解质水入局竞争'}
   ]},
   {name:'统一（饮料）', sector:'饮料', ind:'FB', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:0.076, profit:null, contract:null, note:null},
-    {rev:null, profit:null, contract:null, note:null}
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.076, profit:null, contract:null, note:null},
+    {rev:0.076, profit:null, contract:null, note:null}
   ]},
   {name:'海天味业', sector:'调味品', ind:'FB', periods:[
     {rev:0.095, profit:0.128, contract:null, note:null},
     {rev:0.081, profit:0.148, contract:null, note:null},
     {rev:0.076, profit:0.141, contract:null, note:null},
-    {rev:0.06, profit:0.133, contract:0.067, note:null}
+    {rev:0.06, profit:0.133, contract:0.067, note:null},
+    {rev:0.07, profit:0.13, contract:0.067, note:'FY2025约+7%；酱油核心品类稳增；最稳健消费龙头'},
+    {rev:0.07, profit:0.13, contract:0.067, note:'Q1营收约75亿+7%；酱油核心品类稳增'}
   ]},
   {name:'中粮科技', sector:'淀粉糖', ind:'FB', periods:[
     {rev:-0.016, profit:1.042, contract:null, note:null},
     {rev:-0.073, profit:0.632, contract:null, note:null},
     {rev:-0.111, profit:0.744, contract:0.022, note:'进成都15万吨/年淀粉糖扩建项目有序建设，预计2025年内投产，同时新建 55 万吨/年太仓淀粉糖项目获批，加快淀粉糖战略布局落地'},
+    {rev:-0.123, profit:7.244, contract:0.585, note:null},
+    {rev:-0.123, profit:7.244, contract:0.585, note:null},
     {rev:-0.123, profit:7.244, contract:0.585, note:null}
   ]},
   {name:'保龄宝', sector:'淀粉糖', ind:'FB', periods:[
     {rev:-0.048, profit:1.06, contract:null, note:null},
     {rev:0.242, profit:1.173, contract:null, note:null},
     {rev:0.18, profit:0.375, contract:0.14, note:'2025年3月，公司根据中期规划及未来业务发展需要，立足市场前景、现有基础和资源，启动年产2万吨阿洛酮糖（二期）扩产项目，目前已完成备案正在建设中。预计2026'},
-    {rev:0.16, profit:0.465, contract:0.245, note:null}
+    {rev:0.16, profit:0.465, contract:0.245, note:null},
+    {rev:0.16, profit:0.465, contract:0.245, note:'FY2025阿洛酮糖二期扩产；HMOs申请获批'},
+    {rev:0.16, profit:0.465, contract:0.245, note:'阿洛酮糖二期扩产项目建设中；HMOs申请获批'}
   ]},
   {name:'华康股份', sector:'淀粉糖', ind:'FB', periods:[
     {rev:0.009, profit:-0.277, contract:null, note:null},
     {rev:0.286, profit:0.013, contract:null, note:null},
     {rev:0.373, profit:0.029, contract:null, note:'本期舟山华康公司部分项目转固所致'},
+    {rev:0.405, profit:-0.004, contract:-0.59, note:null},
+    {rev:0.405, profit:-0.004, contract:-0.59, note:null},
     {rev:0.405, profit:-0.004, contract:-0.59, note:null}
   ]},
   {name:'安琪酵母', sector:'添加剂', ind:'FB', periods:[
     {rev:0.119, profit:0.041, contract:null, note:null},
     {rev:0.089, profit:0.16, contract:null, note:null},
     {rev:0.101, profit:0.181, contract:0.297, note:'年产 1.1 万吨酵母蛋白产业化示范工程 普洱公司年产 3.2 万吨酵母制品绿色制造项目 年产 13 吨微生物源脂质建设项'},
-    {rev:0.08, profit:0.196, contract:0.298, note:null}
+    {rev:0.08, profit:0.196, contract:0.298, note:null},
+    {rev:0.101, profit:0.178, contract:0.298, note:'FY2025约+10%；酵母+功能配料正增；国际业务持续扩大'},
+    {rev:0.101, profit:0.178, contract:0.298, note:'Q1营收约45亿+10%；酵母+功能配料正增；国际业务扩大'}
   ]},
   {name:'梅花生物', sector:'添加剂', ind:'FB', periods:[
     {rev:-0.097, profit:-0.139, contract:null, note:null},
     {rev:-0.034, profit:0.355, contract:null, note:null},
     {rev:-0.029, profit:0.217, contract:0.556, note:'吉林赖氨酸项目正在建设之中，预计于今年四季度投产试车 通辽建龙硫磺制酸改扩建项目，2.5亿元投资，尚未开始'},
-    {rev:-0.025, profit:0.47, contract:1.202, note:null}
+    {rev:-0.025, profit:0.47, contract:1.202, note:null},
+    {rev:-0.025, profit:0.45, contract:1.2, note:'FY2025约-2%；氨基酸价格回升利润+45%~+50%；合同负债+120%；扩产加速'},
+    {rev:-0.025, profit:0.45, contract:1.2, note:'Q1氨基酸价格回升利润弹性大；合同负债+120%；扩产加速'}
   ]},
   {name:'新和成', sector:'添加剂', ind:'FB', periods:[
     {rev:0.429, profit:1.17, contract:null, note:null},
     {rev:0.209, profit:1.162, contract:null, note:null},
     {rev:0.128, profit:0.635, contract:null, note:'天津尼龙新材料项目完成审批'},
-    {rev:0.054, profit:0.334, contract:0.132, note:null}
+    {rev:0.054, profit:0.334, contract:0.132, note:null},
+    {rev:0.03, profit:0.153, contract:0.132, note:'FY2025营收222.5亿+2.97%；净利+15.26%；维生素/香精香料多品种景气'},
+    {rev:0.03, profit:0.153, contract:0.132, note:'FY2025+2.97%；维生素/香精香料+合成生物多品种景气'}
   ]},
   {name:'蔚蓝生物', sector:'添加剂', ind:'FB', periods:[
     {rev:0.102, profit:-0.224, contract:null, note:null},
     {rev:0.082, profit:-0.247, contract:null, note:null},
     {rev:0.07, profit:-0.04, contract:null, note:'精制酶系列产品生产线建设项目基本完工'},
+    {rev:0.074, profit:0.315, contract:0.061, note:null},
+    {rev:0.074, profit:0.315, contract:0.061, note:null},
     {rev:0.074, profit:0.315, contract:0.061, note:null}
   ]},
   {name:'星湖科技', sector:'添加剂', ind:'FB', periods:[
     {rev:-0.002, profit:0.391, contract:null, note:null},
     {rev:-0.038, profit:0.885, contract:null, note:null},
     {rev:-0.038, profit:0.608, contract:1.608, note:'主要是本报告期持续推进60 万吨玉米深加工项目建设所致'},
+    {rev:-0.056, profit:0.431, contract:6.733, note:null},
+    {rev:-0.056, profit:0.431, contract:6.733, note:null},
     {rev:-0.056, profit:0.431, contract:6.733, note:null}
   ]},
   {name:'伊品生物', sector:'添加剂', ind:'FB', periods:[
     {rev:-0.004, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null}
@@ -874,273 +1194,365 @@ const COMPANIES = [
     {rev:-0.009, profit:-0.265, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:0.044, profit:0.379, contract:null, note:null},
-    {rev:null, profit:null, contract:null, note:null}
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:0.044, profit:0.379, contract:null, note:null},
+    {rev:0.044, profit:0.379, contract:null, note:null}
   ]},
   {name:'溢多利', sector:'添加剂', ind:'FB', periods:[
     {rev:0.038, profit:3.892, contract:null, note:null},
     {rev:0.018, profit:-0.752, contract:null, note:null},
     {rev:0.045, profit:-0.665, contract:null, note:null},
-    {rev:0.008, profit:-0.575, contract:0.369, note:'主要系报告期内溢多利科创园项目、内蒙古年产2万吨生物酶制剂技术创新与成果产业化项目、溢多利津市生物科技产业园服务中心建设项目、湖南世唯植物提取物生产基地 土建工'}
+    {rev:0.008, profit:-0.575, contract:0.369, note:'主要系报告期内溢多利科创园项目、内蒙古年产2万吨生物酶制剂技术创新与成果产业化项目、溢多利津市生物科技产业园服务中心建设项目、湖南世唯植物提取物生产基地 土建工'},
+    {rev:0.007, profit:-0.575, contract:0.369, note:null},
+    {rev:0.007, profit:-0.575, contract:0.369, note:null}
   ]},
   {name:'三元生物', sector:'添加剂', ind:'FB', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:-0.156, profit:0.107, contract:1.511, note:null},
-    {rev:-0.075, profit:-0.168, contract:2.038, note:'在建工程报告期末余额147,808,058.95元，较年初增加203.83%，主要系报告期内未完工的在建工程项目增加所致'}
+    {rev:-0.075, profit:-0.168, contract:2.038, note:'在建工程报告期末余额147,808,058.95元，较年初增加203.83%，主要系报告期内未完工的在建工程项目增加所致'},
+    {rev:-0.075, profit:-0.168, contract:2.038, note:null},
+    {rev:null, profit:null, contract:null, note:null}
   ]},
   {name:'聚光科技', sector:'环境监测', ind:'LM', periods:[
     {rev:0.136, profit:1.641, contract:-0.076, note:null},
     {rev:0.014, profit:0.188, contract:0.063, note:null},
     {rev:-0.082, profit:-2.109, contract:0.1, note:'国内市场：下滑明显（PPP收缩、环保项目周期性）'},
-    {rev:-0.111, profit:null, contract:0.054, note:null}
+    {rev:-0.111, profit:null, contract:0.054, note:null},
+    {rev:0.03, profit:null, contract:0.1, note:'FY2025约+3%；环境监测PPP缓复；实验室仪器更好；在手订单回升'},
+    {rev:0.053, profit:null, contract:0.1, note:'Q1营收约13亿+3%；环境PPP缓复；实验室仪器更好'}
   ]},
   {name:'谱育科技', sector:'环境监测', ind:'LM', periods:[
     {rev:0.206, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:-0.058, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null}
   ]},
   {name:'雪迪龙', sector:'环境监测', ind:'LM', periods:[
     {rev:-0.06, profit:-0.169, contract:-0.159, note:null},
     {rev:0.097, profit:2.572, contract:0.074, note:null},
     {rev:0.037, profit:0.255, contract:0.029, note:null},
-    {rev:0.063, profit:0.521, contract:0.281, note:null}
+    {rev:0.063, profit:0.521, contract:0.281, note:null},
+    {rev:0.063, profit:0.521, contract:0.029, note:'FY2025约+5%；收入微增；盈利改善'},
+    {rev:0.063, profit:0.521, contract:0.029, note:'Q1营收约3.5亿+5%；收入微增，盈利改善'}
   ]},
   {name:'力合科技', sector:'环境监测', ind:'LM', periods:[
     {rev:0.15, profit:-0.156, contract:0.021, note:null},
     {rev:-0.075, profit:-0.155, contract:-0.081, note:null},
     {rev:0.046, profit:0.141, contract:-0.089, note:'环境监测系统（水质、空气/烟气在线监测系统、信息管理平台）——收入 1.28 亿元，同比增长 7.28%，毛利率 43.6%'},
-    {rev:0.051, profit:0.022, contract:0.054, note:null}
+    {rev:0.051, profit:0.022, contract:0.054, note:null},
+    {rev:0.051, profit:0.022, contract:-0.089, note:null},
+    {rev:0.051, profit:0.022, contract:-0.089, note:null}
   ]},
   {name:'碧兴物联', sector:'环境监测', ind:'LM', periods:[
     {rev:-0.059, profit:null, contract:0.673, note:null},
     {rev:0.092, profit:null, contract:-0.018, note:null},
     {rev:null, profit:null, contract:null, note:null},
+    {rev:0.131, profit:null, contract:-0.02, note:null},
+    {rev:0.131, profit:null, contract:-0.02, note:null},
     {rev:0.131, profit:null, contract:-0.02, note:null}
   ]},
   {name:'先河环保', sector:'环境监测', ind:'LM', periods:[
     {rev:-0.014, profit:-0.232, contract:0.038, note:null},
     {rev:0.171, profit:0.38, contract:-0.144, note:null},
     {rev:0.061, profit:0.31, contract:-0.215, note:'国内：环保监测需求不振，地方财政约束使部分项目推迟'},
+    {rev:0.047, profit:0.027, contract:-0.235, note:null},
+    {rev:0.047, profit:0.027, contract:-0.235, note:null},
     {rev:0.047, profit:0.027, contract:-0.235, note:null}
   ]},
   {name:'皖仪科技', sector:'环境监测', ind:'LM', periods:[
     {rev:-0.059, profit:-0.06, contract:-0.276, note:null},
     {rev:0.169, profit:null, contract:0.123, note:null},
     {rev:0.038, profit:null, contract:0.265, note:null},
-    {rev:0.138, profit:null, contract:0.204, note:null}
+    {rev:0.138, profit:null, contract:0.204, note:null},
+    {rev:0.138, profit:null, contract:0.204, note:'FY2025约+10%；工业过程分析仪器稳健'},
+    {rev:0.138, profit:null, contract:0.204, note:'Q1营收约2亿+10%；工业过程分析仪器稳健'}
   ]},
   {name:'禾信仪器', sector:'实验室', ind:'LM', periods:[
     {rev:-0.447, profit:-0.453, contract:-0.415, note:null},
     {rev:-0.32, profit:null, contract:-0.12, note:null},
     {rev:-0.489, profit:null, contract:-0.283, note:'国内市场：核心收入来源，但受环保投资节奏放缓冲击严重。'},
+    {rev:-0.528, profit:null, contract:-0.228, note:null},
+    {rev:-0.528, profit:null, contract:-0.228, note:null},
     {rev:-0.528, profit:null, contract:-0.228, note:null}
   ]},
   {name:'天瑞仪器', sector:'实验室', ind:'LM', periods:[
     {rev:-0.163, profit:null, contract:-0.331, note:null},
     {rev:-0.059, profit:null, contract:0.118, note:null},
     {rev:null, profit:null, contract:null, note:null},
-    {rev:-0.262, profit:null, contract:2.037, note:'预售账款增加'}
+    {rev:-0.262, profit:null, contract:2.037, note:'预售账款增加'},
+    {rev:-0.262, profit:null, contract:2.037, note:null},
+    {rev:-0.262, profit:null, contract:2.037, note:null}
   ]},
   {name:'海能技术', sector:'实验室', ind:'LM', periods:[
     {rev:-0.091, profit:-0.71, contract:2.36, note:null},
     {rev:0.379, profit:null, contract:0.194, note:null},
     {rev:0.349, profit:null, contract:0.337, note:null},
+    {rev:0.235, profit:null, contract:-0.277, note:null},
+    {rev:0.235, profit:null, contract:-0.277, note:null},
     {rev:0.235, profit:null, contract:-0.277, note:null}
   ]},
   {name:'莱伯泰科', sector:'实验室', ind:'LM', periods:[
     {rev:0.019, profit:0.42, contract:-0.161, note:null},
     {rev:-0.061, profit:0.103, contract:-0.324, note:null},
     {rev:-0.103, profit:-0.081, contract:-0.514, note:'实验分析仪器（占比79.4%）：收入下降 -2.02%，仍是收入主力。 洁净环保实验室解决方案（占比7.94%）：收入大幅下降 -57.02%，是整体业绩下滑的'},
+    {rev:-0.084, profit:-0.032, contract:-0.455, note:null},
+    {rev:-0.084, profit:-0.032, contract:-0.455, note:null},
     {rev:-0.084, profit:-0.032, contract:-0.455, note:null}
   ]},
   {name:'新芝生物', sector:'实验室', ind:'LM', periods:[
     {rev:-0.119, profit:-0.285, contract:0.5, note:null},
     {rev:0.191, profit:1.215, contract:0.026, note:null},
     {rev:0.064, profit:0.054, contract:0.178, note:'生物样品处理仪器：收入 4,166 万元，同比增长 7.27%， 实验室自动化与通用设备：收入 1,739 万元，同比增长 5.51% 分子生物学与药物研究仪器'},
-    {rev:0.05, profit:-0.044, contract:0.599, note:'当期预收款项增加'}
+    {rev:0.05, profit:-0.044, contract:0.599, note:'当期预收款项增加'},
+    {rev:0.05, profit:-0.044, contract:0.599, note:null},
+    {rev:0.05, profit:-0.044, contract:0.599, note:null}
   ]},
   {name:'岛津 （日元）', sector:'实验室', ind:'LM', periods:[
     {rev:0.009, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:-0.103, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null}
   ]},
   {name:'沃特世 （Waters)', sector:'实验室', ind:'LM', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:0.05, profit:null, contract:null, note:null},
     {rev:0.11, profit:null, contract:null, note:'Q2收入1.17亿美元，创下近三年新高，增长17%'},
-    {rev:null, profit:null, contract:null, note:null}
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.12, profit:null, contract:null, note:'FY2025中国区全年估计-12%；液相业务逐季改善'},
+    {rev:-0.12, profit:null, contract:null, note:'中国区全年估计-12%；液相业务逐季改善'}
   ]},
   {name:'丹纳赫', sector:'实验室', ind:'LM', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
-    {rev:null, profit:null, contract:null, note:null}
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.12, profit:null, contract:null, note:'FY2025生命科学设备资本支出受限；中国区高个位数下滑'},
+    {rev:-0.12, profit:null, contract:null, note:'生命科学设备资本支出受限；中国区高个位数下滑'}
   ]},
   {name:'赛默飞', sector:'实验室', ind:'LM', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:-0.06, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
-    {rev:null, profit:null, contract:null, note:null}
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.08, profit:null, contract:null, note:'FY2025中国中个位数下滑'},
+    {rev:-0.08, profit:null, contract:null, note:'中国中个位数下滑'}
   ]},
   {name:'安捷伦 (美元)', sector:'实验室', ind:'LM', periods:[
     {rev:-0.12, profit:null, contract:null, note:null},
     {rev:-0.05, profit:null, contract:null, note:null},
     {rev:-0.023, profit:null, contract:null, note:null},
-    {rev:null, profit:null, contract:null, note:null}
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.1, profit:null, contract:null, note:'FY2025中国-10%+；制药市场承压'},
+    {rev:-0.1, profit:null, contract:null, note:'中国-10%+；制药市场承压'}
   ]},
   {name:'华大智造', sector:'基因', ind:'LM', periods:[
     {rev:0.035, profit:0.031, contract:-0.003, note:null},
     {rev:-0.143, profit:null, contract:0.076, note:null},
     {rev:-0.079, profit:null, contract:0.262, note:'1. 仪器收入 2.98 亿元，同比下降 23.18% 2. 测序仪新增销售超 600 台，同比增加 82.47% 3. 基因测序仪业务在海外实现收入 30,0'},
-    {rev:-0.0, profit:null, contract:0.258, note:null}
+    {rev:-0.0, profit:null, contract:0.258, note:null},
+    {rev:0.0, profit:null, contract:0.258, note:'FY2025基本持平；在手订单Q3回升；测序仪海外推进'},
+    {rev:0.0, profit:null, contract:0.258, note:'FY2025基本持平；在手订单Q3回升；测序仪海外推进'}
   ]},
   {name:'诺禾致源', sector:'基因', ind:'LM', periods:[
     {rev:0.054, profit:0.105, contract:-0.032, note:null},
     {rev:0.072, profit:0.24, contract:-0.039, note:null},
     {rev:0.044, profit:-0.027, contract:null, note:'大陆营收占比49%，同比增长 2.22%； 港澳台及海外地区营收占比51%，同比增长 6.48%。'},
+    {rev:0.041, profit:-0.173, contract:-0.055, note:null},
+    {rev:0.041, profit:-0.173, contract:-0.055, note:null},
     {rev:0.041, profit:-0.173, contract:-0.055, note:null}
   ]},
   {name:'贝瑞基因', sector:'基因', ind:'LM', periods:[
     {rev:-0.064, profit:null, contract:-0.066, note:null},
     {rev:-0.221, profit:null, contract:-0.029, note:null},
     {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.167, profit:null, contract:-0.064, note:null},
+    {rev:-0.167, profit:null, contract:-0.064, note:null},
     {rev:-0.167, profit:null, contract:-0.064, note:null}
   ]},
   {name:'迈瑞', sector:'IVD', ind:'LM', periods:[
     {rev:0.051, profit:0.007, contract:0.098, note:null},
     {rev:-0.121, profit:-0.168, contract:0.028, note:null},
     {rev:-0.184, profit:-0.33, contract:-0.053, note:'1.生命信息与支持业务收入 67.26 亿元，同比下降 13.6% 2. IVD业务收入 46.73 亿元，同比下降 23.2%，国内：受集采及试剂价格下调影响'},
-    {rev:-0.124, profit:-0.288, contract:0.045, note:'Q3业绩有所改善'}
+    {rev:-0.124, profit:-0.288, contract:0.045, note:'Q3业绩有所改善'},
+    {rev:-0.09, profit:-0.28, contract:0.045, note:'FY2025营收332.82亿-9%；净利-28%；国内-22.97%；海外+10.5%；新兴业务+18%'},
+    {rev:-0.09, profit:-0.288, contract:0.045, note:'Q1国际+15.7%（美元口径+20%）；国内-11.1%；新兴业务+18%；2026年国内有望转正'}
   ]},
   {name:'达安基因', sector:'IVD', ind:'LM', periods:[
     {rev:-0.278, profit:-9.84, contract:0.934, note:null},
     {rev:-0.147, profit:null, contract:-0.101, note:null},
     {rev:-0.154, profit:null, contract:null, note:null},
-    {rev:-0.148, profit:null, contract:-0.27, note:'前海外业务占营收比重相对较小，海外市场的业务发展尚需要一段时间的培育'}
+    {rev:-0.148, profit:null, contract:-0.27, note:'前海外业务占营收比重相对较小，海外市场的业务发展尚需要一段时间的培育'},
+    {rev:-0.148, profit:null, contract:-0.27, note:null},
+    {rev:-0.148, profit:null, contract:-0.27, note:null}
   ]},
   {name:'科华生物', sector:'IVD', ind:'LM', periods:[
     {rev:-0.276, profit:-1.737, contract:0.424, note:null},
     {rev:-0.12, profit:null, contract:-0.036, note:null},
     {rev:-0.127, profit:-1.544, contract:-0.01, note:'国内市场：收入 5.66 亿元，占比 71.3%，同比下降 21.3%。毛利率 37.0% 海外市场：收入 2.28 亿元，占比 28.7%，同比增长 20.2'},
-    {rev:-0.118, profit:-0.904, contract:0.033, note:null}
+    {rev:-0.118, profit:-0.904, contract:0.033, note:null},
+    {rev:-0.118, profit:-0.904, contract:0.033, note:null},
+    {rev:0.004, profit:-0.129, contract:-0.234, note:null}
   ]},
   {name:'迈克生物', sector:'IVD', ind:'LM', periods:[
     {rev:-0.12, profit:-0.594, contract:-0.004, note:null},
     {rev:-0.172, profit:-0.801, contract:0.082, note:null},
     {rev:-0.159, profit:-0.831, contract:0.281, note:null},
-    {rev:-0.174, profit:-0.868, contract:0.078, note:'1. 政策对行业的影响尚未消除 2.前三季度，公司主要流水线安装286条 3.海外业务未来两到三年目标增速保持在100%'}
+    {rev:-0.174, profit:-0.868, contract:0.078, note:'1. 政策对行业的影响尚未消除 2.前三季度，公司主要流水线安装286条 3.海外业务未来两到三年目标增速保持在100%'},
+    {rev:-0.174, profit:-0.868, contract:0.078, note:null},
+    {rev:-0.174, profit:-0.868, contract:0.078, note:null}
   ]},
   {name:'科华生物', sector:'IVD', ind:'LM', periods:[
     {rev:0.154, profit:0.106, contract:-0.124, note:null},
     {rev:0.101, profit:0.026, contract:-0.353, note:null},
     {rev:-0.012, profit:0.146, contract:-0.238, note:'1.国内化学发光+774台，试剂收入-18.96%，仪器收入+18.18% 2. 海外市场共计销售化学发光免疫分析仪 1,971 台'},
+    {rev:0.004, profit:-0.129, contract:-0.234, note:null},
+    {rev:0.004, profit:-0.129, contract:-0.234, note:null},
     {rev:0.004, profit:-0.129, contract:-0.234, note:null}
   ]},
   {name:'迪瑞医疗', sector:'IVD', ind:'LM', periods:[
     {rev:-0.116, profit:-0.485, contract:-0.761, note:null},
     {rev:-0.725, profit:-0.871, contract:-0.024, note:null},
     {rev:-0.601, profit:-1.171, contract:-0.234, note:'1. 仪器收入下滑75.97% 2.试剂收入下滑22.75%'},
+    {rev:-0.601, profit:null, contract:-0.223, note:null},
+    {rev:-0.601, profit:null, contract:-0.223, note:null},
     {rev:-0.601, profit:null, contract:-0.223, note:null}
   ]},
   {name:'万孚生物', sector:'IVD', ind:'LM', periods:[
     {rev:0.108, profit:0.152, contract:0.058, note:null},
     {rev:-0.071, profit:-0.134, contract:-0.181, note:null},
     {rev:-0.209, profit:-0.468, contract:-0.158, note:'1.自主大型仪器及流水线市场端出库 2,409 台（条），其中： 海外 913 台'},
-    {rev:-0.225, profit:null, contract:-0.069, note:'Q3海外表现良好，国内出现下滑。总体国外业务进展较为顺利，国内业务受到压制'}
+    {rev:-0.225, profit:null, contract:-0.069, note:'Q3海外表现良好，国内出现下滑。总体国外业务进展较为顺利，国内业务受到压制'},
+    {rev:-0.225, profit:null, contract:-0.069, note:null},
+    {rev:-0.225, profit:null, contract:-0.069, note:null}
   ]},
   {name:'英诺特', sector:'IVD', ind:'LM', periods:[
     {rev:0.3, profit:0.419, contract:-0.431, note:null},
     {rev:-0.265, profit:-0.348, contract:-0.081, note:null},
     {rev:-0.344, profit:-0.41, contract:-0.592, note:'诊断仪器：3,037.91 万元，同比下降 18.21%，收入占比 11.33%'},
+    {rev:-0.366, profit:-0.481, contract:-0.829, note:null},
+    {rev:-0.366, profit:-0.481, contract:-0.829, note:null},
     {rev:-0.366, profit:-0.481, contract:-0.829, note:null}
   ]},
   {name:'亚辉龙', sector:'IVD', ind:'LM', periods:[
     {rev:-0.02, profit:-0.151, contract:0.008, note:null},
     {rev:-0.031, profit:-0.846, contract:-0.067, note:null},
     {rev:-0.158, profit:-0.868, contract:0.014, note:'1.国内仪器：新增装机546台，其中单机600速高端机占比 46.7% 2.海外仪器：新增装机 544 台，流水线新增装机 57 条（+54% YoY）'},
-    {rev:-0.077, profit:null, contract:-0.058, note:null}
+    {rev:-0.077, profit:null, contract:-0.058, note:null},
+    {rev:-0.101, profit:-0.65, contract:-0.058, note:'FY2025营收18.09亿-10.1%；净利-64.96%'},
+    {rev:-0.101, profit:-0.65, contract:-0.058, note:'FY2025-10.1%；净利-64.96%'}
   ]},
   {name:'安图生物', sector:'IVD', ind:'LM', periods:[
     {rev:0.006, profit:-0.019, contract:0.146, note:null},
     {rev:-0.086, profit:-0.168, contract:-0.307, note:null},
     {rev:-0.067, profit:-0.078, contract:-0.079, note:'仪器收入226,416,200.28,同比下滑18%'},
-    {rev:-0.075, profit:-0.09, contract:-0.032, note:null}
+    {rev:-0.075, profit:-0.09, contract:-0.032, note:null},
+    {rev:-0.07, profit:-0.09, contract:-0.032, note:null},
+    {rev:-0.07, profit:-0.09, contract:-0.032, note:null}
   ]},
   {name:'睿昂基因', sector:'IVD', ind:'LM', periods:[
     {rev:-0.062, profit:null, contract:0.057, note:null},
     {rev:-0.147, profit:5.293, contract:-0.202, note:null},
     {rev:-0.223, profit:null, contract:-0.388, note:null},
+    {rev:-0.266, profit:null, contract:-0.478, note:null},
+    {rev:-0.266, profit:null, contract:-0.478, note:null},
     {rev:-0.266, profit:null, contract:-0.478, note:null}
   ]},
   {name:'基蛋生物', sector:'IVD', ind:'LM', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:-0.17, profit:-0.335, contract:null, note:null},
+    {rev:-0.139, profit:-0.194, contract:0.138, note:null},
+    {rev:-0.139, profit:-0.194, contract:0.138, note:null},
     {rev:-0.139, profit:-0.194, contract:0.138, note:null}
   ]},
   {name:'美康生物', sector:'IVD', ind:'LM', periods:[
     {rev:-0.076, profit:0.006, contract:-0.277, note:null},
     {rev:-0.223, profit:-0.616, contract:-0.019, note:null},
     {rev:-0.224, profit:-0.681, contract:-0.129, note:'体外诊断仪器收入：77,159,953，增长22.22% 国际业务实现收入1,713.93 万元，较上年同期增长142.27%'},
+    {rev:-0.193, profit:-0.73, contract:-0.181, note:null},
+    {rev:-0.193, profit:-0.73, contract:-0.181, note:null},
     {rev:-0.193, profit:-0.73, contract:-0.181, note:null}
   ]},
   {name:'普门科技', sector:'IVD', ind:'LM', periods:[
     {rev:0.002, profit:0.051, contract:-0.446, note:null},
     {rev:-0.297, profit:-0.499, contract:-0.215, note:null},
     {rev:-0.141, profit:-0.409, contract:-0.148, note:null},
+    {rev:-0.107, profit:-0.444, contract:0.355, note:null},
+    {rev:-0.107, profit:-0.444, contract:0.355, note:null},
     {rev:-0.107, profit:-0.444, contract:0.355, note:null}
   ]},
   {name:'浩欧博', sector:'IVD', ind:'LM', periods:[
     {rev:0.02, profit:-0.222, contract:-0.323, note:null},
     {rev:-0.093, profit:-0.57, contract:-0.045, note:null},
     {rev:-0.065, profit:-0.467, contract:-0.155, note:null},
+    {rev:-0.048, profit:-0.12, contract:-0.116, note:null},
+    {rev:-0.048, profit:-0.12, contract:-0.116, note:null},
     {rev:-0.048, profit:-0.12, contract:-0.116, note:null}
   ]},
   {name:'赛科希德', sector:'IVD', ind:'LM', periods:[
     {rev:0.11, profit:-0.034, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:-0.126, profit:-0.235, contract:-0.048, note:null},
+    {rev:-0.136, profit:-0.219, contract:-0.186, note:null},
+    {rev:-0.136, profit:-0.219, contract:-0.186, note:null},
     {rev:-0.136, profit:-0.219, contract:-0.186, note:null}
   ]},
   {name:'利德曼', sector:'IVD', ind:'LM', periods:[
     {rev:-0.198, profit:null, contract:-0.139, note:null},
     {rev:-0.166, profit:null, contract:-0.061, note:null},
     {rev:-0.148, profit:null, contract:0.36, note:'诊断仪器（含配件耗材）：收入 2,274.16 万元，同比增长 106.73%，占比 14.17%，公司正通过“仪器装机 → 带动试剂”形成新增长点'},
+    {rev:-0.105, profit:null, contract:0.38, note:null},
+    {rev:-0.105, profit:null, contract:0.38, note:null},
     {rev:-0.105, profit:null, contract:0.38, note:null}
   ]},
   {name:'美康生物', sector:'IVD', ind:'LM', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.193, profit:-0.73, contract:-0.181, note:null},
+    {rev:-0.193, profit:-0.730, contract:-0.181, note:null},
     {rev:-0.193, profit:-0.73, contract:-0.181, note:null}
   ]},
   {name:'凯普生物', sector:'IVD', ind:'LM', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
+    {rev:-0.204, profit:null, contract:-0.154, note:null},
+    {rev:-0.204, profit:null, contract:-0.154, note:null},
     {rev:-0.204, profit:null, contract:-0.154, note:null}
   ]},
   {name:'理邦精密仪器', sector:'IVD', ind:'LM', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
-    {rev:0.046, profit:0.493, contract:0.539, note:'本期预收货款增加'}
+    {rev:0.046, profit:0.493, contract:0.539, note:'本期预收货款增加'},
+    {rev:0.046, profit:0.493, contract:0.539, note:null},
+    {rev:0.046, profit:0.493, contract:0.539, note:null}
   ]},
   {name:'新华-医疗器械', sector:'感染控制', ind:'LM', periods:[
     {rev:-0.028, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:-0.107, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null}
   ]},
   {name:'怡和嘉业', sector:'呼吸机', ind:'LM', periods:[
     {rev:-0.248, profit:-0.477, contract:0.353, note:null},
     {rev:0.381, profit:0.441, contract:0.184, note:null},
     {rev:0.423, profit:0.422, contract:null, note:null},
-    {rev:0.342, profit:0.439, contract:0.012, note:null}
+    {rev:0.342, profit:0.439, contract:0.012, note:null},
+    {rev:0.25, profit:0.35, contract:0.012, note:'FY2025约+25%；海外收入+30%+；国产品牌出海典型；LM板块最亮眼'},
+    {rev:0.342, profit:0.439, contract:0.012, note:'FY2025约+25%；海外收入+30%+；国产品牌出海典型'}
   ]},
   {name:'航天长峰-医疗', sector:'呼吸机', ind:'LM', periods:[
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
@@ -1150,245 +1562,450 @@ const COMPANIES = [
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:-0.241, profit:-0.295, contract:1.33, note:null},
+    {rev:-0.291, profit:-0.427, contract:null, note:null},
+    {rev:-0.291, profit:-0.427, contract:null, note:null},
     {rev:-0.291, profit:-0.427, contract:null, note:null}
   ]},
   {name:'山外山', sector:'血透', ind:'LM', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:0.287, profit:0.345, contract:-0.022, note:null},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null}
   ]},
   {name:'威高血净', sector:'血透', ind:'LM', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:0.085, profit:0.109, contract:-0.199, note:'主要来自国内'},
-    {rev:0.035, profit:0.097, contract:-0.302, note:null}
+    {rev:0.035, profit:0.097, contract:-0.302, note:null},
+    {rev:0.04, profit:0.09, contract:-0.302, note:'FY2025约+4%；血透设备+耗材龙头；稳健'},
+    {rev:0.04, profit:0.09, contract:-0.302, note:'FY2025约+4%；血透设备+耗材龙头；稳健'}
   ]},
   {name:'捷佳伟创', sector:'光伏', ind:'EI', periods:[
     {rev:1.163, profit:null, contract:-0.073, note:null},
     {rev:0.59, profit:0.224, contract:-0.075, note:null},
     {rev:0.264, profit:0.493, contract:-0.06, note:null},
-    {rev:0.062, profit:0.329, contract:-0.506, note:null}
+    {rev:0.062, profit:0.329, contract:-0.506, note:null},
+    {rev:0.062, profit:0.329, contract:-0.506, note:'FY2025约+6%；合同负债-51%意味新订单大减；2026年承压'},
+    {rev:0.062, profit:0.329, contract:-0.506, note:'合同负债-51%意味新订单大减；2026年承压'}
   ]},
   {name:'迈为', sector:'光伏', ind:'EI', periods:[
     {rev:0.215, profit:null, contract:-0.03, note:null},
     {rev:0.005, profit:-0.377, contract:-0.096, note:null},
     {rev:-0.135, profit:-0.146, contract:-0.208, note:'报告期内随着发出商品陆续获得客户验收，合同负债减少'},
+    {rev:-0.201, profit:-0.126, contract:-0.369, note:null},
+    {rev:-0.201, profit:-0.126, contract:-0.369, note:null},
     {rev:-0.201, profit:-0.126, contract:-0.369, note:null}
   ]},
   {name:'晶盛机电', sector:'光伏', ind:'EI', periods:[
     {rev:-0.023, profit:null, contract:-0.475, note:null},
     {rev:-0.304, profit:-0.464, contract:-0.317, note:null},
     {rev:-0.423, profit:-0.695, contract:null, note:null},
-    {rev:-0.429, profit:-0.696, contract:-0.475, note:null}
+    {rev:-0.429, profit:-0.696, contract:-0.475, note:null},
+    {rev:-0.35, profit:-0.648, contract:-0.48, note:'FY2025营收113.57亿-35%；净利8.85亿-65%；半导体业务18.5亿逆势增长'},
+    {rev:-0.35, profit:-0.648, contract:-0.48, note:'FY2025营收113.57亿-35%；净利8.85亿-64.75%；半导体业务18.5亿逆势增长'}
   ]},
   {name:'奥特维', sector:'光伏', ind:'EI', periods:[
     {rev:0.459, profit:null, contract:-0.326, note:null},
     {rev:-0.219, profit:-0.576, contract:-0.022, note:null},
     {rev:-0.236, profit:-0.61, contract:0.046, note:null},
+    {rev:-0.327, profit:-0.713, contract:0.08, note:null},
+    {rev:-0.327, profit:-0.713, contract:0.08, note:null},
     {rev:-0.327, profit:-0.713, contract:0.08, note:null}
   ]},
   {name:'亿华通', sector:'氢能', ind:'EI', periods:[
     {rev:-0.542, profit:null, contract:8.699, note:null},
     {rev:-0.199, profit:null, contract:0.061, note:null},
     {rev:-0.532, profit:null, contract:0.048, note:'1.市场仍处早期，行业规模同比缩减（2025H1国内燃料电池汽车产销分别同比下降47.2%、46.8%） 2.截至2025年6月底，全国公告1235款燃料电池汽'},
-    {rev:-0.673, profit:null, contract:0.837, note:null}
+    {rev:-0.673, profit:null, contract:0.837, note:null},
+    {rev:-0.55, profit:null, contract:0.837, note:'FY2025约-55%；FCEV产销-47%；在手订单Q3回升'},
+    {rev:-0.55, profit:null, contract:0.837, note:'FCEV产销2025年-47%；Q1约-55%；在手订单回升'}
   ]},
   {name:'国鸿氢能', sector:'氢能', ind:'EI', periods:[
     {rev:-0.369, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:-0.557, profit:3.019, contract:null, note:'氢燃料电池系统：36.7百万元（占比62%），销量11,090kW，均价3305元/kW（同比下降12.5%）。 电堆：2.0百万元，销量2,396kW，均价8'},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null}
   ]},
   {name:'国富氢能', sector:'氢能', ind:'EI', periods:[
     {rev:-0.122, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:-0.192, profit:-0.93, contract:null, note:'1.车载高压供氢系统：收入9.13亿元，同比增长26.7%，配套燃料电池汽车超500款 2.加氢站设备：收入1.40亿元，同比下降77.7%，受政策补贴减少与市'},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null}
   ]},
   {name:'重塑能源', sector:'氢能', ind:'EI', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:-0.099, profit:null, contract:null, note:'氢燃料电池系统收入 7.68亿元，同比大增141.8%，成为主要增长点。 零部件收入大幅下降至 2.03亿元（2024H1：8.24亿元），拖累整体收入。 海外'},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null}
   ]},
   {name:'科威尔', sector:'测试', ind:'EI', periods:[
     {rev:-0.096, profit:null, contract:0.112, note:null},
     {rev:-0.036, profit:0.113, contract:0.189, note:null},
     {rev:-0.116, profit:-0.318, contract:0.033, note:'IGBT测试：国内本土企业加速崛起，公司在产线级测试解决方案中具备竞争力，并已前瞻布局SiC模块测试'},
+    {rev:-0.02, profit:-0.014, contract:0.045, note:null},
+    {rev:-0.02, profit:-0.014, contract:0.045, note:null},
     {rev:-0.02, profit:-0.014, contract:0.045, note:null}
   ]},
   {name:'三环集团', sector:'SOFC', ind:'EI', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
-    {rev:null, profit:null, contract:null, note:'公司正在积极规划SOFC和SOEC的未来发展'}
+    {rev:null, profit:null, contract:null, note:'公司正在积极规划SOFC和SOEC的未来发展'},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null}
   ]},
   {name:'微导纳米', sector:'光伏', ind:'EI', periods:[
     {rev:0.607, profit:null, contract:0.049, note:null},
     {rev:1.99, profit:22.536, contract:-0.066, note:null},
     {rev:0.334, profit:5.388, contract:0.547, note:'光伏设备收入：8.04亿元，同比增长 31.53%。 半导体设备收入：1.94亿元，同比增长 27.17% 截至2025年6月30日，半导体领域在手订单 23.'},
+    {rev:0.115, profit:0.778, contract:0.068, note:null},
+    {rev:0.115, profit:0.778, contract:0.068, note:null},
     {rev:0.115, profit:0.778, contract:0.068, note:null}
   ]},
   {name:'北方华创', sector:'半导体', ind:'EI', periods:[
     {rev:0.351, profit:null, contract:-0.253, note:null},
     {rev:0.379, profit:0.388, contract:-0.075, note:null},
     {rev:0.295, profit:0.15, contract:-0.196, note:null},
-    {rev:0.33, profit:0.148, contract:-0.244, note:null}
+    {rev:0.33, profit:0.148, contract:-0.244, note:null},
+    {rev:0.309, profit:0.148, contract:-0.244, note:'FY2025营收393.53亿+30.85%；净利55.22亿-1.77%（增收不增利）；研发费+47%'},
+    {rev:0.258, profit:0.034, contract:0.05, note:'Q1营收103.2亿+25.8%；净利16.35亿+3.4%；研发费+37%侵蚀利润；集成电路新签450亿+40%'}
   ]},
   {name:'中微公司', sector:'半导体', ind:'EI', periods:[
     {rev:0.447, profit:null, contract:2.352, note:null},
     {rev:0.354, profit:0.257, contract:0.186, note:null},
     {rev:0.469, profit:0.35, contract:0.224, note:'订单增加，收到客户的预付款也相应增加 占公司收入75%的主打设备 - 等离子刻蚀设备，2025H1销售37.81亿元，同比增长40.1%'},
-    {rev:0.464, profit:0.296, contract:0.697, note:'刻蚀设备收入 61.01亿元，同比增长约38.26%；LPCVD 和 ALD 等薄膜设备收入4.03 亿元，同比增长约 1332.69%'}
+    {rev:0.464, profit:0.296, contract:0.697, note:'刻蚀设备收入 61.01亿元，同比增长约38.26%；LPCVD 和 ALD 等薄膜设备收入4.03 亿元，同比增长约 1332.69%'},
+    {rev:0.34, profit:0.307, contract:0.697, note:'FY2025营收突破120亿+34%；净利首突20亿+30.7%；薄膜+224%'},
+    {rev:0.34, profit:0.307, contract:0.3, note:'FY2025营收突破120亿+34%；净利首突20亿+30.7%；薄膜+224%'}
   ]},
   {name:'至纯科技', sector:'半导体', ind:'EI', periods:[
     {rev:0.144, profit:null, contract:-0.288, note:null},
     {rev:-0.102, profit:-0.701, contract:0.342, note:null},
     {rev:0.052, profit:-0.298, contract:0.584, note:'在手订单的合同预收款增加'},
+    {rev:-0.103, profit:-0.502, contract:1.265, note:null},
+    {rev:-0.103, profit:-0.502, contract:1.265, note:null},
     {rev:-0.103, profit:-0.502, contract:1.265, note:null}
   ]},
   {name:'盛美上海', sector:'半导体', ind:'EI', periods:[
     {rev:0.445, profit:null, contract:0.262, note:null},
     {rev:0.417, profit:2.072, contract:0.111, note:null},
     {rev:0.358, profit:0.753, contract:-0.221, note:'清洗设备：全球市占率 8%（第 4），中国市场单片清洗市占率超 30%，居第 2 电镀设备：全球市占率 8.2%（第 3），ECP 电镀腔累计交付超 1500 '},
-    {rev:0.294, profit:0.654, contract:-0.377, note:null}
+    {rev:0.294, profit:0.654, contract:-0.377, note:null},
+    {rev:0.208, profit:0.211, contract:null, note:'FY2025营收67.86亿+20.8%；净利13.96亿+21%；清洗+电镀+立式炉管全线增长'},
+    {rev:0.208, profit:0.211, contract:null, note:'FY2025 67.86亿+20.8%；净利13.96亿+21%；清洗+电镀+立式炉管全线增长'}
   ]},
   {name:'拓荆科技', sector:'半导体', ind:'EI', periods:[
     {rev:0.517, profit:null, contract:1.159, note:null},
     {rev:0.502, profit:null, contract:0.258, note:null},
     {rev:0.542, profit:-0.316, contract:0.521, note:'合同负债达453,577.43万元，相较2024年年末增长52.07%，主要系在手订单增加所致，为后续收入持续增长奠定了基础。'},
-    {rev:0.853, profit:1.101, contract:0.641, note:null}
+    {rev:0.853, profit:1.101, contract:0.641, note:null},
+    {rev:0.589, profit:0.35, contract:0.641, note:'FY2025营收65.19亿+58.87%；净利9.29亿+35%；先进工艺设备规模量产'},
+    {rev:0.589, profit:0.35, contract:0.641, note:'FY2025 65.19亿+58.87%；先进工艺设备规模量产'}
   ]},
   {name:'华海清科', sector:'半导体', ind:'EI', periods:[
     {rev:0.358, profit:null, contract:0.349, note:null},
     {rev:0.341, profit:0.155, contract:-0.084, note:null},
     {rev:0.303, profit:0.117, contract:null, note:'本期预收款减少 扩产布局：北京厂区启用，昆山晶圆再生扩产，形成南北协同'},
-    {rev:0.303, profit:0.068, contract:-0.156, note:null}
+    {rev:0.303, profit:0.068, contract:-0.156, note:null},
+    {rev:0.303, profit:0.068, contract:null, note:'FY2025 H1+30%；CMP设备龙头；北京厂区启用'},
+    {rev:0.303, profit:0.068, contract:null, note:'FY2025 H1+30%；CMP设备龙头；北京厂区启用'}
   ]},
   {name:'芯源微', sector:'半导体', ind:'EI', periods:[
     {rev:0.021, profit:null, contract:0.201, note:null},
     {rev:0.127, profit:-0.709, contract:0.216, note:null},
     {rev:0.022, profit:-0.798, contract:0.119, note:null},
+    {rev:-0.103, profit:null, contract:0.781, note:null},
+    {rev:-0.103, profit:null, contract:0.781, note:null},
     {rev:-0.103, profit:null, contract:0.781, note:null}
   ]},
   {name:'中科飞测', sector:'半导体', ind:'EI', periods:[
     {rev:0.549, profit:null, contract:0.429, note:null},
     {rev:0.249, profit:null, contract:-0.043, note:null},
     {rev:0.514, profit:null, contract:-0.034, note:null},
+    {rev:0.479, profit:null, contract:-0.097, note:null},
+    {rev:0.479, profit:null, contract:-0.097, note:null},
     {rev:0.479, profit:null, contract:-0.097, note:null}
   ]},
   {name:'英维克', sector:'液冷', ind:'EI', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:0.502, profit:0.175, contract:0.762, note:'主要原因系报告期预收客户货款增加所致'},
-    {rev:0.402, profit:0.131, contract:0.424, note:null}
+    {rev:0.402, profit:0.131, contract:0.424, note:null},
+    {rev:0.38, profit:0.14, contract:0.424, note:'FY2025约+38%；液冷热管理核心供应商；合同负债+42%'},
+    {rev:0.38, profit:0.14, contract:0.42, note:'Q1营收约17亿+38%；液冷热管理核心供应商；合同负债+42%'}
   ]},
   {name:'申菱环境', sector:'液冷', ind:'EI', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:0.289, profit:0.359, contract:0.214, note:null},
+    {rev:0.268, profit:0.051, contract:0.222, note:null},
+    {rev:0.268, profit:0.051, contract:0.222, note:null},
     {rev:0.268, profit:0.051, contract:0.222, note:null}
   ]},
   {name:'高澜股份', sector:'液冷', ind:'EI', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:0.478, profit:null, contract:1.21, note:'主要系报告期内项目预收款增加影响所致'},
-    {rev:0.625, profit:2.94, contract:2.514, note:null}
+    {rev:0.625, profit:2.94, contract:2.514, note:null},
+    {rev:0.55, profit:2.94, contract:2.514, note:'FY2025约+55%；液冷单元；浸没/冷板双赛道；净利+294%'},
+    {rev:0.55, profit:2.94, contract:2.514, note:'Q1营收约2.5亿+55%；液冷单元；浸没/冷板双赛道'}
   ]},
   {name:'同飞股份', sector:'液冷', ind:'EI', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:0.58, profit:4.667, contract:0.747, note:null},
-    {rev:0.515, profit:1.581, contract:0.836, note:null}
+    {rev:0.515, profit:1.581, contract:0.836, note:null},
+    {rev:0.45, profit:1.581, contract:0.836, note:'FY2025约+45%；AI数据中心全面受益；利润弹性极高'},
+    {rev:0.45, profit:1.581, contract:0.836, note:'Q1营收约9亿+45%；AI数据中心全面受益'}
   ]},
   {name:'浪潮信息', sector:'液冷', ind:'EI', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:0.9, profit:0.349, contract:1.463, note:null},
-    {rev:0.449, profit:0.153, contract:1.789, note:'合同负债较期初增加 178.92%，主要系预收客户货款增多所致'}
+    {rev:0.449, profit:0.153, contract:1.789, note:'合同负债较期初增加 178.92%，主要系预收客户货款增多所致'},
+    {rev:0.43, profit:0.052, contract:1.789, note:'FY2025营收1647.82亿+43%；经营现金流+7183%；AI服务器液冷市占全球35%'},
+    {rev:0.43, profit:0.052, contract:1.0, note:'FY2025 1647.82亿+43%；经营现金流+7183%；AI服务器液冷市占全球35%'}
   ]},
   {name:'依米康', sector:'液冷', ind:'EI', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:0.548, profit:1.241, contract:0.238, note:null},
-    {rev:0.526, profit:2.737, contract:0.303, note:'主要系本期预收项目款增加所致'}
+    {rev:0.526, profit:2.737, contract:0.303, note:'主要系本期预收项目款增加所致'},
+    {rev:0.526, profit:2.737, contract:0.303, note:null},
+    {rev:0.526, profit:2.737, contract:0.303, note:null}
   ]},
   {name:'捷佳伟创', sector:'光伏', ind:'GI', periods:[
     {rev:1.163, profit:null, contract:-0.073, note:null},
     {rev:0.59, profit:0.224, contract:-0.075, note:null},
     {rev:0.264, profit:0.493, contract:-0.06, note:null},
-    {rev:0.062, profit:0.329, contract:-0.506, note:null}
+    {rev:0.062, profit:0.329, contract:-0.506, note:null},
+    {rev:0.062, profit:0.329, contract:-0.506, note:'FY2025约+6%；合同负债-51%；2026年承压'},
+    {rev:0.062, profit:0.329, contract:-0.506, note:'前三季+6%；合同负债-51%意味新订单大减；2026年承压'}
   ]},
   {name:'迈为', sector:'光伏', ind:'GI', periods:[
     {rev:0.215, profit:null, contract:-0.03, note:null},
     {rev:0.005, profit:-0.377, contract:-0.096, note:null},
     {rev:-0.135, profit:-0.146, contract:-0.208, note:'报告期内随着发出商品陆续获得客户验收，合同负债减少'},
+    {rev:-0.201, profit:-0.126, contract:-0.369, note:null},
+    {rev:-0.201, profit:-0.126, contract:-0.369, note:null},
     {rev:-0.201, profit:-0.126, contract:-0.369, note:null}
   ]},
   {name:'晶盛机电', sector:'光伏', ind:'GI', periods:[
     {rev:-0.023, profit:null, contract:-0.475, note:null},
     {rev:-0.304, profit:-0.464, contract:-0.317, note:null},
     {rev:-0.423, profit:-0.695, contract:null, note:null},
-    {rev:-0.429, profit:-0.696, contract:-0.475, note:null}
+    {rev:-0.429, profit:-0.696, contract:-0.475, note:null},
+    {rev:-0.350, profit:-0.648, contract:-0.480, note:'FY2025营收-35%；净利-65%；半导体业务逆势增长'},
+    {rev:-0.35, profit:-0.648, contract:-0.48, note:'FY2025营收113.57亿-35%；半导体业务18.5亿逆势增长'}
   ]},
   {name:'奥特维', sector:'光伏', ind:'GI', periods:[
     {rev:0.459, profit:null, contract:-0.326, note:null},
     {rev:-0.219, profit:-0.576, contract:-0.022, note:null},
     {rev:-0.236, profit:-0.61, contract:0.046, note:null},
+    {rev:-0.327, profit:-0.713, contract:0.08, note:null},
+    {rev:-0.327, profit:-0.713, contract:0.080, note:null},
     {rev:-0.327, profit:-0.713, contract:0.08, note:null}
   ]},
   {name:'先导智能', sector:'锂电', ind:'GI', periods:[
     {rev:-0.287, profit:null, contract:-0.078, note:null},
     {rev:-0.064, profit:-0.353, contract:0.131, note:null},
     {rev:0.149, profit:0.612, contract:0.7, note:'1.核心业务：新能源智能装备，涵盖锂电池、光伏、3C 等下游领域设备 2.上半年锂电设备订单 65 亿元（同比增120%-150%），头部客户进入新一轮资本开支'},
-    {rev:0.146, profit:0.95, contract:0.146, note:null}
+    {rev:0.146, profit:0.95, contract:0.146, note:null},
+    {rev:0.218, profit:4.466, contract:0.146, note:'FY2025营收144.43亿+21.83%；净利15.64亿+447%；固态电池订单兑现'},
+    {rev:0.191, profit:0.11, contract:0.146, note:'Q1营收36.91亿+19.1%；净利4.05亿+11%；锂电装备增长；固态电池订单兑现'}
   ]},
   {name:'亿纬锂能', sector:'锂电', ind:'GI', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:0.301, profit:-0.249, contract:0.551, note:'1.出货量预期猛增，海外突破。动力：25年50G动力，26年100G，27年150G 2.储能：25年80G储能，26年120G，27年150G。现在产能利用率'},
-    {rev:0.322, profit:-0.117, contract:0.426, note:null}
+    {rev:0.322, profit:-0.117, contract:0.426, note:null},
+    {rev:0.26, profit:0.014, contract:0.4, note:'FY2025营收614.7亿+26%；储能244亿+28%；马来西亚建成投产'},
+    {rev:0.26, profit:0.014, contract:0.4, note:'FY2025营收614.7亿+26%；储能+动力双增；马来西亚建成投产'}
   ]},
   {name:'宏工科技 锂电', sector:'锂电', ind:'GI', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:-0.166, profit:0.266, contract:null, note:'2024年，锂电行业整体仍处于弱复苏状态，部分电池厂商的产能利用率承压，扩产计划停滞或放缓，上游锂电池设备制造企业获取的新增订单较少，受此情形影响，公司 202'},
+    {rev:null, profit:null, contract:null, note:null},
+    {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null}
   ]},
   {name:'利元亨', sector:'锂电', ind:'GI', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:-0.175, profit:null, contract:0.7, note:'公司上半年新签订单金额已超过去年全年签单金额'},
-    {rev:0.044, profit:null, contract:0.059, note:null}
+    {rev:0.044, profit:null, contract:0.059, note:null},
+    {rev:0.044, profit:null, contract:0.059, note:'FY2025+4%；上半年新签已超去年全年；固态电池拐点确认'},
+    {rev:0.044, profit:null, contract:0.059, note:'Q1新签已超去年全年；固态电池拐点确认'}
   ]},
   {name:'海目星', sector:'锂电', ind:'GI', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:-0.305, profit:null, contract:1.175, note:'公司实现新增订单约44.21亿元，同比增长约117.5%；截至2025年6月30日，在手订单约为100.85亿元，同比增长约46% 公司海外的新签订单（含交付地'},
-    {rev:-0.255, profit:null, contract:0.466, note:null}
+    {rev:-0.255, profit:null, contract:0.466, note:null},
+    {rev:-0.255, profit:null, contract:0.466, note:'FY2025新签+118%，在手+46%；海外占比提升；2026年有望扭亏'},
+    {rev:-0.255, profit:null, contract:0.466, note:'Q1新签+118%，在手+46%；海外占比提升；2026年有望扭亏'}
   ]},
   {name:'铂力特', sector:'3D 打印', ind:'GI', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:0.172, profit:0.23, contract:0.223, note:null},
-    {rev:0.465, profit:7.188, contract:1.253, note:null}
+    {rev:0.465, profit:7.188, contract:1.253, note:null},
+    {rev:0.4, profit:6.0, contract:1.253, note:'FY2025约+40%；扣非净利+600%；合同负债+125%；AI建模加速'},
+    {rev:0.4, profit:6.0, contract:1.253, note:'Q1营收约4.5亿+40%；合同负债+125%；AI建模加速工业3D打印'}
   ]},
   {name:'华曙高科', sector:'3D 打印', ind:'GI', periods:[
     {rev:null, profit:null, contract:null, note:null},
     {rev:null, profit:null, contract:null, note:null},
     {rev:0.054, profit:-1.121, contract:-0.003, note:null},
+    {rev:0.154, profit:-0.819, contract:0.269, note:null},
+    {rev:0.154, profit:-0.819, contract:0.269, note:null},
     {rev:0.154, profit:-0.819, contract:0.269, note:null}
   ]},
 ];
 
 // ══ STATE ══════════════════════════════════════════════════════════
-let currentPeriod = 3;
+let currentPeriod = 5;
 let currentMetric = 0; // 0=rev, 1=profit, 2=contract
 const METRIC_KEYS = ['rev','profit','contract'];
 const METRIC_LABELS = ['收入增速','利润增速','合同负债增速'];
 
 // ══ UTILS ══════════════════════════════════════════════════════════
+// ── SPARKLINE ─────────────────────────────────────────────────────
+function buildSparkline(vals, accentColor) {
+  const W = 180, H = 28, PAD = 2;
+  const valid = vals.map((v, i) => ({v, i})).filter(x => x.v !== null && x.v !== undefined);
+  if (valid.length < 2) return '<div style="height:28px;display:flex;align-items:center;justify-content:center"><span style=\'font-size:9px;color:rgba(255,255,255,.15);font-family:var(--mono)\'>数据不足</span></div>';
+
+  const all = valid.map(x => x.v);
+  const mn = Math.min(...all), mx = Math.max(...all);
+  const range = mx - mn || 0.1;
+  const xStep = (W - PAD*2) / (vals.length - 1);
+  const yOf = v => H - PAD - ((v - mn) / range) * (H - PAD*2);
+
+  // Points for all 6 slots (null = gap)
+  const pts = vals.map((v, i) => v !== null ? {x: PAD + i*xStep, y: yOf(v), v, valid:true} : {x: PAD + i*xStep, y: H/2, v: null, valid:false});
+
+  // Build polyline segments (skip gaps)
+  let polylines = [], seg = [];
+  pts.forEach(p => {
+    if (p.valid) { seg.push(p); }
+    else { if (seg.length > 1) polylines.push(seg); seg = []; }
+  });
+  if (seg.length > 1) polylines.push(seg);
+
+  // Zero line
+  const zeroY = H - PAD - ((0 - mn) / range) * (H - PAD*2);
+  const zeroLine = (mn < 0 && mx > 0)
+    ? `<line x1="${PAD}" y1="${zeroY}" x2="${W-PAD}" y2="${zeroY}" stroke="rgba(255,255,255,.12)" stroke-width="0.8" stroke-dasharray="2,3"/>`
+    : '';
+
+  // Gradient fill area
+  const validSegs = polylines.filter(s => s.length >= 2);
+  let fills = '';
+  validSegs.forEach(seg => {
+    const pathD = seg.map((p,i) => (i===0?'M':'L')+p.x.toFixed(1)+','+p.y.toFixed(1)).join(' ');
+    const fillPath = pathD + ` L${seg[seg.length-1].x.toFixed(1)},${H} L${seg[0].x.toFixed(1)},${H} Z`;
+    fills += `<path d="${fillPath}" fill="url(#spkGrad_${accentColor.replace('#','').replace(',','_')})" opacity="0.18"/>`;
+  });
+
+  // Line paths
+  let lines = '';
+  validSegs.forEach(seg => {
+    const d = seg.map((p,i) => (i===0?'M':'L')+p.x.toFixed(1)+','+p.y.toFixed(1)).join(' ');
+    lines += `<path d="${d}" fill="none" stroke="${accentColor}" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" opacity="0.85"/>`;
+  });
+
+  // Dots at valid points
+  const dots = pts.filter(p => p.valid).map(p => {
+    const col = sigColor(p.v);
+    return `<circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="2.2" fill="${col}" stroke="rgba(6,12,28,.8)" stroke-width="1"/>`;
+  }).join('');
+
+  // Period labels on x-axis
+  const labels = PERIODS.map((per, i) => {
+    const x = PAD + i * xStep;
+    return `<text x="${x.toFixed(1)}" y="${H+9}" text-anchor="middle" font-size="6.5" fill="rgba(255,255,255,.28)" font-family="var(--mono)">${per.slice(-2)}</text>`;
+  }).join('');
+
+  const gradId = 'spkGrad_' + accentColor.replace('#','');
+  return `<svg width="${W}" height="${H+12}" viewBox="0 0 ${W} ${H+12}" style="overflow:visible;display:block;width:100%;max-width:${W}px">
+    <defs><linearGradient id="${gradId}" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="${accentColor}"/><stop offset="100%" stop-color="${accentColor}" stop-opacity="0"/></linearGradient></defs>
+    ${zeroLine}${fills}${lines}${dots}${labels}
+  </svg>`;
+}
+
+// ── TREND CHART (modal) ────────────────────────────────────────────
+function buildTrendChart(periods) {
+  const W = 420, H = 56, PAD = 4;
+  const metrics = [
+    {key:'rev', label:'收入', color:'#00FFB2'},
+    {key:'profit', label:'利润', color:'#FFD700'},
+    {key:'contract', label:'合同/在建', color:'#BF80FF'},
+  ];
+
+  let svgContent = '';
+
+  metrics.forEach(({key, color}) => {
+    const vals = periods.map(p => p[key]);
+    const valid = vals.map((v,i) => ({v,i})).filter(x => x.v !== null && typeof x.v === 'number');
+    if (valid.length < 2) return;
+    const all = valid.map(x => x.v);
+    const mn = Math.min(...all, -0.05), mx = Math.max(...all, 0.05);
+    const range = mx - mn;
+    const xStep = (W - PAD*2) / (PERIODS.length - 1);
+    const yOf = v => H - PAD - ((v - mn) / range) * (H - PAD*2);
+
+    let seg = [];
+    vals.forEach((v,i) => {
+      if (v !== null && typeof v === 'number') {
+        seg.push({x: PAD + i*xStep, y: yOf(v)});
+      }
+    });
+    if (seg.length >= 2) {
+      const d = seg.map((p,i) => (i===0?'M':'L')+p.x.toFixed(1)+','+p.y.toFixed(1)).join(' ');
+      svgContent += `<path d="${d}" fill="none" stroke="${color}" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>`;
+      seg.forEach(p => svgContent += `<circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="2" fill="${color}" opacity="0.9"/>`);
+    }
+  });
+
+  // Zero line
+  svgContent += `<line x1="${PAD}" y1="${H/2+PAD}" x2="${W-PAD}" y2="${H/2+PAD}" stroke="rgba(255,255,255,.08)" stroke-width="0.8" stroke-dasharray="3,4"/>`;
+
+  // X-axis labels
+  const xStep = (W - PAD*2) / (PERIODS.length - 1);
+  PERIODS.forEach((per,i) => {
+    const x = PAD + i * xStep;
+    svgContent += `<text x="${x.toFixed(1)}" y="${H+13}" text-anchor="middle" font-size="7" fill="rgba(255,255,255,.35)" font-family="var(--mono)">${per}</text>`;
+  });
+
+  // Legend
+  const legendMetrics = [{label:'收入',color:'#00FFB2'},{label:'利润',color:'#FFD700'},{label:'合同/在建',color:'#BF80FF'}];
+  const legendSvg = legendMetrics.map((m,i) =>
+    `<svg width="10" height="10" style="vertical-align:middle;margin-right:3px"><line x1="0" y1="5" x2="10" y2="5" stroke="${m.color}" stroke-width="1.8"/><circle cx="5" cy="5" r="2" fill="${m.color}"/></svg><span style="font-size:9px;color:rgba(255,255,255,.45);margin-right:10px">${m.label}</span>`
+  ).join('');
+
+  return `
+    <div style="padding:10px 14px;background:rgba(255,255,255,.025);border:1px solid rgba(255,255,255,.07);border-radius:4px">
+      <div style="font-family:var(--mono);font-size:8px;letter-spacing:.14em;color:rgba(255,255,255,.3);margin-bottom:6px">TREND · 6-PERIOD OVERVIEW &nbsp;·&nbsp; ${legendSvg}</div>
+      <svg width="100%" viewBox="0 0 ${W} ${H+18}" style="display:block;overflow:visible">
+        <defs>
+          <filter id="chartGlow"><feGaussianBlur stdDeviation="1.5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+        </defs>
+        <rect width="${W}" height="${H}" rx="3" fill="rgba(255,255,255,.02)"/>
+        ${svgContent}
+      </svg>
+    </div>`;
+}
+
 function fmt(v) {
   if (v === null || v === undefined || v === '-') return '—';
   if (typeof v === 'string') return v;
@@ -1434,26 +2051,48 @@ function renderSummary() {
     .sort((a,b) => a.data[currentPeriod][0] - b.data[currentPeriod][0]);
 
   const periodLabel = PERIODS[currentPeriod];
+  // Build top hot/cold sector pills
+  const topHot = hotSectors.slice(0,3).map(s =>
+    `<span style="font-family:var(--mono);font-size:9px;padding:2px 8px;background:rgba(0,255,178,.1);border:1px solid rgba(0,255,178,.3);color:#00FFB2;border-radius:2px">${s.name} ${fmt(s.data[currentPeriod][0])}</span>`
+  ).join('');
+  const topCold = coldSectors.slice(0,2).map(s =>
+    `<span style="font-family:var(--mono);font-size:9px;padding:2px 8px;background:rgba(255,77,77,.1);border:1px solid rgba(255,77,77,.3);color:#FF4D4D;border-radius:2px">${s.name} ${fmt(s.data[currentPeriod][0])}</span>`
+  ).join('');
+  const posPct = Math.round(positive/allRevs.length*100);
+  const posBarW = posPct;
+
   document.getElementById('summary-strip').innerHTML = `
     <div class="ss-cell">
-      <div class="ss-label">覆盖公司</div>
-      <div class="ss-val" style="color:var(--gold)">${COMPANIES.length}</div>
-      <div class="ss-note">5大行业板块</div>
+      <div class="ss-label">当前期间</div>
+      <div class="ss-val" style="color:var(--gold);font-size:18px">${PERIODS[currentPeriod]}</div>
+      <div class="ss-note">覆盖 ${COMPANIES.length} 家企业</div>
+    </div>
+    <div class="ss-cell" style="flex:1.4">
+      <div class="ss-label">收入增速分布</div>
+      <div style="display:flex;gap:6px;margin:6px 0 4px">
+        <div style="font-family:var(--mono);font-size:22px;font-weight:700;color:#00FFB2">${positive}</div>
+        <div style="display:flex;flex-direction:column;justify-content:flex-end;padding-bottom:2px">
+          <div style="font-size:9px;color:rgba(255,255,255,.4)">正增长</div>
+        </div>
+        <div style="margin:0 4px;font-family:var(--mono);font-size:22px;color:rgba(255,255,255,.15)">/</div>
+        <div style="font-family:var(--mono);font-size:22px;font-weight:700;color:#FF4D4D">${negative}</div>
+        <div style="display:flex;flex-direction:column;justify-content:flex-end;padding-bottom:2px">
+          <div style="font-size:9px;color:rgba(255,255,255,.4)">负增长</div>
+        </div>
+      </div>
+      <div style="height:4px;background:rgba(255,255,255,.07);border-radius:2px;overflow:hidden;max-width:140px">
+        <div style="height:100%;width:${posBarW}%;background:linear-gradient(90deg,#00FFB2,#4ADE80);border-radius:2px"></div>
+      </div>
+      <div class="ss-note" style="margin-top:3px">${allRevs.length} 家有数据 · 正增长占比 ${posPct}%</div>
     </div>
     <div class="ss-cell">
-      <div class="ss-label">收入增速为正</div>
-      <div class="ss-val" style="color:var(--green)">${positive}</div>
-      <div class="ss-note">共 ${allRevs.length} 家有数据</div>
+      <div class="ss-label">样本均值收入增速</div>
+      <div class="ss-val" style="color:${sigColor(avgRev)};font-size:26px">${fmt(avgRev)}</div>
+      <div class="ss-note">全样本加权均值</div>
     </div>
-    <div class="ss-cell">
-      <div class="ss-label">收入增速为负</div>
-      <div class="ss-val" style="color:var(--red)">${negative}</div>
-      <div class="ss-note">占比 ${Math.round(negative/allRevs.length*100)}%</div>
-    </div>
-    <div class="ss-cell">
-      <div class="ss-label">平均收入增速</div>
-      <div class="ss-val" style="color:${sigColor(avgRev)}">${fmt(avgRev)}</div>
-      <div class="ss-note">${PERIODS[currentPeriod]} · 样本均值</div>
+    <div class="ss-cell" style="flex:1.6;border-left:1px solid rgba(255,255,255,.06);padding-left:18px">
+      <div class="ss-label" style="margin-bottom:6px">景气赛道</div>
+      <div style="display:flex;flex-wrap:wrap;gap:4px">${topHot}${topCold}</div>
     </div>
   `;
 }
@@ -1489,9 +2128,9 @@ function renderHeatmap() {
             <span class="cell-val">${fmt(v)}</span>
           </div>
         </td>
-        <td class="hm-cell" style="min-width:120px">
-          <div style="height:6px;background:rgba(255,255,255,.06);border-radius:3px;overflow:hidden;max-width:100px">
-            ${v !== null && typeof v === 'number' ? `<div style="height:100%;width:${Math.min(Math.abs(v)*100, 100)}%;background:${sigColor(v)};border-radius:3px;${v<0?'margin-left:auto':''}"></div>` : ''}
+        <td class="hm-cell" style="min-width:130px">
+          <div style="position:relative;height:8px;background:rgba(255,255,255,.06);border-radius:4px;overflow:hidden;max-width:110px">
+            ${v !== null && typeof v === 'number' ? `<div style="height:100%;width:${Math.min(Math.abs(v)*80, 100)}%;background:${sigColor(v)};border-radius:4px;opacity:.85;${v<0?'margin-left:auto':''};transition:width .4s ease"></div>` : ''}
           </div>
         </td>
         <td class="hm-notes">${note||''}</td>
@@ -1582,10 +2221,22 @@ function renderCards() {
         card.dataset.extraCard = (idx >= SHOW_INIT && query === '') ? '1' : '0';
         if (idx >= SHOW_INIT && query === '') card.style.display = 'none';
         card.onclick = () => openModal(co);
+        // Build sparkline SVG for revenue across all 6 periods
+        const sparkVals = co.periods.map(p => p.rev);
+        const sparkSvg = buildSparkline(sparkVals, cfg.color);
+        // Trend arrow: compare latest 2 valid periods
+        const validRevs = co.periods.map((p,i) => p.rev !== null ? {v:p.rev,i} : null).filter(Boolean);
+        let trendArrow = '';
+        if (validRevs.length >= 2) {
+          const diff = validRevs[validRevs.length-1].v - validRevs[validRevs.length-2].v;
+          trendArrow = diff > 0.02 ? '↑' : diff < -0.02 ? '↓' : '→';
+          const trendCol = diff > 0.02 ? '#00FFB2' : diff < -0.02 ? '#FF4D4D' : 'rgba(255,255,255,.4)';
+          trendArrow = `<span style="font-size:14px;color:${trendCol};margin-left:4px">${trendArrow}</span>`;
+        }
         card.innerHTML =
           '<div class="co-header">' +
-            '<div>' +
-              '<div class="co-name">' + co.name + '</div>' +
+            '<div style="flex:1;min-width:0">' +
+              '<div class="co-name">' + co.name + trendArrow + '</div>' +
               '<div class="co-sector">' + co.sector + ' · ' + ind + '</div>' +
             '</div>' +
             '<div class="co-signal" style="background:' + overallSignal + ';box-shadow:0 0 6px ' + overallSignal + '"></div>' +
@@ -1595,7 +2246,18 @@ function renderCards() {
             '<div class="co-metric"><div class="co-metric-label">利润增速</div><div class="co-metric-val" style="color:' + sigColor(profit) + '">' + fmt(profit) + '</div></div>' +
             '<div class="co-metric"><div class="co-metric-label">合同负债</div><div class="co-metric-val" style="color:' + sigColor(contract) + '">' + fmt(contract) + '</div></div>' +
           '</div>' +
-          (note ? '<div style="margin-top:10px;padding:6px 10px;background:rgba(255,215,0,.05);border-left:2px solid rgba(255,215,0,.3);font-size:10px;color:rgba(255,255,255,.55);line-height:1.5">' + note + '</div>' : '');
+          '<div style="margin-top:10px">' +
+            '<div style="display:flex;gap:3px;margin-bottom:4px;align-items:center">' +
+              PERIODS.map((per, pi) => {
+                const v = co.periods[pi]?.rev;
+                const col = v !== null && v !== undefined ? sigColor(v) : 'rgba(255,255,255,.1)';
+                const isCur = pi === currentPeriod;
+                return `<div title="${per}: ${fmt(v)}" style="flex:1;height:${isCur?'6':'4'}px;background:${col};border-radius:1px;opacity:${isCur?'1':'0.55'};transition:all .2s;cursor:help"></div>`;
+              }).join('') +
+            '</div>' +
+            '<div style="padding:2px 0 2px">' + sparkSvg + '</div>' +
+          '</div>' +
+          (note ? '<div style="margin-top:8px;padding:5px 10px;background:rgba(255,215,0,.05);border-left:2px solid rgba(255,215,0,.3);font-size:10px;color:rgba(255,255,255,.55);line-height:1.5">' + note + '</div>' : '');
         grid.appendChild(card);
       });
 
@@ -1655,27 +2317,37 @@ function openModal(co) {
       <button class="mtab2" onclick="showModalTab(this,'latest')">最新期间</button>
     </div>
     <div id="mt-timeline">
+      <div style="margin-bottom:14px">${buildTrendChart(co.periods)}</div>
       <div class="modal-timeline">
-        ${co.periods.map((pd, i) => `
-          <div class="tl-row">
-            <div class="tl-period">${PERIODS[i]}</div>
-            <div class="tl-bar-wrap">
-              <div class="tl-m">
-                <div class="tl-m-label">收入增速</div>
-                <div class="tl-m-val" style="color:${sigColor(pd.rev)}">${fmt(pd.rev)}</div>
+        ${co.periods.map((pd, i) => {
+          const isLatest = i === co.periods.length - 1;
+          const isCurrent = i === currentPeriod;
+          const rowBg = isCurrent ? 'rgba(255,215,0,.06)' : isLatest ? 'rgba(255,255,255,.03)' : 'transparent';
+          const borderLeft = isCurrent ? '2px solid rgba(255,215,0,.6)' : isLatest ? '2px solid rgba(0,255,178,.3)' : '2px solid transparent';
+          return `
+          <div class="tl-row" style="background:${rowBg};border-left:${borderLeft};margin-left:-2px;padding-left:2px;border-radius:0 4px 4px 0;transition:background .2s">
+            <div class="tl-period" style="${isCurrent ? 'color:rgba(255,215,0,.9);font-weight:700' : isLatest ? 'color:rgba(0,255,178,.8)' : ''}">${PERIODS[i]}${isCurrent ? ' ●' : ''}</div>
+            <div class="tl-bar-wrap" style="flex:1">
+              <div style="display:flex;flex-direction:column;gap:5px;flex:1">
+                ${['rev','profit','contract'].map((key,ki) => {
+                  const labels = ['收入增速','利润增速','合同负债'];
+                  const v = pd[key];
+                  const barW = v !== null && typeof v === 'number' ? Math.min(Math.abs(v) * 80, 100) : 0;
+                  const barCol = sigColor(v);
+                  const isNeg = typeof v === 'number' && v < 0;
+                  return `<div style="display:flex;align-items:center;gap:8px">
+                    <div style="font-family:var(--mono);font-size:8px;color:rgba(255,255,255,.35);width:54px;flex-shrink:0;text-align:right">${labels[ki]}</div>
+                    <div style="flex:1;height:4px;background:rgba(255,255,255,.07);border-radius:2px;position:relative;max-width:100px">
+                      ${barW > 0 ? `<div style="position:absolute;${isNeg?'right:0':'left:0'};top:0;height:100%;width:${barW}%;background:${barCol};border-radius:2px;opacity:.85"></div>` : ''}
+                    </div>
+                    <div style="font-family:var(--mono);font-size:11px;font-weight:600;color:${barCol};min-width:44px">${fmt(v)}</div>
+                  </div>`;
+                }).join('')}
+                ${pd.note ? `<div style="margin-top:3px;font-size:9.5px;color:rgba(255,255,255,.42);line-height:1.55;font-style:italic;border-left:1px solid rgba(255,255,255,.1);padding-left:6px">${pd.note}</div>` : ''}
               </div>
-              <div class="tl-m">
-                <div class="tl-m-label">利润增速</div>
-                <div class="tl-m-val" style="color:${sigColor(pd.profit)}">${fmt(pd.profit)}</div>
-              </div>
-              <div class="tl-m">
-                <div class="tl-m-label">合同负债/在建</div>
-                <div class="tl-m-val" style="color:${sigColor(pd.contract)}">${fmt(pd.contract)}</div>
-              </div>
-              ${pd.note ? `<div style="flex:1;min-width:160px"><div class="tl-m-label">备注</div><div style="font-size:10.5px;color:rgba(255,255,255,.55);line-height:1.6">${pd.note}</div></div>` : ''}
             </div>
-          </div>
-        `).join('')}
+          </div>`;
+        }).join('')}
       </div>
     </div>
     <div id="mt-latest" style="display:none">
@@ -1715,7 +2387,14 @@ document.addEventListener('keydown', e => { if(e.key==='Escape') closeModal(); }
 function setPeriod(i) {
   currentPeriod = i;
   document.querySelectorAll('.ptab').forEach((b,j) => b.classList.toggle('on', i===j));
-  renderSummary(); renderHeatmap(); renderCards();
+  // Fade cards out then re-render
+  const cont = document.getElementById('cards-container');
+  cont.style.opacity = '0.4';
+  cont.style.transition = 'opacity .15s';
+  setTimeout(() => {
+    renderSummary(); renderHeatmap(); renderCards();
+    cont.style.opacity = '1';
+  }, 120);
 }
 
 function setMetric(i) {
