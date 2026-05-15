@@ -3,158 +3,158 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-05-14T03:57:30.736604+00:00",
+  "updated_at": "2026-05-15T04:01:39.972038+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "31e1afacc2",
-      "title": "模拟芯片新周期之下，谁能抢占红利?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811471&idx=1&sn=3634e13b814a3b30796155690bc10410",
-      "summary": "模拟芯片新周期之下，谁能抢占红利?",
+      "id": "463b4d110a",
+      "title": "中芯国际Q1财报出炉！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811533&idx=1&sn=2d2222dd2f8d48c617c124c2b86499a3",
+      "summary": "中芯国际Q1财报出炉！",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-14T03:57:26.704904+00:00",
-      "pub_ts": 1778731046
+      "pub_date": "2026-05-15T04:01:35.930124+00:00",
+      "pub_ts": 1778817695
     },
     {
-      "id": "59da6ade1c",
-      "title": "这七大芯片，决定AI上限",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811471&idx=2&sn=3b1153d10ccb0da5f5b4367cad5c9465",
-      "summary": "这七大芯片，决定AI上限",
+      "id": "a6a0d8e660",
+      "title": "中芯国际、华虹财报接力，深挖晶圆代工三大趋势",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811527&idx=1&sn=235ff8fb1d100329c8e849865569e0b2",
+      "summary": "中芯国际、华虹财报接力，深挖晶圆代工三大趋势",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-14T03:57:26.704943+00:00",
-      "pub_ts": 1778731046
+      "pub_date": "2026-05-15T04:01:35.930172+00:00",
+      "pub_ts": 1778817695
     },
     {
-      "id": "b21f4701fb",
-      "title": "CPU与GPU跑本地AI，谁速度更快?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811471&idx=3&sn=5786eaa5e0146049993840feb9c8743e",
-      "summary": "CPU与GPU跑本地AI，谁速度更快?",
+      "id": "16db0b0c81",
+      "title": "全球半导体TOP10，Q1赚疯了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811523&idx=1&sn=ff395e6fe8f4dce2e37470d715fc87c9",
+      "summary": "全球半导体TOP10，Q1赚疯了",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-14T03:57:26.704969+00:00",
-      "pub_ts": 1778731046
+      "pub_date": "2026-05-15T04:01:35.930198+00:00",
+      "pub_ts": 1778817695
     },
     {
-      "id": "b7b44efd47",
-      "title": "半导体材料，全球需求旺盛",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811471&idx=4&sn=0865231679115f4b2802d02d89e18f5b",
-      "summary": "半导体材料，全球需求旺盛",
+      "id": "6563fa740f",
+      "title": "半导体材料再告急，这次是HF",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811523&idx=2&sn=43b43efc9b7121665bda4a000ae910e7",
+      "summary": "半导体材料再告急，这次是HF",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-14T03:57:26.704992+00:00",
-      "pub_ts": 1778731046
+      "pub_date": "2026-05-15T04:01:35.930221+00:00",
+      "pub_ts": 1778817695
     },
     {
-      "id": "1f6e030a63",
-      "title": "百倍性能！NASA研发新一代航天芯片",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811471&idx=5&sn=38a07d0ddc70e83b20198b57026db9ab",
-      "summary": "百倍性能！NASA研发新一代航天芯片",
+      "id": "e9e937e4fd",
+      "title": "索尼CTO：CMOS图像传感器三大未来方向",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811523&idx=3&sn=e49eb989c6fc8d632de2279070efed01",
+      "summary": "索尼CTO：CMOS图像传感器三大未来方向",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-14T03:57:26.705012+00:00",
-      "pub_ts": 1778731046
+      "pub_date": "2026-05-15T04:01:35.930242+00:00",
+      "pub_ts": 1778817695
     },
     {
-      "id": "38556650f5",
-      "title": "大普微，继续大涨，市值逼近3000亿",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819146&idx=1&sn=f82c6702ffc7b34b0a00e186af811a84",
-      "summary": "大普微，继续大涨，市值逼近3000亿",
+      "id": "2be2f24048",
+      "title": "台积电正在疯狂建厂",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819280&idx=1&sn=081151bd7ce0e41743fef426eccd7aa3",
+      "summary": "台积电正在疯狂建厂",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-14T03:57:13.716318+00:00",
-      "pub_ts": 1778731033
+      "pub_date": "2026-05-15T04:01:26.655528+00:00",
+      "pub_ts": 1778817686
     },
     {
-      "id": "6e390b691e",
-      "title": "Keysight World Tech Day 2026，重磅启动",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819138&idx=1&sn=eeb94def3beee67d446334cee7953c5e",
-      "summary": "Keysight World Tech Day 2026，重磅启动",
+      "id": "3eca16200c",
+      "title": "刚刚，中芯国际发布财报，单季营收超25亿美元",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819276&idx=1&sn=3bbe9b07cf0d143d922bbdc0f0593fb8",
+      "summary": "刚刚，中芯国际发布财报，单季营收超25亿美元",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-14T03:57:13.716364+00:00",
-      "pub_ts": 1778731033
+      "pub_date": "2026-05-15T04:01:26.655583+00:00",
+      "pub_ts": 1778817686
     },
     {
-      "id": "5698281c82",
-      "title": "英伟达确认：黄仁勋随特朗普访华",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819128&idx=1&sn=96e8360917d1aa30ccf7c6656397cc47",
-      "summary": "英伟达确认：黄仁勋随特朗普访华",
+      "id": "d0acf34985",
+      "title": "华虹发布Q1财报：净利润同比大增",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819268&idx=1&sn=38a8abb49a4acde6de496634e2e99c31",
+      "summary": "华虹发布Q1财报：净利润同比大增",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-14T03:57:13.716389+00:00",
-      "pub_ts": 1778731033
+      "pub_date": "2026-05-15T04:01:26.655606+00:00",
+      "pub_ts": 1778817686
     },
     {
-      "id": "ae6063c2e1",
-      "title": "ASIL D最后一块拼图：纳芯微撬开隔离栅极驱动的“铁门”",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819119&idx=1&sn=459b9ba1cf18ec226cfc5c93d4766ff0",
-      "summary": "ASIL D最后一块拼图：纳芯微撬开隔离栅极驱动的“铁门”",
+      "id": "36ec75620f",
+      "title": "台积电，太猛了",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819235&idx=1&sn=156f63244e0c01c668e482510c462b76",
+      "summary": "台积电，太猛了",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-14T03:57:13.716411+00:00",
-      "pub_ts": 1778731033
+      "pub_date": "2026-05-15T04:01:26.655627+00:00",
+      "pub_ts": 1778817686
     },
     {
-      "id": "3aa6930d6c",
-      "title": "从RTL到芯片：EDA最强科普",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819119&idx=2&sn=b9f60277054dd96b8b0ffa6a2366b405",
-      "summary": "从RTL到芯片：EDA最强科普",
+      "id": "e11071da57",
+      "title": "日挣10亿，台积电凭啥?",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819226&idx=1&sn=20ea889b60bba184ae01ee427c7cdfe5",
+      "summary": "日挣10亿，台积电凭啥?",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-14T03:57:13.716432+00:00",
-      "pub_ts": 1778731033
+      "pub_date": "2026-05-15T04:01:26.655647+00:00",
+      "pub_ts": 1778817686
     },
     {
-      "id": "accba5b985",
-      "title": "DFT In Automotive",
-      "url": "https://semiengineering.com/dft-in-automotive/",
-      "summary": "What's needed to ensure reliability of automotive chips, and why it’s about to get even tougher.\nThe post DFT In Automotive appeared first on Semiconductor Engineering.",
+      "id": "e7bedf41cf",
+      "title": "Why Vision LLMs Force A Rethink Of Edge AI Hardware",
+      "url": "https://semiengineering.com/why-vision-llms-force-a-rethink-of-edge-ai-hardware/",
+      "summary": "Peak TOPS is becoming a weaker proxy for delivered edge performance.\nThe post Why Vision LLMs Force A Rethink Of Edge AI Hardware appeared first on Semiconductor Engineering.",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-05-13T07:05:08+00:00",
-      "pub_ts": 1778655908
+      "pub_date": "2026-05-14T07:07:53+00:00",
+      "pub_ts": 1778742473
     },
     {
-      "id": "c2dfde20a9",
-      "title": "Lasers Are The Heartbeat Of The Optical AI Data Center",
-      "url": "https://semiengineering.com/lasers-are-the-heartbeat-of-the-optical-ai-data-center/",
-      "summary": "These III-V semiconductors are essential for super-high-bandwidth optical interconnects.\nThe post Lasers Are The Heartbeat Of The Optical AI Data Center appeared first on Semiconductor Engineering.",
+      "id": "5828a396ec",
+      "title": "SOCAMM2: Bringing LPDDR5X Benefits To AI Servers",
+      "url": "https://semiengineering.com/socamm2-bringing-lpddr5x-benefits-to-ai-servers/",
+      "summary": "Preserving LPDDR's energy efficiency advantages while restoring the modularity expected in server systems. \nThe post SOCAMM2: Bringing LPDDR5X Benefits To AI Servers appeared first on Semiconductor Engineering.",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-05-13T07:01:57+00:00",
-      "pub_ts": 1778655717
+      "pub_date": "2026-05-14T07:05:17+00:00",
+      "pub_ts": 1778742317
     },
     {
-      "id": "74606b56e2",
-      "title": "Scaling PCIe Controllers for AI Bandwidth:  A Multistream Architecture Analysis for 64 GT/s and 128 GT/s",
-      "url": "https://semiengineering.com/scaling-pcie-controllers-for-ai-bandwidth-a-multistream-architecture-analysis-for-64-gt-s-and-128-gt-s/",
-      "summary": "As PCIe moves toward 128 GT/s and beyond, multistream architecture transitions from an optimization to a requirement. \nThe post Scaling PCIe Controllers for AI Bandwidth:  A Multistream Architecture Analysis for 64 GT/s and 128 GT/s appeared first on Semiconductor Engineering.",
+      "id": "ffd0e9dbd9",
+      "title": "Vision-Language-Action Models Arrive",
+      "url": "https://semiengineering.com/vision-language-action-models-arrive/",
+      "summary": "An emerging AI architecture for embedded autonomy challenges edge efficiency.\nThe post Vision-Language-Action Models Arrive appeared first on Semiconductor Engineering.",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-05-13T07:01:26+00:00",
-      "pub_ts": 1778655686
+      "pub_date": "2026-05-14T07:04:50+00:00",
+      "pub_ts": 1778742290
     },
     {
-      "id": "744f12cc8e",
-      "title": "Blog Review: May 13",
-      "url": "https://semiengineering.com/blog-review-may-13-3/",
-      "summary": "GPU rasterizer for computational lithography; restructuring techniques; inline memory encryption; automotive electronic stability program.\nThe post Blog Review: May 13 appeared first on Semiconductor Engineering.",
+      "id": "20aad6e4ef",
+      "title": "Introducing “The Architecture Speaks”",
+      "url": "https://semiengineering.com/introducing-the-architecture-speaks/",
+      "summary": "An experimental AI chatbot acts as a guide to the Arm architecture, providing quick answers to complex technical questions.\nThe post Introducing &#8220;The Architecture Speaks&#8221; appeared first on Semiconductor Engineering.",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-05-13T07:01:11+00:00",
-      "pub_ts": 1778655671
+      "pub_date": "2026-05-14T07:03:45+00:00",
+      "pub_ts": 1778742225
     },
     {
-      "id": "3b08204d3d",
-      "title": "A Comprehensive Study Of Integrating 2D Materials With CFET Architecture (SKKU, et al.)",
-      "url": "https://semiengineering.com/a-comprehensive-study-on-integrating-2d-materials-with-cfet-architecture-skku-et-al/",
-      "summary": "A new technical paper, &#8220;Challenges and prospects of 2D electronics for future monolithic complementary field-effect transistors,&#8221; was published by researchers at Sungkyunkwan University, Hangyang University, Istituto Italiano di Tecnologia, Shanghai University, Jeonbuk National Universit…",
+      "id": "ba546ebe2b",
+      "title": "Chiplets Need A New Workflow",
+      "url": "https://semiengineering.com/chiplets-need-a-new-workflow/",
+      "summary": "Multi-die assemblies are facing full system-level challenges, but engineering teams need coordinated and repeatable ways to identify risks early and scale reliably. \nThe post Chiplets Need A New Workflow appeared first on Semiconductor Engineering.",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-05-12T16:09:26+00:00",
-      "pub_ts": 1778602166
+      "pub_date": "2026-05-14T07:03:31+00:00",
+      "pub_ts": 1778742211
     }
   ]
 }

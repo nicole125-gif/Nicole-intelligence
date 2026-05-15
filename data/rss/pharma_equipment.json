@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-05-14T03:58:25.649700+00:00",
+  "updated_at": "2026-05-15T04:02:17.110306+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "6d7ff303e1",
-      "title": "ECO 2026: REDEFINE-1 demonstrates CagriSema’s improvement in body composition",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/eco-2026-redefine-1-cagrisema-body-composition/",
-      "summary": "Data from the REDEFINE-1 trial (NCT05567796) were recently presented in Türkiye, assessing Novo Nordisk's CagriSema in adults with obesity.",
+      "id": "4772e3bf1e",
+      "title": "ECO 2026: ATTAIN-MAINTAIN trial showcases orforglipron’s role in sustained weight loss",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/eco-2026-orforglipron-sustained-weight-loss/",
+      "summary": "At ECO 2026, findings from the ATTAIN-MAINTAIN trial were presented, assessing (orforglipron) for maintaining body weight loss in obese or overweight adults.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-13T13:52:51+00:00",
-      "pub_ts": 1778680371
+      "pub_date": "2026-05-14T15:33:34+00:00",
+      "pub_ts": 1778772814
     },
     {
-      "id": "d319b7265a",
-      "title": "EU advances plans to reduce reliance on drug imports",
-      "url": "https://www.pharmaceutical-technology.com/news/eu-advances-plans-to-reduce-reliance-on-drug-imports/",
-      "summary": "Agreement on the proposed Critical Medicines Act (CMA) represents an important step for boosting the EU pharma sector.",
+      "id": "ee8d980569",
+      "title": "UK health secretary Wes Streeting resigns",
+      "url": "https://www.pharmaceutical-technology.com/news/uk-health-secretary-wes-streeting-resigns/",
+      "summary": "Streeting’s resignation comes in the wake of the Labour party’s poor performance in the local elections, held on 7 May.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-13T10:33:20+00:00",
-      "pub_ts": 1778668400
+      "pub_date": "2026-05-14T14:22:19+00:00",
+      "pub_ts": 1778768539
     },
     {
-      "id": "2a80fdd2c9",
-      "title": "UAE approves AstraZeneca’s Baxfendy for hypertension",
-      "url": "https://www.pharmaceutical-technology.com/news/uae-approves-astrazeneca-baxfendy-hypertension/",
-      "summary": "AstraZeneca has received approval from the EDE in the UAE for Baxfendy, a medicine using the active ingredient baxdrostat, for uncontrolled hypertension.",
+      "id": "9779c4b5d6",
+      "title": "Regulatory round-up: A month of key FDA approvals for cancer drugs",
+      "url": "https://www.pharmaceutical-technology.com/news/regulatory-roundup-fda-cancer-approvals-may-2026/",
+      "summary": "Four cancer drugs have got the FDA nod in May thus far, with approvals spanning haematological and solid tumour indications.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-13T10:14:57+00:00",
-      "pub_ts": 1778667297
+      "pub_date": "2026-05-14T11:05:11+00:00",
+      "pub_ts": 1778756711
     },
     {
-      "id": "19e46cd6de",
-      "title": "Isomorphic Labs receives $2.1bn for AI drug development",
-      "url": "https://www.pharmaceutical-technology.com/news/isomorphic-labs-ai-drug-development/",
-      "summary": "Isomorphic Labs has secured $2.1bn in funding to expedite its transition from developing AI models to deploying them on a larger scale.",
+      "id": "14fb5412fe",
+      "title": "Imfinzi set to become first immunotherapy for stomach cancer patients on NHS",
+      "url": "https://www.pharmaceutical-technology.com/news/imfinzi-set-to-become-first-immunotherapy-for-stomach-cancer-patients-on-nhs/",
+      "summary": "AstraZeneca’s targeted treatment helps patients live longer, along with preventing cancer recurrence.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-13T08:07:33+00:00",
-      "pub_ts": 1778659653
+      "pub_date": "2026-05-14T11:01:55+00:00",
+      "pub_ts": 1778756515
     },
     {
-      "id": "cb932a9c7c",
-      "title": "Makary resigns, with Diamantas named as acting FDA commissioner",
-      "url": "https://www.pharmaceutical-technology.com/news/makary-resigns-with-diamantas-named-as-acting-fda-commissioner/",
-      "summary": "The resignation comes after reports suggested the President was considering firing him.",
+      "id": "efdab8d2a8",
+      "title": "ECO 2026: gut hormone signals differ in T1D with obesity",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/eco-2026-gut-hormone-signals-differ-in-t1d-obesity/",
+      "summary": "At ECO 2026, researchers presented a study assessing fasting PYY, ghrelin and GIP levels in T1D patients, with or without obesity.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-12T18:49:10+00:00",
-      "pub_ts": 1778611750
+      "pub_date": "2026-05-14T11:01:30+00:00",
+      "pub_ts": 1778756490
     }
   ]
 }

@@ -3,9 +3,59 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-05-14T03:58:13.055143+00:00",
+  "updated_at": "2026-05-15T04:02:04.763338+00:00",
   "item_count": 10,
   "items": [
+    {
+      "id": "cee36b0314",
+      "title": "Uruguay and Argentina Edge Toward Deal on $5 Billion Green Hydrogen Plant as Environmental Concerns Slow Progress",
+      "url": "https://fuelcellsworks.com/2026/05/13/green-hydrogen/uruguay-and-argentina-edge-toward-deal-on-5-billion-green-hydrogen-plant-as-environmental-concerns-slow-progress",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-05-14T15:52:23+00:00",
+      "pub_ts": 1778773943
+    },
+    {
+      "id": "d858cc8f0d",
+      "title": "Delhi Metro Launches Hydrogen-Powered Shuttle Bus Service in Central Vista",
+      "url": "https://fuelcellsworks.com/2026/05/14/fuel-cells/delhi-metro-launches-hydrogen-powered-shuttle-bus-service-in-central-vista",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-05-14T15:48:43+00:00",
+      "pub_ts": 1778773723
+    },
+    {
+      "id": "d8a53c05c9",
+      "title": "Hyundai NEXO Launches in Italy with 826 Km Range as Lombardy Hydrogen Infrastructure Finally Starts to Take Shape",
+      "url": "https://fuelcellsworks.com/2026/05/13/fuel-cells/hyundai-nexo-launches-in-italy-with-826-km-range-as-lombardy-hydrogen-infrastructure-finally-starts-to-take-shape",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-05-14T15:46:11+00:00",
+      "pub_ts": 1778773571
+    },
+    {
+      "id": "6975ace3db",
+      "title": "GeoKiln Signs MOU with Ras Al Khaimah Energy Authority to Advance First-of-Its-Kind Subsurface Hydrogen Development in the UAE",
+      "url": "https://fuelcellsworks.com/2026/05/14/hydrogen/geokiln-signs-mou-with-ras-al-khaimah-energy-authority-to-advance-first-of-its-kind-subsurface-hydrogen-development-in-the-uae",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-05-14T15:42:52+00:00",
+      "pub_ts": 1778773372
+    },
+    {
+      "id": "40560160b8",
+      "title": "France Hydrogen Insights for April 2026",
+      "url": "https://fuelcellsworks.com/2026/05/13/clean-energy/france-hydrogen-insights-for-march-2026",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-05-14T15:40:13+00:00",
+      "pub_ts": 1778773213
+    },
     {
       "id": "fe05bdc6b8",
       "title": "Provaris highlights Germany’s new hydrogen transport mandate as catalyst for import demand",
@@ -55,56 +105,6 @@
       "lang": "en",
       "pub_date": "2026-05-13T18:14:19+00:00",
       "pub_ts": 1778696059
-    },
-    {
-      "id": "e0a462971e",
-      "title": "H2Terminals Secures 1,000-Unit Hydrogen EVFC Truck Supply Agreement to Accelerate Net Zero HGV Deployment in UK & EU",
-      "url": "https://fuelcellsworks.com/2026/05/13/energy-innovation/h2terminals-secures-1-000-unit-hydrogen-evfc-truck-supply-agreement-to-accelerate-net-zero-hgv-deployment-in-uk-and-eu",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-05-13T16:42:40+00:00",
-      "pub_ts": 1778690560
-    },
-    {
-      "id": "093d6d73e7",
-      "title": "SFC Energy AG Wins Largest Order in Company History and Raises 2026 Forecast – Delivery of Combat-Proven Fuel Cell Systems Worth Approximately EUR 42.7 Million to Ukraine",
-      "url": "https://fuelcellsworks.com/2026/05/13/energy-innovation/sfc-energy-ag-wins-largest-order-in-company-history-and-raises-2026-forecast-delivery-of-combat-proven-fuel-cell-systems-worth-approximately-eur-42-7-million-to-ukraine",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-05-13T16:29:54+00:00",
-      "pub_ts": 1778689794
-    },
-    {
-      "id": "2b78c6b360",
-      "title": "Federal Pacific Awarded Bloom Energy Contract Supporting AI Data Center Infrastructure",
-      "url": "https://fuelcellsworks.com/2026/05/13/energy-innovation/federal-pacific-awarded-bloom-energy-contract-supporting-ai-data-center-infrastructure",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-05-13T16:22:29+00:00",
-      "pub_ts": 1778689349
-    },
-    {
-      "id": "e9dd150fdb",
-      "title": "Algeria and Germany Deepen Energy Ties Across Gas, Methane, and Green Hydrogen",
-      "url": "https://fuelcellsworks.com/2026/05/12/h2/algeria-and-germany-deepen-energy-ties-across-gas-methane-and-green-hydrogen",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-05-13T16:16:00+00:00",
-      "pub_ts": 1778688960
-    },
-    {
-      "id": "8a52064292",
-      "title": "Hyundai Translead Announces Commercial Launch of XCIENT Fuel Cell Trucks in Canada",
-      "url": "https://fuelcellsworks.com/2026/05/13/fuel-cells/hyundai-translead-announces-commercial-launch-of-xcient-fuel-cell-trucks-in-canada",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-05-13T16:13:50+00:00",
-      "pub_ts": 1778688830
     }
   ]
 }
