@@ -3,108 +3,128 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-05-15T04:01:39.972038+00:00",
+  "updated_at": "2026-05-16T03:42:41.650671+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "463b4d110a",
-      "title": "中芯国际Q1财报出炉！",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811533&idx=1&sn=2d2222dd2f8d48c617c124c2b86499a3",
-      "summary": "中芯国际Q1财报出炉！",
+      "id": "27d1862a33",
+      "title": "数据中心，液冷正成为必选项",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811588&idx=1&sn=36b4e2b8ad233954ae6a3c196b4f0803",
+      "summary": "数据中心，液冷正成为必选项",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-15T04:01:35.930124+00:00",
-      "pub_ts": 1778817695
+      "pub_date": "2026-05-16T03:42:37.571947+00:00",
+      "pub_ts": 1778902957
     },
     {
-      "id": "a6a0d8e660",
-      "title": "中芯国际、华虹财报接力，深挖晶圆代工三大趋势",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811527&idx=1&sn=235ff8fb1d100329c8e849865569e0b2",
-      "summary": "中芯国际、华虹财报接力，深挖晶圆代工三大趋势",
+      "id": "1acfb383cf",
+      "title": "中芯国际业绩会，问答环节信息量很大",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811588&idx=2&sn=34931a32decf61fd3112f4db8c6add2a",
+      "summary": "中芯国际业绩会，问答环节信息量很大",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-15T04:01:35.930172+00:00",
-      "pub_ts": 1778817695
+      "pub_date": "2026-05-16T03:42:37.571990+00:00",
+      "pub_ts": 1778902957
     },
     {
-      "id": "16db0b0c81",
-      "title": "全球半导体TOP10，Q1赚疯了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811523&idx=1&sn=ff395e6fe8f4dce2e37470d715fc87c9",
-      "summary": "全球半导体TOP10，Q1赚疯了",
+      "id": "3b99d3ce68",
+      "title": "COUPE崛起，未来将比肩CoWoS",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811588&idx=3&sn=f7c17986f27121a8a5e4dc3328c47b31",
+      "summary": "COUPE崛起，未来将比肩CoWoS",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-15T04:01:35.930198+00:00",
-      "pub_ts": 1778817695
+      "pub_date": "2026-05-16T03:42:37.572016+00:00",
+      "pub_ts": 1778902957
     },
     {
-      "id": "6563fa740f",
-      "title": "半导体材料再告急，这次是HF",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811523&idx=2&sn=43b43efc9b7121665bda4a000ae910e7",
-      "summary": "半导体材料再告急，这次是HF",
+      "id": "cef11893e7",
+      "title": "FPGA原型验证，RISC-VIP的绝佳试验场",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811588&idx=4&sn=02a1b940743b67d5b1ff6cbc98d1ee9c",
+      "summary": "FPGA原型验证，RISC-VIP的绝佳试验场",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-15T04:01:35.930221+00:00",
-      "pub_ts": 1778817695
+      "pub_date": "2026-05-16T03:42:37.572038+00:00",
+      "pub_ts": 1778902957
     },
     {
-      "id": "e9e937e4fd",
-      "title": "索尼CTO：CMOS图像传感器三大未来方向",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811523&idx=3&sn=e49eb989c6fc8d632de2279070efed01",
-      "summary": "索尼CTO：CMOS图像传感器三大未来方向",
+      "id": "e6c349f244",
+      "title": "小芯片需要新的工作流程",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811588&idx=5&sn=c2fc7baf6ab3fe4266d0b1489d9fbac6",
+      "summary": "小芯片需要新的工作流程",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-15T04:01:35.930242+00:00",
-      "pub_ts": 1778817695
+      "pub_date": "2026-05-16T03:42:37.572060+00:00",
+      "pub_ts": 1778902957
     },
     {
-      "id": "2be2f24048",
-      "title": "台积电正在疯狂建厂",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819280&idx=1&sn=081151bd7ce0e41743fef426eccd7aa3",
-      "summary": "台积电正在疯狂建厂",
+      "id": "52e1953f5c",
+      "title": "顺络电子总裁离婚，前妻分走98%股票",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819386&idx=1&sn=ed704a65aacfb6de0143dc2240a32942",
+      "summary": "顺络电子总裁离婚，前妻分走98%股票",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-15T04:01:26.655528+00:00",
-      "pub_ts": 1778817686
+      "pub_date": "2026-05-16T03:42:24.771018+00:00",
+      "pub_ts": 1778902944
     },
     {
-      "id": "3eca16200c",
-      "title": "刚刚，中芯国际发布财报，单季营收超25亿美元",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819276&idx=1&sn=3bbe9b07cf0d143d922bbdc0f0593fb8",
-      "summary": "刚刚，中芯国际发布财报，单季营收超25亿美元",
+      "id": "34523d02bf",
+      "title": "英伟达市值，突破5.7万亿",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819375&idx=1&sn=1c8234000d53a5e5c205685b55e9abdb",
+      "summary": "英伟达市值，突破5.7万亿",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-15T04:01:26.655583+00:00",
-      "pub_ts": 1778817686
+      "pub_date": "2026-05-16T03:42:24.771069+00:00",
+      "pub_ts": 1778902944
     },
     {
-      "id": "d0acf34985",
-      "title": "华虹发布Q1财报：净利润同比大增",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819268&idx=1&sn=38a8abb49a4acde6de496634e2e99c31",
-      "summary": "华虹发布Q1财报：净利润同比大增",
+      "id": "d52f8dee4e",
+      "title": "中芯国际赵海军：对今年运营更加乐观",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819328&idx=1&sn=d9a0102e1370ba2743dc40d00cf9b4d9",
+      "summary": "中芯国际赵海军：对今年运营更加乐观",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-15T04:01:26.655606+00:00",
-      "pub_ts": 1778817686
+      "pub_date": "2026-05-16T03:42:24.771095+00:00",
+      "pub_ts": 1778902944
     },
     {
-      "id": "36ec75620f",
-      "title": "台积电，太猛了",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819235&idx=1&sn=156f63244e0c01c668e482510c462b76",
-      "summary": "台积电，太猛了",
+      "id": "1e8c059e96",
+      "title": "抛弃铜缆，倒计时?",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819323&idx=1&sn=c4e3aeb17adf447ba77406ddd33cdaa5",
+      "summary": "抛弃铜缆，倒计时?",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-15T04:01:26.655627+00:00",
-      "pub_ts": 1778817686
+      "pub_date": "2026-05-16T03:42:24.771118+00:00",
+      "pub_ts": 1778902944
     },
     {
-      "id": "e11071da57",
-      "title": "日挣10亿，台积电凭啥?",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819226&idx=1&sn=20ea889b60bba184ae01ee427c7cdfe5",
-      "summary": "日挣10亿，台积电凭啥?",
+      "id": "ccb714f4cf",
+      "title": "AMD数据中心业务超越Intel，市值突破7400亿",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819323&idx=2&sn=361abbdf41de3d0618f13868a6ccc6d9",
+      "summary": "AMD数据中心业务超越Intel，市值突破7400亿",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-15T04:01:26.655647+00:00",
-      "pub_ts": 1778817686
+      "pub_date": "2026-05-16T03:42:24.771139+00:00",
+      "pub_ts": 1778902944
+    },
+    {
+      "id": "55e4d47102",
+      "title": "Micro-Transfer Printing (MTP) As A Promising Scalable Approach to Heterogeneous Integration for Silicon Photonics (Ghent U., imec et al)",
+      "url": "https://semiengineering.com/micro-transfer-printing-mtp-as-a-promising-scalable-approach-to-heterogeneous-integration-for-silicon-photonics-ghent-u-imec-et-al/",
+      "summary": "A new technical paper, &#8220;Micro-Transfer Printing on Silicon Photonics: Tutorial, Recent Progress and Outlook,&#8221; was published by researchers at Ghent University, imec et al. Abstract &#8220;This paper highlights micro-transfer printing (MTP) as a promising scalable approach to heterogeneou…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-05-15T18:44:10+00:00",
+      "pub_ts": 1778870650
+    },
+    {
+      "id": "d2bb75539c",
+      "title": "Chip Industry Week in Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-138/",
+      "summary": "What happened to H200 chips for China? $1.5T IC industry by 2030; new funding; AI memory tools; MRC spec; embedding solar chips in windows; Ford launches battery biz; Waymo does the backstroke; UMC's high-voltage finFET. \nThe post Chip Industry Week in Review appeared first on Semiconductor Engineer…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-05-15T07:01:42+00:00",
+      "pub_ts": 1778828502
     },
     {
       "id": "e7bedf41cf",
@@ -135,26 +155,6 @@
       "lang": "en",
       "pub_date": "2026-05-14T07:04:50+00:00",
       "pub_ts": 1778742290
-    },
-    {
-      "id": "20aad6e4ef",
-      "title": "Introducing “The Architecture Speaks”",
-      "url": "https://semiengineering.com/introducing-the-architecture-speaks/",
-      "summary": "An experimental AI chatbot acts as a guide to the Arm architecture, providing quick answers to complex technical questions.\nThe post Introducing &#8220;The Architecture Speaks&#8221; appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-05-14T07:03:45+00:00",
-      "pub_ts": 1778742225
-    },
-    {
-      "id": "ba546ebe2b",
-      "title": "Chiplets Need A New Workflow",
-      "url": "https://semiengineering.com/chiplets-need-a-new-workflow/",
-      "summary": "Multi-die assemblies are facing full system-level challenges, but engineering teams need coordinated and repeatable ways to identify risks early and scale reliably. \nThe post Chiplets Need A New Workflow appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-05-14T07:03:31+00:00",
-      "pub_ts": 1778742211
     }
   ]
 }

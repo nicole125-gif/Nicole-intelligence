@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-05-15T04:02:17.110306+00:00",
+  "updated_at": "2026-05-16T03:43:18.893448+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "4772e3bf1e",
-      "title": "ECO 2026: ATTAIN-MAINTAIN trial showcases orforglipron’s role in sustained weight loss",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/eco-2026-orforglipron-sustained-weight-loss/",
-      "summary": "At ECO 2026, findings from the ATTAIN-MAINTAIN trial were presented, assessing (orforglipron) for maintaining body weight loss in obese or overweight adults.",
+      "id": "6a79822a3b",
+      "title": "ECO 2026: indirect comparison favours Wegovy pill over Foundayo",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/eco-2026-indirect-comparison-wegovy-foundayo/",
+      "summary": "At ECO 2026, findings from a post-hoc indirect treatment comparison of Wegovy versus Foundayo, oral GLP-1RAs approved in the US for chronic weight management.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-14T15:33:34+00:00",
-      "pub_ts": 1778772814
+      "pub_date": "2026-05-15T16:07:00+00:00",
+      "pub_ts": 1778861220
     },
     {
-      "id": "ee8d980569",
-      "title": "UK health secretary Wes Streeting resigns",
-      "url": "https://www.pharmaceutical-technology.com/news/uk-health-secretary-wes-streeting-resigns/",
-      "summary": "Streeting’s resignation comes in the wake of the Labour party’s poor performance in the local elections, held on 7 May.",
+      "id": "53b18197be",
+      "title": "Nonprofits join forces to debut marketplace for shelved CGTs",
+      "url": "https://www.pharmaceutical-technology.com/news/nonprofits-join-forces-to-debut-marketplace-for-shelved-cgts/",
+      "summary": "OTXL’s COO, Beth White, notes that the CGT marketplace could revitalise programmes that would otherwise have been indefinitely put on ice.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-14T14:22:19+00:00",
-      "pub_ts": 1778768539
+      "pub_date": "2026-05-15T15:28:44+00:00",
+      "pub_ts": 1778858924
     },
     {
-      "id": "9779c4b5d6",
-      "title": "Regulatory round-up: A month of key FDA approvals for cancer drugs",
-      "url": "https://www.pharmaceutical-technology.com/news/regulatory-roundup-fda-cancer-approvals-may-2026/",
-      "summary": "Four cancer drugs have got the FDA nod in May thus far, with approvals spanning haematological and solid tumour indications.",
+      "id": "a7efb30be8",
+      "title": "ECO 2026: tirzepatide shows potential for T1D treatment",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/eco-2026-tirzepatide-shows-potential-for-t1d-treatment/",
+      "summary": "During ECO 2026, a study was presented analysing the use of tirzepatide, a dual GIP and GLP-1 agonist, in treating type 1 diabetes (T1D).",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-14T11:05:11+00:00",
-      "pub_ts": 1778756711
+      "pub_date": "2026-05-15T12:30:00+00:00",
+      "pub_ts": 1778848200
     },
     {
-      "id": "14fb5412fe",
-      "title": "Imfinzi set to become first immunotherapy for stomach cancer patients on NHS",
-      "url": "https://www.pharmaceutical-technology.com/news/imfinzi-set-to-become-first-immunotherapy-for-stomach-cancer-patients-on-nhs/",
-      "summary": "AstraZeneca’s targeted treatment helps patients live longer, along with preventing cancer recurrence.",
+      "id": "bdfa3e0cc5",
+      "title": "Arna Pharma and Slate Run complete JV for new US company",
+      "url": "https://www.pharmaceutical-technology.com/news/arna-pharma-slate-run-jv-us-company/",
+      "summary": "Arna Pharma and Slate Run Pharmaceuticals have completed a JV to form a company focusing on branded products and 505(b)(2) medicines.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-14T11:01:55+00:00",
-      "pub_ts": 1778756515
+      "pub_date": "2026-05-15T10:44:57+00:00",
+      "pub_ts": 1778841897
     },
     {
-      "id": "efdab8d2a8",
-      "title": "ECO 2026: gut hormone signals differ in T1D with obesity",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/eco-2026-gut-hormone-signals-differ-in-t1d-obesity/",
-      "summary": "At ECO 2026, researchers presented a study assessing fasting PYY, ghrelin and GIP levels in T1D patients, with or without obesity.",
+      "id": "4403be8b31",
+      "title": "Biopharma industry endorses Pazdur for FDA commissioner role",
+      "url": "https://www.pharmaceutical-technology.com/news/biopharma-industry-endorses-pazdur-for-fda-commissioner-role/",
+      "summary": "Hundreds of biopharma leaders say Dr Richard Pazdur has the necessary qualities to lead the FDA amid a crisis of confidence.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-14T11:01:30+00:00",
-      "pub_ts": 1778756490
+      "pub_date": "2026-05-15T10:32:07+00:00",
+      "pub_ts": 1778841127
     }
   ]
 }
