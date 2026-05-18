@@ -155,7 +155,9 @@ body{font-family:var(--display);background:var(--bg);color:var(--t1);min-height:
 /* MACRO card full-width layout */
 /* ── GRID ── */
 .bgrid-5{display:grid;grid-template-columns:1fr;gap:2px;background:var(--bg)}
-@media(max-width:580px){.sector-rows,.macro-zone{display:none}}
+@media(max-width:580px){
+  .bgrid-5{display:grid}
+}
 
 /* regular card – horizontal for vertical list */
 .bcard-body{display:grid;grid-template-columns:1fr auto;gap:2rem;align-items:center}
@@ -272,6 +274,10 @@ body{font-family:var(--display);background:var(--bg);color:var(--t1);min-height:
 .trow:last-child{border-bottom:none}
 .trow:hover{background:rgba(255,255,255,.04);
   padding-left:.6rem;padding-right:.6rem;margin:0 -.6rem;border-radius:5px}
+.trow:focus-visible,.bcard:focus-visible,.macro-entry:focus-visible,.ai-next:focus-visible,.scollapse:focus-visible,#lang-toggle:focus-visible,.mcl:focus-visible,.spcl:focus-visible{
+  outline:2px solid var(--blue);
+  outline-offset:3px;
+}
 
 /* name line — 4. line-height */
 .tr-name-row{display:flex;align-items:baseline;gap:.6rem;margin-bottom:.22rem}
@@ -302,7 +308,36 @@ body{font-family:var(--display);background:var(--bg);color:var(--t1);min-height:
   .sector-row{grid-template-columns:1fr}
   .sr-tracks{border-top:1px solid var(--l2)}
 }
-@media(max-width:580px){.sector-rows,.macro-zone .sector-row{display:none}}
+@media(max-width:720px){
+  :root{--page-px:18px;--card-pad:22px}
+  .hero{align-items:flex-start;gap:1rem}
+  .kpis{width:100%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+  .kpi{min-width:0}
+  .ai-banner{align-items:flex-start;flex-wrap:wrap}
+  .ai-text{order:3;flex-basis:100%}
+  .ai-next{margin-left:0}
+  .macro-entry-inner{align-items:flex-start;flex-direction:column;gap:1.2rem}
+  .macro-entry-right{width:100%;align-items:flex-start;flex-direction:row;justify-content:space-between}
+  .bcard-body{grid-template-columns:1fr;gap:1.1rem}
+  .bcard-right{align-items:flex-start}
+  .sr-card .bcard{padding:var(--card-pad) var(--page-px)}
+  .sr-tracks{padding:var(--card-pad) var(--page-px)}
+  .sr-tracks-inner{max-width:none}
+  .trow{grid-template-columns:1fr auto 22px 18px;gap:.55rem}
+  .tr-name-row{flex-direction:column;gap:.05rem}
+  .m-scs{grid-template-columns:repeat(2,1fr)}
+  .modal{max-height:92vh}
+}
+
+@media(max-width:480px){
+  .kpis{grid-template-columns:1fr}
+  .hero h1{font-size:1.7rem}
+  .macro-entry-score .bheat{font-size:2.25rem!important}
+  .trow{grid-template-columns:1fr auto;gap:.6rem}
+  .tr-tr,.tr-src-ico{display:none}
+  .heat-formula-tip::after{left:auto;right:0;white-space:pre-wrap;min-width:260px}
+  footer{padding-left:var(--page-px);padding-right:var(--page-px)}
+}
 
 /* ── MODAL ── */
 .overlay{position:fixed;inset:0;z-index:2000;background:rgba(4,10,20,.82);backdrop-filter:blur(14px);
@@ -539,6 +574,24 @@ const CV={Macro:'--macro',EI:'--ei',GI:'--gi','P&B':'--pb','L&M':'--lm','F&B':'-
 const cc=b=>`var(${CV[b]})`;
 // All sector ranks by heat for radar tooltip
 const HEAT_RANK={};
+const esc=v=>String(v??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+const attr=esc;
+const ALLOWED_INSIGHT_TAGS=new Set(['STRONG','SPAN','EM','B','I','BR']);
+const ALLOWED_INSIGHT_ATTRS=new Set(['class','data-src','style']);
+function sanitizeInsight(html){
+  const tpl=document.createElement('template');
+  tpl.innerHTML=String(html??'');
+  tpl.content.querySelectorAll('*').forEach(node=>{
+    if(!ALLOWED_INSIGHT_TAGS.has(node.tagName)){
+      node.replaceWith(document.createTextNode(node.textContent||''));
+      return;
+    }
+    [...node.attributes].forEach(a=>{
+      if(!ALLOWED_INSIGHT_ATTRS.has(a.name)) node.removeAttribute(a.name);
+    });
+  });
+  return tpl.innerHTML;
+}
 
 const BM={
   Macro:{n:'宏观背景',    heat:65.3,tr:'dn', D:50,C:44,P:56,Pol:62,
@@ -618,17 +671,20 @@ DIM_KEYS.forEach(k=>{
 });
 
 /* ── KPIs ── */
-[{v:'86.1',l:'最高 Heat',d:'↑ 液冷+关税双催化',c:'exp'},
+const KPI_ZH=[{v:'86.1',l:'最高 Heat',d:'↑ 液冷+关税双催化',c:'exp'},
  {v:'到期',l:'司美格鲁肽',d:'3/20 仿制战启动',c:'dn'},
  {v:'10%',l:'美国新关税',d:'122条 4月听证',c:'dn'},
  {v:'50.4%',l:'3月制造业PMI',d:'↑ 重返扩张区间',c:'up'}
-].forEach(k=>{
-  document.getElementById('hkpis').innerHTML+=
-    `<div class="kpi"><span class="kpi-v ${k.c}">${k.v}</span><span class="kpi-l">${k.l}</span><span class="kpi-d ${k.c}">${k.d}</span></div>`;
-});
+];
+function renderKpis(kpis){
+  document.getElementById('hkpis').innerHTML=kpis.map(k=>
+    `<div class="kpi"><span class="kpi-v ${attr(k.c)}">${esc(k.v)}</span><span class="kpi-l">${esc(k.l)}</span><span class="kpi-d ${attr(k.c)}">${esc(k.d)}</span></div>`
+  ).join('');
+}
+renderKpis(KPI_ZH);
 
 /* ── AUTO LAST UPDATED from index.json ── */
-(function(){
+function updateLastUpdated(){
   var lu = document.getElementById('last-updated');
   if (!lu) return;
   fetch('data/rss/index.json?t='+Date.now())
@@ -640,7 +696,8 @@ DIM_KEYS.forEach(k=>{
       lu.textContent = dt.getFullYear() + '-' + pad(dt.getMonth()+1) + '-' + pad(dt.getDate()) + ' ' + pad(dt.getHours()) + ':' + pad(dt.getMinutes());
     })
     .catch(function(){ lu.textContent = '未知'; });
-})();
+}
+updateLastUpdated();
 
 /* ── AI INSIGHT ── */
 const insights=BO.map(b=>BM[b].insight);
@@ -648,7 +705,7 @@ let insIdx=0;
 function showInsight(i){
   const el=document.getElementById('ai-text');
   el.style.opacity=0;
-  setTimeout(()=>{el.innerHTML=insights[i%insights.length];el.style.opacity=1;},280);
+  setTimeout(()=>{el.innerHTML=sanitizeInsight(insights[i%insights.length]);el.style.opacity=1;},280);
 }
 showInsight(0);
 let insTimer=setInterval(()=>{insIdx=(insIdx+1)%insights.length;showInsight(insIdx);},7000);
@@ -671,8 +728,8 @@ function makeRadar(b,D,C,P,Pol){
     const v=vals[i],rnk=DIM_RANK[b][lbls[i]];
     return `<circle class="rv" cx="${p[0]}" cy="${p[1]}" r="3.5"
       style="fill:${cv};opacity:.8;cursor:pointer;transition:r .15s,opacity .15s"
-      data-lbl="${lbls[i]}" data-val="${v}" data-rank="${rnk}"
-      onmouseenter="radarHover(this,'${b}')" onmouseleave="radarLeave(this)"/>`;
+      data-lbl="${attr(lbls[i])}" data-val="${attr(v)}" data-rank="${attr(rnk)}"
+      onmouseenter="radarHover(this,'${attr(b)}')" onmouseleave="radarLeave(this)"/>`;
   }).join('');
   // corner labels
   const cornerlbls=lbls.map((l,i)=>{
@@ -717,7 +774,7 @@ function radarLeave(circle){
 
 function radarScoreRow(b,D,C,P,Pol){
   const scores=[{l:'D',v:D},{l:'C',v:C},{l:'P',v:P},{l:'Pol',v:Pol}];
-  const rows=scores.map(s=>`<div class="radar-lbl">${s.l} <span>${s.v}</span></div>`).join('');
+  const rows=scores.map(s=>`<div class="radar-lbl">${esc(s.l)} <span>${esc(s.v)}</span></div>`).join('');
   return `<div class="radar-wrap">${makeRadar(b,D,C,P,Pol)}</div><div class="radar-labels">${rows}</div>`;
 }
 
@@ -742,28 +799,28 @@ function buildCard(b,isMacro=false){
   }).join('');
   // 3. insight phrase with alert icon + bg
   const sumIcon=m.sumAlert||'›';
-  const sumHTML=`<div class="bsum"><span class="bsum-icon">${sumIcon}</span><span class="bsum-text">${m.sum}</span></div>`;
+  const sumHTML=`<div class="bsum"><span class="bsum-icon">${esc(sumIcon)}</span><span class="bsum-text">${esc(m.sum)}</span></div>`;
 
   if(isMacro){
     return `<div class="bcard-bar"></div>
       <div class="bcard-body">
         <div style="display:flex;align-items:center;gap:1rem;flex-shrink:0">
-          <span class="bbadge">${b}</span>
+          <span class="bbadge">${esc(b)}</span>
         </div>
         <div class="bsum-wrap bcard-left">
-          <div class="bname">${m.n}</div>
+          <div class="bname">${esc(m.n)}</div>
           ${sumHTML}
-          <div class="btags">${tn.map(n=>`<span class="btag">${n}</span>`).join('')}</div>
+          <div class="btags">${tn.map(n=>`<span class="btag">${esc(n)}</span>`).join('')}</div>
           <div class="bfoot"><span class="bcount">${m.tracks.length} tracks</span><span class="bchev">›</span></div>
         </div>
         <div class="bcard-right" style="display:flex;flex-direction:column;align-items:flex-end;gap:.5rem;flex-shrink:0">
           <div style="display:flex;align-items:baseline;gap:.5rem">
-            <div class="bheat ${HC(m.heat)}">${m.heat}</div>
+            <div class="bheat ${HC(m.heat)}">${esc(m.heat)}</div>
             ${trendEl(m.tr,true)}
           </div>
           <div style="display:flex;gap:8px;align-items:center">
             <div>${makeRadar(b,m.D,m.C,m.P,m.Pol)}</div>
-            <div class="radar-labels">${[{l:'D',v:m.D},{l:'C',v:m.C},{l:'P',v:m.P},{l:'Pol',v:m.Pol}].map(s=>`<div class="radar-lbl">${s.l} <span>${s.v}</span></div>`).join('')}</div>
+            <div class="radar-labels">${[{l:'D',v:m.D},{l:'C',v:m.C},{l:'P',v:m.P},{l:'Pol',v:m.Pol}].map(s=>`<div class="radar-lbl">${esc(s.l)} <span>${esc(s.v)}</span></div>`).join('')}</div>
           </div>
         </div>
       </div>`;
@@ -772,16 +829,16 @@ function buildCard(b,isMacro=false){
     <div class="bcard-body">
       <div class="bcard-left">
         <div class="bcard-top">
-          <span class="bbadge">${b}</span>
+          <span class="bbadge">${esc(b)}</span>
           <div class="bheat-wrap">
-            <div class="bheat ${HC(m.heat)}">${m.heat}</div>
+            <div class="bheat ${HC(m.heat)}">${esc(m.heat)}</div>
             ${trendEl(m.tr)}
           </div>
         </div>
-        <div class="bname">${m.n}</div>
+        <div class="bname">${esc(m.n)}</div>
         ${sumHTML}
         <div class="bspark">${sp}</div>
-        <div class="btags">${tn.slice(0,3).map(n=>`<span class="btag">${n}</span>`).join('')}${tn.length>3?`<span class="btag">+${tn.length-3}</span>`:''}</div>
+        <div class="btags">${tn.slice(0,3).map(n=>`<span class="btag">${esc(n)}</span>`).join('')}${tn.length>3?`<span class="btag">+${esc(tn.length-3)}</span>`:''}</div>
         <div class="bfoot"><span class="bcount">${m.tracks.length} tracks</span><span class="bchev">›</span></div>
       </div>
       <div class="bcard-right">${radarScoreRow(b,m.D,m.C,m.P,m.Pol)}</div>
@@ -806,16 +863,16 @@ const macroZone=document.getElementById('macro-zone');
           <span class="bbadge" style="--c:${cv}">MACRO</span>
           <span style="font-family:'DM Mono',monospace;font-size:.52rem;letter-spacing:.14em;color:var(--t3);text-transform:uppercase">GLOBAL CONTEXT · 宏观背景</span>
         </div>
-        <div class="bname">${m.n}</div>
+        <div class="bname">${esc(m.n)}</div>
         <div class="bsum" style="--c:${cv}">
-          <span class="bsum-icon">${m.sumAlert||'⬆'}</span>
-          <span class="bsum-text">${m.sum}</span>
+          <span class="bsum-icon">${esc(m.sumAlert||'⬆')}</span>
+          <span class="bsum-text">${esc(m.sum)}</span>
         </div>
-        <div class="btags">${m.tracks.map(id=>T[id]?.n||'').filter(Boolean).map(n=>`<span class="btag">${n}</span>`).join('')}</div>
+        <div class="btags">${m.tracks.map(id=>T[id]?.n||'').filter(Boolean).map(n=>`<span class="btag">${esc(n)}</span>`).join('')}</div>
       </div>
       <div class="macro-entry-right">
         <div class="macro-entry-score">
-          <div class="bheat ${HC(m.heat)}" style="font-size:3rem">${m.heat}</div>
+          <div class="bheat ${HC(m.heat)}" style="font-size:3rem">${esc(m.heat)}</div>
           <div style="font-size:1.2rem">${trendEl(m.tr,true)}</div>
         </div>
         <div class="macro-entry-cta">
@@ -836,16 +893,16 @@ function buildTrackHTML(b){
   const tracks=m.tracks.map(id=>T[id]).filter(Boolean);
   return `<div class="sr-tracks-inner">
     <div class="tp-hdr">
-      <span class="tp-badge" style="background:color-mix(in srgb,${cv} 10%,transparent);color:${cv};border:1px solid color-mix(in srgb,${cv} 25%,transparent)">${b} · ${m.n}</span>
-      <a class="tp-link" href="${m.href}">深度分析 →</a>
+      <span class="tp-badge" style="background:color-mix(in srgb,${cv} 10%,transparent);color:${cv};border:1px solid color-mix(in srgb,${cv} 25%,transparent)">${esc(b)} · ${esc(m.n)}</span>
+      <a class="tp-link" href="${attr(m.href)}">深度分析 →</a>
     </div>
-    <div class="tp-title">${m.sum}</div>
+    <div class="tp-title">${esc(m.sum)}</div>
     <div class="trows">${tracks.map(t=>`
       <div class="trow" onclick="openModal('${Object.keys(T).find(k=>T[k]===t)}')">
         <div>
         <div class="tr-name-row">
-          <div class="tr-n">${t.n}</div>
-          <div class="tr-s">${t.sub}</div>
+          <div class="tr-n">${esc(t.n)}</div>
+          <div class="tr-s">${esc(t.sub)}</div>
         </div>
         <div class="tr-bw">
           <div class="tr-b50"></div>
@@ -858,9 +915,9 @@ function buildTrackHTML(b){
           <span class="tr-sc ${SC(t.Pol)}">Pol<b>${t.Pol}</b></span>
         </div>
         </div>
-        <div class="tr-hv ${HC(t.heat)}">${t.heat}${t.delta!==undefined?`<span class="tr-delta ${t.delta>=0?'up':'dn'}">${t.delta>=0?'+':''}${t.delta}</span>`:''}</div>
+        <div class="tr-hv ${HC(t.heat)}">${esc(t.heat)}${t.delta!==undefined?`<span class="tr-delta ${t.delta>=0?'up':'dn'}">${t.delta>=0?'+':''}${esc(t.delta)}</span>`:''}</div>
         <div class="tr-tr">${trendEl(t.tr)}</div>
-        <div class="tr-src-ico" title="${(t.src||[]).join(' / ')}" onclick="event.stopPropagation()">ⓘ<span class="tr-src-tip">${(t.src||[]).join(' · ')}</span></div>
+        <div class="tr-src-ico" title="${attr((t.src||[]).join(' / '))}" onclick="event.stopPropagation()">ⓘ<span class="tr-src-tip">${esc((t.src||[]).join(' · '))}</span></div>
       </div>`).join('')}
     </div>
   </div>`;
@@ -925,15 +982,15 @@ function openModal(id){
   document.getElementById('mtr').innerHTML=trendEl(t.tr,true);
   document.getElementById('mscs').innerHTML=[{l:'Demand',v:t.D,w:'35%'},{l:'Capex',v:t.C,w:'30%'},{l:'Price',v:t.P,w:'20%'},{l:'Policy',v:t.Pol,w:'15%'}].map(s=>{
     const c=s.v>=70?'var(--up)':s.v>=55?'var(--fl)':'var(--dn)';
-    return `<div class="msc"><span class="msc-l">${s.l}</span><span class="msc-v" style="color:${c}">${s.v}</span><span class="msc-w">× ${s.w}</span><div class="msc-b"><div class="msc-f" style="width:${s.v}%;background:${c}"></div></div></div>`;
+    return `<div class="msc"><span class="msc-l">${esc(s.l)}</span><span class="msc-v" style="color:${c}">${esc(s.v)}</span><span class="msc-w">× ${esc(s.w)}</span><div class="msc-b"><div class="msc-f" style="width:${esc(s.v)}%;background:${c}"></div></div></div>`;
   }).join('');
   document.getElementById('mdl').innerHTML=t.data.map((d,i)=>{
-    const chip=t.src&&t.src[i%t.src.length]?`<span class="src-inline">${t.src[i%t.src.length]}</span>`:'';
-    return `<div class="mdi">${d}${chip}</div>`;
+    const chip=t.src&&t.src[i%t.src.length]?`<span class="src-inline">${esc(t.src[i%t.src.length])}</span>`:'';
+    return `<div class="mdi">${esc(d)}${chip}</div>`;
   }).join('');
   document.getElementById('mtw').textContent=t.tw;
   document.getElementById('mact').textContent=t.act;
-  document.getElementById('msrcs').innerHTML=(t.src||[]).map(s=>`<span class="mstag">${s}</span>`).join('');
+  document.getElementById('msrcs').innerHTML=(t.src||[]).map(s=>`<span class="mstag">${esc(s)}</span>`).join('');
   document.getElementById('overlay').classList.add('open');
   document.body.style.overflow='hidden';
 }
@@ -942,7 +999,10 @@ function maybeClose(e){if(e.target===document.getElementById('overlay'))closeMod
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
 
 /* ── SOURCES ── */
-document.getElementById('spitems').innerHTML=SOURCES.map(s=>`<div class="spit"><div class="spn">${s.n}</div><div class="spd">${s.d}</div><div class="sptags">${s.tags.map(t=>`<span class="sptag">${t}</span>`).join('')}</div></div>`).join('');
+function renderSources(sources){
+  document.getElementById('spitems').innerHTML=sources.map(s=>`<div class="spit"><div class="spn">${esc(s.n)}</div><div class="spd">${esc(s.d)}</div><div class="sptags">${s.tags.map(t=>`<span class="sptag">${esc(t)}</span>`).join('')}</div></div>`).join('');
+}
+renderSources(SOURCES);
 function toggleSrc(){document.getElementById('spanel').classList.toggle('open');}
 </script>
 
@@ -1152,22 +1212,12 @@ function applyLang(lang) {
   document.getElementById('lang-toggle').textContent = lang === 'zh' ? 'EN' : '中';
 
   // Update KPIs
-  const kpiContainer = document.getElementById('hkpis');
-  const kpis = lang === 'en' ? KPI_EN : [
-    {v:'86.1',l:'最高 Heat',d:'↑ 液冷+关税双催化',c:'exp'},
-    {v:'到期',l:'司美格鲁肽',d:'3/20 仿制战启动',c:'dn'},
-    {v:'10%',l:'美国新关税',d:'122条 4月听证',c:'dn'},
-    {v:'50.4%',l:'3月制造业PMI',d:'↑ 重返扩张区间',c:'up'},
-  ];
-  kpiContainer.innerHTML = kpis.map(k =>
-    `<div class="kpi"><span class="kpi-v ${k.c}">${k.v}</span><span class="kpi-l">${k.l}</span><span class="kpi-d ${k.c}">${k.d}</span></div>`
-  ).join('');
+  renderKpis(lang === 'en' ? KPI_EN : KPI_ZH);
 
   // Update sources panel
   const sources = lang === 'en' ? SOURCES_EN : SOURCES;
-  document.getElementById('spitems').innerHTML = sources.map(s =>
-    `<div class="spit"><div class="spn">${s.n}</div><div class="spd">${s.d}</div><div class="sptags">${s.tags.map(t=>`<span class="sptag">${t}</span>`).join('')}</div></div>`
-  ).join('');
+  renderSources(sources);
+  updateLastUpdated();
 
   // Re-render sector rows and macro zone
   reRenderAll(lang);
@@ -1199,18 +1249,18 @@ function buildTrackHTML_lang(b) {
   const deepLink = currentLang === 'en' ? 'Deep Analysis →' : '深度分析 →';
   return `<div class="sr-tracks-inner">
     <div class="tp-hdr">
-      <span class="tp-badge" style="background:color-mix(in srgb,${cv} 10%,transparent);color:${cv};border:1px solid color-mix(in srgb,${cv} 25%,transparent)">${b} · ${m.n}</span>
-      <a class="tp-link" href="${m.href}">${deepLink}</a>
+      <span class="tp-badge" style="background:color-mix(in srgb,${cv} 10%,transparent);color:${cv};border:1px solid color-mix(in srgb,${cv} 25%,transparent)">${esc(b)} · ${esc(m.n)}</span>
+      <a class="tp-link" href="${attr(m.href)}">${esc(deepLink)}</a>
     </div>
-    <div class="tp-title">${m.sum}</div>
+    <div class="tp-title">${esc(m.sum)}</div>
     <div class="trows">${m.tracks.map(id => {
       const t = getLangT(id);
       return `
       <div class="trow" onclick="openModal('${id}')">
         <div>
         <div class="tr-name-row">
-          <div class="tr-n">${t.n}</div>
-          <div class="tr-s">${t.sub}</div>
+          <div class="tr-n">${esc(t.n)}</div>
+          <div class="tr-s">${esc(t.sub)}</div>
         </div>
         <div class="tr-bw">
           <div class="tr-b50"></div>
@@ -1223,9 +1273,9 @@ function buildTrackHTML_lang(b) {
           <span class="tr-sc ${SC(t.Pol)}">Pol<b>${t.Pol}</b></span>
         </div>
         </div>
-        <div class="tr-hv ${HC(t.heat)}">${t.heat}${t.delta!==undefined?`<span class="tr-delta ${t.delta>=0?'up':'dn'}">${t.delta>=0?'+':''}${t.delta}</span>`:''}</div>
+        <div class="tr-hv ${HC(t.heat)}">${esc(t.heat)}${t.delta!==undefined?`<span class="tr-delta ${t.delta>=0?'up':'dn'}">${t.delta>=0?'+':''}${esc(t.delta)}</span>`:''}</div>
         <div class="tr-tr">${trendEl(t.tr)}</div>
-        <div class="tr-src-ico" title="${(t.src||[]).join(' / ')}" onclick="event.stopPropagation()">ⓘ<span class="tr-src-tip">${(t.src||[]).join(' · ')}</span></div>
+        <div class="tr-src-ico" title="${attr((t.src||[]).join(' / '))}" onclick="event.stopPropagation()">ⓘ<span class="tr-src-tip">${esc((t.src||[]).join(' · '))}</span></div>
       </div>`;
     }).join('')}
     </div>
@@ -1243,28 +1293,28 @@ function buildCard_lang(b, isMacro=false) {
     return `<div class="bbar${isPk?' pk':''}${isHot?' breathe':''}" style="height:${Math.round(v/mx*100)}%;--c:${cv}"></div>`;
   }).join('');
   const sumIcon = m.sumAlert||'›';
-  const sumHTML = `<div class="bsum"><span class="bsum-icon">${sumIcon}</span><span class="bsum-text">${m.sum}</span></div>`;
+  const sumHTML = `<div class="bsum"><span class="bsum-icon">${esc(sumIcon)}</span><span class="bsum-text">${esc(m.sum)}</span></div>`;
   const tracksLabel = currentLang === 'en' ? 'tracks' : 'tracks';
   if (isMacro) {
     return `<div class="bcard-bar"></div>
       <div class="bcard-body">
         <div style="display:flex;align-items:center;gap:1rem;flex-shrink:0">
-          <span class="bbadge">${b}</span>
+          <span class="bbadge">${esc(b)}</span>
         </div>
         <div class="bsum-wrap bcard-left">
-          <div class="bname">${m.n}</div>
+          <div class="bname">${esc(m.n)}</div>
           ${sumHTML}
-          <div class="btags">${tn.map(n=>`<span class="btag">${n}</span>`).join('')}</div>
+          <div class="btags">${tn.map(n=>`<span class="btag">${esc(n)}</span>`).join('')}</div>
           <div class="bfoot"><span class="bcount">${m.tracks.length} ${tracksLabel}</span><span class="bchev">›</span></div>
         </div>
         <div class="bcard-right" style="display:flex;flex-direction:column;align-items:flex-end;gap:.5rem;flex-shrink:0">
           <div style="display:flex;align-items:baseline;gap:.5rem">
-            <div class="bheat ${HC(m.heat)}">${m.heat}</div>
+            <div class="bheat ${HC(m.heat)}">${esc(m.heat)}</div>
             ${trendEl(m.tr,true)}
           </div>
           <div style="display:flex;gap:8px;align-items:center">
             <div>${makeRadar(b,m.D,m.C,m.P,m.Pol)}</div>
-            <div class="radar-labels">${[{l:'D',v:m.D},{l:'C',v:m.C},{l:'P',v:m.P},{l:'Pol',v:m.Pol}].map(s=>`<div class="radar-lbl">${s.l} <span>${s.v}</span></div>`).join('')}</div>
+            <div class="radar-labels">${[{l:'D',v:m.D},{l:'C',v:m.C},{l:'P',v:m.P},{l:'Pol',v:m.Pol}].map(s=>`<div class="radar-lbl">${esc(s.l)} <span>${esc(s.v)}</span></div>`).join('')}</div>
           </div>
         </div>
       </div>`;
@@ -1273,16 +1323,16 @@ function buildCard_lang(b, isMacro=false) {
     <div class="bcard-body">
       <div class="bcard-left">
         <div class="bcard-top">
-          <span class="bbadge">${b}</span>
+          <span class="bbadge">${esc(b)}</span>
           <div class="bheat-wrap">
-            <div class="bheat ${HC(m.heat)}">${m.heat}</div>
+            <div class="bheat ${HC(m.heat)}">${esc(m.heat)}</div>
             ${trendEl(m.tr)}
           </div>
         </div>
-        <div class="bname">${m.n}</div>
+        <div class="bname">${esc(m.n)}</div>
         ${sumHTML}
         <div class="bspark">${sp}</div>
-        <div class="btags">${tn.slice(0,3).map(n=>`<span class="btag">${n}</span>`).join('')}${tn.length>3?`<span class="btag">+${tn.length-3}</span>`:''}</div>
+        <div class="btags">${tn.slice(0,3).map(n=>`<span class="btag">${esc(n)}</span>`).join('')}${tn.length>3?`<span class="btag">+${esc(tn.length-3)}</span>`:''}</div>
         <div class="bfoot"><span class="bcount">${m.tracks.length} ${tracksLabel}</span><span class="bchev">›</span></div>
       </div>
       <div class="bcard-right">${radarScoreRow(b,m.D,m.C,m.P,m.Pol)}</div>
@@ -1307,20 +1357,20 @@ function reRenderAll(lang) {
             <span class="bbadge" style="--c:${cv}">MACRO</span>
             <span style="font-family:'DM Mono',monospace;font-size:.52rem;letter-spacing:.14em;color:var(--t3);text-transform:uppercase">GLOBAL CONTEXT · ${lang==='en'?'MACRO BACKDROP':'宏观背景'}</span>
           </div>
-          <div class="bname">${m.n}</div>
+          <div class="bname">${esc(m.n)}</div>
           <div class="bsum" style="--c:${cv}">
-            <span class="bsum-icon">${m.sumAlert||'⬆'}</span>
-            <span class="bsum-text">${m.sum}</span>
+            <span class="bsum-icon">${esc(m.sumAlert||'⬆')}</span>
+            <span class="bsum-text">${esc(m.sum)}</span>
           </div>
-          <div class="btags">${m.tracks.map(id=>getLangT(id)?.n||'').filter(Boolean).map(n=>`<span class="btag">${n}</span>`).join('')}</div>
+          <div class="btags">${m.tracks.map(id=>getLangT(id)?.n||'').filter(Boolean).map(n=>`<span class="btag">${esc(n)}</span>`).join('')}</div>
         </div>
         <div class="macro-entry-right">
           <div class="macro-entry-score">
-            <div class="bheat ${HC(m.heat)}" style="font-size:3rem">${m.heat}</div>
+            <div class="bheat ${HC(m.heat)}" style="font-size:3rem">${esc(m.heat)}</div>
             <div style="font-size:1.2rem">${trendEl(m.tr,true)}</div>
           </div>
           <div class="macro-entry-cta">
-            <span>${deepLabel}</span>
+            <span>${esc(deepLabel)}</span>
             <span class="macro-entry-arrow">→</span>
           </div>
         </div>
@@ -1373,15 +1423,15 @@ window.openModal = function(id) {
   document.getElementById('mtr').innerHTML=trendEl(t.tr,true);
   document.getElementById('mscs').innerHTML=[{l:'Demand',v:t.D,w:'35%'},{l:'Capex',v:t.C,w:'30%'},{l:'Price',v:t.P,w:'20%'},{l:'Policy',v:t.Pol,w:'15%'}].map(s=>{
     const c=s.v>=70?'var(--up)':s.v>=55?'var(--fl)':'var(--dn)';
-    return `<div class="msc"><span class="msc-l">${s.l}</span><span class="msc-v" style="color:${c}">${s.v}</span><span class="msc-w">× ${s.w}</span><div class="msc-b"><div class="msc-f" style="width:${s.v}%;background:${c}"></div></div></div>`;
+    return `<div class="msc"><span class="msc-l">${esc(s.l)}</span><span class="msc-v" style="color:${c}">${esc(s.v)}</span><span class="msc-w">× ${esc(s.w)}</span><div class="msc-b"><div class="msc-f" style="width:${esc(s.v)}%;background:${c}"></div></div></div>`;
   }).join('');
   document.getElementById('mdl').innerHTML=t.data.map((d,i)=>{
-    const chip=t.src&&t.src[i%t.src.length]?`<span class="src-inline">${t.src[i%t.src.length]}</span>`:'';
-    return `<div class="mdi">${d}${chip}</div>`;
+    const chip=t.src&&t.src[i%t.src.length]?`<span class="src-inline">${esc(t.src[i%t.src.length])}</span>`:'';
+    return `<div class="mdi">${esc(d)}${chip}</div>`;
   }).join('');
   document.getElementById('mtw').textContent=t.tw;
   document.getElementById('mact').textContent=t.act;
-  document.getElementById('msrcs').innerHTML=(t.src||[]).map(s=>`<span class="mstag">${s}</span>`).join('');
+  document.getElementById('msrcs').innerHTML=(t.src||[]).map(s=>`<span class="mstag">${esc(s)}</span>`).join('');
   document.getElementById('overlay').classList.add('open');
   document.body.style.overflow='hidden';
 };

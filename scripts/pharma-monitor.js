@@ -4,7 +4,7 @@
  * 玄机自动化脚本 - 每周一 9:00 自动执行
  */
 
-const OBSIDIAN_PATH = "/Users/nicolewang/Documents/Obsidian Vault";
+const OBSIDIAN_PATH = process.env.OBSIDIAN_PATH || "";
 
 // 搜索关键词配置
 const KEYWORDS = {
@@ -20,8 +20,8 @@ const KEYWORDS = {
 
 // Bitable 配置
 const BITABLE_CONFIG = {
-  app_token: "O43db8UZxaL53wsXyKAcE5UInkh",
-  table_id: "tbl55GZJe947qePE",
+  app_token: process.env.FEISHU_BITABLE_APP_TOKEN || "",
+  table_id: process.env.FEISHU_BITABLE_TABLE_ID || "",
   fields: {
     title: "制药行业监测",    // 标题（默认主字段）
     date: "日期",             // 日期
@@ -115,6 +115,11 @@ async function saveToBitable(newsItems) {
  * 生成 Obsidian 周报
  */
 async function generateWeeklyReport(newsItems) {
+  if (!OBSIDIAN_PATH) {
+    console.log("OBSIDIAN_PATH 未配置，跳过周报生成");
+    return;
+  }
+
   const now = new Date();
   const weekStart = new Date(now);
   weekStart.setDate(now.getDate() - now.getDay() + 1);

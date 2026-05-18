@@ -3,8 +3,8 @@
 ## 状态
 
 - **脚本位置**: `~/.openclaw/workspace/scripts/pharma-monitor.js`
-- **飞书 Bitable**: 待创建（需要应用权限）
-- **Obsidian 路径**: `/Users/nicolewang/Documents/Obsidian Vault/Pharma-Monitoring/`
+- **飞书 Bitable**: 通过环境变量配置（需要应用权限）
+- **Obsidian 路径**: 通过 `OBSIDIAN_PATH` 配置，周报输出到该目录下的 `Pharma-Monitoring/`
 
 ## 定时任务
 
@@ -31,6 +31,13 @@
    - 关键词 (Text)
 
 ## 使用方法
+
+先配置运行环境:
+```bash
+export FEISHU_BITABLE_APP_TOKEN="your_app_token"
+export FEISHU_BITABLE_TABLE_ID="your_table_id"
+export OBSIDIAN_PATH="/path/to/Obsidian Vault"
+```
 
 手动运行:
 ```bash
