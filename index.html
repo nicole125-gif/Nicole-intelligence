@@ -513,13 +513,29 @@ body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([oncli
 .detail-actions a,.detail-actions button{height:36px;border-radius:5px;border:1px solid rgba(140,190,255,.16);display:flex;align-items:center;justify-content:center;text-decoration:none;font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;cursor:pointer}
 .detail-actions a{background:var(--detail-c);color:#020810;border-color:transparent;font-weight:700}
 .detail-actions button{background:rgba(255,255,255,.035);color:rgba(226,236,250,.78)}
-.market-table{border-top:1px solid rgba(133,171,161,.16);background:rgba(5,10,12,.96)}
-.market-table-head,.market-row{display:grid;grid-template-columns:1.4fr .72fr .72fr .72fr .72fr .9fr 42px;gap:12px;align-items:center;padding:0 18px}
-.market-table-head{height:38px;font-family:var(--mono);font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:rgba(204,218,238,.44);border-bottom:1px solid rgba(120,180,255,.1)}
-.market-row{min-height:48px;border-bottom:1px solid rgba(120,180,255,.08);font-size:12px;color:rgba(226,236,250,.82);cursor:pointer}
-.market-row:hover{background:rgba(255,255,255,.035)}
-.market-row-name{font-family:var(--cjk);font-weight:600;color:#fff}
-.market-row small{display:block;font-family:var(--mono);font-size:9px;color:rgba(204,218,238,.44);margin-top:2px}
+.usecase-board{border-top:1px solid rgba(133,171,161,.16);background:rgba(5,10,12,.96);padding:18px;display:grid;gap:14px}
+.usecase-intro{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;padding-bottom:4px}
+.usecase-intro span{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--blue)}
+.usecase-intro h3{font-family:var(--cjk);font-size:20px;letter-spacing:-.02em;margin-top:5px}
+.usecase-intro p{max-width:620px;font-family:var(--cjk);font-size:13px;line-height:1.7;color:rgba(204,218,238,.66)}
+.usecase-group{border:1px solid rgba(133,171,161,.13);border-radius:8px;background:linear-gradient(180deg,rgba(255,255,255,.025),rgba(255,255,255,.01));overflow:hidden}
+.usecase-group-head{display:grid;grid-template-columns:minmax(220px,.8fr) minmax(260px,1.3fr) 120px;gap:18px;align-items:center;padding:16px 18px;border-bottom:1px solid rgba(133,171,161,.12);background:color-mix(in srgb,var(--group-c) 9%,rgba(8,15,18,.86))}
+.usecase-kicker{font-family:var(--mono);font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--group-c);margin-bottom:5px}
+.usecase-title{font-family:var(--cjk);font-size:18px;font-weight:700;color:#fff}
+.usecase-purpose{font-family:var(--cjk);font-size:13px;line-height:1.75;color:rgba(226,236,250,.76)}
+.usecase-score{text-align:right}
+.usecase-score strong{display:block;font-size:30px;letter-spacing:-.05em;color:var(--group-c);line-height:1}
+.usecase-score span{font-family:var(--mono);font-size:9px;color:rgba(204,218,238,.48);letter-spacing:.12em;text-transform:uppercase}
+.usecase-row{display:grid;grid-template-columns:minmax(210px,.95fr) minmax(240px,1.2fr) 82px minmax(220px,1fr) 34px;gap:14px;align-items:center;min-height:62px;padding:12px 18px;border-bottom:1px solid rgba(133,171,161,.09);cursor:pointer}
+.usecase-row:last-child{border-bottom:none}
+.usecase-row:hover{background:rgba(255,255,255,.035)}
+.usecase-track{font-family:var(--cjk);font-weight:700;color:#fff;font-size:15px}
+.usecase-track small{display:block;font-family:var(--mono);font-size:9px;color:rgba(204,218,238,.42);letter-spacing:.08em;margin-top:4px}
+.usecase-purpose-chip{display:inline-flex;margin-bottom:6px;font-family:var(--mono);font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--group-c);border:1px solid color-mix(in srgb,var(--group-c) 28%,transparent);border-radius:4px;padding:3px 6px;background:color-mix(in srgb,var(--group-c) 8%,transparent)}
+.usecase-why{font-family:var(--cjk);font-size:12px;line-height:1.65;color:rgba(204,218,238,.68)}
+.usecase-heat{font-size:22px;font-weight:700;letter-spacing:-.04em}
+.usecase-action{font-family:var(--cjk);font-size:12px;line-height:1.65;color:rgba(226,236,250,.78)}
+.usecase-arrow{font-family:var(--mono);font-size:18px;color:rgba(204,218,238,.46);text-align:right}
 .feature-band{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(120,180,255,.11);margin-top:18px;border:1px solid rgba(120,180,255,.12);border-radius:8px;overflow:hidden}
 .feature-card{background:rgba(7,15,27,.96);padding:20px}
 .feature-card span{font-family:var(--mono);font-size:10px;color:var(--blue);letter-spacing:.14em;text-transform:uppercase}
@@ -541,8 +557,11 @@ body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([oncli
   .market-clock{text-align:left;white-space:normal}
   .heatmap-grid{grid-template-columns:repeat(6,minmax(0,1fr));grid-auto-rows:72px}
   .heat-sector-label{grid-column:span 6}
-  .market-table{overflow-x:auto}
-  .market-table-head,.market-row{min-width:780px}
+  .usecase-intro{align-items:flex-start;flex-direction:column}
+  .usecase-group-head{grid-template-columns:1fr}
+  .usecase-score{text-align:left}
+  .usecase-row{grid-template-columns:1fr;gap:8px}
+  .usecase-arrow{text-align:left}
   .feature-band{grid-template-columns:1fr}
   .faq-item{grid-template-columns:1fr;gap:8px}
   .kpis{grid-template-columns:repeat(2,minmax(0,1fr))!important}
@@ -664,9 +683,13 @@ body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([oncli
       <aside class="heat-side" id="heat-detail" aria-label="Selected heatmap track"></aside>
     </div>
 
-    <div class="market-table">
-      <div class="market-table-head">
-        <span>Track</span><span>Heat</span><span>Demand</span><span>Capex</span><span>Policy</span><span>Source</span><span></span>
+    <div class="usecase-board">
+      <div class="usecase-intro">
+        <div>
+          <span>Use-Case Workbench</span>
+          <h3>按用途判断机会，再按行业进入赛道</h3>
+        </div>
+        <p>这一区不是纯指标表，而是把赛道拆成业务用途：哪里适合找客户，哪里适合做国产替代，哪里只是风险观察。</p>
       </div>
       <div id="market-table-body"></div>
     </div>
@@ -1665,6 +1688,50 @@ const HEAT_SYMBOLS = {
   l1:'MS',l2:'SEQ',l3:'IVD',
   f1:'FOOD',f2:'BEV',f3:'CONS',f4:'ADD'
 };
+const INDUSTRY_USE = {
+  zh: {
+    Macro:{label:'宏观校准层', purpose:'判断本周是否该加大机会搜索，避免在宏观收缩阶段误读单个赛道的局部高分。', action:'先看 PMI / M2 / FAI，决定整体进攻或防守节奏。'},
+    EI:{label:'算力、能源与半导体基础设施', purpose:'用于筛选设备供应链优先客户，重点看国产替代、AI 基建、能源路线切换带来的新增订单。', action:'优先拜访高 Heat 且 Policy/Capex 同时高的设备与零部件客户。'},
+    GI:{label:'通用工业与电池产线', purpose:'用于判断大客户扩产是否还能带动自动化和流体控制设备需求。', action:'跟踪龙头产能扩张和海外工厂落地节奏。'},
+    'P&B':{label:'生物制药、CDMO 与合成生物', purpose:'用于识别新药出海、多肽/ADC/CDMO、合成生物中试放大带来的设备机会。', action:'把销售线索放在中试、发酵、纯化和专用产线。'},
+    'L&M':{label:'实验室医疗与高端仪器国产替代', purpose:'用于判断进口替代、医院设备替换和高端分析仪器国产化的推进强度。', action:'优先跟踪质谱、测序、IVD 的国产替代客户。'},
+    'F&B':{label:'食品饮料与消费设备需求', purpose:'用于区分传统产能扩张放缓与功能成分、发酵、预制菜等结构性机会。', action:'避开低 Capex 传统扩产，关注改造替换和功能成分产线。'}
+  },
+  en: {
+    Macro:{label:'Macro Calibration Layer', purpose:'Use it to decide whether the week deserves offensive opportunity search or defensive risk control.', action:'Read PMI / M2 / FAI first to set the overall tempo.'},
+    EI:{label:'Compute, Energy & Semiconductor Infrastructure', purpose:'Use it to prioritize equipment-chain customers driven by localization, AI infrastructure, and energy transition.', action:'Prioritize names with high Heat plus strong Policy and Capex.'},
+    GI:{label:'General Industry & Battery Lines', purpose:'Use it to judge whether major customer expansion still supports automation and fluid-control demand.', action:'Track leader capex and overseas factory milestones.'},
+    'P&B':{label:'Biopharma, CDMO & Synthetic Biology', purpose:'Use it to capture equipment demand from license-out, peptide/ADC/CDMO, and pilot-to-scale-up activity.', action:'Focus leads on pilot, fermentation, purification, and dedicated production lines.'},
+    'L&M':{label:'Lab-Medical & Instrument Localization', purpose:'Use it to judge import substitution, hospital replacement, and domestic high-end instrument momentum.', action:'Prioritize mass spec, sequencing, and IVD localization customers.'},
+    'F&B':{label:'Food & Beverage Equipment Demand', purpose:'Use it to separate weak traditional capacity expansion from structural opportunities in functional ingredients and fermentation.', action:'Avoid low-capex expansion and focus on replacement or functional ingredient lines.'}
+  }
+};
+const TRACK_USE = {
+  zh: {
+    m1:['宏观节奏','判断制造业需求是否进入扩张区间'],
+    m2:['流动性判断','确认资金环境是否支持制造业投资'],
+    m3:['Capex底座','验证固定资产投资是否能托住设备需求'],
+    e1:['AI基建客户','优先找 CDU、冷板、管路和泵阀相关客户'],
+    e2:['国产替代机会','半导体设备国产化，适合高优先级客户跟踪'],
+    e3:['技术路线筛选','关注 PEM/AEM 高壁垒材料与系统集成'],
+    e4:['场景验证','只跟踪港口、钢厂等封闭场景商业化'],
+    g1:['大客户扩产','跟踪电池龙头扩产对设备订单的传导'],
+    p1:['出海产线','创新药 BD 带来的专用产线和验证需求'],
+    p2:['中试放大','发酵、分离纯化、连续生产设备机会'],
+    p3:['远期线索','融资变化影响 3-5 年后的设备需求'],
+    p4:['风险观察','医药制造 FAI 偏弱，谨慎看新建产线'],
+    p5:['订单兑现','TIDES、多肽、ADC 和海外客户询单'],
+    l1:['仪器国产化','质谱/色谱国产替代客户优先级高'],
+    l2:['替换潮','进口限制后关注测序仪替换和耗材'],
+    l3:['基层放量','规避集采价格战，关注基层 POCT'],
+    f1:['改造替换','食品制造从新建转向存量线改造'],
+    f2:['低优先级','酒饮料扩产转弱，避免新建线乐观假设'],
+    f3:['需求验证','消费热度要观察 3-6 个月设备传导'],
+    f4:['结构机会','功能成分、益生菌、胶原蛋白产线机会']
+  },
+  en: {}
+};
+TRACK_USE.en = TRACK_USE.zh;
 function heatUniverse(){
   return Object.keys(T).filter(id=>T[id] && BM[T[id].b]).map(id=>({id,t:getLangT(id),base:T[id]}));
 }
@@ -1777,17 +1844,34 @@ function renderHeatmap(){
     }).join('');
     return label + tiles;
   }).join('') || `<div class="heat-sector-label">No data available for selected criteria</div>`;
-  table.innerHTML = items.map(({id,t})=>{
-    const src = (t.src||[])[0] || 'Internal model';
-    return `<div class="market-row" onclick="updateHeatDetail('${attr(id)}')">
-      <span class="market-row-name">${esc(t.n)}<small>${esc(t.b)} · ${esc(t.sub)}</small></span>
-      <span class="${HC(t.heat)}">${esc(t.heat)}</span>
-      <span>${esc(t.D)}</span>
-      <span>${esc(t.C)}</span>
-      <span>${esc(t.Pol)}</span>
-      <span>${esc(src)}</span>
-      <span>${trendEl(t.tr)}</span>
-    </div>`;
+  table.innerHTML = grouped.map(group=>{
+    const meta = (INDUSTRY_USE[currentLang] || INDUSTRY_USE.zh)[group.b];
+    const avg = group.items.reduce((sum,{t})=>sum+t.heat,0) / group.items.length;
+    const groupColor = cc(group.b);
+    const rows = group.items.map(({id,t})=>{
+      const use = (TRACK_USE[currentLang] || TRACK_USE.zh)[id] || ['用途判断','用于判断该赛道是否值得进入下一步跟踪'];
+      return `<div class="usecase-row" onclick="updateHeatDetail('${attr(id)}')">
+        <div class="usecase-track">${esc(t.n)}<small>${esc(t.b)} · ${esc(t.sub)}</small></div>
+        <div>
+          <span class="usecase-purpose-chip">${esc(use[0])}</span>
+          <div class="usecase-why">${esc(use[1])}</div>
+        </div>
+        <div class="usecase-heat ${HC(t.heat)}">${esc(t.heat)}</div>
+        <div class="usecase-action">${esc(t.act)}</div>
+        <div class="usecase-arrow">›</div>
+      </div>`;
+    }).join('');
+    return `<section class="usecase-group" style="--group-c:${groupColor}">
+      <div class="usecase-group-head">
+        <div>
+          <div class="usecase-kicker">${esc(group.b)} · ${esc(group.items.length)} TRACKS</div>
+          <div class="usecase-title">${esc(meta.label)}</div>
+        </div>
+        <div class="usecase-purpose">${esc(meta.purpose)}<br>${esc(meta.action)}</div>
+        <div class="usecase-score"><strong>${esc(avg.toFixed(1))}</strong><span>AVG HEAT</span></div>
+      </div>
+      ${rows}
+    </section>`;
   }).join('');
   if(!items.some(({id})=>id===selectedHeatId) && items[0]) selectedHeatId = items[0].id;
   updateHeatDetail(selectedHeatId);
