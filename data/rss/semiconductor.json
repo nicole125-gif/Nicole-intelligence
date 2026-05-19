@@ -3,158 +3,148 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-05-18T04:14:47.006509+00:00",
-  "item_count": 15,
+  "updated_at": "2026-05-19T04:09:22.884599+00:00",
+  "item_count": 14,
   "items": [
     {
-      "id": "218256f240",
-      "title": "长鑫科技：一季度营收增长719.13%，预计上半年扣非归母净利润最高达580亿",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811648&idx=1&sn=d46e1c459d02cc60036629ac07b6f013",
-      "summary": "长鑫科技：一季度营收增长719.13%，预计上半年扣非归母净利润最高达580亿",
+      "id": "344c6fdeae",
+      "title": "封测厂商“疯狂”扩产，供应链却还没准备好",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811696&idx=1&sn=7809297afd7ef3df713a626a37d7018a",
+      "summary": "封测厂商“疯狂”扩产，供应链却还没准备好",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-18T04:14:42.949738+00:00",
-      "pub_ts": 1779077682
+      "pub_date": "2026-05-19T04:09:18.821713+00:00",
+      "pub_ts": 1779163758
     },
     {
-      "id": "b2801f7f82",
-      "title": "当AI烧到最上游，硅片厂商却在失血",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811638&idx=1&sn=45a18d0a455cede2df45a9633ce1a3b4",
-      "summary": "当AI烧到最上游，硅片厂商却在失血",
+      "id": "4f4575e406",
+      "title": "谷歌TensorG6芯片详解",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811696&idx=2&sn=e94386a6519ec24cfcbe7d661858871f",
+      "summary": "谷歌TensorG6芯片详解",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-18T04:14:42.949782+00:00",
-      "pub_ts": 1779077682
+      "pub_date": "2026-05-19T04:09:18.821773+00:00",
+      "pub_ts": 1779163758
     },
     {
-      "id": "032bc20116",
-      "title": "国安部：境外间谍对我半导体、高端芯片、人工智能等领域实施窃密",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811638&idx=2&sn=85c5bf9cfd835bf644a25f484f473931",
-      "summary": "国安部：境外间谍对我半导体、高端芯片、人工智能等领域实施窃密",
+      "id": "74773ebb50",
+      "title": "互连方案太多，芯片设计选型犯难",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811696&idx=3&sn=4a3c509c506a1f65eafb9f0a77e2f01e",
+      "summary": "互连方案太多，芯片设计选型犯难",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-18T04:14:42.949809+00:00",
-      "pub_ts": 1779077682
+      "pub_date": "2026-05-19T04:09:18.821790+00:00",
+      "pub_ts": 1779163758
     },
     {
-      "id": "16abc32817",
-      "title": "ASML与塔塔电子达成合作，推进印度芯片计划",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811638&idx=3&sn=3aad07b7ac09b465f9d094206df29c23",
-      "summary": "ASML与塔塔电子达成合作，推进印度芯片计划",
+      "id": "17bb87801a",
+      "title": "应用材料：半导体短缺将持续到2030年",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811696&idx=4&sn=4dead6836763a33b9a97e194cdb80dc5",
+      "summary": "应用材料：半导体短缺将持续到2030年",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-18T04:14:42.949834+00:00",
-      "pub_ts": 1779077682
+      "pub_date": "2026-05-19T04:09:18.821806+00:00",
+      "pub_ts": 1779163758
     },
     {
-      "id": "d98deb1415",
-      "title": "散热之战：谁能掌握高功率AI服务器未来？",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811638&idx=4&sn=2210cab1ac9dbbe6f17968631a584334",
-      "summary": "散热之战：谁能掌握高功率AI服务器未来？",
-      "source": "半导体产业纵横",
-      "lang": "zh",
-      "pub_date": "2026-05-18T04:14:42.949856+00:00",
-      "pub_ts": 1779077682
-    },
-    {
-      "id": "33b09953bd",
-      "title": "长鑫科技Q1利润：高达330亿",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819472&idx=1&sn=4f6b41709c3c5b7f4e47a41bd10a4308",
-      "summary": "长鑫科技Q1利润：高达330亿",
+      "id": "4fc82c1db0",
+      "title": "何立峰会见苏姿丰，AMD承诺加大在华投资",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819687&idx=1&sn=3de5168c801e0f4aec0f273f388e8a31",
+      "summary": "何立峰会见苏姿丰，AMD承诺加大在华投资",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-18T04:14:28.885066+00:00",
-      "pub_ts": 1779077668
+      "pub_date": "2026-05-19T04:09:09.455148+00:00",
+      "pub_ts": 1779163749
     },
     {
-      "id": "8ffc716f85",
-      "title": "这条芯片赛道，彻底火了",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819464&idx=1&sn=b984e74bad0882d60cfe40435564f249",
-      "summary": "这条芯片赛道，彻底火了",
+      "id": "5ba37e9156",
+      "title": "CoWoS，变了",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819561&idx=1&sn=977d7b01edde71d3d4c92b6f9f4bdd27",
+      "summary": "CoWoS，变了",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-18T04:14:28.885130+00:00",
-      "pub_ts": 1779077668
+      "pub_date": "2026-05-19T04:09:09.455194+00:00",
+      "pub_ts": 1779163749
     },
     {
-      "id": "9afa346e47",
-      "title": "马斯克，能否造出下一个芯片巨头？",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819464&idx=2&sn=0cfc344fcbb69cc3453851f476a32701",
-      "summary": "马斯克，能否造出下一个芯片巨头？",
+      "id": "551090c440",
+      "title": "铜互联，走到尽头？",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819561&idx=2&sn=823e8117b5d8609465c9daff5fa48aac",
+      "summary": "铜互联，走到尽头？",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-18T04:14:28.885157+00:00",
-      "pub_ts": 1779077668
+      "pub_date": "2026-05-19T04:09:09.455213+00:00",
+      "pub_ts": 1779163749
     },
     {
-      "id": "b9b023d071",
-      "title": "电源芯片，要涨价",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819464&idx=3&sn=25e39019f266c6afa1f164eba6a1327e",
-      "summary": "电源芯片，要涨价",
+      "id": "5ee27852d0",
+      "title": "AI芯片，太热了！热得让人害怕",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819561&idx=3&sn=032b660b7ac4f59a08a6d342efa6b87b",
+      "summary": "AI芯片，太热了！热得让人害怕",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-18T04:14:28.885179+00:00",
-      "pub_ts": 1779077668
+      "pub_date": "2026-05-19T04:09:09.455230+00:00",
+      "pub_ts": 1779163749
     },
     {
-      "id": "01af2aa89c",
-      "title": "台积电海外厂开始赚钱！",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819464&idx=4&sn=80f3153a262c65361b53ceee1e22d232",
-      "summary": "台积电海外厂开始赚钱！",
+      "id": "1486f6fcd9",
+      "title": "铜烧结，愈发重要",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819561&idx=4&sn=be5e7716aa147df64b957c16a5bd073a",
+      "summary": "铜烧结，愈发重要",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-18T04:14:28.885201+00:00",
-      "pub_ts": 1779077668
+      "pub_date": "2026-05-19T04:09:09.455245+00:00",
+      "pub_ts": 1779163749
     },
     {
-      "id": "55e4d47102",
-      "title": "Micro-Transfer Printing (MTP) As A Promising Scalable Approach to Heterogeneous Integration for Silicon Photonics (Ghent U., imec et al)",
-      "url": "https://semiengineering.com/micro-transfer-printing-mtp-as-a-promising-scalable-approach-to-heterogeneous-integration-for-silicon-photonics-ghent-u-imec-et-al/",
-      "summary": "A new technical paper, &#8220;Micro-Transfer Printing on Silicon Photonics: Tutorial, Recent Progress and Outlook,&#8221; was published by researchers at Ghent University, imec et al. Abstract &#8220;This paper highlights micro-transfer printing (MTP) as a promising scalable approach to heterogeneou…",
+      "id": "4e000bd7ef",
+      "title": "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
+      "url": "https://semiengineering.com/a-deionized-water-based-large-scale-transfer-process-for-2d-materials-grown-on-sapphire-amo-rwth-aixtron/",
+      "summary": "A new technical paper, &#8220;Water-based, large-scale transfer of 2D materials grown on sapphire substrates,&#8221; was published by researchers at AMO GmbH, RWTH Aachen University, and AIXTRON SE. Abstract &#8220;Two-dimensional materials (2DMs) hold significant potential for future electronics, a…",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-05-15T18:44:10+00:00",
-      "pub_ts": 1778870650
+      "pub_date": "2026-05-18T20:46:28+00:00",
+      "pub_ts": 1779137188
     },
     {
-      "id": "d2bb75539c",
-      "title": "Chip Industry Week in Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-138/",
-      "summary": "Tata-ASML deal; what happened to H200 chips for China? $1.5T IC industry by 2030; new funding; AI memory tools; MRC spec; embedding solar chips in windows; Ford launches battery biz; Waymo does the backstroke; UMC's high-voltage finFET. \nThe post Chip Industry Week in Review appeared first on Semico…",
+      "id": "e9b7c22d86",
+      "title": "Evaluating and Calibrating Performance On RISC-V Vector Processors (KTH, LLNL, BSC)",
+      "url": "https://semiengineering.com/evaluating-and-calibrating-performance-on-risc-v-vector-processors-kth-llnl-bsc/",
+      "summary": "A new technical paper, &#8220;Closer in the Gap: Towards Portable Performance on RISC-V Vector Processors,&#8221; was published by researchers at KTH Royal Institute of Technology, Lawrence Livermore National Laboratory, and Barcelona Supercomputing Center. Abstract &#8220;The RISC-V Vector Extensio…",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-05-15T07:01:42+00:00",
-      "pub_ts": 1778828502
+      "pub_date": "2026-05-18T20:36:05+00:00",
+      "pub_ts": 1779136565
     },
     {
-      "id": "e7bedf41cf",
-      "title": "Why Vision LLMs Force A Rethink Of Edge AI Hardware",
-      "url": "https://semiengineering.com/why-vision-llms-force-a-rethink-of-edge-ai-hardware/",
-      "summary": "Peak TOPS is becoming a weaker proxy for delivered edge performance.\nThe post Why Vision LLMs Force A Rethink Of Edge AI Hardware appeared first on Semiconductor Engineering.",
+      "id": "5b3b2635ad",
+      "title": "Scalable Photomask Optimization With Morphological Learning  (SUNY Buffalo, VU, IBM)",
+      "url": "https://semiengineering.com/scalable-photomask-optimization-with-morphological-learning-suny-buffalo-vu-ibm/",
+      "summary": "A new technical paper, &#8220;MorphOPC: Advancing Mask Optimization with Multi-scale Hierarchical Morphological Learning,&#8221; was published by researchers at University at Buffalo, Villanova University, and IBM T. J. Watson Research Center. Abstract &#8220;As feature sizes shrink to the nanometer…",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-05-14T07:07:53+00:00",
-      "pub_ts": 1778742473
+      "pub_date": "2026-05-18T20:24:00+00:00",
+      "pub_ts": 1779135840
     },
     {
-      "id": "5828a396ec",
-      "title": "SOCAMM2: Bringing LPDDR5X Benefits To AI Servers",
-      "url": "https://semiengineering.com/socamm2-bringing-lpddr5x-benefits-to-ai-servers/",
-      "summary": "Preserving LPDDR's energy efficiency advantages while restoring the modularity expected in server systems. \nThe post SOCAMM2: Bringing LPDDR5X Benefits To AI Servers appeared first on Semiconductor Engineering.",
+      "id": "9c2bc9dd1d",
+      "title": "Workflow-Level Design For Trustworthy GenAI Integration in Vehicles (UOL, Denso)",
+      "url": "https://semiengineering.com/workflow-level-design-for-trustworthy-genai-integration-in-vehicle-systems-uol-denso/",
+      "summary": "A new technical paper, &#8220;Workflow-Level Design Principles for Trustworthy GenAI in Automotive System Engineering,&#8221; was published by researchers at University of Oldenburg and Denso Automotive. Abstract &#8220;The adoption of large language models in safety-critical system engineering is c…",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-05-14T07:05:17+00:00",
-      "pub_ts": 1778742317
+      "pub_date": "2026-05-18T20:12:32+00:00",
+      "pub_ts": 1779135152
     },
     {
-      "id": "ffd0e9dbd9",
-      "title": "Vision-Language-Action Models Arrive",
-      "url": "https://semiengineering.com/vision-language-action-models-arrive/",
-      "summary": "An emerging AI architecture for embedded autonomy challenges edge efficiency.\nThe post Vision-Language-Action Models Arrive appeared first on Semiconductor Engineering.",
+      "id": "b11d356e99",
+      "title": "HW-Native, GPU Compiler for Large-scale ML Production Systems (UC San Diego, Meta)",
+      "url": "https://semiengineering.com/hw-native-gpu-compiler-for-large-scale-ml-production-systems-uc-san-diego-meta/",
+      "summary": "A new technical paper, &#8220;TLX: Hardware-Native, Evolvable MIMW GPU Compiler for Large-scale Production Environments,&#8221; was published by researchers at UC San Diego and Meta. Abstract &#8220;Modern GPUs increasingly rely on specialized hardware units and asynchronous coordination mechanisms,…",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-05-14T07:04:50+00:00",
-      "pub_ts": 1778742290
+      "pub_date": "2026-05-18T17:16:41+00:00",
+      "pub_ts": 1779124601
     }
   ]
 }

@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-05-18T04:15:25.932534+00:00",
+  "updated_at": "2026-05-19T04:10:17.236971+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "6a79822a3b",
-      "title": "ECO 2026: indirect comparison favours Wegovy pill over Foundayo",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/eco-2026-indirect-comparison-wegovy-foundayo/",
-      "summary": "At ECO 2026, findings from a post-hoc indirect treatment comparison of Wegovy versus Foundayo, oral GLP-1RAs approved in the US for chronic weight management.",
+      "id": "6bdec17770",
+      "title": "Vaccine void means current Ebola outbreak declared international emergency",
+      "url": "https://www.pharmaceutical-technology.com/news/vaccine-void-means-current-ebola-outbreak-declared-international-emergency/",
+      "summary": "The WHO has classed this outbreak as “extraordinary” due to the lack of therapeutic options and epidemiological trends.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-15T16:07:00+00:00",
-      "pub_ts": 1778861220
+      "pub_date": "2026-05-18T15:49:10+00:00",
+      "pub_ts": 1779119350
     },
     {
-      "id": "53b18197be",
-      "title": "Nonprofits join forces to debut marketplace for shelved CGTs",
-      "url": "https://www.pharmaceutical-technology.com/news/nonprofits-join-forces-to-debut-marketplace-for-shelved-cgts/",
-      "summary": "OTXL’s COO, Beth White, notes that the CGT marketplace could revitalise programmes that would otherwise have been indefinitely put on ice.",
+      "id": "3c66986697",
+      "title": "Tracy Beth Høeg ousted from FDA in wider senior leadership shakeup",
+      "url": "https://www.pharmaceutical-technology.com/news/tracy-beth-hoeg-fired-from-fda-cder/",
+      "summary": "The wider US HHS is going through a leadership upheaval, as Republicans aim to keep voters on side amid the looming midterm elections.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-15T15:28:44+00:00",
-      "pub_ts": 1778858924
+      "pub_date": "2026-05-18T09:57:15+00:00",
+      "pub_ts": 1779098235
     },
     {
-      "id": "a7efb30be8",
-      "title": "ECO 2026: tirzepatide shows potential for T1D treatment",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/eco-2026-tirzepatide-shows-potential-for-t1d-treatment/",
-      "summary": "During ECO 2026, a study was presented analysing the use of tirzepatide, a dual GIP and GLP-1 agonist, in treating type 1 diabetes (T1D).",
+      "id": "a3de888ecb",
+      "title": "Japan’s MHLW approves Boehringer’s Jascayd for IPF and PPF",
+      "url": "https://www.pharmaceutical-technology.com/news/japans-mhlw-boehringers-jascayd-approval/",
+      "summary": "Boehringer Ingelheim has received Japan’s MHLW approval for Jascayd (nerandomilast) to treat adults with IPF and PPF.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-15T12:30:00+00:00",
-      "pub_ts": 1778848200
+      "pub_date": "2026-05-18T09:54:45+00:00",
+      "pub_ts": 1779098085
     },
     {
-      "id": "bdfa3e0cc5",
-      "title": "Arna Pharma and Slate Run complete JV for new US company",
-      "url": "https://www.pharmaceutical-technology.com/news/arna-pharma-slate-run-jv-us-company/",
-      "summary": "Arna Pharma and Slate Run Pharmaceuticals have completed a JV to form a company focusing on branded products and 505(b)(2) medicines.",
+      "id": "0a17f9f3a8",
+      "title": "The Ovarian Cancer Opportunity: Overcoming Complexity in Global Studies",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/the-ovarian-cancer-opportunity-overcoming-complexity-in-global-studies/",
+      "summary": "Ovarian cancer research is entering a pivotal era characterized by increasing complexity for large, global studies.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-15T10:44:57+00:00",
-      "pub_ts": 1778841897
+      "pub_date": "2026-05-18T09:19:11+00:00",
+      "pub_ts": 1779095951
     },
     {
-      "id": "4403be8b31",
-      "title": "Biopharma industry endorses Pazdur for FDA commissioner role",
-      "url": "https://www.pharmaceutical-technology.com/news/biopharma-industry-endorses-pazdur-for-fda-commissioner-role/",
-      "summary": "Hundreds of biopharma leaders say Dr Richard Pazdur has the necessary qualities to lead the FDA amid a crisis of confidence.",
+      "id": "c136e14145",
+      "title": "FDA approves Enhertu for two HER2-positive early breast cancer indications",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-enhertu-breast-cancer/",
+      "summary": "The FDA has approved Daiichi Sankyo and AstraZeneca’s Enhertu for two new indications in HER2-positive early breast cancer.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-15T10:32:07+00:00",
-      "pub_ts": 1778841127
+      "pub_date": "2026-05-18T07:49:17+00:00",
+      "pub_ts": 1779090557
     }
   ]
 }
