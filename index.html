@@ -793,7 +793,7 @@ body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([oncli
   <div class="footer-right">
     <span class="footer-disclaimer" data-i18n="footer.disclaimer">本报告仅供内部分析参考，不构成投资建议</span>
     <span class="footer-divider">·</span>
-    <span data-i18n="footer.updated">最近更新 2026-05-01</span>
+    <span data-i18n="footer.updated">最近更新 2026-05-20</span>
   </div>
 </footer>
 
@@ -822,27 +822,27 @@ function sanitizeInsight(html){
 }
 
 const BM={
-  Macro:{n:'宏观背景',    heat:65.3,tr:'dn', D:50,C:44,P:56,Pol:62,
+  Macro:{n:'宏观背景',    heat:65.3,tr:'dn', D:68,C:64,P:60,Pol:68,
     sum:'3月制造业PMI 50.4%重返扩张！Q1开局信号确认',
     sumAlert:'🟢',href:'macro.html',tracks:['m1','m2','m3'],sparks:[48,50,53],hotIdx:2,
     insight:'<strong>宏观背景</strong> — 3月制造业PMI 50.4%，重返扩张区间；生产52.6%、新订单51.8%，中小企业同步改善。FAI+1.8%转正叠加PMI确认，Q1开局信号转强。<span class="ai-src" data-src="国家统计局 · 2026-03-31">NSB</span>'},
-  EI:{n:'能源·基础设施',  heat:76.4,tr:'up', D:82,C:80,P:68,Pol:86,
+  EI:{n:'能源·基础设施',  heat:76.4,tr:'up', D:78,C:76,P:71,Pol:80,
     sum:'两会AI基建落地+美半导体232关税双重催化',
     sumAlert:'🔥',href:'hydrogen.html',tracks:['e1','e2','e3','e4'],sparks:[64,72,74,44],hotIdx:2,
     insight:'<strong>液冷数据中心</strong> — 渗透率被TrendForce上调至47%，美国232关税倒逼国产化，液冷Heat创全周期新高 <strong style="color:var(--hot)">86.1</strong>，D/C双维度超90分。<span class="ai-src" data-src="TrendForce 2026Q1">TF</span>'},
-  GI:{n:'通用工业',       heat:74.6,tr:'up', D:80,C:82,P:62,Pol:72,
+  GI:{n:'通用工业',       heat:74.6,tr:'up', D:78,C:75,P:70,Pol:72,
     sum:'CATL三线共振，订单确定性最强',
     sumAlert:'⚡',href:'semiconductor.html',tracks:['g1'],sparks:[70,74,76],hotIdx:2,
     insight:'<strong>通用工业</strong> — CATL匈牙利Q1量产+济宁储能+钠离子三线共振，Capex 82分全板块最高，先导/赢合订单可见度极高。<span class="ai-src" data-src="宁德时代 2026Q1公告">CATL</span>'},
-  'P&B':{n:'制药·生物技术',heat:67.8,tr:'fl', D:72,C:62,P:52,Pol:72,
+  'P&B':{n:'制药·生物技术',heat:67.8,tr:'fl', D:70,C:66,P:61,Pol:74,
     sum:'司美格鲁肽3/20已到期！仿制战全面启动',
     sumAlert:'⚠',href:'pharma.html',tracks:['p1','p2','p3','p4','p5'],sparks:[58,62,63,62,70],hotIdx:4,
     insight:'<strong>制药·生物技术</strong> — 司美格鲁肽专利3月20日到期，多肽CDMO询单环比+8%；Demand 72分，进入兑现窗口期。<span class="ai-src" data-src="摩熵医药 / 凯莱英公告">摩熵</span>'},
-  'L&M':{n:'实验室·医疗',  heat:73.8,tr:'up', D:70,C:62,P:55,Pol:80,
+  'L&M':{n:'实验室·医疗',  heat:73.8,tr:'up', D:74,C:75,P:66,Pol:82,
     sum:'质谱进口-12.4%，因美纳禁令催化',
     sumAlert:'⚠',href:'mscc.html',tracks:['l1','l2','l3'],sparks:[58,62,62],hotIdx:1,
     insight:'<strong>实验室·医疗</strong> — 因美纳列入不可靠实体清单，质谱进口骤降12.4%，Policy 80分，是L&M国产替代信号最强的时间节点。<span class="ai-src" data-src="商务部公告 / 海关总署">商务部</span>'},
-  'F&B':{n:'食品·饮料',    heat:62.8,tr:'dn', D:66,C:44,P:52,Pol:52,
+  'F&B':{n:'食品·饮料',    heat:62.8,tr:'dn', D:64,C:63,P:56,Pol:69,
     sum:'双FAI降速/转负，发酵唯一亮点',
     sumAlert:'↓',href:'food.html',tracks:['f1','f2','f3','f4'],sparks:[60,56,55,55],hotIdx:3,
     insight:'<strong>食品·饮料</strong> — 酒饮料FAI转负-0.2%，Capex 44分全板块最低；唯一亮点：合成生物发酵设备进入交付期，功能成分>800亿。<span class="ai-src" data-src="国家统计局 FAI 2025全年">NSB</span>'},
@@ -1290,7 +1290,7 @@ const I18N = {
     'footer.copy':    '© 2026 Nicole Intelligence · 行业热力图系统',
     'footer.sources': '国家统计局 / 央行 / 行业协会 / 上市公司公告',
     'footer.disclaimer': '本报告仅供内部分析参考，不构成投资建议',
-    'footer.updated': '最近更新 2026-05-01',
+    'footer.updated': '最近更新 2026-05-20',
   },
   en: {
     'nav.overview':   'Overview',
@@ -1320,7 +1320,7 @@ const I18N = {
     'footer.copy':    '© 2026 Nicole Intelligence · Market Heatmap System',
     'footer.sources': 'NBS / PBoC / Industry Associations / Listed Company Filings',
     'footer.disclaimer': 'For internal analysis only. Not investment advice.',
-    'footer.updated': 'Last updated 2026-03-31',
+    'footer.updated': 'Last updated 2026-05-20',
   }
 };
 
