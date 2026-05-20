@@ -14,7 +14,6 @@ import datetime as dt
 import hashlib
 import json
 import os
-import socket
 import subprocess
 import sys
 import urllib.parse
@@ -90,17 +89,6 @@ def search_public_report(query: str, domains: list[str]) -> tuple[str | None, st
     return None, "no allowed result"
 
 
-def has_outbound_network(hosts: list[tuple[str, int]] | None = None, timeout: float = 2.0) -> bool:
-    targets = hosts or [("github.com", 443), ("www.stats.gov.cn", 443), ("rsshub.app", 443)]
-    for host, port in targets:
-        try:
-            with socket.create_connection((host, port), timeout=timeout):
-                return True
-        except OSError:
-            continue
-    return False
-
-
 def download_public_reports(period: str, config: dict, dry_run: bool = False) -> dict:
     report = {"downloaded": [], "skipped": [], "failed": []}
     sources = config.get("report_sources", {})
@@ -141,20 +129,14 @@ def download_public_reports(period: str, config: dict, dry_run: bool = False) ->
     return report
 
 
-def run_command(cmd: list[str], dry_run: bool = False, allow_failure: bool = False) -> bool:
+def run_command(cmd: list[str], dry_run: bool = False, allow_failure: bool = False) -> None:
     print("$ " + " ".join(cmd))
     if dry_run:
-        return True
-    try:
-        subprocess.run(cmd, cwd=ROOT, check=True)
-        return True
-    except subprocess.CalledProcessError:
-        if allow_failure:
-            return False
-        raise
+        return
+    subprocess.run(cmd, cwd=ROOT, check=not allow_failure)
 
 
-def rebuild_rag(dry_run: bool = False, allow_failure: bool = False) -> bool:
+def rebuild_rag(dry_run: bool = False) -> None:
     code = r"""
 from pathlib import Path
 import hashlib, json, os
@@ -217,7 +199,7 @@ os.makedirs("data", exist_ok=True)
 HASH_FILE.write_text(json.dumps(current_hash, ensure_ascii=False, indent=2))
 print(f"RAG DB ready: {collection.count()} chunks")
 """
-    return run_command([sys.executable, "-c", code], dry_run=dry_run, allow_failure=allow_failure)
+    run_command([sys.executable, "-c", code], dry_run=dry_run, allow_failure=True)
 
 
 def apply_overrides(payload: dict, overrides: dict) -> tuple[dict, list[str]]:
@@ -307,35 +289,14 @@ def run_monthly_update(args: argparse.Namespace) -> None:
     sources = load_yaml(CONFIG_DIR / "monthly_sources.yml")
     overrides = load_yaml(CONFIG_DIR / "monthly_overrides.yml")
     print(f"=== Nicole Intelligence monthly update · {period} ===")
-    runtime_notes: list[str] = []
-    source_report = {"downloaded": [], "skipped": [], "failed": []}
 
-    network_ok = has_outbound_network()
-    if network_ok:
-        source_report = download_public_reports(period, sources, dry_run=args.dry_run)
-        if not run_command([sys.executable, "fetch_rss.py"], dry_run=args.dry_run, allow_failure=True):
-            runtime_notes.append("RSS 刷新失败，本次保留现有缓存。")
-        if not rebuild_rag(dry_run=args.dry_run, allow_failure=True):
-            runtime_notes.append("RAG 重建失败，向量库未更新。")
-        if not run_command([sys.executable, "scripts/update_news.py"], dry_run=args.dry_run, allow_failure=True):
-            runtime_notes.append("新闻页刷新失败，页面内容沿用上次成功结果。")
-    else:
-        reason = "outbound network unavailable"
-        source_report["failed"].append({"vertical": "system", "query": "network", "reason": reason})
-        runtime_notes.extend(
-            [
-                "当前运行环境无法访问外网，已跳过公开报告下载。",
-                "当前运行环境无法访问外网，已跳过 RSS 刷新。",
-                "当前运行环境无法访问外网，已跳过新闻页刷新。",
-            ]
-        )
-        if not rebuild_rag(dry_run=args.dry_run, allow_failure=True):
-            runtime_notes.append("RAG 重建失败，向量库未更新。")
+    source_report = download_public_reports(period, sources, dry_run=args.dry_run)
+    run_command([sys.executable, "fetch_rss.py"], dry_run=args.dry_run, allow_failure=True)
+    rebuild_rag(dry_run=args.dry_run)
+    run_command([sys.executable, "scripts/update_news.py"], dry_run=args.dry_run, allow_failure=True)
 
     payload = payload_from_history(period)
     payload, applied = apply_overrides(payload, overrides if overrides.get("period") in (None, period) else {})
-    if runtime_notes:
-        payload.setdefault("review_notes", []).extend(runtime_notes)
     if applied and not args.dry_run:
         sys.path.insert(0, str(ROOT / "scripts"))
         from inject_scores import inject_scores

@@ -31,11 +31,13 @@
 ## 数据源失败
 - all: online refresh · CLAUDE_API_KEY missing; BRAVE_API_KEY missing
 - system: network · outbound network unavailable
+- external: public reports + RSS + scoring · Current environment blocks outbound proxy/network and lacks BRAVE/Claude API keys
 
 ## 人工覆盖项
-- 无
+- review_notes
 
 ## 需要重点审核
+- 请重点核查自动抓取失败的数据源，以及 Heat 变化幅度最大的赛道。
 - 本次运行未配置 CLAUDE_API_KEY 与 BRAVE_API_KEY，未执行在线抓取。
 - 首页 index.html 与 data.js 已按 data/history.json 的 202605 数据做离线一致性更新.
 - 当前运行环境无法访问外网，已跳过公开报告下载。

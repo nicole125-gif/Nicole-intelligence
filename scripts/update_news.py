@@ -166,10 +166,10 @@ BOARD_WEIGHTS = {
 # 3. Claude API 客户端
 # ══════════════════════════════════════════════════════════════
 def get_client():
-    return anthropic.Anthropic(
-        api_key=os.environ["CLAUDE_API_KEY"],
-        base_url="https://key.simpleai.com.cn"
-    )
+    api_key = os.environ.get("CLAUDE_API_KEY") or os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        return None
+    return anthropic.Anthropic(api_key=api_key, base_url="https://key.simpleai.com.cn")
 
 # ══════════════════════════════════════════════════════════════
 # 4. 历史数据 I/O
@@ -327,6 +327,9 @@ def generate_eval_report(results: dict):
     print("=" * 30)
 
 def score_track(client, track, news_items):
+    if client is None:
+        return {"D": 50, "C": 50, "P": 50, "Pol": 50,
+                "core_data": "缺少 Claude API Key", "comment": "请补充密钥后重跑"}
     if not news_items:
         print(f"  [WARN] {track['id']} 无新闻，使用默认分 50")
         return {"D": 50, "C": 50, "P": 50, "Pol": 50,
@@ -496,6 +499,9 @@ def fetch_pharma_news(days=30):
     import urllib.request, urllib.parse, json as _json
     items = []
     api_key = os.environ.get("BRAVE_API_KEY", "")
+    if not api_key:
+        print("  [SKIP] BRAVE_API_KEY 未配置，跳过制药新闻抓取")
+        return []
     keywords = [
         "pharmaceutical equipment China Chinasun",
         "pharma machinery China Truking",
@@ -543,6 +549,8 @@ def fetch_pharma_news(days=30):
 
 
 def summarize_pharma(client, raw_items):
+    if client is None:
+        return {"items": [], "updated": datetime.date.today().strftime("%Y-%m-%d")}
     titles = "\n".join([f"- {i['title']}" for i in raw_items[:14]])
     prompt = f"""以下是制药装备行业近期新闻标题，请筛选出最有价值的5条，
 并为每条生成：①30字中文摘要 ②来源标签（政策/企业/市场/技术之一）。
@@ -641,6 +649,8 @@ if __name__ == "__main__":
     print(f"=== PULSE 2026 开始更新 {today_str} ===")
 
     client      = get_client()
+    if client is None:
+        print("[WARN] 未配置 CLAUDE_API_KEY/ANTHROPIC_API_KEY，Heat 打分将跳过")
     history     = load_history()
     results     = {}
     score_cache = _load_score_cache()
