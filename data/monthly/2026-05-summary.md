@@ -2,7 +2,7 @@
 
 - 更新批次：2026-05
 - 新增报告数量：0
-- 数据源失败数量：1
+- 数据源失败数量：0
 - 最高 Heat：e2 82.8
 - 最大下滑：m1 -16.3
 
@@ -35,6 +35,10 @@
 
 ## 人工覆盖项
 - review_notes
+
+## 执行备注
+- offline mode: skipped report download, RSS refresh, RAG rebuild, and news scoring
+- homepage injected from history snapshot 2026-05
 
 ## 需要重点审核
 - 请重点核查自动抓取失败的数据源，以及 Heat 变化幅度最大的赛道。

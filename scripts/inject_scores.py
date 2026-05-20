@@ -137,9 +137,14 @@ def _patch_js_object_field(html: str, obj_name: str, key: str, field: str, new_v
 
 def _patch_date(html: str, new_date: str) -> str:
     """替换 footer 里的更新日期，格式 YYYY-MM-DD。"""
-    return re.sub(
+    html = re.sub(
         r"最近更新\s+\d{4}-\d{2}-\d{2}",
         f"最近更新 {new_date}",
+        html,
+    )
+    return re.sub(
+        r"Last updated\s+\d{4}-\d{2}-\d{2}",
+        f"Last updated {new_date}",
         html,
     )
 

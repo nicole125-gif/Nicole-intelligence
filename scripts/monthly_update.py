@@ -26,6 +26,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CONFIG_DIR = ROOT / "config"
 DATA_MONTHLY = ROOT / "data" / "monthly"
 REPORT_HASH_FILE = DATA_MONTHLY / "report_hashes.json"
+RSS_DIR = ROOT / "data" / "rss"
 
 
 def load_yaml(path: Path) -> dict:
@@ -47,6 +48,15 @@ def normalize_period(value: str | None) -> str:
             raise SystemExit("--period must use YYYY-MM, for example 2026-06") from exc
         return parsed.strftime("%Y-%m")
     return dt.date.today().strftime("%Y-%m")
+
+
+def resolve_run_date(value: str | None) -> dt.date:
+    if value:
+        try:
+            return dt.datetime.strptime(value, "%Y-%m-%d").date()
+        except ValueError as exc:
+            raise SystemExit("--as-of must use YYYY-MM-DD, for example 2026-05-19") from exc
+    return dt.date.today()
 
 
 def _load_hashes() -> dict:
@@ -129,11 +139,66 @@ def download_public_reports(period: str, config: dict, dry_run: bool = False) ->
     return report
 
 
-def run_command(cmd: list[str], dry_run: bool = False, allow_failure: bool = False) -> None:
+def run_command(cmd: list[str], dry_run: bool = False) -> None:
     print("$ " + " ".join(cmd))
     if dry_run:
         return
-    subprocess.run(cmd, cwd=ROOT, check=not allow_failure)
+    subprocess.run(cmd, cwd=ROOT, check=True)
+
+
+def run_step(
+    name: str,
+    cmd: list[str],
+    step_notes: list[str],
+    dry_run: bool = False,
+) -> bool:
+    try:
+        run_command(cmd, dry_run=dry_run)
+        return True
+    except subprocess.CalledProcessError as exc:
+        step_notes.append(f"{name} skipped: command failed with exit code {exc.returncode}")
+        print(f"[WARN] {name} skipped: command failed with exit code {exc.returncode}")
+        return False
+
+
+def _rss_backup() -> dict[Path, bytes]:
+    if not RSS_DIR.exists():
+        return {}
+    return {path: path.read_bytes() for path in RSS_DIR.glob("*.json")}
+
+
+def _restore_rss(backup: dict[Path, bytes]) -> None:
+    for path, content in backup.items():
+        path.write_bytes(content)
+
+
+def _rss_total_items() -> int:
+    index_path = RSS_DIR / "index.json"
+    if not index_path.exists():
+        return 0
+    data = json.loads(index_path.read_text(encoding="utf-8"))
+    verticals = data.get("verticals", {})
+    if isinstance(verticals, dict):
+        return sum(max(0, int(item.get("item_count", 0))) for item in verticals.values())
+    return 0
+
+
+def refresh_rss(step_notes: list[str], dry_run: bool = False) -> bool:
+    backup = _rss_backup()
+    before_total = _rss_total_items()
+    ok = run_step("RSS refresh", [sys.executable, "fetch_rss.py"], step_notes, dry_run=dry_run)
+    if not ok or dry_run:
+        if not ok:
+            _restore_rss(backup)
+        return ok
+
+    after_total = _rss_total_items()
+    if before_total > 0 and after_total == 0:
+        _restore_rss(backup)
+        step_notes.append("RSS refresh rolled back: refreshed feed index was empty")
+        print("[WARN] RSS refresh rolled back: refreshed feed index was empty")
+        return False
+    return True
 
 
 def rebuild_rag(dry_run: bool = False) -> None:
@@ -155,14 +220,10 @@ if current_hash == prev_hash:
     print("RAG inputs unchanged; skip rebuild")
     raise SystemExit(0)
 
-try:
-    from langchain_community.document_loaders import PyPDFLoader, UnstructuredHTMLLoader
-    from langchain_text_splitters import RecursiveCharacterTextSplitter
-    from sentence_transformers import SentenceTransformer
-    import chromadb
-except ImportError as exc:
-    print(f"RAG deps missing; skip rebuild ({exc})")
-    raise SystemExit(0)
+from langchain_community.document_loaders import PyPDFLoader, UnstructuredHTMLLoader
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from sentence_transformers import SentenceTransformer
+import chromadb
 
 docs = []
 for p in sorted(REPORTS_DIR.rglob("*.pdf")):
@@ -203,7 +264,7 @@ os.makedirs("data", exist_ok=True)
 HASH_FILE.write_text(json.dumps(current_hash, ensure_ascii=False, indent=2))
 print(f"RAG DB ready: {collection.count()} chunks")
 """
-    run_command([sys.executable, "-c", code], dry_run=dry_run, allow_failure=True)
+    run_command([sys.executable, "-c", code], dry_run=dry_run)
 
 
 def apply_overrides(payload: dict, overrides: dict) -> tuple[dict, list[str]]:
@@ -243,6 +304,18 @@ def payload_from_history(period: str) -> dict:
     return {"tracks": tracks}
 
 
+def build_injection_payload(period: str, payload: dict, today: dt.date | None = None) -> dict:
+    injection = {
+        "date": (today or dt.date.today()).isoformat(),
+        "tracks": payload.get("tracks", {}),
+    }
+    if payload.get("track_use"):
+        injection["track_use"] = payload["track_use"]
+    if payload.get("kpis"):
+        injection["kpis"] = payload["kpis"]
+    return injection
+
+
 def write_summary(
     path: Path,
     period: str,
@@ -250,6 +323,7 @@ def write_summary(
     source_report: dict,
     applied_overrides: list[str],
     review_notes: list[str],
+    step_notes: list[str],
 ) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     tracks = payload.get("tracks", {})
@@ -282,6 +356,9 @@ def write_summary(
     lines.extend(["", "## 人工覆盖项"])
     lines.extend([f"- {item}" for item in applied_overrides] or ["- 无"])
 
+    lines.extend(["", "## 执行备注"])
+    lines.extend([f"- {item}" for item in step_notes] or ["- 无"])
+
     lines.extend(["", "## 需要重点审核"])
     lines.extend([f"- {item}" for item in review_notes] or ["- 自动生成内容与新增报告来源"])
 
@@ -290,27 +367,45 @@ def write_summary(
 
 def run_monthly_update(args: argparse.Namespace) -> None:
     period = normalize_period(args.period)
+    run_date = resolve_run_date(args.as_of)
     sources = load_yaml(CONFIG_DIR / "monthly_sources.yml")
     overrides = load_yaml(CONFIG_DIR / "monthly_overrides.yml")
+    step_notes: list[str] = []
     print(f"=== Nicole Intelligence monthly update · {period} ===")
 
-    source_report = download_public_reports(period, sources, dry_run=args.dry_run)
-    run_command([sys.executable, "fetch_rss.py"], dry_run=args.dry_run, allow_failure=True)
-    rebuild_rag(dry_run=args.dry_run)
-    run_command([sys.executable, "scripts/update_news.py"], dry_run=args.dry_run, allow_failure=True)
+    if args.offline:
+        source_report = {"downloaded": [], "skipped": [], "failed": []}
+        step_notes.append("offline mode: skipped report download, RSS refresh, RAG rebuild, and news scoring")
+    else:
+        source_report = download_public_reports(period, sources, dry_run=args.dry_run)
+        rss_ok = refresh_rss(step_notes, dry_run=args.dry_run)
+        try:
+            rebuild_rag(dry_run=args.dry_run)
+        except subprocess.CalledProcessError as exc:
+            step_notes.append(f"RAG rebuild skipped: command failed with exit code {exc.returncode}")
+            print(f"[WARN] RAG rebuild skipped: command failed with exit code {exc.returncode}")
+        if rss_ok:
+            run_step("news scoring", [sys.executable, "scripts/update_news.py"], step_notes, dry_run=args.dry_run)
+        else:
+            step_notes.append("news scoring skipped: RSS refresh unavailable, kept existing history snapshot")
+            print("[WARN] news scoring skipped: RSS refresh unavailable, kept existing history snapshot")
 
     payload = payload_from_history(period)
     payload, applied = apply_overrides(payload, overrides if overrides.get("period") in (None, period) else {})
-    if applied and not args.dry_run:
+    injection_payload = build_injection_payload(period, payload, today=run_date)
+    if not payload.get("tracks"):
+        step_notes.append(f"no history snapshot found for {period}; homepage tracks unchanged")
+    elif not args.dry_run:
         sys.path.insert(0, str(ROOT / "scripts"))
         from inject_scores import inject_scores
 
-        inject_scores(payload, index_path=ROOT / "index.html", backup=False)
+        inject_scores(injection_payload, index_path=ROOT / "index.html", backup=False)
+        step_notes.append(f"homepage injected from history snapshot {period}")
 
     summary_path = DATA_MONTHLY / f"{period}-summary.md"
     if args.dry_run:
         print(f"[dry-run] Would write {summary_path.relative_to(ROOT)}")
-        print(json.dumps({"source_report": source_report, "applied_overrides": applied}, ensure_ascii=False, indent=2))
+        print(json.dumps({"source_report": source_report, "applied_overrides": applied, "step_notes": step_notes}, ensure_ascii=False, indent=2))
     else:
         write_summary(
             path=summary_path,
@@ -319,6 +414,7 @@ def run_monthly_update(args: argparse.Namespace) -> None:
             source_report=source_report,
             applied_overrides=applied,
             review_notes=payload.get("review_notes", []),
+            step_notes=step_notes,
         )
         print(f"[OK] Summary written → {summary_path.relative_to(ROOT)}")
 
@@ -326,7 +422,9 @@ def run_monthly_update(args: argparse.Namespace) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--period", help="Monthly period in YYYY-MM format")
+    parser.add_argument("--as-of", help="Run date in YYYY-MM-DD format for homepage timestamp")
     parser.add_argument("--dry-run", action="store_true", help="Plan the update without writing site files")
+    parser.add_argument("--offline", action="store_true", help="Use existing local history and skip network or rebuild steps")
     args = parser.parse_args()
     run_monthly_update(args)
 
