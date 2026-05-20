@@ -56,5 +56,9 @@
       "pub_date": "2026-05-22T04:14:00.704588+00:00",
       "pub_ts": 1779423240
     }
-  ]
+  ],
+  "last_attempted_at": "2026-05-20T00:53:29.814362+00:00",
+  "fetch_status": "preserved_existing_cache",
+  "source_success_count": 0,
+  "source_total_count": 5
 }

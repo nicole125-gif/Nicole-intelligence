@@ -4,7 +4,6 @@ PULSE 2026 RSS Fetcher
 每日定时抓取各行业垂直RSS源，输出为仪表盘可读的JSON文件
 """
 
-import copy
 import json
 import os
 import sys
@@ -87,6 +86,20 @@ def entry_to_item(entry, source_name: str, lang: str) -> dict:
     }
 
 
+def is_blocked_network_error(exc: Exception) -> bool:
+    text = str(exc).lower()
+    markers = [
+        "failed to establish a new connection",
+        "operation not permitted",
+        "proxyerror",
+        "name or service not known",
+        "temporary failure in name resolution",
+        "nodename nor servname provided",
+        "network is unreachable",
+    ]
+    return any(marker in text for marker in markers)
+
+
 def fetch_source(source: dict, max_age_days: int, max_items: int, timeout: int, retries: int) -> list:
     """抓取单个RSS源，返回条目列表"""
     url   = source["url"]
@@ -117,6 +130,9 @@ def fetch_source(source: dict, max_age_days: int, max_items: int, timeout: int, 
 
         except Exception as e:
             log.warning(f"    ✗ {e}")
+            if is_blocked_network_error(e):
+                log.warning("    ↳ network unavailable; skip remaining retries for this source")
+                break
             if attempt < retries:
                 time.sleep(3)
 
@@ -135,9 +151,12 @@ def fetch_vertical(vertical_id: str, vertical_cfg: dict, global_settings: dict) 
     log.info(f"\n▶ Vertical: {vertical_cfg['name']} ({vertical_id})")
 
     all_items = []
+    success_count = 0
     for source in sorted(vertical_cfg["sources"], key=lambda s: s.get("priority", 9)):
         items = fetch_source(source, max_age, max_src, timeout, retries)
         all_items.extend(items)
+        if items:
+            success_count += 1
 
     # 去重（按URL）+ 时间排序
     seen = set()
@@ -157,19 +176,9 @@ def fetch_vertical(vertical_id: str, vertical_cfg: dict, global_settings: dict) 
         "updated_at":    datetime.now(timezone.utc).isoformat(),
         "item_count":    len(deduped),
         "items":         deduped,
+        "source_success_count": success_count,
+        "source_total_count": len(vertical_cfg["sources"]),
     }
-
-
-def load_existing_output(vertical_id: str) -> dict | None:
-    path = OUTPUT_DIR / f"{vertical_id}.json"
-    if not path.exists():
-        return None
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except Exception as exc:
-        log.warning(f"  Failed to load existing cache for {vertical_id}: {exc}")
-        return None
 
 
 def main():
@@ -191,15 +200,30 @@ def main():
     summary = {}
 
     for vid, vcfg in verticals.items():
-        existing = load_existing_output(vid)
         result = fetch_vertical(vid, vcfg, settings)
-        if result["item_count"] == 0 and existing and existing.get("item_count", 0) > 0:
-            log.warning(f"  No fresh items for {vid}; preserving existing cache with {existing['item_count']} items")
-            result = copy.deepcopy(existing)
-            result["updated_at"] = datetime.now(timezone.utc).isoformat()
-        
+
         # 写单个垂直 JSON
         out_path = OUTPUT_DIR / f"{vid}.json"
+        preserve_existing = (
+            result["item_count"] == 0
+            and result["source_success_count"] == 0
+            and out_path.exists()
+        )
+        if preserve_existing:
+            log.warning(
+                f"  ↳ no sources succeeded for {vid}; preserving existing cache at {out_path}"
+            )
+            existing = json.loads(out_path.read_text(encoding="utf-8"))
+            result = {
+                **existing,
+                "last_attempted_at": result["updated_at"],
+                "fetch_status": "preserved_existing_cache",
+                "source_success_count": 0,
+                "source_total_count": len(vcfg["sources"]),
+            }
+        else:
+            result["fetch_status"] = "fresh"
+
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(result, f, ensure_ascii=False, indent=2)
         log.info(f"  ✓ Saved: {out_path} ({result['item_count']} items)")

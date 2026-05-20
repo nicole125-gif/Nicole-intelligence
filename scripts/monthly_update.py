@@ -155,10 +155,14 @@ if current_hash == prev_hash:
     print("RAG inputs unchanged; skip rebuild")
     raise SystemExit(0)
 
-from langchain_community.document_loaders import PyPDFLoader, UnstructuredHTMLLoader
-from langchain_text_splitters import RecursiveCharacterTextSplitter
-from sentence_transformers import SentenceTransformer
-import chromadb
+try:
+    from langchain_community.document_loaders import PyPDFLoader, UnstructuredHTMLLoader
+    from langchain_text_splitters import RecursiveCharacterTextSplitter
+    from sentence_transformers import SentenceTransformer
+    import chromadb
+except ImportError as exc:
+    print(f"RAG deps missing; skip rebuild ({exc})")
+    raise SystemExit(0)
 
 docs = []
 for p in sorted(REPORTS_DIR.rglob("*.pdf")):
