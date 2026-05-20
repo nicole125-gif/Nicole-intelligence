@@ -4,6 +4,7 @@ PULSE 2026 RSS Fetcher
 每日定时抓取各行业垂直RSS源，输出为仪表盘可读的JSON文件
 """
 
+import copy
 import json
 import os
 import sys
@@ -159,6 +160,18 @@ def fetch_vertical(vertical_id: str, vertical_cfg: dict, global_settings: dict) 
     }
 
 
+def load_existing_output(vertical_id: str) -> dict | None:
+    path = OUTPUT_DIR / f"{vertical_id}.json"
+    if not path.exists():
+        return None
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as exc:
+        log.warning(f"  Failed to load existing cache for {vertical_id}: {exc}")
+        return None
+
+
 def main():
     log.info("=" * 60)
     log.info("PULSE 2026 RSS Fetch — started")
@@ -178,7 +191,12 @@ def main():
     summary = {}
 
     for vid, vcfg in verticals.items():
+        existing = load_existing_output(vid)
         result = fetch_vertical(vid, vcfg, settings)
+        if result["item_count"] == 0 and existing and existing.get("item_count", 0) > 0:
+            log.warning(f"  No fresh items for {vid}; preserving existing cache with {existing['item_count']} items")
+            result = copy.deepcopy(existing)
+            result["updated_at"] = datetime.now(timezone.utc).isoformat()
         
         # 写单个垂直 JSON
         out_path = OUTPUT_DIR / f"{vid}.json"
