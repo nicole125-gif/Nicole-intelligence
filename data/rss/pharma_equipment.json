@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-05-20T04:11:08.987427+00:00",
+  "updated_at": "2026-05-21T04:19:18.878791+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "0d5293fcdf",
-      "title": "UK government bolsters antiviral supply for hantavirus",
-      "url": "https://www.pharmaceutical-technology.com/news/uk-government-bolsters-antiviral-supply-for-hantavirus/",
-      "summary": "The UK has received a supply of favipiravir from the Japanese government to aid Hantavirus preparedness.",
+      "id": "e3ade4a562",
+      "title": "Investment giants join forces to form largest healthcare firm on the globe",
+      "url": "https://www.pharmaceutical-technology.com/news/healthcare-investment-firm-merger-gho-cdc-european-apac/",
+      "summary": "The new healthcare firm will operate across the North American, APAC and European markets, which make up around 90% of the global R&amp;D spend.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-19T14:18:52+00:00",
-      "pub_ts": 1779200332
+      "pub_date": "2026-05-20T14:18:41+00:00",
+      "pub_ts": 1779286721
     },
     {
-      "id": "8b4b202f38",
-      "title": "VERTANICAL’s VER-01 gains FDA breakthrough status for low back pain",
-      "url": "https://www.pharmaceutical-technology.com/news/vertanicals-ver01-gains-fda-status/",
-      "summary": "VERTANICAL has received breakthrough therapy designation from the US FDA for VER-01, its investigational non-opioid treatment for chronic low back pain.",
+      "id": "e094272a9b",
+      "title": "Clinical Trials Day 2026: ‘Research Rising’ theme reflected in Q1 study growth",
+      "url": "https://www.pharmaceutical-technology.com/news/clinical-trials-day-2026-q1-study-trends/",
+      "summary": "As China continues to inch ahead of competition in terms of trial initiations, immunology and metabolic disease trials attract sponsor eyes.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-19T09:45:40+00:00",
-      "pub_ts": 1779183940
+      "pub_date": "2026-05-20T10:17:28+00:00",
+      "pub_ts": 1779272248
     },
     {
-      "id": "551aff6e40",
-      "title": "Regeneron signs $2.32bn deal with Parabilis for Helicon conjugates",
-      "url": "https://www.pharmaceutical-technology.com/news/regeneron-parabilis-deal-helicon-conjugates/",
-      "summary": "Regeneron Pharmaceuticals has signed a $2.32bn deal with Parabilis Medicines to develop therapeutic candidates, with a focus on AHCs.",
+      "id": "7684b978c4",
+      "title": "Takeda faces $885m hit after landmark pay-for-delay lawsuit verdict",
+      "url": "https://www.pharmaceutical-technology.com/news/takeda-faces-885m-hit-after-landmark-pay-for-delay-lawsuit-verdict/",
+      "summary": "Takeda confirmed it would appeal the outcome, stating that the case “lacks merit”.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-19T09:16:55+00:00",
-      "pub_ts": 1779182215
+      "pub_date": "2026-05-20T10:15:12+00:00",
+      "pub_ts": 1779272112
     },
     {
-      "id": "6bdec17770",
-      "title": "Vaccine void means current Ebola outbreak declared international emergency",
-      "url": "https://www.pharmaceutical-technology.com/news/vaccine-void-means-current-ebola-outbreak-declared-international-emergency/",
-      "summary": "The WHO has classed this outbreak as “extraordinary” due to the lack of therapeutic options and epidemiological trends.",
+      "id": "5000d2cfc4",
+      "title": "QIAGEN and NVIDIA partner on AI drug discovery",
+      "url": "https://www.pharmaceutical-technology.com/news/qiagen-nvidia-ai-drug-discovery/",
+      "summary": "QIAGEN’s Digital Insights bioinformatics division is set to integrate NVIDIA’s accelerated computing and the BioNeMo platform to enhance AI-driven drug discovery.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-18T15:49:10+00:00",
-      "pub_ts": 1779119350
+      "pub_date": "2026-05-20T09:22:29+00:00",
+      "pub_ts": 1779268949
     },
     {
-      "id": "3c66986697",
-      "title": "Tracy Beth Høeg ousted from FDA in wider senior leadership shakeup",
-      "url": "https://www.pharmaceutical-technology.com/news/tracy-beth-hoeg-fired-from-fda-cder/",
-      "summary": "The wider US HHS is going through a leadership upheaval, as Republicans aim to keep voters on side amid the looming midterm elections.",
+      "id": "06a0f09363",
+      "title": "SERB signs agreement to acquire Idefirix rights for $133.6m",
+      "url": "https://www.pharmaceutical-technology.com/news/serb-to-acquire-idefirix-rights/",
+      "summary": "SERB Pharmaceuticals has signed an agreement to acquire exclusive development and commercialisation rights to Idefirix from Hansa Biopharma for a total of $133.6m.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-18T09:57:15+00:00",
-      "pub_ts": 1779098235
+      "pub_date": "2026-05-20T08:52:42+00:00",
+      "pub_ts": 1779267162
     }
   ]
 }

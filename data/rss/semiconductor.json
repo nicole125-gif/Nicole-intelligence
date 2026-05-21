@@ -3,108 +3,128 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-05-20T04:09:59.855815+00:00",
-  "item_count": 15,
+  "updated_at": "2026-05-21T04:18:41.554032+00:00",
+  "item_count": 14,
   "items": [
     {
-      "id": "feb3f09fa1",
-      "title": "芯片下沉，AI硬件全面开花",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811759&idx=1&sn=d5ee616bcceb4201a883c9e67e9acd1b",
-      "summary": "芯片下沉，AI硬件全面开花",
+      "id": "4e108891fa",
+      "title": "国产芯片龙头又上分！内生安全技术全景图首次亮相",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811839&idx=1&sn=049edcec394572761946d96b95ba48c8",
+      "summary": "国产芯片龙头又上分！内生安全技术全景图首次亮相",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-20T04:09:55.803269+00:00",
-      "pub_ts": 1779250195
+      "pub_date": "2026-05-21T04:18:37.625147+00:00",
+      "pub_ts": 1779337117
     },
     {
-      "id": "f5bf388f54",
-      "title": "韩美半导体利润暴跌近 90%，HBM 设备不香了?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811759&idx=2&sn=23c4defa4d683d6e73b7263b84e40496",
-      "summary": "韩美半导体利润暴跌近 90%，HBM 设备不香了?",
+      "id": "c5f4b70632",
+      "title": "芯片互连新选择，UALink短期难撼CXL与UCle",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811839&idx=3&sn=a7e84072e72de4220db7bef5a199095f",
+      "summary": "芯片互连新选择，UALink短期难撼CXL与UCle",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-20T04:09:55.803317+00:00",
-      "pub_ts": 1779250195
+      "pub_date": "2026-05-21T04:18:37.625194+00:00",
+      "pub_ts": 1779337117
     },
     {
-      "id": "8d23b2834b",
-      "title": "慕尼黑上海电子展要来了，众多头部连接器展商已就位",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811759&idx=3&sn=60e3b0f7b6d46a19c7e51deffda5f531",
-      "summary": "慕尼黑上海电子展要来了，众多头部连接器展商已就位",
+      "id": "8cbc167430",
+      "title": "102亿，ADI敲定重磅半导体收购",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811839&idx=4&sn=afa4df1c629a00c6cc15732e769c177e",
+      "summary": "102亿，ADI敲定重磅半导体收购",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-20T04:09:55.803343+00:00",
-      "pub_ts": 1779250195
+      "pub_date": "2026-05-21T04:18:37.625242+00:00",
+      "pub_ts": 1779337117
     },
     {
-      "id": "207cd8d70f",
-      "title": "别只盯芯片！四大底层架构决定AI未来上限",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811759&idx=4&sn=da4bc82aac47535f60173f56de69536a",
-      "summary": "别只盯芯片！四大底层架构决定AI未来上限",
+      "id": "06a098d2a7",
+      "title": "疯狂砸钱！2026年显示设备投资同比飙升53%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811839&idx=5&sn=898a9f16927d29ebe575793a15a8fc1b",
+      "summary": "疯狂砸钱！2026年显示设备投资同比飙升53%",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-20T04:09:55.803365+00:00",
-      "pub_ts": 1779250195
+      "pub_date": "2026-05-21T04:18:37.625262+00:00",
+      "pub_ts": 1779337117
     },
     {
-      "id": "0e0336aa2e",
-      "title": "AI需求火热，存储厂商“冷落”苹果",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811759&idx=5&sn=02b96f3132c9ce05908bd59cd2a3c87d",
-      "summary": "AI需求火热，存储厂商“冷落”苹果",
-      "source": "半导体产业纵横",
-      "lang": "zh",
-      "pub_date": "2026-05-20T04:09:55.803385+00:00",
-      "pub_ts": 1779250195
-    },
-    {
-      "id": "6391f5d492",
-      "title": "传ADI将斥100亿收购",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819785&idx=1&sn=67c20782e89ed315aaaff6b2ab776a5a",
-      "summary": "传ADI将斥100亿收购",
+      "id": "5c8ff0e026",
+      "title": "长鑫科技IPO，5月27日上会",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819923&idx=1&sn=be06df496ce7946d9a704e3a105223db",
+      "summary": "长鑫科技IPO，5月27日上会",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-20T04:09:46.353749+00:00",
-      "pub_ts": 1779250186
+      "pub_date": "2026-05-21T04:18:28.973478+00:00",
+      "pub_ts": 1779337108
     },
     {
-      "id": "be3497d787",
-      "title": "长江存储母公司：长存集团启动IPO辅导",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819776&idx=1&sn=c9deeacfff17599670559e57236c127e",
-      "summary": "长江存储母公司：长存集团启动IPO辅导",
+      "id": "73b6830d1f",
+      "title": "平头哥发布新一代AI芯片，披露路线图",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819849&idx=1&sn=b61841d7c05671a0a10ae73c9313be54",
+      "summary": "平头哥发布新一代AI芯片，披露路线图",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-20T04:09:46.353819+00:00",
-      "pub_ts": 1779250186
+      "pub_date": "2026-05-21T04:18:28.973531+00:00",
+      "pub_ts": 1779337108
     },
     {
-      "id": "46f48e8590",
-      "title": "长江存储，上市辅导备案",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819767&idx=1&sn=a33aca80efb66bd8fe9b8767a98e49a3",
-      "summary": "长江存储，上市辅导备案",
+      "id": "452a27d5d4",
+      "title": "从一栋大楼，看懂应用材料公司",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819823&idx=1&sn=5e5e3dc514d735f7ca6d4171cacd80da",
+      "summary": "从一栋大楼，看懂应用材料公司",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-20T04:09:46.353845+00:00",
-      "pub_ts": 1779250186
+      "pub_date": "2026-05-21T04:18:28.973571+00:00",
+      "pub_ts": 1779337108
     },
     {
-      "id": "35962458a1",
-      "title": "刚刚，Lisa Su在上海发表演讲",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819744&idx=1&sn=f772d0323125668ecb9ca3a78f216dab",
-      "summary": "刚刚，Lisa Su在上海发表演讲",
+      "id": "2e0b64dde0",
+      "title": "0.2纳米将到来，最新芯片路线图发布",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819823&idx=2&sn=ce5067bb1e2c8602fbeed3b801d95494",
+      "summary": "0.2纳米将到来，最新芯片路线图发布",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-20T04:09:46.353866+00:00",
-      "pub_ts": 1779250186
+      "pub_date": "2026-05-21T04:18:28.973593+00:00",
+      "pub_ts": 1779337108
     },
     {
-      "id": "3fd13fa66e",
-      "title": "BCD工艺，站上风口",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819716&idx=1&sn=7f390ef21192095ef7dd6ddced32615a",
-      "summary": "BCD工艺，站上风口",
+      "id": "88071d5c3c",
+      "title": "微纳核芯：在芯片最深处，以存算一体技术为中国大模型推理奠基",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819823&idx=3&sn=14c5905c947bea829acc28aecedff7ec",
+      "summary": "微纳核芯：在芯片最深处，以存算一体技术为中国大模型推理奠基",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-20T04:09:46.353886+00:00",
-      "pub_ts": 1779250186
+      "pub_date": "2026-05-21T04:18:28.973613+00:00",
+      "pub_ts": 1779337108
+    },
+    {
+      "id": "fa426d0c57",
+      "title": "Four-Tier Memory Hierarchy for LLM Reasoning (USC, UW)",
+      "url": "https://semiengineering.com/four-tier-memory-hierarchy-for-llm-reasoning-usc-uw/",
+      "summary": "A new technical paper, &#8220;Not All Thoughts Need HBM: Semantics-Aware Memory Hierarchy for LLM Reasoning,&#8221; was published by researchers at USC and University of Wisconsin-Madison. Abstract &#8220;Reasoning LLMs produce thousands of chain-of-thought tokens whose KV cache must reside in scarc…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-05-20T17:56:28+00:00",
+      "pub_ts": 1779299788
+    },
+    {
+      "id": "fab30d6efd",
+      "title": "Options Grow For Standardizing Data Movement And Sharing Resources",
+      "url": "https://semiengineering.com/options-grow-for-standardizing-data-movement-and-sharing-resources/",
+      "summary": "But figuring out which ones to use, and when to use them, isn't always clear.\nThe post Options Grow For Standardizing Data Movement And Sharing Resources appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-05-20T07:01:45+00:00",
+      "pub_ts": 1779260505
+    },
+    {
+      "id": "4b63d19151",
+      "title": "Blog Review: May 20",
+      "url": "https://semiengineering.com/blog-review-may-20-3/",
+      "summary": "Importing functions in PSS; rethinking server architecture; HBM challenges; heterogeneous integration roadmaps; sparse linear algebra.\nThe post Blog Review: May 20 appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-05-20T07:01:24+00:00",
+      "pub_ts": 1779260484
     },
     {
       "id": "bf69e20f16",
@@ -125,36 +145,6 @@
       "lang": "en",
       "pub_date": "2026-05-19T07:01:41+00:00",
       "pub_ts": 1779174101
-    },
-    {
-      "id": "4e000bd7ef",
-      "title": "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
-      "url": "https://semiengineering.com/a-deionized-water-based-large-scale-transfer-process-for-2d-materials-grown-on-sapphire-amo-rwth-aixtron/",
-      "summary": "A new technical paper, &#8220;Water-based, large-scale transfer of 2D materials grown on sapphire substrates,&#8221; was published by researchers at AMO GmbH, RWTH Aachen University, and AIXTRON SE. Abstract &#8220;Two-dimensional materials (2DMs) hold significant potential for future electronics, a…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-05-18T20:46:28+00:00",
-      "pub_ts": 1779137188
-    },
-    {
-      "id": "e9b7c22d86",
-      "title": "Evaluating and Calibrating Performance On RISC-V Vector Processors (KTH, LLNL, BSC)",
-      "url": "https://semiengineering.com/evaluating-and-calibrating-performance-on-risc-v-vector-processors-kth-llnl-bsc/",
-      "summary": "A new technical paper, &#8220;Closer in the Gap: Towards Portable Performance on RISC-V Vector Processors,&#8221; was published by researchers at KTH Royal Institute of Technology, Lawrence Livermore National Laboratory, and Barcelona Supercomputing Center. Abstract &#8220;The RISC-V Vector Extensio…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-05-18T20:36:05+00:00",
-      "pub_ts": 1779136565
-    },
-    {
-      "id": "5b3b2635ad",
-      "title": "Scalable Photomask Optimization With Morphological Learning  (SUNY Buffalo, VU, IBM)",
-      "url": "https://semiengineering.com/scalable-photomask-optimization-with-morphological-learning-suny-buffalo-vu-ibm/",
-      "summary": "A new technical paper, &#8220;MorphOPC: Advancing Mask Optimization with Multi-scale Hierarchical Morphological Learning,&#8221; was published by researchers at University at Buffalo, Villanova University, and IBM T. J. Watson Research Center. Abstract &#8220;As feature sizes shrink to the nanometer…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-05-18T20:24:00+00:00",
-      "pub_ts": 1779135840
     }
   ]
 }
