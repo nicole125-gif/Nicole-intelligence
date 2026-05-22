@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-05-21T04:18:55.478033+00:00",
+  "updated_at": "2026-05-22T04:14:04.839067+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "3afeb88504",
-      "title": "太初元碁洪源：异构计算能力将成为未来AI算力基础设施的重要方向ⅠAIGC2026",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247891895&idx=1&sn=59e5810c15e17a99808acd2fd0d0483c",
-      "summary": "太初元碁洪源：异构计算能力将成为未来AI算力基础设施的重要方向ⅠAIGC2026",
+      "id": "ce3c313071",
+      "title": "风行在线CEO易正朝：先全员Coding，再AIlin众创|AIGC2026",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892214&idx=1&sn=2b6194e990a425d11da6d2e640f97f28",
+      "summary": "风行在线CEO易正朝：先全员Coding，再AIlin众创|AIGC2026",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-21T04:18:50.979046+00:00",
-      "pub_ts": 1779337130
+      "pub_date": "2026-05-22T04:14:00.704479+00:00",
+      "pub_ts": 1779423240
     },
     {
-      "id": "8be4cd2d77",
-      "title": "2026年中国AI应用全景图谱报告发布",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247891878&idx=1&sn=6969cd0c158f77b24d7aeb3221f89c46",
-      "summary": "2026年中国AI应用全景图谱报告发布",
+      "id": "b32d25be35",
+      "title": "阿里让Qwen3.7-Max模拟创业，一年“营收”1400万",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892214&idx=2&sn=8f2f3d8a8bd1f4748453b245ac97a86e",
+      "summary": "阿里让Qwen3.7-Max模拟创业，一年“营收”1400万",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-21T04:18:50.979092+00:00",
-      "pub_ts": 1779337130
+      "pub_date": "2026-05-22T04:14:00.704523+00:00",
+      "pub_ts": 1779423240
     },
     {
-      "id": "fb3f468750",
-      "title": "2026中国AIGC最值得关注的企业&产品图鉴来了！谁在造浪，谁在落地？",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247891876&idx=1&sn=693d113c72f4396a3791374591f5c24b",
-      "summary": "2026中国AIGC最值得关注的企业&产品图鉴来了！谁在造浪，谁在落地？",
+      "id": "6814d849dd",
+      "title": "520当天400万AI人，都在量子位听这近20场演讲&对谈Ⅰ第四届中国AIGC..",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892204&idx=1&sn=7a54a1baa7436a7d082f86d0e0dabaec",
+      "summary": "520当天400万AI人，都在量子位听这近20场演讲&对谈Ⅰ第四届中国AIGC..",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-21T04:18:50.979115+00:00",
-      "pub_ts": 1779337130
+      "pub_date": "2026-05-22T04:14:00.704547+00:00",
+      "pub_ts": 1779423240
     },
     {
-      "id": "5240787d4c",
-      "title": "VC、品牌顾问、编剧，正在批量把自己做成AI",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247891876&idx=2&sn=0c3c79eee23bce8a821f545bde57132f",
-      "summary": "VC、品牌顾问、编剧，正在批量把自己做成AI",
+      "id": "07fe846c49",
+      "title": "得场景者得AI天下，出行赛道跑出了一家值得关注的数据玩家",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892204&idx=2&sn=f198c8f92c6d428ac1c6df7be41f21de",
+      "summary": "得场景者得AI天下，出行赛道跑出了一家值得关注的数据玩家",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-21T04:18:50.979136+00:00",
-      "pub_ts": 1779337130
+      "pub_date": "2026-05-22T04:14:00.704568+00:00",
+      "pub_ts": 1779423240
     },
     {
-      "id": "7da5112115",
-      "title": "突发！卡帕西宣布入职Anthropic",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247891852&idx=1&sn=64d0622fe930d495e8deff7d7f18824c",
-      "summary": "突发！卡帕西宣布入职Anthropic",
+      "id": "0b0ff03f03",
+      "title": "顺丰邮政仓库干活的机器人，顺手拿了个具身高考第一",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892049&idx=1&sn=0cae6259b1c95365c7292018c032aca2",
+      "summary": "顺丰邮政仓库干活的机器人，顺手拿了个具身高考第一",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-21T04:18:50.979155+00:00",
-      "pub_ts": 1779337130
+      "pub_date": "2026-05-22T04:14:00.704588+00:00",
+      "pub_ts": 1779423240
     }
   ]
 }

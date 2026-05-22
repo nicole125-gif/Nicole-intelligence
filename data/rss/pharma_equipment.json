@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-05-21T04:19:18.878791+00:00",
+  "updated_at": "2026-05-22T04:14:28.146930+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "e3ade4a562",
-      "title": "Investment giants join forces to form largest healthcare firm on the globe",
-      "url": "https://www.pharmaceutical-technology.com/news/healthcare-investment-firm-merger-gho-cdc-european-apac/",
-      "summary": "The new healthcare firm will operate across the North American, APAC and European markets, which make up around 90% of the global R&amp;D spend.",
+      "id": "77b5a31bf0",
+      "title": "Gilead teams up with WHO again to eliminate parasitic tropical disease",
+      "url": "https://www.pharmaceutical-technology.com/news/gilead-teams-up-with-who-again-to-eliminate-parasitic-tropical-disease/",
+      "summary": "Gilead will donate vials of its antifungal medication AmBisome to help global efforts in eliminating visceral leishmaniasis.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-20T14:18:41+00:00",
-      "pub_ts": 1779286721
+      "pub_date": "2026-05-21T15:33:17+00:00",
+      "pub_ts": 1779377597
     },
     {
-      "id": "e094272a9b",
-      "title": "Clinical Trials Day 2026: ‘Research Rising’ theme reflected in Q1 study growth",
-      "url": "https://www.pharmaceutical-technology.com/news/clinical-trials-day-2026-q1-study-trends/",
-      "summary": "As China continues to inch ahead of competition in terms of trial initiations, immunology and metabolic disease trials attract sponsor eyes.",
+      "id": "f5e5c257d2",
+      "title": "Eli Lilly maintains M&A streak with $202m Engage Bio buyout",
+      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-acquires-engage-bio-202m-non-viral-dna-delivery-platform/",
+      "summary": "Eli Lilly’s takeover of Engage Bio marks the seventh acquisition for the big pharma since the start of 2026.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-20T10:17:28+00:00",
-      "pub_ts": 1779272248
+      "pub_date": "2026-05-21T10:22:38+00:00",
+      "pub_ts": 1779358958
     },
     {
-      "id": "7684b978c4",
-      "title": "Takeda faces $885m hit after landmark pay-for-delay lawsuit verdict",
-      "url": "https://www.pharmaceutical-technology.com/news/takeda-faces-885m-hit-after-landmark-pay-for-delay-lawsuit-verdict/",
-      "summary": "Takeda confirmed it would appeal the outcome, stating that the case “lacks merit”.",
+      "id": "dd32e23ae4",
+      "title": "FUJIFILM opens new iPSC facility in Madison, US",
+      "url": "https://www.pharmaceutical-technology.com/news/fujifilm-opens-new-ipsc-facility/",
+      "summary": "FUJIFILM Cellular Dynamics has opened a new headquarters and iPSC manufacturing facility in Madison, Wisconsin, US.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-20T10:15:12+00:00",
-      "pub_ts": 1779272112
+      "pub_date": "2026-05-21T10:04:15+00:00",
+      "pub_ts": 1779357855
     },
     {
-      "id": "5000d2cfc4",
-      "title": "QIAGEN and NVIDIA partner on AI drug discovery",
-      "url": "https://www.pharmaceutical-technology.com/news/qiagen-nvidia-ai-drug-discovery/",
-      "summary": "QIAGEN’s Digital Insights bioinformatics division is set to integrate NVIDIA’s accelerated computing and the BioNeMo platform to enhance AI-driven drug discovery.",
+      "id": "c59fd389ca",
+      "title": "Podcast: Supply chains, obesity drugs, and patents dominate Q1 earnings trends",
+      "url": "https://www.pharmaceutical-technology.com/features/podcast-supply-chains-obesity-drugs-and-patents-dominate-q1-earnings-trends/",
+      "summary": "The healthcare team covers Q1 results from pharma and medtech companies and provides a wrap-up of the key takeaways",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-20T09:22:29+00:00",
-      "pub_ts": 1779268949
+      "pub_date": "2026-05-21T09:42:57+00:00",
+      "pub_ts": 1779356577
     },
     {
-      "id": "06a0f09363",
-      "title": "SERB signs agreement to acquire Idefirix rights for $133.6m",
-      "url": "https://www.pharmaceutical-technology.com/news/serb-to-acquire-idefirix-rights/",
-      "summary": "SERB Pharmaceuticals has signed an agreement to acquire exclusive development and commercialisation rights to Idefirix from Hansa Biopharma for a total of $133.6m.",
+      "id": "765c1923ab",
+      "title": "ATS 2026: PABPC4 gene identified as a key driver of emphysema in COPD",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ats-2026-pabpc4-gene-identified-as-a-key-driver-of-emphysema-in-copd/",
+      "summary": "PABPC4 genetic variants found to be associated with mitochondrial dysfunction driving emphysema in COPD.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-20T08:52:42+00:00",
-      "pub_ts": 1779267162
+      "pub_date": "2026-05-21T09:34:40+00:00",
+      "pub_ts": 1779356080
     }
   ]
 }

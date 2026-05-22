@@ -3,148 +3,158 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-05-21T04:18:41.554032+00:00",
-  "item_count": 14,
+  "updated_at": "2026-05-22T04:13:51.083343+00:00",
+  "item_count": 15,
   "items": [
     {
-      "id": "4e108891fa",
-      "title": "国产芯片龙头又上分！内生安全技术全景图首次亮相",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811839&idx=1&sn=049edcec394572761946d96b95ba48c8",
-      "summary": "国产芯片龙头又上分！内生安全技术全景图首次亮相",
+      "id": "dc74cfdf2c",
+      "title": "AICUBE、AIBOOK?摩尔线程下了盘大棋",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811916&idx=1&sn=334d0d9c5b4f3979893424411299d5a7",
+      "summary": "AICUBE、AIBOOK?摩尔线程下了盘大棋",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-21T04:18:37.625147+00:00",
-      "pub_ts": 1779337117
+      "pub_date": "2026-05-22T04:13:46.960873+00:00",
+      "pub_ts": 1779423226
     },
     {
-      "id": "c5f4b70632",
-      "title": "芯片互连新选择，UALink短期难撼CXL与UCle",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811839&idx=3&sn=a7e84072e72de4220db7bef5a199095f",
-      "summary": "芯片互连新选择，UALink短期难撼CXL与UCle",
+      "id": "5981577e0a",
+      "title": "IWAPS 2026征稿开启，光刻顶会来袭",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811916&idx=2&sn=b0451ee8ef1838d4c33f77c9a535e67d",
+      "summary": "IWAPS 2026征稿开启，光刻顶会来袭",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-21T04:18:37.625194+00:00",
-      "pub_ts": 1779337117
+      "pub_date": "2026-05-22T04:13:46.960918+00:00",
+      "pub_ts": 1779423226
     },
     {
-      "id": "8cbc167430",
-      "title": "102亿，ADI敲定重磅半导体收购",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811839&idx=4&sn=afa4df1c629a00c6cc15732e769c177e",
-      "summary": "102亿，ADI敲定重磅半导体收购",
+      "id": "5c1bd51c1c",
+      "title": "全球首款采用High NA EUV制造的量子比特器件问世",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811916&idx=3&sn=59ebf20d007c953536229541c5354716",
+      "summary": "全球首款采用High NA EUV制造的量子比特器件问世",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-21T04:18:37.625242+00:00",
-      "pub_ts": 1779337117
+      "pub_date": "2026-05-22T04:13:46.960946+00:00",
+      "pub_ts": 1779423226
     },
     {
-      "id": "06a098d2a7",
-      "title": "疯狂砸钱！2026年显示设备投资同比飙升53%",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811839&idx=5&sn=898a9f16927d29ebe575793a15a8fc1b",
-      "summary": "疯狂砸钱！2026年显示设备投资同比飙升53%",
+      "id": "18ac20f432",
+      "title": "牵手康宁，京东方要布局玻璃基封装",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811916&idx=4&sn=7615604210aa9d33fcf04ef1ef9c7cc8",
+      "summary": "牵手康宁，京东方要布局玻璃基封装",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-21T04:18:37.625262+00:00",
-      "pub_ts": 1779337117
+      "pub_date": "2026-05-22T04:13:46.960970+00:00",
+      "pub_ts": 1779423226
     },
     {
-      "id": "5c8ff0e026",
-      "title": "长鑫科技IPO，5月27日上会",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819923&idx=1&sn=be06df496ce7946d9a704e3a105223db",
-      "summary": "长鑫科技IPO，5月27日上会",
+      "id": "50d891bb65",
+      "title": "硬件为王，戴尔加码本地AI基建",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811916&idx=5&sn=7ef19b202bf7f8e70ba7807d793873f5",
+      "summary": "硬件为王，戴尔加码本地AI基建",
+      "source": "半导体产业纵横",
+      "lang": "zh",
+      "pub_date": "2026-05-22T04:13:46.960991+00:00",
+      "pub_ts": 1779423226
+    },
+    {
+      "id": "b7b95fe8ee",
+      "title": "AMD首颗2纳米CPU，官宣量产",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820027&idx=1&sn=5ebf109ccbf2b6c61c10b059b4910f95",
+      "summary": "AMD首颗2纳米CPU，官宣量产",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-21T04:18:28.973478+00:00",
-      "pub_ts": 1779337108
+      "pub_date": "2026-05-22T04:13:31.844197+00:00",
+      "pub_ts": 1779423211
     },
     {
-      "id": "73b6830d1f",
-      "title": "平头哥发布新一代AI芯片，披露路线图",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819849&idx=1&sn=b61841d7c05671a0a10ae73c9313be54",
-      "summary": "平头哥发布新一代AI芯片，披露路线图",
+      "id": "0a221e0c58",
+      "title": "特斯拉监督版FSD，官宣入华",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819968&idx=1&sn=d0e7863e9b234092f29204f9f809f97b",
+      "summary": "特斯拉监督版FSD，官宣入华",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-21T04:18:28.973531+00:00",
-      "pub_ts": 1779337108
+      "pub_date": "2026-05-22T04:13:31.844268+00:00",
+      "pub_ts": 1779423211
     },
     {
-      "id": "452a27d5d4",
-      "title": "从一栋大楼，看懂应用材料公司",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819823&idx=1&sn=5e5e3dc514d735f7ca6d4171cacd80da",
-      "summary": "从一栋大楼，看懂应用材料公司",
+      "id": "aa2c6707d8",
+      "title": "再谈谈CPO!",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819962&idx=1&sn=c654a713a1f77b9efbcb0ac06f4f12f5",
+      "summary": "再谈谈CPO!",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-21T04:18:28.973571+00:00",
-      "pub_ts": 1779337108
+      "pub_date": "2026-05-22T04:13:31.844293+00:00",
+      "pub_ts": 1779423211
     },
     {
-      "id": "2e0b64dde0",
-      "title": "0.2纳米将到来，最新芯片路线图发布",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819823&idx=2&sn=ce5067bb1e2c8602fbeed3b801d95494",
-      "summary": "0.2纳米将到来，最新芯片路线图发布",
+      "id": "6e985ee2bb",
+      "title": "比DRAM快1000倍的存储",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819962&idx=2&sn=600263b9650de39dacdf94dd285697c3",
+      "summary": "比DRAM快1000倍的存储",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-21T04:18:28.973593+00:00",
-      "pub_ts": 1779337108
+      "pub_date": "2026-05-22T04:13:31.844317+00:00",
+      "pub_ts": 1779423211
     },
     {
-      "id": "88071d5c3c",
-      "title": "微纳核芯：在芯片最深处，以存算一体技术为中国大模型推理奠基",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819823&idx=3&sn=14c5905c947bea829acc28aecedff7ec",
-      "summary": "微纳核芯：在芯片最深处，以存算一体技术为中国大模型推理奠基",
+      "id": "2fddaa120e",
+      "title": "英伟达CPU卖爆了，营收直逼200亿美金",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819962&idx=3&sn=f2cd96a37326e74f09ea7a25773154ef",
+      "summary": "英伟达CPU卖爆了，营收直逼200亿美金",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-21T04:18:28.973613+00:00",
-      "pub_ts": 1779337108
+      "pub_date": "2026-05-22T04:13:31.844339+00:00",
+      "pub_ts": 1779423211
     },
     {
-      "id": "fa426d0c57",
-      "title": "Four-Tier Memory Hierarchy for LLM Reasoning (USC, UW)",
-      "url": "https://semiengineering.com/four-tier-memory-hierarchy-for-llm-reasoning-usc-uw/",
-      "summary": "A new technical paper, &#8220;Not All Thoughts Need HBM: Semantics-Aware Memory Hierarchy for LLM Reasoning,&#8221; was published by researchers at USC and University of Wisconsin-Madison. Abstract &#8220;Reasoning LLMs produce thousands of chain-of-thought tokens whose KV cache must reside in scarc…",
+      "id": "ed5a873cc2",
+      "title": "Large-scale, SRAM-based LLM Inference Deployment (Groq)",
+      "url": "https://semiengineering.com/large-scale-sram-based-llm-inference-deployment-groq/",
+      "summary": "A new technical paper, &#8220;SHIP: SRAM-Based Huge Inference Pipelines for Fast LLM Serving,&#8221; was published by researchers at Nvidia, with work done while at Groq. Abstract &#8220;The proliferation of large language models (LLMs) demands inference systems with both low latency and high effici…",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-05-20T17:56:28+00:00",
-      "pub_ts": 1779299788
+      "pub_date": "2026-05-21T16:02:35+00:00",
+      "pub_ts": 1779379355
     },
     {
-      "id": "fab30d6efd",
-      "title": "Options Grow For Standardizing Data Movement And Sharing Resources",
-      "url": "https://semiengineering.com/options-grow-for-standardizing-data-movement-and-sharing-resources/",
-      "summary": "But figuring out which ones to use, and when to use them, isn't always clear.\nThe post Options Grow For Standardizing Data Movement And Sharing Resources appeared first on Semiconductor Engineering.",
+      "id": "78a2c25f22",
+      "title": "Beyond Ideal Crystals: The Case For Scale In Atomistic Modeling",
+      "url": "https://semiengineering.com/beyond-ideal-crystals-the-case-for-scale-in-atomistic-modeling/",
+      "summary": "Capturing important details without making calculations impractically expensive.\nThe post Beyond Ideal Crystals: The Case For Scale In Atomistic Modeling appeared first on Semiconductor Engineering.",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-05-20T07:01:45+00:00",
-      "pub_ts": 1779260505
+      "pub_date": "2026-05-21T07:07:38+00:00",
+      "pub_ts": 1779347258
     },
     {
-      "id": "4b63d19151",
-      "title": "Blog Review: May 20",
-      "url": "https://semiengineering.com/blog-review-may-20-3/",
-      "summary": "Importing functions in PSS; rethinking server architecture; HBM challenges; heterogeneous integration roadmaps; sparse linear algebra.\nThe post Blog Review: May 20 appeared first on Semiconductor Engineering.",
+      "id": "1a0ed6fac1",
+      "title": "Process Variation In The Era Of Scaling: Improving Uniformity With Dummy Fill",
+      "url": "https://semiengineering.com/process-variation-in-the-era-of-scaling-improving-uniformity-with-dummy-fill/",
+      "summary": "Reduce shallow trench isolation and recess nonuniformity introduced by pattern-dependent etch. \nThe post Process Variation In The Era Of Scaling: Improving Uniformity With Dummy Fill appeared first on Semiconductor Engineering.",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-05-20T07:01:24+00:00",
-      "pub_ts": 1779260484
+      "pub_date": "2026-05-21T07:05:20+00:00",
+      "pub_ts": 1779347120
     },
     {
-      "id": "bf69e20f16",
-      "title": "Research Bits: May 19",
-      "url": "https://semiengineering.com/research-bits-may-19/",
-      "summary": "Photonics: Programmable PIC; small optical features in hydrogels; on-chip UV generation.\nThe post Research Bits: May 19 appeared first on Semiconductor Engineering.",
+      "id": "0df95cd9ca",
+      "title": "With Chiplets, What Role Does Economics Play?",
+      "url": "https://semiengineering.com/with-chiplets-what-role-does-economics-play/",
+      "summary": "Costs can rise with chiplets. Will that change? Will it matter?\nThe post With Chiplets, What Role Does Economics Play? appeared first on Semiconductor Engineering.",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-05-19T07:01:44+00:00",
-      "pub_ts": 1779174104
+      "pub_date": "2026-05-21T07:04:25+00:00",
+      "pub_ts": 1779347065
     },
     {
-      "id": "2aea5a624f",
-      "title": "Chip Industry Technical Paper Roundup: May 19",
-      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-may-19/",
-      "summary": "Micro-transfer printing for silicon photonics; 2D electronics for CFETs; ANN thermal-aware GAA FET modeling; optical phased arrays; ferroelectric tunnel junctions for image generation; functional safety and PPA evaluation.\nThe post Chip Industry Technical Paper Roundup: May 19 appeared first on Semi…",
+      "id": "bb46003efb",
+      "title": "Advancing Heterogeneous Integration Through Industry Roadmap Improvements",
+      "url": "https://semiengineering.com/advancing-heterogeneous-integration-through-industry-roadmap-improvements/",
+      "summary": "More detailed roadmaps are needed to guide how the industry stacks, connects, powers, and cools tomorrow's chips.\nThe post Advancing Heterogeneous Integration Through Industry Roadmap Improvements appeared first on Semiconductor Engineering.",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-05-19T07:01:41+00:00",
-      "pub_ts": 1779174101
+      "pub_date": "2026-05-21T07:04:21+00:00",
+      "pub_ts": 1779347061
     }
   ]
 }
