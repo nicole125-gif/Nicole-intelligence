@@ -3,62 +3,61 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-05-22T04:14:04.839067+00:00",
+  "updated_at": "2026-05-23T00:52:43.221793+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "ce3c313071",
-      "title": "风行在线CEO易正朝：先全员Coding，再AIlin众创|AIGC2026",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892214&idx=1&sn=2b6194e990a425d11da6d2e640f97f28",
-      "summary": "风行在线CEO易正朝：先全员Coding，再AIlin众创|AIGC2026",
+      "id": "b77679ab11",
+      "title": "龙虾养不动了？周鸿祎反手给虾搭了个云端办公室，专业私教在线炼虾",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892432&idx=1&sn=7edb9871e7f5d2727c6fc15dfa5c4936",
+      "summary": "龙虾养不动了？周鸿祎反手给虾搭了个云端办公室，专业私教在线炼虾",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-22T04:14:00.704479+00:00",
-      "pub_ts": 1779423240
+      "pub_date": "2026-05-23T00:52:39.299313+00:00",
+      "pub_ts": 1779497559
     },
     {
-      "id": "b32d25be35",
-      "title": "阿里让Qwen3.7-Max模拟创业，一年“营收”1400万",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892214&idx=2&sn=8f2f3d8a8bd1f4748453b245ac97a86e",
-      "summary": "阿里让Qwen3.7-Max模拟创业，一年“营收”1400万",
+      "id": "28ec361300",
+      "title": "LeCun10亿押注的方向，全球领先视觉大模型团队早已布局",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892432&idx=2&sn=01da3672f71ccf1e7c5e0b269c1b667f",
+      "summary": "LeCun10亿押注的方向，全球领先视觉大模型团队早已布局",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-22T04:14:00.704523+00:00",
-      "pub_ts": 1779423240
+      "pub_date": "2026-05-23T00:52:39.299358+00:00",
+      "pub_ts": 1779497559
     },
     {
-      "id": "6814d849dd",
-      "title": "520当天400万AI人，都在量子位听这近20场演讲&对谈Ⅰ第四届中国AIGC..",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892204&idx=1&sn=7a54a1baa7436a7d082f86d0e0dabaec",
-      "summary": "520当天400万AI人，都在量子位听这近20场演讲&对谈Ⅰ第四届中国AIGC..",
+      "id": "d4e100a612",
+      "title": "融资7OO亿！DeepSeekCode真要来了，ACM金牌大神崔添翼挂帅",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892406&idx=1&sn=b9617558e1ceeaf39a79b9ed67f411ff",
+      "summary": "融资7OO亿！DeepSeekCode真要来了，ACM金牌大神崔添翼挂帅",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-22T04:14:00.704547+00:00",
-      "pub_ts": 1779423240
+      "pub_date": "2026-05-23T00:52:39.299380+00:00",
+      "pub_ts": 1779497559
     },
     {
-      "id": "07fe846c49",
-      "title": "得场景者得AI天下，出行赛道跑出了一家值得关注的数据玩家",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892204&idx=2&sn=f198c8f92c6d428ac1c6df7be41f21de",
-      "summary": "得场景者得AI天下，出行赛道跑出了一家值得关注的数据玩家",
+      "id": "e228202b44",
+      "title": "狂揽F轮融资+拿下4100万用户！深圳玩家出手，把企业I旧系统变成AI能力库",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892357&idx=1&sn=f5e3fc319c191809d894dbb86634d9bb",
+      "summary": "狂揽F轮融资+拿下4100万用户！深圳玩家出手，把企业I旧系统变成AI能力库",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-22T04:14:00.704568+00:00",
-      "pub_ts": 1779423240
+      "pub_date": "2026-05-23T00:52:39.299400+00:00",
+      "pub_ts": 1779497559
     },
     {
-      "id": "0b0ff03f03",
-      "title": "顺丰邮政仓库干活的机器人，顺手拿了个具身高考第一",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892049&idx=1&sn=0cae6259b1c95365c7292018c032aca2",
-      "summary": "顺丰邮政仓库干活的机器人，顺手拿了个具身高考第一",
+      "id": "86a0a4ee52",
+      "title": "李飞飞再出手，空间智能的ImageNet来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892357&idx=2&sn=278298936a3cb847df6c88de1e570acc",
+      "summary": "李飞飞再出手，空间智能的ImageNet来了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-22T04:14:00.704588+00:00",
-      "pub_ts": 1779423240
+      "pub_date": "2026-05-23T00:52:39.299419+00:00",
+      "pub_ts": 1779497559
     }
   ],
-  "last_attempted_at": "2026-05-20T00:53:29.814362+00:00",
-  "fetch_status": "preserved_existing_cache",
-  "source_success_count": 0,
-  "source_total_count": 5
+  "source_success_count": 1,
+  "source_total_count": 5,
+  "fetch_status": "fresh"
 }

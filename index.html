@@ -793,7 +793,7 @@ body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([oncli
   <div class="footer-right">
     <span class="footer-disclaimer" data-i18n="footer.disclaimer">本报告仅供内部分析参考，不构成投资建议</span>
     <span class="footer-divider">·</span>
-    <span data-i18n="footer.updated">最近更新 2026-05-22</span>
+    <span data-i18n="footer.updated">最近更新 2026-05-23</span>
   </div>
 </footer>
 
@@ -822,27 +822,27 @@ function sanitizeInsight(html){
 }
 
 const BM={
-  Macro:{n:'宏观背景',    heat:65.3,tr:'dn', D:68,C:64,P:60,Pol:68,
+  Macro:{n:'宏观背景',    heat:62.2,tr:'dn', D:68,C:64,P:60,Pol:68,
     sum:'3月制造业PMI 50.4%重返扩张！Q1开局信号确认',
     sumAlert:'🟢',href:'macro.html',tracks:['m1','m2','m3'],sparks:[48,50,53],hotIdx:2,
     insight:'<strong>宏观背景</strong> — 3月制造业PMI 50.4%，重返扩张区间；生产52.6%、新订单51.8%，中小企业同步改善。FAI+1.8%转正叠加PMI确认，Q1开局信号转强。<span class="ai-src" data-src="国家统计局 · 2026-03-31">NSB</span>'},
-  EI:{n:'能源·基础设施',  heat:76.4,tr:'up', D:78,C:76,P:71,Pol:80,
+  EI:{n:'能源·基础设施',  heat:74.0,tr:'fl', D:78,C:76,P:71,Pol:80,
     sum:'两会AI基建落地+美半导体232关税双重催化',
     sumAlert:'🔥',href:'hydrogen.html',tracks:['e1','e2','e3','e4'],sparks:[64,72,74,44],hotIdx:2,
     insight:'<strong>液冷数据中心</strong> — 渗透率被TrendForce上调至47%，美国232关税倒逼国产化，液冷Heat创全周期新高 <strong style="color:var(--hot)">86.1</strong>，D/C双维度超90分。<span class="ai-src" data-src="TrendForce 2026Q1">TF</span>'},
-  GI:{n:'通用工业',       heat:74.6,tr:'up', D:78,C:75,P:70,Pol:72,
+  GI:{n:'通用工业',       heat:81.6,tr:'up', D:78,C:75,P:70,Pol:72,
     sum:'CATL三线共振，订单确定性最强',
     sumAlert:'⚡',href:'semiconductor.html',tracks:['g1'],sparks:[70,74,76],hotIdx:2,
     insight:'<strong>通用工业</strong> — CATL匈牙利Q1量产+济宁储能+钠离子三线共振，Capex 82分全板块最高，先导/赢合订单可见度极高。<span class="ai-src" data-src="宁德时代 2026Q1公告">CATL</span>'},
-  'P&B':{n:'制药·生物技术',heat:67.8,tr:'fl', D:70,C:66,P:61,Pol:74,
+  'P&B':{n:'制药·生物技术',heat:68.3,tr:'fl', D:70,C:66,P:61,Pol:74,
     sum:'司美格鲁肽3/20已到期！仿制战全面启动',
     sumAlert:'⚠',href:'pharma.html',tracks:['p1','p2','p3','p4','p5'],sparks:[58,62,63,62,70],hotIdx:4,
     insight:'<strong>制药·生物技术</strong> — 司美格鲁肽专利3月20日到期，多肽CDMO询单环比+8%；Demand 72分，进入兑现窗口期。<span class="ai-src" data-src="摩熵医药 / 凯莱英公告">摩熵</span>'},
-  'L&M':{n:'实验室·医疗',  heat:73.8,tr:'up', D:74,C:75,P:66,Pol:82,
+  'L&M':{n:'实验室·医疗',  heat:70.8,tr:'dn', D:74,C:75,P:66,Pol:82,
     sum:'质谱进口-12.4%，因美纳禁令催化',
     sumAlert:'⚠',href:'mscc.html',tracks:['l1','l2','l3'],sparks:[58,62,62],hotIdx:1,
     insight:'<strong>实验室·医疗</strong> — 因美纳列入不可靠实体清单，质谱进口骤降12.4%，Policy 80分，是L&M国产替代信号最强的时间节点。<span class="ai-src" data-src="商务部公告 / 海关总署">商务部</span>'},
-  'F&B':{n:'食品·饮料',    heat:62.8,tr:'dn', D:64,C:63,P:56,Pol:69,
+  'F&B':{n:'食品·饮料',    heat:59.7,tr:'dn', D:64,C:63,P:56,Pol:69,
     sum:'双FAI降速/转负，发酵唯一亮点',
     sumAlert:'↓',href:'food.html',tracks:['f1','f2','f3','f4'],sparks:[60,56,55,55],hotIdx:3,
     insight:'<strong>食品·饮料</strong> — 酒饮料FAI转负-0.2%，Capex 44分全板块最低；唯一亮点：合成生物发酵设备进入交付期，功能成分>800亿。<span class="ai-src" data-src="国家统计局 FAI 2025全年">NSB</span>'},
@@ -850,26 +850,26 @@ const BM={
 const BO=['Macro','EI','GI','P&B','L&M','F&B'];
 
 const T={
-  m1:{b:'Macro',n:'制造业 PMI',sub:'制造业景气指数',heat:61.9,tr:'dn',delta:+1.4,D:65,C:62,P:58,Pol:60,data:['3月制造业PMI 50.4%，重返扩张区间'],tw:'产需两端同步扩张，中小企业改善，景气度温和回升',act:'关注高技术及装备制造业，跟踪中小企业复苏',src:['国家统计局 2026-03-31','财新/标普全球']},
-  m2:{b:'Macro',n:'M2 / 社融',sub:'货币政策综合信号',heat:71.5,tr:'dn',delta:-10.6,D:75,C:70,P:65,Pol:75,data:['M2同比增长8.5%，社融存量增7.9%'],tw:'货币政策稳健，流动性支撑制造业投资，景气度中等偏上',act:'关注M2和社融数据，把握制造业投资机会',src:['中国人民银行']},
-  m3:{b:'Macro',n:'固定资产投资',sub:'制造业FAI/规上增加值',heat:62.2,tr:'fl',delta:+2.1,D:65,C:60,P:55,Pol:70,data:['工业投资同比增长5.8%，制造业投资增长4.1%'],tw:'工业投资稳健增长，但制造业增速偏低，整体景气度中等',act:'关注高技术制造业投资动态，跟踪政策支持效果',src:['国家统计局']},
-  e1:{b:'EI',n:'液冷数据中心',sub:'AI液冷渗透率/市场规模',heat:74.6,tr:'up',delta:-0.7,D:78,C:75,P:70,Pol:72,data:['AI液冷渗透率提升，海外项目落地200MW'],tw:'AI算力驱动液冷需求强劲，海外拓展加速，竞争加剧',act:'重点跟踪CDU/冷板核心供应商订单及海外进展',src:['TrendForce','国信证券']},
-  e2:{b:'EI',n:'半导体设备国产化',sub:'龙头设备商/前道市场',heat:82.8,tr:'fl',delta:+3.5,D:85,C:82,P:75,Pol:90,data:['国产化率提升至35%，刻蚀推进到3nm'],tw:'国产替代加速，订单增长显著，行业高景气',act:'重点跟踪北方华创/中微新签订单及技术突破',src:['WSTS','北方华创财报']},
-  e3:{b:'EI',n:'绿氢电解槽',sub:'PEM/AEM高壁垒路线',heat:73.1,tr:'up',delta:+1.8,D:75,C:72,P:68,Pol:78,data:['PEM电解槽技术突破，绿氢项目规划387个'],tw:'技术路线活跃，政策支持明确，景气度较高',act:'关注PEM/AEM/SOEC/SOFC技术进展和订单动态',src:['香橙会氢能数据库']},
-  e4:{b:'EI',n:'燃料电池',sub:'FCEV重卡/系统集成',heat:73.0,tr:'up',delta:2.9,D:72,C:75,P:68,Pol:78,data:['氢能重卡经济性已现，2024年有望氢油平价'],tw:'需求端商业化加速，技术突破支撑规模化，景气度向好',act:'跟踪重卡订单及氢价平价进展，关注技术领先企业',src:['中汽协']},
-  g1:{b:'GI',n:'锂电设备',sub:'宁德时代产能扩张',heat:74.6,tr:'up',delta:4.2,D:78,C:75,P:70,Pol:72,data:['下游开工率提升，订单开门红，海外订单增长'],tw:'需求回暖，订单增长，海外扩张加速，景气度向好',act:'跟踪龙头订单和海外产能动态，关注固态电池设备需求',src:['宁德时代公告']},
-  p1:{b:'P&B',n:'生物药出海',sub:'创新药License-out/BD',heat:72.2,tr:'up',delta:+2.8,D:75,C:70,P:65,Pol:80,data:['在手订单同比增长55.56%，境外订单占比39.92%'],tw:'国内扩产与国际化并进，需求旺盛，景气度较高',act:'关注产能释放与海外订单落地',src:['摩熵医药']},
-  p2:{b:'P&B',n:'合成生物学',sub:'中试车间开工数',heat:76.5,tr:'fl',delta:+1.5,D:78,C:75,P:70,Pol:85,data:['国家2027年培育20个以上生物制造中试平台'],tw:'政策强力支持，技术AI赋能，产业化领先，景气度高',act:'积极跟踪华恒等龙头扩产及中试平台进展',src:['华恒/凯赛年报']},
-  p3:{b:'P&B',n:'生物药融资',sub:'早期融资额',heat:71.8,tr:'up',delta:15.3,D:72,C:75,P:68,Pol:70,data:['2025年融资金额同比上涨56.17%至682.39亿元'],tw:'融资金额大幅增长，但事件数微降，景气度中等偏强',act:'关注A轮及战略融资项目，跟踪头部机构动态',src:['动脉网']},
-  p4:{b:'P&B',n:'制药装备Capex',sub:'医药制造业FAI',heat:52.2,tr:'dn',delta:-5.3,D:55,C:50,P:45,Pol:60,data:['医药制造业固定资产投资涨5.4%'],tw:'投资温和增长，但增加值仅增0.9%，需求偏弱',act:'关注龙头订单和FAI数据，谨慎跟踪',src:['国家统计局FAI']},
-  p5:{b:'P&B',n:'CDMO',sub:'海外大客户询单量',heat:72.0,tr:'fl',delta:+2.0,D:75,C:70,P:65,Pol:78,data:['CDMO龙头新签大额订单，药明康德在手订单增33%'],tw:'需求回暖，订单增长，景气度回升，但需关注集采影响',act:'跟踪龙头订单动态，关注TIDES多肽/ADC产线询单',src:['凯莱英公告']},
-  l1:{b:'L&M',n:'质谱/色谱仪器',sub:'高端分析仪器国产替代',heat:76.4,tr:'dn',delta:+0.5,D:75,C:78,P:70,Pol:85,data:['质谱仪进口报关量-12.4% YoY，最强国产替代信号','2026年国内质谱市场预计突破230亿元'],tw:'国产替代加速，政策驱动强，需求旺盛',act:'积极跟踪禾信/谱育订单及政策落地',src:['海关总署']},
-  l2:{b:'L&M',n:'基因测序',sub:'测序服务需求',heat:76.5,tr:'dn',delta:+1.2,D:78,C:75,P:70,Pol:85,data:['商务部将因美纳列入"不可靠实体清单"','华大智造CoolMPS受益，三甲医院测序仪替换潮启动'],tw:'国产替代加速，政策催化强，景气度向上',act:'积极跟踪华大智造订单和产能动态',src:['商务部公告']},
-  l3:{b:'L&M',n:'医疗IVD',sub:'IVD体外诊断',heat:66.0,tr:'up',delta:24.4,D:65,C:70,P:55,Pol:75,data:['2025年中国IVD市场规模超1400亿元','化学发光国产化率<30%，第28省集采降价50-70%'],tw:'集采推动国产替代，但价格压力大，景气度中等偏上',act:'关注国产替代龙头，规避价格战风险',src:['智研咨询']},
-  f1:{b:'F&B',n:'食品制造FAI',sub:'设备端Capex信号',heat:62.2,tr:'dn',delta:-10.6,D:65,C:60,P:55,Pol:70,data:['预制菜政策支持，机构调研情绪高涨'],tw:'政策利好与机构关注推动景气度回升，但竞争加剧',act:'关注预制菜装备龙头，跟踪政策落地与订单',src:['国家统计局FAI']},
-  f2:{b:'F&B',n:'酒/饮料制造FAI',sub:'设备端Capex信号',heat:52.2,tr:'dn',delta:-15.6,D:55,C:50,P:45,Pol:60,data:['18家白酒上市公司9成扩产，产能过剩风险显现'],tw:'扩产积极但产能利用率低，供需失衡，景气度中性偏弱',act:'关注龙头订单和产能动态，谨慎跟踪扩产进度',src:['国家统计局FAI']},
-  f3:{b:'F&B',n:'食品饮料消费',sub:'春节/年货消费端参考',heat:71.8,tr:'dn',delta:-6.2,D:72,C:75,P:68,Pol:70,data:['无糖茶饮、功能饮品增长趋势显著'],tw:'健康化与功能化驱动需求，景气度中上',act:'关注功能饮品与预制菜赛道龙头',src:['商务部']},
-  f4:{b:'F&B',n:'食品添加剂',sub:'合成生物学/功能成分',heat:67.0,tr:'up',delta:+0.9,D:65,C:70,P:60,Pol:75,data:['合成生物学在食品领域获国家评审通道支持'],tw:'政策支持与技术突破并存，但代糖市场存在争议',act:'关注政策落地与龙头订单，谨慎布局',src:['华恒/凯赛年报']},
+  m1:{b:'Macro',n:'制造业 PMI',sub:'制造业景气指数',heat:67.8,tr:'up',delta:+1.4,D:72,C:68,P:62,Pol:65,data:['官方PMI 50.3%，财新PMI 50.1%，均在荣枯线上'],tw:'制造业温和扩张，扩张动能边际减弱，关注新订单分项变化',act:'关注PMI持续性，跟踪中小企业景气度',src:['国家统计局 2026-03-31','财新/标普全球']},
+  m2:{b:'Macro',n:'M2 / 社融',sub:'货币政策综合信号',heat:71.1,tr:'fl',delta:-11.0,D:72,C:70,P:68,Pol:75,data:['3月社融增5.23万亿，M2增8.5%'],tw:'信贷回暖，流动性支撑增强，景气度中等偏上',act:'关注货币政策信号，跟踪制造业投资流动性',src:['中国人民银行']},
+  m3:{b:'Macro',n:'固定资产投资',sub:'制造业FAI/规上增加值',heat:45.4,tr:'dn',delta:+2.1,D:42,C:45,P:32,Pol:72,data:['2026年1-2月FAI增长1.8%，较2025年高点4.2%显著回落'],tw:'FAI增速持续下滑，投资意愿降温，制造业投资承压，景气趋势偏弱',act:'降低赛道配置权重，等待FAI增速企稳或政策加码信号',src:['国家统计局']},
+  e1:{b:'EI',n:'液冷数据中心',sub:'AI液冷渗透率/市场规模',heat:67.7,tr:'dn',delta:-17.5,D:72,C:68,P:58,Pol:70,data:['大模型驱动算力需求爆发，液冷替代风冷趋势明确'],tw:'AI算力投资加速驱动液冷需求上行，技术路径清晰，短期缺具体量化数据，整体景气向好',act:'重点跟踪头部客户CDU/冷板订单释放节奏',src:['TrendForce','国信证券']},
+  e2:{b:'EI',n:'半导体设备国产化',sub:'龙头设备商/前道市场',heat:84.8,tr:'up',delta:+3.5,D:88,C:82,P:78,Pol:92,data:['国产化率35%，出口管制+扩产双催化'],tw:'国产替代加速期确立，设备龙头订单预期向好',act:'重点跟踪北方华创/中微新签订单及年报数据',src:['WSTS','北方华创财报']},
+  e3:{b:'EI',n:'绿氢电解槽',sub:'PEM/AEM高壁垒路线',heat:71.5,tr:'fl',delta:+1.8,D:75,C:72,P:60,Pol:78,data:['PEM电解槽技术讨论增多，绿氢需求大增'],tw:'技术路线受关注，需求旺盛，景气度较强',act:'跟踪PEM订单和产能动态，关注技术突破',src:['香橙会氢能数据库']},
+  e4:{b:'EI',n:'燃料电池',sub:'FCEV重卡/系统集成',heat:69.3,tr:'dn',delta:-0.8,D:72,C:68,P:55,Pol:85,data:['中国成全球氢车最大市场，十年累计2.5万台'],tw:'商业化提速但增速波动，单场景依赖风险，政策强支撑',act:'关注商业化放量持续性，重卡场景替代进度',src:['中汽协']},
+  g1:{b:'GI',n:'锂电设备',sub:'宁德时代产能扩张',heat:81.6,tr:'up',delta:11.2,D:83,C:86,P:74,Pol:80,data:['先导智能获最大美国订单+超300亿订单落地'],tw:'开工率回升+订单开门红+出海加速，景气度强',act:'积极跟踪先导智能等龙头海外订单进展',src:['宁德时代公告']},
+  p1:{b:'P&B',n:'生物药出海',sub:'创新药License-out/BD',heat:75.6,tr:'up',delta:+2.8,D:78,C:72,P:70,Pol:85,data:['上海双政策出台+分段生产试点启动+千亿规模预期'],tw:'政策强驱动，本土扩产加速，智造空间落地，景气上行',act:'积极布局国内产线，关注上海政策溢出效应',src:['摩熵医药']},
+  p2:{b:'P&B',n:'合成生物学',sub:'中试车间开工数',heat:53.5,tr:'dn',delta:+1.5,D:52,C:48,P:67,Pol:50,data:['华恒获奖龙头向好，中试平台痛点尚存'],tw:'行业处早期发展阶段，政策支持但缺乏扩产放量信号',act:'持续跟踪华恒凯赛产能动态，等待规模化放量信号',src:['华恒/凯赛年报']},
+  p3:{b:'P&B',n:'生物药融资',sub:'早期融资额',heat:67.1,tr:'dn',delta:10.6,D:68,C:72,P:60,Pol:65,data:['2024年1200+项目获投，多月亿元融资密集'],tw:'融资活跃但未见产能爆发，景气度中等偏强，适合作为领先指标跟踪',act:'持续跟踪季度融资数据，关注项目从早期到临床后期的转化率',src:['动脉网']},
+  p4:{b:'P&B',n:'制药装备Capex',sub:'医药制造业FAI',heat:60.9,tr:'up',delta:3.4,D:58,C:56,P:65,Pol:72,data:['制药企业自动化改造项目增多，设备招标活跃'],tw:'需求端有韧性，政策支持加码，但增速放缓压制弹性，景气度中偏上',act:'跟踪设备招标数据和自动化改造订单，择机布局龙头',src:['国家统计局FAI']},
+  p5:{b:'P&B',n:'CDMO',sub:'海外大客户询单量',heat:77.8,tr:'up',delta:+2.0,D:82,C:78,P:72,Pol:75,data:['药明康德年营收破400亿，CDMO龙头获BMS17.67亿订单'],tw:'头部订单大增，行业迎拐点，多肽ADC GLP-1景气复苏',act:'积极配置CDMO龙头，关注TIDES多肽ADC产线询单',src:['凯莱英公告']},
+  l1:{b:'L&M',n:'质谱/色谱仪器',sub:'高端分析仪器国产替代',heat:81.1,tr:'up',delta:+0.5,D:82,C:78,P:85,Pol:80,data:['质谱仪进口报关量-12.4% YoY，最强国产替代信号','2026年国内质谱市场预计突破230亿元'],tw:'需求强劲、政策加持、资本活跃，景气度持续攀升',act:'积极配置龙头，逢低布局产业链',src:['海关总署']},
+  l2:{b:'L&M',n:'基因测序',sub:'测序服务需求',heat:76.5,tr:'fl',delta:+1.2,D:78,C:75,P:70,Pol:85,data:['商务部将因美纳列入"不可靠实体清单"','华大智造CoolMPS受益，三甲医院测序仪替换潮启动'],tw:'国产替代加速，政策催化强，需求与投资双旺',act:'积极跟踪华大智造订单与产能，关注政策落地',src:['商务部公告']},
+  l3:{b:'L&M',n:'医疗IVD',sub:'IVD体外诊断',heat:46.4,tr:'dn',delta:4.8,D:52,C:38,P:30,Pol:72,data:['2025年中国IVD市场规模超1400亿元','化学发光国产化率<30%，第28省集采降价50-70%'],tw:'价格压力巨大但替代加速，短期阵痛长期受益',act:'关注龙头企业份额扩张和盈利见底信号',src:['智研咨询']},
+  f1:{b:'F&B',n:'食品制造FAI',sub:'设备端Capex信号',heat:58.8,tr:'dn',delta:-14.0,D:60,C:55,P:50,Pol:75,data:['预制菜装备需求牵引智能化升级'],tw:'政策支持+趋势向好，但行业分散缺乏硬数据',act:'跟踪龙头企业订单和产能扩张进度',src:['国家统计局FAI']},
+  f2:{b:'F&B',n:'酒/饮料制造FAI',sub:'设备端Capex信号',heat:58.8,tr:'up',delta:-9.0,D:62,C:55,P:58,Pol:60,data:['上市酒企360亿扩产，产量连降'],tw:'龙头扩张+存量替换支撑设备需求，景气分化偏中性',act:'优选龙头设备供应商，规避中小酒企设备订单',src:['国家统计局FAI']},
+  f3:{b:'F&B',n:'食品饮料消费',sub:'春节/年货消费端参考',heat:50.0,tr:'dn',delta:-21.8,D:50,C:50,P:50,Pol:50,data:['打分异常'],tw:'请人工核查',act:'关注功能饮品与预制菜赛道龙头',src:['商务部']},
+  f4:{b:'F&B',n:'食品添加剂',sub:'合成生物学/功能成分',heat:69.5,tr:'up',delta:+0.9,D:72,C:70,P:60,Pol:75,data:['合成生物学在食品原料创制获国家评审通道'],tw:'技术突破与政策支持推动景气度上行，但代糖市场存在波动',act:'关注龙头订单与产能扩张，跟踪政策落地进展',src:['华恒/凯赛年报']},
 };
 
 const SOURCES=[
@@ -1290,7 +1290,7 @@ const I18N = {
     'footer.copy':    '© 2026 Nicole Intelligence · 行业热力图系统',
     'footer.sources': '国家统计局 / 央行 / 行业协会 / 上市公司公告',
     'footer.disclaimer': '本报告仅供内部分析参考，不构成投资建议',
-    'footer.updated': '最近更新 2026-05-22',
+    'footer.updated': '最近更新 2026-05-23',
   },
   en: {
     'nav.overview':   'Overview',
@@ -1320,7 +1320,7 @@ const I18N = {
     'footer.copy':    '© 2026 Nicole Intelligence · Market Heatmap System',
     'footer.sources': 'NBS / PBoC / Industry Associations / Listed Company Filings',
     'footer.disclaimer': 'For internal analysis only. Not investment advice.',
-    'footer.updated': 'Last updated 2026-05-22',
+    'footer.updated': 'Last updated 2026-05-23',
   }
 };
 
