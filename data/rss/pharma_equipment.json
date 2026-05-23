@@ -3,62 +3,61 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-05-22T04:14:28.146930+00:00",
+  "updated_at": "2026-05-23T03:52:56.823483+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "77b5a31bf0",
-      "title": "Gilead teams up with WHO again to eliminate parasitic tropical disease",
-      "url": "https://www.pharmaceutical-technology.com/news/gilead-teams-up-with-who-again-to-eliminate-parasitic-tropical-disease/",
-      "summary": "Gilead will donate vials of its antifungal medication AmBisome to help global efforts in eliminating visceral leishmaniasis.",
+      "id": "42be63e919",
+      "title": "Q&A: How 3PLs are navigating the latest pharma trends",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/qa-how-3pls-are-navigating-the-latest-pharma-trends/",
+      "summary": "As regulatory expectations rise and advanced therapies push cold-chain complexity, 3PLs are investing in validated infrastructure, network-wide quality systems, and data-driven visibility.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-21T15:33:17+00:00",
-      "pub_ts": 1779377597
+      "pub_date": "2026-05-22T14:22:22+00:00",
+      "pub_ts": 1779459742
     },
     {
-      "id": "f5e5c257d2",
-      "title": "Eli Lilly maintains M&A streak with $202m Engage Bio buyout",
-      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-acquires-engage-bio-202m-non-viral-dna-delivery-platform/",
-      "summary": "Eli Lilly’s takeover of Engage Bio marks the seventh acquisition for the big pharma since the start of 2026.",
+      "id": "6013ef553b",
+      "title": "CVC consortium tables $12.4bn bid to delist Italian drugmaker Recordati",
+      "url": "https://www.pharmaceutical-technology.com/news/cvc-consortium-tables-12-4bn-bid-to-delist-italian-drugmaker-recordati/",
+      "summary": "The tender offer is for €51.29 per share, representing a 13% premium on Recordati’s share price before the takeover was first disclosed.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-21T10:22:38+00:00",
-      "pub_ts": 1779358958
+      "pub_date": "2026-05-22T12:50:57+00:00",
+      "pub_ts": 1779454257
     },
     {
-      "id": "dd32e23ae4",
-      "title": "FUJIFILM opens new iPSC facility in Madison, US",
-      "url": "https://www.pharmaceutical-technology.com/news/fujifilm-opens-new-ipsc-facility/",
-      "summary": "FUJIFILM Cellular Dynamics has opened a new headquarters and iPSC manufacturing facility in Madison, Wisconsin, US.",
+      "id": "9d2fa65fa6",
+      "title": "Accelerate post-approval research by streamlining the entire study lifecycle",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/accelerate-post-approval-research-by-streamlining-the-entire-study-lifecycle/",
+      "summary": "Paradigm Health’s SPIRE platform streamlines post-approval oncology research with pragmatic, prospective studies embedded in routine care",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-21T10:04:15+00:00",
-      "pub_ts": 1779357855
+      "pub_date": "2026-05-22T11:41:09+00:00",
+      "pub_ts": 1779450069
     },
     {
-      "id": "c59fd389ca",
-      "title": "Podcast: Supply chains, obesity drugs, and patents dominate Q1 earnings trends",
-      "url": "https://www.pharmaceutical-technology.com/features/podcast-supply-chains-obesity-drugs-and-patents-dominate-q1-earnings-trends/",
-      "summary": "The healthcare team covers Q1 results from pharma and medtech companies and provides a wrap-up of the key takeaways",
+      "id": "b16ea42091",
+      "title": "European STI cases reach record high amid testing and prevention gaps",
+      "url": "https://www.pharmaceutical-technology.com/news/ecdc-report-european-sti-cases-reach-record-high/",
+      "summary": "Cases of syphilis and gonorrhoea have tripled and quadrupled, respectively, since 2015, highlighting the need for effective treatments.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-21T09:42:57+00:00",
-      "pub_ts": 1779356577
+      "pub_date": "2026-05-22T10:51:18+00:00",
+      "pub_ts": 1779447078
     },
     {
-      "id": "765c1923ab",
-      "title": "ATS 2026: PABPC4 gene identified as a key driver of emphysema in COPD",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ats-2026-pabpc4-gene-identified-as-a-key-driver-of-emphysema-in-copd/",
-      "summary": "PABPC4 genetic variants found to be associated with mitochondrial dysfunction driving emphysema in COPD.",
+      "id": "2a89463688",
+      "title": "Gilead Sciences completes Tubulis acquisition for $5bn",
+      "url": "https://www.pharmaceutical-technology.com/news/gilead-sciences-acquires-tubulis/",
+      "summary": "Gilead Sciences has concluded its acquisition of Germany-based biotechnology company Tubulis in a transaction valued at up to $5bn.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-21T09:34:40+00:00",
-      "pub_ts": 1779356080
+      "pub_date": "2026-05-22T10:19:52+00:00",
+      "pub_ts": 1779445192
     }
   ],
-  "last_attempted_at": "2026-05-20T00:53:29.829053+00:00",
-  "fetch_status": "preserved_existing_cache",
-  "source_success_count": 0,
-  "source_total_count": 5
+  "source_success_count": 1,
+  "source_total_count": 5,
+  "fetch_status": "fresh"
 }
