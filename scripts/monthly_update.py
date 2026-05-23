@@ -14,6 +14,7 @@ import datetime as dt
 import hashlib
 import json
 import os
+import shutil
 import subprocess
 import sys
 import urllib.parse
@@ -267,6 +268,26 @@ print(f"RAG DB ready: {collection.count()} chunks")
     run_command([sys.executable, "-c", code], dry_run=dry_run)
 
 
+def cleanup_transient_artifacts() -> list[str]:
+    """Remove generated local artifacts that should never be reviewed in a PR."""
+    removed: list[str] = []
+    targets = [
+        ROOT / "pulse_vectordb",
+        ROOT / "scripts" / "__pycache__",
+        ROOT / "tests" / "__pycache__",
+        ROOT / "index.html.bak",
+    ]
+    for target in targets:
+        if not target.exists():
+            continue
+        if target.is_dir():
+            shutil.rmtree(target)
+        else:
+            target.unlink()
+        removed.append(str(target.relative_to(ROOT)))
+    return removed
+
+
 def apply_overrides(payload: dict, overrides: dict) -> tuple[dict, list[str]]:
     applied: list[str] = []
     for tid, fields in (overrides.get("tracks") or {}).items():
@@ -416,6 +437,9 @@ def run_monthly_update(args: argparse.Namespace) -> None:
             review_notes=payload.get("review_notes", []),
             step_notes=step_notes,
         )
+        removed = cleanup_transient_artifacts()
+        if removed:
+            print(f"[OK] Removed transient artifacts: {', '.join(removed)}")
         print(f"[OK] Summary written → {summary_path.relative_to(ROOT)}")
 
 
