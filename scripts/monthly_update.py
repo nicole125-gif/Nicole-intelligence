@@ -400,11 +400,15 @@ def run_monthly_update(args: argparse.Namespace) -> None:
     else:
         source_report = download_public_reports(period, sources, dry_run=args.dry_run)
         rss_ok = refresh_rss(step_notes, dry_run=args.dry_run)
-        try:
-            rebuild_rag(dry_run=args.dry_run)
-        except subprocess.CalledProcessError as exc:
-            step_notes.append(f"RAG rebuild skipped: command failed with exit code {exc.returncode}")
-            print(f"[WARN] RAG rebuild skipped: command failed with exit code {exc.returncode}")
+        if args.skip_rag:
+            step_notes.append("RAG rebuild skipped: --skip-rag enabled")
+            print("[INFO] RAG rebuild skipped: --skip-rag enabled")
+        else:
+            try:
+                rebuild_rag(dry_run=args.dry_run)
+            except subprocess.CalledProcessError as exc:
+                step_notes.append(f"RAG rebuild skipped: command failed with exit code {exc.returncode}")
+                print(f"[WARN] RAG rebuild skipped: command failed with exit code {exc.returncode}")
         if rss_ok:
             run_step("news scoring", [sys.executable, "scripts/update_news.py"], step_notes, dry_run=args.dry_run)
         else:
@@ -449,6 +453,7 @@ def main() -> None:
     parser.add_argument("--as-of", help="Run date in YYYY-MM-DD format for homepage timestamp")
     parser.add_argument("--dry-run", action="store_true", help="Plan the update without writing site files")
     parser.add_argument("--offline", action="store_true", help="Use existing local history and skip network or rebuild steps")
+    parser.add_argument("--skip-rag", action="store_true", help="Skip vector database rebuild for faster PR updates")
     args = parser.parse_args()
     run_monthly_update(args)
 

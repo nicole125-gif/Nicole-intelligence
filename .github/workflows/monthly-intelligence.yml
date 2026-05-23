@@ -10,6 +10,10 @@ on:
         description: "Update period in YYYY-MM format. Empty = current month."
         required: false
         default: ""
+      rebuild_rag:
+        description: "Set to true to rebuild the local RAG vector database."
+        required: false
+        default: "false"
 
 permissions:
   contents: write
@@ -35,19 +39,22 @@ jobs:
           pip install \
             anthropic \
             beautifulsoup4 \
-            chromadb \
             feedparser \
             jieba \
-            langchain-community \
-            langchain-text-splitters \
             lxml \
-            pypdf \
             python-dateutil \
             pyyaml \
-            rank-bm25 \
-            requests \
-            sentence-transformers \
-            unstructured
+            requests
+          if [ "${{ github.event.inputs.rebuild_rag }}" = "true" ]; then
+            pip install \
+              chromadb \
+              langchain-community \
+              langchain-text-splitters \
+              pypdf \
+              rank-bm25 \
+              sentence-transformers \
+              unstructured
+          fi
 
       - name: Resolve period
         id: period
@@ -62,7 +69,12 @@ jobs:
         env:
           BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
           CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
-        run: python scripts/monthly_update.py --period "${{ steps.period.outputs.value }}"
+        run: |
+          args=(--period "${{ steps.period.outputs.value }}")
+          if [ "${{ github.event.inputs.rebuild_rag }}" != "true" ]; then
+            args+=(--skip-rag)
+          fi
+          python scripts/monthly_update.py "${args[@]}"
 
       - name: Run monthly unit tests
         run: python -m unittest tests.test_monthly_update -v
