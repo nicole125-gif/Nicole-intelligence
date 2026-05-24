@@ -3,108 +3,68 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-05-23T03:52:20.368041+00:00",
-  "item_count": 15,
+  "updated_at": "2026-05-24T04:12:23.202392+00:00",
+  "item_count": 11,
   "items": [
     {
-      "id": "9b7247965c",
-      "title": "获受理！闻泰科技起诉荷兰安世半导体，索赔80亿",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812036&idx=1&sn=0eaaa0a13764ae7dd55d67d48eac30b4",
-      "summary": "获受理！闻泰科技起诉荷兰安世半导体，索赔80亿",
+      "id": "8cb08c9846",
+      "title": "19亿，紫光国微拟收购瑞能半导",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812068&idx=1&sn=72eb85d39718d4d7251d53de5ec5e37f",
+      "summary": "19亿，紫光国微拟收购瑞能半导",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-23T03:52:16.270589+00:00",
-      "pub_ts": 1779508336
+      "pub_date": "2026-05-24T04:12:19.095592+00:00",
+      "pub_ts": 1779595939
     },
     {
-      "id": "6fdc14b52f",
-      "title": "超聚变，IPO获受理",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812030&idx=1&sn=ea48b856bf5f25853929bf45737fef87",
-      "summary": "超聚变，IPO获受理",
+      "id": "73c57c56eb",
+      "title": "芯片产业聚焦东南亚，谁能突围?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812062&idx=1&sn=39b695c7ad2f95568dd1b3cc60f90428",
+      "summary": "芯片产业聚焦东南亚，谁能突围?",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-23T03:52:16.270636+00:00",
-      "pub_ts": 1779508336
+      "pub_date": "2026-05-24T04:12:19.095639+00:00",
+      "pub_ts": 1779595939
     },
     {
-      "id": "85a44eab66",
-      "title": "刚刚！晶合集成赴港IPO，获证监会备案",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812022&idx=1&sn=28198a07fb9955ab6ee2eea6788c2c71",
-      "summary": "刚刚！晶合集成赴港IPO，获证监会备案",
+      "id": "12163a9712",
+      "title": "突破内存墙，HBM设计思路生变",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812062&idx=2&sn=528ba194ac5850e0d4dd080fa43e97e9",
+      "summary": "突破内存墙，HBM设计思路生变",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-23T03:52:16.270662+00:00",
-      "pub_ts": 1779508336
+      "pub_date": "2026-05-24T04:12:19.095662+00:00",
+      "pub_ts": 1779595939
     },
     {
-      "id": "336bfe397f",
-      "title": "挑战HBM，国产GPGPU杀出奇兵",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812012&idx=1&sn=3b53105422252b323d5c39b0758adcb5",
-      "summary": "挑战HBM，国产GPGPU杀出奇兵",
+      "id": "25dbd4c1dd",
+      "title": "高压直流时代，SiC与GaN凭什么突破算力上限?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812062&idx=3&sn=defa1bd31d67ca6a55b50d8f58fb100f",
+      "summary": "高压直流时代，SiC与GaN凭什么突破算力上限?",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-23T03:52:16.270684+00:00",
-      "pub_ts": 1779508336
+      "pub_date": "2026-05-24T04:12:19.095683+00:00",
+      "pub_ts": 1779595939
     },
     {
-      "id": "ba4e006819",
-      "title": "长鑫科技朱一明：让渡7.68亿股激励员工，价值或超200亿元！",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812012&idx=2&sn=ea89ea71f89691c208490e579496bec2",
-      "summary": "长鑫科技朱一明：让渡7.68亿股激励员工，价值或超200亿元！",
+      "id": "136ec9771d",
+      "title": "不加GPU，万卡集群算力暴涨15%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812062&idx=4&sn=545de55779eb2c7b6306d2a01b07371b",
+      "summary": "不加GPU，万卡集群算力暴涨15%",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-23T03:52:16.270704+00:00",
-      "pub_ts": 1779508336
+      "pub_date": "2026-05-24T04:12:19.095703+00:00",
+      "pub_ts": 1779595939
     },
     {
-      "id": "b84dce90a6",
-      "title": "ASR最大股东，减持！",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820106&idx=1&sn=4a30011e6779a30a25445cb2e824086f",
-      "summary": "ASR最大股东，减持！",
+      "id": "3022ec3877",
+      "title": "WAICYOUNGI吴克群、薛凯琪、黄龄等10位明星伙伴集体助阵AIGC音乐创...",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820147&idx=5&sn=520e6e49cd94820a9221e8738b3c13ef",
+      "summary": "WAICYOUNGI吴克群、薛凯琪、黄龄等10位明星伙伴集体助阵AIGC音乐创...",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-23T03:52:07.433552+00:00",
-      "pub_ts": 1779508327
-    },
-    {
-      "id": "685b4ab108",
-      "title": "英伟达NVL72单机柜成本，详细拆解",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820089&idx=1&sn=949a0b6a52ea505a05da7d2611b42822",
-      "summary": "英伟达NVL72单机柜成本，详细拆解",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-05-23T03:52:07.433612+00:00",
-      "pub_ts": 1779508327
-    },
-    {
-      "id": "abcc0d1362",
-      "title": "Token为王时代，摩尔线程亮出“云边端全栈野心",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820083&idx=1&sn=e8db93211d094e05dad41abb38994442",
-      "summary": "Token为王时代，摩尔线程亮出“云边端全栈野心",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-05-23T03:52:07.433636+00:00",
-      "pub_ts": 1779508327
-    },
-    {
-      "id": "46f1359dc6",
-      "title": "EDA三巨头，在赌什么？",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820083&idx=2&sn=2b5569c7c52343d2c766e99ce694bbdc",
-      "summary": "EDA三巨头，在赌什么？",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-05-23T03:52:07.433657+00:00",
-      "pub_ts": 1779508327
-    },
-    {
-      "id": "bf41af59b2",
-      "title": "半导体，历史性开局",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820083&idx=3&sn=c16d4c6e41e1b32e76fd09d33085c220",
-      "summary": "半导体，历史性开局",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-05-23T03:52:07.433677+00:00",
-      "pub_ts": 1779508327
+      "pub_date": "2026-05-24T04:12:08.986684+00:00",
+      "pub_ts": 1779595928
     },
     {
       "id": "60160d1d68",
