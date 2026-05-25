@@ -3,68 +3,108 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-05-24T04:12:23.202392+00:00",
-  "item_count": 11,
+  "updated_at": "2026-05-25T04:23:51.519859+00:00",
+  "item_count": 15,
   "items": [
     {
-      "id": "8cb08c9846",
-      "title": "19亿，紫光国微拟收购瑞能半导",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812068&idx=1&sn=72eb85d39718d4d7251d53de5ec5e37f",
-      "summary": "19亿，紫光国微拟收购瑞能半导",
+      "id": "4b608d877d",
+      "title": "Token背后的生意经",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812090&idx=1&sn=b58d6608cc06b391ee04f86f6b09d96c",
+      "summary": "Token背后的生意经",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-24T04:12:19.095592+00:00",
-      "pub_ts": 1779595939
+      "pub_date": "2026-05-25T04:23:47.450031+00:00",
+      "pub_ts": 1779683027
     },
     {
-      "id": "73c57c56eb",
-      "title": "芯片产业聚焦东南亚，谁能突围?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812062&idx=1&sn=39b695c7ad2f95568dd1b3cc60f90428",
-      "summary": "芯片产业聚焦东南亚，谁能突围?",
+      "id": "4f5406b9ed",
+      "title": "量子投资白热化，应用才是终局",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812090&idx=2&sn=b3c48e119c9997b29c584f24ada85931",
+      "summary": "量子投资白热化，应用才是终局",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-24T04:12:19.095639+00:00",
-      "pub_ts": 1779595939
+      "pub_date": "2026-05-25T04:23:47.450075+00:00",
+      "pub_ts": 1779683027
     },
     {
-      "id": "12163a9712",
-      "title": "突破内存墙，HBM设计思路生变",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812062&idx=2&sn=528ba194ac5850e0d4dd080fa43e97e9",
-      "summary": "突破内存墙，HBM设计思路生变",
+      "id": "70eb25b275",
+      "title": "蔚来李斌：下半年80%以上新车会搭载自研芯片",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812090&idx=3&sn=62bd58d5ca3f262a66fe40db8e18e8cf",
+      "summary": "蔚来李斌：下半年80%以上新车会搭载自研芯片",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-24T04:12:19.095662+00:00",
-      "pub_ts": 1779595939
+      "pub_date": "2026-05-25T04:23:47.450101+00:00",
+      "pub_ts": 1779683027
     },
     {
-      "id": "25dbd4c1dd",
-      "title": "高压直流时代，SiC与GaN凭什么突破算力上限?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812062&idx=3&sn=defa1bd31d67ca6a55b50d8f58fb100f",
-      "summary": "高压直流时代，SiC与GaN凭什么突破算力上限?",
+      "id": "059fc9662e",
+      "title": "把服务器沉到海底，这事儿是认真的",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812090&idx=4&sn=93d347436f8405f2b4f31e94b4c186f6",
+      "summary": "把服务器沉到海底，这事儿是认真的",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-24T04:12:19.095683+00:00",
-      "pub_ts": 1779595939
+      "pub_date": "2026-05-25T04:23:47.450124+00:00",
+      "pub_ts": 1779683027
     },
     {
-      "id": "136ec9771d",
-      "title": "不加GPU，万卡集群算力暴涨15%",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812062&idx=4&sn=545de55779eb2c7b6306d2a01b07371b",
-      "summary": "不加GPU，万卡集群算力暴涨15%",
+      "id": "f8b8c34eea",
+      "title": "3D芯片集成风险或致未来GPU过热",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812090&idx=5&sn=2ee581b23ed88fda682e354e76ae5101",
+      "summary": "3D芯片集成风险或致未来GPU过热",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-24T04:12:19.095703+00:00",
-      "pub_ts": 1779595939
+      "pub_date": "2026-05-25T04:23:47.450145+00:00",
+      "pub_ts": 1779683027
     },
     {
-      "id": "3022ec3877",
-      "title": "WAICYOUNGI吴克群、薛凯琪、黄龄等10位明星伙伴集体助阵AIGC音乐创...",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820147&idx=5&sn=520e6e49cd94820a9221e8738b3c13ef",
-      "summary": "WAICYOUNGI吴克群、薛凯琪、黄龄等10位明星伙伴集体助阵AIGC音乐创...",
+      "id": "c160276261",
+      "title": "Rust进军MCU，替代C/C++?",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820200&idx=1&sn=f4a42796ffb3fe2948a277baf19cf846",
+      "summary": "Rust进军MCU，替代C/C++?",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-24T04:12:08.986684+00:00",
-      "pub_ts": 1779595928
+      "pub_date": "2026-05-25T04:23:38.097294+00:00",
+      "pub_ts": 1779683018
+    },
+    {
+      "id": "52c82140fc",
+      "title": "人工智能，重塑存储芯片",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820200&idx=2&sn=5d5a6158279cf886b82b4b017090a366",
+      "summary": "人工智能，重塑存储芯片",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-05-25T04:23:38.097344+00:00",
+      "pub_ts": 1779683018
+    },
+    {
+      "id": "7e04c6344e",
+      "title": "英伟达积压订单，达到惊人的1万亿",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820200&idx=3&sn=97751bcd2878346cc03060d0ac62c200",
+      "summary": "英伟达积压订单，达到惊人的1万亿",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-05-25T04:23:38.097369+00:00",
+      "pub_ts": 1779683018
+    },
+    {
+      "id": "855f2c0a09",
+      "title": "酿酒师和芯片工程师的相同之处",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820200&idx=4&sn=3de0e01d99661b4626b90b961375105f",
+      "summary": "酿酒师和芯片工程师的相同之处",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-05-25T04:23:38.097391+00:00",
+      "pub_ts": 1779683018
+    },
+    {
+      "id": "c89a0d3573",
+      "title": "第十三届汽车电子创新大会(AEIF 2026)盛大召开！从“可用”迈向“好用”…..",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820200&idx=5&sn=9c3da3f7f291e7a6f60235b5bd30a256",
+      "summary": "第十三届汽车电子创新大会(AEIF 2026)盛大召开！从“可用”迈向“好用”…..",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-05-25T04:23:38.097413+00:00",
+      "pub_ts": 1779683018
     },
     {
       "id": "60160d1d68",

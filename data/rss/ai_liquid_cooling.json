@@ -3,58 +3,48 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-05-24T04:12:37.992797+00:00",
-  "item_count": 5,
+  "updated_at": "2026-05-25T04:24:05.805069+00:00",
+  "item_count": 4,
   "items": [
     {
-      "id": "ca408742ad",
-      "title": "“五类人AI替代不了，企业做第二名最稳妥”|昆仑万维方汉@AIGC2026",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892491&idx=1&sn=6ab74536efd444b09784ab1ef98dd8c4",
-      "summary": "“五类人AI替代不了，企业做第二名最稳妥”|昆仑万维方汉@AIGC2026",
+      "id": "d1ed26fcc9",
+      "title": "卷到今天，Agent的含金量还在提升|AIGC2026圆桌论坛",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892584&idx=1&sn=d4597803a290e59205b8a5fde9dff3d7",
+      "summary": "卷到今天，Agent的含金量还在提升|AIGC2026圆桌论坛",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-24T04:12:32.920537+00:00",
-      "pub_ts": 1779595952
+      "pub_date": "2026-05-25T04:24:00.933475+00:00",
+      "pub_ts": 1779683040
     },
     {
-      "id": "2e3fdb808a",
-      "title": "OpenAl大神教你如何榨干 Codex",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892490&idx=1&sn=5238681911d1bf1ec74303d245de8eaf",
-      "summary": "OpenAl大神教你如何榨干 Codex",
+      "id": "b3a48011cc",
+      "title": "谷歌CEO承认Coding落后了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892583&idx=1&sn=ab7538577ed0d34a0cd4f984a65cbd6f",
+      "summary": "谷歌CEO承认Coding落后了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-24T04:12:32.920581+00:00",
-      "pub_ts": 1779595952
+      "pub_date": "2026-05-25T04:24:00.933516+00:00",
+      "pub_ts": 1779683040
     },
     {
-      "id": "75c4f5dd05",
-      "title": "DeepSeekV4价格打骨折，宁王京东网易抢着入场，梁文锋：目标是AGI",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892493&idx=1&sn=885d0aa480ad564133dc9544e8e24b20",
-      "summary": "DeepSeekV4价格打骨折，宁王京东网易抢着入场，梁文锋：目标是AGI",
+      "id": "72efa93141",
+      "title": "未来推理将吃掉70%算力，30%留给训练",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892582&idx=1&sn=dbc9293e3a44dee36b7c2ee4217fca9e",
+      "summary": "未来推理将吃掉70%算力，30%留给训练",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-24T04:12:32.920603+00:00",
-      "pub_ts": 1779595952
+      "pub_date": "2026-05-25T04:24:00.933539+00:00",
+      "pub_ts": 1779683040
     },
     {
-      "id": "7f55b3226b",
-      "title": "arXiv开始拒收综述，CS新人发论文得找人背书",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892493&idx=2&sn=6295ed00131e9a3d40cb3adc55a05959",
-      "summary": "arXiv开始拒收综述，CS新人发论文得找人背书",
+      "id": "5b4d191120",
+      "title": "什么！你说胡彦斌也在苦修VibeCoding",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892541&idx=1&sn=82b34f9a37463ad838a25d283587fb59",
+      "summary": "什么！你说胡彦斌也在苦修VibeCoding",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-24T04:12:32.920623+00:00",
-      "pub_ts": 1779595952
-    },
-    {
-      "id": "e7d7558d9a",
-      "title": "刚刚，马斯克第三代星舰首飞成功！",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892476&idx=1&sn=6fce732f267e4c13c18445d6b3ff9f12",
-      "summary": "刚刚，马斯克第三代星舰首飞成功！",
-      "source": "量子位-AI硬件",
-      "lang": "zh",
-      "pub_date": "2026-05-24T04:12:32.920642+00:00",
-      "pub_ts": 1779595952
+      "pub_date": "2026-05-25T04:24:00.933560+00:00",
+      "pub_ts": 1779683040
     }
   ],
   "source_success_count": 1,
