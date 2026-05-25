@@ -103,6 +103,20 @@ class MonthlyUpdateTests(unittest.TestCase):
         monthly = load_module("scripts/monthly_update.py", "monthly_update")
         self.assertEqual(str(monthly.resolve_run_date("2026-05-19")), "2026-05-19")
 
+    def test_sync_data_js_metadata_updates_last_updated(self):
+        monthly = load_module("scripts/monthly_update.py", "monthly_update")
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "data.js"
+            path.write_text(
+                'window.BURKERT_DATA = { meta: { lastUpdated: "2026-05-20", updatedBy: "Nicole" } };\n',
+                encoding="utf-8",
+            )
+
+            ok = monthly.sync_data_js_metadata(path, today=monthly.dt.date(2026, 5, 25))
+
+            self.assertTrue(ok)
+            self.assertIn('lastUpdated: "2026-05-25"', path.read_text(encoding="utf-8"))
+
     def test_refresh_rss_restores_backup_when_refreshed_index_is_empty(self):
         monthly = load_module("scripts/monthly_update.py", "monthly_update")
         with tempfile.TemporaryDirectory() as tmp:

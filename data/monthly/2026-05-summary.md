@@ -37,6 +37,7 @@
 ## 执行备注
 - offline mode: skipped report download, RSS refresh, RAG rebuild, and news scoring
 - homepage injected from history snapshot 2026-05
+- data.js metadata synced to homepage refresh date
 
 ## 需要重点审核
 - 请重点核查自动抓取失败的数据源，以及 Heat 变化幅度最大的赛道。

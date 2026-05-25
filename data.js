@@ -6,7 +6,7 @@
 
 window.BURKERT_DATA = {
   meta: {
-    lastUpdated: "2026-05-20",
+    lastUpdated: "2026-05-25",
     updatedBy: "Nicole",
     version: "2.1"
   },

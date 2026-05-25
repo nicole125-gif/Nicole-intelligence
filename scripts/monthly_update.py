@@ -14,6 +14,7 @@ import datetime as dt
 import hashlib
 import json
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -337,6 +338,23 @@ def build_injection_payload(period: str, payload: dict, today: dt.date | None = 
     return injection
 
 
+def sync_data_js_metadata(path: Path, today: dt.date | None = None) -> bool:
+    if not path.exists():
+        return False
+    text = path.read_text(encoding="utf-8")
+    new_date = (today or dt.date.today()).isoformat()
+    updated = re.subn(
+        r'(\blastUpdated:\s*")[0-9]{4}-[0-9]{2}-[0-9]{2}(")',
+        rf"\g<1>{new_date}\2",
+        text,
+        count=1,
+    )
+    if updated[1] == 0:
+        return False
+    path.write_text(updated[0], encoding="utf-8")
+    return True
+
+
 def write_summary(
     path: Path,
     period: str,
@@ -422,6 +440,10 @@ def run_monthly_update(args: argparse.Namespace) -> None:
 
         inject_scores(injection_payload, index_path=ROOT / "index.html", backup=False)
         step_notes.append(f"homepage injected from history snapshot {period}")
+        if sync_data_js_metadata(ROOT / "data.js", today=run_date):
+            step_notes.append("data.js metadata synced to homepage refresh date")
+        else:
+            step_notes.append("data.js metadata sync skipped: lastUpdated field not found")
 
     summary_path = DATA_MONTHLY / f"{period}-summary.md"
     if args.dry_run:
