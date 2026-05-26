@@ -3,9 +3,19 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-05-25T04:24:29.116373+00:00",
+  "updated_at": "2026-05-26T04:09:48.185386+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "6ae8359b85",
+      "title": "AstraZeneca, Daiichi Sankyo’s Datroway receives FDA approval for TNBC",
+      "url": "https://www.pharmaceutical-technology.com/news/astrazeneca-daiichi-datroway-fda-approval/",
+      "summary": "AstraZeneca and Daiichi Sankyo have secured approval from the US FDA for Datroway (datopotamab deruxtecan) to treat metastatic TNBC.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-05-25T09:37:16+00:00",
+      "pub_ts": 1779701836
+    },
     {
       "id": "42be63e919",
       "title": "Q&A: How 3PLs are navigating the latest pharma trends",
@@ -45,16 +55,6 @@
       "lang": "en",
       "pub_date": "2026-05-22T10:51:18+00:00",
       "pub_ts": 1779447078
-    },
-    {
-      "id": "2a89463688",
-      "title": "Gilead Sciences completes Tubulis acquisition for $5bn",
-      "url": "https://www.pharmaceutical-technology.com/news/gilead-sciences-acquires-tubulis/",
-      "summary": "Gilead Sciences has concluded its acquisition of Germany-based biotechnology company Tubulis in a transaction valued at up to $5bn.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-05-22T10:19:52+00:00",
-      "pub_ts": 1779445192
     }
   ],
   "source_success_count": 1,

@@ -3,48 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-05-25T04:24:05.805069+00:00",
-  "item_count": 4,
+  "updated_at": "2026-05-26T04:09:24.954692+00:00",
+  "item_count": 5,
   "items": [
     {
-      "id": "d1ed26fcc9",
-      "title": "卷到今天，Agent的含金量还在提升|AIGC2026圆桌论坛",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892584&idx=1&sn=d4597803a290e59205b8a5fde9dff3d7",
-      "summary": "卷到今天，Agent的含金量还在提升|AIGC2026圆桌论坛",
+      "id": "dae2024822",
+      "title": "京东Joylnside戴文军：AI的终极形态不是聊天，是融入你家每一件物品...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892878&idx=1&sn=5536bb36e59f5203c86a508e03adeda0",
+      "summary": "京东Joylnside戴文军：AI的终极形态不是聊天，是融入你家每一件物品...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-25T04:24:00.933475+00:00",
-      "pub_ts": 1779683040
+      "pub_date": "2026-05-26T04:09:20.511886+00:00",
+      "pub_ts": 1779768560
     },
     {
-      "id": "b3a48011cc",
-      "title": "谷歌CEO承认Coding落后了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892583&idx=1&sn=ab7538577ed0d34a0cd4f984a65cbd6f",
-      "summary": "谷歌CEO承认Coding落后了",
+      "id": "10db9b67b5",
+      "title": "Codex自我蒸馏玩法火了！OpenAl员工亲授：复制粘贴就能让AI消灭重复劳动",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892878&idx=2&sn=eb14752322016422409caab9f137d138",
+      "summary": "Codex自我蒸馏玩法火了！OpenAl员工亲授：复制粘贴就能让AI消灭重复劳动",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-25T04:24:00.933516+00:00",
-      "pub_ts": 1779683040
+      "pub_date": "2026-05-26T04:09:20.511931+00:00",
+      "pub_ts": 1779768560
     },
     {
-      "id": "72efa93141",
-      "title": "未来推理将吃掉70%算力，30%留给训练",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892582&idx=1&sn=dbc9293e3a44dee36b7c2ee4217fca9e",
-      "summary": "未来推理将吃掉70%算力，30%留给训练",
+      "id": "97bfb42df6",
+      "title": "“VLA和世界模型都不是终局，会有物理世界独有的模型”蚂蚁灵波沈宇军...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892733&idx=1&sn=9aad2be1c29e071e20ccc0c7709203e9",
+      "summary": "“VLA和世界模型都不是终局，会有物理世界独有的模型”蚂蚁灵波沈宇军...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-25T04:24:00.933539+00:00",
-      "pub_ts": 1779683040
+      "pub_date": "2026-05-26T04:09:20.511954+00:00",
+      "pub_ts": 1779768560
     },
     {
-      "id": "5b4d191120",
-      "title": "什么！你说胡彦斌也在苦修VibeCoding",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892541&idx=1&sn=82b34f9a37463ad838a25d283587fb59",
-      "summary": "什么！你说胡彦斌也在苦修VibeCoding",
+      "id": "1237fe40e3",
+      "title": "抢疯了！AI宠物翻译器：800多块，预售2万单",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892733&idx=2&sn=de5ae4b4dbd0bee1955792dd3c3b4a7c",
+      "summary": "抢疯了！AI宠物翻译器：800多块，预售2万单",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-25T04:24:00.933560+00:00",
-      "pub_ts": 1779683040
+      "pub_date": "2026-05-26T04:09:20.511975+00:00",
+      "pub_ts": 1779768560
+    },
+    {
+      "id": "8da7d54d0e",
+      "title": "图灵奖得主领衔，中国大模型第一梯队集结！2026智源大会，看懂AI下一程",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892730&idx=2&sn=7f4566b76dab8c4ec3e75fa2dd686b7c",
+      "summary": "图灵奖得主领衔，中国大模型第一梯队集结！2026智源大会，看懂AI下一程",
+      "source": "量子位-AI硬件",
+      "lang": "zh",
+      "pub_date": "2026-05-26T04:09:20.511996+00:00",
+      "pub_ts": 1779768560
     }
   ],
   "source_success_count": 1,

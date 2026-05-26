@@ -3,9 +3,59 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-05-25T04:24:16.597238+00:00",
+  "updated_at": "2026-05-26T04:09:35.664456+00:00",
   "item_count": 10,
   "items": [
+    {
+      "id": "68f34129c2",
+      "title": "Yamaha Motor to Showcase Hydrogen Engine Motorcycle, Outboard Motor and Golf Cart at AXIA EXPO 2026",
+      "url": "https://fuelcellsworks.com/2026/05/24/fuel-cells/show-more-1-57-pm-yamaha-motor-to-showcase-hydrogen-engine-motorcycle-outboard-motor-and-golf-cart-at-axia-expo-2026",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-05-25T15:30:40+00:00",
+      "pub_ts": 1779723040
+    },
+    {
+      "id": "215fc64cbe",
+      "title": "114M Lürssen Fuel-Cell Superyacht Nausicaä Delivered",
+      "url": "https://fuelcellsworks.com/2026/05/25/fuel-cells/114m-lurssen-fuel-cell-superyacht-nausicaa-delivered",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-05-25T15:23:42+00:00",
+      "pub_ts": 1779722622
+    },
+    {
+      "id": "f82faabb1b",
+      "title": "Port of Tilbury Showcases Green Hydrogen and Decarbonisation Projects",
+      "url": "https://fuelcellsworks.com/2026/05/22/green-hydrogen/port-of-tilbury-showcases-green-hydrogen-and-decarbonisation-projects",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-05-25T14:47:36+00:00",
+      "pub_ts": 1779720456
+    },
+    {
+      "id": "c53c540810",
+      "title": "India Expands Fuel-Pump Verification Rules to Cover Hydrogen and Other Cleaner Fuels",
+      "url": "https://fuelcellsworks.com/2026/05/25/clean-energy/india-expands-fuel-pump-verification-rules-to-cover-hydrogen-and-other-cleaner-fuels",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-05-25T14:46:19+00:00",
+      "pub_ts": 1779720379
+    },
+    {
+      "id": "ced6ea1b67",
+      "title": "SHPT Debuts New Hydrogen Products in Hong Kong During Hydrogen Week",
+      "url": "https://fuelcellsworks.com/2026/05/25/clean-energy/shpt-debuts-new-hydrogen-products-in-hong-kong-during-hydrogen-week",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-05-25T14:07:50+00:00",
+      "pub_ts": 1779718070
+    },
     {
       "id": "0d4096de72",
       "title": "Netherlands opens first 32-kilometer hydrogen pipeline from Maasvlakte to Pernis",
@@ -55,56 +105,6 @@
       "lang": "en",
       "pub_date": "2026-05-23T15:59:20+00:00",
       "pub_ts": 1779551960
-    },
-    {
-      "id": "adb0d40acc",
-      "title": "BMW Group Plant Landshut to Produce Key Component for Hydrogen Drivetrain",
-      "url": "https://fuelcellsworks.com/2026/05/22/energy-innovation/bmw-group-plant-landshut-to-produce-key-component-for-hydrogen-drivetrain",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-05-22T15:52:28+00:00",
-      "pub_ts": 1779465148
-    },
-    {
-      "id": "208a06bba7",
-      "title": "Hubei: Hydrogen-Powered Vehicles Will Be Exempt From Highway Tolls Until the End of 2027",
-      "url": "https://fuelcellsworks.com/2026/05/21/fuel-cells/hubei-hydrogen-powered-vehicles-will-be-exempt-from-highway-tolls-until-the-end-of-2027",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-05-22T15:19:58+00:00",
-      "pub_ts": 1779463198
-    },
-    {
-      "id": "de8f80bf5f",
-      "title": "HRS Launches Its Hydrogen Secure Power Unit to Safeguard Data Centers Using Technology From Ballard Power Systems",
-      "url": "https://fuelcellsworks.com/2026/05/22/energy-innovation/hrs-launches-its-hydrogen-secure-power-unit-to-safeguard-data-centers-using-technology-from-ballard-power-systems",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-05-22T15:07:08+00:00",
-      "pub_ts": 1779462428
-    },
-    {
-      "id": "c06a6c7ee8",
-      "title": "Sustainable Electrolysis to Accelerate Europe’s Zero-Carbon Shift",
-      "url": "https://fuelcellsworks.com/2026/05/22/clean-energy/sustainable-electrolysis-to-accelerate-europe-s-zero-carbon-shift",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-05-22T14:58:56+00:00",
-      "pub_ts": 1779461936
-    },
-    {
-      "id": "3404683d75",
-      "title": "India and Netherlands Lock in Green Hydrogen Roadmap as Modi Visit Produces 17-Agreement Strategic Upgrade",
-      "url": "https://fuelcellsworks.com/2026/05/22/h2/india-and-netherlands-lock-in-green-hydrogen-roadmap-as-modi-visit-produces-17-agreement-strategic-upgrade",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-05-22T14:56:03+00:00",
-      "pub_ts": 1779461763
     }
   ],
   "source_success_count": 2,
