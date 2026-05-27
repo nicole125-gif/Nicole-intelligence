@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-05-26T04:09:48.185386+00:00",
+  "updated_at": "2026-05-27T04:23:14.493599+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "6ae8359b85",
-      "title": "AstraZeneca, Daiichi Sankyo’s Datroway receives FDA approval for TNBC",
-      "url": "https://www.pharmaceutical-technology.com/news/astrazeneca-daiichi-datroway-fda-approval/",
-      "summary": "AstraZeneca and Daiichi Sankyo have secured approval from the US FDA for Datroway (datopotamab deruxtecan) to treat metastatic TNBC.",
+      "id": "11630f9a6a",
+      "title": "How price variation impacts employers",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/how-price-variation-impacts-employers/",
+      "summary": "",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-25T09:37:16+00:00",
-      "pub_ts": 1779701836
+      "pub_date": "2026-05-26T16:00:11+00:00",
+      "pub_ts": 1779811211
     },
     {
-      "id": "42be63e919",
-      "title": "Q&A: How 3PLs are navigating the latest pharma trends",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/qa-how-3pls-are-navigating-the-latest-pharma-trends/",
-      "summary": "As regulatory expectations rise and advanced therapies push cold-chain complexity, 3PLs are investing in validated infrastructure, network-wide quality systems, and data-driven visibility.",
+      "id": "07b1694cb9",
+      "title": "Thinning revenues: inside the $14bn Eliquis patent cliff",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/inside-14bn-eliquis-patent-cliff/",
+      "summary": "With $14.2bn in projected revenue losses over six years, the Eliquis LOE event is set to become one of the most consequential patent cliffs in pharmaceutical history.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-22T14:22:22+00:00",
-      "pub_ts": 1779459742
+      "pub_date": "2026-05-26T15:42:34+00:00",
+      "pub_ts": 1779810154
     },
     {
-      "id": "6013ef553b",
-      "title": "CVC consortium tables $12.4bn bid to delist Italian drugmaker Recordati",
-      "url": "https://www.pharmaceutical-technology.com/news/cvc-consortium-tables-12-4bn-bid-to-delist-italian-drugmaker-recordati/",
-      "summary": "The tender offer is for €51.29 per share, representing a 13% premium on Recordati’s share price before the takeover was first disclosed.",
+      "id": "18e3a93bca",
+      "title": "EMA recommends approvals for both oral and high-dose pen of Wegovy",
+      "url": "https://www.pharmaceutical-technology.com/news/ema-recommends-approvals-for-both-oral-and-high-dose-pen-of-wegovy/",
+      "summary": "The EMA’s CHMP delivered two positive opinions, which will likely see an expansion of Novo Nordisk’s Wegovy offerings in Europe.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-22T12:50:57+00:00",
-      "pub_ts": 1779454257
+      "pub_date": "2026-05-26T15:24:53+00:00",
+      "pub_ts": 1779809093
     },
     {
-      "id": "9d2fa65fa6",
-      "title": "Accelerate post-approval research by streamlining the entire study lifecycle",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/accelerate-post-approval-research-by-streamlining-the-entire-study-lifecycle/",
-      "summary": "Paradigm Health’s SPIRE platform streamlines post-approval oncology research with pragmatic, prospective studies embedded in routine care",
+      "id": "9469fc880a",
+      "title": "Next-generation platforms poised to redefine crowded HAE landscape",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/next-generation-platforms-redefine-hae-landscape/",
+      "summary": "The HAE pharmaceutical landscape is set for unprecedented expansion as a large proportion of pipeline drugs are found in Phase III.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-22T11:41:09+00:00",
-      "pub_ts": 1779450069
+      "pub_date": "2026-05-26T13:36:50+00:00",
+      "pub_ts": 1779802610
     },
     {
-      "id": "b16ea42091",
-      "title": "European STI cases reach record high amid testing and prevention gaps",
-      "url": "https://www.pharmaceutical-technology.com/news/ecdc-report-european-sti-cases-reach-record-high/",
-      "summary": "Cases of syphilis and gonorrhoea have tripled and quadrupled, respectively, since 2015, highlighting the need for effective treatments.",
+      "id": "8feed0d074",
+      "title": "Eli Lilly to buy trio of vaccine developers in $3.8bn outlay",
+      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-to-buy-trio-of-vaccine-developers-in-3-8bn-outlay/",
+      "summary": "Via the deals, Lilly is buying biotechs with lead programmes in preventing shingles, bacteria, and Epstein-Barr Virus.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-22T10:51:18+00:00",
-      "pub_ts": 1779447078
+      "pub_date": "2026-05-26T12:28:39+00:00",
+      "pub_ts": 1779798519
     }
   ],
   "source_success_count": 1,

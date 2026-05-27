@@ -3,108 +3,138 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-05-26T04:09:10.713726+00:00",
+  "updated_at": "2026-05-27T04:22:36.080719+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "f680dc4d00",
-      "title": "如果不走华为韬定律，业内怎么走到0.2nm?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812162&idx=1&sn=9d9855a6792e1596c4402d3e05ad8afb",
-      "summary": "如果不走华为韬定律，业内怎么走到0.2nm?",
+      "id": "556f52c724",
+      "title": "对话华为何庭波：没有退路就是胜利之路，七年铸成“莫邪干将”剑",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812246&idx=1&sn=574c4300692723f2b7bd8b29242cc8b9",
+      "summary": "对话华为何庭波：没有退路就是胜利之路，七年铸成“莫邪干将”剑",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-26T04:09:06.591635+00:00",
-      "pub_ts": 1779768546
+      "pub_date": "2026-05-27T04:22:31.908759+00:00",
+      "pub_ts": 1779855751
     },
     {
-      "id": "a78eda20ba",
-      "title": "市值日本第四，铠侠别忙着“狂欢”",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812162&idx=2&sn=14a0ec6bce91c7443e2a5c787676532a",
-      "summary": "市值日本第四，铠侠别忙着“狂欢”",
+      "id": "116e958b37",
+      "title": "手机芯片三巨头，被困AI时代",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812243&idx=1&sn=746053d34114eb49330d89953068ffc9",
+      "summary": "手机芯片三巨头，被困AI时代",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-26T04:09:06.591684+00:00",
-      "pub_ts": 1779768546
+      "pub_date": "2026-05-27T04:22:31.908799+00:00",
+      "pub_ts": 1779855751
     },
     {
-      "id": "d11538e419",
-      "title": "格科：5000万像素CIS产品，出货超1亿颗",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812162&idx=3&sn=c1a21486081f5789ae9f5a5561fea552",
-      "summary": "格科：5000万像素CIS产品，出货超1亿颗",
+      "id": "4d7806c523",
+      "title": "深圳“十五五”规划纲要：国产芯片部分指标和算力集群达到国际先进水平",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812243&idx=2&sn=732bae0ec76f901631a78d153dcdb47f",
+      "summary": "深圳“十五五”规划纲要：国产芯片部分指标和算力集群达到国际先进水平",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-26T04:09:06.591710+00:00",
-      "pub_ts": 1779768546
+      "pub_date": "2026-05-27T04:22:31.908825+00:00",
+      "pub_ts": 1779855751
     },
     {
-      "id": "46a9b4a2a3",
-      "title": "主要NAND原厂：2026几无新增产能，短缺持续全年",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812162&idx=4&sn=3207475ed8163d389e589e11247cf620",
-      "summary": "主要NAND原厂：2026几无新增产能，短缺持续全年",
+      "id": "28113f604c",
+      "title": "英特尔冲击玻璃基板首个量产席位",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812243&idx=3&sn=8c234f188a7ca98ba823cc1cf78c1254",
+      "summary": "英特尔冲击玻璃基板首个量产席位",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-26T04:09:06.591732+00:00",
-      "pub_ts": 1779768546
+      "pub_date": "2026-05-27T04:22:31.908847+00:00",
+      "pub_ts": 1779855751
     },
     {
-      "id": "23c6770247",
-      "title": "ASMLHigh-NAEUV，量产时机未到",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812162&idx=5&sn=cbb33d32dfe4002afa2a361e127dd695",
-      "summary": "ASMLHigh-NAEUV，量产时机未到",
+      "id": "20cbfcc325",
+      "title": "80OVDC，凭什么颠覆传统AI机架供电？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812243&idx=4&sn=715576d690b1f1760d2b3f9698f8376e",
+      "summary": "80OVDC，凭什么颠覆传统AI机架供电？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-26T04:09:06.591752+00:00",
-      "pub_ts": 1779768546
+      "pub_date": "2026-05-27T04:22:31.908868+00:00",
+      "pub_ts": 1779855751
     },
     {
-      "id": "215366edf0",
-      "title": "全球首款900层闪存，三星造！",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820368&idx=1&sn=a8ccbc7c50d6d787e8fa50596d861a93",
-      "summary": "全球首款900层闪存，三星造！",
+      "id": "3efb31ce72",
+      "title": "美光市值，突破1万亿",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820472&idx=1&sn=c2508184c70af2fe3e08f81cb4eb9529",
+      "summary": "美光市值，突破1万亿",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-26T04:08:51.895652+00:00",
-      "pub_ts": 1779768531
+      "pub_date": "2026-05-27T04:22:23.539040+00:00",
+      "pub_ts": 1779855743
     },
     {
-      "id": "0106806637",
-      "title": "TCB设备，卖不动了?",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820308&idx=1&sn=02826810fa6a5eb0ae5976c2e0ef40ca",
-      "summary": "TCB设备，卖不动了?",
+      "id": "119e7ed3f8",
+      "title": "华为何庭波：数万人历经七年，铸成'莫邪干将剑！",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820465&idx=1&sn=2f982e6d9b7832def46ba96905de6cff",
+      "summary": "华为何庭波：数万人历经七年，铸成'莫邪干将剑！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-26T04:08:51.895707+00:00",
-      "pub_ts": 1779768531
+      "pub_date": "2026-05-27T04:22:23.539086+00:00",
+      "pub_ts": 1779855743
     },
     {
-      "id": "c4bb91e7e9",
-      "title": "华为何庭波：麒麟手机芯片性能将大幅提升",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820308&idx=2&sn=41244f7a3ad95d6554027ae2169edac8",
-      "summary": "华为何庭波：麒麟手机芯片性能将大幅提升",
+      "id": "8dfa3bbc6a",
+      "title": "英伟达颠覆英伟达",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820425&idx=1&sn=392e9d3e96155cef4058399c11a7990f",
+      "summary": "英伟达颠覆英伟达",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-26T04:08:51.895731+00:00",
-      "pub_ts": 1779768531
+      "pub_date": "2026-05-27T04:22:23.539111+00:00",
+      "pub_ts": 1779855743
     },
     {
-      "id": "34c801a153",
-      "title": "外媒对下一代光刻机的研判",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820308&idx=3&sn=547b06c17c89b1851573654dc6926ea3",
-      "summary": "外媒对下一代光刻机的研判",
+      "id": "4ec1f2ee23",
+      "title": "英特尔晶圆代工的最强武器",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820425&idx=2&sn=fe86f1203e11aa62c2eec3c0d6ed6e3f",
+      "summary": "英特尔晶圆代工的最强武器",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-26T04:08:51.895753+00:00",
-      "pub_ts": 1779768531
+      "pub_date": "2026-05-27T04:22:23.539134+00:00",
+      "pub_ts": 1779855743
     },
     {
-      "id": "61cd80e2c3",
-      "title": "美光将大幅扩产DDR 4?",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820308&idx=4&sn=8452e5fd24790df70f93a0361673657c",
-      "summary": "美光将大幅扩产DDR 4?",
+      "id": "96758fb869",
+      "title": "光芯片的新瓶颈",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820425&idx=3&sn=08d85e5905b7882d42e10f789644a9b9",
+      "summary": "光芯片的新瓶颈",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-26T04:08:51.895772+00:00",
-      "pub_ts": 1779768531
+      "pub_date": "2026-05-27T04:22:23.539155+00:00",
+      "pub_ts": 1779855743
+    },
+    {
+      "id": "6ce9d74b1b",
+      "title": "Characterization of GPU-based Inference for Reasoning-Centric LLMs (Micron, Argonne)",
+      "url": "https://semiengineering.com/characterization-of-gpu-based-inference-for-reasoning-centric-llms-micron-argonne/",
+      "summary": "Researchers from Micron Technology and Argonne National Laboratory have released “Understanding Inference Scaling for LLMs: Bottlenecks, Trade-offs, and Performance Principles”. Abstract “The transition from standard generative AI to reasoning-centric architectures, exemplified by models capable of …",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-05-26T19:11:13+00:00",
+      "pub_ts": 1779822673
+    },
+    {
+      "id": "d9f679c09a",
+      "title": "Chip Industry Technical Paper Roundup: May 26",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-may-26/",
+      "summary": "SRAM-based LLM inference; semantics-aware memory hierarchy for LLM reasoning; large-scale 2D material transfer; RISC-V vector performance portability; morphological mask optimization; trustworthy GenAI for automotive systems; HW-native GPU compilers for ML production.\nThe post Chip Industry Technica…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-05-26T13:45:32+00:00",
+      "pub_ts": 1779803132
+    },
+    {
+      "id": "bda642cc1a",
+      "title": "Research Bits: May 26",
+      "url": "https://semiengineering.com/research-bits-may-26/",
+      "summary": "Three approaches toward energy-harvesting displays.\nThe post Research Bits: May 26 appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-05-26T07:01:57+00:00",
+      "pub_ts": 1779778917
     },
     {
       "id": "982ffb40ae",
@@ -125,36 +155,6 @@
       "lang": "en",
       "pub_date": "2026-05-25T23:31:55+00:00",
       "pub_ts": 1779751915
-    },
-    {
-      "id": "836943db02",
-      "title": "An Agent-Driven End-to-End HW-SW Co-Design Benchmark for Heterogeneous SoCs (Columbia, IBM)",
-      "url": "https://semiengineering.com/an-agent-driven-end-to-end-hw-sw-co-design-benchmark-for-heterogeneous-socs-columbia-ibm/",
-      "summary": "Researchers from Columbia University and IBM Research have released “HSCO-Bench: An Agent-Driven End-to-End Hardware-Software Co-design Benchmark for Systems-on-Chip”. Abstract “Large language models (LLMs) are adopted for software and hardware design, yet these domains are still evaluated separatel…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-05-25T22:47:38+00:00",
-      "pub_ts": 1779749258
-    },
-    {
-      "id": "e28a3689f6",
-      "title": "Side-Channel Risks Across  2.5D/3D Integration and Chiplet-Based Systems (Grenoble INP – UGA et al.)",
-      "url": "https://semiengineering.com/side-channel-risks-across-advanced-chiplet-packages-uga-cnrs/",
-      "summary": "Researchers from Grenoble INP &#8211; UGA, CNRS, TIMA have released “Spying Across Chiplets: Side-Channel Attacks in 2.5/3D Integrated Systems”. Abstract “Advanced packaging and chiplet-based integration are increasingly adopted to build complex heterogeneous systems beyond the limits of monolithic …",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-05-25T17:49:46+00:00",
-      "pub_ts": 1779731386
-    },
-    {
-      "id": "9efccd9696",
-      "title": "Improving GPU Energy Efficiency With Component-Level Power Management (AMD)",
-      "url": "https://semiengineering.com/improving-gpu-energy-efficiency-with-component-level-power-management-amd/",
-      "summary": "Researchers from AMD released “CompPow: A Case for Component-level GPU Power Management”. Abstract “The ever increasing demand for ML-driven intelligence in a wide spectrum of domains has led to ubiquity of GPUs. At the same time, GPUs are notorious for their power consumption needs and often domina…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-05-25T17:37:42+00:00",
-      "pub_ts": 1779730662
     }
   ],
   "source_success_count": 3,
