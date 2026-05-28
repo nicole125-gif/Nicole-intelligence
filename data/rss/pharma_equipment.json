@@ -3,9 +3,49 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-05-27T04:23:14.493599+00:00",
+  "updated_at": "2026-05-28T04:13:46.948500+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "4d39d90cb7",
+      "title": "California startup Protuoso raises $9.5m for “mix-and-match” drug platform",
+      "url": "https://www.pharmaceutical-technology.com/news/california-startup-protuoso-raises-9-5m-for-mix-and-match-drug-platform/",
+      "summary": "The US biotech’s technology integrates multiple protein modalities to simultaneously target a variety of disease mechanisms.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-05-27T15:13:06+00:00",
+      "pub_ts": 1779894786
+    },
+    {
+      "id": "e1e75a3a65",
+      "title": "Kardigan targets IPO to support cardiology pipeline progression",
+      "url": "https://www.pharmaceutical-technology.com/news/kardigan-cardiology-biotech-ipo/",
+      "summary": "Kardigan plans to use the IPO funds to push its three in-licensed, mid-to-late-stage heart health therapies down the clinical pipeline.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-05-27T14:06:51+00:00",
+      "pub_ts": 1779890811
+    },
+    {
+      "id": "49f749b9ac",
+      "title": "Autobahn’s elunetirom receives FDA fast track designation to treat adjunctive bipolar",
+      "url": "https://www.pharmaceutical-technology.com/news/autobahns-elunetirom-fda-fast-track/",
+      "summary": "Autobahn Therapeutics has received fast track designation from the FDA for elunetirom, its lead CNS-directed thyroid hormone receptor agonist.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-05-27T09:32:40+00:00",
+      "pub_ts": 1779874360
+    },
+    {
+      "id": "30f6e85b60",
+      "title": "SK bioscience and VECOL partner on Colombia vaccine manufacturing initiative",
+      "url": "https://www.pharmaceutical-technology.com/news/sk-bioscience-vecol-colombia-vaccine-manufacturing/",
+      "summary": "SK bioscience has signed a vaccine technology transfer and manufacturing deal with VECOL, becoming part of Colombia’s $260m vaccine localisation initiative.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-05-27T09:03:33+00:00",
+      "pub_ts": 1779872613
+    },
     {
       "id": "11630f9a6a",
       "title": "How price variation impacts employers",
@@ -15,46 +55,6 @@
       "lang": "en",
       "pub_date": "2026-05-26T16:00:11+00:00",
       "pub_ts": 1779811211
-    },
-    {
-      "id": "07b1694cb9",
-      "title": "Thinning revenues: inside the $14bn Eliquis patent cliff",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/inside-14bn-eliquis-patent-cliff/",
-      "summary": "With $14.2bn in projected revenue losses over six years, the Eliquis LOE event is set to become one of the most consequential patent cliffs in pharmaceutical history.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-05-26T15:42:34+00:00",
-      "pub_ts": 1779810154
-    },
-    {
-      "id": "18e3a93bca",
-      "title": "EMA recommends approvals for both oral and high-dose pen of Wegovy",
-      "url": "https://www.pharmaceutical-technology.com/news/ema-recommends-approvals-for-both-oral-and-high-dose-pen-of-wegovy/",
-      "summary": "The EMA’s CHMP delivered two positive opinions, which will likely see an expansion of Novo Nordisk’s Wegovy offerings in Europe.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-05-26T15:24:53+00:00",
-      "pub_ts": 1779809093
-    },
-    {
-      "id": "9469fc880a",
-      "title": "Next-generation platforms poised to redefine crowded HAE landscape",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/next-generation-platforms-redefine-hae-landscape/",
-      "summary": "The HAE pharmaceutical landscape is set for unprecedented expansion as a large proportion of pipeline drugs are found in Phase III.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-05-26T13:36:50+00:00",
-      "pub_ts": 1779802610
-    },
-    {
-      "id": "8feed0d074",
-      "title": "Eli Lilly to buy trio of vaccine developers in $3.8bn outlay",
-      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-to-buy-trio-of-vaccine-developers-in-3-8bn-outlay/",
-      "summary": "Via the deals, Lilly is buying biotechs with lead programmes in preventing shingles, bacteria, and Epstein-Barr Virus.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-05-26T12:28:39+00:00",
-      "pub_ts": 1779798519
     }
   ],
   "source_success_count": 1,

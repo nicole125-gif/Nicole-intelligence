@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-05-27T04:22:50.659108+00:00",
+  "updated_at": "2026-05-28T04:13:22.933637+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "9984c2fe83",
-      "title": "将DSA注意力引入多模态，快手Keye2.0开启强化推理新范式",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893236&idx=1&sn=c753dae72af7491ab7b2bece4833e6c8",
-      "summary": "将DSA注意力引入多模态，快手Keye2.0开启强化推理新范式",
+      "id": "484613a2f4",
+      "title": "1400亿Agent入场，“流量”这条护城河要塌了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893397&idx=1&sn=efe0b3025b18d6d75d2a72661d959cd1",
+      "summary": "1400亿Agent入场，“流量”这条护城河要塌了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-27T04:22:45.478271+00:00",
-      "pub_ts": 1779855765
+      "pub_date": "2026-05-28T04:13:17.181894+00:00",
+      "pub_ts": 1779941597
     },
     {
-      "id": "e44632c47d",
-      "title": "专治世界模型幻觉！ECCV2026Workshop征稿，Sergey出席，帝国...",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893236&idx=2&sn=9041e4204dbc87949486326db09670f6",
-      "summary": "专治世界模型幻觉！ECCV2026Workshop征稿，Sergey出席，帝国...",
+      "id": "c298680088",
+      "title": "大模型也需要睡觉！让AI打个吨，醒来更聪明",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893397&idx=2&sn=6b10c525880f4303c0062a80bd069d06",
+      "summary": "大模型也需要睡觉！让AI打个吨，醒来更聪明",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-27T04:22:45.478308+00:00",
-      "pub_ts": 1779855765
+      "pub_date": "2026-05-28T04:13:17.181933+00:00",
+      "pub_ts": 1779941597
     },
     {
-      "id": "5d24af3046",
-      "title": "留给人类数学家的悬赏不多了！谷歌DeepMind一口气解决9道埃尔德什问题",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893190&idx=1&sn=385d92404c5a22898195e7b97ab9788f",
-      "summary": "留给人类数学家的悬赏不多了！谷歌DeepMind一口气解决9道埃尔德什问题",
+      "id": "eb2d067e1e",
+      "title": "7B打败o3、GPT-5！医学AI智能体让模型学会“看哪里、怎么看”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893397&idx=3&sn=d86dba851c44d7cf9236b933d052be3f",
+      "summary": "7B打败o3、GPT-5！医学AI智能体让模型学会“看哪里、怎么看”",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-27T04:22:45.478331+00:00",
-      "pub_ts": 1779855765
+      "pub_date": "2026-05-28T04:13:17.181950+00:00",
+      "pub_ts": 1779941597
     },
     {
-      "id": "9a723e20b8",
-      "title": "卡帕西Anthropic最新头衔：技术员工(MTS)",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893190&idx=2&sn=da87de36f10a870cbe4fcbbc8870d701",
-      "summary": "卡帕西Anthropic最新头衔：技术员工(MTS)",
+      "id": "48a3467877",
+      "title": "AI越用越聪明，自主+自进化是关键拼图",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893346&idx=1&sn=467ee7d51d48058966cc505d83961170",
+      "summary": "AI越用越聪明，自主+自进化是关键拼图",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-27T04:22:45.478352+00:00",
-      "pub_ts": 1779855765
+      "pub_date": "2026-05-28T04:13:17.181967+00:00",
+      "pub_ts": 1779941597
     },
     {
-      "id": "8cf9b3ce51",
-      "title": "把VLM塞进隐式世界模型，港大&小鹏机器人新框架让机器人长出物理直觉",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893190&idx=3&sn=97bfff2387074b6137f4ec87b17ec5ca",
-      "summary": "把VLM塞进隐式世界模型，港大&小鹏机器人新框架让机器人长出物理直觉",
+      "id": "578f4b6800",
+      "title": "OpenAl挖来了个F1级别车手搞公关",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893346&idx=2&sn=38fbb61d790aa2ee8c621b43e75f6c4c",
+      "summary": "OpenAl挖来了个F1级别车手搞公关",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-27T04:22:45.478372+00:00",
-      "pub_ts": 1779855765
+      "pub_date": "2026-05-28T04:13:17.181982+00:00",
+      "pub_ts": 1779941597
     }
   ],
   "source_success_count": 1,

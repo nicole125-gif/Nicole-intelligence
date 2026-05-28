@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-05-27T04:23:02.022661+00:00",
+  "updated_at": "2026-05-28T04:13:34.096346+00:00",
   "item_count": 10,
   "items": [
     {
-      "id": "e2c910cfbf",
-      "title": "Fuel Cell and Hydrogen News Highlights From China: May 16-May 22, 2026",
-      "url": "https://fuelcellsworks.com/2026/05/24/clean-energy/fuel-cell-and-hydrogen-news-highlights-from-china-may-16-may-14-2026",
+      "id": "8b5a767a7e",
+      "title": "Tech Entrepreneur Praises King Charles’ ‘Visionary’ Approach to Climate Change and Sustainability",
+      "url": "https://fuelcellsworks.com/2026/05/27/clean-energy/tech-entrepreneur-praises-king-charles-visionary-approach-to-climate-change-and-sustainability",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-05-26T16:22:58+00:00",
-      "pub_ts": 1779812578
+      "pub_date": "2026-05-27T16:10:58+00:00",
+      "pub_ts": 1779898258
     },
     {
-      "id": "07d6b17b83",
-      "title": "Indian Oil Hands over Green Hydrogen Fuel Cell Bus to Indian Army",
-      "url": "https://fuelcellsworks.com/2026/05/26/fuel-cells/indian-oil-hands-over-green-hydrogen-fuel-cell-bus-to-indian-army",
+      "id": "08012c07f2",
+      "title": "KOGAS-Tech Establishes Hydrogen Refueling Station Safety Standards Using Smart Construction",
+      "url": "https://fuelcellsworks.com/2026/05/26/h2/kogas-tech-establishes-hydrogen-refueling-station-safety-standards-using-smart-construction",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-05-26T15:53:07+00:00",
-      "pub_ts": 1779810787
+      "pub_date": "2026-05-27T16:09:09+00:00",
+      "pub_ts": 1779898149
     },
     {
-      "id": "5a2ca83121",
-      "title": "Brazil and Netherlands Sign Green Hydrogen MoU at World Hydrogen Summit to Connect South American Production with European Demand",
-      "url": "https://fuelcellsworks.com/2026/05/24/h2/show-more-12-50-pm-brazil-and-netherlands-sign-green-hydrogen-mou-at-world-hydrogen-summit-to-connect-south-american-production-with-european-demand",
+      "id": "2e8af017cf",
+      "title": "H2 Mobility Takes Control of Hydrogen Supply Chain with In-House Trailer Fleet in Germany",
+      "url": "https://fuelcellsworks.com/2026/05/19/electrolyzer/h2-mobility-takes-control-of-hydrogen-supply-chain-with-in-house-trailer-fleet-in-germany",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-05-26T15:40:40+00:00",
-      "pub_ts": 1779810040
+      "pub_date": "2026-05-27T16:01:29+00:00",
+      "pub_ts": 1779897689
     },
     {
-      "id": "7a67b8c9df",
-      "title": "Cefmof Develops Unique Hydrogen House Environment in Finland to Bring Hydrogen Into Everyday Use",
-      "url": "https://fuelcellsworks.com/2026/05/26/energy-development/cefmof-develops-unique-hydrogen-house-environment-in-finland-to-bring-hydrogen-into-everyday-use",
+      "id": "62c78d60fa",
+      "title": "The Other Great Revolution Coming to Spain with Green Hydrogen: This Province Shows How This New Energy Will Benefit More than 10,000 People",
+      "url": "https://fuelcellsworks.com/2026/05/26/green-hydrogen/the-other-great-revolution-coming-to-spain-with-green-hydrogen-this-province-shows-how-this-new-energy-will-benefit-more-than-10-000-people",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-05-26T15:37:09+00:00",
-      "pub_ts": 1779809829
+      "pub_date": "2026-05-27T15:54:49+00:00",
+      "pub_ts": 1779897289
     },
     {
-      "id": "d1a02bd6af",
-      "title": "Prominence Energy Secures A$1.56M for Gawler Natural Hydrogen-Helium Project",
-      "url": "https://fuelcellsworks.com/2026/05/26/green-investment/prominence-energy-secures-a-1-56m-for-gawler-natural-hydrogen-helium-project",
+      "id": "66ed86d8a0",
+      "title": "Hes International and North Atlantic Sign Mou to Develop International Lohc Hydrogen Import Route via Wilhelmshaven",
+      "url": "https://fuelcellsworks.com/2026/05/27/h2/hes-international-and-north-atlantic-sign-mou-to-develop-international-lohc-hydrogen-import-route-via-wilhelmshaven",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-05-26T15:31:08+00:00",
-      "pub_ts": 1779809468
+      "pub_date": "2026-05-27T15:52:46+00:00",
+      "pub_ts": 1779897166
     },
     {
       "id": "0d4096de72",
