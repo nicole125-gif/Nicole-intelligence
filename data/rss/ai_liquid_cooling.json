@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-05-28T04:13:22.933637+00:00",
+  "updated_at": "2026-05-29T04:14:59.018596+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "484613a2f4",
-      "title": "1400亿Agent入场，“流量”这条护城河要塌了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893397&idx=1&sn=efe0b3025b18d6d75d2a72661d959cd1",
-      "summary": "1400亿Agent入场，“流量”这条护城河要塌了",
+      "id": "f31c090606",
+      "title": "DeepSeekV4芯模协同背后，国产算力生态开始飞轮加速",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893592&idx=1&sn=f3de28fc4031f185ad9c2576c20c03c3",
+      "summary": "DeepSeekV4芯模协同背后，国产算力生态开始飞轮加速",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-28T04:13:17.181894+00:00",
-      "pub_ts": 1779941597
+      "pub_date": "2026-05-29T04:14:53.062892+00:00",
+      "pub_ts": 1780028093
     },
     {
-      "id": "c298680088",
-      "title": "大模型也需要睡觉！让AI打个吨，醒来更聪明",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893397&idx=2&sn=6b10c525880f4303c0062a80bd069d06",
-      "summary": "大模型也需要睡觉！让AI打个吨，醒来更聪明",
+      "id": "22c70b36db",
+      "title": "GUIAgent轨迹获取新范式：有限状态机合成无限轨迹数据，平均每条轨迹成..",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893592&idx=2&sn=b0bb834be9ebe25b9fb552f9fbb659b4",
+      "summary": "GUIAgent轨迹获取新范式：有限状态机合成无限轨迹数据，平均每条轨迹成..",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-28T04:13:17.181933+00:00",
-      "pub_ts": 1779941597
+      "pub_date": "2026-05-29T04:14:53.062930+00:00",
+      "pub_ts": 1780028093
     },
     {
-      "id": "eb2d067e1e",
-      "title": "7B打败o3、GPT-5！医学AI智能体让模型学会“看哪里、怎么看”",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893397&idx=3&sn=d86dba851c44d7cf9236b933d052be3f",
-      "summary": "7B打败o3、GPT-5！医学AI智能体让模型学会“看哪里、怎么看”",
+      "id": "a19cf77108",
+      "title": "世界模型接棒语言模型，这家公司全球首创物理AGI双金字塔”体系，通用机...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893591&idx=1&sn=bcc98ae48fb9f15ce94d9566b90f60de",
+      "summary": "世界模型接棒语言模型，这家公司全球首创物理AGI双金字塔”体系，通用机...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-28T04:13:17.181950+00:00",
-      "pub_ts": 1779941597
+      "pub_date": "2026-05-29T04:14:53.062947+00:00",
+      "pub_ts": 1780028093
     },
     {
-      "id": "48a3467877",
-      "title": "AI越用越聪明，自主+自进化是关键拼图",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893346&idx=1&sn=467ee7d51d48058966cc505d83961170",
-      "summary": "AI越用越聪明，自主+自进化是关键拼图",
+      "id": "c6bc7217d2",
+      "title": "LeCun新证明：世界是高斯的",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893591&idx=2&sn=e5cde29401541fb749e18cde32b18d06",
+      "summary": "LeCun新证明：世界是高斯的",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-28T04:13:17.181967+00:00",
-      "pub_ts": 1779941597
+      "pub_date": "2026-05-29T04:14:53.062962+00:00",
+      "pub_ts": 1780028093
     },
     {
-      "id": "578f4b6800",
-      "title": "OpenAl挖来了个F1级别车手搞公关",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893346&idx=2&sn=38fbb61d790aa2ee8c621b43e75f6c4c",
-      "summary": "OpenAl挖来了个F1级别车手搞公关",
+      "id": "7c7646a403",
+      "title": "AI正在重写软件行业？8岁孩子做操作系统，一人公司拿下千万订单Ⅰ百度秒...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893496&idx=1&sn=5c320701028c9ecde514bdc5200cfa79",
+      "summary": "AI正在重写软件行业？8岁孩子做操作系统，一人公司拿下千万订单Ⅰ百度秒...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-28T04:13:17.181982+00:00",
-      "pub_ts": 1779941597
+      "pub_date": "2026-05-29T04:14:53.062976+00:00",
+      "pub_ts": 1780028093
     }
   ],
   "source_success_count": 1,
