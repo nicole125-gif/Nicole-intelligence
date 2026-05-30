@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-05-29T04:15:25.781368+00:00",
+  "updated_at": "2026-05-30T04:00:28.983228+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "439ef40f20",
-      "title": "Healthcare cost inflation is back in the headlines",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/healthcare-cost-inflation/",
-      "summary": "The shock to global trade risks triggering a sustained period of higher medical inflation while cost-of-living crises threaten healthcare affordability.",
+      "id": "5cf5e791e3",
+      "title": "Maximising data capture in obesity trials",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/maximising-data-capture-in-obesity-trials/",
+      "summary": "ICON’s pragmatic DXA strategy captures complete visceral fat datasets, preventing “silent attrition” and protecting trial integrity, timelines, and budgets.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-28T12:43:51+00:00",
-      "pub_ts": 1779972231
+      "pub_date": "2026-05-29T11:39:36+00:00",
+      "pub_ts": 1780054776
     },
     {
-      "id": "fc046596b7",
-      "title": "Validation to velocity: Japan’s pharma model comes under execution pressure",
-      "url": "https://www.pharmaceutical-technology.com/features/validation-to-velocity-japans-pharma-model-comes-under-execution-pressure/",
-      "summary": "Japan’s pharmaceutical sector is gradually reorienting from deep, validation-led development towards execution-driven partnerships, as global pressure compresses timelines across drug development.",
+      "id": "2d2374b56d",
+      "title": "GSK’s Nucala secures NICE COPD endorsement",
+      "url": "https://www.pharmaceutical-technology.com/news/gsk-nucala-copd-nice-endorsement-nhs/",
+      "summary": "NICE now recommends Nucala for both severe asthma and COPD, expanding the drug’s clinical uptake across the UK’s public health service.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-28T09:02:56+00:00",
-      "pub_ts": 1779958976
+      "pub_date": "2026-05-29T10:26:43+00:00",
+      "pub_ts": 1780050403
     },
     {
-      "id": "4d39d90cb7",
-      "title": "California startup Protuoso raises $9.5m for “mix-and-match” drug platform",
-      "url": "https://www.pharmaceutical-technology.com/news/california-startup-protuoso-raises-9-5m-for-mix-and-match-drug-platform/",
-      "summary": "The US biotech’s technology integrates multiple protein modalities to simultaneously target a variety of disease mechanisms.",
+      "id": "8d8788f126",
+      "title": "Radiopharma on the rise: Are supply chains ready?",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/radiopharma-on-the-rise-are-supply-chains-ready/",
+      "summary": "Learn how specialized logistics and end-to-end orchestration help ensure treatments arrive on time, on temperature, and fully compliant.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-27T15:13:06+00:00",
-      "pub_ts": 1779894786
+      "pub_date": "2026-05-29T09:47:52+00:00",
+      "pub_ts": 1780048072
     },
     {
-      "id": "e1e75a3a65",
-      "title": "Kardigan targets IPO to support cardiology pipeline progression",
-      "url": "https://www.pharmaceutical-technology.com/news/kardigan-cardiology-biotech-ipo/",
-      "summary": "Kardigan plans to use the IPO funds to push its three in-licensed, mid-to-late-stage heart health therapies down the clinical pipeline.",
+      "id": "5b9da4be3f",
+      "title": "Pfizer and Innovent Biologics sign $10.5bn cancer drug development deal",
+      "url": "https://www.pharmaceutical-technology.com/news/pfizer-innovent-biologics-10bn-deal/",
+      "summary": "Pfizer and Innovent Biologics have signed a global licensing and collaboration agreement worth up to $10.5bn for the research and development of a portfolio of 12 early-stage cancer medicines.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-27T14:06:51+00:00",
-      "pub_ts": 1779890811
+      "pub_date": "2026-05-29T09:07:36+00:00",
+      "pub_ts": 1780045656
     },
     {
-      "id": "49f749b9ac",
-      "title": "Autobahn’s elunetirom receives FDA fast track designation to treat adjunctive bipolar",
-      "url": "https://www.pharmaceutical-technology.com/news/autobahns-elunetirom-fda-fast-track/",
-      "summary": "Autobahn Therapeutics has received fast track designation from the FDA for elunetirom, its lead CNS-directed thyroid hormone receptor agonist.",
+      "id": "0147e93065",
+      "title": "FDA grants priority review for Sanofi’s venglustat NDA",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-priority-review-sanofis-venglustat-nda/",
+      "summary": "Sanofi has received a priority review from the FDA for its NDA for venglustat, an oral GCSi intended for the treatment of type 3 GD3.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-27T09:32:40+00:00",
-      "pub_ts": 1779874360
+      "pub_date": "2026-05-29T07:52:44+00:00",
+      "pub_ts": 1780041164
     }
   ],
   "source_success_count": 1,

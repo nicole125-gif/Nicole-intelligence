@@ -3,98 +3,148 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-05-29T04:14:43.759112+00:00",
-  "item_count": 14,
+  "updated_at": "2026-05-30T03:59:39.413793+00:00",
+  "item_count": 15,
   "items": [
     {
-      "id": "dcdf3706ed",
-      "title": "比亚迪4nm智驾芯片，正式量产",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812424&idx=1&sn=eeecb19b2bc8b7bea82e35e421ec4cd1",
-      "summary": "比亚迪4nm智驾芯片，正式量产",
+      "id": "1d29e72111",
+      "title": "量子计算迎来“晶圆厂时刻”，谁先受益？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812474&idx=1&sn=ec3f7d713af1a996f0166e56bfeb6001",
+      "summary": "量子计算迎来“晶圆厂时刻”，谁先受益？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-29T04:14:39.729057+00:00",
-      "pub_ts": 1780028079
+      "pub_date": "2026-05-30T03:59:35.277435+00:00",
+      "pub_ts": 1780113575
     },
     {
-      "id": "cc49f2af51",
-      "title": "密集调仓，大基金同步减持多家半导体龙头",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812420&idx=1&sn=31ae2e8eaeae8bef9c7f1045013a1170",
-      "summary": "密集调仓，大基金同步减持多家半导体龙头",
+      "id": "f0ac3690c0",
+      "title": "200nm间距晶圆混合键合关键突破，套刻精度刷新纪录",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812474&idx=2&sn=c001e0096a4dfa2bd42aa1815f34ccb9",
+      "summary": "200nm间距晶圆混合键合关键突破，套刻精度刷新纪录",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-29T04:14:39.729096+00:00",
-      "pub_ts": 1780028079
+      "pub_date": "2026-05-30T03:59:35.277476+00:00",
+      "pub_ts": 1780113575
     },
     {
-      "id": "f269f95f1e",
-      "title": "算力正在下沉家庭",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812411&idx=1&sn=33f4613e55af0e28b19bd48b9fe73bec",
-      "summary": "算力正在下沉家庭",
+      "id": "42205da4e1",
+      "title": "鸿海董事长：2026年资本支出增长超过三成，内存短缺影响有限",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812474&idx=3&sn=0e8a3b8025bb6b4b3b6427e2f2036d48",
+      "summary": "鸿海董事长：2026年资本支出增长超过三成，内存短缺影响有限",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-29T04:14:39.729114+00:00",
-      "pub_ts": 1780028079
+      "pub_date": "2026-05-30T03:59:35.277503+00:00",
+      "pub_ts": 1780113575
     },
     {
-      "id": "f6a14d2670",
-      "title": "墨芯C轮融资近十亿，稀疏计算重构推理算力新格局",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812411&idx=2&sn=7a1df8d323ce7ac613cb64c52842934b",
-      "summary": "墨芯C轮融资近十亿，稀疏计算重构推理算力新格局",
+      "id": "d4672d590c",
+      "title": "算力转向推理，AI芯片规则重写",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812474&idx=4&sn=118a42943d22ef7beff83aa68ed0ba23",
+      "summary": "算力转向推理，AI芯片规则重写",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-29T04:14:39.729132+00:00",
-      "pub_ts": 1780028079
+      "pub_date": "2026-05-30T03:59:35.277526+00:00",
+      "pub_ts": 1780113575
     },
     {
-      "id": "d52a9414fc",
-      "title": "光刻胶龙头JSR，拟被出售",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812411&idx=3&sn=b3a478d29f760afcbc7f7104d8fc87d2",
-      "summary": "光刻胶龙头JSR，拟被出售",
+      "id": "bd4ba2f352",
+      "title": "西安奕材：12英寸硅片稳定批量供货台积电、美光等",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812474&idx=5&sn=e0e4e6fd95a814ecf703851ff46f4bd9",
+      "summary": "西安奕材：12英寸硅片稳定批量供货台积电、美光等",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-29T04:14:39.729149+00:00",
-      "pub_ts": 1780028079
+      "pub_date": "2026-05-30T03:59:35.277547+00:00",
+      "pub_ts": 1780113575
     },
     {
-      "id": "c54373dc96",
-      "title": "比亚迪发布4nm芯片",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820902&idx=1&sn=9bf66be5a23d58fbc89df6066bf307b2",
-      "summary": "比亚迪发布4nm芯片",
+      "id": "9abfd2286b",
+      "title": "诺基亚，变身芯片新贵",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820950&idx=1&sn=500472ac5ebeb66b328322525f73b6fe",
+      "summary": "诺基亚，变身芯片新贵",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-29T04:14:27.998334+00:00",
-      "pub_ts": 1780028067
+      "pub_date": "2026-05-30T03:59:22.376133+00:00",
+      "pub_ts": 1780113562
     },
     {
-      "id": "262987ed0e",
-      "title": "长光华芯，有点猛啊",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820864&idx=1&sn=79cc20c527e42bea55da136351a9f169",
-      "summary": "长光华芯，有点猛啊",
+      "id": "a03a75de12",
+      "title": "一颗AIMCU，是怎样炼成的！",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820950&idx=2&sn=7043b2a7ecf337eb9585179d21630885",
+      "summary": "一颗AIMCU，是怎样炼成的！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-29T04:14:27.998379+00:00",
-      "pub_ts": 1780028067
+      "pub_date": "2026-05-30T03:59:22.376182+00:00",
+      "pub_ts": 1780113562
     },
     {
-      "id": "2655ce02e5",
-      "title": "墨芯宣布：融资近10亿",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820855&idx=1&sn=233ee33555acae216de42bae79b99ff2",
-      "summary": "墨芯宣布：融资近10亿",
+      "id": "e1703b02da",
+      "title": "三十年芯片老法师的肺腑之言",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820950&idx=3&sn=e8ec2e979715dfa4b73b05c49653c980",
+      "summary": "三十年芯片老法师的肺腑之言",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-29T04:14:27.998398+00:00",
-      "pub_ts": 1780028067
+      "pub_date": "2026-05-30T03:59:22.376209+00:00",
+      "pub_ts": 1780113562
     },
     {
-      "id": "bf9924c6b9",
-      "title": "CPU，夯爆了！",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820848&idx=1&sn=bf930d582ddade1d56c48334ac0684f9",
-      "summary": "CPU，夯爆了！",
+      "id": "e1823cf304",
+      "title": "EDA巨变，验证迈向Agentic时代",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820950&idx=4&sn=deca7a19d0f1daf58048c1ba5f816449",
+      "summary": "EDA巨变，验证迈向Agentic时代",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-29T04:14:27.998414+00:00",
-      "pub_ts": 1780028067
+      "pub_date": "2026-05-30T03:59:22.376232+00:00",
+      "pub_ts": 1780113562
+    },
+    {
+      "id": "9d06b06e1a",
+      "title": "黄仁勋谈华为新突破：台积电领先10年",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820950&idx=5&sn=8b44df9083583d186f4e17c26e1385eb",
+      "summary": "黄仁勋谈华为新突破：台积电领先10年",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-05-30T03:59:22.376254+00:00",
+      "pub_ts": 1780113562
+    },
+    {
+      "id": "84dcb488a3",
+      "title": "Building Fixed HW Implementations of Neural Networks (Yale, Cornell et al.)",
+      "url": "https://semiengineering.com/building-fixed-hw-implementations-of-neural-networks-yale-cornell-et-al/",
+      "summary": "Researchers from Yale University, Cornell University, Boston University, and NTT Research have published “Physical Foundation Models: Fixed hardware implementations of large-scale neural networks”. Abstract &#8220;Foundation models are deep neural networks (such as GPT-5, Gemini~3, and Opus~4) train…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-05-29T18:01:22+00:00",
+      "pub_ts": 1780077682
+    },
+    {
+      "id": "7c20f94037",
+      "title": "Moving Defect Detection And Classification To The Edge",
+      "url": "https://semiengineering.com/moving-defect-detection-and-classification-to-the-edge/",
+      "summary": "Explosion in defectivity requires much faster determination of critical and non-critical defects.\nThe post Moving Defect Detection And Classification To The Edge appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-05-29T07:15:12+00:00",
+      "pub_ts": 1780038912
+    },
+    {
+      "id": "78880847c6",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-140/",
+      "summary": "AI panel-level packaging innovations at ECTC; cool HBM; 2nm EDA tools; side-channel attacks in 2.5/3D; Huawei claims; IC talent initiative; glass core substrates; memory test facility; Taiwan investments; SiC teamup; DRAM sizing; sequentially stacking silicon; MIPI A-PHY SerDes automotive compliance…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-05-29T07:01:27+00:00",
+      "pub_ts": 1780038087
+    },
+    {
+      "id": "7f9a4a0a99",
+      "title": "From Billions Of Violations To Actionable Insights: Calibre Vision AI",
+      "url": "https://semiengineering.com/from-billions-of-violations-to-actionable-insights-calibre-vision-ai/",
+      "summary": "Deliver faster insight, eliminate wasted debug cycles, and significantly compress overall DRC iteration time at advanced nodes.\nThe post From Billions Of Violations To Actionable Insights: Calibre Vision AI appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-05-29T07:01:05+00:00",
+      "pub_ts": 1780038065
     },
     {
       "id": "b3ce3c0abc",
@@ -105,46 +155,6 @@
       "lang": "en",
       "pub_date": "2026-05-28T07:12:57+00:00",
       "pub_ts": 1779952377
-    },
-    {
-      "id": "7f6e8ad593",
-      "title": "Toward Agentic Verification",
-      "url": "https://semiengineering.com/toward-agentic-verification/",
-      "summary": "Using AI agents for verifying designs holds huge potential, but can it deliver? And what comes next?\nThe post Toward Agentic Verification appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-05-28T07:12:28+00:00",
-      "pub_ts": 1779952348
-    },
-    {
-      "id": "ef055a3522",
-      "title": "Observability Is Essential For Modern Silicon",
-      "url": "https://semiengineering.com/observability-is-essential-for-modern-silicon/",
-      "summary": "What on-die visibility reveals, and why it's especially important for AI, automotive, aerospace, and advanced packaging.\nThe post Observability Is Essential For Modern Silicon appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-05-28T07:11:28+00:00",
-      "pub_ts": 1779952288
-    },
-    {
-      "id": "7b66bac9f4",
-      "title": "Why Your NoC Verification Strategy Must Consider Using Formal",
-      "url": "https://semiengineering.com/why-your-noc-verification-strategy-must-consider-using-formal/",
-      "summary": "Exhaustive proofs are the only way to find deep corner-case bugs that can result in deadlocks and silent data corruption. \nThe post Why Your NoC Verification Strategy Must Consider Using Formal appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-05-28T07:09:02+00:00",
-      "pub_ts": 1779952142
-    },
-    {
-      "id": "9f85fcb1c0",
-      "title": "Automating Traditional PCB Layout Verification With Electrically Based Design Rule Checks",
-      "url": "https://semiengineering.com/automating-traditional-pcb-layout-verification-with-electrically-based-design-rule-checks/",
-      "summary": "Going beyond traditional spacing and distance checks to incorporate signal integrity, power integrity, electromagnetic interference, and high voltage safety rules.\nThe post Automating Traditional PCB Layout Verification With Electrically Based Design Rule Checks appeared first on Semiconductor Engin…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-05-28T07:08:32+00:00",
-      "pub_ts": 1779952112
     }
   ],
   "source_success_count": 3,

@@ -3,108 +3,108 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-05-29T04:15:13.484744+00:00",
+  "updated_at": "2026-05-30T04:00:16.635834+00:00",
   "item_count": 10,
   "items": [
     {
-      "id": "0592fd7c0c",
-      "title": "Successful taxi test with AeroDelft hydrogen aircraft at Rotterdam The Hague Airport",
-      "url": "https://hydrogen-central.com/successful-taxi-test-with-aerodelft-hydrogen-aircraft-at-rotterdam-the-hague-airport/",
-      "summary": "Successful taxi test with AeroDelft hydrogen aircraft at Rotterdam The Hague Airport A first this week for the Delft-based student team AeroDelft and their partners. They carried out the very [&#8230;]\nThe post Successful taxi test with AeroDelft hydrogen aircraft at Rotterdam The Hague Airport appe…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-05-28T17:22:33+00:00",
-      "pub_ts": 1779988953
-    },
-    {
-      "id": "6c632b7bf4",
-      "title": "Consortium validates floating hydrogen power hub for ports",
-      "url": "https://hydrogen-central.com/consortium-validates-floating-hydrogen-power-hub-for-ports/",
-      "summary": "Consortium validates floating hydrogen power hub for ports UK-based ELIRE Maritime and a consortium of technology and engineering partners have completed a feasibility programme validating what they describe as one [&#8230;]\nThe post Consortium validates floating hydrogen power hub for ports appeare…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-05-28T17:20:46+00:00",
-      "pub_ts": 1779988846
-    },
-    {
-      "id": "1da96d9cf4",
-      "title": "Hydrogen Power – GeoPura awarded contract to deliver self-sustained EV charging infrastructure across multiple RAF sites",
-      "url": "https://hydrogen-central.com/hydrogen-power-geopura-awarded-contract-to-deliver-self-sustained-ev-charging-infrastructure-across-multiple-raf-sites/",
-      "summary": "Hydrogen Power &#8211; GeoPura awarded contract to deliver self-sustained EV charging infrastructure across multiple RAF sites GeoPura&#160;has been awarded a flagship contract by the Royal Air Force to deliver zero-emission [&#8230;]\nThe post Hydrogen Power &#8211; GeoPura awarded contract to deliv…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-05-28T17:13:40+00:00",
-      "pub_ts": 1779988420
-    },
-    {
-      "id": "dd34e81eb6",
-      "title": "Hydrogen Economy – ENNOH & ENTSOG De-Risking Joint Report",
-      "url": "https://hydrogen-central.com/hydrogen-economy-ennoh-entsog-de-risking-joint-report/",
-      "summary": "Hydrogen Economy &#8211; ENNOH &#38; ENTSOG De-Risking Joint Report ENNOH and ENTSOG have published a joint report outlining practical options to de-risk investment in Europe’s future hydrogen infrastructure, highlighting the [&#8230;]\nThe post Hydrogen Economy &#8211; ENNOH &amp; ENTSOG De-Risking …",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-05-28T17:12:31+00:00",
-      "pub_ts": 1779988351
-    },
-    {
-      "id": "8bb5c0557e",
-      "title": "Northeast Brazil Opens Major Credit Line for Hydrogen and Energy Pipelines",
-      "url": "https://fuelcellsworks.com/2026/05/26/h2/northeast-brazil-opens-major-credit-line-for-hydrogen-and-energy-pipelines",
+      "id": "7e42b05176",
+      "title": "Cachimayo Plant in Peru Produces 8.6 Tons of Green Hydrogen a Day with Renewable Energy",
+      "url": "https://fuelcellsworks.com/2026/05/29/green-hydrogen/cachimayo-plant-in-peru-produces-8-6-tons-of-green-hydrogen-a-day-with-renewable-energy",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-05-28T15:43:10+00:00",
-      "pub_ts": 1779982990
+      "pub_date": "2026-05-29T16:39:45+00:00",
+      "pub_ts": 1780072785
     },
     {
-      "id": "fcd132cff9",
-      "title": "Le Mans: Bosch and Maserati Define the Hydrogen-Powered Future of Racing",
-      "url": "https://fuelcellsworks.com/2026/05/28/energy-innovation/le-mans-bosch-and-maserati-define-the-hydrogen-powered-future-of-racing",
+      "id": "e29fcbf730",
+      "title": "Toyota Greece to Showcase Hydrogen-Powered GR Yaris H2 at Acropolis Rally",
+      "url": "https://fuelcellsworks.com/2026/05/29/energy-innovation/toyota-greece-to-showcase-hydrogen-powered-gr-yaris-h2-at-acropolis-rally",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-05-28T15:41:18+00:00",
-      "pub_ts": 1779982878
+      "pub_date": "2026-05-29T15:42:37+00:00",
+      "pub_ts": 1780069357
     },
     {
-      "id": "39cbc01ea6",
-      "title": "Aternium Engages CH-IV as Owner’s Engineer for Mid-Atlantic Heavy Water/Hydrogen Project",
-      "url": "https://fuelcellsworks.com/2026/05/28/energy-innovation/aternium-engages-ch-iv-as-owner-s-engineer-for-mid-atlantic-heavy-water-hydrogen-project",
+      "id": "ce24329dad",
+      "title": "Pecém Secures R$630m Financing Push to Accelerate Green Hydrogen Export Infrastructure",
+      "url": "https://fuelcellsworks.com/2026/05/26/h2/pecem-secures-r-630m-financing-push-to-accelerate-green-hydrogen-export-infrastructure",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-05-28T15:16:57+00:00",
-      "pub_ts": 1779981417
+      "pub_date": "2026-05-29T15:39:43+00:00",
+      "pub_ts": 1780069183
     },
     {
-      "id": "be15da7bfc",
-      "title": "Japan Targets 1,500 Hydrogen Trucks and Nationwide Freight Corridors Within a Decade",
-      "url": "https://fuelcellsworks.com/2026/05/25/h2/japan-targets-1-500-hydrogen-trucks-and-nationwide-freight-corridors-within-a-decade",
+      "id": "dbfa1ec84a",
+      "title": "PowerCell: Taking Fuel Cell Durability to One Million Nautical Miles in MiNaMi",
+      "url": "https://fuelcellsworks.com/2026/05/29/energy-innovation/powercell-taking-fuel-cell-durability-to-one-million-nautical-miles-in-minami",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-05-28T15:14:38+00:00",
-      "pub_ts": 1779981278
+      "pub_date": "2026-05-29T15:37:58+00:00",
+      "pub_ts": 1780069078
     },
     {
-      "id": "80b94d25c2",
-      "title": "KBR’s PureSAF® Technology Selected for Northen Europe’s Largest SAF and E-SAF Plant by NorSAF",
-      "url": "https://fuelcellsworks.com/2026/05/28/energy-innovation/kbr-s-puresaf-technology-selected-for-northen-europe-s-largest-saf-and-e-saf-plant-by-norsaf",
+      "id": "94b33a44e7",
+      "title": "Hyguane: Towards Low-Carbon Hydrogen for Europe’s Spaceport",
+      "url": "https://fuelcellsworks.com/2026/05/29/clean-energy/hyguane-towards-low-carbon-hydrogen-for-europe-s-spaceport",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-05-28T15:06:38+00:00",
-      "pub_ts": 1779980798
+      "pub_date": "2026-05-29T15:20:56+00:00",
+      "pub_ts": 1780068056
     },
     {
-      "id": "0d4096de72",
-      "title": "Netherlands opens first 32-kilometer hydrogen pipeline from Maasvlakte to Pernis",
-      "url": "https://hydrogen-central.com/netherlands-opens-first-32-kilometer-hydrogen-pipeline-from-maasvlakte-to-pernis/",
-      "summary": "Netherlands opens first 32-kilometer hydrogen pipeline from Maasvlakte to Pernis The Netherlands on Wednesday completed the first segment of its national hydrogen network, a 32-kilometer pipeline running from Maasvlakte to [&#8230;]\nThe post Netherlands opens first 32-kilometer hydrogen pipeline fro…",
+      "id": "2df98bdc60",
+      "title": "SINTEF Selects Power to Hydrogen to Produce Green Hydrogen for the PYROCO2 EU Green Deal Project in Norway",
+      "url": "https://hydrogen-central.com/sintef-selects-power-to-hydrogen-to-produce-green-hydrogen-for-the-pyroco2-eu-green-deal-project-in-norway/",
+      "summary": "SINTEF Selects Power to Hydrogen to Produce Green Hydrogen for the PYROCO2 EU Green Deal Project in Norway COLUMBUS, Ohio, May 27, 2026 (Newswire.com) &#8211; Power to Hydrogen (P2H2), a [&#8230;]\nThe post SINTEF Selects Power to Hydrogen to Produce Green Hydrogen for the PYROCO2 EU Green Deal Proje…",
       "source": "Hydrogen Central",
       "lang": "en",
-      "pub_date": "2026-05-23T16:12:39+00:00",
-      "pub_ts": 1779552759
+      "pub_date": "2026-05-29T05:48:49+00:00",
+      "pub_ts": 1780033729
+    },
+    {
+      "id": "43ca1ed61e",
+      "title": "Oracle Launches New Campaign Highlighting Commitments to Doña Ana County – and Project Jupiter’s cleaner fuel cell power solution",
+      "url": "https://hydrogen-central.com/oracle-launches-new-campaign-highlighting-commitments-to-dona-ana-county-and-project-jupiters-cleaner-fuel-cell-power-solution/",
+      "summary": "Oracle Launches New Campaign Highlighting Commitments to Doña Ana County &#8211; and Project Jupiter’s cleaner fuel cell power solution Residents across New Mexico will soon experience a new advertising campaign [&#8230;]\nThe post Oracle Launches New Campaign Highlighting Commitments to Doña Ana Cou…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-05-29T05:48:40+00:00",
+      "pub_ts": 1780033720
+    },
+    {
+      "id": "382881e633",
+      "title": "China – Researchers Develop First Gas-Solid Hydride Ion Battery for Efficient Ambient Hydrogen Storage",
+      "url": "https://hydrogen-central.com/china-researchers-develop-first-gas-solid-hydride-ion-battery-for-efficient-ambient-hydrogen-storage/",
+      "summary": "China &#8211; Researchers Develop First Gas-Solid Hydride Ion Battery for Efficient Ambient Hydrogen Storage Researchers have recently developed the world&#8217;s first gas-solid hydride ion prototype battery (g-HIB), which uses hydrogen [&#8230;]\nThe post China &#8211; Researchers Develop First Gas…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-05-29T05:43:39+00:00",
+      "pub_ts": 1780033419
+    },
+    {
+      "id": "bdd8bb1b59",
+      "title": "Anteros Metals Confirms Hydrogen Up to 6,500 ppm in Phase 2 Gas Samples; Drilling Continues",
+      "url": "https://hydrogen-central.com/anteros-metals-confirms-hydrogen-up-to-6500-ppm-in-phase-2-gas-samples-drilling-continues/",
+      "summary": "Anteros Metals Confirms Hydrogen Up to 6,500 ppm in Phase 2 Gas Samples; Drilling Continues St. John&#8217;s, Newfoundland and Labrador&#8211;(Newsfile Corp. &#8211; May 27, 2026) &#8211; Anteros Metals Inc. (CSE: [&#8230;]\nThe post Anteros Metals Confirms Hydrogen Up to 6,500 ppm in Phase 2 Gas Sam…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-05-29T05:43:27+00:00",
+      "pub_ts": 1780033407
+    },
+    {
+      "id": "94c34605a5",
+      "title": "DESFA Inaugurates the Natural Gas Pipeline to Western Macedonia – to be fully compatible with the transportation of up to 100% hydrogen",
+      "url": "https://hydrogen-central.com/desfa-inaugurates-the-natural-gas-pipeline-to-western-macedonia-to-be-fully-compatible-with-the-transportation-of-up-to-100-hydrogen/",
+      "summary": "DESFA Inaugurates the Natural Gas Pipeline to Western Macedonia &#8211; to be fully compatible with the transportation of up to 100% hydrogen DESFA inaugurated the High-Pressure Natural Gas Pipeline to [&#8230;]\nThe post DESFA Inaugurates the Natural Gas Pipeline to Western Macedonia &#8211; to be f…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-05-29T05:39:51+00:00",
+      "pub_ts": 1780033191
     }
   ],
   "source_success_count": 2,

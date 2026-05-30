@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-05-29T04:14:59.018596+00:00",
+  "updated_at": "2026-05-30T03:59:52.851579+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "f31c090606",
-      "title": "DeepSeekV4芯模协同背后，国产算力生态开始飞轮加速",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893592&idx=1&sn=f3de28fc4031f185ad9c2576c20c03c3",
-      "summary": "DeepSeekV4芯模协同背后，国产算力生态开始飞轮加速",
+      "id": "75fb2a76e9",
+      "title": "5亿Tokens白送！全球首个商用Al主机发布，终于能放开烧Token了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893795&idx=1&sn=e1570e7f2b099258881e57818b7d0d2b",
+      "summary": "5亿Tokens白送！全球首个商用Al主机发布，终于能放开烧Token了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-29T04:14:53.062892+00:00",
-      "pub_ts": 1780028093
+      "pub_date": "2026-05-30T03:59:48.807178+00:00",
+      "pub_ts": 1780113588
     },
     {
-      "id": "22c70b36db",
-      "title": "GUIAgent轨迹获取新范式：有限状态机合成无限轨迹数据，平均每条轨迹成..",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893592&idx=2&sn=b0bb834be9ebe25b9fb552f9fbb659b4",
-      "summary": "GUIAgent轨迹获取新范式：有限状态机合成无限轨迹数据，平均每条轨迹成..",
+      "id": "cdcfb8bc4e",
+      "title": "下限零基础，上限肝大作！腾讯这个AI游戏创作平台，太野了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893795&idx=2&sn=468e326c3f9baa63b46f9aa75d2bf2b4",
+      "summary": "下限零基础，上限肝大作！腾讯这个AI游戏创作平台，太野了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-29T04:14:53.062930+00:00",
-      "pub_ts": 1780028093
+      "pub_date": "2026-05-30T03:59:48.807217+00:00",
+      "pub_ts": 1780113588
     },
     {
-      "id": "a19cf77108",
-      "title": "世界模型接棒语言模型，这家公司全球首创物理AGI双金字塔”体系，通用机...",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893591&idx=1&sn=bcc98ae48fb9f15ce94d9566b90f60de",
-      "summary": "世界模型接棒语言模型，这家公司全球首创物理AGI双金字塔”体系，通用机...",
+      "id": "c3219cdf7e",
+      "title": "刚刚，全球首个“事件级预测”具身智能世界模型来了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893758&idx=1&sn=17543fd924ae4d8e0f313dfc96307bc0",
+      "summary": "刚刚，全球首个“事件级预测”具身智能世界模型来了！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-29T04:14:53.062947+00:00",
-      "pub_ts": 1780028093
+      "pub_date": "2026-05-30T03:59:48.807240+00:00",
+      "pub_ts": 1780113588
     },
     {
-      "id": "c6bc7217d2",
-      "title": "LeCun新证明：世界是高斯的",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893591&idx=2&sn=e5cde29401541fb749e18cde32b18d06",
-      "summary": "LeCun新证明：世界是高斯的",
+      "id": "25aad442e8",
+      "title": "马斯克也拥抱C语言了！大模型训练堆栈抛弃JAX，提速一个数量级",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893758&idx=2&sn=d3ccbe639a95b987979f93cea0f40a33",
+      "summary": "马斯克也拥抱C语言了！大模型训练堆栈抛弃JAX，提速一个数量级",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-29T04:14:53.062962+00:00",
-      "pub_ts": 1780028093
+      "pub_date": "2026-05-30T03:59:48.807261+00:00",
+      "pub_ts": 1780113588
     },
     {
-      "id": "7c7646a403",
-      "title": "AI正在重写软件行业？8岁孩子做操作系统，一人公司拿下千万订单Ⅰ百度秒...",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893496&idx=1&sn=5c320701028c9ecde514bdc5200cfa79",
-      "summary": "AI正在重写软件行业？8岁孩子做操作系统，一人公司拿下千万订单Ⅰ百度秒...",
+      "id": "bd35861fa3",
+      "title": "清华系团队给大模型织了一张“智能算力电网”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893615&idx=1&sn=368281a58c9548e8d75c64c2f871bc09",
+      "summary": "清华系团队给大模型织了一张“智能算力电网”",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-29T04:14:53.062976+00:00",
-      "pub_ts": 1780028093
+      "pub_date": "2026-05-30T03:59:48.807281+00:00",
+      "pub_ts": 1780113588
     }
   ],
   "source_success_count": 1,
