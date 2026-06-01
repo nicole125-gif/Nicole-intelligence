@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-05-31T04:25:28.355429+00:00",
+  "updated_at": "2026-06-01T04:55:50.251864+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "da0e37b81d",
-      "title": "Token贵只因你喂给模型的垃圾太多了|@亚马逊王晓野AIGC2026",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893827&idx=1&sn=015684b0b946603cbc1593c27319eb3a",
-      "summary": "Token贵只因你喂给模型的垃圾太多了|@亚马逊王晓野AIGC2026",
+      "id": "a0e9f5ffe6",
+      "title": "DDIM之父宋佳铭，宣布离职",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893893&idx=1&sn=7bfc393f4bda8fa738ade7c683a223a7",
+      "summary": "DDIM之父宋佳铭，宣布离职",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-31T04:25:22.276934+00:00",
-      "pub_ts": 1780201522
+      "pub_date": "2026-06-01T04:55:44.340083+00:00",
+      "pub_ts": 1780289744
     },
     {
-      "id": "e73d07667e",
-      "title": "从Token无上限到全员Agent：MiniMax的AI Native组织进化实践ⅠMiniMa...",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893826&idx=1&sn=cedc3fe42a3e48288daadc9cdda924a6",
-      "summary": "从Token无上限到全员Agent：MiniMax的AI Native组织进化实践ⅠMiniMa...",
+      "id": "1f7df3ef8d",
+      "title": "TO-WM：最大规模预训练的开源具身世界模型来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893892&idx=1&sn=4597849571ff365136f84f3043e1cf56",
+      "summary": "TO-WM：最大规模预训练的开源具身世界模型来了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-31T04:25:22.276979+00:00",
-      "pub_ts": 1780201522
+      "pub_date": "2026-06-01T04:55:44.340128+00:00",
+      "pub_ts": 1780289744
     },
     {
-      "id": "f8067e1ffa",
-      "title": "帮Gemini拿下IMO金牌的关键先生，差点成了职业钢琴家",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893825&idx=1&sn=8400f94e7918332be98a3ae5489a70b2",
-      "summary": "帮Gemini拿下IMO金牌的关键先生，差点成了职业钢琴家",
+      "id": "1b09787304",
+      "title": "机器人原生世界动作模型问世！首创时空一体架构，复旦系团队出品",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893880&idx=1&sn=62985b132c123bdecf8f5635fd585ecd",
+      "summary": "机器人原生世界动作模型问世！首创时空一体架构，复旦系团队出品",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-31T04:25:22.277001+00:00",
-      "pub_ts": 1780201522
+      "pub_date": "2026-06-01T04:55:44.340150+00:00",
+      "pub_ts": 1780289744
     },
     {
-      "id": "399bac9014",
-      "title": "打破Agent训练瓶颈！人大&至知研究院开源ClawAgent数据+训练+评测全链条",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893825&idx=2&sn=2f1e5fdae519fe910eda7f64a58247ca",
-      "summary": "打破Agent训练瓶颈！人大&至知研究院开源ClawAgent数据+训练+评测全链条",
+      "id": "ee7e39d663",
+      "title": "英伟达版「MacBook Pro」曝光：老黄自研了CPU!",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893880&idx=2&sn=c644d0e9f0d84f172a16345899ba028b",
+      "summary": "英伟达版「MacBook Pro」曝光：老黄自研了CPU!",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-31T04:25:22.277022+00:00",
-      "pub_ts": 1780201522
+      "pub_date": "2026-06-01T04:55:44.340170+00:00",
+      "pub_ts": 1780289744
     },
     {
-      "id": "8249ee9306",
-      "title": "英伟达清华团队提出Gamma-World：世界模型从「一个人玩」到「多人共处」",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893820&idx=1&sn=a27f06e31546a3ed80d0013650d423ef",
-      "summary": "英伟达清华团队提出Gamma-World：世界模型从「一个人玩」到「多人共处」",
+      "id": "f3808b9f4a",
+      "title": "别光给Agent加Tool了，它根本选不明白！复旦×通义提出全新CUA训练范式",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893880&idx=3&sn=3801eccb44a75d9e72fc8da3c199f2a3",
+      "summary": "别光给Agent加Tool了，它根本选不明白！复旦×通义提出全新CUA训练范式",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-31T04:25:22.277042+00:00",
-      "pub_ts": 1780201522
+      "pub_date": "2026-06-01T04:55:44.340190+00:00",
+      "pub_ts": 1780289744
     }
   ],
   "source_success_count": 1,
