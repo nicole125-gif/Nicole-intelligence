@@ -3,98 +3,78 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-06-01T04:55:34.530263+00:00",
-  "item_count": 14,
+  "updated_at": "2026-06-02T04:43:28.664682+00:00",
+  "item_count": 11,
   "items": [
     {
-      "id": "9f6fdc56d9",
-      "title": "宇树上会，机器人会成为半导体下一个超级终端吗?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812525&idx=1&sn=13b456cd2cd7508ef05cab3acb26078d",
-      "summary": "宇树上会，机器人会成为半导体下一个超级终端吗?",
+      "id": "cfe9254fe3",
+      "title": "内卷之下，OLED正在悄悄换血",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812629&idx=1&sn=951fc4bf192a4c6b28baab49692b9932",
+      "summary": "内卷之下，OLED正在悄悄换血",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-01T04:55:30.485706+00:00",
-      "pub_ts": 1780289730
+      "pub_date": "2026-06-02T04:43:24.539189+00:00",
+      "pub_ts": 1780375404
     },
     {
-      "id": "c3f1b8c1ff",
-      "title": "EMIB扩产，英特尔大规模采购设备与配套物料",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812525&idx=3&sn=5a1cea7c84cbf72128ecbfcc50a89fc1",
-      "summary": "EMIB扩产，英特尔大规模采购设备与配套物料",
+      "id": "c6ebb8ef43",
+      "title": "铜互联触顶，硅光产能抢至2028年",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812629&idx=2&sn=d1255cb8056034b65df931781da7a895",
+      "summary": "铜互联触顶，硅光产能抢至2028年",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-01T04:55:30.485752+00:00",
-      "pub_ts": 1780289730
+      "pub_date": "2026-06-02T04:43:24.539235+00:00",
+      "pub_ts": 1780375404
     },
     {
-      "id": "4d0a03e220",
-      "title": "开始做AI芯片的ARM赢麻了?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812525&idx=4&sn=ceab2b52c70684ef87be8677a1b017f3",
-      "summary": "开始做AI芯片的ARM赢麻了?",
+      "id": "9bc18e34d8",
+      "title": "GSMAMWC26上海：公布Formula E体验活动及全球演讲嘉宾阵容",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812629&idx=3&sn=be0925996973ff6d6510ea9ff9cce9cc",
+      "summary": "GSMAMWC26上海：公布Formula E体验活动及全球演讲嘉宾阵容",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-01T04:55:30.485778+00:00",
-      "pub_ts": 1780289730
+      "pub_date": "2026-06-02T04:43:24.539259+00:00",
+      "pub_ts": 1780375404
     },
     {
-      "id": "561f74cfce",
-      "title": "算力芯片加持，金刚石散热将是下一个风□?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812525&idx=5&sn=054d52762e8468915e49de4575b12bf8",
-      "summary": "算力芯片加持，金刚石散热将是下一个风□?",
+      "id": "933671636f",
+      "title": "2026智能手机出货量，将迎史上最大跌幅",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812629&idx=4&sn=5f1aec339eb677e76ae5be7e5129b6f2",
+      "summary": "2026智能手机出货量，将迎史上最大跌幅",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-01T04:55:30.485800+00:00",
-      "pub_ts": 1780289730
+      "pub_date": "2026-06-02T04:43:24.539280+00:00",
+      "pub_ts": 1780375404
     },
     {
-      "id": "6951171294",
-      "title": "对话华为徐直军：绝境下逼出来的“何式定律”",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247821204&idx=1&sn=92ab3e82722ebd522a4a85f09935cf27",
-      "summary": "对话华为徐直军：绝境下逼出来的“何式定律”",
-      "source": "半导体行业观察",
+      "id": "b4d18ab143",
+      "title": "西部数据：HDD需求旺盛，2029年将迈向100TB",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812629&idx=5&sn=a9a076fac1c2dd21e5ca36b74b6441c1",
+      "summary": "西部数据：HDD需求旺盛，2029年将迈向100TB",
+      "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-01T04:55:15.737999+00:00",
-      "pub_ts": 1780289715
+      "pub_date": "2026-06-02T04:43:24.539301+00:00",
+      "pub_ts": 1780375404
     },
     {
-      "id": "c8db02e69f",
-      "title": "谈谈CPO的光源问题",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247821204&idx=2&sn=f16f034f7d18b3d92056aeb4ebcb8c22",
-      "summary": "谈谈CPO的光源问题",
+      "id": "1903839fae",
+      "title": "英伟达，最新路线图",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247821345&idx=1&sn=e3c8ab1a3d9c8e6635afd00ed0bc8d97",
+      "summary": "英伟达，最新路线图",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-01T04:55:15.738057+00:00",
-      "pub_ts": 1780289715
+      "pub_date": "2026-06-02T04:43:11.400580+00:00",
+      "pub_ts": 1780375391
     },
     {
-      "id": "2b18f1c2ad",
-      "title": "光子芯片，新突破",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247821204&idx=3&sn=d57a3a725ac313ba2ce4a1c4bf22e392",
-      "summary": "光子芯片，新突破",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-06-01T04:55:15.738081+00:00",
-      "pub_ts": 1780289715
-    },
-    {
-      "id": "d95fe650cf",
-      "title": "美国初创，要颠覆EUV光刻",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247821204&idx=4&sn=599a5cfde811073eb0f3cd082bb00940",
-      "summary": "美国初创，要颠覆EUV光刻",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-06-01T04:55:15.738102+00:00",
-      "pub_ts": 1780289715
-    },
-    {
-      "id": "7186a5462f",
-      "title": "80OV数据中心电源，困难重重",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247821204&idx=5&sn=60dd41781ce06a05cad89503f576395c",
-      "summary": "80OV数据中心电源，困难重重",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-06-01T04:55:15.738122+00:00",
-      "pub_ts": 1780289715
+      "id": "f7765a27d5",
+      "title": "The Sub-2nm Paradox",
+      "url": "https://semiengineering.com/the-sub-2nm-paradox/",
+      "summary": "Reducing variation in manufacturing, monitoring behavior over time, and targeting specific workloads can have a big impact on power, performance, and area/cost.\nThe post The Sub-2nm Paradox appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-06-01T07:01:10+00:00",
+      "pub_ts": 1780297270
     },
     {
       "id": "84dcb488a3",
@@ -135,16 +115,6 @@
       "lang": "en",
       "pub_date": "2026-05-29T07:01:05+00:00",
       "pub_ts": 1780038065
-    },
-    {
-      "id": "b3ce3c0abc",
-      "title": "Swapping Out Chiplets: I/Os Vs. Compute",
-      "url": "https://semiengineering.com/swapping-out-chiplets-i-os-vs-compute/",
-      "summary": "Multi-die assemblies give chip architects the option to change some dies while keeping the rest of the system intact, but which is best to keep? \nThe post Swapping Out Chiplets: I/Os Vs. Compute appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-05-28T07:12:57+00:00",
-      "pub_ts": 1779952377
     }
   ],
   "source_success_count": 3,

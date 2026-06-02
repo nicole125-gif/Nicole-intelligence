@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-06-01T04:56:13.552791+00:00",
+  "updated_at": "2026-06-02T04:44:05.722103+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "5cf5e791e3",
-      "title": "Maximising data capture in obesity trials",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/maximising-data-capture-in-obesity-trials/",
-      "summary": "ICON’s pragmatic DXA strategy captures complete visceral fat datasets, preventing “silent attrition” and protecting trial integrity, timelines, and budgets.",
+      "id": "2bf66f0653",
+      "title": "ATS 2026: Insmed shines in bronchiectasis with spotlight on Brinsupri",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ats-2026-insmed-shines-in-bronchiectasis-with-spotlight-on-brinsupri/",
+      "summary": "As the first-to-market DPP-1 inhibitor in the respiratory field, Brinsupri is on course to become the standard of care in bronchiectasis treatment.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-29T11:39:36+00:00",
-      "pub_ts": 1780054776
+      "pub_date": "2026-06-02T01:08:26+00:00",
+      "pub_ts": 1780362506
     },
     {
-      "id": "2d2374b56d",
-      "title": "GSK’s Nucala secures NICE COPD endorsement",
-      "url": "https://www.pharmaceutical-technology.com/news/gsk-nucala-copd-nice-endorsement-nhs/",
-      "summary": "NICE now recommends Nucala for both severe asthma and COPD, expanding the drug’s clinical uptake across the UK’s public health service.",
+      "id": "34d556f879",
+      "title": "ASCO26: RevMed’s daraxonrasib presents a turning point for pancreatic cancer",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/asco26-revmeds-daraxonrasib-presents-a-turning-point-for-pancreatic-cancer/",
+      "summary": "The field is ecstatic about the prospect of a targeted therapy meaningfully extending overall survival in pancreatic cancer.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-29T10:26:43+00:00",
-      "pub_ts": 1780050403
+      "pub_date": "2026-06-01T19:58:43+00:00",
+      "pub_ts": 1780343923
     },
     {
-      "id": "8d8788f126",
-      "title": "Radiopharma on the rise: Are supply chains ready?",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/radiopharma-on-the-rise-are-supply-chains-ready/",
-      "summary": "Learn how specialized logistics and end-to-end orchestration help ensure treatments arrive on time, on temperature, and fully compliant.",
+      "id": "06ca7746cd",
+      "title": "ASCO26: Platinum-resistant ADC leader Elahere stumbles in platinum-sensitive disease",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/asco26-platinum-resistant-adc-leader-elahere-stumbles-in-platinum-sensitive-disease/",
+      "summary": "The MIROVA miss dampens prospects for Elahere's near-term label expansion into platinum-sensitive disease.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-29T09:47:52+00:00",
-      "pub_ts": 1780048072
+      "pub_date": "2026-06-01T15:41:00+00:00",
+      "pub_ts": 1780328460
     },
     {
-      "id": "5b9da4be3f",
-      "title": "Pfizer and Innovent Biologics sign $10.5bn cancer drug development deal",
-      "url": "https://www.pharmaceutical-technology.com/news/pfizer-innovent-biologics-10bn-deal/",
-      "summary": "Pfizer and Innovent Biologics have signed a global licensing and collaboration agreement worth up to $10.5bn for the research and development of a portfolio of 12 early-stage cancer medicines.",
+      "id": "315c71067f",
+      "title": "ASCO26: Cancer vaccines and at-home injectable drugs continue to show promise",
+      "url": "https://www.pharmaceutical-technology.com/news/asco26-cancer-vaccines-and-at-home-injectable-drugs-continue-to-show-promise/",
+      "summary": "A number of companies presented new data on their cancer vaccine candidates at ASCO 2026.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-29T09:07:36+00:00",
-      "pub_ts": 1780045656
+      "pub_date": "2026-06-01T15:14:49+00:00",
+      "pub_ts": 1780326889
     },
     {
-      "id": "0147e93065",
-      "title": "FDA grants priority review for Sanofi’s venglustat NDA",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-priority-review-sanofis-venglustat-nda/",
-      "summary": "Sanofi has received a priority review from the FDA for its NDA for venglustat, an oral GCSi intended for the treatment of type 3 GD3.",
+      "id": "83c93f67ef",
+      "title": "ASCO26: key readouts in lung cancer",
+      "url": "https://www.pharmaceutical-technology.com/news/asco-2026-lung-cancer-highlights-nsclc-pfizer-bms-johnson-johnson-kelun-2/",
+      "summary": "At ASCO 2026, companies debuted data that could hold the potential to disrupt the frontline treatment paradigm for various subtypes of NSCLC.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-29T07:52:44+00:00",
-      "pub_ts": 1780041164
+      "pub_date": "2026-06-01T11:10:43+00:00",
+      "pub_ts": 1780312243
     }
   ],
   "source_success_count": 1,
