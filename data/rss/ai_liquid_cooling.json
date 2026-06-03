@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-06-02T04:43:42.394025+00:00",
+  "updated_at": "2026-06-03T04:52:35.326306+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "b2c49c2afd",
-      "title": "近2亿美元！VAST完成新一轮融资，正式披露世界模型路线",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247894090&idx=1&sn=9179a21958712e5c31ef6b8e9da5499f",
-      "summary": "近2亿美元！VAST完成新一轮融资，正式披露世界模型路线",
+      "id": "74af2d7a01",
+      "title": "MiniMaxM3一手实测：老黄PPT上74个Logo，我以为能难住它",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247894473&idx=1&sn=755c4aca625f0880465fddff7aae689a",
+      "summary": "MiniMaxM3一手实测：老黄PPT上74个Logo，我以为能难住它",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-02T04:43:38.006066+00:00",
-      "pub_ts": 1780375418
+      "pub_date": "2026-06-03T04:52:30.342904+00:00",
+      "pub_ts": 1780462350
     },
     {
-      "id": "0e7702e771",
-      "title": "云端模型如何落地物理世界？招商局狮子山人工智能实验室用LiOS打通具身智..",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247894090&idx=2&sn=e505746db4e72c7d97d75fa113db3932",
-      "summary": "云端模型如何落地物理世界？招商局狮子山人工智能实验室用LiOS打通具身智..",
+      "id": "b8767caec0",
+      "title": "英伟达各岗位薪资曝光：最贵的不是AI研究员，基本工资200万/年的扎堆",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247894473&idx=2&sn=4115485e5ed74d808c11399e94e309e8",
+      "summary": "英伟达各岗位薪资曝光：最贵的不是AI研究员，基本工资200万/年的扎堆",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-02T04:43:38.006108+00:00",
-      "pub_ts": 1780375418
+      "pub_date": "2026-06-03T04:52:30.342945+00:00",
+      "pub_ts": 1780462350
     },
     {
-      "id": "bf60e64d67",
-      "title": "老黄的Token经济学翻车了！微软亚马逊通通跳车",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247894086&idx=1&sn=42c79320ea48e4d20eeec889e6002246",
-      "summary": "老黄的Token经济学翻车了！微软亚马逊通通跳车",
+      "id": "b704e238d6",
+      "title": "字节开源统一框架Bernini：给DiT配个“大模型军师”，AI视频编辑先理解再动手",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247894384&idx=1&sn=4c28e648cdf9db49fbd69eb34e4ae693",
+      "summary": "字节开源统一框架Bernini：给DiT配个“大模型军师”，AI视频编辑先理解再动手",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-02T04:43:38.006131+00:00",
-      "pub_ts": 1780375418
+      "pub_date": "2026-06-03T04:52:30.342969+00:00",
+      "pub_ts": 1780462350
     },
     {
-      "id": "a24c91f5d6",
-      "title": "OpenAI重返机器人赛道！四大核心岗位开招",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247894086&idx=2&sn=f1e0ddc7c6e1359a20dd9f4afdbf4484",
-      "summary": "OpenAI重返机器人赛道！四大核心岗位开招",
+      "id": "46e6910a15",
+      "title": "OpenAI挖走中科大少年班校友！12岁上大学，哈佛史上最年轻正教授",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247894384&idx=2&sn=6d3b18e4b5b555d9bd5359a091f8c5ee",
+      "summary": "OpenAI挖走中科大少年班校友！12岁上大学，哈佛史上最年轻正教授",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-02T04:43:38.006152+00:00",
-      "pub_ts": 1780375418
+      "pub_date": "2026-06-03T04:52:30.342989+00:00",
+      "pub_ts": 1780462350
     },
     {
-      "id": "2bf284481a",
-      "title": "今天起，无限期免费！全球首个全模态API开放，Top10AI Lab出手",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893970&idx=1&sn=eb51ebfbd937d6dd8ad1997c0d75f21c",
-      "summary": "今天起，无限期免费！全球首个全模态API开放，Top10AI Lab出手",
+      "id": "f3e9fa87ee",
+      "title": "头部厂商集体买单，全球AI原生达人营销头号平台正在诞生！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247894165&idx=1&sn=8b6bd8dfeb2dd86592bb39326f8040e8",
+      "summary": "头部厂商集体买单，全球AI原生达人营销头号平台正在诞生！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-02T04:43:38.006171+00:00",
-      "pub_ts": 1780375418
+      "pub_date": "2026-06-03T04:52:30.343009+00:00",
+      "pub_ts": 1780462350
     }
   ],
   "source_success_count": 1,

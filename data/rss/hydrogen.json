@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-06-02T04:43:53.375640+00:00",
+  "updated_at": "2026-06-03T04:52:47.585350+00:00",
   "item_count": 10,
   "items": [
     {
-      "id": "154b995bfa",
-      "title": "Fuel Cell and Hydrogen News Highlights From China: May 23-May 29, 2026",
-      "url": "https://fuelcellsworks.com/2026/05/30/clean-energy/fuel-cell-and-hydrogen-news-highlights-from-china-may-23-may-29-2026",
+      "id": "01906ebfad",
+      "title": "Hyundai Motor’s Chinese Hydrogen Venture Named Strategic Industry Leader in Guangzhou, China",
+      "url": "https://fuelcellsworks.com/2026/05/31/h2/hyundai-motor-s-chinese-hydrogen-venture-named-strategic-industry-leader-in-guangzhou-china",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-01T16:02:14+00:00",
-      "pub_ts": 1780329734
+      "pub_date": "2026-06-02T16:10:17+00:00",
+      "pub_ts": 1780416617
     },
     {
-      "id": "0cd697f898",
-      "title": "North Atlantic Refining’s Wind-to-Hydrogen Project Clears Environmental Review as Newfoundland Eyes Green Fuel Exports",
-      "url": "https://fuelcellsworks.com/2026/06/01/h2/north-atlantic-refining-s-wind-to-hydrogen-project-clears-environmental-review-as-newfoundland-eyes-green-fuel-exports",
+      "id": "637c6ec4b2",
+      "title": "Hydrogen Combustion Van Tested at UCR",
+      "url": "https://fuelcellsworks.com/2026/06/02/fuel-cells/hydrogen-combustion-van-tested-at-ucr",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-01T15:50:38+00:00",
-      "pub_ts": 1780329038
+      "pub_date": "2026-06-02T16:05:07+00:00",
+      "pub_ts": 1780416307
     },
     {
-      "id": "857c67dfaf",
-      "title": "Engineering Students Design a Hydrogen Car to Represent Uruguay for the First Time in an International Competition",
-      "url": "https://fuelcellsworks.com/2026/06/01/energy-innovation/engineering-students-design-a-hydrogen-car-to-represent-uruguay-for-the-first-time-in-an-international-competition",
+      "id": "8fb7084655",
+      "title": "Aiqbe Incorporates Ariema to Boost the Development of Green Hydrogen in Huelva",
+      "url": "https://fuelcellsworks.com/2026/06/02/h2/aiqbe-incorporates-ariema-to-boost-the-development-of-green-hydrogen-in-huelva",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-01T15:48:54+00:00",
-      "pub_ts": 1780328934
+      "pub_date": "2026-06-02T15:58:05+00:00",
+      "pub_ts": 1780415885
     },
     {
-      "id": "9da64d254c",
-      "title": "H2 MOBILITY Lowers Prices: GHG Quota Trading Begins to Take Effect",
-      "url": "https://fuelcellsworks.com/2026/06/01/fuel-cells/h2-mobility-lowers-prices-ghg-quota-trading-begins-to-take-effect",
+      "id": "01f2adea9b",
+      "title": "ZEFES Hydrogen Fuel Cell Truck Begins Commercial Operations Along Brenner Freight Corridor",
+      "url": "https://fuelcellsworks.com/2026/06/02/fuel-cells/zefes-hydrogen-fuel-cell-truck-begins-commercial-operations-along-brenner-freight-corridor",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-01T15:39:37+00:00",
-      "pub_ts": 1780328377
+      "pub_date": "2026-06-02T15:53:07+00:00",
+      "pub_ts": 1780415587
     },
     {
-      "id": "57a89972a7",
-      "title": "Hemei Group Expands Hydrogen Presence with Acquisition of Shanxi Integrated Refueling Station",
-      "url": "https://fuelcellsworks.com/2026/06/01/h2/hemei-group-expands-hydrogen-presence-with-acquisition-of-shanxi-integrated-refueling-station",
+      "id": "44da0a754b",
+      "title": "Hydrogen Village Comes Back to Le Mans 2026: Prototypes, a Rocket and a Real H2 Station",
+      "url": "https://fuelcellsworks.com/2026/06/01/fuel-cells/hydrogen-village-comes-back-to-le-mans-2026-prototypes-a-rocket-and-a-real-h2-station",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-01T15:24:16+00:00",
-      "pub_ts": 1780327456
+      "pub_date": "2026-06-02T15:43:49+00:00",
+      "pub_ts": 1780415029
     },
     {
       "id": "2df98bdc60",

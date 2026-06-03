@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-06-02T04:44:05.722103+00:00",
+  "updated_at": "2026-06-03T04:53:00.011330+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "2bf66f0653",
-      "title": "ATS 2026: Insmed shines in bronchiectasis with spotlight on Brinsupri",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ats-2026-insmed-shines-in-bronchiectasis-with-spotlight-on-brinsupri/",
-      "summary": "As the first-to-market DPP-1 inhibitor in the respiratory field, Brinsupri is on course to become the standard of care in bronchiectasis treatment.",
+      "id": "c299b5e25c",
+      "title": "ASCO 2026: Kelonia presents positive in vivo CAR-T data in multiple myeloma",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/asco-2026-kelonia-presents-positive-in-vivo-car-t-data-in-multiple-myeloma/",
+      "summary": "Early data suggest KLN-1010, now acquired by Eli Lilly, could be more tolerable but less efficacious that AstraZeneca’s ESOT-01.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-02T01:08:26+00:00",
-      "pub_ts": 1780362506
+      "pub_date": "2026-06-02T15:17:55+00:00",
+      "pub_ts": 1780413475
     },
     {
-      "id": "34d556f879",
-      "title": "ASCO26: RevMed’s daraxonrasib presents a turning point for pancreatic cancer",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/asco26-revmeds-daraxonrasib-presents-a-turning-point-for-pancreatic-cancer/",
-      "summary": "The field is ecstatic about the prospect of a targeted therapy meaningfully extending overall survival in pancreatic cancer.",
+      "id": "93290a0fb7",
+      "title": "ASCO26: In vivo oncology approaches continue to show promise",
+      "url": "https://www.pharmaceutical-technology.com/news/asco26-in-vivo-oncology-approaches-continue-to-show-promise/",
+      "summary": "Lilly’s $7bn acquisition of Kelonia seems to be bearing fruit, with other in vivo approaches showing promise at ASCO 2026.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-01T19:58:43+00:00",
-      "pub_ts": 1780343923
+      "pub_date": "2026-06-02T14:47:01+00:00",
+      "pub_ts": 1780411621
     },
     {
-      "id": "06ca7746cd",
-      "title": "ASCO26: Platinum-resistant ADC leader Elahere stumbles in platinum-sensitive disease",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/asco26-platinum-resistant-adc-leader-elahere-stumbles-in-platinum-sensitive-disease/",
-      "summary": "The MIROVA miss dampens prospects for Elahere's near-term label expansion into platinum-sensitive disease.",
+      "id": "87eabc12ce",
+      "title": "ASCO26: Blood cancer readouts take centre stage",
+      "url": "https://www.pharmaceutical-technology.com/news/asco-2026-blood-cancer-roundup-cll-al-amyloidosis-wm-myelofibrosis/",
+      "summary": "Readouts in rare blood cancers like myelofibrosis, WM and CLL are attracting keen interest at this year’s ASCO conference.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-01T15:41:00+00:00",
-      "pub_ts": 1780328460
+      "pub_date": "2026-06-02T14:35:13+00:00",
+      "pub_ts": 1780410913
     },
     {
-      "id": "315c71067f",
-      "title": "ASCO26: Cancer vaccines and at-home injectable drugs continue to show promise",
-      "url": "https://www.pharmaceutical-technology.com/news/asco26-cancer-vaccines-and-at-home-injectable-drugs-continue-to-show-promise/",
-      "summary": "A number of companies presented new data on their cancer vaccine candidates at ASCO 2026.",
+      "id": "ece6c8a925",
+      "title": "Emerging therapies for CNS tumours: key clinical trial updates to watch at ASCO 2026",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/emerging-therapies-cns-tumours-asco-2026/",
+      "summary": "At ASCO 2026, oral abstract presenters highlighted new and exciting central nervous system (CNS) tumour treatments.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-01T15:14:49+00:00",
-      "pub_ts": 1780326889
+      "pub_date": "2026-06-02T14:33:44+00:00",
+      "pub_ts": 1780410824
     },
     {
-      "id": "83c93f67ef",
-      "title": "ASCO26: key readouts in lung cancer",
-      "url": "https://www.pharmaceutical-technology.com/news/asco-2026-lung-cancer-highlights-nsclc-pfizer-bms-johnson-johnson-kelun-2/",
-      "summary": "At ASCO 2026, companies debuted data that could hold the potential to disrupt the frontline treatment paradigm for various subtypes of NSCLC.",
+      "id": "33f373b41c",
+      "title": "ASCO 2026: Mixed SCLC result for Legend’s LB2102, Novartis expedites manufacture",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/asco-2026-mixed-sclc-result-for-legends-lb2102-novartis-expedites-manufacture/",
+      "summary": "As Legend’s LB2102 trial in SCLC fails to dazzle, co-developer Novartis banks on quick manufacturing to find a commercial edge.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-01T11:10:43+00:00",
-      "pub_ts": 1780312243
+      "pub_date": "2026-06-02T14:28:06+00:00",
+      "pub_ts": 1780410486
     }
   ],
   "source_success_count": 1,
