@@ -3,58 +3,68 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-06-03T04:52:47.585350+00:00",
+  "updated_at": "2026-06-04T04:47:33.438598+00:00",
   "item_count": 10,
   "items": [
     {
-      "id": "01906ebfad",
-      "title": "Hyundai Motor’s Chinese Hydrogen Venture Named Strategic Industry Leader in Guangzhou, China",
-      "url": "https://fuelcellsworks.com/2026/05/31/h2/hyundai-motor-s-chinese-hydrogen-venture-named-strategic-industry-leader-in-guangzhou-china",
-      "summary": "",
-      "source": "Fuel Cells Works",
+      "id": "4364c0cca1",
+      "title": "SunHydrogen Installs Improved Hydrogen Modules at Austin Pilot, With Early Field Performance Consistent with Lab-Validated Modules",
+      "url": "https://hydrogen-central.com/sunhydrogen-installs-improved-hydrogen-modules-at-austin-pilot-with-early-field-performance-consistent-with-lab-validated-modules/",
+      "summary": "SunHydrogen Installs Improved Hydrogen Modules at Austin Pilot, With Early Field Performance Consistent with Lab-Validated Modules Hydrogen modules measuring 1.92 m² (20.7 ft²), built with SunHydrogen&#8217;s latest catalyst integration and [&#8230;]\nThe post SunHydrogen Installs Improved Hydrogen M…",
+      "source": "Hydrogen Central",
       "lang": "en",
-      "pub_date": "2026-06-02T16:10:17+00:00",
-      "pub_ts": 1780416617
+      "pub_date": "2026-06-03T15:58:32+00:00",
+      "pub_ts": 1780502312
     },
     {
-      "id": "637c6ec4b2",
-      "title": "Hydrogen Combustion Van Tested at UCR",
-      "url": "https://fuelcellsworks.com/2026/06/02/fuel-cells/hydrogen-combustion-van-tested-at-ucr",
+      "id": "43c938db05",
+      "title": "The New Generation of the Irizar I6S Efficient H2 FCEV Is Here",
+      "url": "https://fuelcellsworks.com/2026/06/03/energy-innovation/the-new-generation-of-the-irizar-i6s-efficient-h2-fcev-is-here",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-02T16:05:07+00:00",
-      "pub_ts": 1780416307
+      "pub_date": "2026-06-03T15:54:57+00:00",
+      "pub_ts": 1780502097
     },
     {
-      "id": "8fb7084655",
-      "title": "Aiqbe Incorporates Ariema to Boost the Development of Green Hydrogen in Huelva",
-      "url": "https://fuelcellsworks.com/2026/06/02/h2/aiqbe-incorporates-ariema-to-boost-the-development-of-green-hydrogen-in-huelva",
+      "id": "1860385177",
+      "title": "Swansea Research Helps Power World-First Hydrogen Aero Engine Breakthrough",
+      "url": "https://fuelcellsworks.com/2026/06/03/energy-innovation/swansea-research-helps-power-world-first-hydrogen-aero-engine-breakthrough",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-02T15:58:05+00:00",
-      "pub_ts": 1780415885
+      "pub_date": "2026-06-03T15:46:53+00:00",
+      "pub_ts": 1780501613
     },
     {
-      "id": "01f2adea9b",
-      "title": "ZEFES Hydrogen Fuel Cell Truck Begins Commercial Operations Along Brenner Freight Corridor",
-      "url": "https://fuelcellsworks.com/2026/06/02/fuel-cells/zefes-hydrogen-fuel-cell-truck-begins-commercial-operations-along-brenner-freight-corridor",
+      "id": "932037984e",
+      "title": "Hazer Expands Patent Protection in Japan",
+      "url": "https://fuelcellsworks.com/2026/06/03/energy-innovation/hazer-expands-patent-protection-in-japan",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-02T15:53:07+00:00",
-      "pub_ts": 1780415587
+      "pub_date": "2026-06-03T15:41:50+00:00",
+      "pub_ts": 1780501310
     },
     {
-      "id": "44da0a754b",
-      "title": "Hydrogen Village Comes Back to Le Mans 2026: Prototypes, a Rocket and a Real H2 Station",
-      "url": "https://fuelcellsworks.com/2026/06/01/fuel-cells/hydrogen-village-comes-back-to-le-mans-2026-prototypes-a-rocket-and-a-real-h2-station",
+      "id": "5bca1319a4",
+      "title": "Green Hydrogen in Port-La-Nouvelle",
+      "url": "https://fuelcellsworks.com/2026/06/01/h2/green-hydrogen-in-port-la-nouvelle",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-02T15:43:49+00:00",
-      "pub_ts": 1780415029
+      "pub_date": "2026-06-03T14:59:36+00:00",
+      "pub_ts": 1780498776
+    },
+    {
+      "id": "4971b666b9",
+      "title": "University of Aberdeen Spin-Out Pioneers Breakthrough Method to Produce Green Hydrogen From Seawater",
+      "url": "https://fuelcellsworks.com/2026/06/03/energy-innovation/university-of-aberdeen-spin-out-pioneers-breakthrough-method-to-produce-green-hydrogen-from-seawater",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-06-03T14:55:14+00:00",
+      "pub_ts": 1780498514
     },
     {
       "id": "2df98bdc60",
@@ -95,16 +105,6 @@
       "lang": "en",
       "pub_date": "2026-05-29T05:43:27+00:00",
       "pub_ts": 1780033407
-    },
-    {
-      "id": "94c34605a5",
-      "title": "DESFA Inaugurates the Natural Gas Pipeline to Western Macedonia – to be fully compatible with the transportation of up to 100% hydrogen",
-      "url": "https://hydrogen-central.com/desfa-inaugurates-the-natural-gas-pipeline-to-western-macedonia-to-be-fully-compatible-with-the-transportation-of-up-to-100-hydrogen/",
-      "summary": "DESFA Inaugurates the Natural Gas Pipeline to Western Macedonia &#8211; to be fully compatible with the transportation of up to 100% hydrogen DESFA inaugurated the High-Pressure Natural Gas Pipeline to [&#8230;]\nThe post DESFA Inaugurates the Natural Gas Pipeline to Western Macedonia &#8211; to be f…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-05-29T05:39:51+00:00",
-      "pub_ts": 1780033191
     }
   ],
   "source_success_count": 2,

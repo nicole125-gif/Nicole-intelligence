@@ -3,9 +3,49 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-06-03T04:53:00.011330+00:00",
+  "updated_at": "2026-06-04T04:47:45.910900+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "af0b31d887",
+      "title": "Contraline secures $92.5m to push male contraceptive into late-stage trials",
+      "url": "https://www.pharmaceutical-technology.com/news/contraline-series-b-male-contraceptive/",
+      "summary": "Contraline could become the first to commercialise a reversible male contraceptive drug, provided the treatment is successful in Phase III.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-06-03T10:04:27+00:00",
+      "pub_ts": 1780481067
+    },
+    {
+      "id": "a4475b32e1",
+      "title": "AbbVie receives EC approval for Aquipta to treat migraine",
+      "url": "https://www.pharmaceutical-technology.com/news/abbvie-ec-approval-aquipta/",
+      "summary": "AbbVie has received approval from the EC for Aquipta, an oral CGRP receptor antagonist, for the acute treatment of migraine in adults, with or without aura.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-06-03T09:36:51+00:00",
+      "pub_ts": 1780479411
+    },
+    {
+      "id": "fa6af33ffa",
+      "title": "Roche’s giredestrant secures FDA priority review for breast cancer",
+      "url": "https://www.pharmaceutical-technology.com/news/roches-giredestrant-secures-fda-priority-review/",
+      "summary": "The US FDA has accepted priority review of the NDA for Roche’s investigational oral SERD, giredestrant, for breast cancer.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-06-03T08:46:09+00:00",
+      "pub_ts": 1780476369
+    },
+    {
+      "id": "bdde0a6044",
+      "title": "ASCO26: Bispecific antibody and RET fusion-targeting assets garner attention in NSCLC",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/asco26-bispecific-antibody-and-ret-fusion-targeting-assets-garner-attention-in-nsclc/",
+      "summary": "While Summit’s Harmoni-6 results drew a mixed reaction, Eli Lilly’s positive Retvemo data was expanded its potential in adjuvant NSCLC.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-06-02T23:44:30+00:00",
+      "pub_ts": 1780443870
+    },
     {
       "id": "c299b5e25c",
       "title": "ASCO 2026: Kelonia presents positive in vivo CAR-T data in multiple myeloma",
@@ -15,46 +55,6 @@
       "lang": "en",
       "pub_date": "2026-06-02T15:17:55+00:00",
       "pub_ts": 1780413475
-    },
-    {
-      "id": "93290a0fb7",
-      "title": "ASCO26: In vivo oncology approaches continue to show promise",
-      "url": "https://www.pharmaceutical-technology.com/news/asco26-in-vivo-oncology-approaches-continue-to-show-promise/",
-      "summary": "Lilly’s $7bn acquisition of Kelonia seems to be bearing fruit, with other in vivo approaches showing promise at ASCO 2026.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-06-02T14:47:01+00:00",
-      "pub_ts": 1780411621
-    },
-    {
-      "id": "87eabc12ce",
-      "title": "ASCO26: Blood cancer readouts take centre stage",
-      "url": "https://www.pharmaceutical-technology.com/news/asco-2026-blood-cancer-roundup-cll-al-amyloidosis-wm-myelofibrosis/",
-      "summary": "Readouts in rare blood cancers like myelofibrosis, WM and CLL are attracting keen interest at this year’s ASCO conference.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-06-02T14:35:13+00:00",
-      "pub_ts": 1780410913
-    },
-    {
-      "id": "ece6c8a925",
-      "title": "Emerging therapies for CNS tumours: key clinical trial updates to watch at ASCO 2026",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/emerging-therapies-cns-tumours-asco-2026/",
-      "summary": "At ASCO 2026, oral abstract presenters highlighted new and exciting central nervous system (CNS) tumour treatments.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-06-02T14:33:44+00:00",
-      "pub_ts": 1780410824
-    },
-    {
-      "id": "33f373b41c",
-      "title": "ASCO 2026: Mixed SCLC result for Legend’s LB2102, Novartis expedites manufacture",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/asco-2026-mixed-sclc-result-for-legends-lb2102-novartis-expedites-manufacture/",
-      "summary": "As Legend’s LB2102 trial in SCLC fails to dazzle, co-developer Novartis banks on quick manufacturing to find a commercial edge.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-06-02T14:28:06+00:00",
-      "pub_ts": 1780410486
     }
   ],
   "source_success_count": 1,
