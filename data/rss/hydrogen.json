@@ -3,111 +3,61 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-06-04T04:47:33.438598+00:00",
-  "item_count": 10,
+  "updated_at": "2026-06-05T04:22:17.635762+00:00",
+  "item_count": 5,
   "items": [
     {
-      "id": "4364c0cca1",
-      "title": "SunHydrogen Installs Improved Hydrogen Modules at Austin Pilot, With Early Field Performance Consistent with Lab-Validated Modules",
-      "url": "https://hydrogen-central.com/sunhydrogen-installs-improved-hydrogen-modules-at-austin-pilot-with-early-field-performance-consistent-with-lab-validated-modules/",
-      "summary": "SunHydrogen Installs Improved Hydrogen Modules at Austin Pilot, With Early Field Performance Consistent with Lab-Validated Modules Hydrogen modules measuring 1.92 m² (20.7 ft²), built with SunHydrogen&#8217;s latest catalyst integration and [&#8230;]\nThe post SunHydrogen Installs Improved Hydrogen M…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-06-03T15:58:32+00:00",
-      "pub_ts": 1780502312
-    },
-    {
-      "id": "43c938db05",
-      "title": "The New Generation of the Irizar I6S Efficient H2 FCEV Is Here",
-      "url": "https://fuelcellsworks.com/2026/06/03/energy-innovation/the-new-generation-of-the-irizar-i6s-efficient-h2-fcev-is-here",
+      "id": "3f82991574",
+      "title": "South Korea and Canada Launch Natural Hydrogen and Helium Partnership",
+      "url": "https://fuelcellsworks.com/2026/06/03/h2/south-korea-and-canada-launch-natural-hydrogen-and-helium-partnership",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-03T15:54:57+00:00",
-      "pub_ts": 1780502097
+      "pub_date": "2026-06-04T15:20:28+00:00",
+      "pub_ts": 1780586428
     },
     {
-      "id": "1860385177",
-      "title": "Swansea Research Helps Power World-First Hydrogen Aero Engine Breakthrough",
-      "url": "https://fuelcellsworks.com/2026/06/03/energy-innovation/swansea-research-helps-power-world-first-hydrogen-aero-engine-breakthrough",
+      "id": "fc5cec7312",
+      "title": "Dalhousie Hydrogen Lab Joins International Program for Hydrogen Appliance Testing",
+      "url": "https://fuelcellsworks.com/2026/06/04/energy-innovation/dalhousie-hydrogen-lab-joins-international-program-for-hydrogen-appliance-testing",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-03T15:46:53+00:00",
-      "pub_ts": 1780501613
+      "pub_date": "2026-06-04T15:19:56+00:00",
+      "pub_ts": 1780586396
     },
     {
-      "id": "932037984e",
-      "title": "Hazer Expands Patent Protection in Japan",
-      "url": "https://fuelcellsworks.com/2026/06/03/energy-innovation/hazer-expands-patent-protection-in-japan",
+      "id": "d3c5b44d13",
+      "title": "Moeve and PwC: Hydrogen and Biofuels Can Reduce Europe’s Fossil Fuel Imports",
+      "url": "https://fuelcellsworks.com/2026/06/04/electrolyzer/moeve-and-pwc-hydrogen-and-biofuels-can-reduce-europe-s-fossil-fuel-imports",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-03T15:41:50+00:00",
-      "pub_ts": 1780501310
+      "pub_date": "2026-06-04T15:19:23+00:00",
+      "pub_ts": 1780586363
     },
     {
-      "id": "5bca1319a4",
-      "title": "Green Hydrogen in Port-La-Nouvelle",
-      "url": "https://fuelcellsworks.com/2026/06/01/h2/green-hydrogen-in-port-la-nouvelle",
+      "id": "62b37070a2",
+      "title": "Japan's Green Hydrogen Market Is a $16 Billion Bet on a Country That Can't Afford to Get Energy Wrong",
+      "url": "https://fuelcellsworks.com/2026/06/03/h2/japan-s-green-hydrogen-market-is-a-16-billion-bet-on-a-country-that-can-t-afford-to-get-energy-wrong",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-03T14:59:36+00:00",
-      "pub_ts": 1780498776
+      "pub_date": "2026-06-04T15:16:49+00:00",
+      "pub_ts": 1780586209
     },
     {
-      "id": "4971b666b9",
-      "title": "University of Aberdeen Spin-Out Pioneers Breakthrough Method to Produce Green Hydrogen From Seawater",
-      "url": "https://fuelcellsworks.com/2026/06/03/energy-innovation/university-of-aberdeen-spin-out-pioneers-breakthrough-method-to-produce-green-hydrogen-from-seawater",
+      "id": "e4610f1c26",
+      "title": "Hy-Hybrid Energy Publishes Landmark White Paper: Fuel Cells for Data Centres-Powering the AI Revolution Beyond the Grid",
+      "url": "https://fuelcellsworks.com/2026/06/04/energy-innovation/hy-hybrid-energy-publishes-landmark-white-paper-fuel-cells-for-data-centres-powering-the-ai-revolution-beyond-the-grid",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-03T14:55:14+00:00",
-      "pub_ts": 1780498514
-    },
-    {
-      "id": "2df98bdc60",
-      "title": "SINTEF Selects Power to Hydrogen to Produce Green Hydrogen for the PYROCO2 EU Green Deal Project in Norway",
-      "url": "https://hydrogen-central.com/sintef-selects-power-to-hydrogen-to-produce-green-hydrogen-for-the-pyroco2-eu-green-deal-project-in-norway/",
-      "summary": "SINTEF Selects Power to Hydrogen to Produce Green Hydrogen for the PYROCO2 EU Green Deal Project in Norway COLUMBUS, Ohio, May 27, 2026 (Newswire.com) &#8211; Power to Hydrogen (P2H2), a [&#8230;]\nThe post SINTEF Selects Power to Hydrogen to Produce Green Hydrogen for the PYROCO2 EU Green Deal Proje…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-05-29T05:48:49+00:00",
-      "pub_ts": 1780033729
-    },
-    {
-      "id": "43ca1ed61e",
-      "title": "Oracle Launches New Campaign Highlighting Commitments to Doña Ana County – and Project Jupiter’s cleaner fuel cell power solution",
-      "url": "https://hydrogen-central.com/oracle-launches-new-campaign-highlighting-commitments-to-dona-ana-county-and-project-jupiters-cleaner-fuel-cell-power-solution/",
-      "summary": "Oracle Launches New Campaign Highlighting Commitments to Doña Ana County &#8211; and Project Jupiter’s cleaner fuel cell power solution Residents across New Mexico will soon experience a new advertising campaign [&#8230;]\nThe post Oracle Launches New Campaign Highlighting Commitments to Doña Ana Cou…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-05-29T05:48:40+00:00",
-      "pub_ts": 1780033720
-    },
-    {
-      "id": "382881e633",
-      "title": "China – Researchers Develop First Gas-Solid Hydride Ion Battery for Efficient Ambient Hydrogen Storage",
-      "url": "https://hydrogen-central.com/china-researchers-develop-first-gas-solid-hydride-ion-battery-for-efficient-ambient-hydrogen-storage/",
-      "summary": "China &#8211; Researchers Develop First Gas-Solid Hydride Ion Battery for Efficient Ambient Hydrogen Storage Researchers have recently developed the world&#8217;s first gas-solid hydride ion prototype battery (g-HIB), which uses hydrogen [&#8230;]\nThe post China &#8211; Researchers Develop First Gas…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-05-29T05:43:39+00:00",
-      "pub_ts": 1780033419
-    },
-    {
-      "id": "bdd8bb1b59",
-      "title": "Anteros Metals Confirms Hydrogen Up to 6,500 ppm in Phase 2 Gas Samples; Drilling Continues",
-      "url": "https://hydrogen-central.com/anteros-metals-confirms-hydrogen-up-to-6500-ppm-in-phase-2-gas-samples-drilling-continues/",
-      "summary": "Anteros Metals Confirms Hydrogen Up to 6,500 ppm in Phase 2 Gas Samples; Drilling Continues St. John&#8217;s, Newfoundland and Labrador&#8211;(Newsfile Corp. &#8211; May 27, 2026) &#8211; Anteros Metals Inc. (CSE: [&#8230;]\nThe post Anteros Metals Confirms Hydrogen Up to 6,500 ppm in Phase 2 Gas Sam…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-05-29T05:43:27+00:00",
-      "pub_ts": 1780033407
+      "pub_date": "2026-06-04T15:11:16+00:00",
+      "pub_ts": 1780585876
     }
   ],
-  "source_success_count": 2,
+  "source_success_count": 1,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }

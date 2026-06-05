@@ -3,9 +3,49 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-06-04T04:47:45.910900+00:00",
+  "updated_at": "2026-06-05T04:22:30.047174+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "ef19de7cd6",
+      "title": "Eli Lilly continues genetic medicine push with $1.9bn Ascidian partnership",
+      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-ascidian-1-9bn-genetic-medicine-partnership/",
+      "summary": "Eli Lilly’s deal with Ascidian is one of several that the pharma giant has cut within the realm of genetic medicines.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-06-04T09:44:36+00:00",
+      "pub_ts": 1780566276
+    },
+    {
+      "id": "a5549e0168",
+      "title": "Cellares and TScan to assess automated manufacturing of TSC-101 therapy",
+      "url": "https://www.pharmaceutical-technology.com/news/cellares-tscan-to-assess-tsc101-therapy/",
+      "summary": "Cellares and TScan Therapeutics have entered a deal to assess automated manufacturing for TScan’s TSC-101 therapy in AML and MDS patients.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-06-04T09:28:43+00:00",
+      "pub_ts": 1780565323
+    },
+    {
+      "id": "e7c17dd57d",
+      "title": "Regeneron and CytomX extend cancer therapy partnership to $4bn deal",
+      "url": "https://www.pharmaceutical-technology.com/news/regeneron-cytomx-cancer-therapy-partnership/",
+      "summary": "Regeneron Pharmaceuticals and CytomX have expanded their research and licensing partnership to develop conditionally activated bispecific antibody cancer therapies.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-06-04T08:21:36+00:00",
+      "pub_ts": 1780561296
+    },
+    {
+      "id": "393ef85491",
+      "title": "US lawmakers reveal policy to curb collaboration with Chinese biotech",
+      "url": "https://www.pharmaceutical-technology.com/news/us-lawmakers-reveal-policy-to-curb-collaboration-with-chinese-biotech/",
+      "summary": "If enacted, BINSA would give lawmakers the right to monitor and restrict American companies from signing biotech and pharma-focused deals with Chinese entities.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-06-03T13:37:41+00:00",
+      "pub_ts": 1780493861
+    },
     {
       "id": "af0b31d887",
       "title": "Contraline secures $92.5m to push male contraceptive into late-stage trials",
@@ -15,46 +55,6 @@
       "lang": "en",
       "pub_date": "2026-06-03T10:04:27+00:00",
       "pub_ts": 1780481067
-    },
-    {
-      "id": "a4475b32e1",
-      "title": "AbbVie receives EC approval for Aquipta to treat migraine",
-      "url": "https://www.pharmaceutical-technology.com/news/abbvie-ec-approval-aquipta/",
-      "summary": "AbbVie has received approval from the EC for Aquipta, an oral CGRP receptor antagonist, for the acute treatment of migraine in adults, with or without aura.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-06-03T09:36:51+00:00",
-      "pub_ts": 1780479411
-    },
-    {
-      "id": "fa6af33ffa",
-      "title": "Roche’s giredestrant secures FDA priority review for breast cancer",
-      "url": "https://www.pharmaceutical-technology.com/news/roches-giredestrant-secures-fda-priority-review/",
-      "summary": "The US FDA has accepted priority review of the NDA for Roche’s investigational oral SERD, giredestrant, for breast cancer.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-06-03T08:46:09+00:00",
-      "pub_ts": 1780476369
-    },
-    {
-      "id": "bdde0a6044",
-      "title": "ASCO26: Bispecific antibody and RET fusion-targeting assets garner attention in NSCLC",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/asco26-bispecific-antibody-and-ret-fusion-targeting-assets-garner-attention-in-nsclc/",
-      "summary": "While Summit’s Harmoni-6 results drew a mixed reaction, Eli Lilly’s positive Retvemo data was expanded its potential in adjuvant NSCLC.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-06-02T23:44:30+00:00",
-      "pub_ts": 1780443870
-    },
-    {
-      "id": "c299b5e25c",
-      "title": "ASCO 2026: Kelonia presents positive in vivo CAR-T data in multiple myeloma",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/asco-2026-kelonia-presents-positive-in-vivo-car-t-data-in-multiple-myeloma/",
-      "summary": "Early data suggest KLN-1010, now acquired by Eli Lilly, could be more tolerable but less efficacious that AstraZeneca’s ESOT-01.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-06-02T15:17:55+00:00",
-      "pub_ts": 1780413475
     }
   ],
   "source_success_count": 1,
