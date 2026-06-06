@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-06-05T04:22:30.047174+00:00",
+  "updated_at": "2026-06-06T04:04:20.693754+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "ef19de7cd6",
-      "title": "Eli Lilly continues genetic medicine push with $1.9bn Ascidian partnership",
-      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-ascidian-1-9bn-genetic-medicine-partnership/",
-      "summary": "Eli Lilly’s deal with Ascidian is one of several that the pharma giant has cut within the realm of genetic medicines.",
+      "id": "0be428c3fd",
+      "title": "Parabilis eyes $475m IPO to push lead asset into Phase III",
+      "url": "https://www.pharmaceutical-technology.com/news/parabilis-medicines-ipo-zolucatetide-desmoid-tumours/",
+      "summary": "Regeneron-backed Parabilis will use the funds from this IPO to progress its lead asset, zolucatetide, to Phase III in desmoid tumours.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-04T09:44:36+00:00",
-      "pub_ts": 1780566276
+      "pub_date": "2026-06-05T09:54:41+00:00",
+      "pub_ts": 1780653281
     },
     {
-      "id": "a5549e0168",
-      "title": "Cellares and TScan to assess automated manufacturing of TSC-101 therapy",
-      "url": "https://www.pharmaceutical-technology.com/news/cellares-tscan-to-assess-tsc101-therapy/",
-      "summary": "Cellares and TScan Therapeutics have entered a deal to assess automated manufacturing for TScan’s TSC-101 therapy in AML and MDS patients.",
+      "id": "22c9ac422e",
+      "title": "ASCO26 Podcast: an analyst rundown of the best readouts and key trends",
+      "url": "https://www.pharmaceutical-technology.com/features/asco-2026-podcast-analyst-rundown-best-readouts-key-trends/",
+      "summary": "Two oncology analysts share their insights from the ASCO 2026 show floor, while talking through the readouts that excited them most.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-04T09:28:43+00:00",
-      "pub_ts": 1780565323
+      "pub_date": "2026-06-05T09:34:41+00:00",
+      "pub_ts": 1780652081
     },
     {
-      "id": "e7c17dd57d",
-      "title": "Regeneron and CytomX extend cancer therapy partnership to $4bn deal",
-      "url": "https://www.pharmaceutical-technology.com/news/regeneron-cytomx-cancer-therapy-partnership/",
-      "summary": "Regeneron Pharmaceuticals and CytomX have expanded their research and licensing partnership to develop conditionally activated bispecific antibody cancer therapies.",
+      "id": "75740f3ada",
+      "title": "Pfizer signs licence agreement with Chai for AI drug discovery",
+      "url": "https://www.pharmaceutical-technology.com/news/pfizer-chai-ai-drug-discovery/",
+      "summary": "Pfizer and Chai Discovery have signed a licence deal enabling the former to incorporate Chai’s AI platform into its drug discovery operations.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-04T08:21:36+00:00",
-      "pub_ts": 1780561296
+      "pub_date": "2026-06-05T09:17:54+00:00",
+      "pub_ts": 1780651074
     },
     {
-      "id": "393ef85491",
-      "title": "US lawmakers reveal policy to curb collaboration with Chinese biotech",
-      "url": "https://www.pharmaceutical-technology.com/news/us-lawmakers-reveal-policy-to-curb-collaboration-with-chinese-biotech/",
-      "summary": "If enacted, BINSA would give lawmakers the right to monitor and restrict American companies from signing biotech and pharma-focused deals with Chinese entities.",
+      "id": "f7ab70b703",
+      "title": "Biogen’s salanersen gains FDA breakthrough therapy designation for SMA",
+      "url": "https://www.pharmaceutical-technology.com/news/biogens-salanersen-fda-breakthrough-designation/",
+      "summary": "Biogen has received the breakthrough therapy designation from the FDA for salanersen (BIIB115), an investigational treatment for SMA.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-03T13:37:41+00:00",
-      "pub_ts": 1780493861
+      "pub_date": "2026-06-05T08:46:02+00:00",
+      "pub_ts": 1780649162
     },
     {
-      "id": "af0b31d887",
-      "title": "Contraline secures $92.5m to push male contraceptive into late-stage trials",
-      "url": "https://www.pharmaceutical-technology.com/news/contraline-series-b-male-contraceptive/",
-      "summary": "Contraline could become the first to commercialise a reversible male contraceptive drug, provided the treatment is successful in Phase III.",
+      "id": "e393099873",
+      "title": "ASCO26: Solid tumour data readouts outline Merck & Co’s oncology prowess",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/asco26-solid-tumour-data-readouts-outline-merck-cos-oncology-prowess/",
+      "summary": "Keytruda continues to shine in solid tumours, and other Merck & Co assets signal designs to address Keytruda's upcoming exclusivity loss.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-03T10:04:27+00:00",
-      "pub_ts": 1780481067
+      "pub_date": "2026-06-05T02:46:24+00:00",
+      "pub_ts": 1780627584
     }
   ],
   "source_success_count": 1,

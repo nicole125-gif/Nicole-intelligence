@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-06-05T04:21:34.656340+00:00",
+  "updated_at": "2026-06-06T04:03:55.119266+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "696f4b23f9",
-      "title": "阶跃Step 3.7Flash登顶AA榜：速度、性价比、端到端三项第一",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895347&idx=1&sn=3ad9d1553604f5feb8cf92353cca25cd",
-      "summary": "阶跃Step 3.7Flash登顶AA榜：速度、性价比、端到端三项第一",
+      "id": "191ac87109",
+      "title": "有人靠CPU把AI算力密度卷到了新高度",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895482&idx=1&sn=8dc7171ae57c2b61142db7a9de24dbc3",
+      "summary": "有人靠CPU把AI算力密度卷到了新高度",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-05T04:21:29.084356+00:00",
-      "pub_ts": 1780633289
+      "pub_date": "2026-06-06T04:03:50.335367+00:00",
+      "pub_ts": 1780718630
     },
     {
-      "id": "6126bd6ef2",
-      "title": "Kimi Work 内测结论：是比Code 们更懂中国职场",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895347&idx=2&sn=e0035cdd59f5bb09df0072657ae9e858",
-      "summary": "Kimi Work 内测结论：是比Code 们更懂中国职场",
+      "id": "488ce7f4bd",
+      "title": "快手可灵提出VLM-as-Teacher：用测试时在线优化，让视频生成模型学会按...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895482&idx=2&sn=dbe47566216c3eed22ae1e8f906019be",
+      "summary": "快手可灵提出VLM-as-Teacher：用测试时在线优化，让视频生成模型学会按...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-05T04:21:29.084397+00:00",
-      "pub_ts": 1780633289
+      "pub_date": "2026-06-06T04:03:50.335407+00:00",
+      "pub_ts": 1780718630
     },
     {
-      "id": "a62fa6b5f3",
-      "title": "CVPR 2026，英伟达特斯拉Waymo一块听中国公司讲物理AI",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895048&idx=1&sn=ec4a4ad3ed33dbb770e48ffd7b1c1a5c",
-      "summary": "CVPR 2026，英伟达特斯拉Waymo一块听中国公司讲物理AI",
+      "id": "366d7053a8",
+      "title": "超越FigureAl！全球首个机器人训练楼盘开盘：30万套中国住宅，机器人拎包入住",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895414&idx=1&sn=cbef811d85e977f0d5a69bf26f590332",
+      "summary": "超越FigureAl！全球首个机器人训练楼盘开盘：30万套中国住宅，机器人拎包入住",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-05T04:21:29.084417+00:00",
-      "pub_ts": 1780633289
+      "pub_date": "2026-06-06T04:03:50.335428+00:00",
+      "pub_ts": 1780718630
     },
     {
-      "id": "5f13eba7e9",
-      "title": "连GitLab都开始裁程序员了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895048&idx=2&sn=26784e6bc12d95e419bd7c6a77a44fd1",
-      "summary": "连GitLab都开始裁程序员了",
+      "id": "0c31165d53",
+      "title": "活久见！奥特曼Dario哈萨比斯同仇敌忾：DNA得查了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895414&idx=2&sn=1deb6b74447e7d063023d385dc71e3d0",
+      "summary": "活久见！奥特曼Dario哈萨比斯同仇敌忾：DNA得查了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-05T04:21:29.084436+00:00",
-      "pub_ts": 1780633289
+      "pub_date": "2026-06-06T04:03:50.335448+00:00",
+      "pub_ts": 1780718630
     },
     {
-      "id": "c10928e0c8",
-      "title": "超越TurboQuant：Together AI把2-bitKVCache推向真实服务",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895048&idx=3&sn=c800a6ca1334742600bae6a37295cb19",
-      "summary": "超越TurboQuant：Together AI把2-bitKVCache推向真实服务",
+      "id": "2b25731cf5",
+      "title": "100亿砸向人形，不如先让10万台机器狗走进家庭",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895384&idx=1&sn=f120fe3de0cafc7135f409dbd0980e8e",
+      "summary": "100亿砸向人形，不如先让10万台机器狗走进家庭",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-05T04:21:29.084455+00:00",
-      "pub_ts": 1780633289
+      "pub_date": "2026-06-06T04:03:50.335466+00:00",
+      "pub_ts": 1780718630
     }
   ],
   "source_success_count": 1,

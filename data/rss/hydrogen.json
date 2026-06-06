@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-06-05T04:22:17.635762+00:00",
+  "updated_at": "2026-06-06T04:04:08.251173+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "3f82991574",
-      "title": "South Korea and Canada Launch Natural Hydrogen and Helium Partnership",
-      "url": "https://fuelcellsworks.com/2026/06/03/h2/south-korea-and-canada-launch-natural-hydrogen-and-helium-partnership",
+      "id": "8af15b9f1e",
+      "title": "Procter & Gamble Partners on Saudi Arabia's First Self-Driving Hydrogen Truck",
+      "url": "https://fuelcellsworks.com/2026/06/05/clean-energy/procter-and-gamble-partners-on-saudi-arabia-s-first-self-driving-hydrogen-truck",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-04T15:20:28+00:00",
-      "pub_ts": 1780586428
+      "pub_date": "2026-06-05T15:39:25+00:00",
+      "pub_ts": 1780673965
     },
     {
-      "id": "fc5cec7312",
-      "title": "Dalhousie Hydrogen Lab Joins International Program for Hydrogen Appliance Testing",
-      "url": "https://fuelcellsworks.com/2026/06/04/energy-innovation/dalhousie-hydrogen-lab-joins-international-program-for-hydrogen-appliance-testing",
+      "id": "6c1895f992",
+      "title": "MB Energy Signs First Hamburg Ammonia Terminal Capacity Term Sheet",
+      "url": "https://fuelcellsworks.com/2026/06/05/clean-energy/mb-energy-signs-first-hamburg-ammonia-terminal-capacity-term-sheet",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-04T15:19:56+00:00",
-      "pub_ts": 1780586396
+      "pub_date": "2026-06-05T15:34:00+00:00",
+      "pub_ts": 1780673640
     },
     {
-      "id": "d3c5b44d13",
-      "title": "Moeve and PwC: Hydrogen and Biofuels Can Reduce Europe’s Fossil Fuel Imports",
-      "url": "https://fuelcellsworks.com/2026/06/04/electrolyzer/moeve-and-pwc-hydrogen-and-biofuels-can-reduce-europe-s-fossil-fuel-imports",
+      "id": "c521b09dac",
+      "title": "Netherlands: Watermeln Awarded as a Leader in Hydrogen",
+      "url": "https://fuelcellsworks.com/2026/06/05/h2/netherlands-watermeln-awarded-as-a-leader-in-hydrogen",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-04T15:19:23+00:00",
-      "pub_ts": 1780586363
+      "pub_date": "2026-06-05T15:18:09+00:00",
+      "pub_ts": 1780672689
     },
     {
-      "id": "62b37070a2",
-      "title": "Japan's Green Hydrogen Market Is a $16 Billion Bet on a Country That Can't Afford to Get Energy Wrong",
-      "url": "https://fuelcellsworks.com/2026/06/03/h2/japan-s-green-hydrogen-market-is-a-16-billion-bet-on-a-country-that-can-t-afford-to-get-energy-wrong",
+      "id": "77423f717a",
+      "title": "MODEC and Eld Energy Advance Low-Carbon FPSO Power With CCS Fuel Cell System",
+      "url": "https://fuelcellsworks.com/2026/06/05/clean-energy/modec-and-eld-energy-advance-low-carbon-fpso-power-with-ccs-fuel-cell-system",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-04T15:16:49+00:00",
-      "pub_ts": 1780586209
+      "pub_date": "2026-06-05T15:17:04+00:00",
+      "pub_ts": 1780672624
     },
     {
-      "id": "e4610f1c26",
-      "title": "Hy-Hybrid Energy Publishes Landmark White Paper: Fuel Cells for Data Centres-Powering the AI Revolution Beyond the Grid",
-      "url": "https://fuelcellsworks.com/2026/06/04/energy-innovation/hy-hybrid-energy-publishes-landmark-white-paper-fuel-cells-for-data-centres-powering-the-ai-revolution-beyond-the-grid",
+      "id": "94f89c40f9",
+      "title": "A Philippine Province Just Discovered It May Be Sitting on One of the World's Biggest Natural Hydrogen",
+      "url": "https://fuelcellsworks.com/2026/06/03/green-hydrogen/a-philippine-province-just-discovered-it-may-be-sitting-on-one-of-the-world-s-biggest-natural-hydrogen",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-04T15:11:16+00:00",
-      "pub_ts": 1780585876
+      "pub_date": "2026-06-05T15:15:51+00:00",
+      "pub_ts": 1780672551
     }
   ],
   "source_success_count": 1,
