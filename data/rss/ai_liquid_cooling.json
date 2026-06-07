@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-06-06T04:03:55.119266+00:00",
+  "updated_at": "2026-06-07T04:40:37.671253+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "191ac87109",
-      "title": "有人靠CPU把AI算力密度卷到了新高度",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895482&idx=1&sn=8dc7171ae57c2b61142db7a9de24dbc3",
-      "summary": "有人靠CPU把AI算力密度卷到了新高度",
+      "id": "e40bbff228",
+      "title": "马斯克是SpaceX面子，她才是里子",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895549&idx=1&sn=8709a0deb88f501324222a67e9e9f635",
+      "summary": "马斯克是SpaceX面子，她才是里子",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-06T04:03:50.335367+00:00",
-      "pub_ts": 1780718630
+      "pub_date": "2026-06-07T04:40:33.648087+00:00",
+      "pub_ts": 1780807233
     },
     {
-      "id": "488ce7f4bd",
-      "title": "快手可灵提出VLM-as-Teacher：用测试时在线优化，让视频生成模型学会按...",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895482&idx=2&sn=dbe47566216c3eed22ae1e8f906019be",
-      "summary": "快手可灵提出VLM-as-Teacher：用测试时在线优化，让视频生成模型学会按...",
+      "id": "bfffe39e61",
+      "title": "Hinton吹哨了：AI已经有意识！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895548&idx=1&sn=09150806e9aabc46efeda29feb5fe5ac",
+      "summary": "Hinton吹哨了：AI已经有意识！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-06T04:03:50.335407+00:00",
-      "pub_ts": 1780718630
+      "pub_date": "2026-06-07T04:40:33.648132+00:00",
+      "pub_ts": 1780807233
     },
     {
-      "id": "366d7053a8",
-      "title": "超越FigureAl！全球首个机器人训练楼盘开盘：30万套中国住宅，机器人拎包入住",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895414&idx=1&sn=cbef811d85e977f0d5a69bf26f590332",
-      "summary": "超越FigureAl！全球首个机器人训练楼盘开盘：30万套中国住宅，机器人拎包入住",
+      "id": "3ba22c5fe7",
+      "title": "今年CVPR看点是广东：何恺明再获至高大奖，广工大打破大厂名校垄断",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895537&idx=1&sn=dcdf2a272a5d68e72514a2909de762ee",
+      "summary": "今年CVPR看点是广东：何恺明再获至高大奖，广工大打破大厂名校垄断",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-06T04:03:50.335428+00:00",
-      "pub_ts": 1780718630
+      "pub_date": "2026-06-07T04:40:33.648154+00:00",
+      "pub_ts": 1780807233
     },
     {
-      "id": "0c31165d53",
-      "title": "活久见！奥特曼Dario哈萨比斯同仇敌忾：DNA得查了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895414&idx=2&sn=1deb6b74447e7d063023d385dc71e3d0",
-      "summary": "活久见！奥特曼Dario哈萨比斯同仇敌忾：DNA得查了",
+      "id": "06fca6a0e4",
+      "title": "存读档延迟首次压到毫秒级！上交华为推出智能体沙箱系统",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895537&idx=2&sn=e3cbfaa0e0626b14c286c82957607865",
+      "summary": "存读档延迟首次压到毫秒级！上交华为推出智能体沙箱系统",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-06T04:03:50.335448+00:00",
-      "pub_ts": 1780718630
+      "pub_date": "2026-06-07T04:40:33.648174+00:00",
+      "pub_ts": 1780807233
     },
     {
-      "id": "2b25731cf5",
-      "title": "100亿砸向人形，不如先让10万台机器狗走进家庭",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895384&idx=1&sn=f120fe3de0cafc7135f409dbd0980e8e",
-      "summary": "100亿砸向人形，不如先让10万台机器狗走进家庭",
+      "id": "5e9732e4ab",
+      "title": "大模型发展三年半，AI圈终于等来了一场“不要大厂，只赌脑洞”的比赛",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895494&idx=1&sn=9f5af0c9bb7f2c399a9c9a1fd0c9e324",
+      "summary": "大模型发展三年半，AI圈终于等来了一场“不要大厂，只赌脑洞”的比赛",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-06T04:03:50.335466+00:00",
-      "pub_ts": 1780718630
+      "pub_date": "2026-06-07T04:40:33.648193+00:00",
+      "pub_ts": 1780807233
     }
   ],
   "source_success_count": 1,
