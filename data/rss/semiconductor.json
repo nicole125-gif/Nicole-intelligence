@@ -3,108 +3,68 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-06-07T04:40:24.233174+00:00",
-  "item_count": 15,
+  "updated_at": "2026-06-08T04:45:32.892953+00:00",
+  "item_count": 11,
   "items": [
     {
-      "id": "a5e8aac67c",
-      "title": "MLCC需求暴涨，或成为“下一个存储“",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812871&idx=1&sn=bdf107e19d88c364e9890e5f47b77c3a",
-      "summary": "MLCC需求暴涨，或成为“下一个存储“",
+      "id": "3e9514726e",
+      "title": "英特尔与英伟达互抢地盘，乱了，都乱了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812897&idx=1&sn=0f16871dcd01167b14bf98b1b3afdf27",
+      "summary": "英特尔与英伟达互抢地盘，乱了，都乱了",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-07T04:40:20.186234+00:00",
-      "pub_ts": 1780807220
+      "pub_date": "2026-06-08T04:45:28.822574+00:00",
+      "pub_ts": 1780893928
     },
     {
-      "id": "a9dd765ab8",
-      "title": "替代HBM？HBF时代近在眼前",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812871&idx=2&sn=c07ab590b61b06de824aa3f71eccf3c3",
-      "summary": "替代HBM？HBF时代近在眼前",
+      "id": "b78f7f20fa",
+      "title": "线性度提升1000倍！新技术打破硅基氮化镓射频瓶颈",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812897&idx=2&sn=e9ccaec7ce7e1f18e1a3e6242d7dfb7c",
+      "summary": "线性度提升1000倍！新技术打破硅基氮化镓射频瓶颈",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-07T04:40:20.186283+00:00",
-      "pub_ts": 1780807220
+      "pub_date": "2026-06-08T04:45:28.822616+00:00",
+      "pub_ts": 1780893928
     },
     {
-      "id": "e04953e15c",
-      "title": "Anthropic呼吁全球停止AI研发",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812871&idx=3&sn=e1a3350be58dd11dd34c18c6c6ae3986",
-      "summary": "Anthropic呼吁全球停止AI研发",
+      "id": "24fcdf8f08",
+      "title": "芯片优化，救活车载AI",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812897&idx=3&sn=fbd4d5814ecda71f768506f4349e9076",
+      "summary": "芯片优化，救活车载AI",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-07T04:40:20.186308+00:00",
-      "pub_ts": 1780807220
+      "pub_date": "2026-06-08T04:45:28.822640+00:00",
+      "pub_ts": 1780893928
     },
     {
-      "id": "d723bb2ca2",
-      "title": "模拟存算一体系统芯片：高能效AI计算的“新引擎”",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812871&idx=4&sn=2900e2df06bc73365cbf1b7f19735dab",
-      "summary": "模拟存算一体系统芯片：高能效AI计算的“新引擎”",
+      "id": "a018c96734",
+      "title": "又一高端AI芯片企业，北上青岛建总部",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812897&idx=4&sn=f9c0a16e34ff08eee7f3b3f6071bce0d",
+      "summary": "又一高端AI芯片企业，北上青岛建总部",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-07T04:40:20.186331+00:00",
-      "pub_ts": 1780807220
+      "pub_date": "2026-06-08T04:45:28.822662+00:00",
+      "pub_ts": 1780893928
     },
     {
-      "id": "ed069596fa",
-      "title": "单片全彩Micro-LED将迎规模商用，推动AR眼镜普及",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812871&idx=5&sn=7068be2fb93de1f4b1f5f6ba60fde24b",
-      "summary": "单片全彩Micro-LED将迎规模商用，推动AR眼镜普及",
+      "id": "c110fea97a",
+      "title": "他，从京城秘书，到4000亿半导体掌门人",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812897&idx=5&sn=9f65bc10efbf0956c479f4366d5d2b73",
+      "summary": "他，从京城秘书，到4000亿半导体掌门人",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-07T04:40:20.186368+00:00",
-      "pub_ts": 1780807220
+      "pub_date": "2026-06-08T04:45:28.822683+00:00",
+      "pub_ts": 1780893928
     },
     {
       "id": "b47bcb8b59",
-      "title": "DRAM，终遇寒冬?",
+      "title": "DRAM，终遇寒冬？",
       "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247821767&idx=1&sn=bd9f9195ba305fa49f4f40d9604feab2",
-      "summary": "DRAM，终遇寒冬?",
+      "summary": "DRAM，终遇寒冬？",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-07T04:40:06.631859+00:00",
-      "pub_ts": 1780807206
-    },
-    {
-      "id": "86177dd4e9",
-      "title": "AI芯片，引爆电力危机",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247821767&idx=2&sn=f6fc1ccb7f8a7fdc29e7f61b7c1e9c70",
-      "summary": "AI芯片，引爆电力危机",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-06-07T04:40:06.631912+00:00",
-      "pub_ts": 1780807206
-    },
-    {
-      "id": "08bb43ea73",
-      "title": "为何大家都盯上了光芯片?",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247821767&idx=3&sn=6d369a44a888b246a4570ced7ba6600d",
-      "summary": "为何大家都盯上了光芯片?",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-06-07T04:40:06.631936+00:00",
-      "pub_ts": 1780807206
-    },
-    {
-      "id": "d278024fe0",
-      "title": "三大关键技术，推动芯片制造前进",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247821767&idx=4&sn=3d855c0415c9810ea80d6b750407cecc",
-      "summary": "三大关键技术，推动芯片制造前进",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-06-07T04:40:06.631957+00:00",
-      "pub_ts": 1780807206
-    },
-    {
-      "id": "3a4fbec8df",
-      "title": "融资2400亿，抢购谷歌TPU",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247821767&idx=5&sn=9a84278fefd59ace9946528d8899ce41",
-      "summary": "融资2400亿，抢购谷歌TPU",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-06-07T04:40:06.631977+00:00",
-      "pub_ts": 1780807206
+      "pub_date": "2026-06-08T04:45:15.783257+00:00",
+      "pub_ts": 1780893915
     },
     {
       "id": "987a505fee",
