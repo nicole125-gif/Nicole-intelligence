@@ -3,68 +3,108 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-06-08T04:45:32.892953+00:00",
-  "item_count": 11,
+  "updated_at": "2026-06-09T04:07:12.007439+00:00",
+  "item_count": 12,
   "items": [
     {
-      "id": "3e9514726e",
-      "title": "英特尔与英伟达互抢地盘，乱了，都乱了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812897&idx=1&sn=0f16871dcd01167b14bf98b1b3afdf27",
-      "summary": "英特尔与英伟达互抢地盘，乱了，都乱了",
+      "id": "8dd17862e0",
+      "title": "手机越卖越贵，厂商却越来越慌",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812927&idx=1&sn=003f8f694bfb44357b0566ba8ec52fae",
+      "summary": "手机越卖越贵，厂商却越来越慌",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-08T04:45:28.822574+00:00",
-      "pub_ts": 1780893928
+      "pub_date": "2026-06-09T04:07:07.831065+00:00",
+      "pub_ts": 1780978027
     },
     {
-      "id": "b78f7f20fa",
-      "title": "线性度提升1000倍！新技术打破硅基氮化镓射频瓶颈",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812897&idx=2&sn=e9ccaec7ce7e1f18e1a3e6242d7dfb7c",
-      "summary": "线性度提升1000倍！新技术打破硅基氮化镓射频瓶颈",
+      "id": "061f2c3ce2",
+      "title": "仅1纳米！全球最小半导体纳米管诞生",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812927&idx=2&sn=9103be1edb88ad7148713d95939f1b67",
+      "summary": "仅1纳米！全球最小半导体纳米管诞生",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-08T04:45:28.822616+00:00",
-      "pub_ts": 1780893928
+      "pub_date": "2026-06-09T04:07:07.831112+00:00",
+      "pub_ts": 1780978027
     },
     {
-      "id": "24fcdf8f08",
-      "title": "芯片优化，救活车载AI",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812897&idx=3&sn=fbd4d5814ecda71f768506f4349e9076",
-      "summary": "芯片优化，救活车载AI",
+      "id": "a401bd5ab5",
+      "title": "美满电子：AI铜墙将至，光I/O与定制芯片发力",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812927&idx=3&sn=c961813378036299e5b7fc035cccf6ff",
+      "summary": "美满电子：AI铜墙将至，光I/O与定制芯片发力",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-08T04:45:28.822640+00:00",
-      "pub_ts": 1780893928
+      "pub_date": "2026-06-09T04:07:07.831125+00:00",
+      "pub_ts": 1780978027
     },
     {
-      "id": "a018c96734",
-      "title": "又一高端AI芯片企业，北上青岛建总部",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812897&idx=4&sn=f9c0a16e34ff08eee7f3b3f6071bce0d",
-      "summary": "又一高端AI芯片企业，北上青岛建总部",
+      "id": "338bc2f3c6",
+      "title": "数据中心连接，迎来质变?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812927&idx=4&sn=9da87795e243311e7d20f5cc4146307f",
+      "summary": "数据中心连接，迎来质变?",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-08T04:45:28.822662+00:00",
-      "pub_ts": 1780893928
+      "pub_date": "2026-06-09T04:07:07.831140+00:00",
+      "pub_ts": 1780978027
     },
     {
-      "id": "c110fea97a",
-      "title": "他，从京城秘书，到4000亿半导体掌门人",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812897&idx=5&sn=9f65bc10efbf0956c479f4366d5d2b73",
-      "summary": "他，从京城秘书，到4000亿半导体掌门人",
-      "source": "半导体产业纵横",
-      "lang": "zh",
-      "pub_date": "2026-06-08T04:45:28.822683+00:00",
-      "pub_ts": 1780893928
-    },
-    {
-      "id": "b47bcb8b59",
-      "title": "DRAM，终遇寒冬？",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247821767&idx=1&sn=bd9f9195ba305fa49f4f40d9604feab2",
-      "summary": "DRAM，终遇寒冬？",
+      "id": "2e2b64a075",
+      "title": "粤芯半导体，6月15上会",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247821913&idx=1&sn=383c661bf58373c4e9485f494fe7e80e",
+      "summary": "粤芯半导体，6月15上会",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-08T04:45:15.783257+00:00",
-      "pub_ts": 1780893915
+      "pub_date": "2026-06-09T04:06:59.456951+00:00",
+      "pub_ts": 1780978019
+    },
+    {
+      "id": "0e4bd01979",
+      "title": "燧原科技，6月15上会",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247821906&idx=1&sn=6636780d35e46add243821ae02d49dfd",
+      "summary": "燧原科技，6月15上会",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-06-09T04:06:59.456989+00:00",
+      "pub_ts": 1780978019
+    },
+    {
+      "id": "64ed99b95b",
+      "title": "刚刚，胜宏科技回应",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247821899&idx=1&sn=e874edf84216f915f65533827d0c36ae",
+      "summary": "刚刚，胜宏科技回应",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-06-09T04:06:59.457003+00:00",
+      "pub_ts": 1780978019
+    },
+    {
+      "id": "e0fcf5c122",
+      "title": "Disturbance In Verification",
+      "url": "https://semiengineering.com/disturbance-in-verification/",
+      "summary": "We have started to see what may be the largest disturbance in the role of a verification engineer since the founding of the industry. Should you be worried?\nThe post Disturbance In Verification appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-06-08T07:01:42+00:00",
+      "pub_ts": 1780902102
+    },
+    {
+      "id": "adfd59e1ba",
+      "title": "Chip Industry Technical Paper Roundup: June 8",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-june-8/",
+      "summary": "IGZO FeFET AI memories; zero-knowledge proof acceleration; Rowhammer in monolithic 3D eDRAM; monolayer TMD nanoribbon transistors; graph attention virtual metrology; selective-area III-V MBE; open-source DNN accelerators; ultra-low-power AI-MCUs for transformers.\nThe post Chip Industry Technical Pap…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-06-08T07:01:21+00:00",
+      "pub_ts": 1780902081
+    },
+    {
+      "id": "f30e442bb2",
+      "title": "Research Bits: June 8",
+      "url": "https://semiengineering.com/research-bits-june-8-2/",
+      "summary": "Multi-tasking transistor; p-bit fabrication; tiny MoS2 nanotubes.\nThe post Research Bits: June 8 appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-06-08T07:01:19+00:00",
+      "pub_ts": 1780902079
     },
     {
       "id": "987a505fee",
@@ -85,36 +125,6 @@
       "lang": "en",
       "pub_date": "2026-06-05T16:55:19+00:00",
       "pub_ts": 1780678519
-    },
-    {
-      "id": "dd870015b9",
-      "title": "Analyzing Rowhammer Vulnerability in Monolithic 3D IWO eDRAM for Edge (ASU, Georgia Tech)",
-      "url": "https://semiengineering.com/analyzing-rowhammer-vulnerability-in-monolithic-3d-iwo-edram-for-edge-asu-georgia-tech/",
-      "summary": "Researchers from Arizona State University and Georgia Institute of Technology published “Thermal- and Aging-Aware Rowhammer Vulnerability Analysis of Monolithically-Integrated IWO eDRAM for Edge Platforms”. &#8220;This work presents the first comprehensive temperature- and aging-aware vulnerability …",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-06-05T16:22:47+00:00",
-      "pub_ts": 1780676567
-    },
-    {
-      "id": "914beec7ca",
-      "title": "Reduce Memory Redesigns With Shift-Left",
-      "url": "https://semiengineering.com/reduce-memory-redesigns-with-shift-left/",
-      "summary": "Early schematic analysis prevents late-stage rework.\nThe post Reduce Memory Redesigns With Shift-Left appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-06-05T07:02:17+00:00",
-      "pub_ts": 1780642937
-    },
-    {
-      "id": "6ee7e3c193",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-141/",
-      "summary": "Computex shows AI ecosystem; fully autonomous chip design; Intel targets AI racks; Nikon's 1.5 micron L/S litho;  IC market rises; Apple's chiplet era; 4,500 chips per AI server rack; HBM price hikes; quantum IPO, chip and roadmap; SiC guidelines; MXenes; EV outlook; autonomous edge chiplets.\nThe po…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-06-05T07:01:55+00:00",
-      "pub_ts": 1780642915
     }
   ],
   "source_success_count": 3,

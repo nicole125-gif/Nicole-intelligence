@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-06-08T04:46:00.787818+00:00",
+  "updated_at": "2026-06-09T04:07:39.722814+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "8af15b9f1e",
-      "title": "Procter & Gamble Partners on Saudi Arabia's First Self-Driving Hydrogen Truck",
-      "url": "https://fuelcellsworks.com/2026/06/05/clean-energy/procter-and-gamble-partners-on-saudi-arabia-s-first-self-driving-hydrogen-truck",
+      "id": "d4fe93f1ba",
+      "title": "LE MANS: 24 Hours – The Hydrogen Village Is Expanding for the 2026 Edition",
+      "url": "https://fuelcellsworks.com/2026/06/08/energy-innovation/le-mans-24-hours-the-hydrogen-village-is-expanding-for-the-2026-edition",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-05T15:39:25+00:00",
-      "pub_ts": 1780673965
+      "pub_date": "2026-06-08T16:01:39+00:00",
+      "pub_ts": 1780934499
     },
     {
-      "id": "6c1895f992",
-      "title": "MB Energy Signs First Hamburg Ammonia Terminal Capacity Term Sheet",
-      "url": "https://fuelcellsworks.com/2026/06/05/clean-energy/mb-energy-signs-first-hamburg-ammonia-terminal-capacity-term-sheet",
+      "id": "a644be73bf",
+      "title": "Amogy and Amun Energy Execute Supply Agreement for Commercial-Scale Ammonia-to-Power Project in South Korea",
+      "url": "https://fuelcellsworks.com/2026/06/08/green-investment/amogy-and-amun-energy-execute-supply-agreement-for-commercial-scale-ammonia-to-power-project-in-south-korea",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-05T15:34:00+00:00",
-      "pub_ts": 1780673640
+      "pub_date": "2026-06-08T15:46:57+00:00",
+      "pub_ts": 1780933617
     },
     {
-      "id": "c521b09dac",
-      "title": "Netherlands: Watermeln Awarded as a Leader in Hydrogen",
-      "url": "https://fuelcellsworks.com/2026/06/05/h2/netherlands-watermeln-awarded-as-a-leader-in-hydrogen",
+      "id": "632aab71ce",
+      "title": "France's Two Leading Geological Institutions Just Joined Forces on Native Hydrogen",
+      "url": "https://fuelcellsworks.com/2026/06/07/electrolyzer/france-s-two-leading-geological-institutions-just-joined-forces-on-native-hydrogen",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-05T15:18:09+00:00",
-      "pub_ts": 1780672689
+      "pub_date": "2026-06-08T15:26:19+00:00",
+      "pub_ts": 1780932379
     },
     {
-      "id": "77423f717a",
-      "title": "MODEC and Eld Energy Advance Low-Carbon FPSO Power With CCS Fuel Cell System",
-      "url": "https://fuelcellsworks.com/2026/06/05/clean-energy/modec-and-eld-energy-advance-low-carbon-fpso-power-with-ccs-fuel-cell-system",
+      "id": "15d967ec94",
+      "title": "H2sea Awarded Engineering Role in OMG-H2 Project",
+      "url": "https://fuelcellsworks.com/2026/06/08/green-hydrogen/h2sea-awarded-engineering-role-in-omg-h2-project",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-05T15:17:04+00:00",
-      "pub_ts": 1780672624
+      "pub_date": "2026-06-08T15:15:27+00:00",
+      "pub_ts": 1780931727
     },
     {
-      "id": "94f89c40f9",
-      "title": "A Philippine Province Just Discovered It May Be Sitting on One of the World's Biggest Natural Hydrogen",
-      "url": "https://fuelcellsworks.com/2026/06/03/green-hydrogen/a-philippine-province-just-discovered-it-may-be-sitting-on-one-of-the-world-s-biggest-natural-hydrogen",
+      "id": "d1935aa306",
+      "title": "Toyota Just Set a Hydrogen Racing Record at Fuji — 483 Laps, a Superconducting Pump, and Akio Toyoda Behind the Wheel",
+      "url": "https://fuelcellsworks.com/2026/06/07/h2/toyota-just-set-a-hydrogen-racing-record-at-fuji-483-laps-a-superconducting-pump-and-akio-toyoda-behind-the-wheel",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-05T15:15:51+00:00",
-      "pub_ts": 1780672551
+      "pub_date": "2026-06-08T15:06:32+00:00",
+      "pub_ts": 1780931192
     }
   ],
   "source_success_count": 1,
