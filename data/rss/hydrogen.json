@@ -3,112 +3,61 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-05-22T04:14:15.624655+00:00",
-  "item_count": 10,
+  "updated_at": "2026-06-09T04:07:39.722814+00:00",
+  "item_count": 5,
   "items": [
     {
-      "id": "e8aa7563d2",
-      "title": "EcoLog and Kawasaki Sign Strategic Alliance in Liquefied Hydrogen Midstream",
-      "url": "https://hydrogen-central.com/ecolog-and-kawasaki-sign-strategic-alliance-in-liquefied-hydrogen-midstream/",
-      "summary": "EcoLog and Kawasaki Sign Strategic Alliance in Liquefied Hydrogen Midstream Kawasaki Heavy Industries, Ltd. (“Kawasaki”) and EcoLog have signed a strategic alliance in the midstream segment of the liquefied hydrogen [&#8230;]\nThe post EcoLog and Kawasaki Sign Strategic Alliance in Liquefied Hydrogen…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-05-21T18:21:36+00:00",
-      "pub_ts": 1779387696
-    },
-    {
-      "id": "ce27b27a0a",
-      "title": "World Hydrogen Awards recognise outstanding achievements in global hydrogen industry",
-      "url": "https://hydrogen-central.com/world-hydrogen-awards-recognise-outstanding-achievements-in-global-hydrogen-industry/",
-      "summary": "World Hydrogen Awards recognise outstanding achievements in global hydrogen industry Seventh World Hydrogen Summit &#38; Exhibition 2026 opens in Rotterdam Companies at the forefront of the global hydrogen industry were [&#8230;]\nThe post World Hydrogen Awards recognise outstanding achievements in g…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-05-21T18:19:45+00:00",
-      "pub_ts": 1779387585
-    },
-    {
-      "id": "c6ca826ba4",
-      "title": "Power2X approves start of construction phase for Djewels green hydrogen plant in Delfzijl with Rely as EPC contractor",
-      "url": "https://hydrogen-central.com/power2x-approves-start-of-construction-phase-for-djewels-green-hydrogen-plant-in-delfzijl-with-rely-as-epc-contractor/",
-      "summary": "Power2X approves start of construction phase for Djewels green hydrogen plant in Delfzijl with Rely as EPC contractor Amsterdam, the Netherlands, 21 May 2026 Power2X today announced its Final Investment [&#8230;]\nThe post Power2X approves start of construction phase for Djewels green hydrogen plant …",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-05-21T18:07:45+00:00",
-      "pub_ts": 1779386865
-    },
-    {
-      "id": "5f3c27e621",
-      "title": "Eberspaecher holds its ground in a challenging market",
-      "url": "https://hydrogen-central.com/eberspaecher-holds-its-ground-in-a-challenging-market/",
-      "summary": "Eberspaecher holds its ground in a challenging market Esslingen (Germany), 21 May, 2026 – Eberspaecher holds its own in the past year in a challenging market environment and achieves a [&#8230;]\nThe post Eberspaecher holds its ground in a challenging market appeared first on Hydrogen Central.",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-05-21T18:07:31+00:00",
-      "pub_ts": 1779386851
-    },
-    {
-      "id": "7a4d230a40",
-      "title": "Hydrogen Council – Hydrogen for a resilient world: Global industry leaders launch CEO-led Call-to-Action amid recurrent crises",
-      "url": "https://hydrogen-central.com/hydrogen-council-hydrogen-for-a-resilient-world-global-industry-leaders-launch-ceo-led-call-to-action-amid-recurrent-crises/",
-      "summary": "Hydrogen Council &#8211; Hydrogen for a resilient world: Global industry leaders launch CEO-led Call-to-Action amid recurrent crises Today at the International Hydrogen Trade Forum (IHTF) Ministerial-CEO Roundtable in Rotterdam, the [&#8230;]\nThe post Hydrogen Council &#8211; Hydrogen for a resilien…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-05-21T18:03:50+00:00",
-      "pub_ts": 1779386630
-    },
-    {
-      "id": "2306e9a695",
-      "title": "Hyundai Motor Group Showcases Hydrogen Ecosystem Vision for Europe at World Hydrogen Summit 2026",
-      "url": "https://fuelcellsworks.com/2026/05/21/energy-innovation/hyundai-motor-group-showcases-hydrogen-ecosystem-vision-for-europe-at-world-hydrogen-summit-2026",
+      "id": "d4fe93f1ba",
+      "title": "LE MANS: 24 Hours – The Hydrogen Village Is Expanding for the 2026 Edition",
+      "url": "https://fuelcellsworks.com/2026/06/08/energy-innovation/le-mans-24-hours-the-hydrogen-village-is-expanding-for-the-2026-edition",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-05-21T16:07:52+00:00",
-      "pub_ts": 1779379672
+      "pub_date": "2026-06-08T16:01:39+00:00",
+      "pub_ts": 1780934499
     },
     {
-      "id": "78b3e138b7",
-      "title": "Study: Hydrogen Makes Sense at Airports Now — But Start on the Ground, Not in the Air",
-      "url": "https://fuelcellsworks.com/2026/05/20/fuel-cells/study-hydrogen-makes-sense-at-airports-now-but-start-on-the-ground-not-in-the-air",
+      "id": "a644be73bf",
+      "title": "Amogy and Amun Energy Execute Supply Agreement for Commercial-Scale Ammonia-to-Power Project in South Korea",
+      "url": "https://fuelcellsworks.com/2026/06/08/green-investment/amogy-and-amun-energy-execute-supply-agreement-for-commercial-scale-ammonia-to-power-project-in-south-korea",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-05-21T16:02:30+00:00",
-      "pub_ts": 1779379350
+      "pub_date": "2026-06-08T15:46:57+00:00",
+      "pub_ts": 1780933617
     },
     {
-      "id": "9d531cd65b",
-      "title": "Hydrogen-Powered Buses Have Appeared on the Streets of Delhi",
-      "url": "https://fuelcellsworks.com/2026/05/21/energy-innovation/hydrogen-powered-buses-have-appeared-on-the-streets-of-delhi",
+      "id": "632aab71ce",
+      "title": "France's Two Leading Geological Institutions Just Joined Forces on Native Hydrogen",
+      "url": "https://fuelcellsworks.com/2026/06/07/electrolyzer/france-s-two-leading-geological-institutions-just-joined-forces-on-native-hydrogen",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-05-21T15:57:28+00:00",
-      "pub_ts": 1779379048
+      "pub_date": "2026-06-08T15:26:19+00:00",
+      "pub_ts": 1780932379
     },
     {
-      "id": "bd42df6221",
-      "title": "Netherlands: Two New Hydrogen Projects Strengthen National Network of Learning Communities",
-      "url": "https://fuelcellsworks.com/2026/05/20/education/netherlands-two-new-hydrogen-projects-strengthen-national-network-of-learning-communities",
+      "id": "15d967ec94",
+      "title": "H2sea Awarded Engineering Role in OMG-H2 Project",
+      "url": "https://fuelcellsworks.com/2026/06/08/green-hydrogen/h2sea-awarded-engineering-role-in-omg-h2-project",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-05-21T15:46:24+00:00",
-      "pub_ts": 1779378384
+      "pub_date": "2026-06-08T15:15:27+00:00",
+      "pub_ts": 1780931727
     },
     {
-      "id": "1b2383a112",
-      "title": "Dalkia UK Wins Contract to Deliver One of the UK’s First Green Hydrogen Production Facilities",
-      "url": "https://fuelcellsworks.com/2026/05/21/energy-innovation/dalkia-uk-wins-contract-to-deliver-one-of-the-uk-s-first-green-hydrogen-production-facilities",
+      "id": "d1935aa306",
+      "title": "Toyota Just Set a Hydrogen Racing Record at Fuji — 483 Laps, a Superconducting Pump, and Akio Toyoda Behind the Wheel",
+      "url": "https://fuelcellsworks.com/2026/06/07/h2/toyota-just-set-a-hydrogen-racing-record-at-fuji-483-laps-a-superconducting-pump-and-akio-toyoda-behind-the-wheel",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-05-21T15:39:44+00:00",
-      "pub_ts": 1779377984
+      "pub_date": "2026-06-08T15:06:32+00:00",
+      "pub_ts": 1780931192
     }
   ],
-  "last_attempted_at": "2026-05-20T00:53:29.821980+00:00",
-  "fetch_status": "preserved_existing_cache",
-  "source_success_count": 0,
-  "source_total_count": 5
+  "source_success_count": 1,
+  "source_total_count": 5,
+  "fetch_status": "fresh"
 }

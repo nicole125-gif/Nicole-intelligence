@@ -14,6 +14,7 @@ import datetime as dt
 import hashlib
 import json
 import os
+import shutil
 import subprocess
 import sys
 import urllib.parse
@@ -267,6 +268,26 @@ print(f"RAG DB ready: {collection.count()} chunks")
     run_command([sys.executable, "-c", code], dry_run=dry_run)
 
 
+def cleanup_transient_artifacts() -> list[str]:
+    """Remove generated local artifacts that should never be reviewed in a PR."""
+    removed: list[str] = []
+    targets = [
+        ROOT / "pulse_vectordb",
+        ROOT / "scripts" / "__pycache__",
+        ROOT / "tests" / "__pycache__",
+        ROOT / "index.html.bak",
+    ]
+    for target in targets:
+        if not target.exists():
+            continue
+        if target.is_dir():
+            shutil.rmtree(target)
+        else:
+            target.unlink()
+        removed.append(str(target.relative_to(ROOT)))
+    return removed
+
+
 def apply_overrides(payload: dict, overrides: dict) -> tuple[dict, list[str]]:
     applied: list[str] = []
     for tid, fields in (overrides.get("tracks") or {}).items():
@@ -379,11 +400,15 @@ def run_monthly_update(args: argparse.Namespace) -> None:
     else:
         source_report = download_public_reports(period, sources, dry_run=args.dry_run)
         rss_ok = refresh_rss(step_notes, dry_run=args.dry_run)
-        try:
-            rebuild_rag(dry_run=args.dry_run)
-        except subprocess.CalledProcessError as exc:
-            step_notes.append(f"RAG rebuild skipped: command failed with exit code {exc.returncode}")
-            print(f"[WARN] RAG rebuild skipped: command failed with exit code {exc.returncode}")
+        if args.skip_rag:
+            step_notes.append("RAG rebuild skipped: --skip-rag enabled")
+            print("[INFO] RAG rebuild skipped: --skip-rag enabled")
+        else:
+            try:
+                rebuild_rag(dry_run=args.dry_run)
+            except subprocess.CalledProcessError as exc:
+                step_notes.append(f"RAG rebuild skipped: command failed with exit code {exc.returncode}")
+                print(f"[WARN] RAG rebuild skipped: command failed with exit code {exc.returncode}")
         if rss_ok:
             run_step("news scoring", [sys.executable, "scripts/update_news.py"], step_notes, dry_run=args.dry_run)
         else:
@@ -416,6 +441,9 @@ def run_monthly_update(args: argparse.Namespace) -> None:
             review_notes=payload.get("review_notes", []),
             step_notes=step_notes,
         )
+        removed = cleanup_transient_artifacts()
+        if removed:
+            print(f"[OK] Removed transient artifacts: {', '.join(removed)}")
         print(f"[OK] Summary written → {summary_path.relative_to(ROOT)}")
 
 
@@ -425,6 +453,7 @@ def main() -> None:
     parser.add_argument("--as-of", help="Run date in YYYY-MM-DD format for homepage timestamp")
     parser.add_argument("--dry-run", action="store_true", help="Plan the update without writing site files")
     parser.add_argument("--offline", action="store_true", help="Use existing local history and skip network or rebuild steps")
+    parser.add_argument("--skip-rag", action="store_true", help="Skip vector database rebuild for faster PR updates")
     args = parser.parse_args()
     run_monthly_update(args)
 

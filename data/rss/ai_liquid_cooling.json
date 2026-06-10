@@ -3,62 +3,61 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-05-22T04:14:04.839067+00:00",
+  "updated_at": "2026-06-09T04:07:26.217063+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "ce3c313071",
-      "title": "风行在线CEO易正朝：先全员Coding，再AIlin众创|AIGC2026",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892214&idx=1&sn=2b6194e990a425d11da6d2e640f97f28",
-      "summary": "风行在线CEO易正朝：先全员Coding，再AIlin众创|AIGC2026",
+      "id": "683bdee3e2",
+      "title": "你天天刷的小红书，正在长出一个GitHub",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896042&idx=1&sn=2d44f5d7b95c60603e0c46c4c6416b6a",
+      "summary": "你天天刷的小红书，正在长出一个GitHub",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-22T04:14:00.704479+00:00",
-      "pub_ts": 1779423240
+      "pub_date": "2026-06-09T04:07:21.500490+00:00",
+      "pub_ts": 1780978041
     },
     {
-      "id": "b32d25be35",
-      "title": "阿里让Qwen3.7-Max模拟创业，一年“营收”1400万",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892214&idx=2&sn=8f2f3d8a8bd1f4748453b245ac97a86e",
-      "summary": "阿里让Qwen3.7-Max模拟创业，一年“营收”1400万",
+      "id": "982e0a9745",
+      "title": "腾讯想让企业打开AI的方式只剩一个",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896042&idx=2&sn=38035b110ae836c33bea101545a485b9",
+      "summary": "腾讯想让企业打开AI的方式只剩一个",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-22T04:14:00.704523+00:00",
-      "pub_ts": 1779423240
+      "pub_date": "2026-06-09T04:07:21.500526+00:00",
+      "pub_ts": 1780978041
     },
     {
-      "id": "6814d849dd",
-      "title": "520当天400万AI人，都在量子位听这近20场演讲&对谈Ⅰ第四届中国AIGC..",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892204&idx=1&sn=7a54a1baa7436a7d082f86d0e0dabaec",
-      "summary": "520当天400万AI人，都在量子位听这近20场演讲&对谈Ⅰ第四届中国AIGC..",
+      "id": "94969a226a",
+      "title": "UCL长视频理解新思路：视频转记忆，再让模型去检索",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896042&idx=3&sn=01efd711fcbad47f2bb356ca4306bb60",
+      "summary": "UCL长视频理解新思路：视频转记忆，再让模型去检索",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-22T04:14:00.704547+00:00",
-      "pub_ts": 1779423240
+      "pub_date": "2026-06-09T04:07:21.500538+00:00",
+      "pub_ts": 1780978041
     },
     {
-      "id": "07fe846c49",
-      "title": "得场景者得AI天下，出行赛道跑出了一家值得关注的数据玩家",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892204&idx=2&sn=f198c8f92c6d428ac1c6df7be41f21de",
-      "summary": "得场景者得AI天下，出行赛道跑出了一家值得关注的数据玩家",
+      "id": "69b8ec692d",
+      "title": "难上热搜的高考数学，我拿ChatGPT和豆包PK了一把!",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895907&idx=1&sn=c4e5c85ccf43eea5338fc1c8bfc001e2",
+      "summary": "难上热搜的高考数学，我拿ChatGPT和豆包PK了一把!",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-22T04:14:00.704568+00:00",
-      "pub_ts": 1779423240
+      "pub_date": "2026-06-09T04:07:21.500549+00:00",
+      "pub_ts": 1780978041
     },
     {
-      "id": "0b0ff03f03",
-      "title": "顺丰邮政仓库干活的机器人，顺手拿了个具身高考第一",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892049&idx=1&sn=0cae6259b1c95365c7292018c032aca2",
-      "summary": "顺丰邮政仓库干活的机器人，顺手拿了个具身高考第一",
+      "id": "b3880906ff",
+      "title": "首次！纯人类视频预训练VLA灵巧操作，少量数据微调就能部署成功",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895907&idx=2&sn=d7a839aa7404bed97a4a63644226bb94",
+      "summary": "首次！纯人类视频预训练VLA灵巧操作，少量数据微调就能部署成功",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-05-22T04:14:00.704588+00:00",
-      "pub_ts": 1779423240
+      "pub_date": "2026-06-09T04:07:21.500560+00:00",
+      "pub_ts": 1780978041
     }
   ],
-  "last_attempted_at": "2026-05-20T00:53:29.814362+00:00",
-  "fetch_status": "preserved_existing_cache",
-  "source_success_count": 0,
-  "source_total_count": 5
+  "source_success_count": 1,
+  "source_total_count": 5,
+  "fetch_status": "fresh"
 }

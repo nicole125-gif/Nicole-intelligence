@@ -161,6 +161,31 @@ const TRACK_USE = {
             self.assertIn("最近更新 2026-05-19", patched)
             self.assertIn("Last updated 2026-05-19", patched)
 
+    def test_cleanup_transient_artifacts_removes_only_generated_files(self):
+        monthly = load_module("scripts/monthly_update.py", "monthly_update")
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "pulse_vectordb").mkdir()
+            (root / "pulse_vectordb" / "chroma.sqlite3").write_text("db", encoding="utf-8")
+            (root / "scripts" / "__pycache__").mkdir(parents=True)
+            (root / "scripts" / "__pycache__" / "x.pyc").write_bytes(b"x")
+            (root / "tests" / "__pycache__").mkdir(parents=True)
+            (root / "tests" / "__pycache__" / "x.pyc").write_bytes(b"x")
+            (root / "index.html.bak").write_text("backup", encoding="utf-8")
+            (root / "data").mkdir()
+            keep = root / "data" / "history.json"
+            keep.write_text("{}", encoding="utf-8")
+
+            with mock.patch.object(monthly, "ROOT", root):
+                removed = monthly.cleanup_transient_artifacts()
+
+            self.assertEqual(
+                sorted(removed),
+                ["index.html.bak", "pulse_vectordb", "scripts/__pycache__", "tests/__pycache__"],
+            )
+            self.assertFalse((root / "pulse_vectordb").exists())
+            self.assertTrue(keep.exists())
+
 
 if __name__ == "__main__":
     unittest.main()

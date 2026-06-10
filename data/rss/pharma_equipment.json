@@ -3,62 +3,61 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-05-22T04:14:28.146930+00:00",
+  "updated_at": "2026-06-09T04:07:52.350790+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "77b5a31bf0",
-      "title": "Gilead teams up with WHO again to eliminate parasitic tropical disease",
-      "url": "https://www.pharmaceutical-technology.com/news/gilead-teams-up-with-who-again-to-eliminate-parasitic-tropical-disease/",
-      "summary": "Gilead will donate vials of its antifungal medication AmBisome to help global efforts in eliminating visceral leishmaniasis.",
+      "id": "06ae553867",
+      "title": "Incyte bolsters haematology portfolio in $2bn Vega buyout",
+      "url": "https://www.pharmaceutical-technology.com/news/incyte-acquires-vega-therapeutics-vga039-vwd-haematology/",
+      "summary": "This acquisition will see Incyte absorb Vega's bleeding disorder candidate, VG039, which is in Phase III for von Willebrand disease (VWD).",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-21T15:33:17+00:00",
-      "pub_ts": 1779377597
+      "pub_date": "2026-06-08T16:47:45+00:00",
+      "pub_ts": 1780937265
     },
     {
-      "id": "f5e5c257d2",
-      "title": "Eli Lilly maintains M&A streak with $202m Engage Bio buyout",
-      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-acquires-engage-bio-202m-non-viral-dna-delivery-platform/",
-      "summary": "Eli Lilly’s takeover of Engage Bio marks the seventh acquisition for the big pharma since the start of 2026.",
+      "id": "b247b3741f",
+      "title": "Roche signs $2.3bn blood cancer drug agreement with Nurix Therapeutics",
+      "url": "https://www.pharmaceutical-technology.com/news/roche-signs-2-3bn-blood-cancer-drug-agreement-with-nurix-therapeutics/",
+      "summary": "Roche believes its new BTK-degrader bexobrutideg will outperform approved BTK-inhibitors in B-cell malignancies.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-21T10:22:38+00:00",
-      "pub_ts": 1779358958
+      "pub_date": "2026-06-08T11:00:18+00:00",
+      "pub_ts": 1780916418
     },
     {
-      "id": "dd32e23ae4",
-      "title": "FUJIFILM opens new iPSC facility in Madison, US",
-      "url": "https://www.pharmaceutical-technology.com/news/fujifilm-opens-new-ipsc-facility/",
-      "summary": "FUJIFILM Cellular Dynamics has opened a new headquarters and iPSC manufacturing facility in Madison, Wisconsin, US.",
+      "id": "27ab831753",
+      "title": "ADA26: key obesity readouts from the conference",
+      "url": "https://www.pharmaceutical-technology.com/news/ada-2026-conference-obesity-highlights-eli-lilly-boehringer-ingelheim-sciwind-biosciences/",
+      "summary": "Key obesity data from Eli Lilly, Boehringer Ingelheim and Sciwind Biosciences captivated ADA 2026 attendees.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-21T10:04:15+00:00",
-      "pub_ts": 1779357855
+      "pub_date": "2026-06-08T10:39:26+00:00",
+      "pub_ts": 1780915166
     },
     {
-      "id": "c59fd389ca",
-      "title": "Podcast: Supply chains, obesity drugs, and patents dominate Q1 earnings trends",
-      "url": "https://www.pharmaceutical-technology.com/features/podcast-supply-chains-obesity-drugs-and-patents-dominate-q1-earnings-trends/",
-      "summary": "The healthcare team covers Q1 results from pharma and medtech companies and provides a wrap-up of the key takeaways",
+      "id": "53263dab2d",
+      "title": "Sanofi and Owkin partner to develop next-generation biopharma AI agents",
+      "url": "https://www.pharmaceutical-technology.com/news/sanofi-owkin-biopharma-ai-agents/",
+      "summary": "Sanofi has entered a multi-year agreement with Paris-based agentic AI company Owkin to co-develop next-generation AI-driven biopharma agents.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-21T09:42:57+00:00",
-      "pub_ts": 1779356577
+      "pub_date": "2026-06-08T09:25:01+00:00",
+      "pub_ts": 1780910701
     },
     {
-      "id": "765c1923ab",
-      "title": "ATS 2026: PABPC4 gene identified as a key driver of emphysema in COPD",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ats-2026-pabpc4-gene-identified-as-a-key-driver-of-emphysema-in-copd/",
-      "summary": "PABPC4 genetic variants found to be associated with mitochondrial dysfunction driving emphysema in COPD.",
+      "id": "94449f48c0",
+      "title": "EC grants marketing authorisation for IntraBio’s Aqneursa",
+      "url": "https://www.pharmaceutical-technology.com/news/ec-marketing-authorisation-intrabios-aqneursa/",
+      "summary": "The European Commission (EC) has granted marketing authorisation for IntraBio’s Aqneursa to treat neurological symptoms of NPC.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-05-21T09:34:40+00:00",
-      "pub_ts": 1779356080
+      "pub_date": "2026-06-08T07:38:06+00:00",
+      "pub_ts": 1780904286
     }
   ],
-  "last_attempted_at": "2026-05-20T00:53:29.829053+00:00",
-  "fetch_status": "preserved_existing_cache",
-  "source_success_count": 0,
-  "source_total_count": 5
+  "source_success_count": 1,
+  "source_total_count": 5,
+  "fetch_status": "fresh"
 }

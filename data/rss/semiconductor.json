@@ -3,162 +3,131 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-05-22T04:13:51.083343+00:00",
-  "item_count": 15,
+  "updated_at": "2026-06-09T04:07:12.007439+00:00",
+  "item_count": 12,
   "items": [
     {
-      "id": "dc74cfdf2c",
-      "title": "AICUBE、AIBOOK?摩尔线程下了盘大棋",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811916&idx=1&sn=334d0d9c5b4f3979893424411299d5a7",
-      "summary": "AICUBE、AIBOOK?摩尔线程下了盘大棋",
+      "id": "8dd17862e0",
+      "title": "手机越卖越贵，厂商却越来越慌",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812927&idx=1&sn=003f8f694bfb44357b0566ba8ec52fae",
+      "summary": "手机越卖越贵，厂商却越来越慌",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-22T04:13:46.960873+00:00",
-      "pub_ts": 1779423226
+      "pub_date": "2026-06-09T04:07:07.831065+00:00",
+      "pub_ts": 1780978027
     },
     {
-      "id": "5981577e0a",
-      "title": "IWAPS 2026征稿开启，光刻顶会来袭",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811916&idx=2&sn=b0451ee8ef1838d4c33f77c9a535e67d",
-      "summary": "IWAPS 2026征稿开启，光刻顶会来袭",
+      "id": "061f2c3ce2",
+      "title": "仅1纳米！全球最小半导体纳米管诞生",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812927&idx=2&sn=9103be1edb88ad7148713d95939f1b67",
+      "summary": "仅1纳米！全球最小半导体纳米管诞生",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-22T04:13:46.960918+00:00",
-      "pub_ts": 1779423226
+      "pub_date": "2026-06-09T04:07:07.831112+00:00",
+      "pub_ts": 1780978027
     },
     {
-      "id": "5c1bd51c1c",
-      "title": "全球首款采用High NA EUV制造的量子比特器件问世",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811916&idx=3&sn=59ebf20d007c953536229541c5354716",
-      "summary": "全球首款采用High NA EUV制造的量子比特器件问世",
+      "id": "a401bd5ab5",
+      "title": "美满电子：AI铜墙将至，光I/O与定制芯片发力",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812927&idx=3&sn=c961813378036299e5b7fc035cccf6ff",
+      "summary": "美满电子：AI铜墙将至，光I/O与定制芯片发力",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-22T04:13:46.960946+00:00",
-      "pub_ts": 1779423226
+      "pub_date": "2026-06-09T04:07:07.831125+00:00",
+      "pub_ts": 1780978027
     },
     {
-      "id": "18ac20f432",
-      "title": "牵手康宁，京东方要布局玻璃基封装",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811916&idx=4&sn=7615604210aa9d33fcf04ef1ef9c7cc8",
-      "summary": "牵手康宁，京东方要布局玻璃基封装",
+      "id": "338bc2f3c6",
+      "title": "数据中心连接，迎来质变?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247812927&idx=4&sn=9da87795e243311e7d20f5cc4146307f",
+      "summary": "数据中心连接，迎来质变?",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-05-22T04:13:46.960970+00:00",
-      "pub_ts": 1779423226
+      "pub_date": "2026-06-09T04:07:07.831140+00:00",
+      "pub_ts": 1780978027
     },
     {
-      "id": "50d891bb65",
-      "title": "硬件为王，戴尔加码本地AI基建",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247811916&idx=5&sn=7ef19b202bf7f8e70ba7807d793873f5",
-      "summary": "硬件为王，戴尔加码本地AI基建",
-      "source": "半导体产业纵横",
-      "lang": "zh",
-      "pub_date": "2026-05-22T04:13:46.960991+00:00",
-      "pub_ts": 1779423226
-    },
-    {
-      "id": "b7b95fe8ee",
-      "title": "AMD首颗2纳米CPU，官宣量产",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247820027&idx=1&sn=5ebf109ccbf2b6c61c10b059b4910f95",
-      "summary": "AMD首颗2纳米CPU，官宣量产",
+      "id": "2e2b64a075",
+      "title": "粤芯半导体，6月15上会",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247821913&idx=1&sn=383c661bf58373c4e9485f494fe7e80e",
+      "summary": "粤芯半导体，6月15上会",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-22T04:13:31.844197+00:00",
-      "pub_ts": 1779423211
+      "pub_date": "2026-06-09T04:06:59.456951+00:00",
+      "pub_ts": 1780978019
     },
     {
-      "id": "0a221e0c58",
-      "title": "特斯拉监督版FSD，官宣入华",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819968&idx=1&sn=d0e7863e9b234092f29204f9f809f97b",
-      "summary": "特斯拉监督版FSD，官宣入华",
+      "id": "0e4bd01979",
+      "title": "燧原科技，6月15上会",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247821906&idx=1&sn=6636780d35e46add243821ae02d49dfd",
+      "summary": "燧原科技，6月15上会",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-22T04:13:31.844268+00:00",
-      "pub_ts": 1779423211
+      "pub_date": "2026-06-09T04:06:59.456989+00:00",
+      "pub_ts": 1780978019
     },
     {
-      "id": "aa2c6707d8",
-      "title": "再谈谈CPO!",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819962&idx=1&sn=c654a713a1f77b9efbcb0ac06f4f12f5",
-      "summary": "再谈谈CPO!",
+      "id": "64ed99b95b",
+      "title": "刚刚，胜宏科技回应",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247821899&idx=1&sn=e874edf84216f915f65533827d0c36ae",
+      "summary": "刚刚，胜宏科技回应",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-05-22T04:13:31.844293+00:00",
-      "pub_ts": 1779423211
+      "pub_date": "2026-06-09T04:06:59.457003+00:00",
+      "pub_ts": 1780978019
     },
     {
-      "id": "6e985ee2bb",
-      "title": "比DRAM快1000倍的存储",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819962&idx=2&sn=600263b9650de39dacdf94dd285697c3",
-      "summary": "比DRAM快1000倍的存储",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-05-22T04:13:31.844317+00:00",
-      "pub_ts": 1779423211
-    },
-    {
-      "id": "2fddaa120e",
-      "title": "英伟达CPU卖爆了，营收直逼200亿美金",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247819962&idx=3&sn=f2cd96a37326e74f09ea7a25773154ef",
-      "summary": "英伟达CPU卖爆了，营收直逼200亿美金",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-05-22T04:13:31.844339+00:00",
-      "pub_ts": 1779423211
-    },
-    {
-      "id": "ed5a873cc2",
-      "title": "Large-scale, SRAM-based LLM Inference Deployment (Groq)",
-      "url": "https://semiengineering.com/large-scale-sram-based-llm-inference-deployment-groq/",
-      "summary": "A new technical paper, &#8220;SHIP: SRAM-Based Huge Inference Pipelines for Fast LLM Serving,&#8221; was published by researchers at Nvidia, with work done while at Groq. Abstract &#8220;The proliferation of large language models (LLMs) demands inference systems with both low latency and high effici…",
+      "id": "e0fcf5c122",
+      "title": "Disturbance In Verification",
+      "url": "https://semiengineering.com/disturbance-in-verification/",
+      "summary": "We have started to see what may be the largest disturbance in the role of a verification engineer since the founding of the industry. Should you be worried?\nThe post Disturbance In Verification appeared first on Semiconductor Engineering.",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-05-21T16:02:35+00:00",
-      "pub_ts": 1779379355
+      "pub_date": "2026-06-08T07:01:42+00:00",
+      "pub_ts": 1780902102
     },
     {
-      "id": "78a2c25f22",
-      "title": "Beyond Ideal Crystals: The Case For Scale In Atomistic Modeling",
-      "url": "https://semiengineering.com/beyond-ideal-crystals-the-case-for-scale-in-atomistic-modeling/",
-      "summary": "Capturing important details without making calculations impractically expensive.\nThe post Beyond Ideal Crystals: The Case For Scale In Atomistic Modeling appeared first on Semiconductor Engineering.",
+      "id": "adfd59e1ba",
+      "title": "Chip Industry Technical Paper Roundup: June 8",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-june-8/",
+      "summary": "IGZO FeFET AI memories; zero-knowledge proof acceleration; Rowhammer in monolithic 3D eDRAM; monolayer TMD nanoribbon transistors; graph attention virtual metrology; selective-area III-V MBE; open-source DNN accelerators; ultra-low-power AI-MCUs for transformers.\nThe post Chip Industry Technical Pap…",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-05-21T07:07:38+00:00",
-      "pub_ts": 1779347258
+      "pub_date": "2026-06-08T07:01:21+00:00",
+      "pub_ts": 1780902081
     },
     {
-      "id": "1a0ed6fac1",
-      "title": "Process Variation In The Era Of Scaling: Improving Uniformity With Dummy Fill",
-      "url": "https://semiengineering.com/process-variation-in-the-era-of-scaling-improving-uniformity-with-dummy-fill/",
-      "summary": "Reduce shallow trench isolation and recess nonuniformity introduced by pattern-dependent etch. \nThe post Process Variation In The Era Of Scaling: Improving Uniformity With Dummy Fill appeared first on Semiconductor Engineering.",
+      "id": "f30e442bb2",
+      "title": "Research Bits: June 8",
+      "url": "https://semiengineering.com/research-bits-june-8-2/",
+      "summary": "Multi-tasking transistor; p-bit fabrication; tiny MoS2 nanotubes.\nThe post Research Bits: June 8 appeared first on Semiconductor Engineering.",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-05-21T07:05:20+00:00",
-      "pub_ts": 1779347120
+      "pub_date": "2026-06-08T07:01:19+00:00",
+      "pub_ts": 1780902079
     },
     {
-      "id": "0df95cd9ca",
-      "title": "With Chiplets, What Role Does Economics Play?",
-      "url": "https://semiengineering.com/with-chiplets-what-role-does-economics-play/",
-      "summary": "Costs can rise with chiplets. Will that change? Will it matter?\nThe post With Chiplets, What Role Does Economics Play? appeared first on Semiconductor Engineering.",
+      "id": "987a505fee",
+      "title": "Read-Centric DTCO for IGZO FeFETs 3D Heterogeneous AI memories (imec, KU Leuven)",
+      "url": "https://semiengineering.com/read-centric-dtco-for-igzo-fefets-3d-heterogeneous-ai-memories-imec-ku-leuven/",
+      "summary": "Researchers from imec and KU Leuven have published “DTCO of NOR-Type IGZO FeFETs for 3D Heterogeneous AI Memories: A Read-Centric Perspective”. Abstract excerpt “This work evaluates the viability of NOR-type IGZO FeFETs for 3D heterogeneous AI memories from a read-centric design-technology co-optimi…",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-05-21T07:04:25+00:00",
-      "pub_ts": 1779347065
+      "pub_date": "2026-06-05T17:18:15+00:00",
+      "pub_ts": 1780679895
     },
     {
-      "id": "bb46003efb",
-      "title": "Advancing Heterogeneous Integration Through Industry Roadmap Improvements",
-      "url": "https://semiengineering.com/advancing-heterogeneous-integration-through-industry-roadmap-improvements/",
-      "summary": "More detailed roadmaps are needed to guide how the industry stacks, connects, powers, and cools tomorrow's chips.\nThe post Advancing Heterogeneous Integration Through Industry Roadmap Improvements appeared first on Semiconductor Engineering.",
+      "id": "9ceae8ef1b",
+      "title": "Accelerating Zero-Knowledge Proof Generation With Reconfigurable Hardware (KAIST)",
+      "url": "https://semiengineering.com/accelerating-zero-knowledge-proof-generation-with-reconfigurable-hardware-kaist/",
+      "summary": "Researchers from Korea Advanced Institute of Science and Technology (KAIST) have published “ZK-Flex: A Flexible and Scalable Framework for Accelerating Zero-Knowledge Proofs”. Abstract “Zero-knowledge proofs (ZKP) allows a prover to convince a verifier of computational correctness without revealing …",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-05-21T07:04:21+00:00",
-      "pub_ts": 1779347061
+      "pub_date": "2026-06-05T16:55:19+00:00",
+      "pub_ts": 1780678519
     }
   ],
-  "last_attempted_at": "2026-05-20T00:53:29.806551+00:00",
-  "fetch_status": "preserved_existing_cache",
-  "source_success_count": 0,
-  "source_total_count": 6
+  "source_success_count": 3,
+  "source_total_count": 6,
+  "fetch_status": "fresh"
 }

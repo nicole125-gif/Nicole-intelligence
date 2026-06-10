@@ -1158,7 +1158,7 @@ def main():
         index_path = _os.path.join(
             _os.path.dirname(_os.path.abspath(__file__)), "..", "index.html"
         )
-        inject_scores(scores_payload, index_path=index_path)
+        inject_scores(scores_payload, index_path=index_path, backup=False)
 
     except Exception as e:
         print(f"  [WARN] inject_scores 失败，跳过 index.html 更新: {e}")
