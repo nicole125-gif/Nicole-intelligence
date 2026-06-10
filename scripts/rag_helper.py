@@ -2,9 +2,16 @@
 rag_helper.py — 年报向量检索模块
 包含：Query Expansion + Hybrid Search(BM25) + Reranking + Injection Filter
 """
+import os
 from pathlib import Path
 
-_DB_DIR = Path(__file__).parent.parent / "pulse_vectordb"
+_LOCAL_DB_DIR = Path(__file__).parent.parent / "pulse_vectordb"
+_MI_DB_DIR = Path("/Users/nicolewang/AI/projects/MI报告库/mi_vectordb")
+_DB_CANDIDATES = [
+    (_MI_DB_DIR, "mi_reports", "BAAI/bge-large-zh-v1.5"),
+    (_LOCAL_DB_DIR, "reports", "BAAI/bge-small-zh-v1.5"),
+]
+_active_db = None
 _embedder = None
 _collection = None
 _reranker = None
@@ -26,31 +33,53 @@ INJECTION_KEYWORDS = [
 
 
 def _init():
-    global _embedder, _collection, _reranker, _bm25, _all_texts
+    global _active_db, _embedder, _collection, _reranker, _bm25, _all_texts
     if _collection is not None:
         return
-    if not _DB_DIR.exists():
-        print("[RAG] 向量数据库不存在，跳过")
-        return
     try:
-        from sentence_transformers import SentenceTransformer, CrossEncoder
+        from sentence_transformers import SentenceTransformer
         import chromadb
-        import jieba
-        from rank_bm25 import BM25Okapi
 
-        _embedder = SentenceTransformer("BAAI/bge-small-zh-v1.5")
-        _reranker = CrossEncoder("BAAI/bge-reranker-base")
+        for db_dir, collection_name, model_name in _DB_CANDIDATES:
+            if not db_dir.exists():
+                continue
+            try:
+                client = chromadb.PersistentClient(path=str(db_dir))
+                _collection = client.get_collection(collection_name)
+                _active_db = (db_dir, collection_name, model_name)
+                break
+            except Exception as e:
+                print(f"[RAG] 跳过 {db_dir.name}/{collection_name}: {e}")
 
-        client = chromadb.PersistentClient(path=str(_DB_DIR))
-        _collection = client.get_collection("reports")
+        if _collection is None or _active_db is None:
+            print("[RAG] 向量数据库不存在，跳过")
+            return
 
-        print("[RAG] 构建 BM25 索引...")
+        db_dir, collection_name, model_name = _active_db
+        _embedder = SentenceTransformer(model_name)
+        if os.environ.get("RAG_ENABLE_RERANKER") == "1":
+            try:
+                from sentence_transformers import CrossEncoder
+                _reranker = CrossEncoder("BAAI/bge-reranker-base")
+            except Exception as e:
+                print(f"[RAG] reranker 不可用，使用召回排序: {e}")
+
         all_results = _collection.get()
         _all_texts = all_results["documents"]
-        tokenized = [list(jieba.cut(t)) for t in _all_texts]
-        _bm25 = BM25Okapi(tokenized)
+        try:
+            import jieba
+            from rank_bm25 import BM25Okapi
 
-        print(f"[RAG] 已加载，共 {_collection.count()} 个文本块，BM25 索引完成")
+            print("[RAG] 构建 BM25 索引...")
+            tokenized = [list(jieba.cut(t)) for t in _all_texts]
+            _bm25 = BM25Okapi(tokenized)
+        except Exception as e:
+            print(f"[RAG] BM25 不可用，仅使用向量检索: {e}")
+
+        print(
+            f"[RAG] 已加载 {db_dir.name}/{collection_name}，"
+            f"共 {_collection.count()} 个文本块"
+        )
     except Exception as e:
         print(f"[RAG] 初始化失败，跳过: {e}")
 
@@ -96,8 +125,6 @@ def retrieve(query: str, top_k: int = 3) -> str:
     if _collection is None or _embedder is None:
         return ""
     try:
-        import jieba
-
         queries = _expand_query(query)
         print(f"[RAG] 查询扩展: {len(queries)} 个变体")
 
@@ -119,6 +146,7 @@ def retrieve(query: str, top_k: int = 3) -> str:
 
         # 2. BM25 关键词搜索
         if _bm25 is not None and _all_texts is not None:
+            import jieba
             tokens = list(jieba.cut(query))
             scores = _bm25.get_scores(tokens)
             top_idx = sorted(range(len(scores)),

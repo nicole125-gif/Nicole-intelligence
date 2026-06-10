@@ -1,5 +1,8 @@
-name: Monthly Intelligence Update
+name: Weekly Intelligence Update
 on:
+  schedule:
+    # 00:00 UTC = 08:00 Asia/Shanghai every Monday
+    - cron: '0 0 * * 1'
   workflow_dispatch:
 jobs:
   update:
@@ -16,7 +19,10 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install anthropic chromadb sentence-transformers pypdf langchain-community langchain-text-splitters rank-bm25 jieba unstructured
+        run: pip install -r requirements.txt anthropic chromadb sentence-transformers pypdf langchain-community langchain-text-splitters rank-bm25 jieba unstructured
+
+      - name: Fetch RSS evidence
+        run: python fetch_rss.py
 
       - name: Build RAG vector database
         run: |
@@ -122,7 +128,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add index.html pharma.html data/history.json data/reports_hash.json data/score_cache.json
-          git diff --staged --quiet || git commit -m "chore: auto update PULSE $(date +'%Y-%m')"
+          git add index.html pharma.html data/history.json data/reports_hash.json data/score_cache.json data/rss data/weekly data/watchlist.json
+          git diff --staged --quiet || git commit -m "chore: weekly intelligence update $(date +'%Y-%m-%d')"
           git pull --rebase origin main
           git push

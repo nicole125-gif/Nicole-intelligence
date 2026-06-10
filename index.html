@@ -568,6 +568,7 @@ body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([oncli
 }
 
 </style>
+<link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
 <div id="cursor-glow"></div>
@@ -1743,21 +1744,21 @@ function heatMetricValue(t,mode){
 function heatColor(t,mode){
   const v = mode==='delta' ? (t.delta ?? 0) : heatMetricValue(t,mode);
   if(mode==='delta'){
-    if(v>=10) return '#83d6a1';
-    if(v>=1) return '#68c8b7';
-    if(v>-4) return '#6aa7c8';
-    if(v>-10) return '#d2a45c';
-    return '#d66c62';
+    if(v>=10) return '#008A5B';
+    if(v>=1) return '#3B7C6E';
+    if(v>-4) return '#7A8699';
+    if(v>-10) return '#B05A2A';
+    return '#A23B3B';
   }
-  if(v>=78) return '#83d6a1';
-  if(v>=70) return '#68c8b7';
-  if(v>=60) return '#6aa7c8';
-  if(v>=52) return '#d2a45c';
-  return '#d66c62';
+  if(v>=78) return '#2251FF';
+  if(v>=70) return '#027AB1';
+  if(v>=60) return '#39BDF3';
+  if(v>=52) return '#A9D9F5';
+  return '#EEF5FC';
 }
 function tileAlpha(t,mode){
   const v = mode==='delta' ? Math.min(100,Math.abs(t.delta ?? 0) * 5 + 34) : heatMetricValue(t,mode);
-  return Math.max(24,Math.min(62,Math.round(v*.58))) + '%';
+  return Math.max(16,Math.min(44,Math.round(v*.48))) + '%';
 }
 function tileSpan(t,sizeMode){
   const v = heatMetricValue(t,sizeMode);
@@ -1835,7 +1836,7 @@ function renderHeatmap(){
       const c = heatColor(t,colorMode);
       const mainLabel = heatmapLabelMode==='name' ? t.n : (HEAT_SYMBOLS[id] || id.toUpperCase());
       const subLabel = heatmapLabelMode==='name' ? (HEAT_SYMBOLS[id] || id.toUpperCase()) : t.n;
-      return `<button class="heat-tile${id===selectedHeatId?' active':''}" data-id="${attr(id)}" onclick="updateHeatDetail('${attr(id)}')" style="--tile-c:${c};--tile-a:${tileAlpha(t,colorMode)};${tileSpan(t,sizeMode)}">
+      return `<button class="heat-tile${id===selectedHeatId?' active':''}" data-id="${attr(id)}" onclick="updateHeatDetail('${attr(id)}')" style="--tile-c:${c};--sector-c:${cc(t.b)};--tile-a:${tileAlpha(t,colorMode)};${tileSpan(t,sizeMode)}">
         <span class="heat-symbol">${esc(mainLabel)}</span>
         <span class="heat-name">${esc(subLabel)}</span>
         <span class="heat-value">${esc(Math.round(heatMetricValue(t,sizeMode)))}</span>
