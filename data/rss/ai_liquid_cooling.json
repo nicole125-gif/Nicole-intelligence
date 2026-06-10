@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-06-09T04:07:26.217063+00:00",
+  "updated_at": "2026-06-10T04:18:49.161186+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "683bdee3e2",
-      "title": "你天天刷的小红书，正在长出一个GitHub",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896042&idx=1&sn=2d44f5d7b95c60603e0c46c4c6416b6a",
-      "summary": "你天天刷的小红书，正在长出一个GitHub",
+      "id": "62254bc44c",
+      "title": "你最该认识的「硅谷CEO」：面试紧张，害怕演讲，管出最赚钱的AI广告公司",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896365&idx=1&sn=9cdc4a9960e498da6f0009682c967030",
+      "summary": "你最该认识的「硅谷CEO」：面试紧张，害怕演讲，管出最赚钱的AI广告公司",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-09T04:07:21.500490+00:00",
-      "pub_ts": 1780978041
+      "pub_date": "2026-06-10T04:18:44.179589+00:00",
+      "pub_ts": 1781065124
     },
     {
-      "id": "982e0a9745",
-      "title": "腾讯想让企业打开AI的方式只剩一个",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896042&idx=2&sn=38035b110ae836c33bea101545a485b9",
-      "summary": "腾讯想让企业打开AI的方式只剩一个",
+      "id": "6818f67064",
+      "title": "内蒙跑通AI逆袭新解法",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896365&idx=2&sn=d36645941acc198c754199c14a475aa3",
+      "summary": "内蒙跑通AI逆袭新解法",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-09T04:07:21.500526+00:00",
-      "pub_ts": 1780978041
+      "pub_date": "2026-06-10T04:18:44.179634+00:00",
+      "pub_ts": 1781065124
     },
     {
-      "id": "94969a226a",
-      "title": "UCL长视频理解新思路：视频转记忆，再让模型去检索",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896042&idx=3&sn=01efd711fcbad47f2bb356ca4306bb60",
-      "summary": "UCL长视频理解新思路：视频转记忆，再让模型去检索",
+      "id": "9aed7e6bf3",
+      "title": "3B小模型，把图像视频“看画改”全打通了，字节Lance开源即冲上抱抱脸第一",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896365&idx=3&sn=e12711bc2012bf7690c5815c1e2348d5",
+      "summary": "3B小模型，把图像视频“看画改”全打通了，字节Lance开源即冲上抱抱脸第一",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-09T04:07:21.500538+00:00",
-      "pub_ts": 1780978041
+      "pub_date": "2026-06-10T04:18:44.179657+00:00",
+      "pub_ts": 1781065124
     },
     {
-      "id": "69b8ec692d",
-      "title": "难上热搜的高考数学，我拿ChatGPT和豆包PK了一把!",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895907&idx=1&sn=c4e5c85ccf43eea5338fc1c8bfc001e2",
-      "summary": "难上热搜的高考数学，我拿ChatGPT和豆包PK了一把!",
+      "id": "4b2fea2151",
+      "title": "仅4B大小可端侧部署！卡帕西预言的「认知模型」被国产做出来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896179&idx=1&sn=a56a7d56fce9d96474d7a7f65cc77b97",
+      "summary": "仅4B大小可端侧部署！卡帕西预言的「认知模型」被国产做出来了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-09T04:07:21.500549+00:00",
-      "pub_ts": 1780978041
+      "pub_date": "2026-06-10T04:18:44.179676+00:00",
+      "pub_ts": 1781065124
     },
     {
-      "id": "b3880906ff",
-      "title": "首次！纯人类视频预训练VLA灵巧操作，少量数据微调就能部署成功",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895907&idx=2&sn=d7a839aa7404bed97a4a63644226bb94",
-      "summary": "首次！纯人类视频预训练VLA灵巧操作，少量数据微调就能部署成功",
+      "id": "387bba38b6",
+      "title": "OpenAl 也提交IPO招股书了，急急急急急",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896179&idx=2&sn=ad76c772a7e093d486e71fd838f60846",
+      "summary": "OpenAl 也提交IPO招股书了，急急急急急",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-09T04:07:21.500560+00:00",
-      "pub_ts": 1780978041
+      "pub_date": "2026-06-10T04:18:44.179695+00:00",
+      "pub_ts": 1781065124
     }
   ],
   "source_success_count": 1,

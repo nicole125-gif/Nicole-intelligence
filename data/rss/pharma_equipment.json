@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-06-09T04:07:52.350790+00:00",
+  "updated_at": "2026-06-10T04:19:11.943666+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "06ae553867",
-      "title": "Incyte bolsters haematology portfolio in $2bn Vega buyout",
-      "url": "https://www.pharmaceutical-technology.com/news/incyte-acquires-vega-therapeutics-vga039-vwd-haematology/",
-      "summary": "This acquisition will see Incyte absorb Vega's bleeding disorder candidate, VG039, which is in Phase III for von Willebrand disease (VWD).",
+      "id": "96c8ac90e0",
+      "title": "WuXi AppTec hits back after being named in Pentagon’s Chinese military list",
+      "url": "https://www.pharmaceutical-technology.com/news/wuxi-apptec-hits-back-after-being-named-in-pentagons-chinese-military-list/",
+      "summary": "A spokesperson for the Chinese company said “we will take immediate action” following the military designation.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-08T16:47:45+00:00",
-      "pub_ts": 1780937265
+      "pub_date": "2026-06-09T16:03:11+00:00",
+      "pub_ts": 1781020991
     },
     {
-      "id": "b247b3741f",
-      "title": "Roche signs $2.3bn blood cancer drug agreement with Nurix Therapeutics",
-      "url": "https://www.pharmaceutical-technology.com/news/roche-signs-2-3bn-blood-cancer-drug-agreement-with-nurix-therapeutics/",
-      "summary": "Roche believes its new BTK-degrader bexobrutideg will outperform approved BTK-inhibitors in B-cell malignancies.",
+      "id": "6e3303407c",
+      "title": "ADA26: Oral PCSK9 inhibitor enlicitide delivers robust LDL-C lowering",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ada26-oral-pcsk9-inhibitor-enlicitide-delivers-robust-ldl-c-lowering/",
+      "summary": "Phase III data suggest oral PCSK9 inhibitor enlicitide delivers substantial LDL-C lowering without compromising glycemic control.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-08T11:00:18+00:00",
-      "pub_ts": 1780916418
+      "pub_date": "2026-06-09T15:39:18+00:00",
+      "pub_ts": 1781019558
     },
     {
-      "id": "27ab831753",
-      "title": "ADA26: key obesity readouts from the conference",
-      "url": "https://www.pharmaceutical-technology.com/news/ada-2026-conference-obesity-highlights-eli-lilly-boehringer-ingelheim-sciwind-biosciences/",
-      "summary": "Key obesity data from Eli Lilly, Boehringer Ingelheim and Sciwind Biosciences captivated ADA 2026 attendees.",
+      "id": "8843769356",
+      "title": "ADA26: Early data for teplizumab demonstrates promise for slowing T1D progression",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ada26-early-data-for-teplizumab-demonstrates-promise-for-slowing-t1d-progression/",
+      "summary": "Real-world data presented at ADA 2026 showcased the impact of Sanofi's teplizumab in slowing type 1 diabetes (T1D) progression.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-08T10:39:26+00:00",
-      "pub_ts": 1780915166
+      "pub_date": "2026-06-09T15:39:16+00:00",
+      "pub_ts": 1781019556
     },
     {
-      "id": "53263dab2d",
-      "title": "Sanofi and Owkin partner to develop next-generation biopharma AI agents",
-      "url": "https://www.pharmaceutical-technology.com/news/sanofi-owkin-biopharma-ai-agents/",
-      "summary": "Sanofi has entered a multi-year agreement with Paris-based agentic AI company Owkin to co-develop next-generation AI-driven biopharma agents.",
+      "id": "4ae2d1f614",
+      "title": "GSK doubles down on oncology with $10.6bn Nuvalent takeover",
+      "url": "https://www.pharmaceutical-technology.com/news/gsk-doubles-down-on-oncology-with-10-6bn-nuvalent-takeover/",
+      "summary": "Nuvalent’s two late-stage lung cancer assets – zidesamtinib and neladalkib – are currently under FDA review",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-08T09:25:01+00:00",
-      "pub_ts": 1780910701
+      "pub_date": "2026-06-09T10:56:31+00:00",
+      "pub_ts": 1781002591
     },
     {
-      "id": "94449f48c0",
-      "title": "EC grants marketing authorisation for IntraBio’s Aqneursa",
-      "url": "https://www.pharmaceutical-technology.com/news/ec-marketing-authorisation-intrabios-aqneursa/",
-      "summary": "The European Commission (EC) has granted marketing authorisation for IntraBio’s Aqneursa to treat neurological symptoms of NPC.",
+      "id": "a5e3bde371",
+      "title": "J&J to acquire Firefly Bio for $1bn to enhance oncology pipeline",
+      "url": "https://www.pharmaceutical-technology.com/news/jj-to-buy-firefly-bio-oncology/",
+      "summary": "J&amp;J has agreed to buy Firefly Bio for $1bn in cash, aiming to strengthen its oncology pipeline with Firefly Bio’s Firelink DAC platform.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-08T07:38:06+00:00",
-      "pub_ts": 1780904286
+      "pub_date": "2026-06-09T09:59:50+00:00",
+      "pub_ts": 1780999190
     }
   ],
   "source_success_count": 1,

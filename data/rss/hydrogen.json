@@ -3,61 +3,81 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-06-09T04:07:39.722814+00:00",
-  "item_count": 5,
+  "updated_at": "2026-06-10T04:18:59.519874+00:00",
+  "item_count": 7,
   "items": [
     {
-      "id": "d4fe93f1ba",
-      "title": "LE MANS: 24 Hours – The Hydrogen Village Is Expanding for the 2026 Edition",
-      "url": "https://fuelcellsworks.com/2026/06/08/energy-innovation/le-mans-24-hours-the-hydrogen-village-is-expanding-for-the-2026-edition",
+      "id": "b981aa96c5",
+      "title": "Oman’s $4.2Bln Green Hydrogen Project’s 2Nd Phase to Start Operation in 2030",
+      "url": "https://fuelcellsworks.com/2026/06/09/green-investment/oman-s-4-2bln-green-hydrogen-project-s-2nd-phase-to-start-operation-in-2030",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-08T16:01:39+00:00",
-      "pub_ts": 1780934499
+      "pub_date": "2026-06-09T15:55:23+00:00",
+      "pub_ts": 1781020523
     },
     {
-      "id": "a644be73bf",
-      "title": "Amogy and Amun Energy Execute Supply Agreement for Commercial-Scale Ammonia-to-Power Project in South Korea",
-      "url": "https://fuelcellsworks.com/2026/06/08/green-investment/amogy-and-amun-energy-execute-supply-agreement-for-commercial-scale-ammonia-to-power-project-in-south-korea",
+      "id": "199e88eb4b",
+      "title": "Humber’s Hydrogen Applications to Be Supported by Flow Measurement Experts",
+      "url": "https://fuelcellsworks.com/2026/06/09/clean-energy/humber-s-hydrogen-applications-to-be-supported-by-flow-measurement-experts",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-08T15:46:57+00:00",
-      "pub_ts": 1780933617
+      "pub_date": "2026-06-09T15:27:59+00:00",
+      "pub_ts": 1781018879
     },
     {
-      "id": "632aab71ce",
-      "title": "France's Two Leading Geological Institutions Just Joined Forces on Native Hydrogen",
-      "url": "https://fuelcellsworks.com/2026/06/07/electrolyzer/france-s-two-leading-geological-institutions-just-joined-forces-on-native-hydrogen",
+      "id": "86aef5aa96",
+      "title": "Pioneer in Hydrogen Shipping Future Proof Shipping Bankrupt",
+      "url": "https://fuelcellsworks.com/2026/06/07/fuel-cells/pioneer-in-hydrogen-shipping-future-proof-shipping-bankrupt",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-08T15:26:19+00:00",
-      "pub_ts": 1780932379
+      "pub_date": "2026-06-09T15:25:39+00:00",
+      "pub_ts": 1781018739
     },
     {
-      "id": "15d967ec94",
-      "title": "H2sea Awarded Engineering Role in OMG-H2 Project",
-      "url": "https://fuelcellsworks.com/2026/06/08/green-hydrogen/h2sea-awarded-engineering-role-in-omg-h2-project",
+      "id": "c7bb87417a",
+      "title": "Cannon AFB Trials New Hydrogen Energy Program to Provide Alternate Power for Water Supply",
+      "url": "https://fuelcellsworks.com/2026/06/09/clean-energy/cannon-afb-trials-new-hydrogen-energy-program-to-provide-alternate-power-for-water-supply",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-08T15:15:27+00:00",
-      "pub_ts": 1780931727
+      "pub_date": "2026-06-09T15:21:03+00:00",
+      "pub_ts": 1781018463
     },
     {
-      "id": "d1935aa306",
-      "title": "Toyota Just Set a Hydrogen Racing Record at Fuji — 483 Laps, a Superconducting Pump, and Akio Toyoda Behind the Wheel",
-      "url": "https://fuelcellsworks.com/2026/06/07/h2/toyota-just-set-a-hydrogen-racing-record-at-fuji-483-laps-a-superconducting-pump-and-akio-toyoda-behind-the-wheel",
+      "id": "ec4ffa171b",
+      "title": "Utility Global Signs First Commercial Project Agreement in South Korea for H2Gen® Project in Daejeon",
+      "url": "https://fuelcellsworks.com/2026/06/09/clean-energy/utility-global-signs-first-commercial-project-agreement-in-south-korea-for-h2gen-project-in-daejeon",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-08T15:06:32+00:00",
-      "pub_ts": 1780931192
+      "pub_date": "2026-06-09T15:08:00+00:00",
+      "pub_ts": 1781017680
+    },
+    {
+      "id": "c97038b0d0",
+      "title": "Why Cheap Renewables Have Not Made Green Hydrogen Cheap – and How H2Pro DWE Is Built for Intermittent Power",
+      "url": "https://hydrogen-central.com/why-cheap-renewables-have-not-made-green-hydrogen-cheap-and-how-h2pro-dwe-is-built-for-intermittent-power/",
+      "summary": "Why Cheap Renewables Have Not Made Green Hydrogen Cheap — and How H2Pro DWE Is Built for Intermittent Power A breakthrough technical whitepaper from H2Pro reveals why PEM and AEL [&#8230;]\nThe post Why Cheap Renewables Have Not Made Green Hydrogen Cheap &#8211; and How H2Pro DWE Is Built for Intermi…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-06-05T07:47:42+00:00",
+      "pub_ts": 1780645662
+    },
+    {
+      "id": "4364c0cca1",
+      "title": "SunHydrogen Installs Improved Hydrogen Modules at Austin Pilot, With Early Field Performance Consistent with Lab-Validated Modules",
+      "url": "https://hydrogen-central.com/sunhydrogen-installs-improved-hydrogen-modules-at-austin-pilot-with-early-field-performance-consistent-with-lab-validated-modules/",
+      "summary": "SunHydrogen Installs Improved Hydrogen Modules at Austin Pilot, With Early Field Performance Consistent with Lab-Validated Modules Hydrogen modules measuring 1.92 m² (20.7 ft²), built with SunHydrogen&#8217;s latest catalyst integration and [&#8230;]\nThe post SunHydrogen Installs Improved Hydrogen M…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-06-03T15:58:32+00:00",
+      "pub_ts": 1780502312
     }
   ],
-  "source_success_count": 1,
+  "source_success_count": 2,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }
