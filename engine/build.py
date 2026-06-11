@@ -12,7 +12,7 @@ import datetime as dt
 import hashlib
 
 from engine import buyer_role as br
-from engine import classify, conditions, ranking, schema, valuation
+from engine import classify, conditions, ranking, schema, valuation, winnability
 
 
 def _text(signal: dict) -> str:
@@ -89,7 +89,9 @@ def build_event(signal: dict, cfg: dict, as_of: dt.date) -> dict | None:
         urgency = min(urgency, 5)
 
     band = valuation.value_band(text, est_value)
-    rank = ranking.rank_score(band["band"], lead_time["level"], cond["match_score"])
+    win = winnability.assess(text, cond.get("competitor_density", "mid"))
+    rank = ranking.rank_score(
+        band["band"], lead_time["level"], cond["match_score"], win["score"])
 
     valves = "、".join(cond["valve_type"]["primary"][:2]) or "对口阀型"
     who = owner_name or "该项目业主"
@@ -113,6 +115,7 @@ def build_event(signal: dict, cfg: dict, as_of: dt.date) -> dict | None:
         "valve_type": cond["valve_type"],
         "est_value": est_value,
         "value_band": band,
+        "winnability": win,
         "urgency": urgency,
         "match_score": cond["match_score"],
         "rank_score": rank,

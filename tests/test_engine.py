@@ -11,7 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from engine import build, buyer_role, conditions, ranking, valuation  # noqa: E402
+from engine import build, buyer_role, conditions, ranking, valuation, winnability  # noqa: E402
 
 
 class ConditionTests(unittest.TestCase):
@@ -118,6 +118,23 @@ class ValueBandTests(unittest.TestCase):
         self.assertEqual(valuation.capacity_scale("年产6万吨钛白粉"), 1)
 
 
+class WinnabilityTests(unittest.TestCase):
+    def test_greenfield_beats_brownfield(self):
+        gf = winnability.assess("新建生产基地项目", "mid")["score"]
+        bf = winnability.assess("某产线技改升级改造", "mid")["score"]
+        self.assertGreater(gf, bf)
+
+    def test_low_competitor_density_beats_high(self):
+        lo = winnability.assess("某扩产项目", "low")["score"]
+        hi = winnability.assess("某扩产项目", "high")["score"]
+        self.assertGreater(lo, hi)
+
+    def test_score_clamped(self):
+        s = winnability.assess("新建生产基地", "low")["score"]
+        self.assertLessEqual(s, 1.0)
+        self.assertGreaterEqual(winnability.assess("技改", "high")["score"], 0.15)
+
+
 class RankingTests(unittest.TestCase):
     def test_big_band_beats_unknown(self):
         self.assertGreater(ranking.value_factor("大"), ranking.value_factor("未知"))
@@ -129,6 +146,11 @@ class RankingTests(unittest.TestCase):
         strong = ranking.rank_score("大", "L0", 9)
         weak = ranking.rank_score("未知", "L2", 2)
         self.assertGreater(strong, weak)
+
+    def test_winnability_discounts_rank(self):
+        high_win = ranking.rank_score("大", "L0", 9, 0.9)
+        low_win = ranking.rank_score("大", "L0", 9, 0.3)
+        self.assertGreater(high_win, low_win)
 
 
 class BuildTests(unittest.TestCase):

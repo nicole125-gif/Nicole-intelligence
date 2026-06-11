@@ -23,9 +23,11 @@ def condition_factor(match_score: float) -> float:
     return round(match_score / 10.0, 4)
 
 
-def rank_score(band: str, lead_level: str, match_score: float) -> float:
+def rank_score(band: str, lead_level: str, match_score: float,
+               winnability: float = 1.0) -> float:
     return round(
-        value_factor(band) * lead_factor(lead_level) * condition_factor(match_score),
+        value_factor(band) * lead_factor(lead_level)
+        * condition_factor(match_score) * winnability,
         4,
     )
 
