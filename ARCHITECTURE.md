@@ -38,7 +38,8 @@
 | `valuation.py` | `parse_capex_cny` + `estimate_value`（capex×0.5-1.5%，三态；含量词负向 lookahead 防"万吨"误判） | 移植 p4 |
 | `conditions.py` | 加载 `esg_conditions.yml` + `classify_condition`（工况打分，strong+1.5/mid+0.8 + 源加权）+ 阀型映射 | 新写 |
 | `buyer_role.py` | `infer_buyer_role`：按工况推断买方角色（设备OEM/EPC/终端），替代别名客户匹配 | 新写 |
-| `ranking.py` | `rank_score = 价值×提前量×工况匹配度`（相乘，任一为零沉底）+ 稳定多键排序 | 新写 |
+| `ranking.py` | `rank_score = 价值档×提前量×工况匹配×赢面`（相乘，任一为零沉底）+ 稳定多键排序 | 新写 |
+| `winnability.py` | 赢面 v1：绿地无在位 + 工况级竞品密度 → rank 第四因子 | 新写 |
 | `build.py` | `build_event`（装配单条，match_score=0 则丢弃）+ `build_pack`（排序+summary） | 重写（蓝本 p4） |
 | `run.py` | 入口：跑三源→build→写 `data/events/<date>.json` + 健康检查（CORE 工况各≥3） | 新写 |
 | `sources/base.py` | `safe_get`/`make_id`（requests **惰性导入**，离线模式无需联网） | 移植 |
@@ -73,7 +74,7 @@ id · headline · owner{name,raw,resolved} · buyer_role{inferred,basis,confiden
 working_condition[] · industry_tag · signal_type(compliance|expansion|immediate)
 driver(Pol|P|C|D) · lead_time{level:L0/L1/L2, months} · valve_type{primary[],basis}
 est_value{status:model_estimate|manual_override|unknown, low,high,project_capex…}
-value_band{band:大|中|小|未知, basis} · urgency(1-10) · match_score(0-10) · rank_score(float, 排序主键)
+value_band{band:大|中|小|未知, basis} · winnability{score:0.15-1.0, basis} · urgency(1-10) · match_score(0-10) · rank_score(float, 排序主键)
 action · source{name,type,url,published_at} · confidence(0-100)
 review_flag(ok|unresolved|needs_review|stale) · quality{has_capex,has_owner,stale}
 ```
@@ -120,9 +121,9 @@ review_flag(ok|unresolved|needs_review|stale) · quality{has_capex,has_owner,sta
 |---|---|---|---|
 | cninfo 募投 `fulltextSearch/full` | L1 | ✅ 通 | 新引擎唯一跑通的源 |
 | CDE 优先审评（Playwright） | pipeline | ✅ 已接 | 瑞数 WAF → Playwright 过墙 + `getPriorityApprovalList` API（带公司名）；opt-in |
-| NMPA 飞检 `nmpa.gov.cn` | 替换切口 | ⚠️ 412 反爬 | 要 cookie/header 攻破 |
-| 环评 `eia.mee.gov.cn` | L2 | ❌ 本机 SSL 封 | CI 环境或可达，待验证 |
-| 招标 `ccgp.gov.cn` | L0 | ❌ 404 改版 | 需找新入口 |
+| NMPA 飞检 `nmpa.gov.cn` | 替换切口 | ❌ 瑞数(严) | 同瑞数但严格实例，挑战解完仍 400 拒 headless → 需非 headless/反检测，CI 待办 |
+| 环评 `eia.mee.gov.cn` | L2 | ❌ 本机 SSL 封 | 疑地域封；CI 环境验证 |
+| 招标 `ccgp.gov.cn` | L0 | ❌ 频繁访问 | 端点已知 `search.ccgp.gov.cn/bxsearch`；IP 限频反爬，CI/干净 IP 待办 |
 | RSS（7 垂直） | — | ❌ 停在 5-22 | 老系统 |
 
 ---
