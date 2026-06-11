@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-06-10T04:19:11.943666+00:00",
+  "updated_at": "2026-06-11T04:41:45.376726+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "96c8ac90e0",
-      "title": "WuXi AppTec hits back after being named in Pentagon’s Chinese military list",
-      "url": "https://www.pharmaceutical-technology.com/news/wuxi-apptec-hits-back-after-being-named-in-pentagons-chinese-military-list/",
-      "summary": "A spokesperson for the Chinese company said “we will take immediate action” following the military designation.",
+      "id": "1f5cd169a3",
+      "title": "Parabilis Medicines sets biotech record with $670m IPO",
+      "url": "https://www.pharmaceutical-technology.com/news/parabilis-medicines-sets-biotech-record-with-670m-ipo/",
+      "summary": "Parabilis’ US listing means the biotech IPO record has been broken twice in as many months as public listings continue hot streak.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-09T16:03:11+00:00",
-      "pub_ts": 1781020991
+      "pub_date": "2026-06-10T14:32:31+00:00",
+      "pub_ts": 1781101951
     },
     {
-      "id": "6e3303407c",
-      "title": "ADA26: Oral PCSK9 inhibitor enlicitide delivers robust LDL-C lowering",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ada26-oral-pcsk9-inhibitor-enlicitide-delivers-robust-ldl-c-lowering/",
-      "summary": "Phase III data suggest oral PCSK9 inhibitor enlicitide delivers substantial LDL-C lowering without compromising glycemic control.",
+      "id": "f33080ec42",
+      "title": "Enhance clinical trial screening and improve patient matching accuracy",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/enhance-clinical-trial-screening-and-improve-patient-matching-accuracy/",
+      "summary": "",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-09T15:39:18+00:00",
-      "pub_ts": 1781019558
+      "pub_date": "2026-06-10T14:20:25+00:00",
+      "pub_ts": 1781101225
     },
     {
-      "id": "8843769356",
-      "title": "ADA26: Early data for teplizumab demonstrates promise for slowing T1D progression",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ada26-early-data-for-teplizumab-demonstrates-promise-for-slowing-t1d-progression/",
-      "summary": "Real-world data presented at ADA 2026 showcased the impact of Sanofi's teplizumab in slowing type 1 diabetes (T1D) progression.",
+      "id": "10d519a08e",
+      "title": "Coya Therapeutics CEO on ALS urgency and fast-tracking COYA 302 for patient impact",
+      "url": "https://www.pharmaceutical-technology.com/interviews/coya-therapeutics-ceo-als-coya-302/",
+      "summary": "As CEO of Coya Therapeutics, Dr Arun Swaminathan is steering the company’s lead programme, COYA 302, an immune-modulating combination designed to restore regulatory T-cell function and dampen neuroinflammation, through a pivotal stage of development in ALS.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-09T15:39:16+00:00",
-      "pub_ts": 1781019556
+      "pub_date": "2026-06-10T13:14:58+00:00",
+      "pub_ts": 1781097298
     },
     {
-      "id": "4ae2d1f614",
-      "title": "GSK doubles down on oncology with $10.6bn Nuvalent takeover",
-      "url": "https://www.pharmaceutical-technology.com/news/gsk-doubles-down-on-oncology-with-10-6bn-nuvalent-takeover/",
-      "summary": "Nuvalent’s two late-stage lung cancer assets – zidesamtinib and neladalkib – are currently under FDA review",
+      "id": "4f188f6b58",
+      "title": "Eli Lilly continues dealmaking roll with $1bn AlzeCure agreement",
+      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-alzecure-1bn-licensing-deal-alzheimers-ac680/",
+      "summary": "If AlzeCure-developed ACD680 reached the market, it would deepen Eli Lilly’s Alzheimer’s legacy past anti-amyloid-beta therapy, Kisunla.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-09T10:56:31+00:00",
-      "pub_ts": 1781002591
+      "pub_date": "2026-06-10T10:31:37+00:00",
+      "pub_ts": 1781087497
     },
     {
-      "id": "a5e3bde371",
-      "title": "J&J to acquire Firefly Bio for $1bn to enhance oncology pipeline",
-      "url": "https://www.pharmaceutical-technology.com/news/jj-to-buy-firefly-bio-oncology/",
-      "summary": "J&amp;J has agreed to buy Firefly Bio for $1bn in cash, aiming to strengthen its oncology pipeline with Firefly Bio’s Firelink DAC platform.",
+      "id": "e3ed0aa5f8",
+      "title": "Aditxt and Ignite announce merger plans with strategic partner",
+      "url": "https://www.pharmaceutical-technology.com/news/aditxt-ignite-merger-plans/",
+      "summary": "Aditxt and subsidiary Ignite Proteomics have announced plans for a business combination with a strategic partner.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-09T09:59:50+00:00",
-      "pub_ts": 1780999190
+      "pub_date": "2026-06-10T10:09:36+00:00",
+      "pub_ts": 1781086176
     }
   ],
   "source_success_count": 1,

@@ -3,81 +3,61 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-06-10T04:18:59.519874+00:00",
-  "item_count": 7,
+  "updated_at": "2026-06-11T04:41:32.945013+00:00",
+  "item_count": 5,
   "items": [
     {
-      "id": "b981aa96c5",
-      "title": "Oman’s $4.2Bln Green Hydrogen Project’s 2Nd Phase to Start Operation in 2030",
-      "url": "https://fuelcellsworks.com/2026/06/09/green-investment/oman-s-4-2bln-green-hydrogen-project-s-2nd-phase-to-start-operation-in-2030",
+      "id": "d341835520",
+      "title": "HTWO Participates in Guangzhou '2026 International Hydrogen Energy and Fuel Cell Vehicle Conference'",
+      "url": "https://fuelcellsworks.com/2026/06/10/energy-innovation/htwo-participates-in-guangzhou-2026-international-hydrogen-energy-and-fuel-cell-vehicle-conference",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-09T15:55:23+00:00",
-      "pub_ts": 1781020523
+      "pub_date": "2026-06-10T15:36:59+00:00",
+      "pub_ts": 1781105819
     },
     {
-      "id": "199e88eb4b",
-      "title": "Humber’s Hydrogen Applications to Be Supported by Flow Measurement Experts",
-      "url": "https://fuelcellsworks.com/2026/06/09/clean-energy/humber-s-hydrogen-applications-to-be-supported-by-flow-measurement-experts",
+      "id": "684fa01e95",
+      "title": "Thyssenkrupp Uhde Signs Pre-FEED Contracts with Fuella AS for Pecém Green Ammonia Project (PeGA) and Açu Green Ammonia Project (AçuGA)",
+      "url": "https://fuelcellsworks.com/2026/06/10/clean-energy/thyssenkrupp-uhde-signs-pre-feed-contracts-with-fuella-as-for-pecem-green-ammonia-project-pega-and-acu-green-ammonia-project-acuga",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-09T15:27:59+00:00",
-      "pub_ts": 1781018879
+      "pub_date": "2026-06-10T15:21:57+00:00",
+      "pub_ts": 1781104917
     },
     {
-      "id": "86aef5aa96",
-      "title": "Pioneer in Hydrogen Shipping Future Proof Shipping Bankrupt",
-      "url": "https://fuelcellsworks.com/2026/06/07/fuel-cells/pioneer-in-hydrogen-shipping-future-proof-shipping-bankrupt",
+      "id": "c7b887f5ba",
+      "title": "Show More 2:36 PM Contract Signed for mosaHYc: Construction of the Hydrogen Pipeline Between Leidingen and Dillingen",
+      "url": "https://fuelcellsworks.com/2026/06/09/h2/show-more-2-36-pm-contract-signed-for-mosahyc-construction-of-the-hydrogen-pipeline-between-leidingen-and-dillingen",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-09T15:25:39+00:00",
-      "pub_ts": 1781018739
+      "pub_date": "2026-06-10T15:11:26+00:00",
+      "pub_ts": 1781104286
     },
     {
-      "id": "c7bb87417a",
-      "title": "Cannon AFB Trials New Hydrogen Energy Program to Provide Alternate Power for Water Supply",
-      "url": "https://fuelcellsworks.com/2026/06/09/clean-energy/cannon-afb-trials-new-hydrogen-energy-program-to-provide-alternate-power-for-water-supply",
+      "id": "8f66a93038",
+      "title": "Under the Hood: What Unites and Differentiates Battery-Electric and Fuel Cell Powered Trucks",
+      "url": "https://fuelcellsworks.com/2026/06/10/energy-innovation/under-the-hood-what-unites-and-differentiates-battery-electric-and-fuel-cell-powered-trucks",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-09T15:21:03+00:00",
-      "pub_ts": 1781018463
+      "pub_date": "2026-06-10T15:06:15+00:00",
+      "pub_ts": 1781103975
     },
     {
-      "id": "ec4ffa171b",
-      "title": "Utility Global Signs First Commercial Project Agreement in South Korea for H2Gen® Project in Daejeon",
-      "url": "https://fuelcellsworks.com/2026/06/09/clean-energy/utility-global-signs-first-commercial-project-agreement-in-south-korea-for-h2gen-project-in-daejeon",
+      "id": "c695750186",
+      "title": "Toyota's GR Corolla H2 Achieves 180Km Range at Super Taikyu — Triple 2022'S 57Km Baseline",
+      "url": "https://fuelcellsworks.com/2026/06/09/h2/in-2022-hydrogen-powered-vehicles-could-only-travel-57km-on-a-full-tank-but-in-just-four-years-they-can-now-travel-180km",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-09T15:08:00+00:00",
-      "pub_ts": 1781017680
-    },
-    {
-      "id": "c97038b0d0",
-      "title": "Why Cheap Renewables Have Not Made Green Hydrogen Cheap – and How H2Pro DWE Is Built for Intermittent Power",
-      "url": "https://hydrogen-central.com/why-cheap-renewables-have-not-made-green-hydrogen-cheap-and-how-h2pro-dwe-is-built-for-intermittent-power/",
-      "summary": "Why Cheap Renewables Have Not Made Green Hydrogen Cheap — and How H2Pro DWE Is Built for Intermittent Power A breakthrough technical whitepaper from H2Pro reveals why PEM and AEL [&#8230;]\nThe post Why Cheap Renewables Have Not Made Green Hydrogen Cheap &#8211; and How H2Pro DWE Is Built for Intermi…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-06-05T07:47:42+00:00",
-      "pub_ts": 1780645662
-    },
-    {
-      "id": "4364c0cca1",
-      "title": "SunHydrogen Installs Improved Hydrogen Modules at Austin Pilot, With Early Field Performance Consistent with Lab-Validated Modules",
-      "url": "https://hydrogen-central.com/sunhydrogen-installs-improved-hydrogen-modules-at-austin-pilot-with-early-field-performance-consistent-with-lab-validated-modules/",
-      "summary": "SunHydrogen Installs Improved Hydrogen Modules at Austin Pilot, With Early Field Performance Consistent with Lab-Validated Modules Hydrogen modules measuring 1.92 m² (20.7 ft²), built with SunHydrogen&#8217;s latest catalyst integration and [&#8230;]\nThe post SunHydrogen Installs Improved Hydrogen M…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-06-03T15:58:32+00:00",
-      "pub_ts": 1780502312
+      "pub_date": "2026-06-10T14:53:36+00:00",
+      "pub_ts": 1781103216
     }
   ],
-  "source_success_count": 2,
+  "source_success_count": 1,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }

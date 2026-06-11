@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-06-10T04:18:49.161186+00:00",
+  "updated_at": "2026-06-11T04:41:20.232242+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "62254bc44c",
-      "title": "你最该认识的「硅谷CEO」：面试紧张，害怕演讲，管出最赚钱的AI广告公司",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896365&idx=1&sn=9cdc4a9960e498da6f0009682c967030",
-      "summary": "你最该认识的「硅谷CEO」：面试紧张，害怕演讲，管出最赚钱的AI广告公司",
+      "id": "b816fa690d",
+      "title": "用一套统一架构，驱动数字空间与物理空间互通|商汤林达华@AIGC2026",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896769&idx=1&sn=1b860189327185c901ca19ff166065c3",
+      "summary": "用一套统一架构，驱动数字空间与物理空间互通|商汤林达华@AIGC2026",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-10T04:18:44.179589+00:00",
-      "pub_ts": 1781065124
+      "pub_date": "2026-06-11T04:41:16.240909+00:00",
+      "pub_ts": 1781152876
     },
     {
-      "id": "6818f67064",
-      "title": "内蒙跑通AI逆袭新解法",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896365&idx=2&sn=d36645941acc198c754199c14a475aa3",
-      "summary": "内蒙跑通AI逆袭新解法",
+      "id": "6eaa2ad0bc",
+      "title": "谷歌I/O最出圈的一幕，发生在抖音？？?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896769&idx=2&sn=760eb9ff1adcbaed17a3a5839a4411a2",
+      "summary": "谷歌I/O最出圈的一幕，发生在抖音？？?",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-10T04:18:44.179634+00:00",
-      "pub_ts": 1781065124
+      "pub_date": "2026-06-11T04:41:16.240954+00:00",
+      "pub_ts": 1781152876
     },
     {
-      "id": "9aed7e6bf3",
-      "title": "3B小模型，把图像视频“看画改”全打通了，字节Lance开源即冲上抱抱脸第一",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896365&idx=3&sn=e12711bc2012bf7690c5815c1e2348d5",
-      "summary": "3B小模型，把图像视频“看画改”全打通了，字节Lance开源即冲上抱抱脸第一",
+      "id": "2283527b1e",
+      "title": "抖音征召天下「AI视频英才」！创作者们，这次是真能吃上AI红利了...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896768&idx=1&sn=1fb68c681dc5e2f5fe3288b6e9ec164a",
+      "summary": "抖音征召天下「AI视频英才」！创作者们，这次是真能吃上AI红利了...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-10T04:18:44.179657+00:00",
-      "pub_ts": 1781065124
+      "pub_date": "2026-06-11T04:41:16.240976+00:00",
+      "pub_ts": 1781152876
     },
     {
-      "id": "4b2fea2151",
-      "title": "仅4B大小可端侧部署！卡帕西预言的「认知模型」被国产做出来了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896179&idx=1&sn=a56a7d56fce9d96474d7a7f65cc77b97",
-      "summary": "仅4B大小可端侧部署！卡帕西预言的「认知模型」被国产做出来了",
+      "id": "84ef50f7c3",
+      "title": "Fable5自带反蒸馏机制！检测到就降智，误触率高到离谱",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896768&idx=2&sn=3fe4ace3a13b4940d14e1837f87128ed",
+      "summary": "Fable5自带反蒸馏机制！检测到就降智，误触率高到离谱",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-10T04:18:44.179676+00:00",
-      "pub_ts": 1781065124
+      "pub_date": "2026-06-11T04:41:16.240995+00:00",
+      "pub_ts": 1781152876
     },
     {
-      "id": "387bba38b6",
-      "title": "OpenAl 也提交IPO招股书了，急急急急急",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896179&idx=2&sn=ad76c772a7e093d486e71fd838f60846",
-      "summary": "OpenAl 也提交IPO招股书了，急急急急急",
+      "id": "8e3f3cc068",
+      "title": "电池寿命预测新SOTA！港科广联合团队开源新方法，用多层次学习精准预测....",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896768&idx=3&sn=a7bfc20df45440bb79703ad6d2be7311",
+      "summary": "电池寿命预测新SOTA！港科广联合团队开源新方法，用多层次学习精准预测....",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-10T04:18:44.179695+00:00",
-      "pub_ts": 1781065124
+      "pub_date": "2026-06-11T04:41:16.241014+00:00",
+      "pub_ts": 1781152876
     }
   ],
   "source_success_count": 1,

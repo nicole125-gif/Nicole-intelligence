@@ -3,108 +3,138 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-06-10T04:18:34.772613+00:00",
+  "updated_at": "2026-06-11T04:41:06.825548+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "62c2f6c7b5",
-      "title": "佰维存储：与某存储原厂，签订超18亿美元采购合同",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813027&idx=1&sn=d3f652afd8743ca1a3721253d0f05a55",
-      "summary": "佰维存储：与某存储原厂，签订超18亿美元采购合同",
+      "id": "5ae4efa587",
+      "title": "LPDDR逆袭：AI推理芯片为何集体“换芯”?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813061&idx=1&sn=b9b7b2fa9417110231767947bb726a31",
+      "summary": "LPDDR逆袭：AI推理芯片为何集体“换芯”?",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-10T04:18:30.786620+00:00",
-      "pub_ts": 1781065110
+      "pub_date": "2026-06-11T04:41:02.821515+00:00",
+      "pub_ts": 1781152862
     },
     {
-      "id": "9c5b38262e",
-      "title": "顶会VLSI2026要来了，中国大陆336篇投稿领跑全球(亮点解析）",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813021&idx=1&sn=d57b13867b40a2a57b74711d50b09ca2",
-      "summary": "顶会VLSI2026要来了，中国大陆336篇投稿领跑全球(亮点解析）",
+      "id": "8056f290af",
+      "title": "工信部：加强高端光电芯片和器件研发",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813061&idx=2&sn=23c3f55bb373e2260b5728febe5da676",
+      "summary": "工信部：加强高端光电芯片和器件研发",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-10T04:18:30.786665+00:00",
-      "pub_ts": 1781065110
+      "pub_date": "2026-06-11T04:41:02.821561+00:00",
+      "pub_ts": 1781152862
     },
     {
-      "id": "1822a397ef",
-      "title": "英特尔拿下谷歌大单",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813021&idx=2&sn=dc7dd437476d6f4425b04beb5850ed04",
-      "summary": "英特尔拿下谷歌大单",
+      "id": "491cee035a",
+      "title": "台积电酝酿涨价，CoPoS产线进入关键测试期",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813061&idx=3&sn=40a02a247cd0a85b0fe954e77f84a7af",
+      "summary": "台积电酝酿涨价，CoPoS产线进入关键测试期",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-10T04:18:30.786691+00:00",
-      "pub_ts": 1781065110
+      "pub_date": "2026-06-11T04:41:02.821588+00:00",
+      "pub_ts": 1781152862
     },
     {
-      "id": "ef46f6ead4",
-      "title": "Token出海，海南支持建设国际智算中心",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813021&idx=3&sn=e89b634bca3043f0d30d070823465ecd",
-      "summary": "Token出海，海南支持建设国际智算中心",
+      "id": "64c9a4a560",
+      "title": "澜起科技9200MT/sDDR5RCD芯片，成功送样",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813061&idx=4&sn=0bc719c777b90eaf60e0093162fdeaf6",
+      "summary": "澜起科技9200MT/sDDR5RCD芯片，成功送样",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-10T04:18:30.786713+00:00",
-      "pub_ts": 1781065110
+      "pub_date": "2026-06-11T04:41:02.821610+00:00",
+      "pub_ts": 1781152862
     },
     {
-      "id": "995ad4b22a",
-      "title": "CPO测试，深陷量产爬坡之困",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813021&idx=4&sn=d236eaec48d142874e55b912dc68e42e",
-      "summary": "CPO测试，深陷量产爬坡之困",
+      "id": "573db6a92f",
+      "title": "智能体时代，GPU不再万能",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813061&idx=5&sn=a0723618d734bb38a7ffa84c82c69061",
+      "summary": "智能体时代，GPU不再万能",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-10T04:18:30.786733+00:00",
-      "pub_ts": 1781065110
+      "pub_date": "2026-06-11T04:41:02.821631+00:00",
+      "pub_ts": 1781152862
     },
     {
-      "id": "532565c228",
-      "title": "Vera Rubin机架，售价直逼6173万",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822009&idx=1&sn=144ae5d014319c03811a4c9fb70370cd",
-      "summary": "Vera Rubin机架，售价直逼6173万",
+      "id": "26b50d7aa0",
+      "title": "375层闪存，将量产！",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822171&idx=1&sn=bea84816d4da3ef18c21ef87b80c374d",
+      "summary": "375层闪存，将量产！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-10T04:18:17.250904+00:00",
-      "pub_ts": 1781065097
+      "pub_date": "2026-06-11T04:40:50.208018+00:00",
+      "pub_ts": 1781152850
     },
     {
-      "id": "53c0b219ff",
-      "title": "HBM，太热了！",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247821963&idx=1&sn=cd5a46c8baf6d804d51d2bad815fd850",
-      "summary": "HBM，太热了！",
+      "id": "6256e94606",
+      "title": "台积电营收，暴增30%",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822116&idx=1&sn=e02c7836f635ff0c77b8dc46d35c9852",
+      "summary": "台积电营收，暴增30%",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-10T04:18:17.250958+00:00",
-      "pub_ts": 1781065097
+      "pub_date": "2026-06-11T04:40:50.208072+00:00",
+      "pub_ts": 1781152850
     },
     {
-      "id": "9c0bb6b674",
-      "title": "博通说了实话，但没人留意",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247821963&idx=2&sn=c7e767f116dc310544231712fc1fb33d",
-      "summary": "博通说了实话，但没人留意",
+      "id": "632a22a90b",
+      "title": "为了你的看球体验，芯片厂商拼了",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822050&idx=1&sn=85d28e57970cc30ad2b4af56f6461157",
+      "summary": "为了你的看球体验，芯片厂商拼了",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-10T04:18:17.250982+00:00",
-      "pub_ts": 1781065097
+      "pub_date": "2026-06-11T04:40:50.208096+00:00",
+      "pub_ts": 1781152850
     },
     {
-      "id": "ccc6ce0e4e",
-      "title": "芯片验证工程师，寒冬将至！",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247821963&idx=3&sn=2098b97fdaad4a8d5c8cdee0cf4b233a",
-      "summary": "芯片验证工程师，寒冬将至！",
+      "id": "a292956ae5",
+      "title": "玻璃，不仅仅是基板",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822050&idx=2&sn=dc90c7667e7a5400bb2105f5c09ccce2",
+      "summary": "玻璃，不仅仅是基板",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-10T04:18:17.251018+00:00",
-      "pub_ts": 1781065097
+      "pub_date": "2026-06-11T04:40:50.208117+00:00",
+      "pub_ts": 1781152850
     },
     {
-      "id": "3554e653e8",
-      "title": "48年前的今天，X86处理器正式诞生",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247821963&idx=4&sn=1a54660a419802db9a8b2f27961aba88",
-      "summary": "48年前的今天，X86处理器正式诞生",
+      "id": "08c236742e",
+      "title": "微软投资芯片公司，围攻英伟达",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822050&idx=3&sn=982f588a6570557d59a7d3c32dea67e3",
+      "summary": "微软投资芯片公司，围攻英伟达",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-10T04:18:17.251039+00:00",
-      "pub_ts": 1781065097
+      "pub_date": "2026-06-11T04:40:50.208136+00:00",
+      "pub_ts": 1781152850
+    },
+    {
+      "id": "42270c7e6c",
+      "title": "Building Multi-Agent Systems For ASIC Flows",
+      "url": "https://semiengineering.com/building-multi-agent-systems-for-asic-flows/",
+      "summary": "How agents can be used to divide and conquer IC design problems.\nThe post Building Multi-Agent Systems For ASIC Flows appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-06-10T07:15:59+00:00",
+      "pub_ts": 1781075759
+    },
+    {
+      "id": "37fb645b14",
+      "title": "PCIe Benefits From AI, Despite Scaling Protocols",
+      "url": "https://semiengineering.com/pcie-benefits-from-ai-despite-scaling-protocols/",
+      "summary": "CXL is also gaining traction in AI processing, while MIPI and others are growing at the edge.\nThe post PCIe Benefits From AI, Despite Scaling Protocols appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-06-10T07:03:17+00:00",
+      "pub_ts": 1781074997
+    },
+    {
+      "id": "1fffc2f59b",
+      "title": "CPO Will Dominate Scale-Up: Link Budgets For dB And $ Are Key",
+      "url": "https://semiengineering.com/cpo-will-dominate-scale-up-link-budgets-for-db-and-are-key/",
+      "summary": "Optical interconnects are needed to boost GPU throughput and utilization.\nThe post CPO Will Dominate Scale-Up: Link Budgets For dB And $ Are Key appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-06-10T07:01:19+00:00",
+      "pub_ts": 1781074879
     },
     {
       "id": "be916012bc",
@@ -125,36 +155,6 @@
       "lang": "en",
       "pub_date": "2026-06-09T07:07:54+00:00",
       "pub_ts": 1780988874
-    },
-    {
-      "id": "4be61ee03f",
-      "title": "Effective UX/UI Is A Critical Link Between AI Insights And Yield Improvement",
-      "url": "https://semiengineering.com/effective-ux-ui-is-a-critical-link-between-ai-insights-and-yield-improvement/",
-      "summary": "AI must operate as a verifiable engineering collaborator where outputs are transparent, traceable, and subject to human interpretation and refinement.\nThe post Effective UX/UI Is A Critical Link Between AI Insights And Yield Improvement appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-06-09T07:06:31+00:00",
-      "pub_ts": 1780988791
-    },
-    {
-      "id": "bcc2a5b65b",
-      "title": "High-Speed Manufacturing And In-Field Scan Test Access Via PCI Express For GPIO Limited SoCs",
-      "url": "https://semiengineering.com/high-speed-manufacturing-and-in-field-scan-test-access-via-pci-express-for-gpio-limited-socs/",
-      "summary": "Enabling faster, more scalable, and lifecycle-wide testing while conserving limited pins. \nThe post High-Speed Manufacturing And In-Field Scan Test Access Via PCI Express For GPIO Limited SoCs appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-06-09T07:03:57+00:00",
-      "pub_ts": 1780988637
-    },
-    {
-      "id": "9ac10ca573",
-      "title": "Why Analog And Mixed-Signal Chips Resist Adaptive Test",
-      "url": "https://semiengineering.com/why-analog-and-mixed-signal-chips-resist-adaptive-test/",
-      "summary": "Analog behavior is difficult to compress into simple pass/fail decisions that could reduce redundant coverage.\nThe post Why Analog And Mixed-Signal Chips Resist Adaptive Test appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-06-09T07:03:28+00:00",
-      "pub_ts": 1780988608
     }
   ],
   "source_success_count": 3,
