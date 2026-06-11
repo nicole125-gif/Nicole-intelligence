@@ -20,7 +20,9 @@
 - **✅ P0#1 est_value 分档已实现并验证**（2026-06-10）：value_band 大/中/小/未知，把"标题没写金额的大项目"（璞泰来/东华科技）从沉底捞到 Top；**24 单测全过**。详见 ROADMAP P0#1。
 - **整体框架 review 已做完**（麦肯锡战略 + CEO 双视角），制药赛道分析（首个试验田）已做完。结论见第 4 节 + ROADMAP。
 - **✅ CDE 优先审评源已接**（2026-06-10，opt-in `--with-cde`）：`engine/sources/cde.py` 用 Playwright 过瑞数 WAF + 截获 `getPriorityApprovalList` API，产出带公司名的制药 pipeline 事件（band=未知/低 rank 的早期预警）。
-- **下一个自然动作**：ROADMAP **P1**——winnability 赢面轴 + 处置闭环（同飞轮）；或继续补源（ccgp 招标 L0 / NMPA 飞检 412，均可仿 cde.py 用 Playwright）。
+- **✅ winnability 赢面轴 v1 已实现**（2026-06-10）：`engine/winnability.py`，rank_score 第四因子（绿地无在位 + 工况级竞品密度）。锂电/橡塑升、技改棕地/Gemü主场降。28 测试全过。**注意已知局限**：生物合成/发酵被一刀切进"制药竞品high"误降，是 v2 细化项（见 ROADMAP P1#2）。
+- **⛔ 源攻坚已到头（2026-06-10 逐个实测）**：cninfo✅/CDE✅ 已接；**eia(SSL/地域封)、ccgp(频繁访问反爬+本机IP已限)、NMPA(瑞数严格实例，挑战解完仍 400 拒 headless) 全在反爬墙后，本无头开发机破不了**。不是做不了，是**得在 CI/生产环境**（非 headless / 干净 IP / 反检测）做——已标 ROADMAP。**别在本机继续刚这几个源。**
+- **下一个自然动作（强烈推荐）**：**前端事件队列（研判信箱）**——把 `data/events/<date>.json` 渲染成排序队列（rank/赢面/工况/阀型/业主/动作/来源链接），复用老系统 CSS 主题。这是当初定的"第一交付物：个人研判工具"，也是**最大的未兑现价值**（引擎产出至今无人能看/用）。备选：处置闭环、赢面 v2（卡 spec 位）。
 - 结构细节见 `ARCHITECTURE.md`，下一步见 `ROADMAP.md`。
 
 ## 3. 怎么跑 / 验证
@@ -61,11 +63,13 @@ python3 -m unittest tests.test_engine        # 24 个离线单测
 - **外向/不可逆动作（commit/push/发外部）先确认**；不 force push main、不 skip hooks。
 - **git：精确 stage 目标文件，绝不 `git add -A`**；commit 前给清单确认。
 
-## 7. git 现状（未提交）
+## 7. git 现状
 
-- **本次会话产出（待 commit）**：`engine/`、`config/esg_conditions.yml`、`tests/test_engine.py`、`HANDOFF.md`/`ARCHITECTURE.md`/`ROADMAP.md`。`data/events/`(生成物，建议 gitignore)。
-- **会话前的本地 WIP（非本次所作，单独决策，勿打包）**：`M` fetch_pharma.py / fetch_rss.py / scripts/update_news.py / monthly_update.py / 2 workflow；`??` scripts/p4_opportunities.py / completeness_audit.py / config/p4_opportunity_map.yml / tests/test_intelligence_pipeline.py / .gtrconfig / agent.md / pulse_mcp_server.py / data/watchlist.json / docs/。
-- 已商定的 commit 计划（待用户最终确认 .gitignore 与拆分）：`feat(engine): ...` + `docs: handoff 三件套`。
+- **已提交 checkpoint**（2026-06-10，未 push，分支 `automation/monthly-update`）：
+  `d3b2787 feat(engine)`（engine/ 含 est_value 分档 + CDE + esg_conditions.yml + test_engine + .gitignore）、`e234ac8 docs`（HANDOFF/ARCHITECTURE/ROADMAP）。
+- **⏳ 待 commit（winnability 批次，commit 之后新增）**：`engine/winnability.py`(新) + `engine/{build,ranking,conditions}.py`、`config/esg_conditions.yml`(加 competitor_density)、`tests/test_engine.py`、三件套文档 的修改。`data/events/` 已 gitignore。
+- **会话前本地 WIP（勿打包）**：`M` fetch_pharma / fetch_rss / scripts/update_news / monthly_update + 2 workflow；`??` scripts/p4_opportunities.py、completeness_audit.py、config/p4_opportunity_map.yml、tests/test_intelligence_pipeline.py、.gtrconfig、agent.md、pulse_mcp_server.py、data/watchlist.json、docs/。
+- 提交纪律：精确 stage、commit 前给清单、不 push。
 
 ## 8. 关键参照文件
 
