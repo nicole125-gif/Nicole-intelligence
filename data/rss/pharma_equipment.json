@@ -3,9 +3,49 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-06-11T04:41:45.376726+00:00",
+  "updated_at": "2026-06-12T04:44:30.392613+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "d8f8906bc7",
+      "title": "Drug developers eye sport’s biggest stage as World Cup fever builds",
+      "url": "https://www.pharmaceutical-technology.com/news/drug-developers-eye-sports-biggest-stage-as-world-cup-fever-builds/",
+      "summary": "Sanofi and Amgen have signed collaborations with US host cities, while TV pharma commercials re-enter the spotlight.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-06-11T15:21:38+00:00",
+      "pub_ts": 1781191298
+    },
+    {
+      "id": "e0f588e68c",
+      "title": "XtalPi enters $400m partnership for small molecule therapy for GPCR target",
+      "url": "https://www.pharmaceutical-technology.com/news/xtalpi-400m-partnership-gpcr-therapy/",
+      "summary": "XtalPi has entered a strategic partnership with a biopharmaceutical company to develop oral small-molecule therapeutics targeting a GPCR.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-06-11T09:35:50+00:00",
+      "pub_ts": 1781170550
+    },
+    {
+      "id": "33c0613478",
+      "title": "Beren pockets $300m to take Niemann-Pick disease therapy to market",
+      "url": "https://www.pharmaceutical-technology.com/news/beren-pockets-300m-to-take-niemann-pick-disease-therapy-to-market/",
+      "summary": "If approved, Beren's adrabetadex would join Zevra Therapeutics’ Miplyffa and IntraBio’s Aqneursa on the I-NPC market.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-06-11T09:35:23+00:00",
+      "pub_ts": 1781170523
+    },
+    {
+      "id": "4d9fec72da",
+      "title": "EMA validates Bayer’s asundexian application for ischaemic stroke",
+      "url": "https://www.pharmaceutical-technology.com/news/ema-validates-bayers-asundexian-application/",
+      "summary": "The EMA has validated Bayer's marketing authorisation application for asundexian, an oral Factor XIa inhibitor, to prevent ischaemic stroke.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-06-11T07:56:05+00:00",
+      "pub_ts": 1781164565
+    },
     {
       "id": "1f5cd169a3",
       "title": "Parabilis Medicines sets biotech record with $670m IPO",
@@ -15,46 +55,6 @@
       "lang": "en",
       "pub_date": "2026-06-10T14:32:31+00:00",
       "pub_ts": 1781101951
-    },
-    {
-      "id": "f33080ec42",
-      "title": "Enhance clinical trial screening and improve patient matching accuracy",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/enhance-clinical-trial-screening-and-improve-patient-matching-accuracy/",
-      "summary": "",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-06-10T14:20:25+00:00",
-      "pub_ts": 1781101225
-    },
-    {
-      "id": "10d519a08e",
-      "title": "Coya Therapeutics CEO on ALS urgency and fast-tracking COYA 302 for patient impact",
-      "url": "https://www.pharmaceutical-technology.com/interviews/coya-therapeutics-ceo-als-coya-302/",
-      "summary": "As CEO of Coya Therapeutics, Dr Arun Swaminathan is steering the company’s lead programme, COYA 302, an immune-modulating combination designed to restore regulatory T-cell function and dampen neuroinflammation, through a pivotal stage of development in ALS.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-06-10T13:14:58+00:00",
-      "pub_ts": 1781097298
-    },
-    {
-      "id": "4f188f6b58",
-      "title": "Eli Lilly continues dealmaking roll with $1bn AlzeCure agreement",
-      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-alzecure-1bn-licensing-deal-alzheimers-ac680/",
-      "summary": "If AlzeCure-developed ACD680 reached the market, it would deepen Eli Lilly’s Alzheimer’s legacy past anti-amyloid-beta therapy, Kisunla.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-06-10T10:31:37+00:00",
-      "pub_ts": 1781087497
-    },
-    {
-      "id": "e3ed0aa5f8",
-      "title": "Aditxt and Ignite announce merger plans with strategic partner",
-      "url": "https://www.pharmaceutical-technology.com/news/aditxt-ignite-merger-plans/",
-      "summary": "Aditxt and subsidiary Ignite Proteomics have announced plans for a business combination with a strategic partner.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-06-10T10:09:36+00:00",
-      "pub_ts": 1781086176
     }
   ],
   "source_success_count": 1,

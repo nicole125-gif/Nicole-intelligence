@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-06-11T04:41:32.945013+00:00",
+  "updated_at": "2026-06-12T04:44:17.948869+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "d341835520",
-      "title": "HTWO Participates in Guangzhou '2026 International Hydrogen Energy and Fuel Cell Vehicle Conference'",
-      "url": "https://fuelcellsworks.com/2026/06/10/energy-innovation/htwo-participates-in-guangzhou-2026-international-hydrogen-energy-and-fuel-cell-vehicle-conference",
+      "id": "817a30ab86",
+      "title": "MB Energy and Zaffra Signed an MoU for a Strategic Partnership to Advance Commercialisation of eSAF in Europe",
+      "url": "https://fuelcellsworks.com/2026/06/11/h2/mb-energy-and-zaffra-signed-an-mou-for-a-strategic-partnership-to-advance-commercialisation-of-esaf-in-europe",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-10T15:36:59+00:00",
-      "pub_ts": 1781105819
+      "pub_date": "2026-06-11T15:15:44+00:00",
+      "pub_ts": 1781190944
     },
     {
-      "id": "684fa01e95",
-      "title": "Thyssenkrupp Uhde Signs Pre-FEED Contracts with Fuella AS for Pecém Green Ammonia Project (PeGA) and Açu Green Ammonia Project (AçuGA)",
-      "url": "https://fuelcellsworks.com/2026/06/10/clean-energy/thyssenkrupp-uhde-signs-pre-feed-contracts-with-fuella-as-for-pecem-green-ammonia-project-pega-and-acu-green-ammonia-project-acuga",
+      "id": "1cac243ee4",
+      "title": "Toyota's Akio Toyoda Says an All-Electric Future Is His \"Biggest Fear\" — and He's Betting on Hydrogen Too",
+      "url": "https://fuelcellsworks.com/2026/06/11/h2/toyota-s-akio-toyoda-says-an-all-electric-future-is-his-biggest-fear-and-he-s-betting-on-hydrogen-too",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-10T15:21:57+00:00",
-      "pub_ts": 1781104917
+      "pub_date": "2026-06-11T15:15:38+00:00",
+      "pub_ts": 1781190938
     },
     {
-      "id": "c7b887f5ba",
-      "title": "Show More 2:36 PM Contract Signed for mosaHYc: Construction of the Hydrogen Pipeline Between Leidingen and Dillingen",
-      "url": "https://fuelcellsworks.com/2026/06/09/h2/show-more-2-36-pm-contract-signed-for-mosahyc-construction-of-the-hydrogen-pipeline-between-leidingen-and-dillingen",
+      "id": "b88675371d",
+      "title": "Burckhardt Compression Supports the Decarbonization of Aviation Fuels Securing a New Order for SkyNRG’s First Sustainable Aviation Fuel Production Facility",
+      "url": "https://fuelcellsworks.com/2026/06/11/fuel-cells/burckhardt-compression-supports-the-decarbonization-of-aviation-fuels-securing-a-new-order-for-skynrg-s-first-sustainable-aviation-fuel-production-facility",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-10T15:11:26+00:00",
-      "pub_ts": 1781104286
+      "pub_date": "2026-06-11T15:09:48+00:00",
+      "pub_ts": 1781190588
     },
     {
-      "id": "8f66a93038",
-      "title": "Under the Hood: What Unites and Differentiates Battery-Electric and Fuel Cell Powered Trucks",
-      "url": "https://fuelcellsworks.com/2026/06/10/energy-innovation/under-the-hood-what-unites-and-differentiates-battery-electric-and-fuel-cell-powered-trucks",
+      "id": "f6d2ccdab4",
+      "title": "K-Petro Puts Real-Time Hydrogen Station Data on Naver: No More Guessing the Queue",
+      "url": "https://fuelcellsworks.com/2026/06/11/fuel-cells/k-petro-puts-real-time-hydrogen-station-data-on-naver-no-more-guessing-the-queue",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-10T15:06:15+00:00",
-      "pub_ts": 1781103975
+      "pub_date": "2026-06-11T15:05:55+00:00",
+      "pub_ts": 1781190355
     },
     {
-      "id": "c695750186",
-      "title": "Toyota's GR Corolla H2 Achieves 180Km Range at Super Taikyu — Triple 2022'S 57Km Baseline",
-      "url": "https://fuelcellsworks.com/2026/06/09/h2/in-2022-hydrogen-powered-vehicles-could-only-travel-57km-on-a-full-tank-but-in-just-four-years-they-can-now-travel-180km",
+      "id": "080636df25",
+      "title": "APN Grants Port Authorization for a USD 540Mn Project for the Construction of the First Green Hydrogen Terminal in Peru",
+      "url": "https://fuelcellsworks.com/2026/06/11/green-investment/apn-grants-port-authorization-for-a-usd-540mn-project-for-the-construction-of-the-first-green-hydrogen-terminal-in-peru",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-10T14:53:36+00:00",
-      "pub_ts": 1781103216
+      "pub_date": "2026-06-11T14:59:33+00:00",
+      "pub_ts": 1781189973
     }
   ],
   "source_success_count": 1,

@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-06-11T04:41:20.232242+00:00",
+  "updated_at": "2026-06-12T04:43:35.270031+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "b816fa690d",
-      "title": "用一套统一架构，驱动数字空间与物理空间互通|商汤林达华@AIGC2026",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896769&idx=1&sn=1b860189327185c901ca19ff166065c3",
-      "summary": "用一套统一架构，驱动数字空间与物理空间互通|商汤林达华@AIGC2026",
+      "id": "1f81cca045",
+      "title": "陶哲轩FirstProof二期结果出炉！最低8美元1题，AI烧出7道论文级解法",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896954&idx=2&sn=b6888cf46ae3ca36f56a488d032c4bbe",
+      "summary": "陶哲轩FirstProof二期结果出炉！最低8美元1题，AI烧出7道论文级解法",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-11T04:41:16.240909+00:00",
-      "pub_ts": 1781152876
+      "pub_date": "2026-06-12T04:43:30.942951+00:00",
+      "pub_ts": 1781239410
     },
     {
-      "id": "6eaa2ad0bc",
-      "title": "谷歌I/O最出圈的一幕，发生在抖音？？?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896769&idx=2&sn=760eb9ff1adcbaed17a3a5839a4411a2",
-      "summary": "谷歌I/O最出圈的一幕，发生在抖音？？?",
+      "id": "19f6ef5b5b",
+      "title": "3D创作迎来ChatGPT时刻：Meshy发布全球首个3DAIAgent",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896929&idx=1&sn=af60a68d34fb2d8d3060aa8148bf83e5",
+      "summary": "3D创作迎来ChatGPT时刻：Meshy发布全球首个3DAIAgent",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-11T04:41:16.240954+00:00",
-      "pub_ts": 1781152876
+      "pub_date": "2026-06-12T04:43:30.943064+00:00",
+      "pub_ts": 1781239410
     },
     {
-      "id": "2283527b1e",
-      "title": "抖音征召天下「AI视频英才」！创作者们，这次是真能吃上AI红利了...",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896768&idx=1&sn=1fb68c681dc5e2f5fe3288b6e9ec164a",
-      "summary": "抖音征召天下「AI视频英才」！创作者们，这次是真能吃上AI红利了...",
+      "id": "9e063435e5",
+      "title": "Mythos阴影里谷歌悄悄发模型，速度暴涨4倍",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896929&idx=2&sn=588705bddb905f19a9792a684f13b53a",
+      "summary": "Mythos阴影里谷歌悄悄发模型，速度暴涨4倍",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-11T04:41:16.240976+00:00",
-      "pub_ts": 1781152876
+      "pub_date": "2026-06-12T04:43:30.943088+00:00",
+      "pub_ts": 1781239410
     },
     {
-      "id": "84ef50f7c3",
-      "title": "Fable5自带反蒸馏机制！检测到就降智，误触率高到离谱",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896768&idx=2&sn=3fe4ace3a13b4940d14e1837f87128ed",
-      "summary": "Fable5自带反蒸馏机制！检测到就降智，误触率高到离谱",
+      "id": "64afb1f876",
+      "title": "指令遵循媲美Seedance 2.O！复旦腾讯联合提出Baton，多说话人场景M-WE..",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896929&idx=3&sn=3bf0f092b291e86ae6f9621b63f4267c",
+      "summary": "指令遵循媲美Seedance 2.O！复旦腾讯联合提出Baton，多说话人场景M-WE..",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-11T04:41:16.240995+00:00",
-      "pub_ts": 1781152876
+      "pub_date": "2026-06-12T04:43:30.943108+00:00",
+      "pub_ts": 1781239410
     },
     {
-      "id": "8e3f3cc068",
-      "title": "电池寿命预测新SOTA！港科广联合团队开源新方法，用多层次学习精准预测....",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896768&idx=3&sn=a7bfc20df45440bb79703ad6d2be7311",
-      "summary": "电池寿命预测新SOTA！港科广联合团队开源新方法，用多层次学习精准预测....",
+      "id": "6622b8192e",
+      "title": "AI短剧工具赛道，年度最大单笔融资来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896835&idx=1&sn=6bb38022bb4589ab0859744d939e9800",
+      "summary": "AI短剧工具赛道，年度最大单笔融资来了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-11T04:41:16.241014+00:00",
-      "pub_ts": 1781152876
+      "pub_date": "2026-06-12T04:43:30.943128+00:00",
+      "pub_ts": 1781239410
     }
   ],
   "source_success_count": 1,
