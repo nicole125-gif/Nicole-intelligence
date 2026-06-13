@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-06-12T04:44:30.392613+00:00",
+  "updated_at": "2026-06-13T04:22:47.713203+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "d8f8906bc7",
-      "title": "Drug developers eye sport’s biggest stage as World Cup fever builds",
-      "url": "https://www.pharmaceutical-technology.com/news/drug-developers-eye-sports-biggest-stage-as-world-cup-fever-builds/",
-      "summary": "Sanofi and Amgen have signed collaborations with US host cities, while TV pharma commercials re-enter the spotlight.",
+      "id": "95d6894992",
+      "title": "ECRD 2026: Europe’s rare disease bottleneck is funding rather than science",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ecrd-2026-europes-rare-disease-bottleneck-is-funding-rather-than-science/",
+      "summary": "",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-11T15:21:38+00:00",
-      "pub_ts": 1781191298
+      "pub_date": "2026-06-12T18:43:34+00:00",
+      "pub_ts": 1781289814
     },
     {
-      "id": "e0f588e68c",
-      "title": "XtalPi enters $400m partnership for small molecule therapy for GPCR target",
-      "url": "https://www.pharmaceutical-technology.com/news/xtalpi-400m-partnership-gpcr-therapy/",
-      "summary": "XtalPi has entered a strategic partnership with a biopharmaceutical company to develop oral small-molecule therapeutics targeting a GPCR.",
+      "id": "d1f46e08b8",
+      "title": "ECRD 2026: Navigating the rare disease diagnostic and drug development maze",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ecrd-2026-navigating-the-rare-disease-diagnostic-and-drug-development-maze/",
+      "summary": "While rare disease research has advanced significantly, related expertise and data are scattered across too many disconnected places.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-11T09:35:50+00:00",
-      "pub_ts": 1781170550
+      "pub_date": "2026-06-12T18:24:27+00:00",
+      "pub_ts": 1781288667
     },
     {
-      "id": "33c0613478",
-      "title": "Beren pockets $300m to take Niemann-Pick disease therapy to market",
-      "url": "https://www.pharmaceutical-technology.com/news/beren-pockets-300m-to-take-niemann-pick-disease-therapy-to-market/",
-      "summary": "If approved, Beren's adrabetadex would join Zevra Therapeutics’ Miplyffa and IntraBio’s Aqneursa on the I-NPC market.",
+      "id": "115ec402d4",
+      "title": "CDA data reveals trends on drug approvals and reimbursements in Canada",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/cda-trends-drug-approvals-reimbursements-canada/",
+      "summary": "In April 2026, Canada’s Drug Agency released an expanded data set offering insights within its regulatory system for drug approvals and reimbursement in Canada.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-11T09:35:23+00:00",
-      "pub_ts": 1781170523
+      "pub_date": "2026-06-12T14:49:18+00:00",
+      "pub_ts": 1781275758
     },
     {
-      "id": "4d9fec72da",
-      "title": "EMA validates Bayer’s asundexian application for ischaemic stroke",
-      "url": "https://www.pharmaceutical-technology.com/news/ema-validates-bayers-asundexian-application/",
-      "summary": "The EMA has validated Bayer's marketing authorisation application for asundexian, an oral Factor XIa inhibitor, to prevent ischaemic stroke.",
+      "id": "68b6d58310",
+      "title": "Novo Nordisk comeback stirs as Wegovy pill wins UK approval",
+      "url": "https://www.pharmaceutical-technology.com/news/novo-nordisk-comeback-stirs-as-wegovy-pill-wins-uk-approval/",
+      "summary": "There are already lengthy patient waitlists for the medication on digital health platforms.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-11T07:56:05+00:00",
-      "pub_ts": 1781164565
+      "pub_date": "2026-06-12T10:55:31+00:00",
+      "pub_ts": 1781261731
     },
     {
-      "id": "1f5cd169a3",
-      "title": "Parabilis Medicines sets biotech record with $670m IPO",
-      "url": "https://www.pharmaceutical-technology.com/news/parabilis-medicines-sets-biotech-record-with-670m-ipo/",
-      "summary": "Parabilis’ US listing means the biotech IPO record has been broken twice in as many months as public listings continue hot streak.",
+      "id": "694331a5fb",
+      "title": "Peptide drug conjugates: How the Indena and Chemi partnership is delivering",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/peptide-drug-conjugates-how-the-indena-and-chemi-partnership-is-delivering/",
+      "summary": "Peptide drug conjugates (PDCs) are attracting growing attention across the pharmaceutical sector as companies search for more specialised approaches to cancer treatment.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-10T14:32:31+00:00",
-      "pub_ts": 1781101951
+      "pub_date": "2026-06-12T10:02:10+00:00",
+      "pub_ts": 1781258530
     }
   ],
   "source_success_count": 1,

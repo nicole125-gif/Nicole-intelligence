@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-06-12T04:43:35.270031+00:00",
+  "updated_at": "2026-06-13T04:22:23.630258+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "1f81cca045",
-      "title": "陶哲轩FirstProof二期结果出炉！最低8美元1题，AI烧出7道论文级解法",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896954&idx=2&sn=b6888cf46ae3ca36f56a488d032c4bbe",
-      "summary": "陶哲轩FirstProof二期结果出炉！最低8美元1题，AI烧出7道论文级解法",
+      "id": "5f9e75bc7c",
+      "title": "Anthropic老大的唯一-1，就是AI股神的未婚妻",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247897146&idx=1&sn=0986640b2d93f35521993213da4a93ff",
+      "summary": "Anthropic老大的唯一-1，就是AI股神的未婚妻",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-12T04:43:30.942951+00:00",
-      "pub_ts": 1781239410
+      "pub_date": "2026-06-13T04:22:19.776038+00:00",
+      "pub_ts": 1781324539
     },
     {
-      "id": "19f6ef5b5b",
-      "title": "3D创作迎来ChatGPT时刻：Meshy发布全球首个3DAIAgent",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896929&idx=1&sn=af60a68d34fb2d8d3060aa8148bf83e5",
-      "summary": "3D创作迎来ChatGPT时刻：Meshy发布全球首个3DAIAgent",
+      "id": "911c86a74b",
+      "title": "苹果官方兼容Linux了！主打一个无缝衔接",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247897146&idx=2&sn=66426c4afc599e0a0620a4430f51f3ff",
+      "summary": "苹果官方兼容Linux了！主打一个无缝衔接",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-12T04:43:30.943064+00:00",
-      "pub_ts": 1781239410
+      "pub_date": "2026-06-13T04:22:19.776083+00:00",
+      "pub_ts": 1781324539
     },
     {
-      "id": "9e063435e5",
-      "title": "Mythos阴影里谷歌悄悄发模型，速度暴涨4倍",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896929&idx=2&sn=588705bddb905f19a9792a684f13b53a",
-      "summary": "Mythos阴影里谷歌悄悄发模型，速度暴涨4倍",
+      "id": "d4f31e26d4",
+      "title": "田渊栋创业公司首个成果：GPU内核优化，英伟达官方榜单SOTA",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247897095&idx=1&sn=287ad72fbc22f7fe1e8ee02d0001bb9f",
+      "summary": "田渊栋创业公司首个成果：GPU内核优化，英伟达官方榜单SOTA",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-12T04:43:30.943088+00:00",
-      "pub_ts": 1781239410
+      "pub_date": "2026-06-13T04:22:19.776104+00:00",
+      "pub_ts": 1781324539
     },
     {
-      "id": "64afb1f876",
-      "title": "指令遵循媲美Seedance 2.O！复旦腾讯联合提出Baton，多说话人场景M-WE..",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896929&idx=3&sn=3bf0f092b291e86ae6f9621b63f4267c",
-      "summary": "指令遵循媲美Seedance 2.O！复旦腾讯联合提出Baton，多说话人场景M-WE..",
+      "id": "ed568fca2c",
+      "title": "“智能体最后的考试”，Fable5竟然不敌GPT 5.5",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247897095&idx=2&sn=7172ce9b1ea80b4d566570fad8229919",
+      "summary": "“智能体最后的考试”，Fable5竟然不敌GPT 5.5",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-12T04:43:30.943108+00:00",
-      "pub_ts": 1781239410
+      "pub_date": "2026-06-13T04:22:19.776123+00:00",
+      "pub_ts": 1781324539
     },
     {
-      "id": "6622b8192e",
-      "title": "AI短剧工具赛道，年度最大单笔融资来了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896835&idx=1&sn=6bb38022bb4589ab0859744d939e9800",
-      "summary": "AI短剧工具赛道，年度最大单笔融资来了",
+      "id": "ca550d4b4e",
+      "title": "世界杯最大悬念：梅西C罗会不会同框?千问先算了一卦",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247897039&idx=2&sn=4f9bfc876f2f68465ed24c81cef52480",
+      "summary": "世界杯最大悬念：梅西C罗会不会同框?千问先算了一卦",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-12T04:43:30.943128+00:00",
-      "pub_ts": 1781239410
+      "pub_date": "2026-06-13T04:22:19.776142+00:00",
+      "pub_ts": 1781324539
     }
   ],
   "source_success_count": 1,

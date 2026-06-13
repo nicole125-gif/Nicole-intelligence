@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-06-12T04:44:17.948869+00:00",
+  "updated_at": "2026-06-13T04:22:35.314319+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "817a30ab86",
-      "title": "MB Energy and Zaffra Signed an MoU for a Strategic Partnership to Advance Commercialisation of eSAF in Europe",
-      "url": "https://fuelcellsworks.com/2026/06/11/h2/mb-energy-and-zaffra-signed-an-mou-for-a-strategic-partnership-to-advance-commercialisation-of-esaf-in-europe",
+      "id": "17217044bb",
+      "title": "ACCIONA Advances Decarbonization at the Port of Valencia with Hydrogen Technology",
+      "url": "https://fuelcellsworks.com/2026/06/12/news/acciona-advances-decarbonization-at-the-port-of-valencia-with-hydrogen-technology",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-11T15:15:44+00:00",
-      "pub_ts": 1781190944
+      "pub_date": "2026-06-12T14:55:43+00:00",
+      "pub_ts": 1781276143
     },
     {
-      "id": "1cac243ee4",
-      "title": "Toyota's Akio Toyoda Says an All-Electric Future Is His \"Biggest Fear\" — and He's Betting on Hydrogen Too",
-      "url": "https://fuelcellsworks.com/2026/06/11/h2/toyota-s-akio-toyoda-says-an-all-electric-future-is-his-biggest-fear-and-he-s-betting-on-hydrogen-too",
+      "id": "9ba6099d40",
+      "title": "China's Baotou Launches Hydrogen  1,000 Two-Wheeler Pilot",
+      "url": "https://fuelcellsworks.com/2026/05/31/fuel-cells/china-s-baotou-launches-hydrogen-1-000-two-wheeler-pilot",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-11T15:15:38+00:00",
-      "pub_ts": 1781190938
+      "pub_date": "2026-06-12T14:53:50+00:00",
+      "pub_ts": 1781276030
     },
     {
-      "id": "b88675371d",
-      "title": "Burckhardt Compression Supports the Decarbonization of Aviation Fuels Securing a New Order for SkyNRG’s First Sustainable Aviation Fuel Production Facility",
-      "url": "https://fuelcellsworks.com/2026/06/11/fuel-cells/burckhardt-compression-supports-the-decarbonization-of-aviation-fuels-securing-a-new-order-for-skynrg-s-first-sustainable-aviation-fuel-production-facility",
+      "id": "5ec019dfc9",
+      "title": "KACST Develops Innovative System for Direct Green Hydrogen Production From Seawater Without Desalination",
+      "url": "https://fuelcellsworks.com/2026/06/12/news/kacst-develops-innovative-system-for-direct-green-hydrogen-production-from-seawater-without-desalination",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-11T15:09:48+00:00",
-      "pub_ts": 1781190588
+      "pub_date": "2026-06-12T14:50:13+00:00",
+      "pub_ts": 1781275813
     },
     {
-      "id": "f6d2ccdab4",
-      "title": "K-Petro Puts Real-Time Hydrogen Station Data on Naver: No More Guessing the Queue",
-      "url": "https://fuelcellsworks.com/2026/06/11/fuel-cells/k-petro-puts-real-time-hydrogen-station-data-on-naver-no-more-guessing-the-queue",
+      "id": "6ab7c7d8d2",
+      "title": "5 Million Euro Funding for Electrolyzer in Bad Neustadt",
+      "url": "https://fuelcellsworks.com/2026/06/08/electrolyzer/5-million-euro-funding-for-electrolyzer-in-bad-neustadt",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-11T15:05:55+00:00",
-      "pub_ts": 1781190355
+      "pub_date": "2026-06-12T14:48:12+00:00",
+      "pub_ts": 1781275692
     },
     {
-      "id": "080636df25",
-      "title": "APN Grants Port Authorization for a USD 540Mn Project for the Construction of the First Green Hydrogen Terminal in Peru",
-      "url": "https://fuelcellsworks.com/2026/06/11/green-investment/apn-grants-port-authorization-for-a-usd-540mn-project-for-the-construction-of-the-first-green-hydrogen-terminal-in-peru",
+      "id": "e3d2d3458d",
+      "title": "H2science 2026 Hears Calls for Persistence and Confidence in Hydrogen's Future in Norway",
+      "url": "https://fuelcellsworks.com/2026/06/12/news/the-first-buses-powered-by-renewable-hydrogen-are-now-operating-in-the-cannes-area-y57303082",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-11T14:59:33+00:00",
-      "pub_ts": 1781189973
+      "pub_date": "2026-06-12T14:44:04+00:00",
+      "pub_ts": 1781275444
     }
   ],
   "source_success_count": 1,
