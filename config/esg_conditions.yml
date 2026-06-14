@@ -18,6 +18,18 @@ source_boost:
   pipeline: 0.3   # CDE 优先审评：最早的 pipeline 前兆，但最弱
 
 conditions:
+  - id: biosynthesis
+    label: 生物合成/发酵
+    industries: [生物制品, 医药制造业, 发酵]
+    keywords:
+      strong: [生物合成, 合成生物, 发酵, 生物反应器, 发酵罐, 菌种]
+      mid: [生物制造, 菌体, 多肽, 酶制剂, 原料药发酵]
+    valve_types: [角座阀, 卫生级隔膜阀, 球阀]
+    competitor_density: low    # 发酵/生物合成上游角座阀对口，国产友好甜点区（区别于无菌制剂 Gemü 护城河）
+    buyer_role:
+      primary: 设备OEM
+      secondary: 终端工厂
+
   - id: hygienic
     label: 卫生级工艺
     industries: [食品饮料, 食品制造业, 酒饮料精制茶制造业, 泡塑, 饲料]

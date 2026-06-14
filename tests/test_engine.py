@@ -29,6 +29,23 @@ class ConditionTests(unittest.TestCase):
         self.assertEqual(cond["primary_id"], "lithium_injection")
         self.assertIn("注液阀", cond["valve_type"]["primary"])
 
+    def test_biosynthesis_is_domestic_friendly_not_downgraded(self):
+        # 甜点区：发酵/生物合成上游应进 biosynthesis(low)，不被 pharma_ref(high) 误降
+        cond = conditions.classify_condition("某生物合成原料药发酵生产基地新建", "capex", self.cfg)
+        self.assertEqual(cond["primary_id"], "biosynthesis")
+        self.assertEqual(cond["competitor_density"], "low")
+
+    def test_sterile_drug_stays_gemu_moat(self):
+        # 无菌制剂仍是 Gemü 护城河，留在 pharma_ref(high)
+        cond = conditions.classify_condition("某生物药无菌注射剂冻干车间", "capex", self.cfg)
+        self.assertEqual(cond["primary_id"], "pharma_ref")
+        self.assertEqual(cond["competitor_density"], "high")
+
+    def test_food_fermentation_stays_hygienic(self):
+        # 带食品词的发酵仍归 hygienic(high)，不被新工况抢走
+        cond = conditions.classify_condition("某乳品厂发酵灌装生产线新建", "capex", self.cfg)
+        self.assertEqual(cond["primary_id"], "hygienic")
+
     def test_non_esg_text_scores_zero(self):
         cond = conditions.classify_condition("关于召开临时股东大会的通知", "capex", self.cfg)
         self.assertEqual(cond["match_score"], 0.0)
