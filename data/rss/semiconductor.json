@@ -3,108 +3,68 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-06-13T04:22:09.968349+00:00",
-  "item_count": 15,
+  "updated_at": "2026-06-14T04:49:23.820224+00:00",
+  "item_count": 11,
   "items": [
     {
-      "id": "dd1891b181",
-      "title": "京东方：2025年完成大尺寸高层数玻璃基载板样品开发和送样",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813137&idx=1&sn=83780db9e9b7ea99c8c0d387e63839c9",
-      "summary": "京东方：2025年完成大尺寸高层数玻璃基载板样品开发和送样",
+      "id": "97833ee9ff",
+      "title": "落地在即，CPO却被“泼冷水”?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813178&idx=1&sn=1b80efee31971cf81aea4961e0d3436e",
+      "summary": "落地在即，CPO却被“泼冷水”?",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-13T04:22:05.789635+00:00",
-      "pub_ts": 1781324525
+      "pub_date": "2026-06-14T04:49:19.692384+00:00",
+      "pub_ts": 1781412559
     },
     {
-      "id": "7d763c7f4c",
-      "title": "长鑫科技，IPO注册申请获通过",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813133&idx=1&sn=27e86f80c29d230b49013df8469699a4",
-      "summary": "长鑫科技，IPO注册申请获通过",
+      "id": "0da0b16254",
+      "title": "重大突破！国产三维多层片上电容研制成功",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813178&idx=2&sn=3f21716fc73b8f047646a036da1907fd",
+      "summary": "重大突破！国产三维多层片上电容研制成功",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-13T04:22:05.789680+00:00",
-      "pub_ts": 1781324525
+      "pub_date": "2026-06-14T04:49:19.692429+00:00",
+      "pub_ts": 1781412559
     },
     {
-      "id": "96cd138ce1",
-      "title": "余承东：负责华为盘古大模型，会从中国第一走向世界第一",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813127&idx=1&sn=87ec7ea01e15db3f172b38bc60c33c12",
-      "summary": "余承东：负责华为盘古大模型，会从中国第一走向世界第一",
+      "id": "3105ba3036",
+      "title": "Agent AI重构数据中心架构",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813178&idx=3&sn=aebd4bb9638cc281e40c72d9a0ab54dd",
+      "summary": "Agent AI重构数据中心架构",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-13T04:22:05.789706+00:00",
-      "pub_ts": 1781324525
+      "pub_date": "2026-06-14T04:49:19.692483+00:00",
+      "pub_ts": 1781412559
     },
     {
-      "id": "5c931ea2f6",
-      "title": "韬（T）定律，让EDA“火”出圈",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813112&idx=1&sn=c741342edc68d4835dbbd3cf17921711",
-      "summary": "韬（T）定律，让EDA“火”出圈",
+      "id": "775d52afbe",
+      "title": "国产推理芯片突破之后，训练芯片卡在哪？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813178&idx=4&sn=2441f64f5087535919033c65a4013f37",
+      "summary": "国产推理芯片突破之后，训练芯片卡在哪？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-13T04:22:05.789728+00:00",
-      "pub_ts": 1781324525
+      "pub_date": "2026-06-14T04:49:19.692508+00:00",
+      "pub_ts": 1781412559
     },
     {
-      "id": "119b0e016e",
-      "title": "全球十大晶圆代工厂，Q1营收环比增长3.7%",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813112&idx=2&sn=cff034d166d5fc1b96df11937d327c10",
-      "summary": "全球十大晶圆代工厂，Q1营收环比增长3.7%",
+      "id": "f0cb21c49e",
+      "title": "10万亿！中国正成为AI基建狂魔",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813178&idx=5&sn=e025c7ee1ccc4c85556e0ddec8601f18",
+      "summary": "10万亿！中国正成为AI基建狂魔",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-13T04:22:05.789748+00:00",
-      "pub_ts": 1781324525
+      "pub_date": "2026-06-14T04:49:19.692529+00:00",
+      "pub_ts": 1781412559
     },
     {
-      "id": "338f73402b",
-      "title": "长鑫科技IPO，证监会同意注册",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822420&idx=1&sn=0b4ad40c6b70628058d30f2cabb97c1b",
-      "summary": "长鑫科技IPO，证监会同意注册",
+      "id": "e666689944",
+      "title": "存储巨头，竞逐400层NAND",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822453&idx=7&sn=2087ef6a63349b6885844f0e4863a91f",
+      "summary": "存储巨头，竞逐400层NAND",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-13T04:21:48.084645+00:00",
-      "pub_ts": 1781324508
-    },
-    {
-      "id": "0ec3ea45b0",
-      "title": "英飞凌392亿晶圆厂，将投产！",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822353&idx=1&sn=61b1b201c1827c1d17c8c37cb14feda7",
-      "summary": "英飞凌392亿晶圆厂，将投产！",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-06-13T04:21:48.084710+00:00",
-      "pub_ts": 1781324508
-    },
-    {
-      "id": "d87fe28227",
-      "title": "突发，SK海力士工厂火灾",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822302&idx=1&sn=fe8a88368190817bba3dc8914e31be4c",
-      "summary": "突发，SK海力士工厂火灾",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-06-13T04:21:48.084735+00:00",
-      "pub_ts": 1781324508
-    },
-    {
-      "id": "2e4b3da57e",
-      "title": "SiC，再起风云！",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822291&idx=1&sn=5285a9c1a0109676e48649df4938a88c",
-      "summary": "SiC，再起风云！",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-06-13T04:21:48.084756+00:00",
-      "pub_ts": 1781324508
-    },
-    {
-      "id": "858b7dcb97",
-      "title": "2026国芯展磅来袭",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822291&idx=2&sn=5396f1aa7736abd0e8759239fc94e488",
-      "summary": "2026国芯展磅来袭",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-06-13T04:21:48.084776+00:00",
-      "pub_ts": 1781324508
+      "pub_date": "2026-06-14T04:49:06.253306+00:00",
+      "pub_ts": 1781412546
     },
     {
       "id": "e302e30a79",
