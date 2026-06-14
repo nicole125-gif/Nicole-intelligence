@@ -6,7 +6,7 @@
 > - **ROADMAP.md** — 下一步路线（P0/P1/P2）、框架 5 洞状态、阻塞依赖。
 >
 > 另：方法论北极星 `docs/INTELLIGENCE_OS.md`；实现计划 `~/.claude/plans/https-www-esgvalve-cn-gleaming-stroustrup.md`；项目记忆 `~/.claude/projects/.../memory/esg-event-engine.md`。
-> 最后更新 2026-06-12 ｜ 分支 `automation/monthly-update` ｜ **全部新工作未 commit。**
+> 最后更新 2026-06-14 ｜ 分支 `automation/monthly-update` ｜ 处置闭环 + 甜点区修复已 commit（未 push），余 WIP 未打包。
 
 ---
 
@@ -20,13 +20,15 @@
 - **✅ P0#1 est_value 分档已实现并验证**（2026-06-10）：value_band 大/中/小/未知，把"标题没写金额的大项目"（璞泰来/东华科技）从沉底捞到 Top；**24 单测全过**。详见 ROADMAP P0#1。
 - **整体框架 review 已做完**（麦肯锡战略 + CEO 双视角），制药赛道分析（首个试验田）已做完。结论见第 4 节 + ROADMAP。
 - **✅ CDE 优先审评源已接**（2026-06-10，opt-in `--with-cde`）：`engine/sources/cde.py` 用 Playwright 过瑞数 WAF + 截获 `getPriorityApprovalList` API，产出带公司名的制药 pipeline 事件（band=未知/低 rank 的早期预警）。
-- **✅ winnability 赢面轴 v1 已实现**（2026-06-10）：`engine/winnability.py`，rank_score 第四因子（绿地无在位 + 工况级竞品密度）。锂电/橡塑升、技改棕地/Gemü主场降。28 测试全过。**注意已知局限**：生物合成/发酵被一刀切进"制药竞品high"误降，是 v2 细化项（见 ROADMAP P1#2）。
+- **✅ winnability 赢面轴 v1 已实现**（2026-06-10）：`engine/winnability.py`，rank_score 第四因子（绿地无在位 + 工况级竞品密度）。锂电/橡塑升、技改棕地/Gemü主场降。
+- **✅ 甜点区误降已修**（2026-06-14，commit `dde13f6`）：`config/esg_conditions.yml` 新增 `biosynthesis`（生物合成/发酵）工况 density=low，纯增量认领 `发酵/生物反应器`+新增 `生物合成/合成生物/发酵罐/菌种`，靠排序赢平局——无菌制剂仍归 pharma_ref(high)、食品发酵仍归 hygienic(high)。winnability 0.55→0.95。31 测试全过。**取舍**：density 选 low（主动上浮，依据决策8 优先甜点区）而非 mid（仅中性），可一行改回。winnability v2 仍欠 spec 位维度（卡挂起未知）。
 - **⛔ 源攻坚已到头（2026-06-10 逐个实测）**：cninfo✅/CDE✅ 已接；**eia(SSL/地域封)、ccgp(频繁访问反爬+本机IP已限)、NMPA(瑞数严格实例，挑战解完仍 400 拒 headless) 全在反爬墙后，本无头开发机破不了**。不是做不了，是**得在 CI/生产环境**（非 headless / 干净 IP / 反检测）做——已标 ROADMAP。**别在本机继续刚这几个源。**
 - **✅ 前端事件队列已实现**（2026-06-11）：`events.html` 研判信箱——fetch `data/events/<date>.json` 渲染排序线索卡（rank/赢面/工况/阀型/业主→买方/提前量/价值档/动作/来源），工况+提前量过滤，复用 core.css 工业暗色主题。Playwright 验证 42 卡渲染+过滤生效。**这就是"第一交付物：个人研判工具"，引擎产出终于可看可用。** 部署注意见 ROADMAP P2#5（data/events gitignore，上线需 CI 出数据）。
 - **✅ 处置闭环采集层已实现**（2026-06-12，网页版，框架洞 D 前半）：`events.html` 每张线索卡加 5 态处置控件（跟进/赢/输/忽略/无效）+ 原因框（输/无效必填）；写 **Vercel KV**（`api/dispositions.js` Serverless 函数 GET/POST，key 级写避并发覆盖）→ 多人/跨设备同步同一份；身份=**区域**（存 localStorage，每次标记带上，对齐区域×行业销售组织）；加处置态过滤 + 已处置/待处置统计 + 已处置卡左缘色标。Playwright 验过：7 过滤 chip / 5 态按钮 / 区域+原因必填拦截 / POST 接线（本机 501→Vercel 上 200 入库）。**本轮只采集，未动 winnability（消费=下轮）。**
 - **⚠ 处置闭环上线前置（阻塞，用户做）**：**Vercel 控制台 → Storage → 建 KV store**（自动注入 `KV_REST_API_URL`/`KV_REST_API_TOKEN`），然后 `vercel deploy`。没建 KV，处置写入会 500。本机无 KV 凭证→真写入链路本机验不了，只验过 UI/交互。
 - **⚠ 处置闭环已知风险**：①`@vercel/kv` 版本写的 `^3.0.0`，Vercel 构建时若不兼容需调；②无鉴权，有 URL 即可读写处置（内部工具可接受，要收紧加共享口令）；③`kv.keys('disp:*')` 扫全键，量级到数千条需改维护 id 集合；④部署绑死 Vercel（GitHub Pages 出局）。
-- **下一个自然动作**：**赢面消费链路**（引擎读历史处置「赢/输给谁」反调 winnability 打分，框架洞 D 后半 + A v2，让赢面阈值可校准——但要先攒够标签数据）；或赢面 v2（卡 spec 位）；或源攻坚挪 CI。
+- **下一个自然动作**：**赢面消费链路**（引擎读历史处置「赢/输给谁」反调 winnability 打分，框架洞 D 后半 + A v2，让赢面阈值可校准——但要先攒够标签数据）；或赢面 v2（卡 spec 位）；或源攻坚挪 CI；或 P2#6 region 字段（见下）。
+- **⚠ P2#6 region 字段有 spec-vs-数据冲突（2026-06-14 发现，待用户定）**：ROADMAP 要"按**买方所在地**"，但买方=推断的设备OEM，所在地**不在文本里**抽不出；能抽的只有它明确要避开的"项目/业主所在地省份"（headline 省市关键词）。三条路：①硬做不可行；②务实抽「项目地省份」当 region，语义诚实标注（推荐，且对齐处置闭环的区域身份）；③搁置等销售确认路由口径。**别替用户假设**。
 - 结构细节见 `ARCHITECTURE.md`，下一步见 `ROADMAP.md`。
 
 ## 3. 怎么跑 / 验证
@@ -73,11 +75,14 @@ python3 -m unittest tests.test_engine        # 24 个离线单测
 
 ## 7. git 现状
 
-- **已提交 checkpoint**（2026-06-10，未 push，分支 `automation/monthly-update`）：
-  `d3b2787 feat(engine)`（engine/ 含 est_value 分档 + CDE + esg_conditions.yml + test_engine + .gitignore）、`e234ac8 docs`（HANDOFF/ARCHITECTURE/ROADMAP）。
-- **⏳ 待 commit（winnability 批次）**：`engine/winnability.py`(新) + `engine/{build,ranking,conditions}.py`、`config/esg_conditions.yml`(加 competitor_density)、`tests/test_engine.py`、三件套文档。`data/events/` 已 gitignore。
-- **⏳ 待 commit（处置闭环批次，2026-06-12 新增）**：`api/dispositions.js`(新 Serverless)、`package.json`(新，@vercel/kv)、`events.html`(加处置控件+区域身份+过滤/统计)、`HANDOFF.md`。**建议单独成一个 commit**（feat: disposition capture loop），与 winnability 批次分开。
-- **会话前本地 WIP（勿打包）**：`M` fetch_pharma / fetch_rss / scripts/update_news / monthly_update + 2 workflow；`??` scripts/p4_opportunities.py、completeness_audit.py、config/p4_opportunity_map.yml、tests/test_intelligence_pipeline.py、.gtrconfig、agent.md、pulse_mcp_server.py、data/watchlist.json、docs/。
+- **已提交（未 push，分支 `automation/monthly-update`）**，从旧到新：
+  - `d3b2787 feat(engine)`（engine/ 含 est_value 分档 + CDE + esg_conditions.yml + test_engine + .gitignore）、`e234ac8 docs`（三件套）。
+  - `dd0b44a feat(engine): winnability axis v1`、`706d9aa docs`（winnability 批次——**§5 之前误标"待 commit",其实早已提交**）。
+  - `d180c48 feat: research inbox + disposition capture loop`（2026-06-12 批次：`api/dispositions.js`+`package.json`+`events.html`+`ROADMAP.md`+`HANDOFF.md`）。
+  - `dde13f6 fix(engine): split biosynthesis/fermentation into low-density condition`（2026-06-14：`config/esg_conditions.yml`+`tests/test_engine.py`，甜点区修复）。
+- **⏳ 全部 commit 待 push**（用户尚未授权 push）。
+- **灰色文件（待用户定夺是否入库）**：`docs/INTELLIGENCE_OS.md`（方法论北极星）、`config/p4_opportunity_map.yml`、`scripts/p4_opportunities.py`（§8 关键参照）。
+- **会话前本地 WIP（勿打包）**：`M` fetch_pharma / fetch_rss / scripts/update_news / monthly_update + 2 workflow；`??` completeness_audit.py、tests/test_intelligence_pipeline.py、.gtrconfig、agent.md、pulse_mcp_server.py、data/watchlist.json。
 - 提交纪律：精确 stage、commit 前给清单、不 push。
 
 ## 8. 关键参照文件
