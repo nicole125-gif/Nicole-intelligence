@@ -6,7 +6,7 @@
 > - **ROADMAP.md** — 下一步路线（P0/P1/P2）、框架 5 洞状态、阻塞依赖。
 >
 > 另：方法论北极星 `docs/INTELLIGENCE_OS.md`；实现计划 `~/.claude/plans/https-www-esgvalve-cn-gleaming-stroustrup.md`；项目记忆 `~/.claude/projects/.../memory/esg-event-engine.md`。
-> 最后更新 2026-06-10 ｜ 分支 `automation/monthly-update` ｜ **全部新工作未 commit。**
+> 最后更新 2026-06-12 ｜ 分支 `automation/monthly-update` ｜ **全部新工作未 commit。**
 
 ---
 
@@ -22,7 +22,11 @@
 - **✅ CDE 优先审评源已接**（2026-06-10，opt-in `--with-cde`）：`engine/sources/cde.py` 用 Playwright 过瑞数 WAF + 截获 `getPriorityApprovalList` API，产出带公司名的制药 pipeline 事件（band=未知/低 rank 的早期预警）。
 - **✅ winnability 赢面轴 v1 已实现**（2026-06-10）：`engine/winnability.py`，rank_score 第四因子（绿地无在位 + 工况级竞品密度）。锂电/橡塑升、技改棕地/Gemü主场降。28 测试全过。**注意已知局限**：生物合成/发酵被一刀切进"制药竞品high"误降，是 v2 细化项（见 ROADMAP P1#2）。
 - **⛔ 源攻坚已到头（2026-06-10 逐个实测）**：cninfo✅/CDE✅ 已接；**eia(SSL/地域封)、ccgp(频繁访问反爬+本机IP已限)、NMPA(瑞数严格实例，挑战解完仍 400 拒 headless) 全在反爬墙后，本无头开发机破不了**。不是做不了，是**得在 CI/生产环境**（非 headless / 干净 IP / 反检测）做——已标 ROADMAP。**别在本机继续刚这几个源。**
-- **下一个自然动作（强烈推荐）**：**前端事件队列（研判信箱）**——把 `data/events/<date>.json` 渲染成排序队列（rank/赢面/工况/阀型/业主/动作/来源链接），复用老系统 CSS 主题。这是当初定的"第一交付物：个人研判工具"，也是**最大的未兑现价值**（引擎产出至今无人能看/用）。备选：处置闭环、赢面 v2（卡 spec 位）。
+- **✅ 前端事件队列已实现**（2026-06-11）：`events.html` 研判信箱——fetch `data/events/<date>.json` 渲染排序线索卡（rank/赢面/工况/阀型/业主→买方/提前量/价值档/动作/来源），工况+提前量过滤，复用 core.css 工业暗色主题。Playwright 验证 42 卡渲染+过滤生效。**这就是"第一交付物：个人研判工具"，引擎产出终于可看可用。** 部署注意见 ROADMAP P2#5（data/events gitignore，上线需 CI 出数据）。
+- **✅ 处置闭环采集层已实现**（2026-06-12，网页版，框架洞 D 前半）：`events.html` 每张线索卡加 5 态处置控件（跟进/赢/输/忽略/无效）+ 原因框（输/无效必填）；写 **Vercel KV**（`api/dispositions.js` Serverless 函数 GET/POST，key 级写避并发覆盖）→ 多人/跨设备同步同一份；身份=**区域**（存 localStorage，每次标记带上，对齐区域×行业销售组织）；加处置态过滤 + 已处置/待处置统计 + 已处置卡左缘色标。Playwright 验过：7 过滤 chip / 5 态按钮 / 区域+原因必填拦截 / POST 接线（本机 501→Vercel 上 200 入库）。**本轮只采集，未动 winnability（消费=下轮）。**
+- **⚠ 处置闭环上线前置（阻塞，用户做）**：**Vercel 控制台 → Storage → 建 KV store**（自动注入 `KV_REST_API_URL`/`KV_REST_API_TOKEN`），然后 `vercel deploy`。没建 KV，处置写入会 500。本机无 KV 凭证→真写入链路本机验不了，只验过 UI/交互。
+- **⚠ 处置闭环已知风险**：①`@vercel/kv` 版本写的 `^3.0.0`，Vercel 构建时若不兼容需调；②无鉴权，有 URL 即可读写处置（内部工具可接受，要收紧加共享口令）；③`kv.keys('disp:*')` 扫全键，量级到数千条需改维护 id 集合；④部署绑死 Vercel（GitHub Pages 出局）。
+- **下一个自然动作**：**赢面消费链路**（引擎读历史处置「赢/输给谁」反调 winnability 打分，框架洞 D 后半 + A v2，让赢面阈值可校准——但要先攒够标签数据）；或赢面 v2（卡 spec 位）；或源攻坚挪 CI。
 - 结构细节见 `ARCHITECTURE.md`，下一步见 `ROADMAP.md`。
 
 ## 3. 怎么跑 / 验证
@@ -49,6 +53,10 @@ python3 -m unittest tests.test_engine        # 24 个离线单测
 9. **NMPA 飞检 = 替换切口**（非合规噪声），权重应调高。
 10. **est_value 用档不用点**：假精度毁信任，且当前逻辑埋掉大项目。
 11. **归因测 access-advantage（更早接触权），不测 causation**（提前量长 + 走 OEM，归因难）。
+12. **处置闭环做成网页版 + 多人共享**（用户明确）→ 必须有后端，纯静态存不住跨设备标签。
+13. **后端选 Vercel 函数 + KV**（非 Supabase）：站点已在 Vercel、同域无跨域、密钥在服务端、国内可达性与现站一致；代价=**部署必须 Vercel（GitHub Pages 跑不了函数）**。
+14. **处置身份 = 区域**（非人名）：对齐"区域×行业"销售组织（决策7），比人名更贴路由；无真鉴权（内部工具，anon+区域轻身份够用）。
+15. **处置先采集、后消费**（用户明确）：赢面是冷启动，要先攒"赢/输给谁"标签才谈得上校准，所以这轮不动 `engine/winnability.py`。
 
 ## 5. ⏸ 头号挂起未知（等用户 Nicole 确认）
 
@@ -67,7 +75,8 @@ python3 -m unittest tests.test_engine        # 24 个离线单测
 
 - **已提交 checkpoint**（2026-06-10，未 push，分支 `automation/monthly-update`）：
   `d3b2787 feat(engine)`（engine/ 含 est_value 分档 + CDE + esg_conditions.yml + test_engine + .gitignore）、`e234ac8 docs`（HANDOFF/ARCHITECTURE/ROADMAP）。
-- **⏳ 待 commit（winnability 批次，commit 之后新增）**：`engine/winnability.py`(新) + `engine/{build,ranking,conditions}.py`、`config/esg_conditions.yml`(加 competitor_density)、`tests/test_engine.py`、三件套文档 的修改。`data/events/` 已 gitignore。
+- **⏳ 待 commit（winnability 批次）**：`engine/winnability.py`(新) + `engine/{build,ranking,conditions}.py`、`config/esg_conditions.yml`(加 competitor_density)、`tests/test_engine.py`、三件套文档。`data/events/` 已 gitignore。
+- **⏳ 待 commit（处置闭环批次，2026-06-12 新增）**：`api/dispositions.js`(新 Serverless)、`package.json`(新，@vercel/kv)、`events.html`(加处置控件+区域身份+过滤/统计)、`HANDOFF.md`。**建议单独成一个 commit**（feat: disposition capture loop），与 winnability 批次分开。
 - **会话前本地 WIP（勿打包）**：`M` fetch_pharma / fetch_rss / scripts/update_news / monthly_update + 2 workflow；`??` scripts/p4_opportunities.py、completeness_audit.py、config/p4_opportunity_map.yml、tests/test_intelligence_pipeline.py、.gtrconfig、agent.md、pulse_mcp_server.py、data/watchlist.json、docs/。
 - 提交纪律：精确 stage、commit 前给清单、不 push。
 

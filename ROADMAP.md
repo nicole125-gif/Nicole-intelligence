@@ -57,7 +57,9 @@
 
 ## P2 — 产品化
 
-5. **前端事件队列**（研判信箱）：复用老系统 CSS 主题，把 `data/events/<date>.json` 渲染成排序队列 + 处置交互。
+5. ✅ **前端事件队列已实现**（2026-06-11）：`events.html`——纯 HTML/CSS/JS 研判信箱，fetch `data/events/<date>.json`（无 index，从今天往回找最近文件），渲染排序线索卡（rank/赢面表/工况/阀型/业主→买方/提前量/价值档/动作/来源链接），工况+提前量 chip 过滤，复用 `core.css` 工业暗色主题（accent 信号绿）。Playwright 验证：42 卡渲染、过滤生效。
+   - **部署注意**：`data/events/` 已 gitignore→ Vercel/Pages 上无数据文件。要上线需：① CI 跑 engine 并 commit 当日 events（或去掉该 gitignore 提交样例），② 可选给 nav.js 加 events.html 链接 + 写 `data/events/index.json` 指针免去日期猜测。
+   - **后续**：处置交互（点卡片标 跟进/赢/输）——接框架洞 D 闭环。
 6. **region/省份字段 + 团队路由**：事件加地理（按**买方所在地**，不是工厂所在地）。
 7. **DeepSeek 深度评分**（`score_pharma.py`，预留 `valve_intelligence` 字段位）、**est_value PDF 解析**（复用 `rag_helper.py` 读公告正文金额）。
 8. **CI 自动化**：给 engine 加 workflow（cron + `python -m engine.run` + commit data/events）。
