@@ -1,7 +1,7 @@
 # ROADMAP — Nicole Intelligence
 
 > 下一步路线。配套：`HANDOFF.md`（入口/状态/决策）、`ARCHITECTURE.md`（结构）。
-> 最后更新 2026-06-10。**动手前先确认——用户当前处于"设计 > 执行"模式。**
+> 最后更新 2026-06-15。**动手前先确认——用户当前处于"设计 > 执行"模式。**
 
 ## 北极星 & 交付顺序
 
@@ -73,10 +73,11 @@
 > **元原则**：Object（实体）/ Link（关系边）/ Action（写回）/ Function（图上派生逻辑）+ 动能闭环（sense→decide→act→measure）+ 单一语义层。
 > **现状定位**：Event 已是体面 Object；工况库=受控词表；处置=雏形 Action。短板在下面 5 阶。
 
-### O1. 实体解析：Company/OEM/Competitor 升为一等 Object（地基）
+### O1. ✅ 实体解析：Company/OEM/Competitor 升为一等 Object（地基）— 已完成 2026-06-15
 - **症结**：`build.py` 的 `owner:{name,raw,resolved:false}` 自承业主只是逐条重述的字符串，无稳定身份/去重/历史。买方(设备OEM)仅是推断的角色字符串。竞品仅是 config 常量 `competitor_density`。
-- **做**：建实体表（先 Company，再 OEM、Competitor），对 owner 做实体解析（消灭 `resolved:false`），事件引 ID 而非字符串。
-- **verify**：同一业主多条事件解析到同一 Company ID；OEM/Competitor 可被独立寻址。
+- **做了**：`engine/entities.py`（registry 加载 + `resolve` + `get` 寻址）+ `config/entities.yml`（战略实体种子：OEM/Competitor/self，id 对齐 p4_opportunity_map）。`build.py` 接进 `build_event`，`owner` 升为带 `id/type/resolved` 的实体引用：命中 registry → 正规 id + resolved=True；未命中 → 稳定 auto-id + resolved=False。`_normalize` 循环剥后缀保证同名同 id。
+- **verify ✅**：别名+后缀变体收敛同 id（楚天科技股份有限公司=楚天=truking）；未登记业主拿稳定 auto-id；OEM/Competitor 经 `get()` 独立寻址；36 测试全过。
+- **留给后续**：短名↔全称模糊匹配、统一信用代码、auto 实体人工提升进 registry；富属性（products/capex）走 O4 合并。
 
 ### O2. 建图：补承重 Link，先解 spec 位
 - **症结**：事件是扁平记录，几乎无边。Palantir 威力在图遍历。

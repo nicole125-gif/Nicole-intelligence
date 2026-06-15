@@ -12,7 +12,7 @@ import datetime as dt
 import hashlib
 
 from engine import buyer_role as br
-from engine import classify, conditions, ranking, schema, valuation, winnability
+from engine import classify, conditions, entities, ranking, schema, valuation, winnability
 
 
 def _text(signal: dict) -> str:
@@ -34,7 +34,7 @@ def _is_stale(signal: dict, as_of: dt.date) -> bool:
     return (as_of - published).days > 45
 
 
-def build_event(signal: dict, cfg: dict, as_of: dt.date) -> dict | None:
+def build_event(signal: dict, cfg: dict, as_of: dt.date, registry: dict | None = None) -> dict | None:
     """装配单条事件。不属于任何 ESG 工况（match_score==0）则返回 None（丢弃）。"""
     text = _text(signal)
     source_type = signal.get("source_type", "")
@@ -44,8 +44,9 @@ def build_event(signal: dict, cfg: dict, as_of: dt.date) -> dict | None:
         return None
 
     owner_raw = signal.get("company") or signal.get("owner") or ""
-    owner_name = owner_raw.strip() or None
-    owner = {"name": owner_name, "raw": owner_raw, "resolved": False}
+    owner = entities.resolve(owner_raw, registry)
+    owner["raw"] = owner_raw
+    owner_name = owner["name"]
 
     lead_time = classify.classify_lead_time(text, signal.get("lead_time_months", ""))
     est_value = valuation.estimate_value(
@@ -138,11 +139,12 @@ def build_event(signal: dict, cfg: dict, as_of: dt.date) -> dict | None:
 
 def build_pack(signals: list[dict], as_of: dt.date, cfg: dict | None = None) -> dict:
     cfg = cfg or conditions.load_conditions()
+    registry = entities.load_registry()
     events = []
     for signal in signals:
         if not signal.get("title"):
             continue
-        event = build_event(signal, cfg, as_of)
+        event = build_event(signal, cfg, as_of, registry)
         if event is not None:
             events.append(event)
     ranking.sort_events(events)

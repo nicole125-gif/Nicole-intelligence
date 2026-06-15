@@ -70,7 +70,7 @@ SEARCH_KEYS（建设意图词："年产"/"扩建项目"/"电池项目"…）
 `data/events/<date>.json` = `{schema_version, date, status, generated_at, events[], summary{}}`。
 单条 `event`：
 ```
-id · headline · owner{name,raw,resolved} · buyer_role{inferred,basis,confidence}
+id · headline · owner{id,name,type,raw,resolved} · buyer_role{inferred,basis,confidence}
 working_condition[] · industry_tag · signal_type(compliance|expansion|immediate)
 driver(Pol|P|C|D) · lead_time{level:L0/L1/L2, months} · valve_type{primary[],basis}
 est_value{status:model_estimate|manual_override|unknown, low,high,project_capex…}
