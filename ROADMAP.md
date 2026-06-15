@@ -66,6 +66,40 @@
 
 ---
 
+## P1.5 — 本体化（Ontology）工作流 ⭐
+
+> **来源**：2026-06-14 用 Palantir Ontology 原理做的 CEO 战略审查。
+> **判断**：项目赢在 *Function*（打分）、雏形赢在 *Action*（处置），但**输在 Object 和 Link**——核心实体退化成字符串、关系图近乎为零、闭环写了一半没合上。下一个真正的跃迁不是再加一个分数，是**把扁平 Event 长成一张实体图**。
+> **元原则**：Object（实体）/ Link（关系边）/ Action（写回）/ Function（图上派生逻辑）+ 动能闭环（sense→decide→act→measure）+ 单一语义层。
+> **现状定位**：Event 已是体面 Object；工况库=受控词表；处置=雏形 Action。短板在下面 5 阶。
+
+### O1. 实体解析：Company/OEM/Competitor 升为一等 Object（地基）
+- **症结**：`build.py` 的 `owner:{name,raw,resolved:false}` 自承业主只是逐条重述的字符串，无稳定身份/去重/历史。买方(设备OEM)仅是推断的角色字符串。竞品仅是 config 常量 `competitor_density`。
+- **做**：建实体表（先 Company，再 OEM、Competitor），对 owner 做实体解析（消灭 `resolved:false`），事件引 ID 而非字符串。
+- **verify**：同一业主多条事件解析到同一 Company ID；OEM/Competitor 可被独立寻址。
+
+### O2. 建图：补承重 Link，先解 spec 位
+- **症结**：事件是扁平记录，几乎无边。Palantir 威力在图遍历。
+- **关键边**：`Event→Company`、`Company→OEM(供货)`、`OEM→ESG(spec位:进/没进)`、`Competitor→Site(在位于)`、`Disposition→Event`、`Company→Region`。
+- **spec 位重判**：头号挂起不是「待问的事实」，是 `ESG—has-spec-position→{楚天/森松/东富龙}` 这条**承重边缺失**——整张图拓扑挂在它上。**当成「补一条边」来解。**
+- **verify**：能从一个 Event 沿边走到「该业主的 OEM 及其 ESG spec 位」。
+
+### O3. 合上动能闭环：处置写回 → 喂 winnability
+- **症结**：处置现在是死写（存 KV，无人读回），是日记不是状态转移。闭环开着 → 价值锁死（决策15 先采集后消费）。
+- **做**：消费侧读历史「赢/输给谁」反调 winnability 阈值；**把竞品密度从「工况」属性迁到「Competitor—装机于→Site」Link 属性**——这才根治 v1 生物合成误降（本会话的 biosynthesis 工况修复是治标，真因是密度挂错层级）。
+- **verify**：一次处置标记后，相关 Event/Company 的赢面输入随之变化（环合上）。
+- **依赖**：先攒够标签数据（决策15），故排在采足处置之后。
+
+### O4. 本体合并：接回孤儿化的客户/竞品本体
+- **症结**：两套本体并存，且更富的一套被孤儿化——`config/p4_opportunity_map.yml`（楚天/森松/东富龙档案+竞品+capex系数）、`data/products_analysis.json`（威胁 Bürkert4.3/Gemü4.0/ESG2.7）是全仓库最富实体数据，却作「灰色文件」未入库、没接进引擎。
+- **做**：把这两份接成 O1 的 Company/Competitor 种子数据，终结双本体。
+- **verify**：引擎里的 Company/Competitor 对象带上这些档案属性。
+
+### O5.（后置）Person 维度 + 问责图
+- 处置身份现为「区域」匿名（决策14）。后续加 Person Object，路由才真正落到「谁负责这条线索」，SLA/问责成图。
+
+---
+
 ## 阻塞 / 依赖
 
 - **⏸ 头号挂起（等用户 Nicole 确认）**：**ESG 有没有进楚天/森松/东富龙的标准 BOM（spec 位）？**
