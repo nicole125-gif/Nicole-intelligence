@@ -3,68 +3,118 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-06-14T04:49:23.820224+00:00",
-  "item_count": 11,
+  "updated_at": "2026-06-15T05:05:26.782478+00:00",
+  "item_count": 15,
   "items": [
     {
-      "id": "97833ee9ff",
-      "title": "落地在即，CPO却被“泼冷水”?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813178&idx=1&sn=1b80efee31971cf81aea4961e0d3436e",
-      "summary": "落地在即，CPO却被“泼冷水”?",
+      "id": "8417343180",
+      "title": "车规芯片涨价，新能源汽车开吃AI的苦",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813199&idx=1&sn=71f12f13113dfbde53057d231892d780",
+      "summary": "车规芯片涨价，新能源汽车开吃AI的苦",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-14T04:49:19.692384+00:00",
-      "pub_ts": 1781412559
+      "pub_date": "2026-06-15T05:05:23.545000+00:00",
+      "pub_ts": 1781499923
     },
     {
-      "id": "0da0b16254",
-      "title": "重大突破！国产三维多层片上电容研制成功",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813178&idx=2&sn=3f21716fc73b8f047646a036da1907fd",
-      "summary": "重大突破！国产三维多层片上电容研制成功",
+      "id": "dcf698a1c6",
+      "title": "江丰电子正建设韩国先进制程靶材生产基地",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813199&idx=2&sn=56c10888b1fcda0557afe26d9b96b444",
+      "summary": "江丰电子正建设韩国先进制程靶材生产基地",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-14T04:49:19.692429+00:00",
-      "pub_ts": 1781412559
+      "pub_date": "2026-06-15T05:05:23.545049+00:00",
+      "pub_ts": 1781499923
     },
     {
-      "id": "3105ba3036",
-      "title": "Agent AI重构数据中心架构",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813178&idx=3&sn=aebd4bb9638cc281e40c72d9a0ab54dd",
-      "summary": "Agent AI重构数据中心架构",
+      "id": "752c7684cd",
+      "title": "400层NAND，开启竞速赛",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813199&idx=3&sn=e2b4a25555b723f354994061e8ebc92f",
+      "summary": "400层NAND，开启竞速赛",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-14T04:49:19.692483+00:00",
-      "pub_ts": 1781412559
+      "pub_date": "2026-06-15T05:05:23.545076+00:00",
+      "pub_ts": 1781499923
     },
     {
-      "id": "775d52afbe",
-      "title": "国产推理芯片突破之后，训练芯片卡在哪？",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813178&idx=4&sn=2441f64f5087535919033c65a4013f37",
-      "summary": "国产推理芯片突破之后，训练芯片卡在哪？",
+      "id": "62915af034",
+      "title": "叠高度与缩时间：与韬定律殊途同归的一项芯片黑科技",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813199&idx=4&sn=64efe4fcc8ed979c21016dfa13e2b0e1",
+      "summary": "叠高度与缩时间：与韬定律殊途同归的一项芯片黑科技",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-14T04:49:19.692508+00:00",
-      "pub_ts": 1781412559
+      "pub_date": "2026-06-15T05:05:23.545098+00:00",
+      "pub_ts": 1781499923
     },
     {
-      "id": "f0cb21c49e",
-      "title": "10万亿！中国正成为AI基建狂魔",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813178&idx=5&sn=e025c7ee1ccc4c85556e0ddec8601f18",
-      "summary": "10万亿！中国正成为AI基建狂魔",
+      "id": "29ddc630d5",
+      "title": "铜线没死，黄仁勋先动了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813199&idx=5&sn=6be03a97a5f105843bec11830597f507",
+      "summary": "铜线没死，黄仁勋先动了",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-14T04:49:19.692529+00:00",
-      "pub_ts": 1781412559
+      "pub_date": "2026-06-15T05:05:23.545119+00:00",
+      "pub_ts": 1781499923
     },
     {
-      "id": "e666689944",
-      "title": "存储巨头，竞逐400层NAND",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822453&idx=7&sn=2087ef6a63349b6885844f0e4863a91f",
-      "summary": "存储巨头，竞逐400层NAND",
+      "id": "16c2455218",
+      "title": "台积电，疯狂建厂",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822502&idx=1&sn=8e64d3854fd2d1c04078fa3b22b959a9",
+      "summary": "台积电，疯狂建厂",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-14T04:49:06.253306+00:00",
-      "pub_ts": 1781412546
+      "pub_date": "2026-06-15T05:05:14.631086+00:00",
+      "pub_ts": 1781499914
+    },
+    {
+      "id": "6b90a857ba",
+      "title": "六氟化钨，是什么？",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822502&idx=2&sn=676241d220fa7a57bbcc0aa473789b60",
+      "summary": "六氟化钨，是什么？",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-06-15T05:05:14.631143+00:00",
+      "pub_ts": 1781499914
+    },
+    {
+      "id": "019326afee",
+      "title": "芯片设备商，太难了",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822502&idx=3&sn=be323dca8cf72b70d181063b88cb3046",
+      "summary": "芯片设备商，太难了",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-06-15T05:05:14.631167+00:00",
+      "pub_ts": 1781499914
+    },
+    {
+      "id": "9ccf959e40",
+      "title": "这个小国的芯片实力，被低估了",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822502&idx=4&sn=1b97d274dcf9fdc137b3d32a52c73216",
+      "summary": "这个小国的芯片实力，被低估了",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-06-15T05:05:14.631188+00:00",
+      "pub_ts": 1781499914
+    },
+    {
+      "id": "952656ac53",
+      "title": "韩国芯片的新困境：挣太多钱了",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822502&idx=5&sn=e3ae4de416a913a64009b30bcb2e0949",
+      "summary": "韩国芯片的新困境：挣太多钱了",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-06-15T05:05:14.631209+00:00",
+      "pub_ts": 1781499914
+    },
+    {
+      "id": "e48c3e0c87",
+      "title": "Fault Injection Framework Targets RISC-V Security Weak Spots",
+      "url": "https://semiengineering.com/fault-injection-framework-targets-risc-v-security-weak-spots/",
+      "summary": "Researchers from Politecnico di Torino and CEA-List published a technical paper titled “InjectV: Modeling Fault Injection Attacks in RISC-V Simulation Environment.” Abstract &#8220;Fault Injection Attacks (FIAs) are a significant threat to hardware security, capable of compromising systems by induci…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-06-15T03:21:37+00:00",
+      "pub_ts": 1781493697
     },
     {
       "id": "e302e30a79",
@@ -105,16 +155,6 @@
       "lang": "en",
       "pub_date": "2026-06-12T18:24:28+00:00",
       "pub_ts": 1781288668
-    },
-    {
-      "id": "5ff81ed3ea",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-142/",
-      "summary": "14A PDKs; 2nm funding; memory deal; optimizing EUV output; KGD screening; McKinsey's auto chips report; HW security exploits; humanoids; H-1B policy; diamonds for heat; Europe's IC progress; imec's latest; fault-tolerant quantum HW; AI for EDA ontology.\nThe post Chip Industry Week In Review appeared…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-06-12T07:01:27+00:00",
-      "pub_ts": 1781247687
     }
   ],
   "source_success_count": 3,

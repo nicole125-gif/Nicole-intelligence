@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-06-14T04:49:37.875220+00:00",
+  "updated_at": "2026-06-15T05:05:40.975923+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "081c8c6583",
-      "title": "HuggingFaceCEO力荐，Bengio团队也押注：这个15O0美元训出的HRM模...",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247897320&idx=1&sn=5878287bea9ccab89ef33330ba9b07a2",
-      "summary": "HuggingFaceCEO力荐，Bengio团队也押注：这个15O0美元训出的HRM模...",
+      "id": "2ace5dfa6f",
+      "title": "啥？Fable 5一出，Skill和Prompt 都白学了？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247897385&idx=1&sn=f6b060e3072557e7208bdf2c03a5cfc0",
+      "summary": "啥？Fable 5一出，Skill和Prompt 都白学了？",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-14T04:49:33.226810+00:00",
-      "pub_ts": 1781412573
+      "pub_date": "2026-06-15T05:05:36.207154+00:00",
+      "pub_ts": 1781499936
     },
     {
-      "id": "6a68278473",
-      "title": "Agent终于长出了身体：JiuwenSymbiosis背后的思考与实践",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247897320&idx=2&sn=26ebec72b5313d09d09d072e489af690",
-      "summary": "Agent终于长出了身体：JiuwenSymbiosis背后的思考与实践",
+      "id": "e5fd6ba752",
+      "title": "视频生成作为多模态推理新范式ICVPR2026",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247897385&idx=2&sn=f23faf820b600af4e6ae80061654c55c",
+      "summary": "视频生成作为多模态推理新范式ICVPR2026",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-14T04:49:33.226851+00:00",
-      "pub_ts": 1781412573
+      "pub_date": "2026-06-15T05:05:36.207201+00:00",
+      "pub_ts": 1781499936
     },
     {
-      "id": "287168bc3a",
-      "title": "华为SpaceMind登顶空间智能权威榜：纯RGB视觉语言模型拿下70.6分，刷新....",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247897320&idx=3&sn=07784c5d298edcd85f0796f1ddcca265",
-      "summary": "华为SpaceMind登顶空间智能权威榜：纯RGB视觉语言模型拿下70.6分，刷新....",
+      "id": "ca03b4a390",
+      "title": "北京周三|ICRA/CVPR后，聊聊具身最新判断",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247897366&idx=1&sn=b4f6624b617756d9d6f2f83515c87eb3",
+      "summary": "北京周三|ICRA/CVPR后，聊聊具身最新判断",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-14T04:49:33.226873+00:00",
-      "pub_ts": 1781412573
+      "pub_date": "2026-06-15T05:05:36.207224+00:00",
+      "pub_ts": 1781499936
     },
     {
-      "id": "56b6498177",
-      "title": "马斯克远程敲钟穿了老黄的皮衣！SpaceX员工集体穿上绿鞋",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247897275&idx=1&sn=8863e19ab6061c92df0321e1b2a83d59",
-      "summary": "马斯克远程敲钟穿了老黄的皮衣！SpaceX员工集体穿上绿鞋",
+      "id": "a674186d2e",
+      "title": "平替版Fable5的打开教程来了：性能追平，成本砍半",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247897350&idx=1&sn=a819fe0ea000f8ff7d54078ad79294d9",
+      "summary": "平替版Fable5的打开教程来了：性能追平，成本砍半",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-14T04:49:33.226893+00:00",
-      "pub_ts": 1781412573
+      "pub_date": "2026-06-15T05:05:36.207244+00:00",
+      "pub_ts": 1781499936
     },
     {
-      "id": "53b372667d",
-      "title": "看不清就乱答？多模态大模型的这个毛病终于有解了ICML2026",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247897275&idx=2&sn=56aad65e3603c90a9716ae26e49d2cb4",
-      "summary": "看不清就乱答？多模态大模型的这个毛病终于有解了ICML2026",
+      "id": "6613f23702",
+      "title": "0.6BVLM重塑AI修图推理流程，支持手机端侧部署，vivo+浙大出品",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247897350&idx=2&sn=4233c21a63503362cc9850bc60d76ee4",
+      "summary": "0.6BVLM重塑AI修图推理流程，支持手机端侧部署，vivo+浙大出品",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-14T04:49:33.226913+00:00",
-      "pub_ts": 1781412573
+      "pub_date": "2026-06-15T05:05:36.207265+00:00",
+      "pub_ts": 1781499936
     }
   ],
   "source_success_count": 1,
