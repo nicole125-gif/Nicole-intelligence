@@ -6,7 +6,7 @@
 > - **ROADMAP.md** — 下一步路线（P0/P1/P2）、框架 5 洞状态、阻塞依赖。
 >
 > 另：方法论北极星 `docs/INTELLIGENCE_OS.md`；实现计划 `~/.claude/plans/https-www-esgvalve-cn-gleaming-stroustrup.md`；项目记忆 `~/.claude/projects/.../memory/esg-event-engine.md`。
-> 最后更新 2026-06-14 ｜ 分支 `automation/monthly-update` ｜ 处置闭环 + 甜点区修复已 commit（未 push），余 WIP 未打包。
+> 最后更新 2026-06-15 ｜ 分支 `automation/monthly-update` ｜ O1 实体解析已 commit（未 push），余 WIP 未打包。
 
 ---
 
@@ -21,6 +21,7 @@
 - **整体框架 review 已做完**（麦肯锡战略 + CEO 双视角），制药赛道分析（首个试验田）已做完。结论见第 4 节 + ROADMAP。
 - **✅ CDE 优先审评源已接**（2026-06-10，opt-in `--with-cde`）：`engine/sources/cde.py` 用 Playwright 过瑞数 WAF + 截获 `getPriorityApprovalList` API，产出带公司名的制药 pipeline 事件（band=未知/低 rank 的早期预警）。
 - **✅ winnability 赢面轴 v1 已实现**（2026-06-10）：`engine/winnability.py`，rank_score 第四因子（绿地无在位 + 工况级竞品密度）。锂电/橡塑升、技改棕地/Gemü主场降。
+- **✅ O1 实体解析已落地**（2026-06-15，框架 P1.5 本体化第一阶/地基）：`engine/entities.py` + `config/entities.yml`，业主字符串解析到稳定 Company/OEM/Competitor 对象——命中战略 registry（楚天/东富龙/森松/奥星/正帆/Bürkert/Gemü/ESG）→ 正规 id + `resolved=True`；未命中 → 稳定 auto-id（同名同 id）+ `resolved=False` 待人工提升。`build.py` 接进 `build_event`：`owner` 从裸 `{name,raw,resolved:false}` 升为带 `id/type/resolved` 的实体引用，**消灭自承业主**。registry id 已对齐 `p4_opportunity_map.yml`，O4 合并同 id 直接接档案。**bugfix**：`_normalize` 改循环剥后缀，修核心名以"公司"结尾时长短变体不收敛（auto-id 不稳）。36 测试全过。**仍是字符串→对象的地基，承重边（O2）+ 写回闭环（O3）未做。**
 - **✅ 甜点区误降已修**（2026-06-14，commit `dde13f6`）：`config/esg_conditions.yml` 新增 `biosynthesis`（生物合成/发酵）工况 density=low，纯增量认领 `发酵/生物反应器`+新增 `生物合成/合成生物/发酵罐/菌种`，靠排序赢平局——无菌制剂仍归 pharma_ref(high)、食品发酵仍归 hygienic(high)。winnability 0.55→0.95。31 测试全过。**取舍**：density 选 low（主动上浮，依据决策8 优先甜点区）而非 mid（仅中性），可一行改回。winnability v2 仍欠 spec 位维度（卡挂起未知）。
 - **⛔ 源攻坚已到头（2026-06-10 逐个实测）**：cninfo✅/CDE✅ 已接；**eia(SSL/地域封)、ccgp(频繁访问反爬+本机IP已限)、NMPA(瑞数严格实例，挑战解完仍 400 拒 headless) 全在反爬墙后，本无头开发机破不了**。不是做不了，是**得在 CI/生产环境**（非 headless / 干净 IP / 反检测）做——已标 ROADMAP。**别在本机继续刚这几个源。**
 - **✅ 前端事件队列已实现**（2026-06-11）：`events.html` 研判信箱——fetch `data/events/<date>.json` 渲染排序线索卡（rank/赢面/工况/阀型/业主→买方/提前量/价值档/动作/来源），工况+提前量过滤，复用 core.css 工业暗色主题。Playwright 验证 42 卡渲染+过滤生效。**这就是"第一交付物：个人研判工具"，引擎产出终于可看可用。** 部署注意见 ROADMAP P2#5（data/events gitignore，上线需 CI 出数据）。
@@ -80,6 +81,8 @@ python3 -m unittest tests.test_engine        # 24 个离线单测
   - `dd0b44a feat(engine): winnability axis v1`、`706d9aa docs`（winnability 批次——**§5 之前误标"待 commit",其实早已提交**）。
   - `d180c48 feat: research inbox + disposition capture loop`（2026-06-12 批次：`api/dispositions.js`+`package.json`+`events.html`+`ROADMAP.md`+`HANDOFF.md`）。
   - `dde13f6 fix(engine): split biosynthesis/fermentation into low-density condition`（2026-06-14：`config/esg_conditions.yml`+`tests/test_engine.py`，甜点区修复）。
+  - `37ee7f6 docs(roadmap)`（P1.5 本体化工作流）、`2feaab4 docs`、`706d9aa docs`（文档批次）。
+  - **O1 实体解析**（2026-06-15）：`engine/entities.py`+`config/entities.yml`（新）+`engine/build.py`+`tests/test_engine.py`（接线 + EntityTests + 后缀归一 bugfix 测试）。
 - **⏳ 全部 commit 待 push**（用户尚未授权 push）。
 - **灰色文件（待用户定夺是否入库）**：`docs/INTELLIGENCE_OS.md`（方法论北极星）、`config/p4_opportunity_map.yml`、`scripts/p4_opportunities.py`（§8 关键参照）。
 - **会话前本地 WIP（勿打包）**：`M` fetch_pharma / fetch_rss / scripts/update_news / monthly_update + 2 workflow；`??` completeness_audit.py、tests/test_intelligence_pipeline.py、.gtrconfig、agent.md、pulse_mcp_server.py、data/watchlist.json。

@@ -11,7 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from engine import build, buyer_role, conditions, ranking, valuation, winnability  # noqa: E402
+from engine import build, buyer_role, conditions, entities, ranking, valuation, winnability  # noqa: E402
 
 
 class ConditionTests(unittest.TestCase):
@@ -133,6 +133,40 @@ class ValueBandTests(unittest.TestCase):
     def test_tonnage_capacity_complements_money_exclusion(self):
         # 6万吨：金额解析排除它(unknown)，但产能信号仍识别为"有产能"
         self.assertEqual(valuation.capacity_scale("年产6万吨钛白粉"), 1)
+
+
+class EntityTests(unittest.TestCase):
+    def test_alias_and_suffix_resolve_to_same_id(self):
+        # 别名 + 后缀变体应解析到同一战略实体 id
+        a = entities.resolve("楚天")
+        b = entities.resolve("楚天科技股份有限公司")
+        self.assertEqual(a["id"], b["id"])
+        self.assertEqual(a["id"], "truking")
+        self.assertTrue(a["resolved"])
+
+    def test_unregistered_owner_gets_stable_auto_id(self):
+        # 未登记业主 → 稳定 auto-id（同名/后缀变体同 id），resolved=False
+        a = entities.resolve("某某新材料")
+        b = entities.resolve("某某新材料有限公司")
+        self.assertEqual(a["id"], b["id"])
+        self.assertTrue(a["id"].startswith("auto:"))
+        self.assertFalse(a["resolved"])
+
+    def test_auto_id_stable_when_core_name_ends_in_suffix_word(self):
+        # 核心名本身以"公司"结尾时，长短变体也须收敛到同一 auto-id
+        a = entities.resolve("某不在册公司")
+        b = entities.resolve("某不在册公司有限公司")
+        self.assertEqual(a["id"], b["id"])
+        self.assertTrue(a["id"].startswith("auto:"))
+
+    def test_empty_owner_resolves_to_none(self):
+        r = entities.resolve("")
+        self.assertIsNone(r["id"])
+        self.assertFalse(r["resolved"])
+
+    def test_oem_and_competitor_independently_addressable(self):
+        self.assertEqual(entities.get("burkert")["type"], "competitor")
+        self.assertEqual(entities.get("truking")["type"], "oem")
 
 
 class WinnabilityTests(unittest.TestCase):

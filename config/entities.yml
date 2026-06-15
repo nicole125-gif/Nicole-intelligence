@@ -1,0 +1,44 @@
+# 实体本体 registry（O1 实体解析）
+# 战略实体的稳定身份与别名。事件里的业主字符串解析到这里的 id。
+# type: company（终端业主）| oem（装备商）| competitor（在位竞品）| self（ESG 自身）
+# id 与 config/p4_opportunity_map.yml 对齐，O4 合并时同 id 直接接上完整档案。
+# 种子只带 identity+aliases；products/capex 等富属性留给 O4。
+
+entities:
+  # —— 装备商 OEM（制药出海顺风，盯订单簿）——
+  - id: truking
+    name: 楚天科技
+    type: oem
+    aliases: [楚天科技, 楚天]
+  - id: tofflon
+    name: 东富龙
+    type: oem
+    aliases: [东富龙, 上海东富龙, 东富龙科技]
+  - id: morimatsu
+    name: 森松国际
+    type: oem
+    aliases: [森松国际, 森松, 森松制药]
+  - id: austar
+    name: 奥星生命科技
+    type: oem
+    aliases: [奥星, 奥星生命, 奥星生命科技]
+  - id: zhengfan
+    name: 正帆科技
+    type: oem
+    aliases: [正帆, 正帆科技]
+
+  # —— 在位竞品（赢面参照）——
+  - id: burkert
+    name: Bürkert
+    type: competitor
+    aliases: [Bürkert, Burkert, 宝德, 宝帝]
+  - id: gemu
+    name: Gemü
+    type: competitor
+    aliases: [Gemü, Gemu, 盖米, 格姆]
+
+  # —— ESG 自身 ——
+  - id: esg
+    name: ESG 青岛精锐
+    type: self
+    aliases: [ESG, 青岛精锐, 精锐, esgvalve]
