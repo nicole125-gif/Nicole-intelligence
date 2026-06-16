@@ -29,9 +29,10 @@
 - **⚠ 处置闭环上线前置（阻塞，用户做）**：**Vercel 控制台 → Storage → 建 KV store**（自动注入 `KV_REST_API_URL`/`KV_REST_API_TOKEN`），然后 `vercel deploy`。没建 KV，处置写入会 500。本机无 KV 凭证→真写入链路本机验不了，只验过 UI/交互。
 - **⚠ 处置闭环已知风险**：①`@vercel/kv` 版本写的 `^3.0.0`，Vercel 构建时若不兼容需调；②无鉴权，有 URL 即可读写处置（内部工具可接受，要收紧加共享口令）；③`kv.keys('disp:*')` 扫全键，量级到数千条需改维护 id 集合；④部署绑死 Vercel（GitHub Pages 出局）。
 - **✅ O4 本体合并已落地**（2026-06-16，框架 P1.5 第四阶）：把孤儿化的两套富本体折叠进 `config/entities.yml` 的 `profile:` 块——OEM（楚天/森松/东富龙）带 match_keywords/target_roles/esg_products/competitor_products/capex_ratio（源 p4_opportunity_map）；竞品+self 带 avg_threat_level/product_count/high_threat_products（源 products_analysis：Bürkert4.3/Gemü4.0/ESG2.7）。`load_registry` 本就按 id 存整条 dict，**`get(id)` 自动带出 profile，零 join 代码**；`resolve()` 仍轻量（profile 不进每条 event 的 owner）。终结双本体，entities.yml 升为实体数据单一语义层。**`p4_opportunity_map.yml` 仍被 legacy `scripts/p4_opportunities.py` 读，保留不删**。38 测试全过（+2）。
-- **下一个自然动作（O4 后，2026-06-16）**：本体化继续沿 P1.5——
-  - **O2 建图（卡头号挂起，真正解锁价值）**：补 spec 位承重边 `ESG—has-spec-position→{楚天/森松/东富龙}`，**直接撞 §5 挂起未知**（ESG 进没进这几家 BOM），需用户先确认。注：tofflon profile 的 competitor_products 已含 ESG（卫生级阀门/膜塞阀），是 spec 位的待证痕迹。
-  - **O3 赢面消费链路（旁路，需先攒处置标签）**：现在 competitor profile 的威胁分已可读，winnability 可从 config 常量 `competitor_density` 升级为读实体威胁档。
+- **✅ O2 spec 位切片 A 已落地**（2026-06-16，框架 P1.5 第二阶/承重边）：头号挂起已解（§5）——**ESG 只进东富龙 BOM，楚天/森松未进**。`config/entities.yml` 三 OEM 加 `spec_position`（东富龙 `in`/楚天/森松 `target`）；`build.py` 当 owner 解析为 OEM 实体时沿 owner→OEM 边取 spec 位，喂 winnability（in +0.2 顺风 / target −0.1 需 design-in）+ 分流 action（in→盯订单簿；target→主推 design-in）；event 加 `spec_position` 字段。实测东富龙扩产 win 0.5 > 通用 0.3 > 楚天 0.2。43 测试全过（+5）。**切片 B（headline 具名识别买方 OEM）后置**——多数 event 不点名 OEM。
+- **下一个自然动作（O2-A 后，2026-06-16）**：
+  - **O3 赢面消费链路（旁路，需先攒处置标签）**：competitor profile 威胁分 + spec 位都已可读，winnability 可继续从 config 常量升级为读实体属性；完整闭环要先攒处置标签（决策15）。
+  - **O2 切片 B**：headline 具名识别买方 OEM，让非 OEM 自建但用东富龙设备的 event 也走到 spec 位。
   - 旁路备选：源攻坚挪 CI；P2#6 region 字段（见下）。
 - **⚠ P2#6 region 字段有 spec-vs-数据冲突（2026-06-14 发现，待用户定）**：ROADMAP 要"按**买方所在地**"，但买方=推断的设备OEM，所在地**不在文本里**抽不出；能抽的只有它明确要避开的"项目/业主所在地省份"（headline 省市关键词）。三条路：①硬做不可行；②务实抽「项目地省份」当 region，语义诚实标注（推荐，且对齐处置闭环的区域身份）；③搁置等销售确认路由口径。**别替用户假设**。
 - 结构细节见 `ARCHITECTURE.md`，下一步见 `ROADMAP.md`。
@@ -65,12 +66,12 @@ python3 -m unittest tests.test_engine        # 24 个离线单测
 14. **处置身份 = 区域**（非人名）：对齐"区域×行业"销售组织（决策7），比人名更贴路由；无真鉴权（内部工具，anon+区域轻身份够用）。
 15. **处置先采集、后消费**（用户明确）：赢面是冷启动，要先攒"赢/输给谁"标签才谈得上校准，所以这轮不动 `engine/winnability.py`。
 
-## 5. ⏸ 头号挂起未知（等用户 Nicole 确认）
+## 5. ✅ 头号挂起未知 — 已解（2026-06-16 Nicole 确认）
 
-**ESG 现在有没有进楚天/森松/东富龙的标准 BOM（spec 位）？**
-- 已进 → 盯装备商订单簿立刻有用，它们出海=ESG 顺风；
-- 没进 → 制药第一优先级是先拿下设计导入，否则其扩产/出海全便宜 Gemü。
-- **不要替用户假设，等她来定。**
+**ESG 只进了东富龙的标准 BOM（spec 位）；楚天、森松未进。**
+- 东富龙（已进）→ 盯其订单簿/扩产立刻有用，它出海=ESG 顺风；
+- 楚天/森松（未进）→ 第一优先级是先拿下设计导入（design-in），否则其扩产/出海全便宜 Gemü。
+- 已固化进 O2 切片 A（`config/entities.yml` 的 `spec_position`）+ 项目记忆 `esg-spec-position.md`。
 
 ## 6. 互动纪律（用户偏好）
 

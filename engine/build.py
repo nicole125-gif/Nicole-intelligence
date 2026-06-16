@@ -89,15 +89,26 @@ def build_event(signal: dict, cfg: dict, as_of: dt.date, registry: dict | None =
     if review_flag != schema.FLAG_OK:
         urgency = min(urgency, 5)
 
+    # O2：业主即装备商时，沿 owner→OEM 边取 ESG spec 位（进/未进），喂赢面 + 分流动作
+    spec_position = None
+    if owner.get("resolved") and owner.get("type") == "oem":
+        oem_ent = entities.get(owner["id"], registry)
+        spec_position = (oem_ent or {}).get("spec_position")
+
     band = valuation.value_band(text, est_value)
-    win = winnability.assess(text, cond.get("competitor_density", "mid"))
+    win = winnability.assess(text, cond.get("competitor_density", "mid"), spec_position)
     rank = ranking.rank_score(
         band["band"], lead_time["level"], cond["match_score"], win["score"])
 
     valves = "、".join(cond["valve_type"]["primary"][:2]) or "对口阀型"
     who = owner_name or "该项目业主"
     role_text = role["inferred"] or "目标买方"
-    action = f"{lead_time['months']}个月窗口内，锁定{who}的{role_text}，以{valves}切入。"
+    if spec_position == "in":
+        action = f"{who}已为 ESG spec 位在册，{lead_time['months']}个月窗口盯其订单簿/扩产，{valves}随产线复制。"
+    elif spec_position == "target":
+        action = f"{who}尚未导入 ESG，{lead_time['months']}个月窗口主推设计导入(design-in)，以{valves}切入标准 BOM。"
+    else:
+        action = f"{lead_time['months']}个月窗口内，锁定{who}的{role_text}，以{valves}切入。"
 
     event_id = hashlib.md5(
         f"{signal.get('title', '')}|{source_url}".encode()
@@ -107,6 +118,7 @@ def build_event(signal: dict, cfg: dict, as_of: dt.date, registry: dict | None =
         "id": event_id,
         "headline": signal.get("title", ""),
         "owner": owner,
+        "spec_position": spec_position,
         "buyer_role": role,
         "working_condition": cond["working_condition"],
         "industry_tag": signal.get("industry_pull") or cond["industry_tag"],

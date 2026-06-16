@@ -14,6 +14,7 @@ entities:
     name: 楚天科技
     type: oem
     aliases: [楚天科技, 楚天]
+    spec_position: target  # O2：ESG 尚未进 BOM，第一优先级=拿下设计导入（2026-06-16 Nicole 确认）
     profile:
       match_keywords: [制药装备, 生物工程, 无菌制剂, 原料药, 智能工厂]
       target_roles: [设备部, 工程部, 采购部]
@@ -28,6 +29,7 @@ entities:
     name: 东富龙
     type: oem
     aliases: [东富龙, 上海东富龙, 东富龙科技]
+    spec_position: in  # O2 承重边 ESG—has-spec-position→tofflon（confirmed）：盯其订单簿/扩产即顺风（2026-06-16 Nicole 确认）
     profile:
       match_keywords: [冻干, 生物制药, 制剂装备, 无菌产线, 工程项目]
       target_roles: [工程中心, 设备部, 战略采购]
@@ -36,12 +38,13 @@ entities:
         - company: Bürkert
           names: [电磁阀, 过程控制阀, 液体和气体阀门]
         - company: ESG
-          names: [卫生级阀门, 膜塞阀]  # ESG 已在册之痕，spec 位待 O2 确认
+          names: [卫生级阀门, 膜塞阀]  # 与 spec_position: in 一致（ESG 已在东富龙 BOM）
       capex_ratio: {low: 0.005, high: 0.015}
   - id: morimatsu
     name: 森松国际
     type: oem
     aliases: [森松国际, 森松, 森松制药]
+    spec_position: target  # O2：ESG 尚未进 BOM，第一优先级=拿下设计导入（2026-06-16 Nicole 确认）
     profile:
       match_keywords: [模块化工厂, EPC, 生物反应器, 原液, 制药工程]
       target_roles: [项目采购, 工艺工程部, 模块化事业部]

@@ -180,6 +180,12 @@ class EntityTests(unittest.TestCase):
         self.assertEqual(entities.get("burkert")["profile"]["avg_threat_level"], 4.3)
         self.assertEqual(entities.get("gemu")["profile"]["avg_threat_level"], 4.0)
 
+    def test_oem_carries_spec_position(self):
+        # O2：spec 位承重边落在 OEM 实体上（只东富龙已进）
+        self.assertEqual(entities.get("tofflon")["spec_position"], "in")
+        self.assertEqual(entities.get("truking")["spec_position"], "target")
+        self.assertEqual(entities.get("morimatsu")["spec_position"], "target")
+
 
 class WinnabilityTests(unittest.TestCase):
     def test_greenfield_beats_brownfield(self):
@@ -196,6 +202,12 @@ class WinnabilityTests(unittest.TestCase):
         s = winnability.assess("新建生产基地", "low")["score"]
         self.assertLessEqual(s, 1.0)
         self.assertGreaterEqual(winnability.assess("技改", "high")["score"], 0.15)
+
+    def test_spec_in_boosts_target_lowers(self):
+        # O2：spec 位已进=顺风调升，未进=需 design-in 调降
+        base = winnability.assess("某扩产项目", "mid")["score"]
+        self.assertGreater(winnability.assess("某扩产项目", "mid", "in")["score"], base)
+        self.assertLess(winnability.assess("某扩产项目", "mid", "target")["score"], base)
 
 
 class RankingTests(unittest.TestCase):
@@ -250,6 +262,29 @@ class BuildTests(unittest.TestCase):
             self.cfg, self.as_of)
         self.assertIsNotNone(ev)
         self.assertEqual(ev["review_flag"], "unresolved")
+
+    def test_oem_owner_spec_in_tailors_action(self):
+        # O2：业主即东富龙(spec 已进) → spec_position=in，动作转"盯订单簿"
+        ev = build.build_event(
+            self._sig(title="无菌灌装制剂产线扩建，投资5亿元", company="东富龙"),
+            self.cfg, self.as_of)
+        self.assertEqual(ev["spec_position"], "in")
+        self.assertIn("订单簿", ev["action"])
+
+    def test_oem_owner_spec_target_recommends_design_in(self):
+        # O2：业主即楚天(spec 未进) → spec_position=target，动作转"设计导入"
+        ev = build.build_event(
+            self._sig(title="无菌灌装制剂产线扩建，投资5亿元", company="楚天科技"),
+            self.cfg, self.as_of)
+        self.assertEqual(ev["spec_position"], "target")
+        self.assertIn("design-in", ev["action"])
+
+    def test_non_oem_owner_has_no_spec_position(self):
+        # 终端业主(非 OEM) → 不触发 spec 位逻辑
+        ev = build.build_event(
+            self._sig(title="无菌灌装乳品线新建投资5亿元", company="某乳业"),
+            self.cfg, self.as_of)
+        self.assertIsNone(ev["spec_position"])
 
     def test_pack_summary_counts(self):
         signals = [
