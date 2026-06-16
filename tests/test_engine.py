@@ -168,6 +168,18 @@ class EntityTests(unittest.TestCase):
         self.assertEqual(entities.get("burkert")["type"], "competitor")
         self.assertEqual(entities.get("truking")["type"], "oem")
 
+    def test_oem_carries_merged_profile(self):
+        # O4：OEM 实体带上 p4_opportunity_map 折叠进来的档案属性
+        prof = entities.get("truking")["profile"]
+        self.assertIn("设备部", prof["target_roles"])
+        self.assertIn("卫生级隔膜阀", prof["esg_products"])
+        self.assertEqual(prof["capex_ratio"]["high"], 0.015)
+
+    def test_competitor_carries_threat_profile(self):
+        # O4：竞品实体带上 products_analysis 折叠进来的威胁档
+        self.assertEqual(entities.get("burkert")["profile"]["avg_threat_level"], 4.3)
+        self.assertEqual(entities.get("gemu")["profile"]["avg_threat_level"], 4.0)
+
 
 class WinnabilityTests(unittest.TestCase):
     def test_greenfield_beats_brownfield(self):
