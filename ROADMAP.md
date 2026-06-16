@@ -91,10 +91,12 @@
 - **verify**：一次处置标记后，相关 Event/Company 的赢面输入随之变化（环合上）。
 - **依赖**：先攒够标签数据（决策15），故排在采足处置之后。
 
-### O4. 本体合并：接回孤儿化的客户/竞品本体
+### O4. ✅ 本体合并：接回孤儿化的客户/竞品本体 — 已完成 2026-06-16
 - **症结**：两套本体并存，且更富的一套被孤儿化——`config/p4_opportunity_map.yml`（楚天/森松/东富龙档案+竞品+capex系数）、`data/products_analysis.json`（威胁 Bürkert4.3/Gemü4.0/ESG2.7）是全仓库最富实体数据，却作「灰色文件」未入库、没接进引擎。
-- **做**：把这两份接成 O1 的 Company/Competitor 种子数据，终结双本体。
-- **verify**：引擎里的 Company/Competitor 对象带上这些档案属性。
+- **做了**：把两份的实体级数据折叠进 `config/entities.yml` 的 `profile:` 块——OEM 带 match_keywords/target_roles/esg_products/competitor_products/capex_ratio；竞品+self 带 avg_threat_level/product_count/high_threat_products。`load_registry` 本就按 id 存整条 entity dict，故 `get(id)` 自动带出 profile，**零 join 代码**。`resolve()` 仍只回 {id,name,type,resolved} 轻量引用，profile 不污染每条 event 的 owner。
+- **verify ✅**：`get("truking")["profile"]["esg_products"]`/`capex_ratio`、`get("burkert")["profile"]["avg_threat_level"]==4.3` 均带出；38 测试全过（+2）。
+- **取舍**：`p4_opportunity_map.yml` 仍被 legacy `scripts/p4_opportunities.py` 读取，故保留不删；实体数据自此以 `entities.yml` 为准（单一语义层）。capex_ratio 是 track 级系数，按「该 OEM 段 capex→阀门支出比」语义挂到各制药 OEM profile，与 valuation 用的 esg_conditions.capex_ratio 并行（未合并，引擎估值仍走后者）。
+- **留给后续**：富属性的消费侧——winnability 可读 competitor profile 的威胁分替代 config 常量（O3 territory）；esg_products 可驱动 action 文案的对口阀型。
 
 ### O5.（后置）Person 维度 + 问责图
 - 处置身份现为「区域」匿名（决策14）。后续加 Person Object，路由才真正落到「谁负责这条线索」，SLA/问责成图。
