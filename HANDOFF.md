@@ -6,7 +6,7 @@
 > - **ROADMAP.md** — 下一步路线（P0/P1/P2）、框架 5 洞状态、阻塞依赖。
 >
 > 另：方法论北极星 `docs/INTELLIGENCE_OS.md`；实现计划 `~/.claude/plans/https-www-esgvalve-cn-gleaming-stroustrup.md`；项目记忆 `~/.claude/projects/.../memory/esg-event-engine.md`。
-> 最后更新 2026-06-15 ｜ 分支 `automation/monthly-update` ｜ O1 实体解析已 commit（未 push），余 WIP 未打包。
+> 最后更新 2026-06-16 ｜ 引擎/本体工作（里程碑1 + winnability + O1 + O4）已合进 `main`（PR #6，merge `2d9c99b`）｜ 自动化/WIP 仍在 `automation/monthly-update`。
 
 ---
 
@@ -80,17 +80,12 @@ python3 -m unittest tests.test_engine        # 24 个离线单测
 
 ## 7. git 现状
 
-- **已提交（未 push，分支 `automation/monthly-update`）**，从旧到新：
-  - `d3b2787 feat(engine)`（engine/ 含 est_value 分档 + CDE + esg_conditions.yml + test_engine + .gitignore）、`e234ac8 docs`（三件套）。
-  - `dd0b44a feat(engine): winnability axis v1`、`706d9aa docs`（winnability 批次——**§5 之前误标"待 commit",其实早已提交**）。
-  - `d180c48 feat: research inbox + disposition capture loop`（2026-06-12 批次：`api/dispositions.js`+`package.json`+`events.html`+`ROADMAP.md`+`HANDOFF.md`）。
-  - `dde13f6 fix(engine): split biosynthesis/fermentation into low-density condition`（2026-06-14：`config/esg_conditions.yml`+`tests/test_engine.py`，甜点区修复）。
-  - `37ee7f6 docs(roadmap)`（P1.5 本体化工作流）、`2feaab4 docs`、`706d9aa docs`（文档批次）。
-  - **O1 实体解析**（2026-06-15）：`engine/entities.py`+`config/entities.yml`（新）+`engine/build.py`+`tests/test_engine.py`（接线 + EntityTests + 后缀归一 bugfix 测试）。
-- **⏳ 全部 commit 待 push**（用户尚未授权 push）。
-- **灰色文件（待用户定夺是否入库）**：`docs/INTELLIGENCE_OS.md`（方法论北极星）、`config/p4_opportunity_map.yml`、`scripts/p4_opportunities.py`（§8 关键参照）。
-- **会话前本地 WIP（勿打包）**：`M` fetch_pharma / fetch_rss / scripts/update_news / monthly_update + 2 workflow；`??` completeness_audit.py、tests/test_intelligence_pipeline.py、.gtrconfig、agent.md、pulse_mcp_server.py、data/watchlist.json。
-- 提交纪律：精确 stage、commit 前给清单、不 push。
+- **✅ 引擎/本体工作已合进 `main`**（2026-06-16，PR #6，merge commit `2d9c99b`）：从 `main` 干净切 `feat/event-engine`，cherry-pick 11 个引擎 commit（里程碑1引擎 + winnability v1 + O1 + O4 + 三件套 docs + biosynthesis 修复 + research inbox/处置采集层），27 文件 / +2401，38 测试全过。已 rebase 过 origin/main（只 `.gitignore` add/add 取并集）、合并、删分支（本地+远端）。**main 自此为引擎数据的权威。**
+- **`automation/monthly-update`（远端 `f825fad`）**：仍带同一串引擎 commit 的**旧 SHA**（O1-O4 在此分支早已提交并 push），但已被 PR #6 的 curated 版本取代——**别再从这条分支合引擎到 main**。这条分支本职是放自动化更新（RSS/竞品/monthly）+ 本会话前的 WIP。
+- **⚠ 本仓库 bot 会直推 `main`**（RSS/竞品自动提交）：开 PR 前先 `git fetch`，否则本地 main 落后 → PR 报冲突（本轮踩过）。
+- **灰色文件（仍未入库，待用户定夺）**：`docs/INTELLIGENCE_OS.md`（方法论北极星）、`config/p4_opportunity_map.yml`、`scripts/p4_opportunities.py`（§8 关键参照）。注：O4 已把 p4_opportunity_map / products_analysis 的实体数据折叠进 `config/entities.yml`（已入 main），这两份源文件仅 legacy 脚本仍读。
+- **会话前本地 WIP（勿打包，仍在 automation 工作区）**：`M` fetch_pharma / fetch_rss / scripts/update_news / monthly_update + 2 workflow；`??` completeness_audit.py、tests/test_intelligence_pipeline.py、.gtrconfig、agent.md、pulse_mcp_server.py、data/watchlist.json。
+- 提交纪律：精确 stage、commit 前给清单、push/合并前确认。
 
 ## 8. 关键参照文件
 
