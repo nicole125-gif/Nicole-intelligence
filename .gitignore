@@ -2,3 +2,4 @@ __pycache__/
 *.py[cod]
 index.html.bak
 pulse_vectordb/
+data/events/
