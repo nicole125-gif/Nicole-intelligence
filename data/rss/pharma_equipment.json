@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-06-15T05:06:03.862979+00:00",
+  "updated_at": "2026-06-16T05:09:10.475243+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "95d6894992",
-      "title": "ECRD 2026: Europe’s rare disease bottleneck is funding rather than science",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ecrd-2026-europes-rare-disease-bottleneck-is-funding-rather-than-science/",
-      "summary": "Derisking assets to attract capital and rethinking funding models should be key priorities for Europe to retain its research pipeline.",
+      "id": "1822a06290",
+      "title": "Younger UK children to benefit from new dose of nasal spray allergy drug",
+      "url": "https://www.pharmaceutical-technology.com/news/younger-uk-children-to-benefit-from-new-dose-of-nasal-spray-allergy-drug/",
+      "summary": "The MHRA’s approval of a lower dose of EURneffy means more children will have a needle-free option to treat anaphylaxis.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-12T18:43:34+00:00",
-      "pub_ts": 1781289814
+      "pub_date": "2026-06-15T10:28:49+00:00",
+      "pub_ts": 1781519329
     },
     {
-      "id": "d1f46e08b8",
-      "title": "ECRD 2026: Navigating the rare disease diagnostic and drug development maze",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ecrd-2026-navigating-the-rare-disease-diagnostic-and-drug-development-maze/",
-      "summary": "While rare disease research has advanced significantly, related expertise and data are scattered across too many disconnected places.",
+      "id": "9f8cb9c4c4",
+      "title": "FDA oncology roundup: drugs, imaging agents and diagnostics gain approval",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-oncology-roundup-astrazeneca-truqap-roche-cdx-bayer-imaging/",
+      "summary": "The FDA has cleared several oncology products over the past few days, ranging from therapies to diagnostic and imaging tools.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-12T18:24:27+00:00",
-      "pub_ts": 1781288667
+      "pub_date": "2026-06-15T09:51:51+00:00",
+      "pub_ts": 1781517111
     },
     {
-      "id": "115ec402d4",
-      "title": "CDA data reveals trends on drug approvals and reimbursements in Canada",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/cda-trends-drug-approvals-reimbursements-canada/",
-      "summary": "In April 2026, Canada’s Drug Agency released an expanded data set offering insights within its regulatory system for drug approvals and reimbursement in Canada.",
+      "id": "3cc8b5bcdd",
+      "title": "Simcere and Stanford partner to develop IPF therapies",
+      "url": "https://www.pharmaceutical-technology.com/news/simcere-stanford-to-develop-ipf-therapies/",
+      "summary": "Simcere Pharmaceutical has entered a research collaboration agreement with Stanford Medicine to develop new therapies for IPF.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-12T14:49:18+00:00",
-      "pub_ts": 1781275758
+      "pub_date": "2026-06-15T09:00:49+00:00",
+      "pub_ts": 1781514049
     },
     {
-      "id": "68b6d58310",
-      "title": "Novo Nordisk comeback stirs as Wegovy pill wins UK approval",
-      "url": "https://www.pharmaceutical-technology.com/news/novo-nordisk-comeback-stirs-as-wegovy-pill-wins-uk-approval/",
-      "summary": "There are already lengthy patient waitlists for the medication on digital health platforms.",
+      "id": "666c28ecdd",
+      "title": "Designing vial systems to meet the demands of complex biologics",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/designing-vial-systems-to-meet-the-demands-of-complex-biologics/",
+      "summary": "As biologics continue to transform the pharmaceutical landscape and drive the industry’s growth, the demands for high-performance vial systems are growing.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-12T10:55:31+00:00",
-      "pub_ts": 1781261731
+      "pub_date": "2026-06-15T08:59:09+00:00",
+      "pub_ts": 1781513949
     },
     {
-      "id": "694331a5fb",
-      "title": "Peptide drug conjugates: How the Indena and Chemi partnership is delivering",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/peptide-drug-conjugates-how-the-indena-and-chemi-partnership-is-delivering/",
-      "summary": "Peptide drug conjugates (PDCs) are attracting growing attention across the pharmaceutical sector as companies search for more specialised approaches to cancer treatment.",
+      "id": "24eb711a09",
+      "title": "Choosing a drug development partner in 2026: A practical selection framework",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/choosing-a-drug-development-partner-in-2026-a-practical-selection-framework/",
+      "summary": "",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-12T10:02:10+00:00",
-      "pub_ts": 1781258530
+      "pub_date": "2026-06-15T08:35:47+00:00",
+      "pub_ts": 1781512547
     }
   ],
   "source_success_count": 1,

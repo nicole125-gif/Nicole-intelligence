@@ -3,108 +3,128 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-06-15T05:05:26.782478+00:00",
-  "item_count": 15,
+  "updated_at": "2026-06-16T05:08:29.275399+00:00",
+  "item_count": 13,
   "items": [
     {
-      "id": "8417343180",
-      "title": "车规芯片涨价，新能源汽车开吃AI的苦",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813199&idx=1&sn=71f12f13113dfbde53057d231892d780",
-      "summary": "车规芯片涨价，新能源汽车开吃AI的苦",
+      "id": "c81062686d",
+      "title": "中国RISC-V，百花齐放",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813251&idx=1&sn=cbd38e4adf143552d47f8d80bf23de63",
+      "summary": "中国RISC-V，百花齐放",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-15T05:05:23.545000+00:00",
-      "pub_ts": 1781499923
+      "pub_date": "2026-06-16T05:08:26.041893+00:00",
+      "pub_ts": 1781586506
     },
     {
-      "id": "dcf698a1c6",
-      "title": "江丰电子正建设韩国先进制程靶材生产基地",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813199&idx=2&sn=56c10888b1fcda0557afe26d9b96b444",
-      "summary": "江丰电子正建设韩国先进制程靶材生产基地",
+      "id": "e999d5a335",
+      "title": "300mm硅中介层，迎来质变",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813251&idx=2&sn=ae1987a3e84b7b979c5453958b68640f",
+      "summary": "300mm硅中介层，迎来质变",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-15T05:05:23.545049+00:00",
-      "pub_ts": 1781499923
+      "pub_date": "2026-06-16T05:08:26.041938+00:00",
+      "pub_ts": 1781586506
     },
     {
-      "id": "752c7684cd",
-      "title": "400层NAND，开启竞速赛",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813199&idx=3&sn=e2b4a25555b723f354994061e8ebc92f",
-      "summary": "400层NAND，开启竞速赛",
+      "id": "dd7c2387db",
+      "title": "MWC26上海Ⅰ倒计时冲刺！三天高光全解锁+MobileAI资本论坛深度揭秘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813251&idx=3&sn=ee8947b25ded3f6b1533056a9b63aeaf",
+      "summary": "MWC26上海Ⅰ倒计时冲刺！三天高光全解锁+MobileAI资本论坛深度揭秘",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-15T05:05:23.545076+00:00",
-      "pub_ts": 1781499923
+      "pub_date": "2026-06-16T05:08:26.041961+00:00",
+      "pub_ts": 1781586506
     },
     {
-      "id": "62915af034",
-      "title": "叠高度与缩时间：与韬定律殊途同归的一项芯片黑科技",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813199&idx=4&sn=64efe4fcc8ed979c21016dfa13e2b0e1",
-      "summary": "叠高度与缩时间：与韬定律殊途同归的一项芯片黑科技",
+      "id": "cfdba3c8f2",
+      "title": "台厂AI供应链狂飙，多家企业增速破百",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813251&idx=4&sn=a46aa2eb8b2262eb72f6f2d34275c13e",
+      "summary": "台厂AI供应链狂飙，多家企业增速破百",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-15T05:05:23.545098+00:00",
-      "pub_ts": 1781499923
+      "pub_date": "2026-06-16T05:08:26.041982+00:00",
+      "pub_ts": 1781586506
     },
     {
-      "id": "29ddc630d5",
-      "title": "铜线没死，黄仁勋先动了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813199&idx=5&sn=6be03a97a5f105843bec11830597f507",
-      "summary": "铜线没死，黄仁勋先动了",
+      "id": "ef1e601d92",
+      "title": "我国攻克硅基量子芯片关键材料",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813251&idx=5&sn=ba8aec17cfb122918b0578653d051c42",
+      "summary": "我国攻克硅基量子芯片关键材料",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-15T05:05:23.545119+00:00",
-      "pub_ts": 1781499923
+      "pub_date": "2026-06-16T05:08:26.042005+00:00",
+      "pub_ts": 1781586506
     },
     {
-      "id": "16c2455218",
-      "title": "台积电，疯狂建厂",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822502&idx=1&sn=8e64d3854fd2d1c04078fa3b22b959a9",
-      "summary": "台积电，疯狂建厂",
+      "id": "69aae6bd4c",
+      "title": "刚刚，粤芯半导体过会",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822738&idx=1&sn=255cad6f94fa6bd7f0c9e7932f857304",
+      "summary": "刚刚，粤芯半导体过会",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-15T05:05:14.631086+00:00",
-      "pub_ts": 1781499914
+      "pub_date": "2026-06-16T05:08:15.509336+00:00",
+      "pub_ts": 1781586495
     },
     {
-      "id": "6b90a857ba",
-      "title": "六氟化钨，是什么？",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822502&idx=2&sn=676241d220fa7a57bbcc0aa473789b60",
-      "summary": "六氟化钨，是什么？",
+      "id": "b3a999bda7",
+      "title": "刚刚，燧原科技过会",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822730&idx=1&sn=1a0e5265adef57c93feaf69be4ebc8f5",
+      "summary": "刚刚，燧原科技过会",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-15T05:05:14.631143+00:00",
-      "pub_ts": 1781499914
+      "pub_date": "2026-06-16T05:08:15.509392+00:00",
+      "pub_ts": 1781586495
     },
     {
-      "id": "019326afee",
-      "title": "芯片设备商，太难了",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822502&idx=3&sn=be323dca8cf72b70d181063b88cb3046",
-      "summary": "芯片设备商，太难了",
+      "id": "0d14a2230b",
+      "title": "安森美宣布：何茂军出任中国区总经理",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822693&idx=1&sn=5cf7778d246b618b7dc78acde60cd922",
+      "summary": "安森美宣布：何茂军出任中国区总经理",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-15T05:05:14.631167+00:00",
-      "pub_ts": 1781499914
+      "pub_date": "2026-06-16T05:08:15.509417+00:00",
+      "pub_ts": 1781586495
     },
     {
-      "id": "9ccf959e40",
-      "title": "这个小国的芯片实力，被低估了",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822502&idx=4&sn=1b97d274dcf9fdc137b3d32a52c73216",
-      "summary": "这个小国的芯片实力，被低估了",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-06-15T05:05:14.631188+00:00",
-      "pub_ts": 1781499914
+      "id": "9430b7a27f",
+      "title": "Modeling Multi-GPU Traffic For Distributed AI Workloads (UW Madison, AMD)",
+      "url": "https://semiengineering.com/modeling-multi-gpu-traffic-for-distributed-ai-workloads-uw-madison-amd/",
+      "summary": "Researchers from University of Wisconsin-Madison and AMD Research and Advanced Development published a technical paper titled “Eidola: Modeling Multi-GPU Network Communication Traffic in Distributed AI Workloads.” Abstract: “As distributed AI workloads grow in scale, multi-GPU systems have become es…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-06-16T00:30:59+00:00",
+      "pub_ts": 1781569859
     },
     {
-      "id": "952656ac53",
-      "title": "韩国芯片的新困境：挣太多钱了",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822502&idx=5&sn=e3ae4de416a913a64009b30bcb2e0949",
-      "summary": "韩国芯片的新困境：挣太多钱了",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-06-15T05:05:14.631209+00:00",
-      "pub_ts": 1781499914
+      "id": "ea2d72ef7a",
+      "title": "Physical Neural Networks: A Survey (U. of Lübeck, TU Hamburg)",
+      "url": "https://semiengineering.com/physical-neural-networks-a-survey-u-of-lubeck-tu-hamburg/",
+      "summary": "Researchers from the University of Lübeck and TU Hamburg published a technical paper titled “Beyond Silicon: Materials, Mechanisms, and Methods for Physical Neural Computing.” Abstract: “Physical implementations of neural computation now extend far beyond silicon hardware, encompassing substrates su…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-06-15T22:07:27+00:00",
+      "pub_ts": 1781561247
+    },
+    {
+      "id": "15bfe52dbb",
+      "title": "Wi-Fi Flies Higher As Edge AI Build-Out Takes Root",
+      "url": "https://semiengineering.com/wi-fi-flies-higher-as-edge-ai-build-out-takes-root/",
+      "summary": "Chip and system designers scramble to leverage existing and future standards as edge AI increases demand for faster data movement and greater reliability.\nThe post Wi-Fi Flies Higher As Edge AI Build-Out Takes Root appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-06-15T07:01:50+00:00",
+      "pub_ts": 1781506910
+    },
+    {
+      "id": "2851cef0b7",
+      "title": "Research Bits: June 15",
+      "url": "https://semiengineering.com/research-bits-june-15/",
+      "summary": "NAND in space; integrated photonic functions on silicon; light-emitting organic transistor with memory.\nThe post Research Bits: June 15 appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-06-15T07:01:24+00:00",
+      "pub_ts": 1781506884
     },
     {
       "id": "e48c3e0c87",
@@ -115,46 +135,6 @@
       "lang": "en",
       "pub_date": "2026-06-15T03:21:37+00:00",
       "pub_ts": 1781493697
-    },
-    {
-      "id": "e302e30a79",
-      "title": "Cross-Validated Timing Analysis for Automotive CAN Networks (NYCU et al.)",
-      "url": "https://semiengineering.com/cross-validated-timing-analysis-for-automotive-can-networks-nycu-et-al/",
-      "summary": "Researchers from National Yang Ming Chiao Tung University (NYCU) and Chung Yuan Christian University have published “A Cross-Validated DSPN and Worst-Case Response-Time Framework for Timing Analysis of Automotive CAN Networks”. Abstract “Controller Area Network (CAN) remains a key in-vehicle communi…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-06-12T20:07:47+00:00",
-      "pub_ts": 1781294867
-    },
-    {
-      "id": "a5d93e2851",
-      "title": "Optimizing EUV Source Efficiency With Radiation-Hydrodynamic Simulations (U. Of Osaka et al.)",
-      "url": "https://semiengineering.com/optimizing-euv-source-efficiency-with-radiation-hydrodynamic-simulations-u-of-osaka-et-al/",
-      "summary": "Researchers from The University of Osaka, National Institute for Fusion Science, National Institutes for Quantum Science and Technology, and Osaka Metropolitan University, et al. have published “Optimization of EUV output by experimentally validated radiation-hydrodynamic simulations across a broad …",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-06-12T18:51:41+00:00",
-      "pub_ts": 1781290301
-    },
-    {
-      "id": "926a94a0e3",
-      "title": "Refining Vision-Language Models For Lithography Defect Detection",
-      "url": "https://semiengineering.com/refining-vision-language-models-for-lithography-defect-detection/",
-      "summary": "Researchers from Hanyang University, Korea University, and Korea Institute of Industrial Technology have published “Failure-Aware Refinement of Vision-Language Model for Lithography Defect Detection”. Abstract “Semiconductor lithography inspection requires reliable detection of small pattern defects…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-06-12T18:37:45+00:00",
-      "pub_ts": 1781289465
-    },
-    {
-      "id": "5f3c6784b7",
-      "title": "Boosting EUV Conversion Efficiency With 2-Micron Dual-Beam Laser Irradiation",
-      "url": "https://semiengineering.com/boosting-euv-conversion-efficiency-with-dual-beam-2-%c2%b5m-laser-irradiation/",
-      "summary": "Researchers from Utsunomiya University, RIKEN, The University of Tokyo, and Tohoku University, et al. have published “40% boost in extreme ultraviolet conversion efficiency via simultaneous dual-beam 2-µm laser irradiation”. Abstract “Scaling extreme ultraviolet (EUV) source power for next-generatio…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-06-12T18:24:28+00:00",
-      "pub_ts": 1781288668
     }
   ],
   "source_success_count": 3,
