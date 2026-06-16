@@ -14,7 +14,7 @@
 
 | 洞 | 内容 | 状态 |
 |---|---|---|
-| **A 赢面轴** | rank_score 加 winnability 第四因子 | ✅ **v1 已实现**（绿地无在位 + 竞品密度，工况级）；渠道/spec 维度卡 spec 位=v2 |
+| **A 赢面轴** | rank_score 加 winnability 第四因子 | ✅ **v1 + spec 位**（绿地无在位 + 竞品密度 + O2 spec 位，业主即 OEM 时生效）；渠道/account-size 维度=后续 |
 | **B event_type** | 新建为主，MRO/OEM设计导入作侧流标签 | 已降级，记着 |
 | **C est_value 分档** | 大/中/小代替假精度的"元"数字 | **设计完，待实现（P0 首选）** |
 | **D 行动层闭环** | 路由(区域×行业×OEM具名) + 线索卡 + SLA + 处置标签回流 | 设计透，**未实现** |
@@ -38,7 +38,7 @@
 
 ### 2. winnability 赢面轴 + 处置闭环（同飞轮）
 - ✅ **赢面 v1 已实现**（2026-06-10）：`engine/winnability.py`，rank_score 第四因子 = 绿地无在位 + 竞品密度（工况级 `competitor_density` 配在 esg_conditions.yml）。效果：锂电/橡塑(国产友好)升，技改棕地/Gemü主场降。
-- **赢面 v2（待办）**：① 渠道触达/spec 位维度（**卡 spec 位未知 + 客户档案匹配**，接 `p4_opportunity_map.yml`）；② 工况粒度——当前"卫生级/制药"一刀切 `竞品high`，但**生物合成/发酵**实际国产友好（甜点区被误降），需拆独立工况给低密度。
+- **赢面 v2（部分完成）**：① ✅ spec 位维度已接（O2 切片 A，业主即 OEM 时生效）；渠道触达/account-size 维度仍待；② 工况粒度——当前"卫生级/制药"一刀切 `竞品high`，但**生物合成/发酵**实际国产友好（甜点区被误降），需拆独立工况给低密度。
 - **处置闭环（待办）**：线索卡 → 周会回标签(跟进中/赢/输/忽略/无效+原因) → 喂赢面表/指标树/管理视图——这才让赢面阈值可校准。
 
 ### 3. 补 L0/L2 源（修感知层）
@@ -79,11 +79,13 @@
 - **verify ✅**：别名+后缀变体收敛同 id（楚天科技股份有限公司=楚天=truking）；未登记业主拿稳定 auto-id；OEM/Competitor 经 `get()` 独立寻址；36 测试全过。
 - **留给后续**：短名↔全称模糊匹配、统一信用代码、auto 实体人工提升进 registry；富属性（products/capex）走 O4 合并。
 
-### O2. 建图：补承重 Link，先解 spec 位
+### O2. 建图：补承重 Link，先解 spec 位 — 🟡 切片 A 已完成 2026-06-16
 - **症结**：事件是扁平记录，几乎无边。Palantir 威力在图遍历。
 - **关键边**：`Event→Company`、`Company→OEM(供货)`、`OEM→ESG(spec位:进/没进)`、`Competitor→Site(在位于)`、`Disposition→Event`、`Company→Region`。
 - **spec 位重判**：头号挂起不是「待问的事实」，是 `ESG—has-spec-position→{楚天/森松/东富龙}` 这条**承重边缺失**——整张图拓扑挂在它上。**当成「补一条边」来解。**
-- **verify**：能从一个 Event 沿边走到「该业主的 OEM 及其 ESG spec 位」。
+- **✅ 切片 A（业主即装备商）**（2026-06-16，Nicole 确认 spec 位后）：`config/entities.yml` 三 OEM 加 `spec_position`——**东富龙 `in`、楚天/森松 `target`**。`build.py` 当 `owner` 解析为某 OEM 实体（O1）时沿 owner→OEM 边取 spec 位，喂 `winnability.assess`（in +0.2 顺风 / target −0.1 需 design-in）并分流 action（in→「盯订单簿/扩产」；target→「主推设计导入」）。event 加 `spec_position` 字段。43 测试全过（+5）。实测:东富龙扩产 win 0.5 > 通用 0.3 > 楚天 0.2。
+- **⏭ 切片 B（待办）**：从 headline **具名识别买方 OEM**（终端业主用谁的设备），把 Event 挂到具体 OEM 实例——才能对「非 OEM 自建、但用东富龙设备」的事件也沿边走到 spec 位。多数 event 不点名 OEM（抽不出），按 ROI 后置。
+- **verify**：能从一个 Event 沿边走到「该业主的 OEM 及其 ESG spec 位」——切片 A 已对「业主即 OEM」成立。
 
 ### O3. 合上动能闭环：处置写回 → 喂 winnability
 - **症结**：处置现在是死写（存 KV，无人读回），是日记不是状态转移。闭环开着 → 价值锁死（决策15 先采集后消费）。
@@ -105,10 +107,10 @@
 
 ## 阻塞 / 依赖
 
-- **⏸ 头号挂起（等用户 Nicole 确认）**：**ESG 有没有进楚天/森松/东富龙的标准 BOM（spec 位）？**
-  - 已进 → P1#4 装备商订单簿立刻有用，它们出海=ESG顺风；
-  - 没进 → 制药第一优先级变成"先拿下设计导入"，否则其扩产/出海全便宜 Gemü。
-  - **不要替用户假设。**
+- **✅ 头号挂起已解（2026-06-16 Nicole 确认）**：**ESG 只进了东富龙的标准 BOM；楚天/森松未进。**
+  - 东富龙（已进）→ P1#4 盯其订单簿/扩产即顺风；O2 切片 A 已据此建实边。
+  - 楚天/森松（未进）→ 第一优先级=先拿下设计导入（design-in），否则其扩产/出海全便宜 Gemü。
+  - 已写入 O2 切片 A（`spec_position`）+ 项目记忆 `esg-spec-position.md`。
 - **死源**（见 ARCHITECTURE §4）：现仅 cninfo（L1）跑通，缺 L0/L2。
 - **本机 py3.14 缺依赖**：`pip install requests beautifulsoup4`（CI 环境具备）。
 
