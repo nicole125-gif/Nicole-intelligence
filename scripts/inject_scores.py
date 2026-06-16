@@ -237,6 +237,9 @@ def inject_scores(
     # ── 1. 板块级 (BM) ──
     SECTOR_FIELDS = ["heat", "tr", "D", "C", "P", "Pol", "sum", "sumAlert", "insight"]
     for key, vals in scores.get("sectors", {}).items():
+        if vals.get("review_flag") in {"stale", "needs_review"} or vals.get("accepted") is False:
+            print(f"  [SKIP] BM.{key} blocked by review_flag={vals.get('review_flag')}")
+            continue
         for field, new_val in vals.items():
             if field not in SECTOR_FIELDS:
                 continue
@@ -250,6 +253,9 @@ def inject_scores(
     # ── 2. 子赛道级 (T) ──
     TRACK_FIELDS = ["heat", "tr", "delta", "D", "C", "P", "Pol", "tw", "act"]
     for key, vals in scores.get("tracks", {}).items():
+        if vals.get("review_flag") in {"stale", "needs_review"} or vals.get("accepted") is False:
+            print(f"  [SKIP] T.{key} blocked by review_flag={vals.get('review_flag')}")
+            continue
         for field, new_val in vals.items():
             if field == "data":
                 # data 是数组，特殊处理

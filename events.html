@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>研判信箱 · ESG Intelligence Queue</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&family=Syne:wght@500;600;700;800&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/core.css">
+<style>
+/* ── 研判信箱 · INTELLIGENCE QUEUE ──────────────────────────
+   情报指挥台：事件中心引擎产出的 Capex 线索队列。
+   沿用 PULSE 工业精密美学，accent 用 ESG 信号绿。 */
+:root{
+  --accent:      #2ee6a6;
+  --accent-dim:  rgba(46,230,166,.10);
+  --accent-glow: rgba(46,230,166,.30);
+  /* 提前量层级色 */
+  --l0:#ff4d4d; --l1:#3d94ff; --l2:#6a7a92;
+  /* 工况色 */
+  --c-hyg:#2ee6a6; --c-li:#3d94ff; --c-rub:#ff8c42; --c-heavy:#ffd24a; --c-pha:#c887e8;
+  --cjk:'Noto Sans SC',sans-serif;
+}
+body{
+  background:
+    radial-gradient(circle at 16% -4%,rgba(46,230,166,.10),transparent 30%),
+    radial-gradient(circle at 88% 8%,rgba(61,148,255,.06),transparent 28%),
+    #020810;
+  color:var(--text); font-family:var(--display);
+  padding-top:0; min-height:100vh;
+}
+
+/* ── 顶栏 ── */
+.topbar{
+  position:sticky; top:0; z-index:50;
+  display:flex; align-items:center; gap:18px;
+  padding:16px var(--page-px);
+  background:rgba(2,6,16,.82); backdrop-filter:blur(22px) saturate(150%);
+  border-bottom:1px solid var(--border2);
+}
+.topbar .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);
+  box-shadow:0 0 12px var(--accent-glow); animation:blink 2.4s ease-in-out infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+.brand{font-family:var(--mono);font-size:12px;font-weight:700;letter-spacing:.24em;color:var(--text)}
+.brand small{color:var(--text3);font-weight:400;letter-spacing:.18em}
+.topbar .meta{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--text3);letter-spacing:.1em}
+.topbar .meta b{color:var(--accent);font-weight:600}
+
+/* ── 头部 ── */
+.head{padding:48px var(--page-px) 28px;max-width:var(--max-w);margin:0 auto}
+.head h1{font-family:var(--display);font-weight:800;font-size:clamp(34px,6vw,60px);
+  line-height:.98;letter-spacing:-.02em;color:var(--text)}
+.head h1 .en{display:block;font-family:var(--mono);font-weight:400;font-size:13px;
+  letter-spacing:.4em;color:var(--accent);margin-bottom:14px;text-transform:uppercase}
+.head .sub{margin-top:16px;max-width:620px;font-family:var(--cjk);font-size:14px;
+  line-height:1.7;color:var(--text2)}
+
+/* ── 统计带 ── */
+.stats{display:flex;flex-wrap:wrap;gap:1px;margin-top:30px;
+  background:var(--border);border:1px solid var(--border);border-radius:3px;overflow:hidden}
+.stat{flex:1;min-width:120px;padding:16px 18px;background:var(--bg-card)}
+.stat .k{font-family:var(--mono);font-size:10px;letter-spacing:.16em;color:var(--text3);text-transform:uppercase}
+.stat .v{font-family:var(--display);font-weight:700;font-size:26px;color:var(--text);margin-top:6px;line-height:1}
+.stat .v small{font-size:12px;color:var(--text3);font-weight:400}
+.stat.l0 .v{color:var(--l0)} .stat.big .v{color:var(--accent)}
+
+/* ── 过滤栏 ── */
+.filters{position:sticky;top:53px;z-index:40;max-width:var(--max-w);margin:24px auto 0;
+  padding:14px var(--page-px);display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center;
+  background:rgba(2,6,16,.72);backdrop-filter:blur(14px);border-top:1px solid var(--border);
+  border-bottom:1px solid var(--border)}
+.fgroup{display:flex;align-items:center;gap:8px}
+.flabel{font-family:var(--mono);font-size:10px;letter-spacing:.16em;color:var(--text3);text-transform:uppercase;margin-right:2px}
+.chip{font-family:var(--mono);font-size:11px;letter-spacing:.05em;color:var(--text2);
+  padding:5px 12px;border:1px solid var(--border2);border-radius:100px;cursor:pointer;
+  background:transparent;transition:all .18s ease;white-space:nowrap}
+.chip:hover{border-color:var(--border3);color:var(--text)}
+.chip.on{background:var(--accent-dim);border-color:var(--accent);color:var(--accent)}
+
+/* ── 队列 ── */
+.queue{max-width:var(--max-w);margin:0 auto;padding:30px var(--page-px) 90px;
+  display:flex;flex-direction:column;gap:14px}
+.empty{padding:80px 0;text-align:center;font-family:var(--mono);color:var(--text3);font-size:13px;letter-spacing:.1em}
+
+/* ── 线索卡 ── */
+.card{position:relative;display:grid;grid-template-columns:56px 1fr;gap:0;
+  background:var(--bg-card);border:1px solid var(--border2);border-radius:4px;
+  overflow:hidden;opacity:0;transform:translateY(14px);
+  animation:rise .5s cubic-bezier(.2,.7,.3,1) forwards;transition:border-color .2s,transform .2s,box-shadow .2s}
+@keyframes rise{to{opacity:1;transform:none}}
+.card:hover{border-color:var(--border3);transform:translateY(-2px);box-shadow:0 14px 40px -18px rgba(0,0,0,.7)}
+.card.flag-unresolved,.card.flag-stale{opacity:.66}
+.card.flag-unresolved:hover,.card.flag-stale:hover{opacity:1}
+
+/* rank 槽 */
+.gutter{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;
+  padding:16px 0;background:rgba(0,0,0,.22);border-right:1px solid var(--border)}
+.gutter .rk{font-family:var(--mono);font-size:11px;color:var(--text3);letter-spacing:.05em}
+.gutter .sc{font-family:var(--display);font-weight:800;font-size:19px;color:var(--accent);margin-top:3px;letter-spacing:-.02em}
+.gutter .lt{margin-top:auto;writing-mode:vertical-rl;font-family:var(--mono);font-size:9px;
+  letter-spacing:.2em;padding-top:10px;text-transform:uppercase}
+.lt.L0{color:var(--l0)} .lt.L1{color:var(--l1)} .lt.L2{color:var(--l2)}
+
+.body{padding:16px 20px 15px;min-width:0}
+.row1{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:11px}
+.badge{font-family:var(--mono);font-size:10px;letter-spacing:.08em;padding:3px 9px;border-radius:3px;
+  border:1px solid var(--border2);color:var(--text2);white-space:nowrap}
+.badge.lead.L0{color:var(--l0);border-color:rgba(255,77,77,.4);background:rgba(255,77,77,.07)}
+.badge.lead.L1{color:var(--l1);border-color:rgba(61,148,255,.4);background:rgba(61,148,255,.07)}
+.badge.lead.L2{color:var(--l2);border-color:rgba(106,122,146,.4);background:rgba(106,122,146,.07)}
+.badge.band{font-weight:600}
+.badge.band.big{color:#041;background:var(--accent);border-color:var(--accent)}
+.badge.band.mid{color:var(--accent);border-color:var(--accent)}
+.badge.cond{padding-left:18px;position:relative}
+.badge.cond::before{content:'';position:absolute;left:8px;top:50%;transform:translateY(-50%);
+  width:6px;height:6px;border-radius:50%;background:var(--cc,var(--text3))}
+
+/* 赢面表 */
+.win{margin-left:auto;display:flex;align-items:center;gap:8px}
+.win .lab{font-family:var(--mono);font-size:9px;letter-spacing:.14em;color:var(--text3);text-transform:uppercase}
+.win .bar{width:62px;height:5px;border-radius:3px;background:rgba(255,255,255,.07);overflow:hidden}
+.win .fill{height:100%;border-radius:3px;background:linear-gradient(90deg,var(--l0),var(--accent))}
+.win .pct{font-family:var(--mono);font-size:11px;font-weight:600;color:var(--text)}
+
+.headline{font-family:var(--cjk);font-weight:500;font-size:16px;line-height:1.45;color:var(--text);
+  margin-bottom:12px;letter-spacing:.01em}
+
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.tag{font-family:var(--mono);font-size:10px;color:var(--text2);padding:2px 8px;
+  border:1px solid var(--border2);border-radius:3px;letter-spacing:.03em}
+.tag.valve{color:var(--accent);border-color:var(--accent-dim);background:var(--accent-dim)}
+
+.targetline{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px;
+  font-family:var(--cjk);font-size:13px}
+.targetline .owner{color:var(--text)}
+.targetline .arr{color:var(--text3);font-family:var(--mono)}
+.targetline .role{color:var(--accent)}
+.targetline .conf{font-family:var(--mono);font-size:10px;color:var(--text3)}
+
+.action{font-family:var(--cjk);font-size:13px;line-height:1.55;color:var(--text2);
+  padding:10px 14px;background:rgba(46,230,166,.04);border-left:2px solid var(--accent);border-radius:0 3px 3px 0}
+
+.foot{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-top:13px;
+  padding-top:11px;border-top:1px solid var(--border);font-family:var(--mono);font-size:10px;color:var(--text3);letter-spacing:.04em}
+.foot .val{color:var(--text2)}
+.foot a{margin-left:auto;color:var(--text3);text-decoration:none;display:inline-flex;align-items:center;gap:4px;
+  border:1px solid var(--border2);padding:4px 10px;border-radius:3px;transition:all .18s}
+.foot a:hover{color:var(--accent);border-color:var(--accent)}
+.foot .fdot{width:6px;height:6px;border-radius:50%;display:inline-block}
+.fdot.ok{background:var(--accent)} .fdot.needs_review{background:var(--fl)}
+.fdot.unresolved{background:var(--text3)} .fdot.stale{background:var(--dn)}
+
+/* ── 身份 · 区域 ── */
+.region{font-family:var(--mono);font-size:11px;color:var(--text);background:rgba(255,255,255,.04);
+  border:1px solid var(--border2);border-radius:100px;padding:5px 13px;width:104px;outline:none;transition:border-color .18s}
+.region:focus{border-color:var(--accent)}
+.region::placeholder{color:var(--text3)}
+.region.need{border-color:var(--l0);animation:shake .3s}
+@keyframes shake{25%{transform:translateX(-3px)}75%{transform:translateX(3px)}}
+
+/* 过滤 chip 组排版 */
+#f-cond,#f-lead,#f-disp{display:inline-flex;flex-wrap:wrap;gap:7px;vertical-align:middle}
+
+/* ── 处置控件 ── */
+.disprow{display:flex;align-items:center;flex-wrap:wrap;gap:7px;margin-top:13px;
+  padding-top:12px;border-top:1px dashed var(--border2)}
+.dlabel{font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:var(--text3);text-transform:uppercase;margin-right:2px}
+.dbtn{font-family:var(--cjk);font-size:12px;color:var(--text2);background:transparent;
+  border:1px solid var(--border2);border-radius:4px;padding:4px 11px;cursor:pointer;transition:all .15s}
+.dbtn:hover{border-color:var(--border3);color:var(--text)}
+.dbtn.on{font-weight:600;border-color:transparent}
+.dbtn.on.d-follow{background:var(--l1);color:#021}
+.dbtn.on.d-win{background:var(--accent);color:#031}
+.dbtn.on.d-lose{background:var(--l0);color:#fff}
+.dbtn.on.d-skip{background:var(--text3);color:#021}
+.dbtn.on.d-void{background:#7a5cff;color:#fff}
+.dreason{flex:1;min-width:150px;font-family:var(--cjk);font-size:12px;color:var(--text);
+  background:rgba(255,255,255,.03);border:1px solid var(--border2);border-radius:4px;padding:5px 10px;outline:none;transition:border-color .15s}
+.dreason:focus{border-color:var(--accent)}
+.dreason.need{border-color:var(--l0)}
+.dreason::placeholder{color:var(--text3)}
+.dmeta{width:100%;font-family:var(--mono);font-size:10px;color:var(--text3);letter-spacing:.03em}
+.dmeta b{color:var(--text2)}
+
+/* 已处置卡左缘标记 */
+.card.marked::after{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--text3);z-index:2}
+.card.marked.d-win::after{background:var(--accent)}
+.card.marked.d-lose::after{background:var(--l0)}
+.card.marked.d-follow::after{background:var(--l1)}
+.card.marked.d-void::after{background:#7a5cff}
+.card.marked.d-skip{opacity:.6}
+
+@media(max-width:680px){
+  .card{grid-template-columns:44px 1fr}
+  .head h1{font-size:38px}
+  .win{margin-left:0;width:100%;justify-content:flex-start;margin-top:4px}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <span class="dot"></span>
+  <span class="brand">ESG 事件中心 <small>· INTELLIGENCE OS</small></span>
+  <span class="meta">QUEUE <b id="m-date">——</b> · <b id="m-total">0</b> 条线索</span>
+  <input id="region" class="region" placeholder="你的区域" autocomplete="off"
+    onchange="setRegion(this.value);this.classList.remove('need')">
+</div>
+
+<header class="head">
+  <h1><span class="en">Intelligence Queue · 研判信箱</span>该跟进的<br>Capex 线索队列</h1>
+  <p class="sub">事件中心引擎从招投标 / 募投 / 环评 / 优先审评捕捉会触发流体系统采购的 Capex 信号，按「价值 × 提前量 × 工况匹配 × 赢面」自排序。看完队首，心里有底。</p>
+  <div class="stats" id="stats"></div>
+</header>
+
+<div class="filters" id="filters">
+  <div class="fgroup"><span class="flabel">工况</span><span id="f-cond"></span></div>
+  <div class="fgroup"><span class="flabel">提前量</span><span id="f-lead"></span></div>
+  <div class="fgroup"><span class="flabel">处置</span><span id="f-disp"></span></div>
+</div>
+
+<main class="queue" id="queue">
+  <div class="empty">加载情报队列中…</div>
+</main>
+
+<script>
+const COND_COLOR={'卫生级工艺':'var(--c-hyg)','锂电注液':'var(--c-li)','橡塑硫化':'var(--c-rub)','重过程':'var(--c-heavy)','制药参照':'var(--c-pha)'};
+const LEAD_LABEL={L0:'即时 0-2月',L1:'短期 3-9月',L2:'长期 12-18月'};
+const BAND_CLASS={'大':'big','中':'mid','小':'','未知':''};
+const DISP_STATES=['跟进中','赢','输','忽略','无效'];
+const DISP_CLS={'跟进中':'d-follow','赢':'d-win','输':'d-lose','忽略':'d-skip','无效':'d-void'};
+const NEED_REASON=new Set(['输','无效']);
+let DATA=null, DISP={}, fCond='全部', fLead='全部', fDisp='全部';
+
+const wan=n=>n>=1e8?(n/1e8).toFixed(2)+'亿':n>=1e4?Math.round(n/1e4)+'万':n;
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const getRegion=()=>(localStorage.getItem('esg_region')||'').trim();
+const setRegion=v=>localStorage.setItem('esg_region',(v||'').trim());
+
+async function load(){
+  // 无 index：从今天往回找最近的事件文件
+  const today=new Date();
+  for(let i=0;i<12;i++){
+    const d=new Date(today); d.setDate(d.getDate()-i);
+    const ds=d.toISOString().slice(0,10);
+    try{
+      const r=await fetch(`data/events/${ds}.json?t=`+Date.now());
+      if(r.ok){DATA=await r.json(); DATA._date=ds; return ready();}
+    }catch(e){}
+  }
+  // 兜底：已知存在的文件
+  try{const r=await fetch('data/events/2026-06-10.json'); if(r.ok){DATA=await r.json();DATA._date='2026-06-10';return ready();}}catch(e){}
+  document.getElementById('queue').innerHTML='<div class="empty">未找到事件数据。请先运行 <code>python -m engine.run</code>。</div>';
+}
+
+async function ready(){
+  try{const r=await fetch('/api/dispositions?t='+Date.now()); if(r.ok) DISP=(await r.json())||{};}catch(e){DISP={};}
+  const ri=document.getElementById('region'); if(ri) ri.value=getRegion();
+  render();
+}
+
+const processed=()=>DATA?DATA.events.filter(e=>DISP[e.id]).length:0;
+
+function render(){
+  const s=DATA.summary;
+  document.getElementById('m-date').textContent=DATA._date||DATA.date;
+  document.getElementById('m-total').textContent=s.total;
+  const lt=s.by_lead_time||{}, done=processed();
+  document.getElementById('stats').innerHTML=[
+    {k:'总线索',v:s.total,c:''},
+    {k:'即时 L0',v:lt.L0||0,c:'l0'},
+    {k:'大档机会',v:(s.by_band||{})['大']||0,c:'big'},
+    {k:'可跟进 OK',v:s.ok,c:''},
+    {k:'待复核',v:(s.needs_review||0)+(s.unresolved||0),c:''},
+    {k:'已处置',v:done,c:'big'},
+    {k:'待处置',v:s.total-done,c:''},
+  ].map(x=>`<div class="stat ${x.c}"><div class="k">${x.k}</div><div class="v">${x.v}</div></div>`).join('');
+  const conds=['全部',...Object.keys(s.by_condition||{})];
+  document.getElementById('f-cond').innerHTML=conds.map(c=>
+    `<button class="chip ${c===fCond?'on':''}" onclick="setF('cond','${c}')">${c}${c!=='全部'?` <span style="opacity:.6">${s.by_condition[c]}</span>`:''}</button>`).join('');
+  document.getElementById('f-lead').innerHTML=['全部','L0','L1','L2'].map(l=>
+    `<button class="chip ${l===fLead?'on':''}" onclick="setF('lead','${l}')">${l==='全部'?'全部':LEAD_LABEL[l]}</button>`).join('');
+  document.getElementById('f-disp').innerHTML=['全部','待处置',...DISP_STATES].map(x=>
+    `<button class="chip ${x===fDisp?'on':''}" onclick="setF('disp','${x}')">${x}</button>`).join('');
+  renderQueue();
+}
+
+function setF(t,v){ if(t==='cond')fCond=v; else if(t==='lead')fLead=v; else fDisp=v; render(); }
+
+function renderQueue(){
+  let evs=DATA.events.filter(e=>{
+    const ds=DISP[e.id]?.status||'';
+    return (fCond==='全部'||(e.working_condition||[]).includes(fCond)) &&
+      (fLead==='全部'||e.lead_time.level===fLead) &&
+      (fDisp==='全部'||(fDisp==='待处置'?!ds:ds===fDisp));
+  });
+  const q=document.getElementById('queue');
+  if(!evs.length){q.innerHTML='<div class="empty">该过滤条件下无线索。</div>';return;}
+  q.innerHTML=evs.map((e,i)=>card(e,i)).join('');
+}
+
+function dispBlock(e){
+  const d=DISP[e.id], cur=d?.status||'';
+  const btns=DISP_STATES.map(s=>`<button class="dbtn ${cur===s?'on '+DISP_CLS[s]:''}" onclick="mark('${e.id}','${s}')">${s}</button>`).join('');
+  const ph=cur==='输'?'输给谁':cur==='无效'?'为何无效':'原因（选填）';
+  const meta=d?`<span class="dmeta">✓ <b>${esc(d.status)}</b>${d.owner?' · '+esc(d.owner):''}${d.reason?' · '+esc(d.reason):''}</span>`:'';
+  return `<div class="disprow" id="disp-${esc(e.id)}">
+    <span class="dlabel">处置</span>${btns}
+    <input class="dreason" id="rsn-${esc(e.id)}" placeholder="${ph}" value="${esc(d?.reason||'')}">
+    ${meta}
+  </div>`;
+}
+
+function card(e,i){
+  const lv=e.lead_time.level;
+  const band=e.value_band?.band||'未知';
+  const win=e.winnability?.score??0.5;
+  const ev=e.est_value||{};
+  const valTxt=ev.status==='model_estimate'?`阀门预算约 ${wan(ev.low)}–${wan(ev.high)}元`:`估值 ${band}`;
+  const owner=e.owner?.name||'业主待解析';
+  const role=e.buyer_role?.inferred||'目标买方';
+  const conf=e.buyer_role?.confidence!=null?`置信 ${e.buyer_role.confidence}`:'';
+  const valves=(e.valve_type?.primary||[]).slice(0,3).map(v=>`<span class="tag valve">${v}</span>`).join('');
+  const conds=(e.working_condition||[]).map(c=>`<span class="badge cond" style="--cc:${COND_COLOR[c]||'var(--text3)'}">${c}</span>`).join('');
+  const src=e.source||{};
+  const d=DISP[e.id], mark=d?` marked ${DISP_CLS[d.status]}`:'';
+  return `
+  <article class="card flag-${e.review_flag}${mark}" style="animation-delay:${Math.min(i*40,600)}ms">
+    <div class="gutter">
+      <span class="rk">#${i+1}</span>
+      <span class="sc">${(e.rank_score||0).toFixed(2)}</span>
+      <span class="lt ${lv}">${lv}</span>
+    </div>
+    <div class="body">
+      <div class="row1">
+        <span class="badge lead ${lv}">${LEAD_LABEL[lv]||lv}</span>
+        <span class="badge band ${BAND_CLASS[band]}">${band}档</span>
+        ${conds}
+        <span class="win">
+          <span class="lab">赢面</span>
+          <span class="bar"><span class="fill" style="width:${Math.round(win*100)}%"></span></span>
+          <span class="pct">${win.toFixed(2)}</span>
+        </span>
+      </div>
+      <div class="headline">${e.headline||''}</div>
+      ${valves?`<div class="tags">${valves}</div>`:''}
+      <div class="targetline">
+        <span class="owner">${owner}</span><span class="arr">→</span><span class="role">${role}</span>
+        ${conf?`<span class="conf">${conf}</span>`:''}
+      </div>
+      <div class="action">${e.action||''}</div>
+      <div class="foot">
+        <span>${LEAD_LABEL[lv]||''}</span>
+        <span class="val">${valTxt}</span>
+        <span>驱动 ${e.driver||'—'}</span>
+        <span><span class="fdot ${e.review_flag}"></span> ${e.review_flag}</span>
+        ${src.url?`<a href="${src.url}" target="_blank" rel="noopener">${src.name||'来源'} ↗</a>`:''}
+      </div>
+      ${dispBlock(e)}
+    </div>
+  </article>`;
+}
+
+async function mark(id,status){
+  const region=getRegion();
+  if(!region){const ri=document.getElementById('region');ri.classList.add('need');ri.focus();return;}
+  const rin=document.getElementById('rsn-'+id);
+  const reason=(rin?.value||'').trim();
+  if(NEED_REASON.has(status)&&!reason){rin.classList.add('need');rin.placeholder=status==='输'?'必填：输给谁':'必填：为何无效';rin.focus();return;}
+  const e=DATA.events.find(x=>x.id===id);
+  try{
+    const r=await fetch('/api/dispositions',{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({event_id:id,status,reason,owner:region,headline:e?.headline||'',date:DATA._date||DATA.date})});
+    if(!r.ok){const er=await r.json().catch(()=>({}));alert('保存失败：'+(er.error||r.status));return;}
+    DISP[id]=await r.json();
+    render();
+  }catch(err){alert('网络错误，未保存：'+err);}
+}
+
+load();
+</script>
+</body>
+</html>

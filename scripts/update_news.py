@@ -13,10 +13,44 @@ import re
 import json
 import hashlib
 import datetime
+import argparse
+import urllib.parse
+from collections import defaultdict
+from pathlib import Path
 import anthropic
 
 # ── 打分缓存 ──────────────────────────────────────────────────
 SCORE_CACHE_FILE = "data/score_cache.json"
+WEEKLY_DIR = Path("data/weekly")
+WATCHLIST_PATH = Path("data/watchlist.json")
+RSS_DIR = Path("data/rss")
+
+MACRO_TRACK_IDS = {"m1", "m2", "m3"}
+OFFICIAL_DOMAINS = (
+    "stats.gov.cn", "pbc.gov.cn", "sse.com.cn", "szse.cn",
+    "hkexnews.hk", "gov.cn", "ndrc.gov.cn", "miit.gov.cn",
+)
+STRONG_EVIDENCE_KEYWORDS = (
+    "公告", "财报", "年报", "季报", "业绩", "招标", "中标", "订单",
+    "扩产", "产能", "投资", "融资", "募资", "立项", "开工", "获批",
+    "PMI", "M2", "社融", "固定资产投资", "工业增加值", "CPI", "PPI",
+)
+BUSINESS_RELEVANCE_KEYWORDS = (
+    "阀", "流体", "流量", "控制", "自动化", "设备", "装备", "仪器",
+    "制药", "生物", "发酵", "纯化", "半导体", "晶圆", "液冷", "CDU",
+    "电解槽", "氢", "食品", "饮料", "质谱", "色谱", "测序", "IVD",
+)
+TRACK_VERTICALS = {
+    "m1": ["macro"], "m2": ["macro"], "m3": ["macro"],
+    "e1": ["ai_liquid_cooling"], "e2": ["semiconductor"],
+    "e3": ["hydrogen"], "e4": ["hydrogen"], "g1": ["semiconductor"],
+    "p1": ["pharma_equipment"], "p2": ["pharma_equipment"],
+    "p3": ["pharma_equipment"], "p4": ["pharma_equipment"],
+    "p5": ["pharma_equipment"], "l1": ["mass_spec"],
+    "l2": ["mass_spec"], "l3": ["mass_spec"],
+    "f1": ["food_beverage"], "f2": ["food_beverage"],
+    "f3": ["food_beverage"], "f4": ["food_beverage"],
+}
 
 def _load_score_cache():
     if os.path.exists(SCORE_CACHE_FILE):
@@ -169,7 +203,11 @@ def get_client():
     api_key = os.environ.get("CLAUDE_API_KEY") or os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
         return None
-    return anthropic.Anthropic(api_key=api_key, base_url="https://key.simpleai.com.cn")
+    return anthropic.Anthropic(
+        api_key=api_key,
+        base_url="https://key.simpleai.com.cn",
+        timeout=60.0,
+    )
 
 # ══════════════════════════════════════════════════════════════
 # 4. 历史数据 I/O
@@ -206,35 +244,209 @@ def get_prev_heat(history, track_id):
             return history[p][track_id]["heat"]
     return 50.0
 
+
+def domain_from_url(url: str) -> str:
+    try:
+        return urllib.parse.urlparse(url or "").netloc.lower().replace("www.", "")
+    except Exception:
+        return ""
+
+
+def normalize_event_key(item: dict) -> str:
+    title = re.sub(r"\s+", "", item.get("title", "").lower())
+    title = re.sub(r"[^\w\u4e00-\u9fff]", "", title)
+    url = item.get("url") or item.get("link") or ""
+    return domain_from_url(url) + ":" + title[:42]
+
+
+def evidence_text(item: dict) -> str:
+    return f"{item.get('title','')} {item.get('summary','')} {item.get('source','')}"
+
+
+def evidence_strength(item: dict) -> int:
+    text = evidence_text(item)
+    domain = item.get("domain") or domain_from_url(item.get("url") or item.get("link") or "")
+    if any(d in domain for d in OFFICIAL_DOMAINS):
+        return 3
+    if any(k in text for k in STRONG_EVIDENCE_KEYWORDS):
+        return 2
+    if item.get("evidence_type") == "brave_search":
+        return 1
+    return 1
+
+
+def dedupe_evidence(items: list[dict]) -> list[dict]:
+    seen = set()
+    deduped = []
+    for item in items:
+        if not item.get("title"):
+            continue
+        item = dict(item)
+        item["url"] = item.get("url") or item.get("link") or ""
+        item["domain"] = item.get("domain") or domain_from_url(item["url"])
+        item["strength"] = evidence_strength(item)
+        key = normalize_event_key(item)
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(item)
+    return deduped
+
+
+def load_rss_evidence_for_track(track: dict) -> list[dict]:
+    items = []
+    keywords = track.get("keywords", [])
+    for vertical in TRACK_VERTICALS.get(track["id"], []):
+        path = RSS_DIR / f"{vertical}.json"
+        if not path.exists():
+            continue
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except Exception as e:
+            print(f"  [WARN] 读取 RSS 缓存失败 {path}: {e}")
+            continue
+        for raw in data.get("items", []):
+            text = f"{raw.get('title','')} {raw.get('summary','')}"
+            if keywords and not any(k.lower() in text.lower() for k in keywords[:6]):
+                continue
+            items.append({
+                "title": raw.get("title", ""),
+                "summary": raw.get("summary", ""),
+                "url": raw.get("url", ""),
+                "source": raw.get("source", data.get("vertical_name", vertical)),
+                "pub_date": raw.get("pub_date", ""),
+                "evidence_type": "rss",
+                "vertical": vertical,
+            })
+    return items
+
+
+def collect_evidence_for_track(track: dict, brave_items: list[dict]) -> list[dict]:
+    return dedupe_evidence(load_rss_evidence_for_track(track) + brave_items)
+
+
+def assess_quality(track: dict, evidence: list[dict], heat: float, prev_heat: float) -> dict:
+    domains = {i.get("domain") or domain_from_url(i.get("url", "")) for i in evidence}
+    domains = {d for d in domains if d}
+    strong_count = sum(1 for i in evidence if i.get("strength", 0) >= 2)
+    official_count = sum(
+        1 for i in evidence
+        if any(d in (i.get("domain") or "") for d in OFFICIAL_DOMAINS)
+    )
+    evidence_count = len(evidence)
+    delta = round(heat - prev_heat, 1)
+    macro = track["id"] in MACRO_TRACK_IDS
+    forced_review = False
+    reasons = []
+
+    if macro:
+        if official_count >= 1 and len(domains) >= 2:
+            level, confidence, max_delta = "normal", 78, 8
+        elif official_count >= 1 or evidence_count >= 4:
+            level, confidence, max_delta = "low_confidence", 62, 4
+        else:
+            level, confidence, max_delta = "stale", 35, 0
+            reasons.append("macro_insufficient_official_sources")
+    elif evidence_count >= 12 and len(domains) >= 4 and strong_count >= 2:
+        level, confidence, max_delta = "high", 90, 10
+    elif evidence_count >= 8 and len(domains) >= 3 and strong_count >= 1:
+        level, confidence, max_delta = "normal", 76, 6
+    elif evidence_count >= 5 and len(domains) >= 2:
+        level, confidence, max_delta = "low_confidence", 58, 4
+    else:
+        level, confidence, max_delta = "stale", 30, 0
+        reasons.append("insufficient_evidence")
+
+    if evidence_count and len(domains) <= 1:
+        reasons.append("low_source_diversity")
+    if strong_count == 0 and not macro:
+        reasons.append("no_strong_evidence")
+    if max_delta and abs(delta) > max_delta:
+        forced_review = True
+        reasons.append(f"delta_exceeds_cap_{max_delta}")
+    if abs(delta) > 10:
+        forced_review = True
+        reasons.append("weekly_delta_over_10")
+
+    if level == "stale":
+        flag = "stale"
+        accepted = False
+    elif forced_review:
+        flag = "needs_review"
+        accepted = False
+    elif level == "low_confidence":
+        flag = "low_confidence"
+        accepted = True
+    else:
+        flag = "ok"
+        accepted = True
+
+    capped_heat = heat
+    if accepted and max_delta and abs(delta) > max_delta:
+        capped_heat = round(prev_heat + (max_delta if delta > 0 else -max_delta), 1)
+
+    return {
+        "accepted": accepted,
+        "quality_level": level,
+        "confidence_score": confidence,
+        "review_flag": flag,
+        "reasons": reasons,
+        "evidence_count": evidence_count,
+        "source_domain_count": len(domains),
+        "strong_evidence_count": strong_count,
+        "official_evidence_count": official_count,
+        "max_delta": max_delta,
+        "raw_heat": heat,
+        "accepted_heat": capped_heat,
+        "delta": round(capped_heat - prev_heat, 1),
+    }
+
+
+def evidence_pack(evidence: list[dict], limit: int = 20) -> list[dict]:
+    return [
+        {
+            "title": i.get("title", ""),
+            "url": i.get("url", ""),
+            "source": i.get("source", ""),
+            "domain": i.get("domain", ""),
+            "strength": i.get("strength", 0),
+            "type": i.get("evidence_type", ""),
+            "pub_date": i.get("pub_date", ""),
+        }
+        for i in evidence[:limit]
+    ]
+
 # ══════════════════════════════════════════════════════════════
 # 5. 新闻抓取
 # ══════════════════════════════════════════════════════════════
 def fetch_news_for_track(track, days=30):
-    import urllib.request, urllib.parse, json as _json
+    import requests
     items = []
     api_key = os.environ.get("BRAVE_API_KEY", "")
+    if not api_key:
+        print(f"  [WARN] 未配置 BRAVE_API_KEY，跳过 {track['id']} Brave Search")
+        return items
 
     for kw in track["keywords"][:5]:
         try:
-            params = urllib.parse.urlencode({"q": kw, "count": 8})
-            req = urllib.request.Request(
-                f"https://api.search.brave.com/res/v1/web/search?{params}",
-                headers={
-                    "Accept": "application/json",
-                    "X-Subscription-Token": api_key,
-                }
+            resp = requests.get(
+                "https://api.search.brave.com/res/v1/web/search",
+                params={"q": kw, "count": 8},
+                headers={"Accept": "application/json", "X-Subscription-Token": api_key},
+                timeout=15,
             )
-            with urllib.request.urlopen(req, timeout=15) as resp:
-                raw = resp.read()
-                if resp.info().get("Content-Encoding") == "gzip":
-                    import gzip as _gz
-                    raw = _gz.decompress(raw)
-                data = _json.loads(raw)
+            resp.raise_for_status()
+            data = resp.json()
             results = data.get("web", {}).get("results", data.get("results", []))
             for r in results:
+                url = r.get("url", "")
                 items.append({
                     "title":   r.get("title", "").strip(),
                     "summary": r.get("description", "")[:200],
+                    "url":     url,
+                    "source":  r.get("profile", {}).get("name") or domain_from_url(url) or "Brave Search",
+                    "domain":  domain_from_url(url),
+                    "evidence_type": "brave_search",
                 })
         except Exception as e:
             print(f"  [WARN] Brave 抓取失败 {kw}: {e}")
@@ -492,6 +704,116 @@ def calc_trend(heat, prev_heat):
     return "fl"
 
 
+def write_weekly_audit(today_str: str, audit: dict) -> Path:
+    WEEKLY_DIR.mkdir(parents=True, exist_ok=True)
+    path = WEEKLY_DIR / f"{today_str}.json"
+    path.write_text(json.dumps(audit, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"[OK] 每周审计包已保存 → {path}")
+    return path
+
+
+def load_watchlist() -> dict:
+    if WATCHLIST_PATH.exists():
+        try:
+            return json.loads(WATCHLIST_PATH.read_text(encoding="utf-8"))
+        except Exception:
+            return {"topics": {}}
+    return {"topics": {}}
+
+
+def save_watchlist(watchlist: dict) -> None:
+    WATCHLIST_PATH.parent.mkdir(parents=True, exist_ok=True)
+    WATCHLIST_PATH.write_text(json.dumps(watchlist, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"[OK] 新兴机会观察池已保存 → {WATCHLIST_PATH}")
+
+
+def known_track_hit(text: str) -> bool:
+    text_l = text.lower()
+    for track in TRACKS:
+        if any(k.lower() in text_l for k in track.get("keywords", [])[:6]):
+            return True
+    return False
+
+
+def business_relevance_score(text: str) -> int:
+    hits = sum(1 for k in BUSINESS_RELEVANCE_KEYWORDS if k.lower() in text.lower())
+    return min(100, hits * 18)
+
+
+def candidate_topic_name(text: str) -> str:
+    text = re.sub(r"<[^>]+>", "", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    for splitter in ("：", ":", "｜", "|", "-", "—"):
+        if splitter in text:
+            text = text.split(splitter)[0]
+            break
+    return text[:28]
+
+
+def discover_emerging_topics(all_evidence: list[dict], today_str: str) -> list[dict]:
+    buckets = defaultdict(list)
+    for item in dedupe_evidence(all_evidence):
+        text = evidence_text(item)
+        if known_track_hit(text):
+            continue
+        relevance = business_relevance_score(text)
+        if relevance < 45:
+            continue
+        name = candidate_topic_name(item.get("title", ""))
+        if len(name) < 6:
+            continue
+        buckets[name].append(item)
+
+    candidates = []
+    for name, items in buckets.items():
+        domains = {i.get("domain") or domain_from_url(i.get("url", "")) for i in items}
+        strong = sum(1 for i in items if i.get("strength", 0) >= 2)
+        relevance = max(business_relevance_score(evidence_text(i)) for i in items)
+        if len(items) < 3 or len([d for d in domains if d]) < 2:
+            continue
+        status = "candidate"
+        if len(items) >= 8 and strong >= 1 and relevance >= 70:
+            status = "watching"
+        candidates.append({
+            "topic": name,
+            "status": status,
+            "business_relevance": relevance,
+            "evidence_count": len(items),
+            "source_domain_count": len([d for d in domains if d]),
+            "strong_evidence_count": strong,
+            "first_seen": today_str,
+            "last_seen": today_str,
+            "evidence": evidence_pack(items, limit=8),
+            "promotion_note": "连续验证后再建议纳入正式赛道",
+        })
+    return sorted(candidates, key=lambda x: (x["status"] != "watching", -x["business_relevance"], -x["evidence_count"]))[:10]
+
+
+def update_watchlist(candidates: list[dict], today_str: str) -> dict:
+    watchlist = load_watchlist()
+    topics = watchlist.setdefault("topics", {})
+    for candidate in candidates:
+        key = hashlib.md5(candidate["topic"].encode()).hexdigest()[:12]
+        existing = topics.get(key, {})
+        seen_weeks = existing.get("seen_weeks", 0) + 1
+        status = candidate["status"]
+        if seen_weeks >= 3 and candidate["business_relevance"] >= 70:
+            status = "promote_ready"
+        elif seen_weeks >= 2:
+            status = "watching"
+        topics[key] = {
+            **existing,
+            **candidate,
+            "status": status,
+            "first_seen": existing.get("first_seen", candidate["first_seen"]),
+            "last_seen": today_str,
+            "seen_weeks": seen_weeks,
+        }
+    watchlist["updated_at"] = today_str
+    save_watchlist(watchlist)
+    return watchlist
+
+
 # ══════════════════════════════════════════════════════════════
 # 7. 制药装备行业动态
 # ══════════════════════════════════════════════════════════════
@@ -642,115 +964,197 @@ def inject_html(news_html, path):
 # ══════════════════════════════════════════════════════════════
 # 8. 主流程
 # ══════════════════════════════════════════════════════════════
-if __name__ == "__main__":
-    today     = datetime.date.today()
-    period    = today.strftime("%Y%m")
-    today_str = today.strftime("%Y-%m-%d")
-    print(f"=== PULSE 2026 开始更新 {today_str} ===")
 
-    client      = get_client()
+def build_scores_payload(today_str: str, board_heats: dict, results: dict) -> dict:
+    scores_payload = {"date": today_str, "sectors": {}, "tracks": {}}
+    for board, heat in board_heats.items():
+        tids = list(BOARD_WEIGHTS[board].keys())
+        if not any(results.get(t, {}).get("quality", {}).get("accepted") for t in tids):
+            continue
+        prev_heats = [results[t]["prev_heat"] for t in tids if t in results]
+        prev_board = round(sum(prev_heats) / len(prev_heats), 1) if prev_heats else 50
+        scores_payload["sectors"][board] = {
+            "heat": heat,
+            "tr": calc_trend(heat, prev_board),
+        }
+    for tid, r in results.items():
+        quality = r.get("quality", {})
+        if not quality.get("accepted"):
+            continue
+        entry = {
+            "heat": r["heat"],
+            "tr": r["trend"],
+            "delta": quality.get("delta", round(r["heat"] - r["prev_heat"], 1)),
+            "D": r["scores"]["D"],
+            "C": r["scores"]["C"],
+            "P": r["scores"]["P"],
+            "Pol": r["scores"]["Pol"],
+        }
+        if r["scores"].get("core_data"):
+            entry["data"] = [r["scores"]["core_data"]]
+        if r["scores"].get("comment"):
+            suffix = ""
+            if quality.get("review_flag") == "low_confidence":
+                suffix = "（低置信更新）"
+            entry["tw"] = r["scores"]["comment"] + suffix
+        if r["scores"].get("act"):
+            entry["act"] = r["scores"]["act"]
+        scores_payload["tracks"][tid] = entry
+    return scores_payload
+
+
+def build_audit(today_str: str, period: str, results: dict, board_heats: dict, watchlist: dict) -> dict:
+    return {
+        "date": today_str,
+        "period": period,
+        "summary": {
+            "track_count": len(results),
+            "accepted_count": sum(1 for r in results.values() if r.get("quality", {}).get("accepted")),
+            "stale_count": sum(1 for r in results.values() if r.get("quality", {}).get("review_flag") == "stale"),
+            "needs_review_count": sum(1 for r in results.values() if r.get("quality", {}).get("review_flag") == "needs_review"),
+            "low_confidence_count": sum(1 for r in results.values() if r.get("quality", {}).get("review_flag") == "low_confidence"),
+        },
+        "board_heats": board_heats,
+        "tracks": {
+            tid: {
+                "track_name": r.get("track_name"),
+                "board": r.get("board"),
+                "heat": r.get("heat"),
+                "raw_heat": r.get("raw_heat"),
+                "prev_heat": r.get("prev_heat"),
+                "trend": r.get("trend"),
+                "scores": r.get("scores"),
+                "quality": r.get("quality"),
+                "evidence_pack": evidence_pack(r.get("evidence", [])),
+            }
+            for tid, r in results.items()
+        },
+        "watchlist": watchlist,
+    }
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Weekly Nicole Intelligence heat score update")
+    parser.add_argument("--dry-run", action="store_true", help="only write audit/watchlist; do not inject html/history/pharma")
+    parser.add_argument("--skip-pharma", action="store_true", help="skip pharma news block update")
+    args = parser.parse_args()
+
+    today = datetime.date.today()
+    period = today.strftime("%Y%m")
+    today_str = today.strftime("%Y-%m-%d")
+    print(f"=== PULSE 2026 开始更新 {today_str}{' [DRY RUN]' if args.dry_run else ''} ===")
+
+    client = get_client()
     if client is None:
         print("[WARN] 未配置 CLAUDE_API_KEY/ANTHROPIC_API_KEY，Heat 打分将跳过")
-    history     = load_history()
-    results     = {}
+    history = load_history()
+    results = {}
     score_cache = _load_score_cache()
+    all_evidence = []
 
-    # ── Step 1：子赛道打分 ──────────────────────────────────
+    # ── Step 1：子赛道打分 + 质量门槛 ───────────────────────
     print("\n--- Heat Score 打分 ---")
     for track in TRACKS:
-        print(f"  处理: {track['id']}")
-        news = fetch_news_for_track(track)
+        print(f"  处理: {track['id']} {track['name']}")
+        brave_news = fetch_news_for_track(track)
+        evidence = collect_evidence_for_track(track, brave_news)
+        all_evidence.extend(evidence)
+        print(
+            f"  [EVIDENCE] {len(evidence)} 条，"
+            f"{len({i.get('domain') for i in evidence if i.get('domain')})} 个域名，"
+            f"强证据 {sum(1 for i in evidence if i.get('strength', 0) >= 2)} 条"
+        )
 
-        # 生成缓存 key
-        news_str  = "".join(i["title"] for i in news[:12])
+        news_str = "".join(i["title"] for i in evidence[:20])
         cache_key = hashlib.md5((track["id"] + news_str).encode()).hexdigest()
 
         if cache_key in score_cache:
             print(f"  [CACHE] {track['id']} 命中缓存，跳过打分")
             scores = score_cache[cache_key]
         else:
-            scores = score_track(client, track, news)
+            scores = score_track(client, track, evidence)
             score_cache[cache_key] = scores
-            _save_score_cache(score_cache)
+            if not args.dry_run:
+                _save_score_cache(score_cache)
 
-        heat  = calc_heat(scores)
-        prev  = get_prev_heat(history, track["id"])
+        raw_heat = calc_heat(scores)
+        prev = get_prev_heat(history, track["id"])
+        quality = assess_quality(track, evidence, raw_heat, prev)
+        heat = quality["accepted_heat"] if quality["accepted"] else prev
         trend = calc_trend(heat, prev)
         results[track["id"]] = {
-            "heat": heat, "trend": trend,
-            "scores": scores, "prev_heat": prev,
+            "track_name": track["name"],
+            "board": track["board"],
+            "heat": heat,
+            "raw_heat": raw_heat,
+            "trend": trend,
+            "scores": scores,
+            "prev_heat": prev,
+            "quality": quality,
+            "evidence": evidence,
         }
-        print(f"    Heat={heat} ({trend})  D={scores['D']} C={scores['C']} "
-              f"P={scores['P']} Pol={scores['Pol']}")
+        print(
+            f"    Heat={heat} raw={raw_heat} ({trend}) "
+            f"quality={quality['quality_level']} flag={quality['review_flag']} "
+            f"D={scores['D']} C={scores['C']} P={scores['P']} Pol={scores['Pol']}"
+        )
 
-    # ── Step 2：板块综合分 ─────────────────────────────────
+    # ── Step 2：新兴主题发现 ───────────────────────────────
+    print("\n--- 新兴机会发现 ---")
+    candidates = discover_emerging_topics(all_evidence, today_str)
+    watchlist = update_watchlist(candidates, today_str)
+    print(f"  候选新主题 {len(candidates)} 个")
+
+    # ── Step 3：板块综合分，仅用通过质量门槛的赛道 ───────────
     board_heats = {}
     for board, weights in BOARD_WEIGHTS.items():
         total_w, total_score = 0, 0
         for tid, w in weights.items():
-            if tid in results:
+            if tid in results and results[tid]["quality"].get("accepted"):
                 total_score += results[tid]["heat"] * w
-                total_w     += w
-        board_heats[board] = round(total_score / total_w, 1) if total_w else 50.0
+                total_w += w
+        if total_w:
+            board_heats[board] = round(total_score / total_w, 1)
+        else:
+            tids = list(weights.keys())
+            prev_heats = [results[t]["prev_heat"] for t in tids if t in results]
+            board_heats[board] = round(sum(prev_heats) / len(prev_heats), 1) if prev_heats else 50.0
 
     print("\n板块综合分：")
     for b, h in board_heats.items():
         print(f"  {b}: {h}")
 
     generate_eval_report(results)
-    # ── Step 3：保存历史 ───────────────────────────────────
-    # 过滤掉打分失败的赛道（D=C=P=Pol=50 视为无效）
-    valid_results = {
-        tid: r for tid, r in results.items()
-        if not (r["scores"]["D"] == 50 and
-                r["scores"]["C"] == 50 and
-                r["scores"]["P"] == 50 and
-                r["scores"]["Pol"] == 50)
-    }
-    print(f"[INFO] 有效打分 {len(valid_results)}/{len(results)} 个赛道")
-    save_history(history, period, valid_results)
 
-    # ── Step 4：注入 index.html ────────────────────────────
+    # ── Step 4：审计包 ─────────────────────────────────────
+    audit = build_audit(today_str, period, results, board_heats, watchlist)
+    write_weekly_audit(today_str, audit)
+
+    accepted_results = {
+        tid: r for tid, r in results.items()
+        if r.get("quality", {}).get("accepted")
+    }
+    print(f"[INFO] 通过质量门槛 {len(accepted_results)}/{len(results)} 个赛道")
+
+    if args.dry_run:
+        print("[DRY RUN] 跳过 history/index/pharma 写入")
+        print(f"\n=== Dry run 完成 {today_str} ===")
+        return
+
+    # ── Step 5：保存历史 ───────────────────────────────────
+    if accepted_results:
+        save_history(history, period, accepted_results)
+    else:
+        print("[SKIP] 无赛道通过质量门槛，跳过 history 写入")
+
+    # ── Step 6：注入 index.html ────────────────────────────
     print("\n--- 注入 index.html ---")
     try:
         import sys, os as _os
         sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
         from inject_scores import inject_scores
 
-        scores_payload = {
-            "date":    today_str,
-            "sectors": {},
-            "tracks":  {},
-        }
-
-        for b, heat in board_heats.items():
-            tids = list(BOARD_WEIGHTS[b].keys())
-            prev_heats = [results[t]["prev_heat"] for t in tids if t in results]
-            prev_board = round(sum(prev_heats) / len(prev_heats), 1) if prev_heats else 50
-            scores_payload["sectors"][b] = {
-                "heat": heat,
-                "tr":   calc_trend(heat, prev_board),
-            }
-
-        for tid, r in results.items():
-            delta = round(r["heat"] - r["prev_heat"], 1)
-            entry = {
-                "heat":  r["heat"],
-                "tr":    r["trend"],
-                "delta": delta,
-                "D":     r["scores"]["D"],
-                "C":     r["scores"]["C"],
-                "P":     r["scores"]["P"],
-                "Pol":   r["scores"]["Pol"],
-            }
-            if r["scores"].get("core_data"):
-                entry["data"] = [r["scores"]["core_data"]]
-            if r["scores"].get("comment"):
-                entry["tw"] = r["scores"]["comment"]
-            if r["scores"].get("act"):
-                entry["act"] = r["scores"]["act"]
-            scores_payload["tracks"][tid] = entry
-
+        scores_payload = build_scores_payload(today_str, board_heats, results)
         index_path = _os.path.join(
             _os.path.dirname(_os.path.abspath(__file__)), "..", "index.html"
         )
@@ -759,20 +1163,27 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"  [WARN] inject_scores 失败，跳过 index.html 更新: {e}")
 
-    # ── Step 5：制药装备行业动态 ───────────────────────────
-    print("\n--- 制药装备行业动态 ---")
-    pharma_raw = fetch_pharma_news()
-    print(f"  抓取 {len(pharma_raw)} 条原始新闻")
-    if pharma_raw:
-        pharma_data = summarize_pharma(client, pharma_raw)
-        if pharma_data["items"]:
-            pharma_path = _os.path.join(
-                _os.path.dirname(_os.path.abspath(__file__)), "..", "pharma.html"
-            )
-            inject_html(build_news_html(pharma_data), pharma_path)
-        else:
-            print("  [SKIP] Claude 未返回有效摘要")
+    # ── Step 7：制药装备行业动态 ───────────────────────────
+    if args.skip_pharma:
+        print("\n--- 制药装备行业动态：跳过 ---")
     else:
-        print("  [SKIP] 无新闻条目，跳过")
+        print("\n--- 制药装备行业动态 ---")
+        pharma_raw = fetch_pharma_news()
+        print(f"  抓取 {len(pharma_raw)} 条原始新闻")
+        if pharma_raw:
+            pharma_data = summarize_pharma(client, pharma_raw)
+            if pharma_data["items"]:
+                pharma_path = os.path.join(
+                    os.path.dirname(os.path.abspath(__file__)), "..", "pharma.html"
+                )
+                inject_html(build_news_html(pharma_data), pharma_path)
+            else:
+                print("  [SKIP] Claude 未返回有效摘要")
+        else:
+            print("  [SKIP] 无新闻条目，跳过")
 
     print(f"\n=== 全部完成 {today_str} ===")
+
+
+if __name__ == "__main__":
+    main()

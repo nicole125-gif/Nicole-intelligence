@@ -1,0 +1,98 @@
+# 实体本体 registry（O1 实体解析 + O4 本体合并）
+# 战略实体的稳定身份、别名与富属性档案。事件里的业主字符串解析到这里的 id。
+# type: company（终端业主）| oem（装备商）| competitor（在位竞品）| self（ESG 自身）
+#
+# O4（2026-06-16）：把原孤儿化的两套本体折叠进来，终结双本体——
+#   - profile 来源 config/p4_opportunity_map.yml（OEM 档案：关键词/角色/对口阀型/在位竞品/capex 系数）
+#   - profile 来源 data/products_analysis.json summary（竞品威胁档：威胁分/产品数/高威胁产品）
+# load_registry 把整条 entity dict 按 id 存入 by_id，故 get(id) 自动带出 profile，无需 join 代码。
+# p4_opportunity_map.yml 仍由 legacy scripts/p4_opportunities.py 读取，保留不删；实体数据以本文件为准。
+
+entities:
+  # —— 装备商 OEM（制药出海顺风，盯订单簿）——
+  - id: truking
+    name: 楚天科技
+    type: oem
+    aliases: [楚天科技, 楚天]
+    profile:
+      match_keywords: [制药装备, 生物工程, 无菌制剂, 原料药, 智能工厂]
+      target_roles: [设备部, 工程部, 采购部]
+      esg_products: [卫生级隔膜阀, 过程调节阀, 流量传感器, 阀岛及控制系统]
+      competitor_products:
+        - company: Bürkert
+          names: [气动和过程, 液体和气体阀门, 过程阀和调节阀]
+        - company: Gemü
+          names: [Type 1435 - 截止调节阀]
+      capex_ratio: {low: 0.005, high: 0.015}  # 制药装备 track，模型估算待复盘校准
+  - id: tofflon
+    name: 东富龙
+    type: oem
+    aliases: [东富龙, 上海东富龙, 东富龙科技]
+    profile:
+      match_keywords: [冻干, 生物制药, 制剂装备, 无菌产线, 工程项目]
+      target_roles: [工程中心, 设备部, 战略采购]
+      esg_products: [卫生级隔膜阀, 蒸汽阀, CIP/SIP阀组, 流量与压力传感器]
+      competitor_products:
+        - company: Bürkert
+          names: [电磁阀, 过程控制阀, 液体和气体阀门]
+        - company: ESG
+          names: [卫生级阀门, 膜塞阀]  # ESG 已在册之痕，spec 位待 O2 确认
+      capex_ratio: {low: 0.005, high: 0.015}
+  - id: morimatsu
+    name: 森松国际
+    type: oem
+    aliases: [森松国际, 森松, 森松制药]
+    profile:
+      match_keywords: [模块化工厂, EPC, 生物反应器, 原液, 制药工程]
+      target_roles: [项目采购, 工艺工程部, 模块化事业部]
+      esg_products: [卫生级隔膜阀, 高纯流体阀组, 比例调节阀, 现场总线控制系统]
+      competitor_products:
+        - company: Bürkert
+          names: [气动和过程, 工业通讯, 流量传感器和液位传感器]
+        - company: Gemü
+          names: [Type 1435 - 截止调节阀]
+      capex_ratio: {low: 0.005, high: 0.015}
+  - id: austar
+    name: 奥星生命科技
+    type: oem
+    aliases: [奥星, 奥星生命, 奥星生命科技]
+  - id: zhengfan
+    name: 正帆科技
+    type: oem
+    aliases: [正帆, 正帆科技]
+
+  # —— 在位竞品（赢面参照；威胁档来自 products_analysis.json）——
+  - id: burkert
+    name: Bürkert
+    type: competitor
+    aliases: [Bürkert, Burkert, 宝德, 宝帝]
+    profile:
+      avg_threat_level: 4.3
+      product_count: 15
+      top_industries: [食品饮料, 制药, 生物技术]
+      high_threat_products: [电磁阀, 过程控制阀, 电动阀, 气动和过程, 传感器，变送器和控制器]
+  - id: gemu
+    name: Gemü
+    type: competitor
+    aliases: [Gemü, Gemu, 盖米, 格姆]
+    profile:
+      avg_threat_level: 4.0
+      product_count: 9
+      top_industries: [食品饮料, 精细化工, 通用工业]
+      high_threat_products:
+        - Series 515 - 无菌隔膜阀
+        - Series 500 - 隔膜阀
+        - Series 600 - 隔膜阀
+        - Series 650 - 调节阀
+        - Series 700 - 蝶阀
+
+  # —— ESG 自身（自评档：own catalog 威胁基线 2.7）——
+  - id: esg
+    name: ESG 青岛精锐
+    type: self
+    aliases: [ESG, 青岛精锐, 精锐, esgvalve]
+    profile:
+      avg_threat_level: 2.7
+      product_count: 25
+      top_industries: [通用工业, 食品饮料, 制药]
+      high_threat_products: []
