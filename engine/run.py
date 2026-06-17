@@ -49,6 +49,14 @@ SAMPLE_SIGNALS = [
      "company": "某公司", "url": "http://example.com/f", "source": "巨潮募投公告",
      "source_type": "capex", "signal_type": "expansion",
      "date": dt.date.today().isoformat()},
+    {"title": "上海东富龙｜冻干生物制药无菌制剂装备产业化基地扩建项目，投资8亿元",
+     "company": "东富龙", "url": "http://example.com/g", "source": "巨潮募投公告",
+     "source_type": "capex", "signal_type": "expansion", "lead_time_months": "3-9",
+     "date": dt.date.today().isoformat()},
+    {"title": "楚天科技｜生物工程无菌制剂智能工厂新建项目，投资6亿元",
+     "company": "楚天科技", "url": "http://example.com/h", "source": "巨潮募投公告",
+     "source_type": "capex", "signal_type": "expansion", "lead_time_months": "3-9",
+     "date": dt.date.today().isoformat()},
 ]
 
 

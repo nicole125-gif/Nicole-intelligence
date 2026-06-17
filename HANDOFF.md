@@ -32,6 +32,7 @@
 - **⚠ 处置闭环已知风险**：①`@vercel/kv` 版本写的 `^3.0.0`，Vercel 构建时若不兼容需调；②无鉴权，有 URL 即可读写处置（内部工具可接受，要收紧加共享口令）；③`kv.keys('disp:*')` 扫全键，量级到数千条需改维护 id 集合；④部署绑死 Vercel（GitHub Pages 出局）。
 - **✅ O4 本体合并已落地**（2026-06-16，框架 P1.5 第四阶）：把孤儿化的两套富本体折叠进 `config/entities.yml` 的 `profile:` 块——OEM（楚天/森松/东富龙）带 match_keywords/target_roles/esg_products/competitor_products/capex_ratio（源 p4_opportunity_map）；竞品+self 带 avg_threat_level/product_count/high_threat_products（源 products_analysis：Bürkert4.3/Gemü4.0/ESG2.7）。`load_registry` 本就按 id 存整条 dict，**`get(id)` 自动带出 profile，零 join 代码**；`resolve()` 仍轻量（profile 不进每条 event 的 owner）。终结双本体，entities.yml 升为实体数据单一语义层。**`p4_opportunity_map.yml` 仍被 legacy `scripts/p4_opportunities.py` 读，保留不删**。38 测试全过（+2）。
 - **✅ O2 spec 位切片 A 已落地**（2026-06-16，框架 P1.5 第二阶/承重边）：头号挂起已解（§5）——**ESG 只进东富龙 BOM，楚天/森松未进**。`config/entities.yml` 三 OEM 加 `spec_position`（东富龙 `in`/楚天/森松 `target`）；`build.py` 当 owner 解析为 OEM 实体时沿 owner→OEM 边取 spec 位，喂 winnability（in +0.2 顺风 / target −0.1 需 design-in）+ 分流 action（in→盯订单簿；target→主推 design-in）；event 加 `spec_position` 字段。实测东富龙扩产 win 0.5 > 通用 0.3 > 楚天 0.2。43 测试全过（+5）。**切片 B（headline 具名识别买方 OEM）后置**——多数 event 不点名 OEM。
+- **✅ 本体图谱已落地**（2026-06-17）：`ontology.html` —— Gotham 风力导向图把 O1/O2/O4 可视化：ESG 居中引力核、OEM/竞品/业主/事件分型节点、**spec 位边为主角**（绿实=已进/琥珀虚=待 design-in）、竞品光晕=威胁分、点节点出 O4 属性卡。纯 vanilla canvas（零 CDN，守国内可达），复用 core.css。数据由 `scripts/build_ontology.py`（entities.yml 单一来源 + 最新 events → `data/ontology.json`，已 gitignore）编译。**部署缺数据同 events 的 P2#5**（CI 需跑 build_ontology）。视觉/过滤待节点变多（O2-B/O3）再 enrich。
 - **下一个自然动作（O2-A 后，2026-06-16）**：
   - **O3 赢面消费链路（旁路，需先攒处置标签）**：competitor profile 威胁分 + spec 位都已可读，winnability 可继续从 config 常量升级为读实体属性；完整闭环要先攒处置标签（决策15）。
   - **O2 切片 B**：headline 具名识别买方 OEM，让非 OEM 自建但用东富龙设备的 event 也走到 spec 位。
@@ -49,6 +50,8 @@ python3 -m engine.run --sample              # 离线样例，端到端演示，�
 python3 -m engine.run --strict              # 健康检查不达标 exit 1
 python3 -m unittest tests.test_engine        # 43 个离线单测（截至 O2-A）
 python3 -m engine.run --sample && python3 -m http.server 8765  # 本地预览 events.html 研判信箱
+python3 scripts/build_ontology.py             # 从 entities.yml + 最新 events 编译 data/ontology.json（看图前先跑）
+#   然后 http.server 打开 ontology.html —— P1.5 本体图谱（O1/O2/O4 可视化）
 ```
 
 ## 4. 关键决策（带 WHY，不要轻易推翻）
