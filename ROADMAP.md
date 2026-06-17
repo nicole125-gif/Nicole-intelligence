@@ -87,11 +87,11 @@
 - **⏭ 切片 B（待办）**：从 headline **具名识别买方 OEM**（终端业主用谁的设备），把 Event 挂到具体 OEM 实例——才能对「非 OEM 自建、但用东富龙设备」的事件也沿边走到 spec 位。多数 event 不点名 OEM（抽不出），按 ROI 后置。
 - **verify**：能从一个 Event 沿边走到「该业主的 OEM 及其 ESG spec 位」——切片 A 已对「业主即 OEM」成立。
 
-### O3. 合上动能闭环：处置写回 → 喂 winnability
+### O3. 合上动能闭环：处置写回 → 喂 winnability — 🟡 密度迁层级已完成 2026-06-17
 - **症结**：处置现在是死写（存 KV，无人读回），是日记不是状态转移。闭环开着 → 价值锁死（决策15 先采集后消费）。
-- **做**：消费侧读历史「赢/输给谁」反调 winnability 阈值；**把竞品密度从「工况」属性迁到「Competitor—装机于→Site」Link 属性**——这才根治 v1 生物合成误降（本会话的 biosynthesis 工况修复是治标，真因是密度挂错层级）。
-- **verify**：一次处置标记后，相关 Event/Company 的赢面输入随之变化（环合上）。
-- **依赖**：先攒够标签数据（决策15），故排在采足处置之后。
+- **✅ 第 2 半 · 竞品密度迁层级**（2026-06-17）：把密度从「工况」硬编码常量迁到「竞品—据点(stronghold)→工况」关系——`config/entities.yml` 竞品加 `strongholds`（Bürkert/Gemü：hygienic+pharma_ref full、Gemü heavy_process partial）；`winnability.density_from_strongholds()` 据此派生（full→high / partial→mid / 无→low），`build.py` 改用派生值。**根治 v1 生物合成误降**：biosynthesis 不在任何据点里自然 low，不再靠工况特例（band-aid 已被结构性修复取代；esg_conditions 的 density 字段降级为参照，winnability 不再读）。派生值与旧常量逐一对齐，无回归；47 测试全过（+4）。
+- **⏸ 第 1 半 · 处置写回反调 winnability（挂起）**：消费侧读历史「赢/输给谁」反调阈值——**依赖真实处置标签**（决策15 先采集后消费，目前无标签）。等团队用起来攒数据。
+- **verify**：一次处置标记后，相关 Event/Company 的赢面输入随之变化（环合上）——属第 1 半。
 
 ### O4. ✅ 本体合并：接回孤儿化的客户/竞品本体 — 已完成 2026-06-16
 - **症结**：两套本体并存，且更富的一套被孤儿化——`config/p4_opportunity_map.yml`（楚天/森松/东富龙档案+竞品+capex系数）、`data/products_analysis.json`（威胁 Bürkert4.3/Gemü4.0/ESG2.7）是全仓库最富实体数据，却作「灰色文件」未入库、没接进引擎。

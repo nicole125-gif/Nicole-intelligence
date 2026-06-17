@@ -210,6 +210,34 @@ class WinnabilityTests(unittest.TestCase):
         self.assertLess(winnability.assess("某扩产项目", "mid", "target")["score"], base)
 
 
+class CompetitorDensityTests(unittest.TestCase):
+    # O3：密度从「竞品据点→工况」派生，取代工况硬编码常量
+    def setUp(self):
+        self.reg = entities.load_registry()
+
+    def _d(self, cid):
+        return winnability.density_from_strongholds(cid, self.reg)
+
+    def test_full_stronghold_is_high(self):
+        self.assertEqual(self._d("hygienic"), "high")     # Bürkert+Gemü full
+        self.assertEqual(self._d("pharma_ref"), "high")
+
+    def test_partial_stronghold_is_mid(self):
+        self.assertEqual(self._d("heavy_process"), "mid")  # 仅 Gemü partial
+
+    def test_no_stronghold_is_low(self):
+        # 真因修复：生物合成不在任何竞品据点 → 自然 low，不靠工况特例
+        self.assertEqual(self._d("biosynthesis"), "low")
+        self.assertEqual(self._d("lithium_injection"), "low")
+        self.assertEqual(self._d("rubber_curing"), "low")
+
+    def test_biosynthesis_beats_pharma_ref_via_derived_density(self):
+        # 同为新建，生物合成(无据点)赢面应高于无菌制剂(Gemü 护城河)
+        bio = winnability.assess("某生物合成发酵基地新建", self._d("biosynthesis"))["score"]
+        ref = winnability.assess("某无菌注射剂车间新建", self._d("pharma_ref"))["score"]
+        self.assertGreater(bio, ref)
+
+
 class RankingTests(unittest.TestCase):
     def test_big_band_beats_unknown(self):
         self.assertGreater(ranking.value_factor("大"), ranking.value_factor("未知"))

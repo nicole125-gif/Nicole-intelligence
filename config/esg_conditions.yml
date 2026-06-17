@@ -1,6 +1,9 @@
 # ESG 事件引擎 · 工况知识库
 # 按"工况"而非"行业"组织。每个工况定义：命中关键词、对应阀型、推断买方角色、行业标签。
 # capex_ratio：固定资产投资 → 流体系统采购额的经验系数（与 p4_opportunity_map.yml 一致）。
+# ⚠ competitor_density（各工况）自 O3 起已不再被 winnability 使用——密度改由
+#   winnability.density_from_strongholds 从「竞品 strongholds→工况」关系派生（见 config/entities.yml）。
+#   此处字段保留作人读参照，改它不影响赢面；要改密度去调竞品的 strongholds。
 
 capex_ratio:
   low: 0.005

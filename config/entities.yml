@@ -74,6 +74,10 @@ entities:
       product_count: 15
       top_industries: [食品饮料, 制药, 生物技术]
       high_threat_products: [电磁阀, 过程控制阀, 电动阀, 气动和过程, 传感器，变送器和控制器]
+      # O3：竞品据点（Competitor—装机于→工况）。winnability 据此派生密度，取代工况硬编码常量。
+      strongholds:
+        - {condition: hygienic, grip: full}
+        - {condition: pharma_ref, grip: full}
   - id: gemu
     name: Gemü
     type: competitor
@@ -88,6 +92,10 @@ entities:
         - Series 600 - 隔膜阀
         - Series 650 - 调节阀
         - Series 700 - 蝶阀
+      strongholds:
+        - {condition: hygienic, grip: full}
+        - {condition: pharma_ref, grip: full}
+        - {condition: heavy_process, grip: partial}  # 化工/精细化工部分覆盖
 
   # —— ESG 自身（自评档：own catalog 威胁基线 2.7）——
   - id: esg
