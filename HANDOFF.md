@@ -6,9 +6,9 @@
 > - **ROADMAP.md** — 下一步路线（P0/P1/P2）、框架 5 洞状态、阻塞依赖。
 >
 > 另：方法论北极星 `docs/INTELLIGENCE_OS.md`；实现计划 `~/.claude/plans/https-www-esgvalve-cn-gleaming-stroustrup.md`；项目记忆 `~/.claude/projects/.../memory/esg-event-engine.md` + `esg-spec-position.md`。
-> 最后更新 2026-06-16 ｜ 引擎全部已在 `main`：里程碑1 + winnability + O1 + **O4 本体合并**（PR #6）+ **O2 spec 位切片 A**（PR #8）｜ 头号挂起未知**已解**（§5）｜ events.html 研判信箱本会话已本地验收。WIP/自动化仍在 `automation/monthly-update`。
+> 最后更新 2026-06-17 ｜ 引擎全部已在 `main`：里程碑1 + winnability + **O1/O2-A/O3/O4** 本体化（PR #6/#8/#11）+ **本体图谱 ontology.html**（PR #10）｜ 头号挂起未知**已解**（§5：ESG 只进东富龙 BOM）｜ events.html + ontology.html 本会话已本地验收。WIP/自动化仍在 `automation/monthly-update`。
 >
-> **🔑 下次开机关键词**：`读 HANDOFF + ROADMAP，继续 P1.5 本体化`——候选下一步：**O2 切片 B**（headline 具名识别买方 OEM）｜ **O3 赢面消费**（需先攒处置标签，决策15）｜ **events.html 展示 spec 位**（UI 尚未渲染 spec_position 字段）｜ 源攻坚挪 CI｜P2#6 region（卡口径，§2 末）。从 `main` 切新分支做引擎活，**开 PR 前先 `git fetch`**（bot 直推 main）。
+> **🔑 下次开机关键词**：`读 HANDOFF + ROADMAP，继续 P1.5 本体化`——候选下一步：**处置闭环上线**（决策13 建 Vercel KV → 攒标签 → 解锁 O3 第 1 半处置写回）｜ **O2 切片 B**（headline 具名识别买方 OEM）｜ **图谱 enrich**（类型过滤/竞品据点边，待节点变多）｜ 源攻坚挪 CI｜P2#6 region（卡口径）。从 `main` 切新分支做引擎活，**开 PR 前先 `git fetch`**（bot 直推 main）。
 
 ---
 
@@ -49,7 +49,7 @@ python3 -m engine.run                       # 真数据（需网络），写 dat
 python3 -m engine.run --with-cde            # 额外抓 CDE 优先审评（Playwright 过瑞数 WAF，慢）
 python3 -m engine.run --sample              # 离线样例，端到端演示，无需联网
 python3 -m engine.run --strict              # 健康检查不达标 exit 1
-python3 -m unittest tests.test_engine        # 43 个离线单测（截至 O2-A）
+python3 -m unittest tests.test_engine        # 47 个离线单测（截至 O3）
 python3 -m engine.run --sample && python3 -m http.server 8765  # 本地预览 events.html 研判信箱
 python3 scripts/build_ontology.py             # 从 entities.yml + 最新 events 编译 data/ontology.json（看图前先跑）
 #   然后 http.server 打开 ontology.html —— P1.5 本体图谱（O1/O2/O4 可视化）
@@ -88,11 +88,15 @@ python3 scripts/build_ontology.py             # 从 entities.yml + 最新 events
 
 ## 7. git 现状
 
-- **✅ 引擎全部已在 `main`**，本会话三个 PR 全部合并（皆从最新 `main` 切分支、合后删分支）：
+- **✅ 引擎全部已在 `main`**，本会话 6 个 PR 全部合并（皆从最新 `main` 切分支、合后删分支）：
   - **PR #6**（merge `2d9c99b`）：引擎/本体——从 `main` 干净切 `feat/event-engine`，cherry-pick 11 个引擎 commit（里程碑1 + winnability v1 + O1 + O4 + 三件套 docs + biosynthesis 修复 + research inbox/处置采集层），27 文件 / +2401。
   - **PR #7**（merge `a26d962`）：HANDOFF 同步到 main。
-  - **PR #8**（merge `037d819`）：**O2 spec 位切片 A**（entities.yml spec_position + build.py owner→OEM 边 + winnability spec 因子 + action 分流），43 测试全过。
-  - **main 自此为引擎数据的权威。**
+  - **PR #8**（merge `037d819`）：**O2 spec 位切片 A**（entities.yml spec_position + build.py owner→OEM 边 + winnability spec 因子 + action 分流）。
+  - **PR #9**（merge `d320a37`）：HANDOFF 收尾（O2-A）。
+  - **PR #10**（merge `470b600`）：**本体图谱 `ontology.html`** + `scripts/build_ontology.py`（data/ontology.json 已 gitignore）+ 样例 OEM 信号。
+  - **PR #11**（merge `5ab76a5`）：**O3 竞品密度迁层级**（竞品 strongholds + winnability.density_from_strongholds，根治生物合成误降），47 测试全过。
+  - **PR #12**（本条）：HANDOFF 收尾（O3 + 图谱）。
+  - **main 自此为引擎/可视化的权威。**
 - **`automation/monthly-update`（远端 `f825fad`）**：仍带同一串引擎 commit 的**旧 SHA**（O1-O4 在此分支早已提交并 push），但已被 PR #6 的 curated 版本取代——**别再从这条分支合引擎到 main**。这条分支本职是放自动化更新（RSS/竞品/monthly）+ 本会话前的 WIP。
 - **⚠ 本仓库 bot 会直推 `main`**（RSS/竞品自动提交）：开 PR 前先 `git fetch`，否则本地 main 落后 → PR 报冲突（本轮踩过）。
 - **灰色文件（仍未入库，待用户定夺）**：`docs/INTELLIGENCE_OS.md`（方法论北极星）、`config/p4_opportunity_map.yml`、`scripts/p4_opportunities.py`（§8 关键参照）。注：O4 已把 p4_opportunity_map / products_analysis 的实体数据折叠进 `config/entities.yml`（已入 main），这两份源文件仅 legacy 脚本仍读。
