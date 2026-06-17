@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-06-16T05:09:10.475243+00:00",
+  "updated_at": "2026-06-17T04:50:37.150666+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "1822a06290",
-      "title": "Younger UK children to benefit from new dose of nasal spray allergy drug",
-      "url": "https://www.pharmaceutical-technology.com/news/younger-uk-children-to-benefit-from-new-dose-of-nasal-spray-allergy-drug/",
-      "summary": "The MHRA’s approval of a lower dose of EURneffy means more children will have a needle-free option to treat anaphylaxis.",
+      "id": "0fd7f1ad63",
+      "title": "EHA26: J&J’s multiple myeloma therapies impress with new data",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/eha26-jjs-multiple-myeloma-therapies-impress-with-new-data/",
+      "summary": "New data for Talvey and Tecvayli was presented at the annual meeting as J&amp;J directs its therapies in earlier-line settings.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-15T10:28:49+00:00",
-      "pub_ts": 1781519329
+      "pub_date": "2026-06-16T15:27:12+00:00",
+      "pub_ts": 1781623632
     },
     {
-      "id": "9f8cb9c4c4",
-      "title": "FDA oncology roundup: drugs, imaging agents and diagnostics gain approval",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-oncology-roundup-astrazeneca-truqap-roche-cdx-bayer-imaging/",
-      "summary": "The FDA has cleared several oncology products over the past few days, ranging from therapies to diagnostic and imaging tools.",
+      "id": "9c8982c13d",
+      "title": "Cystic Fibrosis Foundation backs Israeli biotech with $13m to develop inhaled drug",
+      "url": "https://www.pharmaceutical-technology.com/news/cystic-fibrosis-foundation-backs-israeli-biotech-with-13m-to-develop-inhaled-drug/",
+      "summary": "SpliSense is currently conducting a Phase IIb trial with its antisense oligonucleotide therapy.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-15T09:51:51+00:00",
-      "pub_ts": 1781517111
+      "pub_date": "2026-06-16T11:31:16+00:00",
+      "pub_ts": 1781609476
     },
     {
-      "id": "3cc8b5bcdd",
-      "title": "Simcere and Stanford partner to develop IPF therapies",
-      "url": "https://www.pharmaceutical-technology.com/news/simcere-stanford-to-develop-ipf-therapies/",
-      "summary": "Simcere Pharmaceutical has entered a research collaboration agreement with Stanford Medicine to develop new therapies for IPF.",
+      "id": "3224f5cb22",
+      "title": "EHA26: AvenCell’s AVC-201-01 switchable allogeneic CAR T offers early validation in AML",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/eha26-avencells-avc-201-01-switchable-allogeneic-car-t-offers-early-validation-in-aml/",
+      "summary": "AvenCell Therapeutics presented updated results for its CAR-T cell blood cancer therapy at EHA 2026.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-15T09:00:49+00:00",
-      "pub_ts": 1781514049
+      "pub_date": "2026-06-16T10:38:51+00:00",
+      "pub_ts": 1781606331
     },
     {
-      "id": "666c28ecdd",
-      "title": "Designing vial systems to meet the demands of complex biologics",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/designing-vial-systems-to-meet-the-demands-of-complex-biologics/",
-      "summary": "As biologics continue to transform the pharmaceutical landscape and drive the industry’s growth, the demands for high-performance vial systems are growing.",
+      "id": "7a7461d6b2",
+      "title": "FDA and MHRA forge new regulatory collaboration initiative",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-and-mhra-forge-new-regulatory-collaboration-initiative/",
+      "summary": "The new initiative is intended to improve the global oversight of medical devices, AI, and innovative medicines and to streamline knowledge sharing efforts.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-15T08:59:09+00:00",
-      "pub_ts": 1781513949
+      "pub_date": "2026-06-16T10:17:33+00:00",
+      "pub_ts": 1781605053
     },
     {
-      "id": "24eb711a09",
-      "title": "Choosing a drug development partner in 2026: A practical selection framework",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/choosing-a-drug-development-partner-in-2026-a-practical-selection-framework/",
-      "summary": "",
+      "id": "89f39fcd9d",
+      "title": "Alkermes’ alixorexton secures FDA and EC orphan designations",
+      "url": "https://www.pharmaceutical-technology.com/news/alkermes-alixorexton-fda-ec-orphan-designations/",
+      "summary": "Alkermes has received ODD from both the FDA and the EC for alixorexton, its investigational OX2R agonist to treat idiopathic hypersomnia and narcolepsy.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-15T08:35:47+00:00",
-      "pub_ts": 1781512547
+      "pub_date": "2026-06-16T10:04:49+00:00",
+      "pub_ts": 1781604289
     }
   ],
   "source_success_count": 1,

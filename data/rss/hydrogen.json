@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-06-16T05:08:58.073269+00:00",
+  "updated_at": "2026-06-17T04:50:24.719309+00:00",
   "item_count": 6,
   "items": [
     {
-      "id": "acaa189631",
-      "title": "Fuel Cell and Hydrogen News Highlights From China: June 08-June 12, 2026",
-      "url": "https://fuelcellsworks.com/2026/06/14/clean-energy/fuel-cell-and-hydrogen-news-highlights-from-china-june-08-june-12-2026",
+      "id": "2cdd3ab3de",
+      "title": "SFC Energy AG Demonstrates Innovative Power Solutions for Military Vehicle Platforms at Eurosatory",
+      "url": "https://fuelcellsworks.com/2026/06/16/energy-innovation/sfc-energy-ag-demonstrates-innovative-power-solutions-for-military-vehicle-platforms-at-eurosatory",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-15T15:45:19+00:00",
-      "pub_ts": 1781538319
+      "pub_date": "2026-06-16T16:04:24+00:00",
+      "pub_ts": 1781625864
     },
     {
-      "id": "1e686ccfad",
-      "title": "LKAB Secures Permit for Hydrogen-Based Iron Plant in Gällivare",
-      "url": "https://fuelcellsworks.com/2026/06/15/hydrogen/lkab-secures-permit-for-hydrogen-based-iron-plant-in-gallivare",
+      "id": "2e22cc345c",
+      "title": "The European Hydrogen Industry Asks the EU Commission to Improve the Hydrogen Bank",
+      "url": "https://fuelcellsworks.com/2026/06/14/h2/the-european-hydrogen-industry-asks-the-eu-commission-to-improve-the-hydrogen-bank",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-15T15:35:42+00:00",
-      "pub_ts": 1781537742
+      "pub_date": "2026-06-16T15:52:15+00:00",
+      "pub_ts": 1781625135
     },
     {
-      "id": "7a297267af",
-      "title": "Faster Steel Production with Hydrogen",
-      "url": "https://fuelcellsworks.com/2026/06/14/electrolyzer/faster-steel-production-with-hydrogen",
+      "id": "fe23faa91a",
+      "title": "Oman's GUtech Opens a 3D-Printed Hydrogen Lab",
+      "url": "https://fuelcellsworks.com/2026/06/16/clean-hydrogen/oman-s-gutech-opens-a-3d-printed-hydrogen-lab",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-15T15:29:27+00:00",
-      "pub_ts": 1781537367
+      "pub_date": "2026-06-16T15:38:35+00:00",
+      "pub_ts": 1781624315
     },
     {
-      "id": "d76d4b4724",
-      "title": "HyOrc Corporation Secures Financing for Initial Module of 35 TPD Portuguese Waste-to-Methanol Facility",
-      "url": "https://fuelcellsworks.com/2026/06/15/clean-energy/hyorc-corporation-secures-financing-for-initial-module-of-35-tpd-portuguese-waste-to-methanol-facility",
+      "id": "f9a861e849",
+      "title": "Amogy and KOWA Form Partnership to Provide Ammonia Cracking-Based Hydrogen Supply in Japan",
+      "url": "https://fuelcellsworks.com/2026/06/16/hydrogen/amogy-and-kowa-form-partnership-to-provide-ammonia-cracking-based-hydrogen-supply-in-japan",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-15T15:24:06+00:00",
-      "pub_ts": 1781537046
+      "pub_date": "2026-06-16T15:31:25+00:00",
+      "pub_ts": 1781623885
     },
     {
-      "id": "bcb4b9f420",
-      "title": "The Hydrogen Chain in the North Sea Canal Area Is Increasingly Taking Shape",
-      "url": "https://fuelcellsworks.com/2026/06/14/h2/the-hydrogen-chain-in-the-north-sea-canal-area-is-increasingly-taking-shape",
+      "id": "51672ddb2f",
+      "title": "Fraunhofer Institute Awarded the Joseph Von Fraunhofer Prize for Electrolyzer and Fuel Cell in One",
+      "url": "https://fuelcellsworks.com/2026/06/11/clean-energy/fraunhofer-institute-awarded-the-joseph-von-fraunhofer-prize-for-electrolyzer-and-fuel-cell-in-one",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-15T14:47:22+00:00",
-      "pub_ts": 1781534842
+      "pub_date": "2026-06-16T15:21:30+00:00",
+      "pub_ts": 1781623290
     },
     {
       "id": "2de7ee4cd3",

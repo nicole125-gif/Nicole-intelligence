@@ -3,88 +3,128 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-06-16T05:08:29.275399+00:00",
-  "item_count": 13,
+  "updated_at": "2026-06-17T04:49:55.374443+00:00",
+  "item_count": 15,
   "items": [
     {
-      "id": "c81062686d",
-      "title": "中国RISC-V，百花齐放",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813251&idx=1&sn=cbd38e4adf143552d47f8d80bf23de63",
-      "summary": "中国RISC-V，百花齐放",
+      "id": "6ed833f39f",
+      "title": "半导体设备，又一个新赛道火了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813311&idx=1&sn=e4b9d0b794e19478d4bc6db843fcaa12",
+      "summary": "半导体设备，又一个新赛道火了",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-16T05:08:26.041893+00:00",
-      "pub_ts": 1781586506
+      "pub_date": "2026-06-17T04:49:51.341234+00:00",
+      "pub_ts": 1781671791
     },
     {
-      "id": "e999d5a335",
-      "title": "300mm硅中介层，迎来质变",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813251&idx=2&sn=ae1987a3e84b7b979c5453958b68640f",
-      "summary": "300mm硅中介层，迎来质变",
+      "id": "ca790643a1",
+      "title": "百亿换Al，高通拟收 Tenstorrent",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813311&idx=2&sn=86177da464db261f0bdf641de10702ba",
+      "summary": "百亿换Al，高通拟收 Tenstorrent",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-16T05:08:26.041938+00:00",
-      "pub_ts": 1781586506
+      "pub_date": "2026-06-17T04:49:51.341274+00:00",
+      "pub_ts": 1781671791
     },
     {
-      "id": "dd7c2387db",
-      "title": "MWC26上海Ⅰ倒计时冲刺！三天高光全解锁+MobileAI资本论坛深度揭秘",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813251&idx=3&sn=ee8947b25ded3f6b1533056a9b63aeaf",
-      "summary": "MWC26上海Ⅰ倒计时冲刺！三天高光全解锁+MobileAI资本论坛深度揭秘",
+      "id": "a9f400da92",
+      "title": "全球最强芯片冷却技术诞生",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813311&idx=3&sn=78cd9077862ce58941e6fd08fbf17f28",
+      "summary": "全球最强芯片冷却技术诞生",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-16T05:08:26.041961+00:00",
-      "pub_ts": 1781586506
+      "pub_date": "2026-06-17T04:49:51.341294+00:00",
+      "pub_ts": 1781671791
     },
     {
-      "id": "cfdba3c8f2",
-      "title": "台厂AI供应链狂飙，多家企业增速破百",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813251&idx=4&sn=a46aa2eb8b2262eb72f6f2d34275c13e",
-      "summary": "台厂AI供应链狂飙，多家企业增速破百",
+      "id": "6516529ebb",
+      "title": "应用材料推出两款“3D芯片微缩”设备",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813311&idx=4&sn=b578f3c329abd89c222c97dff6786bd3",
+      "summary": "应用材料推出两款“3D芯片微缩”设备",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-16T05:08:26.041982+00:00",
-      "pub_ts": 1781586506
+      "pub_date": "2026-06-17T04:49:51.341311+00:00",
+      "pub_ts": 1781671791
     },
     {
-      "id": "ef1e601d92",
-      "title": "我国攻克硅基量子芯片关键材料",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813251&idx=5&sn=ba8aec17cfb122918b0578653d051c42",
-      "summary": "我国攻克硅基量子芯片关键材料",
+      "id": "5bd1b0f768",
+      "title": "LNS架构AI芯片，能效碾压主流GPU",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813311&idx=5&sn=a9411dbcf611774e74984d4e6df8cad2",
+      "summary": "LNS架构AI芯片，能效碾压主流GPU",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-16T05:08:26.042005+00:00",
-      "pub_ts": 1781586506
+      "pub_date": "2026-06-17T04:49:51.341326+00:00",
+      "pub_ts": 1781671791
     },
     {
-      "id": "69aae6bd4c",
-      "title": "刚刚，粤芯半导体过会",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822738&idx=1&sn=255cad6f94fa6bd7f0c9e7932f857304",
-      "summary": "刚刚，粤芯半导体过会",
+      "id": "0f23eac28c",
+      "title": "DRAM，还会崩盘吗?",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822784&idx=1&sn=a5401b96b9ff263a81572bf286be2e97",
+      "summary": "DRAM，还会崩盘吗?",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-16T05:08:15.509336+00:00",
-      "pub_ts": 1781586495
+      "pub_date": "2026-06-17T04:49:38.386602+00:00",
+      "pub_ts": 1781671778
     },
     {
-      "id": "b3a999bda7",
-      "title": "刚刚，燧原科技过会",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822730&idx=1&sn=1a0e5265adef57c93feaf69be4ebc8f5",
-      "summary": "刚刚，燧原科技过会",
+      "id": "571a3a9b10",
+      "title": "二维材料，关键突破，替代硅倒计时?",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822779&idx=1&sn=04dd57a2df241803214bdf61dfa023d4",
+      "summary": "二维材料，关键突破，替代硅倒计时?",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-16T05:08:15.509392+00:00",
-      "pub_ts": 1781586495
+      "pub_date": "2026-06-17T04:49:38.386647+00:00",
+      "pub_ts": 1781671778
     },
     {
-      "id": "0d14a2230b",
-      "title": "安森美宣布：何茂军出任中国区总经理",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822693&idx=1&sn=5cf7778d246b618b7dc78acde60cd922",
-      "summary": "安森美宣布：何茂军出任中国区总经理",
+      "id": "c7cde7eba9",
+      "title": "一颗3nm芯片，挑战英伟达",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822779&idx=2&sn=2350d1e92a1c48da6fb01b333afa3bd9",
+      "summary": "一颗3nm芯片，挑战英伟达",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-16T05:08:15.509417+00:00",
-      "pub_ts": 1781586495
+      "pub_date": "2026-06-17T04:49:38.386666+00:00",
+      "pub_ts": 1781671778
+    },
+    {
+      "id": "5869981f86",
+      "title": "台积电，猛攻CoPoS",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822779&idx=3&sn=42a0108f8757b0a9ad32a62852cf26bf",
+      "summary": "台积电，猛攻CoPoS",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-06-17T04:49:38.386683+00:00",
+      "pub_ts": 1781671778
+    },
+    {
+      "id": "3ba88f386b",
+      "title": "警告：DRAM将继续暴涨",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822779&idx=4&sn=14ca639fcd26613ecd1b3256d77db9b1",
+      "summary": "警告：DRAM将继续暴涨",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-06-17T04:49:38.386698+00:00",
+      "pub_ts": 1781671778
+    },
+    {
+      "id": "83772298a4",
+      "title": "Google Details Five Generations Of TPU Training Supercomputers",
+      "url": "https://semiengineering.com/google-details-five-generations-of-tpu-training-supercomputers/",
+      "summary": "Researchers from Google and University of California, Berkeley published a technical paper titled “Google’s Training Supercomputers from TPU v2 to Ironwood: Architectural Stability, Scale, Resilience, Power Efficiency, and Sustainability Across Five Generations.” The paper summarizes five generation…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-06-16T22:30:36+00:00",
+      "pub_ts": 1781649036
+    },
+    {
+      "id": "a00ce2d34d",
+      "title": "Chip Industry Technical Paper Roundup: June 16",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-june-16/",
+      "summary": "Multi-GPU traffic modeling; physical neural computing; RISC-V fault injection; automotive CAN timing analysis; EUV source optimization; lithography defect detection; dual-beam EUV efficiency.\nThe post Chip Industry Technical Paper Roundup: June 16 appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-06-16T07:01:36+00:00",
+      "pub_ts": 1781593296
     },
     {
       "id": "9430b7a27f",
@@ -115,26 +155,6 @@
       "lang": "en",
       "pub_date": "2026-06-15T07:01:50+00:00",
       "pub_ts": 1781506910
-    },
-    {
-      "id": "2851cef0b7",
-      "title": "Research Bits: June 15",
-      "url": "https://semiengineering.com/research-bits-june-15/",
-      "summary": "NAND in space; integrated photonic functions on silicon; light-emitting organic transistor with memory.\nThe post Research Bits: June 15 appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-06-15T07:01:24+00:00",
-      "pub_ts": 1781506884
-    },
-    {
-      "id": "e48c3e0c87",
-      "title": "Fault Injection Framework Targets RISC-V Security Weak Spots",
-      "url": "https://semiengineering.com/fault-injection-framework-targets-risc-v-security-weak-spots/",
-      "summary": "Researchers from Politecnico di Torino and CEA-List published a technical paper titled “InjectV: Modeling Fault Injection Attacks in RISC-V Simulation Environment.” Abstract &#8220;Fault Injection Attacks (FIAs) are a significant threat to hardware security, capable of compromising systems by induci…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-06-15T03:21:37+00:00",
-      "pub_ts": 1781493697
     }
   ],
   "source_success_count": 3,
