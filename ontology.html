@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>本体图谱 · ESG Intelligence Ontology</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&family=Syne:wght@500;600;700;800&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/core.css">
+<style>
+  :root{ --oem:#00C8FF; --evt:#FFD700; --spec-in:#00FFB2; --spec-tgt:#f5a623; }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;background:var(--bg);color:var(--text);
+    font-family:var(--display);overflow:hidden}
+  /* 背景氛围：深空 + 细网格 + 暗角 */
+  #stage{position:fixed;inset:0}
+  #bg{position:fixed;inset:0;z-index:0;pointer-events:none;
+    background:
+      radial-gradient(1200px 800px at 38% 42%, rgba(0,200,255,.05), transparent 60%),
+      radial-gradient(900px 700px at 78% 78%, rgba(227,6,19,.045), transparent 60%),
+      linear-gradient(transparent 0,transparent calc(100% - 1px),rgba(120,160,220,.04) 100%) 0 0/100% 34px,
+      linear-gradient(90deg,transparent 0,transparent calc(100% - 1px),rgba(120,160,220,.04) 100%) 0 0/34px 100%;}
+  #bg::after{content:"";position:absolute;inset:0;
+    background:radial-gradient(120% 120% at 50% 50%,transparent 55%,rgba(2,8,16,.85) 100%)}
+  canvas{position:fixed;inset:0;z-index:1;display:block;cursor:grab}
+  canvas.grabbing{cursor:grabbing}
+
+  /* 顶栏 */
+  .topbar{position:fixed;z-index:5;top:0;left:0;right:0;height:52px;display:flex;align-items:center;
+    gap:16px;padding:0 var(--page-px);
+    background:linear-gradient(180deg,rgba(2,8,16,.92),rgba(2,8,16,.4) 70%,transparent);
+    backdrop-filter:blur(2px)}
+  .brand{font-family:var(--mono);font-size:12px;font-weight:700;letter-spacing:.24em}
+  .brand b{color:var(--red)}
+  .topbar .meta{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--text3);letter-spacing:.1em}
+  .topbar a{color:var(--text2);text-decoration:none;font-family:var(--mono);font-size:11px;letter-spacing:.12em;
+    padding:5px 11px;border:1px solid var(--border2);border-radius:6px;transition:.18s}
+  .topbar a:hover{color:var(--text);border-color:var(--border3);background:rgba(120,160,220,.05)}
+
+  /* 标题块 */
+  .head{position:fixed;z-index:4;top:74px;left:var(--page-px);max-width:440px;pointer-events:none}
+  .head h1{margin:0;font-weight:800;font-size:clamp(30px,4.6vw,50px);line-height:.96;letter-spacing:-.01em}
+  .head h1 .en{display:block;font-family:var(--mono);font-weight:400;font-size:12px;letter-spacing:.34em;
+    color:var(--text3);text-transform:uppercase;margin-bottom:12px}
+  .head .sub{margin-top:14px;font-family:var(--cjk);font-size:13px;line-height:1.7;color:var(--text2);font-weight:300}
+  .head .sub b{color:var(--spec-in);font-weight:500}
+
+  /* 图例 */
+  .legend{position:fixed;z-index:4;left:var(--page-px);bottom:24px;display:flex;flex-direction:column;gap:9px;
+    font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;color:var(--text2)}
+  .legend .row{display:flex;align-items:center;gap:9px}
+  .legend .dot{width:11px;height:11px;border-radius:50%;flex:none;box-shadow:0 0 8px currentColor}
+  .legend .ln{width:22px;height:0;flex:none}
+  .legend .grp{margin-top:6px;color:var(--text3);text-transform:uppercase;letter-spacing:.18em;font-size:9px}
+
+  /* 属性面板 */
+  .panel{position:fixed;z-index:6;top:0;right:0;height:100%;width:min(372px,90vw);
+    background:linear-gradient(180deg,rgba(8,15,34,.97),rgba(4,10,24,.98));
+    border-left:1px solid var(--border3);backdrop-filter:blur(8px);
+    transform:translateX(100%);transition:transform .34s cubic-bezier(.5,0,.2,1);
+    padding:64px 26px 26px;overflow-y:auto}
+  .panel.open{transform:translateX(0)}
+  .panel .x{position:absolute;top:18px;right:20px;cursor:pointer;color:var(--text3);font-family:var(--mono);
+    font-size:18px;line-height:1;border:none;background:none;transition:.18s}
+  .panel .x:hover{color:var(--text)}
+  .panel .ptype{font-family:var(--mono);font-size:10px;letter-spacing:.24em;text-transform:uppercase}
+  .panel h2{margin:8px 0 4px;font-family:var(--cjk);font-weight:700;font-size:24px;line-height:1.15}
+  .panel .pid{font-family:var(--mono);font-size:11px;color:var(--text3);letter-spacing:.08em}
+  .panel .specbadge{display:inline-flex;align-items:center;gap:7px;margin-top:16px;padding:8px 13px;border-radius:8px;
+    font-family:var(--mono);font-size:11.5px;letter-spacing:.04em;border:1px solid}
+  .panel .field{margin-top:22px}
+  .panel .field .k{font-family:var(--mono);font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--text3);
+    border-bottom:1px solid var(--border2);padding-bottom:6px;margin-bottom:11px}
+  .panel .chips{display:flex;flex-wrap:wrap;gap:7px}
+  .panel .chip{font-family:var(--cjk);font-size:12px;padding:4px 11px;border-radius:20px;
+    background:rgba(120,160,220,.06);border:1px solid var(--border2);color:var(--text2)}
+  .panel .chip.warn{border-color:rgba(245,166,35,.4);color:var(--gold)}
+  .panel .metrics{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .panel .metric{background:rgba(120,160,220,.04);border:1px solid var(--border2);border-radius:9px;padding:11px 13px}
+  .panel .metric .mk{font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--text3)}
+  .panel .metric .mv{font-family:var(--display);font-weight:700;font-size:21px;margin-top:3px}
+  .panel .ev-head{font-family:var(--cjk);font-size:14px;line-height:1.5;color:var(--text);font-weight:400}
+
+  .hint{position:fixed;z-index:4;right:22px;bottom:20px;font-family:var(--mono);font-size:10px;
+    letter-spacing:.1em;color:var(--text3);text-align:right;line-height:1.8}
+  @media (max-width:720px){ .head{max-width:none;right:var(--page-px)} .head .sub{display:none} }
+</style>
+</head>
+<body>
+<div id="bg"></div>
+<canvas id="cv"></canvas>
+
+<div class="topbar">
+  <div class="brand"><b>ESG</b> INTELLIGENCE · ONTOLOGY</div>
+  <a href="events.html">研判信箱 ↗</a>
+  <div class="meta" id="meta">LOADING…</div>
+</div>
+
+<div class="head">
+  <h1><span class="en">P1.5 / Object · Link · spec-position</span>本体图谱</h1>
+  <div class="sub">ESG 与装备商、竞品、事件的关系图。承重边 <b>spec 位</b>：实绿=已进 BOM（盯订单簿），琥珀虚线=未进（需 design-in）。点节点看档案。</div>
+</div>
+
+<aside class="panel" id="panel">
+  <button class="x" id="px">✕</button>
+  <div id="pbody"></div>
+</aside>
+
+<div class="legend" id="legend"></div>
+<div class="hint">拖拽节点 · 滚轮缩放<br>点节点展开档案</div>
+
+<script>
+const C = getComputedStyle(document.documentElement);
+const COL = k => C.getPropertyValue(k).trim();
+const PAL = {
+  self: COL('--red'), oem: COL('--oem'), competitor: COL('--pink'),
+  company: COL('--cold'), event: COL('--evt'),
+  specIn: COL('--spec-in'), specTgt: COL('--spec-tgt'),
+  text:COL('--text'), text2:COL('--text2'), text3:COL('--text3'),
+};
+const TYPE_LABEL = {self:'ESG 自身',oem:'装备商 OEM',competitor:'在位竞品',company:'终端业主',event:'事件'};
+
+const cv = document.getElementById('cv'), ctx = cv.getContext('2d');
+let W=0,H=0,DPR=1;
+function resize(){ DPR=Math.min(devicePixelRatio||1,2); W=innerWidth; H=innerHeight;
+  cv.width=W*DPR; cv.height=H*DPR; cv.style.width=W+'px'; cv.style.height=H+'px'; ctx.setTransform(DPR,0,0,DPR,0,0); }
+addEventListener('resize',resize); resize();
+
+let view={x:0,y:0,k:1};               // pan/zoom
+let nodes=[],links=[],byId={};
+let hoverId=null, selId=null, drag=null, dragMoved=false;
+
+const RAD = n => n.type==='self'?27 : n.type==='competitor'?(15+(n.threat||3)*2.4)
+  : n.type==='oem'?20 : n.type==='event'?7 : 11;
+const specColor = s => s==='in'?PAL.specIn : s==='target'?PAL.specTgt : null;
+
+function nodeColor(n){
+  if(n.type==='event') return n.spec_position==='in'?PAL.specIn:PAL.evt;
+  return PAL[n.type]||PAL.company;
+}
+
+async function load(){
+  const r = await fetch('data/ontology.json?t='+Date.now());
+  const d = await r.json();
+  byId={};
+  nodes = d.nodes.map((n,i)=>{
+    const a=(i/d.nodes.length)*Math.PI*2, rr= n.type==='self'?0:(n.type==='event'?260:150);
+    const o={...n, x:W/2+Math.cos(a)*rr+(Math.random()-.5)*40, y:H/2+Math.sin(a)*rr+(Math.random()-.5)*40, vx:0,vy:0};
+    byId[n.id]=o; return o;
+  });
+  links = d.edges.map(e=>({...e, s:byId[e.source], t:byId[e.target]})).filter(e=>e.s&&e.t);
+  document.getElementById('meta').textContent =
+    `${nodes.length} NODES · ${links.length} EDGES · ${d.date||''}`;
+  view={x:0,y:0,k:1};
+  buildLegend();
+  loop();
+}
+
+// —— 力学模拟 ——
+function tick(){
+  const cx=W/2, cy=H/2;
+  for(const n of nodes){
+    if(n===drag) continue;
+    // 向心引力（ESG 强、事件弱）
+    const g = n.type==='self'?0.06 : n.type==='event'?0.004 : 0.012;
+    n.vx += (cx-n.x)*g; n.vy += (cy-n.y)*g;
+  }
+  // 节点互斥
+  for(let i=0;i<nodes.length;i++)for(let j=i+1;j<nodes.length;j++){
+    const a=nodes[i],b=nodes[j]; let dx=a.x-b.x,dy=a.y-b.y,d2=dx*dx+dy*dy||1;
+    const min=(RAD(a)+RAD(b)+26);
+    const f=Math.min(2600/d2, 1.2);
+    const d=Math.sqrt(d2); dx/=d;dy/=d;
+    a.vx+=dx*f; a.vy+=dy*f; b.vx-=dx*f; b.vy-=dy*f;
+    if(d<min){ const push=(min-d)*0.04; a.vx+=dx*push;a.vy+=dy*push;b.vx-=dx*push;b.vy-=dy*push; }
+  }
+  // 边弹簧
+  for(const e of links){
+    const want = e.kind==='spec'?170 : 64;
+    let dx=e.t.x-e.s.x, dy=e.t.y-e.s.y, d=Math.sqrt(dx*dx+dy*dy)||1;
+    const f=(d-want)*0.02; dx/=d;dy/=d;
+    if(e.s!==drag){e.s.vx+=dx*f;e.s.vy+=dy*f;}
+    if(e.t!==drag){e.t.vx-=dx*f;e.t.vy-=dy*f;}
+  }
+  for(const n of nodes){ if(n===drag)continue; n.vx*=.86;n.vy*=.86; n.x+=n.vx;n.y+=n.vy; }
+}
+
+// —— 渲染 ——
+let pulse=0;
+function draw(){
+  ctx.clearRect(0,0,W,H);
+  ctx.save(); ctx.translate(view.x,view.y); ctx.scale(view.k,view.k);
+  pulse=(pulse+0.018)%(Math.PI*2);
+  const hl = hoverId||selId;
+  const near = new Set();
+  if(hl){ near.add(hl); links.forEach(e=>{ if(e.source===hl)near.add(e.target); if(e.target===hl)near.add(e.source); }); }
+
+  // 边
+  for(const e of links){
+    const dim = hl && !(near.has(e.source)&&near.has(e.target));
+    ctx.globalAlpha = dim?0.08:1;
+    if(e.kind==='spec'){
+      const c=specColor(e.spec_position)||PAL.text3;
+      ctx.strokeStyle=c; ctx.lineWidth= e.spec_position==='in'?2.6:1.5;
+      ctx.setLineDash(e.spec_position==='in'?[]:[5,6]);
+      ctx.shadowColor=c; ctx.shadowBlur=e.spec_position==='in'?14:0;
+    } else {
+      ctx.strokeStyle='rgba(140,170,210,.20)'; ctx.lineWidth=1; ctx.setLineDash([]); ctx.shadowBlur=0;
+    }
+    ctx.beginPath(); ctx.moveTo(e.s.x,e.s.y); ctx.lineTo(e.t.x,e.t.y); ctx.stroke();
+  }
+  ctx.setLineDash([]); ctx.shadowBlur=0; ctx.globalAlpha=1;
+
+  // 节点
+  for(const n of nodes){
+    const r=RAD(n), col=nodeColor(n), active=(n.id===hl||near.has(n.id)), dim=hl&&!active;
+    ctx.globalAlpha=dim?0.22:1;
+    // 光晕
+    let glow = n.type==='competitor'?(8+(n.threat||3)*4) : n.type==='self'?22 : n.type==='oem'?12:6;
+    if(n.id===hl) glow*=1.6;
+    ctx.shadowColor=col; ctx.shadowBlur=glow;
+    // ESG 脉冲环
+    if(n.type==='self'){
+      ctx.strokeStyle=col; ctx.globalAlpha=(dim?0.2:1)*(0.35+0.25*Math.sin(pulse));
+      ctx.lineWidth=1.5; ctx.beginPath(); ctx.arc(n.x,n.y,r+8+3*Math.sin(pulse),0,7); ctx.stroke();
+      ctx.globalAlpha=dim?0.22:1;
+    }
+    // OEM 的 spec 环
+    if(n.type==='oem' && n.spec_position){
+      const sc=specColor(n.spec_position);
+      ctx.strokeStyle=sc; ctx.lineWidth=2.4; ctx.shadowColor=sc; ctx.shadowBlur=10;
+      ctx.setLineDash(n.spec_position==='in'?[]:[4,5]);
+      ctx.beginPath(); ctx.arc(n.x,n.y,r+5,0,7); ctx.stroke(); ctx.setLineDash([]);
+    }
+    // 实心
+    ctx.shadowColor=col; ctx.shadowBlur=glow;
+    ctx.fillStyle=col; ctx.beginPath(); ctx.arc(n.x,n.y,r,0,7); ctx.fill();
+    // 内核
+    ctx.shadowBlur=0; ctx.fillStyle='rgba(2,8,16,.55)';
+    ctx.beginPath(); ctx.arc(n.x,n.y,r*0.42,0,7); ctx.fill();
+    ctx.globalAlpha=1;
+    // 标签
+    if(n.type!=='event' || n.id===hl){
+      ctx.shadowBlur=0; ctx.globalAlpha=dim?0.3:1;
+      ctx.fillStyle = n.type==='event'?PAL.text2:PAL.text;
+      ctx.font = (n.type==='self'?'700 14px':'500 12px')+" 'Noto Sans SC',sans-serif";
+      ctx.textAlign='center';
+      const lab = n.type==='event'? (n.name.length>14?n.name.slice(0,14)+'…':n.name) : n.name;
+      ctx.fillText(lab, n.x, n.y+r+15);
+      ctx.globalAlpha=1;
+    }
+  }
+  ctx.restore();
+}
+function loop(){ tick(); draw(); requestAnimationFrame(loop); }
+
+// —— 命中检测 / 交互 ——
+function pick(mx,my){
+  const x=(mx-view.x)/view.k, y=(my-view.y)/view.k;
+  for(let i=nodes.length-1;i>=0;i--){ const n=nodes[i],r=RAD(n)+4;
+    if((n.x-x)**2+(n.y-y)**2<=r*r) return n; }
+  return null;
+}
+cv.addEventListener('mousemove',e=>{
+  if(drag){ drag.x=(e.clientX-view.x)/view.k; drag.y=(e.clientY-view.y)/view.k; drag.vx=drag.vy=0; dragMoved=true; return; }
+  const n=pick(e.clientX,e.clientY); hoverId=n?n.id:null; cv.style.cursor=n?'pointer':'grab';
+});
+cv.addEventListener('mousedown',e=>{ const n=pick(e.clientX,e.clientY);
+  if(n){ drag=n; dragMoved=false; cv.classList.add('grabbing'); }
+  else { drag={pan:true,sx:e.clientX-view.x,sy:e.clientY-view.y}; dragMoved=false; cv.classList.add('grabbing'); }
+});
+addEventListener('mousemove',e=>{ if(drag&&drag.pan){ view.x=e.clientX-drag.sx; view.y=e.clientY-drag.sy; dragMoved=true; } });
+addEventListener('mouseup',e=>{
+  if(drag&&!drag.pan&&!dragMoved){ select(drag); }
+  drag=null; cv.classList.remove('grabbing');
+});
+cv.addEventListener('wheel',e=>{ e.preventDefault();
+  const f=e.deltaY<0?1.12:0.89, mx=e.clientX,my=e.clientY;
+  view.x=mx-(mx-view.x)*f; view.y=my-(my-view.y)*f; view.k=Math.max(.4,Math.min(3,view.k*f));
+},{passive:false});
+
+// —— 属性面板 ——
+const panel=document.getElementById('panel'), pbody=document.getElementById('pbody');
+document.getElementById('px').onclick=()=>{ panel.classList.remove('open'); selId=null; };
+function field(k,inner){ return `<div class="field"><div class="k">${k}</div>${inner}</div>`; }
+function chips(arr,cls=''){ return `<div class="chips">${arr.map(x=>`<span class="chip ${cls}">${x}</span>`).join('')}</div>`; }
+function select(n){
+  selId=n.id; panel.classList.add('open');
+  const col=nodeColor(n);
+  let h=`<div class="ptype" style="color:${col}">${TYPE_LABEL[n.type]||n.type}</div>`;
+  if(n.type==='event'){
+    h+=`<h2 style="font-size:18px">${n.name}</h2><div class="pid">${n.id}</div>`;
+    if(n.spec_position){ const sc=specColor(n.spec_position), t=n.spec_position==='in'?'spec 已进 · 盯订单簿':'spec 未进 · 需 design-in';
+      h+=`<div class="specbadge" style="color:${sc};border-color:${sc}">◆ ${t}</div>`; }
+    h+=`<div class="field"><div class="k">研判要素</div><div class="metrics">
+      <div class="metric"><div class="mk">工况</div><div class="mv" style="font-size:15px">${n.working_condition||'—'}</div></div>
+      <div class="metric"><div class="mk">价值档</div><div class="mv">${n.value_band||'—'}</div></div>
+      <div class="metric"><div class="mk">赢面</div><div class="mv" style="color:${col}">${n.winnability??'—'}</div></div>
+      <div class="metric"><div class="mk">提前量</div><div class="mv">${n.lead_time||'—'}</div></div>
+    </div></div>`;
+  } else {
+    h+=`<h2>${n.name}</h2><div class="pid">${n.id}${n.resolved?'':' · 待提升'}</div>`;
+    if(n.type==='oem' && n.spec_position){ const sc=specColor(n.spec_position),
+      t=n.spec_position==='in'?'ESG spec 位：已进 BOM':'ESG spec 位：未进 · design-in 优先';
+      h+=`<div class="specbadge" style="color:${sc};border-color:${sc}">◆ ${t}</div>`; }
+    if(n.type==='competitor' && n.threat!=null){
+      h+=field('威胁基线', `<div class="metrics"><div class="metric"><div class="mk">avg threat</div>
+        <div class="mv" style="color:${PAL.pink}">${n.threat}</div></div></div>`);
+    }
+    if(n.products&&n.products.length) h+=field('ESG 对口阀型', chips(n.products));
+    if(n.competitors&&n.competitors.length) h+=field('在位竞品', chips(n.competitors,'warn'));
+    if(n.type==='company' && !n.resolved) h+=field('提示',`<div class="ev-head">未登记业主（auto 实体），待人工提升进 registry。</div>`);
+  }
+  pbody.innerHTML=h;
+}
+
+function buildLegend(){
+  const L=document.getElementById('legend');
+  const dot=(c,t)=>`<div class="row"><span class="dot" style="background:${c};color:${c}"></span>${t}</div>`;
+  const ln=(c,dash,t)=>`<div class="row"><span class="ln" style="border-top:2px ${dash?'dashed':'solid'} ${c}"></span>${t}</div>`;
+  L.innerHTML =
+    `<div class="grp">节点</div>`+
+    dot(PAL.self,'ESG 自身')+dot(PAL.oem,'装备商 OEM')+dot(PAL.competitor,'竞品 (光晕=威胁)')+
+    dot(PAL.company,'终端业主')+dot(PAL.evt,'事件')+
+    `<div class="grp">spec 位边</div>`+
+    ln(PAL.specIn,false,'已进 BOM（顺风）')+ln(PAL.specTgt,true,'未进（需 design-in）');
+}
+
+load();
+</script>
+</body>
+</html>
