@@ -3,58 +3,68 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-06-17T04:50:24.719309+00:00",
-  "item_count": 6,
+  "updated_at": "2026-06-18T04:43:25.387270+00:00",
+  "item_count": 7,
   "items": [
     {
-      "id": "2cdd3ab3de",
-      "title": "SFC Energy AG Demonstrates Innovative Power Solutions for Military Vehicle Platforms at Eurosatory",
-      "url": "https://fuelcellsworks.com/2026/06/16/energy-innovation/sfc-energy-ag-demonstrates-innovative-power-solutions-for-military-vehicle-platforms-at-eurosatory",
+      "id": "ee362edfd4",
+      "title": "Calvera Hydrogen Wins Contract to Supply 500-Bar Stationary Storage to a Central European EPC Giant",
+      "url": "https://fuelcellsworks.com/2026/06/17/green-investment/calvera-hydrogen-wins-contract-to-supply-500-bar-stationary-storage-to-a-central-european-epc-giant",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-16T16:04:24+00:00",
-      "pub_ts": 1781625864
+      "pub_date": "2026-06-17T16:11:55+00:00",
+      "pub_ts": 1781712715
     },
     {
-      "id": "2e22cc345c",
-      "title": "The European Hydrogen Industry Asks the EU Commission to Improve the Hydrogen Bank",
-      "url": "https://fuelcellsworks.com/2026/06/14/h2/the-european-hydrogen-industry-asks-the-eu-commission-to-improve-the-hydrogen-bank",
+      "id": "79b0d900a5",
+      "title": "HAESAERTS Advances Hydrogen-Powered Logistics with Successful Belgium–Italy Transport for CP Chem",
+      "url": "https://fuelcellsworks.com/2026/06/14/fuel-cells/haesaerts-advances-hydrogen-powered-logistics-with-successful-belgium-italy-transport-for-cp-chem",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-16T15:52:15+00:00",
-      "pub_ts": 1781625135
+      "pub_date": "2026-06-17T15:57:12+00:00",
+      "pub_ts": 1781711832
     },
     {
-      "id": "fe23faa91a",
-      "title": "Oman's GUtech Opens a 3D-Printed Hydrogen Lab",
-      "url": "https://fuelcellsworks.com/2026/06/16/clean-hydrogen/oman-s-gutech-opens-a-3d-printed-hydrogen-lab",
+      "id": "6b5ec2491c",
+      "title": "Cell Impact Reports Limited Liquidity Following Delayed Transaction",
+      "url": "https://fuelcellsworks.com/2026/06/17/clean-energy/cell-impact-reports-limited-liquidity-following-delayed-transaction",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-16T15:38:35+00:00",
-      "pub_ts": 1781624315
+      "pub_date": "2026-06-17T15:53:29+00:00",
+      "pub_ts": 1781711609
     },
     {
-      "id": "f9a861e849",
-      "title": "Amogy and KOWA Form Partnership to Provide Ammonia Cracking-Based Hydrogen Supply in Japan",
-      "url": "https://fuelcellsworks.com/2026/06/16/hydrogen/amogy-and-kowa-form-partnership-to-provide-ammonia-cracking-based-hydrogen-supply-in-japan",
+      "id": "8e51c548a3",
+      "title": "Sensirion Announces Global Availability of the STC42A Automotive H2 Sensor for Thermal Runaway Detection",
+      "url": "https://fuelcellsworks.com/2026/06/17/clean-energy/sensirion-announces-global-availability-of-the-stc42a-automotive-h2-sensor-for-thermal-runaway-detection",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-16T15:31:25+00:00",
-      "pub_ts": 1781623885
+      "pub_date": "2026-06-17T15:35:48+00:00",
+      "pub_ts": 1781710548
     },
     {
-      "id": "51672ddb2f",
-      "title": "Fraunhofer Institute Awarded the Joseph Von Fraunhofer Prize for Electrolyzer and Fuel Cell in One",
-      "url": "https://fuelcellsworks.com/2026/06/11/clean-energy/fraunhofer-institute-awarded-the-joseph-von-fraunhofer-prize-for-electrolyzer-and-fuel-cell-in-one",
+      "id": "6c704ff8eb",
+      "title": "Coca-Cola Deploys First Battery-Electric Truck From Hylane",
+      "url": "https://fuelcellsworks.com/2026/06/16/clean-energy/coca-cola-deploys-first-battery-electric-truck-from-hylane",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-16T15:21:30+00:00",
-      "pub_ts": 1781623290
+      "pub_date": "2026-06-17T15:20:36+00:00",
+      "pub_ts": 1781709636
+    },
+    {
+      "id": "b8921262ce",
+      "title": "H2PRO and SUN SYSTEMS GROUP Partner to Build Tarragona’s First Off-Grid Solar-to-Hydrogen Plant, Scaling to 150 MW by 2032",
+      "url": "https://hydrogen-central.com/h2pro-and-sun-systems-group-partner-to-build-tarragonas-first-off-grid-solar-to-hydrogen-plant-scaling-to-150-mw-by-2032/",
+      "summary": "H2PRO and SUN SYSTEMS GROUP Partner to Build Tarragona&#8217;s First Off-Grid Solar-to-Hydrogen Plant, Scaling to 150 MW by 2032 H2PRO and SUN SYSTEMS GROUP are developing a fully off-grid solar-to-hydrogen [&#8230;]\nThe post H2PRO and SUN SYSTEMS GROUP Partner to Build Tarragona&#8217;s First Off-G…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-06-12T14:31:31+00:00",
+      "pub_ts": 1781274691
     },
     {
       "id": "2de7ee4cd3",

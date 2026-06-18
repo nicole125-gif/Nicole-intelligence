@@ -3,108 +3,118 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-06-17T04:49:55.374443+00:00",
-  "item_count": 15,
+  "updated_at": "2026-06-18T04:43:00.735142+00:00",
+  "item_count": 13,
   "items": [
     {
-      "id": "6ed833f39f",
-      "title": "半导体设备，又一个新赛道火了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813311&idx=1&sn=e4b9d0b794e19478d4bc6db843fcaa12",
-      "summary": "半导体设备，又一个新赛道火了",
+      "id": "e69b1eb499",
+      "title": "一边龙头倒下一边多点落地，第三代半导体走到哪一步?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813360&idx=1&sn=fa0620bc97f75e1ac9cf72d4ca6205ed",
+      "summary": "一边龙头倒下一边多点落地，第三代半导体走到哪一步?",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-17T04:49:51.341234+00:00",
-      "pub_ts": 1781671791
+      "pub_date": "2026-06-18T04:42:56.335448+00:00",
+      "pub_ts": 1781757776
     },
     {
-      "id": "ca790643a1",
-      "title": "百亿换Al，高通拟收 Tenstorrent",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813311&idx=2&sn=86177da464db261f0bdf641de10702ba",
-      "summary": "百亿换Al，高通拟收 Tenstorrent",
+      "id": "bb9a001de9",
+      "title": "MWC26上海6月开幕，邀你共赴“科技嘉年华”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813360&idx=2&sn=13b5a5cf0f105aa07dbefd4789570e5b",
+      "summary": "MWC26上海6月开幕，邀你共赴“科技嘉年华”",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-17T04:49:51.341274+00:00",
-      "pub_ts": 1781671791
+      "pub_date": "2026-06-18T04:42:56.335505+00:00",
+      "pub_ts": 1781757776
     },
     {
-      "id": "a9f400da92",
-      "title": "全球最强芯片冷却技术诞生",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813311&idx=3&sn=78cd9077862ce58941e6fd08fbf17f28",
-      "summary": "全球最强芯片冷却技术诞生",
+      "id": "1eb6d81091",
+      "title": "硅芯片走到尽头了吗?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813360&idx=3&sn=4e917218ed8e5c925358a94c5c6fa8a4",
+      "summary": "硅芯片走到尽头了吗?",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-17T04:49:51.341294+00:00",
-      "pub_ts": 1781671791
+      "pub_date": "2026-06-18T04:42:56.335523+00:00",
+      "pub_ts": 1781757776
     },
     {
-      "id": "6516529ebb",
-      "title": "应用材料推出两款“3D芯片微缩”设备",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813311&idx=4&sn=b578f3c329abd89c222c97dff6786bd3",
-      "summary": "应用材料推出两款“3D芯片微缩”设备",
+      "id": "3e570bd77e",
+      "title": "三大巨头领跑，SRAM芯片赛道爆发",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813360&idx=4&sn=61cdd63695794da2c1d5c1b66d1a7e5b",
+      "summary": "三大巨头领跑，SRAM芯片赛道爆发",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-17T04:49:51.341311+00:00",
-      "pub_ts": 1781671791
+      "pub_date": "2026-06-18T04:42:56.335540+00:00",
+      "pub_ts": 1781757776
     },
     {
-      "id": "5bd1b0f768",
-      "title": "LNS架构AI芯片，能效碾压主流GPU",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813311&idx=5&sn=a9411dbcf611774e74984d4e6df8cad2",
-      "summary": "LNS架构AI芯片，能效碾压主流GPU",
-      "source": "半导体产业纵横",
-      "lang": "zh",
-      "pub_date": "2026-06-17T04:49:51.341326+00:00",
-      "pub_ts": 1781671791
-    },
-    {
-      "id": "0f23eac28c",
-      "title": "DRAM，还会崩盘吗?",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822784&idx=1&sn=a5401b96b9ff263a81572bf286be2e97",
-      "summary": "DRAM，还会崩盘吗?",
+      "id": "bb9e436e2b",
+      "title": "两家国产MCU公司，官宣涨价！",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822996&idx=1&sn=13a13df6da4cb4ce471ef4607f086608",
+      "summary": "两家国产MCU公司，官宣涨价！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-17T04:49:38.386602+00:00",
-      "pub_ts": 1781671778
+      "pub_date": "2026-06-18T04:42:47.400051+00:00",
+      "pub_ts": 1781757767
     },
     {
-      "id": "571a3a9b10",
-      "title": "二维材料，关键突破，替代硅倒计时?",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822779&idx=1&sn=04dd57a2df241803214bdf61dfa023d4",
-      "summary": "二维材料，关键突破，替代硅倒计时?",
+      "id": "231873ec8a",
+      "title": "全球最小晶体管，三星造！",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822989&idx=1&sn=deef45b5f57480e4a76747f977ead280",
+      "summary": "全球最小晶体管，三星造！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-17T04:49:38.386647+00:00",
-      "pub_ts": 1781671778
+      "pub_date": "2026-06-18T04:42:47.400103+00:00",
+      "pub_ts": 1781757767
     },
     {
-      "id": "c7cde7eba9",
-      "title": "一颗3nm芯片，挑战英伟达",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822779&idx=2&sn=2350d1e92a1c48da6fb01b333afa3bd9",
-      "summary": "一颗3nm芯片，挑战英伟达",
+      "id": "d5d26fc325",
+      "title": "LPDDR6，大战已打响！",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822937&idx=1&sn=7ce27a13c3246b54ee54862a4a31bfab",
+      "summary": "LPDDR6，大战已打响！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-17T04:49:38.386666+00:00",
-      "pub_ts": 1781671778
+      "pub_date": "2026-06-18T04:42:47.400121+00:00",
+      "pub_ts": 1781757767
     },
     {
-      "id": "5869981f86",
-      "title": "台积电，猛攻CoPoS",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822779&idx=3&sn=42a0108f8757b0a9ad32a62852cf26bf",
-      "summary": "台积电，猛攻CoPoS",
+      "id": "9b0d5a767d",
+      "title": "超十亿B轮系列融资落地，微纳核芯3D-CIM架构能否撕开AI推理芯片新口子?",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822937&idx=2&sn=4371e396a019a3288f7dd6f237ab7416",
+      "summary": "超十亿B轮系列融资落地，微纳核芯3D-CIM架构能否撕开AI推理芯片新口子?",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-17T04:49:38.386683+00:00",
-      "pub_ts": 1781671778
+      "pub_date": "2026-06-18T04:42:47.400138+00:00",
+      "pub_ts": 1781757767
     },
     {
-      "id": "3ba88f386b",
-      "title": "警告：DRAM将继续暴涨",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247822779&idx=4&sn=14ca639fcd26613ecd1b3256d77db9b1",
-      "summary": "警告：DRAM将继续暴涨",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-06-17T04:49:38.386698+00:00",
-      "pub_ts": 1781671778
+      "id": "480d340048",
+      "title": "Signoff Of Synthesis-Optimized Registers",
+      "url": "https://semiengineering.com/signoff-of-synthesis-optimized-registers/",
+      "summary": "When is a complex chip design ready to be shipped to manufacturing?\nThe post Signoff Of Synthesis-Optimized Registers appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-06-17T07:15:07+00:00",
+      "pub_ts": 1781680507
+    },
+    {
+      "id": "049d0722cd",
+      "title": "Designing Chips That Can Explain Themselves",
+      "url": "https://semiengineering.com/designing-chips-that-can-explain-themselves/",
+      "summary": "On-die monitors, localized analytics, and lifecycle data are giving architects new ways to close the gap between design intent and silicon behavior.\nThe post Designing Chips That Can Explain Themselves appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-06-17T07:01:56+00:00",
+      "pub_ts": 1781679716
+    },
+    {
+      "id": "0d5afcfb7c",
+      "title": "Blog Review: June 17",
+      "url": "https://semiengineering.com/blog-review-june-17-3/",
+      "summary": "NVMe on-controller memory; SSN datapaths; Git-based chip workflows; low-light image enhancement; testing AI networks.\nThe post Blog Review: June 17 appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-06-17T07:01:36+00:00",
+      "pub_ts": 1781679696
     },
     {
       "id": "83772298a4",
@@ -125,36 +135,6 @@
       "lang": "en",
       "pub_date": "2026-06-16T07:01:36+00:00",
       "pub_ts": 1781593296
-    },
-    {
-      "id": "9430b7a27f",
-      "title": "Modeling Multi-GPU Traffic For Distributed AI Workloads (UW Madison, AMD)",
-      "url": "https://semiengineering.com/modeling-multi-gpu-traffic-for-distributed-ai-workloads-uw-madison-amd/",
-      "summary": "Researchers from University of Wisconsin-Madison and AMD Research and Advanced Development published a technical paper titled “Eidola: Modeling Multi-GPU Network Communication Traffic in Distributed AI Workloads.” Abstract: “As distributed AI workloads grow in scale, multi-GPU systems have become es…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-06-16T00:30:59+00:00",
-      "pub_ts": 1781569859
-    },
-    {
-      "id": "ea2d72ef7a",
-      "title": "Physical Neural Networks: A Survey (U. of Lübeck, TU Hamburg)",
-      "url": "https://semiengineering.com/physical-neural-networks-a-survey-u-of-lubeck-tu-hamburg/",
-      "summary": "Researchers from the University of Lübeck and TU Hamburg published a technical paper titled “Beyond Silicon: Materials, Mechanisms, and Methods for Physical Neural Computing.” Abstract: “Physical implementations of neural computation now extend far beyond silicon hardware, encompassing substrates su…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-06-15T22:07:27+00:00",
-      "pub_ts": 1781561247
-    },
-    {
-      "id": "15bfe52dbb",
-      "title": "Wi-Fi Flies Higher As Edge AI Build-Out Takes Root",
-      "url": "https://semiengineering.com/wi-fi-flies-higher-as-edge-ai-build-out-takes-root/",
-      "summary": "Chip and system designers scramble to leverage existing and future standards as edge AI increases demand for faster data movement and greater reliability.\nThe post Wi-Fi Flies Higher As Edge AI Build-Out Takes Root appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-06-15T07:01:50+00:00",
-      "pub_ts": 1781506910
     }
   ],
   "source_success_count": 3,

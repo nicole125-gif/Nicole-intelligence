@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-06-17T04:50:37.150666+00:00",
+  "updated_at": "2026-06-18T04:43:37.842414+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "0fd7f1ad63",
-      "title": "EHA26: J&J’s multiple myeloma therapies impress with new data",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/eha26-jjs-multiple-myeloma-therapies-impress-with-new-data/",
-      "summary": "New data for Talvey and Tecvayli was presented at the annual meeting as J&amp;J directs its therapies in earlier-line settings.",
+      "id": "6d6aefbeb5",
+      "title": "Vedana debuts with $46m to progress migraine therapies",
+      "url": "https://www.pharmaceutical-technology.com/news/vedana-therapeutics-debut-migraine-therapies/",
+      "summary": "Vedana’s clinical pipeline targets PACAP – an approach that has shown varying levels of success in migraine clinical trials thus far.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-16T15:27:12+00:00",
-      "pub_ts": 1781623632
+      "pub_date": "2026-06-17T15:39:52+00:00",
+      "pub_ts": 1781710792
     },
     {
-      "id": "9c8982c13d",
-      "title": "Cystic Fibrosis Foundation backs Israeli biotech with $13m to develop inhaled drug",
-      "url": "https://www.pharmaceutical-technology.com/news/cystic-fibrosis-foundation-backs-israeli-biotech-with-13m-to-develop-inhaled-drug/",
-      "summary": "SpliSense is currently conducting a Phase IIb trial with its antisense oligonucleotide therapy.",
+      "id": "bda2154c4f",
+      "title": "AI platforms grow to improve pharma’s regulatory workflows",
+      "url": "https://www.pharmaceutical-technology.com/features/ai-platforms-grow-to-improve-pharmas-regulatory-workflows/",
+      "summary": "Pharma is employing AI to support approval submissions by predicting how regulators will react before data is submitted.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-16T11:31:16+00:00",
-      "pub_ts": 1781609476
+      "pub_date": "2026-06-17T10:55:57+00:00",
+      "pub_ts": 1781693757
     },
     {
-      "id": "3224f5cb22",
-      "title": "EHA26: AvenCell’s AVC-201-01 switchable allogeneic CAR T offers early validation in AML",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/eha26-avencells-avc-201-01-switchable-allogeneic-car-t-offers-early-validation-in-aml/",
-      "summary": "AvenCell Therapeutics presented updated results for its CAR-T cell blood cancer therapy at EHA 2026.",
+      "id": "b06baf73fa",
+      "title": "AviadoBio broadens vMiX gene silencing licence with King’s College London",
+      "url": "https://www.pharmaceutical-technology.com/news/aviadobio-vmix-licence-kings-college-london/",
+      "summary": "AviadoBio has extended its exclusive licence agreement with King’s College London to apply the vMiX RNAi gene-silencing platform across all human therapeutic areas.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-16T10:38:51+00:00",
-      "pub_ts": 1781606331
+      "pub_date": "2026-06-17T10:17:57+00:00",
+      "pub_ts": 1781691477
     },
     {
-      "id": "7a7461d6b2",
-      "title": "FDA and MHRA forge new regulatory collaboration initiative",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-and-mhra-forge-new-regulatory-collaboration-initiative/",
-      "summary": "The new initiative is intended to improve the global oversight of medical devices, AI, and innovative medicines and to streamline knowledge sharing efforts.",
+      "id": "413f4fb59c",
+      "title": "EHA26: BMS touts positive multiple myeloma data for two pipeline candidates",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/eha26-bms-touts-positive-multiple-myeloma-data-for-two-pipeline-candidates/",
+      "summary": "BMS shared Phase III data for mezigdomide and Phase I data for a CAR-T therapy at this year’s EHA conference.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-16T10:17:33+00:00",
-      "pub_ts": 1781605053
+      "pub_date": "2026-06-17T09:32:42+00:00",
+      "pub_ts": 1781688762
     },
     {
-      "id": "89f39fcd9d",
-      "title": "Alkermes’ alixorexton secures FDA and EC orphan designations",
-      "url": "https://www.pharmaceutical-technology.com/news/alkermes-alixorexton-fda-ec-orphan-designations/",
-      "summary": "Alkermes has received ODD from both the FDA and the EC for alixorexton, its investigational OX2R agonist to treat idiopathic hypersomnia and narcolepsy.",
+      "id": "3c5bc3b2a6",
+      "title": "Altaris to acquire Simulations Plus in $375m all-cash deal",
+      "url": "https://www.pharmaceutical-technology.com/news/altaris-to-acquire-simulations-plus/",
+      "summary": "Simulations Plus has entered a definitive agreement to be acquired by affiliates of Altaris in an all-cash transaction valued at $375m.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-16T10:04:49+00:00",
-      "pub_ts": 1781604289
+      "pub_date": "2026-06-17T08:56:48+00:00",
+      "pub_ts": 1781686608
     }
   ],
   "source_success_count": 1,
