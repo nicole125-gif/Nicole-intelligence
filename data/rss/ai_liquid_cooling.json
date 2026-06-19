@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-06-18T04:43:14.203869+00:00",
+  "updated_at": "2026-06-19T05:02:22.883799+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "891b0378b7",
-      "title": "刚刚，北京建了一座AI工厂：目标10万P算力，日产10万亿Token!",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898050&idx=1&sn=a66f4f9669c0a4728994d09bdaf85ddb",
-      "summary": "刚刚，北京建了一座AI工厂：目标10万P算力，日产10万亿Token!",
+      "id": "74b2478117",
+      "title": "AI看病成为医患新包袱？补上「多轮追问」，通用AI才迈得过医疗关",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898354&idx=1&sn=b06a7a37d4509957c76dafa8e063b594",
+      "summary": "AI看病成为医患新包袱？补上「多轮追问」，通用AI才迈得过医疗关",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-18T04:43:10.104124+00:00",
-      "pub_ts": 1781757790
+      "pub_date": "2026-06-19T05:02:18.342071+00:00",
+      "pub_ts": 1781845338
     },
     {
-      "id": "c2eab8452c",
-      "title": "AI转型最大的门槛，不是技术，是人",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898050&idx=2&sn=c57e8d4c2630c5e433488b9d65cd6a05",
-      "summary": "AI转型最大的门槛，不是技术，是人",
+      "id": "992548045f",
+      "title": "Midjourney新副业曝光：50万个传感器藏进浴池，60秒生成你的3D身体地图",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898354&idx=2&sn=f842f4fd953b066992ed4f5808c6c8d0",
+      "summary": "Midjourney新副业曝光：50万个传感器藏进浴池，60秒生成你的3D身体地图",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-18T04:43:10.104163+00:00",
-      "pub_ts": 1781757790
+      "pub_date": "2026-06-19T05:02:18.342118+00:00",
+      "pub_ts": 1781845338
     },
     {
-      "id": "13648cd68f",
-      "title": "星海图创始人高继扬：具身智能三层技术路线，没有捷径可走",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898050&idx=3&sn=080af08a487c17184d4405fa41c54ced",
-      "summary": "星海图创始人高继扬：具身智能三层技术路线，没有捷径可走",
+      "id": "bdce181c60",
+      "title": "从“一句成片”到“长轨推演”：探究多模态智能体在长视频编辑中的应用",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898354&idx=3&sn=07109e75543357ad7ab51c0a10102eb6",
+      "summary": "从“一句成片”到“长轨推演”：探究多模态智能体在长视频编辑中的应用",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-18T04:43:10.104180+00:00",
-      "pub_ts": 1781757790
+      "pub_date": "2026-06-19T05:02:18.342140+00:00",
+      "pub_ts": 1781845338
     },
     {
-      "id": "f448020abf",
-      "title": "腾讯混元最新开源：一套RL框架打通多个模态，庞天宇团队新作",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898050&idx=4&sn=031ff938f8a26f84c99ccc8316c22eff",
-      "summary": "腾讯混元最新开源：一套RL框架打通多个模态，庞天宇团队新作",
+      "id": "ed14d72cc0",
+      "title": "18年前不让你苦修PS的美图，这次不让你苦修AI了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898304&idx=1&sn=f7f45a82b7f956363afcd998b44ffbf0",
+      "summary": "18年前不让你苦修PS的美图，这次不让你苦修AI了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-18T04:43:10.104195+00:00",
-      "pub_ts": 1781757790
+      "pub_date": "2026-06-19T05:02:18.342159+00:00",
+      "pub_ts": 1781845338
     },
     {
-      "id": "f9b6d928c1",
-      "title": "困住医疗AI的死循环，终于有国产玩家跑通了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898044&idx=1&sn=bbf9b53089d3d8d5e02d4db477f3c8b3",
-      "summary": "困住医疗AI的死循环，终于有国产玩家跑通了",
+      "id": "b8e83b02e2",
+      "title": "全员本科生！何恺明组新作：文生图，258M参数就够了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898304&idx=2&sn=3c337900d33cd6667ed82b6a83e503b5",
+      "summary": "全员本科生！何恺明组新作：文生图，258M参数就够了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-18T04:43:10.104210+00:00",
-      "pub_ts": 1781757790
+      "pub_date": "2026-06-19T05:02:18.342178+00:00",
+      "pub_ts": 1781845338
     }
   ],
   "source_success_count": 1,

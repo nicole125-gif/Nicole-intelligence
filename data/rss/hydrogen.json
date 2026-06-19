@@ -3,78 +3,108 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-06-18T04:43:25.387270+00:00",
-  "item_count": 7,
+  "updated_at": "2026-06-19T05:02:41.843608+00:00",
+  "item_count": 10,
   "items": [
     {
-      "id": "ee362edfd4",
-      "title": "Calvera Hydrogen Wins Contract to Supply 500-Bar Stationary Storage to a Central European EPC Giant",
-      "url": "https://fuelcellsworks.com/2026/06/17/green-investment/calvera-hydrogen-wins-contract-to-supply-500-bar-stationary-storage-to-a-central-european-epc-giant",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-06-17T16:11:55+00:00",
-      "pub_ts": 1781712715
-    },
-    {
-      "id": "79b0d900a5",
-      "title": "HAESAERTS Advances Hydrogen-Powered Logistics with Successful Belgium–Italy Transport for CP Chem",
-      "url": "https://fuelcellsworks.com/2026/06/14/fuel-cells/haesaerts-advances-hydrogen-powered-logistics-with-successful-belgium-italy-transport-for-cp-chem",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-06-17T15:57:12+00:00",
-      "pub_ts": 1781711832
-    },
-    {
-      "id": "6b5ec2491c",
-      "title": "Cell Impact Reports Limited Liquidity Following Delayed Transaction",
-      "url": "https://fuelcellsworks.com/2026/06/17/clean-energy/cell-impact-reports-limited-liquidity-following-delayed-transaction",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-06-17T15:53:29+00:00",
-      "pub_ts": 1781711609
-    },
-    {
-      "id": "8e51c548a3",
-      "title": "Sensirion Announces Global Availability of the STC42A Automotive H2 Sensor for Thermal Runaway Detection",
-      "url": "https://fuelcellsworks.com/2026/06/17/clean-energy/sensirion-announces-global-availability-of-the-stc42a-automotive-h2-sensor-for-thermal-runaway-detection",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-06-17T15:35:48+00:00",
-      "pub_ts": 1781710548
-    },
-    {
-      "id": "6c704ff8eb",
-      "title": "Coca-Cola Deploys First Battery-Electric Truck From Hylane",
-      "url": "https://fuelcellsworks.com/2026/06/16/clean-energy/coca-cola-deploys-first-battery-electric-truck-from-hylane",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-06-17T15:20:36+00:00",
-      "pub_ts": 1781709636
-    },
-    {
-      "id": "b8921262ce",
-      "title": "H2PRO and SUN SYSTEMS GROUP Partner to Build Tarragona’s First Off-Grid Solar-to-Hydrogen Plant, Scaling to 150 MW by 2032",
-      "url": "https://hydrogen-central.com/h2pro-and-sun-systems-group-partner-to-build-tarragonas-first-off-grid-solar-to-hydrogen-plant-scaling-to-150-mw-by-2032/",
-      "summary": "H2PRO and SUN SYSTEMS GROUP Partner to Build Tarragona&#8217;s First Off-Grid Solar-to-Hydrogen Plant, Scaling to 150 MW by 2032 H2PRO and SUN SYSTEMS GROUP are developing a fully off-grid solar-to-hydrogen [&#8230;]\nThe post H2PRO and SUN SYSTEMS GROUP Partner to Build Tarragona&#8217;s First Off-G…",
+      "id": "322ecd822d",
+      "title": "Dutch Debut – SHPT Debuts at World Hydrogen Summit, Accelerating Entry into European Market",
+      "url": "https://hydrogen-central.com/dutch-debut-shpt-debuts-at-world-hydrogen-summit-accelerating-entry-into-european-market/",
+      "summary": "Dutch Debut &#8211; SHPT Debuts at World Hydrogen Summit, Accelerating Entry into European Market ROTTERDAM, Netherlands, June 1, 2026 /PRNewswire/ &#8212; From May 19 to 21, the 7th World Hydrogen [&#8230;]\nThe post Dutch Debut &#8211; SHPT Debuts at World Hydrogen Summit, Accelerating Entry into E…",
       "source": "Hydrogen Central",
       "lang": "en",
-      "pub_date": "2026-06-12T14:31:31+00:00",
-      "pub_ts": 1781274691
+      "pub_date": "2026-06-18T17:16:38+00:00",
+      "pub_ts": 1781802998
     },
     {
-      "id": "2de7ee4cd3",
-      "title": "GSFA Convenes Hydrogen Energy Experts from 15 Countries: P2X2P Policy Framework Critical to Net-Zero AI and Semiconductor Industries",
-      "url": "https://hydrogen-central.com/gsfa-convenes-hydrogen-energy-experts-from-15-countries-p2x2p-policy-framework-critical-to-net-zero-ai-and-semiconductor-industries/",
-      "summary": "GSFA Convenes Hydrogen Energy Experts from 15 Countries: P2X2P Policy Framework Critical to Net-Zero AI and Semiconductor Industries The Global Sustainable Fuel Alliance (GSFA) recently brought together hydrogen and energy [&#8230;]\nThe post GSFA Convenes Hydrogen Energy Experts from 15 Countries: P…",
+      "id": "9c144d4e00",
+      "title": "Plug and Carlton Power: Barrow Green Hydrogen Achieves FID, Bringing Industrial-Scale Hydrogen to the UK",
+      "url": "https://hydrogen-central.com/plug-and-carlton-power-barrow-green-hydrogen-achieves-fid-bringing-industrial-scale-hydrogen-to-the-uk/",
+      "summary": "Plug and Carlton Power: Barrow Green Hydrogen Achieves FID, Bringing Industrial-Scale Hydrogen to the UK Reaching final investment decision (FID) is one of the clearest signals that a project is [&#8230;]\nThe post Plug and Carlton Power: Barrow Green Hydrogen Achieves FID, Bringing Industrial-Scale …",
       "source": "Hydrogen Central",
       "lang": "en",
-      "pub_date": "2026-06-12T09:05:15+00:00",
-      "pub_ts": 1781255115
+      "pub_date": "2026-06-18T17:14:52+00:00",
+      "pub_ts": 1781802892
+    },
+    {
+      "id": "12dc0e4eef",
+      "title": "Lhyfe and STRABAG Join Forces to expand green hydrogen in Germany",
+      "url": "https://hydrogen-central.com/lhyfe-and-strabag-join-forces-to-expand-green-hydrogen-in-germany-2/",
+      "summary": "Lhyfe and STRABAG Join Forces to expand green hydrogen in Germany Nantes (France) and Vienna (Austria), May 28, 2026 –Lhyfe (EURONEXT: LHYFE), one of the world’s pioneers in the production of green hydrogen for the decarbonisation of [&#8230;]\nThe post Lhyfe and STRABAG Join Forces to expand green h…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-06-18T17:12:39+00:00",
+      "pub_ts": 1781802759
+    },
+    {
+      "id": "a73b993ea2",
+      "title": "Lhyfe and STRABAG Join Forces to expand green hydrogen in Germany",
+      "url": "https://hydrogen-central.com/lhyfe-and-strabag-join-forces-to-expand-green-hydrogen-in-germany/",
+      "summary": "Lhyfe and STRABAG Join Forces to expand green hydrogen in Germany Nantes (France) and Vienna (Austria), May 28, 2026 –Lhyfe (EURONEXT: LHYFE), one of the world’s pioneers in the production of green hydrogen for the decarbonisation of [&#8230;]\nThe post Lhyfe and STRABAG Join Forces to expand green h…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-06-18T17:10:24+00:00",
+      "pub_ts": 1781802624
+    },
+    {
+      "id": "337b9196c9",
+      "title": "Ohmium and InSolare Collaborate to Deliver a Multi-application Green Hydrogen Project for NLC India Limited",
+      "url": "https://hydrogen-central.com/ohmium-and-insolare-collaborate-to-deliver-a-multi-application-green-hydrogen-project-for-nlc-india-limited/",
+      "summary": "Ohmium and InSolare Collaborate to Deliver a Multi-application Green Hydrogen Project for NLC India Limited NEWARK, Calif. &#38; BANGALORE, India&#8211;(BUSINESS WIRE)&#8211;Ohmium International Inc., a leading manufacturer of cutting-edge, high-efficiency, and [&#8230;]\nThe post Ohmium and InSolare…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-06-18T17:05:22+00:00",
+      "pub_ts": 1781802322
+    },
+    {
+      "id": "043a8cc121",
+      "title": "European Energy Signs Balancing Agreement with Twig Energy for Måde Hybrid Park",
+      "url": "https://fuelcellsworks.com/2026/06/18/green-investment/european-energy-signs-balancing-agreement-with-twig-energy-for-made-hybrid-park",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-06-18T16:21:49+00:00",
+      "pub_ts": 1781799709
+    },
+    {
+      "id": "b044d511ab",
+      "title": "The World's First Green Hydrogen-Powered Tanker \"Rasa\" Was Christened in the Port of Klaipėda",
+      "url": "https://fuelcellsworks.com/2026/06/18/energy-innovation/the-world-s-first-green-hydrogen-powered-tanker-rasa-was-christened-in-the-port-of-klaipeda",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-06-18T16:05:23+00:00",
+      "pub_ts": 1781798723
+    },
+    {
+      "id": "8097318d41",
+      "title": "BP Says Lingen Green Hydrogen Project Remains on Schedule",
+      "url": "https://fuelcellsworks.com/2026/06/17/h2/bp-says-lingen-green-hydrogen-project-remains-on-schedule",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-06-18T15:51:03+00:00",
+      "pub_ts": 1781797863
+    },
+    {
+      "id": "cf501614e7",
+      "title": "Investigating a Resin’s Compatibility with Hydrogen Vessel Manufacturing",
+      "url": "https://fuelcellsworks.com/2026/06/18/h2/investigating-a-resin-s-compatibility-with-hydrogen-vessel-manufacturing",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-06-18T15:47:43+00:00",
+      "pub_ts": 1781797663
+    },
+    {
+      "id": "ee7a14a10d",
+      "title": "Horizon Europe Project INDTEGRATE Launches",
+      "url": "https://fuelcellsworks.com/2026/06/17/fuel-cells/horizon-europe-project-indtegrate-launches",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-06-18T15:42:44+00:00",
+      "pub_ts": 1781797364
     }
   ],
   "source_success_count": 2,

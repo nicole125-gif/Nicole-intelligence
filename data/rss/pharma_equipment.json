@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-06-18T04:43:37.842414+00:00",
+  "updated_at": "2026-06-19T05:02:54.428591+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "6d6aefbeb5",
-      "title": "Vedana debuts with $46m to progress migraine therapies",
-      "url": "https://www.pharmaceutical-technology.com/news/vedana-therapeutics-debut-migraine-therapies/",
-      "summary": "Vedana’s clinical pipeline targets PACAP – an approach that has shown varying levels of success in migraine clinical trials thus far.",
+      "id": "bd5dfee9ce",
+      "title": "How biotech executives are confronting the funding and regulatory shifts",
+      "url": "https://www.pharmaceutical-technology.com/features/how-biotech-executives-are-confronting-the-funding-and-regulatory-shifts/",
+      "summary": "Amidst regulatory turmoil and a funding resurgence, companies provide insights on how they are navigating the changing industry.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-17T15:39:52+00:00",
-      "pub_ts": 1781710792
+      "pub_date": "2026-06-18T17:10:04+00:00",
+      "pub_ts": 1781802604
     },
     {
-      "id": "bda2154c4f",
-      "title": "AI platforms grow to improve pharma’s regulatory workflows",
-      "url": "https://www.pharmaceutical-technology.com/features/ai-platforms-grow-to-improve-pharmas-regulatory-workflows/",
-      "summary": "Pharma is employing AI to support approval submissions by predicting how regulators will react before data is submitted.",
+      "id": "7d4f4faff7",
+      "title": "UniQure to seek approval of Huntington’s gene therapy after FDA U-turn",
+      "url": "https://www.pharmaceutical-technology.com/news/uniqure-to-seek-approval-of-huntingtons-gene-therapy-after-fda-u-turn/",
+      "summary": "uniQure confirmed it will submit its BLA in Q3 2026, though there is still a required confirmatory study to conduct.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-17T10:55:57+00:00",
-      "pub_ts": 1781693757
+      "pub_date": "2026-06-18T13:57:22+00:00",
+      "pub_ts": 1781791042
     },
     {
-      "id": "b06baf73fa",
-      "title": "AviadoBio broadens vMiX gene silencing licence with King’s College London",
-      "url": "https://www.pharmaceutical-technology.com/news/aviadobio-vmix-licence-kings-college-london/",
-      "summary": "AviadoBio has extended its exclusive licence agreement with King’s College London to apply the vMiX RNAi gene-silencing platform across all human therapeutic areas.",
+      "id": "882e0457d2",
+      "title": "ADA26: retatrutide delivers unprecedented weight loss in Phase III TRIUMPH-1",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ada26-retatrutide-unprecedented-weight-loss-phase-iii-triumph-1/",
+      "summary": "At ADA 2026, findings from the Phase III TRIUMPH-1 trial were presented, assessing Eli Lilly's retatrutide in adults with obesity or overweight and at least one weight-related comorbidity.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-17T10:17:57+00:00",
-      "pub_ts": 1781691477
+      "pub_date": "2026-06-18T10:40:05+00:00",
+      "pub_ts": 1781779205
     },
     {
-      "id": "413f4fb59c",
-      "title": "EHA26: BMS touts positive multiple myeloma data for two pipeline candidates",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/eha26-bms-touts-positive-multiple-myeloma-data-for-two-pipeline-candidates/",
-      "summary": "BMS shared Phase III data for mezigdomide and Phase I data for a CAR-T therapy at this year’s EHA conference.",
+      "id": "7fe974df32",
+      "title": "Jazz and AbCellera sign deal for T-cell engagers in solid tumours",
+      "url": "https://www.pharmaceutical-technology.com/news/jazz-abcellera-sign-t-cell-engagers/",
+      "summary": "Jazz Pharmaceuticals and AbCellera have signed a preclinical research, option, and licence agreement for the discovery and development of TCE multispecific antibodies for GI cancers and other solid tumours.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-17T09:32:42+00:00",
-      "pub_ts": 1781688762
+      "pub_date": "2026-06-18T09:33:13+00:00",
+      "pub_ts": 1781775193
     },
     {
-      "id": "3c5bc3b2a6",
-      "title": "Altaris to acquire Simulations Plus in $375m all-cash deal",
-      "url": "https://www.pharmaceutical-technology.com/news/altaris-to-acquire-simulations-plus/",
-      "summary": "Simulations Plus has entered a definitive agreement to be acquired by affiliates of Altaris in an all-cash transaction valued at $375m.",
+      "id": "7ec8ad06b0",
+      "title": "LG AI Research and D&D Pharmatech sign agreement for oral peptide drugs",
+      "url": "https://www.pharmaceutical-technology.com/news/lg-dd-pharmatech-oral-peptide-drugs/",
+      "summary": "LG AI Research and D&amp;D Pharmatech have entered into an agreement to collaborate on the development of next-generation oral peptide drugs, the companies announced following a signing ceremony held at the LG Twin Towers in Yeouido, Seoul.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-17T08:56:48+00:00",
-      "pub_ts": 1781686608
+      "pub_date": "2026-06-18T09:04:38+00:00",
+      "pub_ts": 1781773478
     }
   ],
   "source_success_count": 1,
