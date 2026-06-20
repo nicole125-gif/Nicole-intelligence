@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-06-19T05:02:22.883799+00:00",
+  "updated_at": "2026-06-20T04:15:27.230978+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "74b2478117",
-      "title": "AI看病成为医患新包袱？补上「多轮追问」，通用AI才迈得过医疗关",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898354&idx=1&sn=b06a7a37d4509957c76dafa8e063b594",
-      "summary": "AI看病成为医患新包袱？补上「多轮追问」，通用AI才迈得过医疗关",
+      "id": "d9c5ee1019",
+      "title": "我把昨晚的梦输入AL，它居然直接把我拉进去玩儿了一把？！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898467&idx=1&sn=108f525e4afc3f1c0673ac4ffdc421cc",
+      "summary": "我把昨晚的梦输入AL，它居然直接把我拉进去玩儿了一把？！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-19T05:02:18.342071+00:00",
-      "pub_ts": 1781845338
+      "pub_date": "2026-06-20T04:15:21.977629+00:00",
+      "pub_ts": 1781928921
     },
     {
-      "id": "992548045f",
-      "title": "Midjourney新副业曝光：50万个传感器藏进浴池，60秒生成你的3D身体地图",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898354&idx=2&sn=f842f4fd953b066992ed4f5808c6c8d0",
-      "summary": "Midjourney新副业曝光：50万个传感器藏进浴池，60秒生成你的3D身体地图",
+      "id": "83b94d028e",
+      "title": "不靠单款爆款吃红利，中国AI应用首现3亿ARR独角兽！腾讯顺为红杉继续加码",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898466&idx=1&sn=40266d0d34c669e0fbf8082a96c5251e",
+      "summary": "不靠单款爆款吃红利，中国AI应用首现3亿ARR独角兽！腾讯顺为红杉继续加码",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-19T05:02:18.342118+00:00",
-      "pub_ts": 1781845338
+      "pub_date": "2026-06-20T04:15:21.977667+00:00",
+      "pub_ts": 1781928921
     },
     {
-      "id": "bdce181c60",
-      "title": "从“一句成片”到“长轨推演”：探究多模态智能体在长视频编辑中的应用",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898354&idx=3&sn=07109e75543357ad7ab51c0a10102eb6",
-      "summary": "从“一句成片”到“长轨推演”：探究多模态智能体在长视频编辑中的应用",
+      "id": "ec49516f23",
+      "title": "马斯克预测GLM明年Q1追平Fable，智谱唐杰：没那么久",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898466&idx=2&sn=e860d314527de80953b2e54ee1b6226e",
+      "summary": "马斯克预测GLM明年Q1追平Fable，智谱唐杰：没那么久",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-19T05:02:18.342140+00:00",
-      "pub_ts": 1781845338
+      "pub_date": "2026-06-20T04:15:21.977685+00:00",
+      "pub_ts": 1781928921
     },
     {
-      "id": "ed14d72cc0",
-      "title": "18年前不让你苦修PS的美图，这次不让你苦修AI了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898304&idx=1&sn=f7f45a82b7f956363afcd998b44ffbf0",
-      "summary": "18年前不让你苦修PS的美图，这次不让你苦修AI了",
+      "id": "1d150edc59",
+      "title": "全球首个人形机器人通用小脑来了！全球最大规模2万小时人类动作数据，实...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898463&idx=1&sn=cc67757f497d1fb502251a992a8794c5",
+      "summary": "全球首个人形机器人通用小脑来了！全球最大规模2万小时人类动作数据，实...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-19T05:02:18.342159+00:00",
-      "pub_ts": 1781845338
+      "pub_date": "2026-06-20T04:15:21.977701+00:00",
+      "pub_ts": 1781928921
     },
     {
-      "id": "b8e83b02e2",
-      "title": "全员本科生！何恺明组新作：文生图，258M参数就够了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898304&idx=2&sn=3c337900d33cd6667ed82b6a83e503b5",
-      "summary": "全员本科生！何恺明组新作：文生图，258M参数就够了",
+      "id": "eeb2cb7c5d",
+      "title": "GPT发AI原创新成果了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898463&idx=2&sn=dcf7e0a56f4494ea608eac992cb5d216",
+      "summary": "GPT发AI原创新成果了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-19T05:02:18.342178+00:00",
-      "pub_ts": 1781845338
+      "pub_date": "2026-06-20T04:15:21.977717+00:00",
+      "pub_ts": 1781928921
     }
   ],
   "source_success_count": 1,

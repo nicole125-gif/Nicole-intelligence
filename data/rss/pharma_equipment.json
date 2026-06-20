@@ -3,9 +3,49 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-06-19T05:02:54.428591+00:00",
+  "updated_at": "2026-06-20T04:15:51.032569+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "fc0ded1855",
+      "title": "Biopharma industry confidence at highest in years despite geopolitical headwinds",
+      "url": "https://www.pharmaceutical-technology.com/news/biopharma-industry-confidence-at-highest-in-years-despite-geopolitical-headwinds/",
+      "summary": "GlobalData says that the industry has “absorbed significant disruption”, with high M&amp;A levels testament to recovery.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-06-19T10:14:21+00:00",
+      "pub_ts": 1781864061
+    },
+    {
+      "id": "9e298c0bcf",
+      "title": "Voro and Alloy partner on tumour-selective TCE therapeutics",
+      "url": "https://www.pharmaceutical-technology.com/news/voro-alloy-tumour-selective-tce-therapeutics/",
+      "summary": "Voro Therapeutics and Alloy Therapeutics have formed a strategic research partnership to develop tumour-selective, next-generation masked TCE therapeutics",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-06-19T09:22:14+00:00",
+      "pub_ts": 1781860934
+    },
+    {
+      "id": "bb69a4b18c",
+      "title": "Biogen to acquire RayThera for up to $1bn",
+      "url": "https://www.pharmaceutical-technology.com/news/biogen-to-acquire-raythera/",
+      "summary": "Biogen is to acquire RayThera, a biotechnology company specialising in small-molecule therapies for immunology, for up to $1bn.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-06-19T08:48:18+00:00",
+      "pub_ts": 1781858898
+    },
+    {
+      "id": "b0ed1c0d14",
+      "title": "ASCO26: RLTs bring the buzz, but commercial and tolerability qualms remain",
+      "url": "https://www.pharmaceutical-technology.com/features/asco26-rlts-bring-the-buzz-but-commercial-tolerability-qualms-remain/",
+      "summary": "RLTs were a hot topic at ASCO 2026, but certain limitations must be addressed to facilitate their widespread use in cancer care.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-06-19T08:13:51+00:00",
+      "pub_ts": 1781856831
+    },
     {
       "id": "bd5dfee9ce",
       "title": "How biotech executives are confronting the funding and regulatory shifts",
@@ -15,46 +55,6 @@
       "lang": "en",
       "pub_date": "2026-06-18T17:10:04+00:00",
       "pub_ts": 1781802604
-    },
-    {
-      "id": "7d4f4faff7",
-      "title": "UniQure to seek approval of Huntington’s gene therapy after FDA U-turn",
-      "url": "https://www.pharmaceutical-technology.com/news/uniqure-to-seek-approval-of-huntingtons-gene-therapy-after-fda-u-turn/",
-      "summary": "uniQure confirmed it will submit its BLA in Q3 2026, though there is still a required confirmatory study to conduct.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-06-18T13:57:22+00:00",
-      "pub_ts": 1781791042
-    },
-    {
-      "id": "882e0457d2",
-      "title": "ADA26: retatrutide delivers unprecedented weight loss in Phase III TRIUMPH-1",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ada26-retatrutide-unprecedented-weight-loss-phase-iii-triumph-1/",
-      "summary": "At ADA 2026, findings from the Phase III TRIUMPH-1 trial were presented, assessing Eli Lilly's retatrutide in adults with obesity or overweight and at least one weight-related comorbidity.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-06-18T10:40:05+00:00",
-      "pub_ts": 1781779205
-    },
-    {
-      "id": "7fe974df32",
-      "title": "Jazz and AbCellera sign deal for T-cell engagers in solid tumours",
-      "url": "https://www.pharmaceutical-technology.com/news/jazz-abcellera-sign-t-cell-engagers/",
-      "summary": "Jazz Pharmaceuticals and AbCellera have signed a preclinical research, option, and licence agreement for the discovery and development of TCE multispecific antibodies for GI cancers and other solid tumours.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-06-18T09:33:13+00:00",
-      "pub_ts": 1781775193
-    },
-    {
-      "id": "7ec8ad06b0",
-      "title": "LG AI Research and D&D Pharmatech sign agreement for oral peptide drugs",
-      "url": "https://www.pharmaceutical-technology.com/news/lg-dd-pharmatech-oral-peptide-drugs/",
-      "summary": "LG AI Research and D&amp;D Pharmatech have entered into an agreement to collaborate on the development of next-generation oral peptide drugs, the companies announced following a signing ceremony held at the LG Twin Towers in Yeouido, Seoul.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-06-18T09:04:38+00:00",
-      "pub_ts": 1781773478
     }
   ],
   "source_success_count": 1,

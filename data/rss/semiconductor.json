@@ -3,108 +3,118 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-06-19T05:02:08.817010+00:00",
+  "updated_at": "2026-06-20T04:15:12.302139+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "76dd25aa95",
-      "title": "六氟化钨断供，扼住全球芯片“咽喉”",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813398&idx=1&sn=e80365535ad1aca476af2f34ed4b355c",
-      "summary": "六氟化钨断供，扼住全球芯片“咽喉”",
+      "id": "2448b4d03c",
+      "title": "造芯片的，开始造设备了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813423&idx=1&sn=6790304c68afeb392759fa9a75c53e01",
+      "summary": "造芯片的，开始造设备了",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-19T05:02:04.685252+00:00",
-      "pub_ts": 1781845324
+      "pub_date": "2026-06-20T04:15:08.194761+00:00",
+      "pub_ts": 1781928908
     },
     {
-      "id": "b8ecc611fe",
-      "title": "如何制备数十亿晶圆凸块？",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813398&idx=2&sn=188598e21259a853598083634884324d",
-      "summary": "如何制备数十亿晶圆凸块？",
+      "id": "5a5b90ca4c",
+      "title": "前SK海力士CEO李锡熙重返英特尔，掌舵先进封装",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813423&idx=2&sn=30efa9bb27935f3d9339f0eccc42bee5",
+      "summary": "前SK海力士CEO李锡熙重返英特尔，掌舵先进封装",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-19T05:02:04.685300+00:00",
-      "pub_ts": 1781845324
+      "pub_date": "2026-06-20T04:15:08.194800+00:00",
+      "pub_ts": 1781928908
     },
     {
-      "id": "eba12f22af",
-      "title": "盛美上海：2025年已组装2台全本土零部件的设备",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813398&idx=3&sn=141eb0c0503f5453ad363aab5961b4f3",
-      "summary": "盛美上海：2025年已组装2台全本土零部件的设备",
+      "id": "063686ce35",
+      "title": "氮化镓功率器件，走向垂直结构",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813423&idx=3&sn=7ec66a6ec4108cee493b546c10718562",
+      "summary": "氮化镓功率器件，走向垂直结构",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-19T05:02:04.685326+00:00",
-      "pub_ts": 1781845324
+      "pub_date": "2026-06-20T04:15:08.194820+00:00",
+      "pub_ts": 1781928908
     },
     {
-      "id": "f05033c12f",
-      "title": "北京前5月集成电路制造增长超八成",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813398&idx=4&sn=aef8c779b9aa85411387b3a397c77d5a",
-      "summary": "北京前5月集成电路制造增长超八成",
+      "id": "78aed9b13f",
+      "title": "算力时代，诺基亚为何成了香饽饽？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813423&idx=4&sn=e59d54f8b1590529c581a56f242a8625",
+      "summary": "算力时代，诺基亚为何成了香饽饽？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-19T05:02:04.685348+00:00",
-      "pub_ts": 1781845324
+      "pub_date": "2026-06-20T04:15:08.194837+00:00",
+      "pub_ts": 1781928908
     },
     {
-      "id": "c1f724b1ad",
-      "title": "CMOS 2.0，并非摩尔定律的终点",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813398&idx=5&sn=6d948b220e2d11028ef0833d54773a09",
-      "summary": "CMOS 2.0，并非摩尔定律的终点",
+      "id": "7082e592d9",
+      "title": "SpaceX上市了，太空算力的成本拐点还有多远",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813423&idx=5&sn=cdcbdbae2767587d34f9234b11c79126",
+      "summary": "SpaceX上市了，太空算力的成本拐点还有多远",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-19T05:02:04.685368+00:00",
-      "pub_ts": 1781845324
+      "pub_date": "2026-06-20T04:15:08.194867+00:00",
+      "pub_ts": 1781928908
     },
     {
-      "id": "a541493ae9",
-      "title": "突发，武汉新芯被出售，实控人变更",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823133&idx=1&sn=db3b05bf15aa26dc25b80f1ab2dd3739",
-      "summary": "突发，武汉新芯被出售，实控人变更",
+      "id": "4f6f64eb04",
+      "title": "光芯片，集体扩产",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823197&idx=1&sn=7f740aa3cf542ed4e92b9410e18856e9",
+      "summary": "光芯片，集体扩产",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-19T05:01:56.275971+00:00",
-      "pub_ts": 1781845316
+      "pub_date": "2026-06-20T04:14:58.112933+00:00",
+      "pub_ts": 1781928898
     },
     {
-      "id": "1b4b611e19",
-      "title": "谷歌撰文复盘TPU：ASIC大有可为",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823062&idx=1&sn=b750465bc609cbeae74a697fb4ad7527",
-      "summary": "谷歌撰文复盘TPU：ASIC大有可为",
+      "id": "661b294b6b",
+      "title": "WAIC2026“重构算力”论坛来了！上海张江见",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823197&idx=2&sn=e3c1609f64605df5f76f6008bba9dd5c",
+      "summary": "WAIC2026“重构算力”论坛来了！上海张江见",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-19T05:01:56.276025+00:00",
-      "pub_ts": 1781845316
+      "pub_date": "2026-06-20T04:14:58.112981+00:00",
+      "pub_ts": 1781928898
     },
     {
-      "id": "517836f562",
-      "title": "金融展上，海光给“可信智能体”划了三条红线",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823062&idx=2&sn=cc24eeb84e25119d9dc4f99b5e013a29",
-      "summary": "金融展上，海光给“可信智能体”划了三条红线",
+      "id": "bef5cf4a33",
+      "title": "混合键合，带来新难题",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823197&idx=3&sn=a45d23fc99af68475643aa2ea120a872",
+      "summary": "混合键合，带来新难题",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-19T05:01:56.276049+00:00",
-      "pub_ts": 1781845316
+      "pub_date": "2026-06-20T04:14:58.112999+00:00",
+      "pub_ts": 1781928898
     },
     {
-      "id": "88290f432d",
-      "title": "EUV光刻机，迈向Hyper NA",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823062&idx=3&sn=626c6d6c53ee71a48a0c4d4694ab942c",
-      "summary": "EUV光刻机，迈向Hyper NA",
+      "id": "4523f91824",
+      "title": "两款芯片，猛攻英伟达",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823197&idx=4&sn=e7aa22e0ba8fc059c5b7cdc0a55cc075",
+      "summary": "两款芯片，猛攻英伟达",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-19T05:01:56.276071+00:00",
-      "pub_ts": 1781845316
+      "pub_date": "2026-06-20T04:14:58.113016+00:00",
+      "pub_ts": 1781928898
     },
     {
-      "id": "736d542a5b",
-      "title": "SK海力士官宣：HBM4E送样",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823062&idx=4&sn=74f9155652f6703a9c17838bb95ff293",
-      "summary": "SK海力士官宣：HBM4E送样",
+      "id": "1c4a5b8d31",
+      "title": "设计界的台积电”",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823197&idx=5&sn=ee9b35a086d1b35de7963c990fbe39d5",
+      "summary": "设计界的台积电”",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-19T05:01:56.276091+00:00",
-      "pub_ts": 1781845316
+      "pub_date": "2026-06-20T04:14:58.113033+00:00",
+      "pub_ts": 1781928898
+    },
+    {
+      "id": "d1c17b014a",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-143/",
+      "summary": "Apple-Intel is on, says Trump; Amkor's big win; Intel 18A-P; Amazon to sell its AI chips; Rambus' automotive RoT; Brewer's buy; VLSI Symposium tech; CHIPS Act funding; MIT sensor; RISC-V CPU fuzzing.\nThe post Chip Industry Week In Review appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-06-19T07:01:41+00:00",
+      "pub_ts": 1781852501
     },
     {
       "id": "acebccc95e",
@@ -145,16 +155,6 @@
       "lang": "en",
       "pub_date": "2026-06-18T07:04:58+00:00",
       "pub_ts": 1781766298
-    },
-    {
-      "id": "9d09bf40de",
-      "title": "A New Fracture Engine For Curvilinear Masks And MULTIGON Mask Data",
-      "url": "https://semiengineering.com/a-new-fracture-engine-for-curvilinear-masks-and-multigon-mask-data/",
-      "summary": "Demand for better pattern fidelity and the adoption of ILT are increasing pressure to shift to curvilinear mask technology.\nThe post A New Fracture Engine For Curvilinear Masks And MULTIGON Mask Data appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-06-18T07:03:23+00:00",
-      "pub_ts": 1781766203
     }
   ],
   "source_success_count": 3,
