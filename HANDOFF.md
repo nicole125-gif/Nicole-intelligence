@@ -6,9 +6,13 @@
 > - **ROADMAP.md** — 下一步路线（P0/P1/P2）、框架 5 洞状态、阻塞依赖。
 >
 > 另：方法论北极星 `docs/INTELLIGENCE_OS.md`；实现计划 `~/.claude/plans/https-www-esgvalve-cn-gleaming-stroustrup.md`；项目记忆 `~/.claude/projects/.../memory/esg-event-engine.md` + `esg-spec-position.md`。
-> 最后更新 2026-06-17 ｜ 引擎全部已在 `main`：里程碑1 + winnability + **O1/O2-A/O3/O4** 本体化（PR #6/#8/#11）+ **本体图谱 ontology.html**（PR #10）｜ 头号挂起未知**已解**（§5：ESG 只进东富龙 BOM）｜ events.html + ontology.html 本会话已本地验收。WIP/自动化仍在 `automation/monthly-update`。
+> 最后更新 2026-06-23 ｜ 引擎全部在 `main`：里程碑1 + winnability + **O1/O2-A/O3/O4** 本体化 + **本体图谱 ontology.html**｜ **✅ 处置闭环已上线**（Vercel `nicole-intelligence` 项目 + Upstash Redis，验活通过，PR #13/#15）｜ 产品形态定调=**漏斗**（见 §9 + 记忆 `product-vision-funnel.md`，ROADMAP P1.6）｜ Brave key 已 park（见 §7）。WIP/自动化仍在 `automation/monthly-update`。
 >
-> **🔑 下次开机关键词**：`读 HANDOFF + ROADMAP，继续 P1.5 本体化`——候选下一步：**处置闭环上线**（决策13 建 Vercel KV → 攒标签 → 解锁 O3 第 1 半处置写回）｜ **O2 切片 B**（headline 具名识别买方 OEM）｜ **图谱 enrich**（类型过滤/竞品据点边，待节点变多）｜ 源攻坚挪 CI｜P2#6 region（卡口径）。从 `main` 切新分支做引擎活，**开 PR 前先 `git fetch`**（bot 直推 main）。
+> **🔑 下次开机关键词**：`读 HANDOFF + ROADMAP（P1.6 漏斗），推进 B1/B2`——当前主线是 **P1.6 漏斗串链**（热力图入口→下钻事件→带 方案/竞品/产品推荐，先 B 后 A）：
+> - **我方能立刻做**：**B1**（events.html 事件卡补 在位竞品 + 推荐产品，数据 O3/O4 已备）、**B2**（events.html 按 `industry_tag` 下钻 + deep-link）——纯前端，`engine.run --sample` 出样例即可开发，**不依赖 B0**。
+> - **B0（CI 出数据）= Codex 在做**，本仓只作下游依赖，别重复实现。
+> - **竞品层复用** 兄弟产品 knowledge-center / "Pharma CI Radar"（`knowledge-center-omega.vercel.app/sales-intel`，竞品库更全），不重建。
+> - 纪律：从 `main` 切新分支，**开 PR 前先 `git fetch`**（bot 直推 main）；引擎活在 main，WIP/自动化在 automation。
 
 ---
 
@@ -90,15 +94,21 @@ python3 scripts/build_ontology.py             # 从 entities.yml + 最新 events
 
 ## 7. git 现状
 
-- **✅ 引擎全部已在 `main`**，本会话 6 个 PR 全部合并（皆从最新 `main` 切分支、合后删分支）：
+- **✅ 引擎/可视化/处置闭环全部已在 `main`**，本会话 PR #6–#16 全部合并（皆从最新 `main` 切分支、合后删分支）：
   - **PR #6**（merge `2d9c99b`）：引擎/本体——从 `main` 干净切 `feat/event-engine`，cherry-pick 11 个引擎 commit（里程碑1 + winnability v1 + O1 + O4 + 三件套 docs + biosynthesis 修复 + research inbox/处置采集层），27 文件 / +2401。
   - **PR #7**（merge `a26d962`）：HANDOFF 同步到 main。
   - **PR #8**（merge `037d819`）：**O2 spec 位切片 A**（entities.yml spec_position + build.py owner→OEM 边 + winnability spec 因子 + action 分流）。
   - **PR #9**（merge `d320a37`）：HANDOFF 收尾（O2-A）。
   - **PR #10**（merge `470b600`）：**本体图谱 `ontology.html`** + `scripts/build_ontology.py`（data/ontology.json 已 gitignore）+ 样例 OEM 信号。
   - **PR #11**（merge `5ab76a5`）：**O3 竞品密度迁层级**（竞品 strongholds + winnability.density_from_strongholds，根治生物合成误降），47 测试全过。
-  - **PR #12**（本条）：HANDOFF 收尾（O3 + 图谱）。
-  - **main 自此为引擎/可视化的权威。**
+  - **PR #12**（merge `44b6037`）：HANDOFF 收尾（O3 + 图谱）。
+  - **PR #13**（merge `db37174`）：处置 API 改 `@upstash/redis`（弃废弃 `@vercel/kv`，KV_/UPSTASH_ 两套变量名都读）。
+  - **PR #14**（merge `2ff3e31`）：删 `brave_search_scraper.py`（硬编码 key 的死文件）。
+  - **PR #15**（merge `f9d075c`）：固化 Vercel 部署配置（`.vercelignore` 排 reports/python；`vercel.json` framework:null 防 Python 误判）。
+  - **PR #16**（merge `52508da`）：ROADMAP 加 P1.6 漏斗工作流。
+  - **main 自此为引擎/可视化/处置 API 的权威。**
+- **✅ 处置闭环已上线**（2026-06-22）：Vercel 项目 `nicole-intelligence`（`wangxia1225-ai` 账号，**未连 GitHub**，目前 CLI 从干净 main 部署）+ Upstash Redis store `upstash-kv-almond-helmet`，注入 `KV_REST_API_*`。已关 Deployment Protection（决策14 无鉴权）。验活过：GET `{}` / POST 持久化 / DEL。当前 URL `nicole-intelligence-lookiwenq-wangxia1225-ais-projects.vercel.app`（带 hash，稳定别名见 dashboard Domains）。**注意：`data/events`/`data/ontology.json` gitignore，线上无数据 → events/ontology 页空白，待 B0 CI 出数据（Codex）。**
+- **🟡 Brave key 已 park**（2026-06-22 Nicole 决定以后重设）：旧 key 已 revoke（公开泄漏止血）；老管线 monthly_update/update_news 的 Brave 抓取会优雅 skip；以后重配新 key 进 GitHub Actions secret `BRAVE_API_KEY`。
 - **`automation/monthly-update`（远端 `f825fad`）**：仍带同一串引擎 commit 的**旧 SHA**（O1-O4 在此分支早已提交并 push），但已被 PR #6 的 curated 版本取代——**别再从这条分支合引擎到 main**。这条分支本职是放自动化更新（RSS/竞品/monthly）+ 本会话前的 WIP。
 - **⚠ 本仓库 bot 会直推 `main`**（RSS/竞品自动提交）：开 PR 前先 `git fetch`，否则本地 main 落后 → PR 报冲突（本轮踩过）。
 - **灰色文件（仍未入库，待用户定夺）**：`docs/INTELLIGENCE_OS.md`（方法论北极星）、`config/p4_opportunity_map.yml`、`scripts/p4_opportunities.py`（§8 关键参照）。注：O4 已把 p4_opportunity_map / products_analysis 的实体数据折叠进 `config/entities.yml`（已入 main），这两份源文件仅 legacy 脚本仍读。
@@ -112,3 +122,11 @@ python3 scripts/build_ontology.py             # 从 entities.yml + 最新 events
 - `config/p4_opportunity_map.yml` — 楚天/东富龙/森松客户档案 + 竞品 + capex 系数。
 - `customers.html` L239-284 — HEATMAP 8 制药子赛道真实景气数据。
 - `data/products_analysis.json` — 竞品威胁：Bürkert 4.3 / Gemü 4.0 / ESG 2.7。
+
+## 9. 产品形态：漏斗（2026-06-22 定调，当前主线）
+
+**行业热力图(入口) → 下钻到事件 → 每条带 我方方案/竞品/产品推荐。** 热度与事件是**上下两层、不是对手**（修正决策1对赛道热度的单纯降级）——热度负责"往哪看"，事件负责"具体怎么打"。关节 = **行业/工况**（event 已带 `industry_tag`，热力图格子=行业，三页面是同一份引擎数据的三种切法）。
+
+- **路线见 ROADMAP P1.6**（先 B 后 A）；细节+取舍见记忆 `product-vision-funnel.md`。
+- **现在可做（不卡）**：B1 事件卡补竞品+推荐产品、B2 events.html 行业下钻（纯前端，样例数据即可）。
+- **B0 数据 CI = Codex 做**；**竞品层复用 knowledge-center / Pharma CI Radar**（别重建）；月度更新 B 阶段保留喂热力图广度、A2 退役。
