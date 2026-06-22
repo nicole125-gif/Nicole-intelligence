@@ -1,10 +1,20 @@
-import { kv } from '@vercel/kv';
+import { Redis } from '@upstash/redis';
+
+// @vercel/kv 已废弃，改用 @upstash/redis；两套变量名都读（Vercel 控制台建 Redis/KV
+// 注入的可能是 KV_REST_API_* 或 UPSTASH_REDIS_REST_*），上线不必猜控制台给哪套。
+const kv = new Redis({
+  url: process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL,
+  token: process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN,
+});
 
 const STATES = ['跟进中', '赢', '输', '忽略', '无效'];
 const NEED_REASON = new Set(['输', '无效']);
 
 export default async function handler(req, res) {
   try {
+    if (!process.env.KV_REST_API_URL && !process.env.UPSTASH_REDIS_REST_URL) {
+      return res.status(500).json({ error: 'KV 未配置：缺 KV_REST_API_URL/UPSTASH_REDIS_REST_URL（去 Vercel 建 Redis store 并连到项目）' });
+    }
     if (req.method === 'GET') {
       const keys = await kv.keys('disp:*');
       if (!keys.length) return res.status(200).json({});
