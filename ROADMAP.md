@@ -105,6 +105,33 @@
 
 ---
 
+## P1.6 — 漏斗串链（Funnel）⭐
+
+> **来源**：2026-06-22 Nicole 定调产品形态（见项目记忆 `product-vision-funnel.md`）。
+> **一句话**：行业热力图(入口) → 下钻到事件 → 每条带 我方方案/竞品/产品推荐。**热度与事件是上下两层、不是对手**（修正决策1对赛道热度的单纯降级）。
+> **关节 = 行业/工况**：event 已带 `industry_tag`，热力图的格子就是行业，三个页面是同一份引擎数据的三种切法（按行业聚合=热力图 / 逐条=研判信箱 / 按实体连边=本体图谱）。
+> **策略：先 B 后 A**——现源稀疏，先混合驱动让漏斗立刻连通；源补齐后收敛成单一脊柱。
+
+### 阶段 B — 现在做，混合驱动、漏斗连通
+- **B0. 底座：CI 出数据** — cron 跑 `engine.run` + `build_ontology.py` → 产 `data/events/<date>.json` + `data/ontology.json` 进部署。**⏳ 由 Codex 代做（2026-06-22 Nicole 交办），本仓不实现，仅作下游依赖**。子决策：产物倾向 CI 生成不入库（不 commit）。verify：线上 events/ontology 有真数据。
+- **B1. 事件卡补 payload** — events.html 每卡加 **在位竞品**（工况 strongholds 取 Bürkert/Gemü）+ **推荐产品**（esg_products/对口阀型）。数据 O3/O4 已备，主要是显出来。verify：一眼见 对口阀/对手/卖什么。
+- **B2. events.html 按行业下钻** — 加 `industry_tag` 过滤 + deep-link（`events.html?industry=制药`）。verify：带参直达该行业线索。
+- **B3. 热力图=混合+可点入口** — 广度续用老 RSS/Brave 行业情绪（8 行业全亮，**老月度管线 B 阶段保留**）；每格叠 engine 事件机会深度（量×价值×赢面）；点格 → `events.html?industry=X`（接 B2）。verify：点"制药"格落到制药队列，漏斗闭合。
+- **依赖**：B1/B2/B3 都依赖 B0 出数据；B2→B3。
+
+### 阶段 A — 源补齐后，收敛单一脊柱
+- **A0.** 补 L0/L2 源（ccgp/NMPA/eia 挪干净 IP CI）→ 事件覆盖更多行业。
+- **A1.** 热力图改纯 events 派生（行业热度=纯事件聚合，砍 RSS/Brave 依赖）。verify：热力图数字能从 events 复算。
+- **A2.** 老管线退役（RSS/Brave/monthly_update/老热力图逻辑下线）。
+
+### 跨产品复用（重要）
+- **竞品层（漏斗第4层）别重建**：兄弟产品 **knowledge-center / "Pharma CI Radar"**（`knowledge-center-omega.vercel.app`，另一 Vercel 项目）已有 `/sales-intel` 竞品情报众包+校验页，竞品库远比本仓 entities 全（Gemü/Fujikin/SED/E+H/METTLER/Bronkhorst/Alicat/Vogtlin/Festo），且自带与本仓处置闭环类似的校验流。**优先对接/复用其竞品数据，而非在本仓重造**。两产品关系待 Nicole 进一步定（合并？数据互通？）。
+
+### 月度更新（monthly_update）的处置
+- B 阶段**保留**老月度/热力图管线（喂 B3 广度）。其 WIP 里：**完整性闸门**（数据不全不发）值得留并提交（`completeness_audit.py` 入库）；但**塞 p4_opportunities 的部分丢弃**（已被新引擎 event 取代，词表一致）。A2 时整体退役。
+
+---
+
 ## 阻塞 / 依赖
 
 - **✅ 头号挂起已解（2026-06-16 Nicole 确认）**：**ESG 只进了东富龙的标准 BOM；楚天/森松未进。**
