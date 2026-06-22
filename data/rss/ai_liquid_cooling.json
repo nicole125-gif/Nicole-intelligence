@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-06-21T04:58:55.848871+00:00",
+  "updated_at": "2026-06-22T05:06:23.031832+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "d6ba699a92",
-      "title": "撸猫撸出SOTA！3个OO后2个月，造出史上最快流式音视频社交模型",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898544&idx=1&sn=c13bcb56769d46fd23e3755db8af598a",
-      "summary": "撸猫撸出SOTA！3个OO后2个月，造出史上最快流式音视频社交模型",
+      "id": "b7fb9aa70a",
+      "title": "具身赛道现状素描：脑子灵，模型好，不是百亿，就是独角",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898574&idx=1&sn=6ede0b426e915786f55b39231903cd4a",
+      "summary": "具身赛道现状素描：脑子灵，模型好，不是百亿，就是独角",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-21T04:58:49.327626+00:00",
-      "pub_ts": 1782017929
+      "pub_date": "2026-06-22T05:06:15.849581+00:00",
+      "pub_ts": 1782104775
     },
     {
-      "id": "8aaf390e01",
-      "title": "英伟达开始搞机器人自己研究机器人那套了….",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898544&idx=2&sn=cfe10353a03883fd093bb4e654b1788d",
-      "summary": "英伟达开始搞机器人自己研究机器人那套了….",
+      "id": "73a9392082",
+      "title": "同样算力质量更高，西湖大学把扩散缓存做成了“离线搜索题",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898574&idx=2&sn=f39ee0adf2d3a234c81d2e87599abb9e",
+      "summary": "同样算力质量更高，西湖大学把扩散缓存做成了“离线搜索题",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-21T04:58:49.327675+00:00",
-      "pub_ts": 1782017929
+      "pub_date": "2026-06-22T05:06:15.849626+00:00",
+      "pub_ts": 1782104775
+    },
+    {
+      "id": "045390f3d0",
+      "title": "2026年，1800个DeepSeek跟我一起守护艾泽拉斯",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898572&idx=1&sn=3ebc034d5ccbe38121f67f2dd44d58bc",
+      "summary": "2026年，1800个DeepSeek跟我一起守护艾泽拉斯",
+      "source": "量子位-AI硬件",
+      "lang": "zh",
+      "pub_date": "2026-06-22T05:06:15.849649+00:00",
+      "pub_ts": 1782104775
+    },
+    {
+      "id": "a09910cc0e",
+      "title": "阿里妈妈&清华提出生成式出价新算法AIGB-PearlICLR 2026 Oral",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898572&idx=2&sn=d09f1e85d190220e1db73ace99810296",
+      "summary": "阿里妈妈&清华提出生成式出价新算法AIGB-PearlICLR 2026 Oral",
+      "source": "量子位-AI硬件",
+      "lang": "zh",
+      "pub_date": "2026-06-22T05:06:15.849669+00:00",
+      "pub_ts": 1782104775
     },
     {
       "id": "04c6d6a891",
-      "title": "从“一句成片”到“长轨推演”：探究多模态智能体在长视频编辑中的应用",
+      "title": "从“一句成片“到“长轨推演”：探究多模态智能体在长视频编辑中的应用",
       "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898544&idx=3&sn=3f3bf5a36f7461cc4356ca081482e769",
-      "summary": "从“一句成片”到“长轨推演”：探究多模态智能体在长视频编辑中的应用",
+      "summary": "从“一句成片“到“长轨推演”：探究多模态智能体在长视频编辑中的应用",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-21T04:58:49.327700+00:00",
-      "pub_ts": 1782017929
-    },
-    {
-      "id": "3bfc7ad31f",
-      "title": "陶哲轩12年前的预言，现在AI帮他兑现了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898543&idx=1&sn=e4f67e0c84923c6ab1ed29e1dbdb69b0",
-      "summary": "陶哲轩12年前的预言，现在AI帮他兑现了",
-      "source": "量子位-AI硬件",
-      "lang": "zh",
-      "pub_date": "2026-06-21T04:58:49.327724+00:00",
-      "pub_ts": 1782017929
-    },
-    {
-      "id": "f7805262ed",
-      "title": "Meta员工士气跌至20年谷底！内部直播当众开骂，CTO承认AI重组糟糕透顶",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898543&idx=2&sn=a76aad6d62fb773c571e11edea5053d4",
-      "summary": "Meta员工士气跌至20年谷底！内部直播当众开骂，CTO承认AI重组糟糕透顶",
-      "source": "量子位-AI硬件",
-      "lang": "zh",
-      "pub_date": "2026-06-21T04:58:49.327747+00:00",
-      "pub_ts": 1782017929
+      "pub_date": "2026-06-22T05:06:15.849689+00:00",
+      "pub_ts": 1782104775
     }
   ],
   "source_success_count": 1,
