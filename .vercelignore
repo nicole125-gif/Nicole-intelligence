@@ -1,0 +1,15 @@
+reports/
+.github/
+tests/
+requirements.txt
+engine/
+scripts/
+config/
+fetch_pharma.py
+fetch_rss.py
+pulse_mcp_server.py
+*.py
+__pycache__/
+pulse_vectordb/
+*.pyc
+data/rss/

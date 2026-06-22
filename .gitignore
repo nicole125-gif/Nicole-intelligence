@@ -4,3 +4,5 @@ index.html.bak
 pulse_vectordb/
 data/events/
 data/ontology.json
+.vercel/
+.env.local
