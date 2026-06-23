@@ -129,6 +129,12 @@ body{
 .tag{font-family:var(--mono);font-size:10px;color:var(--text2);padding:2px 8px;
   border:1px solid var(--border2);border-radius:3px;letter-spacing:.03em}
 .tag.valve{color:var(--accent);border-color:var(--accent-dim);background:var(--accent-dim)}
+.tags.comprow{margin-top:-6px}
+.sollab{font-family:var(--mono);font-size:9px;letter-spacing:.14em;color:var(--text3);
+  text-transform:uppercase;align-self:center;margin-right:2px}
+.tag.comp{color:var(--pink);border-color:rgba(255,110,180,.28)}
+.tag.comp i{font-style:normal;opacity:.55;margin-left:4px;font-size:.9em}
+.tag.comp.none{color:var(--green);border-color:rgba(0,255,178,.28)}
 
 .targetline{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px;
   font-family:var(--cjk);font-size:13px}
@@ -214,6 +220,7 @@ body{
 </header>
 
 <div class="filters" id="filters">
+  <div class="fgroup"><span class="flabel">行业</span><span id="f-industry"></span></div>
   <div class="fgroup"><span class="flabel">工况</span><span id="f-cond"></span></div>
   <div class="fgroup"><span class="flabel">提前量</span><span id="f-lead"></span></div>
   <div class="fgroup"><span class="flabel">处置</span><span id="f-disp"></span></div>
@@ -230,7 +237,7 @@ const BAND_CLASS={'大':'big','中':'mid','小':'','未知':''};
 const DISP_STATES=['跟进中','赢','输','忽略','无效'];
 const DISP_CLS={'跟进中':'d-follow','赢':'d-win','输':'d-lose','忽略':'d-skip','无效':'d-void'};
 const NEED_REASON=new Set(['输','无效']);
-let DATA=null, DISP={}, fCond='全部', fLead='全部', fDisp='全部';
+let DATA=null, DISP={}, fCond='全部', fLead='全部', fDisp='全部', fIndustry='全部';
 
 const wan=n=>n>=1e8?(n/1e8).toFixed(2)+'亿':n>=1e4?Math.round(n/1e4)+'万':n;
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -256,6 +263,7 @@ async function load(){
 async function ready(){
   try{const r=await fetch('/api/dispositions?t='+Date.now()); if(r.ok) DISP=(await r.json())||{};}catch(e){DISP={};}
   const ri=document.getElementById('region'); if(ri) ri.value=getRegion();
+  const ip=new URLSearchParams(location.search).get('industry'); if(ip) fIndustry=ip;  // B2 热力图下钻入口
   render();
 }
 
@@ -275,6 +283,10 @@ function render(){
     {k:'已处置',v:done,c:'big'},
     {k:'待处置',v:s.total-done,c:''},
   ].map(x=>`<div class="stat ${x.c}"><div class="k">${x.k}</div><div class="v">${x.v}</div></div>`).join('');
+  const indCount={}; DATA.events.forEach(e=>{const k=e.industry_tag||'其他';indCount[k]=(indCount[k]||0)+1;});
+  const inds=['全部',...Object.keys(indCount).sort((a,b)=>indCount[b]-indCount[a])];
+  document.getElementById('f-industry').innerHTML=inds.map(c=>
+    `<button class="chip ${c===fIndustry?'on':''}" onclick="setF('industry','${esc(c)}')">${esc(c)}${c!=='全部'?` <span style="opacity:.6">${indCount[c]}</span>`:''}</button>`).join('');
   const conds=['全部',...Object.keys(s.by_condition||{})];
   document.getElementById('f-cond').innerHTML=conds.map(c=>
     `<button class="chip ${c===fCond?'on':''}" onclick="setF('cond','${c}')">${c}${c!=='全部'?` <span style="opacity:.6">${s.by_condition[c]}</span>`:''}</button>`).join('');
@@ -285,12 +297,13 @@ function render(){
   renderQueue();
 }
 
-function setF(t,v){ if(t==='cond')fCond=v; else if(t==='lead')fLead=v; else fDisp=v; render(); }
+function setF(t,v){ if(t==='cond')fCond=v; else if(t==='lead')fLead=v; else if(t==='industry')fIndustry=v; else fDisp=v; render(); }
 
 function renderQueue(){
   let evs=DATA.events.filter(e=>{
     const ds=DISP[e.id]?.status||'';
-    return (fCond==='全部'||(e.working_condition||[]).includes(fCond)) &&
+    return (fIndustry==='全部'||e.industry_tag===fIndustry) &&
+      (fCond==='全部'||(e.working_condition||[]).includes(fCond)) &&
       (fLead==='全部'||e.lead_time.level===fLead) &&
       (fDisp==='全部'||(fDisp==='待处置'?!ds:ds===fDisp));
   });
@@ -320,7 +333,11 @@ function card(e,i){
   const owner=e.owner?.name||'业主待解析';
   const role=e.buyer_role?.inferred||'目标买方';
   const conf=e.buyer_role?.confidence!=null?`置信 ${e.buyer_role.confidence}`:'';
-  const valves=(e.valve_type?.primary||[]).slice(0,3).map(v=>`<span class="tag valve">${v}</span>`).join('');
+  const valves=(e.valve_type?.primary||[]).slice(0,3).map(v=>`<span class="tag valve">${esc(v)}</span>`).join('');
+  const comps=e.competitors||[];
+  const compTags=comps.length
+    ? comps.map(c=>`<span class="tag comp">${esc(c.name)}${c.threat!=null?`<i>${c.threat}</i>`:''}</span>`).join('')
+    : `<span class="tag comp none">无外资在位 · 国产友好</span>`;
   const conds=(e.working_condition||[]).map(c=>`<span class="badge cond" style="--cc:${COND_COLOR[c]||'var(--text3)'}">${c}</span>`).join('');
   const src=e.source||{};
   const d=DISP[e.id], mark=d?` marked ${DISP_CLS[d.status]}`:'';
@@ -343,7 +360,8 @@ function card(e,i){
         </span>
       </div>
       <div class="headline">${e.headline||''}</div>
-      ${valves?`<div class="tags">${valves}</div>`:''}
+      ${valves?`<div class="tags"><span class="sollab">推荐产品</span>${valves}</div>`:''}
+      <div class="tags comprow"><span class="sollab">在位竞品</span>${compTags}</div>
       <div class="targetline">
         <span class="owner">${owner}</span><span class="arr">→</span><span class="role">${role}</span>
         ${conf?`<span class="conf">${conf}</span>`:''}

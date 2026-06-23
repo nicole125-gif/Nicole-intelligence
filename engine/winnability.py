@@ -38,6 +38,28 @@ def density_from_strongholds(condition_id: str, registry: dict) -> str:
     return "low"
 
 
+def incumbents_for_condition(condition_id: str, registry: dict) -> list[dict]:
+    """该工况上在位的具名竞品（含威胁分），供前端「可能碰到的对手」展示。
+
+    无据点 → 空列表（= 无外资在位、国产友好，本身是卖点）。
+    """
+    out = []
+    for ent in registry.get("by_id", {}).values():
+        if ent.get("type") != "competitor":
+            continue
+        prof = ent.get("profile") or {}
+        for sh in prof.get("strongholds", []):
+            if sh.get("condition") == condition_id:
+                out.append({
+                    "name": ent["name"],
+                    "threat": prof.get("avg_threat_level"),
+                    "grip": sh.get("grip", "partial"),
+                })
+                break
+    out.sort(key=lambda x: x.get("threat") or 0, reverse=True)
+    return out
+
+
 def assess(text: str, competitor_density: str = "mid", spec_position: str | None = None) -> dict:
     score = 0.5
     basis = []

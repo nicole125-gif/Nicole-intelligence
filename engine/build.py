@@ -96,8 +96,9 @@ def build_event(signal: dict, cfg: dict, as_of: dt.date, registry: dict | None =
         spec_position = (oem_ent or {}).get("spec_position")
 
     # O3：竞品密度从「竞品据点→工况」关系派生（取代工况硬编码常量，根治生物合成误降）
-    density = winnability.density_from_strongholds(
-        cond.get("primary_id"), registry or entities.load_registry())
+    reg = registry or entities.load_registry()
+    density = winnability.density_from_strongholds(cond.get("primary_id"), reg)
+    incumbents = winnability.incumbents_for_condition(cond.get("primary_id"), reg)  # B1：具名在位竞品
     band = valuation.value_band(text, est_value)
     win = winnability.assess(text, density, spec_position)
     rank = ranking.rank_score(
@@ -122,6 +123,7 @@ def build_event(signal: dict, cfg: dict, as_of: dt.date, registry: dict | None =
         "headline": signal.get("title", ""),
         "owner": owner,
         "spec_position": spec_position,
+        "competitors": incumbents,
         "buyer_role": role,
         "working_condition": cond["working_condition"],
         "industry_tag": signal.get("industry_pull") or cond["industry_tag"],
