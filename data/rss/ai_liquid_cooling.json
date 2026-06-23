@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-06-22T05:06:23.031832+00:00",
+  "updated_at": "2026-06-23T04:05:00.899314+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "b7fb9aa70a",
-      "title": "具身赛道现状素描：脑子灵，模型好，不是百亿，就是独角",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898574&idx=1&sn=6ede0b426e915786f55b39231903cd4a",
-      "summary": "具身赛道现状素描：脑子灵，模型好，不是百亿，就是独角",
+      "id": "9402bd1012",
+      "title": "陶哲轩：几周前，AI突破数学形式化临界点",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898699&idx=1&sn=1e3aec91880be94f696ecb813fd1f347",
+      "summary": "陶哲轩：几周前，AI突破数学形式化临界点",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-22T05:06:15.849581+00:00",
-      "pub_ts": 1782104775
+      "pub_date": "2026-06-23T04:04:54.285756+00:00",
+      "pub_ts": 1782187494
     },
     {
-      "id": "73a9392082",
-      "title": "同样算力质量更高，西湖大学把扩散缓存做成了“离线搜索题",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898574&idx=2&sn=f39ee0adf2d3a234c81d2e87599abb9e",
-      "summary": "同样算力质量更高，西湖大学把扩散缓存做成了“离线搜索题",
+      "id": "5fc3fef08b",
+      "title": "过程比结果重要：一个不给标准答案的调参框架，让Agent自己把数据库性能..",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898699&idx=2&sn=1ad728a8778f276f2709aee1870fed65",
+      "summary": "过程比结果重要：一个不给标准答案的调参框架，让Agent自己把数据库性能..",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-22T05:06:15.849626+00:00",
-      "pub_ts": 1782104775
+      "pub_date": "2026-06-23T04:04:54.285798+00:00",
+      "pub_ts": 1782187494
     },
     {
-      "id": "045390f3d0",
-      "title": "2026年，1800个DeepSeek跟我一起守护艾泽拉斯",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898572&idx=1&sn=3ebc034d5ccbe38121f67f2dd44d58bc",
-      "summary": "2026年，1800个DeepSeek跟我一起守护艾泽拉斯",
+      "id": "c62bb60a22",
+      "title": "顶刊生物实验难复现？统一操作话术来了！编译通过率98.6%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898696&idx=1&sn=4f684b0fe44610a5d55b739edf50d6a4",
+      "summary": "顶刊生物实验难复现？统一操作话术来了！编译通过率98.6%",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-22T05:06:15.849649+00:00",
-      "pub_ts": 1782104775
+      "pub_date": "2026-06-23T04:04:54.285822+00:00",
+      "pub_ts": 1782187494
     },
     {
-      "id": "a09910cc0e",
-      "title": "阿里妈妈&清华提出生成式出价新算法AIGB-PearlICLR 2026 Oral",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898572&idx=2&sn=d09f1e85d190220e1db73ace99810296",
-      "summary": "阿里妈妈&清华提出生成式出价新算法AIGB-PearlICLR 2026 Oral",
+      "id": "6ffc4a8aed",
+      "title": "马斯克又盯上AI基建：特斯拉要卖“算力积木”了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898696&idx=2&sn=08f47ac71c20d1aa2c0f43ace418b884",
+      "summary": "马斯克又盯上AI基建：特斯拉要卖“算力积木”了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-22T05:06:15.849669+00:00",
-      "pub_ts": 1782104775
+      "pub_date": "2026-06-23T04:04:54.285844+00:00",
+      "pub_ts": 1782187494
     },
     {
-      "id": "04c6d6a891",
-      "title": "从“一句成片“到“长轨推演”：探究多模态智能体在长视频编辑中的应用",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898544&idx=3&sn=3f3bf5a36f7461cc4356ca081482e769",
-      "summary": "从“一句成片“到“长轨推演”：探究多模态智能体在长视频编辑中的应用",
+      "id": "fbef0a7387",
+      "title": "DeepSeek缺Agent人才缺疯了！负责人各种贴广告",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898679&idx=1&sn=7e13093476268ed660ab89bfa7edc32f",
+      "summary": "DeepSeek缺Agent人才缺疯了！负责人各种贴广告",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-22T05:06:15.849689+00:00",
-      "pub_ts": 1782104775
+      "pub_date": "2026-06-23T04:04:54.285865+00:00",
+      "pub_ts": 1782187494
     }
   ],
   "source_success_count": 1,

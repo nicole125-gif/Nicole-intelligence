@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-06-22T05:06:47.163876+00:00",
+  "updated_at": "2026-06-23T04:05:24.913484+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "fc0ded1855",
-      "title": "Biopharma industry confidence at highest in years despite geopolitical headwinds",
-      "url": "https://www.pharmaceutical-technology.com/news/biopharma-industry-confidence-at-highest-in-years-despite-geopolitical-headwinds/",
-      "summary": "GlobalData says that the industry has “absorbed significant disruption”, with high M&amp;A levels testament to recovery.",
+      "id": "088b14125f",
+      "title": "AbbVie deepens immunology legacy in $10.9bn Apogee buyout",
+      "url": "https://www.pharmaceutical-technology.com/news/abbvie-apogee-therapeutics-acquisition-10-9bn-immunology/",
+      "summary": "AbbVie's multi-billion-dollar Apogee bid could further cement the former's leading position in the immunology space as competition heats up.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-19T10:14:21+00:00",
-      "pub_ts": 1781864061
+      "pub_date": "2026-06-22T14:33:28+00:00",
+      "pub_ts": 1782138808
     },
     {
-      "id": "9e298c0bcf",
-      "title": "Voro and Alloy partner on tumour-selective TCE therapeutics",
-      "url": "https://www.pharmaceutical-technology.com/news/voro-alloy-tumour-selective-tce-therapeutics/",
-      "summary": "Voro Therapeutics and Alloy Therapeutics have formed a strategic research partnership to develop tumour-selective, next-generation masked TCE therapeutics",
+      "id": "b59cc971c0",
+      "title": "HLTH Europe 2026: enriching the patient journey with health technologies",
+      "url": "https://www.pharmaceutical-technology.com/news/hlth-europe-2026-health-technologies-patient-adherence/",
+      "summary": "Experts at HLTH Europe 2026 note that patient adherence-focused health technologies should be flexible, engaging, adaptable and affordable.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-19T09:22:14+00:00",
-      "pub_ts": 1781860934
+      "pub_date": "2026-06-22T10:48:22+00:00",
+      "pub_ts": 1782125302
     },
     {
-      "id": "bb69a4b18c",
-      "title": "Biogen to acquire RayThera for up to $1bn",
-      "url": "https://www.pharmaceutical-technology.com/news/biogen-to-acquire-raythera/",
-      "summary": "Biogen is to acquire RayThera, a biotechnology company specialising in small-molecule therapies for immunology, for up to $1bn.",
+      "id": "23fcc7ba43",
+      "title": "Moderna’s mRNA flu vaccine passes FDA AdCom, review underway",
+      "url": "https://www.pharmaceutical-technology.com/news/modernas-mrna-flu-vaccine-passes-fda-adcom-review-underway/",
+      "summary": "The panel unanimously said that the benefits of Moderna's mRNA jab outweigh its risks in preventing influenza in certain age groups.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-19T08:48:18+00:00",
-      "pub_ts": 1781858898
+      "pub_date": "2026-06-22T10:43:25+00:00",
+      "pub_ts": 1782125005
     },
     {
-      "id": "b0ed1c0d14",
-      "title": "ASCO26: RLTs bring the buzz, but commercial and tolerability qualms remain",
-      "url": "https://www.pharmaceutical-technology.com/features/asco26-rlts-bring-the-buzz-but-commercial-tolerability-qualms-remain/",
-      "summary": "RLTs were a hot topic at ASCO 2026, but certain limitations must be addressed to facilitate their widespread use in cancer care.",
+      "id": "110b9b3112",
+      "title": "Post-marketing oncology studies: Enabling faster recruitment and lower costs",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/post-marketing-oncology-studies-enabling-faster-recruitment-and-lower-costs/",
+      "summary": "In clinical trials, post-marketing approval studies remain a lower priority than other research areas, especially at community oncology centers.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-19T08:13:51+00:00",
-      "pub_ts": 1781856831
+      "pub_date": "2026-06-22T10:17:06+00:00",
+      "pub_ts": 1782123426
     },
     {
-      "id": "bd5dfee9ce",
-      "title": "How biotech executives are confronting the funding and regulatory shifts",
-      "url": "https://www.pharmaceutical-technology.com/features/how-biotech-executives-are-confronting-the-funding-and-regulatory-shifts/",
-      "summary": "Amidst regulatory turmoil and a funding resurgence, companies provide insights on how they are navigating the changing industry.",
+      "id": "605366c56a",
+      "title": "The evolution of the ADC market – and what it means for commercial packaging",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/the-evolution-of-the-adc-market-and-what-it-means-for-commercial-packaging/",
+      "summary": "We explore the ADC market’s evolution, the unique challenges of packaging ADCs, and how strategic collaborations can help companies navigate future trends and requirements.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-18T17:10:04+00:00",
-      "pub_ts": 1781802604
+      "pub_date": "2026-06-22T09:03:42+00:00",
+      "pub_ts": 1782119022
     }
   ],
   "source_success_count": 1,
