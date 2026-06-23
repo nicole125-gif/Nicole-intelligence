@@ -6,10 +6,11 @@
 > - **ROADMAP.md** — 下一步路线（P0/P1/P2）、框架 5 洞状态、阻塞依赖。
 >
 > 另：方法论北极星 `docs/INTELLIGENCE_OS.md`；实现计划 `~/.claude/plans/https-www-esgvalve-cn-gleaming-stroustrup.md`；项目记忆 `~/.claude/projects/.../memory/esg-event-engine.md` + `esg-spec-position.md`。
-> 最后更新 2026-06-23 ｜ 引擎全部在 `main`：里程碑1 + winnability + **O1/O2-A/O3/O4** 本体化 + **本体图谱 ontology.html**｜ **✅ 处置闭环已上线**（Vercel `nicole-intelligence` 项目 + Upstash Redis，验活通过，PR #13/#15）｜ 产品形态定调=**漏斗**（见 §9 + 记忆 `product-vision-funnel.md`，ROADMAP P1.6）｜ Brave key 已 park（见 §7）。WIP/自动化仍在 `automation/monthly-update`。
+> 最后更新 2026-06-23 ｜ 引擎全部在 `main`：里程碑1 + winnability + **O1/O2-A/O3/O4** 本体化 + **本体图谱 ontology.html**｜ **✅ 处置闭环已上线**（Vercel `nicole-intelligence` 项目 + Upstash Redis，验活通过，PR #13/#15）｜ 产品形态=**漏斗**，**B1/B2 已落地**（PR #18：事件卡带 竞品+推荐产品 + 行业下钻）｜ Brave key 已 park（见 §7）。WIP/自动化仍在 `automation/monthly-update`。
 >
-> **🔑 下次开机关键词**：`读 HANDOFF + ROADMAP（P1.6 漏斗），推进 B1/B2`——当前主线是 **P1.6 漏斗串链**（热力图入口→下钻事件→带 方案/竞品/产品推荐，先 B 后 A）：
-> - **我方能立刻做**：**B1**（events.html 事件卡补 在位竞品 + 推荐产品，数据 O3/O4 已备）、**B2**（events.html 按 `industry_tag` 下钻 + deep-link）——纯前端，`engine.run --sample` 出样例即可开发，**不依赖 B0**。
+> **🔑 下次开机关键词**：`读 HANDOFF + ROADMAP（P1.6 漏斗），推进 B3`——主线 **P1.6 漏斗串链**（热力图入口→下钻事件→带 方案/竞品/产品推荐，先 B 后 A）：
+> - **✅ B1/B2 已完成**（PR #18）：事件卡带 推荐产品 + 在位竞品（具名+威胁分/绿地"无外资在位"）；events.html 加行业过滤 + `?industry=` deep-link（B3 下钻入口已备）。
+> - **下一步 = B3**（热力图改"混合+可点入口"：广度续用老 RSS/Brave 行业情绪，叠 engine 事件机会深度，点格 → `events.html?industry=X`）。**依赖 B0 数据 + 老管线热度** → B0 是 Codex 在做，B3 等数据到位再动；现在做会悬空。可先做的旁路：O2-B/图谱 enrich。
 > - **B0（CI 出数据）= Codex 在做**，本仓只作下游依赖，别重复实现。
 > - **竞品层复用** 兄弟产品 knowledge-center / "Pharma CI Radar"（`knowledge-center-omega.vercel.app/sales-intel`，竞品库更全），不重建。
 > - 纪律：从 `main` 切新分支，**开 PR 前先 `git fetch`**（bot 直推 main）；引擎活在 main，WIP/自动化在 automation。
@@ -128,5 +129,5 @@ python3 scripts/build_ontology.py             # 从 entities.yml + 最新 events
 **行业热力图(入口) → 下钻到事件 → 每条带 我方方案/竞品/产品推荐。** 热度与事件是**上下两层、不是对手**（修正决策1对赛道热度的单纯降级）——热度负责"往哪看"，事件负责"具体怎么打"。关节 = **行业/工况**（event 已带 `industry_tag`，热力图格子=行业，三页面是同一份引擎数据的三种切法）。
 
 - **路线见 ROADMAP P1.6**（先 B 后 A）；细节+取舍见记忆 `product-vision-funnel.md`。
-- **现在可做（不卡）**：B1 事件卡补竞品+推荐产品、B2 events.html 行业下钻（纯前端，样例数据即可）。
+- **进度**：**✅ B1**（事件卡带 推荐产品 + 在位竞品，引擎加 `competitors` 字段）、**✅ B2**（events.html 行业过滤 + `?industry=` deep-link）已落地（PR #18）。**⏭ B3** = 热力图混合+点击下钻（依赖 B0 数据 + 老管线热度，等 Codex 的 B0；B2 的 deep-link 入口已备好接它）。A 阶段后置。
 - **B0 数据 CI = Codex 做**；**竞品层复用 knowledge-center / Pharma CI Radar**（别重建）；月度更新 B 阶段保留喂热力图广度、A2 退役。
