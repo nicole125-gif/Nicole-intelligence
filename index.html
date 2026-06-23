@@ -644,6 +644,7 @@ body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([oncli
         <div class="control-label">Size By</div>
         <select class="control-select" id="hm-size">
           <option value="heat">Heat Score</option>
+          <option value="w">ESG赢面 W</option>
           <option value="capex">Capex</option>
           <option value="policy">Policy</option>
         </select>
@@ -652,7 +653,8 @@ body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([oncli
         <div class="control-label">Color By</div>
         <select class="control-select" id="hm-color">
           <option value="heat">Heat Score</option>
-          <option value="delta">Monthly Change</option>
+          <option value="w">ESG赢面 W</option>
+          <option value="delta">ESG vs 市场</option>
           <option value="policy">Policy Signal</option>
         </select>
       </div>
@@ -718,11 +720,11 @@ body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([oncli
   <section class="faq-band" aria-label="Heatmap FAQ">
     <div class="faq-item">
       <h3>块大小代表什么？</h3>
-      <p>默认代表 Heat Score，也可以切换为 Capex 或 Policy。面积越大，说明该赛道在当前筛选条件下越值得优先关注。</p>
+      <p>默认代表 Heat Score，也可切换为 ESG赢面 W / Capex / Policy。面积越大，说明该赛道在当前维度下越值得优先关注（切到 W 时，块越大=ESG 越能赢）。</p>
     </div>
     <div class="faq-item">
       <h3>颜色如何理解？</h3>
-      <p>绿色代表积极扩张，蓝色代表中高景气但仍需跟踪，橙色代表中性观察，红色代表压力或风险暴露。切换 Color By 后，颜色会按月度变化或政策信号重算。</p>
+      <p>绿色代表积极扩张/ESG 能赢，蓝色代表中高但仍需跟踪，橙色代表中性观察，红色代表压力/风险/ESG 难撬。切到 Color By: ESG赢面 W 看哪里国产替代空间大；切 ESG vs 市场 看 ESG 视角与市场热度的背离量。</p>
     </div>
     <div class="faq-item">
       <h3>这是不是投资建议？</h3>
@@ -900,9 +902,11 @@ const TRACK_W={
   f1:55, f2:50, f3:45, f4:75,          // 食品(竞品在位)中性；食品添加剂(合成生物)甜点
 };
 const esgHeat=(s,W)=>Math.round((s.C*.30 + W*.25 + s.D*.20 + s.Pol*.15 + s.P*.10)*10)/10;
-Object.keys(T).forEach(id=>{ const W=TRACK_W[id]??50; T[id].W=W; T[id].heat=esgHeat(T[id],W); });
-Object.keys(BM).forEach(b=>{ const ws=BM[b].tracks.map(id=>TRACK_W[id]??50);
-  const W=Math.round(ws.reduce((a,c)=>a+c,0)/ws.length); BM[b].W=W; BM[b].heat=esgHeat(BM[b],W); });
+// delta 重定义为「ESG 重锚偏移」= ESG heat − 市场 heat（旧 MoM 与新公式不一致，改成更有用的 ESG-vs-市场背离量）
+Object.keys(T).forEach(id=>{ const W=TRACK_W[id]??50, mkt=T[id].heat;
+  T[id].W=W; T[id].heat=esgHeat(T[id],W); T[id].delta=Math.round((T[id].heat-mkt)*10)/10; });
+Object.keys(BM).forEach(b=>{ const ws=BM[b].tracks.map(id=>TRACK_W[id]??50), mkt=BM[b].heat;
+  const W=Math.round(ws.reduce((a,c)=>a+c,0)/ws.length); BM[b].W=W; BM[b].heat=esgHeat(BM[b],W); BM[b].delta=Math.round((BM[b].heat-mkt)*10)/10; });
 
 /* ── HELPERS ── */
 const HC=h=>h>=75?'hot':h>=60?'exp':h>=45?'neu':'cold';
@@ -1757,6 +1761,7 @@ function heatUniverse(){
   return Object.keys(T).filter(id=>T[id] && BM[T[id].b]).map(id=>({id,t:getLangT(id),base:T[id]}));
 }
 function heatMetricValue(t,mode){
+  if(mode==='w') return t.W;
   if(mode==='capex') return t.C;
   if(mode==='policy') return t.Pol;
   return t.heat;
@@ -1814,7 +1819,7 @@ function updateHeatDetail(id){
     </div>
     <div class="detail-score">
       <strong>${esc(t.heat)}</strong>
-      <span>${trendEl(t.tr)} HEAT<br>${t.delta!==undefined ? `${t.delta>=0?'+':''}${esc(t.delta)} MOM` : 'NO DELTA'}</span>
+      <span>${trendEl(t.tr)} HEAT<br>${t.delta!==undefined ? `${t.delta>=0?'+':''}${esc(t.delta)} vs市场` : 'NO DELTA'}</span>
     </div>
     <div class="metric-stack">
       <div class="metric-box hl"><span>ESG赢面 W · ×25%</span><strong>${esc(t.W)}</strong></div>
