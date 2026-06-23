@@ -231,6 +231,13 @@ class CompetitorDensityTests(unittest.TestCase):
         self.assertEqual(self._d("lithium_injection"), "low")
         self.assertEqual(self._d("rubber_curing"), "low")
 
+    def test_incumbents_named_for_stronghold(self):
+        # B1：具名在位竞品；无据点工况返回空（国产友好）
+        names = [c["name"] for c in winnability.incumbents_for_condition("hygienic", self.reg)]
+        self.assertIn("Bürkert", names)
+        self.assertIn("Gemü", names)
+        self.assertEqual(winnability.incumbents_for_condition("biosynthesis", self.reg), [])
+
     def test_biosynthesis_beats_pharma_ref_via_derived_density(self):
         # 同为新建，生物合成(无据点)赢面应高于无菌制剂(Gemü 护城河)
         bio = winnability.assess("某生物合成发酵基地新建", self._d("biosynthesis"))["score"]
@@ -313,6 +320,18 @@ class BuildTests(unittest.TestCase):
             self._sig(title="无菌灌装乳品线新建投资5亿元", company="某乳业"),
             self.cfg, self.as_of)
         self.assertIsNone(ev["spec_position"])
+
+    def test_event_carries_named_competitors(self):
+        # B1：卫生级工况事件带具名在位竞品；锂电(无据点)为空
+        hyg = build.build_event(
+            self._sig(title="无菌灌装乳品线新建投资5亿元", company="某乳业"),
+            self.cfg, self.as_of)
+        self.assertTrue(any(c["name"] == "Bürkert" for c in hyg["competitors"]))
+        li = build.build_event(
+            self._sig(title="动力电池注液化成扩建", company="电池B",
+                      source_type="project_filing"),
+            self.cfg, self.as_of)
+        self.assertEqual(li["competitors"], [])
 
     def test_pack_summary_counts(self):
         signals = [
