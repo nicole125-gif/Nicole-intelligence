@@ -887,25 +887,42 @@ const SOURCES=[
   {n:'商务部公告 / 海关总署',d:'不可靠实体清单、进口报关量数据',tags:['L&M','EI']},
 ];
 
-/* ── O-1+O-2 · ESG 视角重锚 Heat Score（渲染层覆盖，不碰 bot 数据）──
-   heat = Capex×30 + W×25 + Demand×20 + Policy×15 + Price×10
-   Capex(销售触发器,决策3)领权、Price(对卖阀门最不相关)降权；
-   W = ESG 卖阀门的赢面/国产替代空间，依据决策8 甜点区(生物合成/发酵/GLP-1原料药端/锂电)
-       + 竞品护城河(Gemü/Bürkert 在食品饮料/无菌) + 阀门相关性(宏观/实验室仪器低)。
-   bot 月度只重写 D/C/P/Pol，W 留在此渲染层种子，重算时永远用最新 D/C/P/Pol + 本表 W。 */
-const TRACK_W={
-  m1:30, m2:25, m3:35,                 // 宏观背景：非阀门可成交市场
-  e1:65, e2:50, e3:70, e4:60,          // 液冷/半导体/绿氢/燃料电池
-  g1:78,                                // 锂电设备：国产友好甜点区
-  p1:35, p2:85, p3:30, p4:60, p5:62,   // 合成生物85甜点；融资/出海低；CDMO/装备中高
-  l1:35, l2:30, l3:35,                  // 实验室仪器：流体/阀门相关性低
-  f1:55, f2:50, f3:45, f4:75,          // 食品(竞品在位)中性；食品添加剂(合成生物)甜点
+/* ── 打分模型 · 单一来源（ESG 视角 Heat Score）─────────────────────────────
+   heat = Σ(factor × weight)。**改权重 / W 只改这里**；详情面板维度卡从此派生。
+   （公式标签另在 market-clock[L~675] / formula-tip[L~428] / FAQ 手写，改权重时一并同步。）
+   · Capex（销售触发器，决策3）领权、Price（对卖阀门最不相关）降权。
+   · W = ESG 赢面/国产替代空间。⚠ 目前手工种子，但每条 why 锚定 **O4 竞品据点**
+     （entities.yml strongholds：Gemü/Bürkert 在 hygienic/pharma_ref full）+ 决策8 甜点区
+     + 阀门相关性，可审。**真·从 entities.yml 自动派生 W = A 阶**（需 track→工况映射 + 生成步骤）。
+   · bot 月度只重写 D/C/P/Pol，W 留此渲染层；重算永远用最新 D/C/P/Pol + 本模型的 W。 */
+const SCORE_MODEL = {
+  weights: { C:.30, W:.25, D:.20, Pol:.15, P:.10 },
+  labels:  { C:'Capex', W:'ESG赢面', D:'Demand', Pol:'Policy', P:'Price' },
+  W: {  // 赛道 → [ESG赢面分, 依据(O4据点/甜点区/阀门相关性)]
+    m1:[30,'宏观背景，非阀门可成交市场'], m2:[25,'宏观，非可成交市场'], m3:[35,'宏观 capex 信号，仍非直接机会'],
+    e1:[65,'液冷：冷却液阀对口、国产友好新兴，无外资据点'], e2:[50,'半导体：国产替代但高纯阀外资壁垒高'],
+    e3:[70,'绿氢电解槽：国产+流体阀对口，甜点'], e4:[60,'燃料电池：国产、流体相关'],
+    g1:[78,'锂电设备：注液阀对口、国产友好甜点区'],
+    p1:[35,'生物药出海：BD/出海信号，非直接 capex 流体机会'],
+    p2:[85,'合成生物：发酵/CIP-SIP 角座阀对口、无外资据点，甜点区(决策8)'],
+    p3:[30,'生物药融资：金融信号，非阀门'],
+    p4:[60,'制药装备 Capex：东富龙已 spec 进=机会，楚天/森松需 design-in'],
+    p5:[62,'CDMO：多肽/ADC 原料药端国产友好(决策8 GLP-1原料药甜点)'],
+    l1:[35,'质谱/色谱：分析仪器国产替代，非流体阀门'], l2:[30,'基因测序：仪器，非流体阀门'], l3:[35,'IVD：诊断仪器，非流体阀门'],
+    f1:[55,'食品制造：卫生级流体相关，但 Bürkert/Gemü 据点在(O4)'],
+    f2:[50,'酒/饮料：产能过剩+竞品在位'], f3:[45,'食品消费端：离设备采购远'],
+    f4:[75,'食品添加剂：合成生物发酵，甜点区'],
+  },
 };
-const esgHeat=(s,W)=>Math.round((s.C*.30 + W*.25 + s.D*.20 + s.Pol*.15 + s.P*.10)*10)/10;
-// delta 重定义为「ESG 重锚偏移」= ESG heat − 市场 heat（旧 MoM 与新公式不一致，改成更有用的 ESG-vs-市场背离量）
-Object.keys(T).forEach(id=>{ const W=TRACK_W[id]??50, mkt=T[id].heat;
-  T[id].W=W; T[id].heat=esgHeat(T[id],W); T[id].delta=Math.round((T[id].heat-mkt)*10)/10; });
-Object.keys(BM).forEach(b=>{ const ws=BM[b].tracks.map(id=>TRACK_W[id]??50), mkt=BM[b].heat;
+const wOf   = id => (SCORE_MODEL.W[id] || [50])[0];
+const whyOf = id => (SCORE_MODEL.W[id] || [0,''])[1] || '';
+const wPct  = k  => Math.round(SCORE_MODEL.weights[k]*100);  // 维度卡显示权重，单一来源
+const esgHeat = (s,W) => { const k=SCORE_MODEL.weights;
+  return Math.round((s.C*k.C + W*k.W + s.D*k.D + s.Pol*k.Pol + s.P*k.P)*10)/10; };
+// delta 重定义为「ESG 重锚偏移」= ESG heat − 市场 heat（旧 MoM 与新公式不一致）
+Object.keys(T).forEach(id=>{ const W=wOf(id), mkt=T[id].heat;
+  T[id].W=W; T[id].why=whyOf(id); T[id].heat=esgHeat(T[id],W); T[id].delta=Math.round((T[id].heat-mkt)*10)/10; });
+Object.keys(BM).forEach(b=>{ const ws=BM[b].tracks.map(wOf), mkt=BM[b].heat;
   const W=Math.round(ws.reduce((a,c)=>a+c,0)/ws.length); BM[b].W=W; BM[b].heat=esgHeat(BM[b],W); BM[b].delta=Math.round((BM[b].heat-mkt)*10)/10; });
 
 /* ── HELPERS ── */
@@ -1239,7 +1256,7 @@ function openModal(id){
   document.getElementById('mht').textContent=t.heat;
   document.getElementById('mht').className=`m-ht ${hc}`;
   document.getElementById('mtr').innerHTML=trendEl(t.tr,true);
-  document.getElementById('mscs').innerHTML=[{l:'Capex',v:t.C,w:'30%'},{l:'ESG赢面',v:t.W,w:'25%'},{l:'Demand',v:t.D,w:'20%'},{l:'Policy',v:t.Pol,w:'15%'},{l:'Price',v:t.P,w:'10%'}].map(s=>{
+  document.getElementById('mscs').innerHTML=[{l:'Capex',v:t.C,w:wPct('C')+'%'},{l:'ESG赢面',v:t.W,w:wPct('W')+'%'},{l:'Demand',v:t.D,w:wPct('D')+'%'},{l:'Policy',v:t.Pol,w:wPct('Pol')+'%'},{l:'Price',v:t.P,w:wPct('P')+'%'}].map(s=>{
     const c=s.v>=70?'var(--up)':s.v>=55?'var(--fl)':'var(--dn)';
     return `<div class="msc"><span class="msc-l">${esc(s.l)}</span><span class="msc-v" style="color:${c}">${esc(s.v)}</span><span class="msc-w">× ${esc(s.w)}</span><div class="msc-b"><div class="msc-f" style="width:${esc(s.v)}%;background:${c}"></div></div></div>`;
   }).join('');
@@ -1681,7 +1698,7 @@ window.openModal = function(id) {
   document.getElementById('mht').textContent=t.heat;
   document.getElementById('mht').className=`m-ht ${hc}`;
   document.getElementById('mtr').innerHTML=trendEl(t.tr,true);
-  document.getElementById('mscs').innerHTML=[{l:'Capex',v:t.C,w:'30%'},{l:'ESG赢面',v:t.W,w:'25%'},{l:'Demand',v:t.D,w:'20%'},{l:'Policy',v:t.Pol,w:'15%'},{l:'Price',v:t.P,w:'10%'}].map(s=>{
+  document.getElementById('mscs').innerHTML=[{l:'Capex',v:t.C,w:wPct('C')+'%'},{l:'ESG赢面',v:t.W,w:wPct('W')+'%'},{l:'Demand',v:t.D,w:wPct('D')+'%'},{l:'Policy',v:t.Pol,w:wPct('Pol')+'%'},{l:'Price',v:t.P,w:wPct('P')+'%'}].map(s=>{
     const c=s.v>=70?'var(--up)':s.v>=55?'var(--fl)':'var(--dn)';
     return `<div class="msc"><span class="msc-l">${esc(s.l)}</span><span class="msc-v" style="color:${c}">${esc(s.v)}</span><span class="msc-w">× ${esc(s.w)}</span><div class="msc-b"><div class="msc-f" style="width:${esc(s.v)}%;background:${c}"></div></div></div>`;
   }).join('');
@@ -1822,11 +1839,11 @@ function updateHeatDetail(id){
       <span>${trendEl(t.tr)} HEAT<br>${t.delta!==undefined ? `${t.delta>=0?'+':''}${esc(t.delta)} vs市场` : 'NO DELTA'}</span>
     </div>
     <div class="metric-stack">
-      <div class="metric-box hl"><span>ESG赢面 W · ×25%</span><strong>${esc(t.W)}</strong></div>
-      <div class="metric-box"><span>Capex ×30%</span><strong>${esc(t.C)}</strong></div>
-      <div class="metric-box"><span>Demand ×20%</span><strong>${esc(t.D)}</strong></div>
-      <div class="metric-box"><span>Policy ×15%</span><strong>${esc(t.Pol)}</strong></div>
-      <div class="metric-box"><span>Price ×10%</span><strong>${esc(t.P)}</strong></div>
+      <div class="metric-box hl" title="${esc(t.why||'')}"><span>${SCORE_MODEL.labels.W} W · ×${wPct('W')}% ⓘ</span><strong>${esc(t.W)}</strong></div>
+      <div class="metric-box"><span>${SCORE_MODEL.labels.C} ×${wPct('C')}%</span><strong>${esc(t.C)}</strong></div>
+      <div class="metric-box"><span>${SCORE_MODEL.labels.D} ×${wPct('D')}%</span><strong>${esc(t.D)}</strong></div>
+      <div class="metric-box"><span>${SCORE_MODEL.labels.Pol} ×${wPct('Pol')}%</span><strong>${esc(t.Pol)}</strong></div>
+      <div class="metric-box"><span>${SCORE_MODEL.labels.P} ×${wPct('P')}%</span><strong>${esc(t.P)}</strong></div>
     </div>
     <div class="detail-note">${esc(t.tw)}</div>
     <div class="detail-note">${esc(t.act)}</div>
