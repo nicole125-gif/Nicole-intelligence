@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-06-23T04:05:00.899314+00:00",
+  "updated_at": "2026-06-24T04:08:09.226885+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "9402bd1012",
-      "title": "陶哲轩：几周前，AI突破数学形式化临界点",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898699&idx=1&sn=1e3aec91880be94f696ecb813fd1f347",
-      "summary": "陶哲轩：几周前，AI突破数学形式化临界点",
+      "id": "6cf0b42c5e",
+      "title": "云计算一哥，让小鹏、Kimi和猎豹都爽了一把",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899056&idx=1&sn=7420d966f8ad1cbb2ab0cee355bf3e13",
+      "summary": "云计算一哥，让小鹏、Kimi和猎豹都爽了一把",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-23T04:04:54.285756+00:00",
-      "pub_ts": 1782187494
+      "pub_date": "2026-06-24T04:08:04.407963+00:00",
+      "pub_ts": 1782274084
     },
     {
-      "id": "5fc3fef08b",
-      "title": "过程比结果重要：一个不给标准答案的调参框架，让Agent自己把数据库性能..",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898699&idx=2&sn=1ad728a8778f276f2709aee1870fed65",
-      "summary": "过程比结果重要：一个不给标准答案的调参框架，让Agent自己把数据库性能..",
+      "id": "247f13180d",
+      "title": "实测结论：比微信更好用的是「小微版」微信",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899056&idx=2&sn=19deaa21c2b69769bc1c817cd4a06cb6",
+      "summary": "实测结论：比微信更好用的是「小微版」微信",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-23T04:04:54.285798+00:00",
-      "pub_ts": 1782187494
+      "pub_date": "2026-06-24T04:08:04.408009+00:00",
+      "pub_ts": 1782274084
     },
     {
-      "id": "c62bb60a22",
-      "title": "顶刊生物实验难复现？统一操作话术来了！编译通过率98.6%",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898696&idx=1&sn=4f684b0fe44610a5d55b739edf50d6a4",
-      "summary": "顶刊生物实验难复现？统一操作话术来了！编译通过率98.6%",
+      "id": "13df0e3182",
+      "title": "大模型终于说不出脏话了！有毒子词剪枝ToxPrune，预训练+推理双重防线",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899056&idx=3&sn=9b1105e99cff8d83bb54aeca25f08185",
+      "summary": "大模型终于说不出脏话了！有毒子词剪枝ToxPrune，预训练+推理双重防线",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-23T04:04:54.285822+00:00",
-      "pub_ts": 1782187494
+      "pub_date": "2026-06-24T04:08:04.408032+00:00",
+      "pub_ts": 1782274084
     },
     {
-      "id": "6ffc4a8aed",
-      "title": "马斯克又盯上AI基建：特斯拉要卖“算力积木”了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898696&idx=2&sn=08f47ac71c20d1aa2c0f43ace418b884",
-      "summary": "马斯克又盯上AI基建：特斯拉要卖“算力积木”了",
+      "id": "8e3ffa572b",
+      "title": "刚刚，豆包2.1发布！Agent自己跑18个小时搞定芯片设计代码",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899001&idx=1&sn=667de11c1f709be1981e2a3ffd0837d1",
+      "summary": "刚刚，豆包2.1发布！Agent自己跑18个小时搞定芯片设计代码",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-23T04:04:54.285844+00:00",
-      "pub_ts": 1782187494
+      "pub_date": "2026-06-24T04:08:04.408052+00:00",
+      "pub_ts": 1782274084
     },
     {
-      "id": "fbef0a7387",
-      "title": "DeepSeek缺Agent人才缺疯了！负责人各种贴广告",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898679&idx=1&sn=7e13093476268ed660ab89bfa7edc32f",
-      "summary": "DeepSeek缺Agent人才缺疯了！负责人各种贴广告",
+      "id": "ef4edc02eb",
+      "title": "一次吃下一本书！百度开源新OCR，作者疑似前DeepSeek研究员",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899001&idx=2&sn=ca1e4f8f5ceec52853bc7d0393af1ecb",
+      "summary": "一次吃下一本书！百度开源新OCR，作者疑似前DeepSeek研究员",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-23T04:04:54.285865+00:00",
-      "pub_ts": 1782187494
+      "pub_date": "2026-06-24T04:08:04.408072+00:00",
+      "pub_ts": 1782274084
     }
   ],
   "source_success_count": 1,

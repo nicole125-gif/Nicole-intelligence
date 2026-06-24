@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-06-23T04:05:24.913484+00:00",
+  "updated_at": "2026-06-24T04:08:35.837443+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "088b14125f",
-      "title": "AbbVie deepens immunology legacy in $10.9bn Apogee buyout",
-      "url": "https://www.pharmaceutical-technology.com/news/abbvie-apogee-therapeutics-acquisition-10-9bn-immunology/",
-      "summary": "AbbVie's multi-billion-dollar Apogee bid could further cement the former's leading position in the immunology space as competition heats up.",
+      "id": "c069e546e3",
+      "title": "BIO 2026: NVIDIA announces the BioNeMo toolkit for AI agents",
+      "url": "https://www.pharmaceutical-technology.com/news/bio-2026-nvidia-announces-the-bionemo-toolkit-for-ai-agents/",
+      "summary": "The suite of tools is designed to allow AI to carry out R&amp;D work more quickly, reliably, and in a continuous innovation loop.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-22T14:33:28+00:00",
-      "pub_ts": 1782138808
+      "pub_date": "2026-06-23T19:04:59+00:00",
+      "pub_ts": 1782241499
     },
     {
-      "id": "b59cc971c0",
-      "title": "HLTH Europe 2026: enriching the patient journey with health technologies",
-      "url": "https://www.pharmaceutical-technology.com/news/hlth-europe-2026-health-technologies-patient-adherence/",
-      "summary": "Experts at HLTH Europe 2026 note that patient adherence-focused health technologies should be flexible, engaging, adaptable and affordable.",
+      "id": "d46eff24df",
+      "title": "From collection to confidence: why clinical trial data reliability starts early",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/from-collection-to-confidence-why-clinical-trial-data-reliability-starts-early/",
+      "summary": "Reliable clinical trial data starts in Phase 1. Learn how early quality signals protect safety and guide confident sponsor decisions.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-22T10:48:22+00:00",
-      "pub_ts": 1782125302
+      "pub_date": "2026-06-23T14:11:32+00:00",
+      "pub_ts": 1782223892
     },
     {
-      "id": "23fcc7ba43",
-      "title": "Moderna’s mRNA flu vaccine passes FDA AdCom, review underway",
-      "url": "https://www.pharmaceutical-technology.com/news/modernas-mrna-flu-vaccine-passes-fda-adcom-review-underway/",
-      "summary": "The panel unanimously said that the benefits of Moderna's mRNA jab outweigh its risks in preventing influenza in certain age groups.",
+      "id": "c0efaf6ac3",
+      "title": "BIO 2026: Cell and gene therapy firms outline their use of AI in manufacturing",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/bio-2026-cell-and-gene-therapy-firms-outline-their-use-of-ai-in-manufacturing/",
+      "summary": "From data lakes to streamlined production, Kriya, Opus, and Epicrispr discuss how technology is improving their operations.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-22T10:43:25+00:00",
-      "pub_ts": 1782125005
+      "pub_date": "2026-06-23T14:08:06+00:00",
+      "pub_ts": 1782223686
     },
     {
-      "id": "110b9b3112",
-      "title": "Post-marketing oncology studies: Enabling faster recruitment and lower costs",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/post-marketing-oncology-studies-enabling-faster-recruitment-and-lower-costs/",
-      "summary": "In clinical trials, post-marketing approval studies remain a lower priority than other research areas, especially at community oncology centers.",
+      "id": "23e2cfba22",
+      "title": "FDA changes rare disease tune again as it clears path for Regenxbio’s gene therapy",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-changes-rare-disease-tune-again-as-it-clears-path-for-regenxbios-gene-therapy/",
+      "summary": "With a regulatory route now in place, Regenxbio expects to meet with the FDA again in July, with a BLA resubmission to follow in Q3 2026.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-22T10:17:06+00:00",
-      "pub_ts": 1782123426
+      "pub_date": "2026-06-23T13:26:44+00:00",
+      "pub_ts": 1782221204
     },
     {
-      "id": "605366c56a",
-      "title": "The evolution of the ADC market – and what it means for commercial packaging",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/the-evolution-of-the-adc-market-and-what-it-means-for-commercial-packaging/",
-      "summary": "We explore the ADC market’s evolution, the unique challenges of packaging ADCs, and how strategic collaborations can help companies navigate future trends and requirements.",
+      "id": "d6f8e8cd4c",
+      "title": "Genprex’s Reqorsa combo secures Canadian patent for lung cancer",
+      "url": "https://www.pharmaceutical-technology.com/news/genprex-reqorsa-combo-canadian-patent/",
+      "summary": "Genprex has received a Notice of Allowance from the CIPO for a patent related to the use of its Reqorsa gene therapy in combination with either PD-1 or PD-L1 antibodies to treat NSCLC and SCLC.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-22T09:03:42+00:00",
-      "pub_ts": 1782119022
+      "pub_date": "2026-06-23T09:51:24+00:00",
+      "pub_ts": 1782208284
     }
   ],
   "source_success_count": 1,

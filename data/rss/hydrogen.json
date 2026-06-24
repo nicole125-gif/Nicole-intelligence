@@ -3,9 +3,59 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-06-23T04:05:12.529067+00:00",
+  "updated_at": "2026-06-24T04:08:23.448304+00:00",
   "item_count": 10,
   "items": [
+    {
+      "id": "ed441d9f70",
+      "title": "THREE60 Energy and Logan Partner to Deliver Integrated Hydrogen Projects",
+      "url": "https://fuelcellsworks.com/2026/06/23/hydrogen/three60-energy-and-logan-partner-to-deliver-integrated-hydrogen-projects",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-06-23T16:00:10+00:00",
+      "pub_ts": 1782230410
+    },
+    {
+      "id": "1b826ba6b8",
+      "title": "Symbolic Launch of Hydrogen Infrastructure at the BMW Group Plant in Regensburg",
+      "url": "https://fuelcellsworks.com/2026/06/23/h2/symbolic-launch-of-hydrogen-infrastructure-at-the-bmw-group-plant-in-regensburg",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-06-23T15:54:34+00:00",
+      "pub_ts": 1782230074
+    },
+    {
+      "id": "bb98bb71a2",
+      "title": "One Year on the Road: How Toyota’s Hydrogen Trucks Are Delivering Real-World Logistics",
+      "url": "https://fuelcellsworks.com/2026/06/23/fuel-cells/one-year-on-the-road-how-toyota-s-hydrogen-trucks-are-delivering-real-world-logistics",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-06-23T15:45:47+00:00",
+      "pub_ts": 1782229547
+    },
+    {
+      "id": "e2113d676c",
+      "title": "UK Hydrogen Firms Must Change Tack Amid HAR2 Delays",
+      "url": "https://fuelcellsworks.com/2026/06/23/energy-development/uk-hydrogen-firms-must-change-tack-amid-har2-delays",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-06-23T15:32:22+00:00",
+      "pub_ts": 1782228742
+    },
+    {
+      "id": "3a9e859206",
+      "title": "Jukka Nieminen Appointed Chairman of the Board and Matti Malkamäki Named CEO of Hycamite",
+      "url": "https://fuelcellsworks.com/2026/06/23/hydrogen-economy/jukka-nieminen-appointed-chairman-of-the-board-and-matti-malkamaki-named-ceo-of-hycamite",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-06-23T15:20:16+00:00",
+      "pub_ts": 1782228016
+    },
     {
       "id": "aca8860866",
       "title": "GreenH2Atlantic hydrogen project in Sines obtains environmental license",
@@ -55,56 +105,6 @@
       "lang": "en",
       "pub_date": "2026-06-22T16:22:52+00:00",
       "pub_ts": 1782145372
-    },
-    {
-      "id": "4b2d98c1de",
-      "title": "UK and Philippines Scientists Investigate Natural Hydrogen Generation Processes at Atomic Scale",
-      "url": "https://fuelcellsworks.com/2026/06/22/energy-innovation/uk-and-philippines-scientists-investigate-natural-hydrogen-generation-processes-at-atomic-scale",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-06-22T16:10:52+00:00",
-      "pub_ts": 1782144652
-    },
-    {
-      "id": "e69931815c",
-      "title": "Europe's Hydrogen Backbone Is Surveying Ten Towns in Central Italy",
-      "url": "https://fuelcellsworks.com/2026/06/21/h2/europe-s-hydrogen-backbone-is-surveying-ten-towns-in-central-italy",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-06-22T16:02:23+00:00",
-      "pub_ts": 1782144143
-    },
-    {
-      "id": "594143c9b6",
-      "title": "Sasol Pivots to a Broader Northern Cape Green Hydrogen Development Model",
-      "url": "https://fuelcellsworks.com/2026/06/22/energy-development/sasol-pivots-to-a-broader-northern-cape-green-hydrogen-development-model",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-06-22T16:00:19+00:00",
-      "pub_ts": 1782144019
-    },
-    {
-      "id": "93a71223df",
-      "title": "Toyota Mobility Foundation (TMF) Launches European Hydrogen Regions Initiative and Opens a Call for Regional Partners",
-      "url": "https://fuelcellsworks.com/2026/06/22/fuel-cells/toyota-mobility-foundation-tmf-launches-european-hydrogen-regions-initiative-and-opens-a-call-for-regional-partners",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-06-22T15:50:44+00:00",
-      "pub_ts": 1782143444
-    },
-    {
-      "id": "eac1446007",
-      "title": "Story You May Have Missed--Confirmed: BYD Steps Into Hydrogen — Its Fudi Fuel Cells Now Power GAC Trucks",
-      "url": "https://fuelcellsworks.com/2026/06/15/fuel-cells/confirmed-byd-steps-into-hydrogen-its-fudi-fuel-cells-now-power-gac-trucks",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-06-22T15:32:53+00:00",
-      "pub_ts": 1782142373
     }
   ],
   "source_success_count": 2,

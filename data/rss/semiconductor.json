@@ -3,108 +3,128 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-06-23T04:04:44.932532+00:00",
+  "updated_at": "2026-06-24T04:07:54.681271+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "ac63793364",
-      "title": "存储设备的新一波浪潮，谁能抓住?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813504&idx=1&sn=60c39da7ff76be10892da3789c30ea3e",
-      "summary": "存储设备的新一波浪潮，谁能抓住?",
+      "id": "4ed23c7eb1",
+      "title": "具身智能芯片，先卷疯了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813554&idx=1&sn=598c15cd1a37c80adcd69fff09e00ca3",
+      "summary": "具身智能芯片，先卷疯了",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-23T04:04:40.734850+00:00",
-      "pub_ts": 1782187480
+      "pub_date": "2026-06-24T04:07:50.582110+00:00",
+      "pub_ts": 1782274070
     },
     {
-      "id": "fe8d6d5eea",
-      "title": "92亿美元！企业存储一季度爆发，华为15%增速亮眼",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813504&idx=2&sn=846f970529b8d813adea4048a87fa5c1",
-      "summary": "92亿美元！企业存储一季度爆发，华为15%增速亮眼",
+      "id": "72ac35ce9e",
+      "title": "神州数码携手Intel共赴MWC上海2026，开启边缘计算新篇章",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813554&idx=2&sn=1bde1b93e0de90ead8815501f278de4c",
+      "summary": "神州数码携手Intel共赴MWC上海2026，开启边缘计算新篇章",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-23T04:04:40.734894+00:00",
-      "pub_ts": 1782187480
+      "pub_date": "2026-06-24T04:07:50.582159+00:00",
+      "pub_ts": 1782274070
     },
     {
-      "id": "6d969226dd",
-      "title": "五年砸800亿日元！TOTO瞄准1nm半导体市场",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813504&idx=3&sn=f4a9f28997ee35758a06d82631b651fa",
-      "summary": "五年砸800亿日元！TOTO瞄准1nm半导体市场",
+      "id": "ebdd68f222",
+      "title": "7月芯片价格，涨涨涨",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813554&idx=3&sn=616509cf0145f764fc705fad13cd43ad",
+      "summary": "7月芯片价格，涨涨涨",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-23T04:04:40.734921+00:00",
-      "pub_ts": 1782187480
+      "pub_date": "2026-06-24T04:07:50.582185+00:00",
+      "pub_ts": 1782274070
     },
     {
-      "id": "0b432be617",
-      "title": "高NAEUV规模化导入，卡在掩模成本",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813504&idx=4&sn=482bbc82bfba0bef28145c0164695622",
-      "summary": "高NAEUV规模化导入，卡在掩模成本",
+      "id": "c30919c21c",
+      "title": "锁定英伟达！磷化铟晶圆产能暴涨四倍",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813554&idx=4&sn=6c44cccd7e016e70d5080030a2274518",
+      "summary": "锁定英伟达！磷化铟晶圆产能暴涨四倍",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-23T04:04:40.734945+00:00",
-      "pub_ts": 1782187480
+      "pub_date": "2026-06-24T04:07:50.582207+00:00",
+      "pub_ts": 1782274070
     },
     {
-      "id": "922139b457",
-      "title": "锁定十年长约，台积电联手安靠补齐美国先进封装短板",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813504&idx=5&sn=c2be0421974ad03b297644e230f3ac51",
-      "summary": "锁定十年长约，台积电联手安靠补齐美国先进封装短板",
+      "id": "85d87a4b4c",
+      "title": "SK海力士市值首超三星，存储市场变天了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813554&idx=5&sn=bb13310691518a02c82b337dd1431a8e",
+      "summary": "SK海力士市值首超三星，存储市场变天了",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-23T04:04:40.734966+00:00",
-      "pub_ts": 1782187480
+      "pub_date": "2026-06-24T04:07:50.582227+00:00",
+      "pub_ts": 1782274070
     },
     {
-      "id": "cf0145ef7d",
-      "title": "这些芯片，涨价！",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823357&idx=1&sn=16094b07de96e56bd0f23c654e4130d7",
-      "summary": "这些芯片，涨价！",
+      "id": "5629b82194",
+      "title": "扬杰科技，涨价！",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823473&idx=1&sn=06ee09df916fc1f9d1c39fe31d66c661",
+      "summary": "扬杰科技，涨价！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-23T04:04:32.214695+00:00",
-      "pub_ts": 1782187472
+      "pub_date": "2026-06-24T04:07:37.609760+00:00",
+      "pub_ts": 1782274057
     },
     {
-      "id": "0d9988ceab",
-      "title": "用“超级PMOS”颠覆开关，一位芯片老兵的豪赌",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823323&idx=1&sn=186c174d2142c721fd7b020e70677363",
-      "summary": "用“超级PMOS”颠覆开关，一位芯片老兵的豪赌",
+      "id": "644965214b",
+      "title": "铠侠，惊天逆袭！",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823464&idx=1&sn=de0a40af67b60fbcba9047ca130d0838",
+      "summary": "铠侠，惊天逆袭！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-23T04:04:32.214750+00:00",
-      "pub_ts": 1782187472
+      "pub_date": "2026-06-24T04:07:37.609818+00:00",
+      "pub_ts": 1782274057
     },
     {
-      "id": "9ad7d779ed",
-      "title": "闪迪HBF，野心曝光！",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823323&idx=2&sn=a0f49710af9aeed95985bc08de0d8638",
-      "summary": "闪迪HBF，野心曝光！",
+      "id": "d841ce605b",
+      "title": "为物理AI打造视觉芯片，与光科技完成亿元融资",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823464&idx=2&sn=39a45c45b5acd7ba69877a94ab628e39",
+      "summary": "为物理AI打造视觉芯片，与光科技完成亿元融资",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-23T04:04:32.214776+00:00",
-      "pub_ts": 1782187472
+      "pub_date": "2026-06-24T04:07:37.609842+00:00",
+      "pub_ts": 1782274057
     },
     {
-      "id": "eab5dc14c1",
-      "title": "HBM，难搞哦",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823323&idx=3&sn=27bf6f0cf91f7efc77fd22da267be87a",
-      "summary": "HBM，难搞哦",
+      "id": "c53d03aa8e",
+      "title": "Arm服务器市占，直逼50%",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823464&idx=3&sn=d19e9a2eb6f89ca5d79bb192481015af",
+      "summary": "Arm服务器市占，直逼50%",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-23T04:04:32.214799+00:00",
-      "pub_ts": 1782187472
+      "pub_date": "2026-06-24T04:07:37.609881+00:00",
+      "pub_ts": 1782274057
     },
     {
-      "id": "b7822ab6b0",
-      "title": "晶体管，还能微缩吗?",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823323&idx=4&sn=0d466eb956ef2ac9be64e321f4b2a8af",
-      "summary": "晶体管，还能微缩吗?",
+      "id": "38ce8c55f9",
+      "title": "1nm后，芯片拼什么？",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823464&idx=4&sn=6048758ef9265f644bd5c3090aad7fca",
+      "summary": "1nm后，芯片拼什么？",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-23T04:04:32.214820+00:00",
-      "pub_ts": 1782187472
+      "pub_date": "2026-06-24T04:07:37.609902+00:00",
+      "pub_ts": 1782274057
+    },
+    {
+      "id": "67d560ae78",
+      "title": "New USB Standards: Benefits And Incompatibilities",
+      "url": "https://semiengineering.com/new-usb-standards-benefits-and-incompatibilities/",
+      "summary": "A roadmap for integrating different versions of the USB and eUSB.\nThe post New USB Standards: Benefits And Incompatibilities appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-06-23T07:15:41+00:00",
+      "pub_ts": 1782198941
+    },
+    {
+      "id": "e4342b4acb",
+      "title": "Research Bits: June 23",
+      "url": "https://semiengineering.com/research-bits-june-23/",
+      "summary": "Redesigning high-NA EUV; embedded liquid cooling; light wavelength analysis.\nThe post Research Bits: June 23 appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-06-23T07:01:37+00:00",
+      "pub_ts": 1782198097
     },
     {
       "id": "abb9021a74",
@@ -135,26 +155,6 @@
       "lang": "en",
       "pub_date": "2026-06-22T17:55:07+00:00",
       "pub_ts": 1782150907
-    },
-    {
-      "id": "2e76fc3a20",
-      "title": "Will Your Chip’s Memory Work As Expected?",
-      "url": "https://semiengineering.com/will-your-chips-memory-work-as-expected/",
-      "summary": "How to ensure that memory is fully tested and repaired.\nThe post Will Your Chip&#8217;s Memory Work As Expected? appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-06-22T07:15:30+00:00",
-      "pub_ts": 1782112530
-    },
-    {
-      "id": "8448c9fea3",
-      "title": "Cloud HPC For AI: Addressing Latency, Cost, And Scale At The Architectural Level",
-      "url": "https://semiengineering.com/cloud-hpc-for-ai-addressing-latency-cost-and-scale-at-the-architectural-level/",
-      "summary": "Low-latency fabrics, topology-aware scheduling, and tiered memory bring compute closer to data and reduce coordination overhead. \nThe post Cloud HPC For AI: Addressing Latency, Cost, And Scale At The Architectural Level appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-06-22T07:03:23+00:00",
-      "pub_ts": 1782111803
     }
   ],
   "source_success_count": 3,
