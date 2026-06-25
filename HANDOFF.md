@@ -6,7 +6,7 @@
 > - **ROADMAP.md** — 下一步路线（P0/P1/P2）、框架 5 洞状态、阻塞依赖。
 >
 > 另：方法论北极星 `docs/INTELLIGENCE_OS.md`；实现计划 `~/.claude/plans/https-www-esgvalve-cn-gleaming-stroustrup.md`；项目记忆 `~/.claude/projects/.../memory/esg-event-engine.md` + `esg-spec-position.md`。
-> 最后更新 2026-06-23 ｜ 引擎全部在 `main`：里程碑1 + winnability + **O1/O2-A/O3/O4** 本体化 + **本体图谱 ontology.html**｜ **✅ 处置闭环已上线**（Vercel `nicole-intelligence` 项目 + Upstash Redis，验活通过，PR #13/#15）｜ 产品形态=**漏斗**，**B1/B2 已落地**（PR #18：事件卡带 竞品+推荐产品 + 行业下钻）｜ Brave key 已 park（见 §7）。WIP/自动化仍在 `automation/monthly-update`。
+> 最后更新 2026-06-25 ｜ 引擎全部在 `main`：里程碑1 + winnability + **O1/O2-A/O3/O4** 本体化 + **本体图谱** + **P1#4 装备商订单簿源**（PR #23）｜ **✅ 处置闭环已上线**（Vercel + Upstash，PR #13/#15，公开别名见 §7）｜ 产品形态=**漏斗**，**B1/B2 已落地**（PR #18）｜ **首页热力图 ESG 化**（PR #20/#22：重锚评分 + W + 单一 SCORE_MODEL）｜ Brave key 已 park（见 §7）。WIP/自动化仍在 `automation/monthly-update`。
 >
 > **🔑 下次开机关键词**：`读 HANDOFF + ROADMAP（P1.6 漏斗），推进 B3`——主线 **P1.6 漏斗串链**（热力图入口→下钻事件→带 方案/竞品/产品推荐，先 B 后 A）：
 > - **✅ B1/B2 已完成**（PR #18）：事件卡带 推荐产品 + 在位竞品（具名+威胁分/绿地"无外资在位"）；events.html 加行业过滤 + `?industry=` deep-link（B3 下钻入口已备）。
@@ -56,10 +56,15 @@ python3 -m engine.run                       # 真数据（需网络），写 dat
 python3 -m engine.run --with-cde            # 额外抓 CDE 优先审评（Playwright 过瑞数 WAF，慢）
 python3 -m engine.run --sample              # 离线样例，端到端演示，无需联网
 python3 -m engine.run --strict              # 健康检查不达标 exit 1
-python3 -m unittest tests.test_engine        # 47 个离线单测（截至 O3）
+python3 -m unittest tests.test_engine        # 51 个离线单测（截至 P1#4 订单簿）
 python3 -m engine.run --sample && python3 -m http.server 8765  # 本地预览 events.html 研判信箱
 python3 scripts/build_ontology.py             # 从 entities.yml + 最新 events 编译 data/ontology.json（看图前先跑）
 #   然后 http.server 打开 ontology.html —— P1.5 本体图谱（O1/O2/O4 可视化）
+
+# Vercel 部署（项目未连 GitHub，从干净 main worktree CLI 部署）：
+#   ⚠ 必须 NODE_USE_ENV_PROXY=1 —— 本机走 privoxy(127.0.0.1:8118)，但 Node 24 内置 fetch
+#   默认不读 HTTPS_PROXY → vercel deploy 报 TLS 断连。加这个 env 才成。
+NODE_USE_ENV_PROXY=1 npx vercel@latest deploy --prod --yes   # 公开别名见 §7
 ```
 
 ## 4. 关键决策（带 WHY，不要轻易推翻）
@@ -108,7 +113,7 @@ python3 scripts/build_ontology.py             # 从 entities.yml + 最新 events
   - **PR #15**（merge `f9d075c`）：固化 Vercel 部署配置（`.vercelignore` 排 reports/python；`vercel.json` framework:null 防 Python 误判）。
   - **PR #16**（merge `52508da`）：ROADMAP 加 P1.6 漏斗工作流。
   - **main 自此为引擎/可视化/处置 API 的权威。**
-- **✅ 处置闭环已上线**（2026-06-22）：Vercel 项目 `nicole-intelligence`（`wangxia1225-ai` 账号，**未连 GitHub**，目前 CLI 从干净 main 部署）+ Upstash Redis store `upstash-kv-almond-helmet`，注入 `KV_REST_API_*`。已关 Deployment Protection（决策14 无鉴权）。验活过：GET `{}` / POST 持久化 / DEL。当前 URL `nicole-intelligence-lookiwenq-wangxia1225-ais-projects.vercel.app`（带 hash，稳定别名见 dashboard Domains）。**注意：`data/events`/`data/ontology.json` gitignore，线上无数据 → events/ontology 页空白，待 B0 CI 出数据（Codex）。**
+- **✅ 处置闭环已上线**（2026-06-22）：Vercel 项目 `nicole-intelligence`（`wangxia1225-ai` 账号，**未连 GitHub**，目前 CLI 从干净 main 部署）+ Upstash Redis store `upstash-kv-almond-helmet`，注入 `KV_REST_API_*`。已关 Deployment Protection（决策14 无鉴权）。验活过：GET `{}` / POST 持久化 / DEL。**公开稳定别名（无登录墙）：`https://nicole-intelligence-wangxia1225-ais-projects.vercel.app`**（带 hash 的单次部署 URL 有保护墙，别给用户；这个项目-团队别名才公开）。部署用 `NODE_USE_ENV_PROXY=1 npx vercel deploy --prod`（见 §3 部署坑）。**注意：`data/events`/`data/ontology.json` gitignore，线上无数据 → events/ontology 页空白；但首页 index.html 热力图自包含、完整可看，待 B0 CI 出数据（Codex）补 events/ontology。**
 - **🟡 Brave key 已 park**（2026-06-22 Nicole 决定以后重设）：旧 key 已 revoke（公开泄漏止血）；老管线 monthly_update/update_news 的 Brave 抓取会优雅 skip；以后重配新 key 进 GitHub Actions secret `BRAVE_API_KEY`。
 - **`automation/monthly-update`（远端 `f825fad`）**：仍带同一串引擎 commit 的**旧 SHA**（O1-O4 在此分支早已提交并 push），但已被 PR #6 的 curated 版本取代——**别再从这条分支合引擎到 main**。这条分支本职是放自动化更新（RSS/竞品/monthly）+ 本会话前的 WIP。
 - **⚠ 本仓库 bot 会直推 `main`**（RSS/竞品自动提交）：开 PR 前先 `git fetch`，否则本地 main 落后 → PR 报冲突（本轮踩过）。
