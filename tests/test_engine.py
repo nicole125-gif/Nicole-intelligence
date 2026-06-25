@@ -340,9 +340,21 @@ class BuildTests(unittest.TestCase):
             self.cfg, self.as_of)
         self.assertIsNotNone(ev)
         self.assertEqual(ev["working_condition"], ["装备商订单簿"])
+        self.assertEqual(ev["working_condition_ids"], [])         # 契约：非真工况 → NO_MATCH 空 ids
         self.assertIn("卫生级隔膜阀", ev["valve_type"]["primary"])  # 来自 tofflon esg_products
         self.assertEqual(ev["spec_position"], "in")               # 东富龙已 spec → 盯订单簿
         self.assertIn("订单簿", ev["action"])
+
+    def test_event_carries_contract_condition_ids(self):
+        # 契约就绪：working_condition_ids 与 labels 平行，且取自合法枚举
+        ev = build.build_event(
+            self._sig(title="无菌灌装乳品线新建投资5亿元", company="某乳业"),
+            self.cfg, self.as_of)
+        self.assertEqual(len(ev["working_condition_ids"]), len(ev["working_condition"]))
+        self.assertIn("hygienic", ev["working_condition_ids"])
+        allowed = {"biosynthesis", "hygienic", "lithium_injection",
+                   "rubber_curing", "heavy_process", "pharma_ref"}
+        self.assertTrue(set(ev["working_condition_ids"]) <= allowed)
 
     def test_non_oem_without_condition_still_dropped(self):
         # 非 OEM 业主 + 无工况 → 仍丢弃（订单簿放行只对在册 OEM）

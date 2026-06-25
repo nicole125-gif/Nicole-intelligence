@@ -55,6 +55,7 @@ def build_event(signal: dict, cfg: dict, as_of: dt.date, registry: dict | None =
         prof = (entities.get(owner["id"], registry) or {}).get("profile") or {}
         cond = {**cond,
                 "working_condition": ["装备商订单簿"],
+                "condition_ids": [],  # 非真工况枚举 → 契约 NO_MATCH（导出留空 + needs_review）
                 "industry_tag": (prof.get("match_keywords") or ["制药装备"])[0],
                 "valve_type": {"primary": (prof.get("esg_products") or [])[:3],
                                "basis": f"{owner_name} 对口阀型（O4 档案）"},
@@ -138,6 +139,7 @@ def build_event(signal: dict, cfg: dict, as_of: dt.date, registry: dict | None =
         "competitors": incumbents,
         "buyer_role": role,
         "working_condition": cond["working_condition"],
+        "working_condition_ids": cond.get("condition_ids", []),  # 契约枚举 id（与 labels 平行）
         "industry_tag": signal.get("industry_pull") or cond["industry_tag"],
         "signal_type": signal_type,
         "driver": classify.classify_driver(text),
