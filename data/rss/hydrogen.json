@@ -3,108 +3,108 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-06-24T04:08:23.448304+00:00",
+  "updated_at": "2026-06-25T04:08:39.508997+00:00",
   "item_count": 10,
   "items": [
     {
-      "id": "ed441d9f70",
-      "title": "THREE60 Energy and Logan Partner to Deliver Integrated Hydrogen Projects",
-      "url": "https://fuelcellsworks.com/2026/06/23/hydrogen/three60-energy-and-logan-partner-to-deliver-integrated-hydrogen-projects",
+      "id": "2c66e1b265",
+      "title": "Equinix Trials Landmark Hydrogen Power Solution at Dublin Data Centre",
+      "url": "https://hydrogen-central.com/equinix-trials-landmark-hydrogen-power-solution-at-dublin-data-centre/",
+      "summary": "Equinix Trials Landmark Hydrogen Power Solution at Dublin Data Centre Equinix is partnering with ESB to assess hydrogen as a clean backup power solution for its data centres. Equinix, Inc.&#160;(Nasdaq: [&#8230;]\nThe post Equinix Trials Landmark Hydrogen Power Solution at Dublin Data Centre appeared…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-06-24T17:11:53+00:00",
+      "pub_ts": 1782321113
+    },
+    {
+      "id": "4c03ed01b4",
+      "title": "BALLARD ANNOUNCES ACQUISITION OF UK-BASED GEOPURA, POWERING FUTURE GROWTH AND TRANSFORMING BALLARD INTO AN INTEGRATED HYDROGEN ECOSYSTEM PROVIDER",
+      "url": "https://hydrogen-central.com/ballard-announces-acquisition-of-uk-based-geopura-powering-future-growth-and-transforming-ballard-into-an-integrated-hydrogen-ecosystem-provider/",
+      "summary": "BALLARD ANNOUNCES ACQUISITION OF UK-BASED GEOPURA, POWERING FUTURE GROWTH AND TRANSFORMING BALLARD INTO AN INTEGRATED HYDROGEN ECOSYSTEM PROVIDER VANCOUVER, CANADA – Ballard Power Systems Inc. (NASDAQ: BLDP; TSX: BLDP, “Ballard”, [&#8230;]\nThe post BALLARD ANNOUNCES ACQUISITION OF UK-BASED GEOPURA, …",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-06-24T17:11:31+00:00",
+      "pub_ts": 1782321091
+    },
+    {
+      "id": "ae217b0353",
+      "title": "Evonik optimizes methanol supply for its methionine production network in Europe",
+      "url": "https://hydrogen-central.com/evonik-optimizes-methanol-supply-for-its-methionine-production-network-in-europe/",
+      "summary": "Evonik optimizes methanol supply for its methionine production network in Europe Essen, Germany. As part of strengthening its long-term raw material strategy, Evonik has developed a new solution to secure [&#8230;]\nThe post Evonik optimizes methanol supply for its methionine production network in Eu…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-06-24T17:04:21+00:00",
+      "pub_ts": 1782320661
+    },
+    {
+      "id": "6fc7f00248",
+      "title": "Hycamite is strengthening its leadership team as it expands its operations",
+      "url": "https://hydrogen-central.com/hycamite-is-strengthening-its-leadership-team-as-it-expands-its-operations/",
+      "summary": "Hycamite is strengthening its leadership team as it expands its operations Hycamite, a producer of low-carbon hydrogen and high-quality carbon materials, is strengthening its leadership team as it expands its [&#8230;]\nThe post Hycamite is strengthening its leadership team as it expands its operatio…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-06-24T17:04:10+00:00",
+      "pub_ts": 1782320650
+    },
+    {
+      "id": "f40241df5a",
+      "title": "North Sea hydrogen storage could power UK for 7 years, says new research",
+      "url": "https://hydrogen-central.com/north-sea-hydrogen-storage-could-power-uk-for-7-years-says-new-research/",
+      "summary": "North Sea hydrogen storage could power UK for 7 years, says new research The UK could store enough green hydrogen in depleted North Sea oil and gas fields to meet [&#8230;]\nThe post North Sea hydrogen storage could power UK for 7 years, says new research appeared first on Hydrogen Central.",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-06-24T16:54:22+00:00",
+      "pub_ts": 1782320062
+    },
+    {
+      "id": "8831effb95",
+      "title": "Algeria and Siemens Energy Discuss Green Hydrogen and Ammonia Cooperation",
+      "url": "https://fuelcellsworks.com/2026/06/24/news/algeria-and-siemens-energy-discuss-green-hydrogen-and-ammonia-cooperation",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-23T16:00:10+00:00",
-      "pub_ts": 1782230410
+      "pub_date": "2026-06-24T16:32:45+00:00",
+      "pub_ts": 1782318765
     },
     {
-      "id": "1b826ba6b8",
-      "title": "Symbolic Launch of Hydrogen Infrastructure at the BMW Group Plant in Regensburg",
-      "url": "https://fuelcellsworks.com/2026/06/23/h2/symbolic-launch-of-hydrogen-infrastructure-at-the-bmw-group-plant-in-regensburg",
+      "id": "22978fe884",
+      "title": "Saudi Arabia’s Acwa Explores Desalination, Green Hydrogen Investments in Morocco",
+      "url": "https://fuelcellsworks.com/2026/06/24/news/saudi-arabia-s-acwa-explores-desalination-green-hydrogen-investments-in-morocco",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-23T15:54:34+00:00",
-      "pub_ts": 1782230074
+      "pub_date": "2026-06-24T16:23:39+00:00",
+      "pub_ts": 1782318219
     },
     {
-      "id": "bb98bb71a2",
-      "title": "One Year on the Road: How Toyota’s Hydrogen Trucks Are Delivering Real-World Logistics",
-      "url": "https://fuelcellsworks.com/2026/06/23/fuel-cells/one-year-on-the-road-how-toyota-s-hydrogen-trucks-are-delivering-real-world-logistics",
+      "id": "9e67f8ed95",
+      "title": "Graphene Catalyst Breakthrough Could Slash Hydrogen Fuel Cell Costs",
+      "url": "https://fuelcellsworks.com/2026/06/23/clean-energy/graphene-catalyst-breakthrough-could-slash-hydrogen-fuel-cell-costs",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-23T15:45:47+00:00",
-      "pub_ts": 1782229547
+      "pub_date": "2026-06-24T16:02:55+00:00",
+      "pub_ts": 1782316975
     },
     {
-      "id": "e2113d676c",
-      "title": "UK Hydrogen Firms Must Change Tack Amid HAR2 Delays",
-      "url": "https://fuelcellsworks.com/2026/06/23/energy-development/uk-hydrogen-firms-must-change-tack-amid-har2-delays",
+      "id": "3f9561bba6",
+      "title": "ITM Power and Gore Report Ultra-Low Degradation in PEM Electrolysers",
+      "url": "https://fuelcellsworks.com/2026/06/24/energy-innovation/itm-power-and-gore-report-ultra-low-degradation-in-pem-electrolysers",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-23T15:32:22+00:00",
-      "pub_ts": 1782228742
+      "pub_date": "2026-06-24T15:56:49+00:00",
+      "pub_ts": 1782316609
     },
     {
-      "id": "3a9e859206",
-      "title": "Jukka Nieminen Appointed Chairman of the Board and Matti Malkamäki Named CEO of Hycamite",
-      "url": "https://fuelcellsworks.com/2026/06/23/hydrogen-economy/jukka-nieminen-appointed-chairman-of-the-board-and-matti-malkamaki-named-ceo-of-hycamite",
+      "id": "54e32ec314",
+      "title": "Humber Hydrogen Has the Potential to Unlock Billions in Value to the UK Economy",
+      "url": "https://fuelcellsworks.com/2026/06/24/hydrogen/humber-hydrogen-has-the-potential-to-unlock-billions-in-value-to-the-uk-economy",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-23T15:20:16+00:00",
-      "pub_ts": 1782228016
-    },
-    {
-      "id": "aca8860866",
-      "title": "GreenH2Atlantic hydrogen project in Sines obtains environmental license",
-      "url": "https://hydrogen-central.com/greenh2atlantic-hydrogen-project-in-sines-obtains-environmental-license/",
-      "summary": "GreenH2Atlantic hydrogen project in Sines obtains environmental license Consortium moves into the next phase of analysis and integration of recommendations The GreenH2Atlantic project for the construction of a 100 MW [&#8230;]\nThe post GreenH2Atlantic hydrogen project in Sines obtains environmental …",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-06-22T16:32:16+00:00",
-      "pub_ts": 1782145936
-    },
-    {
-      "id": "0017f72846",
-      "title": "Dynelectro Dispatches 250 kW Dynamic Solid Oxide Electrolyser Unit to Syntholene’s Iceland eSAF Project",
-      "url": "https://hydrogen-central.com/dynelectro-dispatches-250-kw-dynamic-solid-oxide-electrolyser-unit-to-syntholenes-iceland-esaf-project/",
-      "summary": "Dynelectro Dispatches 250 kW Dynamic Solid Oxide Electrolyser Unit to Syntholene’s Iceland eSAF Project Dynelectro ApS has dispatched its first turn-key 250 kW Dynamic Electrolyser Unit (DEU) to Syntholene Energy’s [&#8230;]\nThe post Dynelectro Dispatches 250 kW Dynamic Solid Oxide Electrolyser Unit…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-06-22T16:31:46+00:00",
-      "pub_ts": 1782145906
-    },
-    {
-      "id": "ea3ad088e7",
-      "title": "Evonik opens Anion Exchange Membrane application technology center in Shanghai",
-      "url": "https://hydrogen-central.com/evonik-opens-anion-exchange-membrane-application-technology-center-in-shanghai/",
-      "summary": "Evonik opens Anion Exchange Membrane application technology center in Shanghai Evonik’s Innovation Factory has opened an Anion Exchange Membrane (AEM) application technology center to test its high-performance DURAION® membranes in [&#8230;]\nThe post Evonik opens Anion Exchange Membrane application …",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-06-22T16:29:29+00:00",
-      "pub_ts": 1782145769
-    },
-    {
-      "id": "55756c1611",
-      "title": "K2 Pure Solutions and PACC Services Execute Hydrogen Supply Agreement with ZeroUp Energy to Advance Zero-Emission Fleet Transition Across California",
-      "url": "https://hydrogen-central.com/k2-pure-solutions-and-pacc-services-execute-hydrogen-supply-agreement-with-zeroup-energy-to-advance-zero-emission-fleet-transition-across-california/",
-      "summary": "K2 Pure Solutions and PACC Services Execute Hydrogen Supply Agreement with ZeroUp Energy to Advance Zero-Emission Fleet Transition Across California Low-carbon hydrogen from K2&#8217;s Pittsburg, CA facility supports ZeroUp&#8217;s mobile [&#8230;]\nThe post K2 Pure Solutions and PACC Services Execut…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-06-22T16:27:42+00:00",
-      "pub_ts": 1782145662
-    },
-    {
-      "id": "7923490f2a",
-      "title": "HTEC Opens Canada’s First 700 Bar Commercial Heavy-Duty Clean Hydrogen Station",
-      "url": "https://hydrogen-central.com/htec-opens-canadas-first-700-bar-commercial-heavy-duty-clean-hydrogen-station/",
-      "summary": "HTEC Opens Canada’s First 700 Bar Commercial Heavy-Duty Clean Hydrogen Station Station on Tsawwassen First Nation land in British Columbia marks a key milestone for the deployment of hydrogen-powered trucks [&#8230;]\nThe post HTEC Opens Canada’s First 700 Bar Commercial Heavy-Duty Clean Hydrogen Sta…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-06-22T16:22:52+00:00",
-      "pub_ts": 1782145372
+      "pub_date": "2026-06-24T15:41:53+00:00",
+      "pub_ts": 1782315713
     }
   ],
   "source_success_count": 2,

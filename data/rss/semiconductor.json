@@ -3,158 +3,118 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-06-24T04:07:54.681271+00:00",
-  "item_count": 15,
+  "updated_at": "2026-06-25T04:08:12.528993+00:00",
+  "item_count": 11,
   "items": [
     {
-      "id": "4ed23c7eb1",
-      "title": "具身智能芯片，先卷疯了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813554&idx=1&sn=598c15cd1a37c80adcd69fff09e00ca3",
-      "summary": "具身智能芯片，先卷疯了",
+      "id": "4647ad292a",
+      "title": "国产存储拿下最硬的那块金牌！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813625&idx=1&sn=40a9f33edfd741a60f598dc4f8039114",
+      "summary": "国产存储拿下最硬的那块金牌！",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-24T04:07:50.582110+00:00",
-      "pub_ts": 1782274070
+      "pub_date": "2026-06-25T04:08:08.543950+00:00",
+      "pub_ts": 1782360488
     },
     {
-      "id": "72ac35ce9e",
-      "title": "神州数码携手Intel共赴MWC上海2026，开启边缘计算新篇章",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813554&idx=2&sn=1bde1b93e0de90ead8815501f278de4c",
-      "summary": "神州数码携手Intel共赴MWC上海2026，开启边缘计算新篇章",
+      "id": "3461a34e35",
+      "title": "IC设计涨价潮，谁是下一个主角？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813614&idx=1&sn=a099deab65a100ae0f18956a21d1844d",
+      "summary": "IC设计涨价潮，谁是下一个主角？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-24T04:07:50.582159+00:00",
-      "pub_ts": 1782274070
+      "pub_date": "2026-06-25T04:08:08.543988+00:00",
+      "pub_ts": 1782360488
     },
     {
-      "id": "ebdd68f222",
-      "title": "7月芯片价格，涨涨涨",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813554&idx=3&sn=616509cf0145f764fc705fad13cd43ad",
-      "summary": "7月芯片价格，涨涨涨",
+      "id": "af0fa93cd7",
+      "title": "功率半导体紧缺，交期拉长至半年以上",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813614&idx=2&sn=3bde13d8fb0244dc5769fdde5a306d86",
+      "summary": "功率半导体紧缺，交期拉长至半年以上",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-24T04:07:50.582185+00:00",
-      "pub_ts": 1782274070
+      "pub_date": "2026-06-25T04:08:08.544011+00:00",
+      "pub_ts": 1782360488
     },
     {
-      "id": "c30919c21c",
-      "title": "锁定英伟达！磷化铟晶圆产能暴涨四倍",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813554&idx=4&sn=6c44cccd7e016e70d5080030a2274518",
-      "summary": "锁定英伟达！磷化铟晶圆产能暴涨四倍",
+      "id": "45381d9642",
+      "title": "英伟达放弃PC游戏玩家的真正原因",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813614&idx=3&sn=f2108e14478c49b813fbab3d9e741f95",
+      "summary": "英伟达放弃PC游戏玩家的真正原因",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-24T04:07:50.582207+00:00",
-      "pub_ts": 1782274070
+      "pub_date": "2026-06-25T04:08:08.544031+00:00",
+      "pub_ts": 1782360488
     },
     {
-      "id": "85d87a4b4c",
-      "title": "SK海力士市值首超三星，存储市场变天了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813554&idx=5&sn=bb13310691518a02c82b337dd1431a8e",
-      "summary": "SK海力士市值首超三星，存储市场变天了",
+      "id": "d3c7d30f6f",
+      "title": "15座新厂落地！日月光FOPLP年底量产",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813614&idx=4&sn=5340b4ea7ce3e3e6c07e1c7f3ab4b7eb",
+      "summary": "15座新厂落地！日月光FOPLP年底量产",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-24T04:07:50.582227+00:00",
-      "pub_ts": 1782274070
+      "pub_date": "2026-06-25T04:08:08.544051+00:00",
+      "pub_ts": 1782360488
     },
     {
-      "id": "5629b82194",
-      "title": "扬杰科技，涨价！",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823473&idx=1&sn=06ee09df916fc1f9d1c39fe31d66c661",
-      "summary": "扬杰科技，涨价！",
+      "id": "30c44228a7",
+      "title": "1000层NAND，怎么实现?",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823587&idx=1&sn=afe06ccb5446e8c0ed576219db833e89",
+      "summary": "1000层NAND，怎么实现?",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-24T04:07:37.609760+00:00",
-      "pub_ts": 1782274057
+      "pub_date": "2026-06-25T04:07:51.419680+00:00",
+      "pub_ts": 1782360471
     },
     {
-      "id": "644965214b",
-      "title": "铠侠，惊天逆袭！",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823464&idx=1&sn=de0a40af67b60fbcba9047ca130d0838",
-      "summary": "铠侠，惊天逆袭！",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-06-24T04:07:37.609818+00:00",
-      "pub_ts": 1782274057
-    },
-    {
-      "id": "d841ce605b",
-      "title": "为物理AI打造视觉芯片，与光科技完成亿元融资",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823464&idx=2&sn=39a45c45b5acd7ba69877a94ab628e39",
-      "summary": "为物理AI打造视觉芯片，与光科技完成亿元融资",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-06-24T04:07:37.609842+00:00",
-      "pub_ts": 1782274057
-    },
-    {
-      "id": "c53d03aa8e",
-      "title": "Arm服务器市占，直逼50%",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823464&idx=3&sn=d19e9a2eb6f89ca5d79bb192481015af",
-      "summary": "Arm服务器市占，直逼50%",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-06-24T04:07:37.609881+00:00",
-      "pub_ts": 1782274057
-    },
-    {
-      "id": "38ce8c55f9",
-      "title": "1nm后，芯片拼什么？",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823464&idx=4&sn=6048758ef9265f644bd5c3090aad7fca",
-      "summary": "1nm后，芯片拼什么？",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-06-24T04:07:37.609902+00:00",
-      "pub_ts": 1782274057
-    },
-    {
-      "id": "67d560ae78",
-      "title": "New USB Standards: Benefits And Incompatibilities",
-      "url": "https://semiengineering.com/new-usb-standards-benefits-and-incompatibilities/",
-      "summary": "A roadmap for integrating different versions of the USB and eUSB.\nThe post New USB Standards: Benefits And Incompatibilities appeared first on Semiconductor Engineering.",
+      "id": "61f8c9e141",
+      "title": "How Far Left Can You Shift?",
+      "url": "https://semiengineering.com/how-far-left-can-you-shift/",
+      "summary": "Complex chips require much more work earlier in the flow.\nThe post How Far Left Can You Shift? appeared first on Semiconductor Engineering.",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-06-23T07:15:41+00:00",
-      "pub_ts": 1782198941
+      "pub_date": "2026-06-24T07:15:47+00:00",
+      "pub_ts": 1782285347
     },
     {
-      "id": "e4342b4acb",
-      "title": "Research Bits: June 23",
-      "url": "https://semiengineering.com/research-bits-june-23/",
-      "summary": "Redesigning high-NA EUV; embedded liquid cooling; light wavelength analysis.\nThe post Research Bits: June 23 appeared first on Semiconductor Engineering.",
+      "id": "4f8402111c",
+      "title": "Continuous Physics Reasoning: Definition, Minimum Criteria, and the Role of Foundation Models for Physics",
+      "url": "https://semiengineering.com/continuous-physics-reasoning-definition-minimum-criteria-and-the-role-of-foundation-models-for-physics/",
+      "summary": "A general-purpose system that reasons natively over physical structure with deterministic, solver-grade, out-of-the-box generality at manufacturing resolution.\nThe post Continuous Physics Reasoning: Definition, Minimum Criteria, and the Role of Foundation Models for Physics appeared first on Semicon…",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-06-23T07:01:37+00:00",
-      "pub_ts": 1782198097
+      "pub_date": "2026-06-24T07:04:05+00:00",
+      "pub_ts": 1782284645
     },
     {
-      "id": "abb9021a74",
-      "title": "Advancements In Atomic-Scale Plasma Processing",
-      "url": "https://semiengineering.com/advancements-in-atomic-scale-plasma-processing/",
-      "summary": "Researchers from Nagoya University, Boise State University, Korea Institute of Fusion Energy, Hitachi High-Tech Corp. and Princeton Plasma Physics Laboratory published a technical paper titled “Recent Progress in Atomic-Scale Controlled Plasma Processing.” Abstract Excerpt: “Atomic-scale control in …",
+      "id": "7e2e5e77c6",
+      "title": "UCIe vs. BoW: Practical Insights For Choosing The Right Chiplet Standards",
+      "url": "https://semiengineering.com/ucie-vs-bow-practical-insights-for-choosing-the-right-chiplet-standards/",
+      "summary": "An application-oriented perspective on chiplet interconnect standards and their implications for next-gen system design.\nThe post UCIe vs. BoW: Practical Insights For Choosing The Right Chiplet Standards appeared first on Semiconductor Engineering.",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-06-22T18:42:12+00:00",
-      "pub_ts": 1782153732
+      "pub_date": "2026-06-24T07:03:43+00:00",
+      "pub_ts": 1782284623
     },
     {
-      "id": "6924d56247",
-      "title": "Interference Risks In Processing-Using-DRAM (U. of Tokyo, ETH Zurich, CISPA, Riken)",
-      "url": "https://semiengineering.com/pudghost-reveals-interference-risks-in-processing-using-dram/",
-      "summary": "Researchers from The University of Tokyo, ETH Zurich, CISPA, and RIKEN published a technical paper titled “PuDGhost: Experimental Analysis of Computation Result Corruption in Processing-using-DRAM Operations on Real DRAM Chips and Implications for Future Systems.” Abstract excerpt: “We reveal PuDGho…",
+      "id": "8c88fbe433",
+      "title": "Automate the Pain Away: HW/SW Interface Design Methodology",
+      "url": "https://semiengineering.com/automate-the-pain-away-hw-sw-interface-design-methodology/",
+      "summary": "How a connected design methodology helps engineering teams accelerate development while maintaining consistency across the SoC lifecycle.\nThe post Automate the Pain Away: HW/SW Interface Design Methodology appeared first on Semiconductor Engineering.",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-06-22T18:05:12+00:00",
-      "pub_ts": 1782151512
+      "pub_date": "2026-06-24T07:01:49+00:00",
+      "pub_ts": 1782284509
     },
     {
-      "id": "81cf4cf0be",
-      "title": "Atom Probe Framework Tracks Phase Instability In Si-Doped Gallium Oxide (SUNY, Ohio State, LLNL)",
-      "url": "https://semiengineering.com/atom-probe-framework-tracks-phase-instability-in-si-doped-gallium-oxide-suny-ohio-state-llnl/",
-      "summary": "Researchers from University at Buffalo-SUNY, The Ohio State University, and Lawrence Livermore National Laboratory published a technical paper titled “Coordination-Sensitive Nanoscale Analysis of Defect-Driven Phase Transformation in Si-Doped (AlxGa1−x)2O3.” Abstract excerpt: &#8220;Defect-driven ph…",
+      "id": "3cb9d94b4e",
+      "title": "Optimizing Curvilinear OPC: Vector- Based Site and Anchor Decoupling",
+      "url": "https://semiengineering.com/optimizing-curvilinear-opc-vector-based-site-and-anchor-decoupling/",
+      "summary": "An advanced framework that independently and dynamically controls OPC fragmentation and optimization. \nThe post Optimizing Curvilinear OPC: Vector- Based Site and Anchor Decoupling appeared first on Semiconductor Engineering.",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-06-22T17:55:07+00:00",
-      "pub_ts": 1782150907
+      "pub_date": "2026-06-24T07:01:28+00:00",
+      "pub_ts": 1782284488
     }
   ],
   "source_success_count": 3,

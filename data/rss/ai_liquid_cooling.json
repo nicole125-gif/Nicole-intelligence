@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-06-24T04:08:09.226885+00:00",
+  "updated_at": "2026-06-25T04:08:27.199334+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "6cf0b42c5e",
-      "title": "云计算一哥，让小鹏、Kimi和猎豹都爽了一把",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899056&idx=1&sn=7420d966f8ad1cbb2ab0cee355bf3e13",
-      "summary": "云计算一哥，让小鹏、Kimi和猎豹都爽了一把",
+      "id": "e192af84a9",
+      "title": "豆包收费版第一天，我：充值...又得充值？我要再充值！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899418&idx=1&sn=3bba206905c912fb6f9ef8adbd31ec6a",
+      "summary": "豆包收费版第一天，我：充值...又得充值？我要再充值！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-24T04:08:04.407963+00:00",
-      "pub_ts": 1782274084
+      "pub_date": "2026-06-25T04:08:21.958462+00:00",
+      "pub_ts": 1782360501
     },
     {
-      "id": "247f13180d",
-      "title": "实测结论：比微信更好用的是「小微版」微信",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899056&idx=2&sn=19deaa21c2b69769bc1c817cd4a06cb6",
-      "summary": "实测结论：比微信更好用的是「小微版」微信",
+      "id": "16b4d66608",
+      "title": "Agent不会搞科研？人大微软开源框架&工具包解决盲目试错通病，抱抱脸..",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899418&idx=2&sn=b82c0757063a1f3dcdb6af0e494240f5",
+      "summary": "Agent不会搞科研？人大微软开源框架&工具包解决盲目试错通病，抱抱脸..",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-24T04:08:04.408009+00:00",
-      "pub_ts": 1782274084
+      "pub_date": "2026-06-25T04:08:21.958499+00:00",
+      "pub_ts": 1782360501
     },
     {
-      "id": "13df0e3182",
-      "title": "大模型终于说不出脏话了！有毒子词剪枝ToxPrune，预训练+推理双重防线",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899056&idx=3&sn=9b1105e99cff8d83bb54aeca25f08185",
-      "summary": "大模型终于说不出脏话了！有毒子词剪枝ToxPrune，预训练+推理双重防线",
+      "id": "65d49aab0d",
+      "title": "世界模型混战，Momenta率先冲刺IPO",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899204&idx=1&sn=753059e8ee9c48d9a0028f0ed5803294",
+      "summary": "世界模型混战，Momenta率先冲刺IPO",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-24T04:08:04.408032+00:00",
-      "pub_ts": 1782274084
+      "pub_date": "2026-06-25T04:08:21.958542+00:00",
+      "pub_ts": 1782360501
     },
     {
-      "id": "8e3ffa572b",
-      "title": "刚刚，豆包2.1发布！Agent自己跑18个小时搞定芯片设计代码",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899001&idx=1&sn=667de11c1f709be1981e2a3ffd0837d1",
-      "summary": "刚刚，豆包2.1发布！Agent自己跑18个小时搞定芯片设计代码",
+      "id": "633d09539a",
+      "title": "零GPU，世界第一超算！深圳制造改写游戏规则了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899204&idx=2&sn=bbae8ee80409e3d442872d75a8698a9e",
+      "summary": "零GPU，世界第一超算！深圳制造改写游戏规则了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-24T04:08:04.408052+00:00",
-      "pub_ts": 1782274084
+      "pub_date": "2026-06-25T04:08:21.958567+00:00",
+      "pub_ts": 1782360501
     },
     {
-      "id": "ef4edc02eb",
-      "title": "一次吃下一本书！百度开源新OCR，作者疑似前DeepSeek研究员",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899001&idx=2&sn=ca1e4f8f5ceec52853bc7d0393af1ecb",
-      "summary": "一次吃下一本书！百度开源新OCR，作者疑似前DeepSeek研究员",
+      "id": "c305fe60d7",
+      "title": "镜头被油污糊住，机器人还稳定操作？北大/清华等给VLA加一道信息筛选，…..",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899204&idx=3&sn=6440dc6ce55e9f8067eae3fe9782af70",
+      "summary": "镜头被油污糊住，机器人还稳定操作？北大/清华等给VLA加一道信息筛选，…..",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-24T04:08:04.408072+00:00",
-      "pub_ts": 1782274084
+      "pub_date": "2026-06-25T04:08:21.958588+00:00",
+      "pub_ts": 1782360501
     }
   ],
   "source_success_count": 1,

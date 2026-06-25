@@ -3,9 +3,49 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-06-24T04:08:35.837443+00:00",
+  "updated_at": "2026-06-25T04:08:51.978763+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "0e45c9b22d",
+      "title": "Novartis targets undruggable cancers with $1.9bn Antares Therapeutics deal",
+      "url": "https://www.pharmaceutical-technology.com/news/novartis-targets-undruggable-cancers-with-1-9bn-antares-therapeutics-deal/",
+      "summary": "Antares’ lead precision oncology programme is expected to enter the clinic in 2026.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-06-24T13:12:58+00:00",
+      "pub_ts": 1782306778
+    },
+    {
+      "id": "ee4cf25d28",
+      "title": "ŌURA and Lilly join forces to harmonise drug-wearable obesity care",
+      "url": "https://www.pharmaceutical-technology.com/news/lilly-lillydirect-oura-obesity-partnership/",
+      "summary": "Lilly and ŌURA's partnership marks another high-profile collaboration between the consumer health and life science sectors.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-06-24T10:34:37+00:00",
+      "pub_ts": 1782297277
+    },
+    {
+      "id": "c001081709",
+      "title": "Boehringer and Combotope partner for cancer antibodies",
+      "url": "https://www.pharmaceutical-technology.com/news/boehringer-combotope-cancer-antibodies/",
+      "summary": "Boehringer Ingelheim has collaborated with Combotope Therapeutics to advance tumour-selective antibody therapies targeting cancer.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-06-24T09:42:39+00:00",
+      "pub_ts": 1782294159
+    },
+    {
+      "id": "ef19f26ba3",
+      "title": "Haisco and Nuvectis sign licensing deal for two drugs",
+      "url": "https://www.pharmaceutical-technology.com/news/haisco-nuvectis-deal-two-drugs/",
+      "summary": "Haisco has signed an exclusive licensing agreement granting Nuvectis rights for two drug candidates in oncology and complement indications.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-06-24T08:10:30+00:00",
+      "pub_ts": 1782288630
+    },
     {
       "id": "c069e546e3",
       "title": "BIO 2026: NVIDIA announces the BioNeMo toolkit for AI agents",
@@ -15,46 +55,6 @@
       "lang": "en",
       "pub_date": "2026-06-23T19:04:59+00:00",
       "pub_ts": 1782241499
-    },
-    {
-      "id": "d46eff24df",
-      "title": "From collection to confidence: why clinical trial data reliability starts early",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/from-collection-to-confidence-why-clinical-trial-data-reliability-starts-early/",
-      "summary": "Reliable clinical trial data starts in Phase 1. Learn how early quality signals protect safety and guide confident sponsor decisions.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-06-23T14:11:32+00:00",
-      "pub_ts": 1782223892
-    },
-    {
-      "id": "c0efaf6ac3",
-      "title": "BIO 2026: Cell and gene therapy firms outline their use of AI in manufacturing",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/bio-2026-cell-and-gene-therapy-firms-outline-their-use-of-ai-in-manufacturing/",
-      "summary": "From data lakes to streamlined production, Kriya, Opus, and Epicrispr discuss how technology is improving their operations.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-06-23T14:08:06+00:00",
-      "pub_ts": 1782223686
-    },
-    {
-      "id": "23e2cfba22",
-      "title": "FDA changes rare disease tune again as it clears path for Regenxbio’s gene therapy",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-changes-rare-disease-tune-again-as-it-clears-path-for-regenxbios-gene-therapy/",
-      "summary": "With a regulatory route now in place, Regenxbio expects to meet with the FDA again in July, with a BLA resubmission to follow in Q3 2026.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-06-23T13:26:44+00:00",
-      "pub_ts": 1782221204
-    },
-    {
-      "id": "d6f8e8cd4c",
-      "title": "Genprex’s Reqorsa combo secures Canadian patent for lung cancer",
-      "url": "https://www.pharmaceutical-technology.com/news/genprex-reqorsa-combo-canadian-patent/",
-      "summary": "Genprex has received a Notice of Allowance from the CIPO for a patent related to the use of its Reqorsa gene therapy in combination with either PD-1 or PD-L1 antibodies to treat NSCLC and SCLC.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-06-23T09:51:24+00:00",
-      "pub_ts": 1782208284
     }
   ],
   "source_success_count": 1,
