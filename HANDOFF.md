@@ -148,3 +148,4 @@ NODE_USE_ENV_PROXY=1 npx vercel@latest deploy --prod --yes   # 公开别名见 �
 - **真正的接缝 = `data/events/<date>.json` 事件 schema**。**✅ 已做成契约就绪**（PR #25）：事件带 `working_condition_ids`（枚举，与中文 label 平行，id↔label 精确对齐契约）；signal_type/review_flag/lead_time/value_band 枚举本就对齐；订单簿事件 ids=[]（NO_MATCH）。Codex 的导出（JSON→CSV `exports/esg-ci-radar-event-intake-YYYY-MM-DD.csv`）可逐字段直接映射。
 - **⏸ 两个待 Codex/Nicole 协调点（非代码能定）**：① **导出脚本住哪**——Nicole 仓 vs CI Radar 仓读 events JSON（倾向后者，更干净不撞）；② **B0 数据管线统一**——一条 CI 既出 events.html 数据又喂导出，别两套。
 - **分工现状**：CI Radar 导出 + B0 数据 CI = **Codex 在做**；Nicole 上游引擎/前端/契约就绪 = 本仓（我）。
+- **📄 给 Codex 的交接文档**：`竞品/docs/research/2026-06-25-nicole-to-ci-radar-handoff.md`（含 events JSON→契约 CSV **逐字段映射表** + 怎么产出 events JSON + Codex 待做 + 两个协调点）。映射表已对真实 `--sample` events JSON 逐字段核对通过（2026-06-25）。**Codex 拿它 + events JSON 即可机械映射,无需再问。**
