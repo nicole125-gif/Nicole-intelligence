@@ -14,7 +14,7 @@ import sys
 from pathlib import Path
 
 from engine import build, conditions
-from engine.sources import cde, cninfo, eia, tender
+from engine.sources import cde, cninfo, eia, orderbook, tender
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_DIR = ROOT / "data" / "events"
@@ -57,6 +57,10 @@ SAMPLE_SIGNALS = [
      "company": "楚天科技", "url": "http://example.com/h", "source": "巨潮募投公告",
      "source_type": "capex", "signal_type": "expansion", "lead_time_months": "3-9",
      "date": dt.date.today().isoformat()},
+    {"title": "上海东富龙：2025年度新签订单同比增长47%，海外占比持续提升",
+     "company": "东富龙", "url": "http://example.com/i", "source": "装备商订单簿",
+     "source_type": "capex", "signal_type": "expansion", "lead_time_months": "3-9",
+     "date": dt.date.today().isoformat()},
 ]
 
 
@@ -66,6 +70,7 @@ def collect(cfg: dict, sample: bool, with_cde: bool = False) -> list[dict]:
         return list(SAMPLE_SIGNALS)
     signals = []
     signals += cninfo.fetch(cfg)
+    signals += orderbook.fetch(cfg)  # P1#4 装备商订单簿（盯 OEM 自身新签/扩产）
     signals += eia.fetch(cfg)
     signals += tender.fetch(cfg)
     if with_cde:  # CDE 走 Playwright 过瑞数 WAF，较慢，故 opt-in
