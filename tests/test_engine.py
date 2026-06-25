@@ -333,6 +333,24 @@ class BuildTests(unittest.TestCase):
             self.cfg, self.as_of)
         self.assertEqual(li["competitors"], [])
 
+    def test_oem_orderbook_survives_without_condition(self):
+        # P1#4：业主即在册 OEM 的订单簿信号（无工况关键词）→ 保留，用 O4 档案兜底
+        ev = build.build_event(
+            self._sig(title="2025年度新签订单同比增长47%，海外占比持续提升", company="东富龙"),
+            self.cfg, self.as_of)
+        self.assertIsNotNone(ev)
+        self.assertEqual(ev["working_condition"], ["装备商订单簿"])
+        self.assertIn("卫生级隔膜阀", ev["valve_type"]["primary"])  # 来自 tofflon esg_products
+        self.assertEqual(ev["spec_position"], "in")               # 东富龙已 spec → 盯订单簿
+        self.assertIn("订单簿", ev["action"])
+
+    def test_non_oem_without_condition_still_dropped(self):
+        # 非 OEM 业主 + 无工况 → 仍丢弃（订单簿放行只对在册 OEM）
+        ev = build.build_event(
+            self._sig(title="2025年度新签订单同比增长47%", company="某贸易公司"),
+            self.cfg, self.as_of)
+        self.assertIsNone(ev)
+
     def test_pack_summary_counts(self):
         signals = [
             self._sig(title="无菌灌装乳品线新建投资5亿元", company="乳业A"),

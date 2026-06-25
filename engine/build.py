@@ -40,13 +40,25 @@ def build_event(signal: dict, cfg: dict, as_of: dt.date, registry: dict | None =
     source_type = signal.get("source_type", "")
 
     cond = conditions.classify_condition(text, source_type, cfg)
-    if cond["match_score"] <= 0:
-        return None
 
     owner_raw = signal.get("company") or signal.get("owner") or ""
     owner = entities.resolve(owner_raw, registry)
     owner["raw"] = owner_raw
     owner_name = owner["name"]
+    is_oem = bool(owner.get("resolved") and owner.get("type") == "oem")
+
+    # 无工况（match_score==0）：终端项目丢弃；但「业主即在册装备商」是订单簿信号——
+    # P1#4：OEM 自身有单 = ESG 顺风（尤其东富龙已 spec 进），保留并用 OEM 的 O4 档案兜底阀型/行业。
+    if cond["match_score"] <= 0:
+        if not is_oem:
+            return None
+        prof = (entities.get(owner["id"], registry) or {}).get("profile") or {}
+        cond = {**cond,
+                "working_condition": ["装备商订单簿"],
+                "industry_tag": (prof.get("match_keywords") or ["制药装备"])[0],
+                "valve_type": {"primary": (prof.get("esg_products") or [])[:3],
+                               "basis": f"{owner_name} 对口阀型（O4 档案）"},
+                "buyer_role_cfg": {"primary": "设备OEM", "secondary": "采购部"}}
 
     lead_time = classify.classify_lead_time(text, signal.get("lead_time_months", ""))
     est_value = valuation.estimate_value(
