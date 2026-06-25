@@ -137,3 +137,14 @@ NODE_USE_ENV_PROXY=1 npx vercel@latest deploy --prod --yes   # 公开别名见 �
 - **进度**：**✅ B1**（事件卡带 推荐产品 + 在位竞品，引擎加 `competitors` 字段）、**✅ B2**（events.html 行业过滤 + `?industry=` deep-link）已落地（PR #18）。**⏭ B3** = 热力图混合+点击下钻（依赖 B0 数据 + 老管线热度，等 Codex 的 B0；B2 的 deep-link 入口已备好接它）。A 阶段后置。
 - **✅ 热力图 ESG 化已落地**（2026-06-23，PR #20，首页 `index.html` Market Heatmap 评分逻辑深度优化）：① **重锚 Heat Score** = `Capex×30 + W×25 + Demand×20 + Policy×15 + Price×10`（Capex 销售触发器领权、Price 降权）；② **新增 W=ESG 赢面/国产替代空间**（渲染层 `TRACK_W` 逐赛道种子，依据决策8 甜点区/竞品护城河/阀门相关性；heat 渲染层重算覆盖 bot 旧值，bot 月度更 D/C/P/Pol 照常流入、W 不被清）；③ **Color/Size By: ESG赢面 W**（甜点区绿/护城河红一眼可见）；④ delta 重定义为「ESG vs 市场」偏移。效果:排名从"市场热"翻成"ESG 能赢"(合成生物 TOP1、基因测序/宏观下沉)。**注**:改的是渲染层非 bot 数据,若 bot 整文件重生成 index.html 需留意；W 是手工种子,后续可考虑从 engine winnability 派生(接 B3/漏斗)。
 - **B0 数据 CI = Codex 做**；**竞品层复用 knowledge-center / Pharma CI Radar**（别重建）；月度更新 B 阶段保留喂热力图广度、A2 退役。
+
+## 10. CI Radar 对接（跨产品接缝，2026-06-25）
+
+**两层架构**（被竞品调研验证，见记忆 `ci-competitor-lessons.md`）：**Nicole = 信号/结构化层（上游）**，**CI Radar（`竞品/` = knowledge-center / Pharma CI Radar）= 赋能/battlecards 层（下游）**。文件交接、非实时 API。
+
+- **数据流**：Nicole 发现 事件/Capex/招标/工况/订单簿 → CI Radar 判断 ESG 卖什么/谁竞争/怎么问。
+- **共享契约**（竞品仓 `docs/research/`）：`esg-intelligence-source-fields.csv`（35 字段/17 必填）+ `2026-06-esg-intelligence-source-contract.md` + 交接交付 `2026-06-claude-code-esg-data-source-handoff.md`。**两边以此为准。**
+- **边界纪律**：Nicole **只发"发现了什么"**；**绝不写 ESG 价格/库存/交期/装机/证书/竞品输赢结论**（那些是 CI Radar 证据库承接）；无法归类不强行匹配 → `review_flag=needs_review` + `extraction_notes` NO_MATCH。
+- **真正的接缝 = `data/events/<date>.json` 事件 schema**。**✅ 已做成契约就绪**（PR #25）：事件带 `working_condition_ids`（枚举，与中文 label 平行，id↔label 精确对齐契约）；signal_type/review_flag/lead_time/value_band 枚举本就对齐；订单簿事件 ids=[]（NO_MATCH）。Codex 的导出（JSON→CSV `exports/esg-ci-radar-event-intake-YYYY-MM-DD.csv`）可逐字段直接映射。
+- **⏸ 两个待 Codex/Nicole 协调点（非代码能定）**：① **导出脚本住哪**——Nicole 仓 vs CI Radar 仓读 events JSON（倾向后者，更干净不撞）；② **B0 数据管线统一**——一条 CI 既出 events.html 数据又喂导出，别两套。
+- **分工现状**：CI Radar 导出 + B0 数据 CI = **Codex 在做**；Nicole 上游引擎/前端/契约就绪 = 本仓（我）。
