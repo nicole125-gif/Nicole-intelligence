@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-06-25T04:08:27.199334+00:00",
+  "updated_at": "2026-06-26T04:15:22.238895+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "e192af84a9",
-      "title": "豆包收费版第一天，我：充值...又得充值？我要再充值！",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899418&idx=1&sn=3bba206905c912fb6f9ef8adbd31ec6a",
-      "summary": "豆包收费版第一天，我：充值...又得充值？我要再充值！",
+      "id": "3220eacd53",
+      "title": "第一批一人公司，现在怎么样了？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899740&idx=1&sn=ab02ad3499641b5345ce7a3557831659",
+      "summary": "第一批一人公司，现在怎么样了？",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-25T04:08:21.958462+00:00",
-      "pub_ts": 1782360501
+      "pub_date": "2026-06-26T04:15:18.076362+00:00",
+      "pub_ts": 1782447318
     },
     {
-      "id": "16b4d66608",
-      "title": "Agent不会搞科研？人大微软开源框架&工具包解决盲目试错通病，抱抱脸..",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899418&idx=2&sn=b82c0757063a1f3dcdb6af0e494240f5",
-      "summary": "Agent不会搞科研？人大微软开源框架&工具包解决盲目试错通病，抱抱脸..",
+      "id": "1c7214cd71",
+      "title": "苹果AI平台技术负责人回深圳具身创业，上月刚融了10亿",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899740&idx=2&sn=0fcb33a187d827acfd301dcbdfffe375",
+      "summary": "苹果AI平台技术负责人回深圳具身创业，上月刚融了10亿",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-25T04:08:21.958499+00:00",
-      "pub_ts": 1782360501
+      "pub_date": "2026-06-26T04:15:18.076399+00:00",
+      "pub_ts": 1782447318
     },
     {
-      "id": "65d49aab0d",
-      "title": "世界模型混战，Momenta率先冲刺IPO",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899204&idx=1&sn=753059e8ee9c48d9a0028f0ed5803294",
-      "summary": "世界模型混战，Momenta率先冲刺IPO",
+      "id": "11dea88535",
+      "title": "黄仁勋：Prompt正在过时，Loop才是新范式",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899694&idx=1&sn=332bd62f701c1ea2a64838697b10b08d",
+      "summary": "黄仁勋：Prompt正在过时，Loop才是新范式",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-25T04:08:21.958542+00:00",
-      "pub_ts": 1782360501
+      "pub_date": "2026-06-26T04:15:18.076416+00:00",
+      "pub_ts": 1782447318
     },
     {
-      "id": "633d09539a",
-      "title": "零GPU，世界第一超算！深圳制造改写游戏规则了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899204&idx=2&sn=bbae8ee80409e3d442872d75a8698a9e",
-      "summary": "零GPU，世界第一超算！深圳制造改写游戏规则了",
+      "id": "e03eda384b",
+      "title": "谷歌把电脑操作能力塞进Gemini3.5Flash！自己看屏幕狂点70轮",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899694&idx=2&sn=9a7a2de1998a14015cf5785df87240b7",
+      "summary": "谷歌把电脑操作能力塞进Gemini3.5Flash！自己看屏幕狂点70轮",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-25T04:08:21.958567+00:00",
-      "pub_ts": 1782360501
+      "pub_date": "2026-06-26T04:15:18.076430+00:00",
+      "pub_ts": 1782447318
     },
     {
-      "id": "c305fe60d7",
-      "title": "镜头被油污糊住，机器人还稳定操作？北大/清华等给VLA加一道信息筛选，…..",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899204&idx=3&sn=6440dc6ce55e9f8067eae3fe9782af70",
-      "summary": "镜头被油污糊住，机器人还稳定操作？北大/清华等给VLA加一道信息筛选，…..",
+      "id": "c2796652bc",
+      "title": "混元开源PhoneBuddy-4B与5篇系列论文：多项手机Agent真机评测超...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899694&idx=3&sn=fd0aabc9811f307dc9b2d7505537d0c7",
+      "summary": "混元开源PhoneBuddy-4B与5篇系列论文：多项手机Agent真机评测超...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-25T04:08:21.958588+00:00",
-      "pub_ts": 1782360501
+      "pub_date": "2026-06-26T04:15:18.076446+00:00",
+      "pub_ts": 1782447318
     }
   ],
   "source_success_count": 1,

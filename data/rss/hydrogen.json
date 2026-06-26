@@ -3,9 +3,59 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-06-25T04:08:39.508997+00:00",
+  "updated_at": "2026-06-26T04:15:33.529738+00:00",
   "item_count": 10,
   "items": [
+    {
+      "id": "be7facf61a",
+      "title": "European Commission Opens New TEN-E Call for Hydrogen, Electrolyser and CO₂ Infrastructure Projects",
+      "url": "https://fuelcellsworks.com/2026/06/25/electrolyzer/european-commission-opens-new-ten-e-call-for-hydrogen-electrolyser-and-co-infrastructure-projects",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-06-25T16:19:06+00:00",
+      "pub_ts": 1782404346
+    },
+    {
+      "id": "541d701833",
+      "title": "SRM AP Signs MoU with Haruka Clean Energy Private Limited to Launch Green-Powered Street Lighting Pilot Project",
+      "url": "https://fuelcellsworks.com/2026/06/25/clean-energy/srm-ap-signs-mou-with-haruka-clean-energy-private-limited-to-launch-green-powered-street-lighting-pilot-project",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-06-25T16:05:41+00:00",
+      "pub_ts": 1782403541
+    },
+    {
+      "id": "3a7e3cdb57",
+      "title": "SeAH Besteel Localizes Key Hydrogen Materials to Cut Refueling Station Costs in Korea",
+      "url": "https://fuelcellsworks.com/2026/06/25/hydrogen/seah-besteel-localizes-key-hydrogen-materials-to-cut-refueling-station-costs-in-korea",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-06-25T15:52:40+00:00",
+      "pub_ts": 1782402760
+    },
+    {
+      "id": "91d6a0e6ed",
+      "title": "Flevoland Wants Onto the Dutch Hydrogen Backbone",
+      "url": "https://fuelcellsworks.com/2026/06/24/h2/flevoland-wants-onto-the-dutch-hydrogen-backbone",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-06-25T15:32:02+00:00",
+      "pub_ts": 1782401522
+    },
+    {
+      "id": "74ebcc0228",
+      "title": "PowerCell Secures 4 MW Marine Fuel Cell Order Valued at SEK 50 Million",
+      "url": "https://fuelcellsworks.com/2026/06/25/green-investment/powercell-secures-4-mw-marine-fuel-cell-order-valued-at-sek-50-million",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-06-25T15:29:41+00:00",
+      "pub_ts": 1782401381
+    },
     {
       "id": "2c66e1b265",
       "title": "Equinix Trials Landmark Hydrogen Power Solution at Dublin Data Centre",
@@ -55,56 +105,6 @@
       "lang": "en",
       "pub_date": "2026-06-24T16:54:22+00:00",
       "pub_ts": 1782320062
-    },
-    {
-      "id": "8831effb95",
-      "title": "Algeria and Siemens Energy Discuss Green Hydrogen and Ammonia Cooperation",
-      "url": "https://fuelcellsworks.com/2026/06/24/news/algeria-and-siemens-energy-discuss-green-hydrogen-and-ammonia-cooperation",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-06-24T16:32:45+00:00",
-      "pub_ts": 1782318765
-    },
-    {
-      "id": "22978fe884",
-      "title": "Saudi Arabia’s Acwa Explores Desalination, Green Hydrogen Investments in Morocco",
-      "url": "https://fuelcellsworks.com/2026/06/24/news/saudi-arabia-s-acwa-explores-desalination-green-hydrogen-investments-in-morocco",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-06-24T16:23:39+00:00",
-      "pub_ts": 1782318219
-    },
-    {
-      "id": "9e67f8ed95",
-      "title": "Graphene Catalyst Breakthrough Could Slash Hydrogen Fuel Cell Costs",
-      "url": "https://fuelcellsworks.com/2026/06/23/clean-energy/graphene-catalyst-breakthrough-could-slash-hydrogen-fuel-cell-costs",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-06-24T16:02:55+00:00",
-      "pub_ts": 1782316975
-    },
-    {
-      "id": "3f9561bba6",
-      "title": "ITM Power and Gore Report Ultra-Low Degradation in PEM Electrolysers",
-      "url": "https://fuelcellsworks.com/2026/06/24/energy-innovation/itm-power-and-gore-report-ultra-low-degradation-in-pem-electrolysers",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-06-24T15:56:49+00:00",
-      "pub_ts": 1782316609
-    },
-    {
-      "id": "54e32ec314",
-      "title": "Humber Hydrogen Has the Potential to Unlock Billions in Value to the UK Economy",
-      "url": "https://fuelcellsworks.com/2026/06/24/hydrogen/humber-hydrogen-has-the-potential-to-unlock-billions-in-value-to-the-uk-economy",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-06-24T15:41:53+00:00",
-      "pub_ts": 1782315713
     }
   ],
   "source_success_count": 2,

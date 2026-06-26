@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-06-25T04:08:51.978763+00:00",
+  "updated_at": "2026-06-26T04:15:45.813963+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "0e45c9b22d",
-      "title": "Novartis targets undruggable cancers with $1.9bn Antares Therapeutics deal",
-      "url": "https://www.pharmaceutical-technology.com/news/novartis-targets-undruggable-cancers-with-1-9bn-antares-therapeutics-deal/",
-      "summary": "Antares’ lead precision oncology programme is expected to enter the clinic in 2026.",
+      "id": "5a9d75dc5d",
+      "title": "Merck KGaA to buy Bio-Techne for $11.3bn in life science footprint expansion",
+      "url": "https://www.pharmaceutical-technology.com/news/merck-kgaa-to-buy-bio-techne-for-11-3bn-in-life-science-footprint-expansion/",
+      "summary": "The deal is Merck’s largest since 2015, when it spent $17bn on acquiring Sigma-Aldrich, also a life sciences specialist.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-24T13:12:58+00:00",
-      "pub_ts": 1782306778
+      "pub_date": "2026-06-25T13:21:33+00:00",
+      "pub_ts": 1782393693
     },
     {
-      "id": "ee4cf25d28",
-      "title": "ŌURA and Lilly join forces to harmonise drug-wearable obesity care",
-      "url": "https://www.pharmaceutical-technology.com/news/lilly-lillydirect-oura-obesity-partnership/",
-      "summary": "Lilly and ŌURA's partnership marks another high-profile collaboration between the consumer health and life science sectors.",
+      "id": "ffa13445cd",
+      "title": "N. America job signals: What leaders need to know about the healthtech hiring squeeze",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/n-america-job-signals-what-leaders-need-to-know-about-healthtech-hiring-squeeze/",
+      "summary": "Active job postings in healthtech have fallen consistently, with a decline of more than 40%. This is not seasonal noise.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-24T10:34:37+00:00",
-      "pub_ts": 1782297277
+      "pub_date": "2026-06-25T12:07:27+00:00",
+      "pub_ts": 1782389247
     },
     {
-      "id": "c001081709",
-      "title": "Boehringer and Combotope partner for cancer antibodies",
-      "url": "https://www.pharmaceutical-technology.com/news/boehringer-combotope-cancer-antibodies/",
-      "summary": "Boehringer Ingelheim has collaborated with Combotope Therapeutics to advance tumour-selective antibody therapies targeting cancer.",
+      "id": "402dd28a02",
+      "title": "MSD’s Keytruda-Padcev combo secures EC approval for MIBC",
+      "url": "https://www.pharmaceutical-technology.com/news/msd-keytruda-padcev-combo-ec-approval-mibc/",
+      "summary": "The EC has approved MSD's Keytruda in combination with Padcev as a neoadjuvant treatment for muscle-invasive bladder cancer (MIBC).",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-24T09:42:39+00:00",
-      "pub_ts": 1782294159
+      "pub_date": "2026-06-25T09:23:23+00:00",
+      "pub_ts": 1782379403
     },
     {
-      "id": "ef19f26ba3",
-      "title": "Haisco and Nuvectis sign licensing deal for two drugs",
-      "url": "https://www.pharmaceutical-technology.com/news/haisco-nuvectis-deal-two-drugs/",
-      "summary": "Haisco has signed an exclusive licensing agreement granting Nuvectis rights for two drug candidates in oncology and complement indications.",
+      "id": "474775d87c",
+      "title": "BIO 2026: Indiana, biopharma investment and the Lilly effect",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/bio-2026-indiana-biopharma-investment-and-the-lilly-effect/",
+      "summary": "BioCrossroads' Vince Wong discusses how his state is looking to differentiate itself from its rivals.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-24T08:10:30+00:00",
-      "pub_ts": 1782288630
+      "pub_date": "2026-06-25T08:51:47+00:00",
+      "pub_ts": 1782377507
     },
     {
-      "id": "c069e546e3",
-      "title": "BIO 2026: NVIDIA announces the BioNeMo toolkit for AI agents",
-      "url": "https://www.pharmaceutical-technology.com/news/bio-2026-nvidia-announces-the-bionemo-toolkit-for-ai-agents/",
-      "summary": "The suite of tools is designed to allow AI to carry out R&amp;D work more quickly, reliably, and in a continuous innovation loop.",
+      "id": "85ccb5d543",
+      "title": "RQ Bio secures $115m to develop influenza antibody programme",
+      "url": "https://www.pharmaceutical-technology.com/news/rq-bio-develop-influenza-antibody/",
+      "summary": "RQ Bio has closed a $115m Series A funding round to advance its long-acting antibody therapeutic programme RQB01, which targets influenza prevention in high-risk and immunocompromised groups.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-23T19:04:59+00:00",
-      "pub_ts": 1782241499
+      "pub_date": "2026-06-25T08:35:08+00:00",
+      "pub_ts": 1782376508
     }
   ],
   "source_success_count": 1,
