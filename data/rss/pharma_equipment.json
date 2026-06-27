@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-06-26T04:15:45.813963+00:00",
+  "updated_at": "2026-06-27T04:02:00.088284+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "5a9d75dc5d",
-      "title": "Merck KGaA to buy Bio-Techne for $11.3bn in life science footprint expansion",
-      "url": "https://www.pharmaceutical-technology.com/news/merck-kgaa-to-buy-bio-techne-for-11-3bn-in-life-science-footprint-expansion/",
-      "summary": "The deal is Merck’s largest since 2015, when it spent $17bn on acquiring Sigma-Aldrich, also a life sciences specialist.",
+      "id": "81f2208edc",
+      "title": "Immunai and Boehringer partner to identify T-cell targets",
+      "url": "https://www.pharmaceutical-technology.com/news/immunai-boehringer-t-cell-targets/",
+      "summary": "Immunai and Boehringer Ingelheim have entered into a multi-project collaboration to identify new T-cell targets in oncology and autoimmune diseases.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-25T13:21:33+00:00",
-      "pub_ts": 1782393693
+      "pub_date": "2026-06-26T10:23:56+00:00",
+      "pub_ts": 1782469436
     },
     {
-      "id": "ffa13445cd",
-      "title": "N. America job signals: What leaders need to know about the healthtech hiring squeeze",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/n-america-job-signals-what-leaders-need-to-know-about-healthtech-hiring-squeeze/",
-      "summary": "Active job postings in healthtech have fallen consistently, with a decline of more than 40%. This is not seasonal noise.",
+      "id": "8e73213614",
+      "title": "Tryngolza charts blockbuster course after FDA’s hypertriglyceridemia approval",
+      "url": "https://www.pharmaceutical-technology.com/news/tryngolza-charts-blockbuster-course-after-fdas-hypertriglyceridemia-approval/",
+      "summary": "Ionis has forecast peak sales of $2bn for Tryngolza as it seeks to harness first-mover advantage.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-25T12:07:27+00:00",
-      "pub_ts": 1782389247
+      "pub_date": "2026-06-26T10:20:49+00:00",
+      "pub_ts": 1782469249
     },
     {
-      "id": "402dd28a02",
-      "title": "MSD’s Keytruda-Padcev combo secures EC approval for MIBC",
-      "url": "https://www.pharmaceutical-technology.com/news/msd-keytruda-padcev-combo-ec-approval-mibc/",
-      "summary": "The EC has approved MSD's Keytruda in combination with Padcev as a neoadjuvant treatment for muscle-invasive bladder cancer (MIBC).",
+      "id": "9bed04a922",
+      "title": "Lilly-backed Absci banks $100m to progress endometriosis, hair loss therapy",
+      "url": "https://www.pharmaceutical-technology.com/news/absci-100m-financing-endometriosis-pattern-hair-loss-therapy-2/",
+      "summary": "Amid the debut of positive Phase I data for ABS-201, Absci will progress the candidate in endometriosis and pattern hair loss.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-25T09:23:23+00:00",
-      "pub_ts": 1782379403
+      "pub_date": "2026-06-26T09:27:16+00:00",
+      "pub_ts": 1782466036
     },
     {
-      "id": "474775d87c",
-      "title": "BIO 2026: Indiana, biopharma investment and the Lilly effect",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/bio-2026-indiana-biopharma-investment-and-the-lilly-effect/",
-      "summary": "BioCrossroads' Vince Wong discusses how his state is looking to differentiate itself from its rivals.",
+      "id": "d4841d4474",
+      "title": "Ionis grants Recordati rights to zilganersen for Alexander disease",
+      "url": "https://www.pharmaceutical-technology.com/news/ionis-recordati-zilganersen-alexander-disease/",
+      "summary": "Ionis Pharmaceuticals has granted Recordati exclusive rights to develop and commercialise zilganersen to treat Alexander disease (AxD) in countries outside the US.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-25T08:51:47+00:00",
-      "pub_ts": 1782377507
+      "pub_date": "2026-06-26T09:17:11+00:00",
+      "pub_ts": 1782465431
     },
     {
-      "id": "85ccb5d543",
-      "title": "RQ Bio secures $115m to develop influenza antibody programme",
-      "url": "https://www.pharmaceutical-technology.com/news/rq-bio-develop-influenza-antibody/",
-      "summary": "RQ Bio has closed a $115m Series A funding round to advance its long-acting antibody therapeutic programme RQB01, which targets influenza prevention in high-risk and immunocompromised groups.",
+      "id": "90e0b4fdde",
+      "title": "BIO 2026: Former FDA staff question agency’s “radical transparency” approach",
+      "url": "https://www.pharmaceutical-technology.com/news/bio-2026-former-fda-staff-question-agencys-radical-transparency-approach/",
+      "summary": "Former FDA employees discussed whether the agency’s commitment to openness risks creating a lack of clarity on official policies.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-25T08:35:08+00:00",
-      "pub_ts": 1782376508
+      "pub_date": "2026-06-26T06:00:00+00:00",
+      "pub_ts": 1782453600
     }
   ],
   "source_success_count": 1,

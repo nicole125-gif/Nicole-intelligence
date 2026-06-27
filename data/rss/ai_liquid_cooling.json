@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-06-26T04:15:22.238895+00:00",
+  "updated_at": "2026-06-27T04:01:33.936943+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "3220eacd53",
-      "title": "第一批一人公司，现在怎么样了？",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899740&idx=1&sn=ab02ad3499641b5345ce7a3557831659",
-      "summary": "第一批一人公司，现在怎么样了？",
+      "id": "4d9787ded0",
+      "title": "谷歌「推理之王」也跑路Meta了，当年还是李飞飞挖来的",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899921&idx=1&sn=f8f3e2e7fb96f9a4b9fc156bef6cc3db",
+      "summary": "谷歌「推理之王」也跑路Meta了，当年还是李飞飞挖来的",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-26T04:15:18.076362+00:00",
-      "pub_ts": 1782447318
+      "pub_date": "2026-06-27T04:01:28.785098+00:00",
+      "pub_ts": 1782532888
     },
     {
-      "id": "1c7214cd71",
-      "title": "苹果AI平台技术负责人回深圳具身创业，上月刚融了10亿",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899740&idx=2&sn=0fcb33a187d827acfd301dcbdfffe375",
-      "summary": "苹果AI平台技术负责人回深圳具身创业，上月刚融了10亿",
+      "id": "74c8e9ecb8",
+      "title": "0.7nm制程芯片问世！摩尔定律又活了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899921&idx=2&sn=62194160340550f59f20f1a8ee4f257f",
+      "summary": "0.7nm制程芯片问世！摩尔定律又活了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-26T04:15:18.076399+00:00",
-      "pub_ts": 1782447318
+      "pub_date": "2026-06-27T04:01:28.785144+00:00",
+      "pub_ts": 1782532888
     },
     {
-      "id": "11dea88535",
-      "title": "黄仁勋：Prompt正在过时，Loop才是新范式",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899694&idx=1&sn=332bd62f701c1ea2a64838697b10b08d",
-      "summary": "黄仁勋：Prompt正在过时，Loop才是新范式",
+      "id": "c84a697606",
+      "title": "大模型最后一层竟是推理累赘？绕开对齐税，奥数准确率暴涨22.4%！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899921&idx=3&sn=941b1c162189dca0b3dde1fb337b633f",
+      "summary": "大模型最后一层竟是推理累赘？绕开对齐税，奥数准确率暴涨22.4%！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-26T04:15:18.076416+00:00",
-      "pub_ts": 1782447318
+      "pub_date": "2026-06-27T04:01:28.785168+00:00",
+      "pub_ts": 1782532888
     },
     {
-      "id": "e03eda384b",
-      "title": "谷歌把电脑操作能力塞进Gemini3.5Flash！自己看屏幕狂点70轮",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899694&idx=2&sn=9a7a2de1998a14015cf5785df87240b7",
-      "summary": "谷歌把电脑操作能力塞进Gemini3.5Flash！自己看屏幕狂点70轮",
+      "id": "f3b47d3314",
+      "title": "从需求到设计到代码，一个软件全搞定！TRAE Work Design实测来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899865&idx=1&sn=083a5e912e6380c40a428f80d93d18f6",
+      "summary": "从需求到设计到代码，一个软件全搞定！TRAE Work Design实测来了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-26T04:15:18.076430+00:00",
-      "pub_ts": 1782447318
+      "pub_date": "2026-06-27T04:01:28.785191+00:00",
+      "pub_ts": 1782532888
     },
     {
-      "id": "c2796652bc",
-      "title": "混元开源PhoneBuddy-4B与5篇系列论文：多项手机Agent真机评测超...",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899694&idx=3&sn=fd0aabc9811f307dc9b2d7505537d0c7",
-      "summary": "混元开源PhoneBuddy-4B与5篇系列论文：多项手机Agent真机评测超...",
+      "id": "5992aef87a",
+      "title": "DeepSeek你怎么连HR都缺啊？！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899865&idx=2&sn=2b0d2607ead8596c6276d6d76007a995",
+      "summary": "DeepSeek你怎么连HR都缺啊？！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-26T04:15:18.076446+00:00",
-      "pub_ts": 1782447318
+      "pub_date": "2026-06-27T04:01:28.785215+00:00",
+      "pub_ts": 1782532888
     }
   ],
   "source_success_count": 1,

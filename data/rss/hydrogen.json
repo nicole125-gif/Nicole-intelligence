@@ -3,111 +3,61 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-06-26T04:15:33.529738+00:00",
-  "item_count": 10,
+  "updated_at": "2026-06-27T04:01:47.333953+00:00",
+  "item_count": 5,
   "items": [
     {
-      "id": "be7facf61a",
-      "title": "European Commission Opens New TEN-E Call for Hydrogen, Electrolyser and CO₂ Infrastructure Projects",
-      "url": "https://fuelcellsworks.com/2026/06/25/electrolyzer/european-commission-opens-new-ten-e-call-for-hydrogen-electrolyser-and-co-infrastructure-projects",
+      "id": "140be6b682",
+      "title": "Hyliko's Hydrogen Truck Hauls Dirt Daily on a Grand Paris Express Site — 270 Tonnes a Day, Zero Emissions",
+      "url": "https://fuelcellsworks.com/2026/06/16/h2/hyliko-s-hydrogen-truck-hauls-dirt-daily-on-a-grand-paris-express-site-270-tonnes-a-day-zero-emissions",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-25T16:19:06+00:00",
-      "pub_ts": 1782404346
+      "pub_date": "2026-06-26T15:54:39+00:00",
+      "pub_ts": 1782489279
     },
     {
-      "id": "541d701833",
-      "title": "SRM AP Signs MoU with Haruka Clean Energy Private Limited to Launch Green-Powered Street Lighting Pilot Project",
-      "url": "https://fuelcellsworks.com/2026/06/25/clean-energy/srm-ap-signs-mou-with-haruka-clean-energy-private-limited-to-launch-green-powered-street-lighting-pilot-project",
+      "id": "1c47f69d84",
+      "title": "Evos and North Atlantic Take Next Step in Developing Hydrogen Import Route to Europe",
+      "url": "https://fuelcellsworks.com/2026/06/26/energy-development/evos-and-north-atlantic-take-next-step-in-developing-hydrogen-import-route-to-europe",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-25T16:05:41+00:00",
-      "pub_ts": 1782403541
+      "pub_date": "2026-06-26T15:44:21+00:00",
+      "pub_ts": 1782488661
     },
     {
-      "id": "3a7e3cdb57",
-      "title": "SeAH Besteel Localizes Key Hydrogen Materials to Cut Refueling Station Costs in Korea",
-      "url": "https://fuelcellsworks.com/2026/06/25/hydrogen/seah-besteel-localizes-key-hydrogen-materials-to-cut-refueling-station-costs-in-korea",
+      "id": "630f4ef3af",
+      "title": "China Just Set a 2-Million-Tonne Green Hydrogen Target for 2030",
+      "url": "https://fuelcellsworks.com/2026/06/26/h2/china-just-set-a-2-million-tonne-green-hydrogen-target-for-2030",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-25T15:52:40+00:00",
-      "pub_ts": 1782402760
+      "pub_date": "2026-06-26T15:12:27+00:00",
+      "pub_ts": 1782486747
     },
     {
-      "id": "91d6a0e6ed",
-      "title": "Flevoland Wants Onto the Dutch Hydrogen Backbone",
-      "url": "https://fuelcellsworks.com/2026/06/24/h2/flevoland-wants-onto-the-dutch-hydrogen-backbone",
+      "id": "2d3bf530fd",
+      "title": "Swiss Hydrogen Startup REMA Secures CHF100,000 Tech Seed Loan to Advance Low-Cost AEM Electrolyser Technology",
+      "url": "https://fuelcellsworks.com/2026/06/26/electrolyzer/swiss-hydrogen-startup-rema-secures-chf100-000-tech-seed-loan-to-advance-low-cost-aem-electrolyser-technology",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-25T15:32:02+00:00",
-      "pub_ts": 1782401522
+      "pub_date": "2026-06-26T15:10:50+00:00",
+      "pub_ts": 1782486650
     },
     {
-      "id": "74ebcc0228",
-      "title": "PowerCell Secures 4 MW Marine Fuel Cell Order Valued at SEK 50 Million",
-      "url": "https://fuelcellsworks.com/2026/06/25/green-investment/powercell-secures-4-mw-marine-fuel-cell-order-valued-at-sek-50-million",
+      "id": "c6e07c822d",
+      "title": "Haps Partners with Indonesian Water Resources Corporation for 20MW Green Hydrogen Project",
+      "url": "https://fuelcellsworks.com/2026/06/25/h2/3-11-pm-claude-responded-haps-partners-with-indonesian-water-resources-corporation-for-20mw-green-hydrogen-projecthaps-partners-with-indonesian-water-resources-corporation-for-20mw-green-hydrogen-project",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-25T15:29:41+00:00",
-      "pub_ts": 1782401381
-    },
-    {
-      "id": "2c66e1b265",
-      "title": "Equinix Trials Landmark Hydrogen Power Solution at Dublin Data Centre",
-      "url": "https://hydrogen-central.com/equinix-trials-landmark-hydrogen-power-solution-at-dublin-data-centre/",
-      "summary": "Equinix Trials Landmark Hydrogen Power Solution at Dublin Data Centre Equinix is partnering with ESB to assess hydrogen as a clean backup power solution for its data centres. Equinix, Inc.&#160;(Nasdaq: [&#8230;]\nThe post Equinix Trials Landmark Hydrogen Power Solution at Dublin Data Centre appeared…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-06-24T17:11:53+00:00",
-      "pub_ts": 1782321113
-    },
-    {
-      "id": "4c03ed01b4",
-      "title": "BALLARD ANNOUNCES ACQUISITION OF UK-BASED GEOPURA, POWERING FUTURE GROWTH AND TRANSFORMING BALLARD INTO AN INTEGRATED HYDROGEN ECOSYSTEM PROVIDER",
-      "url": "https://hydrogen-central.com/ballard-announces-acquisition-of-uk-based-geopura-powering-future-growth-and-transforming-ballard-into-an-integrated-hydrogen-ecosystem-provider/",
-      "summary": "BALLARD ANNOUNCES ACQUISITION OF UK-BASED GEOPURA, POWERING FUTURE GROWTH AND TRANSFORMING BALLARD INTO AN INTEGRATED HYDROGEN ECOSYSTEM PROVIDER VANCOUVER, CANADA – Ballard Power Systems Inc. (NASDAQ: BLDP; TSX: BLDP, “Ballard”, [&#8230;]\nThe post BALLARD ANNOUNCES ACQUISITION OF UK-BASED GEOPURA, …",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-06-24T17:11:31+00:00",
-      "pub_ts": 1782321091
-    },
-    {
-      "id": "ae217b0353",
-      "title": "Evonik optimizes methanol supply for its methionine production network in Europe",
-      "url": "https://hydrogen-central.com/evonik-optimizes-methanol-supply-for-its-methionine-production-network-in-europe/",
-      "summary": "Evonik optimizes methanol supply for its methionine production network in Europe Essen, Germany. As part of strengthening its long-term raw material strategy, Evonik has developed a new solution to secure [&#8230;]\nThe post Evonik optimizes methanol supply for its methionine production network in Eu…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-06-24T17:04:21+00:00",
-      "pub_ts": 1782320661
-    },
-    {
-      "id": "6fc7f00248",
-      "title": "Hycamite is strengthening its leadership team as it expands its operations",
-      "url": "https://hydrogen-central.com/hycamite-is-strengthening-its-leadership-team-as-it-expands-its-operations/",
-      "summary": "Hycamite is strengthening its leadership team as it expands its operations Hycamite, a producer of low-carbon hydrogen and high-quality carbon materials, is strengthening its leadership team as it expands its [&#8230;]\nThe post Hycamite is strengthening its leadership team as it expands its operatio…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-06-24T17:04:10+00:00",
-      "pub_ts": 1782320650
-    },
-    {
-      "id": "f40241df5a",
-      "title": "North Sea hydrogen storage could power UK for 7 years, says new research",
-      "url": "https://hydrogen-central.com/north-sea-hydrogen-storage-could-power-uk-for-7-years-says-new-research/",
-      "summary": "North Sea hydrogen storage could power UK for 7 years, says new research The UK could store enough green hydrogen in depleted North Sea oil and gas fields to meet [&#8230;]\nThe post North Sea hydrogen storage could power UK for 7 years, says new research appeared first on Hydrogen Central.",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-06-24T16:54:22+00:00",
-      "pub_ts": 1782320062
+      "pub_date": "2026-06-26T15:01:58+00:00",
+      "pub_ts": 1782486118
     }
   ],
-  "source_success_count": 2,
+  "source_success_count": 1,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }

@@ -3,108 +3,98 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-06-26T04:15:08.737633+00:00",
-  "item_count": 15,
+  "updated_at": "2026-06-27T04:01:19.130156+00:00",
+  "item_count": 13,
   "items": [
     {
-      "id": "f1d0ad7a7a",
-      "title": "IBM推出全球首个亚1纳米芯片技术",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813681&idx=1&sn=fe3b793ea9d77e2837c082adadf90e78",
-      "summary": "IBM推出全球首个亚1纳米芯片技术",
+      "id": "ab97e69776",
+      "title": "长协到期，硅片迎来涨价大年",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813720&idx=1&sn=d15d4bc1a965bf81ff26d6548b5eae4f",
+      "summary": "长协到期，硅片迎来涨价大年",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-26T04:15:04.661228+00:00",
-      "pub_ts": 1782447304
+      "pub_date": "2026-06-27T04:01:14.859270+00:00",
+      "pub_ts": 1782532874
     },
     {
-      "id": "66e06d8dd5",
-      "title": "处理器芯片，让手机没有差价了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813674&idx=1&sn=e6e6e11fd60c5965afaaea5b41a24602",
-      "summary": "处理器芯片，让手机没有差价了",
+      "id": "6b122e531f",
+      "title": "7月1日直播！慕尼黑展安排上，这些展台不去等于白来",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813720&idx=2&sn=d998d4949a3d564a7ef4c2b0b7a2a1cf",
+      "summary": "7月1日直播！慕尼黑展安排上，这些展台不去等于白来",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-26T04:15:04.661267+00:00",
-      "pub_ts": 1782447304
+      "pub_date": "2026-06-27T04:01:14.859318+00:00",
+      "pub_ts": 1782532874
     },
     {
-      "id": "c7e1141984",
-      "title": "群贤毕至，共襄盛会式开放报名了！",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813674&idx=2&sn=c42fbaf68cd814f58fbadd4605d53126",
-      "summary": "群贤毕至，共襄盛会式开放报名了！",
+      "id": "c61dc5d69b",
+      "title": "中半协：一季度集成电路产业偏离传统周期特征",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813720&idx=3&sn=e7f47d76a7884e7831371406fdf55ce2",
+      "summary": "中半协：一季度集成电路产业偏离传统周期特征",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-26T04:15:04.661287+00:00",
-      "pub_ts": 1782447304
+      "pub_date": "2026-06-27T04:01:14.859344+00:00",
+      "pub_ts": 1782532874
     },
     {
-      "id": "5f682ae6d1",
-      "title": "78亿！长电科技砸钱建先进封测工厂",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813674&idx=3&sn=13e7c2e1b824983e8cbd3658345f7db7",
-      "summary": "78亿！长电科技砸钱建先进封测工厂",
+      "id": "e493d766a4",
+      "title": "2027年AMD新款服务器CPU出货量将反超英伟达Vera",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813720&idx=4&sn=6e3d8b6468763e0ea4c4ed8d6996b763",
+      "summary": "2027年AMD新款服务器CPU出货量将反超英伟达Vera",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-26T04:15:04.661318+00:00",
-      "pub_ts": 1782447304
+      "pub_date": "2026-06-27T04:01:14.859367+00:00",
+      "pub_ts": 1782532874
     },
     {
-      "id": "bcdc8b4e2f",
-      "title": "关于玻璃基板，康宁又有新招",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813674&idx=4&sn=d3b6e865d05f4b257c046ea9c05b25b7",
-      "summary": "关于玻璃基板，康宁又有新招",
+      "id": "05c3560157",
+      "title": "冲刺端侧AI，苹果调整Mac芯片规划",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813720&idx=5&sn=f9ee4c9e19930aa1e9edd5bb254dff40",
+      "summary": "冲刺端侧AI，苹果调整Mac芯片规划",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-26T04:15:04.661334+00:00",
-      "pub_ts": 1782447304
+      "pub_date": "2026-06-27T04:01:14.859394+00:00",
+      "pub_ts": 1782532874
     },
     {
-      "id": "908a1a3f7f",
-      "title": "全球首颗0.7nm芯片，刚刚发布！",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823913&idx=1&sn=19a90b424d9be47b6689fe847768178b",
-      "summary": "全球首颗0.7nm芯片，刚刚发布！",
+      "id": "3371604318",
+      "title": "甬矽电子，投资103亿扩产",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824101&idx=1&sn=71bc3572d9696a4e904f3eaa1a933c87",
+      "summary": "甬矽电子，投资103亿扩产",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-26T04:14:55.669649+00:00",
-      "pub_ts": 1782447295
+      "pub_date": "2026-06-27T04:01:05.864862+00:00",
+      "pub_ts": 1782532865
     },
     {
-      "id": "776b999dd9",
-      "title": "A股股王，暴涨超3000%",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823846&idx=1&sn=ff0a8fbf61c004efca3e8d142369f7f1",
-      "summary": "A股股王，暴涨超3000%",
+      "id": "0c227a679c",
+      "title": "PCB，严重缺货",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824087&idx=1&sn=63a437626f262ae8eda456674f76a07a",
+      "summary": "PCB，严重缺货",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-26T04:14:55.669694+00:00",
-      "pub_ts": 1782447295
+      "pub_date": "2026-06-27T04:01:05.864912+00:00",
+      "pub_ts": 1782532865
     },
     {
-      "id": "06c37f4c8c",
-      "title": "“科技研究百人会”发起函一尖智慧，打造人工智能硬科技产业智库",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823834&idx=1&sn=ffb45be03999697206293eb02a7e0e33",
-      "summary": "“科技研究百人会”发起函一尖智慧，打造人工智能硬科技产业智库",
+      "id": "b9595fadbe",
+      "title": "0.7nm芯片发布，晶体管巨变！",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824023&idx=1&sn=4c2c51fdfe3b5d3af69823456dfe3ace",
+      "summary": "0.7nm芯片发布，晶体管巨变！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-26T04:14:55.669714+00:00",
-      "pub_ts": 1782447295
+      "pub_date": "2026-06-27T04:01:05.864934+00:00",
+      "pub_ts": 1782532865
     },
     {
-      "id": "0206b02276",
-      "title": "高通加速多元化布局，全面发布数据中心战略，预计未来三到五年迎来多个关...",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823834&idx=2&sn=1df6ef4605f0a7ec86aa6aada03cb83f",
-      "summary": "高通加速多元化布局，全面发布数据中心战略，预计未来三到五年迎来多个关...",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-06-26T04:14:55.669731+00:00",
-      "pub_ts": 1782447295
-    },
-    {
-      "id": "78145b3a1f",
-      "title": "用AI设计的芯片：人类难以想象",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247823834&idx=3&sn=aa27de480bcfb9d991b0e2dbfcfc34d3",
-      "summary": "用AI设计的芯片：人类难以想象",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-06-26T04:14:55.669747+00:00",
-      "pub_ts": 1782447295
+      "id": "8472c3549b",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-144/",
+      "summary": "Onsemi to buy Synaptics; IBM's 7Å chip w/40% more SRAM area; 1nm MoS2 nanotubes; AI pressure points; memory updates; $250M CHIPS Act award; trade secret theft; new advanced packaging site; MEMS capacity; humanoids; earnings. \nThe post Chip Industry Week In Review appeared first on Semiconductor Engi…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-06-26T07:01:35+00:00",
+      "pub_ts": 1782457295
     },
     {
       "id": "2f85e14a4d",
@@ -145,16 +135,6 @@
       "lang": "en",
       "pub_date": "2026-06-25T07:07:06+00:00",
       "pub_ts": 1782371226
-    },
-    {
-      "id": "79eb25a28a",
-      "title": "Realizing The Future Of 3D-IC Design",
-      "url": "https://semiengineering.com/realizing-the-future-of-3d-ic-design/",
-      "summary": "Designing heterogeneously integrated packages necessitates a system-centric co-design approach. \nThe post Realizing The Future Of 3D-IC Design appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-06-25T07:06:42+00:00",
-      "pub_ts": 1782371202
     }
   ],
   "source_success_count": 3,
