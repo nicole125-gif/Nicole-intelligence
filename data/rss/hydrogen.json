@@ -3,8 +3,8 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-06-27T04:01:47.333953+00:00",
-  "item_count": 5,
+  "updated_at": "2026-06-28T04:23:54.607224+00:00",
+  "item_count": 10,
   "items": [
     {
       "id": "140be6b682",
@@ -55,9 +55,59 @@
       "lang": "en",
       "pub_date": "2026-06-26T15:01:58+00:00",
       "pub_ts": 1782486118
+    },
+    {
+      "id": "d12944f58a",
+      "title": "Clean Power Hydrogen plc Announces Operational Update Regarding the Third and Final Stage of the Factory Acceptance Testing (“Fat3”) of Its Mfe220 1Mw Unit",
+      "url": "https://hydrogen-central.com/clean-power-hydrogen-plc-announces-operational-update-regarding-the-third-and-final-stage-of-the-factory-acceptance-testing-fat3-of-its-mfe220-1mw-unit/",
+      "summary": "Clean Power Hydrogen plc Announces Operational Update Regarding the Third and Final Stage of the Factory Acceptance Testing (&#8220;Fat3&#8221;) of Its Mfe220 1Mw Unit Clean Power Hydrogen plc AnClean Power [&#8230;]\nThe post Clean Power Hydrogen plc Announces Operational Update Regarding the Third …",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-06-26T08:18:43+00:00",
+      "pub_ts": 1782461923
+    },
+    {
+      "id": "2c66e1b265",
+      "title": "Equinix Trials Landmark Hydrogen Power Solution at Dublin Data Centre",
+      "url": "https://hydrogen-central.com/equinix-trials-landmark-hydrogen-power-solution-at-dublin-data-centre/",
+      "summary": "Equinix Trials Landmark Hydrogen Power Solution at Dublin Data Centre Equinix is partnering with ESB to assess hydrogen as a clean backup power solution for its data centres. Equinix, Inc.&#160;(Nasdaq: [&#8230;]\nThe post Equinix Trials Landmark Hydrogen Power Solution at Dublin Data Centre appeared…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-06-24T17:11:53+00:00",
+      "pub_ts": 1782321113
+    },
+    {
+      "id": "4c03ed01b4",
+      "title": "BALLARD ANNOUNCES ACQUISITION OF UK-BASED GEOPURA, POWERING FUTURE GROWTH AND TRANSFORMING BALLARD INTO AN INTEGRATED HYDROGEN ECOSYSTEM PROVIDER",
+      "url": "https://hydrogen-central.com/ballard-announces-acquisition-of-uk-based-geopura-powering-future-growth-and-transforming-ballard-into-an-integrated-hydrogen-ecosystem-provider/",
+      "summary": "BALLARD ANNOUNCES ACQUISITION OF UK-BASED GEOPURA, POWERING FUTURE GROWTH AND TRANSFORMING BALLARD INTO AN INTEGRATED HYDROGEN ECOSYSTEM PROVIDER VANCOUVER, CANADA – Ballard Power Systems Inc. (NASDAQ: BLDP; TSX: BLDP, “Ballard”, [&#8230;]\nThe post BALLARD ANNOUNCES ACQUISITION OF UK-BASED GEOPURA, …",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-06-24T17:11:31+00:00",
+      "pub_ts": 1782321091
+    },
+    {
+      "id": "ae217b0353",
+      "title": "Evonik optimizes methanol supply for its methionine production network in Europe",
+      "url": "https://hydrogen-central.com/evonik-optimizes-methanol-supply-for-its-methionine-production-network-in-europe/",
+      "summary": "Evonik optimizes methanol supply for its methionine production network in Europe Essen, Germany. As part of strengthening its long-term raw material strategy, Evonik has developed a new solution to secure [&#8230;]\nThe post Evonik optimizes methanol supply for its methionine production network in Eu…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-06-24T17:04:21+00:00",
+      "pub_ts": 1782320661
+    },
+    {
+      "id": "6fc7f00248",
+      "title": "Hycamite is strengthening its leadership team as it expands its operations",
+      "url": "https://hydrogen-central.com/hycamite-is-strengthening-its-leadership-team-as-it-expands-its-operations/",
+      "summary": "Hycamite is strengthening its leadership team as it expands its operations Hycamite, a producer of low-carbon hydrogen and high-quality carbon materials, is strengthening its leadership team as it expands its [&#8230;]\nThe post Hycamite is strengthening its leadership team as it expands its operatio…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-06-24T17:04:10+00:00",
+      "pub_ts": 1782320650
     }
   ],
-  "source_success_count": 1,
+  "source_success_count": 2,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }

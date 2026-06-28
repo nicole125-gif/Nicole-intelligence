@@ -3,88 +3,108 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-06-27T04:01:19.130156+00:00",
-  "item_count": 13,
+  "updated_at": "2026-06-28T04:23:28.946627+00:00",
+  "item_count": 15,
   "items": [
     {
-      "id": "ab97e69776",
-      "title": "长协到期，硅片迎来涨价大年",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813720&idx=1&sn=d15d4bc1a965bf81ff26d6548b5eae4f",
-      "summary": "长协到期，硅片迎来涨价大年",
+      "id": "af30353043",
+      "title": "ASIC商业化，拐点已至",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813744&idx=1&sn=71ed9b39e8f30c7427bfbbdfc88e66c0",
+      "summary": "ASIC商业化，拐点已至",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-27T04:01:14.859270+00:00",
-      "pub_ts": 1782532874
+      "pub_date": "2026-06-28T04:23:24.780923+00:00",
+      "pub_ts": 1782620604
     },
     {
-      "id": "6b122e531f",
-      "title": "7月1日直播！慕尼黑展安排上，这些展台不去等于白来",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813720&idx=2&sn=d998d4949a3d564a7ef4c2b0b7a2a1cf",
-      "summary": "7月1日直播！慕尼黑展安排上，这些展台不去等于白来",
+      "id": "7091d3a03f",
+      "title": "高通放大招，数据中心芯片技术下放手机",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813744&idx=2&sn=551194e13f259fcc426f015cd482ba50",
+      "summary": "高通放大招，数据中心芯片技术下放手机",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-27T04:01:14.859318+00:00",
-      "pub_ts": 1782532874
+      "pub_date": "2026-06-28T04:23:24.780972+00:00",
+      "pub_ts": 1782620604
     },
     {
-      "id": "c61dc5d69b",
-      "title": "中半协：一季度集成电路产业偏离传统周期特征",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813720&idx=3&sn=e7f47d76a7884e7831371406fdf55ce2",
-      "summary": "中半协：一季度集成电路产业偏离传统周期特征",
+      "id": "bf65309390",
+      "title": "860亿美元！全球晶圆代工一季度大涨23%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813744&idx=3&sn=ea66d851d3bc67c73b979002bf9e3e3e",
+      "summary": "860亿美元！全球晶圆代工一季度大涨23%",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-27T04:01:14.859344+00:00",
-      "pub_ts": 1782532874
+      "pub_date": "2026-06-28T04:23:24.781001+00:00",
+      "pub_ts": 1782620604
     },
     {
-      "id": "e493d766a4",
-      "title": "2027年AMD新款服务器CPU出货量将反超英伟达Vera",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813720&idx=4&sn=6e3d8b6468763e0ea4c4ed8d6996b763",
-      "summary": "2027年AMD新款服务器CPU出货量将反超英伟达Vera",
+      "id": "224d1f7fce",
+      "title": "下一代人工智能需要液体冷却",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813744&idx=4&sn=23b5e42618535f4d93d0b0b15105bd9b",
+      "summary": "下一代人工智能需要液体冷却",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-27T04:01:14.859367+00:00",
-      "pub_ts": 1782532874
+      "pub_date": "2026-06-28T04:23:24.781027+00:00",
+      "pub_ts": 1782620604
     },
     {
-      "id": "05c3560157",
-      "title": "冲刺端侧AI，苹果调整Mac芯片规划",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813720&idx=5&sn=f9ee4c9e19930aa1e9edd5bb254dff40",
-      "summary": "冲刺端侧AI，苹果调整Mac芯片规划",
+      "id": "b702207b3c",
+      "title": "江丰电子市值800亿，“拼命三郎”留学博士干出全球靶材龙头",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813744&idx=5&sn=5b38574680ef53543c387bb20a40cfa8",
+      "summary": "江丰电子市值800亿，“拼命三郎”留学博士干出全球靶材龙头",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-27T04:01:14.859394+00:00",
-      "pub_ts": 1782532874
+      "pub_date": "2026-06-28T04:23:24.781051+00:00",
+      "pub_ts": 1782620604
     },
     {
-      "id": "3371604318",
-      "title": "甬矽电子，投资103亿扩产",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824101&idx=1&sn=71bc3572d9696a4e904f3eaa1a933c87",
-      "summary": "甬矽电子，投资103亿扩产",
+      "id": "b2ca6ed8d7",
+      "title": "马斯克质疑0.7nm芯片",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824126&idx=1&sn=81c63980970c35229a2d9fa0aced5b7d",
+      "summary": "马斯克质疑0.7nm芯片",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-27T04:01:05.864862+00:00",
-      "pub_ts": 1782532865
+      "pub_date": "2026-06-28T04:23:11.383336+00:00",
+      "pub_ts": 1782620591
     },
     {
-      "id": "0c227a679c",
-      "title": "PCB，严重缺货",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824087&idx=1&sn=63a437626f262ae8eda456674f76a07a",
-      "summary": "PCB，严重缺货",
+      "id": "ad02cd1d30",
+      "title": "光芯片“新军”崛起",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824119&idx=1&sn=06a6c6cce137eeb586f3d9833f371d75",
+      "summary": "光芯片“新军”崛起",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-27T04:01:05.864912+00:00",
-      "pub_ts": 1782532865
+      "pub_date": "2026-06-28T04:23:11.383389+00:00",
+      "pub_ts": 1782620591
     },
     {
-      "id": "b9595fadbe",
-      "title": "0.7nm芯片发布，晶体管巨变！",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824023&idx=1&sn=4c2c51fdfe3b5d3af69823456dfe3ace",
-      "summary": "0.7nm芯片发布，晶体管巨变！",
+      "id": "a8db6b453b",
+      "title": "先进封装，卡住芯片",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824119&idx=2&sn=809b57335cd7c067a536e7b826cf9497",
+      "summary": "先进封装，卡住芯片",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-27T04:01:05.864934+00:00",
-      "pub_ts": 1782532865
+      "pub_date": "2026-06-28T04:23:11.383410+00:00",
+      "pub_ts": 1782620591
+    },
+    {
+      "id": "041d558a35",
+      "title": "Agentic将如何影响EDA",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824119&idx=3&sn=756b6019fe64e0a57bad41706b8177bc",
+      "summary": "Agentic将如何影响EDA",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-06-28T04:23:11.383429+00:00",
+      "pub_ts": 1782620591
+    },
+    {
+      "id": "6bc6a1260e",
+      "title": "AMDCPU，产量惊人",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824119&idx=4&sn=e89e2943ec61db2df58896c00517c1fe",
+      "summary": "AMDCPU，产量惊人",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-06-28T04:23:11.383447+00:00",
+      "pub_ts": 1782620591
     },
     {
       "id": "8472c3549b",

@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-06-27T04:01:33.936943+00:00",
+  "updated_at": "2026-06-28T04:23:43.281690+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "4d9787ded0",
-      "title": "谷歌「推理之王」也跑路Meta了，当年还是李飞飞挖来的",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899921&idx=1&sn=f8f3e2e7fb96f9a4b9fc156bef6cc3db",
-      "summary": "谷歌「推理之王」也跑路Meta了，当年还是李飞飞挖来的",
+      "id": "d36b6f7c33",
+      "title": "BrowserBC：克隆人类点击，让一次网页操作转化为所有Agent的能力",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247900046&idx=1&sn=b33693452d232b8c5eaa9089f3697a99",
+      "summary": "BrowserBC：克隆人类点击，让一次网页操作转化为所有Agent的能力",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-27T04:01:28.785098+00:00",
-      "pub_ts": 1782532888
+      "pub_date": "2026-06-28T04:23:38.682627+00:00",
+      "pub_ts": 1782620618
     },
     {
-      "id": "74c8e9ecb8",
-      "title": "0.7nm制程芯片问世！摩尔定律又活了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899921&idx=2&sn=62194160340550f59f20f1a8ee4f257f",
-      "summary": "0.7nm制程芯片问世！摩尔定律又活了",
+      "id": "a3494e027a",
+      "title": "单个tokenizer胜任图像视频理解生成！南大&腾讯混元HYDRA打通多模态统一难题",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247900046&idx=2&sn=fab75b248b96a3ae5720aeba92fd7254",
+      "summary": "单个tokenizer胜任图像视频理解生成！南大&腾讯混元HYDRA打通多模态统一难题",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-27T04:01:28.785144+00:00",
-      "pub_ts": 1782532888
+      "pub_date": "2026-06-28T04:23:38.682675+00:00",
+      "pub_ts": 1782620618
     },
     {
-      "id": "c84a697606",
-      "title": "大模型最后一层竟是推理累赘？绕开对齐税，奥数准确率暴涨22.4%！",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899921&idx=3&sn=941b1c162189dca0b3dde1fb337b633f",
-      "summary": "大模型最后一层竟是推理累赘？绕开对齐税，奥数准确率暴涨22.4%！",
+      "id": "2d848cc3cb",
+      "title": "CVPR 2026最热方向，被一家杭州团队率先跑进了端侧！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247900018&idx=1&sn=7e8f294ec74e92aad8a0e58ccbe69736",
+      "summary": "CVPR 2026最热方向，被一家杭州团队率先跑进了端侧！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-27T04:01:28.785168+00:00",
-      "pub_ts": 1782532888
+      "pub_date": "2026-06-28T04:23:38.682699+00:00",
+      "pub_ts": 1782620618
     },
     {
-      "id": "f3b47d3314",
-      "title": "从需求到设计到代码，一个软件全搞定！TRAE Work Design实测来了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899865&idx=1&sn=083a5e912e6380c40a428f80d93d18f6",
-      "summary": "从需求到设计到代码，一个软件全搞定！TRAE Work Design实测来了",
+      "id": "b3b9d171e5",
+      "title": "长链路手机AI训练总崩盘？yiyo全新半在线RL，仅15k轨迹稳定收敛",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247900018&idx=2&sn=f772bbfc95bceba9de159cef625102db",
+      "summary": "长链路手机AI训练总崩盘？yiyo全新半在线RL，仅15k轨迹稳定收敛",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-27T04:01:28.785191+00:00",
-      "pub_ts": 1782532888
+      "pub_date": "2026-06-28T04:23:38.682721+00:00",
+      "pub_ts": 1782620618
     },
     {
-      "id": "5992aef87a",
-      "title": "DeepSeek你怎么连HR都缺啊？！",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899865&idx=2&sn=2b0d2607ead8596c6276d6d76007a995",
-      "summary": "DeepSeek你怎么连HR都缺啊？！",
+      "id": "ea3602dbeb",
+      "title": "微软年度AI职场报告：员工已经准备好了，公司还没有",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899989&idx=1&sn=c768fa2149bf446fd164696c261a9165",
+      "summary": "微软年度AI职场报告：员工已经准备好了，公司还没有",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-06-27T04:01:28.785215+00:00",
-      "pub_ts": 1782532888
+      "pub_date": "2026-06-28T04:23:38.682743+00:00",
+      "pub_ts": 1782620618
     }
   ],
   "source_success_count": 1,
