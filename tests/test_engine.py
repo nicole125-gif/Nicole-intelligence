@@ -386,6 +386,20 @@ class BuildTests(unittest.TestCase):
             self.cfg, self.as_of)
         self.assertIn("NO_MATCH", ob["extraction_notes"])
 
+    def test_l2_clusters_corroborate_by_owner(self):
+        # L2：同一主体多条事件聚合成账户级信号簇，corroboration≥2 提置信
+        signals = [
+            self._sig(title="上海东富龙冻干无菌制剂基地扩建投资8亿元", company="东富龙"),
+            self._sig(title="东富龙2025年新签订单同比增长47%", company="东富龙"),
+            self._sig(title="某乳业无菌灌装乳品线新建投资5亿元", company="某乳业"),
+        ]
+        pack = build.build_pack(signals, self.as_of, self.cfg)
+        tof = next(c for c in pack["clusters"] if c["owner"]["id"] == "tofflon")
+        self.assertEqual(tof["corroboration"], 2)
+        self.assertEqual(tof["spec_position"], "in")
+        self.assertGreaterEqual(tof["confidence"], 85)
+        self.assertEqual(pack["summary"]["corroborated"], 1)  # 仅东富龙印证≥2
+
     def test_pack_summary_counts(self):
         signals = [
             self._sig(title="无菌灌装乳品线新建投资5亿元", company="乳业A"),

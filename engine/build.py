@@ -198,6 +198,52 @@ def build_event(signal: dict, cfg: dict, as_of: dt.date, registry: dict | None =
     }
 
 
+def build_clusters(events: list[dict]) -> list[dict]:
+    """L2：按 owner_id 把多条事件聚合成「实体信号簇」（账户级印证信号）。
+
+    单条公告=数据点；同一主体多条独立信号印证 → 高置信"在动"账户线索
+    （signal-based selling：信号密度跨多触发才从"可能"变"几乎肯定在买"）。
+    """
+    band_rank = {"大": 3, "中": 2, "小": 1, "未知": 0}
+    level_rank = {"L0": 0, "L1": 1, "L2": 2}
+    groups: dict[str, list] = {}
+    for e in events:
+        oid = (e.get("owner") or {}).get("id")
+        if oid:
+            groups.setdefault(oid, []).append(e)
+
+    clusters = []
+    for oid, evs in groups.items():
+        owner = evs[0]["owner"]
+        corro = len(evs)
+        src_types = sorted({e["source"].get("type") for e in evs if e["source"].get("type")})
+        cond_ids = sorted({c for e in evs for c in e.get("working_condition_ids", [])})
+        confidence = min(100, max(e["confidence"] for e in evs) + 5 * (corro - 1))  # 印证→提置信
+        top_band = max((e["value_band"]["band"] for e in evs), key=lambda b: band_rank.get(b, 0))
+        soonest = min((e["lead_time"]["level"] for e in evs), key=lambda lv: level_rank.get(lv, 9))
+        spec = next((e.get("spec_position") for e in evs if e.get("spec_position")), None)
+        src_label = "、".join(
+            f"{t}×{sum(1 for e in evs if e['source'].get('type') == t)}" for t in src_types)
+        in_motion = (f"{corro} 个独立信号（{src_label}）"
+                     + (f"，工况：{'/'.join(cond_ids)}" if cond_ids else "，OEM 订单簿动能")
+                     + (f"，spec位={spec}" if spec else ""))
+        clusters.append({
+            "owner": {k: owner.get(k) for k in ("id", "name", "type", "resolved")},
+            "corroboration": corro,
+            "event_ids": [e["id"] for e in evs],
+            "source_types": src_types,
+            "working_condition_ids": cond_ids,
+            "spec_position": spec,
+            "value_band_top": top_band,
+            "lead_time_soonest": soonest,
+            "rank_score_top": max(e["rank_score"] for e in evs),
+            "confidence": confidence,
+            "in_motion": in_motion,
+        })
+    clusters.sort(key=lambda c: (c["corroboration"], c["confidence"], c["rank_score_top"]), reverse=True)
+    return clusters
+
+
 def build_pack(signals: list[dict], as_of: dt.date, cfg: dict | None = None) -> dict:
     cfg = cfg or conditions.load_conditions()
     registry = entities.load_registry()
@@ -209,6 +255,7 @@ def build_pack(signals: list[dict], as_of: dt.date, cfg: dict | None = None) -> 
         if event is not None:
             events.append(event)
     ranking.sort_events(events)
+    clusters = build_clusters(events)  # L2：实体信号簇（账户级印证）
 
     by_condition: dict[str, int] = {}
     by_band: dict[str, int] = {}
@@ -224,8 +271,11 @@ def build_pack(signals: list[dict], as_of: dt.date, cfg: dict | None = None) -> 
         "status": "ready",
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
         "events": events,
+        "clusters": clusters,  # L2：账户级信号簇
         "summary": {
             "total": len(events),
+            "accounts": len(clusters),
+            "corroborated": sum(1 for c in clusters if c["corroboration"] >= 2),
             "by_condition": by_condition,
             "by_band": by_band,
             "by_lead_time": {
