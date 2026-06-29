@@ -919,11 +919,12 @@ const SCORE_MODEL = {
 const wOf   = id => (SCORE_MODEL.W[id] || [50])[0];
 const whyOf = id => (SCORE_MODEL.W[id] || [0,''])[1] || '';
 const wPct  = k  => Math.round((SCORE_MODEL.weights[k]||0)*100);  // 维度卡显示权重；W 不在 heat → 0
-// L1 heat 由 bot 从 D/C/P/Pol 算好（= 市场温度），渲染层不再覆盖；只挂 L3 代理 W + ESG缺口 delta
+// L1 heat 由 bot 从 D/C/P/Pol 算好（= 市场温度），渲染层不覆盖；t.delta 保留数据自带的「环比升温/降温」
+// （管理层扫 L1 看哪个细分在升温）；另挂 L3 代理 W + esgGap（=W−Heat，ESG赢面vs市场，详情/着色用）。
 Object.keys(T).forEach(id=>{ const W=wOf(id);
-  T[id].W=W; T[id].why=whyOf(id); T[id].delta=Math.round((W-T[id].heat)*10)/10; });
+  T[id].W=W; T[id].why=whyOf(id); T[id].esgGap=Math.round((W-T[id].heat)*10)/10; });
 Object.keys(BM).forEach(b=>{ const ws=BM[b].tracks.map(wOf);
-  const W=Math.round(ws.reduce((a,c)=>a+c,0)/ws.length); BM[b].W=W; BM[b].delta=Math.round((W-BM[b].heat)*10)/10; });
+  const W=Math.round(ws.reduce((a,c)=>a+c,0)/ws.length); BM[b].W=W; BM[b].esgGap=Math.round((W-BM[b].heat)*10)/10; });
 
 /* ── HELPERS ── */
 const HC=h=>h>=75?'hot':h>=60?'exp':h>=45?'neu':'cold';
@@ -1792,7 +1793,7 @@ function heatMetricValue(t,mode){
   return t.heat;
 }
 function heatColor(t,mode){
-  const v = mode==='delta' ? (t.delta ?? 0) : heatMetricValue(t,mode);
+  const v = mode==='delta' ? (t.esgGap ?? 0) : heatMetricValue(t,mode);  // 'delta' 档=「ESG vs 市场」缺口
   if(mode==='delta'){
     if(v>=10) return '#83d6a1';
     if(v>=1) return '#68c8b7';
@@ -1807,7 +1808,7 @@ function heatColor(t,mode){
   return '#d66c62';
 }
 function tileAlpha(t,mode){
-  const v = mode==='delta' ? Math.min(100,Math.abs(t.delta ?? 0) * 5 + 34) : heatMetricValue(t,mode);
+  const v = mode==='delta' ? Math.min(100,Math.abs(t.esgGap ?? 0) * 5 + 34) : heatMetricValue(t,mode);
   return Math.max(24,Math.min(62,Math.round(v*.58))) + '%';
 }
 function tileSpan(t,sizeMode){
@@ -1844,7 +1845,7 @@ function updateHeatDetail(id){
     </div>
     <div class="detail-score">
       <strong>${esc(t.heat)}</strong>
-      <span>${trendEl(t.tr)} 市场HEAT<br>${t.delta!==undefined ? `${t.delta>=0?'+':''}${esc(t.delta)} ESG赢面vs市场` : 'NO DELTA'}</span>
+      <span>${trendEl(t.tr)} 市场HEAT<br>${t.esgGap!==undefined ? `${t.esgGap>=0?'+':''}${esc(t.esgGap)} ESG赢面vs市场` : ''}${t.delta!==undefined ? ` · ${t.delta>=0?'+':''}${esc(t.delta)} 环比` : ''}</span>
     </div>
     <div class="metric-stack">
       <div class="metric-box hl" title="${esc(t.why||'')}"><span>${SCORE_MODEL.labels.W} W · L3·不计入Heat ⓘ</span><strong>${esc(t.W)}</strong></div>
