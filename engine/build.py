@@ -34,6 +34,27 @@ def _is_stale(signal: dict, as_of: dt.date) -> bool:
     return (as_of - published).days > 45
 
 
+def _extraction_notes(review_flag, est_value, owner, cond, stale, is_oem) -> str:
+    """L1：生成复核理由，让下游/人知道为何待核或为何 NO_MATCH。"""
+    notes = []
+    # NO_MATCH：无工况枚举的 OEM 订单簿信号——即使 review_flag=ok 也标，供下游 NO_MATCH 决策
+    if not cond.get("condition_ids") and is_oem:
+        notes.append("装备商订单簿信号，无具体工况项目：possible NO_MATCH for ESG opportunity mapping")
+    if review_flag != schema.FLAG_OK:
+        flagged = len(notes)
+        if stale:
+            notes.append("信号偏旧（>45 天），可能已过期，勿当即时强机会")
+        if not owner.get("name"):
+            notes.append("业主未抽取/未解析，暂不可派明确销售动作")
+        elif not owner.get("resolved"):
+            notes.append("业主为 auto 实体未提升进 registry，身份待确认")
+        if est_value.get("status") == "unknown":
+            notes.append("无金额，估值未知，待核实项目规模")
+        if len(notes) == flagged:  # 未命中具体原因
+            notes.append("字段不全，待复核")
+    return "；".join(notes)
+
+
 def build_event(signal: dict, cfg: dict, as_of: dt.date, registry: dict | None = None) -> dict | None:
     """装配单条事件。不属于任何 ESG 工况（match_score==0）则返回 None（丢弃）。"""
     text = _text(signal)
@@ -127,6 +148,11 @@ def build_event(signal: dict, cfg: dict, as_of: dt.date, registry: dict | None =
     else:
         action = f"{lead_time['months']}个月窗口内，锁定{who}的{role_text}，以{valves}切入。"
 
+    # L1：每条事件自解释——金额显式 + 命中证据 + 复核理由
+    capex_amount = est_value.get("project_capex") if est_value.get("status") == "model_estimate" else None
+    capex_currency = "CNY" if capex_amount else "UNKNOWN"
+    extraction_notes = _extraction_notes(review_flag, est_value, owner, cond, stale, is_oem)
+
     event_id = hashlib.md5(
         f"{signal.get('title', '')}|{source_url}".encode()
     ).hexdigest()[:12]
@@ -140,12 +166,15 @@ def build_event(signal: dict, cfg: dict, as_of: dt.date, registry: dict | None =
         "buyer_role": role,
         "working_condition": cond["working_condition"],
         "working_condition_ids": cond.get("condition_ids", []),  # 契约枚举 id（与 labels 平行）
+        "matched_keywords": cond.get("matched_keywords", []),    # L1：命中证据（可溯源）
         "industry_tag": signal.get("industry_pull") or cond["industry_tag"],
         "signal_type": signal_type,
         "driver": classify.classify_driver(text),
         "lead_time": lead_time,
         "valve_type": cond["valve_type"],
         "est_value": est_value,
+        "capex_amount": capex_amount,        # L1：显式金额（契约 capex_amount）
+        "capex_currency": capex_currency,    # L1：币种（契约 capex_currency）
         "value_band": band,
         "winnability": win,
         "urgency": urgency,
@@ -160,6 +189,7 @@ def build_event(signal: dict, cfg: dict, as_of: dt.date, registry: dict | None =
         },
         "confidence": confidence,
         "review_flag": review_flag,
+        "extraction_notes": extraction_notes,  # L1：复核理由（契约 review_flag!=ok 时必填）
         "quality": {
             "has_capex": est_value["status"] != "unknown",
             "has_owner": bool(owner_name),
