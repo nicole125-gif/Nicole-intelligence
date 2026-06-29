@@ -6,9 +6,11 @@
 > - **ROADMAP.md** — 下一步路线（P0/P1/P2）、框架 5 洞状态、阻塞依赖。
 >
 > 另：方法论北极星 `docs/INTELLIGENCE_OS.md`；实现计划 `~/.claude/plans/https-www-esgvalve-cn-gleaming-stroustrup.md`；项目记忆 `~/.claude/projects/.../memory/esg-event-engine.md` + `esg-spec-position.md`。
-> 最后更新 2026-06-25 ｜ 引擎全部在 `main`：里程碑1 + winnability + **O1/O2-A/O3/O4** 本体化 + **本体图谱** + **P1#4 装备商订单簿源**（PR #23）｜ **✅ 处置闭环已上线**（Vercel + Upstash，PR #13/#15，公开别名见 §7）｜ 产品形态=**漏斗**，**B1/B2 已落地**（PR #18）｜ **首页热力图 ESG 化**（PR #20/#22：重锚评分 + W + 单一 SCORE_MODEL）｜ Brave key 已 park（见 §7）。WIP/自动化仍在 `automation/monthly-update`。
+> 最后更新 2026-06-29 ｜ 引擎全部在 `main`：里程碑1 + winnability + **O1/O2-A/O3/O4** 本体化 + **本体图谱** + **P1#4 装备商订单簿源**（PR #23）｜ **✅ 处置闭环已上线**（Vercel + Upstash，PR #13/#15，公开别名见 §7）｜ 产品形态=**漏斗**，**B1/B2 已落地**（PR #18）｜ **首页热力图 ESG 化**（PR #20/#22：重锚评分 + W + 单一 SCORE_MODEL）｜ **🆕 RSS/微信公众号新闻源接入**（PR #30，见 §11）｜ Brave key 已 park（见 §7）。WIP/自动化仍在 `automation/monthly-update`。
 >
-> **🔑 下次开机关键词**：`读 HANDOFF + ROADMAP（P1.6 漏斗），推进 B3`——主线 **P1.6 漏斗串链**（热力图入口→下钻事件→带 方案/竞品/产品推荐，先 B 后 A）：
+> **🔑 下次开机关键词**：`读 HANDOFF（§11 信息流扩量）+ memory，看用户有没有给微信中转 feed url`——**当前主线 = 信息流扩量（§11）**：RSS/微信源管道已通（PR #30），等用户订阅 wechat2rss 把 8 个 `TODO-WECHAT-RELAY` 占位换成真 feed → 引擎自动出微信事件。旁路可做：`制药网` 直抓源 `zyzhan.py`（§11，比微信稳）/ 去重+新鲜度配套。下面 P1.6 漏斗为既往主线：
+>
+> **P1.6 漏斗串链**（热力图入口→下钻事件→带 方案/竞品/产品推荐，先 B 后 A）：
 > - **✅ B1/B2 已完成**（PR #18）：事件卡带 推荐产品 + 在位竞品（具名+威胁分/绿地"无外资在位"）；events.html 加行业过滤 + `?industry=` deep-link（B3 下钻入口已备）。
 > - **下一步 = B3**（热力图改"混合+可点入口"：广度续用老 RSS/Brave 行业情绪，叠 engine 事件机会深度，点格 → `events.html?industry=X`）。**依赖 B0 数据 + 老管线热度** → B0 是 Codex 在做，B3 等数据到位再动；现在做会悬空。可先做的旁路：O2-B/图谱 enrich。
 > - **B0（CI 出数据）= Codex 在做**，本仓只作下游依赖，别重复实现。
@@ -150,3 +152,14 @@ NODE_USE_ENV_PROXY=1 npx vercel@latest deploy --prod --yes   # 公开别名见 �
 - **⏸ 两个待 Codex/Nicole 协调点（非代码能定）**：① **导出脚本住哪**——Nicole 仓 vs CI Radar 仓读 events JSON（倾向后者，更干净不撞）；② **B0 数据管线统一**——一条 CI 既出 events.html 数据又喂导出，别两套。
 - **分工现状**：CI Radar 导出 + B0 数据 CI = **Codex 在做**；Nicole 上游引擎/前端/契约就绪 = 本仓（我）。
 - **📄 给 Codex 的交接文档**：`竞品/docs/research/2026-06-25-nicole-to-ci-radar-handoff.md`（含 events JSON→契约 CSV **逐字段映射表** + 怎么产出 events JSON + Codex 待做 + 两个协调点）。映射表已对真实 `--sample` events JSON 逐字段核对通过（2026-06-25）。**Codex 拿它 + events JSON 即可机械映射,无需再问。**
+
+## 11. 信息流扩量：RSS/微信公众号源（2026-06-29，PR #30）
+
+**目标**：给引擎扩"信息流量"，更早捕捉建厂/扩产/招标信号（用户定调：**微信出信息快，先搞定公众号**）。
+
+- **✅ 管道已通（我做完，零引擎改动可加号）**：`engine/sources/rss.py` —— 吃 `fetch_rss.py` 已落盘的 `data/rss/*.json`（条目多为微信公众号文章），按 阀型/工况词过滤 → `source_type=news` 事件。零重复抓取、离线可跑。`run.py collect()` 已接；`esg_conditions.yml` 加 `news:0.3`（最弱）。58 测试全过。
+- **✅ 已联网调研选号 + 预接**：`rss_sources.json` 新增 `capex_signals` vertical，预接 8 个**真正发项目动态**的号（蒲公英/制药网/食品板/食业头条/高工锂电/上海化工区/中国化工报/电池中国），url 为 `TODO-WECHAT-RELAY` 占位。完整选号清单 + 中转方案对比见 `docs/wechat-rss-source-plan.md`。
+- **⚠ 卡点（非代码，用户/Codex 做）= 中转服务**：微信→RSS 必须有中转（推荐 **wechat2rss 托管版**，最快/24h 更新；备选自建 RSSHub）。**得在 CI/服务器跑，不在本机**（同招标/环评教训）。**下一步 = 用户去订阅那 8 个号 → 把 feed url 发回 → 替换 `rss_sources.json` 的 8 个占位** → 整条链 `fetch_rss → data/rss → 引擎` 自动通。
+- **⚠ 重要实情**：现有 28 个 RSS feed 是**宏观趋势号**（半导体并购/氢能创业），喂进引擎 **0 命中**——扩量真杠杆 = **选对号**（发项目的），不是管道。
+- **🔧 调研中挖到的更优旁路**：`制药网`（gc.zyzhan.com）有**结构化招标/项目页、是普通网页可直接爬**，比微信中转稳——可做 `engine/sources/zyzhan.py` 直抓（同 cninfo/tender 写法），跳过微信不确定性。同类：中项网/招标搜索。**未做，留作备选。**
+- **配套欠账**：量上来需配 **去重（event_id 跨天账本）+ 新鲜度排序因子**，否则信箱被新闻刷屏（`ranking` 现无 recency 因子，`build_pack` 无跨天去重）。
