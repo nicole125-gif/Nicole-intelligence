@@ -363,6 +363,43 @@ class BuildTests(unittest.TestCase):
             self.cfg, self.as_of)
         self.assertIsNone(ev)
 
+    def test_l1_enrichment_fields(self):
+        # L1：金额显式 + 命中证据 + ok 事件无复核理由
+        ev = build.build_event(
+            self._sig(title="某乳业无菌灌装乳品线新建投资5亿元", company="某乳业"),
+            self.cfg, self.as_of)
+        self.assertEqual(ev["capex_amount"], 500_000_000)
+        self.assertEqual(ev["capex_currency"], "CNY")
+        self.assertIn("无菌", ev["matched_keywords"])
+        self.assertEqual(ev["extraction_notes"], "")
+
+    def test_l1_extraction_notes_unresolved_and_nomatch(self):
+        # L1：unresolved 给理由；订单簿即使 ok 也标 NO_MATCH
+        unres = build.build_event(
+            self._sig(title="某无菌原料药基地卫生级隔膜阀采购招标", company="",
+                      source_type="tender", signal_type="immediate"),
+            self.cfg, self.as_of)
+        self.assertEqual(unres["review_flag"], "unresolved")
+        self.assertTrue(unres["extraction_notes"])
+        ob = build.build_event(
+            self._sig(title="2025年度新签订单同比增长47%", company="东富龙"),
+            self.cfg, self.as_of)
+        self.assertIn("NO_MATCH", ob["extraction_notes"])
+
+    def test_l2_clusters_corroborate_by_owner(self):
+        # L2：同一主体多条事件聚合成账户级信号簇，corroboration≥2 提置信
+        signals = [
+            self._sig(title="上海东富龙冻干无菌制剂基地扩建投资8亿元", company="东富龙"),
+            self._sig(title="东富龙2025年新签订单同比增长47%", company="东富龙"),
+            self._sig(title="某乳业无菌灌装乳品线新建投资5亿元", company="某乳业"),
+        ]
+        pack = build.build_pack(signals, self.as_of, self.cfg)
+        tof = next(c for c in pack["clusters"] if c["owner"]["id"] == "tofflon")
+        self.assertEqual(tof["corroboration"], 2)
+        self.assertEqual(tof["spec_position"], "in")
+        self.assertGreaterEqual(tof["confidence"], 85)
+        self.assertEqual(pack["summary"]["corroborated"], 1)  # 仅东富龙印证≥2
+
     def test_pack_summary_counts(self):
         signals = [
             self._sig(title="无菌灌装乳品线新建投资5亿元", company="乳业A"),

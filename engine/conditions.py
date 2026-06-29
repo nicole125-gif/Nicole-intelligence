@@ -51,6 +51,7 @@ def classify_condition(text: str, source_type: str, cfg: dict) -> dict:
             "primary_id": None,
             "working_condition": [],
             "condition_ids": [],
+            "matched_keywords": [],
             "match_score": 0.0,
             "industry_tag": None,
             "valve_type": {"primary": [], "basis": "未命中任何 ESG 工况"},
@@ -66,6 +67,7 @@ def classify_condition(text: str, source_type: str, cfg: dict) -> dict:
         "primary_id": primary["id"],
         "working_condition": [c["label"] for _, c, _ in scored],
         "condition_ids": [c["id"] for _, c, _ in scored],  # 契约 working_condition_ids（与 labels 平行）
+        "matched_keywords": top_hits[:6],  # L1：命中的工况关键词（证据/可溯源）
         "match_score": match_score,
         "industry_tag": (primary.get("industries") or [None])[0],
         "valve_type": {
