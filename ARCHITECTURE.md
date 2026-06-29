@@ -1,11 +1,31 @@
 # ARCHITECTURE — Nicole Intelligence
 
 > 系统结构参照。配套：`HANDOFF.md`（入口/状态/决策）、`ROADMAP.md`（下一步）。
-> 最后更新 2026-06-10。
+> 最后更新 2026-06-29。
 
 ## 0. 一句话
 
 阀门企业 ESG 青岛精锐的情报系统。**正在从「赛道热度中心」（老系统）重构为「事件中心」（新引擎）**——第一类对象从"行业热度"变成"会触发流体采购的 Capex 事件"。两套系统当前并存、物理隔离。
+
+---
+
+## 0.5 标准心智模型：5 层情报栈（2026-06-29 定调）
+
+全系统按 5 层切分，**每层只回答一个问题，层间靠边界纪律分工**。这是产品的标准心智模型，漏斗（§HANDOFF 9）与 Nicole/CI Radar 两层（§HANDOFF 10）都是它的投影。
+
+| 层 | 回答什么 | 现状落点 | 拥有 |
+|---|---|---|---|
+| **L1 Market Heat 行业热度** | 市场热不热（**不判 ESG 能不能赢**） | `index.html` 热力图 SCORE_MODEL | Nicole |
+| **L2 Signal Intelligence 信号层** | 谁/什么行业/什么动作/来源/可信/工况/提前量 → 标准事件 | `engine/` 事件引擎（核心，已成熟） | Nicole（本仓） |
+| **L3 ESG Fit 机会适配** | 信号对哪个 ESG 产品/真机会还是 NO_MATCH/国产替代空间 | Nicole 留 `winnability` 粗代理（冷启动），CI Radar 做精 | Codex（精）/ Nicole（粗代理） |
+| **L4 Competitor Battle 竞品打法** | 谁在位/打什么/话术/必问/证据缺口 | CI Radar + 产品库（Bürkert/GEMÜ/Fujikin/ESG） | Codex |
+| **L5 Sales Feedback 闭环** | 真项目?报价?赢输给谁?→ 回流修 L1权重/L2关键词/L3规则/L4威胁 | 处置闭环（采集已上线，消费未接） | Nicole 采集 / 两边消费 |
+
+**两条关键边界纪律（2026-06-29 决策）**：
+1. **L1 = 纯市场温度，W（ESG赢面）不进 Heat**。Heat = `Capex×.40 + Demand×.27 + Policy×.20 + Price×.13`（市场因子归一）。W 作为 **L3 的渲染层粗代理**单列展示、不烤进 Heat；`heatmap delta = W − Heat = 「ESG赢面 vs 市场热度」缺口`。（此前 PR#20/#22 曾把 W×25 烤进 Heat，本次按 5 层模型拆出。）
+2. **L3 ESG Fit 归 Codex 做精；Nicole 的 `winnability` 只当冷启动粗代理**（事件排序够用），不在 Nicole 写 ESG 价格/库存/交期/装机/证书/竞品输赢结论（那是 L4/CI Radar）。
+
+> **flywheel**：L5 反馈回流，闭合 L1↔L3↔L4 —— 赢面（L3）靠闭环（L5）攒数据校准，先粗代理冷启动（= §HANDOFF 决策6/15）。
 
 ---
 
