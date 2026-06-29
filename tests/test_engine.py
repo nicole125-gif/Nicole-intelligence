@@ -4,7 +4,9 @@
 """
 
 import datetime as dt
+import json
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -12,6 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from engine import build, buyer_role, conditions, entities, ranking, valuation, winnability  # noqa: E402
+from engine.sources import rss  # noqa: E402
 
 
 class ConditionTests(unittest.TestCase):
@@ -413,6 +416,53 @@ class BuildTests(unittest.TestCase):
         # rank 降序
         scores = [e["rank_score"] for e in pack["events"] if e["review_flag"] == "ok"]
         self.assertEqual(scores, sorted(scores, reverse=True))
+
+
+class RssSourceTests(unittest.TestCase):
+    """RSS/微信源管道：通吃任意 RSS 落盘文件，按工况词过滤、映射字段。"""
+
+    def setUp(self):
+        self.cfg = conditions.load_conditions()
+
+    def _write(self, tmp: Path, items: list[dict]):
+        (tmp / "vert.json").write_text(
+            json.dumps({"vertical_id": "test", "items": items}, ensure_ascii=False),
+            encoding="utf-8")
+
+    def test_matching_item_becomes_news_signal(self):
+        with tempfile.TemporaryDirectory() as d:
+            tmp = Path(d)
+            self._write(tmp, [
+                {"id": "1", "title": "某药企无菌灌装制剂生产线新建项目开工",
+                 "summary": "", "url": "https://mp.weixin.qq.com/s/abc",
+                 "source": "蒲公英Ouryao", "pub_date": "2026-06-20T00:00:00+00:00"},
+                {"id": "2", "title": "手机越卖越贵厂商越来越慌",  # 无工况词 → 丢
+                 "summary": "", "url": "https://mp.weixin.qq.com/s/x",
+                 "source": "半导体纵横", "pub_date": "2026-06-20T00:00:00+00:00"},
+            ])
+            out = rss.fetch(self.cfg, rss_dir=tmp)
+        self.assertEqual(len(out), 1)
+        s = out[0]
+        self.assertEqual(s["source_type"], "news")
+        self.assertEqual(s["source"], "蒲公英Ouryao")
+        self.assertEqual(s["date"], "2026-06-20")
+        self.assertEqual(s["company"], "")  # 新闻不臆造业主
+
+    def test_missing_dir_returns_empty(self):
+        self.assertEqual(rss.fetch(self.cfg, rss_dir=Path("/nonexistent/rss")), [])
+
+    def test_news_item_builds_into_event(self):
+        with tempfile.TemporaryDirectory() as d:
+            tmp = Path(d)
+            self._write(tmp, [
+                {"id": "1", "title": "某乳企无菌灌装乳品线新建投资3亿元",
+                 "summary": "", "url": "https://mp.weixin.qq.com/s/abc",
+                 "source": "食品板", "pub_date": "2026-06-20T00:00:00+00:00"},
+            ])
+            sigs = rss.fetch(self.cfg, rss_dir=tmp)
+        pack = build.build_pack(sigs, dt.date(2026, 6, 25), self.cfg)
+        self.assertEqual(pack["summary"]["total"], 1)
+        self.assertEqual(pack["events"][0]["source"]["type"], "news")
 
 
 if __name__ == "__main__":

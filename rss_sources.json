@@ -260,6 +260,62 @@
           "priority": 3
         }
       ]
+    },
+    "capex_signals": {
+      "name": "项目情报(微信)",
+      "name_en": "Capex Signals",
+      "color": "#39ff88",
+      "_note": "对口阀门采购的建厂/扩产/招标公众号。url 占位待中转就绪后替换为真实 RSS——见 docs/wechat-rss-source-plan.md。微信号在 name 末括号，订阅后把 TODO url 换成中转给的 feed 地址即可。",
+      "sources": [
+        {
+          "name": "蒲公英Ouryao(ouryao)",
+          "url": "https://TODO-WECHAT-RELAY/feed/ouryao.xml",
+          "lang": "zh",
+          "priority": 1
+        },
+        {
+          "name": "制药网(zyzhan)",
+          "url": "https://TODO-WECHAT-RELAY/feed/zyzhan.xml",
+          "lang": "zh",
+          "priority": 1
+        },
+        {
+          "name": "食品板(spbwx)",
+          "url": "https://TODO-WECHAT-RELAY/feed/spbwx.xml",
+          "lang": "zh",
+          "priority": 1
+        },
+        {
+          "name": "食业头条(shiyetoutiao)",
+          "url": "https://TODO-WECHAT-RELAY/feed/shiyetoutiao.xml",
+          "lang": "zh",
+          "priority": 1
+        },
+        {
+          "name": "高工锂电(weixin-gg-lb)",
+          "url": "https://TODO-WECHAT-RELAY/feed/gg-lb.xml",
+          "lang": "zh",
+          "priority": 1
+        },
+        {
+          "name": "上海化工区SCIP",
+          "url": "https://TODO-WECHAT-RELAY/feed/scip.xml",
+          "lang": "zh",
+          "priority": 2
+        },
+        {
+          "name": "中国化工报",
+          "url": "https://TODO-WECHAT-RELAY/feed/ccin.xml",
+          "lang": "zh",
+          "priority": 2
+        },
+        {
+          "name": "电池中国(cbea_battery)",
+          "url": "https://TODO-WECHAT-RELAY/feed/cbea.xml",
+          "lang": "zh",
+          "priority": 2
+        }
+      ]
     }
   },
   "global_settings": {
