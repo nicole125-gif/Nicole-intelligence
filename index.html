@@ -514,6 +514,7 @@ body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([oncli
 .detail-actions{display:grid;gap:8px;margin-top:auto}
 .detail-actions a,.detail-actions button{height:36px;border-radius:5px;border:1px solid rgba(140,190,255,.16);display:flex;align-items:center;justify-content:center;text-decoration:none;font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;cursor:pointer}
 .detail-actions a{background:var(--detail-c);color:#020810;border-color:transparent;font-weight:700}
+.detail-actions a.drill{background:#39ff88;color:#031a0e;box-shadow:0 6px 20px rgba(57,255,136,.28)}
 .detail-actions button{background:rgba(255,255,255,.035);color:rgba(226,236,250,.78)}
 .usecase-board{border-top:1px solid rgba(133,171,161,.16);background:rgba(5,10,12,.96);padding:18px;display:grid;gap:14px}
 .usecase-intro{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;padding-bottom:4px}
@@ -1729,6 +1730,14 @@ const HEAT_SYMBOLS = {
   l1:'MS',l2:'SEQ',l3:'IVD',
   f1:'FOOD',f2:'BEV',f3:'CONS',f4:'ADD'
 };
+// L1→L2 钻取映射：赛道 → 引擎事件的 industry_tag（= 对应工况 industries[0]）。
+// 只有挂得上阀门工况的赛道才钻取；宏观/半导体/仪器/金融类无工况 → 不给钻取链（诚实）。
+const TRACK_DRILL = {
+  g1:'电池制造',          // 锂电设备 → lithium_injection
+  p2:'生物制品', f4:'生物制品',   // 合成生物/食品添加剂 → biosynthesis
+  p4:'医药制造业', p5:'医药制造业', // 制药装备/CDMO → pharma_ref
+  f1:'食品饮料', f2:'食品饮料',    // 食品/酒饮料制造 → hygienic
+};
 const INDUSTRY_USE = {
   zh: {
     Macro:{label:'宏观校准层', purpose:'判断本周是否该加大机会搜索，避免在宏观收缩阶段误读单个赛道的局部高分。', action:'先看 PMI / M2 / FAI，决定整体进攻或防守节奏。'},
@@ -1847,6 +1856,7 @@ function updateHeatDetail(id){
     <div class="detail-note">${esc(t.tw)}</div>
     <div class="detail-note">${esc(t.act)}</div>
     <div class="detail-actions">
+      ${TRACK_DRILL[id] ? `<a class="drill" href="events.html?industry=${encodeURIComponent(TRACK_DRILL[id])}">${currentLang==='en'?`Drill to ${attr(TRACK_DRILL[id])} projects →`:`钻取 ${esc(TRACK_DRILL[id])} 项目 →`}</a>` : ''}
       <a href="${attr(m.href)}">${currentLang==='en'?'Open Sector Page':'进入专题页'}</a>
       <button type="button" onclick="openModal('${attr(id)}')">${currentLang==='en'?'View Metrics':'查看指标详情'}</button>
     </div>`;
