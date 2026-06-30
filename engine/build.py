@@ -167,6 +167,7 @@ def build_event(signal: dict, cfg: dict, as_of: dt.date, registry: dict | None =
         "working_condition": cond["working_condition"],
         "working_condition_ids": cond.get("condition_ids", []),  # 契约枚举 id（与 labels 平行）
         "matched_keywords": cond.get("matched_keywords", []),    # L1：命中证据（可溯源）
+        "matched_sentence": cond.get("matched_sentence", ""),    # L1：命中证据句（接地，"为什么判这个工况"）
         "industry_tag": signal.get("industry_pull") or cond["industry_tag"],
         "signal_type": signal_type,
         "driver": classify.classify_driver(text),
