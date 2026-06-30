@@ -709,7 +709,7 @@ body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([oncli
     <article class="feature-card">
       <span>Feature 02</span>
       <h3>市场温度(L1) 与 ESG赢面(L3) 分开看</h3>
-      <p>市场HEAT 只判市场热不热（Capex 领权 + 需求/政策/价格），**不掺 ESG 能不能赢**；ESG赢面 W 作为 L3 机会适配的渲染层粗代理单列，每块仍可展开 资本开支·需求·政策·价格·ESG赢面 五维度。市场热≠ESG 能赢——所以分两层，避免误判。</p>
+      <p>市场HEAT 只判市场热不热（Capex 领权 + 需求/政策/价格），**不掺 ESG 能不能赢**；ESG赢面 W 是 L3 机会适配的单列维度。市场热≠ESG 能赢——所以分两层，避免误判。<br><strong>⚠ W 是临时粗代理</strong>：竞品据点/spec位 本属 CI Radar（L3/L4），现为冷启动手种，待 CI Radar 接入后由其供给替换。</p>
     </article>
     <article class="feature-card">
       <span>Feature 03</span>
@@ -1848,7 +1848,7 @@ function updateHeatDetail(id){
       <span>${trendEl(t.tr)} 市场HEAT<br>${t.esgGap!==undefined ? `${t.esgGap>=0?'+':''}${esc(t.esgGap)} ESG赢面vs市场` : ''}${t.delta!==undefined ? ` · ${t.delta>=0?'+':''}${esc(t.delta)} 环比` : ''}</span>
     </div>
     <div class="metric-stack">
-      <div class="metric-box hl" title="${esc(t.why||'')}"><span>${SCORE_MODEL.labels.W} W · L3·不计入Heat ⓘ</span><strong>${esc(t.W)}</strong></div>
+      <div class="metric-box hl" title="${esc(t.why||'')}&#10;⚠ 临时粗代理：借 CI Radar 的竞品/spec 数据手种，待 CI Radar L3 上线替换"><span>${SCORE_MODEL.labels.W} W · L3·临时·待CI ⓘ</span><strong>${esc(t.W)}</strong></div>
       <div class="metric-box"><span>${SCORE_MODEL.labels.C} ×${wPct('C')}%</span><strong>${esc(t.C)}</strong></div>
       <div class="metric-box"><span>${SCORE_MODEL.labels.D} ×${wPct('D')}%</span><strong>${esc(t.D)}</strong></div>
       <div class="metric-box"><span>${SCORE_MODEL.labels.Pol} ×${wPct('Pol')}%</span><strong>${esc(t.Pol)}</strong></div>
