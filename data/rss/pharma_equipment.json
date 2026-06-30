@@ -3,9 +3,39 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-06-29T04:43:21.974563+00:00",
+  "updated_at": "2026-06-30T04:10:28.003005+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "a360cb27d4",
+      "title": "Biogen trims Apellis pipeline and R&D team after $5.6bn takeover",
+      "url": "https://www.pharmaceutical-technology.com/news/biogen-cuts-apellis-rd-workforce-after-acquisition/",
+      "summary": "Biogen plans to pause or terminate investment in most of Apellis’ legacy research programmes, while cutting some of its workforce.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-06-29T10:42:49+00:00",
+      "pub_ts": 1782729769
+    },
+    {
+      "id": "f594019163",
+      "title": "FDA issues complete response letter to Sobi’s NASP for gout",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-complete-response-letter-sobi-nasp/",
+      "summary": "Sobi has received a CRL from the US FDA regarding its BLA for NASP, an investigational therapy intended for adults with uncontrolled gout.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-06-29T09:07:51+00:00",
+      "pub_ts": 1782724071
+    },
+    {
+      "id": "52f36c8788",
+      "title": "Lilly’s Jaypirca receives CHMP positive opinion for CLL in Europe",
+      "url": "https://www.pharmaceutical-technology.com/news/lillys-jaypirca-chmp-positive-opinion/",
+      "summary": "Lilly has received the CHMP of the EMA positive opinion for Jaypirca (pirtobrutinib) to treat chronic lymphocytic leukaemia (CLL) in adults.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-06-29T07:05:31+00:00",
+      "pub_ts": 1782716731
+    },
     {
       "id": "81f2208edc",
       "title": "Immunai and Boehringer partner to identify T-cell targets",
@@ -25,36 +55,6 @@
       "lang": "en",
       "pub_date": "2026-06-26T10:20:49+00:00",
       "pub_ts": 1782469249
-    },
-    {
-      "id": "9bed04a922",
-      "title": "Lilly-backed Absci banks $100m to progress endometriosis, hair loss therapy",
-      "url": "https://www.pharmaceutical-technology.com/news/absci-100m-financing-endometriosis-pattern-hair-loss-therapy-2/",
-      "summary": "Amid the debut of positive Phase I data for ABS-201, Absci will progress the candidate in endometriosis and pattern hair loss.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-06-26T09:27:16+00:00",
-      "pub_ts": 1782466036
-    },
-    {
-      "id": "d4841d4474",
-      "title": "Ionis grants Recordati rights to zilganersen for Alexander disease",
-      "url": "https://www.pharmaceutical-technology.com/news/ionis-recordati-zilganersen-alexander-disease/",
-      "summary": "Ionis Pharmaceuticals has granted Recordati exclusive rights to develop and commercialise zilganersen to treat Alexander disease (AxD) in countries outside the US.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-06-26T09:17:11+00:00",
-      "pub_ts": 1782465431
-    },
-    {
-      "id": "90e0b4fdde",
-      "title": "BIO 2026: Former FDA staff question agency’s “radical transparency” approach",
-      "url": "https://www.pharmaceutical-technology.com/news/bio-2026-former-fda-staff-question-agencys-radical-transparency-approach/",
-      "summary": "Former FDA employees discussed whether the agency’s commitment to openness risks creating a lack of clarity on official policies.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-06-26T06:00:00+00:00",
-      "pub_ts": 1782453600
     }
   ],
   "source_success_count": 1,

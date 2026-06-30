@@ -3,111 +3,61 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-06-29T04:43:09.559962+00:00",
-  "item_count": 10,
+  "updated_at": "2026-06-30T04:10:15.504256+00:00",
+  "item_count": 5,
   "items": [
     {
-      "id": "140be6b682",
-      "title": "Hyliko's Hydrogen Truck Hauls Dirt Daily on a Grand Paris Express Site — 270 Tonnes a Day, Zero Emissions",
-      "url": "https://fuelcellsworks.com/2026/06/16/h2/hyliko-s-hydrogen-truck-hauls-dirt-daily-on-a-grand-paris-express-site-270-tonnes-a-day-zero-emissions",
+      "id": "22a05ba23f",
+      "title": "Hydrogen Refueling Solutions Announces the Signing of a Five-Year Framework Maintenance Contract for All of Its Stations Installed for Hympulsion",
+      "url": "https://fuelcellsworks.com/2026/06/29/energy-development/hydrogen-refueling-solutions-announces-the-signing-of-a-five-year-framework-maintenance-contract-for-all-of-its-stations-installed-for-hympulsion",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-26T15:54:39+00:00",
-      "pub_ts": 1782489279
+      "pub_date": "2026-06-29T16:09:27+00:00",
+      "pub_ts": 1782749367
     },
     {
-      "id": "1c47f69d84",
-      "title": "Evos and North Atlantic Take Next Step in Developing Hydrogen Import Route to Europe",
-      "url": "https://fuelcellsworks.com/2026/06/26/energy-development/evos-and-north-atlantic-take-next-step-in-developing-hydrogen-import-route-to-europe",
+      "id": "0868e42f6d",
+      "title": "20+ Associations Endorse the Call-to-Action: Hydrogen for a Resilient World",
+      "url": "https://fuelcellsworks.com/2026/06/29/clean-energy/20-associations-endorse-the-call-to-action-hydrogen-for-a-resilient-world",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-26T15:44:21+00:00",
-      "pub_ts": 1782488661
+      "pub_date": "2026-06-29T15:43:37+00:00",
+      "pub_ts": 1782747817
     },
     {
-      "id": "630f4ef3af",
-      "title": "China Just Set a 2-Million-Tonne Green Hydrogen Target for 2030",
-      "url": "https://fuelcellsworks.com/2026/06/26/h2/china-just-set-a-2-million-tonne-green-hydrogen-target-for-2030",
+      "id": "24bf91842d",
+      "title": "Fuel Cell and Hydrogen News Highlights From China: June 22-June 26, 2026",
+      "url": "https://fuelcellsworks.com/2026/06/28/electrolyzer/fuel-cell-and-hydrogen-news-highlights-from-china-june-22-june-26-2026",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-26T15:12:27+00:00",
-      "pub_ts": 1782486747
+      "pub_date": "2026-06-29T15:38:21+00:00",
+      "pub_ts": 1782747501
     },
     {
-      "id": "2d3bf530fd",
-      "title": "Swiss Hydrogen Startup REMA Secures CHF100,000 Tech Seed Loan to Advance Low-Cost AEM Electrolyser Technology",
-      "url": "https://fuelcellsworks.com/2026/06/26/electrolyzer/swiss-hydrogen-startup-rema-secures-chf100-000-tech-seed-loan-to-advance-low-cost-aem-electrolyser-technology",
+      "id": "b7ce3d7489",
+      "title": "Everllence Launches HydroMonia Research Project for Carbon Free Power Generation",
+      "url": "https://fuelcellsworks.com/2026/06/29/energy-development/everllence-launches-hydromonia-research-project-for-carbon-free-power-generation",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-26T15:10:50+00:00",
-      "pub_ts": 1782486650
+      "pub_date": "2026-06-29T15:34:12+00:00",
+      "pub_ts": 1782747252
     },
     {
-      "id": "c6e07c822d",
-      "title": "Haps Partners with Indonesian Water Resources Corporation for 20MW Green Hydrogen Project",
-      "url": "https://fuelcellsworks.com/2026/06/25/h2/3-11-pm-claude-responded-haps-partners-with-indonesian-water-resources-corporation-for-20mw-green-hydrogen-projecthaps-partners-with-indonesian-water-resources-corporation-for-20mw-green-hydrogen-project",
+      "id": "d96c8f7e40",
+      "title": "Spain's €7.04M GUARDIANE-Q Project Targets Hydrogen Storage",
+      "url": "https://fuelcellsworks.com/2026/06/29/h2/spain-s-7-04m-guardiane-q-project-targets-hydrogen-storage",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-26T15:01:58+00:00",
-      "pub_ts": 1782486118
-    },
-    {
-      "id": "d12944f58a",
-      "title": "Clean Power Hydrogen plc Announces Operational Update Regarding the Third and Final Stage of the Factory Acceptance Testing (“Fat3”) of Its Mfe220 1Mw Unit",
-      "url": "https://hydrogen-central.com/clean-power-hydrogen-plc-announces-operational-update-regarding-the-third-and-final-stage-of-the-factory-acceptance-testing-fat3-of-its-mfe220-1mw-unit/",
-      "summary": "Clean Power Hydrogen plc Announces Operational Update Regarding the Third and Final Stage of the Factory Acceptance Testing (&#8220;Fat3&#8221;) of Its Mfe220 1Mw Unit Clean Power Hydrogen plc AnClean Power [&#8230;]\nThe post Clean Power Hydrogen plc Announces Operational Update Regarding the Third …",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-06-26T08:18:43+00:00",
-      "pub_ts": 1782461923
-    },
-    {
-      "id": "2c66e1b265",
-      "title": "Equinix Trials Landmark Hydrogen Power Solution at Dublin Data Centre",
-      "url": "https://hydrogen-central.com/equinix-trials-landmark-hydrogen-power-solution-at-dublin-data-centre/",
-      "summary": "Equinix Trials Landmark Hydrogen Power Solution at Dublin Data Centre Equinix is partnering with ESB to assess hydrogen as a clean backup power solution for its data centres. Equinix, Inc.&#160;(Nasdaq: [&#8230;]\nThe post Equinix Trials Landmark Hydrogen Power Solution at Dublin Data Centre appeared…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-06-24T17:11:53+00:00",
-      "pub_ts": 1782321113
-    },
-    {
-      "id": "4c03ed01b4",
-      "title": "BALLARD ANNOUNCES ACQUISITION OF UK-BASED GEOPURA, POWERING FUTURE GROWTH AND TRANSFORMING BALLARD INTO AN INTEGRATED HYDROGEN ECOSYSTEM PROVIDER",
-      "url": "https://hydrogen-central.com/ballard-announces-acquisition-of-uk-based-geopura-powering-future-growth-and-transforming-ballard-into-an-integrated-hydrogen-ecosystem-provider/",
-      "summary": "BALLARD ANNOUNCES ACQUISITION OF UK-BASED GEOPURA, POWERING FUTURE GROWTH AND TRANSFORMING BALLARD INTO AN INTEGRATED HYDROGEN ECOSYSTEM PROVIDER VANCOUVER, CANADA – Ballard Power Systems Inc. (NASDAQ: BLDP; TSX: BLDP, “Ballard”, [&#8230;]\nThe post BALLARD ANNOUNCES ACQUISITION OF UK-BASED GEOPURA, …",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-06-24T17:11:31+00:00",
-      "pub_ts": 1782321091
-    },
-    {
-      "id": "ae217b0353",
-      "title": "Evonik optimizes methanol supply for its methionine production network in Europe",
-      "url": "https://hydrogen-central.com/evonik-optimizes-methanol-supply-for-its-methionine-production-network-in-europe/",
-      "summary": "Evonik optimizes methanol supply for its methionine production network in Europe Essen, Germany. As part of strengthening its long-term raw material strategy, Evonik has developed a new solution to secure [&#8230;]\nThe post Evonik optimizes methanol supply for its methionine production network in Eu…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-06-24T17:04:21+00:00",
-      "pub_ts": 1782320661
-    },
-    {
-      "id": "6fc7f00248",
-      "title": "Hycamite is strengthening its leadership team as it expands its operations",
-      "url": "https://hydrogen-central.com/hycamite-is-strengthening-its-leadership-team-as-it-expands-its-operations/",
-      "summary": "Hycamite is strengthening its leadership team as it expands its operations Hycamite, a producer of low-carbon hydrogen and high-quality carbon materials, is strengthening its leadership team as it expands its [&#8230;]\nThe post Hycamite is strengthening its leadership team as it expands its operatio…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-06-24T17:04:10+00:00",
-      "pub_ts": 1782320650
+      "pub_date": "2026-06-29T15:15:29+00:00",
+      "pub_ts": 1782746129
     }
   ],
-  "source_success_count": 2,
+  "source_success_count": 1,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }
