@@ -3,108 +3,138 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-06-30T04:09:49.530280+00:00",
+  "updated_at": "2026-07-01T04:26:00.839153+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "64c9915df4",
-      "title": "突发！于英涛辞职，紫光股份、新华三换帅",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813824&idx=1&sn=a207a7c8f639ba79bc7fa98caf53e4f0",
-      "summary": "突发！于英涛辞职，紫光股份、新华三换帅",
+      "id": "98b719471b",
+      "title": "冲击美股！SK海力士正式提交IPO申请",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813884&idx=1&sn=a255ad119061b58ea521172ac8f67333",
+      "summary": "冲击美股！SK海力士正式提交IPO申请",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-30T04:09:45.406432+00:00",
-      "pub_ts": 1782792585
+      "pub_date": "2026-07-01T04:25:56.633081+00:00",
+      "pub_ts": 1782879956
     },
     {
-      "id": "69917df123",
-      "title": "2000万亿韩元！韩国存储双雄发布十年投资计划",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813815&idx=1&sn=7af753d535c982a296b768cab0b33279",
-      "summary": "2000万亿韩元！韩国存储双雄发布十年投资计划",
+      "id": "9068d5e806",
+      "title": "国产AI芯片，进击3D堆叠",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813875&idx=1&sn=0156f0d092dc62939942214d93f95d7a",
+      "summary": "国产AI芯片，进击3D堆叠",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-30T04:09:45.406478+00:00",
-      "pub_ts": 1782792585
+      "pub_date": "2026-07-01T04:25:56.633125+00:00",
+      "pub_ts": 1782879956
     },
     {
-      "id": "ce20e40a83",
-      "title": "撬动内存墙的铁锹有哪些?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813815&idx=2&sn=fbd88c8f6b4b5f093695ffb787550a89",
-      "summary": "撬动内存墙的铁锹有哪些?",
+      "id": "2148c44cc3",
+      "title": "到2026年，300mm存储设备投资将超过500亿美元",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813875&idx=2&sn=75993f59aff2bc3b725d3a826b92c7a8",
+      "summary": "到2026年，300mm存储设备投资将超过500亿美元",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-30T04:09:45.406504+00:00",
-      "pub_ts": 1782792585
+      "pub_date": "2026-07-01T04:25:56.633152+00:00",
+      "pub_ts": 1782879956
     },
     {
-      "id": "c4e45bc881",
-      "title": "全球加速卡位，Micro LEDCPO解锁高速AI互连",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813815&idx=3&sn=9d10f8a3e3b944604149bb015ef1b64a",
-      "summary": "全球加速卡位，Micro LEDCPO解锁高速AI互连",
+      "id": "1204800828",
+      "title": "中国相机崛起，拆解影石、大疆360度全景相机",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813875&idx=3&sn=30276804e7bbe1a4e439e25ecf8a62ac",
+      "summary": "中国相机崛起，拆解影石、大疆360度全景相机",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-30T04:09:45.406527+00:00",
-      "pub_ts": 1782792585
+      "pub_date": "2026-07-01T04:25:56.633176+00:00",
+      "pub_ts": 1782879956
     },
     {
-      "id": "cce64fea15",
-      "title": "再战港股！华大北斗有望成为北斗芯片第一股",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813815&idx=4&sn=c6fc47946e7a236b84c97d451033ee82",
-      "summary": "再战港股！华大北斗有望成为北斗芯片第一股",
+      "id": "e440c23365",
+      "title": "一万亿美元投资，正在涌入半导体产业",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813875&idx=4&sn=c90c24d1ffa09e89642130cc8c7b7f80",
+      "summary": "一万亿美元投资，正在涌入半导体产业",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-06-30T04:09:45.406548+00:00",
-      "pub_ts": 1782792585
+      "pub_date": "2026-07-01T04:25:56.633198+00:00",
+      "pub_ts": 1782879956
     },
     {
-      "id": "79e2fe694a",
-      "title": "三星和SK海力士官宣：巨资投向芯片！",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824227&idx=1&sn=7512197a9e63709cad968ede87de686c",
-      "summary": "三星和SK海力士官宣：巨资投向芯片！",
+      "id": "f985cc3611",
+      "title": "李飞飞和辛顿联手，投了一家芯片公司",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824457&idx=1&sn=463bd53016300c06fcc3bab1595a86fc",
+      "summary": "李飞飞和辛顿联手，投了一家芯片公司",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-30T04:09:33.590177+00:00",
-      "pub_ts": 1782792573
+      "pub_date": "2026-07-01T04:25:48.639709+00:00",
+      "pub_ts": 1782879948
     },
     {
-      "id": "11e24c186a",
-      "title": "这类芯片，英伟达悄然称霸！",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824219&idx=1&sn=c2fbb650b42caa2219271f7528addb05",
-      "summary": "这类芯片，英伟达悄然称霸！",
+      "id": "59d194445b",
+      "title": "刚刚，寒武纪市值，破万亿",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824365&idx=1&sn=cde16bb997700954b23d74870c6b065d",
+      "summary": "刚刚，寒武纪市值，破万亿",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-30T04:09:33.590225+00:00",
-      "pub_ts": 1782792573
+      "pub_date": "2026-07-01T04:25:48.639758+00:00",
+      "pub_ts": 1782879948
     },
     {
-      "id": "5292eb1f26",
-      "title": "存储芯片大涨，中小厂面临生存危机",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824219&idx=2&sn=7306ba2b27fda1fc18e910c9d0678013",
-      "summary": "存储芯片大涨，中小厂面临生存危机",
+      "id": "fa2a4e12ec",
+      "title": "EUV光刻机，迎来挑战者！",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824336&idx=1&sn=9b70fc303f5a3126af174e430ea42104",
+      "summary": "EUV光刻机，迎来挑战者！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-30T04:09:33.590251+00:00",
-      "pub_ts": 1782792573
+      "pub_date": "2026-07-01T04:25:48.639784+00:00",
+      "pub_ts": 1782879948
     },
     {
-      "id": "f89bec8ebc",
-      "title": "苹果被迫放弃2nm?",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824219&idx=3&sn=e74ad92f2b4e26616a9c19cdb165a695",
-      "summary": "苹果被迫放弃2nm?",
+      "id": "8630305055",
+      "title": "重估芯片验证",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824336&idx=2&sn=5432cf91616f60fd29ca2ae2e1c4654a",
+      "summary": "重估芯片验证",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-30T04:09:33.590275+00:00",
-      "pub_ts": 1782792573
+      "pub_date": "2026-07-01T04:25:48.639835+00:00",
+      "pub_ts": 1782879948
     },
     {
-      "id": "a59fa44469",
-      "title": "JimKeller：Tenstorrent将全面击败对手",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824219&idx=4&sn=a5107300865e1aebeaf190675580a119",
-      "summary": "JimKeller：Tenstorrent将全面击败对手",
+      "id": "448311951c",
+      "title": "芯片关键材料，缺货预警",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824336&idx=3&sn=3086651ab1fc9f65476644d912b8a059",
+      "summary": "芯片关键材料，缺货预警",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-06-30T04:09:33.590297+00:00",
-      "pub_ts": 1782792573
+      "pub_date": "2026-07-01T04:25:48.639860+00:00",
+      "pub_ts": 1782879948
+    },
+    {
+      "id": "419639d46a",
+      "title": "A Self-Evolving Agent Framework That Treats Hardware Design as Repository-Level Code Evolution (Nvidia Research)",
+      "url": "https://semiengineering.com/a-self-evolving-agent-framework-that-treats-hardware-design-as-repository-level-code-evolution-nvidia-research/",
+      "summary": "A new technical paper, Agentic Hardware Design as Repository-Level Code Evolution, was published by researchers at Nvidia Research. Abstract &#8220;We present HORIZON, a self-evolving agent framework that treats hardware design as repository-level code evolution. A Markdown harness is compiled into …",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-06-30T22:23:40+00:00",
+      "pub_ts": 1782858220
+    },
+    {
+      "id": "315688d1c5",
+      "title": "Chip Industry Technical Paper Roundup: June 30",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-june-30/",
+      "summary": "Processing-using-DRAM interference; atomic-scale plasma processing; gallium oxide phase instability; event-driven reinforcement learning for fab control; microarchitectural timing leaks in embedded processors; LLM-assisted RTL generation; TPU training supercomputers.\nThe post Chip Industry Technical…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-06-30T07:01:42+00:00",
+      "pub_ts": 1782802902
+    },
+    {
+      "id": "20d4d6e222",
+      "title": "Research Bits: June 30",
+      "url": "https://semiengineering.com/research-bits-june-30/",
+      "summary": "Monolithic 3D integration; near-field heat transfer.\nThe post Research Bits: June 30 appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-06-30T07:01:05+00:00",
+      "pub_ts": 1782802865
     },
     {
       "id": "9d4ec4bb33",
@@ -125,36 +155,6 @@
       "lang": "en",
       "pub_date": "2026-06-29T18:35:42+00:00",
       "pub_ts": 1782758142
-    },
-    {
-      "id": "574a4b5f76",
-      "title": "Open-Source RISC-V Platform Trains Chip Designers From RTL To Silicon (ETH Z., lowRISC, U of Bologna)",
-      "url": "https://semiengineering.com/open-source-risc-v-platform-trains-chip-designers-from-rtl-to-silicon-eth-z-lowrisc-u-of-bologna/",
-      "summary": "Researchers from ETH Zurich, lowRISC, and University of Bologna published a technical paper titled “Croc: Training the Next Generation Chip Designers on Domain-Specific End-to-End Open Source Silicon.” This paper describes Croc, an open-source, customizable RISC-V SoC platform and teaching flow that…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-06-29T18:25:41+00:00",
-      "pub_ts": 1782757541
-    },
-    {
-      "id": "9f0c985017",
-      "title": "Rethinking Chip Verification",
-      "url": "https://semiengineering.com/rethinking-chip-verification/",
-      "summary": "Specification engineering is gaining traction as a potential solution to the verification bottleneck.\nThe post Rethinking Chip Verification appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-06-29T07:01:01+00:00",
-      "pub_ts": 1782716461
-    },
-    {
-      "id": "8472c3549b",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-144/",
-      "summary": "Onsemi to buy Synaptics; IBM's 7Å chip w/40% more SRAM area; 1nm MoS2 nanotubes; AI pressure points; memory updates; $250M CHIPS Act award; trade secret theft; new advanced packaging site; MEMS capacity; humanoids; earnings. \nThe post Chip Industry Week In Review appeared first on Semiconductor Engi…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-06-26T07:01:35+00:00",
-      "pub_ts": 1782457295
     }
   ],
   "source_success_count": 3,

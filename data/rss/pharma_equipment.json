@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-06-30T04:10:28.003005+00:00",
+  "updated_at": "2026-07-01T04:26:39.141482+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "a360cb27d4",
-      "title": "Biogen trims Apellis pipeline and R&D team after $5.6bn takeover",
-      "url": "https://www.pharmaceutical-technology.com/news/biogen-cuts-apellis-rd-workforce-after-acquisition/",
-      "summary": "Biogen plans to pause or terminate investment in most of Apellis’ legacy research programmes, while cutting some of its workforce.",
+      "id": "eafd7f24fc",
+      "title": "EAN 2026: New Fintepla data in Dravet Syndrome and LGS",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ean-2026-new-fintepla-data-in-dravet-syndrome-and-lgs/",
+      "summary": "The trial of Fintepla in Dravet Syndrome and LGS was run by researchers at the Brno Epilepsy Centre in Czechia.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-29T10:42:49+00:00",
-      "pub_ts": 1782729769
+      "pub_date": "2026-06-30T15:59:55+00:00",
+      "pub_ts": 1782835195
     },
     {
-      "id": "f594019163",
-      "title": "FDA issues complete response letter to Sobi’s NASP for gout",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-complete-response-letter-sobi-nasp/",
-      "summary": "Sobi has received a CRL from the US FDA regarding its BLA for NASP, an investigational therapy intended for adults with uncontrolled gout.",
+      "id": "11f19f3b1a",
+      "title": "Lilly and Regeneron amongst first incumbents to FDA’s fast-track facility scheme",
+      "url": "https://www.pharmaceutical-technology.com/news/lilly-and-regeneron-amongst-first-incumbents-to-fdas-fast-track-facility-scheme/",
+      "summary": "Seven pharma companies have been selected for the FDA PreCheck pilot – a framework intended to bolster the US drug supply chain.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-29T09:07:51+00:00",
-      "pub_ts": 1782724071
+      "pub_date": "2026-06-30T14:31:45+00:00",
+      "pub_ts": 1782829905
     },
     {
-      "id": "52f36c8788",
-      "title": "Lilly’s Jaypirca receives CHMP positive opinion for CLL in Europe",
-      "url": "https://www.pharmaceutical-technology.com/news/lillys-jaypirca-chmp-positive-opinion/",
-      "summary": "Lilly has received the CHMP of the EMA positive opinion for Jaypirca (pirtobrutinib) to treat chronic lymphocytic leukaemia (CLL) in adults.",
+      "id": "8225759c4e",
+      "title": "Talawar Therapeutics to debut on Nasdaq with $285m as Dupixent challenger",
+      "url": "https://www.pharmaceutical-technology.com/news/talawar-therapeutics-spac-public-debut-285m-ad-therapy/",
+      "summary": "Talawar Therapeutics will use the funds to take its AD (eczema) bispecific, TALA-125, through to Phase IIb proof-of-concept trials.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-29T07:05:31+00:00",
-      "pub_ts": 1782716731
+      "pub_date": "2026-06-30T09:53:16+00:00",
+      "pub_ts": 1782813196
     },
     {
-      "id": "81f2208edc",
-      "title": "Immunai and Boehringer partner to identify T-cell targets",
-      "url": "https://www.pharmaceutical-technology.com/news/immunai-boehringer-t-cell-targets/",
-      "summary": "Immunai and Boehringer Ingelheim have entered into a multi-project collaboration to identify new T-cell targets in oncology and autoimmune diseases.",
+      "id": "43da829c33",
+      "title": "Anixa Biosciences secures Korean patent for breast cancer vaccine",
+      "url": "https://www.pharmaceutical-technology.com/news/anixa-korean-patent-breast-cancer-vaccine/",
+      "summary": "Anixa Biosciences has secured patent from the Korean Ministry of Intellectual Property (MOIP) for its breast cancer vaccine technology.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-26T10:23:56+00:00",
-      "pub_ts": 1782469436
+      "pub_date": "2026-06-30T09:31:35+00:00",
+      "pub_ts": 1782811895
     },
     {
-      "id": "8e73213614",
-      "title": "Tryngolza charts blockbuster course after FDA’s hypertriglyceridemia approval",
-      "url": "https://www.pharmaceutical-technology.com/news/tryngolza-charts-blockbuster-course-after-fdas-hypertriglyceridemia-approval/",
-      "summary": "Ionis has forecast peak sales of $2bn for Tryngolza as it seeks to harness first-mover advantage.",
+      "id": "84ab3f075f",
+      "title": "Three years on: How is the industry coping with Annex 1?",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/three-years-on-how-is-the-industry-coping-with-annex-1/",
+      "summary": "Industry expert Ian Hudson shares his insights into the deeper nuances and practical impact of the revised EU GMP Annex 1.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-26T10:20:49+00:00",
-      "pub_ts": 1782469249
+      "pub_date": "2026-06-30T09:31:11+00:00",
+      "pub_ts": 1782811871
     }
   ],
   "source_success_count": 1,
