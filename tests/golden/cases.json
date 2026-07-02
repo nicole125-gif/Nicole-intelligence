@@ -1,0 +1,25 @@
+{
+  "_doc": "黄金评估集：真实信号 → 人工锁定的期望输出。调 esg_conditions.yml / entities.yml / valuation / winnability 后跑 tests.test_golden 回归，防止悄悄退化。每条只断言 expect 里出现的字段。期望 = 引擎当前的正确行为（2026-06-30 锁定），改动若偏离需主动核对是改进还是回归。",
+  "cases": [
+    {"name": "卫生级-乳业灌装", "text": "某乳业年产20万吨无菌灌装乳品生产线新建项目，投资5亿元", "source_type": "capex",
+     "expect": {"condition_id": "hygienic", "industry_tag": "食品饮料", "value_band": "大", "win_max": 0.7}},
+    {"name": "锂电-动力电池注液", "text": "【江苏】年产6GWh动力电池电芯注液化成扩建项目环评受理", "source_type": "project_filing",
+     "expect": {"condition_id": "lithium_injection", "industry_tag": "电池制造"}},
+    {"name": "橡塑-轮胎硫化技改(棕地)", "text": "全钢子午线轮胎硫化车间技改项目，投资3.2亿元", "source_type": "capex",
+     "expect": {"condition_id": "rubber_curing", "win_min": 0.5, "win_max": 0.7}},
+    {"name": "制药-无菌原料药招标", "text": "某药业无菌原料药生产基地卫生级隔膜阀采购招标公告", "source_type": "tender",
+     "expect": {"condition_id": "pharma_ref", "industry_tag": "医药制造业"}},
+    {"name": "甜点区-合成生物发酵(国产友好)", "text": "合成生物学发酵罐及生物反应器中试车间新建", "source_type": "capex",
+     "expect": {"condition_id": "biosynthesis", "industry_tag": "生物制品", "win_min": 0.9}},
+    {"name": "重过程-乙二醇化工", "text": "年产30万吨乙二醇化工项目开工建设", "source_type": "capex",
+     "expect": {"condition_id": "heavy_process", "industry_tag": "化工"}},
+    {"name": "护城河-无菌注射剂改造(Gemü主场+棕地)", "text": "无菌注射剂制剂车间GMP改造", "source_type": "capex",
+     "expect": {"condition_id": "pharma_ref", "win_max": 0.4}},
+    {"name": "NO_MATCH-例行公告", "text": "关于召开2025年第三次临时股东大会的通知", "source_type": "capex",
+     "expect": {"match_zero": true}},
+    {"name": "估值-璞泰来产能无金额→大", "text": "璞泰来年产72亿平方米锂电隔膜生产线新建", "source_type": "capex",
+     "expect": {"condition_id": "lithium_injection", "value_band": "大"}},
+    {"name": "估值-吨位不误读为元", "text": "年产50万吨聚丙烯装置新建项目", "source_type": "capex",
+     "expect": {"condition_id": "heavy_process", "value_band": "大"}}
+  ]
+}

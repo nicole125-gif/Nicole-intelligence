@@ -5,6 +5,7 @@
 
 from __future__ import annotations
 
+import re
 from pathlib import Path
 
 import yaml
@@ -17,9 +18,25 @@ STRONG_WEIGHT = 1.5
 MID_WEIGHT = 0.8
 MAX_SCORE = 10.0
 
+# 句子切分：中英文句末标点 + 换行（用于抽"命中证据句"）
+_SENT_SPLIT = re.compile(r"[。！？；!?;\n]+")
+
 
 def load_conditions(path: Path = DEFAULT_CONFIG) -> dict:
     return yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+
+
+def _evidence_sentence(text: str, hits: list[str]) -> str:
+    """从原文里挑出第一句含命中关键词的句子，作为可溯源证据（接地）。
+
+    全文抽取（GNE）/未来 LLM 评分接入后，这就是"为什么判成这个工况"的人可读凭据。
+    取不到（如标题本身就是全部文本、无标点）则回退整段截断。
+    """
+    for sent in _SENT_SPLIT.split(text):
+        s = sent.strip()
+        if s and any(h in s for h in hits):
+            return s[:160]
+    return text.strip()[:160]
 
 
 def classify_condition(text: str, source_type: str, cfg: dict) -> dict:
@@ -52,6 +69,7 @@ def classify_condition(text: str, source_type: str, cfg: dict) -> dict:
             "working_condition": [],
             "condition_ids": [],
             "matched_keywords": [],
+            "matched_sentence": "",
             "match_score": 0.0,
             "industry_tag": None,
             "valve_type": {"primary": [], "basis": "未命中任何 ESG 工况"},
@@ -68,6 +86,7 @@ def classify_condition(text: str, source_type: str, cfg: dict) -> dict:
         "working_condition": [c["label"] for _, c, _ in scored],
         "condition_ids": [c["id"] for _, c, _ in scored],  # 契约 working_condition_ids（与 labels 平行）
         "matched_keywords": top_hits[:6],  # L1：命中的工况关键词（证据/可溯源）
+        "matched_sentence": _evidence_sentence(text, top_hits),  # L1：命中证据句（接地，可溯源）
         "match_score": match_score,
         "industry_tag": (primary.get("industries") or [None])[0],
         "valve_type": {

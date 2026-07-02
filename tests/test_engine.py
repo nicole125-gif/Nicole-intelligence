@@ -53,6 +53,15 @@ class ConditionTests(unittest.TestCase):
         cond = conditions.classify_condition("关于召开临时股东大会的通知", "capex", self.cfg)
         self.assertEqual(cond["match_score"], 0.0)
         self.assertIsNone(cond["primary_id"])
+        self.assertEqual(cond["matched_sentence"], "")
+
+    def test_matched_sentence_is_grounding_evidence(self):
+        # L1 接地：抽出含命中词的那句原文，供"为什么判这个工况"溯源
+        text = "公司发布年度报告。某乳业无菌灌装生产线新建项目开工。其它无关内容。"
+        cond = conditions.classify_condition(text, "capex", self.cfg)
+        self.assertEqual(cond["primary_id"], "hygienic")
+        self.assertIn("无菌灌装", cond["matched_sentence"])
+        self.assertNotIn("年度报告", cond["matched_sentence"])  # 只取命中句，不混入无关句
 
     def test_tender_source_boost_applied(self):
         # 招标源 +2.0，应高于同文本的 cninfo
