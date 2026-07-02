@@ -104,3 +104,32 @@ entities:
       product_count: 25
       top_industries: [通用工业, 食品饮料, 制药]
       high_threat_products: []
+
+  # —— 终端业主（type=company，稳定身份，无 profile）——
+  # O1/ER：由 scripts/unresolved_owners.py 从真实 cninfo 事件的高频未解析业主提升而来。
+  # 给正规 id + aliases（含各写法）→ resolved=True，同公司跨 run/跨写法收敛成一个 Object，
+  # 不再让 L2 印证簇碎片化、L5 处置回流对不上。无 profile（非 OEM/竞品，仅需稳定身份）。
+  - id: yuneng
+    name: 湖南裕能
+    type: company
+    aliases: [湖南裕能, 裕能, 湖南裕能新能源]     # LFP 正极材料
+  - id: putailai
+    name: 璞泰来
+    type: company
+    aliases: [璞泰来, 上海璞泰来, 上海璞泰来新能源]  # 负极/隔膜
+  - id: sailun
+    name: 赛轮轮胎
+    type: company
+    aliases: [赛轮轮胎, 赛轮集团]                 # 轮胎出海代表
+  - id: xingfa
+    name: 兴发集团
+    type: company
+    aliases: [兴发集团, 湖北兴发]                 # 磷化工
+  - id: donghua_eng
+    name: 东华科技
+    type: company
+    aliases: [东华科技, 东华工程]                 # 化工 EPC（中国化学子公司）
+  - id: heyuan_gas
+    name: 和远气体
+    type: company
+    aliases: [和远气体, 湖北和远]                 # 工业气体
