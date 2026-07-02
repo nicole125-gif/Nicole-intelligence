@@ -300,6 +300,15 @@ class IndustryHeatTests(unittest.TestCase):
         self.assertEqual(out["化工"]["l2_signal"], 13)          # 大10 + 小3（均新）
         self.assertEqual(out["电池制造"]["l2_signal"], 2)        # 中6 × 0.3 衰减
 
+    def test_undated_event_gets_neutral_recency_not_max(self):
+        from engine import industry_heat
+        pack = {"date": "2026-06-30", "events": [
+            {"id": "u", "industry_tag": "化工", "owner": {"id": "o1"},
+             "value_band": {"band": "大"}, "lead_time": {"level": "L1"},
+             "source": {}}]}  # 无 published_at
+        out = industry_heat.build_industry_heat(pack, dt.date(2026, 6, 30))
+        self.assertEqual(out["化工"]["l2_signal"], 6)  # 大10 × 0.6中性，不是满新鲜10
+
     def test_signal_capped_at_100(self):
         from engine import industry_heat
         evs = [{"id": str(i), "industry_tag": "化工", "owner": {"id": f"o{i}"},

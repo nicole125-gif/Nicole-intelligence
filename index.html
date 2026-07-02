@@ -948,7 +948,9 @@ Object.keys(T).forEach(id=>{ const W=wOf(id);
   T[id].W=W; T[id].why=whyOf(id); T[id].esgGap=Math.round((W-T[id].heat)*10)/10; });
 Object.keys(BM).forEach(b=>{ const ws=BM[b].tracks.map(wOf);
   const hs=BM[b].tracks.map(id=>T[id]&&T[id].heat).filter(v=>v!=null);
-  if(hs.length) BM[b].heat=Math.round(hs.reduce((a,c)=>a+c,0)/hs.length*10)/10;  // 板块 heat 自动派生=赛道 heat 均值（与 W 对称），加赛道即反映
+  // 板块 heat 自动派生=赛道 heat 均值（与 W 对称，加赛道即反映）。**BM 里的 heat: 字面量是死值**——
+  // 有 tracks 时（当前全部 board 都有）必被此行覆盖；字面量仅作"board 无 track"的兜底，改它无效，别信源码里的值。
+  if(hs.length) BM[b].heat=Math.round(hs.reduce((a,c)=>a+c,0)/hs.length*10)/10;
   const W=Math.round(ws.reduce((a,c)=>a+c,0)/ws.length); BM[b].W=W; BM[b].esgGap=Math.round((W-BM[b].heat)*10)/10; });
 
 /* ── HELPERS ── */

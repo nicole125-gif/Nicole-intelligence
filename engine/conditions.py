@@ -55,19 +55,23 @@ def classify_condition(text: str, source_type: str, cfg: dict) -> dict:
         kw = cond.get("keywords", {})
         hits = []
         score = 0.0
+        has_discriminative = False  # 至少一个 strong/mid 命中才立案——weak 泛词只加分不单独定工况
         for k in kw.get("strong", []):
             if k in text:
                 score += STRONG_WEIGHT
                 hits.append(k)
+                has_discriminative = True
         for k in kw.get("mid", []):
             if k in text:
                 score += MID_WEIGHT
                 hits.append(k)
+                has_discriminative = True
         for k in kw.get("weak", []):
             if k in text:
                 score += WEAK_WEIGHT
                 hits.append(k)
-        if score > 0:
+        # weak-only（无判别词）不立案：否则"风电机组扩建"仅凭泛词被误判成某工况（注释承诺不破平局）
+        if score > 0 and has_discriminative:
             scored.append((score, cond, hits))
 
     if not scored:

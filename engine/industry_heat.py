@@ -54,7 +54,9 @@ def build_industry_heat(pack: dict, pack_date: dt.date) -> dict:
         g["band_dist"][band] = g["band_dist"].get(band, 0) + 1
         lv = (e.get("lead_time") or {}).get("level", "L1")
         g["lead_dist"][lv] = g["lead_dist"].get(lv, 0) + 1
-        ev_date = (e.get("source") or {}).get("published_at") or pack.get("date")
+        # 无 published_at 的事件不回退到 pack date（那会当满新鲜、虚高信号）；
+        # 传 None → recency_mult 给中性 0.6，符合"无日期证据 = 不确定新鲜度"。
+        ev_date = (e.get("source") or {}).get("published_at")
         g["_raw"] += BAND_PTS.get(band, 2) * recency_mult(ev_date, pack_date)
         dd = (ev_date or "")[:10]
         if dd and (g["freshest"] is None or dd > g["freshest"]):
