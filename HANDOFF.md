@@ -6,9 +6,11 @@
 > - **ROADMAP.md** — 下一步路线（P0/P1/P2）、框架 5 洞状态、阻塞依赖。
 >
 > 另：方法论北极星 `docs/INTELLIGENCE_OS.md`；实现计划 `~/.claude/plans/https-www-esgvalve-cn-gleaming-stroustrup.md`；项目记忆 `~/.claude/projects/.../memory/esg-event-engine.md` + `esg-spec-position.md`。
-> 最后更新 2026-06-29 ｜ 引擎全部在 `main`：里程碑1 + winnability + **O1/O2-A/O3/O4** 本体化 + **本体图谱** + **P1#4 装备商订单簿源**（PR #23）｜ **✅ 处置闭环已上线**（Vercel + Upstash，PR #13/#15，公开别名见 §7）｜ 产品形态=**漏斗**，**B1/B2 已落地**（PR #18）｜ **首页热力图 ESG 化**（PR #20/#22：重锚评分 + W + 单一 SCORE_MODEL）｜ **🆕 RSS/微信公众号新闻源接入**（PR #30，见 §11）｜ Brave key 已 park（见 §7）。WIP/自动化仍在 `automation/monthly-update`。
+> 最后更新 2026-07-02 ｜ 引擎主体在 `main`：里程碑1 + winnability + **O1/O2-A/O3/O4** 本体化 + 本体图谱 + 订单簿源（PR #23）｜ 处置闭环已上线（Vercel+Upstash）｜ 漏斗 B1/B2（PR #18）｜ 热力图 ESG 化（PR #20/#22）。Brave key 已 park（§7）。WIP/自动化在 `automation/monthly-update`。
 >
-> **🔑 下次开机关键词**：`读 HANDOFF（§11 信息流扩量）+ memory，看用户有没有给微信中转 feed url`——**当前主线 = 信息流扩量（§11）**：RSS/微信源管道已通（PR #30），等用户订阅 wechat2rss 把 8 个 `TODO-WECHAT-RELAY` 占位换成真 feed → 引擎自动出微信事件。旁路可做：`制药网` 直抓源 `zyzhan.py`（§11，比微信稳）/ 去重+新鲜度配套。下面 P1.6 漏斗为既往主线：
+> **🟡 本会话产出 = 3 个待合 PR + 一个新框架（详见 §12）**：**5 层情报栈**（新心智模型）｜ L1 拆出 ESG赢面（纯市场温度）+ L1→L2 钻取（PR #31）｜ RSS/微信源（PR #30）｜ 黄金评估集 + 抽取接地（PR #32）。
+>
+> **🔑 下次开机关键词**：`读 HANDOFF §12 + ARCHITECTURE §0.5（5层模型），先合 PR #30/#31/#32`——先把三个 PR 合掉（互不冲突，#30/#32 引擎、#31 前端）。合完的候选下一步见 §12。P1.6 漏斗为既往主线（下）：
 >
 > **P1.6 漏斗串链**（热力图入口→下钻事件→带 方案/竞品/产品推荐，先 B 后 A）：
 > - **✅ B1/B2 已完成**（PR #18）：事件卡带 推荐产品 + 在位竞品（具名+威胁分/绿地"无外资在位"）；events.html 加行业过滤 + `?industry=` deep-link（B3 下钻入口已备）。
@@ -163,3 +165,29 @@ NODE_USE_ENV_PROXY=1 npx vercel@latest deploy --prod --yes   # 公开别名见 �
 - **⚠ 重要实情**：现有 28 个 RSS feed 是**宏观趋势号**（半导体并购/氢能创业），喂进引擎 **0 命中**——扩量真杠杆 = **选对号**（发项目的），不是管道。
 - **🔧 调研中挖到的更优旁路**：`制药网`（gc.zyzhan.com）有**结构化招标/项目页、是普通网页可直接爬**，比微信中转稳——可做 `engine/sources/zyzhan.py` 直抓（同 cninfo/tender 写法），跳过微信不确定性。同类：中项网/招标搜索。**未做，留作备选。**
 - **配套欠账**：量上来需配 **去重（event_id 跨天账本）+ 新鲜度排序因子**，否则信箱被新闻刷屏（`ranking` 现无 recency 因子，`build_pack` 无跨天去重）。
+
+## 12. 本会话产出（2026-06-30～07-02）：5 层情报栈 + 3 个待合 PR
+
+> **背景**：用户提出 5 层情报栈作为全系统标准心智模型（消费路径自上而下：管理层看整体热度 → 定细分 → 钻到项目+关联公司 → solution/产品）。本会话据此重构 L1、打通 L1→L2、并按 martinfowler《Building Reliable Agentic AI》补了评估/接地。
+
+### 🧭 5 层情报栈（心智模型，已固化进 `ARCHITECTURE §0.5`）
+- **L1 Market Heat**（Nicole）：市场热不热，**不判 ESG 能不能赢**。
+- **L2 Signal**（Nicole 核心，`engine/`）：谁/行业/动作/来源/工况/提前量 → 标准事件。
+- **L3 ESG Fit**（**Codex/CI Radar 本职**）：产品/工况匹配、国产替代、赢面。
+- **L4 Competitor**（Codex）：谁在位/话术/证据缺口。
+- **L5 Feedback**（处置闭环）：赢输回流校准 L1权重/L2关键词/L3规则。
+
+### 📦 三个待合 PR（互不冲突，#30/#32 引擎、#31 前端）
+- **PR #30 `feat/source-volume`**：RSS/微信新闻源（`engine/sources/rss.py`）+ `capex_signals` 预接 8 号 + 选号方案 `docs/wechat-rss-source-plan.md`（§11）。
+- **PR #31 `feat/five-layer-model`**：① `ARCHITECTURE §0.5` 固化 5 层；② **L1 拆出 W**——Heat=`Capex×.40+需求×.27+政策×.20+价格×.13`（纯市场），W 降为 L3 单列不进 Heat；③ `t.delta` 回归**环比升温**、新增 `t.esgGap=W−Heat`（详情/着色用）；④ **L1→L2 钻取**：热力图赛道详情「钻取 X 项目 →」`events.html?industry=X`（`TRACK_DRILL` 映射，只对有工况的赛道）；⑤ **ESG赢面标"临时·待CI"**（见下）。
+- **PR #32 `feat/engine-eval-grounding`**：① **黄金评估集** `tests/golden/cases.json` + `tests/test_golden.py`（10 用例回归门禁，调 config/估值/赢面偏离即 FAIL）；② **抽取接地** `conditions.matched_sentence` + `build_event` 透出（"为什么判这个工况"，也是未来 LLM 接地基础）。
+
+### 🔑 关键决策：ESG 赢面 = CI 本职，Nicole 只留临时桩
+用户点出"ESG赢面不该需要 CI 吗"——确认：winnability 三因子里 **绿地=L2真属Nicole；竞品密度(L4)/spec位(L3)/热力图手种W = 借 CI Radar 域**，越了"不写装机/竞品"边界。**决策 = 先留桩、显式标"临时·借CI·待L3替换"**（`winnability.py` 注释 + 详情 W 卡 + events 赢面* + `ARCHITECTURE §0.5` 均已标，在 PR #31/#32）。CI Radar L3 上线后由其经契约供给，winnability 退回只算绿地。
+
+### ⏸ 已 park / follow-up（合完 PR 后回头）
+- **GNE 全文富化**（`git stash`：`GNE-enrich-parked`）：`engine/extract.py` + rss.py enrich 参数，L1→L2 毕业桥（新闻全文抽金额/买家）。已装 `gne`，测试注入式可离线。**未提交**。
+- **events.html 显示 matched_sentence**：一行小改，等 PR #31/#32 合了再加（避免撞 events.html）。
+- **martinfowler 剩余建议**（未做）：#3 运行质量日志（`_runlog.jsonl`）｜#4 LLM 前置门槛写 ROADMAP（接 DeepSeek/RAG 前先建 RAGAS 评估 + 供应商兜底）｜#5「引擎保持确定性」立原则｜#6 给 Codex 交接（这篇=CI Radar 蓝图）。
+- **微信中转**（阻塞·用户做）：订阅 wechat2rss → 把 `rss_sources.json` 的 8 个 `TODO-WECHAT-RELAY` 换成真 feed url（§11）。
+- **`zyzhan.py` 直抓源**：比微信稳的结构化招标源，备选（§11）。
