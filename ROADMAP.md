@@ -1,7 +1,9 @@
 # ROADMAP — Nicole Intelligence
 
 > 下一步路线。配套：`HANDOFF.md`（入口/状态/决策）、`ARCHITECTURE.md`（结构）。
-> 最后更新 2026-06-23。**动手前先确认——用户当前处于"设计 > 执行"模式。**
+> 最后更新 2026-06-29。**动手前先确认——用户当前处于"设计 > 执行"模式。**
+> **标准心智模型 = 5 层情报栈**（`ARCHITECTURE §0.5`）：L1 Market Heat / L2 Signal（Nicole 核心）/ L3 ESG Fit（Codex 做精）/ L4 Competitor（Codex）/ L5 Feedback（闭环）。
+> **✅ L1 已按 5 层模型拆 W**（2026-06-29，PR 待记）：Heat = 纯市场温度（Capex×40+需求×27+政策×20+价格×13），ESG赢面 W 降为 L3 单列粗代理、不计入 Heat。
 > **当前主线 = P1.6 漏斗串链**（见下）。处置闭环已上线（Vercel + Upstash，PR #13/#15）。B0 数据 CI 交给 Codex。
 
 ## 北极星 & 交付顺序

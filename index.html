@@ -425,7 +425,7 @@ footer{border-top:1px solid var(--l1);padding:var(--space-sm) var(--page-px);dis
 .heat-formula-tip{position:relative;display:flex;align-items:center;gap:.3rem;cursor:help;flex-shrink:0}
 .formula-badge{font-family:'DM Mono',monospace;font-size:.54rem;letter-spacing:.1em;color:var(--t2);border:1px solid var(--l2);border-radius:3px;padding:.1rem .4rem}
 .formula-hint{width:16px;height:16px;border-radius:50%;background:var(--bg3);border:1px solid var(--l3);display:flex;align-items:center;justify-content:center;font-size:.52rem;color:var(--t2);font-family:'DM Mono',monospace}
-.heat-formula-tip::after{content:'C = 资本开支/产能 Capex (×30%)\\A W = ESG赢面/国产替代 (×25%)\\A D = 需求景气度 Demand (×20%)\\A Pol = 政策支持 Policy (×15%)\\A P = 价格信号 Price (×10%)';
+.heat-formula-tip::after{content:'市场HEAT = 纯市场温度，不含 ESG 能不能赢\\A C = 资本开支/产能 Capex (×40%)\\A D = 需求景气度 Demand (×27%)\\A Pol = 政策支持 Policy (×20%)\\A P = 价格信号 Price (×13%)\\A W = ESG赢面/国产替代 → L3 单列，不计入 Heat';
   position:absolute;top:calc(100% + 6px);left:0;white-space:pre;
   background:var(--bg4);border:1px solid var(--l2);border-radius:7px;padding:.55rem .75rem;
   font-family:'DM Mono',monospace;font-size:.52rem;color:var(--t2);line-height:1.9;
@@ -514,6 +514,7 @@ body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([oncli
 .detail-actions{display:grid;gap:8px;margin-top:auto}
 .detail-actions a,.detail-actions button{height:36px;border-radius:5px;border:1px solid rgba(140,190,255,.16);display:flex;align-items:center;justify-content:center;text-decoration:none;font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;cursor:pointer}
 .detail-actions a{background:var(--detail-c);color:#020810;border-color:transparent;font-weight:700}
+.detail-actions a.drill{background:#39ff88;color:#031a0e;box-shadow:0 6px 20px rgba(57,255,136,.28)}
 .detail-actions button{background:rgba(255,255,255,.035);color:rgba(226,236,250,.78)}
 .usecase-board{border-top:1px solid rgba(133,171,161,.16);background:rgba(5,10,12,.96);padding:18px;display:grid;gap:14px}
 .usecase-intro{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;padding-bottom:4px}
@@ -602,7 +603,7 @@ body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([oncli
     <div class="hero-eyebrow">MARKET INTELLIGENCE · LIVE</div>
     <h1 data-i18n="hero.title">Nicole Intelligence<br><span class="dim">Market Heatmap</span></h1>
     <div class="hero-tagline" data-i18n="hero.tagline">面向先进制造、实验室医疗与能源基建机会筛选的行业热力图</div>
-    <div class="hero-meta" data-i18n="hero.meta">HEAT SCORE · Capex×30 + ESG赢面×25 + 需求×20 + 政策×15 + 价格×10<br>6 SECTORS · 20 TRACKS · 最近更新：<span id="last-updated">加载中...</span></div>
+    <div class="hero-meta" data-i18n="hero.meta">市场HEAT · Capex×40 + 需求×27 + 政策×20 + 价格×13（纯市场温度）｜ ESG赢面 W 单列(L3)<br>6 SECTORS · 20 TRACKS · 最近更新：<span id="last-updated">加载中...</span></div>
   </div>
   <div class="kpis" id="hkpis"></div>
 </div>
@@ -676,7 +677,7 @@ body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([oncli
             <p class="heatmap-copy">用块面积表达赛道权重，用颜色表达景气度与风险变化。它不是行情报价页，而是为流体控制、仪器设备和先进制造机会筛选设计的行业热力图。</p>
           </div>
           <div class="market-clock">
-            HEAT SCORE · C·W·D·Pol·P (ESG重锚)<br>
+            市场HEAT · C·D·Pol·P (纯市场温度) ｜ W=ESG赢面单列(L3)<br>
             LAST SYNC · <span id="hm-last-sync">LOADING</span><br>
             DISPLAY · <span id="hm-display-mode">SYMBOL</span>
           </div>
@@ -707,8 +708,8 @@ body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([oncli
     </article>
     <article class="feature-card">
       <span>Feature 02</span>
-      <h3>用 Capex/W/D/Pol/P 拆解 ESG 机会度</h3>
-      <p>Heat 已按 ESG 视角重锚（Capex 触发器领权 + W=ESG赢面/国产替代），每块保留 资本开支·ESG赢面·需求·政策·价格 五维度，避免只看市场热度误判——市场热≠ESG 能赢。</p>
+      <h3>市场温度(L1) 与 ESG赢面(L3) 分开看</h3>
+      <p>市场HEAT 只判市场热不热（Capex 领权 + 需求/政策/价格），**不掺 ESG 能不能赢**；ESG赢面 W 是 L3 机会适配的单列维度。市场热≠ESG 能赢——所以分两层，避免误判。<br><strong>⚠ W 是临时粗代理</strong>：竞品据点/spec位 本属 CI Radar（L3/L4），现为冷启动手种，待 CI Radar 接入后由其供给替换。</p>
     </article>
     <article class="feature-card">
       <span>Feature 03</span>
@@ -720,7 +721,7 @@ body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([oncli
   <section class="faq-band" aria-label="Heatmap FAQ">
     <div class="faq-item">
       <h3>块大小代表什么？</h3>
-      <p>默认代表 Heat Score，也可切换为 ESG赢面 W / Capex / Policy。面积越大，说明该赛道在当前维度下越值得优先关注（切到 W 时，块越大=ESG 越能赢）。</p>
+      <p>默认代表 市场HEAT（市场温度），也可切换为 ESG赢面 W / Capex / Policy。面积越大，说明该赛道在当前维度下越值得优先关注（切到 W 时，块越大=ESG 越能赢；市场热不代表 ESG 能赢，两者要对照看）。</p>
     </div>
     <div class="faq-item">
       <h3>颜色如何理解？</h3>
@@ -735,7 +736,7 @@ body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([oncli
 
 <div class="shdr">
   <span class="slabel" data-i18n="shdr.label">板块总览 · 6 Sectors</span>
-  <div class="heat-formula-tip" title="C=资本开支/产能 Capex · W=ESG赢面/国产替代空间 · D=需求景气度 Demand · Pol=政策支持 Policy · P=价格信号 Price">
+  <div class="heat-formula-tip" title="市场HEAT=纯市场温度 · C=Capex×40 · D=需求×27 · Pol=政策×20 · P=价格×13 ｜ W=ESG赢面(L3)不计入Heat">
     <span class="formula-badge">D · C · P · Pol</span>
     <span class="formula-hint">?</span>
   </div>
@@ -887,18 +888,19 @@ const SOURCES=[
   {n:'商务部公告 / 海关总署',d:'不可靠实体清单、进口报关量数据',tags:['L&M','EI']},
 ];
 
-/* ── 打分模型 · 单一来源（ESG 视角 Heat Score）─────────────────────────────
-   heat = Σ(factor × weight)。**改权重 / W 只改这里**；详情面板维度卡从此派生。
-   （公式标签另在 market-clock[L~675] / formula-tip[L~428] / FAQ 手写，改权重时一并同步。）
+/* ── 打分模型 · 单一来源（L1 市场温度 + L3 ESG赢面，分离）─────────────────────────
+   **5 层模型（见 ARCHITECTURE）：L1 Market Heat = 纯市场温度，不含 ESG 能不能赢。**
+   heat = Σ(市场因子 × weight)，C/D/Pol/P 归一到 1.0；W 不进 heat。
    · Capex（销售触发器，决策3）领权、Price（对卖阀门最不相关）降权。
-   · W = ESG 赢面/国产替代空间。⚠ 目前手工种子，但每条 why 锚定 **O4 竞品据点**
-     （entities.yml strongholds：Gemü/Bürkert 在 hygienic/pharma_ref full）+ 决策8 甜点区
-     + 阀门相关性，可审。**真·从 entities.yml 自动派生 W = A 阶**（需 track→工况映射 + 生成步骤）。
-   · bot 月度只重写 D/C/P/Pol，W 留此渲染层；重算永远用最新 D/C/P/Pol + 本模型的 W。 */
+   · **W = ESG 赢面/国产替代空间 = L3 ESG Fit 的渲染层粗代理**，单列展示、**不烤进 Heat**
+     （决策 2026-06-29：L1 纯市场 / L3 才判 ESG 能不能赢，CI Radar 做精）。每条 why 锚定
+     **O4 竞品据点**（entities.yml strongholds）+ 决策8 甜点区 + 阀门相关性，可审。
+   · bot 月度只重写 D/C/P/Pol（= heat 全部输入）；W 留此渲染层当 L3 代理。
+   · delta = W − 市场 heat = 「ESG赢面 vs 市场热度」缺口（正=ESG 能赢超市场温度，负=市场热但 ESG 弱）。*/
 const SCORE_MODEL = {
-  weights: { C:.30, W:.25, D:.20, Pol:.15, P:.10 },
+  weights: { C:.40, D:.27, Pol:.20, P:.13 },   // L1 市场因子，归一到 1.0（原 .30/.20/.15/.10 ÷ .75）
   labels:  { C:'Capex', W:'ESG赢面', D:'Demand', Pol:'Policy', P:'Price' },
-  W: {  // 赛道 → [ESG赢面分, 依据(O4据点/甜点区/阀门相关性)]
+  W: {  // 赛道 → [ESG赢面分(L3代理), 依据(O4据点/甜点区/阀门相关性)]
     m1:[30,'宏观背景，非阀门可成交市场'], m2:[25,'宏观，非可成交市场'], m3:[35,'宏观 capex 信号，仍非直接机会'],
     e1:[65,'液冷：冷却液阀对口、国产友好新兴，无外资据点'], e2:[50,'半导体：国产替代但高纯阀外资壁垒高'],
     e3:[70,'绿氢电解槽：国产+流体阀对口，甜点'], e4:[60,'燃料电池：国产、流体相关'],
@@ -916,14 +918,13 @@ const SCORE_MODEL = {
 };
 const wOf   = id => (SCORE_MODEL.W[id] || [50])[0];
 const whyOf = id => (SCORE_MODEL.W[id] || [0,''])[1] || '';
-const wPct  = k  => Math.round(SCORE_MODEL.weights[k]*100);  // 维度卡显示权重，单一来源
-const esgHeat = (s,W) => { const k=SCORE_MODEL.weights;
-  return Math.round((s.C*k.C + W*k.W + s.D*k.D + s.Pol*k.Pol + s.P*k.P)*10)/10; };
-// delta 重定义为「ESG 重锚偏移」= ESG heat − 市场 heat（旧 MoM 与新公式不一致）
-Object.keys(T).forEach(id=>{ const W=wOf(id), mkt=T[id].heat;
-  T[id].W=W; T[id].why=whyOf(id); T[id].heat=esgHeat(T[id],W); T[id].delta=Math.round((T[id].heat-mkt)*10)/10; });
-Object.keys(BM).forEach(b=>{ const ws=BM[b].tracks.map(wOf), mkt=BM[b].heat;
-  const W=Math.round(ws.reduce((a,c)=>a+c,0)/ws.length); BM[b].W=W; BM[b].heat=esgHeat(BM[b],W); BM[b].delta=Math.round((BM[b].heat-mkt)*10)/10; });
+const wPct  = k  => Math.round((SCORE_MODEL.weights[k]||0)*100);  // 维度卡显示权重；W 不在 heat → 0
+// L1 heat 由 bot 从 D/C/P/Pol 算好（= 市场温度），渲染层不覆盖；t.delta 保留数据自带的「环比升温/降温」
+// （管理层扫 L1 看哪个细分在升温）；另挂 L3 代理 W + esgGap（=W−Heat，ESG赢面vs市场，详情/着色用）。
+Object.keys(T).forEach(id=>{ const W=wOf(id);
+  T[id].W=W; T[id].why=whyOf(id); T[id].esgGap=Math.round((W-T[id].heat)*10)/10; });
+Object.keys(BM).forEach(b=>{ const ws=BM[b].tracks.map(wOf);
+  const W=Math.round(ws.reduce((a,c)=>a+c,0)/ws.length); BM[b].W=W; BM[b].esgGap=Math.round((W-BM[b].heat)*10)/10; });
 
 /* ── HELPERS ── */
 const HC=h=>h>=75?'hot':h>=60?'exp':h>=45?'neu':'cold';
@@ -1256,7 +1257,7 @@ function openModal(id){
   document.getElementById('mht').textContent=t.heat;
   document.getElementById('mht').className=`m-ht ${hc}`;
   document.getElementById('mtr').innerHTML=trendEl(t.tr,true);
-  document.getElementById('mscs').innerHTML=[{l:'Capex',v:t.C,w:wPct('C')+'%'},{l:'ESG赢面',v:t.W,w:wPct('W')+'%'},{l:'Demand',v:t.D,w:wPct('D')+'%'},{l:'Policy',v:t.Pol,w:wPct('Pol')+'%'},{l:'Price',v:t.P,w:wPct('P')+'%'}].map(s=>{
+  document.getElementById('mscs').innerHTML=[{l:'Capex',v:t.C,w:wPct('C')+'%'},{l:'Demand',v:t.D,w:wPct('D')+'%'},{l:'Policy',v:t.Pol,w:wPct('Pol')+'%'},{l:'Price',v:t.P,w:wPct('P')+'%'},{l:'ESG赢面',v:t.W,w:'L3·不计入Heat'}].map(s=>{
     const c=s.v>=70?'var(--up)':s.v>=55?'var(--fl)':'var(--dn)';
     return `<div class="msc"><span class="msc-l">${esc(s.l)}</span><span class="msc-v" style="color:${c}">${esc(s.v)}</span><span class="msc-w">× ${esc(s.w)}</span><div class="msc-b"><div class="msc-f" style="width:${esc(s.v)}%;background:${c}"></div></div></div>`;
   }).join('');
@@ -1316,7 +1317,7 @@ const I18N = {
     'nav.customers':  '客户监控',
     'hero.title':     'Nicole Intelligence<br><span class="dim">Market Heatmap</span>',
     'hero.tagline':   '面向先进制造、实验室医疗与能源基建机会筛选的行业热力图',
-    'hero.meta':      'HEAT SCORE · Capex×30 + ESG赢面×25 + 需求×20 + 政策×15 + 价格×10<br>6 SECTORS · 20 TRACKS · 最近更新：<span id="last-updated">加载中...</span>',
+    'hero.meta':      '市场HEAT · Capex×40 + 需求×27 + 政策×20 + 价格×13（纯市场温度）｜ ESG赢面 W 单列(L3)<br>6 SECTORS · 20 TRACKS · 最近更新：<span id="last-updated">加载中...</span>',
     'ai.badge':       'AI 简评',
     'ai.note':        '由 Claude 基于当期数据生成 · 仅供参考',
     'ai.next':        '下一条 ›',
@@ -1346,7 +1347,7 @@ const I18N = {
     'nav.customers':  'Customer Monitor',
     'hero.title':     'Nicole Intelligence<br><span class="dim">Market Heatmap</span>',
     'hero.tagline':   'A sector heatmap for advanced manufacturing, lab-medical, and energy infrastructure opportunities',
-    'hero.meta':      'HEAT SCORE · Capex×30 + ESG赢面×25 + 需求×20 + 政策×15 + 价格×10<br>6 SECTORS · 20 TRACKS · Last updated: <span id="last-updated">loading...</span>',
+    'hero.meta':      'MARKET HEAT · Capex×40 + Demand×27 + Policy×20 + Price×13 (pure market)｜ ESG-Win W shown separately (L3)<br>6 SECTORS · 20 TRACKS · Last updated: <span id="last-updated">loading...</span>',
     'ai.badge':       'AI Briefing',
     'ai.note':        'Generated by Claude from current data · For reference only',
     'ai.next':        'Next ›',
@@ -1698,7 +1699,7 @@ window.openModal = function(id) {
   document.getElementById('mht').textContent=t.heat;
   document.getElementById('mht').className=`m-ht ${hc}`;
   document.getElementById('mtr').innerHTML=trendEl(t.tr,true);
-  document.getElementById('mscs').innerHTML=[{l:'Capex',v:t.C,w:wPct('C')+'%'},{l:'ESG赢面',v:t.W,w:wPct('W')+'%'},{l:'Demand',v:t.D,w:wPct('D')+'%'},{l:'Policy',v:t.Pol,w:wPct('Pol')+'%'},{l:'Price',v:t.P,w:wPct('P')+'%'}].map(s=>{
+  document.getElementById('mscs').innerHTML=[{l:'Capex',v:t.C,w:wPct('C')+'%'},{l:'Demand',v:t.D,w:wPct('D')+'%'},{l:'Policy',v:t.Pol,w:wPct('Pol')+'%'},{l:'Price',v:t.P,w:wPct('P')+'%'},{l:'ESG赢面',v:t.W,w:'L3·不计入Heat'}].map(s=>{
     const c=s.v>=70?'var(--up)':s.v>=55?'var(--fl)':'var(--dn)';
     return `<div class="msc"><span class="msc-l">${esc(s.l)}</span><span class="msc-v" style="color:${c}">${esc(s.v)}</span><span class="msc-w">× ${esc(s.w)}</span><div class="msc-b"><div class="msc-f" style="width:${esc(s.v)}%;background:${c}"></div></div></div>`;
   }).join('');
@@ -1729,6 +1730,14 @@ const HEAT_SYMBOLS = {
   p1:'BD',p2:'SYN',p3:'BIO$',p4:'PX',p5:'CDMO',
   l1:'MS',l2:'SEQ',l3:'IVD',
   f1:'FOOD',f2:'BEV',f3:'CONS',f4:'ADD'
+};
+// L1→L2 钻取映射：赛道 → 引擎事件的 industry_tag（= 对应工况 industries[0]）。
+// 只有挂得上阀门工况的赛道才钻取；宏观/半导体/仪器/金融类无工况 → 不给钻取链（诚实）。
+const TRACK_DRILL = {
+  g1:'电池制造',          // 锂电设备 → lithium_injection
+  p2:'生物制品', f4:'生物制品',   // 合成生物/食品添加剂 → biosynthesis
+  p4:'医药制造业', p5:'医药制造业', // 制药装备/CDMO → pharma_ref
+  f1:'食品饮料', f2:'食品饮料',    // 食品/酒饮料制造 → hygienic
 };
 const INDUSTRY_USE = {
   zh: {
@@ -1784,7 +1793,7 @@ function heatMetricValue(t,mode){
   return t.heat;
 }
 function heatColor(t,mode){
-  const v = mode==='delta' ? (t.delta ?? 0) : heatMetricValue(t,mode);
+  const v = mode==='delta' ? (t.esgGap ?? 0) : heatMetricValue(t,mode);  // 'delta' 档=「ESG vs 市场」缺口
   if(mode==='delta'){
     if(v>=10) return '#83d6a1';
     if(v>=1) return '#68c8b7';
@@ -1799,7 +1808,7 @@ function heatColor(t,mode){
   return '#d66c62';
 }
 function tileAlpha(t,mode){
-  const v = mode==='delta' ? Math.min(100,Math.abs(t.delta ?? 0) * 5 + 34) : heatMetricValue(t,mode);
+  const v = mode==='delta' ? Math.min(100,Math.abs(t.esgGap ?? 0) * 5 + 34) : heatMetricValue(t,mode);
   return Math.max(24,Math.min(62,Math.round(v*.58))) + '%';
 }
 function tileSpan(t,sizeMode){
@@ -1836,10 +1845,10 @@ function updateHeatDetail(id){
     </div>
     <div class="detail-score">
       <strong>${esc(t.heat)}</strong>
-      <span>${trendEl(t.tr)} HEAT<br>${t.delta!==undefined ? `${t.delta>=0?'+':''}${esc(t.delta)} vs市场` : 'NO DELTA'}</span>
+      <span>${trendEl(t.tr)} 市场HEAT<br>${t.esgGap!==undefined ? `${t.esgGap>=0?'+':''}${esc(t.esgGap)} ESG赢面vs市场` : ''}${t.delta!==undefined ? ` · ${t.delta>=0?'+':''}${esc(t.delta)} 环比` : ''}</span>
     </div>
     <div class="metric-stack">
-      <div class="metric-box hl" title="${esc(t.why||'')}"><span>${SCORE_MODEL.labels.W} W · ×${wPct('W')}% ⓘ</span><strong>${esc(t.W)}</strong></div>
+      <div class="metric-box hl" title="${esc(t.why||'')}&#10;⚠ 临时粗代理：借 CI Radar 的竞品/spec 数据手种，待 CI Radar L3 上线替换"><span>${SCORE_MODEL.labels.W} W · L3·临时·待CI ⓘ</span><strong>${esc(t.W)}</strong></div>
       <div class="metric-box"><span>${SCORE_MODEL.labels.C} ×${wPct('C')}%</span><strong>${esc(t.C)}</strong></div>
       <div class="metric-box"><span>${SCORE_MODEL.labels.D} ×${wPct('D')}%</span><strong>${esc(t.D)}</strong></div>
       <div class="metric-box"><span>${SCORE_MODEL.labels.Pol} ×${wPct('Pol')}%</span><strong>${esc(t.Pol)}</strong></div>
@@ -1848,6 +1857,7 @@ function updateHeatDetail(id){
     <div class="detail-note">${esc(t.tw)}</div>
     <div class="detail-note">${esc(t.act)}</div>
     <div class="detail-actions">
+      ${TRACK_DRILL[id] ? `<a class="drill" href="events.html?industry=${encodeURIComponent(TRACK_DRILL[id])}">${currentLang==='en'?`Drill to ${attr(TRACK_DRILL[id])} projects →`:`钻取 ${esc(TRACK_DRILL[id])} 项目 →`}</a>` : ''}
       <a href="${attr(m.href)}">${currentLang==='en'?'Open Sector Page':'进入专题页'}</a>
       <button type="button" onclick="openModal('${attr(id)}')">${currentLang==='en'?'View Metrics':'查看指标详情'}</button>
     </div>`;
