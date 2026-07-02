@@ -1,9 +1,8 @@
 # ESG 事件引擎 · 工况知识库
 # 按"工况"而非"行业"组织。每个工况定义：命中关键词、对应阀型、推断买方角色、行业标签。
 # capex_ratio：固定资产投资 → 流体系统采购额的经验系数（与 p4_opportunity_map.yml 一致）。
-# ⚠ competitor_density（各工况）自 O3 起已不再被 winnability 使用——密度改由
-#   winnability.density_from_strongholds 从「竞品 strongholds→工况」关系派生（见 config/entities.yml）。
-#   此处字段保留作人读参照，改它不影响赢面；要改密度去调竞品的 strongholds。
+# 竞品密度不在此定义——自 O3 起由 winnability.density_from_strongholds 从
+# 「竞品 strongholds→工况」关系派生（见 config/entities.yml）。要改密度去调竞品的 strongholds。
 
 capex_ratio:
   low: 0.005
@@ -29,7 +28,6 @@ conditions:
       strong: [生物合成, 合成生物, 发酵, 生物反应器, 发酵罐, 菌种]
       mid: [生物制造, 菌体, 多肽, 酶制剂, 原料药发酵]
     valve_types: [角座阀, 卫生级隔膜阀, 球阀]
-    competitor_density: low    # 发酵/生物合成上游角座阀对口，国产友好甜点区（区别于无菌制剂 Gemü 护城河）
     buyer_role:
       primary: 设备OEM
       secondary: 终端工厂
@@ -39,9 +37,9 @@ conditions:
     industries: [食品饮料, 食品制造业, 酒饮料精制茶制造业, 泡塑, 饲料]
     keywords:
       strong: [灌装, 无菌, 卫生级, CIP, SIP, 洁净, 乳品, 乳制品, 饮料, 发酵, 调配, 巴氏]
-      mid: [食品, 饮料厂, 罐装, UHT, 乳业, 啤酒, 饮品, 工厂新建, 生产线]
+      mid: [食品, 饮料厂, 罐装, UHT, 乳业, 啤酒, 饮品]
+      weak: [工厂新建, 生产线]   # 泛词：非卫生级判别，任何产线都命中 → 降权
     valve_types: [角座阀, 卫生级隔膜阀, 球阀]
-    competitor_density: high   # Bürkert+Gemü 在食品饮料均强
     buyer_role:
       primary: 设备OEM
       secondary: 终端工厂
@@ -53,7 +51,6 @@ conditions:
       strong: [注液, 电解液, 锂电池, 电芯, 注液机, 化成, 分容, 正极材料, 负极材料, 隔膜]
       mid: [动力电池, 储能电池, 极片, 涂布, 电池产线, 锂电, 储能, 电池项目, 新能源电池]
     valve_types: [膜塞阀, 注液阀, 针阀]
-    competitor_density: low    # 锂电注液无外资扎根，国产友好
     buyer_role:
       primary: 设备OEM
       secondary: 终端工厂
@@ -63,9 +60,9 @@ conditions:
     industries: [橡胶和塑料制品业, 轮胎, 橡塑, 印染]
     keywords:
       strong: [硫化, 轮胎, 硫化机, 橡胶, 染色, 定型机]
-      mid: [塑胶, 注塑, 印染, 定型, 蒸汽, 橡塑制品]
+      mid: [塑胶, 注塑, 印染, 定型, 橡塑制品]
+      weak: [蒸汽]   # 泛词：任何热工艺都有蒸汽 → 降权
     valve_types: [角座阀, 蝶阀, 疏水阀]
-    competitor_density: low    # 橡塑硫化非外资主场
     buyer_role:
       primary: EPC
       secondary: 终端工厂
@@ -75,9 +72,9 @@ conditions:
     industries: [化工, 化学原料和化学制品制造业, 冶金, 电力]
     keywords:
       strong: [化工, 反应釜, 装置, 储罐, 精馏, 蒸发结晶]
-      mid: [管道, 扩建, 技改, 园区, 工艺装置]
+      mid: [工艺装置]
+      weak: [管道, 扩建, 技改, 园区]   # 泛词：纯建设动词，任何行业 capex 都有 → 降权
     valve_types: [蝶阀, 球阀, 隔膜阀]
-    competitor_density: mid    # 化工/精细化工 Gemü 部分覆盖
     buyer_role:
       primary: EPC
       secondary: 经销商
@@ -89,7 +86,40 @@ conditions:
       strong: [无菌, GMP, 原料药, 注射剂, 生物反应器, 疫苗]
       mid: [制剂, 洁净, 生物药, 冻干, 药业, 生物制品, 化学药品, 中药, 单抗, 细胞]
     valve_types: [卫生级隔膜阀, 角座阀]
-    competitor_density: high   # 制药无菌是 Gemü/Bürkert 护城河
     buyer_role:
       primary: 设备OEM
       secondary: EPC
+
+  - id: air_separation
+    label: 空分气体
+    industries: [工业气体, 空分, 气体]
+    keywords:
+      strong: [空分, 空气分离, 工业气体, 制氧, 制氮, 液氧, 液氮, 电子特气, 特种气体]
+      mid: [氧气, 氮气, 氩气, 稀有气体, 气体项目, 深冷]
+    valve_types: [低温阀, 切断阀, 调节阀]
+    buyer_role:
+      primary: 设备OEM
+      secondary: EPC
+
+  - id: nuclear
+    label: 核电
+    industries: [核电, 电力]
+    keywords:
+      strong: [核电, 核电站, 核电机组, 核岛, 常规岛, 压水堆, 核能]
+      mid: [核准, 反应堆, 华龙一号, 乏燃料]
+      weak: [机组]   # 泛词：风电/火电/燃机都有"机组" → 降权
+    valve_types: [切断阀, 调节阀, 蝶阀]
+    buyer_role:
+      primary: EPC
+      secondary: 设备OEM
+
+  - id: environmental
+    label: 环保水处理
+    industries: [环保, 水处理, 环境治理]
+    keywords:
+      strong: [废水处理, 污水处理, 水处理, 烟气治理, 超低排放, 脱硫脱硝, 零排放, 中水回用]
+      mid: [环保, 废水, 污水, 废气处理, 资源化, 环境治理]
+    valve_types: [蝶阀, 球阀, 切断阀]
+    buyer_role:
+      primary: EPC
+      secondary: 终端工厂

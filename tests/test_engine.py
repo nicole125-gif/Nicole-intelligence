@@ -36,13 +36,11 @@ class ConditionTests(unittest.TestCase):
         # 甜点区：发酵/生物合成上游应进 biosynthesis(low)，不被 pharma_ref(high) 误降
         cond = conditions.classify_condition("某生物合成原料药发酵生产基地新建", "capex", self.cfg)
         self.assertEqual(cond["primary_id"], "biosynthesis")
-        self.assertEqual(cond["competitor_density"], "low")
 
     def test_sterile_drug_stays_gemu_moat(self):
-        # 无菌制剂仍是 Gemü 护城河，留在 pharma_ref(high)
+        # 无菌制剂仍是 Gemü 护城河，留在 pharma_ref
         cond = conditions.classify_condition("某生物药无菌注射剂冻干车间", "capex", self.cfg)
         self.assertEqual(cond["primary_id"], "pharma_ref")
-        self.assertEqual(cond["competitor_density"], "high")
 
     def test_food_fermentation_stays_hygienic(self):
         # 带食品词的发酵仍归 hygienic(high)，不被新工况抢走
@@ -185,7 +183,6 @@ class EntityTests(unittest.TestCase):
         prof = entities.get("truking")["profile"]
         self.assertIn("设备部", prof["target_roles"])
         self.assertIn("卫生级隔膜阀", prof["esg_products"])
-        self.assertEqual(prof["capex_ratio"]["high"], 0.015)
 
     def test_competitor_carries_threat_profile(self):
         # O4：竞品实体带上 products_analysis 折叠进来的威胁档
@@ -255,6 +252,70 @@ class CompetitorDensityTests(unittest.TestCase):
         bio = winnability.assess("某生物合成发酵基地新建", self._d("biosynthesis"))["score"]
         ref = winnability.assess("某无菌注射剂车间新建", self._d("pharma_ref"))["score"]
         self.assertGreater(bio, ref)
+
+
+class OntologyIntegrityTests(unittest.TestCase):
+    # 本体引用完整性：承重边引用的工况 id 必须真实存在，否则 density/incumbents 会静默算错。
+    def setUp(self):
+        self.reg = entities.load_registry()
+        cfg = conditions.load_conditions()
+        self.condition_ids = {c["id"] for c in cfg.get("conditions", [])}
+
+    def test_strongholds_reference_real_conditions(self):
+        for ent in self.reg["by_id"].values():
+            for sh in (ent.get("profile") or {}).get("strongholds", []):
+                self.assertIn(sh["condition"], self.condition_ids,
+                              f"{ent['id']} 的 stronghold 引用了不存在的工况 {sh['condition']}")
+
+    def test_stronghold_grip_is_valid(self):
+        for ent in self.reg["by_id"].values():
+            for sh in (ent.get("profile") or {}).get("strongholds", []):
+                self.assertIn(sh.get("grip", "partial"), {"full", "partial"})
+
+    def test_spec_position_is_valid_enum(self):
+        for ent in self.reg["by_id"].values():
+            self.assertIn(ent.get("spec_position"), {"in", "target", None})
+
+
+class IndustryHeatTests(unittest.TestCase):
+    # L2 派生：事件按 industry_tag 聚合成热度信号（价值档 × 新鲜度）
+    def _pack(self):
+        return {"date": "2026-06-30", "events": [
+            {"id": "a", "industry_tag": "化工", "owner": {"id": "o1"},
+             "value_band": {"band": "大"}, "lead_time": {"level": "L1"},
+             "source": {"published_at": "2026-06-20"}},
+            {"id": "b", "industry_tag": "化工", "owner": {"id": "o2"},
+             "value_band": {"band": "小"}, "lead_time": {"level": "L2"},
+             "source": {"published_at": "2026-06-25"}},
+            {"id": "c", "industry_tag": "电池制造", "owner": {"id": "o1"},
+             "value_band": {"band": "中"}, "lead_time": {"level": "L0"},
+             "source": {"published_at": "2026-01-01"}},  # >90天 → 衰减
+        ]}
+
+    def test_aggregate_by_industry(self):
+        from engine import industry_heat
+        out = industry_heat.build_industry_heat(self._pack(), dt.date(2026, 6, 30))
+        self.assertEqual(out["化工"]["event_count"], 2)
+        self.assertEqual(out["化工"]["account_count"], 2)
+        self.assertEqual(out["化工"]["l2_signal"], 13)          # 大10 + 小3（均新）
+        self.assertEqual(out["电池制造"]["l2_signal"], 2)        # 中6 × 0.3 衰减
+
+    def test_undated_event_gets_neutral_recency_not_max(self):
+        from engine import industry_heat
+        pack = {"date": "2026-06-30", "events": [
+            {"id": "u", "industry_tag": "化工", "owner": {"id": "o1"},
+             "value_band": {"band": "大"}, "lead_time": {"level": "L1"},
+             "source": {}}]}  # 无 published_at
+        out = industry_heat.build_industry_heat(pack, dt.date(2026, 6, 30))
+        self.assertEqual(out["化工"]["l2_signal"], 6)  # 大10 × 0.6中性，不是满新鲜10
+
+    def test_signal_capped_at_100(self):
+        from engine import industry_heat
+        evs = [{"id": str(i), "industry_tag": "化工", "owner": {"id": f"o{i}"},
+                "value_band": {"band": "大"}, "lead_time": {"level": "L1"},
+                "source": {"published_at": "2026-06-29"}} for i in range(20)]
+        out = industry_heat.build_industry_heat({"date": "2026-06-30", "events": evs}, dt.date(2026, 6, 30))
+        self.assertEqual(out["化工"]["l2_signal"], 100)         # 200 → 封顶
 
 
 class RankingTests(unittest.TestCase):

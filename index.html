@@ -833,11 +833,11 @@ const BM={
     insight:'<strong>宏观背景</strong> — 3月制造业PMI 50.4%，重返扩张区间；生产52.6%、新订单51.8%，中小企业同步改善。FAI+1.8%转正叠加PMI确认，Q1开局信号转强。<span class="ai-src" data-src="国家统计局 · 2026-03-31">NSB</span>'},
   EI:{n:'能源·基础设施',  heat:76.4,tr:'up', D:78,C:76,P:71,Pol:80,
     sum:'两会AI基建落地+美半导体232关税双重催化',
-    sumAlert:'🔥',href:'hydrogen.html',tracks:['e1','e2','e3','e4'],sparks:[64,72,74,44],hotIdx:2,
+    sumAlert:'🔥',href:'hydrogen.html',tracks:['e1','e2','e3','e4','e5'],sparks:[64,72,74,44,82],hotIdx:4,
     insight:'<strong>液冷数据中心</strong> — 渗透率被TrendForce上调至47%，美国232关税倒逼国产化，液冷Heat创全周期新高 <strong style="color:var(--hot)">86.1</strong>，D/C双维度超90分。<span class="ai-src" data-src="TrendForce 2026Q1">TF</span>'},
   GI:{n:'通用工业',       heat:74.6,tr:'up', D:78,C:75,P:70,Pol:72,
     sum:'CATL三线共振，订单确定性最强',
-    sumAlert:'⚡',href:'semiconductor.html',tracks:['g1'],sparks:[70,74,76],hotIdx:2,
+    sumAlert:'⚡',href:'semiconductor.html',tracks:['g1','g2'],sparks:[70,74,76,79],hotIdx:3,
     insight:'<strong>通用工业</strong> — CATL匈牙利Q1量产+济宁储能+钠离子三线共振，Capex 82分全板块最高，先导/赢合订单可见度极高。<span class="ai-src" data-src="宁德时代 2026Q1公告">CATL</span>'},
   'P&B':{n:'制药·生物技术',heat:67.8,tr:'fl', D:70,C:66,P:61,Pol:74,
     sum:'司美格鲁肽3/20已到期！仿制战全面启动',
@@ -849,32 +849,45 @@ const BM={
     insight:'<strong>实验室·医疗</strong> — 因美纳列入不可靠实体清单，质谱进口骤降12.4%，Policy 80分，是L&M国产替代信号最强的时间节点。<span class="ai-src" data-src="商务部公告 / 海关总署">商务部</span>'},
   'F&B':{n:'食品·饮料',    heat:62.8,tr:'dn', D:64,C:63,P:56,Pol:69,
     sum:'双FAI降速/转负，发酵唯一亮点',
-    sumAlert:'↓',href:'food.html',tracks:['f1','f2','f3','f4'],sparks:[60,56,55,55],hotIdx:3,
+    sumAlert:'↓',href:'food.html',tracks:['f1','f2','f3','f4','f5'],sparks:[60,56,55,55,49],hotIdx:3,
     insight:'<strong>食品·饮料</strong> — 酒饮料FAI转负-0.2%，Capex 44分全板块最低；唯一亮点：合成生物发酵设备进入交付期，功能成分>800亿。<span class="ai-src" data-src="国家统计局 FAI 2025全年">NSB</span>'},
+  PI:{n:'过程工业',       heat:60.2,tr:'up', D:61,C:59,P:51,Pol:68,
+    sum:'轮胎出海潮+空分特气+化工拐点，过程工业设备升温',
+    sumAlert:'🔧',href:'events.html',tracks:['pi1','pi2','pi3','pi4','pi5','pi6'],sparks:[63,67,54,49,70,58],hotIdx:4,
+    insight:'<strong>过程工业</strong> — 轮胎出海建厂潮(玲珑巴西11.9亿美元/赛轮印尼产能翻倍)、空分电子特气CAGR18.8%、化工周期拐点渐近；ESG 硫化角座阀/空分低温阀/废水蝶球阀多工况对口，青岛属地契合。<span class="ai-src" data-src="新浪财经/气体网 2026">2026</span>'},
 };
-const BO=['Macro','EI','GI','P&B','L&M','F&B'];
+const BO=['Macro','EI','GI','PI','P&B','L&M','F&B'];
 
 const T={
-  m1:{b:'Macro',n:'制造业 PMI',sub:'制造业景气指数',heat:61.9,tr:'dn',delta:+1.4,D:65,C:62,P:58,Pol:60,data:['3月制造业PMI 50.4%，重返扩张区间'],tw:'产需两端同步扩张，中小企业改善，景气度温和回升',act:'关注高技术及装备制造业，跟踪中小企业复苏',src:['国家统计局 2026-03-31','财新/标普全球']},
-  m2:{b:'Macro',n:'M2 / 社融',sub:'货币政策综合信号',heat:71.5,tr:'dn',delta:-10.6,D:75,C:70,P:65,Pol:75,data:['M2同比增长8.5%，社融存量增7.9%'],tw:'货币政策稳健，流动性支撑制造业投资，景气度中等偏上',act:'关注M2和社融数据，把握制造业投资机会',src:['中国人民银行']},
-  m3:{b:'Macro',n:'固定资产投资',sub:'制造业FAI/规上增加值',heat:62.2,tr:'fl',delta:+2.1,D:65,C:60,P:55,Pol:70,data:['工业投资同比增长5.8%，制造业投资增长4.1%'],tw:'工业投资稳健增长，但制造业增速偏低，整体景气度中等',act:'关注高技术制造业投资动态，跟踪政策支持效果',src:['国家统计局']},
-  e1:{b:'EI',n:'液冷数据中心',sub:'AI液冷渗透率/市场规模',heat:74.6,tr:'up',delta:-0.7,D:78,C:75,P:70,Pol:72,data:['AI液冷渗透率提升，海外项目落地200MW'],tw:'AI算力驱动液冷需求强劲，海外拓展加速，竞争加剧',act:'重点跟踪CDU/冷板核心供应商订单及海外进展',src:['TrendForce','国信证券']},
-  e2:{b:'EI',n:'半导体设备国产化',sub:'龙头设备商/前道市场',heat:82.8,tr:'fl',delta:+3.5,D:85,C:82,P:75,Pol:90,data:['国产化率提升至35%，刻蚀推进到3nm'],tw:'国产替代加速，订单增长显著，行业高景气',act:'重点跟踪北方华创/中微新签订单及技术突破',src:['WSTS','北方华创财报']},
-  e3:{b:'EI',n:'绿氢电解槽',sub:'PEM/AEM高壁垒路线',heat:73.1,tr:'up',delta:+1.8,D:75,C:72,P:68,Pol:78,data:['PEM电解槽技术突破，绿氢项目规划387个'],tw:'技术路线活跃，政策支持明确，景气度较高',act:'关注PEM/AEM/SOEC/SOFC技术进展和订单动态',src:['香橙会氢能数据库']},
-  e4:{b:'EI',n:'燃料电池',sub:'FCEV重卡/系统集成',heat:73.0,tr:'up',delta:2.9,D:72,C:75,P:68,Pol:78,data:['氢能重卡经济性已现，2024年有望氢油平价'],tw:'需求端商业化加速，技术突破支撑规模化，景气度向好',act:'跟踪重卡订单及氢价平价进展，关注技术领先企业',src:['中汽协']},
-  g1:{b:'GI',n:'锂电设备',sub:'宁德时代产能扩张',heat:74.6,tr:'up',delta:4.2,D:78,C:75,P:70,Pol:72,data:['下游开工率提升，订单开门红，海外订单增长'],tw:'需求回暖，订单增长，海外扩张加速，景气度向好',act:'跟踪龙头订单和海外产能动态，关注固态电池设备需求',src:['宁德时代公告']},
+  m1:{b:'Macro',n:'制造业 PMI',sub:'制造业景气指数',heat:56.5,tr:'fl',delta:0,D:66,C:48,P:45,Pol:68,data:['2026年6月制造业PMI 50.3%（重返扩张，环比+0.3）','制造业投资1-5月-0.4%、价格分项倒挂'],tw:'PMI刚过荣枯线小幅回升，但制造业投资转负、价格倒挂，景气临界偏弱',act:'作宏观校准：谨慎适度加大搜索，聚焦高技术制造结构性亮点',src:['国家统计局 2026-06']},
+  m2:{b:'Macro',n:'M2 / 社融',sub:'货币政策综合信号',heat:65.9,tr:'fl',delta:0,D:66,C:64,P:62,Pol:72,data:['2026年5月末M2同比+8.6%、社融存量+7.7%','政府债券余额+15.9%为核心拉动'],tw:'流动性宽松、金融总量高于名义GDP，支撑投资',act:'关注M2/社融与政府债券发行节奏',src:['中国人民银行 2026-05']},
+  m3:{b:'Macro',n:'固定资产投资',sub:'制造业FAI/规上增加值',heat:46.2,tr:'dn',delta:0,D:38,C:42,P:52,Pol:62,data:['2026年1-5月FAI同比-4.1%、制造业投资-0.4%（转负）','高技术制造业投资+3.4%（电子电路+50.9%）'],tw:'投资端转负走弱，仅高技术制造业结构性亮点',act:'规避总量走弱，聚焦高技术制造/战略新兴',src:['国家统计局 2026-06']},
+  e1:{b:'EI',n:'液冷数据中心',sub:'AI液冷渗透率/市场规模',heat:85.8,tr:'up',delta:0,D:88,C:90,P:62,Pol:90,data:['算力网2026投资超7万亿（十五五三大支柱）','AI液冷渗透率2024→2026 14%→40%'],tw:'AI算力capex爆发+政策顶配，渗透率高速攀升',act:'重点跟踪CDU/冷板供应商订单及东数西算落地',src:['国家发改委/国家数据局 2026','TrendForce']},
+  e2:{b:'EI',n:'半导体设备国产化',sub:'龙头设备商/前道市场',heat:85.7,tr:'up',delta:0,D:84,C:90,P:66,Pol:92,data:['大基金三期1.64万亿，2026扩产订单增20-50%','存储涨价扩散，长鑫Q1营收+719%'],tw:'国产替代+扩产双击，订单确定性高',act:'跟踪北方华创/中微/长存扩产capex',src:['大基金三期','东吴证券 2026']},
+  e3:{b:'EI',n:'绿氢电解槽',sub:'PEM/AEM高壁垒路线',heat:69.5,tr:'fl',delta:0,D:64,C:72,P:45,Pol:88,data:['电解槽产能2024→2026 39→50GW+','十五五列六大未来产业，2030制氢200万吨'],tw:'政策顶配但仍处商业化验证爬坡期，价格下行',act:'跟踪PEM/AEM招标与出货，关注降本拐点',src:['十五五规划','中信证券 2026']},
+  e4:{b:'EI',n:'燃料电池',sub:'FCEV重卡/系统集成',heat:55.2,tr:'dn',delta:0,D:42,C:56,P:45,Pol:78,data:['2025氢能重卡销量约7282辆同比-4.5%，占新能源重卡仅1.6%','综合应用试点单群奖励上限16亿'],tw:'政策托底但商用化需求持续疲弱',act:'谨慎跟踪示范城市群，等氢价平价拐点',src:['证券市场周刊','财政部试点 2026']},
+  g1:{b:'GI',n:'锂电设备',sub:'宁德时代产能扩张',heat:84.9,tr:'up',delta:0,D:85,C:90,P:72,Pol:83,data:['2025锂电投资282项/超8200亿(+74%)，宁德在建321GWh','2026年1-5月储能电池销量+87.7%，碳酸锂较2025翻番'],tw:'全链扩产+储能爆发，量价双击反转周期',act:'跟踪龙头扩产capex与固态电池设备需求',src:['投中网','GGII 2026']},
+  g2:{b:'GI',n:'工程机械/特种车辆',sub:'挖机销量/设备更新',heat:78.8,tr:'up',delta:0,D:82,C:78,P:70,Pol:82,data:['2026年5月挖掘机销量24794台同比+36.2%，龙头集体涨价3%-5%','《机械行业稳增长方案2025-2026》定2026营收破10万亿'],tw:'内外销共振、三年首次涨价，设备更新+重大工程拉动；ESG 工业阀相关性中等（液压件外资壁垒高），机会在配套辅助/冷却流体系统。',act:'跟踪龙头产销与设备更新项目，工业阀配套辅助/冷却系统切入。',src:['中国工程机械工业协会','东方财富','财联社']},
   p1:{b:'P&B',n:'生物药出海',sub:'创新药License-out/BD',heat:72.2,tr:'up',delta:+2.8,D:75,C:70,P:65,Pol:80,data:['在手订单同比增长55.56%，境外订单占比39.92%'],tw:'国内扩产与国际化并进，需求旺盛，景气度较高',act:'关注产能释放与海外订单落地',src:['摩熵医药']},
-  p2:{b:'P&B',n:'合成生物学',sub:'中试车间开工数',heat:76.5,tr:'fl',delta:+1.5,D:78,C:75,P:70,Pol:85,data:['国家2027年培育20个以上生物制造中试平台'],tw:'政策强力支持，技术AI赋能，产业化领先，景气度高',act:'积极跟踪华恒等龙头扩产及中试平台进展',src:['华恒/凯赛年报']},
+  p2:{b:'P&B',n:'合成生物学',sub:'中试车间开工数',heat:74.1,tr:'fl',delta:0,D:72,C:78,P:48,Pol:86,data:['凯赛太原138亿在建、山西超200亿集群','生物制造入选十五五七大未来产业，规模1万亿(+26.2%)'],tw:'政策最高、需求高增，但氨基酸等大宗过剩降价',act:'跟踪龙头扩产与中试平台，避开过剩大宗品',src:['新华社','智研咨询 2026']},
   p3:{b:'P&B',n:'生物药融资',sub:'早期融资额',heat:71.8,tr:'up',delta:15.3,D:72,C:75,P:68,Pol:70,data:['2025年融资金额同比上涨56.17%至682.39亿元'],tw:'融资金额大幅增长，但事件数微降，景气度中等偏强',act:'关注A轮及战略融资项目，跟踪头部机构动态',src:['动脉网']},
-  p4:{b:'P&B',n:'制药装备Capex',sub:'医药制造业FAI',heat:52.2,tr:'dn',delta:-5.3,D:55,C:50,P:45,Pol:60,data:['医药制造业固定资产投资涨5.4%'],tw:'投资温和增长，但增加值仅增0.9%，需求偏弱',act:'关注龙头订单和FAI数据，谨慎跟踪',src:['国家统计局FAI']},
-  p5:{b:'P&B',n:'CDMO',sub:'海外大客户询单量',heat:72.0,tr:'fl',delta:+2.0,D:75,C:70,P:65,Pol:78,data:['CDMO龙头新签大额订单，药明康德在手订单增33%'],tw:'需求回暖，订单增长，景气度回升，但需关注集采影响',act:'跟踪龙头订单动态，关注TIDES多肽/ADC产线询单',src:['凯莱英公告']},
-  l1:{b:'L&M',n:'质谱/色谱仪器',sub:'高端分析仪器国产替代',heat:76.4,tr:'dn',delta:+0.5,D:75,C:78,P:70,Pol:85,data:['质谱仪进口报关量-12.4% YoY，最强国产替代信号','2026年国内质谱市场预计突破230亿元'],tw:'国产替代加速，政策驱动强，需求旺盛',act:'积极跟踪禾信/谱育订单及政策落地',src:['海关总署']},
-  l2:{b:'L&M',n:'基因测序',sub:'测序服务需求',heat:76.5,tr:'dn',delta:+1.2,D:78,C:75,P:70,Pol:85,data:['商务部将因美纳列入"不可靠实体清单"','华大智造CoolMPS受益，三甲医院测序仪替换潮启动'],tw:'国产替代加速，政策催化强，景气度向上',act:'积极跟踪华大智造订单和产能动态',src:['商务部公告']},
-  l3:{b:'L&M',n:'医疗IVD',sub:'IVD体外诊断',heat:66.0,tr:'up',delta:24.4,D:65,C:70,P:55,Pol:75,data:['2025年中国IVD市场规模超1400亿元','化学发光国产化率<30%，第28省集采降价50-70%'],tw:'集采推动国产替代，但价格压力大，景气度中等偏上',act:'关注国产替代龙头，规避价格战风险',src:['智研咨询']},
-  f1:{b:'F&B',n:'食品制造FAI',sub:'设备端Capex信号',heat:62.2,tr:'dn',delta:-10.6,D:65,C:60,P:55,Pol:70,data:['预制菜政策支持，机构调研情绪高涨'],tw:'政策利好与机构关注推动景气度回升，但竞争加剧',act:'关注预制菜装备龙头，跟踪政策落地与订单',src:['国家统计局FAI']},
-  f2:{b:'F&B',n:'酒/饮料制造FAI',sub:'设备端Capex信号',heat:52.2,tr:'dn',delta:-15.6,D:55,C:50,P:45,Pol:60,data:['18家白酒上市公司9成扩产，产能过剩风险显现'],tw:'扩产积极但产能利用率低，供需失衡，景气度中性偏弱',act:'关注龙头订单和产能动态，谨慎跟踪扩产进度',src:['国家统计局FAI']},
+  p4:{b:'P&B',n:'制药装备Capex',sub:'医药制造业FAI',heat:57.8,tr:'fl',delta:0,D:60,C:48,P:55,Pol:76,data:['2026年1-5月制造业投资-0.4%，医药去产能延续','楚天Q1净利+892%、东富龙2025国际收入+63.7%（海外撑）'],tw:'国内去产能延续，增长靠海外总包+GLP-1外溢',act:'盯装备商海外订单簿与GLP-1原料药产线',src:['中国医药企业管理协会','公司财报 2026']},
+  p5:{b:'P&B',n:'CDMO',sub:'海外大客户询单量',heat:79.1,tr:'up',delta:0,D:83,C:87,P:45,Pol:80,data:['药明2026 capex 65-75亿(+30%)、凯莱英21亿(+50%)','药明在手订单597.7亿(+23.6%)、TIDES前三季+121%'],tw:'多肽/ADC需求爆发、产能狂扩，但价格已现过剩战',act:'跟踪TIDES/ADC产线扩产，关注BIOSECURE逆风',src:['药明/凯莱英财报 2026']},
+  l1:{b:'L&M',n:'质谱/色谱仪器',sub:'高端分析仪器国产替代',heat:68.6,tr:'up',delta:0,D:72,C:63,P:58,Pol:82,data:['2025液质国产中标+50%，进口依赖84%→73%','2025年10月质谱中标金额+42.56%'],tw:'政策最硬+需求回暖，国产放量但配套阀基数仍小（仪器电磁阀/微阀=Bürkert主场，赢面受压）',act:'跟踪禾信/谱育国产放量，微阀配套（赢面受外资压制）',src:['新浪财经','搜狐 2026']},
+  l2:{b:'L&M',n:'基因测序',sub:'测序服务需求',heat:75.9,tr:'up',delta:0,D:80,C:78,P:42,Pol:88,data:['因美纳列不可靠实体清单+禁止对华出口测序仪','华大智造装机破5300台，国产市占15%→35%'],tw:'不可靠实体清单+国产装机高增，仪器微阀配套最强场景；唯耗材降价',act:'跟踪华大智造装机，仪器微阀/电磁阀配套',src:['商务部公告','小桔灯网 2026']},
+  l3:{b:'L&M',n:'医疗IVD',sub:'IVD体外诊断',heat:64.6,tr:'fl',delta:0,D:66,C:68,P:40,Pol:72,data:['化学发光国产份额升至40-50%，二级以下医院超60%','25省集采平均降价53.9%'],tw:'集采以价换量、国产装机加速，但降价压利润、政策偏控费',act:'关注化学发光国产放量，规避集采价格战',src:['医药魔方','华安证券 2026']},
+  f1:{b:'F&B',n:'食品制造FAI',sub:'设备端Capex信号',heat:62.7,tr:'fl',delta:0,D:62,C:62,P:55,Pol:70,data:['预制菜市场2026约1.07万亿，具名中央厨房/智能化产线扩产','制造业FAI 1-5月-0.4%（食品未单列）'],tw:'需求稳、预制菜托底，整体capex偏弱',act:'跟踪预制菜装备与国标落地',src:['前瞻产业','国家统计局 2026']},
+  f2:{b:'F&B',n:'酒/饮料制造FAI',sub:'设备端Capex信号',heat:63.9,tr:'fl',delta:0,D:58,C:64,P:48,Pol:82,data:['《酿酒产业五年规划2026-2030》三部门联合，转正向','白酒去产能(产量-12.1%)vs饮料无糖茶爆发(CAGR>70%)'],tw:'白酒下行、饮料上行强分化，政策转正向',act:'避开白酒过剩，跟饮料/无糖茶扩产产线',src:['东方财富','每经 2026']},
   f3:{b:'F&B',n:'食品饮料消费',sub:'春节/年货消费端参考',heat:71.8,tr:'dn',delta:-6.2,D:72,C:75,P:68,Pol:70,data:['无糖茶饮、功能饮品增长趋势显著'],tw:'健康化与功能化驱动需求，景气度中上',act:'关注功能饮品与预制菜赛道龙头',src:['商务部']},
-  f4:{b:'F&B',n:'食品添加剂',sub:'合成生物学/功能成分',heat:67.0,tr:'up',delta:+0.9,D:65,C:70,P:60,Pol:75,data:['合成生物学在食品领域获国家评审通道支持'],tw:'政策支持与技术突破并存，但代糖市场存在争议',act:'关注政策落地与龙头订单，谨慎布局',src:['华恒/凯赛年报']},
+  f4:{b:'F&B',n:'食品添加剂',sub:'合成生物学/功能成分',heat:74.7,tr:'up',delta:0,D:65,C:82,P:52,Pol:88,data:['生物制造入选十五五七大未来产业','阿洛酮糖扩产潮，中国产能约5万吨占全球60%+'],tw:'国家级政策+扩产潮最强，价格受产能过剩压制',act:'跟踪阿洛酮糖/代糖扩产，注意价格战',src:['新华网','泛糖科技 2026']},
+  f5:{b:'F&B',n:'饲料',sub:'饲料工业产值/产量',heat:49.3,tr:'dn',delta:0,D:52,C:45,P:48,Pol:55,data:['2025饲料工业总产值12909.6亿同比+2.3%，2026产量仍约3.3亿吨','终端养殖去产能，行业整合加速而非扩产周期'],tw:'产量稳、增速放缓，去产能整合、扩产偏弱，卖阀优先级最低；气力输送切断阀、卫生级阀在新建/智能化产线有零散机会。',act:'择优跟踪龙头智能化新建产线，气力输送切断阀+卫生级阀切入。',src:['中国饲料工业协会','东方财富']},
+  e5:{b:'EI',n:'核电',sub:'机组核准/在建投资',heat:82.0,tr:'up',delta:0,D:80,C:88,P:55,Pol:90,data:['4年核准41台机组在建总投资超8000亿，2025核电建设投资1610亿创新高','在运机组2026底有望达70台，装机全球第一'],tw:'核准连续提速、Capex政策双强，是全板块最强设备触发器之一；但核级阀认证壁垒极高(RCC-M/HAF601)，ESG民用阀难进核岛，赢面受限于常规岛/BOP及辅助系统。',act:'切常规岛/BOP辅助水系统的工业阀；核岛核级阀需资质门槛，谨慎评估。',src:['第一财经','证券时报','国家发改委十五五规划']},
+  pi1:{b:'PI',n:'化工/精细化工',sub:'化学原料制造业FAI/CCPI',heat:63.2,tr:'up',delta:0,D:62,C:55,P:68,Pol:78,data:['化学原料制造业FAI 2025累计约-8%，2026有20+重大项目集中建设总投资8377.8亿','CCPI 2026Q1较期初+37%，价格修复'],tw:'周期拐点渐近，价格修复但新扩产仍偏弱；大项目托底，反应釜/储罐/精馏/蒸发结晶工况阀门需求随建设释放。',act:'跟踪8377亿重大项目开工节奏，蝶/球/隔膜阀切精馏/蒸发结晶工段。',src:['国家统计局','工信部石化稳增长方案','ChemNet']},
+  pi2:{b:'PI',n:'橡胶轮胎',sub:'出海建厂+国内技改',heat:67.4,tr:'up',delta:0,D:68,C:82,P:40,Pol:55,data:['2026中企轮胎出海潮：玲珑巴西11.9亿美元、赛轮印尼产能翻倍、三角柬埔寨32亿','半钢胎开工率78.7%、全钢71.8%环比回升'],tw:'出海建厂潮爆发，Capex全板块最强之一；硫化蒸汽/CIP工况角座阀、疏水阀对口，青岛属地契合、无外资据点=甜点。',act:'紧盯出海新厂与山东技改项目，硫化角座阀+疏水阀随产线复制。',src:['新浪财经','东方财富']},
+  pi3:{b:'PI',n:'泡塑/注塑成型',sub:'塑料制品产量/开工率',heat:54.0,tr:'fl',delta:0,D:55,C:48,P:58,Pol:62,data:['2024塑料制品产量7707.6万吨同比+2.9%，无龙头扩产潮','7部门再生材料方案：2030再生塑料超1950万吨'],tw:'成熟分散无扩产潮，投资偏智能化/再生料改造；冷却水/工艺角座阀对口，需求随技改与专用料产线零散释放。',act:'跟踪改性料/再生料技改与新能源专用料产线，角座阀切冷却工段。',src:['华经产业研究院','发改委再生材料方案']},
+  pi4:{b:'PI',n:'印染/纺织',sub:'印染行业经济运行',heat:48.9,tr:'dn',delta:0,D:48,C:45,P:38,Pol:65,data:['2026Q1印染利润总额同比-16.1%，亏损面43.96%','《印染行业规范条件2025版》+双碳倒逼绿色技改'],tw:'效益全面下滑、扩产停滞；唯一亮点是环保/节能技改刚性——染色机、废水处理触发角座阀、蝶阀更新。',act:'聚焦环保技改与废水零排放项目，染色/定型角座阀+废水蝶阀切入。',src:['中国纺织工业联合会','报告大厅']},
+  pi5:{b:'PI',n:'空分/工业气体',sub:'工业气体市场规模/特气',heat:69.5,tr:'up',delta:0,D:74,C:72,P:52,Pol:70,data:['2026中国工业气体市场约2842亿元，CAGR约9.6-10%','特种气体2026约808亿元、CAGR18.76%，杭氧扩产'],tw:'长坡厚雪优质赛道，电子特气+国产替代驱动扩产；低温切断阀、调节阀对口空分装置，国产装备商配套、无外资据点=甜点。',act:'跟踪杭氧等空分装备商订单与电子特气产能，低温切断/调节阀配套。',src:['气体网','IGChina']},
+  pi6:{b:'PI',n:'环保/水处理',sub:'工业废水/超低排放改造',heat:58.2,tr:'fl',delta:0,D:58,C:50,P:50,Pol:80,data:['十五五开局《生态环境法典》8月施行，环保装备市场预计破6500亿','工业废水处理2026约36.7亿美元、CAGR仅4.8%，转运营'],tw:'从建设转运营，新建放缓但政策(80)最强；卖阀点集中在水泥/焦化超低排放改造+废水零排放/资源化，蝶/球/切断阀对口。',act:'聚焦超低排放改造与废水资源化项目，蝶阀/球阀/切断阀切改造工段。',src:['OFweek环保网','生态环境部','新华网']},
 };
 
 const SOURCES=[
@@ -910,10 +923,20 @@ const SCORE_MODEL = {
     p3:[30,'生物药融资：金融信号，非阀门'],
     p4:[60,'制药装备 Capex：东富龙已 spec 进=机会，楚天/森松需 design-in'],
     p5:[62,'CDMO：多肽/ADC 原料药端国产友好(决策8 GLP-1原料药甜点)'],
-    l1:[35,'质谱/色谱：分析仪器国产替代，非流体阀门'], l2:[30,'基因测序：仪器，非流体阀门'], l3:[35,'IVD：诊断仪器，非流体阀门'],
+    l1:[38,'质谱/色谱：仪器电磁阀/微阀有需求，但 Bürkert 主场、ESG 赢面低'],
+    l2:[42,'基因测序：国产装机高增带微阀需求+不可靠实体清单顺风，但外资微阀在位'],
+    l3:[38,'IVD：化学发光国产替代带微阀需求，但集采压利润+外资在位'],
     f1:[55,'食品制造：卫生级流体相关，但 Bürkert/Gemü 据点在(O4)'],
     f2:[50,'酒/饮料：产能过剩+竞品在位'], f3:[45,'食品消费端：离设备采购远'],
-    f4:[75,'食品添加剂：合成生物发酵，甜点区'],
+    f4:[75,'食品添加剂：合成生物发酵，甜点区'], f5:[55,'饲料：气力输送/卫生级阀对口、国产友好，但扩产弱'],
+    g2:[45,'工程机械：液压件外资壁垒高，ESG工业阀相关性中等，机会在辅助/冷却系统'],
+    e5:[40,'核电：核级阀认证壁垒极高、ESG难进核岛，市场热但赢面低(非甜点)'],
+    pi1:[55,'化工：蝶/球/隔膜阀量大对口，Gemü部分在位(O4)、国产友好'],
+    pi2:[80,'橡胶轮胎：硫化角座/疏水阀对口、无外资据点、青岛属地+出海潮，甜点区'],
+    pi3:[62,'泡塑/注塑：冷却/工艺角座阀对口、国产友好、无外资据点'],
+    pi4:[60,'印染：染色/定型角座阀对口、国产友好、环保技改触发'],
+    pi5:[68,'空分/工业气体：低温切断阀对口、国产装备商配套、无外资据点，甜点'],
+    pi6:[65,'环保/水处理：废水蝶/球阀对口、国产友好、无外资据点'],
   },
 };
 const wOf   = id => (SCORE_MODEL.W[id] || [50])[0];
@@ -924,6 +947,10 @@ const wPct  = k  => Math.round((SCORE_MODEL.weights[k]||0)*100);  // 维度卡�
 Object.keys(T).forEach(id=>{ const W=wOf(id);
   T[id].W=W; T[id].why=whyOf(id); T[id].esgGap=Math.round((W-T[id].heat)*10)/10; });
 Object.keys(BM).forEach(b=>{ const ws=BM[b].tracks.map(wOf);
+  const hs=BM[b].tracks.map(id=>T[id]&&T[id].heat).filter(v=>v!=null);
+  // 板块 heat 自动派生=赛道 heat 均值（与 W 对称，加赛道即反映）。**BM 里的 heat: 字面量是死值**——
+  // 有 tracks 时（当前全部 board 都有）必被此行覆盖；字面量仅作"board 无 track"的兜底，改它无效，别信源码里的值。
+  if(hs.length) BM[b].heat=Math.round(hs.reduce((a,c)=>a+c,0)/hs.length*10)/10;
   const W=Math.round(ws.reduce((a,c)=>a+c,0)/ws.length); BM[b].W=W; BM[b].esgGap=Math.round((W-BM[b].heat)*10)/10; });
 
 /* ── HELPERS ── */
@@ -1717,19 +1744,22 @@ window.openModal = function(id) {
 /* ── VUNELIX-INSPIRED ORIGINAL HEATMAP ── */
 let heatmapLabelMode = 'symbol';
 let selectedHeatId = 'e2';
+let L2HEAT = {};  // L2 派生：industry_tag → 引擎事件热度信号（run build_industry_heat.py 生成，读不到则空）
 const MARKET_FILTERS = {
   all: BO,
-  manufacturing: ['EI','GI','F&B'],
+  manufacturing: ['EI','GI','PI','F&B'],
   healthcare: ['P&B','L&M'],
   energy: ['EI']
 };
 const HEAT_SYMBOLS = {
   m1:'PMI',m2:'M2',m3:'FAI',
   e1:'LIQ',e2:'SEMI',e3:'H2',e4:'FCEV',
-  g1:'LIB',
+  g1:'LIB',g2:'CM',
   p1:'BD',p2:'SYN',p3:'BIO$',p4:'PX',p5:'CDMO',
   l1:'MS',l2:'SEQ',l3:'IVD',
-  f1:'FOOD',f2:'BEV',f3:'CONS',f4:'ADD'
+  f1:'FOOD',f2:'BEV',f3:'CONS',f4:'ADD',f5:'FEED',
+  e5:'NUKE',
+  pi1:'CHEM',pi2:'TIRE',pi3:'PLAS',pi4:'DYE',pi5:'ASU',pi6:'EPT'
 };
 // L1→L2 钻取映射：赛道 → 引擎事件的 industry_tag（= 对应工况 industries[0]）。
 // 只有挂得上阀门工况的赛道才钻取；宏观/半导体/仪器/金融类无工况 → 不给钻取链（诚实）。
@@ -1737,7 +1767,11 @@ const TRACK_DRILL = {
   g1:'电池制造',          // 锂电设备 → lithium_injection
   p2:'生物制品', f4:'生物制品',   // 合成生物/食品添加剂 → biosynthesis
   p4:'医药制造业', p5:'医药制造业', // 制药装备/CDMO → pharma_ref
-  f1:'食品饮料', f2:'食品饮料',    // 食品/酒饮料制造 → hygienic
+  f1:'食品饮料', f2:'食品饮料', f5:'食品饮料',  // 食品/酒饮料/饲料 → hygienic
+  pi1:'化工',                     // 化工 → heavy_process
+  pi2:'橡胶和塑料制品业', pi3:'橡胶和塑料制品业', pi4:'橡胶和塑料制品业', // 轮胎/注塑/印染 → rubber_curing
+  pi5:'工业气体',                 // 空分 → air_separation
+  pi6:'环保', e5:'核电',          // 环保 → environmental；核电 → nuclear
 };
 const INDUSTRY_USE = {
   zh: {
@@ -1746,7 +1780,8 @@ const INDUSTRY_USE = {
     GI:{label:'通用工业与电池产线', purpose:'用于判断大客户扩产是否还能带动自动化和流体控制设备需求。', action:'跟踪龙头产能扩张和海外工厂落地节奏。'},
     'P&B':{label:'生物制药、CDMO 与合成生物', purpose:'用于识别新药出海、多肽/ADC/CDMO、合成生物中试放大带来的设备机会。', action:'把销售线索放在中试、发酵、纯化和专用产线。'},
     'L&M':{label:'实验室医疗与高端仪器国产替代', purpose:'用于判断进口替代、医院设备替换和高端分析仪器国产化的推进强度。', action:'优先跟踪质谱、测序、IVD 的国产替代客户。'},
-    'F&B':{label:'食品饮料与消费设备需求', purpose:'用于区分传统产能扩张放缓与功能成分、发酵、预制菜等结构性机会。', action:'避开低 Capex 传统扩产，关注改造替换和功能成分产线。'}
+    'F&B':{label:'食品饮料与消费设备需求', purpose:'用于区分传统产能扩张放缓与功能成分、发酵、预制菜等结构性机会。', action:'避开低 Capex 传统扩产，关注改造替换和功能成分产线。'},
+    PI:{label:'过程工业（化工·橡塑·空分·环保）', purpose:'用于捕捉化工/轮胎/空分/环保等过程行业的新建与技改带来的流体阀门机会，多为 ESG 角座/蝶/球阀对口工况。', action:'紧盯轮胎出海新厂、化工重大项目、空分扩产与环保超低排放改造。'}
   },
   en: {
     Macro:{label:'Macro Calibration Layer', purpose:'Use it to decide whether the week deserves offensive opportunity search or defensive risk control.', action:'Read PMI / M2 / FAI first to set the overall tempo.'},
@@ -1754,7 +1789,8 @@ const INDUSTRY_USE = {
     GI:{label:'General Industry & Battery Lines', purpose:'Use it to judge whether major customer expansion still supports automation and fluid-control demand.', action:'Track leader capex and overseas factory milestones.'},
     'P&B':{label:'Biopharma, CDMO & Synthetic Biology', purpose:'Use it to capture equipment demand from license-out, peptide/ADC/CDMO, and pilot-to-scale-up activity.', action:'Focus leads on pilot, fermentation, purification, and dedicated production lines.'},
     'L&M':{label:'Lab-Medical & Instrument Localization', purpose:'Use it to judge import substitution, hospital replacement, and domestic high-end instrument momentum.', action:'Prioritize mass spec, sequencing, and IVD localization customers.'},
-    'F&B':{label:'Food & Beverage Equipment Demand', purpose:'Use it to separate weak traditional capacity expansion from structural opportunities in functional ingredients and fermentation.', action:'Avoid low-capex expansion and focus on replacement or functional ingredient lines.'}
+    'F&B':{label:'Food & Beverage Equipment Demand', purpose:'Use it to separate weak traditional capacity expansion from structural opportunities in functional ingredients and fermentation.', action:'Avoid low-capex expansion and focus on replacement or functional ingredient lines.'},
+    PI:{label:'Process Industry (Chemicals · Rubber/Plastics · ASU · Environmental)', purpose:'Use it to capture fluid-valve opportunities from greenfield and revamp projects across chemicals, tires, air separation, and environmental sectors.', action:'Track tire overseas plants, major chemical projects, ASU expansion, and ultra-low-emission retrofits.'}
   }
 };
 const TRACK_USE = {
@@ -1856,6 +1892,8 @@ function updateHeatDetail(id){
     </div>
     <div class="detail-note">${esc(t.tw)}</div>
     <div class="detail-note">${esc(t.act)}</div>
+    ${(()=>{const l2=L2HEAT[TRACK_DRILL[id]];if(!l2||!l2.event_count)return '';const en=currentLang==='en';
+      return `<div class="detail-note" style="border-left-color:#39ff88">${en?'L2 event signal (from engine events)':'L2 事件信号（引擎真实事件派生）'} <strong>${l2.l2_signal}</strong> · ${l2.event_count} ${en?'events':'事件'} · ${l2.account_count} ${en?'accounts':'账户'} · ${en?'latest':'最新'} ${esc(l2.freshest||'—')}</div>`;})()}
     <div class="detail-actions">
       ${TRACK_DRILL[id] ? `<a class="drill" href="events.html?industry=${encodeURIComponent(TRACK_DRILL[id])}">${currentLang==='en'?`Drill to ${attr(TRACK_DRILL[id])} projects →`:`钻取 ${esc(TRACK_DRILL[id])} 项目 →`}</a>` : ''}
       <a href="${attr(m.href)}">${currentLang==='en'?'Open Sector Page':'进入专题页'}</a>
@@ -1929,6 +1967,11 @@ function renderHeatmap(){
   }).join('');
   if(!items.some(({id})=>id===selectedHeatId) && items[0]) selectedHeatId = items[0].id;
   updateHeatDetail(selectedHeatId);
+  // L2 派生：叠加引擎事件的行业热度信号（ROADMAP A1 起步）。一次性拉取；读不到=优雅降级，只显 rubric heat。
+  if(!window._l2Loaded){window._l2Loaded=true;
+    fetch('data/industry_heat.json?t='+Date.now()).then(r=>r.ok?r.json():null).then(d=>{
+      if(d&&d.by_industry){L2HEAT=d.by_industry;if(selectedHeatId)updateHeatDetail(selectedHeatId);}
+    }).catch(()=>{});}
 }
 function initHeatmap(){
   ['hm-market','hm-index','hm-sector','hm-size','hm-color'].forEach(id=>{

@@ -20,6 +20,14 @@
     {"name": "估值-璞泰来产能无金额→大", "text": "璞泰来年产72亿平方米锂电隔膜生产线新建", "source_type": "capex",
      "expect": {"condition_id": "lithium_injection", "value_band": "大"}},
     {"name": "估值-吨位不误读为元", "text": "年产50万吨聚丙烯装置新建项目", "source_type": "capex",
-     "expect": {"condition_id": "heavy_process", "value_band": "大"}}
+     "expect": {"condition_id": "heavy_process", "value_band": "大"}},
+    {"name": "泛词降权-纯建设动词不立案(weak-only)", "text": "某工业园区管道扩建技改项目", "source_type": "capex",
+     "expect": {"match_zero": true}},
+    {"name": "泛词降权-非食品生产线不立案(weak-only)", "text": "某汽车零部件生产线新建项目", "source_type": "capex",
+     "expect": {"match_zero": true}},
+    {"name": "泛词降权-真信号不被误伤", "text": "某化工反应釜精馏装置扩建技改项目", "source_type": "capex",
+     "expect": {"condition_id": "heavy_process", "match_min": 6.0}},
+    {"name": "weak-only不立案-风电机组扩建应NO_MATCH", "text": "某风电场机组扩建项目", "source_type": "capex",
+     "expect": {"match_zero": true}}
   ]
 }

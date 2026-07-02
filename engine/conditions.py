@@ -16,6 +16,9 @@ DEFAULT_CONFIG = ROOT / "config" / "esg_conditions.yml"
 # 关键词权重梯度，沿用 fetch_pharma.py L345-349
 STRONG_WEIGHT = 1.5
 MID_WEIGHT = 0.8
+# weak：非工况判别的泛词（生产线/扩建/技改/管道/蒸汽/机组…）。给极低权重——
+# 保留 recall（边界信号仍能浮出）但不让它决定工况或打破平局、不虚高排序分。
+WEAK_WEIGHT = 0.3
 MAX_SCORE = 10.0
 
 # 句子切分：中英文句末标点 + 换行（用于抽"命中证据句"）
@@ -52,15 +55,23 @@ def classify_condition(text: str, source_type: str, cfg: dict) -> dict:
         kw = cond.get("keywords", {})
         hits = []
         score = 0.0
+        has_discriminative = False  # 至少一个 strong/mid 命中才立案——weak 泛词只加分不单独定工况
         for k in kw.get("strong", []):
             if k in text:
                 score += STRONG_WEIGHT
                 hits.append(k)
+                has_discriminative = True
         for k in kw.get("mid", []):
             if k in text:
                 score += MID_WEIGHT
                 hits.append(k)
-        if score > 0:
+                has_discriminative = True
+        for k in kw.get("weak", []):
+            if k in text:
+                score += WEAK_WEIGHT
+                hits.append(k)
+        # weak-only（无判别词）不立案：否则"风电机组扩建"仅凭泛词被误判成某工况（注释承诺不破平局）
+        if score > 0 and has_discriminative:
             scored.append((score, cond, hits))
 
     if not scored:
@@ -74,7 +85,6 @@ def classify_condition(text: str, source_type: str, cfg: dict) -> dict:
             "industry_tag": None,
             "valve_type": {"primary": [], "basis": "未命中任何 ESG 工况"},
             "buyer_role_cfg": None,
-            "competitor_density": "mid",
         }
 
     scored.sort(key=lambda s: s[0], reverse=True)
@@ -94,5 +104,4 @@ def classify_condition(text: str, source_type: str, cfg: dict) -> dict:
             "basis": f"{primary['label']}工况信号（命中：{'、'.join(top_hits[:4])}）",
         },
         "buyer_role_cfg": primary.get("buyer_role"),
-        "competitor_density": primary.get("competitor_density", "mid"),
     }

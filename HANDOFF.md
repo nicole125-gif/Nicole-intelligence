@@ -6,11 +6,11 @@
 > - **ROADMAP.md** — 下一步路线（P0/P1/P2）、框架 5 洞状态、阻塞依赖。
 >
 > 另：方法论北极星 `docs/INTELLIGENCE_OS.md`；实现计划 `~/.claude/plans/https-www-esgvalve-cn-gleaming-stroustrup.md`；项目记忆 `~/.claude/projects/.../memory/esg-event-engine.md` + `esg-spec-position.md`。
-> 最后更新 2026-07-02 ｜ 引擎主体在 `main`：里程碑1 + winnability + **O1/O2-A/O3/O4** 本体化 + 本体图谱 + 订单簿源（PR #23）｜ 处置闭环已上线（Vercel+Upstash）｜ 漏斗 B1/B2（PR #18）｜ 热力图 ESG 化（PR #20/#22）。Brave key 已 park（§7）。WIP/自动化在 `automation/monthly-update`。
+> 最后更新 2026-07-02 ｜ 引擎主体在 `main`：里程碑1 + winnability + **O1/O2-A/O3/O4** 本体化 + 本体图谱 + 订单簿源（PR #23）｜ 处置闭环已上线（Vercel+Upstash）｜ 漏斗 B1/B2（PR #18）｜ 热力图 ESG 化（PR #20/#22）｜ 5 层栈 + RSS源 + 评估集（PR #30/#31/#32 已合）。Brave key 已 park（§7）。WIP/自动化在 `automation/monthly-update`。
 >
-> **🟡 本会话产出 = 3 个待合 PR + 一个新框架（详见 §12）**：**5 层情报栈**（新心智模型）｜ L1 拆出 ESG赢面（纯市场温度）+ L1→L2 钻取（PR #31）｜ RSS/微信源（PR #30）｜ 黄金评估集 + 抽取接地（PR #32）。
+> **🟡 本会话产出（07-02 晚）= PR #33 待合（详见 §13）**：热力图**对齐 ESG 19 大行业**（+9 赛道/新板块「过程工业」）｜**heat 评分 rubric**（可复现）+ 全部老赛道按 2026 真数据统一重评｜**L2 事件派生行业热度**（ROADMAP A1 地基，并行印证层）｜泛词降权 + 本体死字段清理 + 3 新工况（空分/核电/环保）。7 commit、65 测试全过。
 >
-> **🔑 下次开机关键词**：`读 HANDOFF §12 + ARCHITECTURE §0.5（5层模型），先合 PR #30/#31/#32`——先把三个 PR 合掉（互不冲突，#30/#32 引擎、#31 前端）。合完的候选下一步见 §12。P1.6 漏斗为既往主线（下）：
+> **🔑 下次开机关键词**：`读 HANDOFF §13 + docs/heat-scoring-rubric.md，先合 PR #33`。合完的闭环待办：① `scripts/build_industry_heat.py` 接 B0 数据 CI（随 events/ontology 一起上线，L2 信号才可见、heat 才自动刷新）② 源扩量（微信中转/zyzhan）让 L2 覆盖成熟、α 下调。P1.6 漏斗为既往主线（下）：
 >
 > **P1.6 漏斗串链**（热力图入口→下钻事件→带 方案/竞品/产品推荐，先 B 后 A）：
 > - **✅ B1/B2 已完成**（PR #18）：事件卡带 推荐产品 + 在位竞品（具名+威胁分/绿地"无外资在位"）；events.html 加行业过滤 + `?industry=` deep-link（B3 下钻入口已备）。
@@ -139,7 +139,7 @@ NODE_USE_ENV_PROXY=1 npx vercel@latest deploy --prod --yes   # 公开别名见 �
 
 - **路线见 ROADMAP P1.6**（先 B 后 A）；细节+取舍见记忆 `product-vision-funnel.md`。
 - **进度**：**✅ B1**（事件卡带 推荐产品 + 在位竞品，引擎加 `competitors` 字段）、**✅ B2**（events.html 行业过滤 + `?industry=` deep-link）已落地（PR #18）。**⏭ B3** = 热力图混合+点击下钻（依赖 B0 数据 + 老管线热度，等 Codex 的 B0；B2 的 deep-link 入口已备好接它）。A 阶段后置。
-- **✅ 热力图 ESG 化已落地**（2026-06-23，PR #20，首页 `index.html` Market Heatmap 评分逻辑深度优化）：① **重锚 Heat Score** = `Capex×30 + W×25 + Demand×20 + Policy×15 + Price×10`（Capex 销售触发器领权、Price 降权）；② **新增 W=ESG 赢面/国产替代空间**（渲染层 `TRACK_W` 逐赛道种子，依据决策8 甜点区/竞品护城河/阀门相关性；heat 渲染层重算覆盖 bot 旧值，bot 月度更 D/C/P/Pol 照常流入、W 不被清）；③ **Color/Size By: ESG赢面 W**（甜点区绿/护城河红一眼可见）；④ delta 重定义为「ESG vs 市场」偏移。效果:排名从"市场热"翻成"ESG 能赢"(合成生物 TOP1、基因测序/宏观下沉)。**注**:改的是渲染层非 bot 数据,若 bot 整文件重生成 index.html 需留意；W 是手工种子,后续可考虑从 engine winnability 派生(接 B3/漏斗)。
+- **✅ 热力图 ESG 化已落地**（2026-06-23，PR #20，首页 `index.html` Market Heatmap 评分逻辑深度优化）｜**⚠ 本条 Heat 公式已被 PR #31 取代**——W 已从 Heat 拆出（现行 Heat=`Capex×.40+需求×.27+政策×.20+价格×.13` 纯市场，W 降为 L3 单列、`delta=W−Heat`，见 §12 / ARCHITECTURE §0.5）；下文①②③④保留作 PR #20 历史。：① **重锚 Heat Score** = `Capex×30 + W×25 + Demand×20 + Policy×15 + Price×10`（Capex 销售触发器领权、Price 降权）；② **新增 W=ESG 赢面/国产替代空间**（渲染层 `TRACK_W` 逐赛道种子，依据决策8 甜点区/竞品护城河/阀门相关性；heat 渲染层重算覆盖 bot 旧值，bot 月度更 D/C/P/Pol 照常流入、W 不被清）；③ **Color/Size By: ESG赢面 W**（甜点区绿/护城河红一眼可见）；④ delta 重定义为「ESG vs 市场」偏移。效果:排名从"市场热"翻成"ESG 能赢"(合成生物 TOP1、基因测序/宏观下沉)。**注**:改的是渲染层非 bot 数据,若 bot 整文件重生成 index.html 需留意；W 是手工种子,后续可考虑从 engine winnability 派生(接 B3/漏斗)。
 - **B0 数据 CI = Codex 做**；**竞品层复用 knowledge-center / Pharma CI Radar**（别重建）；月度更新 B 阶段保留喂热力图广度、A2 退役。
 
 ## 10. CI Radar 对接（跨产品接缝，2026-06-25）
@@ -191,3 +191,27 @@ NODE_USE_ENV_PROXY=1 npx vercel@latest deploy --prod --yes   # 公开别名见 �
 - **martinfowler 剩余建议**（未做）：#3 运行质量日志（`_runlog.jsonl`）｜#4 LLM 前置门槛写 ROADMAP（接 DeepSeek/RAG 前先建 RAGAS 评估 + 供应商兜底）｜#5「引擎保持确定性」立原则｜#6 给 Codex 交接（这篇=CI Radar 蓝图）。
 - **微信中转**（阻塞·用户做）：订阅 wechat2rss → 把 `rss_sources.json` 的 8 个 `TODO-WECHAT-RELAY` 换成真 feed url（§11）。
 - **`zyzhan.py` 直抓源**：比微信稳的结构化招标源，备选（§11）。
+
+## 13. 本会话产出（2026-07-02 晚）：热力图对齐 ESG 业务 + heat 可复现/可派生（PR #33 待合）
+
+> **背景链**：用户从"热力图适配公司业务范围（补注塑等）"一路推到"确保 web 抓取信息足以代替行业热度"。据此把热力图从旧的热点赛道，重构为**对齐 ESG 青岛精锐真实阀门业务**，并把"行业热度"从拍脑袋升级为**可复现 rubric + 可自动派生（L2 事件）**。**分支 `feat/heatmap-industry-alignment`，7 commit，PR #33（未合）**。
+
+### 五条子线（= PR #33 的 7 个 commit）
+1. **本体清理 + 完整性门禁 + 3 新工况**（`56e3523`）：删死字段 `competitor_density`（O3 后由 strongholds 派生）/ per-OEM `capex_ratio`（从未接线）；加 `OntologyIntegrityTests`（stronghold/spec 引用完整性）；**新增工况 `air_separation/nuclear/environmental`**（让空分/核电/环保下钻落到真队列）。
+2. **热力图对齐 ESG 业务**（`19d0fc6`）：+9 赛道——新板块**「过程工业 PI」**（化工/橡胶轮胎/泡塑注塑/印染/空分/环保）+ 核电(→EI) + 饲料(→F&B) + 工程机械(→GI)；`TRACK_DRILL` 接引擎 industry_tag；`events.html` 深链空行业优雅降级（可清除 chip + 友好空态）。
+3. **泛词降权 + golden 锁**（`d420716`）：新增 `weak`(0.3) 词层，8 个泛词（生产线/扩建/技改/管道…）从 mid 降级（保 recall 不虚高排序）；golden 加 `match_max` 门禁 + 3 锁定用例。
+4. **板块 heat 自动派生 + heat rubric + 全量重评**（`54e6093`/`acd0de8`/`50df7f6`）：板块 heat 改赛道均值自动派生；`docs/heat-scoring-rubric.md`（C/D/Pol/P 指标→分档表、**Capex 中企口径含出海=决策4**、溯源、诚实精度）；按 rubric 用 2026 真数据**统一重评全部 14 老赛道**，heat 由公式反算、出处落 data[]/src[]。**显著纠偏**：固投FAI 62→46（实际转负−4.1%）、燃料电池 73→55、液冷 75→86、锂电 75→85。
+5. **L2 事件派生行业热度**（`5e0e8e0`，ROADMAP A1 地基）：`engine/industry_heat.py`+`scripts/build_industry_heat.py` 把引擎事件按 industry_tag 聚合成 `l2_signal=Σ(价值档分×新鲜度)`→`data/industry_heat.json`（gitignore）；index.html 一次性 fetch，赛道详情叠"L2 事件信号"，读不到优雅降级。
+
+### 🔑 本会话关键决策
+- **Capex 口径 = 中资企业 capex（含中企出海建厂）**，非"只算国内工厂"（对齐决策4；修正了我一度想剔除橡胶轮胎出海 capex 的错判——出海经国内披露监测=机会）。
+- **L2 派生现为并行印证层、不替换 rubric heat**：源稀疏（多数行业 0 事件），纯 L2 会误降到 0。rubric 文档写清 **α-blend 接管路线**（α=1 现在纯 rubric → 覆盖成熟按行业下调 → α=0 终局纯 events）。
+- **l1/l2/l3 仪器（质谱/基因/IVD）= 阀门相关**（用户确认有电磁阀/微阀需求），但**赢面 W 低**（仪器电磁阀是 Bürkert 主场）。
+- **p1 生物药出海/p3 生物药融资 = 上游金融信号，不套阀门 rubric**，保留不动。
+- **宏观 m1/m2/m3 = 校准层**，按当期宏观值刷新（heat 仍走公式，与全表同尺）。
+
+### ⏭ 合并后闭环待办（让"heat 自动刷新"判据真正成立，非本仓纯前端能独立完成）
+- **① CI 接线**：`scripts/build_industry_heat.py` 并入 **B0 数据 CI**（Codex 在做的那条，同 `build_ontology.py`）——随 events/ontology 一起产出 `data/industry_heat.json` 上线，L2 信号才在部署可见。
+- **② 源扩量**（§11）：微信中转 + `zyzhan.py` 直抓，让事件覆盖成熟，α 才有下调空间。
+- **③ 逐子分 provenance**（rubric §7）：给每个 C/D/Pol/P 挂指标值+来源+asof（现落在 data[]/src[]，未逐子分拆）。
+- 前几轮 review 的既往遗留（未做）：`nav.js` 顶竞品 Bürkert 品牌｜旗舰新页 events/ontology 主导航进不去｜`ontology.html` 零错误处理｜O1 未解析业主→L2 簇质量。
