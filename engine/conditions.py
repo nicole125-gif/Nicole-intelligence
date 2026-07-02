@@ -74,7 +74,6 @@ def classify_condition(text: str, source_type: str, cfg: dict) -> dict:
             "industry_tag": None,
             "valve_type": {"primary": [], "basis": "未命中任何 ESG 工况"},
             "buyer_role_cfg": None,
-            "competitor_density": "mid",
         }
 
     scored.sort(key=lambda s: s[0], reverse=True)
@@ -94,5 +93,4 @@ def classify_condition(text: str, source_type: str, cfg: dict) -> dict:
             "basis": f"{primary['label']}工况信号（命中：{'、'.join(top_hits[:4])}）",
         },
         "buyer_role_cfg": primary.get("buyer_role"),
-        "competitor_density": primary.get("competitor_density", "mid"),
     }

@@ -3,7 +3,7 @@
 # type: company（终端业主）| oem（装备商）| competitor（在位竞品）| self（ESG 自身）
 #
 # O4（2026-06-16）：把原孤儿化的两套本体折叠进来，终结双本体——
-#   - profile 来源 config/p4_opportunity_map.yml（OEM 档案：关键词/角色/对口阀型/在位竞品/capex 系数）
+#   - profile 来源 config/p4_opportunity_map.yml（OEM 档案：关键词/角色/对口阀型/在位竞品）
 #   - profile 来源 data/products_analysis.json summary（竞品威胁档：威胁分/产品数/高威胁产品）
 # load_registry 把整条 entity dict 按 id 存入 by_id，故 get(id) 自动带出 profile，无需 join 代码。
 # p4_opportunity_map.yml 仍由 legacy scripts/p4_opportunities.py 读取，保留不删；实体数据以本文件为准。
@@ -24,7 +24,6 @@ entities:
           names: [气动和过程, 液体和气体阀门, 过程阀和调节阀]
         - company: Gemü
           names: [Type 1435 - 截止调节阀]
-      capex_ratio: {low: 0.005, high: 0.015}  # 制药装备 track，模型估算待复盘校准
   - id: tofflon
     name: 东富龙
     type: oem
@@ -39,7 +38,6 @@ entities:
           names: [电磁阀, 过程控制阀, 液体和气体阀门]
         - company: ESG
           names: [卫生级阀门, 膜塞阀]  # 与 spec_position: in 一致（ESG 已在东富龙 BOM）
-      capex_ratio: {low: 0.005, high: 0.015}
   - id: morimatsu
     name: 森松国际
     type: oem
@@ -54,7 +52,6 @@ entities:
           names: [气动和过程, 工业通讯, 流量传感器和液位传感器]
         - company: Gemü
           names: [Type 1435 - 截止调节阀]
-      capex_ratio: {low: 0.005, high: 0.015}
   - id: austar
     name: 奥星生命科技
     type: oem
