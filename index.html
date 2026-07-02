@@ -1742,6 +1742,7 @@ window.openModal = function(id) {
 /* ── VUNELIX-INSPIRED ORIGINAL HEATMAP ── */
 let heatmapLabelMode = 'symbol';
 let selectedHeatId = 'e2';
+let L2HEAT = {};  // L2 派生：industry_tag → 引擎事件热度信号（run build_industry_heat.py 生成，读不到则空）
 const MARKET_FILTERS = {
   all: BO,
   manufacturing: ['EI','GI','PI','F&B'],
@@ -1889,6 +1890,8 @@ function updateHeatDetail(id){
     </div>
     <div class="detail-note">${esc(t.tw)}</div>
     <div class="detail-note">${esc(t.act)}</div>
+    ${(()=>{const l2=L2HEAT[TRACK_DRILL[id]];if(!l2||!l2.event_count)return '';const en=currentLang==='en';
+      return `<div class="detail-note" style="border-left-color:#39ff88">${en?'L2 event signal (from engine events)':'L2 事件信号（引擎真实事件派生）'} <strong>${l2.l2_signal}</strong> · ${l2.event_count} ${en?'events':'事件'} · ${l2.account_count} ${en?'accounts':'账户'} · ${en?'latest':'最新'} ${esc(l2.freshest||'—')}</div>`;})()}
     <div class="detail-actions">
       ${TRACK_DRILL[id] ? `<a class="drill" href="events.html?industry=${encodeURIComponent(TRACK_DRILL[id])}">${currentLang==='en'?`Drill to ${attr(TRACK_DRILL[id])} projects →`:`钻取 ${esc(TRACK_DRILL[id])} 项目 →`}</a>` : ''}
       <a href="${attr(m.href)}">${currentLang==='en'?'Open Sector Page':'进入专题页'}</a>
@@ -1962,6 +1965,11 @@ function renderHeatmap(){
   }).join('');
   if(!items.some(({id})=>id===selectedHeatId) && items[0]) selectedHeatId = items[0].id;
   updateHeatDetail(selectedHeatId);
+  // L2 派生：叠加引擎事件的行业热度信号（ROADMAP A1 起步）。一次性拉取；读不到=优雅降级，只显 rubric heat。
+  if(!window._l2Loaded){window._l2Loaded=true;
+    fetch('data/industry_heat.json?t='+Date.now()).then(r=>r.ok?r.json():null).then(d=>{
+      if(d&&d.by_industry){L2HEAT=d.by_industry;if(selectedHeatId)updateHeatDetail(selectedHeatId);}
+    }).catch(()=>{});}
 }
 function initHeatmap(){
   ['hm-market','hm-index','hm-sector','hm-size','hm-color'].forEach(id=>{

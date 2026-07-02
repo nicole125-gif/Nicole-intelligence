@@ -98,7 +98,15 @@ heat = C×0.40 + D×0.27 + Pol×0.20 + P×0.13     (C/D/Pol/P 各 0–100)
 
 - [x] **老赛道统一重评**（2026-07-02 完成）：14 个赛道（m1-3/e1-4/g1/p2/p4/p5/l1-3/f1/f2/f4）全部按本 rubric 用 2026 真实数据重评，heat 一律由公式 C×.4+D×.27+Pol×.2+P×.13 反算，provenance 落在 index.html 各赛道 `data[]`（指标）+`src[]`（来源+asof）。全表现已同尺可比（判据2 达成）。**p1 生物药出海/p3 生物药融资**=纯金融信号，标"上游信号·不套阀门 rubric"保留不动。**l1/l2/l3 仪器**按用户确认有电磁阀/微阀需求，重评为阀门相关（阀型=仪器微阀，Bürkert 主场故 W 低）。
 - [ ] **逐子分 provenance**：给每个 C/D/Pol/P 挂 `指标值+来源+asof`（现落在 data[]/src[]，尚未逐子分拆分）。
-- [ ] **L2 派生**（ROADMAP A1）：heat 从引擎事件聚合算，实现自动刷新（判据4 终局）。
+- [~] **L2 派生**（ROADMAP A1，2026-07-02 起步）：`engine/industry_heat.py` + `scripts/build_industry_heat.py` 把引擎事件按 industry_tag 聚合成 `l2_signal = Σ(价值档分 × 新鲜度)` → `data/industry_heat.json`；index.html 读到就在赛道详情叠"L2 事件信号"（读不到优雅降级）。**现为并行印证层，不替换 rubric heat**——因源稀疏、多数行业 0 事件（纯 L2 会误降），覆盖成熟后按 blend 权重逐步接管，最终实现"heat 从真实事件自动刷新，不再人工重抓"。
+
+### L2 接管路线（blend）
+```
+heat_final = α × rubric_heat + (1−α) × l2_signal_normalized
+```
+- α=1（现在）：纯 rubric，L2 仅并行展示做印证/背离参照。
+- α 随"该行业事件覆盖度"下降：某行业事件数/账户数达阈值 → 该行业 α 下调，L2 开始接管。
+- α=0（终局）：源补齐（A0 政府源 + 微信/RSS 扩量）后，heat 纯 events 派生（ROADMAP A1/A2）。
 
 ### 重评显著纠偏（2026-07-02）
 - **m3 固投FAI 62.2→46.2**：旧值当中上景气，实际 2026 FAI 转负 −4.1%（最大假象纠偏）。

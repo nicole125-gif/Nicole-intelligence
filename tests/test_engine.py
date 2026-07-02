@@ -277,6 +277,38 @@ class OntologyIntegrityTests(unittest.TestCase):
             self.assertIn(ent.get("spec_position"), {"in", "target", None})
 
 
+class IndustryHeatTests(unittest.TestCase):
+    # L2 派生：事件按 industry_tag 聚合成热度信号（价值档 × 新鲜度）
+    def _pack(self):
+        return {"date": "2026-06-30", "events": [
+            {"id": "a", "industry_tag": "化工", "owner": {"id": "o1"},
+             "value_band": {"band": "大"}, "lead_time": {"level": "L1"},
+             "source": {"published_at": "2026-06-20"}},
+            {"id": "b", "industry_tag": "化工", "owner": {"id": "o2"},
+             "value_band": {"band": "小"}, "lead_time": {"level": "L2"},
+             "source": {"published_at": "2026-06-25"}},
+            {"id": "c", "industry_tag": "电池制造", "owner": {"id": "o1"},
+             "value_band": {"band": "中"}, "lead_time": {"level": "L0"},
+             "source": {"published_at": "2026-01-01"}},  # >90天 → 衰减
+        ]}
+
+    def test_aggregate_by_industry(self):
+        from engine import industry_heat
+        out = industry_heat.build_industry_heat(self._pack(), dt.date(2026, 6, 30))
+        self.assertEqual(out["化工"]["event_count"], 2)
+        self.assertEqual(out["化工"]["account_count"], 2)
+        self.assertEqual(out["化工"]["l2_signal"], 13)          # 大10 + 小3（均新）
+        self.assertEqual(out["电池制造"]["l2_signal"], 2)        # 中6 × 0.3 衰减
+
+    def test_signal_capped_at_100(self):
+        from engine import industry_heat
+        evs = [{"id": str(i), "industry_tag": "化工", "owner": {"id": f"o{i}"},
+                "value_band": {"band": "大"}, "lead_time": {"level": "L1"},
+                "source": {"published_at": "2026-06-29"}} for i in range(20)]
+        out = industry_heat.build_industry_heat({"date": "2026-06-30", "events": evs}, dt.date(2026, 6, 30))
+        self.assertEqual(out["化工"]["l2_signal"], 100)         # 200 → 封顶
+
+
 class RankingTests(unittest.TestCase):
     def test_big_band_beats_unknown(self):
         self.assertGreater(ranking.value_factor("大"), ranking.value_factor("未知"))

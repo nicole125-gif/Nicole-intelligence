@@ -4,5 +4,6 @@ index.html.bak
 pulse_vectordb/
 data/events/
 data/ontology.json
+data/industry_heat.json
 .vercel/
 .env.local
