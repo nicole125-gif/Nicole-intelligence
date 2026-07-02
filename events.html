@@ -285,8 +285,9 @@ function render(){
   ].map(x=>`<div class="stat ${x.c}"><div class="k">${x.k}</div><div class="v">${x.v}</div></div>`).join('');
   const indCount={}; DATA.events.forEach(e=>{const k=e.industry_tag||'其他';indCount[k]=(indCount[k]||0)+1;});
   const inds=['全部',...Object.keys(indCount).sort((a,b)=>indCount[b]-indCount[a])];
+  if(fIndustry!=='全部'&&!(fIndustry in indCount)) inds.push(fIndustry);  // 深链行业当前无事件也显示为可清除的选中项
   document.getElementById('f-industry').innerHTML=inds.map(c=>
-    `<button class="chip ${c===fIndustry?'on':''}" onclick="setF('industry','${esc(c)}')">${esc(c)}${c!=='全部'?` <span style="opacity:.6">${indCount[c]}</span>`:''}</button>`).join('');
+    `<button class="chip ${c===fIndustry?'on':''}" onclick="setF('industry','${esc(c)}')">${esc(c)}${c!=='全部'?` <span style="opacity:.6">${indCount[c]||0}</span>`:''}</button>`).join('');
   const conds=['全部',...Object.keys(s.by_condition||{})];
   document.getElementById('f-cond').innerHTML=conds.map(c=>
     `<button class="chip ${c===fCond?'on':''}" onclick="setF('cond','${c}')">${c}${c!=='全部'?` <span style="opacity:.6">${s.by_condition[c]}</span>`:''}</button>`).join('');
@@ -308,7 +309,10 @@ function renderQueue(){
       (fDisp==='全部'||(fDisp==='待处置'?!ds:ds===fDisp));
   });
   const q=document.getElementById('queue');
-  if(!evs.length){q.innerHTML='<div class="empty">该过滤条件下无线索。</div>';return;}
+  if(!evs.length){
+    const hint=fIndustry!=='全部'?`「${esc(fIndustry)}」行业当前无线索——引擎尚未捕捉到该行业事件（源覆盖）。点上方「全部」看其它行业。`:'该过滤条件下无线索。';
+    q.innerHTML=`<div class="empty">${hint}</div>`;return;
+  }
   q.innerHTML=evs.map((e,i)=>card(e,i)).join('');
 }
 

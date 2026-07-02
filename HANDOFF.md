@@ -139,7 +139,7 @@ NODE_USE_ENV_PROXY=1 npx vercel@latest deploy --prod --yes   # 公开别名见 �
 
 - **路线见 ROADMAP P1.6**（先 B 后 A）；细节+取舍见记忆 `product-vision-funnel.md`。
 - **进度**：**✅ B1**（事件卡带 推荐产品 + 在位竞品，引擎加 `competitors` 字段）、**✅ B2**（events.html 行业过滤 + `?industry=` deep-link）已落地（PR #18）。**⏭ B3** = 热力图混合+点击下钻（依赖 B0 数据 + 老管线热度，等 Codex 的 B0；B2 的 deep-link 入口已备好接它）。A 阶段后置。
-- **✅ 热力图 ESG 化已落地**（2026-06-23，PR #20，首页 `index.html` Market Heatmap 评分逻辑深度优化）：① **重锚 Heat Score** = `Capex×30 + W×25 + Demand×20 + Policy×15 + Price×10`（Capex 销售触发器领权、Price 降权）；② **新增 W=ESG 赢面/国产替代空间**（渲染层 `TRACK_W` 逐赛道种子，依据决策8 甜点区/竞品护城河/阀门相关性；heat 渲染层重算覆盖 bot 旧值，bot 月度更 D/C/P/Pol 照常流入、W 不被清）；③ **Color/Size By: ESG赢面 W**（甜点区绿/护城河红一眼可见）；④ delta 重定义为「ESG vs 市场」偏移。效果:排名从"市场热"翻成"ESG 能赢"(合成生物 TOP1、基因测序/宏观下沉)。**注**:改的是渲染层非 bot 数据,若 bot 整文件重生成 index.html 需留意；W 是手工种子,后续可考虑从 engine winnability 派生(接 B3/漏斗)。
+- **✅ 热力图 ESG 化已落地**（2026-06-23，PR #20，首页 `index.html` Market Heatmap 评分逻辑深度优化）｜**⚠ 本条 Heat 公式已被 PR #31 取代**——W 已从 Heat 拆出（现行 Heat=`Capex×.40+需求×.27+政策×.20+价格×.13` 纯市场，W 降为 L3 单列、`delta=W−Heat`，见 §12 / ARCHITECTURE §0.5）；下文①②③④保留作 PR #20 历史。：① **重锚 Heat Score** = `Capex×30 + W×25 + Demand×20 + Policy×15 + Price×10`（Capex 销售触发器领权、Price 降权）；② **新增 W=ESG 赢面/国产替代空间**（渲染层 `TRACK_W` 逐赛道种子，依据决策8 甜点区/竞品护城河/阀门相关性；heat 渲染层重算覆盖 bot 旧值，bot 月度更 D/C/P/Pol 照常流入、W 不被清）；③ **Color/Size By: ESG赢面 W**（甜点区绿/护城河红一眼可见）；④ delta 重定义为「ESG vs 市场」偏移。效果:排名从"市场热"翻成"ESG 能赢"(合成生物 TOP1、基因测序/宏观下沉)。**注**:改的是渲染层非 bot 数据,若 bot 整文件重生成 index.html 需留意；W 是手工种子,后续可考虑从 engine winnability 派生(接 B3/漏斗)。
 - **B0 数据 CI = Codex 做**；**竞品层复用 knowledge-center / Pharma CI Radar**（别重建）；月度更新 B 阶段保留喂热力图广度、A2 退役。
 
 ## 10. CI Radar 对接（跨产品接缝，2026-06-25）
