@@ -37,7 +37,8 @@ conditions:
     industries: [食品饮料, 食品制造业, 酒饮料精制茶制造业, 泡塑, 饲料]
     keywords:
       strong: [灌装, 无菌, 卫生级, CIP, SIP, 洁净, 乳品, 乳制品, 饮料, 发酵, 调配, 巴氏]
-      mid: [食品, 饮料厂, 罐装, UHT, 乳业, 啤酒, 饮品, 工厂新建, 生产线]
+      mid: [食品, 饮料厂, 罐装, UHT, 乳业, 啤酒, 饮品]
+      weak: [工厂新建, 生产线]   # 泛词：非卫生级判别，任何产线都命中 → 降权
     valve_types: [角座阀, 卫生级隔膜阀, 球阀]
     buyer_role:
       primary: 设备OEM
@@ -59,7 +60,8 @@ conditions:
     industries: [橡胶和塑料制品业, 轮胎, 橡塑, 印染]
     keywords:
       strong: [硫化, 轮胎, 硫化机, 橡胶, 染色, 定型机]
-      mid: [塑胶, 注塑, 印染, 定型, 蒸汽, 橡塑制品]
+      mid: [塑胶, 注塑, 印染, 定型, 橡塑制品]
+      weak: [蒸汽]   # 泛词：任何热工艺都有蒸汽 → 降权
     valve_types: [角座阀, 蝶阀, 疏水阀]
     buyer_role:
       primary: EPC
@@ -70,7 +72,8 @@ conditions:
     industries: [化工, 化学原料和化学制品制造业, 冶金, 电力]
     keywords:
       strong: [化工, 反应釜, 装置, 储罐, 精馏, 蒸发结晶]
-      mid: [管道, 扩建, 技改, 园区, 工艺装置]
+      mid: [工艺装置]
+      weak: [管道, 扩建, 技改, 园区]   # 泛词：纯建设动词，任何行业 capex 都有 → 降权
     valve_types: [蝶阀, 球阀, 隔膜阀]
     buyer_role:
       primary: EPC
@@ -103,7 +106,8 @@ conditions:
     industries: [核电, 电力]
     keywords:
       strong: [核电, 核电站, 核电机组, 核岛, 常规岛, 压水堆, 核能]
-      mid: [机组, 核准, 反应堆, 华龙一号, 乏燃料]
+      mid: [核准, 反应堆, 华龙一号, 乏燃料]
+      weak: [机组]   # 泛词：风电/火电/燃机都有"机组" → 降权
     valve_types: [切断阀, 调节阀, 蝶阀]
     buyer_role:
       primary: EPC

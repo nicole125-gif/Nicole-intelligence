@@ -16,6 +16,9 @@ DEFAULT_CONFIG = ROOT / "config" / "esg_conditions.yml"
 # 关键词权重梯度，沿用 fetch_pharma.py L345-349
 STRONG_WEIGHT = 1.5
 MID_WEIGHT = 0.8
+# weak：非工况判别的泛词（生产线/扩建/技改/管道/蒸汽/机组…）。给极低权重——
+# 保留 recall（边界信号仍能浮出）但不让它决定工况或打破平局、不虚高排序分。
+WEAK_WEIGHT = 0.3
 MAX_SCORE = 10.0
 
 # 句子切分：中英文句末标点 + 换行（用于抽"命中证据句"）
@@ -59,6 +62,10 @@ def classify_condition(text: str, source_type: str, cfg: dict) -> dict:
         for k in kw.get("mid", []):
             if k in text:
                 score += MID_WEIGHT
+                hits.append(k)
+        for k in kw.get("weak", []):
+            if k in text:
+                score += WEAK_WEIGHT
                 hits.append(k)
         if score > 0:
             scored.append((score, cond, hits))

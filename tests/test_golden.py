@@ -53,6 +53,11 @@ def _run_case(case: dict, cfg: dict, registry: dict) -> list[str]:
         fails.append(f"赢面 期望≥{exp['win_min']} 实得={win}")
     if "win_max" in exp and win > exp["win_max"]:
         fails.append(f"赢面 期望≤{exp['win_max']} 实得={win}")
+    ms = e["match_score"]
+    if "match_max" in exp and ms > exp["match_max"]:
+        fails.append(f"match_score 期望≤{exp['match_max']} 实得={ms}（泛词降权守门）")
+    if "match_min" in exp and ms < exp["match_min"]:
+        fails.append(f"match_score 期望≥{exp['match_min']} 实得={ms}")
     return fails
 
 
