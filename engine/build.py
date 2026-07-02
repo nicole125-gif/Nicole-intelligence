@@ -10,9 +10,21 @@ from __future__ import annotations
 
 import datetime as dt
 import hashlib
+import json
+from pathlib import Path
 
 from engine import buyer_role as br
 from engine import classify, conditions, entities, ranking, schema, valuation, winnability
+
+_FEEDBACK_PATH = Path(__file__).resolve().parents[1] / "data" / "feedback.json"
+
+
+def _load_feedback() -> dict:
+    """L5→L3 闭环：读已导出的 {condition_id: delta}（gitignore）。无文件=no-op（决策15）。"""
+    try:
+        return json.loads(_FEEDBACK_PATH.read_text(encoding="utf-8"))
+    except (FileNotFoundError, ValueError):
+        return {}
 
 
 def _text(signal: dict) -> str:
@@ -55,7 +67,8 @@ def _extraction_notes(review_flag, est_value, owner, cond, stale, is_oem) -> str
     return "；".join(notes)
 
 
-def build_event(signal: dict, cfg: dict, as_of: dt.date, registry: dict | None = None) -> dict | None:
+def build_event(signal: dict, cfg: dict, as_of: dt.date, registry: dict | None = None,
+                feedback: dict | None = None) -> dict | None:
     """装配单条事件。不属于任何 ESG 工况（match_score==0）则返回 None（丢弃）。"""
     text = _text(signal)
     source_type = signal.get("source_type", "")
@@ -134,7 +147,8 @@ def build_event(signal: dict, cfg: dict, as_of: dt.date, registry: dict | None =
     density = winnability.density_from_strongholds(cond.get("primary_id"), reg)
     incumbents = winnability.incumbents_for_condition(cond.get("primary_id"), reg)  # B1：具名在位竞品
     band = valuation.value_band(text, est_value)
-    win = winnability.assess(text, density, spec_position)
+    fb_delta = (feedback or {}).get(cond.get("primary_id"), 0.0)  # L5→L3 闭环（无标签时=0）
+    win = winnability.assess(text, density, spec_position, fb_delta)
     rank = ranking.rank_score(
         band["band"], lead_time["level"], cond["match_score"], win["score"])
 
@@ -248,11 +262,12 @@ def build_clusters(events: list[dict]) -> list[dict]:
 def build_pack(signals: list[dict], as_of: dt.date, cfg: dict | None = None) -> dict:
     cfg = cfg or conditions.load_conditions()
     registry = entities.load_registry()
+    feedback = _load_feedback()  # L5→L3 闭环消费（决策15：无标签则空 dict，赢面不变）
     events = []
     for signal in signals:
         if not signal.get("title"):
             continue
-        event = build_event(signal, cfg, as_of, registry)
+        event = build_event(signal, cfg, as_of, registry, feedback)
         if event is not None:
             events.append(event)
     ranking.sort_events(events)
