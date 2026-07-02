@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-07-01T04:26:39.141482+00:00",
+  "updated_at": "2026-07-02T04:05:45.456700+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "eafd7f24fc",
-      "title": "EAN 2026: New Fintepla data in Dravet Syndrome and LGS",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ean-2026-new-fintepla-data-in-dravet-syndrome-and-lgs/",
-      "summary": "The trial of Fintepla in Dravet Syndrome and LGS was run by researchers at the Brno Epilepsy Centre in Czechia.",
+      "id": "25274a3da8",
+      "title": "EAN 2026: Bocunebart’s promise as migraine preventive in treatment-refractory patients",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ean-2026-bocunebarts-promise-as-migraine-preventive-in-treatment-refractory-patients/",
+      "summary": "Bocunebart's PACAP-targeting mechanism positions it as a potential first-in-class therapy in a thin pipeline of novel late-stage candidates",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-30T15:59:55+00:00",
-      "pub_ts": 1782835195
+      "pub_date": "2026-07-01T19:36:09+00:00",
+      "pub_ts": 1782934569
     },
     {
-      "id": "11f19f3b1a",
-      "title": "Lilly and Regeneron amongst first incumbents to FDA’s fast-track facility scheme",
-      "url": "https://www.pharmaceutical-technology.com/news/lilly-and-regeneron-amongst-first-incumbents-to-fdas-fast-track-facility-scheme/",
-      "summary": "Seven pharma companies have been selected for the FDA PreCheck pilot – a framework intended to bolster the US drug supply chain.",
+      "id": "4354fdf6b1",
+      "title": "QuantumCell commits $2.2bn on AlzeCure’s Alzheimer’s platform",
+      "url": "https://www.pharmaceutical-technology.com/news/quantumcell-commits-2-2bn-on-alzecures-alzheimers-platform/",
+      "summary": "The lead product on AlzeCure’s platform has already demonstrated positive Phase I results.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-30T14:31:45+00:00",
-      "pub_ts": 1782829905
+      "pub_date": "2026-07-01T15:19:22+00:00",
+      "pub_ts": 1782919162
     },
     {
-      "id": "8225759c4e",
-      "title": "Talawar Therapeutics to debut on Nasdaq with $285m as Dupixent challenger",
-      "url": "https://www.pharmaceutical-technology.com/news/talawar-therapeutics-spac-public-debut-285m-ad-therapy/",
-      "summary": "Talawar Therapeutics will use the funds to take its AD (eczema) bispecific, TALA-125, through to Phase IIb proof-of-concept trials.",
+      "id": "cfbfcbc471",
+      "title": "Sanofi aims for Nexviazyme approval in younger Pompe disease patients",
+      "url": "https://www.pharmaceutical-technology.com/news/sanofi-aims-for-nexviazyme-approval-in-younger-pompe-disease-patients/",
+      "summary": "In Sanofi's Baby-COMET trial, Nexviazyme met all primary and secondary endpoints, teeing it up for potential label expansion in Pompe disease.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-30T09:53:16+00:00",
-      "pub_ts": 1782813196
+      "pub_date": "2026-07-01T13:57:36+00:00",
+      "pub_ts": 1782914256
     },
     {
-      "id": "43da829c33",
-      "title": "Anixa Biosciences secures Korean patent for breast cancer vaccine",
-      "url": "https://www.pharmaceutical-technology.com/news/anixa-korean-patent-breast-cancer-vaccine/",
-      "summary": "Anixa Biosciences has secured patent from the Korean Ministry of Intellectual Property (MOIP) for its breast cancer vaccine technology.",
+      "id": "1d480be196",
+      "title": "Surge in RMAT designations awarded by the FDA",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/surge-in-rmat-designations-awarded-by-the-fda/",
+      "summary": "The number of RMAT designations awarded by the FDA increased sharply from 2024, reaching a record of 48 RMAT designations in 2025.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-30T09:31:35+00:00",
-      "pub_ts": 1782811895
+      "pub_date": "2026-07-01T13:07:25+00:00",
+      "pub_ts": 1782911245
     },
     {
-      "id": "84ab3f075f",
-      "title": "Three years on: How is the industry coping with Annex 1?",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/three-years-on-how-is-the-industry-coping-with-annex-1/",
-      "summary": "Industry expert Ian Hudson shares his insights into the deeper nuances and practical impact of the revised EU GMP Annex 1.",
+      "id": "67b444ec47",
+      "title": "EAN 2026: Real-world data supports safety and efficacy of AbbVie’s Vyalev in Parkinson’s",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/abbvie-parkinsons-vyalev-long-term-data/",
+      "summary": "The real-world data study tracked Parkinson's disease patients for 12 months during treatment with AbbVie's Vyalev",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-06-30T09:31:11+00:00",
-      "pub_ts": 1782811871
+      "pub_date": "2026-07-01T12:50:20+00:00",
+      "pub_ts": 1782910220
     }
   ],
   "source_success_count": 1,

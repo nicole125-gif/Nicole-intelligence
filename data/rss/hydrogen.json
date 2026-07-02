@@ -3,111 +3,61 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-07-01T04:26:26.787604+00:00",
-  "item_count": 10,
+  "updated_at": "2026-07-02T04:05:33.096132+00:00",
+  "item_count": 5,
   "items": [
     {
-      "id": "699dbb63bc",
-      "title": "Hyundai Translead Adds Tom’s Truck Center to XCIENT Fuel Cell Truck Network",
-      "url": "https://fuelcellsworks.com/2026/06/30/fuel-cells/hyundai-translead-adds-tom-s-truck-center-to-xcient-fuel-cell-truck-network",
+      "id": "66b219ea76",
+      "title": "Teva Deploys Hydrogen Truck for Pharmaceutical Logistics in Germany",
+      "url": "https://fuelcellsworks.com/2026/06/29/h2/teva-deploys-hydrogen-truck-for-pharmaceutical-logistics-in-germany",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-30T15:45:49+00:00",
-      "pub_ts": 1782834349
+      "pub_date": "2026-07-01T15:50:45+00:00",
+      "pub_ts": 1782921045
     },
     {
-      "id": "e414da3e4c",
-      "title": "Hy-Hybrid Energy and Hyvoda Hydrogen Sign Strategic Partnership to Accelerate Affordable Hydrogen Solutions",
-      "url": "https://fuelcellsworks.com/2026/06/30/clean-energy/hy-hybrid-energy-and-hyvoda-hydrogen-sign-strategic-partnership-to-accelerate-affordable-hydrogen-solutions",
+      "id": "89e399f430",
+      "title": "Atome's Paraguay Crisis Deepens: AIM Shares Frozen as PPA Dispute Stalls Green Hydrogen Project",
+      "url": "https://fuelcellsworks.com/2026/07/01/h2/atome-s-paraguay-crisis-deepens-aim-shares-frozen-as-ppa-dispute-stalls-green-hydrogen-project",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-30T15:36:33+00:00",
-      "pub_ts": 1782833793
+      "pub_date": "2026-07-01T15:48:00+00:00",
+      "pub_ts": 1782920880
     },
     {
-      "id": "076b502379",
-      "title": "Vinssen Hydrogen Fuel Cell Leisure Boat 'Hydro Zenith' Sets Off",
-      "url": "https://fuelcellsworks.com/2026/06/25/fuel-cells/vinssen-hydrogen-fuel-cell-leisure-boat-hydro-zenith-sets-off",
+      "id": "feb0ee47ad",
+      "title": "A Plant That Turns Kent's Rubbish Into Hydrogen Has Been Submitted for Approval — and the Locals Are Split",
+      "url": "https://fuelcellsworks.com/2026/07/01/news/a-plant-that-turns-kent-s-rubbish-into-hydrogen-has-been-submitted-for-approval-and-the-locals-are-split",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-30T15:25:00+00:00",
-      "pub_ts": 1782833100
+      "pub_date": "2026-07-01T15:39:35+00:00",
+      "pub_ts": 1782920375
     },
     {
-      "id": "22dc0e6bab",
-      "title": "At the Connecting Hydrogen Europe Conference, Enagás Emphasised that H2med Is an Essential Piece of Infrastructure for Europe",
-      "url": "https://fuelcellsworks.com/2026/06/30/green-investment/at-the-connecting-hydrogen-europe-conference-enagas-emphasised-that-h2med-is-an-essential-piece-of-infrastructure-for-europe",
+      "id": "67b2ae3719",
+      "title": "Battery Swapping Puts Pressure on Hydrogen Trucks as China Targets 1.6 Million New Energy Heavy-Duty Vehicles by 2030",
+      "url": "https://fuelcellsworks.com/2026/07/01/fuel-cells/battery-swapping-puts-pressure-on-hydrogen-trucks-as-china-targets-1-6-million-new-energy-heavy-duty-vehicles-by-2030",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-30T15:14:04+00:00",
-      "pub_ts": 1782832444
+      "pub_date": "2026-07-01T15:26:44+00:00",
+      "pub_ts": 1782919604
     },
     {
-      "id": "ac90765d5b",
-      "title": "First 25 Kilos of Green Hydrogen Produced at H2 Hollandia",
-      "url": "https://fuelcellsworks.com/2026/06/30/green-hydrogen/first-25-kilos-of-green-hydrogen-produced-at-h2-hollandia",
+      "id": "577c9941d4",
+      "title": "Nekkar Power Lands ₹75 Crore to Push Its Hydrogen Fuel Cell From Pilot to Industrial Scale",
+      "url": "https://fuelcellsworks.com/2026/07/01/h2/nekkar-power-lands-75-crore-to-push-its-hydrogen-fuel-cell-from-pilot-to-industrial-scale",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-06-30T15:01:54+00:00",
-      "pub_ts": 1782831714
-    },
-    {
-      "id": "d12944f58a",
-      "title": "Clean Power Hydrogen plc Announces Operational Update Regarding the Third and Final Stage of the Factory Acceptance Testing (“Fat3”) of Its Mfe220 1Mw Unit",
-      "url": "https://hydrogen-central.com/clean-power-hydrogen-plc-announces-operational-update-regarding-the-third-and-final-stage-of-the-factory-acceptance-testing-fat3-of-its-mfe220-1mw-unit/",
-      "summary": "Clean Power Hydrogen plc Announces Operational Update Regarding the Third and Final Stage of the Factory Acceptance Testing (&#8220;Fat3&#8221;) of Its Mfe220 1Mw Unit Clean Power Hydrogen plc AnClean Power [&#8230;]\nThe post Clean Power Hydrogen plc Announces Operational Update Regarding the Third …",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-06-26T08:18:43+00:00",
-      "pub_ts": 1782461923
-    },
-    {
-      "id": "2c66e1b265",
-      "title": "Equinix Trials Landmark Hydrogen Power Solution at Dublin Data Centre",
-      "url": "https://hydrogen-central.com/equinix-trials-landmark-hydrogen-power-solution-at-dublin-data-centre/",
-      "summary": "Equinix Trials Landmark Hydrogen Power Solution at Dublin Data Centre Equinix is partnering with ESB to assess hydrogen as a clean backup power solution for its data centres. Equinix, Inc.&#160;(Nasdaq: [&#8230;]\nThe post Equinix Trials Landmark Hydrogen Power Solution at Dublin Data Centre appeared…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-06-24T17:11:53+00:00",
-      "pub_ts": 1782321113
-    },
-    {
-      "id": "4c03ed01b4",
-      "title": "BALLARD ANNOUNCES ACQUISITION OF UK-BASED GEOPURA, POWERING FUTURE GROWTH AND TRANSFORMING BALLARD INTO AN INTEGRATED HYDROGEN ECOSYSTEM PROVIDER",
-      "url": "https://hydrogen-central.com/ballard-announces-acquisition-of-uk-based-geopura-powering-future-growth-and-transforming-ballard-into-an-integrated-hydrogen-ecosystem-provider/",
-      "summary": "BALLARD ANNOUNCES ACQUISITION OF UK-BASED GEOPURA, POWERING FUTURE GROWTH AND TRANSFORMING BALLARD INTO AN INTEGRATED HYDROGEN ECOSYSTEM PROVIDER VANCOUVER, CANADA – Ballard Power Systems Inc. (NASDAQ: BLDP; TSX: BLDP, “Ballard”, [&#8230;]\nThe post BALLARD ANNOUNCES ACQUISITION OF UK-BASED GEOPURA, …",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-06-24T17:11:31+00:00",
-      "pub_ts": 1782321091
-    },
-    {
-      "id": "ae217b0353",
-      "title": "Evonik optimizes methanol supply for its methionine production network in Europe",
-      "url": "https://hydrogen-central.com/evonik-optimizes-methanol-supply-for-its-methionine-production-network-in-europe/",
-      "summary": "Evonik optimizes methanol supply for its methionine production network in Europe Essen, Germany. As part of strengthening its long-term raw material strategy, Evonik has developed a new solution to secure [&#8230;]\nThe post Evonik optimizes methanol supply for its methionine production network in Eu…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-06-24T17:04:21+00:00",
-      "pub_ts": 1782320661
-    },
-    {
-      "id": "6fc7f00248",
-      "title": "Hycamite is strengthening its leadership team as it expands its operations",
-      "url": "https://hydrogen-central.com/hycamite-is-strengthening-its-leadership-team-as-it-expands-its-operations/",
-      "summary": "Hycamite is strengthening its leadership team as it expands its operations Hycamite, a producer of low-carbon hydrogen and high-quality carbon materials, is strengthening its leadership team as it expands its [&#8230;]\nThe post Hycamite is strengthening its leadership team as it expands its operatio…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-06-24T17:04:10+00:00",
-      "pub_ts": 1782320650
+      "pub_date": "2026-07-01T15:04:36+00:00",
+      "pub_ts": 1782918276
     }
   ],
-  "source_success_count": 2,
+  "source_success_count": 1,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }
