@@ -6,9 +6,13 @@
 > - **ROADMAP.md** — 下一步路线（P0/P1/P2）、框架 5 洞状态、阻塞依赖。
 >
 > 另：方法论北极星 `docs/INTELLIGENCE_OS.md`；实现计划 `~/.claude/plans/https-www-esgvalve-cn-gleaming-stroustrup.md`；项目记忆 `~/.claude/projects/.../memory/esg-event-engine.md` + `esg-spec-position.md`。
-> 最后更新 2026-06-25 ｜ 引擎全部在 `main`：里程碑1 + winnability + **O1/O2-A/O3/O4** 本体化 + **本体图谱** + **P1#4 装备商订单簿源**（PR #23）｜ **✅ 处置闭环已上线**（Vercel + Upstash，PR #13/#15，公开别名见 §7）｜ 产品形态=**漏斗**，**B1/B2 已落地**（PR #18）｜ **首页热力图 ESG 化**（PR #20/#22：重锚评分 + W + 单一 SCORE_MODEL）｜ Brave key 已 park（见 §7）。WIP/自动化仍在 `automation/monthly-update`。
+> 最后更新 2026-07-02 ｜ 引擎主体在 `main`：里程碑1 + winnability + **O1/O2-A/O3/O4** 本体化 + 本体图谱 + 订单簿源（PR #23）｜ 处置闭环已上线（Vercel+Upstash）｜ 漏斗 B1/B2（PR #18）｜ 热力图 ESG 化（PR #20/#22）。Brave key 已 park（§7）。WIP/自动化在 `automation/monthly-update`。
 >
-> **🔑 下次开机关键词**：`读 HANDOFF + ROADMAP（P1.6 漏斗），推进 B3`——主线 **P1.6 漏斗串链**（热力图入口→下钻事件→带 方案/竞品/产品推荐，先 B 后 A）：
+> **🟡 本会话产出 = 3 个待合 PR + 一个新框架（详见 §12）**：**5 层情报栈**（新心智模型）｜ L1 拆出 ESG赢面（纯市场温度）+ L1→L2 钻取（PR #31）｜ RSS/微信源（PR #30）｜ 黄金评估集 + 抽取接地（PR #32）。
+>
+> **🔑 下次开机关键词**：`读 HANDOFF §12 + ARCHITECTURE §0.5（5层模型），先合 PR #30/#31/#32`——先把三个 PR 合掉（互不冲突，#30/#32 引擎、#31 前端）。合完的候选下一步见 §12。P1.6 漏斗为既往主线（下）：
+>
+> **P1.6 漏斗串链**（热力图入口→下钻事件→带 方案/竞品/产品推荐，先 B 后 A）：
 > - **✅ B1/B2 已完成**（PR #18）：事件卡带 推荐产品 + 在位竞品（具名+威胁分/绿地"无外资在位"）；events.html 加行业过滤 + `?industry=` deep-link（B3 下钻入口已备）。
 > - **下一步 = B3**（热力图改"混合+可点入口"：广度续用老 RSS/Brave 行业情绪，叠 engine 事件机会深度，点格 → `events.html?industry=X`）。**依赖 B0 数据 + 老管线热度** → B0 是 Codex 在做，B3 等数据到位再动；现在做会悬空。可先做的旁路：O2-B/图谱 enrich。
 > - **B0（CI 出数据）= Codex 在做**，本仓只作下游依赖，别重复实现。
@@ -150,3 +154,40 @@ NODE_USE_ENV_PROXY=1 npx vercel@latest deploy --prod --yes   # 公开别名见 �
 - **⏸ 两个待 Codex/Nicole 协调点（非代码能定）**：① **导出脚本住哪**——Nicole 仓 vs CI Radar 仓读 events JSON（倾向后者，更干净不撞）；② **B0 数据管线统一**——一条 CI 既出 events.html 数据又喂导出，别两套。
 - **分工现状**：CI Radar 导出 + B0 数据 CI = **Codex 在做**；Nicole 上游引擎/前端/契约就绪 = 本仓（我）。
 - **📄 给 Codex 的交接文档**：`竞品/docs/research/2026-06-25-nicole-to-ci-radar-handoff.md`（含 events JSON→契约 CSV **逐字段映射表** + 怎么产出 events JSON + Codex 待做 + 两个协调点）。映射表已对真实 `--sample` events JSON 逐字段核对通过（2026-06-25）。**Codex 拿它 + events JSON 即可机械映射,无需再问。**
+
+## 11. 信息流扩量：RSS/微信公众号源（2026-06-29，PR #30）
+
+**目标**：给引擎扩"信息流量"，更早捕捉建厂/扩产/招标信号（用户定调：**微信出信息快，先搞定公众号**）。
+
+- **✅ 管道已通（我做完，零引擎改动可加号）**：`engine/sources/rss.py` —— 吃 `fetch_rss.py` 已落盘的 `data/rss/*.json`（条目多为微信公众号文章），按 阀型/工况词过滤 → `source_type=news` 事件。零重复抓取、离线可跑。`run.py collect()` 已接；`esg_conditions.yml` 加 `news:0.3`（最弱）。58 测试全过。
+- **✅ 已联网调研选号 + 预接**：`rss_sources.json` 新增 `capex_signals` vertical，预接 8 个**真正发项目动态**的号（蒲公英/制药网/食品板/食业头条/高工锂电/上海化工区/中国化工报/电池中国），url 为 `TODO-WECHAT-RELAY` 占位。完整选号清单 + 中转方案对比见 `docs/wechat-rss-source-plan.md`。
+- **⚠ 卡点（非代码，用户/Codex 做）= 中转服务**：微信→RSS 必须有中转（推荐 **wechat2rss 托管版**，最快/24h 更新；备选自建 RSSHub）。**得在 CI/服务器跑，不在本机**（同招标/环评教训）。**下一步 = 用户去订阅那 8 个号 → 把 feed url 发回 → 替换 `rss_sources.json` 的 8 个占位** → 整条链 `fetch_rss → data/rss → 引擎` 自动通。
+- **⚠ 重要实情**：现有 28 个 RSS feed 是**宏观趋势号**（半导体并购/氢能创业），喂进引擎 **0 命中**——扩量真杠杆 = **选对号**（发项目的），不是管道。
+- **🔧 调研中挖到的更优旁路**：`制药网`（gc.zyzhan.com）有**结构化招标/项目页、是普通网页可直接爬**，比微信中转稳——可做 `engine/sources/zyzhan.py` 直抓（同 cninfo/tender 写法），跳过微信不确定性。同类：中项网/招标搜索。**未做，留作备选。**
+- **配套欠账**：量上来需配 **去重（event_id 跨天账本）+ 新鲜度排序因子**，否则信箱被新闻刷屏（`ranking` 现无 recency 因子，`build_pack` 无跨天去重）。
+
+## 12. 本会话产出（2026-06-30～07-02）：5 层情报栈 + 3 个待合 PR
+
+> **背景**：用户提出 5 层情报栈作为全系统标准心智模型（消费路径自上而下：管理层看整体热度 → 定细分 → 钻到项目+关联公司 → solution/产品）。本会话据此重构 L1、打通 L1→L2、并按 martinfowler《Building Reliable Agentic AI》补了评估/接地。
+
+### 🧭 5 层情报栈（心智模型，已固化进 `ARCHITECTURE §0.5`）
+- **L1 Market Heat**（Nicole）：市场热不热，**不判 ESG 能不能赢**。
+- **L2 Signal**（Nicole 核心，`engine/`）：谁/行业/动作/来源/工况/提前量 → 标准事件。
+- **L3 ESG Fit**（**Codex/CI Radar 本职**）：产品/工况匹配、国产替代、赢面。
+- **L4 Competitor**（Codex）：谁在位/话术/证据缺口。
+- **L5 Feedback**（处置闭环）：赢输回流校准 L1权重/L2关键词/L3规则。
+
+### 📦 三个待合 PR（互不冲突，#30/#32 引擎、#31 前端）
+- **PR #30 `feat/source-volume`**：RSS/微信新闻源（`engine/sources/rss.py`）+ `capex_signals` 预接 8 号 + 选号方案 `docs/wechat-rss-source-plan.md`（§11）。
+- **PR #31 `feat/five-layer-model`**：① `ARCHITECTURE §0.5` 固化 5 层；② **L1 拆出 W**——Heat=`Capex×.40+需求×.27+政策×.20+价格×.13`（纯市场），W 降为 L3 单列不进 Heat；③ `t.delta` 回归**环比升温**、新增 `t.esgGap=W−Heat`（详情/着色用）；④ **L1→L2 钻取**：热力图赛道详情「钻取 X 项目 →」`events.html?industry=X`（`TRACK_DRILL` 映射，只对有工况的赛道）；⑤ **ESG赢面标"临时·待CI"**（见下）。
+- **PR #32 `feat/engine-eval-grounding`**：① **黄金评估集** `tests/golden/cases.json` + `tests/test_golden.py`（10 用例回归门禁，调 config/估值/赢面偏离即 FAIL）；② **抽取接地** `conditions.matched_sentence` + `build_event` 透出（"为什么判这个工况"，也是未来 LLM 接地基础）。
+
+### 🔑 关键决策：ESG 赢面 = CI 本职，Nicole 只留临时桩
+用户点出"ESG赢面不该需要 CI 吗"——确认：winnability 三因子里 **绿地=L2真属Nicole；竞品密度(L4)/spec位(L3)/热力图手种W = 借 CI Radar 域**，越了"不写装机/竞品"边界。**决策 = 先留桩、显式标"临时·借CI·待L3替换"**（`winnability.py` 注释 + 详情 W 卡 + events 赢面* + `ARCHITECTURE §0.5` 均已标，在 PR #31/#32）。CI Radar L3 上线后由其经契约供给，winnability 退回只算绿地。
+
+### ⏸ 已 park / follow-up（合完 PR 后回头）
+- **GNE 全文富化**（`git stash`：`GNE-enrich-parked`）：`engine/extract.py` + rss.py enrich 参数，L1→L2 毕业桥（新闻全文抽金额/买家）。已装 `gne`，测试注入式可离线。**未提交**。
+- **events.html 显示 matched_sentence**：一行小改，等 PR #31/#32 合了再加（避免撞 events.html）。
+- **martinfowler 剩余建议**（未做）：#3 运行质量日志（`_runlog.jsonl`）｜#4 LLM 前置门槛写 ROADMAP（接 DeepSeek/RAG 前先建 RAGAS 评估 + 供应商兜底）｜#5「引擎保持确定性」立原则｜#6 给 Codex 交接（这篇=CI Radar 蓝图）。
+- **微信中转**（阻塞·用户做）：订阅 wechat2rss → 把 `rss_sources.json` 的 8 个 `TODO-WECHAT-RELAY` 换成真 feed url（§11）。
+- **`zyzhan.py` 直抓源**：比微信稳的结构化招标源，备选（§11）。

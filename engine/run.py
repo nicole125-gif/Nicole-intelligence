@@ -14,7 +14,7 @@ import sys
 from pathlib import Path
 
 from engine import build, conditions
-from engine.sources import cde, cninfo, eia, orderbook, tender
+from engine.sources import cde, cninfo, eia, orderbook, rss, tender
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_DIR = ROOT / "data" / "events"
@@ -71,6 +71,7 @@ def collect(cfg: dict, sample: bool, with_cde: bool = False) -> list[dict]:
     signals = []
     signals += cninfo.fetch(cfg)
     signals += orderbook.fetch(cfg)  # P1#4 装备商订单簿（盯 OEM 自身新签/扩产）
+    signals += rss.fetch(cfg)        # 产业新闻流（RSS / 微信公众号，许可型，扩量）
     signals += eia.fetch(cfg)
     signals += tender.fetch(cfg)
     if with_cde:  # CDE 走 Playwright 过瑞数 WAF，较慢，故 opt-in

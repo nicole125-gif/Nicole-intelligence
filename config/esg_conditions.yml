@@ -19,6 +19,7 @@ source_boost:
   capex: 1.0
   project_filing: 0.5
   pipeline: 0.3   # CDE 优先审评：最早的 pipeline 前兆，但最弱
+  news: 0.3       # 产业新闻/微信公众号：覆盖广但软，最弱（不点名业主常 unresolved）
 
 conditions:
   - id: biosynthesis
