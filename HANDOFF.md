@@ -8,9 +8,9 @@
 > 另：方法论北极星 `docs/INTELLIGENCE_OS.md`；实现计划 `~/.claude/plans/https-www-esgvalve-cn-gleaming-stroustrup.md`；项目记忆 `~/.claude/projects/.../memory/esg-event-engine.md` + `esg-spec-position.md`。
 > 最后更新 2026-07-02 ｜ 引擎主体在 `main`：里程碑1 + winnability + **O1/O2-A/O3/O4** 本体化 + 本体图谱 + 订单簿源（PR #23）｜ 处置闭环已上线（Vercel+Upstash）｜ 漏斗 B1/B2（PR #18）｜ 热力图 ESG 化（PR #20/#22）｜ 5 层栈 + RSS源 + 评估集（PR #30/#31/#32 已合）。Brave key 已 park（§7）。WIP/自动化在 `automation/monthly-update`。
 >
-> **✅ 本会话产出（07-02～03）已全部合入 main**：**PR #33**（热力图对齐 ESG 19 大行业 +9 赛道 + heat 可复现 rubric + 全老赛道重评 + L2 事件派生，详见 §13）｜**PR #34**（Palantir CTO review 步骤1a+2：ER 未解析业主报告+提升6真公司 + 动能闭环消费机制，详见 §14）。70 测试全过。
+> **✅ 近期已全部合入 main**（changelog 见 §12）：5 层栈(PR#31) / RSS源(#30) / 评估集(#32) / 热力图对齐+heat rubric+L2 派生(#33) / 本体实例化 ER+闭环(#34)。70 测试全过。
 >
-> **🔑 下次开机关键词**：`读 HANDOFF §13/§14`。**下一个真坎 = 持久对象存储（跨 run 稳定身份）= CTO review 步骤1 完整版，架构大改需单独 scope**（本会话只做了人工提升那半）。其余闭环待办：① `scripts/build_industry_heat.py` 接 B0 数据 CI（L2 信号才上线、heat 才自动刷新）② KV→`data/feedback.json` 导出（闭环输入端，消费端已建）③ 源扩量（微信中转/zyzhan）让 L2 覆盖成熟、α 下调。P1.6 漏斗为既往主线（下）：
+> **🔑 下次开机关键词**：`读 HANDOFF §12(已做) + §13(下一步)`。**最优先 = §13 的下一个真坎：持久对象存储（跨 run 稳定身份）**——架构大改需单独 scope（本会话只做了人工提升那半）。次优先见 §13。P1.6 漏斗为既往主线（下）：
 >
 > **P1.6 漏斗串链**（热力图入口→下钻事件→带 方案/竞品/产品推荐，先 B 后 A）：
 > - **✅ B1/B2 已完成**（PR #18）：事件卡带 推荐产品 + 在位竞品（具名+威胁分/绿地"无外资在位"）；events.html 加行业过滤 + `?industry=` deep-link（B3 下钻入口已备）。
@@ -87,7 +87,10 @@ NODE_USE_ENV_PROXY=1 npx vercel@latest deploy --prod --yes   # 公开别名见 �
 12. **处置闭环做成网页版 + 多人共享**（用户明确）→ 必须有后端，纯静态存不住跨设备标签。
 13. **后端选 Vercel 函数 + KV**（非 Supabase）：站点已在 Vercel、同域无跨域、密钥在服务端、国内可达性与现站一致；代价=**部署必须 Vercel（GitHub Pages 跑不了函数）**。
 14. **处置身份 = 区域**（非人名）：对齐"区域×行业"销售组织（决策7），比人名更贴路由；无真鉴权（内部工具，anon+区域轻身份够用）。
-15. **处置先采集、后消费**（用户明确）：赢面是冷启动，要先攒"赢/输给谁"标签才谈得上校准，所以这轮不动 `engine/winnability.py`。
+15. **处置先采集、后消费**（用户明确）：赢面是冷启动，要先攒"赢/输给谁"标签才谈得上校准。闭环**消费机制已建但 gated 无标签**（PR #34，`engine/feedback.py`），等标签攒够再解封。
+16. **Capex 口径 = 中资企业 capex（含中企出海建厂）**，非"只算国内工厂"（对齐决策4；出海经国内披露监测=机会）。是 heat rubric 的 C 维定义。
+17. **L2 事件派生热度 = 并行印证层、不替换 rubric heat**：源稀疏时纯 L2 会误降到 0；按 α-blend 随覆盖成熟逐步接管（终局纯 events）。详见 memory `heat-rubric-l2`。
+18. **ER 先人工提升进 registry**（跑 `unresolved_owners.py` 出清单再提，别盲提噪声）；**持久对象存储（跨 run 稳定身份）是架构大改、单独立项**——不擅自开。详见 memory `ontology-instantiation`。
 
 ## 5. ✅ 头号挂起未知 — 已解（2026-06-16 Nicole 确认）
 
@@ -166,72 +169,30 @@ NODE_USE_ENV_PROXY=1 npx vercel@latest deploy --prod --yes   # 公开别名见 �
 - **🔧 调研中挖到的更优旁路**：`制药网`（gc.zyzhan.com）有**结构化招标/项目页、是普通网页可直接爬**，比微信中转稳——可做 `engine/sources/zyzhan.py` 直抓（同 cninfo/tender 写法），跳过微信不确定性。同类：中项网/招标搜索。**未做，留作备选。**
 - **配套欠账**：量上来需配 **去重（event_id 跨天账本）+ 新鲜度排序因子**，否则信箱被新闻刷屏（`ranking` 现无 recency 因子，`build_pack` 无跨天去重）。
 
-## 12. 本会话产出（2026-06-30～07-02）：5 层情报栈 + 3 个待合 PR
+## 12. 近期里程碑（已合入 main · changelog）
 
-> **背景**：用户提出 5 层情报栈作为全系统标准心智模型（消费路径自上而下：管理层看整体热度 → 定细分 → 钻到项目+关联公司 → solution/产品）。本会话据此重构 L1、打通 L1→L2、并按 martinfowler《Building Reliable Agentic AI》补了评估/接地。
+> 只留一句定位；明细在 git + `ARCHITECTURE §0.5` + `docs/heat-scoring-rubric.md` + 项目 memory。
 
-### 🧭 5 层情报栈（心智模型，已固化进 `ARCHITECTURE §0.5`）
-- **L1 Market Heat**（Nicole）：市场热不热，**不判 ESG 能不能赢**。
-- **L2 Signal**（Nicole 核心，`engine/`）：谁/行业/动作/来源/工况/提前量 → 标准事件。
-- **L3 ESG Fit**（**Codex/CI Radar 本职**）：产品/工况匹配、国产替代、赢面。
-- **L4 Competitor**（Codex）：谁在位/话术/证据缺口。
-- **L5 Feedback**（处置闭环）：赢输回流校准 L1权重/L2关键词/L3规则。
+- **5 层情报栈**（PR #31，固化进 `ARCHITECTURE §0.5`）：L1 市场热 / L2 信号(Nicole 核心 `engine/`) / L3 ESG Fit / L4 竞品（L3/L4 均 Codex 本职）/ L5 反馈闭环。全系统标准心智模型。
+- **RSS/微信新闻源**（PR #30）：`engine/sources/rss.py` + `capex_signals` 预接 8 号（§11）。
+- **黄金评估集 + 抽取接地**（PR #32）：`tests/golden/` 回归门禁 + `conditions.matched_sentence`。
+- **热力图对齐 ESG 业务 + heat 可复现/可派生**（PR #33，明细 memory `heat-rubric-l2`）：+9 赛道/新板块「过程工业」；`docs/heat-scoring-rubric.md`（指标→档、Capex 含出海）；全 14 老赛道按 2026 真数据重评（纠偏 FAI 62→46 等）；L2 事件派生热度 `engine/industry_heat.py`（并行印证层）；泛词降权 `weak` 词层；3 新工况（空分/核电/环保）。
+- **本体实例化 · ER + 动能闭环**（PR #34，明细 memory `ontology-instantiation`）：`scripts/unresolved_owners.py` 未解析业主报告 + 提升 6 真公司进 registry（去碎片化 L2 簇/L5 回流）；`engine/feedback.py` 处置→winnability 消费机制（gated 无标签=no-op）。
 
-### 📦 三个待合 PR（互不冲突，#30/#32 引擎、#31 前端）
-- **PR #30 `feat/source-volume`**：RSS/微信新闻源（`engine/sources/rss.py`）+ `capex_signals` 预接 8 号 + 选号方案 `docs/wechat-rss-source-plan.md`（§11）。
-- **PR #31 `feat/five-layer-model`**：① `ARCHITECTURE §0.5` 固化 5 层；② **L1 拆出 W**——Heat=`Capex×.40+需求×.27+政策×.20+价格×.13`（纯市场），W 降为 L3 单列不进 Heat；③ `t.delta` 回归**环比升温**、新增 `t.esgGap=W−Heat`（详情/着色用）；④ **L1→L2 钻取**：热力图赛道详情「钻取 X 项目 →」`events.html?industry=X`（`TRACK_DRILL` 映射，只对有工况的赛道）；⑤ **ESG赢面标"临时·待CI"**（见下）。
-- **PR #32 `feat/engine-eval-grounding`**：① **黄金评估集** `tests/golden/cases.json` + `tests/test_golden.py`（10 用例回归门禁，调 config/估值/赢面偏离即 FAIL）；② **抽取接地** `conditions.matched_sentence` + `build_event` 透出（"为什么判这个工况"，也是未来 LLM 接地基础）。
+## 13. 下一步 / 未决（按优先级）
 
-### 🔑 关键决策：ESG 赢面 = CI 本职，Nicole 只留临时桩
-用户点出"ESG赢面不该需要 CI 吗"——确认：winnability 三因子里 **绿地=L2真属Nicole；竞品密度(L4)/spec位(L3)/热力图手种W = 借 CI Radar 域**，越了"不写装机/竞品"边界。**决策 = 先留桩、显式标"临时·借CI·待L3替换"**（`winnability.py` 注释 + 详情 W 卡 + events 赢面* + `ARCHITECTURE §0.5` 均已标，在 PR #31/#32）。CI Radar L3 上线后由其经契约供给，winnability 退回只算绿地。
+**🔴 下一个真坎 = 持久对象存储（跨 run 稳定身份 + 对象历史）** —— CTO review 步骤1 完整版、"从 demo 到 Foundry"的门槛。现在对象活不过一次 run（`event_id=md5`、`entities.yml` 静态）。架构大改，需单独立项（决策18，不擅自开）。
 
-### ⏸ 已 park / follow-up（合完 PR 后回头）
-- **GNE 全文富化**（`git stash`：`GNE-enrich-parked`）：`engine/extract.py` + rss.py enrich 参数，L1→L2 毕业桥（新闻全文抽金额/买家）。已装 `gne`，测试注入式可离线。**未提交**。
-- **events.html 显示 matched_sentence**：一行小改，等 PR #31/#32 合了再加（避免撞 events.html）。
-- **martinfowler 剩余建议**（未做）：#3 运行质量日志（`_runlog.jsonl`）｜#4 LLM 前置门槛写 ROADMAP（接 DeepSeek/RAG 前先建 RAGAS 评估 + 供应商兜底）｜#5「引擎保持确定性」立原则｜#6 给 Codex 交接（这篇=CI Radar 蓝图）。
-- **微信中转**（阻塞·用户做）：订阅 wechat2rss → 把 `rss_sources.json` 的 8 个 `TODO-WECHAT-RELAY` 换成真 feed url（§11）。
-- **`zyzhan.py` 直抓源**：比微信稳的结构化招标源，备选（§11）。
+**闭环 / heat 自动刷新（非本仓纯前端能独立完成）**
+- **CI 接线**：`build_industry_heat.py` + `build_ontology.py` 并入 B0 数据 CI（Codex），L2 信号/图谱才上线、heat 才自动刷新。
+- **KV→`data/feedback.json` 导出**：闭环输入端（消费端已建，PR #34）；等处置标签攒够（决策15）。
+- **源扩量**（§11）：微信中转（用户订 wechat2rss 换 8 个 `TODO-WECHAT-RELAY`）+ `zyzhan.py` 直抓 → L2 覆盖成熟、heat 的 α 才能下调。
 
-## 13. 本会话产出（2026-07-02 晚）：热力图对齐 ESG 业务 + heat 可复现/可派生（✅ PR #33 已合）
+**本体深化（CTO review 剩余）**
+- 边升一等公民：`spec_position` 带 `{source, asof, confidence}`（步骤3）。
+- 逐子分 provenance：heat 每个 C/D/Pol/P 挂 指标+来源+asof（rubric §7）。
 
-> **背景链**：用户从"热力图适配公司业务范围（补注塑等）"一路推到"确保 web 抓取信息足以代替行业热度"。据此把热力图从旧的热点赛道，重构为**对齐 ESG 青岛精锐真实阀门业务**，并把"行业热度"从拍脑袋升级为**可复现 rubric + 可自动派生（L2 事件）**。**分支 `feat/heatmap-industry-alignment`，7 commit，PR #33（未合）**。
-
-### 五条子线（= PR #33 的 7 个 commit）
-1. **本体清理 + 完整性门禁 + 3 新工况**（`56e3523`）：删死字段 `competitor_density`（O3 后由 strongholds 派生）/ per-OEM `capex_ratio`（从未接线）；加 `OntologyIntegrityTests`（stronghold/spec 引用完整性）；**新增工况 `air_separation/nuclear/environmental`**（让空分/核电/环保下钻落到真队列）。
-2. **热力图对齐 ESG 业务**（`19d0fc6`）：+9 赛道——新板块**「过程工业 PI」**（化工/橡胶轮胎/泡塑注塑/印染/空分/环保）+ 核电(→EI) + 饲料(→F&B) + 工程机械(→GI)；`TRACK_DRILL` 接引擎 industry_tag；`events.html` 深链空行业优雅降级（可清除 chip + 友好空态）。
-3. **泛词降权 + golden 锁**（`d420716`）：新增 `weak`(0.3) 词层，8 个泛词（生产线/扩建/技改/管道…）从 mid 降级（保 recall 不虚高排序）；golden 加 `match_max` 门禁 + 3 锁定用例。
-4. **板块 heat 自动派生 + heat rubric + 全量重评**（`54e6093`/`acd0de8`/`50df7f6`）：板块 heat 改赛道均值自动派生；`docs/heat-scoring-rubric.md`（C/D/Pol/P 指标→分档表、**Capex 中企口径含出海=决策4**、溯源、诚实精度）；按 rubric 用 2026 真数据**统一重评全部 14 老赛道**，heat 由公式反算、出处落 data[]/src[]。**显著纠偏**：固投FAI 62→46（实际转负−4.1%）、燃料电池 73→55、液冷 75→86、锂电 75→85。
-5. **L2 事件派生行业热度**（`5e0e8e0`，ROADMAP A1 地基）：`engine/industry_heat.py`+`scripts/build_industry_heat.py` 把引擎事件按 industry_tag 聚合成 `l2_signal=Σ(价值档分×新鲜度)`→`data/industry_heat.json`（gitignore）；index.html 一次性 fetch，赛道详情叠"L2 事件信号"，读不到优雅降级。
-
-### 🔑 本会话关键决策
-- **Capex 口径 = 中资企业 capex（含中企出海建厂）**，非"只算国内工厂"（对齐决策4；修正了我一度想剔除橡胶轮胎出海 capex 的错判——出海经国内披露监测=机会）。
-- **L2 派生现为并行印证层、不替换 rubric heat**：源稀疏（多数行业 0 事件），纯 L2 会误降到 0。rubric 文档写清 **α-blend 接管路线**（α=1 现在纯 rubric → 覆盖成熟按行业下调 → α=0 终局纯 events）。
-- **l1/l2/l3 仪器（质谱/基因/IVD）= 阀门相关**（用户确认有电磁阀/微阀需求），但**赢面 W 低**（仪器电磁阀是 Bürkert 主场）。
-- **p1 生物药出海/p3 生物药融资 = 上游金融信号，不套阀门 rubric**，保留不动。
-- **宏观 m1/m2/m3 = 校准层**，按当期宏观值刷新（heat 仍走公式，与全表同尺）。
-
-### ⏭ 合并后闭环待办（让"heat 自动刷新"判据真正成立，非本仓纯前端能独立完成）
-- **① CI 接线**：`scripts/build_industry_heat.py` 并入 **B0 数据 CI**（Codex 在做的那条，同 `build_ontology.py`）——随 events/ontology 一起产出 `data/industry_heat.json` 上线，L2 信号才在部署可见。
-- **② 源扩量**（§11）：微信中转 + `zyzhan.py` 直抓，让事件覆盖成熟，α 才有下调空间。
-- **③ 逐子分 provenance**（rubric §7）：给每个 C/D/Pol/P 挂指标值+来源+asof（现落在 data[]/src[]，未逐子分拆）。
-- 前几轮 review 的既往遗留（未做）：`nav.js` 顶竞品 Bürkert 品牌｜旗舰新页 events/ontology 主导航进不去｜`ontology.html` 零错误处理。
-
-## 14. 本会话产出（2026-07-02～03）：本体实例化 · Palantir CTO review 步骤1a+2（✅ PR #34 已合）
-
-> **背景**：用户让我以"Palantir CTO"视角 review 这个 demo。结论：这是**认真的本体化尝试**（诊断对：赢在 Function/Action，输在 Object/Link），但是**建模在配置里的 schema，不是实例化在存储里的本体**（对象活不过一次 run、ER 弱、动能闭环开着）。用户选"按建议走"——补两个承重缺口（不加分数/赛道=陷阱）。**分支 `feat/unresolved-owner-report`，4 commit，PR #34 已合。**
-
-### 步骤 1a · ER 做对（前半）
-- **`scripts/unresolved_owners.py`**（只读诊断）：扫所有 events pack，按频次×信号聚合 `resolved=False` 业主 → 提升清单 + 碎片簇启发式。跑真实 8 pack **实锤持久化缺口**（某乳业等跨 7 天复现 7 次、从不沉淀成 Object）。
-- **提升 6 真公司进 `config/entities.yml`**：湖南裕能/璞泰来(锂电)、赛轮轮胎(轮胎)、兴发集团/东华科技(化工)、和远气体(工业气体)，`type=company` 无 profile、aliases 覆盖写法 → 同公司收敛成一个 Object，**去碎片化 L2 印证簇(keyed owner_id)+L5 回流**。跳过噪声(芒果超媒)/误判 canary(中国巨石误判食品饮料=工况问题非 ER)。
-
-### 步骤 2 · 合上动能闭环（消费机制，gated 无标签）
-- **`engine/feedback.py`**：纯函数，处置赢/输按工况聚合 → 有界赢面微调（±0.15，需≥2 样本，单点不左右赢面）。
-- **`winnability.assess(feedback_delta=)`**：应用微调，basis 标"闭环反馈±X(临时·待标签)"，默认 0=no-op。
-- **`build.py`**：`build_pack` 读 `data/feedback.json`（gitignore）threading per-condition delta，无文件=no-op，engine 保持确定性/离线。**加固**：非 dict JSON 也降级 no-op 不崩 build（inline review 抓的 bug）。
-- **验证**：注入合成 `{hygienic:+0.15}` → 该工况赢面 0.30→0.45 带标注；无文件与旧行为逐位一致。
-
-### 🔑 本会话关键决策
-- **ER = 先人工提升**（存储大改单独 scope）；**闭环 = 只建消费机制、标注等真实标签**（守决策15 先采集后消费，导出端=KV→feedback.json 未建）。
-- **持久对象存储（跨 run 稳定身份）= 下一个真坎**，"从 demo 到 Foundry"的门槛，架构大改，未动、需单独立项。
-- **边升一等公民**（spec_position 带 source/asof/confidence）= CTO 步骤3，未动。
-- **review 纪律**：PR #34 的 workflow code-review 因 session limit 4/4 finder 挂了、结果无效——**没拿假绿合并**，改用主循环真人 inline 审，抓修 1 真 bug 后才合。
+**小改 / 遗留**
+- `nav.js` 顶竞品 Bürkert 品牌｜旗舰页 events/ontology 主导航进不去｜`ontology.html` 零错误处理。
+- GNE 全文富化（`git stash: GNE-enrich-parked`，未提交，L1→L2 毕业桥）｜events.html 显示 matched_sentence。
+- martinfowler 剩余：运行质量日志 `_runlog.jsonl`｜接 DeepSeek/RAG 前先建 RAGAS 评估+供应商兜底（写 ROADMAP）｜「引擎保持确定性」立原则。
