@@ -22,9 +22,10 @@ _FEEDBACK_PATH = Path(__file__).resolve().parents[1] / "data" / "feedback.json"
 def _load_feedback() -> dict:
     """L5→L3 闭环：读已导出的 {condition_id: delta}（gitignore）。无文件=no-op（决策15）。"""
     try:
-        return json.loads(_FEEDBACK_PATH.read_text(encoding="utf-8"))
+        data = json.loads(_FEEDBACK_PATH.read_text(encoding="utf-8"))
     except (FileNotFoundError, ValueError):
         return {}
+    return data if isinstance(data, dict) else {}  # 合法但非 dict 的 JSON 也降级为 no-op，不崩 build
 
 
 def _text(signal: dict) -> str:
