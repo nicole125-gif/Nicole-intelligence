@@ -178,6 +178,7 @@ NODE_USE_ENV_PROXY=1 npx vercel@latest deploy --prod --yes   # 公开别名见 �
 - **黄金评估集 + 抽取接地**（PR #32）：`tests/golden/` 回归门禁 + `conditions.matched_sentence`。
 - **热力图对齐 ESG 业务 + heat 可复现/可派生**（PR #33，明细 memory `heat-rubric-l2`）：+9 赛道/新板块「过程工业」；`docs/heat-scoring-rubric.md`（指标→档、Capex 含出海）；全 14 老赛道按 2026 真数据重评（纠偏 FAI 62→46 等）；L2 事件派生热度 `engine/industry_heat.py`（并行印证层）；泛词降权 `weak` 词层；3 新工况（空分/核电/环保）。
 - **本体实例化 · ER + 动能闭环**（PR #34，明细 memory `ontology-instantiation`）：`scripts/unresolved_owners.py` 未解析业主报告 + 提升 6 真公司进 registry（去碎片化 L2 簇/L5 回流）；`engine/feedback.py` 处置→winnability 消费机制（gated 无标签=no-op）。
+- **heat 逻辑纠偏 + L2 覆盖徽标**（PR #37/#38）：按 /goal 审计全 29 赛道「证据够+打分符合行业逻辑」——p1出海/p3融资/f3消费 3 个金融/消费先行指标从虚高72重评（C 诚实压低=离买阀≥2步，f3→49.7 等）；`index.html` 每赛道加 **L2 覆盖徽标**（✓有货/◑热但无货/○无工况/·待数据），把"热度→有没有线索可打"的 L1→L2 断裂一眼可见。
 
 ## 13. 下一步 / 未决（按优先级）
 
@@ -186,7 +187,7 @@ NODE_USE_ENV_PROXY=1 npx vercel@latest deploy --prod --yes   # 公开别名见 �
 **闭环 / heat 自动刷新（非本仓纯前端能独立完成）**
 - **CI 接线**：`build_industry_heat.py` + `build_ontology.py` 并入 B0 数据 CI（Codex），L2 信号/图谱才上线、heat 才自动刷新。
 - **KV→`data/feedback.json` 导出**：闭环输入端（消费端已建，PR #34）；等处置标签攒够（决策15）。
-- **源扩量**（§11）：微信中转（用户订 wechat2rss 换 8 个 `TODO-WECHAT-RELAY`）+ `zyzhan.py` 直抓 → L2 覆盖成熟、heat 的 α 才能下调。
+- **源扩量**（§11）：微信中转（用户订 wechat2rss 换 8 个 `TODO-WECHAT-RELAY`）+ `zyzhan.py` 直抓 → L2 覆盖成熟、heat 的 α 才能下调。**进度可视化锚点已就位**：热力图 L2 覆盖徽标（PR #38）——目标是把 ◑热但无货/○无工况 逐步变 ✓有货，即"补源"的验收信号。现状 9 有货 / 6 热但无货 / 14 无工况（多数 TOP 热行业无线索可打，这就是"提升销售"的头号瓶颈）。
 
 **本体深化（CTO review 剩余）**
 - 边升一等公民：`spec_position` 带 `{source, asof, confidence}`（步骤3）。
