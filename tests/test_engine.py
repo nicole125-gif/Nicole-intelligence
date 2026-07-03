@@ -254,6 +254,41 @@ class CompetitorDensityTests(unittest.TestCase):
         self.assertGreater(bio, ref)
 
 
+class FeedbackLoopTests(unittest.TestCase):
+    # L5→L3 闭环消费：处置赢/输 → 按工况聚合 → winnability 微调（机制，待真实标签）
+    def _events(self):
+        return {"e1": {"working_condition_ids": ["hygienic"]},
+                "e2": {"working_condition_ids": ["hygienic"]},
+                "e3": {"working_condition_ids": ["lithium_injection"]}}
+
+    def test_win_stats_aggregates_by_condition(self):
+        from engine import feedback
+        disp = [{"event_id": "e1", "status": "赢"}, {"event_id": "e2", "status": "赢"},
+                {"event_id": "e3", "status": "输"}, {"event_id": "e1", "status": "跟进中"}]
+        stats = feedback.win_stats(disp, self._events())
+        self.assertEqual(stats["hygienic"], {"won": 2, "lost": 0})
+        self.assertEqual(stats["lithium_injection"], {"won": 0, "lost": 1})
+
+    def test_condition_delta_bounds(self):
+        from engine import feedback
+        self.assertEqual(feedback.condition_delta(1, 0), 0.0)      # 样本<2 → 不调
+        self.assertEqual(feedback.condition_delta(3, 0), 0.15)     # 全胜 → +MAX
+        self.assertEqual(feedback.condition_delta(0, 3), -0.15)    # 全负 → −MAX
+        self.assertEqual(feedback.condition_delta(2, 2), 0.0)      # 平衡 → 0
+
+    def test_feedback_shifts_winnability(self):
+        base = winnability.assess("某扩产项目", "mid")["score"]
+        up = winnability.assess("某扩产项目", "mid", None, 0.15)["score"]
+        self.assertGreater(up, base)
+        self.assertLessEqual(up, 1.0)  # 仍夹在上限内
+
+    def test_no_feedback_is_noop(self):
+        # 无标签（决策15）：默认 delta=0，赢面与旧行为一致
+        a = winnability.assess("新建生产基地", "low")["score"]
+        b = winnability.assess("新建生产基地", "low", None, 0.0)["score"]
+        self.assertEqual(a, b)
+
+
 class OntologyIntegrityTests(unittest.TestCase):
     # 本体引用完整性：承重边引用的工况 id 必须真实存在，否则 density/incumbents 会静默算错。
     def setUp(self):

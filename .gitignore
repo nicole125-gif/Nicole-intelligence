@@ -5,5 +5,7 @@ pulse_vectordb/
 data/events/
 data/ontology.json
 data/industry_heat.json
+data/feedback.json
+data/dispositions.json
 .vercel/
 .env.local

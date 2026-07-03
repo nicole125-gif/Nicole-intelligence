@@ -64,7 +64,8 @@ def incumbents_for_condition(condition_id: str, registry: dict) -> list[dict]:
     return out
 
 
-def assess(text: str, competitor_density: str = "mid", spec_position: str | None = None) -> dict:
+def assess(text: str, competitor_density: str = "mid", spec_position: str | None = None,
+           feedback_delta: float = 0.0) -> dict:
     score = 0.5
     basis = []
     if any(k in text for k in _GREENFIELD):
@@ -78,5 +79,10 @@ def assess(text: str, competitor_density: str = "mid", spec_position: str | None
     if spec_position in _SPEC:
         score += _SPEC[spec_position]
         basis.append("spec位已进(顺风)" if spec_position == "in" else "spec位未进(需design-in)")
+    # L5→L3 闭环反馈（engine/feedback.py）：某工况历史赢率高→顺风微调。
+    # 现无真实处置标签（决策15），feedback_delta 默认 0=no-op；标签攒够后飞轮合上。
+    if feedback_delta:
+        score += feedback_delta
+        basis.append(f"闭环反馈{feedback_delta:+g}(临时·待标签)")
     score = round(max(0.15, min(score, 1.0)), 3)
     return {"score": score, "basis": "+".join(basis)}
