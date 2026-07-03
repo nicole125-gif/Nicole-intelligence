@@ -495,6 +495,16 @@ body:has(a:hover) #cursor-dot,body:has(button:hover) #cursor-dot,body:has([oncli
 .heat-name{font-family:var(--cjk);font-size:12px;line-height:1.35;font-weight:600;position:relative;z-index:1;max-width:14ch}
 .heat-value{font-size:clamp(1.3rem,2.2vw,2.15rem);font-weight:800;letter-spacing:-.06em;line-height:1;position:relative;z-index:1}
 .heat-meta{display:flex;align-items:center;justify-content:space-between;gap:8px;font-family:var(--mono);font-size:9px;color:rgba(255,255,255,.72);position:relative;z-index:1}
+/* L2 覆盖状态徽标（热度→有没有可打的线索，一眼可见）*/
+.l2-badge{position:absolute;top:5px;right:6px;z-index:2;font-size:10px;font-weight:700;line-height:1;width:15px;height:15px;display:flex;align-items:center;justify-content:center;border-radius:50%;cursor:help}
+.l2-has{color:#031a0e;background:#39ff88}
+.l2-empty{color:#3a1e02;background:#ffb347}
+.l2-none{color:rgba(255,255,255,.55);background:rgba(255,255,255,.12)}
+.l2-wait{color:rgba(255,255,255,.5);background:rgba(255,255,255,.07)}
+.l2-chip{display:inline-flex;align-items:center;gap:4px;font-family:var(--mono);font-size:9px;padding:1px 6px;border-radius:9px;letter-spacing:.04em;white-space:nowrap}
+.l2-chip.l2-has{color:#031a0e}.l2-chip.l2-empty{color:#3a1e02}.l2-chip.l2-none,.l2-chip.l2-wait{color:rgba(226,236,250,.7)}
+.l2-legend{grid-column:1/-1;display:flex;gap:14px;flex-wrap:wrap;font-family:var(--mono);font-size:9.5px;color:rgba(226,236,250,.6);padding:2px 2px 8px;letter-spacing:.03em}
+.l2-legend b{display:inline-block;width:13px;height:13px;border-radius:50%;margin-right:4px;vertical-align:-2px}
 .heat-sector-label{grid-column:span 12;margin:8px 0 2px;display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:rgba(206,222,246,.58)}
 .heat-sector-label::after{content:'';height:1px;flex:1;background:linear-gradient(90deg,color-mix(in srgb,var(--sector-c) 46%,transparent),transparent)}
 .heat-side{border-left:1px solid rgba(133,171,161,.16);background:rgba(8,15,18,.97);padding:18px;display:flex;flex-direction:column;gap:15px}
@@ -1892,8 +1902,10 @@ function updateHeatDetail(id){
     </div>
     <div class="detail-note">${esc(t.tw)}</div>
     <div class="detail-note">${esc(t.act)}</div>
-    ${(()=>{const l2=L2HEAT[TRACK_DRILL[id]];if(!l2||!l2.event_count)return '';const en=currentLang==='en';
-      return `<div class="detail-note" style="border-left-color:#39ff88">${en?'L2 event signal (from engine events)':'L2 事件信号（引擎真实事件派生）'} <strong>${l2.l2_signal}</strong> · ${l2.event_count} ${en?'events':'事件'} · ${l2.account_count} ${en?'accounts':'账户'} · ${en?'latest':'最新'} ${esc(l2.freshest||'—')}</div>`;})()}
+    ${(()=>{const st=l2Status(id);const l2=L2HEAT[TRACK_DRILL[id]];const en=currentLang==='en';
+      const bar={'l2-has':'#39ff88','l2-empty':'#ffb347','l2-none':'rgba(255,255,255,.25)','l2-wait':'rgba(255,255,255,.2)'}[st.cls];
+      const sig=(l2&&l2.event_count)?` — ${en?'signal':'信号'} <strong>${l2.l2_signal}</strong> · ${l2.event_count} ${en?'events':'事件'} · ${l2.account_count} ${en?'accounts':'账户'} · ${en?'latest':'最新'} ${esc(l2.freshest||'—')}`:'';
+      return `<div class="detail-note" style="border-left-color:${bar}"><span class="l2-chip ${st.cls}">${st.icon}</span> ${en?'L2 coverage':'L2 覆盖'}：${esc(st.label)}${sig}</div>`;})()}
     <div class="detail-actions">
       ${TRACK_DRILL[id] ? `<a class="drill" href="events.html?industry=${encodeURIComponent(TRACK_DRILL[id])}">${currentLang==='en'?`Drill to ${attr(TRACK_DRILL[id])} projects →`:`钻取 ${esc(TRACK_DRILL[id])} 项目 →`}</a>` : ''}
       <a href="${attr(m.href)}">${currentLang==='en'?'Open Sector Page':'进入专题页'}</a>
@@ -1901,6 +1913,20 @@ function updateHeatDetail(id){
     </div>`;
   document.querySelectorAll('.heat-tile').forEach(el=>el.classList.toggle('active',el.dataset.id===id));
 }
+// L2 覆盖状态：热度方向有没有真实事件可打（纯从 TRACK_DRILL + L2HEAT 派生）
+function l2Status(id){
+  const en = currentLang==='en';
+  const tgt = TRACK_DRILL[id];
+  if(!tgt) return {icon:'○',cls:'l2-none',label:en?'no engine condition (can\'t produce leads)':'无对口工况·引擎产不出线索'};
+  if(!Object.keys(L2HEAT).length) return {icon:'·',cls:'l2-wait',label:en?'has condition · coverage pending data':'有工况·覆盖待数据'};
+  const n = (L2HEAT[tgt]||{}).event_count || 0;
+  if(n>0) return {icon:'✓',cls:'l2-has',label:(en?`${n} leads to act on`:`${n} 条线索可打`),n};
+  return {icon:'◑',cls:'l2-empty',label:en?'hot but no leads (source-coverage gap)':'热但无线索·源覆盖缺'};
+}
+const L2_LEGEND = ()=>{const en=currentLang==='en';return `<div class="l2-legend">L2 覆盖：`
+  +`<span><b class="l2-has"></b>${en?'has leads':'有线索可打'}</span>`
+  +`<span><b class="l2-empty"></b>${en?'hot·no leads':'热但无货(源缺)'}</span>`
+  +`<span><b class="l2-none"></b>${en?'no condition':'无对口工况'}</span></div>`;};
 function renderHeatmap(){
   const grid = document.getElementById('heatmap-grid');
   const table = document.getElementById('market-table-body');
@@ -1927,7 +1953,9 @@ function renderHeatmap(){
       const c = heatColor(t,colorMode);
       const mainLabel = heatmapLabelMode==='name' ? t.n : (HEAT_SYMBOLS[id] || id.toUpperCase());
       const subLabel = heatmapLabelMode==='name' ? (HEAT_SYMBOLS[id] || id.toUpperCase()) : t.n;
+      const l2 = l2Status(id);
       return `<button class="heat-tile${id===selectedHeatId?' active':''}" data-id="${attr(id)}" onclick="updateHeatDetail('${attr(id)}')" style="--tile-c:${c};--tile-a:${tileAlpha(t,colorMode)};${tileSpan(t,sizeMode)}">
+        <span class="l2-badge ${l2.cls}" title="${attr(l2.label)}">${l2.icon}</span>
         <span class="heat-symbol">${esc(mainLabel)}</span>
         <span class="heat-name">${esc(subLabel)}</span>
         <span class="heat-value">${esc(Math.round(heatMetricValue(t,sizeMode)))}</span>
@@ -1935,15 +1963,16 @@ function renderHeatmap(){
       </button>`;
     }).join('');
     return label + tiles;
-  }).join('') || `<div class="heat-sector-label">No data available for selected criteria</div>`;
+  }).join('') + (grouped.length ? L2_LEGEND() : '') || `<div class="heat-sector-label">No data available for selected criteria</div>`;
   table.innerHTML = grouped.map(group=>{
     const meta = (INDUSTRY_USE[currentLang] || INDUSTRY_USE.zh)[group.b];
     const avg = group.items.reduce((sum,{t})=>sum+t.heat,0) / group.items.length;
     const groupColor = cc(group.b);
     const rows = group.items.map(({id,t})=>{
       const use = (TRACK_USE[currentLang] || TRACK_USE.zh)[id] || ['用途判断','用于判断该赛道是否值得进入下一步跟踪'];
+      const l2r = l2Status(id);
       return `<div class="usecase-row" onclick="updateHeatDetail('${attr(id)}')">
-        <div class="usecase-track">${esc(t.n)}<small>${esc(t.b)} · ${esc(t.sub)}</small></div>
+        <div class="usecase-track">${esc(t.n)} <span class="l2-chip ${l2r.cls}" title="${attr(l2r.label)}">${l2r.icon} ${esc(l2r.n?l2r.n+(currentLang==='en'?'':'条'):l2r.icon==='◑'?(currentLang==='en'?'0':'无货'):'')}</span><small>${esc(t.b)} · ${esc(t.sub)}</small></div>
         <div>
           <span class="usecase-purpose-chip">${esc(use[0])}</span>
           <div class="usecase-why">${esc(use[1])}</div>
@@ -1970,7 +1999,7 @@ function renderHeatmap(){
   // L2 派生：叠加引擎事件的行业热度信号（ROADMAP A1 起步）。一次性拉取；读不到=优雅降级，只显 rubric heat。
   if(!window._l2Loaded){window._l2Loaded=true;
     fetch('data/industry_heat.json?t='+Date.now()).then(r=>r.ok?r.json():null).then(d=>{
-      if(d&&d.by_industry){L2HEAT=d.by_industry;if(selectedHeatId)updateHeatDetail(selectedHeatId);}
+      if(d&&d.by_industry){L2HEAT=d.by_industry;renderHeatmap();}  // 数据到 → 重渲，徽标从"待数据"变有货/无货
     }).catch(()=>{});}
 }
 function initHeatmap(){
