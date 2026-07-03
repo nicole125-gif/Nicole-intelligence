@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-07-02T04:05:19.712112+00:00",
+  "updated_at": "2026-07-03T03:51:33.757822+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "f9c5e68d54",
-      "title": "金融AI武道大会开赛！四道业务真题，出题人：猜不到最优解",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901060&idx=1&sn=eb8c5ccac694ae3b42ebbd28fcaec02e",
-      "summary": "金融AI武道大会开赛！四道业务真题，出题人：猜不到最优解",
+      "id": "84d3cd5913",
+      "title": "全球首个英伟达含量为0的万亿模型，成了海外开发者的抢手货",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901276&idx=1&sn=6cb78a4c78221af1f866b557a5e965b3",
+      "summary": "全球首个英伟达含量为0的万亿模型，成了海外开发者的抢手货",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-02T04:05:15.355413+00:00",
-      "pub_ts": 1782965115
+      "pub_date": "2026-07-03T03:51:29.278504+00:00",
+      "pub_ts": 1783050689
     },
     {
-      "id": "3eb4956c10",
-      "title": "具身智能的Skill时刻！英伟达开源机器人技能库，Jim Fan：范式变了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901060&idx=2&sn=0eb20c24acecbdc3f39205e168e1bf7f",
-      "summary": "具身智能的Skill时刻！英伟达开源机器人技能库，Jim Fan：范式变了",
+      "id": "7f031d5e3e",
+      "title": "世界模型的新用途：不做选手，去当裁判",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901276&idx=2&sn=fc5b49add766719e48201686a1be8a94",
+      "summary": "世界模型的新用途：不做选手，去当裁判",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-02T04:05:15.355452+00:00",
-      "pub_ts": 1782965115
+      "pub_date": "2026-07-03T03:51:29.278548+00:00",
+      "pub_ts": 1783050689
     },
     {
-      "id": "6edfc0671c",
-      "title": "OceanBase湖库一体，重新定义AI数据库",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901046&idx=1&sn=b39e71eb4ed8d2cfcdecabe43eb783ee",
-      "summary": "OceanBase湖库一体，重新定义AI数据库",
+      "id": "baa86adb49",
+      "title": "招募|量子位RSS'26专题策划",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901276&idx=3&sn=d5e4963007e4946cb413253f0143cb1e",
+      "summary": "招募|量子位RSS'26专题策划",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-02T04:05:15.355475+00:00",
-      "pub_ts": 1782965115
+      "pub_date": "2026-07-03T03:51:29.278570+00:00",
+      "pub_ts": 1783050689
     },
     {
-      "id": "1b0052c386",
-      "title": "Loop世界模型论文登顶HuggingFace，来自中国一家初创，周鸿祎陆奇都投了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901046&idx=2&sn=da7bf1ec203f115bc3c7ead358b109aa",
-      "summary": "Loop世界模型论文登顶HuggingFace，来自中国一家初创，周鸿祎陆奇都投了",
+      "id": "98605b549a",
+      "title": "强化学习没作用？人大DeITA精准识别关键token，推理正确率大幅上升",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901276&idx=4&sn=1a793f76bb77e2c068d2403b1c220d2a",
+      "summary": "强化学习没作用？人大DeITA精准识别关键token，推理正确率大幅上升",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-02T04:05:15.355495+00:00",
-      "pub_ts": 1782965115
+      "pub_date": "2026-07-03T03:51:29.278590+00:00",
+      "pub_ts": 1783050689
     },
     {
-      "id": "b69262bcec",
-      "title": "冷门新语言AI写不动？IEEE论文：从零到及格线，MoonBit给出完整训练路线",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901046&idx=3&sn=f81efbdae1fa6cca391a9c4389820598",
-      "summary": "冷门新语言AI写不动？IEEE论文：从零到及格线，MoonBit给出完整训练路线",
+      "id": "4080a954ce",
+      "title": "Fable5回归全网抓紧测！发现GLM-5.2更香了，价格只有1/39",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901217&idx=1&sn=8d47cab96b8bc97d170670c65d3fcb25",
+      "summary": "Fable5回归全网抓紧测！发现GLM-5.2更香了，价格只有1/39",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-02T04:05:15.355515+00:00",
-      "pub_ts": 1782965115
+      "pub_date": "2026-07-03T03:51:29.278609+00:00",
+      "pub_ts": 1783050689
     }
   ],
   "source_success_count": 1,

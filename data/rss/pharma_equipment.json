@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-07-02T04:05:45.456700+00:00",
+  "updated_at": "2026-07-03T03:51:58.924335+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "25274a3da8",
-      "title": "EAN 2026: Bocunebart’s promise as migraine preventive in treatment-refractory patients",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ean-2026-bocunebarts-promise-as-migraine-preventive-in-treatment-refractory-patients/",
-      "summary": "Bocunebart's PACAP-targeting mechanism positions it as a potential first-in-class therapy in a thin pipeline of novel late-stage candidates",
+      "id": "276d1c5143",
+      "title": "Ipsen bolsters rare disease pipeline in €700m Memo takeover",
+      "url": "https://www.pharmaceutical-technology.com/news/ipsen-memo-takeover-700m-rare-disease-pipeline/",
+      "summary": "Ipsen’s Memo acquisition is the second the former has signed this week alone, following its blockbuster Kartos buyout on 29 June.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-01T19:36:09+00:00",
-      "pub_ts": 1782934569
+      "pub_date": "2026-07-02T12:19:35+00:00",
+      "pub_ts": 1782994775
     },
     {
-      "id": "4354fdf6b1",
-      "title": "QuantumCell commits $2.2bn on AlzeCure’s Alzheimer’s platform",
-      "url": "https://www.pharmaceutical-technology.com/news/quantumcell-commits-2-2bn-on-alzecures-alzheimers-platform/",
-      "summary": "The lead product on AlzeCure’s platform has already demonstrated positive Phase I results.",
+      "id": "430852be20",
+      "title": "Podcast: HLTH Europe and BIO key trends rundown",
+      "url": "https://www.pharmaceutical-technology.com/features/podcast-hlth-europe-bio-2026-key-trends-rundown/",
+      "summary": "Our editorial team delve into the key takeaways from the 2026 HLTH Europe conference and the 2026 BIO International Convention.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-01T15:19:22+00:00",
-      "pub_ts": 1782919162
+      "pub_date": "2026-07-02T10:54:08+00:00",
+      "pub_ts": 1782989648
     },
     {
-      "id": "cfbfcbc471",
-      "title": "Sanofi aims for Nexviazyme approval in younger Pompe disease patients",
-      "url": "https://www.pharmaceutical-technology.com/news/sanofi-aims-for-nexviazyme-approval-in-younger-pompe-disease-patients/",
-      "summary": "In Sanofi's Baby-COMET trial, Nexviazyme met all primary and secondary endpoints, teeing it up for potential label expansion in Pompe disease.",
+      "id": "b8b90f7f46",
+      "title": "FDA widens Vertex’s Casgevy use for paediatric patients",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-widens-vertexs-casgevy-use-for-paediatric-patients/",
+      "summary": "Children as young as two with either sickle cell disease or thalassemia are now eligible for the gene therapy.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-01T13:57:36+00:00",
-      "pub_ts": 1782914256
+      "pub_date": "2026-07-02T10:18:01+00:00",
+      "pub_ts": 1782987481
     },
     {
-      "id": "1d480be196",
-      "title": "Surge in RMAT designations awarded by the FDA",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/surge-in-rmat-designations-awarded-by-the-fda/",
-      "summary": "The number of RMAT designations awarded by the FDA increased sharply from 2024, reaching a record of 48 RMAT designations in 2025.",
+      "id": "507109e58a",
+      "title": "Insilico Medicine, Takeda partner on AI-driven drug discovery",
+      "url": "https://www.pharmaceutical-technology.com/news/insilico-takeda-ai-driven-drug-discovery/",
+      "summary": "Insilico Medicine has entered into a strategic collaboration agreement with Takeda to deploy its AI-based Pharma.AI platform in the discovery and development of drug candidates.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-01T13:07:25+00:00",
-      "pub_ts": 1782911245
+      "pub_date": "2026-07-02T09:32:16+00:00",
+      "pub_ts": 1782984736
     },
     {
-      "id": "67b444ec47",
-      "title": "EAN 2026: Real-world data supports safety and efficacy of AbbVie’s Vyalev in Parkinson’s",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/abbvie-parkinsons-vyalev-long-term-data/",
-      "summary": "The real-world data study tracked Parkinson's disease patients for 12 months during treatment with AbbVie's Vyalev",
+      "id": "4763209155",
+      "title": "Inocras, AimedBio team up for cancer treatments",
+      "url": "https://www.pharmaceutical-technology.com/news/inocras-aimedbio-cancer-treatments/",
+      "summary": "Inocras has entered a strategic partnership with AimedBio to enhance cancer drug development using whole genome intelligence.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-01T12:50:20+00:00",
-      "pub_ts": 1782910220
+      "pub_date": "2026-07-02T07:23:34+00:00",
+      "pub_ts": 1782977014
     }
   ],
   "source_success_count": 1,

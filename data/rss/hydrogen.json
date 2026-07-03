@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-07-02T04:05:33.096132+00:00",
+  "updated_at": "2026-07-03T03:51:46.473466+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "66b219ea76",
-      "title": "Teva Deploys Hydrogen Truck for Pharmaceutical Logistics in Germany",
-      "url": "https://fuelcellsworks.com/2026/06/29/h2/teva-deploys-hydrogen-truck-for-pharmaceutical-logistics-in-germany",
+      "id": "788dc56d1f",
+      "title": "How Hyundai Motor Group’s Hydrogen and Robotics Tech Powered the Genesis Le Mans Debut",
+      "url": "https://fuelcellsworks.com/2026/07/02/energy-innovation/how-hyundai-motor-group-s-hydrogen-and-robotics-tech-powered-the-genesis-le-mans-debut",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-01T15:50:45+00:00",
-      "pub_ts": 1782921045
+      "pub_date": "2026-07-02T16:29:16+00:00",
+      "pub_ts": 1783009756
     },
     {
-      "id": "89e399f430",
-      "title": "Atome's Paraguay Crisis Deepens: AIM Shares Frozen as PPA Dispute Stalls Green Hydrogen Project",
-      "url": "https://fuelcellsworks.com/2026/07/01/h2/atome-s-paraguay-crisis-deepens-aim-shares-frozen-as-ppa-dispute-stalls-green-hydrogen-project",
+      "id": "d487ca6901",
+      "title": "First Phase of Commercial Green Hydrogen Production Plant at Rijeka Refinery Completed",
+      "url": "https://fuelcellsworks.com/2026/07/02/green-hydrogen/first-phase-of-commercial-green-hydrogen-production-plant-at-rijeka-refinery-completed",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-01T15:48:00+00:00",
-      "pub_ts": 1782920880
+      "pub_date": "2026-07-02T16:15:55+00:00",
+      "pub_ts": 1783008955
     },
     {
-      "id": "feb0ee47ad",
-      "title": "A Plant That Turns Kent's Rubbish Into Hydrogen Has Been Submitted for Approval — and the Locals Are Split",
-      "url": "https://fuelcellsworks.com/2026/07/01/news/a-plant-that-turns-kent-s-rubbish-into-hydrogen-has-been-submitted-for-approval-and-the-locals-are-split",
+      "id": "e74e5fa887",
+      "title": "Metacon Develops Advanced Catalytic Testing Unit for European Research Customer",
+      "url": "https://fuelcellsworks.com/2026/07/02/clean-energy/metacon-develops-advanced-catalytic-testing-unit-for-european-research-customer",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-01T15:39:35+00:00",
-      "pub_ts": 1782920375
+      "pub_date": "2026-07-02T16:03:57+00:00",
+      "pub_ts": 1783008237
     },
     {
-      "id": "67b2ae3719",
-      "title": "Battery Swapping Puts Pressure on Hydrogen Trucks as China Targets 1.6 Million New Energy Heavy-Duty Vehicles by 2030",
-      "url": "https://fuelcellsworks.com/2026/07/01/fuel-cells/battery-swapping-puts-pressure-on-hydrogen-trucks-as-china-targets-1-6-million-new-energy-heavy-duty-vehicles-by-2030",
+      "id": "9d8c1f1b38",
+      "title": "A Hydrogen Hub in Partinico: Plant Inaugurated in Former Industrial Area",
+      "url": "https://fuelcellsworks.com/2026/06/30/hydrogen/a-hydrogen-hub-in-partinico-plant-inaugurated-in-former-industrial-area",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-01T15:26:44+00:00",
-      "pub_ts": 1782919604
+      "pub_date": "2026-07-02T15:57:25+00:00",
+      "pub_ts": 1783007845
     },
     {
-      "id": "577c9941d4",
-      "title": "Nekkar Power Lands ₹75 Crore to Push Its Hydrogen Fuel Cell From Pilot to Industrial Scale",
-      "url": "https://fuelcellsworks.com/2026/07/01/h2/nekkar-power-lands-75-crore-to-push-its-hydrogen-fuel-cell-from-pilot-to-industrial-scale",
+      "id": "094534d2a2",
+      "title": "Yara Acquires Gulf Coast Ammonia Plant",
+      "url": "https://fuelcellsworks.com/2026/07/02/green-investment/yara-acquires-gulf-coast-ammonia-plant",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-01T15:04:36+00:00",
-      "pub_ts": 1782918276
+      "pub_date": "2026-07-02T15:47:08+00:00",
+      "pub_ts": 1783007228
     }
   ],
   "source_success_count": 1,
