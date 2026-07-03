@@ -8,9 +8,9 @@
 > 另：方法论北极星 `docs/INTELLIGENCE_OS.md`；实现计划 `~/.claude/plans/https-www-esgvalve-cn-gleaming-stroustrup.md`；项目记忆 `~/.claude/projects/.../memory/esg-event-engine.md` + `esg-spec-position.md`。
 > 最后更新 2026-07-02 ｜ 引擎主体在 `main`：里程碑1 + winnability + **O1/O2-A/O3/O4** 本体化 + 本体图谱 + 订单簿源（PR #23）｜ 处置闭环已上线（Vercel+Upstash）｜ 漏斗 B1/B2（PR #18）｜ 热力图 ESG 化（PR #20/#22）｜ 5 层栈 + RSS源 + 评估集（PR #30/#31/#32 已合）。Brave key 已 park（§7）。WIP/自动化在 `automation/monthly-update`。
 >
-> **🟡 本会话产出（07-02 晚）= PR #33 待合（详见 §13）**：热力图**对齐 ESG 19 大行业**（+9 赛道/新板块「过程工业」）｜**heat 评分 rubric**（可复现）+ 全部老赛道按 2026 真数据统一重评｜**L2 事件派生行业热度**（ROADMAP A1 地基，并行印证层）｜泛词降权 + 本体死字段清理 + 3 新工况（空分/核电/环保）。7 commit、65 测试全过。
+> **✅ 本会话产出（07-02～03）已全部合入 main**：**PR #33**（热力图对齐 ESG 19 大行业 +9 赛道 + heat 可复现 rubric + 全老赛道重评 + L2 事件派生，详见 §13）｜**PR #34**（Palantir CTO review 步骤1a+2：ER 未解析业主报告+提升6真公司 + 动能闭环消费机制，详见 §14）。70 测试全过。
 >
-> **🔑 下次开机关键词**：`读 HANDOFF §13 + docs/heat-scoring-rubric.md，先合 PR #33`。合完的闭环待办：① `scripts/build_industry_heat.py` 接 B0 数据 CI（随 events/ontology 一起上线，L2 信号才可见、heat 才自动刷新）② 源扩量（微信中转/zyzhan）让 L2 覆盖成熟、α 下调。P1.6 漏斗为既往主线（下）：
+> **🔑 下次开机关键词**：`读 HANDOFF §13/§14`。**下一个真坎 = 持久对象存储（跨 run 稳定身份）= CTO review 步骤1 完整版，架构大改需单独 scope**（本会话只做了人工提升那半）。其余闭环待办：① `scripts/build_industry_heat.py` 接 B0 数据 CI（L2 信号才上线、heat 才自动刷新）② KV→`data/feedback.json` 导出（闭环输入端，消费端已建）③ 源扩量（微信中转/zyzhan）让 L2 覆盖成熟、α 下调。P1.6 漏斗为既往主线（下）：
 >
 > **P1.6 漏斗串链**（热力图入口→下钻事件→带 方案/竞品/产品推荐，先 B 后 A）：
 > - **✅ B1/B2 已完成**（PR #18）：事件卡带 推荐产品 + 在位竞品（具名+威胁分/绿地"无外资在位"）；events.html 加行业过滤 + `?industry=` deep-link（B3 下钻入口已备）。
@@ -192,7 +192,7 @@ NODE_USE_ENV_PROXY=1 npx vercel@latest deploy --prod --yes   # 公开别名见 �
 - **微信中转**（阻塞·用户做）：订阅 wechat2rss → 把 `rss_sources.json` 的 8 个 `TODO-WECHAT-RELAY` 换成真 feed url（§11）。
 - **`zyzhan.py` 直抓源**：比微信稳的结构化招标源，备选（§11）。
 
-## 13. 本会话产出（2026-07-02 晚）：热力图对齐 ESG 业务 + heat 可复现/可派生（PR #33 待合）
+## 13. 本会话产出（2026-07-02 晚）：热力图对齐 ESG 业务 + heat 可复现/可派生（✅ PR #33 已合）
 
 > **背景链**：用户从"热力图适配公司业务范围（补注塑等）"一路推到"确保 web 抓取信息足以代替行业热度"。据此把热力图从旧的热点赛道，重构为**对齐 ESG 青岛精锐真实阀门业务**，并把"行业热度"从拍脑袋升级为**可复现 rubric + 可自动派生（L2 事件）**。**分支 `feat/heatmap-industry-alignment`，7 commit，PR #33（未合）**。
 
@@ -214,4 +214,24 @@ NODE_USE_ENV_PROXY=1 npx vercel@latest deploy --prod --yes   # 公开别名见 �
 - **① CI 接线**：`scripts/build_industry_heat.py` 并入 **B0 数据 CI**（Codex 在做的那条，同 `build_ontology.py`）——随 events/ontology 一起产出 `data/industry_heat.json` 上线，L2 信号才在部署可见。
 - **② 源扩量**（§11）：微信中转 + `zyzhan.py` 直抓，让事件覆盖成熟，α 才有下调空间。
 - **③ 逐子分 provenance**（rubric §7）：给每个 C/D/Pol/P 挂指标值+来源+asof（现落在 data[]/src[]，未逐子分拆）。
-- 前几轮 review 的既往遗留（未做）：`nav.js` 顶竞品 Bürkert 品牌｜旗舰新页 events/ontology 主导航进不去｜`ontology.html` 零错误处理｜O1 未解析业主→L2 簇质量。
+- 前几轮 review 的既往遗留（未做）：`nav.js` 顶竞品 Bürkert 品牌｜旗舰新页 events/ontology 主导航进不去｜`ontology.html` 零错误处理。
+
+## 14. 本会话产出（2026-07-02～03）：本体实例化 · Palantir CTO review 步骤1a+2（✅ PR #34 已合）
+
+> **背景**：用户让我以"Palantir CTO"视角 review 这个 demo。结论：这是**认真的本体化尝试**（诊断对：赢在 Function/Action，输在 Object/Link），但是**建模在配置里的 schema，不是实例化在存储里的本体**（对象活不过一次 run、ER 弱、动能闭环开着）。用户选"按建议走"——补两个承重缺口（不加分数/赛道=陷阱）。**分支 `feat/unresolved-owner-report`，4 commit，PR #34 已合。**
+
+### 步骤 1a · ER 做对（前半）
+- **`scripts/unresolved_owners.py`**（只读诊断）：扫所有 events pack，按频次×信号聚合 `resolved=False` 业主 → 提升清单 + 碎片簇启发式。跑真实 8 pack **实锤持久化缺口**（某乳业等跨 7 天复现 7 次、从不沉淀成 Object）。
+- **提升 6 真公司进 `config/entities.yml`**：湖南裕能/璞泰来(锂电)、赛轮轮胎(轮胎)、兴发集团/东华科技(化工)、和远气体(工业气体)，`type=company` 无 profile、aliases 覆盖写法 → 同公司收敛成一个 Object，**去碎片化 L2 印证簇(keyed owner_id)+L5 回流**。跳过噪声(芒果超媒)/误判 canary(中国巨石误判食品饮料=工况问题非 ER)。
+
+### 步骤 2 · 合上动能闭环（消费机制，gated 无标签）
+- **`engine/feedback.py`**：纯函数，处置赢/输按工况聚合 → 有界赢面微调（±0.15，需≥2 样本，单点不左右赢面）。
+- **`winnability.assess(feedback_delta=)`**：应用微调，basis 标"闭环反馈±X(临时·待标签)"，默认 0=no-op。
+- **`build.py`**：`build_pack` 读 `data/feedback.json`（gitignore）threading per-condition delta，无文件=no-op，engine 保持确定性/离线。**加固**：非 dict JSON 也降级 no-op 不崩 build（inline review 抓的 bug）。
+- **验证**：注入合成 `{hygienic:+0.15}` → 该工况赢面 0.30→0.45 带标注；无文件与旧行为逐位一致。
+
+### 🔑 本会话关键决策
+- **ER = 先人工提升**（存储大改单独 scope）；**闭环 = 只建消费机制、标注等真实标签**（守决策15 先采集后消费，导出端=KV→feedback.json 未建）。
+- **持久对象存储（跨 run 稳定身份）= 下一个真坎**，"从 demo 到 Foundry"的门槛，架构大改，未动、需单独立项。
+- **边升一等公民**（spec_position 带 source/asof/confidence）= CTO 步骤3，未动。
+- **review 纪律**：PR #34 的 workflow code-review 因 session limit 4/4 finder 挂了、结果无效——**没拿假绿合并**，改用主循环真人 inline 审，抓修 1 真 bug 后才合。
