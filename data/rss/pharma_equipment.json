@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-07-03T03:51:58.924335+00:00",
+  "updated_at": "2026-07-04T03:43:32.510460+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "276d1c5143",
-      "title": "Ipsen bolsters rare disease pipeline in €700m Memo takeover",
-      "url": "https://www.pharmaceutical-technology.com/news/ipsen-memo-takeover-700m-rare-disease-pipeline/",
-      "summary": "Ipsen’s Memo acquisition is the second the former has signed this week alone, following its blockbuster Kartos buyout on 29 June.",
+      "id": "67fa6d1f5c",
+      "title": "WHO intensifies Ebola-curbing efforts through drug trial and diagnostic rollout",
+      "url": "https://www.pharmaceutical-technology.com/news/who-ebola-response-clinical-trial-diagnostics/",
+      "summary": "WHO is sponsoring a trial testing drugs for Bundibugyo virus, while adding the first Ebola diagnostic test to its emergency use list.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-02T12:19:35+00:00",
-      "pub_ts": 1782994775
+      "pub_date": "2026-07-03T14:23:11+00:00",
+      "pub_ts": 1783088591
     },
     {
-      "id": "430852be20",
-      "title": "Podcast: HLTH Europe and BIO key trends rundown",
-      "url": "https://www.pharmaceutical-technology.com/features/podcast-hlth-europe-bio-2026-key-trends-rundown/",
-      "summary": "Our editorial team delve into the key takeaways from the 2026 HLTH Europe conference and the 2026 BIO International Convention.",
+      "id": "69692f50f3",
+      "title": "US-UK pharma trade deal paints a costly economic picture for NHS",
+      "url": "https://www.pharmaceutical-technology.com/news/us-uk-pharma-trade-deal-paints-a-costly-economic-picture-for-nhs/",
+      "summary": "Financial research published in the BMJ shows the trade deal could end up costing the NHS tens of billions.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-02T10:54:08+00:00",
-      "pub_ts": 1782989648
+      "pub_date": "2026-07-03T14:20:14+00:00",
+      "pub_ts": 1783088414
     },
     {
-      "id": "b8b90f7f46",
-      "title": "FDA widens Vertex’s Casgevy use for paediatric patients",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-widens-vertexs-casgevy-use-for-paediatric-patients/",
-      "summary": "Children as young as two with either sickle cell disease or thalassemia are now eligible for the gene therapy.",
+      "id": "7cda534d28",
+      "title": "SK bioscience to lead Gates Foundation-funded ROTOR project",
+      "url": "https://www.pharmaceutical-technology.com/news/sk-bioscience-to-lead-rotor-project/",
+      "summary": "SK bioscience is set to lead the Gates Foundation-funded ROTOR project, an AI-based platform aimed at reducing uncertainty in vaccine-development decisions.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-02T10:18:01+00:00",
-      "pub_ts": 1782987481
+      "pub_date": "2026-07-03T10:06:27+00:00",
+      "pub_ts": 1783073187
     },
     {
-      "id": "507109e58a",
-      "title": "Insilico Medicine, Takeda partner on AI-driven drug discovery",
-      "url": "https://www.pharmaceutical-technology.com/news/insilico-takeda-ai-driven-drug-discovery/",
-      "summary": "Insilico Medicine has entered into a strategic collaboration agreement with Takeda to deploy its AI-based Pharma.AI platform in the discovery and development of drug candidates.",
+      "id": "5e985a4492",
+      "title": "The celebrity prescription: star power meets healthcare",
+      "url": "https://www.pharmaceutical-technology.com/features/the-celebrity-prescription-star-power-meets-healthcare/",
+      "summary": "Celebrity ambassadors in pharma and medtech herald a new dawn of direct-to-consumer advertising.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-02T09:32:16+00:00",
-      "pub_ts": 1782984736
+      "pub_date": "2026-07-03T08:37:25+00:00",
+      "pub_ts": 1783067845
     },
     {
-      "id": "4763209155",
-      "title": "Inocras, AimedBio team up for cancer treatments",
-      "url": "https://www.pharmaceutical-technology.com/news/inocras-aimedbio-cancer-treatments/",
-      "summary": "Inocras has entered a strategic partnership with AimedBio to enhance cancer drug development using whole genome intelligence.",
+      "id": "9160439286",
+      "title": "European Commission approves Novartis’ Itvisma to treat SMA",
+      "url": "https://www.pharmaceutical-technology.com/news/european-commission-approves-novartis-itvisma/",
+      "summary": "The EC has granted approval for Novartis’ Itvisma as a treatment for children two years and older, teenagers, and adults who have 5q SMA with a bi-allelic mutation in the SMN1 gene.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-02T07:23:34+00:00",
-      "pub_ts": 1782977014
+      "pub_date": "2026-07-03T07:21:38+00:00",
+      "pub_ts": 1783063298
     }
   ],
   "source_success_count": 1,

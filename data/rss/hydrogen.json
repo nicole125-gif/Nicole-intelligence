@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-07-03T03:51:46.473466+00:00",
+  "updated_at": "2026-07-04T03:43:20.009564+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "788dc56d1f",
-      "title": "How Hyundai Motor Group’s Hydrogen and Robotics Tech Powered the Genesis Le Mans Debut",
-      "url": "https://fuelcellsworks.com/2026/07/02/energy-innovation/how-hyundai-motor-group-s-hydrogen-and-robotics-tech-powered-the-genesis-le-mans-debut",
+      "id": "e09b04ba03",
+      "title": "Spain Pours €162M ($185M) Into Cleantech — €18M for Renewable Hydrogen",
+      "url": "https://fuelcellsworks.com/2026/07/03/green-hydrogen/spain-pours-162m-185m-into-cleantech-manufacturing-with-18m-for-renewable-hydrogen",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-02T16:29:16+00:00",
-      "pub_ts": 1783009756
+      "pub_date": "2026-07-03T14:58:26+00:00",
+      "pub_ts": 1783090706
     },
     {
-      "id": "d487ca6901",
-      "title": "First Phase of Commercial Green Hydrogen Production Plant at Rijeka Refinery Completed",
-      "url": "https://fuelcellsworks.com/2026/07/02/green-hydrogen/first-phase-of-commercial-green-hydrogen-production-plant-at-rijeka-refinery-completed",
+      "id": "46cf5af233",
+      "title": "Malta Keeps Its Dream of an EU-Funded Hydrogen Pipeline Alive",
+      "url": "https://fuelcellsworks.com/2026/07/03/green-investment/malta-keeps-its-dream-of-an-eu-funded-hydrogen-pipeline-alive",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-02T16:15:55+00:00",
-      "pub_ts": 1783008955
+      "pub_date": "2026-07-03T14:55:28+00:00",
+      "pub_ts": 1783090528
     },
     {
-      "id": "e74e5fa887",
-      "title": "Metacon Develops Advanced Catalytic Testing Unit for European Research Customer",
-      "url": "https://fuelcellsworks.com/2026/07/02/clean-energy/metacon-develops-advanced-catalytic-testing-unit-for-european-research-customer",
+      "id": "08d834d14b",
+      "title": "Silver Medal for the TUCer Team's Hydrogen Car at the Shell Eco-Marathon Poland 2026",
+      "url": "https://fuelcellsworks.com/2026/07/02/fuel-cells/silver-medal-for-the-tucer-team-at-the-shell-eco-marathon-poland-2026",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-02T16:03:57+00:00",
-      "pub_ts": 1783008237
+      "pub_date": "2026-07-03T14:49:17+00:00",
+      "pub_ts": 1783090157
     },
     {
-      "id": "9d8c1f1b38",
-      "title": "A Hydrogen Hub in Partinico: Plant Inaugurated in Former Industrial Area",
-      "url": "https://fuelcellsworks.com/2026/06/30/hydrogen/a-hydrogen-hub-in-partinico-plant-inaugurated-in-former-industrial-area",
+      "id": "5115ccfbea",
+      "title": "As Europe’s Hydrogen Market Takes Shape, Finland Tackles Logistical Constraints to Strengthen Its Competitive Edge",
+      "url": "https://fuelcellsworks.com/2026/07/03/hydrogen/as-europe-s-hydrogen-market-takes-shape-finland-tackles-logistical-constraints-to-strengthen-its-competitive-edge",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-02T15:57:25+00:00",
-      "pub_ts": 1783007845
+      "pub_date": "2026-07-03T14:43:09+00:00",
+      "pub_ts": 1783089789
     },
     {
-      "id": "094534d2a2",
-      "title": "Yara Acquires Gulf Coast Ammonia Plant",
-      "url": "https://fuelcellsworks.com/2026/07/02/green-investment/yara-acquires-gulf-coast-ammonia-plant",
+      "id": "fd39c55895",
+      "title": "Brazil's Northeast Could Plug In 4 GW of Data Centres and Hydrogen Plants From 2032 — If the Grid Gets Built to Match",
+      "url": "https://fuelcellsworks.com/2026/07/03/h2/brazil-s-northeast-could-plug-in-4-gw-of-data-centres-and-hydrogen-plants-from-2032-if-the-grid-gets-built-to-match",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-02T15:47:08+00:00",
-      "pub_ts": 1783007228
+      "pub_date": "2026-07-03T14:15:49+00:00",
+      "pub_ts": 1783088149
     }
   ],
   "source_success_count": 1,

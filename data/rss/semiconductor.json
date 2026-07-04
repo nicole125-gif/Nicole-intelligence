@@ -3,108 +3,138 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-07-03T03:51:19.809538+00:00",
-  "item_count": 15,
+  "updated_at": "2026-07-04T03:42:49.166651+00:00",
+  "item_count": 14,
   "items": [
     {
-      "id": "6f3bf56dd4",
-      "title": "慕尼黑展一线观察，MCU行业正在发生什么？",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813991&idx=1&sn=939f6b6d7a64a068571b954df3694ec4",
-      "summary": "慕尼黑展一线观察，MCU行业正在发生什么？",
+      "id": "ed942cce1b",
+      "title": "芯片冷却，涌现大量“黑科技”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814020&idx=1&sn=8340f9547c25a15541df5e7b0327e404",
+      "summary": "芯片冷却，涌现大量“黑科技”",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-03T03:51:15.281697+00:00",
-      "pub_ts": 1783050675
+      "pub_date": "2026-07-04T03:42:44.760628+00:00",
+      "pub_ts": 1783136564
     },
     {
-      "id": "c26a5f2e15",
-      "title": "李在明：半导体、显示等战略产业，决定韩国发展走向",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813991&idx=2&sn=4bdc1e5c60aeab5664533a8b26745178",
-      "summary": "李在明：半导体、显示等战略产业，决定韩国发展走向",
+      "id": "586ba10d1b",
+      "title": "存储涨价终于要停了？手机、PC承受能力已到极限",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814020&idx=3&sn=ca3d8b2741d9767c9a8f34397d2a427a",
+      "summary": "存储涨价终于要停了？手机、PC承受能力已到极限",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-03T03:51:15.281744+00:00",
-      "pub_ts": 1783050675
+      "pub_date": "2026-07-04T03:42:44.760679+00:00",
+      "pub_ts": 1783136564
     },
     {
-      "id": "d3ddf1da4c",
-      "title": "传统SoC必将走向大规模异构集成",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813991&idx=3&sn=19d6694ea0048986775ea9787610f53d",
-      "summary": "传统SoC必将走向大规模异构集成",
+      "id": "5d51b436f9",
+      "title": "关于CPO、MicroLED，京东方成立技术攻关项目组",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814020&idx=4&sn=1db339b9e94404337a1d959c0dad59c2",
+      "summary": "关于CPO、MicroLED，京东方成立技术攻关项目组",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-03T03:51:15.281770+00:00",
-      "pub_ts": 1783050675
+      "pub_date": "2026-07-04T03:42:44.760708+00:00",
+      "pub_ts": 1783136564
     },
     {
-      "id": "d637834361",
-      "title": "中国功率芯片厂商提价，AI服务器面临困境",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813991&idx=4&sn=aa7296b28af0baae5f12b178fc4cd554",
-      "summary": "中国功率芯片厂商提价，AI服务器面临困境",
+      "id": "600add23e0",
+      "title": "铠侠332层NAND，开始出样",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814020&idx=5&sn=8a1779e170889ac6fffff6b0d08914c3",
+      "summary": "铠侠332层NAND，开始出样",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-03T03:51:15.281791+00:00",
-      "pub_ts": 1783050675
+      "pub_date": "2026-07-04T03:42:44.760758+00:00",
+      "pub_ts": 1783136564
     },
     {
-      "id": "a1ebf3ebe0",
-      "title": "瑞芯微：第一代RK182X至少领先业界一年时间",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247813991&idx=5&sn=0cf3f07c9c65bb22aa97cdff85f51a7a",
-      "summary": "瑞芯微：第一代RK182X至少领先业界一年时间",
-      "source": "半导体产业纵横",
-      "lang": "zh",
-      "pub_date": "2026-07-03T03:51:15.281811+00:00",
-      "pub_ts": 1783050675
-    },
-    {
-      "id": "fa973c0828",
-      "title": "英飞凌388亿晶圆厂，提前投产",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824649&idx=1&sn=4904aad77702bd3256d3cff1d65eb65f",
-      "summary": "英飞凌388亿晶圆厂，提前投产",
+      "id": "261e8991e5",
+      "title": "江波龙净利润，狂飙74394%",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824913&idx=1&sn=bae40188821868e79439ffec3e0f28ee",
+      "summary": "江波龙净利润，狂飙74394%",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-03T03:51:06.216431+00:00",
-      "pub_ts": 1783050666
+      "pub_date": "2026-07-04T03:42:34.448908+00:00",
+      "pub_ts": 1783136554
     },
     {
-      "id": "79061c3fc3",
-      "title": "高云半导体，完成数亿元融资，冲刺IPO",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824645&idx=1&sn=5636d1ade581de2fe64a7dacf3dff29d",
-      "summary": "高云半导体，完成数亿元融资，冲刺IPO",
+      "id": "968e7042c5",
+      "title": "华润微涨价，至少15%",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824743&idx=1&sn=c1abc331588a7a35d616bc4bf1ee65b8",
+      "summary": "华润微涨价，至少15%",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-03T03:51:06.216487+00:00",
-      "pub_ts": 1783050666
+      "pub_date": "2026-07-04T03:42:34.448962+00:00",
+      "pub_ts": 1783136554
     },
     {
-      "id": "142f81d37c",
-      "title": "三星晶圆厂，选择接单了",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824636&idx=1&sn=e11af07179797a8e181265381a1b551f",
-      "summary": "三星晶圆厂，选择接单了",
+      "id": "f4c8e00c1d",
+      "title": "下一代AI芯片，拼什么？",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824727&idx=1&sn=87122449fb08614672b1eec0fd326669",
+      "summary": "下一代AI芯片，拼什么？",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-03T03:51:06.216511+00:00",
-      "pub_ts": 1783050666
+      "pub_date": "2026-07-04T03:42:34.448984+00:00",
+      "pub_ts": 1783136554
     },
     {
-      "id": "e94c3fe253",
-      "title": "安谋科技与澳门国际科技产业中心达成战略合作，合力开启AI+半导体发展“芯...",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824616&idx=1&sn=bee181009fc3c66a4cbc5f39c4a5c866",
-      "summary": "安谋科技与澳门国际科技产业中心达成战略合作，合力开启AI+半导体发展“芯...",
+      "id": "22023b1d26",
+      "title": "AI时代千亿美元的CPU“牌局”",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824727&idx=2&sn=a0437cf52efd89aa2d302ec15b284851",
+      "summary": "AI时代千亿美元的CPU“牌局”",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-03T03:51:06.216533+00:00",
-      "pub_ts": 1783050666
+      "pub_date": "2026-07-04T03:42:34.449003+00:00",
+      "pub_ts": 1783136554
     },
     {
-      "id": "8e21bad40a",
-      "title": "0.3nm芯片路线图，imec最新发布",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824616&idx=2&sn=05e0083a7f5094244bf6abd5e7289160",
-      "summary": "0.3nm芯片路线图，imec最新发布",
+      "id": "547dbdb2d7",
+      "title": "巨头竞逐面板级封装",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247824727&idx=3&sn=e2acfcffa76c0056d7e611ea64500763",
+      "summary": "巨头竞逐面板级封装",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-03T03:51:06.216554+00:00",
-      "pub_ts": 1783050666
+      "pub_date": "2026-07-04T03:42:34.449021+00:00",
+      "pub_ts": 1783136554
+    },
+    {
+      "id": "08c1c6909e",
+      "title": "Computational Strategies for Schottky Barrier Heights Prediction (NIST, U. Maryland, Johns Hopkins)",
+      "url": "https://semiengineering.com/computational-strategies-for-schottky-barrier-heights-prediction-nist-u-maryland-johns-hopkins/",
+      "summary": "Researchers from NIST, University of Maryland, and Johns Hopkins University published a technical paper titled “Effect of Exchange-Correlation Functionals on Schottky Barriers at Si/Metal Interfaces.” Abstract excerpt &#8220;Accurate prediction of Schottky barrier heights (SBHs) at metal–semiconduct…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-07-03T20:57:53+00:00",
+      "pub_ts": 1783112273
+    },
+    {
+      "id": "b2cfc5c7d3",
+      "title": "LLM Agents To Refactor Software For High Level Synthesis (Carnegie Mellon, UCLA)",
+      "url": "https://semiengineering.com/llm-agents-to-refactor-software-for-high-level-synthesis-carnegie-mellon-ucla/",
+      "summary": "Researchers from Carnegie Mellon University and UCLA published a technical paper titled “AgRefactor: Self-Evolving Agentic Workflow for HLS Compatibility and Performance.” The paper introduces an “LLM-based multi-agent workflow  for refactoring software into HLS-compatible programs&#8221; and report…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-07-03T20:40:09+00:00",
+      "pub_ts": 1783111209
+    },
+    {
+      "id": "4d3f8ce532",
+      "title": "Probabilistic Memory Architecture That Bridges The Gap Between RNG Sampling and Memory Access (Notre Dame, Georgia Tech, Villanova)",
+      "url": "https://semiengineering.com/probabilistic-memory-architecture-that-bridges-the-gap-between-rng-sampling-and-memory-access-notre-dame-georgia-tech-villanova/",
+      "summary": "Researchers from University of Notre Dame, Georgia Institute of Technology, and Villanova University published a technical paper titled “Probabilistic Memory for Trustworthy Edge Intelligence.” Summary: The paper introduces p-MEM as “a unified memory primitive” that samples at “the native memory ban…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-07-03T20:32:27+00:00",
+      "pub_ts": 1783110747
+    },
+    {
+      "id": "ddd80818eb",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-145/",
+      "summary": "S. Korea goes All In on AI; new Dresden power fab; Intel expansion; GM secures memory supply; AI power management funding; mature-node foundry capacity; 300mm fab equipment; McKinsey's map of strategic IC supply; security threats; AI burnout.\nThe post Chip Industry Week In Review appeared first on S…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-07-03T07:01:50+00:00",
+      "pub_ts": 1783062110
     },
     {
       "id": "21d58b035d",
@@ -115,46 +145,6 @@
       "lang": "en",
       "pub_date": "2026-07-02T07:15:57+00:00",
       "pub_ts": 1782976557
-    },
-    {
-      "id": "a43c16297a",
-      "title": "Defending Against AI-Enabled Data Fusion",
-      "url": "https://semiengineering.com/defending-against-ai-enabled-data-fusion/",
-      "summary": "As multimodal AI fuses data from billions of devices, attackers can weaponize detailed digital twins of people or systems.  \nThe post Defending Against AI-Enabled Data Fusion appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-07-02T07:13:41+00:00",
-      "pub_ts": 1782976421
-    },
-    {
-      "id": "7262f2fdd4",
-      "title": "Accelerating Computational Lithography With GPU Rasterization",
-      "url": "https://semiengineering.com/accelerating-computational-lithography-with-gpu-rasterization/",
-      "summary": "Addressing a bottleneck in nanometer-scale semiconductor manufacturing.\nThe post Accelerating Computational Lithography With GPU Rasterization appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-07-02T07:08:47+00:00",
-      "pub_ts": 1782976127
-    },
-    {
-      "id": "ede56dee54",
-      "title": "Securing The Software-Defined Vehicle Starts With Re-Architecting Trust",
-      "url": "https://semiengineering.com/securing-the-software-defined-vehicle-starts-with-re-architecting-trust/",
-      "summary": "Centralized compute platforms and OTA updates change a vehicle's risk profile in fundamental ways. \nThe post Securing The Software-Defined Vehicle Starts With Re-Architecting Trust appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-07-02T07:07:04+00:00",
-      "pub_ts": 1782976024
-    },
-    {
-      "id": "425b082af0",
-      "title": "Three Things DSP Adoption Can Teach Us About Edge AI",
-      "url": "https://semiengineering.com/three-things-dsp-adoption-can-teach-us-about-edge-ai/",
-      "summary": "What happens when adoption is limited not by the silicon itself, but the development model around it.\nThe post Three Things DSP Adoption Can Teach Us About Edge AI appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-07-02T07:06:51+00:00",
-      "pub_ts": 1782976011
     }
   ],
   "source_success_count": 3,

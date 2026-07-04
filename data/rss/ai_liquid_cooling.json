@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-07-03T03:51:33.757822+00:00",
+  "updated_at": "2026-07-04T03:43:04.116701+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "84d3cd5913",
-      "title": "全球首个英伟达含量为0的万亿模型，成了海外开发者的抢手货",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901276&idx=1&sn=6cb78a4c78221af1f866b557a5e965b3",
-      "summary": "全球首个英伟达含量为0的万亿模型，成了海外开发者的抢手货",
+      "id": "968e0acb68",
+      "title": "从LLM到JEPA，中国团队正在把“世界模型”搬进细胞内部",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901533&idx=1&sn=fd0b9bdd22c75f247efd218564f0eaf8",
+      "summary": "从LLM到JEPA，中国团队正在把“世界模型”搬进细胞内部",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-03T03:51:29.278504+00:00",
-      "pub_ts": 1783050689
+      "pub_date": "2026-07-04T03:42:58.604457+00:00",
+      "pub_ts": 1783136578
     },
     {
-      "id": "7f031d5e3e",
-      "title": "世界模型的新用途：不做选手，去当裁判",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901276&idx=2&sn=fc5b49add766719e48201686a1be8a94",
-      "summary": "世界模型的新用途：不做选手，去当裁判",
+      "id": "71767edbce",
+      "title": "DeepSeek新技术移植苹果芯片！Mac 本地大模型加速60%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901533&idx=2&sn=041bf5871af43ca80a2fc3b6e31e66de",
+      "summary": "DeepSeek新技术移植苹果芯片！Mac 本地大模型加速60%",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-03T03:51:29.278548+00:00",
-      "pub_ts": 1783050689
+      "pub_date": "2026-07-04T03:42:58.604505+00:00",
+      "pub_ts": 1783136578
     },
     {
-      "id": "baa86adb49",
-      "title": "招募|量子位RSS'26专题策划",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901276&idx=3&sn=d5e4963007e4946cb413253f0143cb1e",
-      "summary": "招募|量子位RSS'26专题策划",
+      "id": "d4937f1d47",
+      "title": "AI找出4种全新超导体，只用28个GPU时！人类此前完全未知",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901441&idx=1&sn=8487a96074dff61b59753a34c10fbb5f",
+      "summary": "AI找出4种全新超导体，只用28个GPU时！人类此前完全未知",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-03T03:51:29.278570+00:00",
-      "pub_ts": 1783050689
+      "pub_date": "2026-07-04T03:42:58.604529+00:00",
+      "pub_ts": 1783136578
     },
     {
-      "id": "98605b549a",
-      "title": "强化学习没作用？人大DeITA精准识别关键token，推理正确率大幅上升",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901276&idx=4&sn=1a793f76bb77e2c068d2403b1c220d2a",
-      "summary": "强化学习没作用？人大DeITA精准识别关键token，推理正确率大幅上升",
+      "id": "f2794ce326",
+      "title": "李飞飞署名具身新论文：Sim2Real烧不起，Real2Sim量大管饱",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901441&idx=2&sn=efd07c634cc7cf517d707fe48d14e681",
+      "summary": "李飞飞署名具身新论文：Sim2Real烧不起，Real2Sim量大管饱",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-03T03:51:29.278590+00:00",
-      "pub_ts": 1783050689
+      "pub_date": "2026-07-04T03:42:58.604553+00:00",
+      "pub_ts": 1783136578
     },
     {
-      "id": "4080a954ce",
-      "title": "Fable5回归全网抓紧测！发现GLM-5.2更香了，价格只有1/39",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901217&idx=1&sn=8d47cab96b8bc97d170670c65d3fcb25",
-      "summary": "Fable5回归全网抓紧测！发现GLM-5.2更香了，价格只有1/39",
+      "id": "07ced109ba",
+      "title": "黄仁勋说的PhysicalAI，被这家中国跨界选手带进了生命科学实验室",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901370&idx=1&sn=fb7d14205b86d1cd3f5f8d42795c68ff",
+      "summary": "黄仁勋说的PhysicalAI，被这家中国跨界选手带进了生命科学实验室",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-03T03:51:29.278609+00:00",
-      "pub_ts": 1783050689
+      "pub_date": "2026-07-04T03:42:58.604576+00:00",
+      "pub_ts": 1783136578
     }
   ],
   "source_success_count": 1,
