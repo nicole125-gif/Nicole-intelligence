@@ -3,9 +3,19 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-07-04T03:43:32.510460+00:00",
+  "updated_at": "2026-07-05T04:03:01.201841+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "52bbc63a79",
+      "title": "Between two giants: Europe’s new oncology chapter takes shape in Paris",
+      "url": "https://www.pharmaceutical-technology.com/features/between-two-giants-europes-new-oncology-chapter-takes-shape-in-paris/",
+      "summary": "Paris is emerging as a focal point for Europe’s next phase in oncology, as science, capital and industry converge at Campus Grand Parc.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-04T06:00:00+00:00",
+      "pub_ts": 1783144800
+    },
     {
       "id": "67fa6d1f5c",
       "title": "WHO intensifies Ebola-curbing efforts through drug trial and diagnostic rollout",
@@ -45,16 +55,6 @@
       "lang": "en",
       "pub_date": "2026-07-03T08:37:25+00:00",
       "pub_ts": 1783067845
-    },
-    {
-      "id": "9160439286",
-      "title": "European Commission approves Novartis’ Itvisma to treat SMA",
-      "url": "https://www.pharmaceutical-technology.com/news/european-commission-approves-novartis-itvisma/",
-      "summary": "The EC has granted approval for Novartis’ Itvisma as a treatment for children two years and older, teenagers, and adults who have 5q SMA with a bi-allelic mutation in the SMN1 gene.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-03T07:21:38+00:00",
-      "pub_ts": 1783063298
     }
   ],
   "source_success_count": 1,

@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-07-04T03:43:04.116701+00:00",
+  "updated_at": "2026-07-05T04:02:37.041400+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "968e0acb68",
-      "title": "从LLM到JEPA，中国团队正在把“世界模型”搬进细胞内部",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901533&idx=1&sn=fd0b9bdd22c75f247efd218564f0eaf8",
-      "summary": "从LLM到JEPA，中国团队正在把“世界模型”搬进细胞内部",
+      "id": "b85bd4cb4a",
+      "title": "我说Fable5你要二进宫呢，原来是想抢任天堂饭碗哈",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901557&idx=1&sn=dea831af9bde90c750d651747a69e5f8",
+      "summary": "我说Fable5你要二进宫呢，原来是想抢任天堂饭碗哈",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-04T03:42:58.604457+00:00",
-      "pub_ts": 1783136578
+      "pub_date": "2026-07-05T04:02:32.895980+00:00",
+      "pub_ts": 1783224152
     },
     {
-      "id": "71767edbce",
-      "title": "DeepSeek新技术移植苹果芯片！Mac 本地大模型加速60%",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901533&idx=2&sn=041bf5871af43ca80a2fc3b6e31e66de",
-      "summary": "DeepSeek新技术移植苹果芯片！Mac 本地大模型加速60%",
+      "id": "05d9cc5d32",
+      "title": "Vibe一下能自动画工程图、做3D装配的AI来了Ⅰ上海AI Lab",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901557&idx=2&sn=b92b247ecd388e32a74b13a6422b7f82",
+      "summary": "Vibe一下能自动画工程图、做3D装配的AI来了Ⅰ上海AI Lab",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-04T03:42:58.604505+00:00",
-      "pub_ts": 1783136578
+      "pub_date": "2026-07-05T04:02:32.896042+00:00",
+      "pub_ts": 1783224152
     },
     {
-      "id": "d4937f1d47",
-      "title": "AI找出4种全新超导体，只用28个GPU时！人类此前完全未知",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901441&idx=1&sn=8487a96074dff61b59753a34c10fbb5f",
-      "summary": "AI找出4种全新超导体，只用28个GPU时！人类此前完全未知",
+      "id": "d0258681eb",
+      "title": "王嘉尔设计！影目INMO×WHL的AI眼镜凭啥引爆大众消费场?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901556&idx=1&sn=92213a6dc1701316ed27a8bd54cf3bac",
+      "summary": "王嘉尔设计！影目INMO×WHL的AI眼镜凭啥引爆大众消费场?",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-04T03:42:58.604529+00:00",
-      "pub_ts": 1783136578
+      "pub_date": "2026-07-05T04:02:32.896067+00:00",
+      "pub_ts": 1783224152
     },
     {
-      "id": "f2794ce326",
-      "title": "李飞飞署名具身新论文：Sim2Real烧不起，Real2Sim量大管饱",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901441&idx=2&sn=efd07c634cc7cf517d707fe48d14e681",
-      "summary": "李飞飞署名具身新论文：Sim2Real烧不起，Real2Sim量大管饱",
+      "id": "2f7ac3dd80",
+      "title": "持续霸榜Github的是一个Al视频剪辑项目",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901556&idx=2&sn=c3b0061d61a6767010f415d9b4fae1d8",
+      "summary": "持续霸榜Github的是一个Al视频剪辑项目",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-04T03:42:58.604553+00:00",
-      "pub_ts": 1783136578
+      "pub_date": "2026-07-05T04:02:32.896090+00:00",
+      "pub_ts": 1783224152
     },
     {
-      "id": "07ced109ba",
-      "title": "黄仁勋说的PhysicalAI，被这家中国跨界选手带进了生命科学实验室",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901370&idx=1&sn=fb7d14205b86d1cd3f5f8d42795c68ff",
-      "summary": "黄仁勋说的PhysicalAI，被这家中国跨界选手带进了生命科学实验室",
+      "id": "74ecf4ba27",
+      "title": "菲尔兹奖预测出炉：王虹邓煜呼声最高，解决50年难题才够门槛",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901554&idx=1&sn=08250792bb35c2e6f72e201de7540bd9",
+      "summary": "菲尔兹奖预测出炉：王虹邓煜呼声最高，解决50年难题才够门槛",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-04T03:42:58.604576+00:00",
-      "pub_ts": 1783136578
+      "pub_date": "2026-07-05T04:02:32.896113+00:00",
+      "pub_ts": 1783224152
     }
   ],
   "source_success_count": 1,
