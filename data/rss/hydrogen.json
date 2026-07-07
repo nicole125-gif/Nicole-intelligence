@@ -3,9 +3,59 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-07-06T04:08:47.129884+00:00",
+  "updated_at": "2026-07-07T03:59:36.844195+00:00",
   "item_count": 10,
   "items": [
+    {
+      "id": "74db0287fc",
+      "title": "Fuel Cell and Hydrogen News Highlights From China: June 29-July 03, 2026",
+      "url": "https://fuelcellsworks.com/2026/07/04/clean-energy/fuel-cell-and-hydrogen-news-highlights-from-china-june-29-july-03-2026",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-07-06T15:41:23+00:00",
+      "pub_ts": 1783352483
+    },
+    {
+      "id": "42d106a4f3",
+      "title": "H2BE and INEOS Agree Preliminary Terms for Low-Carbon Hydrogen Offtake at Europe's First Zero-Carbon Steam Cracker",
+      "url": "https://fuelcellsworks.com/2026/07/06/news/h2be-and-ineos-agree-preliminary-terms-for-low-carbon-hydrogen-offtake-at-europe-s-first-zero-carbon-steam-cracker-h96956693",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-07-06T15:39:25+00:00",
+      "pub_ts": 1783352365
+    },
+    {
+      "id": "da340c55aa",
+      "title": "De Nora Receives Final Tranche of Orders for Moeve, the Largest Green Hydrogen Project in Southern Europe",
+      "url": "https://fuelcellsworks.com/2026/07/06/fuel-cells/de-nora-receives-final-tranche-of-orders-for-moeve-the-largest-green-hydrogen-project-in-southern-europe",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-07-06T15:35:10+00:00",
+      "pub_ts": 1783352110
+    },
+    {
+      "id": "b440ac425e",
+      "title": "France Is Sitting on Natural Hydrogen — and Parliament Wants the State to Pay to Dig It Up",
+      "url": "https://fuelcellsworks.com/2026/07/05/h2/france-is-sitting-on-natural-hydrogen-and-parliament-wants-the-state-to-pay-to-dig-it-up",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-07-06T15:09:53+00:00",
+      "pub_ts": 1783350593
+    },
+    {
+      "id": "439bb96156",
+      "title": "Hydrogenera and Stargate Hydrogen Sign Agreement for Industrial Hydrogen Projects",
+      "url": "https://fuelcellsworks.com/2026/07/06/electrolyzer/hydrogenera-and-stargate-hydrogen-sign-agreement-for-industrial-hydrogen-projects",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-07-06T15:09:45+00:00",
+      "pub_ts": 1783350585
+    },
     {
       "id": "92e69f1244",
       "title": "First 25 kilos of green hydrogen produced at H2 Hollandia",
@@ -55,56 +105,6 @@
       "lang": "en",
       "pub_date": "2026-07-05T17:02:14+00:00",
       "pub_ts": 1783270934
-    },
-    {
-      "id": "e09b04ba03",
-      "title": "Spain Pours €162M ($185M) Into Cleantech — €18M for Renewable Hydrogen",
-      "url": "https://fuelcellsworks.com/2026/07/03/green-hydrogen/spain-pours-162m-185m-into-cleantech-manufacturing-with-18m-for-renewable-hydrogen",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-07-03T14:58:26+00:00",
-      "pub_ts": 1783090706
-    },
-    {
-      "id": "46cf5af233",
-      "title": "Malta Keeps Its Dream of an EU-Funded Hydrogen Pipeline Alive",
-      "url": "https://fuelcellsworks.com/2026/07/03/green-investment/malta-keeps-its-dream-of-an-eu-funded-hydrogen-pipeline-alive",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-07-03T14:55:28+00:00",
-      "pub_ts": 1783090528
-    },
-    {
-      "id": "08d834d14b",
-      "title": "Silver Medal for the TUCer Team's Hydrogen Car at the Shell Eco-Marathon Poland 2026",
-      "url": "https://fuelcellsworks.com/2026/07/02/fuel-cells/silver-medal-for-the-tucer-team-at-the-shell-eco-marathon-poland-2026",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-07-03T14:49:17+00:00",
-      "pub_ts": 1783090157
-    },
-    {
-      "id": "5115ccfbea",
-      "title": "As Europe’s Hydrogen Market Takes Shape, Finland Tackles Logistical Constraints to Strengthen Its Competitive Edge",
-      "url": "https://fuelcellsworks.com/2026/07/03/hydrogen/as-europe-s-hydrogen-market-takes-shape-finland-tackles-logistical-constraints-to-strengthen-its-competitive-edge",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-07-03T14:43:09+00:00",
-      "pub_ts": 1783089789
-    },
-    {
-      "id": "fd39c55895",
-      "title": "Brazil's Northeast Could Plug In 4 GW of Data Centres and Hydrogen Plants From 2032 — If the Grid Gets Built to Match",
-      "url": "https://fuelcellsworks.com/2026/07/03/h2/brazil-s-northeast-could-plug-in-4-gw-of-data-centres-and-hydrogen-plants-from-2032-if-the-grid-gets-built-to-match",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-07-03T14:15:49+00:00",
-      "pub_ts": 1783088149
     }
   ],
   "source_success_count": 2,

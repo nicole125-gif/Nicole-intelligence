@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-07-06T04:08:36.421644+00:00",
+  "updated_at": "2026-07-07T03:59:26.575906+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "76096afda6",
-      "title": "AI助手APP，阿里千问增速第一了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901601&idx=1&sn=d89686dda42ac87ac19311de11003bef",
-      "summary": "AI助手APP，阿里千问增速第一了",
+      "id": "70bfeb9296",
+      "title": "蚂蚁阿福登顶生活AIAPP榜",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901876&idx=1&sn=62fe3385b0d9929cf97535b3e8624c62",
+      "summary": "蚂蚁阿福登顶生活AIAPP榜",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-06T04:08:30.697957+00:00",
-      "pub_ts": 1783310910
+      "pub_date": "2026-07-07T03:59:22.621758+00:00",
+      "pub_ts": 1783396762
     },
     {
-      "id": "86987e0c8e",
-      "title": "Meta也来卖铲子了！小扎：模型可以慢，GPU必须赚",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901598&idx=1&sn=f775016212859671a5543631d6f27ca8",
-      "summary": "Meta也来卖铲子了！小扎：模型可以慢，GPU必须赚",
+      "id": "eed776f5b1",
+      "title": "70万辆车同步升级，背后那套系统藏了六年",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901868&idx=1&sn=837f26e41f4ed1d230d7e2b7c2792abf",
+      "summary": "70万辆车同步升级，背后那套系统藏了六年",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-06T04:08:30.698001+00:00",
-      "pub_ts": 1783310910
+      "pub_date": "2026-07-07T03:59:22.621797+00:00",
+      "pub_ts": 1783396762
     },
     {
-      "id": "532938c53e",
-      "title": "华为更新韬定律论文！",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901597&idx=1&sn=4938aa38880d9b6165e1e4cc5cc775f9",
-      "summary": "华为更新韬定律论文！",
+      "id": "da5aef2a39",
+      "title": "真·QQ飞车！「电动版F1」上海开赛，Gemini在线解说",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901868&idx=2&sn=a65310a14e7428ef06938d5a37c36683",
+      "summary": "真·QQ飞车！「电动版F1」上海开赛，Gemini在线解说",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-06T04:08:30.698025+00:00",
-      "pub_ts": 1783310910
+      "pub_date": "2026-07-07T03:59:22.621820+00:00",
+      "pub_ts": 1783396762
     },
     {
-      "id": "221f86d2d4",
-      "title": "CVPR2026新作：AI绘画正式迈入「所控即所得」时代",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901597&idx=2&sn=182b191704c71466ab7b54de4ae13977",
-      "summary": "CVPR2026新作：AI绘画正式迈入「所控即所得」时代",
+      "id": "3ac486ba2e",
+      "title": "模型不是企业的护城河，那什么才是？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901825&idx=1&sn=5983d3a3cbee73d498c8dcec9c27f7a5",
+      "summary": "模型不是企业的护城河，那什么才是？",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-06T04:08:30.698046+00:00",
-      "pub_ts": 1783310910
+      "pub_date": "2026-07-07T03:59:22.621841+00:00",
+      "pub_ts": 1783396762
     },
     {
-      "id": "6c7a661190",
-      "title": "别争了！香农老婆，才是世界上第一个大语言模型",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901585&idx=1&sn=08715ca9adad247fb22e80f37e2bc0c7",
-      "summary": "别争了！香农老婆，才是世界上第一个大语言模型",
+      "id": "b351f7427d",
+      "title": "AMD跑GLM5.2，成本只要英伟达一半",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901825&idx=2&sn=77f6b0c72b3063d278c4c7411d1bbdca",
+      "summary": "AMD跑GLM5.2，成本只要英伟达一半",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-06T04:08:30.698067+00:00",
-      "pub_ts": 1783310910
+      "pub_date": "2026-07-07T03:59:22.621862+00:00",
+      "pub_ts": 1783396762
     }
   ],
   "source_success_count": 1,

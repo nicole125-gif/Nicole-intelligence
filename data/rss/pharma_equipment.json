@@ -3,9 +3,49 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-07-06T04:08:59.551817+00:00",
+  "updated_at": "2026-07-07T03:59:49.256191+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "a2accf5ae3",
+      "title": "UK biotechs struggling to access finance as scale-up concerns grow",
+      "url": "https://www.pharmaceutical-technology.com/news/uk-biotechs-struggling-to-access-finance-as-scale-up-concerns-grow/",
+      "summary": "The UK Government has prioritised life science sector growth, but industry members have called for more funding.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-06T16:24:35+00:00",
+      "pub_ts": 1783355075
+    },
+    {
+      "id": "c00adcabc3",
+      "title": "Novartis to acquire Myricx Bio in up to $1.5bn deal",
+      "url": "https://www.pharmaceutical-technology.com/news/novartis-to-acquire-myricx-bio/",
+      "summary": "Novartis has signed an agreement to purchase Myricx Bio, a UK-based biotechnology company, in a transaction valued at up to $1.5bn.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-06T10:08:00+00:00",
+      "pub_ts": 1783332480
+    },
+    {
+      "id": "26879df74f",
+      "title": "Roche pens $490m Astex breast cancer license deal",
+      "url": "https://www.pharmaceutical-technology.com/news/roche-genentech-astex-breast-cancer-licensing-deal/",
+      "summary": "Roche’s breast cancer agreement with Astex is one of several oncology deals the Swiss pharma giant has inked in recent years.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-06T10:05:08+00:00",
+      "pub_ts": 1783332308
+    },
+    {
+      "id": "f9f2558965",
+      "title": "Besins Healthcare boosts drug delivery portfolio with UniD deal",
+      "url": "https://www.pharmaceutical-technology.com/news/besins-drug-delivery-portfolio-unid-deal/",
+      "summary": "Besins Healthcare has expanded its pharmaceutical operations with the acquisition of UniD Manufacturing, which specialises in long-acting drug delivery technologies.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-06T08:56:31+00:00",
+      "pub_ts": 1783328191
+    },
     {
       "id": "52bbc63a79",
       "title": "Between two giants: Europe’s new oncology chapter takes shape in Paris",
@@ -15,46 +55,6 @@
       "lang": "en",
       "pub_date": "2026-07-04T06:00:00+00:00",
       "pub_ts": 1783144800
-    },
-    {
-      "id": "67fa6d1f5c",
-      "title": "WHO intensifies Ebola-curbing efforts through drug trial and diagnostic rollout",
-      "url": "https://www.pharmaceutical-technology.com/news/who-ebola-response-clinical-trial-diagnostics/",
-      "summary": "WHO is sponsoring a trial testing drugs for Bundibugyo virus, while adding the first Ebola diagnostic test to its emergency use list.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-03T14:23:11+00:00",
-      "pub_ts": 1783088591
-    },
-    {
-      "id": "69692f50f3",
-      "title": "US-UK pharma trade deal paints a costly economic picture for NHS",
-      "url": "https://www.pharmaceutical-technology.com/news/us-uk-pharma-trade-deal-paints-a-costly-economic-picture-for-nhs/",
-      "summary": "Financial research published in the BMJ shows the trade deal could end up costing the NHS tens of billions.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-03T14:20:14+00:00",
-      "pub_ts": 1783088414
-    },
-    {
-      "id": "7cda534d28",
-      "title": "SK bioscience to lead Gates Foundation-funded ROTOR project",
-      "url": "https://www.pharmaceutical-technology.com/news/sk-bioscience-to-lead-rotor-project/",
-      "summary": "SK bioscience is set to lead the Gates Foundation-funded ROTOR project, an AI-based platform aimed at reducing uncertainty in vaccine-development decisions.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-03T10:06:27+00:00",
-      "pub_ts": 1783073187
-    },
-    {
-      "id": "5e985a4492",
-      "title": "The celebrity prescription: star power meets healthcare",
-      "url": "https://www.pharmaceutical-technology.com/features/the-celebrity-prescription-star-power-meets-healthcare/",
-      "summary": "Celebrity ambassadors in pharma and medtech herald a new dawn of direct-to-consumer advertising.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-03T08:37:25+00:00",
-      "pub_ts": 1783067845
     }
   ],
   "source_success_count": 1,

@@ -3,108 +3,128 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-07-06T04:08:21.293696+00:00",
+  "updated_at": "2026-07-07T03:59:12.892947+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "8bfb89e3ac",
-      "title": "欧洲抢疯空调，白电芯片起飞",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814100&idx=1&sn=176d9e1eba2e2a2896db551d23210958",
-      "summary": "欧洲抢疯空调，白电芯片起飞",
+      "id": "8cf7d5f1b5",
+      "title": "EDA+IP，一场“迟到的联姻”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814126&idx=1&sn=1a712a4ea728d564361afc0ef39faf45",
+      "summary": "EDA+IP，一场“迟到的联姻”",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-06T04:08:16.804473+00:00",
-      "pub_ts": 1783310896
+      "pub_date": "2026-07-07T03:59:08.270307+00:00",
+      "pub_ts": 1783396748
     },
     {
-      "id": "6169072634",
-      "title": "英特尔CPU涨价了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814100&idx=2&sn=303c3b2ea2782b2324326473f65fc814",
-      "summary": "英特尔CPU涨价了",
+      "id": "7b42249f6c",
+      "title": "联想笔记本电脑，搭载长江存储SSD",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814126&idx=2&sn=0e9db0f4f022840275ad33b28fd5cc59",
+      "summary": "联想笔记本电脑，搭载长江存储SSD",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-06T04:08:16.804516+00:00",
-      "pub_ts": 1783310896
+      "pub_date": "2026-07-07T03:59:08.270352+00:00",
+      "pub_ts": 1783396748
     },
     {
-      "id": "a3b1094115",
-      "title": "为何CXLType3内存不可或缺?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814100&idx=3&sn=d128a2171d0f7683043c957bf783e450",
-      "summary": "为何CXLType3内存不可或缺?",
+      "id": "d720426832",
+      "title": "荷兰初创企业，补齐EUV先进工艺关键环节",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814126&idx=3&sn=452ded60d83f6c0251c5bc698c0abc45",
+      "summary": "荷兰初创企业，补齐EUV先进工艺关键环节",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-06T04:08:16.804543+00:00",
-      "pub_ts": 1783310896
+      "pub_date": "2026-07-07T03:59:08.270379+00:00",
+      "pub_ts": 1783396748
     },
     {
-      "id": "24c3fb70ab",
-      "title": "都在喊“缺卡”，90%的AI芯片却被“浪费了？",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814100&idx=4&sn=8b8e2bc00082c0038770b40ed78574ad",
-      "summary": "都在喊“缺卡”，90%的AI芯片却被“浪费了？",
+      "id": "8caf021d4f",
+      "title": "这4大瓶颈，困住了AI算力",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814126&idx=4&sn=5698266a018482c71a7b235ce38ab176",
+      "summary": "这4大瓶颈，困住了AI算力",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-06T04:08:16.804565+00:00",
-      "pub_ts": 1783310896
+      "pub_date": "2026-07-07T03:59:08.270404+00:00",
+      "pub_ts": 1783396748
     },
     {
-      "id": "21059896f2",
-      "title": "看懂太空算力，这一篇就够啦！",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814100&idx=5&sn=1990ca4943ed86d454a34d71a9e102a9",
-      "summary": "看懂太空算力，这一篇就够啦！",
+      "id": "82e25aa65e",
+      "title": "芯片大神JimKeller新动作，建厂“量产晶圆厂”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814126&idx=5&sn=f35b7d00265802970768516be629a363",
+      "summary": "芯片大神JimKeller新动作，建厂“量产晶圆厂”",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-06T04:08:16.804586+00:00",
-      "pub_ts": 1783310896
+      "pub_date": "2026-07-07T03:59:08.270445+00:00",
+      "pub_ts": 1783396748
     },
     {
-      "id": "6108980697",
-      "title": "天下苦DRAM久矣",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247825021&idx=1&sn=dd1754bf4a9a2afa967912aea2e86a0d",
-      "summary": "天下苦DRAM久矣",
+      "id": "f0cd01a116",
+      "title": "PCB两巨头，涨价！",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247825095&idx=1&sn=7fc87bd52175a3d2197bb748028036a3",
+      "summary": "PCB两巨头，涨价！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-06T04:08:09.164457+00:00",
-      "pub_ts": 1783310889
+      "pub_date": "2026-07-07T03:58:59.607035+00:00",
+      "pub_ts": 1783396739
     },
     {
-      "id": "c3b8d2bf0a",
-      "title": "AI算力供需重构，迈入深水区",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247825021&idx=2&sn=51e620b660f990793c03edcb980181c3",
-      "summary": "AI算力供需重构，迈入深水区",
+      "id": "61841111ef",
+      "title": "混合键合，再度推迟?",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247825085&idx=1&sn=ed5db3a84cfa523577b41e953e03a618",
+      "summary": "混合键合，再度推迟?",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-06T04:08:09.164508+00:00",
-      "pub_ts": 1783310889
+      "pub_date": "2026-07-07T03:58:59.607087+00:00",
+      "pub_ts": 1783396739
     },
     {
-      "id": "cf207830a2",
-      "title": "苹果A20芯片，参数曝光",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247825021&idx=3&sn=434d3ecc49c943d1331c4ddd2ca74a12",
-      "summary": "苹果A20芯片，参数曝光",
+      "id": "f3a1a45b4f",
+      "title": "Jim Keller，要建晶圆厂了",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247825074&idx=1&sn=f34c7814dbb848f378e043a40815b808",
+      "summary": "Jim Keller，要建晶圆厂了",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-06T04:08:09.164533+00:00",
-      "pub_ts": 1783310889
+      "pub_date": "2026-07-07T03:58:59.607112+00:00",
+      "pub_ts": 1783396739
     },
     {
-      "id": "ccef3b6283",
-      "title": "三星晶圆代工未来路线，最新披露！",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247825021&idx=4&sn=dfa565bc048be62703029b4d37ebcd51",
-      "summary": "三星晶圆代工未来路线，最新披露！",
+      "id": "cdf144f097",
+      "title": "倒计时100天！2026湾芯展七大升级亮点正式发布",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247825074&idx=2&sn=1bb3054ae27ce07102578f7b3911543d",
+      "summary": "倒计时100天！2026湾芯展七大升级亮点正式发布",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-06T04:08:09.164556+00:00",
-      "pub_ts": 1783310889
+      "pub_date": "2026-07-07T03:58:59.607135+00:00",
+      "pub_ts": 1783396739
     },
     {
-      "id": "d49a696954",
-      "title": "被动元件涨价潮",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247825021&idx=5&sn=00e0c44c6fc46cd10137189d4a41f925",
-      "summary": "被动元件涨价潮",
+      "id": "dab8561204",
+      "title": "先进封装，最让人头疼的事",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247825074&idx=3&sn=513de512a9918a412764c25d9e7ab66b",
+      "summary": "先进封装，最让人头疼的事",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-06T04:08:09.164576+00:00",
-      "pub_ts": 1783310889
+      "pub_date": "2026-07-07T03:58:59.607156+00:00",
+      "pub_ts": 1783396739
+    },
+    {
+      "id": "19f7b7b730",
+      "title": "Research Bits: July 6",
+      "url": "https://semiengineering.com/research-bits-july-6/",
+      "summary": "Neural net predicts semiconductor properties; ferroelectric titanium dioxide thin film; bidirectional pixels.\nThe post Research Bits: July 6 appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-07-06T07:01:19+00:00",
+      "pub_ts": 1783321279
+    },
+    {
+      "id": "20d78a6502",
+      "title": "Data Center AI Growth Faces Challenging Bottlenecks",
+      "url": "https://semiengineering.com/data-center-ai-growth-faces-challenging-bottlenecks/",
+      "summary": "Will AI growth grind to a halt due to bottlenecks?\nThe post Data Center AI Growth Faces Challenging Bottlenecks appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-07-06T07:01:02+00:00",
+      "pub_ts": 1783321262
     },
     {
       "id": "08c1c6909e",
@@ -135,26 +155,6 @@
       "lang": "en",
       "pub_date": "2026-07-03T20:32:27+00:00",
       "pub_ts": 1783110747
-    },
-    {
-      "id": "ddd80818eb",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-145/",
-      "summary": "S. Korea goes All In on AI; new Dresden power fab; Intel expansion; GM secures memory supply; AI power management funding; mature-node foundry capacity; 300mm fab equipment; McKinsey's map of strategic IC supply; security threats; AI burnout.\nThe post Chip Industry Week In Review appeared first on S…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-07-03T07:01:50+00:00",
-      "pub_ts": 1783062110
-    },
-    {
-      "id": "21d58b035d",
-      "title": "AI Data Centers And Auto Industry Converge On Same Issues",
-      "url": "https://semiengineering.com/ai-data-centers-and-auto-industry-converge-on-same-issues/",
-      "summary": "The EV revolution relies on battery innovation, while AI data centers need a range of new energy solutions to play nice with the grid. Both sectors are taking notes.\nThe post AI Data Centers And Auto Industry Converge On Same Issues appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-07-02T07:15:57+00:00",
-      "pub_ts": 1782976557
     }
   ],
   "source_success_count": 3,
