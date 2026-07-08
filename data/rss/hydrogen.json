@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-07-07T03:59:36.844195+00:00",
+  "updated_at": "2026-07-08T03:25:57.158584+00:00",
   "item_count": 10,
   "items": [
     {
-      "id": "74db0287fc",
-      "title": "Fuel Cell and Hydrogen News Highlights From China: June 29-July 03, 2026",
-      "url": "https://fuelcellsworks.com/2026/07/04/clean-energy/fuel-cell-and-hydrogen-news-highlights-from-china-june-29-july-03-2026",
+      "id": "c459960d40",
+      "title": "Neoxid Hydrogen Receives €2M EU Funding for HyTec Hydrogen Safety Components Project in Neuss",
+      "url": "https://fuelcellsworks.com/2026/07/07/green-investment/neoxid-hydrogen-receives-2m-eu-funding-for-hytec-hydrogen-safety-components-project-in-neuss",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-06T15:41:23+00:00",
-      "pub_ts": 1783352483
+      "pub_date": "2026-07-07T15:44:45+00:00",
+      "pub_ts": 1783439085
     },
     {
-      "id": "42d106a4f3",
-      "title": "H2BE and INEOS Agree Preliminary Terms for Low-Carbon Hydrogen Offtake at Europe's First Zero-Carbon Steam Cracker",
-      "url": "https://fuelcellsworks.com/2026/07/06/news/h2be-and-ineos-agree-preliminary-terms-for-low-carbon-hydrogen-offtake-at-europe-s-first-zero-carbon-steam-cracker-h96956693",
+      "id": "241153bf0c",
+      "title": "EU's Green Hydrogen Homework: Half the Class Still Hasn't Handed It In — a Year Past Deadline",
+      "url": "https://fuelcellsworks.com/2026/07/07/electrolyzer/eu-s-green-hydrogen-homework-half-the-class-still-hasn-t-handed-it-in-a-year-past-deadline",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-06T15:39:25+00:00",
-      "pub_ts": 1783352365
+      "pub_date": "2026-07-07T15:39:56+00:00",
+      "pub_ts": 1783438796
     },
     {
-      "id": "da340c55aa",
-      "title": "De Nora Receives Final Tranche of Orders for Moeve, the Largest Green Hydrogen Project in Southern Europe",
-      "url": "https://fuelcellsworks.com/2026/07/06/fuel-cells/de-nora-receives-final-tranche-of-orders-for-moeve-the-largest-green-hydrogen-project-in-southern-europe",
+      "id": "6e8bcddd3e",
+      "title": "Regaining Momentum in the Hydrogen Ramp-Up",
+      "url": "https://fuelcellsworks.com/2026/07/06/h2/regaining-momentum-in-the-hydrogen-ramp-up",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-06T15:35:10+00:00",
-      "pub_ts": 1783352110
+      "pub_date": "2026-07-07T15:32:12+00:00",
+      "pub_ts": 1783438332
     },
     {
-      "id": "b440ac425e",
-      "title": "France Is Sitting on Natural Hydrogen — and Parliament Wants the State to Pay to Dig It Up",
-      "url": "https://fuelcellsworks.com/2026/07/05/h2/france-is-sitting-on-natural-hydrogen-and-parliament-wants-the-state-to-pay-to-dig-it-up",
+      "id": "d93e78f0fe",
+      "title": "LONGi and Saudi Water Authority Sign Strategic MoU to Advance Renewable Energy Integration and Digital Transformation of Saudi Water Sector",
+      "url": "https://fuelcellsworks.com/2026/07/07/green-technology/longi-and-saudi-water-authority-sign-strategic-mou-to-advance-renewable-energy-integration-and-digital-transformation-of-saudi-water-sector",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-06T15:09:53+00:00",
-      "pub_ts": 1783350593
+      "pub_date": "2026-07-07T15:32:09+00:00",
+      "pub_ts": 1783438329
     },
     {
-      "id": "439bb96156",
-      "title": "Hydrogenera and Stargate Hydrogen Sign Agreement for Industrial Hydrogen Projects",
-      "url": "https://fuelcellsworks.com/2026/07/06/electrolyzer/hydrogenera-and-stargate-hydrogen-sign-agreement-for-industrial-hydrogen-projects",
+      "id": "a6e40917b6",
+      "title": "Sizewell C Brings Hydrogen and Electric Buses to Nuclear Construction — 150 Zero-Emission Vehicles Head to Suffolk",
+      "url": "https://fuelcellsworks.com/2026/07/07/electrolyzer/sizewell-c-brings-hydrogen-and-electric-buses-to-nuclear-construction-150-zero-emission-vehicles-head-to-suffolk",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-06T15:09:45+00:00",
-      "pub_ts": 1783350585
+      "pub_date": "2026-07-07T15:22:38+00:00",
+      "pub_ts": 1783437758
     },
     {
       "id": "92e69f1244",

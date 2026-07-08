@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-07-07T03:59:49.256191+00:00",
+  "updated_at": "2026-07-08T03:26:09.549570+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "a2accf5ae3",
-      "title": "UK biotechs struggling to access finance as scale-up concerns grow",
-      "url": "https://www.pharmaceutical-technology.com/news/uk-biotechs-struggling-to-access-finance-as-scale-up-concerns-grow/",
-      "summary": "The UK Government has prioritised life science sector growth, but industry members have called for more funding.",
+      "id": "966b8ac53a",
+      "title": "Podcast: Servier describes its M&A and manufacturing strategy amidst deal-making drive",
+      "url": "https://www.pharmaceutical-technology.com/features/podcast-servier-describes-its-ma-and-manufacturing-strategy-amidst-deal-making-drive/",
+      "summary": "Servier’s head of business development Frederic Scaerou discusses the French company’s recent string of dealmaking.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-06T16:24:35+00:00",
-      "pub_ts": 1783355075
+      "pub_date": "2026-07-07T15:52:05+00:00",
+      "pub_ts": 1783439525
     },
     {
-      "id": "c00adcabc3",
-      "title": "Novartis to acquire Myricx Bio in up to $1.5bn deal",
-      "url": "https://www.pharmaceutical-technology.com/news/novartis-to-acquire-myricx-bio/",
-      "summary": "Novartis has signed an agreement to purchase Myricx Bio, a UK-based biotechnology company, in a transaction valued at up to $1.5bn.",
+      "id": "fb8dabd979",
+      "title": "Merck KGaA-backed Cyllene Therapeutics secures €33m for gene therapy pipeline",
+      "url": "https://www.pharmaceutical-technology.com/news/merck-kgaa-backed-cyllene-therapeutics-secures-e33m-for-gene-therapy-pipeline/",
+      "summary": "Fresh with a rebrand, Cyllene will advance gene therapies built on a platform that uses a modified form of the herpes virus for delivery.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-06T10:08:00+00:00",
-      "pub_ts": 1783332480
+      "pub_date": "2026-07-07T14:31:50+00:00",
+      "pub_ts": 1783434710
     },
     {
-      "id": "26879df74f",
-      "title": "Roche pens $490m Astex breast cancer license deal",
-      "url": "https://www.pharmaceutical-technology.com/news/roche-genentech-astex-breast-cancer-licensing-deal/",
-      "summary": "Roche’s breast cancer agreement with Astex is one of several oncology deals the Swiss pharma giant has inked in recent years.",
+      "id": "161ce1a3d2",
+      "title": "De-risking drug formulation with AI predictive modelling",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/de-risking-drug-formulation-with-ai-predictive-modelling/",
+      "summary": "Through predictive modelling, AI supports target identification, prediction of physicochemical properties and formulation strategy selection.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-06T10:05:08+00:00",
-      "pub_ts": 1783332308
+      "pub_date": "2026-07-07T11:44:39+00:00",
+      "pub_ts": 1783424679
     },
     {
-      "id": "f9f2558965",
-      "title": "Besins Healthcare boosts drug delivery portfolio with UniD deal",
-      "url": "https://www.pharmaceutical-technology.com/news/besins-drug-delivery-portfolio-unid-deal/",
-      "summary": "Besins Healthcare has expanded its pharmaceutical operations with the acquisition of UniD Manufacturing, which specialises in long-acting drug delivery technologies.",
+      "id": "044b76ef35",
+      "title": "Vertex signs agreement to acquire Crinetics for $10bn",
+      "url": "https://www.pharmaceutical-technology.com/news/vertex-agreement-to-buy-crinetics/",
+      "summary": "Vertex is to acquire Crinetics Pharmaceuticals in a transaction valued at nearly $10bn, or $8.8bn net of estimated cash acquired.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-06T08:56:31+00:00",
-      "pub_ts": 1783328191
+      "pub_date": "2026-07-07T09:55:30+00:00",
+      "pub_ts": 1783418130
     },
     {
-      "id": "52bbc63a79",
-      "title": "Between two giants: Europe’s new oncology chapter takes shape in Paris",
-      "url": "https://www.pharmaceutical-technology.com/features/between-two-giants-europes-new-oncology-chapter-takes-shape-in-paris/",
-      "summary": "Paris is emerging as a focal point for Europe’s next phase in oncology, as science, capital and industry converge at Campus Grand Parc.",
+      "id": "aef402b9ef",
+      "title": "EC approves AbbVie’s Tepkinly combination for follicular lymphoma",
+      "url": "https://www.pharmaceutical-technology.com/news/ec-abbvie-tepkinly-combination/",
+      "summary": "The EC has granted marketing authorisation for AbbVie’s Tepkinly in combination with lenalidomide and rituximab for adults with relapsed or refractory follicular lymphoma.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-04T06:00:00+00:00",
-      "pub_ts": 1783144800
+      "pub_date": "2026-07-07T08:54:07+00:00",
+      "pub_ts": 1783414447
     }
   ],
   "source_success_count": 1,

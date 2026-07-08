@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-07-07T03:59:26.575906+00:00",
+  "updated_at": "2026-07-08T03:25:43.195420+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "70bfeb9296",
-      "title": "蚂蚁阿福登顶生活AIAPP榜",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901876&idx=1&sn=62fe3385b0d9929cf97535b3e8624c62",
-      "summary": "蚂蚁阿福登顶生活AIAPP榜",
+      "id": "718f9b7380",
+      "title": "DeepSeek招聘被「华为天才少年」公开吐槽，“面到最不专业的”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902085&idx=1&sn=bb0b3ca00c659dae85be8b0a51553488",
+      "summary": "DeepSeek招聘被「华为天才少年」公开吐槽，“面到最不专业的”",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-07T03:59:22.621758+00:00",
-      "pub_ts": 1783396762
+      "pub_date": "2026-07-08T03:25:37.977472+00:00",
+      "pub_ts": 1783481137
     },
     {
-      "id": "eed776f5b1",
-      "title": "70万辆车同步升级，背后那套系统藏了六年",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901868&idx=1&sn=837f26e41f4ed1d230d7e2b7c2792abf",
-      "summary": "70万辆车同步升级，背后那套系统藏了六年",
+      "id": "75d64f0418",
+      "title": "王阳明心学，被Anthropic 用来教Claude做人了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902085&idx=2&sn=3e5d59c6564bb9a2775f3a01fa3de6a4",
+      "summary": "王阳明心学，被Anthropic 用来教Claude做人了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-07T03:59:22.621797+00:00",
-      "pub_ts": 1783396762
+      "pub_date": "2026-07-08T03:25:37.977518+00:00",
+      "pub_ts": 1783481137
     },
     {
-      "id": "da5aef2a39",
-      "title": "真·QQ飞车！「电动版F1」上海开赛，Gemini在线解说",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901868&idx=2&sn=a65310a14e7428ef06938d5a37c36683",
-      "summary": "真·QQ飞车！「电动版F1」上海开赛，Gemini在线解说",
+      "id": "ffeafa0f4a",
+      "title": "姚顺雨Agent能力交卷！腾讯混元Hy3把元宝练成了打工人",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902065&idx=1&sn=f44b43546093ebab09130ede2b2bfe9d",
+      "summary": "姚顺雨Agent能力交卷！腾讯混元Hy3把元宝练成了打工人",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-07T03:59:22.621820+00:00",
-      "pub_ts": 1783396762
+      "pub_date": "2026-07-08T03:25:37.977566+00:00",
+      "pub_ts": 1783481137
     },
     {
-      "id": "3ac486ba2e",
-      "title": "模型不是企业的护城河，那什么才是？",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901825&idx=1&sn=5983d3a3cbee73d498c8dcec9c27f7a5",
-      "summary": "模型不是企业的护城河，那什么才是？",
+      "id": "3a910adad5",
+      "title": "完全免费！Claude Science 开源平替，DeepSeek/GLM想用哪个用哪个",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902065&idx=2&sn=c87dd4ffb18984c5c800bffc4a5876a8",
+      "summary": "完全免费！Claude Science 开源平替，DeepSeek/GLM想用哪个用哪个",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-07T03:59:22.621841+00:00",
-      "pub_ts": 1783396762
+      "pub_date": "2026-07-08T03:25:37.977591+00:00",
+      "pub_ts": 1783481137
     },
     {
-      "id": "b351f7427d",
-      "title": "AMD跑GLM5.2，成本只要英伟达一半",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901825&idx=2&sn=77f6b0c72b3063d278c4c7411d1bbdca",
-      "summary": "AMD跑GLM5.2，成本只要英伟达一半",
+      "id": "9d146eaccd",
+      "title": "刚刚，首个空间原生的具身视觉基模开源！机器人更会看我们的世界了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902040&idx=1&sn=fb6fcc00d2b5618fe21ed103cc5e1892",
+      "summary": "刚刚，首个空间原生的具身视觉基模开源！机器人更会看我们的世界了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-07T03:59:22.621862+00:00",
-      "pub_ts": 1783396762
+      "pub_date": "2026-07-08T03:25:37.977612+00:00",
+      "pub_ts": 1783481137
     }
   ],
   "source_success_count": 1,
