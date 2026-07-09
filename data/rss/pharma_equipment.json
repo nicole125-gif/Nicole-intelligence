@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-07-08T03:26:09.549570+00:00",
+  "updated_at": "2026-07-09T03:53:41.254536+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "966b8ac53a",
-      "title": "Podcast: Servier describes its M&A and manufacturing strategy amidst deal-making drive",
-      "url": "https://www.pharmaceutical-technology.com/features/podcast-servier-describes-its-ma-and-manufacturing-strategy-amidst-deal-making-drive/",
-      "summary": "Servier’s head of business development Frederic Scaerou discusses the French company’s recent string of dealmaking.",
+      "id": "c3da6f4589",
+      "title": "FDA cracks down on illegal ketamine sellers amid nearing ‘psychedelic revolution’",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-cracks-down-on-illicit-ketamine-trade/",
+      "summary": "The FDA is taking action to curb the illicit online trade of unregulated and unapproved ketamine products through a slew of warning letters.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-07T15:52:05+00:00",
-      "pub_ts": 1783439525
+      "pub_date": "2026-07-08T14:10:30+00:00",
+      "pub_ts": 1783519830
     },
     {
-      "id": "fb8dabd979",
-      "title": "Merck KGaA-backed Cyllene Therapeutics secures €33m for gene therapy pipeline",
-      "url": "https://www.pharmaceutical-technology.com/news/merck-kgaa-backed-cyllene-therapeutics-secures-e33m-for-gene-therapy-pipeline/",
-      "summary": "Fresh with a rebrand, Cyllene will advance gene therapies built on a platform that uses a modified form of the herpes virus for delivery.",
+      "id": "434523417c",
+      "title": "Kalohexis confidentially files IPO to back obesity and cachexia portfolio",
+      "url": "https://www.pharmaceutical-technology.com/news/kalohexis-files-confidential-ipo-obesity-cachexia/",
+      "summary": "The biotech’s potential launch on the public markets would help fuel development of its clinical-stage, melanocortin-focused pipeline.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-07T14:31:50+00:00",
-      "pub_ts": 1783434710
+      "pub_date": "2026-07-08T10:40:02+00:00",
+      "pub_ts": 1783507202
     },
     {
-      "id": "161ce1a3d2",
-      "title": "De-risking drug formulation with AI predictive modelling",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/de-risking-drug-formulation-with-ai-predictive-modelling/",
-      "summary": "Through predictive modelling, AI supports target identification, prediction of physicochemical properties and formulation strategy selection.",
+      "id": "2d51cf690e",
+      "title": "Novo Nordisk signs pact with Vivani for long-lasting semaglutide implant",
+      "url": "https://www.pharmaceutical-technology.com/news/novo-nordisk-signs-pact-with-vivani-for-long-lasting-semaglutide-implant/",
+      "summary": "Vivani’s NanoPortal technology delivers medication steadily over long periods of time.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-07T11:44:39+00:00",
-      "pub_ts": 1783424679
+      "pub_date": "2026-07-08T10:11:06+00:00",
+      "pub_ts": 1783505466
     },
     {
-      "id": "044b76ef35",
-      "title": "Vertex signs agreement to acquire Crinetics for $10bn",
-      "url": "https://www.pharmaceutical-technology.com/news/vertex-agreement-to-buy-crinetics/",
-      "summary": "Vertex is to acquire Crinetics Pharmaceuticals in a transaction valued at nearly $10bn, or $8.8bn net of estimated cash acquired.",
+      "id": "7580d1bce6",
+      "title": "FDA grants rare paediatric designation to Vanda’s CMT2S therapy",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-designation-vandas-cmt2s-therapy/",
+      "summary": "The US FDA has granted rare paediatric disease designation to Vanda Pharmaceuticals’ VCA-894A, an investigational antisense oligonucleotide therapy for CMT2S.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-07T09:55:30+00:00",
-      "pub_ts": 1783418130
+      "pub_date": "2026-07-08T09:15:44+00:00",
+      "pub_ts": 1783502144
     },
     {
-      "id": "aef402b9ef",
-      "title": "EC approves AbbVie’s Tepkinly combination for follicular lymphoma",
-      "url": "https://www.pharmaceutical-technology.com/news/ec-abbvie-tepkinly-combination/",
-      "summary": "The EC has granted marketing authorisation for AbbVie’s Tepkinly in combination with lenalidomide and rituximab for adults with relapsed or refractory follicular lymphoma.",
+      "id": "e4da465992",
+      "title": "Biocytogen and Whitehawk partner to develop ADCs",
+      "url": "https://www.pharmaceutical-technology.com/news/biocytogen-whitehawk-to-develop-adcs/",
+      "summary": "Biocytogen and Whitehawk Therapeutics are set to develop bispecific antibody-drug conjugates (BsADCs), as part of a global partnership.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-07T08:54:07+00:00",
-      "pub_ts": 1783414447
+      "pub_date": "2026-07-08T07:59:09+00:00",
+      "pub_ts": 1783497549
     }
   ],
   "source_success_count": 1,

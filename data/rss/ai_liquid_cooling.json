@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-07-08T03:25:43.195420+00:00",
+  "updated_at": "2026-07-09T03:53:14.834486+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "718f9b7380",
-      "title": "DeepSeek招聘被「华为天才少年」公开吐槽，“面到最不专业的”",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902085&idx=1&sn=bb0b3ca00c659dae85be8b0a51553488",
-      "summary": "DeepSeek招聘被「华为天才少年」公开吐槽，“面到最不专业的”",
+      "id": "d3491a2a80",
+      "title": "具身智能“高考”难疯了！人类100分，最强模型12.8",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902422&idx=1&sn=f4e64115b733c9713c936ce33dc604a5",
+      "summary": "具身智能“高考”难疯了！人类100分，最强模型12.8",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-08T03:25:37.977472+00:00",
-      "pub_ts": 1783481137
+      "pub_date": "2026-07-09T03:53:11.001040+00:00",
+      "pub_ts": 1783569191
     },
     {
-      "id": "75d64f0418",
-      "title": "王阳明心学，被Anthropic 用来教Claude做人了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902085&idx=2&sn=3e5d59c6564bb9a2775f3a01fa3de6a4",
-      "summary": "王阳明心学，被Anthropic 用来教Claude做人了",
+      "id": "cf43695c9c",
+      "title": "50FPS、成本打掉70%，魔芯MoWorld把世界模型带进产业时代",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902422&idx=2&sn=43d84b0bf1872f93b8d361bfbc32bb42",
+      "summary": "50FPS、成本打掉70%，魔芯MoWorld把世界模型带进产业时代",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-08T03:25:37.977518+00:00",
-      "pub_ts": 1783481137
+      "pub_date": "2026-07-09T03:53:11.001088+00:00",
+      "pub_ts": 1783569191
     },
     {
-      "id": "ffeafa0f4a",
-      "title": "姚顺雨Agent能力交卷！腾讯混元Hy3把元宝练成了打工人",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902065&idx=1&sn=f44b43546093ebab09130ede2b2bfe9d",
-      "summary": "姚顺雨Agent能力交卷！腾讯混元Hy3把元宝练成了打工人",
+      "id": "bd2d0ceeb5",
+      "title": "别让AI一上来就“进厂打螺丝”：智源悟界·Orca要先教模型理解世界如何变化",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902368&idx=1&sn=88b37d109beade80d78281ee454b30bd",
+      "summary": "别让AI一上来就“进厂打螺丝”：智源悟界·Orca要先教模型理解世界如何变化",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-08T03:25:37.977566+00:00",
-      "pub_ts": 1783481137
+      "pub_date": "2026-07-09T03:53:11.001112+00:00",
+      "pub_ts": 1783569191
     },
     {
-      "id": "3a910adad5",
-      "title": "完全免费！Claude Science 开源平替，DeepSeek/GLM想用哪个用哪个",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902065&idx=2&sn=c87dd4ffb18984c5c800bffc4a5876a8",
-      "summary": "完全免费！Claude Science 开源平替，DeepSeek/GLM想用哪个用哪个",
+      "id": "baaba129e8",
+      "title": "翁荔新博客提出「自进化先从Harness开始」，DeepSeek崔添翼转发附议",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902368&idx=2&sn=759e8293d35b6ff42e3be3900f6c498e",
+      "summary": "翁荔新博客提出「自进化先从Harness开始」，DeepSeek崔添翼转发附议",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-08T03:25:37.977591+00:00",
-      "pub_ts": 1783481137
+      "pub_date": "2026-07-09T03:53:11.001134+00:00",
+      "pub_ts": 1783569191
     },
     {
-      "id": "9d146eaccd",
-      "title": "刚刚，首个空间原生的具身视觉基模开源！机器人更会看我们的世界了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902040&idx=1&sn=fb6fcc00d2b5618fe21ed103cc5e1892",
-      "summary": "刚刚，首个空间原生的具身视觉基模开源！机器人更会看我们的世界了",
+      "id": "dc7c7959fb",
+      "title": "60000小时炼出新开源VLA！20多种机器人都能用",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902258&idx=1&sn=09ea927102a45e58d2de764072287fc9",
+      "summary": "60000小时炼出新开源VLA！20多种机器人都能用",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-08T03:25:37.977612+00:00",
-      "pub_ts": 1783481137
+      "pub_date": "2026-07-09T03:53:11.001157+00:00",
+      "pub_ts": 1783569191
     }
   ],
   "source_success_count": 1,

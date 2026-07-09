@@ -3,111 +3,61 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-07-08T03:25:57.158584+00:00",
-  "item_count": 10,
+  "updated_at": "2026-07-09T03:53:28.408673+00:00",
+  "item_count": 5,
   "items": [
     {
-      "id": "c459960d40",
-      "title": "Neoxid Hydrogen Receives €2M EU Funding for HyTec Hydrogen Safety Components Project in Neuss",
-      "url": "https://fuelcellsworks.com/2026/07/07/green-investment/neoxid-hydrogen-receives-2m-eu-funding-for-hytec-hydrogen-safety-components-project-in-neuss",
+      "id": "f8614a501c",
+      "title": "THWS Wins Federal Aviation Funding for Modular Hydrogen-Powered Light Aircraft",
+      "url": "https://fuelcellsworks.com/2026/07/08/news/thws-wins-federal-aviation-funding-for-modular-hydrogen-powered-light-aircraft",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-07T15:44:45+00:00",
-      "pub_ts": 1783439085
+      "pub_date": "2026-07-08T13:48:47+00:00",
+      "pub_ts": 1783518527
     },
     {
-      "id": "241153bf0c",
-      "title": "EU's Green Hydrogen Homework: Half the Class Still Hasn't Handed It In — a Year Past Deadline",
-      "url": "https://fuelcellsworks.com/2026/07/07/electrolyzer/eu-s-green-hydrogen-homework-half-the-class-still-hasn-t-handed-it-in-a-year-past-deadline",
+      "id": "17295cc41a",
+      "title": "DRIFT Energy Lines Up 50 Hydrogen Ship",
+      "url": "https://fuelcellsworks.com/2026/07/08/green-investment/drift-energy-lines-up-50-hydrogen-ship",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-07T15:39:56+00:00",
-      "pub_ts": 1783438796
+      "pub_date": "2026-07-08T13:45:35+00:00",
+      "pub_ts": 1783518335
     },
     {
-      "id": "6e8bcddd3e",
-      "title": "Regaining Momentum in the Hydrogen Ramp-Up",
-      "url": "https://fuelcellsworks.com/2026/07/06/h2/regaining-momentum-in-the-hydrogen-ramp-up",
+      "id": "1b1685a522",
+      "title": "Kirin Begins Green Hydrogen Demonstration at Hokkaido Brewery to Cut Beer Production Emissions",
+      "url": "https://fuelcellsworks.com/2026/07/07/h2/kirin-begins-green-hydrogen-demonstration-at-hokkaido-brewery-to-cut-beer-production-emissions",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-07T15:32:12+00:00",
-      "pub_ts": 1783438332
+      "pub_date": "2026-07-08T13:35:37+00:00",
+      "pub_ts": 1783517737
     },
     {
-      "id": "d93e78f0fe",
-      "title": "LONGi and Saudi Water Authority Sign Strategic MoU to Advance Renewable Energy Integration and Digital Transformation of Saudi Water Sector",
-      "url": "https://fuelcellsworks.com/2026/07/07/green-technology/longi-and-saudi-water-authority-sign-strategic-mou-to-advance-renewable-energy-integration-and-digital-transformation-of-saudi-water-sector",
+      "id": "6c3faf3164",
+      "title": "Ground-Breaking Ceremony for Austria’s Largest Green Hydrogen Production Plant: RAG Austria Are Expanding Together with Andritz the Electrolysis Facility in Gampern (Upper Austria) From 2.5 MW to 15 MW",
+      "url": "https://fuelcellsworks.com/2026/07/08/electrolyzer/ground-breaking-ceremony-for-austria-s-largest-green-hydrogen-production-plant-rag-austria-are-expanding-together-with-andritz-the-electrolysis-facility-in-gampern-upper-austria-from-2-5-mw-to-15-mw",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-07T15:32:09+00:00",
-      "pub_ts": 1783438329
+      "pub_date": "2026-07-08T13:31:37+00:00",
+      "pub_ts": 1783517497
     },
     {
-      "id": "a6e40917b6",
-      "title": "Sizewell C Brings Hydrogen and Electric Buses to Nuclear Construction — 150 Zero-Emission Vehicles Head to Suffolk",
-      "url": "https://fuelcellsworks.com/2026/07/07/electrolyzer/sizewell-c-brings-hydrogen-and-electric-buses-to-nuclear-construction-150-zero-emission-vehicles-head-to-suffolk",
+      "id": "111197b8ae",
+      "title": "French Parliamentary Report Says Natural Hydrogen Could Be Strategic — But the Industry Still Has to Prove It Can Scale",
+      "url": "https://fuelcellsworks.com/2026/07/07/green-hydrogen/french-parliamentary-report-says-natural-hydrogen-could-be-strategic-but-the-industry-still-has-to-prove-it-can-scale",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-07T15:22:38+00:00",
-      "pub_ts": 1783437758
-    },
-    {
-      "id": "92e69f1244",
-      "title": "First 25 kilos of green hydrogen produced at H2 Hollandia",
-      "url": "https://hydrogen-central.com/first-25-kilos-of-green-hydrogen-produced-at-h2-hollandia/",
-      "summary": "First 25 kilos of green hydrogen produced at H2 Hollandia A special milestone for the energy transition in the Netherlands: the first 25 kilos of green hydrogen have been produced [&#8230;]\nThe post First 25 kilos of green hydrogen produced at H2 Hollandia appeared first on Hydrogen Central.",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-07-05T17:10:46+00:00",
-      "pub_ts": 1783271446
-    },
-    {
-      "id": "95569faa12",
-      "title": "TES appoints Clare Harris as CEO to scale its global energy transition infrastructure platform",
-      "url": "https://hydrogen-central.com/tes-appoints-clare-harris-as-ceo-to-scale-its-global-energy-transition-infrastructure-platform/",
-      "summary": "TES appoints Clare Harris as CEO to scale its global energy transition infrastructure platform The Board of Tree Energy Solutions (&#8220;TES&#8221;), a global energy infrastructure company and leader in e-NG [&#8230;]\nThe post TES appoints Clare Harris as CEO to scale its global energy transition i…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-07-05T17:07:54+00:00",
-      "pub_ts": 1783271274
-    },
-    {
-      "id": "be21671b7a",
-      "title": "METLEN Joins the H2GLASS Consortium as Replicability Demonstrator for the Aluminium Sector",
-      "url": "https://hydrogen-central.com/metlen-joins-the-h2glass-consortium-as-replicability-demonstrator-for-the-aluminium-sector/",
-      "summary": "METLEN Joins the H2GLASS Consortium as Replicability Demonstrator for the Aluminium Sector The H2GLASS Consortium is pleased to announce that METLEN, a industrial company in Athens , Greece has officially [&#8230;]\nThe post METLEN Joins the H2GLASS Consortium as Replicability Demonstrator for the Al…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-07-05T17:06:24+00:00",
-      "pub_ts": 1783271184
-    },
-    {
-      "id": "0ceb00964a",
-      "title": "Air Products Will Not Proceed with Louisiana Clean Energy (LCEC) Project; Company Will Record Pre-Tax Charge in Fiscal Third Quarter; Finalizing Agreement with Yara for Renewable Ammonia from NEOM Green Hydrogen Project in Saudi Arabia",
-      "url": "https://hydrogen-central.com/air-products-will-not-proceed-with-louisiana-clean-energy-lcec-project-company-will-record-pre-tax-charge-in-fiscal-third-quarter-finalizing-agreement-with-yara-for-renewable-ammonia-from-neom-gre/",
-      "summary": "Air Products Will Not Proceed with Louisiana Clean Energy (LCEC) Project; Company Will Record Pre-Tax Charge in Fiscal Third Quarter; Finalizing Agreement with Yara for Renewable Ammonia from NEOM Green [&#8230;]\nThe post Air Products Will Not Proceed with Louisiana Clean Energy (LCEC) Project; Comp…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-07-05T17:04:09+00:00",
-      "pub_ts": 1783271049
-    },
-    {
-      "id": "a65bac0687",
-      "title": "Iberdrola and bp advance green hydrogen development as a key enabler of electrification",
-      "url": "https://hydrogen-central.com/iberdrola-and-bp-advance-green-hydrogen-development-as-a-key-enabler-of-electrification/",
-      "summary": "Iberdrola and bp advance green hydrogen development as a key enabler of electrification Iberdrola España, the Iberdrola Group&#8217;s subsidiary in Spain, and bp have received approval from Spain’s Ministry for Ecological [&#8230;]\nThe post Iberdrola and bp advance green hydrogen development as a ke…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-07-05T17:02:14+00:00",
-      "pub_ts": 1783270934
+      "pub_date": "2026-07-08T13:20:28+00:00",
+      "pub_ts": 1783516828
     }
   ],
-  "source_success_count": 2,
+  "source_success_count": 1,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }
