@@ -3,9 +3,39 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-07-09T03:53:41.254536+00:00",
+  "updated_at": "2026-07-10T03:54:55.871441+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "52ec5b171f",
+      "title": "Moderna secures up to 24 million RSV vaccine dose contract with Europe",
+      "url": "https://www.pharmaceutical-technology.com/news/moderna-secures-up-to-24-million-rsv-vaccine-dose-contract-with-europe/",
+      "summary": "Over 156,000 adults in Europe are hospitalised each year due to RSV, a virus that can cause severe lung issues.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-09T16:11:23+00:00",
+      "pub_ts": 1783613483
+    },
+    {
+      "id": "b830dd1fc1",
+      "title": "Sino and AstraZeneca sign licence agreement for TQC3721",
+      "url": "https://www.pharmaceutical-technology.com/news/sino-astrazeneca-agreement-tqc3721/",
+      "summary": "AstraZeneca and Sino Biopharmaceutical's subsidiary CTTQ have signed an exclusive licence agreement for TQC3721.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-09T09:48:45+00:00",
+      "pub_ts": 1783590525
+    },
+    {
+      "id": "9b42bdeff5",
+      "title": "Evogene and Tel Aviv University launch drug discovery initiative",
+      "url": "https://www.pharmaceutical-technology.com/news/evogene-tel-aviv-university-drug-discovery/",
+      "summary": "Evogene and Tel Aviv University’s BCDD have partnered to expedite small-molecule drug discovery originating from Israeli academic research.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-09T09:07:14+00:00",
+      "pub_ts": 1783588034
+    },
     {
       "id": "c3da6f4589",
       "title": "FDA cracks down on illegal ketamine sellers amid nearing ‘psychedelic revolution’",
@@ -25,36 +55,6 @@
       "lang": "en",
       "pub_date": "2026-07-08T10:40:02+00:00",
       "pub_ts": 1783507202
-    },
-    {
-      "id": "2d51cf690e",
-      "title": "Novo Nordisk signs pact with Vivani for long-lasting semaglutide implant",
-      "url": "https://www.pharmaceutical-technology.com/news/novo-nordisk-signs-pact-with-vivani-for-long-lasting-semaglutide-implant/",
-      "summary": "Vivani’s NanoPortal technology delivers medication steadily over long periods of time.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-08T10:11:06+00:00",
-      "pub_ts": 1783505466
-    },
-    {
-      "id": "7580d1bce6",
-      "title": "FDA grants rare paediatric designation to Vanda’s CMT2S therapy",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-designation-vandas-cmt2s-therapy/",
-      "summary": "The US FDA has granted rare paediatric disease designation to Vanda Pharmaceuticals’ VCA-894A, an investigational antisense oligonucleotide therapy for CMT2S.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-08T09:15:44+00:00",
-      "pub_ts": 1783502144
-    },
-    {
-      "id": "e4da465992",
-      "title": "Biocytogen and Whitehawk partner to develop ADCs",
-      "url": "https://www.pharmaceutical-technology.com/news/biocytogen-whitehawk-to-develop-adcs/",
-      "summary": "Biocytogen and Whitehawk Therapeutics are set to develop bispecific antibody-drug conjugates (BsADCs), as part of a global partnership.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-08T07:59:09+00:00",
-      "pub_ts": 1783497549
     }
   ],
   "source_success_count": 1,
