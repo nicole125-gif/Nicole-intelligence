@@ -3,108 +3,118 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-07-10T03:54:16.560042+00:00",
+  "updated_at": "2026-07-11T03:20:19.433891+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "26e0bbfb5c",
-      "title": "燧原科技IPO注册获批",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814306&idx=1&sn=73e34d2e340975d5b9a380e6976a1139",
-      "summary": "燧原科技IPO注册获批",
+      "id": "f55804c3cd",
+      "title": "从十万卡算力到产业“效力”：AI4S应用式智能的落地逻辑",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814343&idx=1&sn=73ebd21e4d899f80fc71bff92a7fcacd",
+      "summary": "从十万卡算力到产业“效力”：AI4S应用式智能的落地逻辑",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-10T03:54:12.396902+00:00",
-      "pub_ts": 1783655652
+      "pub_date": "2026-07-11T03:20:15.156990+00:00",
+      "pub_ts": 1783740015
     },
     {
-      "id": "8710d7b4be",
-      "title": "2500亿美元！美光巨资押注AI存储",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814300&idx=1&sn=561fbb4930a759c916b2d3fd7fdce9c5",
-      "summary": "2500亿美元！美光巨资押注AI存储",
+      "id": "26ee177ed0",
+      "title": "全球功率半导体TOP20，中国5家上榜",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814343&idx=2&sn=5add99488c69108216302f0328f916de",
+      "summary": "全球功率半导体TOP20，中国5家上榜",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-10T03:54:12.396941+00:00",
-      "pub_ts": 1783655652
+      "pub_date": "2026-07-11T03:20:15.157029+00:00",
+      "pub_ts": 1783740015
     },
     {
-      "id": "7cab85591d",
-      "title": "兆易创新：2026上半年，净利润增长1099%",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814296&idx=1&sn=d5f1e5a669feb241ff5691b6d781020c",
-      "summary": "兆易创新：2026上半年，净利润增长1099%",
+      "id": "504010868d",
+      "title": "AI服务器耗电暴涨84%，2027年用电总量将反超传统服务器",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814343&idx=3&sn=e282cb97793889718d5f86d0d8c0b5d5",
+      "summary": "AI服务器耗电暴涨84%，2027年用电总量将反超传统服务器",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-10T03:54:12.396959+00:00",
-      "pub_ts": 1783655652
+      "pub_date": "2026-07-11T03:20:15.157050+00:00",
+      "pub_ts": 1783740015
     },
     {
-      "id": "19aaf09cc2",
-      "title": "光模块的命门被卡住了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814289&idx=1&sn=70909d812134244aea06223d33d76e41",
-      "summary": "光模块的命门被卡住了",
+      "id": "012545a1a6",
+      "title": "全球存储芯片单月销售额达746亿美元，创历史新高",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814343&idx=4&sn=7447cac408dce177cd217e54dba57299",
+      "summary": "全球存储芯片单月销售额达746亿美元，创历史新高",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-10T03:54:12.396974+00:00",
-      "pub_ts": 1783655652
+      "pub_date": "2026-07-11T03:20:15.157068+00:00",
+      "pub_ts": 1783740015
     },
     {
-      "id": "0124fcb365",
-      "title": "全名单发布！三大国家科技奖多项半导体项目上榜",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814289&idx=2&sn=923824eee7343cf8d3b0fd88e8bec8ab",
-      "summary": "全名单发布！三大国家科技奖多项半导体项目上榜",
+      "id": "65a62d625c",
+      "title": "光学规模化发展，终于要到来了？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814343&idx=5&sn=89f802dedf90967411093ddc27041f45",
+      "summary": "光学规模化发展，终于要到来了？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-10T03:54:12.396988+00:00",
-      "pub_ts": 1783655652
+      "pub_date": "2026-07-11T03:20:15.157084+00:00",
+      "pub_ts": 1783740015
     },
     {
-      "id": "f83bf910cc",
-      "title": "兆易创新预告，利润暴增1099%",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247825469&idx=1&sn=3a6439b48b5c6acc6478a9743064c699",
-      "summary": "兆易创新预告，利润暴增1099%",
+      "id": "8b5e97e2db",
+      "title": "香农芯创净利润，暴增2434.34%",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247825559&idx=1&sn=e1f063a17ad552cc30651833d1d08288",
+      "summary": "香农芯创净利润，暴增2434.34%",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-10T03:53:57.336627+00:00",
-      "pub_ts": 1783655637
+      "pub_date": "2026-07-11T03:20:05.876799+00:00",
+      "pub_ts": 1783740005
     },
     {
-      "id": "d6ba3fe6f8",
-      "title": "沐曦股份，跃居千元股，市值突破4000亿",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247825433&idx=1&sn=c33229a65634f3a3a19e79a1df99544b",
-      "summary": "沐曦股份，跃居千元股，市值突破4000亿",
+      "id": "d91f759c62",
+      "title": "狂飙的AIASIC赛道，国内跑出一个平台玩家",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247825498&idx=1&sn=d16ceadc92ce0e6d263b7adfb5e65ff1",
+      "summary": "狂飙的AIASIC赛道，国内跑出一个平台玩家",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-10T03:53:57.336677+00:00",
-      "pub_ts": 1783655637
+      "pub_date": "2026-07-11T03:20:05.876845+00:00",
+      "pub_ts": 1783740005
     },
     {
-      "id": "0107361ac0",
-      "title": "手机直连卫星时代来临：S波段载荷PAM的蓝海与破局者",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247825423&idx=1&sn=446f297253643b6bce8f9350dbaaffa6",
-      "summary": "手机直连卫星时代来临：S波段载荷PAM的蓝海与破局者",
+      "id": "25b027fc01",
+      "title": "嵌入式AI，国产算力的下一个战略纵深",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247825498&idx=2&sn=974a4b14da4ca40db47d2f4f356c7bcd",
+      "summary": "嵌入式AI，国产算力的下一个战略纵深",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-10T03:53:57.336697+00:00",
-      "pub_ts": 1783655637
+      "pub_date": "2026-07-11T03:20:05.876864+00:00",
+      "pub_ts": 1783740005
     },
     {
-      "id": "3d9463d707",
-      "title": "芯片，横向堆叠",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247825423&idx=2&sn=4e0603c5a997fb4aa810a338e00a2b72",
-      "summary": "芯片，横向堆叠",
+      "id": "05815c92e8",
+      "title": "铜缆到达极限，光互联时代，正式开启",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247825498&idx=3&sn=d3829fa986146d8e92170aea7239b1aa",
+      "summary": "铜缆到达极限，光互联时代，正式开启",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-10T03:53:57.336714+00:00",
-      "pub_ts": 1783655637
+      "pub_date": "2026-07-11T03:20:05.876881+00:00",
+      "pub_ts": 1783740005
     },
     {
-      "id": "b0c8fdde19",
-      "title": "WAICCONNECT瓜分200亿AI采购大单！三大会场分赛道掘金，直奔现场...",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247825423&idx=3&sn=14269e8857806c7916f0f4a0b8270f96",
-      "summary": "WAICCONNECT瓜分200亿AI采购大单！三大会场分赛道掘金，直奔现场...",
+      "id": "f8eb7726d9",
+      "title": "谁将赢下300亿的接口IP竞赛？",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247825498&idx=4&sn=8d438a69439db86bf257baa7a72e34cb",
+      "summary": "谁将赢下300亿的接口IP竞赛？",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-10T03:53:57.336731+00:00",
-      "pub_ts": 1783655637
+      "pub_date": "2026-07-11T03:20:05.876897+00:00",
+      "pub_ts": 1783740005
+    },
+    {
+      "id": "5aae9fdbf9",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-146/",
+      "summary": "Micron ups US investments; Apple's $30B deal; Solstice's buy; onsemi divests; diamonds for inspection; fault-tolerant quantum $; analog IMC; patent infringements; Accellera's functional safety standard; 189k workers shortage; USB standards; fab roadblocks.\nThe post Chip Industry Week In Review appea…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-07-10T07:01:43+00:00",
+      "pub_ts": 1783666903
     },
     {
       "id": "82485c16a0",
@@ -145,16 +155,6 @@
       "lang": "en",
       "pub_date": "2026-07-09T07:04:23+00:00",
       "pub_ts": 1783580663
-    },
-    {
-      "id": "03b11313f9",
-      "title": "Where Does Quantum Computing Stand?",
-      "url": "https://semiengineering.com/where-does-quantum-computing-stand/",
-      "summary": "It's slowly emerging from research and heading toward high-volume production. \nThe post Where Does Quantum Computing Stand? appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-07-09T07:02:12+00:00",
-      "pub_ts": 1783580532
     }
   ],
   "source_success_count": 3,

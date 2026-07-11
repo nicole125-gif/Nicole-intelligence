@@ -3,111 +3,61 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-07-10T03:54:43.182087+00:00",
-  "item_count": 10,
+  "updated_at": "2026-07-11T03:21:16.923430+00:00",
+  "item_count": 5,
   "items": [
     {
-      "id": "aad361a366",
-      "title": "Genesis Scottish Open Sets New Sustainability Benchmark by Embracing Hydrogen and Solar Power",
-      "url": "https://fuelcellsworks.com/2026/07/09/clean-energy/genesis-scottish-open-sets-new-sustainability-benchmark-by-embracing-hydrogen-and-solar-power",
+      "id": "ff27c2d559",
+      "title": "Chemnitz Wins €30 Million From the EU to Wire Itself Into Germany's Hydrogen Backbone",
+      "url": "https://fuelcellsworks.com/2026/07/01/h2/chemnitz-wins-30-million-from-the-eu-to-wire-itself-into-germany-s-hydrogen-backbone",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-09T16:00:18+00:00",
-      "pub_ts": 1783612818
+      "pub_date": "2026-07-10T15:07:36+00:00",
+      "pub_ts": 1783696056
     },
     {
-      "id": "25378130b9",
-      "title": "Hydrogen Moves Beyond Transport Into Specialist Construction Machinery",
-      "url": "https://fuelcellsworks.com/2026/06/18/h2/methorst-builds-a-hydrogen-powered-vacuum-truck-for-emission-free-excavation",
+      "id": "4aa50a68f0",
+      "title": "Mico Power Secures European CE Certification for Korea’s First Direct Hydrogen SOFC System",
+      "url": "https://fuelcellsworks.com/2026/07/09/fuel-cells/mico-power-secures-european-ce-certification-for-korea-s-first-direct-hydrogen-sofc-system",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-09T15:52:28+00:00",
-      "pub_ts": 1783612348
+      "pub_date": "2026-07-10T14:55:52+00:00",
+      "pub_ts": 1783695352
     },
     {
-      "id": "4419d54908",
-      "title": "2027 BMW iX5 Hydrogen Specs: Range, Refueling, Storage, and Size",
-      "url": "https://fuelcellsworks.com/2026/07/09/fuel-cells/2027-bmw-ix5-hydrogen-specs-range-refueling-storage-and-size",
+      "id": "e03dba923e",
+      "title": "Bavarian Energy Prize 2026 for Hydrogen Project H2Direkt by Thüga AG",
+      "url": "https://fuelcellsworks.com/2026/07/10/energy-development/bavarian-energy-prize-2026-for-hydrogen-project-h2direkt-by-thuga-ag",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-09T15:47:38+00:00",
-      "pub_ts": 1783612058
+      "pub_date": "2026-07-10T14:55:46+00:00",
+      "pub_ts": 1783695346
     },
     {
-      "id": "0035dc7e8f",
-      "title": "Offshore Hydrogen Storage Moves Closer with Advanced Coating Development",
-      "url": "https://fuelcellsworks.com/2026/07/08/h2/ctc-develops-protective-coatings-for-offshore-green-hydrogen-storage-infrastructure",
+      "id": "11d6ef83dd",
+      "title": "India's Hydrogen Highways Go Live: 37 Trucks and Buses Begin Trials on 10 Routes Nationwide",
+      "url": "https://fuelcellsworks.com/2026/07/10/energy-innovation/india-s-hydrogen-highways-go-live-37-trucks-and-buses-begin-trials-on-10-routes-nationwide",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-09T15:33:37+00:00",
-      "pub_ts": 1783611217
+      "pub_date": "2026-07-10T14:49:43+00:00",
+      "pub_ts": 1783694983
     },
     {
-      "id": "b6d6f09cbf",
-      "title": "European Commission Approves the Establishment of a Joint Venture Between EWE and Verbund Green Hydrogen",
-      "url": "https://fuelcellsworks.com/2026/07/09/clean-energy/european-commission-approves-the-establishment-of-a-joint-venture-between-ewe-and-verbund-green-hydrogen",
+      "id": "21e1cc344d",
+      "title": "Pilot-Scale Green Hydrogen Facility Begins Operations to Advance Industrial Applications",
+      "url": "https://fuelcellsworks.com/2026/07/06/electrolyzer/senai-cimatec-hytron-and-petrogal-brasil-inaugurate-bahia-s-first-green-hydrogen-pilot-plant",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-09T15:26:25+00:00",
-      "pub_ts": 1783610785
-    },
-    {
-      "id": "b3961b345f",
-      "title": "Plug Wins 50MW Electrolyzer Order as Orica’s Hunter Valley Hub Becomes the Largest Australian Renewable Hydrogen Project to Reach FID",
-      "url": "https://hydrogen-central.com/plug-wins-50mw-electrolyzer-order-as-oricas-hunter-valley-hub-becomes-the-largest-australian-renewable-hydrogen-project-to-reach-fid/",
-      "summary": "Plug Wins 50MW Electrolyzer Order as Orica&#8217;s Hunter Valley Hub Becomes the Largest Australian Renewable Hydrogen Project to Reach FID SLINGERLANDS, N.Y., July 07, 2026 (GLOBE NEWSWIRE) &#8212; &#160;Plug Power [&#8230;]\nThe post Plug Wins 50MW Electrolyzer Order as Orica&#8217;s Hunter Valley …",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-07-09T14:03:43+00:00",
-      "pub_ts": 1783605823
-    },
-    {
-      "id": "67a2e04bfc",
-      "title": "Vema Hydrogen and SAF+ International Group Partner to Produce Synthetic Sustainable Aviation Fuel for Canada’s Aviation Industry",
-      "url": "https://hydrogen-central.com/vema-hydrogen-and-saf-international-group-partner-to-produce-synthetic-sustainable-aviation-fuel-for-canadas-aviation-industry/",
-      "summary": "Vema Hydrogen and SAF+ International Group Partner to Produce Synthetic Sustainable Aviation Fuel for Canada’s Aviation Industry MONTREAL, July 07, 2026 (GLOBE NEWSWIRE) &#8212; Today,&#160;Vema Hydrogen announced a memorandum of [&#8230;]\nThe post Vema Hydrogen and SAF+ International Group Partner …",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-07-09T14:02:06+00:00",
-      "pub_ts": 1783605726
-    },
-    {
-      "id": "5ab9562510",
-      "title": "NewHydrogen Reveals Plan to Automate Its Engineering Test Unit",
-      "url": "https://hydrogen-central.com/newhydrogen-reveals-plan-to-automate-its-engineering-test-unit/",
-      "summary": "NewHydrogen Reveals Plan to Automate Its Engineering Test Unit Introducing automated controls will shift focus from managing the test setup to analyzing the data and expediting time to market for [&#8230;]\nThe post NewHydrogen Reveals Plan to Automate Its Engineering Test Unit appeared first on Hydr…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-07-09T14:01:16+00:00",
-      "pub_ts": 1783605676
-    },
-    {
-      "id": "3e60d83339",
-      "title": "ORLEN has secured PLN 2,5 billion to finance green investments",
-      "url": "https://hydrogen-central.com/orlen-has-secured-pln-25-billion-to-finance-green-investments/",
-      "summary": "ORLEN has secured PLN 2,5 billion to finance green investments ORLEN has successfully completed a EUR 600 million issue of green Eurobonds. The offering generated strong investor interest, with demand [&#8230;]\nThe post ORLEN has secured PLN 2,5 billion to finance green investments appeared first on…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-07-09T14:00:51+00:00",
-      "pub_ts": 1783605651
-    },
-    {
-      "id": "340695914f",
-      "title": "Acwa Granted Exclusive Government Mandate to Export Green Hydrogen and Develop Renewable Electricity Export Projects",
-      "url": "https://hydrogen-central.com/acwa-granted-exclusive-government-mandate-to-export-green-hydrogen-and-develop-renewable-electricity-export-projects/",
-      "summary": "Acwa Granted Exclusive Government Mandate to Export Green Hydrogen and Develop Renewable Electricity Export Projects Riyadh, Kingdom of Saudi Arabia, July 7, 2026: Acwa, the world’s largest private water desalination [&#8230;]\nThe post Acwa Granted Exclusive Government Mandate to Export Green Hydrog…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-07-09T13:53:09+00:00",
-      "pub_ts": 1783605189
+      "pub_date": "2026-07-10T14:13:11+00:00",
+      "pub_ts": 1783692791
     }
   ],
-  "source_success_count": 2,
+  "source_success_count": 1,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }

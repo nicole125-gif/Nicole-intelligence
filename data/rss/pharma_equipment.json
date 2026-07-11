@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-07-10T03:54:55.871441+00:00",
+  "updated_at": "2026-07-11T03:21:29.501783+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "52ec5b171f",
-      "title": "Moderna secures up to 24 million RSV vaccine dose contract with Europe",
-      "url": "https://www.pharmaceutical-technology.com/news/moderna-secures-up-to-24-million-rsv-vaccine-dose-contract-with-europe/",
-      "summary": "Over 156,000 adults in Europe are hospitalised each year due to RSV, a virus that can cause severe lung issues.",
+      "id": "30e35eacab",
+      "title": "Bayer banks €3bn in Apollo contraceptives division deal",
+      "url": "https://www.pharmaceutical-technology.com/news/bayer-apollo-contraceptive-deal/",
+      "summary": "Bayer's agreement with Apollo comes a little after Bayer broke its pharma dealmaking fast by acquiring Perfuse Therapeutics in May 2026.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-09T16:11:23+00:00",
-      "pub_ts": 1783613483
+      "pub_date": "2026-07-10T13:11:29+00:00",
+      "pub_ts": 1783689089
     },
     {
-      "id": "b830dd1fc1",
-      "title": "Sino and AstraZeneca sign licence agreement for TQC3721",
-      "url": "https://www.pharmaceutical-technology.com/news/sino-astrazeneca-agreement-tqc3721/",
-      "summary": "AstraZeneca and Sino Biopharmaceutical's subsidiary CTTQ have signed an exclusive licence agreement for TQC3721.",
+      "id": "ea113e02b5",
+      "title": "Chinese biotech MindRank secures $52m to advance AI-designed oral GLP-1RA",
+      "url": "https://www.pharmaceutical-technology.com/news/chinese-biotech-mindrank-secures-52m-to-advance-ai-designed-oral-glp-1ra/",
+      "summary": "The funds will support the progression of MindRank’s pipeline, which is heavily dominated by obesity indications.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-09T09:48:45+00:00",
-      "pub_ts": 1783590525
+      "pub_date": "2026-07-10T10:46:57+00:00",
+      "pub_ts": 1783680417
     },
     {
-      "id": "9b42bdeff5",
-      "title": "Evogene and Tel Aviv University launch drug discovery initiative",
-      "url": "https://www.pharmaceutical-technology.com/news/evogene-tel-aviv-university-drug-discovery/",
-      "summary": "Evogene and Tel Aviv University’s BCDD have partnered to expedite small-molecule drug discovery originating from Israeli academic research.",
+      "id": "29289cefd2",
+      "title": "Ipsen set to rival Botox after duo of Phase III migraine wins",
+      "url": "https://www.pharmaceutical-technology.com/news/ipsen-dysport-migraine-phase-iii-episodic-chronic-win/",
+      "summary": "Ipsen claims that Dysport has become the first botulinum toxin therapy to demonstrate efficacy in episodic migraine.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-09T09:07:14+00:00",
-      "pub_ts": 1783588034
+      "pub_date": "2026-07-10T10:32:11+00:00",
+      "pub_ts": 1783679531
     },
     {
-      "id": "c3da6f4589",
-      "title": "FDA cracks down on illegal ketamine sellers amid nearing ‘psychedelic revolution’",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-cracks-down-on-illicit-ketamine-trade/",
-      "summary": "The FDA is taking action to curb the illicit online trade of unregulated and unapproved ketamine products through a slew of warning letters.",
+      "id": "7496cccd3f",
+      "title": "Teva and Polpharma Biologics sign global deal for ocrelizumab biosimilar",
+      "url": "https://www.pharmaceutical-technology.com/news/teva-polpharma-biologics-deal-ocrelizumab-biosimilar/",
+      "summary": "Teva Pharmaceuticals International and Polpharma Biologics have signed a global licensing agreement for a proposed biosimilar to Ocrevus to treat multiple sclerosis.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-08T14:10:30+00:00",
-      "pub_ts": 1783519830
+      "pub_date": "2026-07-10T09:31:18+00:00",
+      "pub_ts": 1783675878
     },
     {
-      "id": "434523417c",
-      "title": "Kalohexis confidentially files IPO to back obesity and cachexia portfolio",
-      "url": "https://www.pharmaceutical-technology.com/news/kalohexis-files-confidential-ipo-obesity-cachexia/",
-      "summary": "The biotech’s potential launch on the public markets would help fuel development of its clinical-stage, melanocortin-focused pipeline.",
+      "id": "246639bbbd",
+      "title": "Apertura and NIH institutes to test gene therapy for NPC1",
+      "url": "https://www.pharmaceutical-technology.com/news/apertura-nih-institutes-npc1-gene-therapy/",
+      "summary": "Apertura has entered a CRADA with various NIH institutes for a gene therapy to treat Niemann-Pick Disease Type C1 (NPC1).",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-08T10:40:02+00:00",
-      "pub_ts": 1783507202
+      "pub_date": "2026-07-10T09:14:18+00:00",
+      "pub_ts": 1783674858
     }
   ],
   "source_success_count": 1,

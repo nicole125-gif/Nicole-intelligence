@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-07-10T03:54:30.850599+00:00",
+  "updated_at": "2026-07-11T03:20:33.663007+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "466539bc76",
-      "title": "Zero-Shot提升31%！原力灵机DM0.5登场，15万小时数据喂出",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902627&idx=1&sn=d7621078680cc1b072bf739d2305a451",
-      "summary": "Zero-Shot提升31%！原力灵机DM0.5登场，15万小时数据喂出",
+      "id": "f055320e0e",
+      "title": "只剩7天！第三届蚂蚁InTech奖申报即将截止，图灵奖得主坐镇评审",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902808&idx=1&sn=c84a4bad81aec02e38ffc790948299a8",
+      "summary": "只剩7天！第三届蚂蚁InTech奖申报即将截止，图灵奖得主坐镇评审",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-10T03:54:26.304933+00:00",
-      "pub_ts": 1783655666
+      "pub_date": "2026-07-11T03:20:28.933253+00:00",
+      "pub_ts": 1783740028
     },
     {
-      "id": "f2c52c2595",
-      "title": "AI聪明够了，行动呢？WAIC首夜，来聊点下一步的真实判断|活动报名",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902627&idx=2&sn=c71fd5814399635c894e006d74abfbe3",
-      "summary": "AI聪明够了，行动呢？WAIC首夜，来聊点下一步的真实判断|活动报名",
+      "id": "4e6fcd2be0",
+      "title": "AI生物研发进入“操作系统时代”，许锦波团队MoleculeOS正式开放",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902808&idx=2&sn=e06753f7adee27f97a76c51a521537be",
+      "summary": "AI生物研发进入“操作系统时代”，许锦波团队MoleculeOS正式开放",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-10T03:54:26.304969+00:00",
-      "pub_ts": 1783655666
+      "pub_date": "2026-07-11T03:20:28.933291+00:00",
+      "pub_ts": 1783740028
     },
     {
-      "id": "448ddb9cde",
-      "title": "OpenAI招投行专家，年薪只给130万元，评论区都嫌少",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902591&idx=1&sn=49e8dd8e97d20e1f0f1bc553bad4aff5",
-      "summary": "OpenAI招投行专家，年薪只给130万元，评论区都嫌少",
+      "id": "9f0874c12b",
+      "title": "全球首个「具身原生」预训练模型发布，从物理世界出发为机器人造大脑！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902774&idx=1&sn=55d8846a7ef42993d385848631d4cc2a",
+      "summary": "全球首个「具身原生」预训练模型发布，从物理世界出发为机器人造大脑！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-10T03:54:26.304984+00:00",
-      "pub_ts": 1783655666
+      "pub_date": "2026-07-11T03:20:28.933308+00:00",
+      "pub_ts": 1783740028
     },
     {
-      "id": "d08b373c00",
-      "title": "「没了李开复，零一万物还有什么？」一个敢问一个敢答",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902591&idx=2&sn=12490c7694e7535f927f3e7bf6f8ed3f",
-      "summary": "「没了李开复，零一万物还有什么？」一个敢问一个敢答",
+      "id": "d49137b224",
+      "title": "一群做自动驾驶的人，盯上了睡眠这件事",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902774&idx=2&sn=ac437d218abdb56ff612890eb61543f5",
+      "summary": "一群做自动驾驶的人，盯上了睡眠这件事",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-10T03:54:26.304998+00:00",
-      "pub_ts": 1783655666
+      "pub_date": "2026-07-11T03:20:28.933324+00:00",
+      "pub_ts": 1783740028
     },
     {
-      "id": "67b7ae24f8",
-      "title": "机器人端杯子之前在想什么？Afford-VLA：先找到杯子最趁手的那块区域",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902591&idx=3&sn=e9c522859439e8f764014b20fcd8fb56",
-      "summary": "机器人端杯子之前在想什么？Afford-VLA：先找到杯子最趁手的那块区域",
+      "id": "3fcaa9fd7d",
+      "title": "登顶HF榜首！这个Agent做PPT还是太强了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902774&idx=3&sn=105423bc466eac33176bb358f794ab8e",
+      "summary": "登顶HF榜首！这个Agent做PPT还是太强了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-10T03:54:26.305012+00:00",
-      "pub_ts": 1783655666
+      "pub_date": "2026-07-11T03:20:28.933338+00:00",
+      "pub_ts": 1783740028
     }
   ],
   "source_success_count": 1,
