@@ -3,61 +3,111 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-07-11T03:21:16.923430+00:00",
-  "item_count": 5,
+  "updated_at": "2026-07-12T03:32:23.034897+00:00",
+  "item_count": 10,
   "items": [
     {
-      "id": "ff27c2d559",
-      "title": "Chemnitz Wins €30 Million From the EU to Wire Itself Into Germany's Hydrogen Backbone",
-      "url": "https://fuelcellsworks.com/2026/07/01/h2/chemnitz-wins-30-million-from-the-eu-to-wire-itself-into-germany-s-hydrogen-backbone",
+      "id": "c9dcb1a933",
+      "title": "Next Level in Hydrogen-Fired Bread Baking with Cutting Edge Design Direct Hydrogen-Fired Burners",
+      "url": "https://fuelcellsworks.com/2026/07/10/clean-energy/next-level-in-hydrogen-fired-bread-baking-with-cutting-edge-design-direct-hydrogen-fired-burners",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-10T15:07:36+00:00",
-      "pub_ts": 1783696056
+      "pub_date": "2026-07-10T15:55:27+00:00",
+      "pub_ts": 1783698927
     },
     {
-      "id": "4aa50a68f0",
-      "title": "Mico Power Secures European CE Certification for Korea’s First Direct Hydrogen SOFC System",
-      "url": "https://fuelcellsworks.com/2026/07/09/fuel-cells/mico-power-secures-european-ce-certification-for-korea-s-first-direct-hydrogen-sofc-system",
+      "id": "098cfdfdba",
+      "title": "Hydrogen-Powered Heavy Truck Reaches Long-Haul Milestone on Commercial Route",
+      "url": "https://fuelcellsworks.com/2026/06/24/fuel-cells/a-hyundai-hydrogen-truck-just-hauled-cargo-1-000-km-across-france-no-headlines-needed-that-s-the-point",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-10T14:55:52+00:00",
-      "pub_ts": 1783695352
+      "pub_date": "2026-07-10T15:44:25+00:00",
+      "pub_ts": 1783698265
     },
     {
-      "id": "e03dba923e",
-      "title": "Bavarian Energy Prize 2026 for Hydrogen Project H2Direkt by Thüga AG",
-      "url": "https://fuelcellsworks.com/2026/07/10/energy-development/bavarian-energy-prize-2026-for-hydrogen-project-h2direkt-by-thuga-ag",
+      "id": "2cfb30bcf8",
+      "title": "Pohang Builds a One-Stop Shopfront for Hydrogen Investors — a Website to Turn South Korea's Steel City Into a Hydrogen Hub",
+      "url": "https://fuelcellsworks.com/2026/07/10/energy-innovation/pohang-builds-a-one-stop-shopfront-for-hydrogen-investors-a-website-to-turn-south-korea-s-steel-city-into-a-hydrogen-hub",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-10T14:55:46+00:00",
-      "pub_ts": 1783695346
+      "pub_date": "2026-07-10T15:42:31+00:00",
+      "pub_ts": 1783698151
     },
     {
-      "id": "11d6ef83dd",
-      "title": "India's Hydrogen Highways Go Live: 37 Trucks and Buses Begin Trials on 10 Routes Nationwide",
-      "url": "https://fuelcellsworks.com/2026/07/10/energy-innovation/india-s-hydrogen-highways-go-live-37-trucks-and-buses-begin-trials-on-10-routes-nationwide",
+      "id": "f32c925b99",
+      "title": "Industrial Metals Producer Adopts Green Hydrogen From New Large-Scale Supply Project",
+      "url": "https://fuelcellsworks.com/2026/07/09/h2/industrial-metals-producer-adopts-green-hydrogen-from-new-large-scale-supply-projec",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-10T14:49:43+00:00",
-      "pub_ts": 1783694983
+      "pub_date": "2026-07-10T15:36:35+00:00",
+      "pub_ts": 1783697795
     },
     {
-      "id": "21e1cc344d",
-      "title": "Pilot-Scale Green Hydrogen Facility Begins Operations to Advance Industrial Applications",
-      "url": "https://fuelcellsworks.com/2026/07/06/electrolyzer/senai-cimatec-hytron-and-petrogal-brasil-inaugurate-bahia-s-first-green-hydrogen-pilot-plant",
+      "id": "d82991acb1",
+      "title": "Bloom Energy Fires Back: Stock Rebounds 6% After Short Seller's Scandium Bombshell Wiped Out 12%",
+      "url": "https://fuelcellsworks.com/2026/07/10/hydrogen-economy/bloom-energy-fires-back-stock-rebounds-6-percent-after-short-seller-s-scandium-bombshell-wiped-out-12-percent",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-10T14:13:11+00:00",
-      "pub_ts": 1783692791
+      "pub_date": "2026-07-10T15:32:35+00:00",
+      "pub_ts": 1783697555
+    },
+    {
+      "id": "b3961b345f",
+      "title": "Plug Wins 50MW Electrolyzer Order as Orica’s Hunter Valley Hub Becomes the Largest Australian Renewable Hydrogen Project to Reach FID",
+      "url": "https://hydrogen-central.com/plug-wins-50mw-electrolyzer-order-as-oricas-hunter-valley-hub-becomes-the-largest-australian-renewable-hydrogen-project-to-reach-fid/",
+      "summary": "Plug Wins 50MW Electrolyzer Order as Orica&#8217;s Hunter Valley Hub Becomes the Largest Australian Renewable Hydrogen Project to Reach FID SLINGERLANDS, N.Y., July 07, 2026 (GLOBE NEWSWIRE) &#8212; &#160;Plug Power [&#8230;]\nThe post Plug Wins 50MW Electrolyzer Order as Orica&#8217;s Hunter Valley …",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-07-09T14:03:43+00:00",
+      "pub_ts": 1783605823
+    },
+    {
+      "id": "67a2e04bfc",
+      "title": "Vema Hydrogen and SAF+ International Group Partner to Produce Synthetic Sustainable Aviation Fuel for Canada’s Aviation Industry",
+      "url": "https://hydrogen-central.com/vema-hydrogen-and-saf-international-group-partner-to-produce-synthetic-sustainable-aviation-fuel-for-canadas-aviation-industry/",
+      "summary": "Vema Hydrogen and SAF+ International Group Partner to Produce Synthetic Sustainable Aviation Fuel for Canada’s Aviation Industry MONTREAL, July 07, 2026 (GLOBE NEWSWIRE) &#8212; Today,&#160;Vema Hydrogen announced a memorandum of [&#8230;]\nThe post Vema Hydrogen and SAF+ International Group Partner …",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-07-09T14:02:06+00:00",
+      "pub_ts": 1783605726
+    },
+    {
+      "id": "5ab9562510",
+      "title": "NewHydrogen Reveals Plan to Automate Its Engineering Test Unit",
+      "url": "https://hydrogen-central.com/newhydrogen-reveals-plan-to-automate-its-engineering-test-unit/",
+      "summary": "NewHydrogen Reveals Plan to Automate Its Engineering Test Unit Introducing automated controls will shift focus from managing the test setup to analyzing the data and expediting time to market for [&#8230;]\nThe post NewHydrogen Reveals Plan to Automate Its Engineering Test Unit appeared first on Hydr…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-07-09T14:01:16+00:00",
+      "pub_ts": 1783605676
+    },
+    {
+      "id": "3e60d83339",
+      "title": "ORLEN has secured PLN 2,5 billion to finance green investments",
+      "url": "https://hydrogen-central.com/orlen-has-secured-pln-25-billion-to-finance-green-investments/",
+      "summary": "ORLEN has secured PLN 2,5 billion to finance green investments ORLEN has successfully completed a EUR 600 million issue of green Eurobonds. The offering generated strong investor interest, with demand [&#8230;]\nThe post ORLEN has secured PLN 2,5 billion to finance green investments appeared first on…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-07-09T14:00:51+00:00",
+      "pub_ts": 1783605651
+    },
+    {
+      "id": "340695914f",
+      "title": "Acwa Granted Exclusive Government Mandate to Export Green Hydrogen and Develop Renewable Electricity Export Projects",
+      "url": "https://hydrogen-central.com/acwa-granted-exclusive-government-mandate-to-export-green-hydrogen-and-develop-renewable-electricity-export-projects/",
+      "summary": "Acwa Granted Exclusive Government Mandate to Export Green Hydrogen and Develop Renewable Electricity Export Projects Riyadh, Kingdom of Saudi Arabia, July 7, 2026: Acwa, the world’s largest private water desalination [&#8230;]\nThe post Acwa Granted Exclusive Government Mandate to Export Green Hydrog…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-07-09T13:53:09+00:00",
+      "pub_ts": 1783605189
     }
   ],
-  "source_success_count": 1,
+  "source_success_count": 2,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }

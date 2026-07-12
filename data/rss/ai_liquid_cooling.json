@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-07-11T03:20:33.663007+00:00",
+  "updated_at": "2026-07-12T03:32:11.814783+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "f055320e0e",
-      "title": "只剩7天！第三届蚂蚁InTech奖申报即将截止，图灵奖得主坐镇评审",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902808&idx=1&sn=c84a4bad81aec02e38ffc790948299a8",
-      "summary": "只剩7天！第三届蚂蚁InTech奖申报即将截止，图灵奖得主坐镇评审",
+      "id": "0ad4440ee2",
+      "title": "7月14日悉尼，我们在RSS'26攒了个晚宴",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902908&idx=1&sn=fd58bf49c7457883c066349b34efa753",
+      "summary": "7月14日悉尼，我们在RSS'26攒了个晚宴",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-11T03:20:28.933253+00:00",
-      "pub_ts": 1783740028
+      "pub_date": "2026-07-12T03:32:07.077092+00:00",
+      "pub_ts": 1783827127
     },
     {
-      "id": "4e6fcd2be0",
-      "title": "AI生物研发进入“操作系统时代”，许锦波团队MoleculeOS正式开放",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902808&idx=2&sn=e06753f7adee27f97a76c51a521537be",
-      "summary": "AI生物研发进入“操作系统时代”，许锦波团队MoleculeOS正式开放",
+      "id": "dae84d67b9",
+      "title": "邓文迪&默多克爱女入职Devin，豪门二代优先去AI公司镀金了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902907&idx=1&sn=bba40f0d35dec45a85f247617461ddb3",
+      "summary": "邓文迪&默多克爱女入职Devin，豪门二代优先去AI公司镀金了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-11T03:20:28.933291+00:00",
-      "pub_ts": 1783740028
+      "pub_date": "2026-07-12T03:32:07.077133+00:00",
+      "pub_ts": 1783827127
     },
     {
-      "id": "9f0874c12b",
-      "title": "全球首个「具身原生」预训练模型发布，从物理世界出发为机器人造大脑！",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902774&idx=1&sn=55d8846a7ef42993d385848631d4cc2a",
-      "summary": "全球首个「具身原生」预训练模型发布，从物理世界出发为机器人造大脑！",
+      "id": "43318b24aa",
+      "title": "vivo杀入生成式摄影！长焦废片秒变单反大片ICVPR'26",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902907&idx=2&sn=fda35e464c83569b54637725320dd0fd",
+      "summary": "vivo杀入生成式摄影！长焦废片秒变单反大片ICVPR'26",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-11T03:20:28.933308+00:00",
-      "pub_ts": 1783740028
+      "pub_date": "2026-07-12T03:32:07.077156+00:00",
+      "pub_ts": 1783827127
     },
     {
-      "id": "d49137b224",
-      "title": "一群做自动驾驶的人，盯上了睡眠这件事",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902774&idx=2&sn=ac437d218abdb56ff612890eb61543f5",
-      "summary": "一群做自动驾驶的人，盯上了睡眠这件事",
+      "id": "b140fadb42",
+      "title": "GPT-5.6一小时解开50年数学猜想，700词Prompt驾驭64个子Agent",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902895&idx=1&sn=e1b447a17522c5595d3096ff0ec17a64",
+      "summary": "GPT-5.6一小时解开50年数学猜想，700词Prompt驾驭64个子Agent",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-11T03:20:28.933324+00:00",
-      "pub_ts": 1783740028
+      "pub_date": "2026-07-12T03:32:07.077177+00:00",
+      "pub_ts": 1783827127
     },
     {
-      "id": "3fcaa9fd7d",
-      "title": "登顶HF榜首！这个Agent做PPT还是太强了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902774&idx=3&sn=105423bc466eac33176bb358f794ab8e",
-      "summary": "登顶HF榜首！这个Agent做PPT还是太强了",
+      "id": "36e695aa3a",
+      "title": "中国首个十万卡集群落成！全国产算力支撑“十万卡时代”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902895&idx=2&sn=96359b6914b75b56d1c51bfddbae2153",
+      "summary": "中国首个十万卡集群落成！全国产算力支撑“十万卡时代”",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-11T03:20:28.933338+00:00",
-      "pub_ts": 1783740028
+      "pub_date": "2026-07-12T03:32:07.077198+00:00",
+      "pub_ts": 1783827127
     }
   ],
   "source_success_count": 1,
