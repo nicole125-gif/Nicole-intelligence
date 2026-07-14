@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-07-13T03:35:11.698532+00:00",
+  "updated_at": "2026-07-14T02:56:34.832120+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "799a2affd2",
-      "title": "ClaudeCode砸的坑，蚂蚁安全在尝试填上",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247903091&idx=1&sn=6efa9d6657251390eda8017a73484478",
-      "summary": "ClaudeCode砸的坑，蚂蚁安全在尝试填上",
+      "id": "4a33c0d52b",
+      "title": "Agent专用搜索登顶Product Hunt，Token更省搜得更准",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247903440&idx=1&sn=90f1327da1a0b06b1c9ecde0f846c52e",
+      "summary": "Agent专用搜索登顶Product Hunt，Token更省搜得更准",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-13T03:35:07.101434+00:00",
-      "pub_ts": 1783913707
+      "pub_date": "2026-07-14T02:56:29.889739+00:00",
+      "pub_ts": 1783997789
     },
     {
-      "id": "57f0ac65d5",
-      "title": "7.17WAIC首夜，50人真话局：AI聪明够了，行动呢？|线下报名",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247903091&idx=2&sn=8cf6d13d5f84db330e70c8c2f65d50cb",
-      "summary": "7.17WAIC首夜，50人真话局：AI聪明够了，行动呢？|线下报名",
+      "id": "f40c47bd1b",
+      "title": "Agent要数量也要脑子！浪潮信息一边单柜养4万Agent，一边让大模型组队答题",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247903440&idx=2&sn=83160b82e706a3cea20bfb52389c04c8",
+      "summary": "Agent要数量也要脑子！浪潮信息一边单柜养4万Agent，一边让大模型组队答题",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-13T03:35:07.101486+00:00",
-      "pub_ts": 1783913707
+      "pub_date": "2026-07-14T02:56:29.889785+00:00",
+      "pub_ts": 1783997789
     },
     {
-      "id": "ecdac57a0f",
-      "title": "像聊天一样做CAD建模！浙大开源智能体让建模变打字，已登国际CAD顶刊",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247903091&idx=3&sn=1390829217d602852a2e820ff424d866",
-      "summary": "像聊天一样做CAD建模！浙大开源智能体让建模变打字，已登国际CAD顶刊",
+      "id": "9a4119b790",
+      "title": "刚刚，一个免费AICoding选手杀入全球第一梯队",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247903212&idx=1&sn=9d3b28a031d7b2f9c0533a75050139a9",
+      "summary": "刚刚，一个免费AICoding选手杀入全球第一梯队",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-13T03:35:07.101512+00:00",
-      "pub_ts": 1783913707
+      "pub_date": "2026-07-14T02:56:29.889807+00:00",
+      "pub_ts": 1783997789
     },
     {
-      "id": "b3b5081861",
-      "title": "98年哈工大教授创业，要做人形灵巧操作世界模型",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247903073&idx=1&sn=650968173ea717e7ffa59d76ed1a4179",
-      "summary": "98年哈工大教授创业，要做人形灵巧操作世界模型",
+      "id": "0b49395432",
+      "title": "GPT-5.6刚发布，OpenAI安全主管就跑路了？？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247903212&idx=2&sn=80613aec5cf5188a11b2b940b8abf3f2",
+      "summary": "GPT-5.6刚发布，OpenAI安全主管就跑路了？？",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-13T03:35:07.101535+00:00",
-      "pub_ts": 1783913707
+      "pub_date": "2026-07-14T02:56:29.889827+00:00",
+      "pub_ts": 1783997789
     },
     {
-      "id": "36bba71721",
-      "title": "具身智能的Harness来了！让机器人像团队一样协作",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247903073&idx=2&sn=c4d942366c7d443a3f597773f90a7eca",
-      "summary": "具身智能的Harness来了！让机器人像团队一样协作",
+      "id": "8cb6c3b03b",
+      "title": "WAIC'26探展召集令！和量子位一起逛展、直播、聊AI",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247903212&idx=3&sn=a95f382d9b56ab29cd99bf179dcd5ce5",
+      "summary": "WAIC'26探展召集令！和量子位一起逛展、直播、聊AI",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-13T03:35:07.101557+00:00",
-      "pub_ts": 1783913707
+      "pub_date": "2026-07-14T02:56:29.889847+00:00",
+      "pub_ts": 1783997789
     }
   ],
   "source_success_count": 1,

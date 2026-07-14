@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-07-13T03:35:44.939804+00:00",
+  "updated_at": "2026-07-14T02:56:58.266093+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "30e35eacab",
-      "title": "Bayer banks €3bn in Apollo contraceptives division deal",
-      "url": "https://www.pharmaceutical-technology.com/news/bayer-apollo-contraceptive-deal/",
-      "summary": "Bayer's agreement with Apollo comes a little after Bayer broke its pharma dealmaking fast by acquiring Perfuse Therapeutics in May 2026.",
+      "id": "faecff56ec",
+      "title": "Germany approves healthcare costs overhaul despite significant pharma opposition",
+      "url": "https://www.pharmaceutical-technology.com/news/germany-approves-healthcare-costs-overhaul-despite-significant-pharma-opposition/",
+      "summary": "There are a range of cost-containment measures across the bill that will create a significant healthcare system shakeup.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-10T13:11:29+00:00",
-      "pub_ts": 1783689089
+      "pub_date": "2026-07-13T15:11:38+00:00",
+      "pub_ts": 1783955498
     },
     {
-      "id": "ea113e02b5",
-      "title": "Chinese biotech MindRank secures $52m to advance AI-designed oral GLP-1RA",
-      "url": "https://www.pharmaceutical-technology.com/news/chinese-biotech-mindrank-secures-52m-to-advance-ai-designed-oral-glp-1ra/",
-      "summary": "The funds will support the progression of MindRank’s pipeline, which is heavily dominated by obesity indications.",
+      "id": "bf3d1e3f9d",
+      "title": "Podcast: Patient advocates join the blood cancer ASCT vs CAR-T debate",
+      "url": "https://www.pharmaceutical-technology.com/features/podcast-patient-advocates-join-the-blood-cancer-asct-vs-car-t-debate/",
+      "summary": "Patient advocates in remission from MCL and FL discuss their treatment experiences with ASCT and CAR-T, while sharing views on latter's place in the treatment paradigm.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-10T10:46:57+00:00",
-      "pub_ts": 1783680417
+      "pub_date": "2026-07-13T12:55:20+00:00",
+      "pub_ts": 1783947320
     },
     {
-      "id": "29289cefd2",
-      "title": "Ipsen set to rival Botox after duo of Phase III migraine wins",
-      "url": "https://www.pharmaceutical-technology.com/news/ipsen-dysport-migraine-phase-iii-episodic-chronic-win/",
-      "summary": "Ipsen claims that Dysport has become the first botulinum toxin therapy to demonstrate efficacy in episodic migraine.",
+      "id": "3902950cb5",
+      "title": "“Hub-and-spoke” drug manufacturing set to benefit from new FDA rule",
+      "url": "https://www.pharmaceutical-technology.com/news/hub-and-spoke-drug-manufacturing-set-to-benefit-from-new-fda-rule/",
+      "summary": "The proposed rule would allow multiple manufacturing units at different locations to register as one establishment.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-10T10:32:11+00:00",
-      "pub_ts": 1783679531
+      "pub_date": "2026-07-13T10:46:16+00:00",
+      "pub_ts": 1783939576
     },
     {
-      "id": "7496cccd3f",
-      "title": "Teva and Polpharma Biologics sign global deal for ocrelizumab biosimilar",
-      "url": "https://www.pharmaceutical-technology.com/news/teva-polpharma-biologics-deal-ocrelizumab-biosimilar/",
-      "summary": "Teva Pharmaceuticals International and Polpharma Biologics have signed a global licensing agreement for a proposed biosimilar to Ocrevus to treat multiple sclerosis.",
+      "id": "e93b1428d8",
+      "title": "Takeda and Indonesia partner on plasma-derived therapies",
+      "url": "https://www.pharmaceutical-technology.com/news/takeda-indonesia-plasma-derived-therapies/",
+      "summary": "Takeda and the Indonesian Government have announced a multi-phased collaboration to strengthen the country’s plasma ecosystem and expand access to PDMPs.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-10T09:31:18+00:00",
-      "pub_ts": 1783675878
+      "pub_date": "2026-07-13T09:13:42+00:00",
+      "pub_ts": 1783934022
     },
     {
-      "id": "246639bbbd",
-      "title": "Apertura and NIH institutes to test gene therapy for NPC1",
-      "url": "https://www.pharmaceutical-technology.com/news/apertura-nih-institutes-npc1-gene-therapy/",
-      "summary": "Apertura has entered a CRADA with various NIH institutes for a gene therapy to treat Niemann-Pick Disease Type C1 (NPC1).",
+      "id": "b590908461",
+      "title": "FDA approves MSD’s Keytruda combinations for MIBC",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-approves-msds-keytruda-combinations-for-mibc/",
+      "summary": "The FDA has approved two of MSD's anti-PD-1 therapies, Keytruda and Keytruda Qlex, along with Padcev, for adults with MIBC.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-10T09:14:18+00:00",
-      "pub_ts": 1783674858
+      "pub_date": "2026-07-13T08:31:27+00:00",
+      "pub_ts": 1783931487
     }
   ],
   "source_success_count": 1,
