@@ -3,9 +3,49 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-07-14T02:56:58.266093+00:00",
+  "updated_at": "2026-07-15T02:55:18.697348+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "d99fc5f4e7",
+      "title": "AstraZeneca pays up to $1.5bn to license Dizal Pharma’s lung cancer drug",
+      "url": "https://www.pharmaceutical-technology.com/news/astrazeneca-pays-up-to-1-5bn-to-license-dizal-pharmas-lung-cancer-drug/",
+      "summary": "In licensing Zegfrovy, AstraZeneca has gained an already approved asset, with a label expansion potentially on the horizon.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-14T14:14:38+00:00",
+      "pub_ts": 1784038478
+    },
+    {
+      "id": "9efa4302de",
+      "title": "Novartis and Chai Discovery collaborate on antibody identification",
+      "url": "https://www.pharmaceutical-technology.com/news/novartis-chai-discovery-antibody-identification/",
+      "summary": "Novartis has entered a collaboration with Chai Discovery to advance the use of AI in the identification of therapeutic antibodies.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-14T08:57:47+00:00",
+      "pub_ts": 1784019467
+    },
+    {
+      "id": "77c5302ef2",
+      "title": "Cellares and Sonoma partner to automate cell therapy manufacturing",
+      "url": "https://www.pharmaceutical-technology.com/news/cellares-sonoma-cell-therapy-manufacturing/",
+      "summary": "Cellares and Sonoma Biotherapeutics have partnered to automate the manufacturing of the latter’s SBT-77-7101 programme using the Cellares Cell Shuttle platform.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-14T07:39:54+00:00",
+      "pub_ts": 1784014794
+    },
+    {
+      "id": "6b41871ab0",
+      "title": "Is your quality system built for 2026’s new regulatory reality?",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/is-your-quality-system-built-for-2026s-new-regulatory-reality/",
+      "summary": "Delve into the current compliance landscape for life sciences manufacturers and the vulnerabilities found in legacy quality systems.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-13T15:51:01+00:00",
+      "pub_ts": 1783957861
+    },
     {
       "id": "faecff56ec",
       "title": "Germany approves healthcare costs overhaul despite significant pharma opposition",
@@ -15,46 +55,6 @@
       "lang": "en",
       "pub_date": "2026-07-13T15:11:38+00:00",
       "pub_ts": 1783955498
-    },
-    {
-      "id": "bf3d1e3f9d",
-      "title": "Podcast: Patient advocates join the blood cancer ASCT vs CAR-T debate",
-      "url": "https://www.pharmaceutical-technology.com/features/podcast-patient-advocates-join-the-blood-cancer-asct-vs-car-t-debate/",
-      "summary": "Patient advocates in remission from MCL and FL discuss their treatment experiences with ASCT and CAR-T, while sharing views on latter's place in the treatment paradigm.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-13T12:55:20+00:00",
-      "pub_ts": 1783947320
-    },
-    {
-      "id": "3902950cb5",
-      "title": "“Hub-and-spoke” drug manufacturing set to benefit from new FDA rule",
-      "url": "https://www.pharmaceutical-technology.com/news/hub-and-spoke-drug-manufacturing-set-to-benefit-from-new-fda-rule/",
-      "summary": "The proposed rule would allow multiple manufacturing units at different locations to register as one establishment.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-13T10:46:16+00:00",
-      "pub_ts": 1783939576
-    },
-    {
-      "id": "e93b1428d8",
-      "title": "Takeda and Indonesia partner on plasma-derived therapies",
-      "url": "https://www.pharmaceutical-technology.com/news/takeda-indonesia-plasma-derived-therapies/",
-      "summary": "Takeda and the Indonesian Government have announced a multi-phased collaboration to strengthen the country’s plasma ecosystem and expand access to PDMPs.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-13T09:13:42+00:00",
-      "pub_ts": 1783934022
-    },
-    {
-      "id": "b590908461",
-      "title": "FDA approves MSD’s Keytruda combinations for MIBC",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-approves-msds-keytruda-combinations-for-mibc/",
-      "summary": "The FDA has approved two of MSD's anti-PD-1 therapies, Keytruda and Keytruda Qlex, along with Padcev, for adults with MIBC.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-13T08:31:27+00:00",
-      "pub_ts": 1783931487
     }
   ],
   "source_success_count": 1,
