@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-07-15T02:55:18.697348+00:00",
+  "updated_at": "2026-07-16T03:17:43.815521+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "d99fc5f4e7",
-      "title": "AstraZeneca pays up to $1.5bn to license Dizal Pharma’s lung cancer drug",
-      "url": "https://www.pharmaceutical-technology.com/news/astrazeneca-pays-up-to-1-5bn-to-license-dizal-pharmas-lung-cancer-drug/",
-      "summary": "In licensing Zegfrovy, AstraZeneca has gained an already approved asset, with a label expansion potentially on the horizon.",
+      "id": "0173dcbeb1",
+      "title": "J&J raises FY26 outlook following positive Q2",
+      "url": "https://www.pharmaceutical-technology.com/news/jj-raises-fy26-outlook-following-positive-q2/",
+      "summary": "Contributing around $8.9bn to its Q2 revenues of around $25.3bn, J&amp;J MedTech’s performance was driven by its cardiovascular portfolio that includes the Shockwave IVL system.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-14T14:14:38+00:00",
-      "pub_ts": 1784038478
+      "pub_date": "2026-07-15T14:14:14+00:00",
+      "pub_ts": 1784124854
     },
     {
-      "id": "9efa4302de",
-      "title": "Novartis and Chai Discovery collaborate on antibody identification",
-      "url": "https://www.pharmaceutical-technology.com/news/novartis-chai-discovery-antibody-identification/",
-      "summary": "Novartis has entered a collaboration with Chai Discovery to advance the use of AI in the identification of therapeutic antibodies.",
+      "id": "1d8e41196f",
+      "title": "Women’s health attracted record equity in 2025 as companies share capital",
+      "url": "https://www.pharmaceutical-technology.com/news/womens-health-attracted-record-equity-in-2025-as-companies-share-capital/",
+      "summary": "Closing the gender gap could boost the global economy by at least $1tn annually by 2040.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-14T08:57:47+00:00",
-      "pub_ts": 1784019467
+      "pub_date": "2026-07-15T13:00:00+00:00",
+      "pub_ts": 1784120400
     },
     {
-      "id": "77c5302ef2",
-      "title": "Cellares and Sonoma partner to automate cell therapy manufacturing",
-      "url": "https://www.pharmaceutical-technology.com/news/cellares-sonoma-cell-therapy-manufacturing/",
-      "summary": "Cellares and Sonoma Biotherapeutics have partnered to automate the manufacturing of the latter’s SBT-77-7101 programme using the Cellares Cell Shuttle platform.",
+      "id": "0c2c8f29fc",
+      "title": "AAIC26: The role of biomarkers in primary care and early diagnostics",
+      "url": "https://www.pharmaceutical-technology.com/news/alzheimers-biomarkers-role-primary-care-early-diagnostics/",
+      "summary": "Blood-based biomarkers could play a key role in detecting and treating Alzheimer’s early at the first point of contact, experts say.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-14T07:39:54+00:00",
-      "pub_ts": 1784014794
+      "pub_date": "2026-07-15T12:07:58+00:00",
+      "pub_ts": 1784117278
     },
     {
-      "id": "6b41871ab0",
-      "title": "Is your quality system built for 2026’s new regulatory reality?",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/is-your-quality-system-built-for-2026s-new-regulatory-reality/",
-      "summary": "Delve into the current compliance landscape for life sciences manufacturers and the vulnerabilities found in legacy quality systems.",
+      "id": "6717eaf6da",
+      "title": "FDA grants priority review to Roche’s Gazyva/Gazyvaro for pMN",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-priority-review-roches-gazyva/",
+      "summary": "The FDA has granted priority review to Roche’s sBLA for Gazyva/Gazyvaro in the treatment of adults with pMN.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-13T15:51:01+00:00",
-      "pub_ts": 1783957861
+      "pub_date": "2026-07-15T09:50:13+00:00",
+      "pub_ts": 1784109013
     },
     {
-      "id": "faecff56ec",
-      "title": "Germany approves healthcare costs overhaul despite significant pharma opposition",
-      "url": "https://www.pharmaceutical-technology.com/news/germany-approves-healthcare-costs-overhaul-despite-significant-pharma-opposition/",
-      "summary": "There are a range of cost-containment measures across the bill that will create a significant healthcare system shakeup.",
+      "id": "67274dabb4",
+      "title": "Innovent licenses IBI355 rights to Spero for up to $1.1bn",
+      "url": "https://www.pharmaceutical-technology.com/news/innovent-licenses-ibi355-rights-spero/",
+      "summary": "Innovent Biologics has granted Spero Therapeutics an exclusive licence deal to develop and commercialise IBI355 outside Greater China.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-13T15:11:38+00:00",
-      "pub_ts": 1783955498
+      "pub_date": "2026-07-15T09:01:36+00:00",
+      "pub_ts": 1784106096
     }
   ],
   "source_success_count": 1,

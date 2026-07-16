@@ -3,108 +3,128 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-07-15T02:54:39.074773+00:00",
+  "updated_at": "2026-07-16T03:16:32.668032+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "bd1f1871be",
-      "title": "长鑫科技：发行价定了，估值超5700亿",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814567&idx=1&sn=6184a93ba38688a6ff2a444f79781973",
-      "summary": "长鑫科技：发行价定了，估值超5700亿",
+      "id": "0c1c21334a",
+      "title": "大普微：预计上半年净利润12亿元—13.5亿元，同比扭亏",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814614&idx=1&sn=aff0ae6c9fca3309330b67bb470d6b4e",
+      "summary": "大普微：预计上半年净利润12亿元—13.5亿元，同比扭亏",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-15T02:54:34.990420+00:00",
-      "pub_ts": 1784084074
+      "pub_date": "2026-07-16T03:16:28.448895+00:00",
+      "pub_ts": 1784171788
     },
     {
-      "id": "9bcc8ec8e9",
-      "title": "高通、英伟达、地平线，都在做同一件事",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814539&idx=1&sn=a7c886c106dac022c6bf1a9ebf37682e",
-      "summary": "高通、英伟达、地平线，都在做同一件事",
+      "id": "2bcfdcc02d",
+      "title": "刚刚！佰维存储：上半年净利润预增3200%-3422%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814608&idx=1&sn=3ae64b7fe6363bfc350d6fe6b03a0ecf",
+      "summary": "刚刚！佰维存储：上半年净利润预增3200%-3422%",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-15T02:54:34.990467+00:00",
-      "pub_ts": 1784084074
+      "pub_date": "2026-07-16T03:16:28.448943+00:00",
+      "pub_ts": 1784171788
     },
     {
-      "id": "4ac5cf063f",
-      "title": "神州数码携手Intel共赴WAIC2026，构筑全栈智算基础设施新底座",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814539&idx=2&sn=804be7be106e86b4097c9743ce95bd7d",
-      "summary": "神州数码携手Intel共赴WAIC2026，构筑全栈智算基础设施新底座",
+      "id": "4056e6e3b5",
+      "title": "英伟达正在完成“五层蛋糕”闭环",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814603&idx=1&sn=eb3a53e1a7bd9bc345d58c3997109748",
+      "summary": "英伟达正在完成“五层蛋糕”闭环",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-15T02:54:34.990493+00:00",
-      "pub_ts": 1784084074
+      "pub_date": "2026-07-16T03:16:28.448966+00:00",
+      "pub_ts": 1784171788
     },
     {
-      "id": "8bbfc8c649",
-      "title": "超5万亿元！算力硬件上半年进出口增长56.6%",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814539&idx=3&sn=abfa843cd8afa2c28fa9eb5c5635ae68",
-      "summary": "超5万亿元！算力硬件上半年进出口增长56.6%",
+      "id": "e6dda9be8d",
+      "title": "AI叠变|WAIC2026，不止一场热闹",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814603&idx=2&sn=7f02f16c1dd8b54a03c2178fadb139c5",
+      "summary": "AI叠变|WAIC2026，不止一场热闹",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-15T02:54:34.990514+00:00",
-      "pub_ts": 1784084074
+      "pub_date": "2026-07-16T03:16:28.448985+00:00",
+      "pub_ts": 1784171788
     },
     {
-      "id": "72540db58f",
-      "title": "AI算力拉动！Q1全球EDA+IP营收突破57亿美元",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814539&idx=4&sn=3a0c0f003fb36e2e8c0bd565f0494bef",
-      "summary": "AI算力拉动！Q1全球EDA+IP营收突破57亿美元",
+      "id": "459d14d8ab",
+      "title": "国家统计局：上半年我国芯片日均产量超15亿块",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814603&idx=3&sn=6d33673b8679922f898fff05121a856a",
+      "summary": "国家统计局：上半年我国芯片日均产量超15亿块",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-15T02:54:34.990535+00:00",
-      "pub_ts": 1784084074
+      "pub_date": "2026-07-16T03:16:28.449002+00:00",
+      "pub_ts": 1784171788
     },
     {
-      "id": "c22f473ce1",
-      "title": "长鑫科技，发行价确定，16日申购",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826062&idx=1&sn=7b0fe6775aa7207c2d11004fb99795f2",
-      "summary": "长鑫科技，发行价确定，16日申购",
+      "id": "83746a5a7e",
+      "title": "刚刚，朱一明发声",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826170&idx=1&sn=e2ddd770290418eb91878b0dc8fb4317",
+      "summary": "刚刚，朱一明发声",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-15T02:54:26.269986+00:00",
-      "pub_ts": 1784084066
+      "pub_date": "2026-07-16T03:16:14.666167+00:00",
+      "pub_ts": 1784171774
     },
     {
-      "id": "4a8c4b3101",
-      "title": "序号武汉新芯，正式易主",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826031&idx=1&sn=fde0e93c45a5ad348553e12ba934b83c",
-      "summary": "序号武汉新芯，正式易主",
+      "id": "2f36d040d6",
+      "title": "EUV光刻机新里程碑，ASML确认：需求大增！",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826161&idx=1&sn=ceaabcea9e44f855d68e1f1af4015328",
+      "summary": "EUV光刻机新里程碑，ASML确认：需求大增！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-15T02:54:26.270037+00:00",
-      "pub_ts": 1784084066
+      "pub_date": "2026-07-16T03:16:14.666220+00:00",
+      "pub_ts": 1784171774
     },
     {
-      "id": "e893bdc127",
-      "title": "本土存储，集体狂飙",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826020&idx=1&sn=dce6ce6902eb376de2fe0a80be9fee18",
-      "summary": "本土存储，集体狂飙",
+      "id": "6b7f62119f",
+      "title": "力积电存储代工，涨价45%",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826123&idx=1&sn=28168545b66c872064249fbe57ef55cc",
+      "summary": "力积电存储代工，涨价45%",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-15T02:54:26.270061+00:00",
-      "pub_ts": 1784084066
+      "pub_date": "2026-07-16T03:16:14.666240+00:00",
+      "pub_ts": 1784171774
     },
     {
-      "id": "59dbddf69b",
-      "title": "产能之后，瓶颈轮到材料材料闭门研讨之前",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826020&idx=2&sn=674399465b9e33630a322905855da55f",
-      "summary": "产能之后，瓶颈轮到材料材料闭门研讨之前",
+      "id": "04ac7c1e7b",
+      "title": "全链路攻坚算力供电，南芯科技工业计算全矩阵方案亮相2026上海慕展",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826089&idx=1&sn=2a7fee9bd82f3feb8d7ddf48833bf1e9",
+      "summary": "全链路攻坚算力供电，南芯科技工业计算全矩阵方案亮相2026上海慕展",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-15T02:54:26.270081+00:00",
-      "pub_ts": 1784084066
+      "pub_date": "2026-07-16T03:16:14.666259+00:00",
+      "pub_ts": 1784171774
     },
     {
-      "id": "b15d11dab9",
-      "title": "三星发力玻璃中介层",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826020&idx=3&sn=92c4f95aa6017df76a1fa26addc97aff",
-      "summary": "三星发力玻璃中介层",
+      "id": "46ae809254",
+      "title": "AI的瓶颈是设备：半年被上修5,300亿美元之后，第二张闭门圆桌留给\"卖铲人\"",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826089&idx=2&sn=309b8a828deec9c02d3f2a3a4d1ac7a8",
+      "summary": "AI的瓶颈是设备：半年被上修5,300亿美元之后，第二张闭门圆桌留给\"卖铲人\"",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-15T02:54:26.270100+00:00",
-      "pub_ts": 1784084066
+      "pub_date": "2026-07-16T03:16:14.666276+00:00",
+      "pub_ts": 1784171774
+    },
+    {
+      "id": "421a23aa80",
+      "title": "Blog Review: July 15",
+      "url": "https://semiengineering.com/blog-review-july-15-3/",
+      "summary": "PCIe ATS verification; physical AI; adopting AI EDA; custom AMBA Viz plugins; V2G; fab construction workforce.\nThe post Blog Review: July 15 appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-07-15T07:01:04+00:00",
+      "pub_ts": 1784098864
+    },
+    {
+      "id": "5c0fcfc41e",
+      "title": "AI In Chip Design: Lots Of Promise, Plenty Of Unanswered Questions",
+      "url": "https://semiengineering.com/ai-in-chip-design-lots-of-promise-plenty-of-unanswered-questions/",
+      "summary": "Where AI will be successful, who will benefit, and how that will affect the design process.\nThe post AI In Chip Design: Lots Of Promise, Plenty Of Unanswered Questions appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-07-15T07:01:01+00:00",
+      "pub_ts": 1784098861
     },
     {
       "id": "d0fee33b1b",
@@ -135,26 +155,6 @@
       "lang": "en",
       "pub_date": "2026-07-14T00:47:19+00:00",
       "pub_ts": 1783990039
-    },
-    {
-      "id": "76647212b9",
-      "title": "Near-memory Dequantization Architecture In Custom HBM for LLM inference (SK hynix)",
-      "url": "https://semiengineering.com/near-memory-dequantization-architecture-in-custom-hbm-for-llm-inference-sk-hynix/",
-      "summary": "Researchers from SK hynix published a technical paper titled “StreamDQ: Near-Memory Weight DeQuantization in Custom HBM for Scalable AI Inference Acceleration.” The paper proposes StreamDQ for “a lightweight architectural enhancement that enables on-the-fly dequantization in the memory subsystem for…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-07-13T19:36:14+00:00",
-      "pub_ts": 1783971374
-    },
-    {
-      "id": "d8592e9d82",
-      "title": "Startup Funding: Q2 2026",
-      "url": "https://semiengineering.com/startup-funding-q2-2026/",
-      "summary": "Plenty of cash for AI and its enablers; 80 startups raise over $6B.\nThe post Startup Funding: Q2 2026 appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-07-13T07:10:19+00:00",
-      "pub_ts": 1783926619
     }
   ],
   "source_success_count": 3,

@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-07-15T02:55:06.193036+00:00",
+  "updated_at": "2026-07-16T03:17:31.063129+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "753e3f20d0",
-      "title": "Hybot H49 Hydrogen Heavy-Duty Truck Enters Commercial Service, Expanding Green Logistics Across Central China",
-      "url": "https://fuelcellsworks.com/2026/07/11/fuel-cells/hybot-h49-hydrogen-heavy-duty-truck-enters-commercial-service-expanding-green-logistics-across-central-china",
+      "id": "214e2917e8",
+      "title": "Biomass and Hydrogen Could Be Key in the Energy Transition, Says Researcher",
+      "url": "https://fuelcellsworks.com/2026/07/14/h2/biomass-and-hydrogen-could-be-key-in-the-energy-transition-says-researcher-br",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-14T17:52:53+00:00",
-      "pub_ts": 1784051573
+      "pub_date": "2026-07-15T14:44:43+00:00",
+      "pub_ts": 1784126683
     },
     {
-      "id": "e63441f27e",
-      "title": "FTXT Energy Delivers 30 Hydrogen Sanitation Vehicles as Baoding Builds Thousand-Vehicle Hydrogen Fleet",
-      "url": "https://fuelcellsworks.com/2026/07/14/fuel-cells/ftxt-energy-delivers-30-hydrogen-sanitation-vehicles-as-baoding-builds-thousand-vehicle-hydrogen-fleet",
+      "id": "7a56fd56f3",
+      "title": "D3 Energy Reports Maiden Helium, Hydrogen Resource at PEL121",
+      "url": "https://fuelcellsworks.com/2026/07/15/clean-energy/d3-energy-reports-maiden-helium-hydrogen-resource-at-pel121",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-14T16:13:11+00:00",
-      "pub_ts": 1784045591
+      "pub_date": "2026-07-15T14:41:05+00:00",
+      "pub_ts": 1784126465
     },
     {
-      "id": "944f6174c3",
-      "title": "Syntholene Advances Iceland eFuel Project With New Financing Round",
-      "url": "https://fuelcellsworks.com/2026/07/14/fuel-cells/syntholene-advances-iceland-efuel-project-with-new-financing-round",
+      "id": "34eada1c8b",
+      "title": "Renewable Hydrogen Production Validated Through Real-World Driving Test",
+      "url": "https://fuelcellsworks.com/2026/07/14/fuel-cells/renewable-hydrogen-production-validated-through-real-world-driving-test",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-14T15:50:25+00:00",
-      "pub_ts": 1784044225
+      "pub_date": "2026-07-15T14:39:12+00:00",
+      "pub_ts": 1784126352
     },
     {
-      "id": "37e2238ce3",
-      "title": "Large-Scale Hydrogen Fuel Cell Enters Commercial Power Generation Service",
-      "url": "https://fuelcellsworks.com/2026/07/12/clean-technology/large-scale-hydrogen-fuel-cell-enters-commercial-power-generation-service",
+      "id": "a5e8e3ec2b",
+      "title": "NUS Establishes Hydrogen and Low-Carbon Consortium to Accelerate Decarbonisation Efforts",
+      "url": "https://fuelcellsworks.com/2026/07/15/clean-energy/nus-establishes-hydrogen-and-low-carbon-consortium-to-accelerate-decarbonisation-efforts",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-14T15:29:05+00:00",
-      "pub_ts": 1784042945
+      "pub_date": "2026-07-15T14:32:19+00:00",
+      "pub_ts": 1784125939
     },
     {
-      "id": "b0e2e52036",
-      "title": "Locking In Cheap Green Power: Linde India Completes ₹105 Crore Bet on Fourth Partner's Renewable SPV",
-      "url": "https://fuelcellsworks.com/2026/07/14/green-investment/locking-in-cheap-green-power-linde-india-completes-105-crore-bet-on-fourth-partner-s-renewable-spv",
+      "id": "82aa1f2763",
+      "title": "Oracle Backs Down and Levels Up: Project Jupiter Ditches Gas Turbines for Bloom Fuel Cells After Community Pushback",
+      "url": "https://fuelcellsworks.com/2026/07/14/fuel-cells/oracle-backs-down-and-levels-up-project-jupiter-ditches-gas-turbines-for-bloom-fuel-cells-after-community-pushback",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-14T15:16:53+00:00",
-      "pub_ts": 1784042213
+      "pub_date": "2026-07-15T14:23:24+00:00",
+      "pub_ts": 1784125404
     }
   ],
   "source_success_count": 1,
