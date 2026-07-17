@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-07-16T03:17:43.815521+00:00",
+  "updated_at": "2026-07-17T03:20:09.002130+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "0173dcbeb1",
-      "title": "J&J raises FY26 outlook following positive Q2",
-      "url": "https://www.pharmaceutical-technology.com/news/jj-raises-fy26-outlook-following-positive-q2/",
-      "summary": "Contributing around $8.9bn to its Q2 revenues of around $25.3bn, J&amp;J MedTech’s performance was driven by its cardiovascular portfolio that includes the Shockwave IVL system.",
+      "id": "0d2f6e5c42",
+      "title": "UK commits to pharma IP protection in Swiss trade deal",
+      "url": "https://www.pharmaceutical-technology.com/news/uk-commits-to-pharma-ip-protection-in-swiss-trade-deal/",
+      "summary": "The pharma industry welcomed the pledge, which marked the first-time drug IP has explicitly been stated in a free trade agreement",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-15T14:14:14+00:00",
-      "pub_ts": 1784124854
+      "pub_date": "2026-07-16T15:09:46+00:00",
+      "pub_ts": 1784214586
     },
     {
-      "id": "1d8e41196f",
-      "title": "Women’s health attracted record equity in 2025 as companies share capital",
-      "url": "https://www.pharmaceutical-technology.com/news/womens-health-attracted-record-equity-in-2025-as-companies-share-capital/",
-      "summary": "Closing the gender gap could boost the global economy by at least $1tn annually by 2040.",
+      "id": "9eb5f1ebbc",
+      "title": "Novo secures European approval for oral Wegovy to extend lead over Lilly",
+      "url": "https://www.pharmaceutical-technology.com/news/novo-secures-european-approval-for-oral-wegovy-to-extend-lead-over-lilly/",
+      "summary": "Novo Nordisk is relying on first-mover advantage in the obesity pill arena to close the gap on Eli Lilly.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-15T13:00:00+00:00",
-      "pub_ts": 1784120400
+      "pub_date": "2026-07-16T14:28:04+00:00",
+      "pub_ts": 1784212084
     },
     {
-      "id": "0c2c8f29fc",
-      "title": "AAIC26: The role of biomarkers in primary care and early diagnostics",
-      "url": "https://www.pharmaceutical-technology.com/news/alzheimers-biomarkers-role-primary-care-early-diagnostics/",
-      "summary": "Blood-based biomarkers could play a key role in detecting and treating Alzheimer’s early at the first point of contact, experts say.",
+      "id": "98ba620ab7",
+      "title": "Lilly enters psychedelic realm through $2.8bn AtaiBeckley takeover",
+      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-acquires-ataibeckley-psycehdelics-2-8bn/",
+      "summary": "This acquisition marks Eli Lilly’s first move into the psychedelic space as the pharma curates a diversified pipeline.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-15T12:07:58+00:00",
-      "pub_ts": 1784117278
+      "pub_date": "2026-07-16T13:34:47+00:00",
+      "pub_ts": 1784208887
     },
     {
-      "id": "6717eaf6da",
-      "title": "FDA grants priority review to Roche’s Gazyva/Gazyvaro for pMN",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-priority-review-roches-gazyva/",
-      "summary": "The FDA has granted priority review to Roche’s sBLA for Gazyva/Gazyvaro in the treatment of adults with pMN.",
+      "id": "69e199a114",
+      "title": "Big pharma-backed AdvanCell pockets $315m to progress RLT to Phase III",
+      "url": "https://www.pharmaceutical-technology.com/news/big-pharma-backed-advancell-pockets-315m-rlt-radiopharmaceutical/",
+      "summary": "AdvanCell will use the mega-round earnings to progress ADVC001 and build radiopharmaceutical manufacturing infrastructure.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-15T09:50:13+00:00",
-      "pub_ts": 1784109013
+      "pub_date": "2026-07-16T09:56:46+00:00",
+      "pub_ts": 1784195806
     },
     {
-      "id": "67274dabb4",
-      "title": "Innovent licenses IBI355 rights to Spero for up to $1.1bn",
-      "url": "https://www.pharmaceutical-technology.com/news/innovent-licenses-ibi355-rights-spero/",
-      "summary": "Innovent Biologics has granted Spero Therapeutics an exclusive licence deal to develop and commercialise IBI355 outside Greater China.",
+      "id": "f5637a9ca2",
+      "title": "Biomarkers in Nephrology Research: From Exploratory to Decision-Making Tools",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/biomarkers-in-nephrology-from-exploratory-to-decision-making-tools/",
+      "summary": "",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-15T09:01:36+00:00",
-      "pub_ts": 1784106096
+      "pub_date": "2026-07-16T09:25:00+00:00",
+      "pub_ts": 1784193900
     }
   ],
   "source_success_count": 1,
