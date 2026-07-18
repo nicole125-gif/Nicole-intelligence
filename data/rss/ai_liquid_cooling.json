@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-07-17T03:19:42.693883+00:00",
+  "updated_at": "2026-07-18T02:56:20.857310+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "e95cd8f724",
-      "title": "LibTV进入访问量前三",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904435&idx=1&sn=6aa526cf611ec8c7ab5c814b03cb5c11",
-      "summary": "LibTV进入访问量前三",
+      "id": "b59e1b79fd",
+      "title": "在WAIC，十大开源社区「挤」进了一个GPU展台",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904728&idx=1&sn=9585a00d482ffc4647b7a2ff5669f1df",
+      "summary": "在WAIC，十大开源社区「挤」进了一个GPU展台",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-17T03:19:38.616142+00:00",
-      "pub_ts": 1784258378
+      "pub_date": "2026-07-18T02:56:15.400172+00:00",
+      "pub_ts": 1784343375
     },
     {
-      "id": "708959a846",
-      "title": "全球首个！银河通用新框架仅需人类视频即可部署，特斯拉蚌埠住了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904431&idx=1&sn=3e80ab758744be69ebf62f2358eb9339",
-      "summary": "全球首个！银河通用新框架仅需人类视频即可部署，特斯拉蚌埠住了",
+      "id": "b7fcb9344b",
+      "title": "DeepSeek估值，被一家安徽箱包公司给全部暴露了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904728&idx=2&sn=b031e081a4926fa4ffa9d737795d90a3",
+      "summary": "DeepSeek估值，被一家安徽箱包公司给全部暴露了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-17T03:19:38.616184+00:00",
-      "pub_ts": 1784258378
+      "pub_date": "2026-07-18T02:56:15.400208+00:00",
+      "pub_ts": 1784343375
     },
     {
-      "id": "931743ed1d",
-      "title": "刚刚，机器人顶会RSS三项最佳论文出炉！708篇送审，仅8篇杀入决赛",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904431&idx=2&sn=21d0017b87f0ff9f511a2eae7bd49201",
-      "summary": "刚刚，机器人顶会RSS三项最佳论文出炉！708篇送审，仅8篇杀入决赛",
+      "id": "736dd176ea",
+      "title": "全球市占第一后，普渡在WAIC开始回答机器人下一场战争",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904696&idx=1&sn=8020e0c81cd6dae2ddf3c3a05d6432d1",
+      "summary": "全球市占第一后，普渡在WAIC开始回答机器人下一场战争",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-17T03:19:38.616201+00:00",
-      "pub_ts": 1784258378
+      "pub_date": "2026-07-18T02:56:15.400225+00:00",
+      "pub_ts": 1784343375
     },
     {
-      "id": "79d90705ae",
-      "title": "让VLA更懂接触，优理奇UniTac让机器人拥有“触觉想象力”",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904211&idx=1&sn=81c29a58ca36a0ea8c11ede798c7a651",
-      "summary": "让VLA更懂接触，优理奇UniTac让机器人拥有“触觉想象力”",
+      "id": "9c30d1d4ee",
+      "title": "逛完WAIC2026我悟了：国产AI芯片的真对手，根本不是英伟达的GPU",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904696&idx=2&sn=7b4b11495d15ea5964c3e5240c3d7037",
+      "summary": "逛完WAIC2026我悟了：国产AI芯片的真对手，根本不是英伟达的GPU",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-17T03:19:38.616217+00:00",
-      "pub_ts": 1784258378
+      "pub_date": "2026-07-18T02:56:15.400241+00:00",
+      "pub_ts": 1784343375
     },
     {
-      "id": "33fda108fa",
-      "title": "ICML26闭门会发言曝光，10个一线研究者说了10个最新趋势",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904211&idx=2&sn=0b4602180e5652b4b80346b8c4e59da6",
-      "summary": "ICML26闭门会发言曝光，10个一线研究者说了10个最新趋势",
+      "id": "1755e3590d",
+      "title": "具身数采新方案：数字遥操作，现已开源，达摩院出品",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904696&idx=3&sn=ec39651f6a9a25e0ea9d991eee168a2f",
+      "summary": "具身数采新方案：数字遥操作，现已开源，达摩院出品",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-17T03:19:38.616233+00:00",
-      "pub_ts": 1784258378
+      "pub_date": "2026-07-18T02:56:15.400256+00:00",
+      "pub_ts": 1784343375
     }
   ],
   "source_success_count": 1,

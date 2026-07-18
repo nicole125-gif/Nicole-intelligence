@@ -3,9 +3,49 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-07-17T03:20:09.002130+00:00",
+  "updated_at": "2026-07-18T02:56:44.497226+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "74b898b0e7",
+      "title": "Bayer’s heart failure drug bound for NHS on NICE recommendation",
+      "url": "https://www.pharmaceutical-technology.com/news/bayer-kerendia-nice-recommendation-nhs-use/",
+      "summary": "Bayer's Kerendia will become available to English patients with chronic heart failure with preserved or mildly reduced ejection fraction.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-17T10:42:32+00:00",
+      "pub_ts": 1784284952
+    },
+    {
+      "id": "b586e09dc0",
+      "title": "FDA grants traditional approval to Novartis’ Fabhalta for IgAN",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-approval-novartis-fabhalta/",
+      "summary": "The FDA has issued traditional approval to Novartis for Fabhalta to slow the decline of kidney function in adults with primary IgAN who are at risk of disease progression.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-17T10:18:51+00:00",
+      "pub_ts": 1784283531
+    },
+    {
+      "id": "ae137d30b7",
+      "title": "MSD wins FDA approval for cholesterol pill to help plug Keytruda void",
+      "url": "https://www.pharmaceutical-technology.com/news/msd-wins-fda-approval-for-cholesterol-pill-to-help-plug-keytruda-void/",
+      "summary": "MSD has outpaced rivals to market the first PCSK9 inhibitor in pill form for patients with high cholesterol.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-17T09:31:24+00:00",
+      "pub_ts": 1784280684
+    },
+    {
+      "id": "a2d82ffd30",
+      "title": "JCVI issues recommendation on adolescent MenB vaccination in UK",
+      "url": "https://www.pharmaceutical-technology.com/news/jcvi-recommendation-adolescent-menb-vaccination/",
+      "summary": "The UK’s Joint Committee on Vaccination and Immunisation (JCVI) has recommended a routine programme with the 4CMenB vaccine for adolescents.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-17T09:10:06+00:00",
+      "pub_ts": 1784279406
+    },
     {
       "id": "0d2f6e5c42",
       "title": "UK commits to pharma IP protection in Swiss trade deal",
@@ -15,46 +55,6 @@
       "lang": "en",
       "pub_date": "2026-07-16T15:09:46+00:00",
       "pub_ts": 1784214586
-    },
-    {
-      "id": "9eb5f1ebbc",
-      "title": "Novo secures European approval for oral Wegovy to extend lead over Lilly",
-      "url": "https://www.pharmaceutical-technology.com/news/novo-secures-european-approval-for-oral-wegovy-to-extend-lead-over-lilly/",
-      "summary": "Novo Nordisk is relying on first-mover advantage in the obesity pill arena to close the gap on Eli Lilly.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-16T14:28:04+00:00",
-      "pub_ts": 1784212084
-    },
-    {
-      "id": "98ba620ab7",
-      "title": "Lilly enters psychedelic realm through $2.8bn AtaiBeckley takeover",
-      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-acquires-ataibeckley-psycehdelics-2-8bn/",
-      "summary": "This acquisition marks Eli Lilly’s first move into the psychedelic space as the pharma curates a diversified pipeline.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-16T13:34:47+00:00",
-      "pub_ts": 1784208887
-    },
-    {
-      "id": "69e199a114",
-      "title": "Big pharma-backed AdvanCell pockets $315m to progress RLT to Phase III",
-      "url": "https://www.pharmaceutical-technology.com/news/big-pharma-backed-advancell-pockets-315m-rlt-radiopharmaceutical/",
-      "summary": "AdvanCell will use the mega-round earnings to progress ADVC001 and build radiopharmaceutical manufacturing infrastructure.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-16T09:56:46+00:00",
-      "pub_ts": 1784195806
-    },
-    {
-      "id": "f5637a9ca2",
-      "title": "Biomarkers in Nephrology Research: From Exploratory to Decision-Making Tools",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/biomarkers-in-nephrology-from-exploratory-to-decision-making-tools/",
-      "summary": "",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-16T09:25:00+00:00",
-      "pub_ts": 1784193900
     }
   ],
   "source_success_count": 1,

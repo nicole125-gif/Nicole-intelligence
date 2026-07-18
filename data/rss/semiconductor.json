@@ -3,88 +3,118 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-07-17T03:19:28.947501+00:00",
-  "item_count": 13,
+  "updated_at": "2026-07-18T02:56:05.912583+00:00",
+  "item_count": 15,
   "items": [
     {
-      "id": "2290fbc720",
-      "title": "WAIC 2026即将开幕，这届AI亮点有哪些？",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814659&idx=1&sn=f36956ecc047e6caf43be8ea67585e00",
-      "summary": "WAIC 2026即将开幕，这届AI亮点有哪些？",
+      "id": "52ff580b55",
+      "title": "锁定两场直播！跟着半导体产业纵横直击WAIC 2026",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814717&idx=1&sn=8e97a40647cc5a65f2ea3c88c7566bb6",
+      "summary": "锁定两场直播！跟着半导体产业纵横直击WAIC 2026",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-17T03:19:24.660416+00:00",
-      "pub_ts": 1784258364
+      "pub_date": "2026-07-18T02:56:01.727464+00:00",
+      "pub_ts": 1784343361
     },
     {
-      "id": "8db03844b9",
-      "title": "台积电：Q2净利增77%，再加1000亿美元投资",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814659&idx=2&sn=25f62be2f2f6255d0d562a28fb98c516",
-      "summary": "台积电：Q2净利增77%，再加1000亿美元投资",
+      "id": "ee8efaf4d2",
+      "title": "GPU之外，清微智能押注一条硬路",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814711&idx=1&sn=8392ea91b847a43abc18f2ca7a40f137",
+      "summary": "GPU之外，清微智能押注一条硬路",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-17T03:19:24.660463+00:00",
-      "pub_ts": 1784258364
+      "pub_date": "2026-07-18T02:56:01.727506+00:00",
+      "pub_ts": 1784343361
     },
     {
-      "id": "7f55d919d7",
-      "title": "AI服务器芯片研发遇阻，苹果拟收购破局",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814659&idx=3&sn=481e6bb792468e5fc95e3d9103c6d426",
-      "summary": "AI服务器芯片研发遇阻，苹果拟收购破局",
+      "id": "d8b997b4ba",
+      "title": "国家发改委发布人工智能合作发展行动计划",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814711&idx=2&sn=86efa6376a18ee3a184e247a429543a0",
+      "summary": "国家发改委发布人工智能合作发展行动计划",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-17T03:19:24.660482+00:00",
-      "pub_ts": 1784258364
+      "pub_date": "2026-07-18T02:56:01.727527+00:00",
+      "pub_ts": 1784343361
     },
     {
-      "id": "d4d524b0b4",
-      "title": "元器件涨价压力下，大面积OLED出货预计增长18.8%",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814659&idx=4&sn=02b08ac79627a937856d507ec57cd8a6",
-      "summary": "元器件涨价压力下，大面积OLED出货预计增长18.8%",
+      "id": "af3a60f938",
+      "title": "直击存储理论极限！复旦量子闪存技术登Science",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814711&idx=3&sn=3ab18053ea0401aefe4d12d4fe3c4854",
+      "summary": "直击存储理论极限！复旦量子闪存技术登Science",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-17T03:19:24.660502+00:00",
-      "pub_ts": 1784258364
+      "pub_date": "2026-07-18T02:56:01.727544+00:00",
+      "pub_ts": 1784343361
     },
     {
-      "id": "2734bf245b",
-      "title": "11亿美元蓝海！陪伴机器人赛道强势崛起",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814659&idx=5&sn=7743898b35259a5ac43a52d07abe3086",
-      "summary": "11亿美元蓝海！陪伴机器人赛道强势崛起",
+      "id": "962f9e2ba1",
+      "title": "混合键合设备，韩企抢先布局",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814711&idx=4&sn=1b4c1c7d14378ffcf92445d7a011bfcb",
+      "summary": "混合键合设备，韩企抢先布局",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-17T03:19:24.660521+00:00",
-      "pub_ts": 1784258364
+      "pub_date": "2026-07-18T02:56:01.727559+00:00",
+      "pub_ts": 1784343361
     },
     {
-      "id": "d75372f848",
-      "title": "一场AI算力盛会，WAIC2026现场：约定你",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826418&idx=1&sn=5f40653c3326dd278a7f49f81009f45e",
-      "summary": "一场AI算力盛会，WAIC2026现场：约定你",
+      "id": "84d8d5f856",
+      "title": "KimiV3设计了一颗芯片",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826502&idx=1&sn=93baec212e7156cbec9d6593d923bb82",
+      "summary": "KimiV3设计了一颗芯片",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-17T03:19:15.725986+00:00",
-      "pub_ts": 1784258355
+      "pub_date": "2026-07-18T02:55:49.436018+00:00",
+      "pub_ts": 1784343349
     },
     {
-      "id": "388f25cc19",
-      "title": "长鑫科技，中签率0.47141739%",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826393&idx=1&sn=dcc18936019acbe4fdc5cfe576dece0e",
-      "summary": "长鑫科技，中签率0.47141739%",
+      "id": "494e59df43",
+      "title": "WAIC2026前瞻：AI从秀肌肉，进入算细账的时代",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826490&idx=1&sn=18595f51a190045592705ab7991dc1b4",
+      "summary": "WAIC2026前瞻：AI从秀肌肉，进入算细账的时代",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-17T03:19:15.726044+00:00",
-      "pub_ts": 1784258355
+      "pub_date": "2026-07-18T02:55:49.436069+00:00",
+      "pub_ts": 1784343349
     },
     {
-      "id": "e39d583487",
-      "title": "台积电重仓美国，增资6700亿，揭秘新路线图",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826311&idx=1&sn=3f9c40ea190aa1efbb85a544d745012d",
-      "summary": "台积电重仓美国，增资6700亿，揭秘新路线图",
+      "id": "79f84465ad",
+      "title": "先进封装的黄金时代",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826490&idx=2&sn=ec36675340e2b6c4f8b664dbca1a1dcd",
+      "summary": "先进封装的黄金时代",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-17T03:19:15.726065+00:00",
-      "pub_ts": 1784258355
+      "pub_date": "2026-07-18T02:55:49.436094+00:00",
+      "pub_ts": 1784343349
+    },
+    {
+      "id": "63b50205b0",
+      "title": "重磅发布|光羽芯辰全球首发端侧大算力3D近存算AI芯片TC1000系列",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826490&idx=3&sn=fb7ba5342970fa6fb781002f51e6d411",
+      "summary": "重磅发布|光羽芯辰全球首发端侧大算力3D近存算AI芯片TC1000系列",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-07-18T02:55:49.436110+00:00",
+      "pub_ts": 1784343349
+    },
+    {
+      "id": "d3fabd4d8a",
+      "title": "台积电2nm，终于来了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826490&idx=4&sn=db2ba4dd4f0b221770da453b76d9f53b",
+      "summary": "台积电2nm，终于来了！",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-07-18T02:55:49.436126+00:00",
+      "pub_ts": 1784343349
+    },
+    {
+      "id": "1bfb9f5ea3",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-147/",
+      "summary": "Intel's expansion; Cadence AI super agent for PCB, advanced packaging; photonics fab wars; earlier Yongin fab; German funding; new CHIPS Act award; HBM standard; Quadric funding; AMS acquisition; earnings; Rapidus teams up.\nThe post Chip Industry Week In Review appeared first on Semiconductor Engine…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-07-17T07:01:01+00:00",
+      "pub_ts": 1784271661
     },
     {
       "id": "35d22cfc93",
@@ -125,16 +155,6 @@
       "lang": "en",
       "pub_date": "2026-07-16T07:05:11+00:00",
       "pub_ts": 1784185511
-    },
-    {
-      "id": "a78aa867a8",
-      "title": "New Nonvolatile Memory Winners Emerge",
-      "url": "https://semiengineering.com/new-nonvolatile-memory-winners-emerge/",
-      "summary": "RRAM, MRAM have promising futures, while FeRAM lurks, and UltraRAM plans a debut. \nThe post New Nonvolatile Memory Winners Emerge appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-07-16T07:02:17+00:00",
-      "pub_ts": 1784185337
     }
   ],
   "source_success_count": 3,
