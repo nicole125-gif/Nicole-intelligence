@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-07-18T02:56:20.857310+00:00",
+  "updated_at": "2026-07-19T03:28:50.801416+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "b59e1b79fd",
-      "title": "在WAIC，十大开源社区「挤」进了一个GPU展台",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904728&idx=1&sn=9585a00d482ffc4647b7a2ff5669f1df",
-      "summary": "在WAIC，十大开源社区「挤」进了一个GPU展台",
+      "id": "ac3ab11eae",
+      "title": "这，可能是今年WAIC最惊艳的图片！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904878&idx=1&sn=dcd29cdc18bca70f4f9efaea65bade39",
+      "summary": "这，可能是今年WAIC最惊艳的图片！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-18T02:56:15.400172+00:00",
-      "pub_ts": 1784343375
+      "pub_date": "2026-07-19T03:28:44.998501+00:00",
+      "pub_ts": 1784431724
     },
     {
-      "id": "b7fcb9344b",
-      "title": "DeepSeek估值，被一家安徽箱包公司给全部暴露了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904728&idx=2&sn=b031e081a4926fa4ffa9d737795d90a3",
-      "summary": "DeepSeek估值，被一家安徽箱包公司给全部暴露了",
+      "id": "90d9bc4bf6",
+      "title": "WAIC看了一圈，这家公司的机器人在认真打工",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904876&idx=1&sn=34b11420057e4e00ac65c126873f1e30",
+      "summary": "WAIC看了一圈，这家公司的机器人在认真打工",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-18T02:56:15.400208+00:00",
-      "pub_ts": 1784343375
+      "pub_date": "2026-07-19T03:28:44.998541+00:00",
+      "pub_ts": 1784431724
     },
     {
-      "id": "736dd176ea",
-      "title": "全球市占第一后，普渡在WAIC开始回答机器人下一场战争",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904696&idx=1&sn=8020e0c81cd6dae2ddf3c3a05d6432d1",
-      "summary": "全球市占第一后，普渡在WAIC开始回答机器人下一场战争",
+      "id": "089648789b",
+      "title": "妙啊！无人机直连卫星传Token",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904823&idx=1&sn=717371d5d163ccccf4b3f5399c505620",
+      "summary": "妙啊！无人机直连卫星传Token",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-18T02:56:15.400225+00:00",
-      "pub_ts": 1784343375
+      "pub_date": "2026-07-19T03:28:44.998565+00:00",
+      "pub_ts": 1784431724
     },
     {
-      "id": "9c30d1d4ee",
-      "title": "逛完WAIC2026我悟了：国产AI芯片的真对手，根本不是英伟达的GPU",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904696&idx=2&sn=7b4b11495d15ea5964c3e5240c3d7037",
-      "summary": "逛完WAIC2026我悟了：国产AI芯片的真对手，根本不是英伟达的GPU",
+      "id": "16e9879236",
+      "title": "中兴通讯联合国产算力厂，拿下WAICSAIL之星",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904823&idx=2&sn=a9532539070eb27cc27c2c18d83f4ec2",
+      "summary": "中兴通讯联合国产算力厂，拿下WAICSAIL之星",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-18T02:56:15.400241+00:00",
-      "pub_ts": 1784343375
+      "pub_date": "2026-07-19T03:28:44.998586+00:00",
+      "pub_ts": 1784431724
     },
     {
-      "id": "1755e3590d",
-      "title": "具身数采新方案：数字遥操作，现已开源，达摩院出品",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904696&idx=3&sn=ec39651f6a9a25e0ea9d991eee168a2f",
-      "summary": "具身数采新方案：数字遥操作，现已开源，达摩院出品",
+      "id": "e761fd402e",
+      "title": "不换模型，效果提升104%！上海AI Lab让Harness也能自进化了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904823&idx=3&sn=af8b10819641ba1f59492acb8aa9ebd4",
+      "summary": "不换模型，效果提升104%！上海AI Lab让Harness也能自进化了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-18T02:56:15.400256+00:00",
-      "pub_ts": 1784343375
+      "pub_date": "2026-07-19T03:28:44.998607+00:00",
+      "pub_ts": 1784431724
     }
   ],
   "source_success_count": 1,

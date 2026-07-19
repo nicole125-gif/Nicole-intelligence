@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-07-18T02:56:31.992509+00:00",
+  "updated_at": "2026-07-19T03:29:02.407058+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "6ceb884225",
-      "title": "Doosan Fuel Cell Targets North American AI Data Centre Market with Hydrogen Fuel Cell Power Solutions",
-      "url": "https://fuelcellsworks.com/2026/07/17/fuel-cells/doosan-fuel-cell-targets-north-american-ai-data-centre-market-with-hydrogen-fuel-cell-power-solutions",
+      "id": "e1b62e01f9",
+      "title": "Foreign Firms Follow the Money: Why Evonik, Siemens and Hyundai Are All Building Hydrogen Shops in China",
+      "url": "https://fuelcellsworks.com/2026/07/17/h2/foreign-firms-follow-the-money-why-evonik-siemens-and-hyundai-are-all-building-hydrogen-shops-in-china",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-17T15:11:38+00:00",
-      "pub_ts": 1784301098
+      "pub_date": "2026-07-17T15:52:22+00:00",
+      "pub_ts": 1784303542
     },
     {
-      "id": "91765f07c3",
-      "title": "BMW, Toyota, Bosch and Repsol Launch Real-World Pilot of Vehicles Running on 100% Renewable Gasoline",
-      "url": "https://fuelcellsworks.com/2026/07/17/fuel-cells/bmw-toyota-bosch-and-repsol-launch-real-world-pilot-of-vehicles-running-on-100-percent-renewable-gasoline",
+      "id": "3f8049a842",
+      "title": "ELYgator: Inside the Electrolyzer Construction Site Shaping the Future of Hydrogen in Europe",
+      "url": "https://fuelcellsworks.com/2026/07/17/clean-energy/elygator-inside-the-electrolyzer-construction-site-shaping-the-future-of-hydrogen-in-europe",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-17T15:04:20+00:00",
-      "pub_ts": 1784300660
+      "pub_date": "2026-07-17T15:48:35+00:00",
+      "pub_ts": 1784303315
     },
     {
-      "id": "8f226243a0",
-      "title": "High-Pressure Hydrogen Transport Gains Momentum with New Container Order",
-      "url": "https://fuelcellsworks.com/2026/07/16/h2/high-pressure-hydrogen-transport-gains-momentum-with-new-container-order",
+      "id": "b8687c9fdf",
+      "title": "Berlin-Brandenburg Project Turns Wastewater Plants Into Green Hydrogen Production Hubs",
+      "url": "https://fuelcellsworks.com/2026/07/16/h2/berlin-brandenburg-project-turns-wastewater-plants-into-green-hydrogen-production-hubs",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-17T14:34:41+00:00",
-      "pub_ts": 1784298881
+      "pub_date": "2026-07-17T15:37:23+00:00",
+      "pub_ts": 1784302643
     },
     {
-      "id": "b0ab7cdce5",
-      "title": "Jindal Stainless Supplies Stainless Steel for India’s First Hydrogen-Powered Train, Advances Cleaner and Smarter Mobility",
-      "url": "https://fuelcellsworks.com/2026/07/17/fuel-cells/jindal-stainless-supplies-stainless-steel-for-india-s-first-hydrogen-powered-train-advances-cleaner-and-smarter-mobility",
+      "id": "d5d2bbc886",
+      "title": "India Launches First Hydrogen-Powered Passenger Train with Indigenous Refuelling Infrastructure",
+      "url": "https://fuelcellsworks.com/2026/07/17/electrolyzer/india-launches-first-hydrogen-powered-passenger-train-with-indigenous-refuelling-infrastructure",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-17T14:32:14+00:00",
-      "pub_ts": 1784298734
+      "pub_date": "2026-07-17T15:34:32+00:00",
+      "pub_ts": 1784302472
     },
     {
-      "id": "53566ccaf4",
-      "title": "Hydrogen Insights for June 2026 From France",
-      "url": "https://fuelcellsworks.com/2026/07/16/electrolyzer/france-hydrogen-insights-for-june-2026",
+      "id": "b098793a60",
+      "title": "Bloom Energy Supplier Wins New Orders as AI Data Centre Fuel Cell Demand Accelerates",
+      "url": "https://fuelcellsworks.com/2026/07/17/fuel-cells/bloom-energy-supplier-wins-new-orders-as-ai-data-centre-fuel-cell-demand-accelerates",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-17T14:27:12+00:00",
-      "pub_ts": 1784298432
+      "pub_date": "2026-07-17T15:23:30+00:00",
+      "pub_ts": 1784301810
     }
   ],
   "source_success_count": 1,
