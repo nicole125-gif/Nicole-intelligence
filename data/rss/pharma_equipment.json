@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-07-20T03:42:35.160391+00:00",
+  "updated_at": "2026-07-21T03:22:51.438889+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "74b898b0e7",
-      "title": "Bayer’s heart failure drug bound for NHS on NICE recommendation",
-      "url": "https://www.pharmaceutical-technology.com/news/bayer-kerendia-nice-recommendation-nhs-use/",
-      "summary": "Bayer's Kerendia will become available to English patients with chronic heart failure with preserved or mildly reduced ejection fraction.",
+      "id": "02c532338a",
+      "title": "What Ojemda’s JCA reveals about new era of clinical HTA in Europe",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/what-ojemda-jca-reveals-about-new-era-of-clinical-hta-in-europe/",
+      "summary": "An analysis of GlobalData’s Drug Pricing (POLI) & HTA database shows no HTA outcome for Ojemda in the wake of the JCA review.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-17T10:42:32+00:00",
-      "pub_ts": 1784284952
+      "pub_date": "2026-07-20T15:38:03+00:00",
+      "pub_ts": 1784561883
     },
     {
-      "id": "b586e09dc0",
-      "title": "FDA grants traditional approval to Novartis’ Fabhalta for IgAN",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-approval-novartis-fabhalta/",
-      "summary": "The FDA has issued traditional approval to Novartis for Fabhalta to slow the decline of kidney function in adults with primary IgAN who are at risk of disease progression.",
+      "id": "25c115a3ca",
+      "title": "Novartis and Takeda drugs gain rare blood cancer routine use on NHS",
+      "url": "https://www.pharmaceutical-technology.com/news/novartis-and-takeda-drugs-gain-rare-blood-cancer-routine-use-on-nhs/",
+      "summary": "The therapies’ availability will offer a route to personalised, mutation-specific approaches for types of rare blood cancers.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-17T10:18:51+00:00",
-      "pub_ts": 1784283531
+      "pub_date": "2026-07-20T10:46:47+00:00",
+      "pub_ts": 1784544407
     },
     {
-      "id": "ae137d30b7",
-      "title": "MSD wins FDA approval for cholesterol pill to help plug Keytruda void",
-      "url": "https://www.pharmaceutical-technology.com/news/msd-wins-fda-approval-for-cholesterol-pill-to-help-plug-keytruda-void/",
-      "summary": "MSD has outpaced rivals to market the first PCSK9 inhibitor in pill form for patients with high cholesterol.",
+      "id": "54a78616b3",
+      "title": "Samsung Biologics to acquire PolyPeptide in $1.81bn cash deal",
+      "url": "https://www.pharmaceutical-technology.com/news/samsung-biologics-to-buy-polypeptide/",
+      "summary": "Samsung Biologics is set to acquire PolyPeptide Group through an all-cash public tender offer valued at SFr1.46bn ($1.81bn).",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-17T09:31:24+00:00",
-      "pub_ts": 1784280684
+      "pub_date": "2026-07-20T10:07:14+00:00",
+      "pub_ts": 1784542034
     },
     {
-      "id": "a2d82ffd30",
-      "title": "JCVI issues recommendation on adolescent MenB vaccination in UK",
-      "url": "https://www.pharmaceutical-technology.com/news/jcvi-recommendation-adolescent-menb-vaccination/",
-      "summary": "The UK’s Joint Committee on Vaccination and Immunisation (JCVI) has recommended a routine programme with the 4CMenB vaccine for adolescents.",
+      "id": "6f0049b259",
+      "title": "UK biotech financing continues recovery trajectory on five-year Q2 high",
+      "url": "https://www.pharmaceutical-technology.com/news/uk-biotech-financing-q2-2026-bia-report/",
+      "summary": "UK biotech financing recovery was present in the private markets in Q2 2026 as the sector contends with a tough global funding landscape.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-17T09:10:06+00:00",
-      "pub_ts": 1784279406
+      "pub_date": "2026-07-20T10:06:23+00:00",
+      "pub_ts": 1784541983
     },
     {
-      "id": "0d2f6e5c42",
-      "title": "UK commits to pharma IP protection in Swiss trade deal",
-      "url": "https://www.pharmaceutical-technology.com/news/uk-commits-to-pharma-ip-protection-in-swiss-trade-deal/",
-      "summary": "The pharma industry welcomed the pledge, which marked the first-time drug IP has explicitly been stated in a free trade agreement",
+      "id": "0b795e2d9c",
+      "title": "Aptar unveils framework for injectable drug delivery systems",
+      "url": "https://www.pharmaceutical-technology.com/news/aptar-injectable-drug-delivery-systems/",
+      "summary": "Aptar Pharma has launched a collaborative system-level framework designed to support the development of injectable drug delivery systems.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-16T15:09:46+00:00",
-      "pub_ts": 1784214586
+      "pub_date": "2026-07-20T09:00:23+00:00",
+      "pub_ts": 1784538023
     }
   ],
   "source_success_count": 1,

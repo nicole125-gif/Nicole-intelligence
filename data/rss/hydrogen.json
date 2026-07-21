@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-07-20T03:42:22.498772+00:00",
+  "updated_at": "2026-07-21T03:22:38.712287+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "e1b62e01f9",
-      "title": "Foreign Firms Follow the Money: Why Evonik, Siemens and Hyundai Are All Building Hydrogen Shops in China",
-      "url": "https://fuelcellsworks.com/2026/07/17/h2/foreign-firms-follow-the-money-why-evonik-siemens-and-hyundai-are-all-building-hydrogen-shops-in-china",
+      "id": "09fae4d29d",
+      "title": "EU Hydrogen Investment Stalls as RFNBO Rule Review Slips to Autumn",
+      "url": "https://fuelcellsworks.com/2026/07/20/electrolyzer/eu-hydrogen-investment-stalls-as-rfnbo-rule-review-slips-to-autumn",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-17T15:52:22+00:00",
-      "pub_ts": 1784303542
+      "pub_date": "2026-07-20T16:28:09+00:00",
+      "pub_ts": 1784564889
     },
     {
-      "id": "3f8049a842",
-      "title": "ELYgator: Inside the Electrolyzer Construction Site Shaping the Future of Hydrogen in Europe",
-      "url": "https://fuelcellsworks.com/2026/07/17/clean-energy/elygator-inside-the-electrolyzer-construction-site-shaping-the-future-of-hydrogen-in-europe",
+      "id": "b9d3fded80",
+      "title": "Germany Plans to Cut Offshore and Grid-Supporting Electrolysis Funding From 2027 Climate Budget",
+      "url": "https://fuelcellsworks.com/2026/07/20/electrolyzer/germany-plans-to-cut-offshore-and-grid-supporting-electrolysis-funding-from-2027-climate-budget",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-17T15:48:35+00:00",
-      "pub_ts": 1784303315
+      "pub_date": "2026-07-20T15:59:25+00:00",
+      "pub_ts": 1784563165
     },
     {
-      "id": "b8687c9fdf",
-      "title": "Berlin-Brandenburg Project Turns Wastewater Plants Into Green Hydrogen Production Hubs",
-      "url": "https://fuelcellsworks.com/2026/07/16/h2/berlin-brandenburg-project-turns-wastewater-plants-into-green-hydrogen-production-hubs",
+      "id": "81b53cc80a",
+      "title": "Fuel Cell and Hydrogen News Highlights From China: July 13-July 17, 2, 2026",
+      "url": "https://fuelcellsworks.com/2026/07/18/clean-energy/fuel-cell-and-hydrogen-news-highlights-from-china-july-13-july-17-2-2026",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-17T15:37:23+00:00",
-      "pub_ts": 1784302643
+      "pub_date": "2026-07-20T15:58:01+00:00",
+      "pub_ts": 1784563081
     },
     {
-      "id": "d5d2bbc886",
-      "title": "India Launches First Hydrogen-Powered Passenger Train with Indigenous Refuelling Infrastructure",
-      "url": "https://fuelcellsworks.com/2026/07/17/electrolyzer/india-launches-first-hydrogen-powered-passenger-train-with-indigenous-refuelling-infrastructure",
+      "id": "419e30e349",
+      "title": "GreenH Electrolysis Develops Hydrogen Production and Refuelling Station",
+      "url": "https://fuelcellsworks.com/2026/07/20/electrolyzer/greenh-electrolysis-develops-hydrogen-production-and-refuelling-station",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-17T15:34:32+00:00",
-      "pub_ts": 1784302472
+      "pub_date": "2026-07-20T15:48:06+00:00",
+      "pub_ts": 1784562486
     },
     {
-      "id": "b098793a60",
-      "title": "Bloom Energy Supplier Wins New Orders as AI Data Centre Fuel Cell Demand Accelerates",
-      "url": "https://fuelcellsworks.com/2026/07/17/fuel-cells/bloom-energy-supplier-wins-new-orders-as-ai-data-centre-fuel-cell-demand-accelerates",
+      "id": "0ff8922358",
+      "title": "China's Hydrogen Industry Has Passed the 'Valley of Death,' Says Leading Scientist",
+      "url": "https://fuelcellsworks.com/2026/07/19/h2/sure-here-is-the-translation-of-your-provided-japanese-text-into-english-japanese-2030-english-hydrogen-energy-industry-could-experience-explosive-growth-after-2030-china",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-17T15:23:30+00:00",
-      "pub_ts": 1784301810
+      "pub_date": "2026-07-20T15:38:41+00:00",
+      "pub_ts": 1784561921
     }
   ],
   "source_success_count": 1,

@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-07-20T03:42:11.131064+00:00",
+  "updated_at": "2026-07-21T03:22:27.386051+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "852a86d6d7",
-      "title": "冷门的哲学，成了“治”AI的热门",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247905034&idx=1&sn=81abecfe593697736839856bb2170dd6",
-      "summary": "冷门的哲学，成了“治”AI的热门",
+      "id": "463fc8c954",
+      "title": "AI医疗卷了10年终于悟了：不用替代医生，而是给医院装上超强buff",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247905288&idx=1&sn=cab10872925a0a1fdb56ba2945a6483a",
+      "summary": "AI医疗卷了10年终于悟了：不用替代医生，而是给医院装上超强buff",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-20T03:42:06.722827+00:00",
-      "pub_ts": 1784518926
+      "pub_date": "2026-07-21T03:22:23.053962+00:00",
+      "pub_ts": 1784604143
     },
     {
-      "id": "090883ad6f",
-      "title": "大模型内存焦虑，办法被想到了U盘上",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247905034&idx=2&sn=367838eec43d07672184c8d5256af6d9",
-      "summary": "大模型内存焦虑，办法被想到了U盘上",
+      "id": "2a9bda15ec",
+      "title": "上海这场大赛有点“野”：让AI自主科研、控核聚变、认甲骨文",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247905288&idx=2&sn=902de22d4c38b8f47a3af22bdbc11b1e",
+      "summary": "上海这场大赛有点“野”：让AI自主科研、控核聚变、认甲骨文",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-20T03:42:06.722868+00:00",
-      "pub_ts": 1784518926
+      "pub_date": "2026-07-21T03:22:23.054006+00:00",
+      "pub_ts": 1784604143
     },
     {
-      "id": "140b8a6b43",
-      "title": "逛了趟WAIC，我只想说，AI在物理世界都快卷疯了.",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247905033&idx=1&sn=af18ebf68e6cefe08e91cb154ed5b407",
-      "summary": "逛了趟WAIC，我只想说，AI在物理世界都快卷疯了.",
+      "id": "ae135962e3",
+      "title": "给AI喂“噪声”也能涨分，这项工作让噪声实现正迁移|ICML26",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247905288&idx=3&sn=084673e5be55f24269aa3069834c04d7",
+      "summary": "给AI喂“噪声”也能涨分，这项工作让噪声实现正迁移|ICML26",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-20T03:42:06.722883+00:00",
-      "pub_ts": 1784518926
+      "pub_date": "2026-07-21T03:22:23.054025+00:00",
+      "pub_ts": 1784604143
     },
     {
-      "id": "6406312969",
-      "title": "不靠英伟达网卡，国产GPU直通方案实测出炉：吞吐飙升、延迟砍半",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247905033&idx=2&sn=312c0dbbd95084249385de469ea40bb3",
-      "summary": "不靠英伟达网卡，国产GPU直通方案实测出炉：吞吐飙升、延迟砍半",
+      "id": "27ab687daa",
+      "title": "不同模型厂同一家AgenticInfra，AGI时代的地基终于浮出水面",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247905255&idx=1&sn=cd7dfac95f48294cfe827d8b2ea8ac3a",
+      "summary": "不同模型厂同一家AgenticInfra，AGI时代的地基终于浮出水面",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-20T03:42:06.722898+00:00",
-      "pub_ts": 1784518926
+      "pub_date": "2026-07-21T03:22:23.054041+00:00",
+      "pub_ts": 1784604143
     },
     {
-      "id": "6e947d5b45",
-      "title": "围观WAIC模型「读心术」！现场火火火火火",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247905033&idx=3&sn=e2e446281f7870e1c90827b738b13d51",
-      "summary": "围观WAIC模型「读心术」！现场火火火火火",
+      "id": "e1c32366ad",
+      "title": "中国队2026IMO全员金牌再封神！邓乐言解锁双满分成就",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247905255&idx=2&sn=d8ff626b91f8822da0a42f2c69f04aec",
+      "summary": "中国队2026IMO全员金牌再封神！邓乐言解锁双满分成就",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-20T03:42:06.722911+00:00",
-      "pub_ts": 1784518926
+      "pub_date": "2026-07-21T03:22:23.054058+00:00",
+      "pub_ts": 1784604143
     }
   ],
   "source_success_count": 1,
