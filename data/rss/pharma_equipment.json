@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-07-21T03:22:51.438889+00:00",
+  "updated_at": "2026-07-22T03:21:49.601462+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "02c532338a",
-      "title": "What Ojemda’s JCA reveals about new era of clinical HTA in Europe",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/what-ojemda-jca-reveals-about-new-era-of-clinical-hta-in-europe/",
-      "summary": "An analysis of GlobalData’s Drug Pricing (POLI) & HTA database shows no HTA outcome for Ojemda in the wake of the JCA review.",
+      "id": "9e73744fb8",
+      "title": "Novo sues Lilly after alleged misleading and false advertising campaign",
+      "url": "https://www.pharmaceutical-technology.com/news/novo-sues-lilly-after-alleged-misleading-and-false-advertising-campaign/",
+      "summary": "In a lawsuit filed in the US, Novo alleged that Lilly’s campaign was designed to mislead consumers on “comparative efficacy” of drug brands.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-20T15:38:03+00:00",
-      "pub_ts": 1784561883
+      "pub_date": "2026-07-21T15:22:34+00:00",
+      "pub_ts": 1784647354
     },
     {
-      "id": "25c115a3ca",
-      "title": "Novartis and Takeda drugs gain rare blood cancer routine use on NHS",
-      "url": "https://www.pharmaceutical-technology.com/news/novartis-and-takeda-drugs-gain-rare-blood-cancer-routine-use-on-nhs/",
-      "summary": "The therapies’ availability will offer a route to personalised, mutation-specific approaches for types of rare blood cancers.",
+      "id": "7345c4d72d",
+      "title": "Why Japan is a global destination for regenerative medicine",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/why-japan-is-a-global-destination-for-regenerative-medicine/",
+      "summary": "Japan is becoming a regenerative medicine hub, with ageing patients, clear regulations, universal insurance data, and globally aligned trial reforms.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-20T10:46:47+00:00",
-      "pub_ts": 1784544407
+      "pub_date": "2026-07-21T12:04:11+00:00",
+      "pub_ts": 1784635451
     },
     {
-      "id": "54a78616b3",
-      "title": "Samsung Biologics to acquire PolyPeptide in $1.81bn cash deal",
-      "url": "https://www.pharmaceutical-technology.com/news/samsung-biologics-to-buy-polypeptide/",
-      "summary": "Samsung Biologics is set to acquire PolyPeptide Group through an all-cash public tender offer valued at SFr1.46bn ($1.81bn).",
+      "id": "6ebb0639f6",
+      "title": "Five considerations for adopting AI in clinical study build workflows",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/five-considerations-for-adopting-ai-in-clinical-study-build-workflows/",
+      "summary": "AI can accelerate study-build foundations, but only when teams combine targeted automation with standards, traceability and control.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-20T10:07:14+00:00",
-      "pub_ts": 1784542034
+      "pub_date": "2026-07-21T10:49:37+00:00",
+      "pub_ts": 1784630977
     },
     {
-      "id": "6f0049b259",
-      "title": "UK biotech financing continues recovery trajectory on five-year Q2 high",
-      "url": "https://www.pharmaceutical-technology.com/news/uk-biotech-financing-q2-2026-bia-report/",
-      "summary": "UK biotech financing recovery was present in the private markets in Q2 2026 as the sector contends with a tough global funding landscape.",
+      "id": "914e356b66",
+      "title": "AAIC26: Alzheimer’s disease heterogeneity calls for a rethink",
+      "url": "https://www.pharmaceutical-technology.com/features/aaic-26-alzheimers-disease-heterogeneity-calls-for-a-rethink/",
+      "summary": "While the Alzheimer’s disease care landscape is shifting, gaps to widespread therapeutic availability and imaging remain, said experts at AAIC 2026.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-20T10:06:23+00:00",
-      "pub_ts": 1784541983
+      "pub_date": "2026-07-21T10:44:56+00:00",
+      "pub_ts": 1784630696
     },
     {
-      "id": "0b795e2d9c",
-      "title": "Aptar unveils framework for injectable drug delivery systems",
-      "url": "https://www.pharmaceutical-technology.com/news/aptar-injectable-drug-delivery-systems/",
-      "summary": "Aptar Pharma has launched a collaborative system-level framework designed to support the development of injectable drug delivery systems.",
+      "id": "42c0e74262",
+      "title": "Novartis Q2 profits recover as revenue mantle passes to newer medicines",
+      "url": "https://www.pharmaceutical-technology.com/news/novartis-q2-profits-recover-as-revenue-mantle-passes-to-newer-medicines/",
+      "summary": "Novartis continues to navigate a decisive period as newer portfolio assets start to offset patent pressures.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-20T09:00:23+00:00",
-      "pub_ts": 1784538023
+      "pub_date": "2026-07-21T10:31:51+00:00",
+      "pub_ts": 1784629911
     }
   ],
   "source_success_count": 1,

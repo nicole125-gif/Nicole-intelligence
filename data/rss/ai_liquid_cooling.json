@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-07-21T03:22:27.386051+00:00",
+  "updated_at": "2026-07-22T03:20:54.254763+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "463fc8c954",
-      "title": "AI医疗卷了10年终于悟了：不用替代医生，而是给医院装上超强buff",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247905288&idx=1&sn=cab10872925a0a1fdb56ba2945a6483a",
-      "summary": "AI医疗卷了10年终于悟了：不用替代医生，而是给医院装上超强buff",
+      "id": "8042160a15",
+      "title": "从斑马鱼到空天飞行器，一个AI平台正在重写科学发现的规则",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247905679&idx=1&sn=014d7eb73d61e423b606239abc3eeee8",
+      "summary": "从斑马鱼到空天飞行器，一个AI平台正在重写科学发现的规则",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-21T03:22:23.053962+00:00",
-      "pub_ts": 1784604143
+      "pub_date": "2026-07-22T03:20:50.064032+00:00",
+      "pub_ts": 1784690450
     },
     {
-      "id": "2a9bda15ec",
-      "title": "上海这场大赛有点“野”：让AI自主科研、控核聚变、认甲骨文",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247905288&idx=2&sn=902de22d4c38b8f47a3af22bdbc11b1e",
-      "summary": "上海这场大赛有点“野”：让AI自主科研、控核聚变、认甲骨文",
+      "id": "d39da4f59d",
+      "title": "世界模型“六小龙”在WAIC吵起来了！行业红利就在非共识里",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247905679&idx=2&sn=f723389f32a7bfe3047dc517cccabc93",
+      "summary": "世界模型“六小龙”在WAIC吵起来了！行业红利就在非共识里",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-21T03:22:23.054006+00:00",
-      "pub_ts": 1784604143
+      "pub_date": "2026-07-22T03:20:50.064084+00:00",
+      "pub_ts": 1784690450
     },
     {
-      "id": "ae135962e3",
-      "title": "给AI喂“噪声”也能涨分，这项工作让噪声实现正迁移|ICML26",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247905288&idx=3&sn=084673e5be55f24269aa3069834c04d7",
-      "summary": "给AI喂“噪声”也能涨分，这项工作让噪声实现正迁移|ICML26",
+      "id": "f6e06021d0",
+      "title": "小红书大模型IMO满分夺金，第三题解法让冠军选手直呼优雅",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247905678&idx=1&sn=06659ab379aab55e0a19ead85d27f762",
+      "summary": "小红书大模型IMO满分夺金，第三题解法让冠军选手直呼优雅",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-21T03:22:23.054025+00:00",
-      "pub_ts": 1784604143
+      "pub_date": "2026-07-22T03:20:50.064108+00:00",
+      "pub_ts": 1784690450
     },
     {
-      "id": "27ab687daa",
-      "title": "不同模型厂同一家AgenticInfra，AGI时代的地基终于浮出水面",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247905255&idx=1&sn=cd7dfac95f48294cfe827d8b2ea8ac3a",
-      "summary": "不同模型厂同一家AgenticInfra，AGI时代的地基终于浮出水面",
+      "id": "740731dce8",
+      "title": "啊？APP应用商店都开始Agent化了？！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247905678&idx=2&sn=3becfc3e3580bd4b42d95db6a84b9481",
+      "summary": "啊？APP应用商店都开始Agent化了？！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-21T03:22:23.054041+00:00",
-      "pub_ts": 1784604143
+      "pub_date": "2026-07-22T03:20:50.064129+00:00",
+      "pub_ts": 1784690450
     },
     {
-      "id": "e1c32366ad",
-      "title": "中国队2026IMO全员金牌再封神！邓乐言解锁双满分成就",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247905255&idx=2&sn=d8ff626b91f8822da0a42f2c69f04aec",
-      "summary": "中国队2026IMO全员金牌再封神！邓乐言解锁双满分成就",
+      "id": "465a964726",
+      "title": "芯片卖了56万片之后，阿里平头哥把最值钱的东西开源了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247905505&idx=1&sn=fc5ae49472e06a3cb0964cc571a1dfef",
+      "summary": "芯片卖了56万片之后，阿里平头哥把最值钱的东西开源了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-21T03:22:23.054058+00:00",
-      "pub_ts": 1784604143
+      "pub_date": "2026-07-22T03:20:50.064151+00:00",
+      "pub_ts": 1784690450
     }
   ],
   "source_success_count": 1,

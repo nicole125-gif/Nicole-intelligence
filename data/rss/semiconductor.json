@@ -3,98 +3,148 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-07-21T03:22:13.469468+00:00",
-  "item_count": 14,
+  "updated_at": "2026-07-22T03:20:40.730818+00:00",
+  "item_count": 15,
   "items": [
     {
-      "id": "68add42845",
-      "title": "“国芯训国模”跑通，5D世界模型登顶：摩尔线程三大AI工厂全面铺开",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814973&idx=1&sn=792411bb820528673fb44f328a9e8599",
-      "summary": "“国芯训国模”跑通，5D世界模型登顶：摩尔线程三大AI工厂全面铺开",
+      "id": "27c5459bab",
+      "title": "AI落地，还差一口气",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815015&idx=1&sn=ee3d364b2f658e5c600dcb2cd80a2ded",
+      "summary": "AI落地，还差一口气",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-21T03:22:09.190816+00:00",
-      "pub_ts": 1784604129
+      "pub_date": "2026-07-22T03:20:36.735235+00:00",
+      "pub_ts": 1784690436
     },
     {
-      "id": "a081a91c35",
-      "title": "我国集成电路上半年出口额同比增长88.7%",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814973&idx=3&sn=da7687ed98d54628625aac452aa3193b",
-      "summary": "我国集成电路上半年出口额同比增长88.7%",
+      "id": "e16f94277e",
+      "title": "AMDHelios机架级AI系统正式亮相",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815015&idx=2&sn=261a4697a7ceb99df6d3b9d69892ad29",
+      "summary": "AMDHelios机架级AI系统正式亮相",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-21T03:22:09.190864+00:00",
-      "pub_ts": 1784604129
+      "pub_date": "2026-07-22T03:20:36.735282+00:00",
+      "pub_ts": 1784690436
     },
     {
-      "id": "5ee91053ce",
-      "title": "存储芯片贵到离谱，SK海力士拟赴美建厂控价",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814973&idx=4&sn=e1096398695492ddce09d9fc0a3a5341",
-      "summary": "存储芯片贵到离谱，SK海力士拟赴美建厂控价",
+      "id": "817a774c5a",
+      "title": "暂缓自研CXL控制器，存储巨头们要改路线了？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815015&idx=3&sn=84e69f16c7cf321aed94d38cbe57686e",
+      "summary": "暂缓自研CXL控制器，存储巨头们要改路线了？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-21T03:22:09.190888+00:00",
-      "pub_ts": 1784604129
+      "pub_date": "2026-07-22T03:20:36.735309+00:00",
+      "pub_ts": 1784690436
     },
     {
-      "id": "d34d7582c1",
-      "title": "联电，切入玻璃基板封装",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247814973&idx=5&sn=b7f4e7bf33683ebf1fbfb71c556824d7",
-      "summary": "联电，切入玻璃基板封装",
+      "id": "3f6a8a2431",
+      "title": "业绩爆发，东芯股份Q2营收同比预增超330%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815015&idx=4&sn=f3e5a23fe23b87d04bd165acaee73a7d",
+      "summary": "业绩爆发，东芯股份Q2营收同比预增超330%",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-21T03:22:09.190925+00:00",
-      "pub_ts": 1784604129
+      "pub_date": "2026-07-22T03:20:36.735332+00:00",
+      "pub_ts": 1784690436
     },
     {
-      "id": "5b85f89c4c",
-      "title": "中国芯片出口，同比大增88.7%",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826803&idx=1&sn=caf27e6a24dd464af2ab1a9ab6873dcd",
-      "summary": "中国芯片出口，同比大增88.7%",
-      "source": "半导体行业观察",
+      "id": "be1d673ce7",
+      "title": "不用重流片！eFPGA搞定芯片后量子安全",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815015&idx=5&sn=98b62abfd5301dce58c987dd3fd7fea6",
+      "summary": "不用重流片！eFPGA搞定芯片后量子安全",
+      "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-21T03:21:56.088030+00:00",
-      "pub_ts": 1784604116
+      "pub_date": "2026-07-22T03:20:36.735353+00:00",
+      "pub_ts": 1784690436
     },
     {
-      "id": "0438619c62",
-      "title": "诚邀参会|Tower Semiconductor 2026年全球技术研讨会官宣启动",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826773&idx=1&sn=199d2c9995a7808560825a705bd77a94",
-      "summary": "诚邀参会|Tower Semiconductor 2026年全球技术研讨会官宣启动",
+      "id": "bfdc8d2c30",
+      "title": "亮相WAIC 2026，每刻深思以空间光计算开辟算力新路径",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826843&idx=1&sn=ef2fb8f05185ff3301dc790d99c45cff",
+      "summary": "亮相WAIC 2026，每刻深思以空间光计算开辟算力新路径",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-21T03:21:56.088085+00:00",
-      "pub_ts": 1784604116
+      "pub_date": "2026-07-22T03:20:23.525721+00:00",
+      "pub_ts": 1784690423
     },
     {
-      "id": "eeaffa14ac",
-      "title": "日本的半导体实力，藏在一张合照里",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826706&idx=1&sn=1bcad3103d4287277fb74aceaa3bf349",
-      "summary": "日本的半导体实力，藏在一张合照里",
+      "id": "1c800be1c1",
+      "title": "7750亿美元，最后都变成了谁的订单？",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826835&idx=1&sn=3d883848edc039a23c6b8ac1fcf2040b",
+      "summary": "7750亿美元，最后都变成了谁的订单？",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-21T03:21:56.088105+00:00",
-      "pub_ts": 1784604116
+      "pub_date": "2026-07-22T03:20:23.525779+00:00",
+      "pub_ts": 1784690423
     },
     {
-      "id": "e65718e2b6",
-      "title": "芯片，见顶了吗？",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826706&idx=2&sn=535d70157851443744f07737a5558b7e",
-      "summary": "芯片，见顶了吗？",
+      "id": "445462bf66",
+      "title": "纳芯微推出车载PMIC，助力车载摄像头模组变革",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826824&idx=1&sn=2e5bfd210bbab093a92e7acd61dde845",
+      "summary": "纳芯微推出车载PMIC，助力车载摄像头模组变革",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-21T03:21:56.088122+00:00",
-      "pub_ts": 1784604116
+      "pub_date": "2026-07-22T03:20:23.525804+00:00",
+      "pub_ts": 1784690423
     },
     {
-      "id": "8382619ae4",
-      "title": "先进封装，空前重要",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826706&idx=3&sn=cd36b524f4324266a3e4c4facbe87cfa",
-      "summary": "先进封装，空前重要",
+      "id": "0c5efcfd4e",
+      "title": "谷歌AI芯片，巨变！",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826824&idx=2&sn=78b64c5f5b72f819e8c5477672b040fe",
+      "summary": "谷歌AI芯片，巨变！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-21T03:21:56.088140+00:00",
-      "pub_ts": 1784604116
+      "pub_date": "2026-07-22T03:20:23.525827+00:00",
+      "pub_ts": 1784690423
+    },
+    {
+      "id": "567f1cb348",
+      "title": "微软扫货AMDCPU和GPU",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247826824&idx=3&sn=b99a7e706841da2f521d8e7a57ab3771",
+      "summary": "微软扫货AMDCPU和GPU",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-07-22T03:20:23.525849+00:00",
+      "pub_ts": 1784690423
+    },
+    {
+      "id": "d07d014dae",
+      "title": "HW-based Methods to Dynamically Throttle AI Performance (Princeton University)",
+      "url": "https://semiengineering.com/hw-based-methods-to-dynamically-throttle-ai-performance-princeton-university/",
+      "summary": "Researchers from Princeton University published a technical paper titled “Hardware Mechanisms to Dynamically Throttle AI Performance.” Abstract Excerpt: “In this paper, we introduce a set of microarchitecture knobs which dynamically control the available hardware resources to limit AI performance at…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-07-21T18:41:34+00:00",
+      "pub_ts": 1784659294
+    },
+    {
+      "id": "179c62bbc8",
+      "title": "Monolithic 3D-DRAM with Oxide-Semiconductor Architecture (imec, KU Leuven, Samsung, Lam)",
+      "url": "https://semiengineering.com/monolithic-3d-dram-with-oxide-semiconductor-architecture-imec-ku-leuven-samsung-lam/",
+      "summary": "Researchers from imec, KU Leuven, Samsung Electronics, and Lam Research published a technical paper titled “Optimization of 3D-DRAM Architecture with Oxide-Semiconductor Channel through Process and Device Simulation.” Abstract Excerpt: “We investigate a monolithically stackable OSC-based 3D-DRAM cel…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-07-21T18:31:31+00:00",
+      "pub_ts": 1784658691
+    },
+    {
+      "id": "ad8343a625",
+      "title": "Chip Industry Technical Paper Roundup: July 21",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-july-21/",
+      "summary": "Near-memory HBM for LLM inference; processing-in-memory for 3D DRAM; SDV hardware abstraction; 3nm GAAFET SRAM self-heating and rad-hard; monolithic CMOS-photonic integration; quantum photonic chips; AI-driven thermal modeling for 3D photonic circuits.\nThe post Chip Industry Technical Paper Roundup:…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-07-21T07:01:42+00:00",
+      "pub_ts": 1784617302
+    },
+    {
+      "id": "20416b058d",
+      "title": "Research Bits: July 21",
+      "url": "https://semiengineering.com/research-bits-july-21/",
+      "summary": "Thin TMD transistors; diamond defect detection; roll-to-roll litho.\nThe post Research Bits: July 21 appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-07-21T07:01:14+00:00",
+      "pub_ts": 1784617274
     },
     {
       "id": "8f20456081",
@@ -105,46 +155,6 @@
       "lang": "en",
       "pub_date": "2026-07-20T18:30:40+00:00",
       "pub_ts": 1784572240
-    },
-    {
-      "id": "897d9b38d0",
-      "title": "3D Mask Effects Enhance Imaging in High-NA EUV and Hyper-NA EUV Litho (Fraunhofer, ASML)",
-      "url": "https://semiengineering.com/3d-mask-effects-enhance-imaging-in-high-na-euv-and-hyper-na-euv-litho-fraunhofer-asml/",
-      "summary": "Researchers at the Fraunhofer Institute for Integrated Systems and Device Technology IISB and ASML published a technical paper titled “Benefits of three-dimensional mask (M3D) effects in high-NA and hyper-NA EUV lithography.” Excerpt: “This study aims to offer an alternative perspective on M3D effec…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-07-20T18:14:00+00:00",
-      "pub_ts": 1784571240
-    },
-    {
-      "id": "da9dd99a1f",
-      "title": "Inference Accelerator that Integrates Compute-in-Interconnect and Memory to Mitigate the Memory Wall (NUS)",
-      "url": "https://semiengineering.com/inference-accelerator-that-integrates-compute-in-interconnect-and-memory-to-mitigate-the-memory-wall-nus/",
-      "summary": "Researchers at the National University of Singapore published a technical paper titled “CIMERA: Compute-in-Interconnect and Memory with Reconfigurable Precision for LLM Inference.” Abstract Excerpt: “This paper presents CIMERA, a reconfigurable-precision LLM inference accelerator that integrates com…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-07-20T17:57:49+00:00",
-      "pub_ts": 1784570269
-    },
-    {
-      "id": "6118c79e02",
-      "title": "NbAs Nanowires Show Lower Resistivity as Interconnect Dimensions Shrink (Cornell, NYCU, IBM et al.)",
-      "url": "https://semiengineering.com/nbas-nanowires-show-lower-resistivity-as-interconnect-dimensions-shrink-cornell-nycu-ibm-et-al/",
-      "summary": "Researchers at Cornell University, National Yang Ming Chiao Tung University, IBM Research, Johns Hopkins University, et al. published a technical paper titled “Surface-dominant transport in Weyl semimetal NbAs nanowires for next-generation interconnects.” Abstract Excerpt: “ We report the synthesis …",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-07-20T17:42:34+00:00",
-      "pub_ts": 1784569354
-    },
-    {
-      "id": "0e1019ffaf",
-      "title": "Litho Patterning of Conformal Thin-Film Coatings on Complex 3D Structures (KTH Royal)",
-      "url": "https://semiengineering.com/3d-scaffold-masks-pattern-conformal-thin-films-down-to-27-nm/",
-      "summary": "Researchers at KTH Royal Institute of Technology published a technical paper titled “Lithographic patterning of conformal thin films on 3D structures using Scaffold-architected Lift-off masks.” Abstract Excerpt: “Here we present a robust approach for patterning of conformal thin-film coatings on com…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-07-20T17:17:53+00:00",
-      "pub_ts": 1784567873
     }
   ],
   "source_success_count": 3,

@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-07-21T03:22:38.712287+00:00",
+  "updated_at": "2026-07-22T03:21:37.262292+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "09fae4d29d",
-      "title": "EU Hydrogen Investment Stalls as RFNBO Rule Review Slips to Autumn",
-      "url": "https://fuelcellsworks.com/2026/07/20/electrolyzer/eu-hydrogen-investment-stalls-as-rfnbo-rule-review-slips-to-autumn",
+      "id": "4bee21351a",
+      "title": "Sánchez's Visit to Algeria: Gas, Green Hydrogen and Friendship Treaty at the Heart of the Discussions",
+      "url": "https://fuelcellsworks.com/2026/07/21/energy-innovation/sanchez-s-visit-to-algeria-gas-green-hydrogen-and-friendship-treaty-at-the-heart-of-the-discussions",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-20T16:28:09+00:00",
-      "pub_ts": 1784564889
+      "pub_date": "2026-07-21T16:43:46+00:00",
+      "pub_ts": 1784652226
     },
     {
-      "id": "b9d3fded80",
-      "title": "Germany Plans to Cut Offshore and Grid-Supporting Electrolysis Funding From 2027 Climate Budget",
-      "url": "https://fuelcellsworks.com/2026/07/20/electrolyzer/germany-plans-to-cut-offshore-and-grid-supporting-electrolysis-funding-from-2027-climate-budget",
+      "id": "5677fd2bec",
+      "title": "Clean Hydrogen Partnership Selects 13 Hydrogen Valleys for Project Development Assistance",
+      "url": "https://fuelcellsworks.com/2026/07/21/green-investment/clean-hydrogen-partnership-selects-13-hydrogen-valleys-for-project-development-assistance",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-20T15:59:25+00:00",
-      "pub_ts": 1784563165
+      "pub_date": "2026-07-21T15:40:17+00:00",
+      "pub_ts": 1784648417
     },
     {
-      "id": "81b53cc80a",
-      "title": "Fuel Cell and Hydrogen News Highlights From China: July 13-July 17, 2, 2026",
-      "url": "https://fuelcellsworks.com/2026/07/18/clean-energy/fuel-cell-and-hydrogen-news-highlights-from-china-july-13-july-17-2-2026",
+      "id": "86baeb2abd",
+      "title": "Clean, Quiet, Efficient: Research Team at DHBW Mannheim Develops the Hydrogen Compressor of the Future",
+      "url": "https://fuelcellsworks.com/2026/07/21/h2/clean-quiet-efficient-research-team-at-dhbw-mannheim-develops-the-hydrogen-compressor-of-the-future",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-20T15:58:01+00:00",
-      "pub_ts": 1784563081
+      "pub_date": "2026-07-21T15:07:57+00:00",
+      "pub_ts": 1784646477
     },
     {
-      "id": "419e30e349",
-      "title": "GreenH Electrolysis Develops Hydrogen Production and Refuelling Station",
-      "url": "https://fuelcellsworks.com/2026/07/20/electrolyzer/greenh-electrolysis-develops-hydrogen-production-and-refuelling-station",
+      "id": "5d88cb52b3",
+      "title": "Repsol Hydrogen Projects Move Into Spain’s €183 Million Funding Pipeline After Iberdrola Withdrawals",
+      "url": "https://fuelcellsworks.com/2026/07/21/h2/repsol-hydrogen-projects-move-into-spain-s-183-million-funding-pipeline-after-iberdrola-withdrawals",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-20T15:48:06+00:00",
-      "pub_ts": 1784562486
+      "pub_date": "2026-07-21T14:44:08+00:00",
+      "pub_ts": 1784645048
     },
     {
-      "id": "0ff8922358",
-      "title": "China's Hydrogen Industry Has Passed the 'Valley of Death,' Says Leading Scientist",
-      "url": "https://fuelcellsworks.com/2026/07/19/h2/sure-here-is-the-translation-of-your-provided-japanese-text-into-english-japanese-2030-english-hydrogen-energy-industry-could-experience-explosive-growth-after-2030-china",
+      "id": "25b9c6c8ed",
+      "title": "Can Hydrogen Crack the Heavy-Truck Market? Dongfeng Liuzhou Files Its New Chenglong Fuel Cell Tractor",
+      "url": "https://fuelcellsworks.com/2026/07/13/fuel-cells/can-hydrogen-crack-the-heavy-truck-market-dongfeng-liuzhou-files-its-new-chenglong-fuel-cell-tractor",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-20T15:38:41+00:00",
-      "pub_ts": 1784561921
+      "pub_date": "2026-07-21T14:32:22+00:00",
+      "pub_ts": 1784644342
     }
   ],
   "source_success_count": 1,
