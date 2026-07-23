@@ -3,9 +3,49 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-07-22T03:21:49.601462+00:00",
+  "updated_at": "2026-07-23T03:28:03.617671+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "45b894172f",
+      "title": "Samsung Biologics: geographic diversification is a sound business decision",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/samsung-biologics-geographic-diversification/",
+      "summary": "Samsung Biologics has been on a steep upward growth trajectory since receiving its first licence to produce biologic drug substances in 2015.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-22T14:12:20+00:00",
+      "pub_ts": 1784729540
+    },
+    {
+      "id": "820b202cde",
+      "title": "US generic tariff reprieve on the rocks as Trump proposes 100% rate in 2028",
+      "url": "https://www.pharmaceutical-technology.com/news/donald-trump-us-generic-drug-tariffs/",
+      "summary": "If introduced, the 100% tariffs would apply to all generic drugs imported to the US, which make up 90% of the nation’s prescriptions.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-22T10:41:55+00:00",
+      "pub_ts": 1784716915
+    },
+    {
+      "id": "c7488896f8",
+      "title": "Kyowa Kirin EMEA’s Crysvita approved by EC for infants with XLH",
+      "url": "https://www.pharmaceutical-technology.com/news/kyowa-kirin-crysvita-ec-infants/",
+      "summary": "Kyowa Kirin EMEA, a subsidiary of Kyowa Kirin, has received approval from the EC to expand the use of Crysvita for treating XLH in infants aged one month to one year across the EU and European Economic Area.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-22T09:41:25+00:00",
+      "pub_ts": 1784713285
+    },
+    {
+      "id": "04fee34b05",
+      "title": "Cellares and Papillon partner for PPL-001 manufacturing automation",
+      "url": "https://www.pharmaceutical-technology.com/news/cellares-papillon-ppl-001-manufacturing-automation/",
+      "summary": "Cellares and Papillon Therapeutics have entered into a partnership to automate the manufacturing of PPL-001, an investigational therapy developed by the latter for FA, a rare inherited neurodegenerative disorder.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-22T08:49:57+00:00",
+      "pub_ts": 1784710197
+    },
     {
       "id": "9e73744fb8",
       "title": "Novo sues Lilly after alleged misleading and false advertising campaign",
@@ -15,46 +55,6 @@
       "lang": "en",
       "pub_date": "2026-07-21T15:22:34+00:00",
       "pub_ts": 1784647354
-    },
-    {
-      "id": "7345c4d72d",
-      "title": "Why Japan is a global destination for regenerative medicine",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/why-japan-is-a-global-destination-for-regenerative-medicine/",
-      "summary": "Japan is becoming a regenerative medicine hub, with ageing patients, clear regulations, universal insurance data, and globally aligned trial reforms.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-21T12:04:11+00:00",
-      "pub_ts": 1784635451
-    },
-    {
-      "id": "6ebb0639f6",
-      "title": "Five considerations for adopting AI in clinical study build workflows",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/five-considerations-for-adopting-ai-in-clinical-study-build-workflows/",
-      "summary": "AI can accelerate study-build foundations, but only when teams combine targeted automation with standards, traceability and control.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-21T10:49:37+00:00",
-      "pub_ts": 1784630977
-    },
-    {
-      "id": "914e356b66",
-      "title": "AAIC26: Alzheimer’s disease heterogeneity calls for a rethink",
-      "url": "https://www.pharmaceutical-technology.com/features/aaic-26-alzheimers-disease-heterogeneity-calls-for-a-rethink/",
-      "summary": "While the Alzheimer’s disease care landscape is shifting, gaps to widespread therapeutic availability and imaging remain, said experts at AAIC 2026.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-21T10:44:56+00:00",
-      "pub_ts": 1784630696
-    },
-    {
-      "id": "42c0e74262",
-      "title": "Novartis Q2 profits recover as revenue mantle passes to newer medicines",
-      "url": "https://www.pharmaceutical-technology.com/news/novartis-q2-profits-recover-as-revenue-mantle-passes-to-newer-medicines/",
-      "summary": "Novartis continues to navigate a decisive period as newer portfolio assets start to offset patent pressures.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-21T10:31:51+00:00",
-      "pub_ts": 1784629911
     }
   ],
   "source_success_count": 1,
