@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-07-23T03:28:03.617671+00:00",
+  "updated_at": "2026-07-24T03:22:11.727411+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "45b894172f",
-      "title": "Samsung Biologics: geographic diversification is a sound business decision",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/samsung-biologics-geographic-diversification/",
-      "summary": "Samsung Biologics has been on a steep upward growth trajectory since receiving its first licence to produce biologic drug substances in 2015.",
+      "id": "36d6cf5694",
+      "title": "GSK secures first lung cancer approval, validating $10.6bn Nuvalent bet",
+      "url": "https://www.pharmaceutical-technology.com/news/gsk-jideytro-zidesamtinib-approval-ros1-positive-nsclc/",
+      "summary": "GSK's newly approved ROS1-positive NSCLC drug, Jideytro will now enter a lung cancer niche dominated by Pfizer’s Lorbrena.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-22T14:12:20+00:00",
-      "pub_ts": 1784729540
+      "pub_date": "2026-07-23T15:15:33+00:00",
+      "pub_ts": 1784819733
     },
     {
-      "id": "820b202cde",
-      "title": "US generic tariff reprieve on the rocks as Trump proposes 100% rate in 2028",
-      "url": "https://www.pharmaceutical-technology.com/news/donald-trump-us-generic-drug-tariffs/",
-      "summary": "If introduced, the 100% tariffs would apply to all generic drugs imported to the US, which make up 90% of the nation’s prescriptions.",
+      "id": "c024ef3986",
+      "title": "Affinia Therapeutics receives FDA orphan drug designation for AFTX-201",
+      "url": "https://www.pharmaceutical-technology.com/news/affinia-fda-orphan-drug-designation-aftx-201/",
+      "summary": "Affinia Therapeutics has received FDA orphan drug designation for AFTX-201, a treatment in development for BAG3-associated DCM.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-22T10:41:55+00:00",
-      "pub_ts": 1784716915
+      "pub_date": "2026-07-23T09:39:51+00:00",
+      "pub_ts": 1784799591
     },
     {
-      "id": "c7488896f8",
-      "title": "Kyowa Kirin EMEA’s Crysvita approved by EC for infants with XLH",
-      "url": "https://www.pharmaceutical-technology.com/news/kyowa-kirin-crysvita-ec-infants/",
-      "summary": "Kyowa Kirin EMEA, a subsidiary of Kyowa Kirin, has received approval from the EC to expand the use of Crysvita for treating XLH in infants aged one month to one year across the EU and European Economic Area.",
+      "id": "6bcd96beb7",
+      "title": "Evogene and ELEO to develop new oral PCSK9 inhibitors",
+      "url": "https://www.pharmaceutical-technology.com/news/evogene-eleo-to-develop-pcsk9-inhibitors/",
+      "summary": "Evogene and ELEO have entered into a scientific collaboration aimed at discovering and developing new oral small-molecule inhibitors targeting the PCSK9 pathway for hyperlipidemia and cardiovascular diseases.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-22T09:41:25+00:00",
-      "pub_ts": 1784713285
+      "pub_date": "2026-07-23T09:06:23+00:00",
+      "pub_ts": 1784797583
     },
     {
-      "id": "04fee34b05",
-      "title": "Cellares and Papillon partner for PPL-001 manufacturing automation",
-      "url": "https://www.pharmaceutical-technology.com/news/cellares-papillon-ppl-001-manufacturing-automation/",
-      "summary": "Cellares and Papillon Therapeutics have entered into a partnership to automate the manufacturing of PPL-001, an investigational therapy developed by the latter for FA, a rare inherited neurodegenerative disorder.",
+      "id": "e9e2762d95",
+      "title": "Crystalys banks $130m to progress gout drug, plan for commercial readiness",
+      "url": "https://www.pharmaceutical-technology.com/news/crystalys-banks-130m-gout-drug-clinical-trials-commercial-readiness-2/",
+      "summary": "The funds will help Crystalys progress its clinical-stage development efforts and commercialisation plans for its gout drug, dotinurad.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-22T08:49:57+00:00",
-      "pub_ts": 1784710197
+      "pub_date": "2026-07-23T08:47:33+00:00",
+      "pub_ts": 1784796453
     },
     {
-      "id": "9e73744fb8",
-      "title": "Novo sues Lilly after alleged misleading and false advertising campaign",
-      "url": "https://www.pharmaceutical-technology.com/news/novo-sues-lilly-after-alleged-misleading-and-false-advertising-campaign/",
-      "summary": "In a lawsuit filed in the US, Novo alleged that Lilly’s campaign was designed to mislead consumers on “comparative efficacy” of drug brands.",
+      "id": "0129392c62",
+      "title": "Speciality versus diversity: the four-way CDMO race in outsourced HPAPI manufacturing",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/four-way-cdmo-hpapi-manufacturing/",
+      "summary": "GlobalData’s Drugs By Manufacturer Database reveals the top four CDMOs for innovator and biosimilar HPAPI contract manufacturing.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-21T15:22:34+00:00",
-      "pub_ts": 1784647354
+      "pub_date": "2026-07-22T14:50:14+00:00",
+      "pub_ts": 1784731814
     }
   ],
   "source_success_count": 1,
