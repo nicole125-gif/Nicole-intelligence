@@ -3,68 +3,118 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-07-24T03:21:32.564252+00:00",
-  "item_count": 11,
+  "updated_at": "2026-07-25T03:19:52.523675+00:00",
+  "item_count": 15,
   "items": [
     {
-      "id": "4a6bf1c410",
-      "title": "AMD密集“上新”：Helios量产、Venice投产、机器人芯片首秀",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815146&idx=1&sn=c14b4209d1f07e14b34ffe35608806ee",
-      "summary": "AMD密集“上新”：Helios量产、Venice投产、机器人芯片首秀",
+      "id": "1a7fde380d",
+      "title": "AI之下，国产AI服务器厂商的“远图”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815204&idx=1&sn=20f4fb658b58a9c327e81183129143af",
+      "summary": "AI之下，国产AI服务器厂商的“远图”",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-24T03:21:28.414267+00:00",
-      "pub_ts": 1784863288
+      "pub_date": "2026-07-25T03:19:48.369407+00:00",
+      "pub_ts": 1784949588
     },
     {
-      "id": "71529d0699",
-      "title": "定了！长鑫科技7月27日上市",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815141&idx=1&sn=e74d572e9c5b681ce9d9ab42cc7564a8",
-      "summary": "定了！长鑫科技7月27日上市",
+      "id": "30fff859b8",
+      "title": "CPU太火了，创15年最强增速！英特尔的反攻开始了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815204&idx=2&sn=1be4f8907c7d06311ee405b91e20823f",
+      "summary": "CPU太火了，创15年最强增速！英特尔的反攻开始了",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-24T03:21:28.414300+00:00",
-      "pub_ts": 1784863288
+      "pub_date": "2026-07-25T03:19:48.369451+00:00",
+      "pub_ts": 1784949588
     },
     {
-      "id": "e8f067d055",
-      "title": "净利暴增744倍，半导体公司谁在疯狂吸金？",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815129&idx=1&sn=9089a9601f9cac29f3026603978b3587",
-      "summary": "净利暴增744倍，半导体公司谁在疯狂吸金？",
+      "id": "44279b89d5",
+      "title": "AI电力竞赛下半场，功率半导体或成最大赢家",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815204&idx=3&sn=6b545a1c9a7c58b21cf0f8dd8e03e784",
+      "summary": "AI电力竞赛下半场，功率半导体或成最大赢家",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-24T03:21:28.414313+00:00",
-      "pub_ts": 1784863288
+      "pub_date": "2026-07-25T03:19:48.369478+00:00",
+      "pub_ts": 1784949588
     },
     {
-      "id": "cccf99b4be",
-      "title": "意法半导体、德州仪器，Q2财报出炉",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815129&idx=2&sn=b4d1187fa4399a6650515df8ccdceeff",
-      "summary": "意法半导体、德州仪器，Q2财报出炉",
+      "id": "f1be0afc10",
+      "title": "进度延期，SKC玻璃基板锁定2027量产",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815204&idx=4&sn=4b65de136601316292730bb01276686e",
+      "summary": "进度延期，SKC玻璃基板锁定2027量产",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-24T03:21:28.414325+00:00",
-      "pub_ts": 1784863288
+      "pub_date": "2026-07-25T03:19:48.369502+00:00",
+      "pub_ts": 1784949588
     },
     {
-      "id": "1c3cd93657",
-      "title": "终结五季度连涨，全球PC市场开始下滑",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815129&idx=3&sn=d72eea9c3112355e4287b92836820375",
-      "summary": "终结五季度连涨，全球PC市场开始下滑",
+      "id": "aadc60e7ee",
+      "title": "三巨头联手！三菱、东芝、罗姆9月敲定合资",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815204&idx=5&sn=cbb76b8d593137fa6d0fe6bafecbfe93",
+      "summary": "三巨头联手！三菱、东芝、罗姆9月敲定合资",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-24T03:21:28.414336+00:00",
-      "pub_ts": 1784863288
+      "pub_date": "2026-07-25T03:19:48.369524+00:00",
+      "pub_ts": 1784949588
     },
     {
-      "id": "bb1f391732",
-      "title": "2nm芯片登场，AMD挺进新时代",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827086&idx=1&sn=45421add2158de24a91b5744030c796a",
-      "summary": "2nm芯片登场，AMD挺进新时代",
+      "id": "154d87971b",
+      "title": "资本加持、巨头携手！芯必达发布新战略，锚定国产芯片长期可靠",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827261&idx=1&sn=ceefad92f4e2ec1bda025a68c736bbb1",
+      "summary": "资本加持、巨头携手！芯必达发布新战略，锚定国产芯片长期可靠",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-24T03:21:16.026426+00:00",
-      "pub_ts": 1784863276
+      "pub_date": "2026-07-25T03:19:39.639177+00:00",
+      "pub_ts": 1784949579
+    },
+    {
+      "id": "2a30569260",
+      "title": "19张图看懂AMDHelios机架",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827218&idx=1&sn=b61d7290329991929dd98811b3bd91b0",
+      "summary": "19张图看懂AMDHelios机架",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-07-25T03:19:39.639227+00:00",
+      "pub_ts": 1784949579
+    },
+    {
+      "id": "2030b5b01d",
+      "title": "玻璃封装，真的要来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827101&idx=1&sn=67bea2da67df2ce569979443924e18f1",
+      "summary": "玻璃封装，真的要来了",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-07-25T03:19:39.639253+00:00",
+      "pub_ts": 1784949579
+    },
+    {
+      "id": "9ee321ef4c",
+      "title": "打造机器人界的安卓，安谋科技携手港科大推出AIOS",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827101&idx=2&sn=a878a3fecd1147545c18c05ef3d97eeb",
+      "summary": "打造机器人界的安卓，安谋科技携手港科大推出AIOS",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-07-25T03:19:39.639276+00:00",
+      "pub_ts": 1784949579
+    },
+    {
+      "id": "11c652159b",
+      "title": "AI改变芯片设计，百度智能云全栈实力赋能",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827101&idx=3&sn=8c9dd148f3030ae62c93320ba60848f4",
+      "summary": "AI改变芯片设计，百度智能云全栈实力赋能",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-07-25T03:19:39.639319+00:00",
+      "pub_ts": 1784949579
+    },
+    {
+      "id": "e0e9a67f5b",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-148/",
+      "summary": "Amkor's $1.5B deal; Intel Foundry revenue up 31%; Siemens' dual buys; SiC plant dies; AMD's big week; TSMC price hike; Nokia's fab buy; earnings; $300M for accelerating inference; Keysight's multiphysics; copper interconnect alternative.\nThe post Chip Industry Week In Review appeared first on Semico…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-07-24T07:01:00+00:00",
+      "pub_ts": 1784876460
     },
     {
       "id": "41fad3a57f",
@@ -105,16 +155,6 @@
       "lang": "en",
       "pub_date": "2026-07-23T07:07:02+00:00",
       "pub_ts": 1784790422
-    },
-    {
-      "id": "a37362ffde",
-      "title": "Avoid The Hidden Bottleneck Of Integration At Scale",
-      "url": "https://semiengineering.com/avoid-the-hidden-bottleneck-of-integration-at-scale/",
-      "summary": "Automating connectivity and establishing a single source of truth helps accelerate SoC assembly while improving design quality. \nThe post Avoid The Hidden Bottleneck Of Integration At Scale appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-07-23T07:06:40+00:00",
-      "pub_ts": 1784790400
     }
   ],
   "source_success_count": 3,

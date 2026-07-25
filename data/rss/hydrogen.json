@@ -3,111 +3,61 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-07-24T03:21:59.225140+00:00",
-  "item_count": 10,
+  "updated_at": "2026-07-25T03:20:49.673454+00:00",
+  "item_count": 5,
   "items": [
     {
-      "id": "660f5c551b",
-      "title": "Intelligent Energy brings its hydrogen UAV technology to China’s low-altitude economy",
-      "url": "https://hydrogen-central.com/intelligent-energy-brings-its-hydrogen-uav-technology-to-chinas-low-altitude-economy/",
-      "summary": "Intelligent Energy brings its hydrogen UAV technology to China&#8217;s low-altitude economy Intelligent Energy makes its first major appearance in China at the 2026 International Low Altitude Economy Expo in ShanghaiCompany [&#8230;]\nThe post Intelligent Energy brings its hydrogen UAV technology to …",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-07-23T17:02:25+00:00",
-      "pub_ts": 1784826145
-    },
-    {
-      "id": "0fc7c93355",
-      "title": "ErreDue buys the Piel brand from Mcphy Energy",
-      "url": "https://hydrogen-central.com/erredue-buys-the-piel-brand-from-mcphy-energy/",
-      "summary": "ErreDue buys the Piel brand from Mcphy Energy (Alliance News) &#8211; ErreDue Spa said on Tuesday it has completed the acquisition of the historic &#8216;Piel&#8217; brand from Mcphy Energy, for [&#8230;]\nThe post ErreDue buys the Piel brand from Mcphy Energy appeared first on Hydrogen Central.",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-07-23T17:01:59+00:00",
-      "pub_ts": 1784826119
-    },
-    {
-      "id": "6dbb795853",
-      "title": "VDMA – Hydrogen Market Ramp-Up Requires a Reliable Framework",
-      "url": "https://hydrogen-central.com/vdma-hydrogen-market-ramp-up-requires-a-reliable-framework/",
-      "summary": "VDMA &#8211; Hydrogen Market Ramp-Up Requires a Reliable Framework The Master Plan for Hydrogen and Electricity-Based Fuels in Transportation is intended to create a strategic framework for the ramp-up of [&#8230;]\nThe post VDMA &#8211; Hydrogen Market Ramp-Up Requires a Reliable Framework appeared …",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-07-23T16:57:37+00:00",
-      "pub_ts": 1784825857
-    },
-    {
-      "id": "fabaf1ef0a",
-      "title": "Key milestone for the H2med corridor: BarMar submarine pipeline project moves into the detailed engineering phase (FEED)",
-      "url": "https://hydrogen-central.com/key-milestone-for-the-h2med-corridor-barmar-submarine-pipeline-project-moves-into-the-detailed-engineering-phase-feed/",
-      "summary": "Key milestone for the H2med corridor: BarMar submarine pipeline project moves into the detailed engineering phase (FEED) The H2med consortium announces a major milestone in the development of the European [&#8230;]\nThe post Key milestone for the H2med corridor: BarMar submarine pipeline project move…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-07-23T16:57:23+00:00",
-      "pub_ts": 1784825843
-    },
-    {
-      "id": "74d923fcc5",
-      "title": "VIVIFY Technology Hosts Governor Candidate Byron Donalds at South Florida Headquarters",
-      "url": "https://hydrogen-central.com/vivify-technology-hosts-governor-candidate-byron-donalds-at-south-florida-headquarters/",
-      "summary": "VIVIFY Technology Hosts Governor Candidate Byron Donalds at South Florida Headquarters Delray Beach company demonstrates hydrogen energy platforms built to address Florida&#8217;s hurricane recovery, infrastructure growth, and data center demand [&#8230;]\nThe post VIVIFY Technology Hosts Governor Ca…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-07-23T16:52:19+00:00",
-      "pub_ts": 1784825539
-    },
-    {
-      "id": "8fc0ab67b8",
-      "title": "Australian Hydrogen Council Broadens Mandate Under Industrial Decarbonisation Rebrand",
-      "url": "https://fuelcellsworks.com/2026/07/23/h2/australian-hydrogen-council-broadens-mandate-under-industrial-decarbonisation-rebrand",
+      "id": "c947c99291",
+      "title": "By the Power of Hydrogen: How Clean Tech Powered the 'Masters of the Universe' Set",
+      "url": "https://fuelcellsworks.com/2026/07/24/energy-innovation/by-the-power-of-hydrogen-how-clean-tech-powered-the-masters-of-the-universe-set",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-23T16:16:13+00:00",
-      "pub_ts": 1784823373
+      "pub_date": "2026-07-24T15:14:12+00:00",
+      "pub_ts": 1784906052
     },
     {
-      "id": "9c5884a691",
-      "title": "Spain Puts a Number on Hydrogen: RFNBO Quotas Rising to 11% of Road Transport Fuel by 2040 — but Refining Loopholes Included",
-      "url": "https://fuelcellsworks.com/2026/07/23/h2/spain-puts-a-number-on-hydrogen-rfnbo-quotas-rising-to-11-percent-of-road-transport-fuel-by-2040-but-refining-loopholes-included",
+      "id": "371327a162",
+      "title": "Renewable Electricity Secured for New 5MW Green Hydrogen Production Facility",
+      "url": "https://fuelcellsworks.com/2026/07/22/h2/edison-signs-renewable-power-deal-to-supply-sapio-s-new-5mw-hydrogen-plant-in-marghera",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-23T16:11:11+00:00",
-      "pub_ts": 1784823071
+      "pub_date": "2026-07-24T15:09:03+00:00",
+      "pub_ts": 1784905743
     },
     {
-      "id": "83c971726a",
-      "title": "Wenshi Hydrogen Secures First European Repeat Order for AEM Electrolysers",
-      "url": "https://fuelcellsworks.com/2026/07/23/clean-energy/wenshi-hydrogen-secures-first-european-repeat-order-for-aem-electrolysers",
+      "id": "6a079b5df8",
+      "title": "Koloma Expands Natural Hydrogen Exploration Operations in the Philippines",
+      "url": "https://fuelcellsworks.com/2026/07/24/clean-energy/koloma-expands-natural-hydrogen-exploration-operations-in-the-philippines",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-23T15:56:54+00:00",
-      "pub_ts": 1784822214
+      "pub_date": "2026-07-24T15:04:53+00:00",
+      "pub_ts": 1784905493
     },
     {
-      "id": "b83d463845",
-      "title": "DHL Group and LONGi Solar Sign MoU to Advance Global Renewable Energy and Sustainable Logistics Solutions Including Renewable Hydrogen",
-      "url": "https://fuelcellsworks.com/2026/07/23/energy-innovation/dhl-group-and-longi-solar-sign-mou-to-advance-global-renewable-energy-and-sustainable-logistics-solutions-including-renewable-hydrogen",
+      "id": "372859164a",
+      "title": "Hyundai Hydrogen Train Planned for Saemangeum Rail Link From 2033",
+      "url": "https://fuelcellsworks.com/2026/07/24/clean-energy/hyundai-hydrogen-train-planned-for-saemangeum-rail-link-from-2033",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-23T15:55:12+00:00",
-      "pub_ts": 1784822112
+      "pub_date": "2026-07-24T14:55:11+00:00",
+      "pub_ts": 1784904911
     },
     {
-      "id": "2420ee4dc8",
-      "title": "EBARA Group Achieves World’s First Type Approval for Liquid Hydrogen Cargo Pumps",
-      "url": "https://fuelcellsworks.com/2026/07/23/hydrogen/ebara-group-achieves-world-s-first-type-approval-for-liquid-hydrogen-cargo-pumps",
+      "id": "1b270f1a51",
+      "title": "Genevos and Koedood Marine Group Sign LOI to Collaborate on Maritime Hydrogen Fuel Cell Deployment",
+      "url": "https://fuelcellsworks.com/2026/07/24/fuel-cells/genevos-and-koedood-marine-group-sign-loi-to-collaborate-on-maritime-hydrogen-fuel-cell-deployment",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-23T15:43:55+00:00",
-      "pub_ts": 1784821435
+      "pub_date": "2026-07-24T14:52:59+00:00",
+      "pub_ts": 1784904779
     }
   ],
-  "source_success_count": 2,
+  "source_success_count": 1,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }
