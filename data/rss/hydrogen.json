@@ -3,9 +3,39 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-07-25T03:20:49.673454+00:00",
-  "item_count": 5,
+  "updated_at": "2026-07-26T03:34:16.813302+00:00",
+  "item_count": 10,
   "items": [
+    {
+      "id": "0367ceb28a",
+      "title": "China's Hydrogen Two-Wheeler Industry Reaches Export Scale with 50,000-Vehicle Order",
+      "url": "https://fuelcellsworks.com/2026/07/19/fuel-cells/china-s-hydrogen-two-wheeler-industry-reaches-export-scale-with-50-000-vehicle-order",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-07-24T15:39:17+00:00",
+      "pub_ts": 1784907557
+    },
+    {
+      "id": "2041fc5bde",
+      "title": "GWM Projects R$ 20 Million in Sales of Hydrogen Trucks in Brazil in 2026 After First Supply in New Pole in Bahia",
+      "url": "https://fuelcellsworks.com/2026/07/24/fuel-cells/gwm-projects-r-20-million-in-sales-of-hydrogen-trucks-in-brazil-in-2026-after-first-supply-in-new-pole-in-bahia",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-07-24T15:31:08+00:00",
+      "pub_ts": 1784907068
+    },
+    {
+      "id": "ffb19bcdd9",
+      "title": "Flying Fuel Cell: MTU Aero Engines Achieves Important Milestones",
+      "url": "https://fuelcellsworks.com/2026/07/24/fuel-cells/flying-fuel-cell-mtu-aero-engines-achieves-important-milestones",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-07-24T15:20:44+00:00",
+      "pub_ts": 1784906444
+    },
     {
       "id": "c947c99291",
       "title": "By the Power of Hydrogen: How Clean Tech Powered the 'Masters of the Universe' Set",
@@ -27,37 +57,57 @@
       "pub_ts": 1784905743
     },
     {
-      "id": "6a079b5df8",
-      "title": "Koloma Expands Natural Hydrogen Exploration Operations in the Philippines",
-      "url": "https://fuelcellsworks.com/2026/07/24/clean-energy/koloma-expands-natural-hydrogen-exploration-operations-in-the-philippines",
-      "summary": "",
-      "source": "Fuel Cells Works",
+      "id": "660f5c551b",
+      "title": "Intelligent Energy brings its hydrogen UAV technology to China’s low-altitude economy",
+      "url": "https://hydrogen-central.com/intelligent-energy-brings-its-hydrogen-uav-technology-to-chinas-low-altitude-economy/",
+      "summary": "Intelligent Energy brings its hydrogen UAV technology to China&#8217;s low-altitude economy Intelligent Energy makes its first major appearance in China at the 2026 International Low Altitude Economy Expo in ShanghaiCompany [&#8230;]\nThe post Intelligent Energy brings its hydrogen UAV technology to …",
+      "source": "Hydrogen Central",
       "lang": "en",
-      "pub_date": "2026-07-24T15:04:53+00:00",
-      "pub_ts": 1784905493
+      "pub_date": "2026-07-23T17:02:25+00:00",
+      "pub_ts": 1784826145
     },
     {
-      "id": "372859164a",
-      "title": "Hyundai Hydrogen Train Planned for Saemangeum Rail Link From 2033",
-      "url": "https://fuelcellsworks.com/2026/07/24/clean-energy/hyundai-hydrogen-train-planned-for-saemangeum-rail-link-from-2033",
-      "summary": "",
-      "source": "Fuel Cells Works",
+      "id": "0fc7c93355",
+      "title": "ErreDue buys the Piel brand from Mcphy Energy",
+      "url": "https://hydrogen-central.com/erredue-buys-the-piel-brand-from-mcphy-energy/",
+      "summary": "ErreDue buys the Piel brand from Mcphy Energy (Alliance News) &#8211; ErreDue Spa said on Tuesday it has completed the acquisition of the historic &#8216;Piel&#8217; brand from Mcphy Energy, for [&#8230;]\nThe post ErreDue buys the Piel brand from Mcphy Energy appeared first on Hydrogen Central.",
+      "source": "Hydrogen Central",
       "lang": "en",
-      "pub_date": "2026-07-24T14:55:11+00:00",
-      "pub_ts": 1784904911
+      "pub_date": "2026-07-23T17:01:59+00:00",
+      "pub_ts": 1784826119
     },
     {
-      "id": "1b270f1a51",
-      "title": "Genevos and Koedood Marine Group Sign LOI to Collaborate on Maritime Hydrogen Fuel Cell Deployment",
-      "url": "https://fuelcellsworks.com/2026/07/24/fuel-cells/genevos-and-koedood-marine-group-sign-loi-to-collaborate-on-maritime-hydrogen-fuel-cell-deployment",
-      "summary": "",
-      "source": "Fuel Cells Works",
+      "id": "6dbb795853",
+      "title": "VDMA – Hydrogen Market Ramp-Up Requires a Reliable Framework",
+      "url": "https://hydrogen-central.com/vdma-hydrogen-market-ramp-up-requires-a-reliable-framework/",
+      "summary": "VDMA &#8211; Hydrogen Market Ramp-Up Requires a Reliable Framework The Master Plan for Hydrogen and Electricity-Based Fuels in Transportation is intended to create a strategic framework for the ramp-up of [&#8230;]\nThe post VDMA &#8211; Hydrogen Market Ramp-Up Requires a Reliable Framework appeared …",
+      "source": "Hydrogen Central",
       "lang": "en",
-      "pub_date": "2026-07-24T14:52:59+00:00",
-      "pub_ts": 1784904779
+      "pub_date": "2026-07-23T16:57:37+00:00",
+      "pub_ts": 1784825857
+    },
+    {
+      "id": "fabaf1ef0a",
+      "title": "Key milestone for the H2med corridor: BarMar submarine pipeline project moves into the detailed engineering phase (FEED)",
+      "url": "https://hydrogen-central.com/key-milestone-for-the-h2med-corridor-barmar-submarine-pipeline-project-moves-into-the-detailed-engineering-phase-feed/",
+      "summary": "Key milestone for the H2med corridor: BarMar submarine pipeline project moves into the detailed engineering phase (FEED) The H2med consortium announces a major milestone in the development of the European [&#8230;]\nThe post Key milestone for the H2med corridor: BarMar submarine pipeline project move…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-07-23T16:57:23+00:00",
+      "pub_ts": 1784825843
+    },
+    {
+      "id": "74d923fcc5",
+      "title": "VIVIFY Technology Hosts Governor Candidate Byron Donalds at South Florida Headquarters",
+      "url": "https://hydrogen-central.com/vivify-technology-hosts-governor-candidate-byron-donalds-at-south-florida-headquarters/",
+      "summary": "VIVIFY Technology Hosts Governor Candidate Byron Donalds at South Florida Headquarters Delray Beach company demonstrates hydrogen energy platforms built to address Florida&#8217;s hurricane recovery, infrastructure growth, and data center demand [&#8230;]\nThe post VIVIFY Technology Hosts Governor Ca…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-07-23T16:52:19+00:00",
+      "pub_ts": 1784825539
     }
   ],
-  "source_success_count": 1,
+  "source_success_count": 2,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }

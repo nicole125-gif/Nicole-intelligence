@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-07-25T03:20:06.423201+00:00",
+  "updated_at": "2026-07-26T03:34:04.753242+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "06277461d7",
-      "title": "刚刚，AI接通了平行世界的电话！全新统一流式架构，Vivix灵动时刻正式发布...",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907132&idx=1&sn=d7a8826cdab0a961a7c666cf765f4db9",
-      "summary": "刚刚，AI接通了平行世界的电话！全新统一流式架构，Vivix灵动时刻正式发布...",
+      "id": "9e0aa7b020",
+      "title": "内存条为什么一天一个价？|量子位智库",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907204&idx=1&sn=3b1d102e3df4ab953d29d7da8bda5e70",
+      "summary": "内存条为什么一天一个价？|量子位智库",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-25T03:20:01.865960+00:00",
-      "pub_ts": 1784949601
+      "pub_date": "2026-07-26T03:33:59.997788+00:00",
+      "pub_ts": 1785036839
     },
     {
-      "id": "0f3e3889e7",
-      "title": "合肥又押中AI独角兽：多模态赛道，3个月融了21亿",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907132&idx=2&sn=fcd586ffbd36d209a70537dda027da08",
-      "summary": "合肥又押中AI独角兽：多模态赛道，3个月融了21亿",
+      "id": "43a6aeb4f3",
+      "title": "美国具身也没成熟！PI：中国公司何必总当“中国版XX”|RSS2026",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907201&idx=1&sn=4e8ed6c417ebe9ef4821efc3ef43a3a0",
+      "summary": "美国具身也没成熟！PI：中国公司何必总当“中国版XX”|RSS2026",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-25T03:20:01.866004+00:00",
-      "pub_ts": 1784949601
+      "pub_date": "2026-07-26T03:33:59.997836+00:00",
+      "pub_ts": 1785036839
     },
     {
-      "id": "c3a2f770eb",
-      "title": "告别“无脑”长推理！腾讯E-GRM让模型学会“自我怀疑”：拿不准才多想，拿..",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907132&idx=3&sn=be58f881975eb34a690613b0f9c7de4b",
-      "summary": "告别“无脑”长推理！腾讯E-GRM让模型学会“自我怀疑”：拿不准才多想，拿..",
+      "id": "41580834b4",
+      "title": "LOSs收敛不代表学会：腾讯混元ACL2026拆解SFT训练中15.3%的“假学会...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907201&idx=2&sn=f321ed0be7ca8219a652c30f43fc48db",
+      "summary": "LOSs收敛不代表学会：腾讯混元ACL2026拆解SFT训练中15.3%的“假学会...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-25T03:20:01.866028+00:00",
-      "pub_ts": 1784949601
+      "pub_date": "2026-07-26T03:33:59.997858+00:00",
+      "pub_ts": 1785036839
     },
     {
-      "id": "514da76f69",
-      "title": "北京说Agent已经能造世界，杭州却说它是刚发明的电灯泡",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907130&idx=1&sn=8ed47b01a3f6645089430667d065138b",
-      "summary": "北京说Agent已经能造世界，杭州却说它是刚发明的电灯泡",
+      "id": "13a1a6fb0e",
+      "title": "具身智能的「ChatGPT时刻」还没到，科沃斯先把机器人拆开了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907199&idx=1&sn=be2e4bb8e9eb039edfe881e6ee9144a4",
+      "summary": "具身智能的「ChatGPT时刻」还没到，科沃斯先把机器人拆开了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-25T03:20:01.866050+00:00",
-      "pub_ts": 1784949601
+      "pub_date": "2026-07-26T03:33:59.997878+00:00",
+      "pub_ts": 1785036839
     },
     {
-      "id": "6f6cc33a16",
-      "title": "国产世界模型登顶李飞飞团队榜单！适配国产昇腾算力、代码权重全开源",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907130&idx=2&sn=afd364b338ef4dbb12ea1e8138e35b8b",
-      "summary": "国产世界模型登顶李飞飞团队榜单！适配国产昇腾算力、代码权重全开源",
+      "id": "904242016a",
+      "title": "100%开源！吴恩达做了个个人桌面Agent",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907199&idx=2&sn=b870bc12802b0593d431f8a02b910817",
+      "summary": "100%开源！吴恩达做了个个人桌面Agent",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-25T03:20:01.866072+00:00",
-      "pub_ts": 1784949601
+      "pub_date": "2026-07-26T03:33:59.997897+00:00",
+      "pub_ts": 1785036839
     }
   ],
   "source_success_count": 1,
