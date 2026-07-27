@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-07-26T03:34:04.753242+00:00",
+  "updated_at": "2026-07-27T03:41:43.452798+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "9e0aa7b020",
-      "title": "内存条为什么一天一个价？|量子位智库",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907204&idx=1&sn=3b1d102e3df4ab953d29d7da8bda5e70",
-      "summary": "内存条为什么一天一个价？|量子位智库",
+      "id": "5d6ab19ca4",
+      "title": "长鑫科技距离全球存储TOP3还有多远?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907306&idx=1&sn=32fb8b609045c68413dfca227fc1b805",
+      "summary": "长鑫科技距离全球存储TOP3还有多远?",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-26T03:33:59.997788+00:00",
-      "pub_ts": 1785036839
+      "pub_date": "2026-07-27T03:41:38.175151+00:00",
+      "pub_ts": 1785123698
     },
     {
-      "id": "43a6aeb4f3",
-      "title": "美国具身也没成熟！PI：中国公司何必总当“中国版XX”|RSS2026",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907201&idx=1&sn=4e8ed6c417ebe9ef4821efc3ef43a3a0",
-      "summary": "美国具身也没成熟！PI：中国公司何必总当“中国版XX”|RSS2026",
+      "id": "2ab58f61ce",
+      "title": "李飞飞第一篇「触觉」论文：机器人会盲摸麻将了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907304&idx=1&sn=fb50a79206768c32dd3ed8579509ef4a",
+      "summary": "李飞飞第一篇「触觉」论文：机器人会盲摸麻将了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-26T03:33:59.997836+00:00",
-      "pub_ts": 1785036839
+      "pub_date": "2026-07-27T03:41:38.175195+00:00",
+      "pub_ts": 1785123698
     },
     {
-      "id": "41580834b4",
-      "title": "LOSs收敛不代表学会：腾讯混元ACL2026拆解SFT训练中15.3%的“假学会...",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907201&idx=2&sn=f321ed0be7ca8219a652c30f43fc48db",
-      "summary": "LOSs收敛不代表学会：腾讯混元ACL2026拆解SFT训练中15.3%的“假学会...",
+      "id": "dc096b9204",
+      "title": "量子位招聘|汽车及机器人方向",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907304&idx=2&sn=7e625aed2269c0dbf7afb13fd063991a",
+      "summary": "量子位招聘|汽车及机器人方向",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-26T03:33:59.997858+00:00",
-      "pub_ts": 1785036839
+      "pub_date": "2026-07-27T03:41:38.175219+00:00",
+      "pub_ts": 1785123698
     },
     {
-      "id": "13a1a6fb0e",
-      "title": "具身智能的「ChatGPT时刻」还没到，科沃斯先把机器人拆开了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907199&idx=1&sn=be2e4bb8e9eb039edfe881e6ee9144a4",
-      "summary": "具身智能的「ChatGPT时刻」还没到，科沃斯先把机器人拆开了",
+      "id": "c0354ae897",
+      "title": "3万小时触觉数据补齐具身智能“手感”！新智具身&复旦大学技术报告三连发",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907283&idx=1&sn=47ffec4e47dcd382a8021b5a87eb89e8",
+      "summary": "3万小时触觉数据补齐具身智能“手感”！新智具身&复旦大学技术报告三连发",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-26T03:33:59.997878+00:00",
-      "pub_ts": 1785036839
+      "pub_date": "2026-07-27T03:41:38.175241+00:00",
+      "pub_ts": 1785123698
     },
     {
-      "id": "904242016a",
-      "title": "100%开源！吴恩达做了个个人桌面Agent",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907199&idx=2&sn=b870bc12802b0593d431f8a02b910817",
-      "summary": "100%开源！吴恩达做了个个人桌面Agent",
+      "id": "3acac8275a",
+      "title": "一年从3B卷到0.xB：MonkeyOCRv2用0.7B拿下17语种文档解析开源第一",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907283&idx=2&sn=5df8a52712c79f67232ca9672d4cc34e",
+      "summary": "一年从3B卷到0.xB：MonkeyOCRv2用0.7B拿下17语种文档解析开源第一",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-26T03:33:59.997897+00:00",
-      "pub_ts": 1785036839
+      "pub_date": "2026-07-27T03:41:38.175261+00:00",
+      "pub_ts": 1785123698
     }
   ],
   "source_success_count": 1,

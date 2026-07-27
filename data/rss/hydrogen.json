@@ -3,8 +3,8 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-07-26T03:34:16.813302+00:00",
-  "item_count": 10,
+  "updated_at": "2026-07-27T03:41:56.058514+00:00",
+  "item_count": 5,
   "items": [
     {
       "id": "0367ceb28a",
@@ -55,59 +55,9 @@
       "lang": "en",
       "pub_date": "2026-07-24T15:09:03+00:00",
       "pub_ts": 1784905743
-    },
-    {
-      "id": "660f5c551b",
-      "title": "Intelligent Energy brings its hydrogen UAV technology to China’s low-altitude economy",
-      "url": "https://hydrogen-central.com/intelligent-energy-brings-its-hydrogen-uav-technology-to-chinas-low-altitude-economy/",
-      "summary": "Intelligent Energy brings its hydrogen UAV technology to China&#8217;s low-altitude economy Intelligent Energy makes its first major appearance in China at the 2026 International Low Altitude Economy Expo in ShanghaiCompany [&#8230;]\nThe post Intelligent Energy brings its hydrogen UAV technology to …",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-07-23T17:02:25+00:00",
-      "pub_ts": 1784826145
-    },
-    {
-      "id": "0fc7c93355",
-      "title": "ErreDue buys the Piel brand from Mcphy Energy",
-      "url": "https://hydrogen-central.com/erredue-buys-the-piel-brand-from-mcphy-energy/",
-      "summary": "ErreDue buys the Piel brand from Mcphy Energy (Alliance News) &#8211; ErreDue Spa said on Tuesday it has completed the acquisition of the historic &#8216;Piel&#8217; brand from Mcphy Energy, for [&#8230;]\nThe post ErreDue buys the Piel brand from Mcphy Energy appeared first on Hydrogen Central.",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-07-23T17:01:59+00:00",
-      "pub_ts": 1784826119
-    },
-    {
-      "id": "6dbb795853",
-      "title": "VDMA – Hydrogen Market Ramp-Up Requires a Reliable Framework",
-      "url": "https://hydrogen-central.com/vdma-hydrogen-market-ramp-up-requires-a-reliable-framework/",
-      "summary": "VDMA &#8211; Hydrogen Market Ramp-Up Requires a Reliable Framework The Master Plan for Hydrogen and Electricity-Based Fuels in Transportation is intended to create a strategic framework for the ramp-up of [&#8230;]\nThe post VDMA &#8211; Hydrogen Market Ramp-Up Requires a Reliable Framework appeared …",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-07-23T16:57:37+00:00",
-      "pub_ts": 1784825857
-    },
-    {
-      "id": "fabaf1ef0a",
-      "title": "Key milestone for the H2med corridor: BarMar submarine pipeline project moves into the detailed engineering phase (FEED)",
-      "url": "https://hydrogen-central.com/key-milestone-for-the-h2med-corridor-barmar-submarine-pipeline-project-moves-into-the-detailed-engineering-phase-feed/",
-      "summary": "Key milestone for the H2med corridor: BarMar submarine pipeline project moves into the detailed engineering phase (FEED) The H2med consortium announces a major milestone in the development of the European [&#8230;]\nThe post Key milestone for the H2med corridor: BarMar submarine pipeline project move…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-07-23T16:57:23+00:00",
-      "pub_ts": 1784825843
-    },
-    {
-      "id": "74d923fcc5",
-      "title": "VIVIFY Technology Hosts Governor Candidate Byron Donalds at South Florida Headquarters",
-      "url": "https://hydrogen-central.com/vivify-technology-hosts-governor-candidate-byron-donalds-at-south-florida-headquarters/",
-      "summary": "VIVIFY Technology Hosts Governor Candidate Byron Donalds at South Florida Headquarters Delray Beach company demonstrates hydrogen energy platforms built to address Florida&#8217;s hurricane recovery, infrastructure growth, and data center demand [&#8230;]\nThe post VIVIFY Technology Hosts Governor Ca…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-07-23T16:52:19+00:00",
-      "pub_ts": 1784825539
     }
   ],
-  "source_success_count": 2,
+  "source_success_count": 1,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }
