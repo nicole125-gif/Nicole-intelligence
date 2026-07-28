@@ -3,108 +3,138 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-07-27T03:41:28.736550+00:00",
+  "updated_at": "2026-07-28T03:13:24.855284+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "06f5f086c6",
-      "title": "存储的“下一个富矿”，突然不香了？",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815249&idx=1&sn=acb63c0b9d7ba456f32167d398b95ec8",
-      "summary": "存储的“下一个富矿”，突然不香了？",
+      "id": "fb44a4b161",
+      "title": "半导体阵痛，市场为何把目光转向苹果？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815299&idx=1&sn=20059bc5de859a1a27226e24d101a9bf",
+      "summary": "半导体阵痛，市场为何把目光转向苹果？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-27T03:41:24.616299+00:00",
-      "pub_ts": 1785123684
+      "pub_date": "2026-07-28T03:13:20.566201+00:00",
+      "pub_ts": 1785208400
     },
     {
-      "id": "af18dfe8e0",
-      "title": "光子微芯片，极致微缩500倍",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815249&idx=2&sn=b461128e813b30aff19a918027501140",
-      "summary": "光子微芯片，极致微缩500倍",
+      "id": "e108c9b1be",
+      "title": "全球最强AI数据中心TOP6O，三家中国企业上榜",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815299&idx=2&sn=040a95254e8da4fbd698ccac71e9d7c2",
+      "summary": "全球最强AI数据中心TOP6O，三家中国企业上榜",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-27T03:41:24.616344+00:00",
-      "pub_ts": 1785123684
+      "pub_date": "2026-07-28T03:13:20.566245+00:00",
+      "pub_ts": 1785208400
     },
     {
-      "id": "634ff9d8d8",
-      "title": "氮化镓上天难在哪?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815249&idx=3&sn=86846df189bad89fc8ccd17e56baa8b4",
-      "summary": "氮化镓上天难在哪?",
+      "id": "0b0f92062b",
+      "title": "CPO交换机，进入量产阶段",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815299&idx=3&sn=9f5b3daaa0f28d68a5454afa724cfbf0",
+      "summary": "CPO交换机，进入量产阶段",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-27T03:41:24.616372+00:00",
-      "pub_ts": 1785123684
+      "pub_date": "2026-07-28T03:13:20.566272+00:00",
+      "pub_ts": 1785208400
     },
     {
-      "id": "4b9807adc4",
-      "title": "一个价值40万亿日元的教训：东芝，亲手葬送未来",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815249&idx=4&sn=c30f4ccac4448384f0355c921b5aa439",
-      "summary": "一个价值40万亿日元的教训：东芝，亲手葬送未来",
+      "id": "3d4925c3da",
+      "title": "给消费级PC加上服务器显卡会发生什么？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815299&idx=4&sn=e45c81713e82f1277fee11a2e42f9a97",
+      "summary": "给消费级PC加上服务器显卡会发生什么？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-27T03:41:24.616396+00:00",
-      "pub_ts": 1785123684
+      "pub_date": "2026-07-28T03:13:20.566296+00:00",
+      "pub_ts": 1785208400
     },
     {
-      "id": "6a5007cd6c",
-      "title": "中移动王晓云院士：面向6G的智能协作无线接入网(CIS-RAN)",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815249&idx=5&sn=6ec1bbee160d25412c65aa88e754a6f2",
-      "summary": "中移动王晓云院士：面向6G的智能协作无线接入网(CIS-RAN)",
+      "id": "e481314dc9",
+      "title": "ASML离不开的蔡司，扩建2.5万m²光学工厂",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815299&idx=5&sn=eda545c6581892e139b5ceea98b51834",
+      "summary": "ASML离不开的蔡司，扩建2.5万m²光学工厂",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-27T03:41:24.616418+00:00",
-      "pub_ts": 1785123684
+      "pub_date": "2026-07-28T03:13:20.566318+00:00",
+      "pub_ts": 1785208400
     },
     {
-      "id": "7beebb723e",
-      "title": "最贵光刻机，不好卖了?",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827335&idx=1&sn=03d44fac4b3cd4dd746ca2c78bfe164f",
-      "summary": "最贵光刻机，不好卖了?",
+      "id": "4ec7a45f61",
+      "title": "长鑫上市，市值突破3万亿",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827395&idx=1&sn=d17ae2728539a606d6da29583191055a",
+      "summary": "长鑫上市，市值突破3万亿",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-27T03:41:16.550274+00:00",
-      "pub_ts": 1785123676
+      "pub_date": "2026-07-28T03:13:12.707719+00:00",
+      "pub_ts": 1785208392
     },
     {
-      "id": "8fdd8f365c",
-      "title": "先进封装市场规模，直逼1200亿美元",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827335&idx=2&sn=30435da28a04bd81ccaaadd08dbe87a0",
-      "summary": "先进封装市场规模，直逼1200亿美元",
+      "id": "32066210a3",
+      "title": "纳米压印三十年：突破光刻极限的纳米制造革命",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827388&idx=1&sn=398721ccfc228208781b331f64768c95",
+      "summary": "纳米压印三十年：突破光刻极限的纳米制造革命",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-27T03:41:16.550325+00:00",
-      "pub_ts": 1785123676
+      "pub_date": "2026-07-28T03:13:12.707772+00:00",
+      "pub_ts": 1785208392
     },
     {
-      "id": "5e2f5abfc9",
-      "title": "2纳米GPU，AMD的划时代设计",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827335&idx=3&sn=91fb1bf733be83c50aa47daa6033b1b3",
-      "summary": "2纳米GPU，AMD的划时代设计",
+      "id": "3cf63563e5",
+      "title": "LPDDR，成为AI新贵",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827388&idx=2&sn=ba8e750f30ab9da355a366e563a12b6b",
+      "summary": "LPDDR，成为AI新贵",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-27T03:41:16.550351+00:00",
-      "pub_ts": 1785123676
+      "pub_date": "2026-07-28T03:13:12.707820+00:00",
+      "pub_ts": 1785208392
     },
     {
-      "id": "15f3453c32",
-      "title": "韩国芯片巨头，签订64000亿订单",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827335&idx=4&sn=465a72a75af996441f395a18c5186d0b",
-      "summary": "韩国芯片巨头，签订64000亿订单",
+      "id": "56466e0d92",
+      "title": "EUV光刻机背后的低调王者",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827388&idx=3&sn=f2277e2b7f6de008f0c81a3c97e4e410",
+      "summary": "EUV光刻机背后的低调王者",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-27T03:41:16.550375+00:00",
-      "pub_ts": 1785123676
+      "pub_date": "2026-07-28T03:13:12.707844+00:00",
+      "pub_ts": 1785208392
     },
     {
-      "id": "8f15db567d",
-      "title": "台积电 CoPoS与英特尔 EMIB 对比",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827335&idx=5&sn=f7d242451c905a4acdec1d4fd363f51b",
-      "summary": "台积电 CoPoS与英特尔 EMIB 对比",
+      "id": "c73bf7a8b9",
+      "title": "关于存储的五个误区",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827388&idx=4&sn=2809d1f6751bc1ace22f54f1950358a0",
+      "summary": "关于存储的五个误区",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-27T03:41:16.550398+00:00",
-      "pub_ts": 1785123676
+      "pub_date": "2026-07-28T03:13:12.707865+00:00",
+      "pub_ts": 1785208392
+    },
+    {
+      "id": "43632678c9",
+      "title": "AI Agent Orchestration For ASIC Autonomy",
+      "url": "https://semiengineering.com/ai-agent-orchestration-for-asic-autonomy/",
+      "summary": "How to achieve a 10X productivity improvement using AI agents.\nThe post AI Agent Orchestration For ASIC Autonomy appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-07-27T07:01:53+00:00",
+      "pub_ts": 1785135713
+    },
+    {
+      "id": "c7b03056f9",
+      "title": "Preparing For AI-Driven Chip Design And Verification",
+      "url": "https://semiengineering.com/preparing-for-ai-driven-chip-design-and-verification/",
+      "summary": "Jobs, markets, and economics are undergoing dramatic changes, but it's still too early to know how this will all shake out.\nThe post Preparing For AI-Driven Chip Design And Verification appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-07-27T07:01:32+00:00",
+      "pub_ts": 1785135692
+    },
+    {
+      "id": "cbac4be955",
+      "title": "Why the Semiconductor Industry Needs A Common Language For Functional Safety",
+      "url": "https://semiengineering.com/why-the-semiconductor-industry-needs-a-common-language-for-functional-safety/",
+      "summary": "A standardized way for future automation.\nThe post Why the Semiconductor Industry Needs A Common Language For Functional Safety appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-07-27T07:01:27+00:00",
+      "pub_ts": 1785135687
     },
     {
       "id": "e0e9a67f5b",
@@ -117,16 +147,6 @@
       "pub_ts": 1784876460
     },
     {
-      "id": "41fad3a57f",
-      "title": "Untangling Chip Traffic Jams",
-      "url": "https://semiengineering.com/untangling-chip-traffic-jams/",
-      "summary": "Scaling NoCs across chiplets requires earlier validation of coherency, congestion, thermal effects, and fault behavior.\nThe post Untangling Chip Traffic Jams appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-07-23T07:11:26+00:00",
-      "pub_ts": 1784790686
-    },
-    {
       "id": "0936c030cc",
       "title": "Designing Electro-Optical Chips",
       "url": "https://semiengineering.com/designing-electro-optical-chips/",
@@ -135,26 +155,6 @@
       "lang": "en",
       "pub_date": "2026-07-23T07:11:26+00:00",
       "pub_ts": 1784790686
-    },
-    {
-      "id": "f506ada26f",
-      "title": "Chip Policy: The UK Vs. The US Vs. EU Vs. India",
-      "url": "https://semiengineering.com/chip-policy-the-uk-vs-the-us-vs-eu-vs-india/",
-      "summary": "Policy shifts affect every company in the semiconductor industry, regardless of their size.\nThe post Chip Policy: The UK Vs. The US Vs. EU Vs. India appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-07-23T07:09:07+00:00",
-      "pub_ts": 1784790547
-    },
-    {
-      "id": "de17c313a5",
-      "title": "Realizing The Future Of 3D-IC: Final Scenario And Sign-off",
-      "url": "https://semiengineering.com/realizing-the-future-of-3d-ic-final-scenario-and-sign-off/",
-      "summary": "Chiplet interface route planning, optimization, and predictive analysis are crucial for achieving PPAC goals.\nThe post Realizing The Future Of 3D-IC: Final Scenario And Sign-off appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-07-23T07:07:02+00:00",
-      "pub_ts": 1784790422
     }
   ],
   "source_success_count": 3,

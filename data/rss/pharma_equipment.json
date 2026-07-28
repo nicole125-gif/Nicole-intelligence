@@ -3,9 +3,49 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-07-27T03:42:08.461555+00:00",
+  "updated_at": "2026-07-28T03:14:07.506364+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "b575efd51e",
+      "title": "Magazine: Made in the USA",
+      "url": "https://www.pharmaceutical-technology.com/features/magazine-made-in-the-usa/",
+      "summary": "In this issue: Misumi Americas makes US manufacturing strategic priority, the celebrity brand ambassador rise in pharma, AI in the hospital pharmacy, and more.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-27T10:28:58+00:00",
+      "pub_ts": 1785148138
+    },
+    {
+      "id": "89c8ac153d",
+      "title": "Outlook Therapeutics wins FDA approval for Lytenava in wet AMD",
+      "url": "https://www.pharmaceutical-technology.com/news/outlook-therapeutics-wins-fda-approval-for-lytenava-in-wet-amd/",
+      "summary": "Outlook’s approval brings the first ophthalmic formulation of bevacizumab for the treatment of wet AMD.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-27T10:13:56+00:00",
+      "pub_ts": 1785147236
+    },
+    {
+      "id": "86c45d84a5",
+      "title": "Biointron introduces RushData platform for AI-driven antibody discovery",
+      "url": "https://www.pharmaceutical-technology.com/news/biointron-rushdata-platform-ai-driven-antibody/",
+      "summary": "Biointron Biological has launched RushData, a new platform to support the process of antibody discovery for pharmaceutical and biotechnology companies employing AI and ML.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-27T09:23:44+00:00",
+      "pub_ts": 1785144224
+    },
+    {
+      "id": "93dad0316d",
+      "title": "Kenvue’s Tylenol with Naproxen gains FDA approval",
+      "url": "https://www.pharmaceutical-technology.com/news/kenvues-tylenol-naproxen-fda-approval/",
+      "summary": "The FDA has approved Kenvue’s Tylenol with Naproxen, the first OTC fixed-dose combination of acetaminophen and naproxen sodium.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-27T08:58:29+00:00",
+      "pub_ts": 1785142709
+    },
     {
       "id": "126fc17b80",
       "title": "Adult epilepsy market to reach $17.bn across 7MM by 2035",
@@ -15,46 +55,6 @@
       "lang": "en",
       "pub_date": "2026-07-24T14:45:41+00:00",
       "pub_ts": 1784904341
-    },
-    {
-      "id": "d273c17594",
-      "title": "Sanofi abandons eczema drug approval efforts in another blow to OX40 class",
-      "url": "https://www.pharmaceutical-technology.com/news/sanofi-abandons-eczema-ad-drug-approval-efforts/",
-      "summary": "Sanofi is ceasing development of amlitelimab due to concerns around the drug's differential value from other eczema treatment offerings.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-24T13:20:59+00:00",
-      "pub_ts": 1784899259
-    },
-    {
-      "id": "81693e92b3",
-      "title": "BeOne to invest $300m in US manufacturing facility expansion",
-      "url": "https://www.pharmaceutical-technology.com/news/beone-300m-manufacturing-facility-expansion/",
-      "summary": "BeOne Medicines is set to invest $300m in expanding its manufacturing and research operations at the Princeton West Innovation Campus in Hopewell, New Jersey, US.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-24T09:23:24+00:00",
-      "pub_ts": 1784885004
-    },
-    {
-      "id": "9cab46c016",
-      "title": "FDA grants fast track designation for Lundbeck’s Lu AH69593",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-fast-track-lundbecks-lu-ah69593/",
-      "summary": "Lundbeck has secured fast track designation from the US FDA for its investigational treatment, Lu AH69593, to treat narcolepsy.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-24T08:40:17+00:00",
-      "pub_ts": 1784882417
-    },
-    {
-      "id": "36d6cf5694",
-      "title": "GSK secures first lung cancer approval, validating $10.6bn Nuvalent bet",
-      "url": "https://www.pharmaceutical-technology.com/news/gsk-jideytro-zidesamtinib-approval-ros1-positive-nsclc/",
-      "summary": "GSK's newly approved ROS1-positive NSCLC drug, Jideytro will now enter a lung cancer niche dominated by Pfizer’s Lorbrena.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-23T15:15:33+00:00",
-      "pub_ts": 1784819733
     }
   ],
   "source_success_count": 1,

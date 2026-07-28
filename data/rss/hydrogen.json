@@ -3,61 +3,111 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-07-27T03:41:56.058514+00:00",
-  "item_count": 5,
+  "updated_at": "2026-07-28T03:13:54.923210+00:00",
+  "item_count": 10,
   "items": [
     {
-      "id": "0367ceb28a",
-      "title": "China's Hydrogen Two-Wheeler Industry Reaches Export Scale with 50,000-Vehicle Order",
-      "url": "https://fuelcellsworks.com/2026/07/19/fuel-cells/china-s-hydrogen-two-wheeler-industry-reaches-export-scale-with-50-000-vehicle-order",
+      "id": "e24de5e870",
+      "title": "LG Chem More Than Doubles Lifespan of Key Electrode for Green Hydrogen Production",
+      "url": "https://fuelcellsworks.com/2026/07/27/green-hydrogen/lg-chem-more-than-doubles-lifespan-of-key-electrode-for-green-hydrogen-production",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-24T15:39:17+00:00",
-      "pub_ts": 1784907557
+      "pub_date": "2026-07-27T16:02:48+00:00",
+      "pub_ts": 1785168168
     },
     {
-      "id": "2041fc5bde",
-      "title": "GWM Projects R$ 20 Million in Sales of Hydrogen Trucks in Brazil in 2026 After First Supply in New Pole in Bahia",
-      "url": "https://fuelcellsworks.com/2026/07/24/fuel-cells/gwm-projects-r-20-million-in-sales-of-hydrogen-trucks-in-brazil-in-2026-after-first-supply-in-new-pole-in-bahia",
+      "id": "efcef47b7c",
+      "title": "Fuel Cell and Hydrogen News Highlights From China: July 20-24,  2026",
+      "url": "https://fuelcellsworks.com/2026/07/26/clean-hydrogen/fuel-cell-and-hydrogen-news-highlights-from-china-july-20-july-24-2-2026",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-24T15:31:08+00:00",
-      "pub_ts": 1784907068
+      "pub_date": "2026-07-27T15:43:14+00:00",
+      "pub_ts": 1785166994
     },
     {
-      "id": "ffb19bcdd9",
-      "title": "Flying Fuel Cell: MTU Aero Engines Achieves Important Milestones",
-      "url": "https://fuelcellsworks.com/2026/07/24/fuel-cells/flying-fuel-cell-mtu-aero-engines-achieves-important-milestones",
+      "id": "1667e83025",
+      "title": "Primary Hydrogen Appoints Christopher Longton as Vice President, Exploration",
+      "url": "https://fuelcellsworks.com/2026/07/27/hydrogen-economy/primary-hydrogen-appoints-christopher-longton-as-vice-president-exploration",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-24T15:20:44+00:00",
-      "pub_ts": 1784906444
+      "pub_date": "2026-07-27T15:39:03+00:00",
+      "pub_ts": 1785166743
     },
     {
-      "id": "c947c99291",
-      "title": "By the Power of Hydrogen: How Clean Tech Powered the 'Masters of the Universe' Set",
-      "url": "https://fuelcellsworks.com/2026/07/24/energy-innovation/by-the-power-of-hydrogen-how-clean-tech-powered-the-masters-of-the-universe-set",
+      "id": "1367382c6a",
+      "title": "Isuzu and Toyota Target Series Production of Next-Generation Hydrogen Truck in Japan",
+      "url": "https://fuelcellsworks.com/2026/07/26/fuel-cells/isuzu-and-toyota-target-series-production-of-next-generation-hydrogen-truck-in-japan",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-24T15:14:12+00:00",
-      "pub_ts": 1784906052
+      "pub_date": "2026-07-27T15:28:22+00:00",
+      "pub_ts": 1785166102
     },
     {
-      "id": "371327a162",
-      "title": "Renewable Electricity Secured for New 5MW Green Hydrogen Production Facility",
-      "url": "https://fuelcellsworks.com/2026/07/22/h2/edison-signs-renewable-power-deal-to-supply-sapio-s-new-5mw-hydrogen-plant-in-marghera",
+      "id": "323041320d",
+      "title": "Chania Council Opposes Crete Solar-Hydrogen Project Over Local Energy Concerns",
+      "url": "https://fuelcellsworks.com/2026/07/27/green-hydrogen/chania-council-issues-negative-opinion-on-crete-hybrid-renewables-hydrogen-project",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-24T15:09:03+00:00",
-      "pub_ts": 1784905743
+      "pub_date": "2026-07-27T15:24:22+00:00",
+      "pub_ts": 1785165862
+    },
+    {
+      "id": "660f5c551b",
+      "title": "Intelligent Energy brings its hydrogen UAV technology to China’s low-altitude economy",
+      "url": "https://hydrogen-central.com/intelligent-energy-brings-its-hydrogen-uav-technology-to-chinas-low-altitude-economy/",
+      "summary": "Intelligent Energy brings its hydrogen UAV technology to China&#8217;s low-altitude economy Intelligent Energy makes its first major appearance in China at the 2026 International Low Altitude Economy Expo in ShanghaiCompany [&#8230;]\nThe post Intelligent Energy brings its hydrogen UAV technology to …",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-07-23T17:02:25+00:00",
+      "pub_ts": 1784826145
+    },
+    {
+      "id": "0fc7c93355",
+      "title": "ErreDue buys the Piel brand from Mcphy Energy",
+      "url": "https://hydrogen-central.com/erredue-buys-the-piel-brand-from-mcphy-energy/",
+      "summary": "ErreDue buys the Piel brand from Mcphy Energy (Alliance News) &#8211; ErreDue Spa said on Tuesday it has completed the acquisition of the historic &#8216;Piel&#8217; brand from Mcphy Energy, for [&#8230;]\nThe post ErreDue buys the Piel brand from Mcphy Energy appeared first on Hydrogen Central.",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-07-23T17:01:59+00:00",
+      "pub_ts": 1784826119
+    },
+    {
+      "id": "6dbb795853",
+      "title": "VDMA – Hydrogen Market Ramp-Up Requires a Reliable Framework",
+      "url": "https://hydrogen-central.com/vdma-hydrogen-market-ramp-up-requires-a-reliable-framework/",
+      "summary": "VDMA &#8211; Hydrogen Market Ramp-Up Requires a Reliable Framework The Master Plan for Hydrogen and Electricity-Based Fuels in Transportation is intended to create a strategic framework for the ramp-up of [&#8230;]\nThe post VDMA &#8211; Hydrogen Market Ramp-Up Requires a Reliable Framework appeared …",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-07-23T16:57:37+00:00",
+      "pub_ts": 1784825857
+    },
+    {
+      "id": "fabaf1ef0a",
+      "title": "Key milestone for the H2med corridor: BarMar submarine pipeline project moves into the detailed engineering phase (FEED)",
+      "url": "https://hydrogen-central.com/key-milestone-for-the-h2med-corridor-barmar-submarine-pipeline-project-moves-into-the-detailed-engineering-phase-feed/",
+      "summary": "Key milestone for the H2med corridor: BarMar submarine pipeline project moves into the detailed engineering phase (FEED) The H2med consortium announces a major milestone in the development of the European [&#8230;]\nThe post Key milestone for the H2med corridor: BarMar submarine pipeline project move…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-07-23T16:57:23+00:00",
+      "pub_ts": 1784825843
+    },
+    {
+      "id": "74d923fcc5",
+      "title": "VIVIFY Technology Hosts Governor Candidate Byron Donalds at South Florida Headquarters",
+      "url": "https://hydrogen-central.com/vivify-technology-hosts-governor-candidate-byron-donalds-at-south-florida-headquarters/",
+      "summary": "VIVIFY Technology Hosts Governor Candidate Byron Donalds at South Florida Headquarters Delray Beach company demonstrates hydrogen energy platforms built to address Florida&#8217;s hurricane recovery, infrastructure growth, and data center demand [&#8230;]\nThe post VIVIFY Technology Hosts Governor Ca…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-07-23T16:52:19+00:00",
+      "pub_ts": 1784825539
     }
   ],
-  "source_success_count": 1,
+  "source_success_count": 2,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }
