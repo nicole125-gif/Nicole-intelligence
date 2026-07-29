@@ -3,9 +3,49 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-07-28T03:14:07.506364+00:00",
+  "updated_at": "2026-07-29T03:17:33.582982+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "89daf44ef0",
+      "title": "Apnimed scouts $160m IPO to back late-stage sleep apnoea pill development",
+      "url": "https://www.pharmaceutical-technology.com/news/apnimed-160m-ipo-sleep-apnoea-pill-development/",
+      "summary": "Apnimed will use the IPO funds to progress lead candidate oxnimbi, which could become the first pill to break onto the OSA market.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-28T10:26:15+00:00",
+      "pub_ts": 1785234375
+    },
+    {
+      "id": "9009d86c9b",
+      "title": "BioMarin and n-Lorem partner on early research for ReNU syndrome therapy",
+      "url": "https://www.pharmaceutical-technology.com/news/biomarin-n-lorem-early-research-renu-syndrome/",
+      "summary": "BioMarin Pharmaceutical and n-Lorem Foundation have entered a collaboration and licence agreement to develop an investigational ASO therapy for ReNU syndrome.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-28T09:30:07+00:00",
+      "pub_ts": 1785231007
+    },
+    {
+      "id": "04b90b4682",
+      "title": "Argenx signs agreement to buy Forte Biosciences for $2.2bn",
+      "url": "https://www.pharmaceutical-technology.com/news/argenx-to-buy-forte-biosciences/",
+      "summary": "argenx has entered into a definitive agreement to acquire Forte Biosciences for approximately $2.2bn in total equity value.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-28T08:35:41+00:00",
+      "pub_ts": 1785227741
+    },
+    {
+      "id": "9168ca479d",
+      "title": "Why the India-UK trade deal now needs a five-gate implementation ledger",
+      "url": "https://www.pharmaceutical-technology.com/comment/the-india-uk-trade-deal-now-needs-a-five-gate-implementation-ledger/",
+      "summary": "Varun Sharma, founder and CEO of NEUVIOR, reflects on the necessitates of the recently forged India-UK pharma trade deal.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-07-28T08:11:15+00:00",
+      "pub_ts": 1785226275
+    },
     {
       "id": "b575efd51e",
       "title": "Magazine: Made in the USA",
@@ -15,46 +55,6 @@
       "lang": "en",
       "pub_date": "2026-07-27T10:28:58+00:00",
       "pub_ts": 1785148138
-    },
-    {
-      "id": "89c8ac153d",
-      "title": "Outlook Therapeutics wins FDA approval for Lytenava in wet AMD",
-      "url": "https://www.pharmaceutical-technology.com/news/outlook-therapeutics-wins-fda-approval-for-lytenava-in-wet-amd/",
-      "summary": "Outlook’s approval brings the first ophthalmic formulation of bevacizumab for the treatment of wet AMD.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-27T10:13:56+00:00",
-      "pub_ts": 1785147236
-    },
-    {
-      "id": "86c45d84a5",
-      "title": "Biointron introduces RushData platform for AI-driven antibody discovery",
-      "url": "https://www.pharmaceutical-technology.com/news/biointron-rushdata-platform-ai-driven-antibody/",
-      "summary": "Biointron Biological has launched RushData, a new platform to support the process of antibody discovery for pharmaceutical and biotechnology companies employing AI and ML.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-27T09:23:44+00:00",
-      "pub_ts": 1785144224
-    },
-    {
-      "id": "93dad0316d",
-      "title": "Kenvue’s Tylenol with Naproxen gains FDA approval",
-      "url": "https://www.pharmaceutical-technology.com/news/kenvues-tylenol-naproxen-fda-approval/",
-      "summary": "The FDA has approved Kenvue’s Tylenol with Naproxen, the first OTC fixed-dose combination of acetaminophen and naproxen sodium.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-27T08:58:29+00:00",
-      "pub_ts": 1785142709
-    },
-    {
-      "id": "126fc17b80",
-      "title": "Adult epilepsy market to reach $17.bn across 7MM by 2035",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/adult-epilepsy-market-7mm-2035/",
-      "summary": "The adult epilepsy market across the 7MM is poised to grow at a CAGR of 4.4% from $11.4bn in 2025 to $17.8bn in 2035.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-24T14:45:41+00:00",
-      "pub_ts": 1784904341
     }
   ],
   "source_success_count": 1,

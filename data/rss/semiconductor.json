@@ -3,108 +3,138 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-07-28T03:13:24.855284+00:00",
+  "updated_at": "2026-07-29T03:16:55.744741+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "fb44a4b161",
-      "title": "半导体阵痛，市场为何把目光转向苹果？",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815299&idx=1&sn=20059bc5de859a1a27226e24d101a9bf",
-      "summary": "半导体阵痛，市场为何把目光转向苹果？",
+      "id": "159004975f",
+      "title": "光计算芯片，走到量产门口了吗？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815341&idx=1&sn=f93b4162e64e8375954e4e2052f95e96",
+      "summary": "光计算芯片，走到量产门口了吗？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-28T03:13:20.566201+00:00",
-      "pub_ts": 1785208400
+      "pub_date": "2026-07-29T03:16:51.708489+00:00",
+      "pub_ts": 1785295011
     },
     {
-      "id": "e108c9b1be",
-      "title": "全球最强AI数据中心TOP6O，三家中国企业上榜",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815299&idx=2&sn=040a95254e8da4fbd698ccac71e9d7c2",
-      "summary": "全球最强AI数据中心TOP6O，三家中国企业上榜",
+      "id": "2088d52ee6",
+      "title": "所谓“产能过剩”问题：商务部万字文件、国新办最新回应",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815341&idx=2&sn=08c88c0b585167fe309fdd051dc5b8b6",
+      "summary": "所谓“产能过剩”问题：商务部万字文件、国新办最新回应",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-28T03:13:20.566245+00:00",
-      "pub_ts": 1785208400
+      "pub_date": "2026-07-29T03:16:51.708530+00:00",
+      "pub_ts": 1785295011
     },
     {
-      "id": "0b0f92062b",
-      "title": "CPO交换机，进入量产阶段",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815299&idx=3&sn=9f5b3daaa0f28d68a5454afa724cfbf0",
-      "summary": "CPO交换机，进入量产阶段",
+      "id": "e2032d58fb",
+      "title": "全球芯片首破1.5万亿美元！SIA最新报告全解读",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815341&idx=3&sn=dd98d5d8fefffa4d9a22381519d95b6b",
+      "summary": "全球芯片首破1.5万亿美元！SIA最新报告全解读",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-28T03:13:20.566272+00:00",
-      "pub_ts": 1785208400
+      "pub_date": "2026-07-29T03:16:51.708579+00:00",
+      "pub_ts": 1785295011
     },
     {
-      "id": "3d4925c3da",
-      "title": "给消费级PC加上服务器显卡会发生什么？",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815299&idx=4&sn=e45c81713e82f1277fee11a2e42f9a97",
-      "summary": "给消费级PC加上服务器显卡会发生什么？",
+      "id": "eb23938170",
+      "title": "SK海力士：LPDDR6下半年量产",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815341&idx=4&sn=25f7b94eb4424f559629c1f0457b234f",
+      "summary": "SK海力士：LPDDR6下半年量产",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-28T03:13:20.566296+00:00",
-      "pub_ts": 1785208400
+      "pub_date": "2026-07-29T03:16:51.708604+00:00",
+      "pub_ts": 1785295011
     },
     {
-      "id": "e481314dc9",
-      "title": "ASML离不开的蔡司，扩建2.5万m²光学工厂",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815299&idx=5&sn=eda545c6581892e139b5ceea98b51834",
-      "summary": "ASML离不开的蔡司，扩建2.5万m²光学工厂",
+      "id": "4fe0cd836a",
+      "title": "盯上6G，美国要和24国组建研发联盟",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815341&idx=5&sn=7ed1e2ec01ca1c2d35b995baa2196385",
+      "summary": "盯上6G，美国要和24国组建研发联盟",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-28T03:13:20.566318+00:00",
-      "pub_ts": 1785208400
+      "pub_date": "2026-07-29T03:16:51.708625+00:00",
+      "pub_ts": 1785295011
     },
     {
-      "id": "4ec7a45f61",
-      "title": "长鑫上市，市值突破3万亿",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827395&idx=1&sn=d17ae2728539a606d6da29583191055a",
-      "summary": "长鑫上市，市值突破3万亿",
+      "id": "c75161a197",
+      "title": "LPDDR6将量产，小米或成首批客户",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827509&idx=1&sn=345a3a78c9fd073e4642178d0dbc5006",
+      "summary": "LPDDR6将量产，小米或成首批客户",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-28T03:13:12.707719+00:00",
-      "pub_ts": 1785208392
+      "pub_date": "2026-07-29T03:16:41.536656+00:00",
+      "pub_ts": 1785295001
     },
     {
-      "id": "32066210a3",
-      "title": "纳米压印三十年：突破光刻极限的纳米制造革命",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827388&idx=1&sn=398721ccfc228208781b331f64768c95",
-      "summary": "纳米压印三十年：突破光刻极限的纳米制造革命",
+      "id": "6fb6a9c6cf",
+      "title": "基本半导体深圳封装产线基地迎来重大进展，下注汽车与AI算力双增量市场",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827478&idx=1&sn=91ac6d4a8a7d4a7f015e119455ba3150",
+      "summary": "基本半导体深圳封装产线基地迎来重大进展，下注汽车与AI算力双增量市场",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-28T03:13:12.707772+00:00",
-      "pub_ts": 1785208392
+      "pub_date": "2026-07-29T03:16:41.536706+00:00",
+      "pub_ts": 1785295001
     },
     {
-      "id": "3cf63563e5",
-      "title": "LPDDR，成为AI新贵",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827388&idx=2&sn=ba8e750f30ab9da355a366e563a12b6b",
-      "summary": "LPDDR，成为AI新贵",
+      "id": "6c563ace8b",
+      "title": "美国芯片，太猛了，市占创40年新高",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827478&idx=2&sn=87bb5fe9ff7940da06e71e021f405ded",
+      "summary": "美国芯片，太猛了，市占创40年新高",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-28T03:13:12.707820+00:00",
-      "pub_ts": 1785208392
+      "pub_date": "2026-07-29T03:16:41.536731+00:00",
+      "pub_ts": 1785295001
     },
     {
-      "id": "56466e0d92",
-      "title": "EUV光刻机背后的低调王者",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827388&idx=3&sn=f2277e2b7f6de008f0c81a3c97e4e410",
-      "summary": "EUV光刻机背后的低调王者",
+      "id": "2713dae19a",
+      "title": "铜互连，迎来新的替代候选",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827478&idx=3&sn=3816d522da6d5c6dddd62d83683a6623",
+      "summary": "铜互连，迎来新的替代候选",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-28T03:13:12.707844+00:00",
-      "pub_ts": 1785208392
+      "pub_date": "2026-07-29T03:16:41.536754+00:00",
+      "pub_ts": 1785295001
     },
     {
-      "id": "c73bf7a8b9",
-      "title": "关于存储的五个误区",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827388&idx=4&sn=2809d1f6751bc1ace22f54f1950358a0",
-      "summary": "关于存储的五个误区",
+      "id": "64df8bff57",
+      "title": "晶圆厂计量与检测：40年回顾与未来展望",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827478&idx=4&sn=f772eabde3d2750475e89e88f733f9a5",
+      "summary": "晶圆厂计量与检测：40年回顾与未来展望",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-28T03:13:12.707865+00:00",
-      "pub_ts": 1785208392
+      "pub_date": "2026-07-29T03:16:41.536776+00:00",
+      "pub_ts": 1785295001
+    },
+    {
+      "id": "fd15911cfd",
+      "title": "Pre-Silicon Power Side-Channel Leakage In Processors (University of Lübeck)",
+      "url": "https://semiengineering.com/pre-silicon-power-side-channel-leakage-in-processors-university-of-lubeck/",
+      "summary": "Researchers from University of Lübeck published a technical paper titled “SPARC: Automated Root-Cause Analysis of Pre-Silicon Power Side-Channel Leakage in the Processor Design Flow.” Abstract Excerpt: “This paper presents SPARC, an automated framework for pre-silicon PSCL evaluation and root-cause …",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-07-29T02:16:31+00:00",
+      "pub_ts": 1785291391
+    },
+    {
+      "id": "fdff71d9a8",
+      "title": "Chip Industry Technical Paper Roundup: July 28",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-july-28/",
+      "summary": "HW methods to throttle AI; M3D DRAM; interconnect signal-integrity analysis; 3D mask effects in high/hyper-NA EUV litho; compute-in-interconnect and memory; NbAs nanowire interconnects; and 3D conformal thin-film patterning.\nThe post Chip Industry Technical Paper Roundup: July 28 appeared first on S…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-07-28T07:01:45+00:00",
+      "pub_ts": 1785222105
+    },
+    {
+      "id": "6e5ff73f3c",
+      "title": "Research Bits: July 28",
+      "url": "https://semiengineering.com/research-bits-july-28/",
+      "summary": "Photonics: Inverse design; slowing down light; on-chip electro-optic isolator.\nThe post Research Bits: July 28 appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-07-28T07:01:02+00:00",
+      "pub_ts": 1785222062
     },
     {
       "id": "43632678c9",
@@ -125,36 +155,6 @@
       "lang": "en",
       "pub_date": "2026-07-27T07:01:32+00:00",
       "pub_ts": 1785135692
-    },
-    {
-      "id": "cbac4be955",
-      "title": "Why the Semiconductor Industry Needs A Common Language For Functional Safety",
-      "url": "https://semiengineering.com/why-the-semiconductor-industry-needs-a-common-language-for-functional-safety/",
-      "summary": "A standardized way for future automation.\nThe post Why the Semiconductor Industry Needs A Common Language For Functional Safety appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-07-27T07:01:27+00:00",
-      "pub_ts": 1785135687
-    },
-    {
-      "id": "e0e9a67f5b",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-148/",
-      "summary": "Amkor's $1.5B deal; Intel Foundry revenue up 31%; Siemens' dual buys; SiC plant dies; AMD's big week; TSMC price hike; Nokia's fab buy; earnings; $300M for accelerating inference; Keysight's multiphysics; copper interconnect alternative.\nThe post Chip Industry Week In Review appeared first on Semico…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-07-24T07:01:00+00:00",
-      "pub_ts": 1784876460
-    },
-    {
-      "id": "0936c030cc",
-      "title": "Designing Electro-Optical Chips",
-      "url": "https://semiengineering.com/designing-electro-optical-chips/",
-      "summary": "Photonics is forcing EDA to verify not just chips, but the physics of light inside full electro-optical systems.\nThe post Designing Electro-Optical Chips appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-07-23T07:11:26+00:00",
-      "pub_ts": 1784790686
     }
   ],
   "source_success_count": 3,
