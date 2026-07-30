@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-07-29T03:17:21.109089+00:00",
+  "updated_at": "2026-07-30T02:50:15.428965+00:00",
   "item_count": 10,
   "items": [
     {
-      "id": "a084e952b1",
-      "title": "Embry‑Riddle Students Take on Hydrogen-Powered Drone Tech With Honeywell Aerospace",
-      "url": "https://fuelcellsworks.com/2026/07/28/news/embry-riddle-students-take-on-hydrogen-powered-drone-tech-with-honeywell-aerospace",
+      "id": "82db358a50",
+      "title": "Inside HTWO ENERGY Cheongju: Hyundai's First Self-Operated Hydrogen Station Turns Sewage Into Fuel — and Turns a Profit on the CO2, Too",
+      "url": "https://fuelcellsworks.com/2026/07/27/electrolyzer/inside-htwo-energy-cheongju-hyundai-s-first-self-operated-hydrogen-station-turns-sewage-into-fuel-and-turns-a-profit-on-the-co2-too",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-28T15:10:56+00:00",
-      "pub_ts": 1785251456
+      "pub_date": "2026-07-29T15:17:30+00:00",
+      "pub_ts": 1785338250
     },
     {
-      "id": "2356790122",
-      "title": "Green Hydrogen E-Fuel Plant Secures £760,000 [$1M] Scottish Backing on Shetland Islands",
-      "url": "https://fuelcellsworks.com/2026/07/28/news/green-hydrogen-e-fuel-plant-secures-760-000-1m-scottish-backing-on-shetland-islands",
+      "id": "d966cfae7e",
+      "title": "USTDA Supports Major Ammonia Project in Morocco’s Southern Provinces",
+      "url": "https://fuelcellsworks.com/2026/07/29/clean-energy/ustda-supports-major-ammonia-project-in-morocco-s-southern-provinces",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-28T15:03:32+00:00",
-      "pub_ts": 1785251012
+      "pub_date": "2026-07-29T15:03:13+00:00",
+      "pub_ts": 1785337393
     },
     {
-      "id": "06ffaf30e6",
-      "title": "The $2/Kg Claim: Chinese Electrolyser Maker HydoTech Says It's Cracked Green Hydrogen Cost Parity — Aramco and a Cement Giant Are Betting On It",
-      "url": "https://fuelcellsworks.com/2026/07/27/h2/the-2-kg-claim-chinese-electrolyser-maker-hydotech-says-it-s-cracked-green-hydrogen-cost-parity-aramco-and-a-cement-giant-are-betting-on-it",
+      "id": "cc727d8935",
+      "title": "Gold Hydrogen Produces and Bottles Helium During Ramsay 1 Well Test in South Australia",
+      "url": "https://fuelcellsworks.com/2026/07/29/clean-energy/gold-hydrogen-produces-and-bottles-helium-during-ramsay-1-well-test-in-south-australia",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-28T14:59:14+00:00",
-      "pub_ts": 1785250754
+      "pub_date": "2026-07-29T14:55:35+00:00",
+      "pub_ts": 1785336935
     },
     {
-      "id": "1c3845c523",
-      "title": "India Extends Seven-Year Permit Waiver to Hydrogen Commercial Vehicles",
-      "url": "https://fuelcellsworks.com/2026/07/28/news/india-extends-seven-year-permit-waiver-to-hydrogen-commercial-vehicles",
+      "id": "55769fae4d",
+      "title": "600 Km on One Fill: Korea's Hydrogen Train Era Accelerates — and a Liquid Hydrogen Locomotive Just Doubled the Range Target",
+      "url": "https://fuelcellsworks.com/2026/07/27/fuel-cells/600-km-on-one-fill-korea-s-hydrogen-train-era-accelerates-and-a-liquid-hydrogen-locomotive-just-doubled-the-range-target",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-28T14:56:40+00:00",
-      "pub_ts": 1785250600
+      "pub_date": "2026-07-29T14:48:51+00:00",
+      "pub_ts": 1785336531
     },
     {
-      "id": "88a84f0203",
-      "title": "Korea Rewrites Its Ports: Ulsan Drops \"Oil Hub,\" Becomes a Hydrogen and Ammonia Terminal",
-      "url": "https://fuelcellsworks.com/2026/07/27/h2/korea-rewrites-its-ports-ulsan-drops-oil-hub-becomes-a-hydrogen-and-ammonia-terminal",
+      "id": "fb437ec202",
+      "title": "OPINION: Is Bloom Energy Running Out of Scandium? Why the Short Thesis Misses the Engineering Reality",
+      "url": "https://fuelcellsworks.com/2026/07/28/clean-energy/opinion-is-bloom-energy-running-out-of-scandium-why-the-short-thesis-misses-the-engineering-reality",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-28T14:52:18+00:00",
-      "pub_ts": 1785250338
+      "pub_date": "2026-07-29T14:24:20+00:00",
+      "pub_ts": 1785335060
     },
     {
       "id": "660f5c551b",

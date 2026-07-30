@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-07-29T03:17:33.582982+00:00",
+  "updated_at": "2026-07-30T02:50:28.155771+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "89daf44ef0",
-      "title": "Apnimed scouts $160m IPO to back late-stage sleep apnoea pill development",
-      "url": "https://www.pharmaceutical-technology.com/news/apnimed-160m-ipo-sleep-apnoea-pill-development/",
-      "summary": "Apnimed will use the IPO funds to progress lead candidate oxnimbi, which could become the first pill to break onto the OSA market.",
+      "id": "037513e422",
+      "title": "GSK eyes future growth with cost-cutting plan amid promising Q2",
+      "url": "https://www.pharmaceutical-technology.com/news/gsk-eyes-future-growth-cost-cutting-plan-promising-q2/",
+      "summary": "GSK will reallocate a large portion of the £1.9bn saved through to 2029 towards late-stage pipeline acceleration, primarily in oncology.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-28T10:26:15+00:00",
-      "pub_ts": 1785234375
+      "pub_date": "2026-07-29T14:01:34+00:00",
+      "pub_ts": 1785333694
     },
     {
-      "id": "9009d86c9b",
-      "title": "BioMarin and n-Lorem partner on early research for ReNU syndrome therapy",
-      "url": "https://www.pharmaceutical-technology.com/news/biomarin-n-lorem-early-research-renu-syndrome/",
-      "summary": "BioMarin Pharmaceutical and n-Lorem Foundation have entered a collaboration and licence agreement to develop an investigational ASO therapy for ReNU syndrome.",
+      "id": "adbcce43bf",
+      "title": "ADCs: How to manage complexities in growing supply chains",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/adcs-how-to-manage-complexities-in-growing-supply-chains/",
+      "summary": "With the rapid growth of the antibody-drug conjugates (ADCs) a GlobalData webinar outlined how to address these issues in expanding supply chains.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-28T09:30:07+00:00",
-      "pub_ts": 1785231007
+      "pub_date": "2026-07-29T11:26:48+00:00",
+      "pub_ts": 1785324408
     },
     {
-      "id": "04b90b4682",
-      "title": "Argenx signs agreement to buy Forte Biosciences for $2.2bn",
-      "url": "https://www.pharmaceutical-technology.com/news/argenx-to-buy-forte-biosciences/",
-      "summary": "argenx has entered into a definitive agreement to acquire Forte Biosciences for approximately $2.2bn in total equity value.",
+      "id": "de170fdbf2",
+      "title": "From friction to compliance: Cultivating seamless operations in a shifting regulatory landscape",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/from-friction-to-compliance-cultivating-seamless-operations-in-a-shifting-regulatory-landscape/",
+      "summary": "Despite risks of noncompliance, a fragmented, legacy-based compliance approach still dominates life sciences.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-28T08:35:41+00:00",
-      "pub_ts": 1785227741
+      "pub_date": "2026-07-29T10:00:00+00:00",
+      "pub_ts": 1785319200
     },
     {
-      "id": "9168ca479d",
-      "title": "Why the India-UK trade deal now needs a five-gate implementation ledger",
-      "url": "https://www.pharmaceutical-technology.com/comment/the-india-uk-trade-deal-now-needs-a-five-gate-implementation-ledger/",
-      "summary": "Varun Sharma, founder and CEO of NEUVIOR, reflects on the necessitates of the recently forged India-UK pharma trade deal.",
+      "id": "99daf9fa91",
+      "title": "FDA grants fast track designation for HAYA Therapeutics’ HTX-001",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-fast-track-designation-haya-htx-001/",
+      "summary": "HAYA Therapeutics has secured fast track designation from the US FDA for its investigational therapy, HTX-001, to treat symptomatic nHCM.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-28T08:11:15+00:00",
-      "pub_ts": 1785226275
+      "pub_date": "2026-07-29T09:46:45+00:00",
+      "pub_ts": 1785318405
     },
     {
-      "id": "b575efd51e",
-      "title": "Magazine: Made in the USA",
-      "url": "https://www.pharmaceutical-technology.com/features/magazine-made-in-the-usa/",
-      "summary": "In this issue: Misumi Americas makes US manufacturing strategic priority, the celebrity brand ambassador rise in pharma, AI in the hospital pharmacy, and more.",
+      "id": "a084f6eb09",
+      "title": "Eisai and CORE Biomedicine agree on global licence for oncology pipeline",
+      "url": "https://www.pharmaceutical-technology.com/news/eisai-core-biomedicine-oncology-pipeline/",
+      "summary": "Eisai has entered an exclusive global licensing agreement with CORE Biomedicine for several preclinical oncology programmes.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-27T10:28:58+00:00",
-      "pub_ts": 1785148138
+      "pub_date": "2026-07-29T07:50:59+00:00",
+      "pub_ts": 1785311459
     }
   ],
   "source_success_count": 1,
