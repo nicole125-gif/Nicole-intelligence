@@ -3,111 +3,61 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-07-30T02:50:15.428965+00:00",
-  "item_count": 10,
+  "updated_at": "2026-07-31T03:33:18.635782+00:00",
+  "item_count": 5,
   "items": [
     {
-      "id": "82db358a50",
-      "title": "Inside HTWO ENERGY Cheongju: Hyundai's First Self-Operated Hydrogen Station Turns Sewage Into Fuel — and Turns a Profit on the CO2, Too",
-      "url": "https://fuelcellsworks.com/2026/07/27/electrolyzer/inside-htwo-energy-cheongju-hyundai-s-first-self-operated-hydrogen-station-turns-sewage-into-fuel-and-turns-a-profit-on-the-co2-too",
+      "id": "d37ca84a7e",
+      "title": "Kyushu University and Kyushu Electric Target Underground Hydrogen Demonstration in Japan",
+      "url": "https://fuelcellsworks.com/2026/07/29/green-hydrogen/kyushu-university-and-kyushu-electric-target-underground-hydrogen-demonstration-in-japan",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-29T15:17:30+00:00",
-      "pub_ts": 1785338250
+      "pub_date": "2026-07-30T15:24:04+00:00",
+      "pub_ts": 1785425044
     },
     {
-      "id": "d966cfae7e",
-      "title": "USTDA Supports Major Ammonia Project in Morocco’s Southern Provinces",
-      "url": "https://fuelcellsworks.com/2026/07/29/clean-energy/ustda-supports-major-ammonia-project-in-morocco-s-southern-provinces",
+      "id": "d4a9720f5c",
+      "title": "Hydrogen Fuel-Cell Start-Up Supplying COMAC Raises New Cash After Powering 30-Hour Drone Flights",
+      "url": "https://fuelcellsworks.com/2026/07/30/fuel-cells/easyh2power-s-dual-track-bet-a-tsinghua-startup-building-aviation-s-hydrogen-heart-one-engine-at-a-time",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-29T15:03:13+00:00",
-      "pub_ts": 1785337393
+      "pub_date": "2026-07-30T15:17:15+00:00",
+      "pub_ts": 1785424635
     },
     {
-      "id": "cc727d8935",
-      "title": "Gold Hydrogen Produces and Bottles Helium During Ramsay 1 Well Test in South Australia",
-      "url": "https://fuelcellsworks.com/2026/07/29/clean-energy/gold-hydrogen-produces-and-bottles-helium-during-ramsay-1-well-test-in-south-australia",
+      "id": "c6f54aad13",
+      "title": "Construction Begins on Dutch Green Hydrogen and Battery Hub to Tackle Grid Congestion",
+      "url": "https://fuelcellsworks.com/2026/07/29/h2/construction-begins-on-twente-renewable-energy-and-green-hydrogen-hub",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-29T14:55:35+00:00",
-      "pub_ts": 1785336935
+      "pub_date": "2026-07-30T14:57:25+00:00",
+      "pub_ts": 1785423445
     },
     {
-      "id": "55769fae4d",
-      "title": "600 Km on One Fill: Korea's Hydrogen Train Era Accelerates — and a Liquid Hydrogen Locomotive Just Doubled the Range Target",
-      "url": "https://fuelcellsworks.com/2026/07/27/fuel-cells/600-km-on-one-fill-korea-s-hydrogen-train-era-accelerates-and-a-liquid-hydrogen-locomotive-just-doubled-the-range-target",
+      "id": "655135e342",
+      "title": "French Court Approves Hopium’s Revised Recovery Plan and Unlocks Atlas Financing",
+      "url": "https://fuelcellsworks.com/2026/07/30/fuel-cells/french-court-approves-hopium-s-revised-recovery-plan-and-unlocks-atlas-financing",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-29T14:48:51+00:00",
-      "pub_ts": 1785336531
+      "pub_date": "2026-07-30T14:43:37+00:00",
+      "pub_ts": 1785422617
     },
     {
-      "id": "fb437ec202",
-      "title": "OPINION: Is Bloom Energy Running Out of Scandium? Why the Short Thesis Misses the Engineering Reality",
-      "url": "https://fuelcellsworks.com/2026/07/28/clean-energy/opinion-is-bloom-energy-running-out-of-scandium-why-the-short-thesis-misses-the-engineering-reality",
+      "id": "11374cbe0e",
+      "title": "Convergas Expands Into Hydrogen Systems After Gas Truck Growth",
+      "url": "https://fuelcellsworks.com/2026/07/30/h2/convergas-expands-into-hydrogen-systems-after-gas-truck-growth",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-29T14:24:20+00:00",
-      "pub_ts": 1785335060
-    },
-    {
-      "id": "660f5c551b",
-      "title": "Intelligent Energy brings its hydrogen UAV technology to China’s low-altitude economy",
-      "url": "https://hydrogen-central.com/intelligent-energy-brings-its-hydrogen-uav-technology-to-chinas-low-altitude-economy/",
-      "summary": "Intelligent Energy brings its hydrogen UAV technology to China&#8217;s low-altitude economy Intelligent Energy makes its first major appearance in China at the 2026 International Low Altitude Economy Expo in ShanghaiCompany [&#8230;]\nThe post Intelligent Energy brings its hydrogen UAV technology to …",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-07-23T17:02:25+00:00",
-      "pub_ts": 1784826145
-    },
-    {
-      "id": "0fc7c93355",
-      "title": "ErreDue buys the Piel brand from Mcphy Energy",
-      "url": "https://hydrogen-central.com/erredue-buys-the-piel-brand-from-mcphy-energy/",
-      "summary": "ErreDue buys the Piel brand from Mcphy Energy (Alliance News) &#8211; ErreDue Spa said on Tuesday it has completed the acquisition of the historic &#8216;Piel&#8217; brand from Mcphy Energy, for [&#8230;]\nThe post ErreDue buys the Piel brand from Mcphy Energy appeared first on Hydrogen Central.",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-07-23T17:01:59+00:00",
-      "pub_ts": 1784826119
-    },
-    {
-      "id": "6dbb795853",
-      "title": "VDMA – Hydrogen Market Ramp-Up Requires a Reliable Framework",
-      "url": "https://hydrogen-central.com/vdma-hydrogen-market-ramp-up-requires-a-reliable-framework/",
-      "summary": "VDMA &#8211; Hydrogen Market Ramp-Up Requires a Reliable Framework The Master Plan for Hydrogen and Electricity-Based Fuels in Transportation is intended to create a strategic framework for the ramp-up of [&#8230;]\nThe post VDMA &#8211; Hydrogen Market Ramp-Up Requires a Reliable Framework appeared …",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-07-23T16:57:37+00:00",
-      "pub_ts": 1784825857
-    },
-    {
-      "id": "fabaf1ef0a",
-      "title": "Key milestone for the H2med corridor: BarMar submarine pipeline project moves into the detailed engineering phase (FEED)",
-      "url": "https://hydrogen-central.com/key-milestone-for-the-h2med-corridor-barmar-submarine-pipeline-project-moves-into-the-detailed-engineering-phase-feed/",
-      "summary": "Key milestone for the H2med corridor: BarMar submarine pipeline project moves into the detailed engineering phase (FEED) The H2med consortium announces a major milestone in the development of the European [&#8230;]\nThe post Key milestone for the H2med corridor: BarMar submarine pipeline project move…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-07-23T16:57:23+00:00",
-      "pub_ts": 1784825843
-    },
-    {
-      "id": "74d923fcc5",
-      "title": "VIVIFY Technology Hosts Governor Candidate Byron Donalds at South Florida Headquarters",
-      "url": "https://hydrogen-central.com/vivify-technology-hosts-governor-candidate-byron-donalds-at-south-florida-headquarters/",
-      "summary": "VIVIFY Technology Hosts Governor Candidate Byron Donalds at South Florida Headquarters Delray Beach company demonstrates hydrogen energy platforms built to address Florida&#8217;s hurricane recovery, infrastructure growth, and data center demand [&#8230;]\nThe post VIVIFY Technology Hosts Governor Ca…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-07-23T16:52:19+00:00",
-      "pub_ts": 1784825539
+      "pub_date": "2026-07-30T14:18:03+00:00",
+      "pub_ts": 1785421083
     }
   ],
-  "source_success_count": 2,
+  "source_success_count": 1,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }

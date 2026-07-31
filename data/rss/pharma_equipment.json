@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-07-30T02:50:28.155771+00:00",
+  "updated_at": "2026-07-31T03:33:31.038333+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "037513e422",
-      "title": "GSK eyes future growth with cost-cutting plan amid promising Q2",
-      "url": "https://www.pharmaceutical-technology.com/news/gsk-eyes-future-growth-cost-cutting-plan-promising-q2/",
-      "summary": "GSK will reallocate a large portion of the £1.9bn saved through to 2029 towards late-stage pipeline acceleration, primarily in oncology.",
+      "id": "672fee83de",
+      "title": "Pfizer seeks label expansion for Litfulo after double Phase III NSV win",
+      "url": "https://www.pharmaceutical-technology.com/news/pfizer-seeks-label-expansion-for-litfulo-after-double-phase-iii-nsv-win/",
+      "summary": "Pfizer’s Litfulo is already approved in alopecia areata; however, the success of the TRANQUILLO programme sets it up for potential approval in NSV.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-29T14:01:34+00:00",
-      "pub_ts": 1785333694
+      "pub_date": "2026-07-30T15:33:14+00:00",
+      "pub_ts": 1785425594
     },
     {
-      "id": "adbcce43bf",
-      "title": "ADCs: How to manage complexities in growing supply chains",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/adcs-how-to-manage-complexities-in-growing-supply-chains/",
-      "summary": "With the rapid growth of the antibody-drug conjugates (ADCs) a GlobalData webinar outlined how to address these issues in expanding supply chains.",
+      "id": "534cc1a323",
+      "title": "Australia approves first-in-class Niktimvo for later-line cGVHD",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/australia-first-in-class-niktimvo-later-line-cgvhd/",
+      "summary": "Specialised Therapeutics’ Niktimvo (axatilimab) was registered in the Australian Register of Therapeutic Goods for later-line cGVHD.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-29T11:26:48+00:00",
-      "pub_ts": 1785324408
+      "pub_date": "2026-07-30T14:07:30+00:00",
+      "pub_ts": 1785420450
     },
     {
-      "id": "de170fdbf2",
-      "title": "From friction to compliance: Cultivating seamless operations in a shifting regulatory landscape",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/from-friction-to-compliance-cultivating-seamless-operations-in-a-shifting-regulatory-landscape/",
-      "summary": "Despite risks of noncompliance, a fragmented, legacy-based compliance approach still dominates life sciences.",
+      "id": "c08745dcc5",
+      "title": "EU regulatory roundup: AbbVie, Pfizer & BioNTech and Incyte net approvals",
+      "url": "https://www.pharmaceutical-technology.com/news/eu-regulatory-roundup-abbvie-pfizer-biontech-incyte-approvals/",
+      "summary": "AbbVie's Rinvoq, Pfizer and BioNTech's Comirnaty and Incyte's Opzelura have all received their own EU drug regulatory approvals this week.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-29T10:00:00+00:00",
-      "pub_ts": 1785319200
+      "pub_date": "2026-07-30T14:05:40+00:00",
+      "pub_ts": 1785420340
     },
     {
-      "id": "99daf9fa91",
-      "title": "FDA grants fast track designation for HAYA Therapeutics’ HTX-001",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-fast-track-designation-haya-htx-001/",
-      "summary": "HAYA Therapeutics has secured fast track designation from the US FDA for its investigational therapy, HTX-001, to treat symptomatic nHCM.",
+      "id": "1247d2694a",
+      "title": "FDA AdCom shuns Capricor’s DMD cell therapy amid data dispute",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-adcom-shuns-capricors-dmd-cell-therapy-amid-data-dispute/",
+      "summary": "Capricor is adamant its Phase III study showed effectiveness, though panel members called data “fragile”.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-29T09:46:45+00:00",
-      "pub_ts": 1785318405
+      "pub_date": "2026-07-30T11:01:46+00:00",
+      "pub_ts": 1785409306
     },
     {
-      "id": "a084f6eb09",
-      "title": "Eisai and CORE Biomedicine agree on global licence for oncology pipeline",
-      "url": "https://www.pharmaceutical-technology.com/news/eisai-core-biomedicine-oncology-pipeline/",
-      "summary": "Eisai has entered an exclusive global licensing agreement with CORE Biomedicine for several preclinical oncology programmes.",
+      "id": "f4267f8519",
+      "title": "The $1.2tn untapped pharma opportunity in tropical conservation",
+      "url": "https://www.pharmaceutical-technology.com/news/the-1-2tn-untapped-pharma-opportunity-tropical-conservation/",
+      "summary": "Researchers estimate that pharma could unlock up to $1.2tn in commercial value from tropical forests by supporting biodiversity conservation.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-29T07:50:59+00:00",
-      "pub_ts": 1785311459
+      "pub_date": "2026-07-30T10:31:43+00:00",
+      "pub_ts": 1785407503
     }
   ],
   "source_success_count": 1,

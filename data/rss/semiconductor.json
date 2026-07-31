@@ -3,78 +3,118 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-07-30T02:49:48.856907+00:00",
-  "item_count": 12,
+  "updated_at": "2026-07-31T03:32:53.487035+00:00",
+  "item_count": 15,
   "items": [
     {
-      "id": "112caa0e2f",
-      "title": "双龙头提价！MLCC涨价潮全面蔓延",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815381&idx=1&sn=c20df39a88d5048129b44f3824d73c6e",
-      "summary": "双龙头提价！MLCC涨价潮全面蔓延",
+      "id": "b0a6eaae19",
+      "title": "晶圆级芯片，正在升温",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815427&idx=1&sn=1be3c178736de6dae0af8ff87fa47cca",
+      "summary": "晶圆级芯片，正在升温",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-30T02:49:44.583760+00:00",
-      "pub_ts": 1785379784
+      "pub_date": "2026-07-31T03:32:49.342231+00:00",
+      "pub_ts": 1785468769
     },
     {
-      "id": "22921708c6",
-      "title": "从计算到存储：二维半导体产业链正在形成",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815376&idx=1&sn=43776609e2aec3e87901d56833aed61c",
-      "summary": "从计算到存储：二维半导体产业链正在形成",
+      "id": "3b44daa2c2",
+      "title": "《财富》500强盈利分化的背后：半导体定胜负！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815427&idx=2&sn=521db9d5badaa5f680216f8d7f8489a8",
+      "summary": "《财富》500强盈利分化的背后：半导体定胜负！",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-30T02:49:44.583799+00:00",
-      "pub_ts": 1785379784
+      "pub_date": "2026-07-31T03:32:49.342303+00:00",
+      "pub_ts": 1785468769
     },
     {
-      "id": "60e0d77437",
-      "title": "中国先进封装开启新一轮热潮",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815376&idx=2&sn=847c39f6e8ad5072c46e6b76eeafa029",
-      "summary": "中国先进封装开启新一轮热潮",
+      "id": "2dc89151a4",
+      "title": "晶圆制造设备，一个即将爆发的市场",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815427&idx=3&sn=cdb174b706f41ac7d12606d57a54753c",
+      "summary": "晶圆制造设备，一个即将爆发的市场",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-30T02:49:44.583823+00:00",
-      "pub_ts": 1785379784
+      "pub_date": "2026-07-31T03:32:49.342349+00:00",
+      "pub_ts": 1785468769
     },
     {
-      "id": "4a84de423a",
-      "title": "SK海力士利润暴涨557%，但市场不买账",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815376&idx=3&sn=1684cd4919d66c50e715d231887ec86c",
-      "summary": "SK海力士利润暴涨557%，但市场不买账",
+      "id": "d6c8c85477",
+      "title": "进口FPGA交货周期大幅延长",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815427&idx=4&sn=116e90f6cb7b02efe55941976866e73a",
+      "summary": "进口FPGA交货周期大幅延长",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-30T02:49:44.583845+00:00",
-      "pub_ts": 1785379784
+      "pub_date": "2026-07-31T03:32:49.342392+00:00",
+      "pub_ts": 1785468769
     },
     {
-      "id": "ffb087665d",
-      "title": "加码碳化硅产能，意法半导体发布至2034年产业规划",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815376&idx=4&sn=65e4af956b35f1f4cde8f5401082f9fd",
-      "summary": "加码碳化硅产能，意法半导体发布至2034年产业规划",
+      "id": "1deab7c811",
+      "title": "日本芯片工厂大面积停工",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815427&idx=5&sn=c474f382bd83c23a81308a166a2837fe",
+      "summary": "日本芯片工厂大面积停工",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-30T02:49:44.583866+00:00",
-      "pub_ts": 1785379784
+      "pub_date": "2026-07-31T03:32:49.342433+00:00",
+      "pub_ts": 1785468769
     },
     {
-      "id": "09805e58d4",
-      "title": "韩国高中生可以搞芯片了：年薪六位数，奖金270万",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827563&idx=7&sn=3b6635107e3ab8f54ec6dcaa0ffc3e92",
-      "summary": "韩国高中生可以搞芯片了：年薪六位数，奖金270万",
+      "id": "ade4fc06e5",
+      "title": "台积电1.4纳米，新进展！",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827693&idx=1&sn=1ba57081d4ede5e72fef0ab4bc0e83aa",
+      "summary": "台积电1.4纳米，新进展！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-30T02:49:35.587822+00:00",
-      "pub_ts": 1785379775
+      "pub_date": "2026-07-31T03:32:40.143048+00:00",
+      "pub_ts": 1785468760
     },
     {
-      "id": "9ed05e89d6",
-      "title": "英特尔前CEO，入局光刻机",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827563&idx=8&sn=4b46b4a2fa67072f35a9d288634700f8",
-      "summary": "英特尔前CEO，入局光刻机",
+      "id": "79210d297b",
+      "title": "巨头卖晶圆厂背后：芯片风向变了",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827645&idx=1&sn=0720f1621647071366f8a3342d5fc13c",
+      "summary": "巨头卖晶圆厂背后：芯片风向变了",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-30T02:49:35.587867+00:00",
-      "pub_ts": 1785379775
+      "pub_date": "2026-07-31T03:32:40.143104+00:00",
+      "pub_ts": 1785468760
+    },
+    {
+      "id": "1fbfc64315",
+      "title": "三星利润，大增1813%",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827645&idx=2&sn=c40e015b843c0286c0314312e7c67ca8",
+      "summary": "三星利润，大增1813%",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-07-31T03:32:40.143130+00:00",
+      "pub_ts": 1785468760
+    },
+    {
+      "id": "b462b2818f",
+      "title": "芯和半导体EDA2026，重磅发布！",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827645&idx=3&sn=76d8960ec369590e164b41bedc9826ad",
+      "summary": "芯和半导体EDA2026，重磅发布！",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-07-31T03:32:40.143153+00:00",
+      "pub_ts": 1785468760
+    },
+    {
+      "id": "bec9c85bb8",
+      "title": "芯片设备，进入爆发周期",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827645&idx=4&sn=4041760e043afeb14043c5980a879fc5",
+      "summary": "芯片设备，进入爆发周期",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-07-31T03:32:40.143174+00:00",
+      "pub_ts": 1785468760
+    },
+    {
+      "id": "cc6e02313f",
+      "title": "Compute Clusters Break Out Of National Labs To Scale AI",
+      "url": "https://semiengineering.com/compute-clusters-break-out-of-national-labs-to-scale-ai/",
+      "summary": "For compute-intensive applications, clusters of nodes that act as a single computer offer a way to scale performance and provide a workaround for organizations that lack access to leading-edge AI chips.\nThe post Compute Clusters Break Out Of National Labs To Scale AI appeared first on Semiconductor …",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-07-30T07:01:21+00:00",
+      "pub_ts": 1785394881
     },
     {
       "id": "ecb243f9ce",
@@ -115,16 +155,6 @@
       "lang": "en",
       "pub_date": "2026-07-29T22:12:20+00:00",
       "pub_ts": 1785363140
-    },
-    {
-      "id": "ad28871074",
-      "title": "Flat Enough? Warpage Management Gets Harder In Advanced Packaging",
-      "url": "https://semiengineering.com/flat-enough-warpage-management-gets-harder-in-advanced-packaging/",
-      "summary": "As packages get larger and thinner, warpage is becoming a process-control problem rather than a simple flatness spec. \nThe post Flat Enough? Warpage Management Gets Harder In Advanced Packaging appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-07-29T07:01:53+00:00",
-      "pub_ts": 1785308513
     }
   ],
   "source_success_count": 3,
