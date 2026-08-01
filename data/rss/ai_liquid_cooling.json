@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-07-31T03:33:07.495418+00:00",
+  "updated_at": "2026-08-01T03:32:22.170516+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "f9507d5fef",
-      "title": "ClaudeCode之父：Harness保质期只有半年，解开缰绳吧",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247908302&idx=1&sn=86230dda762909d0d74bb4df1345c960",
-      "summary": "ClaudeCode之父：Harness保质期只有半年，解开缰绳吧",
+      "id": "3fae7d9f60",
+      "title": "刚刚，即梦Seedance2.5来了！我狂测测测测..",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247908787&idx=1&sn=0b641217771bb61afb5fea0ae538ec05",
+      "summary": "刚刚，即梦Seedance2.5来了！我狂测测测测..",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-31T03:33:02.817507+00:00",
-      "pub_ts": 1785468782
+      "pub_date": "2026-08-01T03:32:18.232011+00:00",
+      "pub_ts": 1785555138
     },
     {
-      "id": "d5bc640e4d",
-      "title": "微软最新投资季度收益：A社负责暴涨，OpenAI负责送股东进ICU",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247908302&idx=2&sn=f6411ab645c82c8d4745a1741fbe3206",
-      "summary": "微软最新投资季度收益：A社负责暴涨，OpenAI负责送股东进ICU",
+      "id": "9349fb32ab",
+      "title": "?!倒反天罡?!蒸馏小模型可以超过教师模型了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247908787&idx=2&sn=7475d6fe90fda71e63e8e8900cd79b1c",
+      "summary": "?!倒反天罡?!蒸馏小模型可以超过教师模型了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-31T03:33:02.817551+00:00",
-      "pub_ts": 1785468782
+      "pub_date": "2026-08-01T03:32:18.232054+00:00",
+      "pub_ts": 1785555138
     },
     {
-      "id": "9257c8791b",
-      "title": "“接力跑”盘活全国算力，PD分离终于破局：延迟砍半、成本直降近40%！",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247908243&idx=1&sn=7a2f222a8103a1d6b6e5365fc0729d91",
-      "summary": "“接力跑”盘活全国算力，PD分离终于破局：延迟砍半、成本直降近40%！",
+      "id": "18be41d489",
+      "title": "只读文本的AI，科学推理能力只有“看图”AI的1/3|中科大",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247908787&idx=3&sn=cb83cb25e4b27c63e046b7700295ee43",
+      "summary": "只读文本的AI，科学推理能力只有“看图”AI的1/3|中科大",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-31T03:33:02.817575+00:00",
-      "pub_ts": 1785468782
+      "pub_date": "2026-08-01T03:32:18.232078+00:00",
+      "pub_ts": 1785555138
     },
     {
-      "id": "8e507a9466",
-      "title": "GPT-5.6自己优化自己实锤了，新的左脚踩右脚已经出现",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247908243&idx=2&sn=892a69ae90f2e0e6cb24870afdba023a",
-      "summary": "GPT-5.6自己优化自己实锤了，新的左脚踩右脚已经出现",
+      "id": "8e6fb3cfe1",
+      "title": "视频后期，危！MiniMaxH3手绘即特效，多模态的「Coding时刻」来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247908730&idx=1&sn=57ad6d8d751a970e95140ccdc38482cc",
+      "summary": "视频后期，危！MiniMaxH3手绘即特效，多模态的「Coding时刻」来了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-31T03:33:02.817622+00:00",
-      "pub_ts": 1785468782
+      "pub_date": "2026-08-01T03:32:18.232100+00:00",
+      "pub_ts": 1785555138
     },
     {
-      "id": "318040c67b",
-      "title": "三类视觉Token分配，能直接解决高压缩时序碎片化IECCV'26",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247908243&idx=3&sn=2ad052e3f33a1142e5d50a2cc06e38b9",
-      "summary": "三类视觉Token分配，能直接解决高压缩时序碎片化IECCV'26",
+      "id": "1c46ddc129",
+      "title": "SIGGRAPH时间检验奖揭晓：这项研究，提前十年押中了物理AI",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247908730&idx=2&sn=0b3a81693cb5f92800c95b7fc50939f1",
+      "summary": "SIGGRAPH时间检验奖揭晓：这项研究，提前十年押中了物理AI",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-07-31T03:33:02.817649+00:00",
-      "pub_ts": 1785468782
+      "pub_date": "2026-08-01T03:32:18.232120+00:00",
+      "pub_ts": 1785555138
     }
   ],
   "source_success_count": 1,

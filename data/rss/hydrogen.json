@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-07-31T03:33:18.635782+00:00",
+  "updated_at": "2026-08-01T03:32:33.943515+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "d37ca84a7e",
-      "title": "Kyushu University and Kyushu Electric Target Underground Hydrogen Demonstration in Japan",
-      "url": "https://fuelcellsworks.com/2026/07/29/green-hydrogen/kyushu-university-and-kyushu-electric-target-underground-hydrogen-demonstration-in-japan",
+      "id": "47d5846eac",
+      "title": "Pusan National University Study Identifies Smarter Cooling Strategy for Liquid Hydrogen Tanks",
+      "url": "https://fuelcellsworks.com/2026/07/31/energy-innovation/pusan-national-university-study-identifies-smarter-cooling-strategy-for-liquid-hydrogen-tanks",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-30T15:24:04+00:00",
-      "pub_ts": 1785425044
+      "pub_date": "2026-07-31T15:19:24+00:00",
+      "pub_ts": 1785511164
     },
     {
-      "id": "d4a9720f5c",
-      "title": "Hydrogen Fuel-Cell Start-Up Supplying COMAC Raises New Cash After Powering 30-Hour Drone Flights",
-      "url": "https://fuelcellsworks.com/2026/07/30/fuel-cells/easyh2power-s-dual-track-bet-a-tsinghua-startup-building-aviation-s-hydrogen-heart-one-engine-at-a-time",
+      "id": "5dc703f237",
+      "title": "Under the Canal: Thyssengas Closes a 17-Year Gap to Bring Hydrogen to Münsterland by 2027",
+      "url": "https://fuelcellsworks.com/2026/07/29/h2/under-the-canal-thyssengas-closes-a-17-year-gap-to-bring-hydrogen-to-munsterland-by-2027",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-30T15:17:15+00:00",
-      "pub_ts": 1785424635
+      "pub_date": "2026-07-31T14:56:56+00:00",
+      "pub_ts": 1785509816
     },
     {
-      "id": "c6f54aad13",
-      "title": "Construction Begins on Dutch Green Hydrogen and Battery Hub to Tackle Grid Congestion",
-      "url": "https://fuelcellsworks.com/2026/07/29/h2/construction-begins-on-twente-renewable-energy-and-green-hydrogen-hub",
+      "id": "36cd9e391c",
+      "title": "FE Steel Produces Japan’s First Green Hydrogen-Reduced Iron in Decarbonisation Trial",
+      "url": "https://fuelcellsworks.com/2026/07/31/clean-energy/fe-steel-produces-japan-s-first-green-hydrogen-reduced-iron-in-decarbonisation-trial",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-30T14:57:25+00:00",
-      "pub_ts": 1785423445
+      "pub_date": "2026-07-31T14:56:23+00:00",
+      "pub_ts": 1785509783
     },
     {
-      "id": "655135e342",
-      "title": "French Court Approves Hopium’s Revised Recovery Plan and Unlocks Atlas Financing",
-      "url": "https://fuelcellsworks.com/2026/07/30/fuel-cells/french-court-approves-hopium-s-revised-recovery-plan-and-unlocks-atlas-financing",
+      "id": "5a64ca5444",
+      "title": "CNIE Visits Kew Gardens to Launch New EPSRC Project on Green Hydrogen",
+      "url": "https://fuelcellsworks.com/2026/07/31/green-hydrogen/cnie-visits-kew-gardens-to-launch-new-epsrc-project-on-green-hydrogen",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-30T14:43:37+00:00",
-      "pub_ts": 1785422617
+      "pub_date": "2026-07-31T14:34:58+00:00",
+      "pub_ts": 1785508498
     },
     {
-      "id": "11374cbe0e",
-      "title": "Convergas Expands Into Hydrogen Systems After Gas Truck Growth",
-      "url": "https://fuelcellsworks.com/2026/07/30/h2/convergas-expands-into-hydrogen-systems-after-gas-truck-growth",
+      "id": "0855ea6491",
+      "title": "South Korean City Adds Third Hydrogen Bus as Small-Scale Fleet Expansion Continues",
+      "url": "https://fuelcellsworks.com/2026/07/31/fuel-cells/south-korean-city-adds-third-hydrogen-bus-as-small-scale-fleet-expansion-continues",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-30T14:18:03+00:00",
-      "pub_ts": 1785421083
+      "pub_date": "2026-07-31T14:21:57+00:00",
+      "pub_ts": 1785507717
     }
   ],
   "source_success_count": 1,

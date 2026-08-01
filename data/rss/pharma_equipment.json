@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-07-31T03:33:31.038333+00:00",
+  "updated_at": "2026-08-01T03:32:46.429615+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "672fee83de",
-      "title": "Pfizer seeks label expansion for Litfulo after double Phase III NSV win",
-      "url": "https://www.pharmaceutical-technology.com/news/pfizer-seeks-label-expansion-for-litfulo-after-double-phase-iii-nsv-win/",
-      "summary": "Pfizer’s Litfulo is already approved in alopecia areata; however, the success of the TRANQUILLO programme sets it up for potential approval in NSV.",
+      "id": "127711a0e5",
+      "title": "Sublingual semaglutide offered to UK practices despite Novo Nordisk concerns",
+      "url": "https://www.pharmaceutical-technology.com/news/sublingual-semaglutide-offered-to-uk-practices-despite-novo-nordisk-concerns/",
+      "summary": "Sublingual semaglutide, which does not hold marketing authorisation, is touted to minimise gastric issues.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-30T15:33:14+00:00",
-      "pub_ts": 1785425594
+      "pub_date": "2026-07-31T10:57:24+00:00",
+      "pub_ts": 1785495444
     },
     {
-      "id": "534cc1a323",
-      "title": "Australia approves first-in-class Niktimvo for later-line cGVHD",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/australia-first-in-class-niktimvo-later-line-cgvhd/",
-      "summary": "Specialised Therapeutics’ Niktimvo (axatilimab) was registered in the Australian Register of Therapeutic Goods for later-line cGVHD.",
+      "id": "eeb9290f57",
+      "title": "Boosting CGT access: a global consideration with wide-spanning benefits",
+      "url": "https://www.pharmaceutical-technology.com/features/boosting-cgt-access-global-consideration-wide-spanning-benefits/",
+      "summary": "Wider patient access to CGTs hinges on further infrastructure developments and the movement of therapies into the community setting.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-30T14:07:30+00:00",
-      "pub_ts": 1785420450
+      "pub_date": "2026-07-31T10:13:11+00:00",
+      "pub_ts": 1785492791
     },
     {
-      "id": "c08745dcc5",
-      "title": "EU regulatory roundup: AbbVie, Pfizer & BioNTech and Incyte net approvals",
-      "url": "https://www.pharmaceutical-technology.com/news/eu-regulatory-roundup-abbvie-pfizer-biontech-incyte-approvals/",
-      "summary": "AbbVie's Rinvoq, Pfizer and BioNTech's Comirnaty and Incyte's Opzelura have all received their own EU drug regulatory approvals this week.",
+      "id": "6cabca454d",
+      "title": "J&J ventures further into in vivo CAR-T space with Sail partnership, potential buyout",
+      "url": "https://www.pharmaceutical-technology.com/news/jj-sail-biomedicines-collaboration-potential-acquisition-in-vivo-car-t/",
+      "summary": "J&amp;J strikes its deal with Sail as the in vivo CAR-T space becomes increasingly crowded, with several big pharma players betting on the class.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-30T14:05:40+00:00",
-      "pub_ts": 1785420340
+      "pub_date": "2026-07-31T09:59:08+00:00",
+      "pub_ts": 1785491948
     },
     {
-      "id": "1247d2694a",
-      "title": "FDA AdCom shuns Capricor’s DMD cell therapy amid data dispute",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-adcom-shuns-capricors-dmd-cell-therapy-amid-data-dispute/",
-      "summary": "Capricor is adamant its Phase III study showed effectiveness, though panel members called data “fragile”.",
+      "id": "ffbc5915d9",
+      "title": "miRecule and Rio Biofarma to develop RNA therapeutic delivery technologies",
+      "url": "https://www.pharmaceutical-technology.com/news/mirecule-rio-biofarma-rna-therapeutic/",
+      "summary": "miRecule has signed a research collaboration with Rio Biofarma Brasil (RBBL) to co-develop peptide-mediated delivery technologies aimed at improving targeted RNA therapeutics delivery to tissues beyond the liver and muscles in a range of disease areas.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-30T11:01:46+00:00",
-      "pub_ts": 1785409306
+      "pub_date": "2026-07-31T09:58:09+00:00",
+      "pub_ts": 1785491889
     },
     {
-      "id": "f4267f8519",
-      "title": "The $1.2tn untapped pharma opportunity in tropical conservation",
-      "url": "https://www.pharmaceutical-technology.com/news/the-1-2tn-untapped-pharma-opportunity-tropical-conservation/",
-      "summary": "Researchers estimate that pharma could unlock up to $1.2tn in commercial value from tropical forests by supporting biodiversity conservation.",
+      "id": "85d7e05b06",
+      "title": "European drug manufacturers under threat from proposed US supply chain bill",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/european-drug-manufacturers-proposed-us-supply-chain-bill/",
+      "summary": "US efforts to scrutinise overseas drug manufacturing could expose Europe’s role in supplying FDA-approved innovator and biosimilar drugs.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-30T10:31:43+00:00",
-      "pub_ts": 1785407503
+      "pub_date": "2026-07-31T09:34:23+00:00",
+      "pub_ts": 1785490463
     }
   ],
   "source_success_count": 1,

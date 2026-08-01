@@ -3,108 +3,98 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-07-31T03:32:53.487035+00:00",
-  "item_count": 15,
+  "updated_at": "2026-08-01T03:32:08.785685+00:00",
+  "item_count": 13,
   "items": [
     {
-      "id": "b0a6eaae19",
-      "title": "晶圆级芯片，正在升温",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815427&idx=1&sn=1be3c178736de6dae0af8ff87fa47cca",
-      "summary": "晶圆级芯片，正在升温",
+      "id": "641f5774a3",
+      "title": "存储巨头赚翻了，下游扛不住了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815452&idx=1&sn=58cad782cd9d6da6fa6d8e0bfefac721",
+      "summary": "存储巨头赚翻了，下游扛不住了",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-31T03:32:49.342231+00:00",
-      "pub_ts": 1785468769
+      "pub_date": "2026-08-01T03:32:04.548966+00:00",
+      "pub_ts": 1785555124
     },
     {
-      "id": "3b44daa2c2",
-      "title": "《财富》500强盈利分化的背后：半导体定胜负！",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815427&idx=2&sn=521db9d5badaa5f680216f8d7f8489a8",
-      "summary": "《财富》500强盈利分化的背后：半导体定胜负！",
+      "id": "7dce94e950",
+      "title": "发改委：上半年AI相关行业增速超30%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815452&idx=2&sn=e47534b8aec0db2b02077132e7d631e6",
+      "summary": "发改委：上半年AI相关行业增速超30%",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-31T03:32:49.342303+00:00",
-      "pub_ts": 1785468769
+      "pub_date": "2026-08-01T03:32:04.549010+00:00",
+      "pub_ts": 1785555124
     },
     {
-      "id": "2dc89151a4",
-      "title": "晶圆制造设备，一个即将爆发的市场",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815427&idx=3&sn=cdb174b706f41ac7d12606d57a54753c",
-      "summary": "晶圆制造设备，一个即将爆发的市场",
+      "id": "27d471c7ed",
+      "title": "日月光净利暴涨180%，先进封装彻底火了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815452&idx=3&sn=4d247a51771761d578d569b77c1ae626",
+      "summary": "日月光净利暴涨180%，先进封装彻底火了",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-31T03:32:49.342349+00:00",
-      "pub_ts": 1785468769
+      "pub_date": "2026-08-01T03:32:04.549035+00:00",
+      "pub_ts": 1785555124
     },
     {
-      "id": "d6c8c85477",
-      "title": "进口FPGA交货周期大幅延长",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815427&idx=4&sn=116e90f6cb7b02efe55941976866e73a",
-      "summary": "进口FPGA交货周期大幅延长",
+      "id": "7327aa0d97",
+      "title": "CPO大势已定，商业化真的能如期落地吗？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815452&idx=4&sn=29a88ccf10d211c69ba2489e283b223c",
+      "summary": "CPO大势已定，商业化真的能如期落地吗？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-31T03:32:49.342392+00:00",
-      "pub_ts": 1785468769
+      "pub_date": "2026-08-01T03:32:04.549058+00:00",
+      "pub_ts": 1785555124
     },
     {
-      "id": "1deab7c811",
-      "title": "日本芯片工厂大面积停工",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815427&idx=5&sn=c474f382bd83c23a81308a166a2837fe",
-      "summary": "日本芯片工厂大面积停工",
+      "id": "e6b361f463",
+      "title": "DDR5 MRDIMM开启速率竞速：二代最高可达14400MT/s，三代冲刺16000MT/s",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815452&idx=5&sn=2860866e3d40d818368f4e22d85b325d",
+      "summary": "DDR5 MRDIMM开启速率竞速：二代最高可达14400MT/s，三代冲刺16000MT/s",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-07-31T03:32:49.342433+00:00",
-      "pub_ts": 1785468769
+      "pub_date": "2026-08-01T03:32:04.549082+00:00",
+      "pub_ts": 1785555124
     },
     {
-      "id": "ade4fc06e5",
-      "title": "台积电1.4纳米，新进展！",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827693&idx=1&sn=1ba57081d4ede5e72fef0ab4bc0e83aa",
-      "summary": "台积电1.4纳米，新进展！",
+      "id": "63ddf3d3fe",
+      "title": "突发，力积电黄崇仁逝世",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827851&idx=1&sn=94f97958187bb3ba0ed1a56ab6bf1c62",
+      "summary": "突发，力积电黄崇仁逝世",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-31T03:32:40.143048+00:00",
-      "pub_ts": 1785468760
+      "pub_date": "2026-08-01T03:31:56.753256+00:00",
+      "pub_ts": 1785555116
     },
     {
-      "id": "79210d297b",
-      "title": "巨头卖晶圆厂背后：芯片风向变了",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827645&idx=1&sn=0720f1621647071366f8a3342d5fc13c",
-      "summary": "巨头卖晶圆厂背后：芯片风向变了",
+      "id": "83121f03c6",
+      "title": "澜起CXL芯片试产，业界首款",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827808&idx=1&sn=7c82c800c2495449339c33b44df62b9a",
+      "summary": "澜起CXL芯片试产，业界首款",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-31T03:32:40.143104+00:00",
-      "pub_ts": 1785468760
+      "pub_date": "2026-08-01T03:31:56.753308+00:00",
+      "pub_ts": 1785555116
     },
     {
-      "id": "1fbfc64315",
-      "title": "三星利润，大增1813%",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827645&idx=2&sn=c40e015b843c0286c0314312e7c67ca8",
-      "summary": "三星利润，大增1813%",
+      "id": "403bc385cd",
+      "title": "长鑫市值，4万亿",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827721&idx=1&sn=bc0780ceedc3d5730b18002dff642372",
+      "summary": "长鑫市值，4万亿",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-07-31T03:32:40.143130+00:00",
-      "pub_ts": 1785468760
+      "pub_date": "2026-08-01T03:31:56.753334+00:00",
+      "pub_ts": 1785555116
     },
     {
-      "id": "b462b2818f",
-      "title": "芯和半导体EDA2026，重磅发布！",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827645&idx=3&sn=76d8960ec369590e164b41bedc9826ad",
-      "summary": "芯和半导体EDA2026，重磅发布！",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-07-31T03:32:40.143153+00:00",
-      "pub_ts": 1785468760
-    },
-    {
-      "id": "bec9c85bb8",
-      "title": "芯片设备，进入爆发周期",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827645&idx=4&sn=4041760e043afeb14043c5980a879fc5",
-      "summary": "芯片设备，进入爆发周期",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-07-31T03:32:40.143174+00:00",
-      "pub_ts": 1785468760
+      "id": "8816806bc9",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-149/",
+      "summary": "DAC's big buzz; CHIPS Act $; China's immersion DUV; UMC expands; SIA's state of the industry; DRAM shortages; earnings; PCB design credential program; IBM's quantum advantage; AI security alliance; foreign robotics ban.\nThe post Chip Industry Week In Review appeared first on Semiconductor Engineerin…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-07-31T07:01:48+00:00",
+      "pub_ts": 1785481308
     },
     {
       "id": "cc6e02313f",
@@ -145,16 +135,6 @@
       "lang": "en",
       "pub_date": "2026-07-29T22:32:14+00:00",
       "pub_ts": 1785364334
-    },
-    {
-      "id": "7b8857ff20",
-      "title": "Benchmarking Open-Source LLMs on Verilog RTL Generation Across 50 Tasks (NMIMS, IIT Roorkee, BITS Pilani)",
-      "url": "https://semiengineering.com/benchmarking-open-source-llms-on-verilog-rtl-generation-across-50-tasks-nmims-iit-roorkee-bits-pilani/",
-      "summary": "Researchers from NMIMS Hyderabad, IIT Roorkee, and BITS Pilani published a technical paper titled “Benchmarking LLMs for Verilog Design Flows.” Abstract Excerpt: The paper presents “aa reproducible benchmarking platform that evaluates open-source LLMs on Verilog RTL generation across 50 curated task…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-07-29T22:12:20+00:00",
-      "pub_ts": 1785363140
     }
   ],
   "source_success_count": 3,
