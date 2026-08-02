@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-08-01T03:32:33.943515+00:00",
+  "updated_at": "2026-08-02T03:32:01.423722+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "47d5846eac",
-      "title": "Pusan National University Study Identifies Smarter Cooling Strategy for Liquid Hydrogen Tanks",
-      "url": "https://fuelcellsworks.com/2026/07/31/energy-innovation/pusan-national-university-study-identifies-smarter-cooling-strategy-for-liquid-hydrogen-tanks",
+      "id": "e44958974a",
+      "title": "MAN Begins Real-World Trials of Hydrogen Fuel-Cell Trucks on German Freight Routes",
+      "url": "https://fuelcellsworks.com/2026/07/31/fuel-cells/man-begins-real-world-trials-of-hydrogen-fuel-cell-trucks-on-german-freight-routes",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-31T15:19:24+00:00",
-      "pub_ts": 1785511164
+      "pub_date": "2026-07-31T16:17:03+00:00",
+      "pub_ts": 1785514623
     },
     {
-      "id": "5dc703f237",
-      "title": "Under the Canal: Thyssengas Closes a 17-Year Gap to Bring Hydrogen to Münsterland by 2027",
-      "url": "https://fuelcellsworks.com/2026/07/29/h2/under-the-canal-thyssengas-closes-a-17-year-gap-to-bring-hydrogen-to-munsterland-by-2027",
+      "id": "429ccf1e66",
+      "title": "EOS Joins MAT‑H2 Consortium to Advance Additive Manufacturing Materials for the Hydrogen Economy",
+      "url": "https://fuelcellsworks.com/2026/07/31/energy-development/eos-joins-mat-h2-consortium-to-advance-additive-manufacturing-materials-for-the-hydrogen-economy",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-31T14:56:56+00:00",
-      "pub_ts": 1785509816
+      "pub_date": "2026-07-31T16:02:13+00:00",
+      "pub_ts": 1785513733
     },
     {
-      "id": "36cd9e391c",
-      "title": "FE Steel Produces Japan’s First Green Hydrogen-Reduced Iron in Decarbonisation Trial",
-      "url": "https://fuelcellsworks.com/2026/07/31/clean-energy/fe-steel-produces-japan-s-first-green-hydrogen-reduced-iron-in-decarbonisation-trial",
+      "id": "2beba6b0fa",
+      "title": "Motor Oil Group Enables the Deployment of Greece’s First Registered Hydrogen Passenger Vehicles",
+      "url": "https://fuelcellsworks.com/2026/07/31/fuel-cells/motor-oil-group-enables-the-deployment-of-greece-s-first-registered-hydrogen-passenger-vehicles",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-31T14:56:23+00:00",
-      "pub_ts": 1785509783
+      "pub_date": "2026-07-31T15:48:01+00:00",
+      "pub_ts": 1785512881
     },
     {
-      "id": "5a64ca5444",
-      "title": "CNIE Visits Kew Gardens to Launch New EPSRC Project on Green Hydrogen",
-      "url": "https://fuelcellsworks.com/2026/07/31/green-hydrogen/cnie-visits-kew-gardens-to-launch-new-epsrc-project-on-green-hydrogen",
+      "id": "a2464a2d44",
+      "title": "North America’s First Hydrogen Passenger Train Wins 2026 APTA Innovation Award",
+      "url": "https://fuelcellsworks.com/2026/07/31/fuel-cells/north-america-s-first-hydrogen-passenger-train-wins-2026-apta-innovation-award",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-31T14:34:58+00:00",
-      "pub_ts": 1785508498
+      "pub_date": "2026-07-31T15:39:17+00:00",
+      "pub_ts": 1785512357
     },
     {
-      "id": "0855ea6491",
-      "title": "South Korean City Adds Third Hydrogen Bus as Small-Scale Fleet Expansion Continues",
-      "url": "https://fuelcellsworks.com/2026/07/31/fuel-cells/south-korean-city-adds-third-hydrogen-bus-as-small-scale-fleet-expansion-continues",
+      "id": "77a5b06a52",
+      "title": "Vietnam Pushes Domestic Technology and Standards to Build a Viable Hydrogen Industry",
+      "url": "https://fuelcellsworks.com/2026/07/31/h2/vietnam-pushes-domestic-technology-and-standards-to-build-a-viable-hydrogen-industry",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-07-31T14:21:57+00:00",
-      "pub_ts": 1785507717
+      "pub_date": "2026-07-31T15:32:21+00:00",
+      "pub_ts": 1785511941
     }
   ],
   "source_success_count": 1,

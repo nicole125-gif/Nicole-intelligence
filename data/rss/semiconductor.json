@@ -3,88 +3,108 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-08-01T03:32:08.785685+00:00",
-  "item_count": 13,
+  "updated_at": "2026-08-02T03:31:38.036976+00:00",
+  "item_count": 15,
   "items": [
     {
-      "id": "641f5774a3",
-      "title": "存储巨头赚翻了，下游扛不住了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815452&idx=1&sn=58cad782cd9d6da6fa6d8e0bfefac721",
-      "summary": "存储巨头赚翻了，下游扛不住了",
+      "id": "706beac88e",
+      "title": "半导体设备交期翻倍，一石激起千层浪",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815481&idx=1&sn=4d30e26f009e2eee7e23356c2f6b315b",
+      "summary": "半导体设备交期翻倍，一石激起千层浪",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-01T03:32:04.548966+00:00",
-      "pub_ts": 1785555124
+      "pub_date": "2026-08-02T03:31:33.880549+00:00",
+      "pub_ts": 1785641493
     },
     {
-      "id": "7dce94e950",
-      "title": "发改委：上半年AI相关行业增速超30%",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815452&idx=2&sn=e47534b8aec0db2b02077132e7d631e6",
-      "summary": "发改委：上半年AI相关行业增速超30%",
+      "id": "bb764fab8c",
+      "title": "AI带动了三星芯片业务，代工却面临考验",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815481&idx=2&sn=b8d780eac7702189f78dcf41706aafd9",
+      "summary": "AI带动了三星芯片业务，代工却面临考验",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-01T03:32:04.549010+00:00",
-      "pub_ts": 1785555124
+      "pub_date": "2026-08-02T03:31:33.880590+00:00",
+      "pub_ts": 1785641493
     },
     {
-      "id": "27d471c7ed",
-      "title": "日月光净利暴涨180%，先进封装彻底火了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815452&idx=3&sn=4d247a51771761d578d569b77c1ae626",
-      "summary": "日月光净利暴涨180%，先进封装彻底火了",
+      "id": "06f2711376",
+      "title": "8.74亿美元！美国政府，又入股7家半导体公司",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815481&idx=3&sn=057e6871005c5518f61724d0f1c8e5cb",
+      "summary": "8.74亿美元！美国政府，又入股7家半导体公司",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-01T03:32:04.549035+00:00",
-      "pub_ts": 1785555124
+      "pub_date": "2026-08-02T03:31:33.880616+00:00",
+      "pub_ts": 1785641493
     },
     {
-      "id": "7327aa0d97",
-      "title": "CPO大势已定，商业化真的能如期落地吗？",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815452&idx=4&sn=29a88ccf10d211c69ba2489e283b223c",
-      "summary": "CPO大势已定，商业化真的能如期落地吗？",
+      "id": "70715701b8",
+      "title": "OpenAI硬件路线图曝光：第一台硬件没有屏幕，手机2027上半年量产",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815481&idx=4&sn=b6d3c7a411718720086cb623abb693ca",
+      "summary": "OpenAI硬件路线图曝光：第一台硬件没有屏幕，手机2027上半年量产",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-01T03:32:04.549058+00:00",
-      "pub_ts": 1785555124
+      "pub_date": "2026-08-02T03:31:33.880639+00:00",
+      "pub_ts": 1785641493
     },
     {
-      "id": "e6b361f463",
-      "title": "DDR5 MRDIMM开启速率竞速：二代最高可达14400MT/s，三代冲刺16000MT/s",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815452&idx=5&sn=2860866e3d40d818368f4e22d85b325d",
-      "summary": "DDR5 MRDIMM开启速率竞速：二代最高可达14400MT/s，三代冲刺16000MT/s",
+      "id": "a0b3f36c7a",
+      "title": "半导体最隐秘的卡脖子材料，涨了几倍没人注意，刚被中国禁了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815481&idx=5&sn=95f585f6e382e4a94b097f220b9d448e",
+      "summary": "半导体最隐秘的卡脖子材料，涨了几倍没人注意，刚被中国禁了",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-01T03:32:04.549082+00:00",
-      "pub_ts": 1785555124
+      "pub_date": "2026-08-02T03:31:33.880660+00:00",
+      "pub_ts": 1785641493
     },
     {
-      "id": "63ddf3d3fe",
-      "title": "突发，力积电黄崇仁逝世",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827851&idx=1&sn=94f97958187bb3ba0ed1a56ab6bf1c62",
-      "summary": "突发，力积电黄崇仁逝世",
+      "id": "ecdbcfc0a8",
+      "title": "内存行情，百年一遇",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827877&idx=1&sn=594a3650299ac37407531771db89b5a6",
+      "summary": "内存行情，百年一遇",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-01T03:31:56.753256+00:00",
-      "pub_ts": 1785555116
+      "pub_date": "2026-08-02T03:31:22.407532+00:00",
+      "pub_ts": 1785641482
     },
     {
-      "id": "83121f03c6",
-      "title": "澜起CXL芯片试产，业界首款",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827808&idx=1&sn=7c82c800c2495449339c33b44df62b9a",
-      "summary": "澜起CXL芯片试产，业界首款",
+      "id": "8bc79efb38",
+      "title": "光子技术，新突破",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827877&idx=2&sn=4095e3df332b4d44b5d5839509ddd56b",
+      "summary": "光子技术，新突破",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-01T03:31:56.753308+00:00",
-      "pub_ts": 1785555116
+      "pub_date": "2026-08-02T03:31:22.407581+00:00",
+      "pub_ts": 1785641482
     },
     {
-      "id": "403bc385cd",
-      "title": "长鑫市值，4万亿",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827721&idx=1&sn=bc0780ceedc3d5730b18002dff642372",
-      "summary": "长鑫市值，4万亿",
+      "id": "e7cdc76a9b",
+      "title": "单日刷屏科创板！长鑫科技重磅上市引爆存储赛道，10月上海集成电路产业盛...",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827877&idx=3&sn=5ec6bbe74ad2c6d5c0176a316ffb4211",
+      "summary": "单日刷屏科创板！长鑫科技重磅上市引爆存储赛道，10月上海集成电路产业盛...",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-01T03:31:56.753334+00:00",
-      "pub_ts": 1785555116
+      "pub_date": "2026-08-02T03:31:22.407606+00:00",
+      "pub_ts": 1785641482
+    },
+    {
+      "id": "b99bdaf16d",
+      "title": "一文读懂CoWoS-S和CoWoS-R",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827877&idx=4&sn=838e62f819e53e5f29321b9799cb46bb",
+      "summary": "一文读懂CoWoS-S和CoWoS-R",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-08-02T03:31:22.407628+00:00",
+      "pub_ts": 1785641482
+    },
+    {
+      "id": "c03ea03807",
+      "title": "MLCC：供应短缺、价格飙升",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827877&idx=5&sn=03b53f1e61dd6fa654dc07d62a8a2465",
+      "summary": "MLCC：供应短缺、价格飙升",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-08-02T03:31:22.407650+00:00",
+      "pub_ts": 1785641482
     },
     {
       "id": "8816806bc9",
