@@ -3,108 +3,118 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-08-02T03:31:38.036976+00:00",
+  "updated_at": "2026-08-03T03:33:49.548532+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "706beac88e",
-      "title": "半导体设备交期翻倍，一石激起千层浪",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815481&idx=1&sn=4d30e26f009e2eee7e23356c2f6b315b",
-      "summary": "半导体设备交期翻倍，一石激起千层浪",
+      "id": "c2a213f8d4",
+      "title": "人形机器人的2026，产量狂欢与落地迷思",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815506&idx=1&sn=1d76d4b66fed13f9e67b8a5a8ab5d4cc",
+      "summary": "人形机器人的2026，产量狂欢与落地迷思",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-02T03:31:33.880549+00:00",
-      "pub_ts": 1785641493
+      "pub_date": "2026-08-03T03:33:45.465404+00:00",
+      "pub_ts": 1785728025
     },
     {
-      "id": "bb764fab8c",
-      "title": "AI带动了三星芯片业务，代工却面临考验",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815481&idx=2&sn=b8d780eac7702189f78dcf41706aafd9",
-      "summary": "AI带动了三星芯片业务，代工却面临考验",
+      "id": "747a40ca19",
+      "title": "华为推出两款自研麒麟PC处理器，两款鸿蒙笔记本即将发布",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815506&idx=2&sn=7a0901c5cf92c2022f14d31a9432d06f",
+      "summary": "华为推出两款自研麒麟PC处理器，两款鸿蒙笔记本即将发布",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-02T03:31:33.880590+00:00",
-      "pub_ts": 1785641493
+      "pub_date": "2026-08-03T03:33:45.465448+00:00",
+      "pub_ts": 1785728025
     },
     {
-      "id": "06f2711376",
-      "title": "8.74亿美元！美国政府，又入股7家半导体公司",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815481&idx=3&sn=057e6871005c5518f61724d0f1c8e5cb",
-      "summary": "8.74亿美元！美国政府，又入股7家半导体公司",
+      "id": "2a4fb82c67",
+      "title": "定制芯片会冲击FPGA原型开发市场吗？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815506&idx=3&sn=3ac18c3f7cbb72f5d7c9d871fdfd28c3",
+      "summary": "定制芯片会冲击FPGA原型开发市场吗？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-02T03:31:33.880616+00:00",
-      "pub_ts": 1785641493
+      "pub_date": "2026-08-03T03:33:45.465475+00:00",
+      "pub_ts": 1785728025
     },
     {
-      "id": "70715701b8",
-      "title": "OpenAI硬件路线图曝光：第一台硬件没有屏幕，手机2027上半年量产",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815481&idx=4&sn=b6d3c7a411718720086cb623abb693ca",
-      "summary": "OpenAI硬件路线图曝光：第一台硬件没有屏幕，手机2027上半年量产",
+      "id": "ca85011a60",
+      "title": "宁德时代的焦虑，和英伟达一模一样",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815506&idx=4&sn=a5302324a528465f544ae9d64ccc0d61",
+      "summary": "宁德时代的焦虑，和英伟达一模一样",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-02T03:31:33.880639+00:00",
-      "pub_ts": 1785641493
+      "pub_date": "2026-08-03T03:33:45.465497+00:00",
+      "pub_ts": 1785728025
     },
     {
-      "id": "a0b3f36c7a",
-      "title": "半导体最隐秘的卡脖子材料，涨了几倍没人注意，刚被中国禁了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815481&idx=5&sn=95f585f6e382e4a94b097f220b9d448e",
-      "summary": "半导体最隐秘的卡脖子材料，涨了几倍没人注意，刚被中国禁了",
+      "id": "00465bbeb5",
+      "title": "CUDA20年护城河一个周末崩了！Claude独自跑通AMD新GPU",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815506&idx=5&sn=b148e142158113bf69db470f038856e9",
+      "summary": "CUDA20年护城河一个周末崩了！Claude独自跑通AMD新GPU",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-02T03:31:33.880660+00:00",
-      "pub_ts": 1785641493
+      "pub_date": "2026-08-03T03:33:45.465518+00:00",
+      "pub_ts": 1785728025
     },
     {
-      "id": "ecdbcfc0a8",
-      "title": "内存行情，百年一遇",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827877&idx=1&sn=594a3650299ac37407531771db89b5a6",
-      "summary": "内存行情，百年一遇",
+      "id": "6dc58f696b",
+      "title": "TFLN，拐点将至",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827914&idx=1&sn=e92c11555ccf40ec207c7471fe714275",
+      "summary": "TFLN，拐点将至",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-02T03:31:22.407532+00:00",
-      "pub_ts": 1785641482
+      "pub_date": "2026-08-03T03:33:32.401946+00:00",
+      "pub_ts": 1785728012
     },
     {
-      "id": "8bc79efb38",
-      "title": "光子技术，新突破",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827877&idx=2&sn=4095e3df332b4d44b5d5839509ddd56b",
-      "summary": "光子技术，新突破",
+      "id": "8eb2a7ac83",
+      "title": "又一家初创公司，要挑战ASML",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827914&idx=2&sn=fec036c226c4e7a58825d77ae495b235",
+      "summary": "又一家初创公司，要挑战ASML",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-02T03:31:22.407581+00:00",
-      "pub_ts": 1785641482
+      "pub_date": "2026-08-03T03:33:32.401998+00:00",
+      "pub_ts": 1785728012
     },
     {
-      "id": "e7cdc76a9b",
-      "title": "单日刷屏科创板！长鑫科技重磅上市引爆存储赛道，10月上海集成电路产业盛...",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827877&idx=3&sn=5ec6bbe74ad2c6d5c0176a316ffb4211",
-      "summary": "单日刷屏科创板！长鑫科技重磅上市引爆存储赛道，10月上海集成电路产业盛...",
+      "id": "f5ebce022a",
+      "title": "三星氮化镓，再次延期",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827914&idx=3&sn=f6cd9cc66a0676aed17b66a958d6465f",
+      "summary": "三星氮化镓，再次延期",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-02T03:31:22.407606+00:00",
-      "pub_ts": 1785641482
+      "pub_date": "2026-08-03T03:33:32.402024+00:00",
+      "pub_ts": 1785728012
     },
     {
-      "id": "b99bdaf16d",
-      "title": "一文读懂CoWoS-S和CoWoS-R",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827877&idx=4&sn=838e62f819e53e5f29321b9799cb46bb",
-      "summary": "一文读懂CoWoS-S和CoWoS-R",
+      "id": "844c964155",
+      "title": "联发科AIASIC加速起飞",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827914&idx=4&sn=4ca5d310216b9dd2deecb9dc95a7855c",
+      "summary": "联发科AIASIC加速起飞",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-02T03:31:22.407628+00:00",
-      "pub_ts": 1785641482
+      "pub_date": "2026-08-03T03:33:32.402047+00:00",
+      "pub_ts": 1785728012
     },
     {
-      "id": "c03ea03807",
-      "title": "MLCC：供应短缺、价格飙升",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827877&idx=5&sn=03b53f1e61dd6fa654dc07d62a8a2465",
-      "summary": "MLCC：供应短缺、价格飙升",
+      "id": "723ab9fc43",
+      "title": "AI存储扩产潮，谁是最大赢家?",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827914&idx=5&sn=28989c4bdcd9078f8a49d02209beeb83",
+      "summary": "AI存储扩产潮，谁是最大赢家?",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-02T03:31:22.407650+00:00",
-      "pub_ts": 1785641482
+      "pub_date": "2026-08-03T03:33:32.402068+00:00",
+      "pub_ts": 1785728012
+    },
+    {
+      "id": "67de8a792d",
+      "title": "Modular Verification of RTL Processors Against ISA Contracts (MIT, Google, UW)",
+      "url": "https://semiengineering.com/modular-verification-of-rtl-processors-against-isa-contracts-mit-google-uw/",
+      "summary": "Researchers from MIT, Google, and University of Washington published a technical paper titled “Granite: A Modular Methodology for Foundational Verification of Hardware-Software Leakage Contracts.” Abstract Excerpt: &#8220;Granite is a methodology for modular verification of both functional correctne…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-02T19:00:14+00:00",
+      "pub_ts": 1785697214
     },
     {
       "id": "8816806bc9",
@@ -145,16 +155,6 @@
       "lang": "en",
       "pub_date": "2026-07-29T22:45:54+00:00",
       "pub_ts": 1785365154
-    },
-    {
-      "id": "fabe878318",
-      "title": "Deployable 3D Structures from Wafer-Fabricated Precursors (U. of Houston, Toyota, Imperial College London)",
-      "url": "https://semiengineering.com/deployable-3d-structures-from-wafer-fabricated-precursors-u-of-houston-toyota-imperial-college-london/",
-      "summary": "Researchers from University of Houston, Toyota, and Imperial College London published a technical paper titled “Deployable 3D Architectures from Wafer-Fabricated Precursors.” The paper shows that “standard wafer fabrication can produce free-standing, mechanically stable, doubly-curved 3D structures …",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-07-29T22:32:14+00:00",
-      "pub_ts": 1785364334
     }
   ],
   "source_success_count": 3,
