@@ -3,9 +3,49 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-08-03T03:34:26.294379+00:00",
+  "updated_at": "2026-08-04T03:17:15.726087+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "61ae50ad6d",
+      "title": "AstraZeneca shares slump after $400bn BMS merger rumours",
+      "url": "https://www.pharmaceutical-technology.com/news/astrazeneca-shares-slump-after-400bn-bms-merger-rumours/",
+      "summary": "One of the largest global pharma companies would be created if a deal were to materialise.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-08-03T15:03:57+00:00",
+      "pub_ts": 1785769437
+    },
+    {
+      "id": "426c6ccf3e",
+      "title": "What will health and social care look like under Andy Burnham?",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/health-and-social-care-under-andy-burnham/",
+      "summary": "New UK PM Andy Burnham enters office with experience of the health sector, having previously been health secretary under Gordon Brown.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-08-03T09:38:18+00:00",
+      "pub_ts": 1785749898
+    },
+    {
+      "id": "f866ce446f",
+      "title": "IMPACT Therapeutics grants Pharmanovia exclusive $488m rights to senaparib",
+      "url": "https://www.pharmaceutical-technology.com/news/impact-therapeutics-pharmanovia-exclusive-rights-senaparib/",
+      "summary": "IMPACT Therapeutics and Pharmanovia have entered an exclusive licensing deal worth up to $488.3m, giving Pharmanovia rights to manufacture, develop, and commercialise senaparib in 66 countries.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-08-03T09:29:44+00:00",
+      "pub_ts": 1785749384
+    },
+    {
+      "id": "51ee9f306a",
+      "title": "Ratio Therapeutics secures $70m Series C funding for cancer radiotherapy",
+      "url": "https://www.pharmaceutical-technology.com/news/ratio-therapeutics-70m-funding-cancer-radiotherapy/",
+      "summary": "Ratio Therapeutics, a US-based developer of radiopharmaceuticals for cancer treatment, has closed a $70m Series C financing round.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-08-03T08:45:58+00:00",
+      "pub_ts": 1785746758
+    },
     {
       "id": "127711a0e5",
       "title": "Sublingual semaglutide offered to UK practices despite Novo Nordisk concerns",
@@ -15,46 +55,6 @@
       "lang": "en",
       "pub_date": "2026-07-31T10:57:24+00:00",
       "pub_ts": 1785495444
-    },
-    {
-      "id": "eeb9290f57",
-      "title": "Boosting CGT access: a global consideration with wide-spanning benefits",
-      "url": "https://www.pharmaceutical-technology.com/features/boosting-cgt-access-global-consideration-wide-spanning-benefits/",
-      "summary": "Wider patient access to CGTs hinges on further infrastructure developments and the movement of therapies into the community setting.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-31T10:13:11+00:00",
-      "pub_ts": 1785492791
-    },
-    {
-      "id": "6cabca454d",
-      "title": "J&J ventures further into in vivo CAR-T space with Sail partnership, potential buyout",
-      "url": "https://www.pharmaceutical-technology.com/news/jj-sail-biomedicines-collaboration-potential-acquisition-in-vivo-car-t/",
-      "summary": "J&amp;J strikes its deal with Sail as the in vivo CAR-T space becomes increasingly crowded, with several big pharma players betting on the class.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-31T09:59:08+00:00",
-      "pub_ts": 1785491948
-    },
-    {
-      "id": "ffbc5915d9",
-      "title": "miRecule and Rio Biofarma to develop RNA therapeutic delivery technologies",
-      "url": "https://www.pharmaceutical-technology.com/news/mirecule-rio-biofarma-rna-therapeutic/",
-      "summary": "miRecule has signed a research collaboration with Rio Biofarma Brasil (RBBL) to co-develop peptide-mediated delivery technologies aimed at improving targeted RNA therapeutics delivery to tissues beyond the liver and muscles in a range of disease areas.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-31T09:58:09+00:00",
-      "pub_ts": 1785491889
-    },
-    {
-      "id": "85d7e05b06",
-      "title": "European drug manufacturers under threat from proposed US supply chain bill",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/european-drug-manufacturers-proposed-us-supply-chain-bill/",
-      "summary": "US efforts to scrutinise overseas drug manufacturing could expose Europe’s role in supplying FDA-approved innovator and biosimilar drugs.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-07-31T09:34:23+00:00",
-      "pub_ts": 1785490463
     }
   ],
   "source_success_count": 1,

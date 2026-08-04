@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-08-03T03:34:03.019287+00:00",
+  "updated_at": "2026-08-04T03:16:51.647149+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "ae3e4fb293",
-      "title": "AI模型「发电量」排行榜|量子位智库",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247908986&idx=1&sn=9674729e67d8dc726811dc88c9313551",
-      "summary": "AI模型「发电量」排行榜|量子位智库",
+      "id": "93fa7253ab",
+      "title": "这个新生图模型有点夯：4K直出的，国产的，开源的！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909395&idx=1&sn=4429179fb6656c125179b9fd1abf7024",
+      "summary": "这个新生图模型有点夯：4K直出的，国产的，开源的！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-03T03:33:58.962471+00:00",
-      "pub_ts": 1785728038
+      "pub_date": "2026-08-04T03:16:47.387980+00:00",
+      "pub_ts": 1785813407
     },
     {
-      "id": "dfd40b91be",
-      "title": "基础模型玩家格局|量子位智库",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247908979&idx=1&sn=91404bc136bcf151d543f4ba0e7300f9",
-      "summary": "基础模型玩家格局|量子位智库",
+      "id": "9df89a70fb",
+      "title": "DeepSeekV4正式版太便宜辣！5毛钱做出3D射击游戏，网友直呼绷不住",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909395&idx=2&sn=a5d069c2b916cec9bc509bed1076b3b1",
+      "summary": "DeepSeekV4正式版太便宜辣！5毛钱做出3D射击游戏，网友直呼绷不住",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-03T03:33:58.962513+00:00",
-      "pub_ts": 1785728038
+      "pub_date": "2026-08-04T03:16:47.388021+00:00",
+      "pub_ts": 1785813407
     },
     {
-      "id": "1cfd9c5d65",
-      "title": "OpenAI新模型连破10道数学难题，2000美元把数学变成了点击游戏",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247908976&idx=1&sn=ad7fcc554ae999be0723404e8f208469",
-      "summary": "OpenAI新模型连破10道数学难题，2000美元把数学变成了点击游戏",
+      "id": "cd31b85daa",
+      "title": "亿级日活App的“算力生死劫”：推理成本倒挂，他们靠跨云架构砍掉75%GP...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909355&idx=1&sn=db260fcb1b13e3945a8d8c70432de303",
+      "summary": "亿级日活App的“算力生死劫”：推理成本倒挂，他们靠跨云架构砍掉75%GP...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-03T03:33:58.962536+00:00",
-      "pub_ts": 1785728038
+      "pub_date": "2026-08-04T03:16:47.388045+00:00",
+      "pub_ts": 1785813407
     },
     {
-      "id": "239cf8cff3",
-      "title": "Agent终于不再「用完即忘」：华为诺亚开源MindMemOS，让记忆和Skill一.",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247908954&idx=1&sn=0e7346cc609105e6c314ad0732fd41ad",
-      "summary": "Agent终于不再「用完即忘」：华为诺亚开源MindMemOS，让记忆和Skill一.",
+      "id": "b9d8d03ca1",
+      "title": "智元下架了首席科学家罗剑岚",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909355&idx=2&sn=e2ddaf527ab3d97e137bb39675774a4b",
+      "summary": "智元下架了首席科学家罗剑岚",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-03T03:33:58.962558+00:00",
-      "pub_ts": 1785728038
+      "pub_date": "2026-08-04T03:16:47.388066+00:00",
+      "pub_ts": 1785813407
     },
     {
-      "id": "f0ab7db8c0",
-      "title": "年薪百万抢电工，Meta急到自己办技校",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247908954&idx=2&sn=674ccf46383a460196ba2a2a8bb6fa67",
-      "summary": "年薪百万抢电工，Meta急到自己办技校",
+      "id": "ea1f77c067",
+      "title": "刚刚，阿里Qwen3.8-Max来了！冲进全球第一梯队，模型表现直逼Claude",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909269&idx=1&sn=ad6c837cd7c0334f855b756a895001d9",
+      "summary": "刚刚，阿里Qwen3.8-Max来了！冲进全球第一梯队，模型表现直逼Claude",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-03T03:33:58.962578+00:00",
-      "pub_ts": 1785728038
+      "pub_date": "2026-08-04T03:16:47.388087+00:00",
+      "pub_ts": 1785813407
     }
   ],
   "source_success_count": 1,

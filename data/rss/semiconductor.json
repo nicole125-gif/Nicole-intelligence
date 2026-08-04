@@ -3,108 +3,128 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-08-03T03:33:49.548532+00:00",
+  "updated_at": "2026-08-04T03:16:37.755962+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "c2a213f8d4",
-      "title": "人形机器人的2026，产量狂欢与落地迷思",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815506&idx=1&sn=1d76d4b66fed13f9e67b8a5a8ab5d4cc",
-      "summary": "人形机器人的2026，产量狂欢与落地迷思",
+      "id": "5cc471a969",
+      "title": "净利润最高预增310%，半导体设备龙头交出亮眼业绩预告",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815562&idx=1&sn=63531465df1f026259f2712284cd8476",
+      "summary": "净利润最高预增310%，半导体设备龙头交出亮眼业绩预告",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-03T03:33:45.465404+00:00",
-      "pub_ts": 1785728025
+      "pub_date": "2026-08-04T03:16:33.446420+00:00",
+      "pub_ts": 1785813393
     },
     {
-      "id": "747a40ca19",
-      "title": "华为推出两款自研麒麟PC处理器，两款鸿蒙笔记本即将发布",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815506&idx=2&sn=7a0901c5cf92c2022f14d31a9432d06f",
-      "summary": "华为推出两款自研麒麟PC处理器，两款鸿蒙笔记本即将发布",
+      "id": "74227ab0a2",
+      "title": "李强签署国务院令，公布修订后的《集成电路布图设计保护条例》",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815556&idx=1&sn=9e14a08e80e8ce876484c5bbedb54411",
+      "summary": "李强签署国务院令，公布修订后的《集成电路布图设计保护条例》",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-03T03:33:45.465448+00:00",
-      "pub_ts": 1785728025
+      "pub_date": "2026-08-04T03:16:33.446462+00:00",
+      "pub_ts": 1785813393
     },
     {
-      "id": "2a4fb82c67",
-      "title": "定制芯片会冲击FPGA原型开发市场吗？",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815506&idx=3&sn=3ac18c3f7cbb72f5d7c9d871fdfd28c3",
-      "summary": "定制芯片会冲击FPGA原型开发市场吗？",
+      "id": "4c41845ba7",
+      "title": "一步一个脚印，RISC-V落地生根",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815549&idx=1&sn=f79976a1bb2a1d673ac220223cf60d05",
+      "summary": "一步一个脚印，RISC-V落地生根",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-03T03:33:45.465475+00:00",
-      "pub_ts": 1785728025
+      "pub_date": "2026-08-04T03:16:33.446489+00:00",
+      "pub_ts": 1785813393
     },
     {
-      "id": "ca85011a60",
-      "title": "宁德时代的焦虑，和英伟达一模一样",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815506&idx=4&sn=a5302324a528465f544ae9d64ccc0d61",
-      "summary": "宁德时代的焦虑，和英伟达一模一样",
+      "id": "b7c28fc98d",
+      "title": "2nm商业化元年，拆解最新PC芯片",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815549&idx=2&sn=ed146ab5ee8c00c93eaa28ed987257af",
+      "summary": "2nm商业化元年，拆解最新PC芯片",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-03T03:33:45.465497+00:00",
-      "pub_ts": 1785728025
+      "pub_date": "2026-08-04T03:16:33.446512+00:00",
+      "pub_ts": 1785813393
     },
     {
-      "id": "00465bbeb5",
-      "title": "CUDA20年护城河一个周末崩了！Claude独自跑通AMD新GPU",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815506&idx=5&sn=b148e142158113bf69db470f038856e9",
-      "summary": "CUDA20年护城河一个周末崩了！Claude独自跑通AMD新GPU",
+      "id": "9b6c5a2625",
+      "title": "别只盯GPU，ASIC将成为半导体下一风口",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815549&idx=3&sn=88356b8c510cadc554e3206963f77f69",
+      "summary": "别只盯GPU，ASIC将成为半导体下一风口",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-03T03:33:45.465518+00:00",
-      "pub_ts": 1785728025
+      "pub_date": "2026-08-04T03:16:33.446533+00:00",
+      "pub_ts": 1785813393
     },
     {
-      "id": "6dc58f696b",
-      "title": "TFLN，拐点将至",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827914&idx=1&sn=e92c11555ccf40ec207c7471fe714275",
-      "summary": "TFLN，拐点将至",
+      "id": "1a2a70bbf5",
+      "title": "李强总理签署国务院令，公布修订后的《集成电路布图设计保护条例》",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828012&idx=1&sn=2dd2dbe7ccf250fa3d5e3aaeaed40bfa",
+      "summary": "李强总理签署国务院令，公布修订后的《集成电路布图设计保护条例》",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-03T03:33:32.401946+00:00",
-      "pub_ts": 1785728012
+      "pub_date": "2026-08-04T03:16:19.510443+00:00",
+      "pub_ts": 1785813379
     },
     {
-      "id": "8eb2a7ac83",
-      "title": "又一家初创公司，要挑战ASML",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827914&idx=2&sn=fec036c226c4e7a58825d77ae495b235",
-      "summary": "又一家初创公司，要挑战ASML",
+      "id": "d08e54067f",
+      "title": "中微公司尹志尧：未来五年覆盖60%以上高端半导体设备",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828000&idx=1&sn=d27d0529f53c102d8ea499f87abc7d63",
+      "summary": "中微公司尹志尧：未来五年覆盖60%以上高端半导体设备",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-03T03:33:32.401998+00:00",
-      "pub_ts": 1785728012
+      "pub_date": "2026-08-04T03:16:19.510494+00:00",
+      "pub_ts": 1785813379
     },
     {
-      "id": "f5ebce022a",
-      "title": "三星氮化镓，再次延期",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827914&idx=3&sn=f6cd9cc66a0676aed17b66a958d6465f",
-      "summary": "三星氮化镓，再次延期",
+      "id": "85c64e83ab",
+      "title": "铜互连触顶，谁将接棒?",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827990&idx=1&sn=bf31742e9d6c372de1922aaa4b66a204",
+      "summary": "铜互连触顶，谁将接棒?",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-03T03:33:32.402024+00:00",
-      "pub_ts": 1785728012
+      "pub_date": "2026-08-04T03:16:19.510519+00:00",
+      "pub_ts": 1785813379
     },
     {
-      "id": "844c964155",
-      "title": "联发科AIASIC加速起飞",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827914&idx=4&sn=4ca5d310216b9dd2deecb9dc95a7855c",
-      "summary": "联发科AIASIC加速起飞",
+      "id": "a5b4f87489",
+      "title": "LumentumCEO警告，InP严重短缺",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827990&idx=2&sn=b6b12fe68de022b665f313b9ffa67684",
+      "summary": "LumentumCEO警告，InP严重短缺",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-03T03:33:32.402047+00:00",
-      "pub_ts": 1785728012
+      "pub_date": "2026-08-04T03:16:19.510542+00:00",
+      "pub_ts": 1785813379
     },
     {
-      "id": "723ab9fc43",
-      "title": "AI存储扩产潮，谁是最大赢家?",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827914&idx=5&sn=28989c4bdcd9078f8a49d02209beeb83",
-      "summary": "AI存储扩产潮，谁是最大赢家?",
+      "id": "62b3ad7c90",
+      "title": "日本半导体材料，太强了",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247827990&idx=3&sn=a53aa4c41b383fd3c18e4cc204ea8c47",
+      "summary": "日本半导体材料，太强了",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-03T03:33:32.402068+00:00",
-      "pub_ts": 1785728012
+      "pub_date": "2026-08-04T03:16:19.510564+00:00",
+      "pub_ts": 1785813379
+    },
+    {
+      "id": "da0b44c932",
+      "title": "Chip Bridges Neuromorphic And Deep-Network Computing (TU Dresden)",
+      "url": "https://semiengineering.com/chip-bridges-neuromorphic-and-deep-network-computing-tu-dresden/",
+      "summary": "Researchers from Technische Universität Dresden and University of Manchester published a technical paper titled “The SpiNNaker2 Chip: A Many-Core Platform for Flexible and Scalable Brain-Inspired Computing.” Abstract Excerpt: The paper presents SpiNNaker2 as a chip that “bridges the gap between deep…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-03T15:51:42+00:00",
+      "pub_ts": 1785772302
+    },
+    {
+      "id": "f9c8906c70",
+      "title": "Self-Driving Cars Have An Aging Problem",
+      "url": "https://semiengineering.com/self-driving-cars-have-an-aging-problem/",
+      "summary": "AI workloads are pushing automotive sensors harder, forcing engineers to rethink how long safety-critical systems can be trusted.\nThe post Self-Driving Cars Have An Aging Problem appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-03T07:01:41+00:00",
+      "pub_ts": 1785740501
     },
     {
       "id": "67de8a792d",
@@ -135,26 +155,6 @@
       "lang": "en",
       "pub_date": "2026-07-30T07:01:21+00:00",
       "pub_ts": 1785394881
-    },
-    {
-      "id": "ecb243f9ce",
-      "title": "Hybrid Memory Combines NAND Flash And DRAM For Faster Data Transfer (U. of Seoul)",
-      "url": "https://semiengineering.com/nad-memory-combines-nand-flash-and-dram-for-faster-data-transfer-u-of-seoul/",
-      "summary": "Researchers from University of Seoul published a technical paper titled “NAD Memory: A Hybrid Memory Device Combined with NAND Flash Memory and DRAM.” The paper proposes &#8220;a hybrid memory architecture, termed NAD, which tightly integrates DRAM and NAND flash to enable direct and parallel data t…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-07-29T23:00:06+00:00",
-      "pub_ts": 1785366006
-    },
-    {
-      "id": "57e73a5e66",
-      "title": "2D P-Type Semiconductors with Oxide N-Channel Transistors For Complementary BEOL CMOS (Stanford, Hanyang)",
-      "url": "https://semiengineering.com/2d-p-type-semiconductors-with-oxide-n-channel-transistors-for-complementary-beol-cmos-stanford-hanyang/",
-      "summary": "Researchers from Stanford University and Hanyang University published a technical paper titled “Bridging the p-type gap in oxide electronics with 2D semiconductors.” &#8220;The review assesses manufacturing-aligned pathways to high-performance 2D p-channel transistors, covering transfer-free low-tem…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-07-29T22:45:54+00:00",
-      "pub_ts": 1785365154
     }
   ],
   "source_success_count": 3,
