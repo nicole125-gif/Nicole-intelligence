@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-08-04T03:16:51.647149+00:00",
+  "updated_at": "2026-08-05T02:57:51.520785+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "93fa7253ab",
-      "title": "这个新生图模型有点夯：4K直出的，国产的，开源的！",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909395&idx=1&sn=4429179fb6656c125179b9fd1abf7024",
-      "summary": "这个新生图模型有点夯：4K直出的，国产的，开源的！",
+      "id": "00fc3ad2fe",
+      "title": "魔幻灵巧手：半年200亿热钱，3大路线，贵到几十万一只",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909665&idx=1&sn=49a5ab8496b24b3ab32c9e414a3f2991",
+      "summary": "魔幻灵巧手：半年200亿热钱，3大路线，贵到几十万一只",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-04T03:16:47.387980+00:00",
-      "pub_ts": 1785813407
+      "pub_date": "2026-08-05T02:57:47.292675+00:00",
+      "pub_ts": 1785898667
     },
     {
-      "id": "9df89a70fb",
-      "title": "DeepSeekV4正式版太便宜辣！5毛钱做出3D射击游戏，网友直呼绷不住",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909395&idx=2&sn=a5d069c2b916cec9bc509bed1076b3b1",
-      "summary": "DeepSeekV4正式版太便宜辣！5毛钱做出3D射击游戏，网友直呼绷不住",
+      "id": "9a951d52e1",
+      "title": "老黄垒20年的CUDA护城河，AI刚刚用10小时凿开了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909665&idx=2&sn=be1f03299ab9051d528037035da3e0ce",
+      "summary": "老黄垒20年的CUDA护城河，AI刚刚用10小时凿开了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-04T03:16:47.388021+00:00",
-      "pub_ts": 1785813407
+      "pub_date": "2026-08-05T02:57:47.292724+00:00",
+      "pub_ts": 1785898667
     },
     {
-      "id": "cd31b85daa",
-      "title": "亿级日活App的“算力生死劫”：推理成本倒挂，他们靠跨云架构砍掉75%GP...",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909355&idx=1&sn=db260fcb1b13e3945a8d8c70432de303",
-      "summary": "亿级日活App的“算力生死劫”：推理成本倒挂，他们靠跨云架构砍掉75%GP...",
+      "id": "00ac9370df",
+      "title": "大模型灾难性遗忘新解法：秩1联想记忆实现无损持续学习|ICML'26",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909665&idx=3&sn=70ee6cb657e9673ed6d92162cdbbafa0",
+      "summary": "大模型灾难性遗忘新解法：秩1联想记忆实现无损持续学习|ICML'26",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-04T03:16:47.388045+00:00",
-      "pub_ts": 1785813407
+      "pub_date": "2026-08-05T02:57:47.292748+00:00",
+      "pub_ts": 1785898667
     },
     {
-      "id": "b9d8d03ca1",
-      "title": "智元下架了首席科学家罗剑岚",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909355&idx=2&sn=e2ddaf527ab3d97e137bb39675774a4b",
-      "summary": "智元下架了首席科学家罗剑岚",
+      "id": "f79c9407bf",
+      "title": "开发者苦“造轮子”久矣，HarmonyOS7正在抹平系统能力的接入鸿沟",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909661&idx=1&sn=427f52342e1d6beba877e7e125c44564",
+      "summary": "开发者苦“造轮子”久矣，HarmonyOS7正在抹平系统能力的接入鸿沟",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-04T03:16:47.388066+00:00",
-      "pub_ts": 1785813407
+      "pub_date": "2026-08-05T02:57:47.292788+00:00",
+      "pub_ts": 1785898667
     },
     {
-      "id": "ea1f77c067",
-      "title": "刚刚，阿里Qwen3.8-Max来了！冲进全球第一梯队，模型表现直逼Claude",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909269&idx=1&sn=ad6c837cd7c0334f855b756a895001d9",
-      "summary": "刚刚，阿里Qwen3.8-Max来了！冲进全球第一梯队，模型表现直逼Claude",
+      "id": "b85fe29170",
+      "title": "开源版ClaudeScience来了！零依赖、MIT协议，内置3O+项科研Skills",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909661&idx=2&sn=e2fa7bc0803bd3d6cf5f152e99729b46",
+      "summary": "开源版ClaudeScience来了！零依赖、MIT协议，内置3O+项科研Skills",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-04T03:16:47.388087+00:00",
-      "pub_ts": 1785813407
+      "pub_date": "2026-08-05T02:57:47.292814+00:00",
+      "pub_ts": 1785898667
     }
   ],
   "source_success_count": 1,

@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-08-04T03:17:15.726087+00:00",
+  "updated_at": "2026-08-05T02:58:21.983271+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "61ae50ad6d",
-      "title": "AstraZeneca shares slump after $400bn BMS merger rumours",
-      "url": "https://www.pharmaceutical-technology.com/news/astrazeneca-shares-slump-after-400bn-bms-merger-rumours/",
-      "summary": "One of the largest global pharma companies would be created if a deal were to materialise.",
+      "id": "22febd50f7",
+      "title": "Pfizer repels Covid-19 sales tumble to raise 2026 guidance",
+      "url": "https://www.pharmaceutical-technology.com/news/pfizer-repels-covid-19-sales-tumble-to-raise-2026-guidance/",
+      "summary": "Fuelled by blockbusters such as Eliquis, Pfizer is cementing its post-Covid revenue legacy.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-03T15:03:57+00:00",
-      "pub_ts": 1785769437
+      "pub_date": "2026-08-04T15:29:34+00:00",
+      "pub_ts": 1785857374
     },
     {
-      "id": "426c6ccf3e",
-      "title": "What will health and social care look like under Andy Burnham?",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/health-and-social-care-under-andy-burnham/",
-      "summary": "New UK PM Andy Burnham enters office with experience of the health sector, having previously been health secretary under Gordon Brown.",
+      "id": "397ae15b05",
+      "title": "Supernus and Indivior merge to create scaled, CNS-focused entity",
+      "url": "https://www.pharmaceutical-technology.com/news/supernus-indivior-merge-to-create-scaled-cns-focused-entity/",
+      "summary": "Through this merger, Supernus and Indivior will combine their commercial medicinal portfolios, which span CNS and opioid use disorders (OUDs).",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-03T09:38:18+00:00",
-      "pub_ts": 1785749898
+      "pub_date": "2026-08-04T10:57:39+00:00",
+      "pub_ts": 1785841059
     },
     {
-      "id": "f866ce446f",
-      "title": "IMPACT Therapeutics grants Pharmanovia exclusive $488m rights to senaparib",
-      "url": "https://www.pharmaceutical-technology.com/news/impact-therapeutics-pharmanovia-exclusive-rights-senaparib/",
-      "summary": "IMPACT Therapeutics and Pharmanovia have entered an exclusive licensing deal worth up to $488.3m, giving Pharmanovia rights to manufacture, develop, and commercialise senaparib in 66 countries.",
+      "id": "57ccbaec2c",
+      "title": "FDA grants breakthrough therapy designation to Lilly’s olomorasib",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-designation-lillys-olomorasib/",
+      "summary": "The US FDA has granted breakthrough therapy designation to Lilly olomorasib as a potential treatment for adults with advanced pancreatic cancer who have already received at least one prior systemic therapy.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-03T09:29:44+00:00",
-      "pub_ts": 1785749384
+      "pub_date": "2026-08-04T09:19:14+00:00",
+      "pub_ts": 1785835154
     },
     {
-      "id": "51ee9f306a",
-      "title": "Ratio Therapeutics secures $70m Series C funding for cancer radiotherapy",
-      "url": "https://www.pharmaceutical-technology.com/news/ratio-therapeutics-70m-funding-cancer-radiotherapy/",
-      "summary": "Ratio Therapeutics, a US-based developer of radiopharmaceuticals for cancer treatment, has closed a $70m Series C financing round.",
+      "id": "aa37fe6bf1",
+      "title": "Curium to acquire Lantheus in all-cash deal worth up to $8bn",
+      "url": "https://www.pharmaceutical-technology.com/news/curium-to-buy-lantheus-8bn/",
+      "summary": "CapVest Partners-backed Curium has agreed to acquire rival US-based radiopharmaceutical company Lantheus in an all-cash deal worth up to nearly $8bn.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-03T08:45:58+00:00",
-      "pub_ts": 1785746758
+      "pub_date": "2026-08-04T08:43:11+00:00",
+      "pub_ts": 1785832991
     },
     {
-      "id": "127711a0e5",
-      "title": "Sublingual semaglutide offered to UK practices despite Novo Nordisk concerns",
-      "url": "https://www.pharmaceutical-technology.com/news/sublingual-semaglutide-offered-to-uk-practices-despite-novo-nordisk-concerns/",
-      "summary": "Sublingual semaglutide, which does not hold marketing authorisation, is touted to minimise gastric issues.",
+      "id": "2a93469aa9",
+      "title": "Amgen contends with data breach, exposing patient information",
+      "url": "https://www.pharmaceutical-technology.com/news/amgen-data-breach-cloud-based-systems-patient-health-information/",
+      "summary": "Amgen is investigating the extent of this breach, which has exposed private patient and proprietary information.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-07-31T10:57:24+00:00",
-      "pub_ts": 1785495444
+      "pub_date": "2026-08-03T16:00:14+00:00",
+      "pub_ts": 1785772814
     }
   ],
   "source_success_count": 1,
