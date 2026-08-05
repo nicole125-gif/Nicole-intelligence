@@ -3,8 +3,8 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-08-05T02:58:09.640814+00:00",
-  "item_count": 6,
+  "updated_at": "2026-08-05T03:43:37.887498+00:00",
+  "item_count": 5,
   "items": [
     {
       "id": "4e5abf46e5",
@@ -55,19 +55,9 @@
       "lang": "en",
       "pub_date": "2026-08-04T15:07:13+00:00",
       "pub_ts": 1785856033
-    },
-    {
-      "id": "d5e3862787",
-      "title": "Tackling the Hydrogen Storage Challenge with Nobel Prize-Winning Science",
-      "url": "https://hydrogen-central.com/tackling-the-hydrogen-storage-challenge-with-nobel-prize-winning-science/",
-      "summary": "Tackling the Hydrogen Storage Challenge with Nobel Prize-Winning Science &#8211; Written by Magnus Bach, VP of Business Development at H2MOF Hydrogen is abundant, clean, and extraordinarily energy-dense, and a fuel [&#8230;]\nThe post Tackling the Hydrogen Storage Challenge with Nobel Prize-Winning S…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-08-04T08:45:11+00:00",
-      "pub_ts": 1785833111
     }
   ],
-  "source_success_count": 2,
+  "source_success_count": 1,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }

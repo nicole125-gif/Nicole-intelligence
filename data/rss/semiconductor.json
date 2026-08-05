@@ -3,7 +3,7 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-08-05T02:57:37.943122+00:00",
+  "updated_at": "2026-08-05T03:43:14.726942+00:00",
   "item_count": 11,
   "items": [
     {
@@ -13,8 +13,8 @@
       "summary": "模拟芯片，好起来了",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-05T02:57:33.767486+00:00",
-      "pub_ts": 1785898653
+      "pub_date": "2026-08-05T03:43:10.709318+00:00",
+      "pub_ts": 1785901390
     },
     {
       "id": "dd10e98f3f",
@@ -23,8 +23,8 @@
       "summary": "Q2 DRAM排位生变：三星重新登顶，长鑫迅猛崛起",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-05T02:57:33.767527+00:00",
-      "pub_ts": 1785898653
+      "pub_date": "2026-08-05T03:43:10.709362+00:00",
+      "pub_ts": 1785901390
     },
     {
       "id": "db13cd0685",
@@ -33,8 +33,8 @@
       "summary": "打造世界上最大的AI芯片",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-05T02:57:33.767552+00:00",
-      "pub_ts": 1785898653
+      "pub_date": "2026-08-05T03:43:10.709386+00:00",
+      "pub_ts": 1785901390
     },
     {
       "id": "76b2671872",
@@ -43,8 +43,8 @@
       "summary": "HBF首个标准来了，2038年需求将超越HBM",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-05T02:57:33.767574+00:00",
-      "pub_ts": 1785898653
+      "pub_date": "2026-08-05T03:43:10.709408+00:00",
+      "pub_ts": 1785901390
     },
     {
       "id": "9cd52109ce",
@@ -53,8 +53,8 @@
       "summary": "Q2财报公布！安森美：AI数据中心业务，预计全年收入翻倍",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-05T02:57:33.767595+00:00",
-      "pub_ts": 1785898653
+      "pub_date": "2026-08-05T03:43:10.709429+00:00",
+      "pub_ts": 1785901390
     },
     {
       "id": "f99b292828",
@@ -63,8 +63,18 @@
       "summary": "刷屏的光模块，中国实力几何？",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-05T02:57:25.540217+00:00",
-      "pub_ts": 1785898645
+      "pub_date": "2026-08-05T03:43:02.338788+00:00",
+      "pub_ts": 1785901382
+    },
+    {
+      "id": "993f016d47",
+      "title": "Hybrid Computing Framework Looks Beyond Peak TOPS/W For AI Efficiency (Nottingham Trent, ICL, Aston)",
+      "url": "https://semiengineering.com/hybrid-computing-framework-looks-beyond-peak-tops-w-for-ai-efficiency-nottingham-trent-icl-aston/",
+      "summary": "Researchers from Nottingham Trent University, Imperial College London, and Aston University published a technical paper titled “Beyond Peak TOPS/W: A System-Level Perspective on Hybrid Digital, Analogue and Neuromorphic Computing.” The paper contends that &#8220;hybrid digital&#8211;analogue computi…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-05T03:09:01+00:00",
+      "pub_ts": 1785899341
     },
     {
       "id": "04e0dc8bf0",
@@ -105,16 +115,6 @@
       "lang": "en",
       "pub_date": "2026-08-04T07:01:23+00:00",
       "pub_ts": 1785826883
-    },
-    {
-      "id": "7de204ab82",
-      "title": "Research Bits: Aug. 4",
-      "url": "https://semiengineering.com/research-bits-aug-4/",
-      "summary": "Stretchable electronics: Switchable analog, digital organic transistor; thread-based ICs; temporary e-tattoo electrodes.\nThe post Research Bits: Aug. 4 appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-04T07:01:19+00:00",
-      "pub_ts": 1785826879
     }
   ],
   "source_success_count": 3,
