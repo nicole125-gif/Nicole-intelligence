@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-08-05T02:58:09.640814+00:00",
+  "updated_at": "2026-08-06T03:15:27.853771+00:00",
   "item_count": 6,
   "items": [
     {
-      "id": "4e5abf46e5",
-      "title": "Aternium Selects Dover, Delaware for First US Heavy Water and High Purity Hydrogen Production Facility",
-      "url": "https://fuelcellsworks.com/2026/08/04/h2/aternium-selects-dover-delaware-for-first-us-heavy-water-and-high-purity-hydrogen-production-facility",
+      "id": "e6856bb081",
+      "title": "Protium Wins Approval for 15MW Scottish Hydrogen Plant Despite Water and Peatland Concerns",
+      "url": "https://fuelcellsworks.com/2026/08/05/h2/protium-wins-approval-for-15mw-scottish-hydrogen-plant-despite-water-and-peatland-concerns",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-04T16:04:04+00:00",
-      "pub_ts": 1785859444
+      "pub_date": "2026-08-05T15:44:17+00:00",
+      "pub_ts": 1785944657
     },
     {
-      "id": "8cd3c0957f",
-      "title": "GenH2 and ITP Interpipe Validate Thermal Performance of Soft-Vacuum Pipe-in-Pipe Insulation for Liquid Hydrogen Pipeline",
-      "url": "https://fuelcellsworks.com/2026/08/04/h2/genh2-and-itp-interpipe-validate-thermal-performance-of-soft-vacuum-pipe-in-pipe-insulation-for-liquid-hydrogen-pipeline",
+      "id": "de375d40ac",
+      "title": "South Korean Coal-Power Hub Pivots to Green Hydrogen With 2.5MW Electrolyser Plant",
+      "url": "https://fuelcellsworks.com/2026/08/05/h2/south-korean-coal-power-hub-pivots-to-green-hydrogen-with-2-5mw-electrolyser-plant",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-04T15:48:59+00:00",
-      "pub_ts": 1785858539
+      "pub_date": "2026-08-05T15:28:15+00:00",
+      "pub_ts": 1785943695
     },
     {
-      "id": "1177bb913d",
-      "title": "Germany Has Built Just 2% of Its 2030 Electrolyser Target — Yet Hydrogen Projects Are Taking Shape",
-      "url": "https://fuelcellsworks.com/2026/08/03/electrolyzer/germany-has-built-just-2-percent-of-its-2030-electrolyser-target-yet-hydrogen-projects-are-taking-shape",
+      "id": "f390b8d1a3",
+      "title": "ZeroAvia Leads HyPRIME Project to Demonstrate Hydrogen Infrastructure for the Future of Commercial Aviation",
+      "url": "https://fuelcellsworks.com/2026/08/05/fuel-cells/zeroavia-leads-hyprime-project-to-demonstrate-hydrogen-infrastructure-for-the-future-of-commercial-aviation",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-04T15:22:49+00:00",
-      "pub_ts": 1785856969
+      "pub_date": "2026-08-05T15:27:24+00:00",
+      "pub_ts": 1785943644
     },
     {
-      "id": "c6a9abff99",
-      "title": "PowerCell Secures SEK 21 Million DLR Order for Integrated Fuel-to-Power System",
-      "url": "https://fuelcellsworks.com/2026/08/04/green-investment/powercell-secures-sek-21-million-dlr-order-for-integrated-fuel-to-power-system",
+      "id": "dc7837b797",
+      "title": "Hydrogen Heating Developer Clears Regulatory Hurdles Ahead of Commercial Push",
+      "url": "https://fuelcellsworks.com/2026/08/05/clean-energy/hydrogen-heating-developer-clears-regulatory-hurdles-ahead-of-commercial-push",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-04T15:18:33+00:00",
-      "pub_ts": 1785856713
+      "pub_date": "2026-08-05T15:19:22+00:00",
+      "pub_ts": 1785943162
     },
     {
-      "id": "4565ca809d",
-      "title": "Pure One Advances Two Hydrogen Concrete Trucks for Heidelberg as Battery-Swap Expansion Begins",
-      "url": "https://fuelcellsworks.com/2026/08/04/fuel-cells/pure-one-advances-two-hydrogen-concrete-trucks-for-heidelberg-as-battery-swap-expansion-begins",
+      "id": "851556b278",
+      "title": "Historic Achievement for HyDriven at the Red Bull Ring",
+      "url": "https://fuelcellsworks.com/2026/08/03/h2/historic-achievement-for-hydriven-at-the-red-bull-ring",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-04T15:07:13+00:00",
-      "pub_ts": 1785856033
+      "pub_date": "2026-08-05T15:13:40+00:00",
+      "pub_ts": 1785942820
     },
     {
       "id": "d5e3862787",

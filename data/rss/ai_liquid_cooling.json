@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-08-05T02:57:51.520785+00:00",
+  "updated_at": "2026-08-06T03:15:17.171743+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "00fc3ad2fe",
-      "title": "魔幻灵巧手：半年200亿热钱，3大路线，贵到几十万一只",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909665&idx=1&sn=49a5ab8496b24b3ab32c9e414a3f2991",
-      "summary": "魔幻灵巧手：半年200亿热钱，3大路线，贵到几十万一只",
+      "id": "552101236c",
+      "title": "等等，MiniMaxH3不是刚发布吗？怎么就卷到几分钱的价格了….",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910037&idx=1&sn=585ba1192ee5a12fe7206e2fa91b044c",
+      "summary": "等等，MiniMaxH3不是刚发布吗？怎么就卷到几分钱的价格了….",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-05T02:57:47.292675+00:00",
-      "pub_ts": 1785898667
+      "pub_date": "2026-08-06T03:15:13.031899+00:00",
+      "pub_ts": 1785986113
     },
     {
-      "id": "9a951d52e1",
-      "title": "老黄垒20年的CUDA护城河，AI刚刚用10小时凿开了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909665&idx=2&sn=be1f03299ab9051d528037035da3e0ce",
-      "summary": "老黄垒20年的CUDA护城河，AI刚刚用10小时凿开了",
+      "id": "55d2b04c14",
+      "title": "让AI自我进化，斯坦福新课免费教",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910037&idx=2&sn=aff77037c50f288dc47d33dce99ae9f1",
+      "summary": "让AI自我进化，斯坦福新课免费教",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-05T02:57:47.292724+00:00",
-      "pub_ts": 1785898667
+      "pub_date": "2026-08-06T03:15:13.031960+00:00",
+      "pub_ts": 1785986113
     },
     {
-      "id": "00ac9370df",
-      "title": "大模型灾难性遗忘新解法：秩1联想记忆实现无损持续学习|ICML'26",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909665&idx=3&sn=70ee6cb657e9673ed6d92162cdbbafa0",
-      "summary": "大模型灾难性遗忘新解法：秩1联想记忆实现无损持续学习|ICML'26",
+      "id": "06386f6e22",
+      "title": "别再吹AI生图了，不能图层编辑的AI都是“画饼”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909921&idx=1&sn=b662e8270a225448a6a08ce09b2f8806",
+      "summary": "别再吹AI生图了，不能图层编辑的AI都是“画饼”",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-05T02:57:47.292748+00:00",
-      "pub_ts": 1785898667
+      "pub_date": "2026-08-06T03:15:13.031983+00:00",
+      "pub_ts": 1785986113
     },
     {
-      "id": "f79c9407bf",
-      "title": "开发者苦“造轮子”久矣，HarmonyOS7正在抹平系统能力的接入鸿沟",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909661&idx=1&sn=427f52342e1d6beba877e7e125c44564",
-      "summary": "开发者苦“造轮子”久矣，HarmonyOS7正在抹平系统能力的接入鸿沟",
+      "id": "dfe6b272f4",
+      "title": "又一家AI基金暴雷了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909921&idx=2&sn=6d1b80f041404406d19336d2aad8eee1",
+      "summary": "又一家AI基金暴雷了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-05T02:57:47.292788+00:00",
-      "pub_ts": 1785898667
+      "pub_date": "2026-08-06T03:15:13.032003+00:00",
+      "pub_ts": 1785986113
     },
     {
-      "id": "b85fe29170",
-      "title": "开源版ClaudeScience来了！零依赖、MIT协议，内置3O+项科研Skills",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909661&idx=2&sn=e2fa7bc0803bd3d6cf5f152e99729b46",
-      "summary": "开源版ClaudeScience来了！零依赖、MIT协议，内置3O+项科研Skills",
+      "id": "9d99f6ca45",
+      "title": "114B 参数、6B激活，Sand.ai刚刚把全球首个千亿MoE视频生成模型开源了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909833&idx=1&sn=4ee6c970ea6ef8ef992b3ae1d6c564b2",
+      "summary": "114B 参数、6B激活，Sand.ai刚刚把全球首个千亿MoE视频生成模型开源了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-05T02:57:47.292814+00:00",
-      "pub_ts": 1785898667
+      "pub_date": "2026-08-06T03:15:13.032023+00:00",
+      "pub_ts": 1785986113
     }
   ],
   "source_success_count": 1,

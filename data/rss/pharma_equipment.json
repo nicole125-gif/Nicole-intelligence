@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-08-05T02:58:21.983271+00:00",
+  "updated_at": "2026-08-06T03:15:40.288594+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "22febd50f7",
-      "title": "Pfizer repels Covid-19 sales tumble to raise 2026 guidance",
-      "url": "https://www.pharmaceutical-technology.com/news/pfizer-repels-covid-19-sales-tumble-to-raise-2026-guidance/",
-      "summary": "Fuelled by blockbusters such as Eliquis, Pfizer is cementing its post-Covid revenue legacy.",
+      "id": "89f1094c0f",
+      "title": "Why manual aseptic filling often provides faster start dates than automated lines",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/why-manual-aseptic-filling-often-provides-faster-start-dates-than-automated-lines/",
+      "summary": "Manual filling lines prioritize flexibility, adaptability, and precision for small batches, often translating into shorter time-to-start.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-04T15:29:34+00:00",
-      "pub_ts": 1785857374
+      "pub_date": "2026-08-05T16:14:20+00:00",
+      "pub_ts": 1785946460
     },
     {
-      "id": "397ae15b05",
-      "title": "Supernus and Indivior merge to create scaled, CNS-focused entity",
-      "url": "https://www.pharmaceutical-technology.com/news/supernus-indivior-merge-to-create-scaled-cns-focused-entity/",
-      "summary": "Through this merger, Supernus and Indivior will combine their commercial medicinal portfolios, which span CNS and opioid use disorders (OUDs).",
+      "id": "2e54a14708",
+      "title": "Novo Nordisk not currently in a position to pursue large-scale M&A, CEO says",
+      "url": "https://www.pharmaceutical-technology.com/news/novo-nordisk-not-currently-in-a-position-to-pursue-large-scale-ma-ceo-says/",
+      "summary": "Set against the backdrop of a mixed Q2, Novo Nordisk is eyeing bolt-ons in favour of transformative acquisitions.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-04T10:57:39+00:00",
-      "pub_ts": 1785841059
+      "pub_date": "2026-08-05T15:22:25+00:00",
+      "pub_ts": 1785943345
     },
     {
-      "id": "57ccbaec2c",
-      "title": "FDA grants breakthrough therapy designation to Lilly’s olomorasib",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-designation-lillys-olomorasib/",
-      "summary": "The US FDA has granted breakthrough therapy designation to Lilly olomorasib as a potential treatment for adults with advanced pancreatic cancer who have already received at least one prior systemic therapy.",
+      "id": "99d8810aa8",
+      "title": "What is ‘Premium Content’ on Pharmaceutical Technology?",
+      "url": "https://www.pharmaceutical-technology.com/news/what-is-premium-content-on-pharmaceutical-technology/",
+      "summary": "Premium Content is our new free subscription that provides access to deeper analysis, data-led features and exclusive reports.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-04T09:19:14+00:00",
-      "pub_ts": 1785835154
+      "pub_date": "2026-08-05T10:54:14+00:00",
+      "pub_ts": 1785927254
     },
     {
-      "id": "aa37fe6bf1",
-      "title": "Curium to acquire Lantheus in all-cash deal worth up to $8bn",
-      "url": "https://www.pharmaceutical-technology.com/news/curium-to-buy-lantheus-8bn/",
-      "summary": "CapVest Partners-backed Curium has agreed to acquire rival US-based radiopharmaceutical company Lantheus in an all-cash deal worth up to nearly $8bn.",
+      "id": "ec8620f68b",
+      "title": "Orexin receptor agonists set to propel narcolepsy treatment into a new era",
+      "url": "https://www.pharmaceutical-technology.com/features/orexin-receptor-agonists-set-to-propel-narcolepsy-treatment-into-a-new-era/",
+      "summary": "With several narcolepsy treatments advancing, the race for market leadership remains open.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-04T08:43:11+00:00",
-      "pub_ts": 1785832991
+      "pub_date": "2026-08-05T10:07:10+00:00",
+      "pub_ts": 1785924430
     },
     {
-      "id": "2a93469aa9",
-      "title": "Amgen contends with data breach, exposing patient information",
-      "url": "https://www.pharmaceutical-technology.com/news/amgen-data-breach-cloud-based-systems-patient-health-information/",
-      "summary": "Amgen is investigating the extent of this breach, which has exposed private patient and proprietary information.",
+      "id": "c377ad3ae5",
+      "title": "Mironid banks $46m in Series B to take rare kidney disease drug closer to clinic",
+      "url": "https://www.pharmaceutical-technology.com/news/mironid-46m-series-b-progress-kidney-disease/",
+      "summary": "This funding round will set Mironid up until the generation of initial clinical data, the company’s CEO says.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-03T16:00:14+00:00",
-      "pub_ts": 1785772814
+      "pub_date": "2026-08-05T09:13:26+00:00",
+      "pub_ts": 1785921206
     }
   ],
   "source_success_count": 1,
