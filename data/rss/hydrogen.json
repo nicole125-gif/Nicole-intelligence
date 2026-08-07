@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-08-06T03:15:27.853771+00:00",
+  "updated_at": "2026-08-07T02:56:03.394639+00:00",
   "item_count": 6,
   "items": [
     {
-      "id": "e6856bb081",
-      "title": "Protium Wins Approval for 15MW Scottish Hydrogen Plant Despite Water and Peatland Concerns",
-      "url": "https://fuelcellsworks.com/2026/08/05/h2/protium-wins-approval-for-15mw-scottish-hydrogen-plant-despite-water-and-peatland-concerns",
+      "id": "7da68c2db5",
+      "title": "German Minister Hails Hydrogen-Based Steel Plant Set to Begin Production in 2027",
+      "url": "https://fuelcellsworks.com/2026/08/02/green-hydrogen/german-economy-minister-backs-salzgitter-hydrogen-steel-project-as-first-production-nears",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-05T15:44:17+00:00",
-      "pub_ts": 1785944657
+      "pub_date": "2026-08-06T16:12:15+00:00",
+      "pub_ts": 1786032735
     },
     {
-      "id": "de375d40ac",
-      "title": "South Korean Coal-Power Hub Pivots to Green Hydrogen With 2.5MW Electrolyser Plant",
-      "url": "https://fuelcellsworks.com/2026/08/05/h2/south-korean-coal-power-hub-pivots-to-green-hydrogen-with-2-5mw-electrolyser-plant",
+      "id": "afb29dee6f",
+      "title": "EU Approves €780M Dutch Green Hydrogen Subsidy Scheme Targeting 400MW of Electrolysers",
+      "url": "https://fuelcellsworks.com/2026/08/06/electrolyzer/eu-approves-780m-dutch-green-hydrogen-subsidy-scheme-targeting-400mw-of-electrolysers",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-05T15:28:15+00:00",
-      "pub_ts": 1785943695
+      "pub_date": "2026-08-06T15:37:33+00:00",
+      "pub_ts": 1786030653
     },
     {
-      "id": "f390b8d1a3",
-      "title": "ZeroAvia Leads HyPRIME Project to Demonstrate Hydrogen Infrastructure for the Future of Commercial Aviation",
-      "url": "https://fuelcellsworks.com/2026/08/05/fuel-cells/zeroavia-leads-hyprime-project-to-demonstrate-hydrogen-infrastructure-for-the-future-of-commercial-aviation",
+      "id": "70828ce65f",
+      "title": "University of Illinois Urbana-Champaign and GenH2 Advance Liquid Hydrogen Research for Next-Generation Aviation",
+      "url": "https://fuelcellsworks.com/2026/08/06/green-technology/university-of-illinois-urbana-champaign-and-genh2-advance-liquid-hydrogen-research-for-next-generation-aviation",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-05T15:27:24+00:00",
-      "pub_ts": 1785943644
+      "pub_date": "2026-08-06T15:29:26+00:00",
+      "pub_ts": 1786030166
     },
     {
-      "id": "dc7837b797",
-      "title": "Hydrogen Heating Developer Clears Regulatory Hurdles Ahead of Commercial Push",
-      "url": "https://fuelcellsworks.com/2026/08/05/clean-energy/hydrogen-heating-developer-clears-regulatory-hurdles-ahead-of-commercial-push",
+      "id": "1b200249b6",
+      "title": "Green Hydrogen Has Not Failed — It Is Entering a Commercial Reality Check, Chilean Researcher Says",
+      "url": "https://fuelcellsworks.com/2026/08/06/h2/green-hydrogen-has-not-failed-it-is-entering-a-commercial-reality-check-chilean-researcher-says",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-05T15:19:22+00:00",
-      "pub_ts": 1785943162
+      "pub_date": "2026-08-06T15:26:52+00:00",
+      "pub_ts": 1786030012
     },
     {
-      "id": "851556b278",
-      "title": "Historic Achievement for HyDriven at the Red Bull Ring",
-      "url": "https://fuelcellsworks.com/2026/08/03/h2/historic-achievement-for-hydriven-at-the-red-bull-ring",
+      "id": "3fdfde9646",
+      "title": "Snowfox Discovery Secures 10,000 Acres in Iowa for Natural Hydrogen Exploration",
+      "url": "https://fuelcellsworks.com/2026/08/06/green-hydrogen/snowfox-discovery-secures-10-000-acres-in-iowa-for-natural-hydrogen-exploration",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-05T15:13:40+00:00",
-      "pub_ts": 1785942820
+      "pub_date": "2026-08-06T15:07:51+00:00",
+      "pub_ts": 1786028871
     },
     {
       "id": "d5e3862787",

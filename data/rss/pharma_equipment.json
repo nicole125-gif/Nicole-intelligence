@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-08-06T03:15:40.288594+00:00",
+  "updated_at": "2026-08-07T02:56:15.830903+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "89f1094c0f",
-      "title": "Why manual aseptic filling often provides faster start dates than automated lines",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/why-manual-aseptic-filling-often-provides-faster-start-dates-than-automated-lines/",
-      "summary": "Manual filling lines prioritize flexibility, adaptability, and precision for small batches, often translating into shorter time-to-start.",
+      "id": "1973863662",
+      "title": "Takeda nets first-in-class advantage on narcolepsy drug’s FDA go-ahead",
+      "url": "https://www.pharmaceutical-technology.com/news/takeda-orzeyful-oveporexton-fda-approval-type-1-narcolepsy/",
+      "summary": "GlobalData previously flagged Orzeyful’s approval in narcolepsy as a key Q3 catalyst for pharma due to the drug’s ‘transformative’ potential.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-05T16:14:20+00:00",
-      "pub_ts": 1785946460
+      "pub_date": "2026-08-06T13:11:48+00:00",
+      "pub_ts": 1786021908
     },
     {
-      "id": "2e54a14708",
-      "title": "Novo Nordisk not currently in a position to pursue large-scale M&A, CEO says",
-      "url": "https://www.pharmaceutical-technology.com/news/novo-nordisk-not-currently-in-a-position-to-pursue-large-scale-ma-ceo-says/",
-      "summary": "Set against the backdrop of a mixed Q2, Novo Nordisk is eyeing bolt-ons in favour of transformative acquisitions.",
+      "id": "5b4fbe26f4",
+      "title": "Rethinking sterile product development for manufacturing success",
+      "url": "https://www.pharmaceutical-technology.com/comment/rethinking-sterile-product-development-for-manufacturing-success/",
+      "summary": "How evolving development priorities are helping organisations build manufacturing knowledge from the earliest stages of development.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-05T15:22:25+00:00",
-      "pub_ts": 1785943345
+      "pub_date": "2026-08-06T10:22:34+00:00",
+      "pub_ts": 1786011754
     },
     {
-      "id": "99d8810aa8",
-      "title": "What is ‘Premium Content’ on Pharmaceutical Technology?",
-      "url": "https://www.pharmaceutical-technology.com/news/what-is-premium-content-on-pharmaceutical-technology/",
-      "summary": "Premium Content is our new free subscription that provides access to deeper analysis, data-led features and exclusive reports.",
+      "id": "f5aaf00f2f",
+      "title": "Eli Lilly raises 2026 outlook again as Q2 soars past estimates",
+      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-raises-2026-outlook-again-as-q2-soars-past-estimates/",
+      "summary": "Reporting 91% growth for Mounjaro, Lilly widened the gap to cardiometabolic rival Novo Nordisk.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-05T10:54:14+00:00",
-      "pub_ts": 1785927254
+      "pub_date": "2026-08-06T10:18:35+00:00",
+      "pub_ts": 1786011515
     },
     {
-      "id": "ec8620f68b",
-      "title": "Orexin receptor agonists set to propel narcolepsy treatment into a new era",
-      "url": "https://www.pharmaceutical-technology.com/features/orexin-receptor-agonists-set-to-propel-narcolepsy-treatment-into-a-new-era/",
-      "summary": "With several narcolepsy treatments advancing, the race for market leadership remains open.",
+      "id": "4054ff0c48",
+      "title": "Alteogen signs $365m Hybrozyme licensing deal with pharma company",
+      "url": "https://www.pharmaceutical-technology.com/news/alteogen-365m-hybrozyme-licensing-deal/",
+      "summary": "Alteogen has signed an exclusive licensing deal worth up to $365m with a global pharmaceutical company, granting worldwide rights to develop and commercialise a subcutaneous biologic product using its Hybrozyme technology.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-05T10:07:10+00:00",
-      "pub_ts": 1785924430
+      "pub_date": "2026-08-06T09:36:16+00:00",
+      "pub_ts": 1786008976
     },
     {
-      "id": "c377ad3ae5",
-      "title": "Mironid banks $46m in Series B to take rare kidney disease drug closer to clinic",
-      "url": "https://www.pharmaceutical-technology.com/news/mironid-46m-series-b-progress-kidney-disease/",
-      "summary": "This funding round will set Mironid up until the generation of initial clinical data, the company’s CEO says.",
+      "id": "8632b4c646",
+      "title": "China-ready by design: Leveraging NMPA’s new 30‑working day IND pathway",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/china-ready-by-design-leveraging-nmpas-new-30-working-day-ind-pathway/",
+      "summary": "China is becoming a global hub for oncology trials, with the NMPA now offering expedited review pathways for INDs.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-05T09:13:26+00:00",
-      "pub_ts": 1785921206
+      "pub_date": "2026-08-06T09:33:47+00:00",
+      "pub_ts": 1786008827
     }
   ],
   "source_success_count": 1,

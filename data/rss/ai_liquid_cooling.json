@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-08-06T03:15:17.171743+00:00",
+  "updated_at": "2026-08-07T02:55:49.551761+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "552101236c",
-      "title": "等等，MiniMaxH3不是刚发布吗？怎么就卷到几分钱的价格了….",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910037&idx=1&sn=585ba1192ee5a12fe7206e2fa91b044c",
-      "summary": "等等，MiniMaxH3不是刚发布吗？怎么就卷到几分钱的价格了….",
+      "id": "cf5a9c0b0c",
+      "title": "冲刺全球首个100万小时具身数据！三家国产公司，联手了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910326&idx=1&sn=97f93eb7b3d95be4ca867aed46493182",
+      "summary": "冲刺全球首个100万小时具身数据！三家国产公司，联手了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-06T03:15:13.031899+00:00",
-      "pub_ts": 1785986113
+      "pub_date": "2026-08-07T02:55:43.890054+00:00",
+      "pub_ts": 1786071343
     },
     {
-      "id": "55d2b04c14",
-      "title": "让AI自我进化，斯坦福新课免费教",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910037&idx=2&sn=aff77037c50f288dc47d33dce99ae9f1",
-      "summary": "让AI自我进化，斯坦福新课免费教",
+      "id": "e1e9ffc5bf",
+      "title": "马斯克大火箭把月球撞了个坑",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910326&idx=2&sn=1cb344ca9d1da7cc7df3f55531d41ce5",
+      "summary": "马斯克大火箭把月球撞了个坑",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-06T03:15:13.031960+00:00",
-      "pub_ts": 1785986113
+      "pub_date": "2026-08-07T02:55:43.890100+00:00",
+      "pub_ts": 1786071343
     },
     {
-      "id": "06386f6e22",
-      "title": "别再吹AI生图了，不能图层编辑的AI都是“画饼”",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909921&idx=1&sn=b662e8270a225448a6a08ce09b2f8806",
-      "summary": "别再吹AI生图了，不能图层编辑的AI都是“画饼”",
+      "id": "5f39b50f05",
+      "title": "IQuest给出大规模预训练新视角：早期收敛快不等于最终效果好，调度策略决...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910326&idx=3&sn=7e1deeecbae293152ff47ea4dc59256a",
+      "summary": "IQuest给出大规模预训练新视角：早期收敛快不等于最终效果好，调度策略决...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-06T03:15:13.031983+00:00",
-      "pub_ts": 1785986113
+      "pub_date": "2026-08-07T02:55:43.890123+00:00",
+      "pub_ts": 1786071343
     },
     {
-      "id": "dfe6b272f4",
-      "title": "又一家AI基金暴雷了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909921&idx=2&sn=6d1b80f041404406d19336d2aad8eee1",
-      "summary": "又一家AI基金暴雷了",
+      "id": "418425fc90",
+      "title": "没有人靠段子永载GitHub，除非谷歌姐夫",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910196&idx=1&sn=1393b90fab29a6989710649847d93e45",
+      "summary": "没有人靠段子永载GitHub，除非谷歌姐夫",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-06T03:15:13.032003+00:00",
-      "pub_ts": 1785986113
+      "pub_date": "2026-08-07T02:55:43.890145+00:00",
+      "pub_ts": 1786071343
     },
     {
-      "id": "9d99f6ca45",
-      "title": "114B 参数、6B激活，Sand.ai刚刚把全球首个千亿MoE视频生成模型开源了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909833&idx=1&sn=4ee6c970ea6ef8ef992b3ae1d6c564b2",
-      "summary": "114B 参数、6B激活，Sand.ai刚刚把全球首个千亿MoE视频生成模型开源了",
+      "id": "9224452448",
+      "title": "Meta新模型比DeepSeek还便宜，但代价是……",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910196&idx=2&sn=bc793019f6965c6a24f77da75a700cf0",
+      "summary": "Meta新模型比DeepSeek还便宜，但代价是……",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-06T03:15:13.032023+00:00",
-      "pub_ts": 1785986113
+      "pub_date": "2026-08-07T02:55:43.890166+00:00",
+      "pub_ts": 1786071343
     }
   ],
   "source_success_count": 1,
