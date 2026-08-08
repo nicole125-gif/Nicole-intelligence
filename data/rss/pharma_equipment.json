@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-08-07T02:56:15.830903+00:00",
+  "updated_at": "2026-08-08T02:01:39.189565+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "1973863662",
-      "title": "Takeda nets first-in-class advantage on narcolepsy drug’s FDA go-ahead",
-      "url": "https://www.pharmaceutical-technology.com/news/takeda-orzeyful-oveporexton-fda-approval-type-1-narcolepsy/",
-      "summary": "GlobalData previously flagged Orzeyful’s approval in narcolepsy as a key Q3 catalyst for pharma due to the drug’s ‘transformative’ potential.",
+      "id": "3be682f1e4",
+      "title": "Tarsus joins Stargardt race to market with $800m Alkeus takeover",
+      "url": "https://www.pharmaceutical-technology.com/news/tarsus-joins-stargardt-race-to-market-800m-alkeus-takeover/",
+      "summary": "Alongside Alkeus, companies like Belite Bio, Ocugen and Nanoscope are aiming to secure a place on the Stargardt market with no approved drugs.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-06T13:11:48+00:00",
-      "pub_ts": 1786021908
+      "pub_date": "2026-08-07T11:13:21+00:00",
+      "pub_ts": 1786101201
     },
     {
-      "id": "5b4fbe26f4",
-      "title": "Rethinking sterile product development for manufacturing success",
-      "url": "https://www.pharmaceutical-technology.com/comment/rethinking-sterile-product-development-for-manufacturing-success/",
-      "summary": "How evolving development priorities are helping organisations build manufacturing knowledge from the earliest stages of development.",
+      "id": "dda83597a1",
+      "title": "Context drops bispecific T-cell engager on cost-cutting initiative",
+      "url": "https://www.pharmaceutical-technology.com/news/context-scraps-t-cell-engager-cost-cutting/",
+      "summary": "Following the discontinuation of CT-95, Context will now focus on the two other BiTEs in its pipeline, CTIM-76 and CT-202.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-06T10:22:34+00:00",
-      "pub_ts": 1786011754
+      "pub_date": "2026-08-07T10:05:47+00:00",
+      "pub_ts": 1786097147
     },
     {
-      "id": "f5aaf00f2f",
-      "title": "Eli Lilly raises 2026 outlook again as Q2 soars past estimates",
-      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-raises-2026-outlook-again-as-q2-soars-past-estimates/",
-      "summary": "Reporting 91% growth for Mounjaro, Lilly widened the gap to cardiometabolic rival Novo Nordisk.",
+      "id": "6590a63318",
+      "title": "Moderna mRNA flu shot wins FDA approval but awaits CDC recommendations",
+      "url": "https://www.pharmaceutical-technology.com/news/moderna-mrna-flu-shot-wins-fda-approval-but-awaits-cdc-recommendations/",
+      "summary": "The approval means mFlusiva becomes the first mRNA-based vaccine to be authorised on the US market for flu prevention.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-06T10:18:35+00:00",
-      "pub_ts": 1786011515
+      "pub_date": "2026-08-07T09:33:50+00:00",
+      "pub_ts": 1786095230
     },
     {
-      "id": "4054ff0c48",
-      "title": "Alteogen signs $365m Hybrozyme licensing deal with pharma company",
-      "url": "https://www.pharmaceutical-technology.com/news/alteogen-365m-hybrozyme-licensing-deal/",
-      "summary": "Alteogen has signed an exclusive licensing deal worth up to $365m with a global pharmaceutical company, granting worldwide rights to develop and commercialise a subcutaneous biologic product using its Hybrozyme technology.",
+      "id": "0cae643798",
+      "title": "Evotec and Odyssey collaborate on AI-enabled R&D",
+      "url": "https://www.pharmaceutical-technology.com/news/evotec-odyssey-collaborate-rd/",
+      "summary": "Evotec and Odyssey Therapeutics have announced a strategic AI-enabled R&amp;D partnership to explore new treatments for autoimmune and inflammatory diseases.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-06T09:36:16+00:00",
-      "pub_ts": 1786008976
+      "pub_date": "2026-08-07T09:10:37+00:00",
+      "pub_ts": 1786093837
     },
     {
-      "id": "8632b4c646",
-      "title": "China-ready by design: Leveraging NMPA’s new 30‑working day IND pathway",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/china-ready-by-design-leveraging-nmpas-new-30-working-day-ind-pathway/",
-      "summary": "China is becoming a global hub for oncology trials, with the NMPA now offering expedited review pathways for INDs.",
+      "id": "b204b93af8",
+      "title": "Mediar and Ono Pharmaceutical to develop fibro-inflammatory treatments",
+      "url": "https://www.pharmaceutical-technology.com/news/mediar-ono-pharmaceutical-fibro-inflammatory/",
+      "summary": "Mediar Therapeutics has announced a collaboration and option agreement with Ono Pharmaceutical to develop treatments for fibro-inflammatory diseases.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-06T09:33:47+00:00",
-      "pub_ts": 1786008827
+      "pub_date": "2026-08-07T08:43:22+00:00",
+      "pub_ts": 1786092202
     }
   ],
   "source_success_count": 1,

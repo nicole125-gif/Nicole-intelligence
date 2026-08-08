@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-08-07T02:55:49.551761+00:00",
+  "updated_at": "2026-08-08T02:01:16.133027+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "cf5a9c0b0c",
-      "title": "冲刺全球首个100万小时具身数据！三家国产公司，联手了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910326&idx=1&sn=97f93eb7b3d95be4ca867aed46493182",
-      "summary": "冲刺全球首个100万小时具身数据！三家国产公司，联手了",
+      "id": "f238657641",
+      "title": "当题库追不上模型，AI开始给自己出题：中国这支团队跑通了数据层RSI",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910686&idx=1&sn=9bef81c8afd2dd38ccb60f298bad3673",
+      "summary": "当题库追不上模型，AI开始给自己出题：中国这支团队跑通了数据层RSI",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-07T02:55:43.890054+00:00",
-      "pub_ts": 1786071343
+      "pub_date": "2026-08-08T02:01:11.163284+00:00",
+      "pub_ts": 1786154471
     },
     {
-      "id": "e1e9ffc5bf",
-      "title": "马斯克大火箭把月球撞了个坑",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910326&idx=2&sn=1cb344ca9d1da7cc7df3f55531d41ce5",
-      "summary": "马斯克大火箭把月球撞了个坑",
+      "id": "01fe5517d8",
+      "title": "DeepSeek涨价不是为了多赚钱",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910686&idx=2&sn=d3590194e0fc169f9ccf9fc8aa1bdfdf",
+      "summary": "DeepSeek涨价不是为了多赚钱",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-07T02:55:43.890100+00:00",
-      "pub_ts": 1786071343
+      "pub_date": "2026-08-08T02:01:11.163328+00:00",
+      "pub_ts": 1786154471
     },
     {
-      "id": "5f39b50f05",
-      "title": "IQuest给出大规模预训练新视角：早期收敛快不等于最终效果好，调度策略决...",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910326&idx=3&sn=7e1deeecbae293152ff47ea4dc59256a",
-      "summary": "IQuest给出大规模预训练新视角：早期收敛快不等于最终效果好，调度策略决...",
+      "id": "8a6d771d8f",
+      "title": "AI圈功能狂卷，付费寥寥，Keep正在试一条新路",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910431&idx=1&sn=cd32d309b7df9150014246363ae5a7a4",
+      "summary": "AI圈功能狂卷，付费寥寥，Keep正在试一条新路",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-07T02:55:43.890123+00:00",
-      "pub_ts": 1786071343
+      "pub_date": "2026-08-08T02:01:11.163350+00:00",
+      "pub_ts": 1786154471
     },
     {
-      "id": "418425fc90",
-      "title": "没有人靠段子永载GitHub，除非谷歌姐夫",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910196&idx=1&sn=1393b90fab29a6989710649847d93e45",
-      "summary": "没有人靠段子永载GitHub，除非谷歌姐夫",
+      "id": "936762e9e6",
+      "title": "openJiuwen发布业界首个企业级分布式蜂群架构，联合邮储成功落地金融生...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910431&idx=2&sn=a0a13f56d24758689910c40738131608",
+      "summary": "openJiuwen发布业界首个企业级分布式蜂群架构，联合邮储成功落地金融生...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-07T02:55:43.890145+00:00",
-      "pub_ts": 1786071343
+      "pub_date": "2026-08-08T02:01:11.163370+00:00",
+      "pub_ts": 1786154471
     },
     {
-      "id": "9224452448",
-      "title": "Meta新模型比DeepSeek还便宜，但代价是……",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910196&idx=2&sn=bc793019f6965c6a24f77da75a700cf0",
-      "summary": "Meta新模型比DeepSeek还便宜，但代价是……",
+      "id": "d69ff3bccf",
+      "title": "AISSD：大模型推理的存储范式转移",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910405&idx=1&sn=4fc2a6c0e9ed83a0c9a0e6633f2b4b66",
+      "summary": "AISSD：大模型推理的存储范式转移",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-07T02:55:43.890166+00:00",
-      "pub_ts": 1786071343
+      "pub_date": "2026-08-08T02:01:11.163390+00:00",
+      "pub_ts": 1786154471
     }
   ],
   "source_success_count": 1,

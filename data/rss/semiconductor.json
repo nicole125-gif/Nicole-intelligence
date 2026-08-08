@@ -3,108 +3,148 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-08-07T02:55:34.083265+00:00",
+  "updated_at": "2026-08-08T02:01:01.683941+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "0ba8a4c64d",
-      "title": "清华大学战投加持，芯际无限打造汽车及具身智能双赛道算力底座",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815703&idx=1&sn=20c0aff8937edf23e6bcf2096d8ffa6e",
-      "summary": "清华大学战投加持，芯际无限打造汽车及具身智能双赛道算力底座",
+      "id": "f926a952f3",
+      "title": "对话亿铸科技创始人熊大鹏：通用存算一体，如何定义AI算力的下一个十年？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815741&idx=1&sn=6ce18f09140b2cd2c9afa509703c2d2c",
+      "summary": "对话亿铸科技创始人熊大鹏：通用存算一体，如何定义AI算力的下一个十年？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-07T02:55:29.996212+00:00",
-      "pub_ts": 1786071329
+      "pub_date": "2026-08-08T02:00:57.467304+00:00",
+      "pub_ts": 1786154457
     },
     {
-      "id": "7c548ba194",
-      "title": "全球功率半导体TOP20，5家中国厂商在列",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815703&idx=2&sn=9b5552b7b52accd9c1143cee2c06361c",
-      "summary": "全球功率半导体TOP20，5家中国厂商在列",
+      "id": "8dd89ae5f5",
+      "title": "中国集成电路，7月出口额飙升116.57%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815741&idx=2&sn=fff174a80146fbab2d120bf8cccba432",
+      "summary": "中国集成电路，7月出口额飙升116.57%",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-07T02:55:29.996258+00:00",
-      "pub_ts": 1786071329
+      "pub_date": "2026-08-08T02:00:57.467351+00:00",
+      "pub_ts": 1786154457
     },
     {
-      "id": "d4ee67db8c",
-      "title": "台积电协同研发，用原子界面救活二维晶体管",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815703&idx=3&sn=f3143b0fcfa0434de88fd9ceb7e921a1",
-      "summary": "台积电协同研发，用原子界面救活二维晶体管",
+      "id": "cf5dd890ce",
+      "title": "SIA：全球半导体单季狂揽4033亿美元",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815741&idx=3&sn=245a62b577c1109f5a56647c1f2a326b",
+      "summary": "SIA：全球半导体单季狂揽4033亿美元",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-07T02:55:29.996285+00:00",
-      "pub_ts": 1786071329
+      "pub_date": "2026-08-08T02:00:57.467378+00:00",
+      "pub_ts": 1786154457
     },
     {
-      "id": "dbad421141",
-      "title": "12英寸晶圆，开始紧缺",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815703&idx=4&sn=5f96c02cbfc3ca77791e89ce0bb116ca",
-      "summary": "12英寸晶圆，开始紧缺",
+      "id": "5d9c0f0f0f",
+      "title": "英伟达高管：可插拔光模块不会消亡，将与CPO同步发展",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815741&idx=4&sn=5d10364de06edccd03ecef502db71de2",
+      "summary": "英伟达高管：可插拔光模块不会消亡，将与CPO同步发展",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-07T02:55:29.996308+00:00",
-      "pub_ts": 1786071329
+      "pub_date": "2026-08-08T02:00:57.467400+00:00",
+      "pub_ts": 1786154457
     },
     {
-      "id": "f829f10e16",
-      "title": "闪迪赚疯了，数据中心业务增长437%",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815703&idx=5&sn=e89a61d1746a171896c1f22d893333b1",
-      "summary": "闪迪赚疯了，数据中心业务增长437%",
+      "id": "a61ff0bc0b",
+      "title": "芯片散热看不清？这项技术实现直接观测",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815741&idx=5&sn=234ccc1d1f93892496980e24c62376c1",
+      "summary": "芯片散热看不清？这项技术实现直接观测",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-07T02:55:29.996329+00:00",
-      "pub_ts": 1786071329
+      "pub_date": "2026-08-08T02:00:57.467421+00:00",
+      "pub_ts": 1786154457
     },
     {
-      "id": "2ef8f76e78",
-      "title": "ABF基板，缺到2028",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828423&idx=1&sn=2462ed02ea10aacc1a10a5a54db8099a",
-      "summary": "ABF基板，缺到2028",
+      "id": "80f1588cc9",
+      "title": "SK海力士，投资54万亿扩产",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828610&idx=1&sn=5ec1355085f18733fba7a83c3ca6ebe5",
+      "summary": "SK海力士，投资54万亿扩产",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-07T02:55:15.462631+00:00",
-      "pub_ts": 1786071315
+      "pub_date": "2026-08-08T02:00:48.863697+00:00",
+      "pub_ts": 1786154448
     },
     {
-      "id": "515bd10557",
-      "title": "光芯片，暗流涌动",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828370&idx=1&sn=4d91da99732ac74c659b59daafca5df5",
-      "summary": "光芯片，暗流涌动",
+      "id": "e2f2cd59c7",
+      "title": "展芯上市暴涨，中一签赚近5万元",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828545&idx=1&sn=cc3ebfce21659e8e340d298ee46272b3",
+      "summary": "展芯上市暴涨，中一签赚近5万元",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-07T02:55:15.462683+00:00",
-      "pub_ts": 1786071315
+      "pub_date": "2026-08-08T02:00:48.863757+00:00",
+      "pub_ts": 1786154448
     },
     {
-      "id": "1033fe65dd",
-      "title": "2026年芯片预测：销量暴增98.3%，直逼1.7万亿美元",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828370&idx=2&sn=a3ed29a1d9e8ff69702ed198e71b33b2",
-      "summary": "2026年芯片预测：销量暴增98.3%，直逼1.7万亿美元",
+      "id": "ac16efa461",
+      "title": "美国押注“后GPU时代”",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828525&idx=1&sn=48f84e4cd3371463e5e52f7047aacc05",
+      "summary": "美国押注“后GPU时代”",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-07T02:55:15.462709+00:00",
-      "pub_ts": 1786071315
+      "pub_date": "2026-08-08T02:00:48.863782+00:00",
+      "pub_ts": 1786154448
     },
     {
-      "id": "b6cae096a7",
-      "title": "又一巨头，下场造芯",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828370&idx=3&sn=63bb7ad4b893a8269a8b261628bb77a6",
-      "summary": "又一巨头，下场造芯",
+      "id": "1f008f72fb",
+      "title": "下一代芯片关键技术，台积电突破",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828525&idx=2&sn=d3ec12f2d56c3c6c2767ff17985fa783",
+      "summary": "下一代芯片关键技术，台积电突破",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-07T02:55:15.462732+00:00",
-      "pub_ts": 1786071315
+      "pub_date": "2026-08-08T02:00:48.863804+00:00",
+      "pub_ts": 1786154448
     },
     {
-      "id": "b6da190b95",
-      "title": "诺基亚收购NXP工厂，扩产InP",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828370&idx=4&sn=a99fdf8e0e52a75536fede3e55a0bc09",
-      "summary": "诺基亚收购NXP工厂，扩产InP",
+      "id": "33e0bd6671",
+      "title": "1133亿 Terafab 开建，马斯克有意进军DRAM?",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828525&idx=3&sn=886d79e03e586bc82db99f729f1e6aa0",
+      "summary": "1133亿 Terafab 开建，马斯克有意进军DRAM?",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-07T02:55:15.462754+00:00",
-      "pub_ts": 1786071315
+      "pub_date": "2026-08-08T02:00:48.863825+00:00",
+      "pub_ts": 1786154448
+    },
+    {
+      "id": "71ce66bab3",
+      "title": "Model Tracks Bond Front Velocity in Lubrication-Mediated Bonding of Flexible Substrates (imec)",
+      "url": "https://semiengineering.com/model-tracks-bond-front-velocity-for-wafer-and-die-bonding-imec/",
+      "summary": "An imec researcher published a technical paper titled “Bond Front Velocity in Lubrication-Mediated Bonding of Flexible Substrates.” Abstract: &#8220;Bonding and assembly processes have started to take the centre-stage in semiconductor manufacturing as they enable three-dimensional (3D) stacking and …",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-07T19:48:39+00:00",
+      "pub_ts": 1786132119
+    },
+    {
+      "id": "7d289522f0",
+      "title": "Ultrafast X-Ray Diffraction Maps Thermal Transport In GaN Thin Films (MIT, SLAC, Stanford, Argonne)",
+      "url": "https://semiengineering.com/ultrafast-x-ray-diffraction-maps-thermal-transport-in-gan-thin-films-mit-slac-stanford-argonne/",
+      "summary": "Researchers from MIT, SLAC, Stanford University, and Argonne National Laboratory published a technical paper titled “Spatiotemporal mapping of anisotropic thermal transport in GaN thin films via ultrafast X-ray diffraction.” Abstract Excerpt: The paper presents a “non-contact, spatiotemporal-resolve…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-07T16:49:11+00:00",
+      "pub_ts": 1786121351
+    },
+    {
+      "id": "0aa3af4c62",
+      "title": "Rapid Switching of Optical Properties in a Doped Semiconductor By Femtosecond Laser Pulses (Imperial College London, U. of Exeter)",
+      "url": "https://semiengineering.com/rapid-switching-of-optical-properties-in-a-doped-semiconductor-by-femtosecond-laser-pulses-imperial-college-london-u-of-exeter/",
+      "summary": "Researchers from Imperial College London and University of Exeter published a technical paper titled “Ultrafast switching of optical properties in a doped semiconductor by intense femtosecond laser pulses.” Abstract  &#8220;The rapid switching of materials when excited by ultrashort pulses of light …",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-07T16:30:33+00:00",
+      "pub_ts": 1786120233
+    },
+    {
+      "id": "075a23e324",
+      "title": "Chip Industry Week in Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-150/",
+      "summary": "SK hynix's $38B new fabs; memory density increases; 2026 chip industry revenue to hit $1.65T; imec metrology roadmap; MIT's self-assembled contacts; new U.S. restrictions; Intel's new training program; NXP to buy Ambarella?; AI sandbox leaks; memory-centric accelerator; entangled photons; CHIPS Act …",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-07T07:01:09+00:00",
+      "pub_ts": 1786086069
     },
     {
       "id": "553c541359",
@@ -115,46 +155,6 @@
       "lang": "en",
       "pub_date": "2026-08-06T07:07:57+00:00",
       "pub_ts": 1786000077
-    },
-    {
-      "id": "3cc8b6f80c",
-      "title": "Shared IDE For PCIe Bifurcation: Scaling Security Without Scaling Complexity & Resources",
-      "url": "https://semiengineering.com/shared-ide-for-pcie-bifurcation-scaling-security-without-scaling-complexity-resources/",
-      "summary": "Allowing multiple controllers and links to utilize a common security infrastructure while maintaining independent protection mechanisms.\nThe post Shared IDE For PCIe Bifurcation: Scaling Security Without Scaling Complexity &#038; Resources appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-06T07:06:17+00:00",
-      "pub_ts": 1785999977
-    },
-    {
-      "id": "b6bb87099b",
-      "title": "How To Scale AI Arithmetic Efficiently",
-      "url": "https://semiengineering.com/how-to-scale-ai-arithmetic-efficiently/",
-      "summary": "Accelerating matrix multiplications in a variety of number formats while maintaining accuracy and reducing circuit area.\nThe post How To Scale AI Arithmetic Efficiently appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-06T07:05:36+00:00",
-      "pub_ts": 1785999936
-    },
-    {
-      "id": "5a7d9ed915",
-      "title": "AI: Friend And Foe For Chip Security",
-      "url": "https://semiengineering.com/ai-friend-and-foe-for-security/",
-      "summary": "AI has access to every known security paper and powerful tools, but that's not all bad.\nThe post AI: Friend And Foe For Chip Security appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-06T07:05:17+00:00",
-      "pub_ts": 1785999917
-    },
-    {
-      "id": "03830de214",
-      "title": "When USB Reaches The Root Of Trust",
-      "url": "https://semiengineering.com/when-usb-reaches-the-root-of-trust/",
-      "summary": "The growing importance of peripheral interfaces in hardware threat models.\nThe post When USB Reaches The Root Of Trust appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-06T07:04:35+00:00",
-      "pub_ts": 1785999875
     }
   ],
   "source_success_count": 3,
