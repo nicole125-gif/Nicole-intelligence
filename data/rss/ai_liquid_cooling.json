@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-08-08T02:01:16.133027+00:00",
+  "updated_at": "2026-08-09T02:09:12.027501+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "f238657641",
-      "title": "当题库追不上模型，AI开始给自己出题：中国这支团队跑通了数据层RSI",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910686&idx=1&sn=9bef81c8afd2dd38ccb60f298bad3673",
-      "summary": "当题库追不上模型，AI开始给自己出题：中国这支团队跑通了数据层RSI",
+      "id": "eaf57fd29d",
+      "title": "腾讯AI如何“扶正”姚顺雨?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910816&idx=1&sn=7b1e9e60771303c6f564fc87b1567666",
+      "summary": "腾讯AI如何“扶正”姚顺雨?",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-08T02:01:11.163284+00:00",
-      "pub_ts": 1786154471
+      "pub_date": "2026-08-09T02:09:07.781949+00:00",
+      "pub_ts": 1786241347
     },
     {
-      "id": "01fe5517d8",
-      "title": "DeepSeek涨价不是为了多赚钱",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910686&idx=2&sn=d3590194e0fc169f9ccf9fc8aa1bdfdf",
-      "summary": "DeepSeek涨价不是为了多赚钱",
+      "id": "7a69fd98b2",
+      "title": "Jeff Dean创业 BP曝光，杨植麟也在上面！硅谷VC抢破头送钱",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910814&idx=1&sn=763383770991ff739beeff0daeef53dc",
+      "summary": "Jeff Dean创业 BP曝光，杨植麟也在上面！硅谷VC抢破头送钱",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-08T02:01:11.163328+00:00",
-      "pub_ts": 1786154471
+      "pub_date": "2026-08-09T02:09:07.781997+00:00",
+      "pub_ts": 1786241347
     },
     {
-      "id": "8a6d771d8f",
-      "title": "AI圈功能狂卷，付费寥寥，Keep正在试一条新路",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910431&idx=1&sn=cd32d309b7df9150014246363ae5a7a4",
-      "summary": "AI圈功能狂卷，付费寥寥，Keep正在试一条新路",
+      "id": "c2508052c7",
+      "title": "奥特曼的ChatGPT育儿大法，捅了马蜂窝",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910814&idx=2&sn=620a78de9066f0d741a6ee05cc9b035e",
+      "summary": "奥特曼的ChatGPT育儿大法，捅了马蜂窝",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-08T02:01:11.163350+00:00",
-      "pub_ts": 1786154471
+      "pub_date": "2026-08-09T02:09:07.782020+00:00",
+      "pub_ts": 1786241347
     },
     {
-      "id": "936762e9e6",
-      "title": "openJiuwen发布业界首个企业级分布式蜂群架构，联合邮储成功落地金融生...",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910431&idx=2&sn=a0a13f56d24758689910c40738131608",
-      "summary": "openJiuwen发布业界首个企业级分布式蜂群架构，联合邮储成功落地金融生...",
+      "id": "05cbf4ee4e",
+      "title": "中国NeoLab时刻：EverMind用3篇论文，交出全栈自进化首份答卷",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910812&idx=1&sn=1be36c772024fb1001416a99bdc7ec3a",
+      "summary": "中国NeoLab时刻：EverMind用3篇论文，交出全栈自进化首份答卷",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-08T02:01:11.163370+00:00",
-      "pub_ts": 1786154471
+      "pub_date": "2026-08-09T02:09:07.782042+00:00",
+      "pub_ts": 1786241347
     },
     {
-      "id": "d69ff3bccf",
-      "title": "AISSD：大模型推理的存储范式转移",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910405&idx=1&sn=4fc2a6c0e9ed83a0c9a0e6633f2b4b66",
-      "summary": "AISSD：大模型推理的存储范式转移",
+      "id": "6c63dceeed",
+      "title": "都学坏了！奥特曼亲手封锁最强模型Astra，重蹈Mythos覆辙",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910812&idx=2&sn=19274ba091daef41ccac22b079c22468",
+      "summary": "都学坏了！奥特曼亲手封锁最强模型Astra，重蹈Mythos覆辙",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-08T02:01:11.163390+00:00",
-      "pub_ts": 1786154471
+      "pub_date": "2026-08-09T02:09:07.782063+00:00",
+      "pub_ts": 1786241347
     }
   ],
   "source_success_count": 1,

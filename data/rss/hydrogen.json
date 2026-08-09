@@ -3,68 +3,108 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-08-08T02:01:26.664570+00:00",
-  "item_count": 6,
+  "updated_at": "2026-08-09T02:09:22.879564+00:00",
+  "item_count": 10,
   "items": [
     {
-      "id": "7da68c2db5",
-      "title": "German Minister Hails Hydrogen-Based Steel Plant Set to Begin Production in 2027",
-      "url": "https://fuelcellsworks.com/2026/08/02/green-hydrogen/german-economy-minister-backs-salzgitter-hydrogen-steel-project-as-first-production-nears",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-08-06T16:12:15+00:00",
-      "pub_ts": 1786032735
-    },
-    {
-      "id": "afb29dee6f",
-      "title": "EU Approves €780M Dutch Green Hydrogen Subsidy Scheme Targeting 400MW of Electrolysers",
-      "url": "https://fuelcellsworks.com/2026/08/06/electrolyzer/eu-approves-780m-dutch-green-hydrogen-subsidy-scheme-targeting-400mw-of-electrolysers",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-08-06T15:37:33+00:00",
-      "pub_ts": 1786030653
-    },
-    {
-      "id": "70828ce65f",
-      "title": "University of Illinois Urbana-Champaign and GenH2 Advance Liquid Hydrogen Research for Next-Generation Aviation",
-      "url": "https://fuelcellsworks.com/2026/08/06/green-technology/university-of-illinois-urbana-champaign-and-genh2-advance-liquid-hydrogen-research-for-next-generation-aviation",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-08-06T15:29:26+00:00",
-      "pub_ts": 1786030166
-    },
-    {
-      "id": "1b200249b6",
-      "title": "Green Hydrogen Has Not Failed — It Is Entering a Commercial Reality Check, Chilean Researcher Says",
-      "url": "https://fuelcellsworks.com/2026/08/06/h2/green-hydrogen-has-not-failed-it-is-entering-a-commercial-reality-check-chilean-researcher-says",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-08-06T15:26:52+00:00",
-      "pub_ts": 1786030012
-    },
-    {
-      "id": "3fdfde9646",
-      "title": "Snowfox Discovery Secures 10,000 Acres in Iowa for Natural Hydrogen Exploration",
-      "url": "https://fuelcellsworks.com/2026/08/06/green-hydrogen/snowfox-discovery-secures-10-000-acres-in-iowa-for-natural-hydrogen-exploration",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-08-06T15:07:51+00:00",
-      "pub_ts": 1786028871
-    },
-    {
-      "id": "d5e3862787",
-      "title": "Tackling the Hydrogen Storage Challenge with Nobel Prize-Winning Science",
-      "url": "https://hydrogen-central.com/tackling-the-hydrogen-storage-challenge-with-nobel-prize-winning-science/",
-      "summary": "Tackling the Hydrogen Storage Challenge with Nobel Prize-Winning Science &#8211; Written by Magnus Bach, VP of Business Development at H2MOF Hydrogen is abundant, clean, and extraordinarily energy-dense, and a fuel [&#8230;]\nThe post Tackling the Hydrogen Storage Challenge with Nobel Prize-Winning S…",
+      "id": "161e3fcc2f",
+      "title": "Resato Hydrogen Technology BV Files for Suspension of Payments",
+      "url": "https://hydrogen-central.com/resato-hydrogen-technology-bv-files-for-suspension-of-payments/",
+      "summary": "Resato Hydrogen Technology BV Files for Suspension of Payments On July 21, an application for suspension of payments was filed on behalf of Resato Hydrogen Technology. This is unfortunate news [&#8230;]\nThe post Resato Hydrogen Technology BV Files for Suspension of Payments appeared first on Hydroge…",
       "source": "Hydrogen Central",
       "lang": "en",
-      "pub_date": "2026-08-04T08:45:11+00:00",
-      "pub_ts": 1785833111
+      "pub_date": "2026-08-08T18:19:51+00:00",
+      "pub_ts": 1786213191
+    },
+    {
+      "id": "e227703c0c",
+      "title": "Flying Fuel Cell: MTU Aero Engines achieves important milestones",
+      "url": "https://hydrogen-central.com/flying-fuel-cell-mtu-aero-engines-achieves-important-milestones/",
+      "summary": "Flying Fuel Cell: MTU Aero Engines achieves important milestones Supply systems tested successfully&#124; Demonstrators headed for testing&#124; MTU and Airbus deepen their collaboration with a joint venture&#124; EASA certification partnership [&#8230;]\nThe post Flying Fuel Cell: MTU Aero Engines a…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-08-08T18:16:51+00:00",
+      "pub_ts": 1786213011
+    },
+    {
+      "id": "baf96eab4c",
+      "title": "Genevos and Koedood Marine Group team up on maritime hydrogen fuel cell deployment",
+      "url": "https://hydrogen-central.com/genevos-and-koedood-marine-group-team-up-on-maritime-hydrogen-fuel-cell-deployment/",
+      "summary": "Genevos and Koedood Marine Group team up on maritime hydrogen fuel cell deployment Collaboration will explore how ready-to-use marine fuel cell systems can support shipowners and shipyards in the transition [&#8230;]\nThe post Genevos and Koedood Marine Group team up on maritime hydrogen fuel cell de…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-08-08T18:13:11+00:00",
+      "pub_ts": 1786212791
+    },
+    {
+      "id": "5abc45b371",
+      "title": "Birmingham Airport joins HyPRIME hydrogen infrastructure project alongside ZeroAvia",
+      "url": "https://hydrogen-central.com/birmingham-airport-joins-hyprime-hydrogen-infrastructure-project-alongside-zeroavia/",
+      "summary": "Birmingham Airport joins HyPRIME hydrogen infrastructure project alongside ZeroAvia Published 23 July 2026 BHX will work alongside ULEMCO, GeoPura and Bristol Airport to design, build and test a mobile refuelling [&#8230;]\nThe post Birmingham Airport joins HyPRIME hydrogen infrastructure project alo…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-08-08T18:12:18+00:00",
+      "pub_ts": 1786212738
+    },
+    {
+      "id": "d72d86c4f3",
+      "title": "GreenH receives EU funding for new hydrogen hub in Rogaland",
+      "url": "https://hydrogen-central.com/greenh-receives-eu-funding-for-new-hydrogen-hub-in-rogaland/",
+      "summary": "GreenH receives EU funding for new hydrogen hub in Rogaland GreenH has been awarded support from the EU’s Innovation Fund of approximately NOK 600 million for the development of a [&#8230;]\nThe post GreenH receives EU funding for new hydrogen hub in Rogaland appeared first on Hydrogen Central.",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-08-08T18:09:36+00:00",
+      "pub_ts": 1786212576
+    },
+    {
+      "id": "d91115c131",
+      "title": "Shaanxi Company Starts Building Solid-State Hydrogen Storage Equipment Base",
+      "url": "https://fuelcellsworks.com/2026/08/05/fuel-cells/shaanxi-company-starts-building-solid-state-hydrogen-storage-equipment-base",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-08-07T15:30:19+00:00",
+      "pub_ts": 1786116619
+    },
+    {
+      "id": "6e1b45eb96",
+      "title": "Montebello Bus Lines Charts Bold Path Toward a Zero-Emission Future with First Hydrogen Fuel Cell Buses",
+      "url": "https://fuelcellsworks.com/2026/08/07/fuel-cells/montebello-bus-lines-charts-bold-path-toward-a-zero-emission-future-with-first-hydrogen-fuel-cell-buses",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-08-07T15:21:09+00:00",
+      "pub_ts": 1786116069
+    },
+    {
+      "id": "40d7dbd479",
+      "title": "Swappable Liquid Hydrogen Tank for Ships Completes Major Land-Based Test Campaign",
+      "url": "https://fuelcellsworks.com/2026/08/07/h2/swappable-liquid-hydrogen-tank-for-ships-completes-major-land-based-test-campaign",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-08-07T15:11:48+00:00",
+      "pub_ts": 1786115508
+    },
+    {
+      "id": "dd05c750cf",
+      "title": "De Nora and Maffei Sarda Silicati Announce the Completion of the Dragonfly® Plant for the Production of Green Hydrogen in Sardinia",
+      "url": "https://fuelcellsworks.com/2026/08/07/electrolyzer/de-nora-and-maffei-sarda-silicati-announce-the-completion-of-the-dragonfly-plant-for-the-production-of-green-hydrogen-in-sardinia",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-08-07T15:11:04+00:00",
+      "pub_ts": 1786115464
+    },
+    {
+      "id": "460d520b03",
+      "title": "NEDO Selects Study Into On-Site Hydrogen Production at Japanese Refuelling Stations",
+      "url": "https://fuelcellsworks.com/2026/08/06/electrolyzer/nedo-selects-study-into-on-site-hydrogen-production-at-japanese-refuelling-stations",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-08-07T15:05:41+00:00",
+      "pub_ts": 1786115141
     }
   ],
   "source_success_count": 2,
