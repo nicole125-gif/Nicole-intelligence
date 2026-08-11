@@ -3,9 +3,39 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-08-10T02:14:42.574305+00:00",
+  "updated_at": "2026-08-11T02:08:37.389061+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "ca17f98197",
+      "title": "Sobi licenses Innate’s CTCL drug for up to $580m as it heads to Phase III",
+      "url": "https://www.pharmaceutical-technology.com/news/sobi-innate-licensing-deal-phase-iii-lacutamab-ctcl/",
+      "summary": "Innate is planning to begin a Phase III confirmatory trial on lacutamab as it vies for the drug’s accelerated approval in a rare CTCL subset.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-08-10T11:14:07+00:00",
+      "pub_ts": 1786360447
+    },
+    {
+      "id": "6460941825",
+      "title": "Innovent and Daiichi Sankyo sign deal for Vanflyta in China",
+      "url": "https://www.pharmaceutical-technology.com/news/innovent-daiichi-sankyo-vanflyta-china/",
+      "summary": "Innovent Biologics and Daiichi Sankyo have signed an exclusive agreement to commercialise Vanflyta, an oral type II FLT3 inhibitor, in China.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-08-10T09:44:43+00:00",
+      "pub_ts": 1786355083
+    },
+    {
+      "id": "33abaf78c4",
+      "title": "Energenesis and Taiwan Tanabe to develop ENERGI-F703DFU for DFUs",
+      "url": "https://www.pharmaceutical-technology.com/news/energenesis-taiwan-tanabe-energi-f703dfu/",
+      "summary": "Energenesis has signed a development agreement with Taiwan Tanabe for its investigational topical drug ENERGI-F703DFU to treat DFUs.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-08-10T08:41:13+00:00",
+      "pub_ts": 1786351273
+    },
     {
       "id": "3be682f1e4",
       "title": "Tarsus joins Stargardt race to market with $800m Alkeus takeover",
@@ -25,36 +55,6 @@
       "lang": "en",
       "pub_date": "2026-08-07T10:05:47+00:00",
       "pub_ts": 1786097147
-    },
-    {
-      "id": "6590a63318",
-      "title": "Moderna mRNA flu shot wins FDA approval but awaits CDC recommendations",
-      "url": "https://www.pharmaceutical-technology.com/news/moderna-mrna-flu-shot-wins-fda-approval-but-awaits-cdc-recommendations/",
-      "summary": "The approval means mFlusiva becomes the first mRNA-based vaccine to be authorised on the US market for flu prevention.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-08-07T09:33:50+00:00",
-      "pub_ts": 1786095230
-    },
-    {
-      "id": "0cae643798",
-      "title": "Evotec and Odyssey collaborate on AI-enabled R&D",
-      "url": "https://www.pharmaceutical-technology.com/news/evotec-odyssey-collaborate-rd/",
-      "summary": "Evotec and Odyssey Therapeutics have announced a strategic AI-enabled R&amp;D partnership to explore new treatments for autoimmune and inflammatory diseases.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-08-07T09:10:37+00:00",
-      "pub_ts": 1786093837
-    },
-    {
-      "id": "b204b93af8",
-      "title": "Mediar and Ono Pharmaceutical to develop fibro-inflammatory treatments",
-      "url": "https://www.pharmaceutical-technology.com/news/mediar-ono-pharmaceutical-fibro-inflammatory/",
-      "summary": "Mediar Therapeutics has announced a collaboration and option agreement with Ono Pharmaceutical to develop treatments for fibro-inflammatory diseases.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-08-07T08:43:22+00:00",
-      "pub_ts": 1786092202
     }
   ],
   "source_success_count": 1,
