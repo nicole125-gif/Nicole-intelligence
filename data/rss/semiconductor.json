@@ -3,161 +3,111 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-08-11T02:07:59.448357+00:00",
-  "item_count": 15,
+  "updated_at": "2026-08-12T02:25:40.676828+00:00",
+  "item_count": 10,
   "items": [
     {
-      "id": "234c4f81dc",
-      "title": "算力下半场，没有孤胆英雄",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815859&idx=1&sn=ad528cbfceb847014e43111d174769b4",
-      "summary": "算力下半场，没有孤胆英雄",
+      "id": "793397572c",
+      "title": "国民技术宣布10月起部分产品涨价10%-20%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815892&idx=1&sn=74517e665b7c14d30f2edd0cd13f0e33",
+      "summary": "国民技术宣布10月起部分产品涨价10%-20%",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-11T02:07:55.403684+00:00",
-      "pub_ts": 1786414075
+      "pub_date": "2026-08-12T02:25:34.422511+00:00",
+      "pub_ts": 1786501534
     },
     {
-      "id": "0b020c25f4",
-      "title": "半导体关键材料，全线涨价",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815859&idx=2&sn=05226d1418138d21b8ac6a9754676cef",
-      "summary": "半导体关键材料，全线涨价",
+      "id": "2db0f7b3d0",
+      "title": "MRAM芯片核心材料国产化里程碑：苏州智材高纯高密度氧化镁靶材研发成功",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815884&idx=1&sn=546f80a021f21f76516fe9c755cc3874",
+      "summary": "MRAM芯片核心材料国产化里程碑：苏州智材高纯高密度氧化镁靶材研发成功",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-11T02:07:55.403733+00:00",
-      "pub_ts": 1786414075
+      "pub_date": "2026-08-12T02:25:34.422560+00:00",
+      "pub_ts": 1786501534
     },
     {
-      "id": "33d0270cf2",
-      "title": "iPhone 18 Pro物料成本预计大涨近 40%，苹果能顶住吗?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815859&idx=3&sn=c5196204cd9adfc738a36a45fdb3077a",
-      "summary": "iPhone 18 Pro物料成本预计大涨近 40%，苹果能顶住吗?",
+      "id": "b3cab5d71c",
+      "title": "黄仁勋最新撰文：关于英伟达AI工厂",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815884&idx=2&sn=4afc4866b041242237797567515274f1",
+      "summary": "黄仁勋最新撰文：关于英伟达AI工厂",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-11T02:07:55.403760+00:00",
-      "pub_ts": 1786414075
+      "pub_date": "2026-08-12T02:25:34.422591+00:00",
+      "pub_ts": 1786501534
     },
     {
-      "id": "af352dddf5",
-      "title": "总投资5.2亿元，臻宝科技投建半导体零部件研发生产基地",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815859&idx=4&sn=ceeb9dfdd0b378a773251019fc13cde3",
-      "summary": "总投资5.2亿元，臻宝科技投建半导体零部件研发生产基地",
+      "id": "1d51e485ca",
+      "title": "KAIST打造“变色龙AI半导体”，突破传统芯片固定响应限制",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815884&idx=3&sn=c1738669cd4e9b96d80fb63f60364144",
+      "summary": "KAIST打造“变色龙AI半导体”，突破传统芯片固定响应限制",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-11T02:07:55.403782+00:00",
-      "pub_ts": 1786414075
+      "pub_date": "2026-08-12T02:25:34.422616+00:00",
+      "pub_ts": 1786501534
     },
     {
-      "id": "df8618a5a0",
-      "title": "万亿日元投资，索尼、台积电合资工厂预计2029年投产",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815859&idx=5&sn=66ec633bdf25b800db0d51a178239c4d",
-      "summary": "万亿日元投资，索尼、台积电合资工厂预计2029年投产",
+      "id": "a5c7d9c9a1",
+      "title": "台积电5.5倍光罩尺寸CoWoS实现量产",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815884&idx=4&sn=cb0bb201cdb9a343baf646485ea9e8f0",
+      "summary": "台积电5.5倍光罩尺寸CoWoS实现量产",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-11T02:07:55.403802+00:00",
-      "pub_ts": 1786414075
+      "pub_date": "2026-08-12T02:25:34.422639+00:00",
+      "pub_ts": 1786501534
     },
     {
-      "id": "b0d7d4e677",
-      "title": "江波龙净利润，大增71528.66%",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828893&idx=1&sn=70024eb65d3fa08be1e580edb15b627f",
-      "summary": "江波龙净利润，大增71528.66%",
+      "id": "2f3d1c0848",
+      "title": "国民技术，涨价！",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828972&idx=1&sn=b83e621a8bfd77a33df7a891e915e66a",
+      "summary": "国民技术，涨价！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-11T02:07:46.844947+00:00",
-      "pub_ts": 1786414066
+      "pub_date": "2026-08-12T02:25:20.401571+00:00",
+      "pub_ts": 1786501520
     },
     {
-      "id": "389f0e7f0c",
-      "title": "台积电，传投资1万亿！",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828838&idx=1&sn=78bf9d3ea3998631039758d2a89a1aa5",
-      "summary": "台积电，传投资1万亿！",
+      "id": "ccc0666f60",
+      "title": "下一代EUV光刻机，三星定了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828956&idx=1&sn=7ab1e5d7c81e2ae028a728f2dd819582",
+      "summary": "下一代EUV光刻机，三星定了！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-11T02:07:46.845006+00:00",
-      "pub_ts": 1786414066
+      "pub_date": "2026-08-12T02:25:20.401632+00:00",
+      "pub_ts": 1786501520
     },
     {
-      "id": "39154af96e",
-      "title": "长鑫科技，被纳入重要指数",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828833&idx=1&sn=8f42dc95853760ab71018e6ea6ebfd4d",
-      "summary": "长鑫科技，被纳入重要指数",
+      "id": "5484c450c0",
+      "title": "超纯应材上市大涨，一签收益19.2万",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828951&idx=1&sn=54b98d4fa9f31cb7af822a63c49ff30f",
+      "summary": "超纯应材上市大涨，一签收益19.2万",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-11T02:07:46.845031+00:00",
-      "pub_ts": 1786414066
+      "pub_date": "2026-08-12T02:25:20.401659+00:00",
+      "pub_ts": 1786501520
     },
     {
-      "id": "8e590aafe3",
-      "title": "都盯上了EUV光刻机",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828789&idx=1&sn=939b2e49e6caf6ee554805acb3c0b5d7",
-      "summary": "都盯上了EUV光刻机",
+      "id": "82b86f1ab0",
+      "title": "SSD走向推理主链路：处于爆发临界点上的AISSD",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828937&idx=1&sn=56d4af3ace79fb590da2af9fe016f1a3",
+      "summary": "SSD走向推理主链路：处于爆发临界点上的AISSD",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-11T02:07:46.845053+00:00",
-      "pub_ts": 1786414066
+      "pub_date": "2026-08-12T02:25:20.401682+00:00",
+      "pub_ts": 1786501520
     },
     {
-      "id": "00170a48b2",
-      "title": "江波龙的存储Foundry，如何破解端侧AI需求的\"千手观音\"难题",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828789&idx=2&sn=9da395b1cabb20bae2de1e6bbd3c328b",
-      "summary": "江波龙的存储Foundry，如何破解端侧AI需求的\"千手观音\"难题",
+      "id": "b885cfa8d0",
+      "title": "“韬定律”背后的逻辑折叠，究竟是什么？",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828937&idx=2&sn=7fb4aa11783fee689cb636d56a7d9a72",
+      "summary": "“韬定律”背后的逻辑折叠，究竟是什么？",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-11T02:07:46.845074+00:00",
-      "pub_ts": 1786414066
-    },
-    {
-      "id": "68065d91e7",
-      "title": "Failure Analysis HW Enables System-Level Debug For 3D ICs (Google, TU Delft)",
-      "url": "https://semiengineering.com/failure-analysis-hw-enables-system-level-debug-for-3d-ics-google-tu-delft/",
-      "summary": "Researchers from Google and Delft University of Technology published a technical paper titled “Innovative FA Hardware Solution to Enable System-Level Debug of 3D ICs.” Abstract Excerpt: &#8220;This paper presents a novel Failure Analysis (FA) hardware and sample preparation solution that enables Sys…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-10T21:55:24+00:00",
-      "pub_ts": 1786398924
-    },
-    {
-      "id": "f5c42fce93",
-      "title": "Optimizing Chiplet Placement And Interposer Footprint For 2.5D Systems (A*STAR)",
-      "url": "https://semiengineering.com/optimizing-chiplet-placement-and-interposer-footprint-for-2-5d-systems-astar/",
-      "summary": "Researchers from A*STAR published a technical paper titled “FAPlace: Joint Optimization of Chiplet Placement and Interposer Footprint for 2.5D Systems.” Abstract Excerpt: &#8221; We propose FAPlace, a footprint aware mask guided sequential placement framework. FAPlace operates on a sufficiently larg…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-10T17:53:49+00:00",
-      "pub_ts": 1786384429
-    },
-    {
-      "id": "b3250f284b",
-      "title": "Femtosecond Laser Process Targets Depth-Controlled 4H-SiC Wafer Slicing (Texas A&M, KIMM, UST)",
-      "url": "https://semiengineering.com/femtosecond-laser-process-targets-depth-controlled-4h-sic-wafer-slicing-texas-am-kimm-ust/",
-      "summary": "Researchers from Texas A&#38;M University, KIMM, and UST published a technical paper titled “Self-Focusing Control for Depth-Precise Wafer Slicing of 4H-SiC in Femtosecond Laser Processing.” Abstract Excerpt: &#8220;Femtosecond laser slicing for 4H-SiC wafers offers a non-contact processing approach…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-10T16:55:54+00:00",
-      "pub_ts": 1786380954
-    },
-    {
-      "id": "d7aee41be3",
-      "title": "How Data Center AI Can Keep Growing, Despite Supply Chain Bottlenecks",
-      "url": "https://semiengineering.com/how-data-center-ai-can-keep-growing-despite-supply-chain-bottlenecks/",
-      "summary": "Efficiency is key for the next two to five years. But what happens when supply eventually catches up?\nThe post How Data Center AI Can Keep Growing, Despite Supply Chain Bottlenecks appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-10T07:01:44+00:00",
-      "pub_ts": 1786345304
-    },
-    {
-      "id": "b1ff53ed80",
-      "title": "Chip Industry Technical Paper Roundup: Aug. 10",
-      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-aug-11/",
-      "summary": "Ultrafast optical switching in doped semis; PIM simulation; foundry-compatible silicon photonics MEMS switching; GPU-accelerated switching-power analysis; neuromorphic computing; magneto-ionic HW security; bond front velocity; measuring heat movement.\nThe post Chip Industry Technical Paper Roundup: …",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-10T07:01:34+00:00",
-      "pub_ts": 1786345294
+      "pub_date": "2026-08-12T02:25:20.401705+00:00",
+      "pub_ts": 1786501520
     }
   ],
-  "source_success_count": 3,
+  "source_success_count": 2,
   "source_total_count": 6,
   "fetch_status": "fresh"
 }

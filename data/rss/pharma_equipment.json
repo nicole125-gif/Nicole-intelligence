@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-08-11T02:08:37.389061+00:00",
+  "updated_at": "2026-08-12T02:26:19.907954+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "ca17f98197",
-      "title": "Sobi licenses Innate’s CTCL drug for up to $580m as it heads to Phase III",
-      "url": "https://www.pharmaceutical-technology.com/news/sobi-innate-licensing-deal-phase-iii-lacutamab-ctcl/",
-      "summary": "Innate is planning to begin a Phase III confirmatory trial on lacutamab as it vies for the drug’s accelerated approval in a rare CTCL subset.",
+      "id": "c011a379db",
+      "title": "Commercialising drugs in Europe: Lean models for first-time launchers",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/lean-models-first-time-drug-launchers-in-europe/",
+      "summary": "Launching a product across Europe’s fragmented healthcare systems presents unique challenges that first-timers are often unprepared for, say experts from Cencora.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-10T11:14:07+00:00",
-      "pub_ts": 1786360447
+      "pub_date": "2026-08-11T14:48:01+00:00",
+      "pub_ts": 1786459681
     },
     {
-      "id": "6460941825",
-      "title": "Innovent and Daiichi Sankyo sign deal for Vanflyta in China",
-      "url": "https://www.pharmaceutical-technology.com/news/innovent-daiichi-sankyo-vanflyta-china/",
-      "summary": "Innovent Biologics and Daiichi Sankyo have signed an exclusive agreement to commercialise Vanflyta, an oral type II FLT3 inhibitor, in China.",
+      "id": "e31fc987b0",
+      "title": "Trump signs order that nearly halves childhood immunisation coverage",
+      "url": "https://www.pharmaceutical-technology.com/news/trump-signs-order-that-nearly-halves-childhood-immunisation-coverage/",
+      "summary": "Seven diseases have been stripped from the recommendations, with changes to the MMR vaccine also advised.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-10T09:44:43+00:00",
-      "pub_ts": 1786355083
+      "pub_date": "2026-08-11T10:41:44+00:00",
+      "pub_ts": 1786444904
     },
     {
-      "id": "33abaf78c4",
-      "title": "Energenesis and Taiwan Tanabe to develop ENERGI-F703DFU for DFUs",
-      "url": "https://www.pharmaceutical-technology.com/news/energenesis-taiwan-tanabe-energi-f703dfu/",
-      "summary": "Energenesis has signed a development agreement with Taiwan Tanabe for its investigational topical drug ENERGI-F703DFU to treat DFUs.",
+      "id": "36c2b2bc96",
+      "title": "Health tech’s role in obesity to expand beyond a ‘nice-to-have’",
+      "url": "https://www.pharmaceutical-technology.com/features/health-tech-role-obesity-to-expand/",
+      "summary": "Experts predict that DHTs such as wearables and apps will play a burgeoning role in obesity research and care, though equity concerns remain.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-10T08:41:13+00:00",
-      "pub_ts": 1786351273
+      "pub_date": "2026-08-11T10:31:06+00:00",
+      "pub_ts": 1786444266
     },
     {
-      "id": "3be682f1e4",
-      "title": "Tarsus joins Stargardt race to market with $800m Alkeus takeover",
-      "url": "https://www.pharmaceutical-technology.com/news/tarsus-joins-stargardt-race-to-market-800m-alkeus-takeover/",
-      "summary": "Alongside Alkeus, companies like Belite Bio, Ocugen and Nanoscope are aiming to secure a place on the Stargardt market with no approved drugs.",
+      "id": "5e5358c44b",
+      "title": "UK regulators greenlight Lilly’s Foundayo, intensifying Novo competition",
+      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-foundayo-weight-loss-pill-mhra-approval/",
+      "summary": "The MHRA is the first European regulator to give Foundayo a regulatory blessing, with the drug still under review by the EU.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-07T11:13:21+00:00",
-      "pub_ts": 1786101201
+      "pub_date": "2026-08-11T10:26:49+00:00",
+      "pub_ts": 1786444009
     },
     {
-      "id": "dda83597a1",
-      "title": "Context drops bispecific T-cell engager on cost-cutting initiative",
-      "url": "https://www.pharmaceutical-technology.com/news/context-scraps-t-cell-engager-cost-cutting/",
-      "summary": "Following the discontinuation of CT-95, Context will now focus on the two other BiTEs in its pipeline, CTIM-76 and CT-202.",
+      "id": "9ef1d521f4",
+      "title": "BMS banks on Texas for $2.3bn multi-modal manufacturing facility",
+      "url": "https://www.pharmaceutical-technology.com/news/bms-2-3bn-texas-manufacturing-facility/",
+      "summary": "This will establish BMS’ in-house manufacturing presence in Texas, adding to its ongoing outlicensing and research partnerships in the state.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-07T10:05:47+00:00",
-      "pub_ts": 1786097147
+      "pub_date": "2026-08-11T10:25:55+00:00",
+      "pub_ts": 1786443955
     }
   ],
   "source_success_count": 1,

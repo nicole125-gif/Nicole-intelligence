@@ -3,9 +3,59 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-08-11T02:08:24.928284+00:00",
+  "updated_at": "2026-08-12T02:26:07.323522+00:00",
   "item_count": 10,
   "items": [
+    {
+      "id": "ceeb7c88d2",
+      "title": "Sapporo Showcases Hydrogen Taxis",
+      "url": "https://fuelcellsworks.com/2026/08/09/fuel-cells/sapporo-showcases-hydrogen-taxis",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-08-10T16:14:51+00:00",
+      "pub_ts": 1786378491
+    },
+    {
+      "id": "747861516b",
+      "title": "Südostbayernbahn and Siemens Present New Hydrogen Train",
+      "url": "https://fuelcellsworks.com/2026/08/10/fuel-cells/sudostbayernbahn-and-siemens-present-new-hydrogen-train",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-08-10T16:03:28+00:00",
+      "pub_ts": 1786377808
+    },
+    {
+      "id": "8ac31a4908",
+      "title": "Fuel Cell and Hydrogen News Highlights From China: August 3-7, 2026",
+      "url": "https://fuelcellsworks.com/2026/08/09/clean-energy/china-e16038826",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-08-10T15:57:02+00:00",
+      "pub_ts": 1786377422
+    },
+    {
+      "id": "bc6cb6be86",
+      "title": "Karlsruhe Advances 850MW Hydrogen-Ready Power Plant to Replace Coal Generation",
+      "url": "https://fuelcellsworks.com/2026/08/10/clean-energy/mannysaraklis-gmail-com-10-08-am-31-minutes-ago-to-me-karlsruhe-advances-850mw-hydrogen-ready-power-plant-to-replace-coal-generation",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-08-10T15:52:58+00:00",
+      "pub_ts": 1786377178
+    },
+    {
+      "id": "c7f0c133c5",
+      "title": "Israel: The Hydrogen Valley in the Negev Is Underway",
+      "url": "https://fuelcellsworks.com/2026/07/28/h2/israel-the-hydrogen-valley-in-the-negev-is-underway",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-08-10T15:40:29+00:00",
+      "pub_ts": 1786376429
+    },
     {
       "id": "9c2364a710",
       "title": "South Korea bets on hydrogen trains that can run 600 km on a single charge",
@@ -55,56 +105,6 @@
       "lang": "en",
       "pub_date": "2026-08-09T15:59:16+00:00",
       "pub_ts": 1786291156
-    },
-    {
-      "id": "d91115c131",
-      "title": "Shaanxi Company Starts Building Solid-State Hydrogen Storage Equipment Base",
-      "url": "https://fuelcellsworks.com/2026/08/05/fuel-cells/shaanxi-company-starts-building-solid-state-hydrogen-storage-equipment-base",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-08-07T15:30:19+00:00",
-      "pub_ts": 1786116619
-    },
-    {
-      "id": "6e1b45eb96",
-      "title": "Montebello Bus Lines Charts Bold Path Toward a Zero-Emission Future with First Hydrogen Fuel Cell Buses",
-      "url": "https://fuelcellsworks.com/2026/08/07/fuel-cells/montebello-bus-lines-charts-bold-path-toward-a-zero-emission-future-with-first-hydrogen-fuel-cell-buses",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-08-07T15:21:09+00:00",
-      "pub_ts": 1786116069
-    },
-    {
-      "id": "40d7dbd479",
-      "title": "Swappable Liquid Hydrogen Tank for Ships Completes Major Land-Based Test Campaign",
-      "url": "https://fuelcellsworks.com/2026/08/07/h2/swappable-liquid-hydrogen-tank-for-ships-completes-major-land-based-test-campaign",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-08-07T15:11:48+00:00",
-      "pub_ts": 1786115508
-    },
-    {
-      "id": "dd05c750cf",
-      "title": "De Nora and Maffei Sarda Silicati Announce the Completion of the Dragonfly® Plant for the Production of Green Hydrogen in Sardinia",
-      "url": "https://fuelcellsworks.com/2026/08/07/electrolyzer/de-nora-and-maffei-sarda-silicati-announce-the-completion-of-the-dragonfly-plant-for-the-production-of-green-hydrogen-in-sardinia",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-08-07T15:11:04+00:00",
-      "pub_ts": 1786115464
-    },
-    {
-      "id": "460d520b03",
-      "title": "NEDO Selects Study Into On-Site Hydrogen Production at Japanese Refuelling Stations",
-      "url": "https://fuelcellsworks.com/2026/08/06/electrolyzer/nedo-selects-study-into-on-site-hydrogen-production-at-japanese-refuelling-stations",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-08-07T15:05:41+00:00",
-      "pub_ts": 1786115141
     }
   ],
   "source_success_count": 2,
