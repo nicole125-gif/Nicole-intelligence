@@ -3,111 +3,161 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-08-12T02:25:40.676828+00:00",
-  "item_count": 10,
+  "updated_at": "2026-08-13T02:26:48.789916+00:00",
+  "item_count": 15,
   "items": [
     {
-      "id": "793397572c",
-      "title": "国民技术宣布10月起部分产品涨价10%-20%",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815892&idx=1&sn=74517e665b7c14d30f2edd0cd13f0e33",
-      "summary": "国民技术宣布10月起部分产品涨价10%-20%",
+      "id": "b6aacbd362",
+      "title": "朱镕基：为学与为人",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815923&idx=1&sn=4ab92ae5514f77910dadeb64503c5294",
+      "summary": "朱镕基：为学与为人",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-12T02:25:34.422511+00:00",
-      "pub_ts": 1786501534
+      "pub_date": "2026-08-13T02:26:44.558753+00:00",
+      "pub_ts": 1786588004
     },
     {
-      "id": "2db0f7b3d0",
-      "title": "MRAM芯片核心材料国产化里程碑：苏州智材高纯高密度氧化镁靶材研发成功",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815884&idx=1&sn=546f80a021f21f76516fe9c755cc3874",
-      "summary": "MRAM芯片核心材料国产化里程碑：苏州智材高纯高密度氧化镁靶材研发成功",
+      "id": "f267256d03",
+      "title": "光刻机赛道，闯入一个意外选手",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815914&idx=1&sn=bdc19ed7b9bd08cb9b60e8778b3c15b2",
+      "summary": "光刻机赛道，闯入一个意外选手",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-12T02:25:34.422560+00:00",
-      "pub_ts": 1786501534
+      "pub_date": "2026-08-13T02:26:44.558801+00:00",
+      "pub_ts": 1786588004
     },
     {
-      "id": "b3cab5d71c",
-      "title": "黄仁勋最新撰文：关于英伟达AI工厂",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815884&idx=2&sn=4afc4866b041242237797567515274f1",
-      "summary": "黄仁勋最新撰文：关于英伟达AI工厂",
+      "id": "411667a06b",
+      "title": "近300亿美元预算，台积电火速敲定四大提案",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815914&idx=2&sn=8c94614144b346767f28398ba2a50a7b",
+      "summary": "近300亿美元预算，台积电火速敲定四大提案",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-12T02:25:34.422591+00:00",
-      "pub_ts": 1786501534
+      "pub_date": "2026-08-13T02:26:44.558827+00:00",
+      "pub_ts": 1786588004
     },
     {
-      "id": "1d51e485ca",
-      "title": "KAIST打造“变色龙AI半导体”，突破传统芯片固定响应限制",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815884&idx=3&sn=c1738669cd4e9b96d80fb63f60364144",
-      "summary": "KAIST打造“变色龙AI半导体”，突破传统芯片固定响应限制",
+      "id": "8a9340747b",
+      "title": "半导体AI困局：七成项目卡死在试点阶段",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815914&idx=3&sn=8f4a4f5ad2430f2251adb92a01a707ce",
+      "summary": "半导体AI困局：七成项目卡死在试点阶段",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-12T02:25:34.422616+00:00",
-      "pub_ts": 1786501534
+      "pub_date": "2026-08-13T02:26:44.558849+00:00",
+      "pub_ts": 1786588004
     },
     {
-      "id": "a5c7d9c9a1",
-      "title": "台积电5.5倍光罩尺寸CoWoS实现量产",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815884&idx=4&sn=cb0bb201cdb9a343baf646485ea9e8f0",
-      "summary": "台积电5.5倍光罩尺寸CoWoS实现量产",
+      "id": "82592cca5a",
+      "title": "巨头押注二维材料，量产为何仍要等十年?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247815914&idx=4&sn=d08dd1516c7aba7c5aeb1cc3395a5559",
+      "summary": "巨头押注二维材料，量产为何仍要等十年?",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-12T02:25:34.422639+00:00",
-      "pub_ts": 1786501534
+      "pub_date": "2026-08-13T02:26:44.558870+00:00",
+      "pub_ts": 1786588004
     },
     {
-      "id": "2f3d1c0848",
-      "title": "国民技术，涨价！",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828972&idx=1&sn=b83e621a8bfd77a33df7a891e915e66a",
-      "summary": "国民技术，涨价！",
+      "id": "0dbc6e9489",
+      "title": "长江存储，首次跻身前三",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829031&idx=1&sn=fbfa88fdb970434709e5b78b90939a10",
+      "summary": "长江存储，首次跻身前三",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-12T02:25:20.401571+00:00",
-      "pub_ts": 1786501520
+      "pub_date": "2026-08-13T02:26:33.964949+00:00",
+      "pub_ts": 1786587993
     },
     {
-      "id": "ccc0666f60",
-      "title": "下一代EUV光刻机，三星定了！",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828956&idx=1&sn=7ab1e5d7c81e2ae028a728f2dd819582",
-      "summary": "下一代EUV光刻机，三星定了！",
+      "id": "437123aa39",
+      "title": "杰理上市，开盘大涨",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828996&idx=1&sn=79f875d85c212678288b2d4cb07e203b",
+      "summary": "杰理上市，开盘大涨",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-12T02:25:20.401632+00:00",
-      "pub_ts": 1786501520
+      "pub_date": "2026-08-13T02:26:33.965005+00:00",
+      "pub_ts": 1786587993
     },
     {
-      "id": "5484c450c0",
-      "title": "超纯应材上市大涨，一签收益19.2万",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828951&idx=1&sn=54b98d4fa9f31cb7af822a63c49ff30f",
-      "summary": "超纯应材上市大涨，一签收益19.2万",
+      "id": "02e5f9e66b",
+      "title": "AI存储，驱动未来！9月22-23日，GMIF2026创新峰会亮点抢先看",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828990&idx=1&sn=dada3f73347ae8c99d4a72f399baae2c",
+      "summary": "AI存储，驱动未来！9月22-23日，GMIF2026创新峰会亮点抢先看",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-12T02:25:20.401659+00:00",
-      "pub_ts": 1786501520
+      "pub_date": "2026-08-13T02:26:33.965031+00:00",
+      "pub_ts": 1786587993
     },
     {
-      "id": "82b86f1ab0",
-      "title": "SSD走向推理主链路：处于爆发临界点上的AISSD",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828937&idx=1&sn=56d4af3ace79fb590da2af9fe016f1a3",
-      "summary": "SSD走向推理主链路：处于爆发临界点上的AISSD",
+      "id": "3e6840d567",
+      "title": "台积电先进封装，最新研判！",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828990&idx=2&sn=b36778e92e45481b8934fc6dc1ff4f2f",
+      "summary": "台积电先进封装，最新研判！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-12T02:25:20.401682+00:00",
-      "pub_ts": 1786501520
+      "pub_date": "2026-08-13T02:26:33.965053+00:00",
+      "pub_ts": 1786587993
     },
     {
-      "id": "b885cfa8d0",
-      "title": "“韬定律”背后的逻辑折叠，究竟是什么？",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828937&idx=2&sn=7fb4aa11783fee689cb636d56a7d9a72",
-      "summary": "“韬定律”背后的逻辑折叠，究竟是什么？",
+      "id": "4a671b743e",
+      "title": "陈立武暗示：英特尔将杀回存储市场?",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247828990&idx=3&sn=39e383951065c3837a42f1e0dedf32ab",
+      "summary": "陈立武暗示：英特尔将杀回存储市场?",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-12T02:25:20.401705+00:00",
-      "pub_ts": 1786501520
+      "pub_date": "2026-08-13T02:26:33.965074+00:00",
+      "pub_ts": 1786587993
+    },
+    {
+      "id": "02cd89b0b4",
+      "title": "Self-Supervised Layout Generation To Fix Advanced-Node DRVs (Nvidia, Duke)",
+      "url": "https://semiengineering.com/self-supervised-layout-generation-to-fix-advanced-node-drvs-nvidia-duke/",
+      "summary": "Researchers from NVIDIA and Duke University published a technical paper titled “SCALE: Self-Supervised Constraint-Aware Layout GEneration for Local P&#38;R DRV Fixing at Advanced Nodes.” Abstract &#8220;As semiconductor manufacturing advances toward sub-2nm nodes, local place-and-route (P&#38;R) des…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-12T22:47:43+00:00",
+      "pub_ts": 1786574863
+    },
+    {
+      "id": "ec2633f3b2",
+      "title": "2D GAA CFETs Need Contact And Parasitic Co-Optimization At A2 Node (imec)",
+      "url": "https://semiengineering.com/2d-gaa-cfets-need-contact-and-parasitic-co-optimization-at-a2-node-imec/",
+      "summary": "Researchers from imec published a technical paper titled “Are Gate-All-Around 2D CFETs the Optimal Architecture for the A2 Node and Beyond?” Abstract Excerpt: “Here, we develop an A2-oriented 2D CFET integration flow with a CPP of 36 nm and Lg of 10 nm and present initial demonstrations of several k…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-12T18:01:03+00:00",
+      "pub_ts": 1786557663
+    },
+    {
+      "id": "5715bac7c9",
+      "title": "Defect Prediction in Optical Lithography, EUVL, and NIL (National Taiwan University)",
+      "url": "https://semiengineering.com/defect-prediction-in-optical-lithography-euvl-and-nil-national-taiwan-university/",
+      "summary": "National Taiwan University researchers published a technical paper titled “From Lithography to Nanoimprint: Physics-Based, Data-Driven, and Hybrid Frameworks for Defect Prediction in Advanced Patterning Technologies.” Abstract: &#8220;Advanced patterning technologies have evolved from direct optical…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-12T17:46:29+00:00",
+      "pub_ts": 1786556789
+    },
+    {
+      "id": "a327cd34f3",
+      "title": "What Are DDR5 DIMM Chipsets? The Complete Guide To RCDs, PMICs, SPD Hubs, And More",
+      "url": "https://semiengineering.com/what-are-ddr5-dimm-chipsets-the-complete-guide-to-rcds-pmics-spd-hubs-and-more/",
+      "summary": "How DDR5 DIMM chipsets work, why they matter, how they build upon DDR5 technology, and how emerging module architectures are extending memory bandwidth.\nThe post What Are DDR5 DIMM Chipsets? The Complete Guide To RCDs, PMICs, SPD Hubs, And More appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-12T07:02:43+00:00",
+      "pub_ts": 1786518163
+    },
+    {
+      "id": "8a63d6eba5",
+      "title": "Blog Review: Aug. 12",
+      "url": "https://semiengineering.com/blog-review-aug-12-3/",
+      "summary": "Early multiphysics; high-speed M-PHY; STCO for 3D-ICs; what EDA needs for AI; workload optimization.\nThe post Blog Review: Aug. 12 appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-12T07:01:47+00:00",
+      "pub_ts": 1786518107
     }
   ],
-  "source_success_count": 2,
+  "source_success_count": 3,
   "source_total_count": 6,
   "fetch_status": "fresh"
 }

@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-08-12T02:25:54.644184+00:00",
+  "updated_at": "2026-08-13T02:27:02.575164+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "53d94225bd",
-      "title": "蚂蚁首次投向机器人“指尖”！数亿元押注，全球首个物理交互脑发布",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247911517&idx=1&sn=fccc12536f28bc57c8560758e4cb842e",
-      "summary": "蚂蚁首次投向机器人“指尖”！数亿元押注，全球首个物理交互脑发布",
+      "id": "a36b1e8e1a",
+      "title": "国产具身智能创全球新纪录！以30%成本跑赢 Figure Al 45%效率，聪明的具...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247911760&idx=1&sn=1e269c79ae2d6af65094abbbb9b84c10",
+      "summary": "国产具身智能创全球新纪录！以30%成本跑赢 Figure Al 45%效率，聪明的具...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-12T02:25:50.120223+00:00",
-      "pub_ts": 1786501550
+      "pub_date": "2026-08-13T02:26:58.481755+00:00",
+      "pub_ts": 1786588018
     },
     {
-      "id": "ab7bee13e2",
-      "title": "在ClaudeCode里用GPT被秒封！义父Tibo：别急，我给你重置",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247911517&idx=2&sn=f91becfdabc2052ef790a0f6c12b2ba2",
-      "summary": "在ClaudeCode里用GPT被秒封！义父Tibo：别急，我给你重置",
+      "id": "a6a9335fa1",
+      "title": "OpenAI一个月跑4名高管！前COO离场，安全线几乎被一锅端",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247911760&idx=2&sn=a4c56ccad6d4ce0138e059cfe544688b",
+      "summary": "OpenAI一个月跑4名高管！前COO离场，安全线几乎被一锅端",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-12T02:25:50.120269+00:00",
-      "pub_ts": 1786501550
+      "pub_date": "2026-08-13T02:26:58.481798+00:00",
+      "pub_ts": 1786588018
     },
     {
-      "id": "d1715ad0fc",
-      "title": "一家新能源大厂，如何撑起全球最大AI算力超级单体?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247911471&idx=1&sn=d576ba2f023536c9a83bb670578dc0ea",
-      "summary": "一家新能源大厂，如何撑起全球最大AI算力超级单体?",
+      "id": "2eee725531",
+      "title": "具身数据来了实战派！40天2轮融资数干万，瞄准物理AI基础设施",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247911742&idx=1&sn=0bae2872d1ee33a78a811202368773a2",
+      "summary": "具身数据来了实战派！40天2轮融资数干万，瞄准物理AI基础设施",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-12T02:25:50.120294+00:00",
-      "pub_ts": 1786501550
+      "pub_date": "2026-08-13T02:26:58.481821+00:00",
+      "pub_ts": 1786588018
     },
     {
-      "id": "fc063b87d3",
-      "title": "谷歌创始人布林紧急接管Gemini团队，但“3.5Pro已被取消”",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247911471&idx=2&sn=f3464a198a131b9f353164de1d034b40",
-      "summary": "谷歌创始人布林紧急接管Gemini团队，但“3.5Pro已被取消”",
+      "id": "0118ff9904",
+      "title": "紫东太初推出GMC核心集剪枝方法，少80%Token仍满血保真多模态能力",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247911742&idx=2&sn=7a2c9254b29b1f5133ad0b8661ceef44",
+      "summary": "紫东太初推出GMC核心集剪枝方法，少80%Token仍满血保真多模态能力",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-12T02:25:50.120316+00:00",
-      "pub_ts": 1786501550
+      "pub_date": "2026-08-13T02:26:58.481840+00:00",
+      "pub_ts": 1786588018
     },
     {
-      "id": "8a64bbd86b",
-      "title": "Meta重返开源！3OB 本地Agent塞进24GB显存，LeCun火速力挺",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247911471&idx=3&sn=58dd29eb2cd1859881e4b0d460d8ad7d",
-      "summary": "Meta重返开源！3OB 本地Agent塞进24GB显存，LeCun火速力挺",
+      "id": "fea602bc31",
+      "title": "人形之外，擎羽把“身体”变成具身智能的新变量",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247911589&idx=1&sn=48deb331e9c3d578eb7b5adeba834ec2",
+      "summary": "人形之外，擎羽把“身体”变成具身智能的新变量",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-12T02:25:50.120336+00:00",
-      "pub_ts": 1786501550
+      "pub_date": "2026-08-13T02:26:58.481860+00:00",
+      "pub_ts": 1786588018
     }
   ],
   "source_success_count": 1,

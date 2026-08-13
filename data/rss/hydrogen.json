@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-08-12T02:26:07.323522+00:00",
+  "updated_at": "2026-08-13T02:27:13.510377+00:00",
   "item_count": 10,
   "items": [
     {
-      "id": "ceeb7c88d2",
-      "title": "Sapporo Showcases Hydrogen Taxis",
-      "url": "https://fuelcellsworks.com/2026/08/09/fuel-cells/sapporo-showcases-hydrogen-taxis",
+      "id": "d99a114f0b",
+      "title": "Electrolyser Developed by Keele Scientists Enables Simultaneous Hydrogen and Sustainable Plastics Production",
+      "url": "https://fuelcellsworks.com/2026/08/11/energy-innovation/electrolyser-developed-by-keele-scientists-enables-simultaneous-hydrogen-and-sustainable-plastics-production-i20018628",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-10T16:14:51+00:00",
-      "pub_ts": 1786378491
+      "pub_date": "2026-08-11T15:53:19+00:00",
+      "pub_ts": 1786463599
     },
     {
-      "id": "747861516b",
-      "title": "Südostbayernbahn and Siemens Present New Hydrogen Train",
-      "url": "https://fuelcellsworks.com/2026/08/10/fuel-cells/sudostbayernbahn-and-siemens-present-new-hydrogen-train",
+      "id": "f6b5d0a807",
+      "title": "Spain’s Murcia Allocates €10M for Technology-Centre R&D Including Hydrogen and Energy Storage",
+      "url": "https://fuelcellsworks.com/2026/08/11/h2/spain-s-murcia-allocates-10m-for-technology-centre-r-and-d-including-hydrogen-and-energy-storage",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-10T16:03:28+00:00",
-      "pub_ts": 1786377808
+      "pub_date": "2026-08-11T15:35:45+00:00",
+      "pub_ts": 1786462545
     },
     {
-      "id": "8ac31a4908",
-      "title": "Fuel Cell and Hydrogen News Highlights From China: August 3-7, 2026",
-      "url": "https://fuelcellsworks.com/2026/08/09/clean-energy/china-e16038826",
+      "id": "a550bcbec8",
+      "title": "India Awards 30,000-Tonne Green Hydrogen Supply Contracts to Decarbonise State Refineries",
+      "url": "https://fuelcellsworks.com/2026/08/11/green-hydrogen/india-awards-30-000-tonne-green-hydrogen-supply-contracts-to-decarbonise-state-refineries",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-10T15:57:02+00:00",
-      "pub_ts": 1786377422
+      "pub_date": "2026-08-11T15:33:51+00:00",
+      "pub_ts": 1786462431
     },
     {
-      "id": "bc6cb6be86",
-      "title": "Karlsruhe Advances 850MW Hydrogen-Ready Power Plant to Replace Coal Generation",
-      "url": "https://fuelcellsworks.com/2026/08/10/clean-energy/mannysaraklis-gmail-com-10-08-am-31-minutes-ago-to-me-karlsruhe-advances-850mw-hydrogen-ready-power-plant-to-replace-coal-generation",
+      "id": "f5acf35c0a",
+      "title": "Sardinia Opens €26.7 Million Tender for 28 Hydrogen Fuel-Cell Buses",
+      "url": "https://fuelcellsworks.com/2026/08/09/fuel-cells/sardinia-opens-26-7-million-tender-for-28-hydrogen-fuel-cell-buses",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-10T15:52:58+00:00",
-      "pub_ts": 1786377178
+      "pub_date": "2026-08-11T15:01:59+00:00",
+      "pub_ts": 1786460519
     },
     {
-      "id": "c7f0c133c5",
-      "title": "Israel: The Hydrogen Valley in the Negev Is Underway",
-      "url": "https://fuelcellsworks.com/2026/07/28/h2/israel-the-hydrogen-valley-in-the-negev-is-underway",
+      "id": "3d73cc0a3d",
+      "title": "Power to Hydrogen Delivers First-of-a-Kind Industrial-Scale AEM Electrolyzer to the Port of Antwerp-Bruges",
+      "url": "https://fuelcellsworks.com/2026/08/11/electrolyzer/power-to-hydrogen-delivers-first-of-a-kind-industrial-scale-aem-electrolyzer-to-the-port-of-antwerp-bruges",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-10T15:40:29+00:00",
-      "pub_ts": 1786376429
+      "pub_date": "2026-08-11T14:48:46+00:00",
+      "pub_ts": 1786459726
     },
     {
       "id": "9c2364a710",

@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-08-12T02:26:19.907954+00:00",
+  "updated_at": "2026-08-13T02:27:26.274149+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "c011a379db",
-      "title": "Commercialising drugs in Europe: Lean models for first-time launchers",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/lean-models-first-time-drug-launchers-in-europe/",
-      "summary": "Launching a product across Europe’s fragmented healthcare systems presents unique challenges that first-timers are often unprepared for, say experts from Cencora.",
+      "id": "bcb9c42e2c",
+      "title": "Investigational CRISPR therapy succeeds in patient with drug-resistant E. Coli",
+      "url": "https://www.pharmaceutical-technology.com/news/investigational-crispr-therapy-succeeds-in-patient-with-drug-resistant-e-coli/",
+      "summary": "The CRISPR therapy, SNIPR001, was administered to the patient who had developed E. Coli following a single-patient emergency IND.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-11T14:48:01+00:00",
-      "pub_ts": 1786459681
+      "pub_date": "2026-08-12T10:19:01+00:00",
+      "pub_ts": 1786529941
     },
     {
-      "id": "e31fc987b0",
-      "title": "Trump signs order that nearly halves childhood immunisation coverage",
-      "url": "https://www.pharmaceutical-technology.com/news/trump-signs-order-that-nearly-halves-childhood-immunisation-coverage/",
-      "summary": "Seven diseases have been stripped from the recommendations, with changes to the MMR vaccine also advised.",
+      "id": "d62271601a",
+      "title": "Infinimmune raises $75m with big pharma backing for atopic dermatitis drugs",
+      "url": "https://www.pharmaceutical-technology.com/news/infinimmune-raises-75m-with-big-pharma-backing-for-atopic-dermatitis-drugs/",
+      "summary": "Infinimmune is targeting first-in-human studies with its longer-lasting monoclonal antibodies in 2027.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-11T10:41:44+00:00",
-      "pub_ts": 1786444904
+      "pub_date": "2026-08-12T10:16:10+00:00",
+      "pub_ts": 1786529770
     },
     {
-      "id": "36c2b2bc96",
-      "title": "Health tech’s role in obesity to expand beyond a ‘nice-to-have’",
-      "url": "https://www.pharmaceutical-technology.com/features/health-tech-role-obesity-to-expand/",
-      "summary": "Experts predict that DHTs such as wearables and apps will play a burgeoning role in obesity research and care, though equity concerns remain.",
+      "id": "cc9a18f8b8",
+      "title": "Epicrispr, Vaderis secure pivotal study funding for rare disease assets",
+      "url": "https://www.pharmaceutical-technology.com/news/epicrispr-vaderis-financing-round-pivotal-rare-disease-development/",
+      "summary": "Epicrispr and Vaderis have secured $90m and $152m, respectively, to take their rare disease drugs to pivotal clinical development.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-11T10:31:06+00:00",
-      "pub_ts": 1786444266
+      "pub_date": "2026-08-12T10:04:12+00:00",
+      "pub_ts": 1786529052
     },
     {
-      "id": "5e5358c44b",
-      "title": "UK regulators greenlight Lilly’s Foundayo, intensifying Novo competition",
-      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-foundayo-weight-loss-pill-mhra-approval/",
-      "summary": "The MHRA is the first European regulator to give Foundayo a regulatory blessing, with the drug still under review by the EU.",
+      "id": "f402de8257",
+      "title": "Mereo BioPharma and Sentynl Therapeutics sign licensing deal for alvelestat",
+      "url": "https://www.pharmaceutical-technology.com/news/mereo-sentynl-licensing-deal-alvelestat/",
+      "summary": "Mereo BioPharma and Sentynl Therapeutics have signed an option and licence agreement related to the US commercial and worldwide manufacturing rights to alvelestat, a potential oral treatment for AATD-LD.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-11T10:26:49+00:00",
-      "pub_ts": 1786444009
+      "pub_date": "2026-08-12T09:14:43+00:00",
+      "pub_ts": 1786526083
     },
     {
-      "id": "9ef1d521f4",
-      "title": "BMS banks on Texas for $2.3bn multi-modal manufacturing facility",
-      "url": "https://www.pharmaceutical-technology.com/news/bms-2-3bn-texas-manufacturing-facility/",
-      "summary": "This will establish BMS’ in-house manufacturing presence in Texas, adding to its ongoing outlicensing and research partnerships in the state.",
+      "id": "42c01ee983",
+      "title": "Alfasigma signs agreement to acquire Nordic Group",
+      "url": "https://www.pharmaceutical-technology.com/news/alfasigma-to-buy-nordic-group/",
+      "summary": "Alfasigma is to buy Nordic Group, which aims to strengthen its speciality care business and expand its reach in Europe, Canada, and Japan.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-11T10:25:55+00:00",
-      "pub_ts": 1786443955
+      "pub_date": "2026-08-12T08:20:02+00:00",
+      "pub_ts": 1786522802
     }
   ],
   "source_success_count": 1,
