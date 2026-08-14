@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-08-13T02:27:13.510377+00:00",
+  "updated_at": "2026-08-14T02:26:08.193797+00:00",
   "item_count": 10,
   "items": [
     {
-      "id": "d99a114f0b",
-      "title": "Electrolyser Developed by Keele Scientists Enables Simultaneous Hydrogen and Sustainable Plastics Production",
-      "url": "https://fuelcellsworks.com/2026/08/11/energy-innovation/electrolyser-developed-by-keele-scientists-enables-simultaneous-hydrogen-and-sustainable-plastics-production-i20018628",
+      "id": "de36815115",
+      "title": "Hyundai Captures 72% of Global Fuel-Cell Vehicle Market as New Nexo Drives Sales",
+      "url": "https://fuelcellsworks.com/2026/08/05/fuel-cells/hyundai-captures-72-percent-of-global-fuel-cell-vehicle-market-as-new-nexo-drives-sales",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-11T15:53:19+00:00",
-      "pub_ts": 1786463599
+      "pub_date": "2026-08-12T15:39:47+00:00",
+      "pub_ts": 1786549187
     },
     {
-      "id": "f6b5d0a807",
-      "title": "Spain’s Murcia Allocates €10M for Technology-Centre R&D Including Hydrogen and Energy Storage",
-      "url": "https://fuelcellsworks.com/2026/08/11/h2/spain-s-murcia-allocates-10m-for-technology-centre-r-and-d-including-hydrogen-and-energy-storage",
+      "id": "be93a5a03d",
+      "title": "Rivan Deploys Full-Scale 1MW System",
+      "url": "https://fuelcellsworks.com/2026/08/12/clean-energy/rivan-deploys-full-scale-1mw-system",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-11T15:35:45+00:00",
-      "pub_ts": 1786462545
+      "pub_date": "2026-08-12T15:08:18+00:00",
+      "pub_ts": 1786547298
     },
     {
-      "id": "a550bcbec8",
-      "title": "India Awards 30,000-Tonne Green Hydrogen Supply Contracts to Decarbonise State Refineries",
-      "url": "https://fuelcellsworks.com/2026/08/11/green-hydrogen/india-awards-30-000-tonne-green-hydrogen-supply-contracts-to-decarbonise-state-refineries",
+      "id": "6525ec4147",
+      "title": "Tanaka Precious Metals Takes Stake in Clean Planet's 'Quantum Hydrogen Energy' Technology",
+      "url": "https://fuelcellsworks.com/2026/08/12/h2/tanaka-precious-metals-takes-stake-in-clean-planet-s-quantum-hydrogen-energy-technology",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-11T15:33:51+00:00",
-      "pub_ts": 1786462431
+      "pub_date": "2026-08-12T14:46:54+00:00",
+      "pub_ts": 1786546014
     },
     {
-      "id": "f5acf35c0a",
-      "title": "Sardinia Opens €26.7 Million Tender for 28 Hydrogen Fuel-Cell Buses",
-      "url": "https://fuelcellsworks.com/2026/08/09/fuel-cells/sardinia-opens-26-7-million-tender-for-28-hydrogen-fuel-cell-buses",
+      "id": "80ebe1a254",
+      "title": "Element One Enters Accelerated Growth Phase and Outlines Near-Term Development Catalysts",
+      "url": "https://fuelcellsworks.com/2026/08/12/green-hydrogen/element-one-enters-accelerated-growth-phase-and-outlines-near-term-development-catalysts",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-11T15:01:59+00:00",
-      "pub_ts": 1786460519
+      "pub_date": "2026-08-12T14:42:18+00:00",
+      "pub_ts": 1786545738
     },
     {
-      "id": "3d73cc0a3d",
-      "title": "Power to Hydrogen Delivers First-of-a-Kind Industrial-Scale AEM Electrolyzer to the Port of Antwerp-Bruges",
-      "url": "https://fuelcellsworks.com/2026/08/11/electrolyzer/power-to-hydrogen-delivers-first-of-a-kind-industrial-scale-aem-electrolyzer-to-the-port-of-antwerp-bruges",
+      "id": "e9720fbe0d",
+      "title": "Amber Grid Revenue Jumps 41% as Nordic-Baltic Hydrogen Corridor Moves Forward",
+      "url": "https://fuelcellsworks.com/2026/08/11/h2/amber-grid-revenue-jumps-41-percent-as-nordic-baltic-hydrogen-corridor-moves-forward",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-11T14:48:46+00:00",
-      "pub_ts": 1786459726
+      "pub_date": "2026-08-12T14:26:51+00:00",
+      "pub_ts": 1786544811
     },
     {
       "id": "9c2364a710",

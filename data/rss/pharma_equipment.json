@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-08-13T02:27:26.274149+00:00",
+  "updated_at": "2026-08-14T02:26:20.692904+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "bcb9c42e2c",
-      "title": "Investigational CRISPR therapy succeeds in patient with drug-resistant E. Coli",
-      "url": "https://www.pharmaceutical-technology.com/news/investigational-crispr-therapy-succeeds-in-patient-with-drug-resistant-e-coli/",
-      "summary": "The CRISPR therapy, SNIPR001, was administered to the patient who had developed E. Coli following a single-patient emergency IND.",
+      "id": "867913b219",
+      "title": "Repligen’s deal for BioLife Solutions indicates shift to manufacturing integration",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/repligens-deal-for-biolife-solutions-indicates-shift-to-manufacturing-integration/",
+      "summary": "Repligen’s $1.5bn purchase of BioLife Solutions adds CryoStor biopreservation to its bioprocessing portfolio, underscoring pharma’s shift toward integrated cell and gene therapy supply chains.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-12T10:19:01+00:00",
-      "pub_ts": 1786529941
+      "pub_date": "2026-08-13T10:20:50+00:00",
+      "pub_ts": 1786616450
     },
     {
-      "id": "d62271601a",
-      "title": "Infinimmune raises $75m with big pharma backing for atopic dermatitis drugs",
-      "url": "https://www.pharmaceutical-technology.com/news/infinimmune-raises-75m-with-big-pharma-backing-for-atopic-dermatitis-drugs/",
-      "summary": "Infinimmune is targeting first-in-human studies with its longer-lasting monoclonal antibodies in 2027.",
+      "id": "b2c8ad7539",
+      "title": "United global response to US childhood vaccine overhaul",
+      "url": "https://www.pharmaceutical-technology.com/news/united-global-response-to-us-childhood-vaccine-overhaul/",
+      "summary": "Recommended changes to the US immunisation schedule by President Trump have been met with widespread retaliation.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-12T10:16:10+00:00",
-      "pub_ts": 1786529770
+      "pub_date": "2026-08-13T10:13:51+00:00",
+      "pub_ts": 1786616031
     },
     {
-      "id": "cc9a18f8b8",
-      "title": "Epicrispr, Vaderis secure pivotal study funding for rare disease assets",
-      "url": "https://www.pharmaceutical-technology.com/news/epicrispr-vaderis-financing-round-pivotal-rare-disease-development/",
-      "summary": "Epicrispr and Vaderis have secured $90m and $152m, respectively, to take their rare disease drugs to pivotal clinical development.",
+      "id": "5e77068a6d",
+      "title": "Akeso secures China NMPA authorisation for ivonescimab combo",
+      "url": "https://www.pharmaceutical-technology.com/news/akeso-china-nmpa-ivonescimab-combo/",
+      "summary": "Summit Therapeutics’ partner Akeso has secured China’s NMPA authorisation for the use of ivonescimab in combination with chemotherapy as a first-line treatment for advanced squamous NSCLC patients.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-12T10:04:12+00:00",
-      "pub_ts": 1786529052
+      "pub_date": "2026-08-13T10:02:28+00:00",
+      "pub_ts": 1786615348
     },
     {
-      "id": "f402de8257",
-      "title": "Mereo BioPharma and Sentynl Therapeutics sign licensing deal for alvelestat",
-      "url": "https://www.pharmaceutical-technology.com/news/mereo-sentynl-licensing-deal-alvelestat/",
-      "summary": "Mereo BioPharma and Sentynl Therapeutics have signed an option and licence agreement related to the US commercial and worldwide manufacturing rights to alvelestat, a potential oral treatment for AATD-LD.",
+      "id": "d8b9d78ba9",
+      "title": "Eli Lilly cracks down on illicit weight loss drug trade with US lawsuits",
+      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-cracks-down-illicit-retatrutide-black-market/",
+      "summary": "Eli Lilly is suing several US companies that are allegedly selling illegal versions of its weight loss candidate, retatrutide.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-12T09:14:43+00:00",
-      "pub_ts": 1786526083
+      "pub_date": "2026-08-13T10:00:53+00:00",
+      "pub_ts": 1786615253
     },
     {
-      "id": "42c01ee983",
-      "title": "Alfasigma signs agreement to acquire Nordic Group",
-      "url": "https://www.pharmaceutical-technology.com/news/alfasigma-to-buy-nordic-group/",
-      "summary": "Alfasigma is to buy Nordic Group, which aims to strengthen its speciality care business and expand its reach in Europe, Canada, and Japan.",
+      "id": "a7a6facec2",
+      "title": "Remepy secures $36m funding for hybrid drug pipeline expansion",
+      "url": "https://www.pharmaceutical-technology.com/news/remepy-36m-funding-hybrid-drug-expansion/",
+      "summary": "Remepy has secured $36m in Series A funds to accelerate its pharmaceutical co-development partnerships and expand its hybrid drug pipeline.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-12T08:20:02+00:00",
-      "pub_ts": 1786522802
+      "pub_date": "2026-08-13T09:06:17+00:00",
+      "pub_ts": 1786611977
     }
   ],
   "source_success_count": 1,

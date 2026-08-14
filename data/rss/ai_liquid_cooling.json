@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-08-13T02:27:02.575164+00:00",
+  "updated_at": "2026-08-14T02:25:57.529194+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "a36b1e8e1a",
-      "title": "国产具身智能创全球新纪录！以30%成本跑赢 Figure Al 45%效率，聪明的具...",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247911760&idx=1&sn=1e269c79ae2d6af65094abbbb9b84c10",
-      "summary": "国产具身智能创全球新纪录！以30%成本跑赢 Figure Al 45%效率，聪明的具...",
+      "id": "0a9ec7a2d2",
+      "title": "4.8亿美元砸向端侧算力！Agent芯片新贵冲出重围",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912259&idx=1&sn=1fa32361393cf62c1cf0dd5eec0f2c8a",
+      "summary": "4.8亿美元砸向端侧算力！Agent芯片新贵冲出重围",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-13T02:26:58.481755+00:00",
-      "pub_ts": 1786588018
+      "pub_date": "2026-08-14T02:25:53.372514+00:00",
+      "pub_ts": 1786674353
     },
     {
-      "id": "a6a9335fa1",
-      "title": "OpenAI一个月跑4名高管！前COO离场，安全线几乎被一锅端",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247911760&idx=2&sn=a4c56ccad6d4ce0138e059cfe544688b",
-      "summary": "OpenAI一个月跑4名高管！前COO离场，安全线几乎被一锅端",
+      "id": "3ccbeaaaa0",
+      "title": "啧，A社实验在Agent之间传播“思维病毒”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912259&idx=2&sn=be578690c6f9aa2869d1b54933e2b3b3",
+      "summary": "啧，A社实验在Agent之间传播“思维病毒”",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-13T02:26:58.481798+00:00",
-      "pub_ts": 1786588018
+      "pub_date": "2026-08-14T02:25:53.372557+00:00",
+      "pub_ts": 1786674353
     },
     {
-      "id": "2eee725531",
-      "title": "具身数据来了实战派！40天2轮融资数干万，瞄准物理AI基础设施",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247911742&idx=1&sn=0bae2872d1ee33a78a811202368773a2",
-      "summary": "具身数据来了实战派！40天2轮融资数干万，瞄准物理AI基础设施",
+      "id": "609c635e37",
+      "title": "中国人能飞！杭州发布全球首款站姿载人飞行器",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912257&idx=1&sn=e427c3abfb8917683d340c71bc450a5c",
+      "summary": "中国人能飞！杭州发布全球首款站姿载人飞行器",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-13T02:26:58.481821+00:00",
-      "pub_ts": 1786588018
+      "pub_date": "2026-08-14T02:25:53.372580+00:00",
+      "pub_ts": 1786674353
     },
     {
-      "id": "0118ff9904",
-      "title": "紫东太初推出GMC核心集剪枝方法，少80%Token仍满血保真多模态能力",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247911742&idx=2&sn=7a2c9254b29b1f5133ad0b8661ceef44",
-      "summary": "紫东太初推出GMC核心集剪枝方法，少80%Token仍满血保真多模态能力",
+      "id": "05f9d27fa0",
+      "title": "Claude一举扫清20O0阶以下哈达玛矩阵！AI开始清空数学“待解列表“",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912257&idx=2&sn=cba805c93a142ee0646168520f0eebcb",
+      "summary": "Claude一举扫清20O0阶以下哈达玛矩阵！AI开始清空数学“待解列表“",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-13T02:26:58.481840+00:00",
-      "pub_ts": 1786588018
+      "pub_date": "2026-08-14T02:25:53.372600+00:00",
+      "pub_ts": 1786674353
     },
     {
-      "id": "fea602bc31",
-      "title": "人形之外，擎羽把“身体”变成具身智能的新变量",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247911589&idx=1&sn=48deb331e9c3d578eb7b5adeba834ec2",
-      "summary": "人形之外，擎羽把“身体”变成具身智能的新变量",
+      "id": "34519e9925",
+      "title": "刚刚！Ilya首个模型曝光了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912028&idx=1&sn=6a4b6d6ad9bc0348547d90eb8818b1d8",
+      "summary": "刚刚！Ilya首个模型曝光了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-13T02:26:58.481860+00:00",
-      "pub_ts": 1786588018
+      "pub_date": "2026-08-14T02:25:53.372619+00:00",
+      "pub_ts": 1786674353
     }
   ],
   "source_success_count": 1,
