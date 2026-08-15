@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-08-14T02:25:57.529194+00:00",
+  "updated_at": "2026-08-15T01:37:19.558220+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "0a9ec7a2d2",
-      "title": "4.8亿美元砸向端侧算力！Agent芯片新贵冲出重围",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912259&idx=1&sn=1fa32361393cf62c1cf0dd5eec0f2c8a",
-      "summary": "4.8亿美元砸向端侧算力！Agent芯片新贵冲出重围",
+      "id": "9575f7c5d9",
+      "title": "刚刚，GLM-5.3发布：Coding更接近Fable5！潜伏40年的bug都被揪出来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912528&idx=1&sn=69f02b15515e9af43cd81926812b9cd3",
+      "summary": "刚刚，GLM-5.3发布：Coding更接近Fable5！潜伏40年的bug都被揪出来了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-14T02:25:53.372514+00:00",
-      "pub_ts": 1786674353
+      "pub_date": "2026-08-15T01:37:14.597918+00:00",
+      "pub_ts": 1786757834
     },
     {
-      "id": "3ccbeaaaa0",
-      "title": "啧，A社实验在Agent之间传播“思维病毒”",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912259&idx=2&sn=be578690c6f9aa2869d1b54933e2b3b3",
-      "summary": "啧，A社实验在Agent之间传播“思维病毒”",
+      "id": "6560a0e74e",
+      "title": "至知研究院提出大模型可解释性新路线：直接拆权重，数据成本不到1%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912528&idx=2&sn=effda16ac10546cd80d70d1b92be7b4a",
+      "summary": "至知研究院提出大模型可解释性新路线：直接拆权重，数据成本不到1%",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-14T02:25:53.372557+00:00",
-      "pub_ts": 1786674353
+      "pub_date": "2026-08-15T01:37:14.597965+00:00",
+      "pub_ts": 1786757834
     },
     {
-      "id": "609c635e37",
-      "title": "中国人能飞！杭州发布全球首款站姿载人飞行器",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912257&idx=1&sn=e427c3abfb8917683d340c71bc450a5c",
-      "summary": "中国人能飞！杭州发布全球首款站姿载人飞行器",
+      "id": "6a739c36ad",
+      "title": "算力需求两年涨10倍，机器人为了走进真实物理世界，正在疯狂「吃算力」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912455&idx=1&sn=59cfa910f47bb5849bfcf01a0adcd152",
+      "summary": "算力需求两年涨10倍，机器人为了走进真实物理世界，正在疯狂「吃算力」",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-14T02:25:53.372580+00:00",
-      "pub_ts": 1786674353
+      "pub_date": "2026-08-15T01:37:14.597991+00:00",
+      "pub_ts": 1786757834
     },
     {
-      "id": "05f9d27fa0",
-      "title": "Claude一举扫清20O0阶以下哈达玛矩阵！AI开始清空数学“待解列表“",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912257&idx=2&sn=cba805c93a142ee0646168520f0eebcb",
-      "summary": "Claude一举扫清20O0阶以下哈达玛矩阵！AI开始清空数学“待解列表“",
+      "id": "bc5da86756",
+      "title": "根治AI音乐通病！这家国产音乐模型正面挑战SUNO",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912455&idx=2&sn=1cc8a525f9d2c766aabe4b51134a1b6d",
+      "summary": "根治AI音乐通病！这家国产音乐模型正面挑战SUNO",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-14T02:25:53.372600+00:00",
-      "pub_ts": 1786674353
+      "pub_date": "2026-08-15T01:37:14.598014+00:00",
+      "pub_ts": 1786757834
     },
     {
-      "id": "34519e9925",
-      "title": "刚刚！Ilya首个模型曝光了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912028&idx=1&sn=6a4b6d6ad9bc0348547d90eb8818b1d8",
-      "summary": "刚刚！Ilya首个模型曝光了",
+      "id": "8d7cea2600",
+      "title": "Token半价！谷歌新模型 Gemini 3.7Flash闪击马斯克Grok",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912455&idx=3&sn=9b852011eb8e17720e89fb30d38a293c",
+      "summary": "Token半价！谷歌新模型 Gemini 3.7Flash闪击马斯克Grok",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-14T02:25:53.372619+00:00",
-      "pub_ts": 1786674353
+      "pub_date": "2026-08-15T01:37:14.598037+00:00",
+      "pub_ts": 1786757834
     }
   ],
   "source_success_count": 1,

@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-08-14T02:26:08.193797+00:00",
+  "updated_at": "2026-08-15T01:37:34.825493+00:00",
   "item_count": 10,
   "items": [
     {
-      "id": "de36815115",
-      "title": "Hyundai Captures 72% of Global Fuel-Cell Vehicle Market as New Nexo Drives Sales",
-      "url": "https://fuelcellsworks.com/2026/08/05/fuel-cells/hyundai-captures-72-percent-of-global-fuel-cell-vehicle-market-as-new-nexo-drives-sales",
+      "id": "59455d29e5",
+      "title": "Korean Fuel-Cell Developer Clears European CE Hurdle for 10kW Pure-Hydrogen PEM System",
+      "url": "https://fuelcellsworks.com/2026/08/12/fuel-cells/korean-fuel-cell-developer-clears-european-ce-hurdle-for-10kw-pure-hydrogen-pem-system",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-12T15:39:47+00:00",
-      "pub_ts": 1786549187
+      "pub_date": "2026-08-13T15:31:36+00:00",
+      "pub_ts": 1786635096
     },
     {
-      "id": "be93a5a03d",
-      "title": "Rivan Deploys Full-Scale 1MW System",
-      "url": "https://fuelcellsworks.com/2026/08/12/clean-energy/rivan-deploys-full-scale-1mw-system",
+      "id": "3fca83c235",
+      "title": "Swappable Liquid Hydrogen Tank for Ships Clears Major Testing Milestone in Italy",
+      "url": "https://fuelcellsworks.com/2026/08/13/fuel-cells/swappable-liquid-hydrogen-tank-for-ships-clears-major-testing-milestone-in-italy",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-12T15:08:18+00:00",
-      "pub_ts": 1786547298
+      "pub_date": "2026-08-13T15:16:26+00:00",
+      "pub_ts": 1786634186
     },
     {
-      "id": "6525ec4147",
-      "title": "Tanaka Precious Metals Takes Stake in Clean Planet's 'Quantum Hydrogen Energy' Technology",
-      "url": "https://fuelcellsworks.com/2026/08/12/h2/tanaka-precious-metals-takes-stake-in-clean-planet-s-quantum-hydrogen-energy-technology",
+      "id": "b67825b6d1",
+      "title": "Recirculation Blower From Busch Vacuum Solutions Supports the First Hydrogen Plane in Switzerland",
+      "url": "https://fuelcellsworks.com/2026/08/13/energy-innovation/recirculation-blower-from-busch-vacuum-solutions-supports-the-first-hydrogen-plane-in-switzerland",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-12T14:46:54+00:00",
-      "pub_ts": 1786546014
+      "pub_date": "2026-08-13T15:09:18+00:00",
+      "pub_ts": 1786633758
     },
     {
-      "id": "80ebe1a254",
-      "title": "Element One Enters Accelerated Growth Phase and Outlines Near-Term Development Catalysts",
-      "url": "https://fuelcellsworks.com/2026/08/12/green-hydrogen/element-one-enters-accelerated-growth-phase-and-outlines-near-term-development-catalysts",
+      "id": "9d86922028",
+      "title": "LT Metal and Impact Coatings Partner to Commercialize Catalytic Electrodes for PEM Electrolyzer Mass Production",
+      "url": "https://fuelcellsworks.com/2026/08/13/electrolyzer/lt-metal-and-impact-coatings-partner-to-commercialize-catalytic-electrodes-for-pem-electrolyzer-mass-production",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-12T14:42:18+00:00",
-      "pub_ts": 1786545738
+      "pub_date": "2026-08-13T14:57:44+00:00",
+      "pub_ts": 1786633064
     },
     {
-      "id": "e9720fbe0d",
-      "title": "Amber Grid Revenue Jumps 41% as Nordic-Baltic Hydrogen Corridor Moves Forward",
-      "url": "https://fuelcellsworks.com/2026/08/11/h2/amber-grid-revenue-jumps-41-percent-as-nordic-baltic-hydrogen-corridor-moves-forward",
+      "id": "2d52f1ad92",
+      "title": "Dutch PM Highlights Rotterdam’s Growing Hydrogen Investment Pipeline During Port Visit",
+      "url": "https://fuelcellsworks.com/2026/08/13/h2/dutch-pm-highlights-rotterdam-s-growing-hydrogen-investment-pipeline-during-port-visit",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-12T14:26:51+00:00",
-      "pub_ts": 1786544811
+      "pub_date": "2026-08-13T14:45:43+00:00",
+      "pub_ts": 1786632343
     },
     {
       "id": "9c2364a710",

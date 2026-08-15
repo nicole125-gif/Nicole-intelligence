@@ -3,108 +3,118 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-08-14T02:25:43.938820+00:00",
+  "updated_at": "2026-08-15T01:37:04.979316+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "e980a5f624",
-      "title": "国产Wi-Fi芯片，迎来最好时代",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816002&idx=1&sn=2eedd0c358d9a54a7b0e7369d4c7a699",
-      "summary": "国产Wi-Fi芯片，迎来最好时代",
+      "id": "1670dac53b",
+      "title": "研电之星揭晓！第二十一届研电赛收官桐乡，青年创新与产业需求“双向奔赴”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816065&idx=1&sn=096dca3eb772382acf9324e71921af33",
+      "summary": "研电之星揭晓！第二十一届研电赛收官桐乡，青年创新与产业需求“双向奔赴”",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-14T02:25:39.912244+00:00",
-      "pub_ts": 1786674339
+      "pub_date": "2026-08-15T01:37:00.702699+00:00",
+      "pub_ts": 1786757820
     },
     {
-      "id": "43ce8db9dd",
-      "title": "商务部：印度产单模光纤续征5年反倾销税",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816002&idx=2&sn=11e8d9760125ab5c5c1b563194c2c62b",
-      "summary": "商务部：印度产单模光纤续征5年反倾销税",
+      "id": "c3631085dd",
+      "title": "玻璃基板项目受阻！巨头量产推迟至2028年",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816065&idx=2&sn=5ab2ffc5a63ae7cb0049fc52f8a2d109",
+      "summary": "玻璃基板项目受阻！巨头量产推迟至2028年",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-14T02:25:39.912289+00:00",
-      "pub_ts": 1786674339
+      "pub_date": "2026-08-15T01:37:00.702747+00:00",
+      "pub_ts": 1786757820
     },
     {
-      "id": "9bd5049456",
-      "title": "英特尔，或将重返内存赛道",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816002&idx=3&sn=5c7dd79e46e4bba396dbba5a4102afdb",
-      "summary": "英特尔，或将重返内存赛道",
+      "id": "7ea3fd1072",
+      "title": "芯片太贵了，手机厂商们陷入两难困局",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816065&idx=3&sn=54b5b9cd11fe187994b8ac53529cc268",
+      "summary": "芯片太贵了，手机厂商们陷入两难困局",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-14T02:25:39.912315+00:00",
-      "pub_ts": 1786674339
+      "pub_date": "2026-08-15T01:37:00.702776+00:00",
+      "pub_ts": 1786757820
     },
     {
-      "id": "b1d055e299",
-      "title": "上海出新政策，撬动民间资本加码集成电路等产业",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816002&idx=4&sn=c1002ca64428b5aa64963a4d6c7c2458",
-      "summary": "上海出新政策，撬动民间资本加码集成电路等产业",
+      "id": "24274c1bac",
+      "title": "从通用走向定制，AI工作负载重塑芯片软硬件协同设计",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816065&idx=4&sn=74e12f049a8c26d3e963a053bfa04518",
+      "summary": "从通用走向定制，AI工作负载重塑芯片软硬件协同设计",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-14T02:25:39.912337+00:00",
-      "pub_ts": 1786674339
+      "pub_date": "2026-08-15T01:37:00.702801+00:00",
+      "pub_ts": 1786757820
     },
     {
-      "id": "8032ae93e8",
-      "title": "Omdia大幅上调全球半导体市场营收增速至94.1%",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816002&idx=5&sn=39d88d8b18e17e0708d27883f26f9744",
-      "summary": "Omdia大幅上调全球半导体市场营收增速至94.1%",
+      "id": "83ab9b0bd2",
+      "title": "Rapidus锚定2030年，攻关8掩模版中介层",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816065&idx=5&sn=05f5c876d0c43b968950a7df2a25cc3f",
+      "summary": "Rapidus锚定2030年，攻关8掩模版中介层",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-14T02:25:39.912356+00:00",
-      "pub_ts": 1786674339
+      "pub_date": "2026-08-15T01:37:00.702824+00:00",
+      "pub_ts": 1786757820
     },
     {
-      "id": "d9000d229e",
-      "title": "卓胜微，全系涨价",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829216&idx=1&sn=d0210781090b826b89c9e2f67a958b67",
-      "summary": "卓胜微，全系涨价",
+      "id": "ff32d9270b",
+      "title": "芯片，越做越大！",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829281&idx=1&sn=d83d390a518143dab7f40daab47f5cab",
+      "summary": "芯片，越做越大！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-14T02:25:29.578071+00:00",
-      "pub_ts": 1786674329
+      "pub_date": "2026-08-15T01:36:52.654661+00:00",
+      "pub_ts": 1786757812
     },
     {
-      "id": "30fe9167b7",
-      "title": "中芯国际季度营收，首破30亿美元",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829206&idx=1&sn=3e3c7d0ee6912d1daf34a98f27a96120",
-      "summary": "中芯国际季度营收，首破30亿美元",
+      "id": "a7e0c8b51a",
+      "title": "铜缆，接近极限",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829281&idx=2&sn=875fc4aa7060bf3eb1a3857990b356ef",
+      "summary": "铜缆，接近极限",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-14T02:25:29.578124+00:00",
-      "pub_ts": 1786674329
+      "pub_date": "2026-08-15T01:36:52.654709+00:00",
+      "pub_ts": 1786757812
     },
     {
-      "id": "15cfbee33c",
-      "title": "商务部：对印度产光纤征收反倾销税",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829178&idx=1&sn=33935822485d1d2fe1af4c9d3dea3600",
-      "summary": "商务部：对印度产光纤征收反倾销税",
+      "id": "b4840aeb5d",
+      "title": "ABF载板，需求爆了",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829281&idx=3&sn=37faf5cfa31c918a71492bda3df91614",
+      "summary": "ABF载板，需求爆了",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-14T02:25:29.578148+00:00",
-      "pub_ts": 1786674329
+      "pub_date": "2026-08-15T01:36:52.654731+00:00",
+      "pub_ts": 1786757812
     },
     {
-      "id": "9532d9336c",
-      "title": "SerDes，成为胜负手",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829115&idx=1&sn=b7449c62b7ec9ed3374c020eba0a62d6",
-      "summary": "SerDes，成为胜负手",
+      "id": "3f8ee86beb",
+      "title": "闪存，还得缺四年？",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829281&idx=4&sn=29d874003b03ef1ae2a568664069157c",
+      "summary": "闪存，还得缺四年？",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-14T02:25:29.578170+00:00",
-      "pub_ts": 1786674329
+      "pub_date": "2026-08-15T01:36:52.654751+00:00",
+      "pub_ts": 1786757812
     },
     {
-      "id": "31baac4884",
-      "title": "从TGV到RDL：玻璃基板CMP工艺的关键变量与打样验证",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829115&idx=2&sn=48b555862f831455ae71e412355dc46f",
-      "summary": "从TGV到RDL：玻璃基板CMP工艺的关键变量与打样验证",
+      "id": "c2435ac42e",
+      "title": "诚恒微电子CH37系列边端侧AISoC正式发布，开启边端智能新篇章",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829281&idx=5&sn=b20e620851e392389f5ba2c45bd8ae07",
+      "summary": "诚恒微电子CH37系列边端侧AISoC正式发布，开启边端智能新篇章",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-14T02:25:29.578191+00:00",
-      "pub_ts": 1786674329
+      "pub_date": "2026-08-15T01:36:52.654770+00:00",
+      "pub_ts": 1786757812
+    },
+    {
+      "id": "e6a9072e87",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-151/",
+      "summary": "Lam Research and ASE expansions; data center shifts; CPO system architecture initiative; 2D-transistor interface solution; USENIX HW security; patent suits; image sensors; programmable AI memtransistor; Nvidia's new plan; earnings; Tier IV's L4 auto chip.\nThe post Chip Industry Week In Review appear…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-14T07:01:48+00:00",
+      "pub_ts": 1786690908
     },
     {
       "id": "89e5c8ec13",
@@ -145,16 +155,6 @@
       "lang": "en",
       "pub_date": "2026-08-13T07:08:19+00:00",
       "pub_ts": 1786604899
-    },
-    {
-      "id": "594f9ac9f8",
-      "title": "What Self-Verifying Means In Agentic EDA Workflows And Why It Matters",
-      "url": "https://semiengineering.com/what-self-verifying-means-in-agentic-eda-workflows-and-why-it-matters/",
-      "summary": "Grounding agent decisions in their output is what transforms orchestration into something engineers can build on with confidence.\nThe post What Self-Verifying Means In Agentic EDA Workflows And Why It Matters appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-13T07:07:35+00:00",
-      "pub_ts": 1786604855
     }
   ],
   "source_success_count": 3,
