@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-08-15T01:37:34.825493+00:00",
+  "updated_at": "2026-08-16T01:43:42.525605+00:00",
   "item_count": 10,
   "items": [
     {
-      "id": "59455d29e5",
-      "title": "Korean Fuel-Cell Developer Clears European CE Hurdle for 10kW Pure-Hydrogen PEM System",
-      "url": "https://fuelcellsworks.com/2026/08/12/fuel-cells/korean-fuel-cell-developer-clears-european-ce-hurdle-for-10kw-pure-hydrogen-pem-system",
+      "id": "159c1afa4b",
+      "title": "Upper Austria University Builds €12.7M Hydrogen Research Portfolio Around New Testing Centre",
+      "url": "https://fuelcellsworks.com/2026/08/12/education/upper-austria-university-builds-12-7m-hydrogen-research-portfolio-around-new-testing-centre",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-13T15:31:36+00:00",
-      "pub_ts": 1786635096
+      "pub_date": "2026-08-14T15:43:24+00:00",
+      "pub_ts": 1786722204
     },
     {
-      "id": "3fca83c235",
-      "title": "Swappable Liquid Hydrogen Tank for Ships Clears Major Testing Milestone in Italy",
-      "url": "https://fuelcellsworks.com/2026/08/13/fuel-cells/swappable-liquid-hydrogen-tank-for-ships-clears-major-testing-milestone-in-italy",
+      "id": "a013e1f71a",
+      "title": "South Korea Plans 320MW Green Hydrogen Project at Saemangeum",
+      "url": "https://fuelcellsworks.com/2026/08/14/clean-energy/south-korea-plans-320mw-green-hydrogen-project-at-saemangeum",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-13T15:16:26+00:00",
-      "pub_ts": 1786634186
+      "pub_date": "2026-08-14T15:06:52+00:00",
+      "pub_ts": 1786720012
     },
     {
-      "id": "b67825b6d1",
-      "title": "Recirculation Blower From Busch Vacuum Solutions Supports the First Hydrogen Plane in Switzerland",
-      "url": "https://fuelcellsworks.com/2026/08/13/energy-innovation/recirculation-blower-from-busch-vacuum-solutions-supports-the-first-hydrogen-plane-in-switzerland",
+      "id": "40a246fa23",
+      "title": "TCS and Rolls-Royce Achieve Breakthrough in Hydrogen-Powered Aviation",
+      "url": "https://fuelcellsworks.com/2026/08/14/fuel-cells/tcs-and-rolls-royce-achieve-breakthrough-in-hydrogen-powered-aviation",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-13T15:09:18+00:00",
-      "pub_ts": 1786633758
+      "pub_date": "2026-08-14T14:52:55+00:00",
+      "pub_ts": 1786719175
     },
     {
-      "id": "9d86922028",
-      "title": "LT Metal and Impact Coatings Partner to Commercialize Catalytic Electrodes for PEM Electrolyzer Mass Production",
-      "url": "https://fuelcellsworks.com/2026/08/13/electrolyzer/lt-metal-and-impact-coatings-partner-to-commercialize-catalytic-electrodes-for-pem-electrolyzer-mass-production",
+      "id": "2e7c8699a3",
+      "title": "JCB Hydrogen Car Smashes 406Mph World Record as Chairman Warns UK Business Could Be ‘A Hell of a Lot Better’",
+      "url": "https://fuelcellsworks.com/2026/08/12/h2/jcb-hydrogen-car-smashes-406mph-world-record-as-chairman-warns-uk-business-could-be-a-hell-of-a-lot-better",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-13T14:57:44+00:00",
-      "pub_ts": 1786633064
+      "pub_date": "2026-08-14T14:45:14+00:00",
+      "pub_ts": 1786718714
     },
     {
-      "id": "2d52f1ad92",
-      "title": "Dutch PM Highlights Rotterdam’s Growing Hydrogen Investment Pipeline During Port Visit",
-      "url": "https://fuelcellsworks.com/2026/08/13/h2/dutch-pm-highlights-rotterdam-s-growing-hydrogen-investment-pipeline-during-port-visit",
+      "id": "cb42397804",
+      "title": "Italy Backs Nearly €90M Hydrogen & Electric Buses and Refuelling Push in Rome",
+      "url": "https://fuelcellsworks.com/2026/08/14/fuel-cells/italy-backs-nearly-90m-hydrogen-and-electric-buses-and-refuelling-push-in-rome",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-13T14:45:43+00:00",
-      "pub_ts": 1786632343
+      "pub_date": "2026-08-14T14:35:40+00:00",
+      "pub_ts": 1786718140
     },
     {
       "id": "9c2364a710",

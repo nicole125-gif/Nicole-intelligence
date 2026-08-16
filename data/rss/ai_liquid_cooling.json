@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-08-15T01:37:19.558220+00:00",
+  "updated_at": "2026-08-16T01:43:31.579238+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "9575f7c5d9",
-      "title": "刚刚，GLM-5.3发布：Coding更接近Fable5！潜伏40年的bug都被揪出来了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912528&idx=1&sn=69f02b15515e9af43cd81926812b9cd3",
-      "summary": "刚刚，GLM-5.3发布：Coding更接近Fable5！潜伏40年的bug都被揪出来了",
+      "id": "5b05680868",
+      "title": "寒武纪财报拆解：营收被交付卡住",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912635&idx=1&sn=71b2127adf8bb7e227dbc118c62af2d1",
+      "summary": "寒武纪财报拆解：营收被交付卡住",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-15T01:37:14.597918+00:00",
-      "pub_ts": 1786757834
+      "pub_date": "2026-08-16T01:43:27.422220+00:00",
+      "pub_ts": 1786844607
     },
     {
-      "id": "6560a0e74e",
-      "title": "至知研究院提出大模型可解释性新路线：直接拆权重，数据成本不到1%",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912528&idx=2&sn=effda16ac10546cd80d70d1b92be7b4a",
-      "summary": "至知研究院提出大模型可解释性新路线：直接拆权重，数据成本不到1%",
+      "id": "224183a779",
+      "title": "奧特曼点名：他才是AI界最重要的研究者，但几乎没人知道他",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912633&idx=1&sn=c2611397e43aafb5f9d4e797a8c6effb",
+      "summary": "奧特曼点名：他才是AI界最重要的研究者，但几乎没人知道他",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-15T01:37:14.597965+00:00",
-      "pub_ts": 1786757834
+      "pub_date": "2026-08-16T01:43:27.422265+00:00",
+      "pub_ts": 1786844607
     },
     {
-      "id": "6a739c36ad",
-      "title": "算力需求两年涨10倍，机器人为了走进真实物理世界，正在疯狂「吃算力」",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912455&idx=1&sn=59cfa910f47bb5849bfcf01a0adcd152",
-      "summary": "算力需求两年涨10倍，机器人为了走进真实物理世界，正在疯狂「吃算力」",
+      "id": "78f1357650",
+      "title": "Claude 隐形水印被光速破解，GitHub一天狂揽2.6k星",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912633&idx=2&sn=aa6c0f762411bdebe41bc08a4958fada",
+      "summary": "Claude 隐形水印被光速破解，GitHub一天狂揽2.6k星",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-15T01:37:14.597991+00:00",
-      "pub_ts": 1786757834
+      "pub_date": "2026-08-16T01:43:27.422289+00:00",
+      "pub_ts": 1786844607
     },
     {
-      "id": "bc5da86756",
-      "title": "根治AI音乐通病！这家国产音乐模型正面挑战SUNO",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912455&idx=2&sn=1cc8a525f9d2c766aabe4b51134a1b6d",
-      "summary": "根治AI音乐通病！这家国产音乐模型正面挑战SUNO",
+      "id": "1c1a6588b1",
+      "title": "AI代码审查赛道，跑出一个108亿独角兽！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912633&idx=3&sn=c56da775fbb874b0177907854587ed7b",
+      "summary": "AI代码审查赛道，跑出一个108亿独角兽！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-15T01:37:14.598014+00:00",
-      "pub_ts": 1786757834
+      "pub_date": "2026-08-16T01:43:27.422311+00:00",
+      "pub_ts": 1786844607
     },
     {
-      "id": "8d7cea2600",
-      "title": "Token半价！谷歌新模型 Gemini 3.7Flash闪击马斯克Grok",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912455&idx=3&sn=9b852011eb8e17720e89fb30d38a293c",
-      "summary": "Token半价！谷歌新模型 Gemini 3.7Flash闪击马斯克Grok",
+      "id": "74663eae08",
+      "title": "DeepSeekHarness插件一夜燃爆GitHub：长期记忆、电子宠物、439..",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912631&idx=1&sn=68284887c137b9f072c5e7af10b59f39",
+      "summary": "DeepSeekHarness插件一夜燃爆GitHub：长期记忆、电子宠物、439..",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-15T01:37:14.598037+00:00",
-      "pub_ts": 1786757834
+      "pub_date": "2026-08-16T01:43:27.422332+00:00",
+      "pub_ts": 1786844607
     }
   ],
   "source_success_count": 1,
