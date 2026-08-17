@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-08-16T01:43:31.579238+00:00",
+  "updated_at": "2026-08-17T01:41:45.164202+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "5b05680868",
-      "title": "寒武纪财报拆解：营收被交付卡住",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912635&idx=1&sn=71b2127adf8bb7e227dbc118c62af2d1",
-      "summary": "寒武纪财报拆解：营收被交付卡住",
+      "id": "7c10acdab1",
+      "title": "李飞飞最新访谈：AI咋能代替人呢?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912703&idx=1&sn=c879a8125f6e83d4f21fbca07dc94c8b",
+      "summary": "李飞飞最新访谈：AI咋能代替人呢?",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-16T01:43:27.422220+00:00",
-      "pub_ts": 1786844607
+      "pub_date": "2026-08-17T01:41:39.193121+00:00",
+      "pub_ts": 1786930899
     },
     {
-      "id": "224183a779",
-      "title": "奧特曼点名：他才是AI界最重要的研究者，但几乎没人知道他",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912633&idx=1&sn=c2611397e43aafb5f9d4e797a8c6effb",
-      "summary": "奧特曼点名：他才是AI界最重要的研究者，但几乎没人知道他",
+      "id": "97e6af1cdc",
+      "title": "奥特曼放话：半年内，GPT上下文覆盖你的一切",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912703&idx=2&sn=7d9ec5579d779f5662b727cb25fc1a1d",
+      "summary": "奥特曼放话：半年内，GPT上下文覆盖你的一切",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-16T01:43:27.422265+00:00",
-      "pub_ts": 1786844607
+      "pub_date": "2026-08-17T01:41:39.193166+00:00",
+      "pub_ts": 1786930899
     },
     {
-      "id": "78f1357650",
-      "title": "Claude 隐形水印被光速破解，GitHub一天狂揽2.6k星",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912633&idx=2&sn=aa6c0f762411bdebe41bc08a4958fada",
-      "summary": "Claude 隐形水印被光速破解，GitHub一天狂揽2.6k星",
+      "id": "a432ba7de9",
+      "title": "“B站教AI”爆火后，北航90后副教授何静回应一切",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912702&idx=1&sn=ceca64cba771ce8d0543916a536c827e",
+      "summary": "“B站教AI”爆火后，北航90后副教授何静回应一切",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-16T01:43:27.422289+00:00",
-      "pub_ts": 1786844607
+      "pub_date": "2026-08-17T01:41:39.193190+00:00",
+      "pub_ts": 1786930899
     },
     {
-      "id": "1c1a6588b1",
-      "title": "AI代码审查赛道，跑出一个108亿独角兽！",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912633&idx=3&sn=c56da775fbb874b0177907854587ed7b",
-      "summary": "AI代码审查赛道，跑出一个108亿独角兽！",
+      "id": "adb6e3d282",
+      "title": "活久见！死人大脑也能控制机械手弹钢琴了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912702&idx=2&sn=658b463c0a0c5fc1d1487f788758da79",
+      "summary": "活久见！死人大脑也能控制机械手弹钢琴了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-16T01:43:27.422311+00:00",
-      "pub_ts": 1786844607
+      "pub_date": "2026-08-17T01:41:39.193211+00:00",
+      "pub_ts": 1786930899
     },
     {
-      "id": "74663eae08",
-      "title": "DeepSeekHarness插件一夜燃爆GitHub：长期记忆、电子宠物、439..",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912631&idx=1&sn=68284887c137b9f072c5e7af10b59f39",
-      "summary": "DeepSeekHarness插件一夜燃爆GitHub：长期记忆、电子宠物、439..",
+      "id": "49c00d2c24",
+      "title": "杭州95后小伙，5亿买走硅谷城堡",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912701&idx=1&sn=9c60ba2d4ac3eb5aa6729cc5bf7a075d",
+      "summary": "杭州95后小伙，5亿买走硅谷城堡",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-16T01:43:27.422332+00:00",
-      "pub_ts": 1786844607
+      "pub_date": "2026-08-17T01:41:39.193231+00:00",
+      "pub_ts": 1786930899
     }
   ],
   "source_success_count": 1,

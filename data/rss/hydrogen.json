@@ -3,8 +3,8 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-08-16T01:43:42.525605+00:00",
-  "item_count": 10,
+  "updated_at": "2026-08-17T01:41:59.898791+00:00",
+  "item_count": 5,
   "items": [
     {
       "id": "159c1afa4b",
@@ -55,59 +55,9 @@
       "lang": "en",
       "pub_date": "2026-08-14T14:35:40+00:00",
       "pub_ts": 1786718140
-    },
-    {
-      "id": "9c2364a710",
-      "title": "South Korea bets on hydrogen trains that can run 600 km on a single charge",
-      "url": "https://hydrogen-central.com/south-korea-bets-on-hydrogen-trains-that-can-run-600-km-on-a-single-charge/",
-      "summary": "South Korea bets on hydrogen trains that can run 600 km on a single charge South Korea is moving swiftly toward commercializing zero-emission hydrogen trains capable of making a round [&#8230;]\nThe post South Korea bets on hydrogen trains that can run 600 km on a single charge appeared first on Hydr…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-08-09T16:07:52+00:00",
-      "pub_ts": 1786291672
-    },
-    {
-      "id": "ffb09f5b85",
-      "title": "thyssenkrupp Miguel López named new Chair of Hydrogen Europe",
-      "url": "https://hydrogen-central.com/thyssenkrupp-miguel-lopez-named-new-chair-of-hydrogen-europe/",
-      "summary": "thyssenkrupp Miguel López named new Chair of Hydrogen Europe The Board of Hydrogen Europe today elected Miguel&#160;López, CEO of thyssenkrupp, to be the new Chair&#160;of Hydrogen Europe.&#160;Taking office at a [&#8230;]\nThe post thyssenkrupp Miguel López named new Chair of Hydrogen Europe appeare…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-08-09T16:04:05+00:00",
-      "pub_ts": 1786291445
-    },
-    {
-      "id": "43abc62313",
-      "title": "Gangwon Province will develop core technologies to build a liquid hydrogen acquisition base",
-      "url": "https://hydrogen-central.com/gangwon-province-will-develop-core-technologies-to-build-a-liquid-hydrogen-acquisition-base/",
-      "summary": "Gangwon Province will develop core technologies to build a liquid hydrogen acquisition base Gangwon Province announced on the 27th that it has secured 29 billion won in state funds by [&#8230;]\nThe post Gangwon Province will develop core technologies to build a liquid hydrogen acquisition base appea…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-08-09T16:03:49+00:00",
-      "pub_ts": 1786291429
-    },
-    {
-      "id": "c549d15dbe",
-      "title": "Benton and Metals Creek Commence Hydrogen-Helium Soil Gas Sampling at Smoking Gun and Parson’s Pond in Newfoundland",
-      "url": "https://hydrogen-central.com/benton-and-metals-creek-commence-hydrogen-helium-soil-gas-sampling-at-smoking-gun-and-parsons-pond-in-newfoundland/",
-      "summary": "Benton and Metals Creek Commence Hydrogen-Helium Soil Gas Sampling at Smoking Gun and Parson&#8217;s Pond in Newfoundland Thunder Bay, Ontario&#8211;(Newsfile Corp. &#8211; July 29, 2026) &#8211; Benton Resources Inc. (TSXV: [&#8230;]\nThe post Benton and Metals Creek Commence Hydrogen-Helium Soil Ga…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-08-09T15:59:42+00:00",
-      "pub_ts": 1786291182
-    },
-    {
-      "id": "eb9c13a08c",
-      "title": "Meet CHS Hydrogen Safety Panel Member Larry Moulthrop: Four Decades of Hydrogen Safety",
-      "url": "https://hydrogen-central.com/meet-chs-hydrogen-safety-panel-member-larry-moulthrop-four-decades-of-hydrogen-safety/",
-      "summary": "Meet CHS Hydrogen Safety Panel Member Larry Moulthrop: Four Decades of Hydrogen Safety As hydrogen technologies continue to expand, strong safety practices remain essential to building confidence and supporting responsible [&#8230;]\nThe post Meet CHS Hydrogen Safety Panel Member Larry Moulthrop: Fou…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-08-09T15:59:16+00:00",
-      "pub_ts": 1786291156
     }
   ],
-  "source_success_count": 2,
+  "source_success_count": 1,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }
