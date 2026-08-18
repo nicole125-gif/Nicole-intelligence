@@ -3,108 +3,138 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-08-17T01:41:29.849730+00:00",
+  "updated_at": "2026-08-18T01:37:02.453117+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "a42e6d470d",
-      "title": "创芯之星揭晓！第九届创“芯”大赛，何以成为产业人才“练兵场”?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816132&idx=1&sn=eb77058b81b8149b65c97ec0edb172bb",
-      "summary": "创芯之星揭晓！第九届创“芯”大赛，何以成为产业人才“练兵场”?",
+      "id": "8c520836df",
+      "title": "AI手机，短期别等降价",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816167&idx=1&sn=51e8cfd6b59ff6cf9270b6c2de77d62f",
+      "summary": "AI手机，短期别等降价",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-17T01:41:25.886422+00:00",
-      "pub_ts": 1786930885
+      "pub_date": "2026-08-18T01:36:58.317249+00:00",
+      "pub_ts": 1787017018
     },
     {
-      "id": "8eb3944909",
-      "title": "AI芯片需求爆发，三星电子对华半导体出口同比增长207.7%",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816132&idx=2&sn=8035efcf63951aab14a04810eed9e518",
-      "summary": "AI芯片需求爆发，三星电子对华半导体出口同比增长207.7%",
+      "id": "0511fa16d4",
+      "title": "Agentic AI崛起，CPU成为新的性能瓶颈",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816167&idx=2&sn=3cc91979785a8941f8bf5e65a7add4d7",
+      "summary": "Agentic AI崛起，CPU成为新的性能瓶颈",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-17T01:41:25.886468+00:00",
-      "pub_ts": 1786930885
+      "pub_date": "2026-08-18T01:36:58.317289+00:00",
+      "pub_ts": 1787017018
     },
     {
-      "id": "6b5069af7b",
-      "title": "行业首个！纯国产舱驾一体芯片正式打入高端AI座舱",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816132&idx=3&sn=933851734e4475fa5f2615ad16c0eca1",
-      "summary": "行业首个！纯国产舱驾一体芯片正式打入高端AI座舱",
+      "id": "7868df28cd",
+      "title": "需求太旺！两大基板厂商，接近满产",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816167&idx=3&sn=f046a2a28ef0b3a006963d7cfbb3df68",
+      "summary": "需求太旺！两大基板厂商，接近满产",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-17T01:41:25.886496+00:00",
-      "pub_ts": 1786930885
+      "pub_date": "2026-08-18T01:36:58.317311+00:00",
+      "pub_ts": 1787017018
     },
     {
-      "id": "bc02680ff9",
-      "title": "世界芯片巨头，突然抱紧了河南",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816132&idx=4&sn=6800d0e3a729dc94bcbb96778cf4d265",
-      "summary": "世界芯片巨头，突然抱紧了河南",
+      "id": "2e2534b982",
+      "title": "上半年营收最高涨2107%，壁仞科技交卷",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816167&idx=4&sn=f8da7f5e748f5279e2f0705c69b40877",
+      "summary": "上半年营收最高涨2107%，壁仞科技交卷",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-17T01:41:25.886520+00:00",
-      "pub_ts": 1786930885
+      "pub_date": "2026-08-18T01:36:58.317328+00:00",
+      "pub_ts": 1787017018
     },
     {
-      "id": "edc33c63a0",
-      "title": "马斯克上天之后，AI算力又瞄准了大海",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816132&idx=5&sn=8b407be23961b6ec1b0d454f8c437764",
-      "summary": "马斯克上天之后，AI算力又瞄准了大海",
+      "id": "6d04a35fdd",
+      "title": "渗透率53%！液冷成高端AI基础设施标配",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816167&idx=5&sn=c85f63063f5b6d97b8e1da57a3afda2b",
+      "summary": "渗透率53%！液冷成高端AI基础设施标配",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-17T01:41:25.886542+00:00",
-      "pub_ts": 1786930885
+      "pub_date": "2026-08-18T01:36:58.317345+00:00",
+      "pub_ts": 1787017018
     },
     {
-      "id": "9790ce7d8f",
-      "title": "英特尔，重返存储？可能跟你想的不一样！",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829448&idx=1&sn=4a51c28d0f7fca037f53edd29ec3dd16",
-      "summary": "英特尔，重返存储？可能跟你想的不一样！",
+      "id": "19615ca1d5",
+      "title": "从“几何缩微”到“时间缩微”，半导体设计范式的下一个十年",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829568&idx=1&sn=cf6a334fb7438dbd2dd9caef0bfeaa70",
+      "summary": "从“几何缩微”到“时间缩微”，半导体设计范式的下一个十年",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-17T01:41:17.837909+00:00",
-      "pub_ts": 1786930877
+      "pub_date": "2026-08-18T01:36:45.261724+00:00",
+      "pub_ts": 1787017005
     },
     {
-      "id": "f38d370d40",
-      "title": "玻纤布短缺，异常严重！",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829448&idx=2&sn=e0e1f42bbe2044849e89d7e82d91d4c8",
-      "summary": "玻纤布短缺，异常严重！",
+      "id": "97364fd8fd",
+      "title": "壁仞公告，营收大增2107%",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829492&idx=1&sn=b7080e71bbba59f89a9fe8da12b7c913",
+      "summary": "壁仞公告，营收大增2107%",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-17T01:41:17.837959+00:00",
-      "pub_ts": 1786930877
+      "pub_date": "2026-08-18T01:36:45.261768+00:00",
+      "pub_ts": 1787017005
     },
     {
-      "id": "0cfad2b63e",
-      "title": "韩国内存芯片销量增长277%，逻辑芯片销量下降",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829448&idx=3&sn=5756adecc2b614814808989a5c22f6f8",
-      "summary": "韩国内存芯片销量增长277%，逻辑芯片销量下降",
+      "id": "09e4a8da7c",
+      "title": "让汽车飞上天，需要哪些芯片？",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829480&idx=1&sn=cc6d7286dd9ad8147f2d86cedff242d9",
+      "summary": "让汽车飞上天，需要哪些芯片？",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-17T01:41:17.837985+00:00",
-      "pub_ts": 1786930877
+      "pub_date": "2026-08-18T01:36:45.261788+00:00",
+      "pub_ts": 1787017005
     },
     {
-      "id": "ea1c62d7b2",
-      "title": "AMD入股SpaceX，意欲何为？",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829448&idx=4&sn=0c75b9e6fa428bcffe7a7f45248b77a7",
-      "summary": "AMD入股SpaceX，意欲何为？",
+      "id": "6dcd88691b",
+      "title": "爱仕特获数亿元B轮融资落户杭州，构筑碳化硅双增长引擎",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829480&idx=2&sn=b85cfd255ffb844387f673c512b3ebc2",
+      "summary": "爱仕特获数亿元B轮融资落户杭州，构筑碳化硅双增长引擎",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-17T01:41:17.838009+00:00",
-      "pub_ts": 1786930877
+      "pub_date": "2026-08-18T01:36:45.261805+00:00",
+      "pub_ts": 1787017005
     },
     {
-      "id": "b0586a6a88",
-      "title": "裁员1600人！诺基亚关闭中国研发中心",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829448&idx=5&sn=03153158343fb8f7e978c9cd597b9839",
-      "summary": "裁员1600人！诺基亚关闭中国研发中心",
+      "id": "1181968ff8",
+      "title": "CPU，成为瓶颈",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829480&idx=3&sn=3d7a53134349f2b6f1159d7ddd1f9379",
+      "summary": "CPU，成为瓶颈",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-17T01:41:17.838031+00:00",
-      "pub_ts": 1786930877
+      "pub_date": "2026-08-18T01:36:45.261821+00:00",
+      "pub_ts": 1787017005
+    },
+    {
+      "id": "ac199ed261",
+      "title": "Controlling Voltage Droop In 2.5D PIM Chiplet Architectures (Washington St., UW-Madison)",
+      "url": "https://semiengineering.com/controlling-voltage-droop-in-2-5d-pim-chiplet-architectures-washington-st-uw-madison/",
+      "summary": "Researchers from Washington State University and University of Wisconsin–Madison published a technical paper titled “ReVolt: Power Delivery Network-Aware Voltage Droop Control for 2.5D PIM Chiplet Architectures.” Abstract “Processing-in-memory (PIM)-based 2.5D multi-chiplet platforms are enablers fo…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-17T21:31:19+00:00",
+      "pub_ts": 1787002279
+    },
+    {
+      "id": "b7dbb61640",
+      "title": "800VDC Pushes AI Power Design From Grid To Gate",
+      "url": "https://semiengineering.com/800vdc-pushes-ai-power-design-from-grid-to-gate/",
+      "summary": "The next power bottleneck is no longer just inside the accelerator — it is the full conversion path from medium-voltage AC to sub-1V silicon.\nThe post 800VDC Pushes AI Power Design From Grid To Gate appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-17T07:01:48+00:00",
+      "pub_ts": 1786950108
+    },
+    {
+      "id": "db73b1d725",
+      "title": "Precision Under Pressure: Rethinking Bond Reliability In High-Density Semiconductor Test",
+      "url": "https://semiengineering.com/precision-under-pressure-rethinking-bond-reliability-in-high-density-semiconductor-test/",
+      "summary": "Bond testing is emerging as a critical control point for long-term performance and yield.\nThe post Precision Under Pressure: Rethinking Bond Reliability In High-Density Semiconductor Test appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-17T07:01:15+00:00",
+      "pub_ts": 1786950075
     },
     {
       "id": "e6a9072e87",
@@ -125,36 +155,6 @@
       "lang": "en",
       "pub_date": "2026-08-13T07:15:49+00:00",
       "pub_ts": 1786605349
-    },
-    {
-      "id": "bdcb7dddce",
-      "title": "Vertical Integration Becoming Pervasive",
-      "url": "https://semiengineering.com/vertical-integration-becoming-pervasive/",
-      "summary": "No system can be optimized without an understanding of both the hardware and software, and making the right architectural choice requires cooperation.  \nThe post Vertical Integration Becoming Pervasive appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-13T07:12:15+00:00",
-      "pub_ts": 1786605135
-    },
-    {
-      "id": "036a492822",
-      "title": "Copper’s Grip On AI Scaling Is Starting To Slip",
-      "url": "https://semiengineering.com/coppers-grip-on-ai-scaling-is-starting-to-slip/",
-      "summary": "As AI clusters push beyond rack-scale limits, optical interconnects and circuit switching are reshaping how data centers scale. \nThe post Copper’s Grip On AI Scaling Is Starting To Slip appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-13T07:11:36+00:00",
-      "pub_ts": 1786605096
-    },
-    {
-      "id": "3c26bff6a5",
-      "title": "DDR5 9600 RDIMMs: Raising The Performance Benchmark For Server Memory",
-      "url": "https://semiengineering.com/ddr5-9600-rdimms-raising-the-performance-benchmark-for-server-memory/",
-      "summary": "The ability to move and manage data efficiently is a defining challenge for data center architects.\nThe post DDR5 9600 RDIMMs: Raising The Performance Benchmark For Server Memory appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-13T07:08:19+00:00",
-      "pub_ts": 1786604899
     }
   ],
   "source_success_count": 3,

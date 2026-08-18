@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-08-17T01:42:12.239367+00:00",
+  "updated_at": "2026-08-18T01:37:39.110839+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "77364bb28f",
-      "title": "Immunology specialist Khartis Therapeutics emerges from stealth with $95m",
-      "url": "https://www.pharmaceutical-technology.com/news/immunology-specialist-khartis-therapeutics-emerges-from-stealth-with-95m/",
-      "summary": "Khartis was co-founded two years ago by the team at XinThera, a biotech acquired by Gilead.",
+      "id": "ee54d5236a",
+      "title": "Moving at the speed of pharma digitalisation: driving ROI from AI and digital tools",
+      "url": "https://www.pharmaceutical-technology.com/news/moving-at-the-speed-of-pharma-digitalisation-driving-roi-from-ai-and-digital-tools/",
+      "summary": "Discover how GSK, Boehringer Ingelheim, Takeda and more than 100 pharma leaders scale digital projects at AUTOMA+ 2026 in Switzerland.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-14T10:08:08+00:00",
-      "pub_ts": 1786702088
+      "pub_date": "2026-08-17T13:04:13+00:00",
+      "pub_ts": 1786971853
     },
     {
-      "id": "fb107d72f7",
-      "title": "BMS secures FDA accelerated approval for Zenbexus in multiple myeloma",
-      "url": "https://www.pharmaceutical-technology.com/news/bms-fda-zenbexus-in-multiple-myeloma/",
-      "summary": "The FDA has granted accelerated approval to BMS' Zenbexus, along with daratumumab and hyaluronidase-fihj and dexamethasone (ZDd), to treat adult multiple myeloma.",
+      "id": "51c1b0a119",
+      "title": "Sandoz targets industry patent void with $322m Henlius deal",
+      "url": "https://www.pharmaceutical-technology.com/news/sandoz-targets-industry-patent-void-with-322m-henlius-deal/",
+      "summary": "Sandoz and Henlius will collaborate on up to 10 biosimilars amid opportunity to capitalise on global biosimilar loss-of-exclusivities.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-14T09:27:36+00:00",
-      "pub_ts": 1786699656
+      "pub_date": "2026-08-17T10:47:38+00:00",
+      "pub_ts": 1786963658
     },
     {
-      "id": "af6629c9a2",
-      "title": "Xanadu and University of Alberta to develop quantum algorithms for cancer",
-      "url": "https://www.pharmaceutical-technology.com/news/xanadu-university-of-alberta-quantum-algorithms-cancer/",
-      "summary": "Xanadu Quantum Technologies and the University of Alberta in Canada partnered to advance algorithms to treat cancer.",
+      "id": "82d9706b7a",
+      "title": "Lantheus Holdings’ Alzheimer’s radiodiagnostic secures FDA approval",
+      "url": "https://www.pharmaceutical-technology.com/news/lantheus-holdings-alzheimer-radiodiagnostic-secures-fda-approval/",
+      "summary": "Lantheus's radiodiagnostic is designed to identify cognitively impaired patients who have tau neurofibrillary tangle (NFT) pathology.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-14T08:42:21+00:00",
-      "pub_ts": 1786696941
+      "pub_date": "2026-08-17T10:47:36+00:00",
+      "pub_ts": 1786963656
     },
     {
-      "id": "867913b219",
-      "title": "Repligen’s deal for BioLife Solutions indicates shift to manufacturing integration",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/repligens-deal-for-biolife-solutions-indicates-shift-to-manufacturing-integration/",
-      "summary": "Repligen’s $1.5bn purchase of BioLife Solutions adds CryoStor biopreservation to its bioprocessing portfolio, underscoring pharma’s shift toward integrated cell and gene therapy supply chains.",
+      "id": "4da97e0a83",
+      "title": "EMA validates Pfizer and Valneva’s Lyme disease vaccine",
+      "url": "https://www.pharmaceutical-technology.com/news/ema-pfizer-valnevas-lyme-disease-vaccine/",
+      "summary": "The EMA has validated the MAA from Pfizer and Valneva for their Lyme disease vaccine candidate, PF-07307405.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-13T10:20:50+00:00",
-      "pub_ts": 1786616450
+      "pub_date": "2026-08-17T09:20:07+00:00",
+      "pub_ts": 1786958407
     },
     {
-      "id": "b2c8ad7539",
-      "title": "United global response to US childhood vaccine overhaul",
-      "url": "https://www.pharmaceutical-technology.com/news/united-global-response-to-us-childhood-vaccine-overhaul/",
-      "summary": "Recommended changes to the US immunisation schedule by President Trump have been met with widespread retaliation.",
+      "id": "88e22a4aa7",
+      "title": "FDA grants fast track status to Phanes’ spevatamig for advanced BTC",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-fast-track-phanes-spevatamig/",
+      "summary": "Phanes Therapeutics has received fast track designation from the US FDA for spevatamig to treat patients with advanced and metastatic BTC.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-13T10:13:51+00:00",
-      "pub_ts": 1786616031
+      "pub_date": "2026-08-17T08:42:46+00:00",
+      "pub_ts": 1786956166
     }
   ],
   "source_success_count": 1,

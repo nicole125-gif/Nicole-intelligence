@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-08-17T01:41:45.164202+00:00",
+  "updated_at": "2026-08-18T01:37:15.861544+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "7c10acdab1",
-      "title": "李飞飞最新访谈：AI咋能代替人呢?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912703&idx=1&sn=c879a8125f6e83d4f21fbca07dc94c8b",
-      "summary": "李飞飞最新访谈：AI咋能代替人呢?",
+      "id": "6daa782dd1",
+      "title": "AIInfra进入自进化时代！清华团队用「AI优化AI」造就国产万亿Token工厂",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913001&idx=1&sn=18a6edae23cb46536ef8a48701ab7a8f",
+      "summary": "AIInfra进入自进化时代！清华团队用「AI优化AI」造就国产万亿Token工厂",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-17T01:41:39.193121+00:00",
-      "pub_ts": 1786930899
+      "pub_date": "2026-08-18T01:37:11.899032+00:00",
+      "pub_ts": 1787017031
     },
     {
-      "id": "97e6af1cdc",
-      "title": "奥特曼放话：半年内，GPT上下文覆盖你的一切",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912703&idx=2&sn=7d9ec5579d779f5662b727cb25fc1a1d",
-      "summary": "奥特曼放话：半年内，GPT上下文覆盖你的一切",
+      "id": "fa27957d40",
+      "title": "OpenAI解散「灾难风险应急」团队！GPU大神Scott Gray也跑路了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913001&idx=2&sn=0fe0eea8e8cdf3fb2daf1b719fbb9668",
+      "summary": "OpenAI解散「灾难风险应急」团队！GPU大神Scott Gray也跑路了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-17T01:41:39.193166+00:00",
-      "pub_ts": 1786930899
+      "pub_date": "2026-08-18T01:37:11.899071+00:00",
+      "pub_ts": 1787017031
     },
     {
-      "id": "a432ba7de9",
-      "title": "“B站教AI”爆火后，北航90后副教授何静回应一切",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912702&idx=1&sn=ceca64cba771ce8d0543916a536c827e",
-      "summary": "“B站教AI”爆火后，北航90后副教授何静回应一切",
+      "id": "4f52e52c98",
+      "title": "世界模型一口气输出小时级视频不跑偏，开源了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913001&idx=3&sn=0ffd266a88f762bb4366ada6614a51e5",
+      "summary": "世界模型一口气输出小时级视频不跑偏，开源了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-17T01:41:39.193190+00:00",
-      "pub_ts": 1786930899
+      "pub_date": "2026-08-18T01:37:11.899090+00:00",
+      "pub_ts": 1787017031
     },
     {
-      "id": "adb6e3d282",
-      "title": "活久见！死人大脑也能控制机械手弹钢琴了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912702&idx=2&sn=658b463c0a0c5fc1d1487f788758da79",
-      "summary": "活久见！死人大脑也能控制机械手弹钢琴了",
+      "id": "6303ea8e81",
+      "title": "人形机器人开始打国球了！两台机器人完整打完11分制比赛",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912923&idx=1&sn=3eaa0e9d465129da723edf4c89e318c1",
+      "summary": "人形机器人开始打国球了！两台机器人完整打完11分制比赛",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-17T01:41:39.193211+00:00",
-      "pub_ts": 1786930899
+      "pub_date": "2026-08-18T01:37:11.899106+00:00",
+      "pub_ts": 1787017031
     },
     {
-      "id": "49c00d2c24",
-      "title": "杭州95后小伙，5亿买走硅谷城堡",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912701&idx=1&sn=9c60ba2d4ac3eb5aa6729cc5bf7a075d",
-      "summary": "杭州95后小伙，5亿买走硅谷城堡",
+      "id": "273b1b8aee",
+      "title": "Transformer祖传设计遭暴击，COLM顶会三篇论文发难",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912923&idx=2&sn=ce57ed2a5aadb15b088830ff66e8c702",
+      "summary": "Transformer祖传设计遭暴击，COLM顶会三篇论文发难",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-17T01:41:39.193231+00:00",
-      "pub_ts": 1786930899
+      "pub_date": "2026-08-18T01:37:11.899122+00:00",
+      "pub_ts": 1787017031
     }
   ],
   "source_success_count": 1,
