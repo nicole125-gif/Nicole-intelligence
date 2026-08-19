@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-08-18T01:37:26.754100+00:00",
+  "updated_at": "2026-08-19T01:39:44.069608+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "159c1afa4b",
-      "title": "Upper Austria University Builds €12.7M Hydrogen Research Portfolio Around New Testing Centre",
-      "url": "https://fuelcellsworks.com/2026/08/12/education/upper-austria-university-builds-12-7m-hydrogen-research-portfolio-around-new-testing-centre",
+      "id": "e4c6becb2a",
+      "title": "Portuguese Gas Network Could Carry 20% Hydrogen With Upgrades Costing Just 3% of Asset Value",
+      "url": "https://fuelcellsworks.com/2026/08/11/h2/portuguese-gas-network-could-carry-20-percent-hydrogen-with-upgrades-costing-just-3-percent-of-asset-value",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-14T15:43:24+00:00",
-      "pub_ts": 1786722204
+      "pub_date": "2026-08-17T15:42:59+00:00",
+      "pub_ts": 1786981379
     },
     {
-      "id": "a013e1f71a",
-      "title": "South Korea Plans 320MW Green Hydrogen Project at Saemangeum",
-      "url": "https://fuelcellsworks.com/2026/08/14/clean-energy/south-korea-plans-320mw-green-hydrogen-project-at-saemangeum",
+      "id": "f67abb0211",
+      "title": "Sunfire Ships 100MW of Electrolysers by Barge to RWE’s Giant German Green Hydrogen Project",
+      "url": "https://fuelcellsworks.com/2026/08/17/electrolyzer/sunfire-ships-100mw-of-electrolysers-by-barge-to-rwe-s-giant-german-green-hydrogen-project",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-14T15:06:52+00:00",
-      "pub_ts": 1786720012
+      "pub_date": "2026-08-17T15:38:01+00:00",
+      "pub_ts": 1786981081
     },
     {
-      "id": "40a246fa23",
-      "title": "TCS and Rolls-Royce Achieve Breakthrough in Hydrogen-Powered Aviation",
-      "url": "https://fuelcellsworks.com/2026/08/14/fuel-cells/tcs-and-rolls-royce-achieve-breakthrough-in-hydrogen-powered-aviation",
+      "id": "080b435098",
+      "title": "Fuel Cell and Hydrogen News Highlights From China: August 10-14, 2026",
+      "url": "https://fuelcellsworks.com/2026/08/16/clean-energy/fuel-cell-and-hydrogen-news-highlights-from-china-august-10-14-2026",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-14T14:52:55+00:00",
-      "pub_ts": 1786719175
+      "pub_date": "2026-08-17T15:26:37+00:00",
+      "pub_ts": 1786980397
     },
     {
-      "id": "2e7c8699a3",
-      "title": "JCB Hydrogen Car Smashes 406Mph World Record as Chairman Warns UK Business Could Be ‘A Hell of a Lot Better’",
-      "url": "https://fuelcellsworks.com/2026/08/12/h2/jcb-hydrogen-car-smashes-406mph-world-record-as-chairman-warns-uk-business-could-be-a-hell-of-a-lot-better",
+      "id": "0f69df5b95",
+      "title": "Nordenham Commissions Green Hydrogen and Methanol Demonstration Plant",
+      "url": "https://fuelcellsworks.com/2026/08/17/green-hydrogen/nordenham-commissions-green-hydrogen-and-methanol-demonstration-plant",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-14T14:45:14+00:00",
-      "pub_ts": 1786718714
+      "pub_date": "2026-08-17T15:22:34+00:00",
+      "pub_ts": 1786980154
     },
     {
-      "id": "cb42397804",
-      "title": "Italy Backs Nearly €90M Hydrogen & Electric Buses and Refuelling Push in Rome",
-      "url": "https://fuelcellsworks.com/2026/08/14/fuel-cells/italy-backs-nearly-90m-hydrogen-and-electric-buses-and-refuelling-push-in-rome",
+      "id": "96fe424099",
+      "title": "France’s 800Km HY-FEN Hydrogen Pipeline Moves to Public Consultation",
+      "url": "https://fuelcellsworks.com/2026/08/17/h2/france-s-800km-hy-fen-hydrogen-pipeline-moves-to-public-consultation",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-14T14:35:40+00:00",
-      "pub_ts": 1786718140
+      "pub_date": "2026-08-17T14:58:52+00:00",
+      "pub_ts": 1786978732
     }
   ],
   "source_success_count": 1,

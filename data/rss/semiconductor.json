@@ -3,108 +3,138 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-08-18T01:37:02.453117+00:00",
+  "updated_at": "2026-08-19T01:39:17.024146+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "8c520836df",
-      "title": "AI手机，短期别等降价",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816167&idx=1&sn=51e8cfd6b59ff6cf9270b6c2de77d62f",
-      "summary": "AI手机，短期别等降价",
+      "id": "722e79383a",
+      "title": "兆易创新，上半年净利润增长1091.5%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816210&idx=1&sn=2a36e6a0a0677df4814b0c250864665c",
+      "summary": "兆易创新，上半年净利润增长1091.5%",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-18T01:36:58.317249+00:00",
-      "pub_ts": 1787017018
+      "pub_date": "2026-08-19T01:39:12.685499+00:00",
+      "pub_ts": 1787103552
     },
     {
-      "id": "0511fa16d4",
-      "title": "Agentic AI崛起，CPU成为新的性能瓶颈",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816167&idx=2&sn=3cc91979785a8941f8bf5e65a7add4d7",
-      "summary": "Agentic AI崛起，CPU成为新的性能瓶颈",
+      "id": "0f6b9f8023",
+      "title": "汽车芯片开启新一轮博弈",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816201&idx=1&sn=61db40631a1ab5bf34c8ae8462427dcc",
+      "summary": "汽车芯片开启新一轮博弈",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-18T01:36:58.317289+00:00",
-      "pub_ts": 1787017018
+      "pub_date": "2026-08-19T01:39:12.685541+00:00",
+      "pub_ts": 1787103552
     },
     {
-      "id": "7868df28cd",
-      "title": "需求太旺！两大基板厂商，接近满产",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816167&idx=3&sn=f046a2a28ef0b3a006963d7cfbb3df68",
-      "summary": "需求太旺！两大基板厂商，接近满产",
+      "id": "ee6260645a",
+      "title": "功率半导体第三波涨价，10月再涨10%~15%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816201&idx=2&sn=328fb256a7de64b7e88a2e44ef5ef649",
+      "summary": "功率半导体第三波涨价，10月再涨10%~15%",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-18T01:36:58.317311+00:00",
-      "pub_ts": 1787017018
+      "pub_date": "2026-08-19T01:39:12.685568+00:00",
+      "pub_ts": 1787103552
     },
     {
-      "id": "2e2534b982",
-      "title": "上半年营收最高涨2107%，壁仞科技交卷",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816167&idx=4&sn=f8da7f5e748f5279e2f0705c69b40877",
-      "summary": "上半年营收最高涨2107%，壁仞科技交卷",
+      "id": "acf93aaf53",
+      "title": "国产存储再升级，致态推出新品",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816201&idx=3&sn=2964fce32cfed4f3e6f5387cadb3cc5f",
+      "summary": "国产存储再升级，致态推出新品",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-18T01:36:58.317328+00:00",
-      "pub_ts": 1787017018
+      "pub_date": "2026-08-19T01:39:12.685592+00:00",
+      "pub_ts": 1787103552
     },
     {
-      "id": "6d04a35fdd",
-      "title": "渗透率53%！液冷成高端AI基础设施标配",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816167&idx=5&sn=c85f63063f5b6d97b8e1da57a3afda2b",
-      "summary": "渗透率53%！液冷成高端AI基础设施标配",
+      "id": "bf8ece7839",
+      "title": "闪光改写半导体晶体结构，玻璃基板全程维持低温",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816201&idx=4&sn=ce25d5db8b0ef760eb32048c4d42e514",
+      "summary": "闪光改写半导体晶体结构，玻璃基板全程维持低温",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-18T01:36:58.317345+00:00",
-      "pub_ts": 1787017018
+      "pub_date": "2026-08-19T01:39:12.685614+00:00",
+      "pub_ts": 1787103552
     },
     {
-      "id": "19615ca1d5",
-      "title": "从“几何缩微”到“时间缩微”，半导体设计范式的下一个十年",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829568&idx=1&sn=cf6a334fb7438dbd2dd9caef0bfeaa70",
-      "summary": "从“几何缩微”到“时间缩微”，半导体设计范式的下一个十年",
+      "id": "9854b814e9",
+      "title": "TCB设备厂，斥巨资扩产",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829745&idx=1&sn=93aae0982c9907313148d22f8085d411",
+      "summary": "TCB设备厂，斥巨资扩产",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-18T01:36:45.261724+00:00",
-      "pub_ts": 1787017005
+      "pub_date": "2026-08-19T01:39:04.966664+00:00",
+      "pub_ts": 1787103544
     },
     {
-      "id": "97364fd8fd",
-      "title": "壁仞公告，营收大增2107%",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829492&idx=1&sn=b7080e71bbba59f89a9fe8da12b7c913",
-      "summary": "壁仞公告，营收大增2107%",
+      "id": "cff4687dd2",
+      "title": "诚邀参会ITower Semiconductor 2026年全球技术研讨会官宣启动",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829722&idx=1&sn=d60e0b0e16bd1cfd30509601be6f0262",
+      "summary": "诚邀参会ITower Semiconductor 2026年全球技术研讨会官宣启动",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-18T01:36:45.261768+00:00",
-      "pub_ts": 1787017005
+      "pub_date": "2026-08-19T01:39:04.966713+00:00",
+      "pub_ts": 1787103544
     },
     {
-      "id": "09e4a8da7c",
-      "title": "让汽车飞上天，需要哪些芯片？",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829480&idx=1&sn=cc6d7286dd9ad8147f2d86cedff242d9",
-      "summary": "让汽车飞上天，需要哪些芯片？",
+      "id": "bd33662582",
+      "title": "频准激光，开盘大涨，中一签劲挣45万",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829718&idx=1&sn=98c45e311fae90021973f7699d7e4fdf",
+      "summary": "频准激光，开盘大涨，中一签劲挣45万",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-18T01:36:45.261788+00:00",
-      "pub_ts": 1787017005
+      "pub_date": "2026-08-19T01:39:04.966740+00:00",
+      "pub_ts": 1787103544
     },
     {
-      "id": "6dcd88691b",
-      "title": "爱仕特获数亿元B轮融资落户杭州，构筑碳化硅双增长引擎",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829480&idx=2&sn=b85cfd255ffb844387f673c512b3ebc2",
-      "summary": "爱仕特获数亿元B轮融资落户杭州，构筑碳化硅双增长引擎",
+      "id": "e53d325c2b",
+      "title": "Meta首颗训练芯片，正式亮相",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829706&idx=1&sn=84b9c583899ea2a4de8c9fe4d8734eee",
+      "summary": "Meta首颗训练芯片，正式亮相",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-18T01:36:45.261805+00:00",
-      "pub_ts": 1787017005
+      "pub_date": "2026-08-19T01:39:04.966763+00:00",
+      "pub_ts": 1787103544
     },
     {
-      "id": "1181968ff8",
-      "title": "CPU，成为瓶颈",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829480&idx=3&sn=3d7a53134349f2b6f1159d7ddd1f9379",
-      "summary": "CPU，成为瓶颈",
+      "id": "ab7b647c96",
+      "title": "国产ATE，凭什么突围?",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829706&idx=2&sn=bbb8d1f33bca010a167f6852e64ed520",
+      "summary": "国产ATE，凭什么突围?",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-18T01:36:45.261821+00:00",
-      "pub_ts": 1787017005
+      "pub_date": "2026-08-19T01:39:04.966786+00:00",
+      "pub_ts": 1787103544
+    },
+    {
+      "id": "a689846bd6",
+      "title": "Chip Industry Technical Paper Roundup: Aug. 18",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-aug-18/",
+      "summary": "2D CFET scaling; PIM chiplet voltage-droop control; advanced-node layout repair; lithography defect prediction; 3D-IC failure analysis; chiplet and interposer optimization; 4H-SiC wafer slicing.\nThe post Chip Industry Technical Paper Roundup: Aug. 18 appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-18T07:01:59+00:00",
+      "pub_ts": 1787036519
+    },
+    {
+      "id": "e98a33e532",
+      "title": "Semiconductor Earnings Roundup: Revenue, Growth and Takeaways",
+      "url": "https://semiengineering.com/chip-industry-earnings-roundup/",
+      "summary": "Company-by-company breakdown: Earnings across 80 semiconductor companies show AI-driven demand extending well beyond the usual suspects.\nThe post Semiconductor Earnings Roundup: Revenue, Growth and Takeaways appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-18T07:01:24+00:00",
+      "pub_ts": 1787036484
+    },
+    {
+      "id": "b63810b1ce",
+      "title": "Research Bits: Aug. 18",
+      "url": "https://semiengineering.com/research-bits-aug-18/",
+      "summary": "Edge AI hardware/algorithm co-design; memtransistor with programmable response speeds; artificial synapse with long- and short-term memory.\nThe post Research Bits: Aug. 18 appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-18T07:01:22+00:00",
+      "pub_ts": 1787036482
     },
     {
       "id": "ac199ed261",
@@ -125,36 +155,6 @@
       "lang": "en",
       "pub_date": "2026-08-17T07:01:48+00:00",
       "pub_ts": 1786950108
-    },
-    {
-      "id": "db73b1d725",
-      "title": "Precision Under Pressure: Rethinking Bond Reliability In High-Density Semiconductor Test",
-      "url": "https://semiengineering.com/precision-under-pressure-rethinking-bond-reliability-in-high-density-semiconductor-test/",
-      "summary": "Bond testing is emerging as a critical control point for long-term performance and yield.\nThe post Precision Under Pressure: Rethinking Bond Reliability In High-Density Semiconductor Test appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-17T07:01:15+00:00",
-      "pub_ts": 1786950075
-    },
-    {
-      "id": "e6a9072e87",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-151/",
-      "summary": "Lam Research and ASE expansions; data center shifts; CPO system architecture initiative; 2D-transistor interface solution; USENIX HW security; patent suits; image sensors; programmable AI memtransistor; Nvidia's new plan; earnings; Tier IV's L4 auto chip.\nThe post Chip Industry Week In Review appear…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-14T07:01:48+00:00",
-      "pub_ts": 1786690908
-    },
-    {
-      "id": "89e5c8ec13",
-      "title": "The 1-Megawatt Rack Debate",
-      "url": "https://semiengineering.com/the-1-megawatt-rack-debate/",
-      "summary": "Is it better to cram more compute into each rack or rethink the architecture?\nThe post The 1-Megawatt Rack Debate appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-13T07:15:49+00:00",
-      "pub_ts": 1786605349
     }
   ],
   "source_success_count": 3,

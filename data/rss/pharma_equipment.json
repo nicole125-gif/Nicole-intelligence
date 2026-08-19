@@ -3,9 +3,49 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-08-18T01:37:39.110839+00:00",
+  "updated_at": "2026-08-19T01:39:56.567962+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "0c8d75213a",
+      "title": "Updated UK guidance for finerenone introduces new treatment for HF patients",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/updated-uk-guidance-finerenone-hf/",
+      "summary": "New guidance from NICE provide a framework for UK care providers using finerenone to manage the treatment of certain types of heart failure.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-08-18T10:29:15+00:00",
+      "pub_ts": 1787048955
+    },
+    {
+      "id": "c61b3a15ec",
+      "title": "LEO outlays $435m for rights to Tanabe’s rare disease drug for sun-induced pain",
+      "url": "https://www.pharmaceutical-technology.com/news/leo-outlays-435m-for-rights-to-tanabes-rare-disease-drug-for-sun-induced-pain/",
+      "summary": "Tanabe’s dersimelagon is already under FDA review having achieved positive Phase III results earlier this year.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-08-18T10:02:12+00:00",
+      "pub_ts": 1787047332
+    },
+    {
+      "id": "6f893c4720",
+      "title": "Faeth’s PIKTOR plus paclitaxel combo gains FDA fast track status",
+      "url": "https://www.pharmaceutical-technology.com/news/faeths-combo-fda-fast-track-status/",
+      "summary": "Faeth Therapeutics has received fast track designation from the FDA for the PIKTOR with paclitaxel combination to treat advanced or recurrent endometrial cancer.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-08-18T09:09:59+00:00",
+      "pub_ts": 1787044199
+    },
+    {
+      "id": "5944aef510",
+      "title": "Fulcrum and Slate Medicines sign merger agreement",
+      "url": "https://www.pharmaceutical-technology.com/news/fulcrum-and-slate-medicines-sign-merger-agreement/",
+      "summary": "Fulcrum Therapeutics and Slate Medicines have signed a definitive agreement to merge in an all-stock transaction backed by a $245m private placement financing from a syndicate of healthcare investors.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-08-18T07:56:47+00:00",
+      "pub_ts": 1787039807
+    },
     {
       "id": "ee54d5236a",
       "title": "Moving at the speed of pharma digitalisation: driving ROI from AI and digital tools",
@@ -15,46 +55,6 @@
       "lang": "en",
       "pub_date": "2026-08-17T13:04:13+00:00",
       "pub_ts": 1786971853
-    },
-    {
-      "id": "51c1b0a119",
-      "title": "Sandoz targets industry patent void with $322m Henlius deal",
-      "url": "https://www.pharmaceutical-technology.com/news/sandoz-targets-industry-patent-void-with-322m-henlius-deal/",
-      "summary": "Sandoz and Henlius will collaborate on up to 10 biosimilars amid opportunity to capitalise on global biosimilar loss-of-exclusivities.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-08-17T10:47:38+00:00",
-      "pub_ts": 1786963658
-    },
-    {
-      "id": "82d9706b7a",
-      "title": "Lantheus Holdings’ Alzheimer’s radiodiagnostic secures FDA approval",
-      "url": "https://www.pharmaceutical-technology.com/news/lantheus-holdings-alzheimer-radiodiagnostic-secures-fda-approval/",
-      "summary": "Lantheus's radiodiagnostic is designed to identify cognitively impaired patients who have tau neurofibrillary tangle (NFT) pathology.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-08-17T10:47:36+00:00",
-      "pub_ts": 1786963656
-    },
-    {
-      "id": "4da97e0a83",
-      "title": "EMA validates Pfizer and Valneva’s Lyme disease vaccine",
-      "url": "https://www.pharmaceutical-technology.com/news/ema-pfizer-valnevas-lyme-disease-vaccine/",
-      "summary": "The EMA has validated the MAA from Pfizer and Valneva for their Lyme disease vaccine candidate, PF-07307405.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-08-17T09:20:07+00:00",
-      "pub_ts": 1786958407
-    },
-    {
-      "id": "88e22a4aa7",
-      "title": "FDA grants fast track status to Phanes’ spevatamig for advanced BTC",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-fast-track-phanes-spevatamig/",
-      "summary": "Phanes Therapeutics has received fast track designation from the US FDA for spevatamig to treat patients with advanced and metastatic BTC.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-08-17T08:42:46+00:00",
-      "pub_ts": 1786956166
     }
   ],
   "source_success_count": 1,

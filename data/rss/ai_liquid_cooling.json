@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-08-18T01:37:15.861544+00:00",
+  "updated_at": "2026-08-19T01:39:32.513996+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "6daa782dd1",
-      "title": "AIInfra进入自进化时代！清华团队用「AI优化AI」造就国产万亿Token工厂",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913001&idx=1&sn=18a6edae23cb46536ef8a48701ab7a8f",
-      "summary": "AIInfra进入自进化时代！清华团队用「AI优化AI」造就国产万亿Token工厂",
+      "id": "4a49fe69ae",
+      "title": "πO引用的中国团队，又出手了：世界仿真器新作发布",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913226&idx=1&sn=e27c5e451dfbd7ca48dc76b052a597a0",
+      "summary": "πO引用的中国团队，又出手了：世界仿真器新作发布",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-18T01:37:11.899032+00:00",
-      "pub_ts": 1787017031
+      "pub_date": "2026-08-19T01:39:26.647003+00:00",
+      "pub_ts": 1787103566
     },
     {
-      "id": "fa27957d40",
-      "title": "OpenAI解散「灾难风险应急」团队！GPU大神Scott Gray也跑路了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913001&idx=2&sn=0fe0eea8e8cdf3fb2daf1b719fbb9668",
-      "summary": "OpenAI解散「灾难风险应急」团队！GPU大神Scott Gray也跑路了",
+      "id": "fa8b06ac26",
+      "title": "GPT新模型在OpenAI内网自建留言板！3个月聊了几十万条，一直没人发现",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913226&idx=2&sn=cf67865e0153fe7081395d86496d3adc",
+      "summary": "GPT新模型在OpenAI内网自建留言板！3个月聊了几十万条，一直没人发现",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-18T01:37:11.899071+00:00",
-      "pub_ts": 1787017031
+      "pub_date": "2026-08-19T01:39:26.647105+00:00",
+      "pub_ts": 1787103566
     },
     {
-      "id": "4f52e52c98",
-      "title": "世界模型一口气输出小时级视频不跑偏，开源了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913001&idx=3&sn=0ffd266a88f762bb4366ada6614a51e5",
-      "summary": "世界模型一口气输出小时级视频不跑偏，开源了",
+      "id": "8f52b2d4a6",
+      "title": "用DeepSeek网页版就能瓜分鹅厂600万？？！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913187&idx=1&sn=538946e12656c0233ae4c36f04ed5611",
+      "summary": "用DeepSeek网页版就能瓜分鹅厂600万？？！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-18T01:37:11.899090+00:00",
-      "pub_ts": 1787017031
+      "pub_date": "2026-08-19T01:39:26.647139+00:00",
+      "pub_ts": 1787103566
     },
     {
-      "id": "6303ea8e81",
-      "title": "人形机器人开始打国球了！两台机器人完整打完11分制比赛",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912923&idx=1&sn=3eaa0e9d465129da723edf4c89e318c1",
-      "summary": "人形机器人开始打国球了！两台机器人完整打完11分制比赛",
+      "id": "b635455c81",
+      "title": "6个Agent组团VibeGaming：自己生成、试玩、修Bug",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913187&idx=2&sn=81e00adfb8b8d69ad1dcc2b2f03bfb0d",
+      "summary": "6个Agent组团VibeGaming：自己生成、试玩、修Bug",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-18T01:37:11.899106+00:00",
-      "pub_ts": 1787017031
+      "pub_date": "2026-08-19T01:39:26.647163+00:00",
+      "pub_ts": 1787103566
     },
     {
-      "id": "273b1b8aee",
-      "title": "Transformer祖传设计遭暴击，COLM顶会三篇论文发难",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912923&idx=2&sn=ce57ed2a5aadb15b088830ff66e8c702",
-      "summary": "Transformer祖传设计遭暴击，COLM顶会三篇论文发难",
+      "id": "b163dd4231",
+      "title": "实证研究：AI杀猪盘比人类更强，已上岗缅甸",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913187&idx=3&sn=1e01310da3828a8ff7ec06940f621592",
+      "summary": "实证研究：AI杀猪盘比人类更强，已上岗缅甸",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-18T01:37:11.899122+00:00",
-      "pub_ts": 1787017031
+      "pub_date": "2026-08-19T01:39:26.647188+00:00",
+      "pub_ts": 1787103566
     }
   ],
   "source_success_count": 1,
