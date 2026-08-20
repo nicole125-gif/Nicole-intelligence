@@ -3,108 +3,128 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-08-19T01:39:17.024146+00:00",
+  "updated_at": "2026-08-20T01:37:30.914479+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "722e79383a",
-      "title": "兆易创新，上半年净利润增长1091.5%",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816210&idx=1&sn=2a36e6a0a0677df4814b0c250864665c",
-      "summary": "兆易创新，上半年净利润增长1091.5%",
+      "id": "05c9d3faa7",
+      "title": "中微公司：净利润增长300%，再砸35亿元加码临港产业化基地",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816278&idx=1&sn=a794869e5809a88e2846f238bc966aa4",
+      "summary": "中微公司：净利润增长300%，再砸35亿元加码临港产业化基地",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-19T01:39:12.685499+00:00",
-      "pub_ts": 1787103552
+      "pub_date": "2026-08-20T01:37:26.504478+00:00",
+      "pub_ts": 1787189846
     },
     {
-      "id": "0f6b9f8023",
-      "title": "汽车芯片开启新一轮博弈",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816201&idx=1&sn=61db40631a1ab5bf34c8ae8462427dcc",
-      "summary": "汽车芯片开启新一轮博弈",
+      "id": "743a6e2402",
+      "title": "对话深圳平湖实验室万玉喜：从碳化硅到金刚石的“平湖方案",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816266&idx=1&sn=2218d8567affe82576a53fca5f045528",
+      "summary": "对话深圳平湖实验室万玉喜：从碳化硅到金刚石的“平湖方案",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-19T01:39:12.685541+00:00",
-      "pub_ts": 1787103552
+      "pub_date": "2026-08-20T01:37:26.504532+00:00",
+      "pub_ts": 1787189846
     },
     {
-      "id": "ee6260645a",
-      "title": "功率半导体第三波涨价，10月再涨10%~15%",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816201&idx=2&sn=328fb256a7de64b7e88a2e44ef5ef649",
-      "summary": "功率半导体第三波涨价，10月再涨10%~15%",
+      "id": "4fbb1554b1",
+      "title": "听百家言、观行业风！答案尽在CSEAC同期论坛中",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816266&idx=2&sn=7ad888b49fd6147023e550912318d737",
+      "summary": "听百家言、观行业风！答案尽在CSEAC同期论坛中",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-19T01:39:12.685568+00:00",
-      "pub_ts": 1787103552
+      "pub_date": "2026-08-20T01:37:26.504553+00:00",
+      "pub_ts": 1787189846
     },
     {
-      "id": "acf93aaf53",
-      "title": "国产存储再升级，致态推出新品",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816201&idx=3&sn=2964fce32cfed4f3e6f5387cadb3cc5f",
-      "summary": "国产存储再升级，致态推出新品",
+      "id": "5e71a5b52d",
+      "title": "Cerebras放大招，新机柜推理速度可达GPU方案的30倍",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816266&idx=3&sn=64f48a61f67a0038c996a1e4cce72e57",
+      "summary": "Cerebras放大招，新机柜推理速度可达GPU方案的30倍",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-19T01:39:12.685592+00:00",
-      "pub_ts": 1787103552
+      "pub_date": "2026-08-20T01:37:26.504572+00:00",
+      "pub_ts": 1787189846
     },
     {
-      "id": "bf8ece7839",
-      "title": "闪光改写半导体晶体结构，玻璃基板全程维持低温",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816201&idx=4&sn=ce25d5db8b0ef760eb32048c4d42e514",
-      "summary": "闪光改写半导体晶体结构，玻璃基板全程维持低温",
+      "id": "a876c269f0",
+      "title": "从SSD到光互连：Marvell的内存三步棋",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816266&idx=4&sn=d968ee954e90805fd0de934b0290708b",
+      "summary": "从SSD到光互连：Marvell的内存三步棋",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-19T01:39:12.685614+00:00",
-      "pub_ts": 1787103552
+      "pub_date": "2026-08-20T01:37:26.504589+00:00",
+      "pub_ts": 1787189846
     },
     {
-      "id": "9854b814e9",
-      "title": "TCB设备厂，斥巨资扩产",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829745&idx=1&sn=93aae0982c9907313148d22f8085d411",
-      "summary": "TCB设备厂，斥巨资扩产",
+      "id": "c11590449a",
+      "title": "刚刚，Marvell拿下谷歌大单",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829855&idx=1&sn=2db4c5ded29a634618bf0b3ef2c7462c",
+      "summary": "刚刚，Marvell拿下谷歌大单",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-19T01:39:04.966664+00:00",
-      "pub_ts": 1787103544
+      "pub_date": "2026-08-20T01:37:17.481077+00:00",
+      "pub_ts": 1787189837
     },
     {
-      "id": "cff4687dd2",
-      "title": "诚邀参会ITower Semiconductor 2026年全球技术研讨会官宣启动",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829722&idx=1&sn=d60e0b0e16bd1cfd30509601be6f0262",
-      "summary": "诚邀参会ITower Semiconductor 2026年全球技术研讨会官宣启动",
+      "id": "d4939c437d",
+      "title": "国产3DNAND龙头长存控股完成上市辅导，全球份额跻身前三",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829813&idx=1&sn=53209fdd1d383dcd3c3a22783a6fef99",
+      "summary": "国产3DNAND龙头长存控股完成上市辅导，全球份额跻身前三",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-19T01:39:04.966713+00:00",
-      "pub_ts": 1787103544
+      "pub_date": "2026-08-20T01:37:17.481130+00:00",
+      "pub_ts": 1787189837
     },
     {
-      "id": "bd33662582",
-      "title": "频准激光，开盘大涨，中一签劲挣45万",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829718&idx=1&sn=98c45e311fae90021973f7699d7e4fdf",
-      "summary": "频准激光，开盘大涨，中一签劲挣45万",
+      "id": "ea377d94e4",
+      "title": "刚刚，宇树上市，开盘暴涨超600%",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829808&idx=1&sn=79cdaa4fb0ed47bf01e3b9ceee34d78a",
+      "summary": "刚刚，宇树上市，开盘暴涨超600%",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-19T01:39:04.966740+00:00",
-      "pub_ts": 1787103544
+      "pub_date": "2026-08-20T01:37:17.481150+00:00",
+      "pub_ts": 1787189837
     },
     {
-      "id": "e53d325c2b",
-      "title": "Meta首颗训练芯片，正式亮相",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829706&idx=1&sn=84b9c583899ea2a4de8c9fe4d8734eee",
-      "summary": "Meta首颗训练芯片，正式亮相",
+      "id": "fb0efa2ffc",
+      "title": "听百家言、观行业风！答案尽在CSEAC同期论坛中",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829801&idx=1&sn=2ab931a3fe26620839287707fb4ad675",
+      "summary": "听百家言、观行业风！答案尽在CSEAC同期论坛中",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-19T01:39:04.966763+00:00",
-      "pub_ts": 1787103544
+      "pub_date": "2026-08-20T01:37:17.481168+00:00",
+      "pub_ts": 1787189837
     },
     {
-      "id": "ab7b647c96",
-      "title": "国产ATE，凭什么突围?",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829706&idx=2&sn=bbb8d1f33bca010a167f6852e64ed520",
-      "summary": "国产ATE，凭什么突围?",
+      "id": "b325fe2f5e",
+      "title": "U6G“黄金频谱”落地，锐石创芯锻造射频核心硬实力",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829801&idx=2&sn=64959a92c99962fccd804b644984fa95",
+      "summary": "U6G“黄金频谱”落地，锐石创芯锻造射频核心硬实力",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-19T01:39:04.966786+00:00",
-      "pub_ts": 1787103544
+      "pub_date": "2026-08-20T01:37:17.481184+00:00",
+      "pub_ts": 1787189837
+    },
+    {
+      "id": "48283f5d07",
+      "title": "The Future Of AI Compute Won’t Run On Just One Kind Of Chip",
+      "url": "https://semiengineering.com/the-future-of-ai-compute-wont-run-on-just-one-kind-of-chip/",
+      "summary": "Power, token cost, interconnects, and software orchestration are pushing data centers toward heterogeneous clusters built from CPUs, GPUs, NPUs, optics, and custom accelerators.\nThe post The Future Of AI Compute Won’t Run On Just One Kind Of Chip appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-19T07:01:42+00:00",
+      "pub_ts": 1787122902
+    },
+    {
+      "id": "f32bf262ff",
+      "title": "Blog Review: Aug. 19",
+      "url": "https://semiengineering.com/blog-review-aug-19-3/",
+      "summary": "Memory tagging; digital twin of the Moon; packaging moves front-and-center; streaming sensor data.\nThe post Blog Review: Aug. 19 appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-19T07:01:32+00:00",
+      "pub_ts": 1787122892
     },
     {
       "id": "a689846bd6",
@@ -135,26 +155,6 @@
       "lang": "en",
       "pub_date": "2026-08-18T07:01:22+00:00",
       "pub_ts": 1787036482
-    },
-    {
-      "id": "ac199ed261",
-      "title": "Controlling Voltage Droop In 2.5D PIM Chiplet Architectures (Washington St., UW-Madison)",
-      "url": "https://semiengineering.com/controlling-voltage-droop-in-2-5d-pim-chiplet-architectures-washington-st-uw-madison/",
-      "summary": "Researchers from Washington State University and University of Wisconsin–Madison published a technical paper titled “ReVolt: Power Delivery Network-Aware Voltage Droop Control for 2.5D PIM Chiplet Architectures.” Abstract “Processing-in-memory (PIM)-based 2.5D multi-chiplet platforms are enablers fo…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-17T21:31:19+00:00",
-      "pub_ts": 1787002279
-    },
-    {
-      "id": "b7dbb61640",
-      "title": "800VDC Pushes AI Power Design From Grid To Gate",
-      "url": "https://semiengineering.com/800vdc-pushes-ai-power-design-from-grid-to-gate/",
-      "summary": "The next power bottleneck is no longer just inside the accelerator — it is the full conversion path from medium-voltage AC to sub-1V silicon.\nThe post 800VDC Pushes AI Power Design From Grid To Gate appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-17T07:01:48+00:00",
-      "pub_ts": 1786950108
     }
   ],
   "source_success_count": 3,

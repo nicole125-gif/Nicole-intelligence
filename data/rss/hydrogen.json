@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-08-19T01:39:44.069608+00:00",
+  "updated_at": "2026-08-20T01:37:55.654066+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "e4c6becb2a",
-      "title": "Portuguese Gas Network Could Carry 20% Hydrogen With Upgrades Costing Just 3% of Asset Value",
-      "url": "https://fuelcellsworks.com/2026/08/11/h2/portuguese-gas-network-could-carry-20-percent-hydrogen-with-upgrades-costing-just-3-percent-of-asset-value",
+      "id": "3131f96199",
+      "title": "Hellesylt Hydrogen Hub Becomes the First RFNBO-Certified Hydrogen Production Site in Norway",
+      "url": "https://fuelcellsworks.com/2026/08/18/electrolyzer/hellesylt-hydrogen-hub-becomes-the-first-rfnbo-certified-hydrogen-production-site-in-norway",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-17T15:42:59+00:00",
-      "pub_ts": 1786981379
+      "pub_date": "2026-08-18T15:58:04+00:00",
+      "pub_ts": 1787068684
     },
     {
-      "id": "f67abb0211",
-      "title": "Sunfire Ships 100MW of Electrolysers by Barge to RWE’s Giant German Green Hydrogen Project",
-      "url": "https://fuelcellsworks.com/2026/08/17/electrolyzer/sunfire-ships-100mw-of-electrolysers-by-barge-to-rwe-s-giant-german-green-hydrogen-project",
+      "id": "476dc125c1",
+      "title": "Florida Startup Tests 1MW Containerized Hydrogen Power System for Off-Grid Use",
+      "url": "https://fuelcellsworks.com/2026/08/18/h2/florida-startup-tests-1mw-containerized-hydrogen-power-system-for-off-grid-use",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-17T15:38:01+00:00",
-      "pub_ts": 1786981081
+      "pub_date": "2026-08-18T15:44:48+00:00",
+      "pub_ts": 1787067888
     },
     {
-      "id": "080b435098",
-      "title": "Fuel Cell and Hydrogen News Highlights From China: August 10-14, 2026",
-      "url": "https://fuelcellsworks.com/2026/08/16/clean-energy/fuel-cell-and-hydrogen-news-highlights-from-china-august-10-14-2026",
+      "id": "82740aaa81",
+      "title": "San Bernardino International Airport and Total Hydrogen Development to Produce Clean, Low-Cost Hydrogen in the Inland Empire",
+      "url": "https://fuelcellsworks.com/2026/08/18/fuel-cells/san-bernardino-international-airport-and-total-hydrogen-development-to-produce-clean-low-cost-hydrogen-in-the-inland-empire",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-17T15:26:37+00:00",
-      "pub_ts": 1786980397
+      "pub_date": "2026-08-18T15:35:54+00:00",
+      "pub_ts": 1787067354
     },
     {
-      "id": "0f69df5b95",
-      "title": "Nordenham Commissions Green Hydrogen and Methanol Demonstration Plant",
-      "url": "https://fuelcellsworks.com/2026/08/17/green-hydrogen/nordenham-commissions-green-hydrogen-and-methanol-demonstration-plant",
+      "id": "2eac674d7d",
+      "title": "Wuhan Deploys First Customized Hydrogen-Powered Two-Wheelers in Optics Valley",
+      "url": "https://fuelcellsworks.com/2026/08/18/fuel-cells/wuhan-deploys-first-customized-hydrogen-powered-two-wheelers-in-optics-valley",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-17T15:22:34+00:00",
-      "pub_ts": 1786980154
+      "pub_date": "2026-08-18T15:02:39+00:00",
+      "pub_ts": 1787065359
     },
     {
-      "id": "96fe424099",
-      "title": "France’s 800Km HY-FEN Hydrogen Pipeline Moves to Public Consultation",
-      "url": "https://fuelcellsworks.com/2026/08/17/h2/france-s-800km-hy-fen-hydrogen-pipeline-moves-to-public-consultation",
+      "id": "8f3711dca0",
+      "title": "DayOne Raises SGD 530M for Hydrogen-Ready Singapore Data Centre",
+      "url": "https://fuelcellsworks.com/2026/08/18/green-investment/dayone-raises-sgd-530m-for-hydrogen-ready-singapore-data-centre",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-17T14:58:52+00:00",
-      "pub_ts": 1786978732
+      "pub_date": "2026-08-18T14:57:17+00:00",
+      "pub_ts": 1787065037
     }
   ],
   "source_success_count": 1,

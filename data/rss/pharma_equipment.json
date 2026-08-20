@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-08-19T01:39:56.567962+00:00",
+  "updated_at": "2026-08-20T01:38:08.456162+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "0c8d75213a",
-      "title": "Updated UK guidance for finerenone introduces new treatment for HF patients",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/updated-uk-guidance-finerenone-hf/",
-      "summary": "New guidance from NICE provide a framework for UK care providers using finerenone to manage the treatment of certain types of heart failure.",
+      "id": "ef05be28c0",
+      "title": "BioMarin spends up to $490m for Alesta’s bone disease candidate",
+      "url": "https://www.pharmaceutical-technology.com/news/biomarin-spends-up-to-490m-for-alestas-bone-disease-candidate/",
+      "summary": "The deal provides BioMarin with a potential rival to AstraZeneca’s blockbuster Strensiq in hypophosphatasia.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-18T10:29:15+00:00",
-      "pub_ts": 1787048955
+      "pub_date": "2026-08-19T13:55:55+00:00",
+      "pub_ts": 1787147755
     },
     {
-      "id": "c61b3a15ec",
-      "title": "LEO outlays $435m for rights to Tanabe’s rare disease drug for sun-induced pain",
-      "url": "https://www.pharmaceutical-technology.com/news/leo-outlays-435m-for-rights-to-tanabes-rare-disease-drug-for-sun-induced-pain/",
-      "summary": "Tanabe’s dersimelagon is already under FDA review having achieved positive Phase III results earlier this year.",
+      "id": "90754ff04e",
+      "title": "Trump expected to nominate Heidi Overton as new FDA commissioner",
+      "url": "https://www.pharmaceutical-technology.com/news/trump-nominates-heidi-overton-fda-commissioner/",
+      "summary": "Overton could take the helm at the FDA during a tumultuous period for the agency, defined by several resignations, firings and redundancies.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-18T10:02:12+00:00",
-      "pub_ts": 1787047332
+      "pub_date": "2026-08-19T10:07:30+00:00",
+      "pub_ts": 1787134050
     },
     {
-      "id": "6f893c4720",
-      "title": "Faeth’s PIKTOR plus paclitaxel combo gains FDA fast track status",
-      "url": "https://www.pharmaceutical-technology.com/news/faeths-combo-fda-fast-track-status/",
-      "summary": "Faeth Therapeutics has received fast track designation from the FDA for the PIKTOR with paclitaxel combination to treat advanced or recurrent endometrial cancer.",
+      "id": "965c85cde1",
+      "title": "Andelyn Biosciences to develop GM2 gangliosidosis therapy",
+      "url": "https://www.pharmaceutical-technology.com/news/andelyn-to-develop-gm2-gangliosidosis-therapy/",
+      "summary": "Andelyn Biosciences is set to develop and manufacture a gene therapy known as AAV9-GM2, for Queen’s University to treat GM2 gangliosidoses, including Tay-Sachs and Sandhoff diseases.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-18T09:09:59+00:00",
-      "pub_ts": 1787044199
+      "pub_date": "2026-08-19T09:04:43+00:00",
+      "pub_ts": 1787130283
     },
     {
-      "id": "5944aef510",
-      "title": "Fulcrum and Slate Medicines sign merger agreement",
-      "url": "https://www.pharmaceutical-technology.com/news/fulcrum-and-slate-medicines-sign-merger-agreement/",
-      "summary": "Fulcrum Therapeutics and Slate Medicines have signed a definitive agreement to merge in an all-stock transaction backed by a $245m private placement financing from a syndicate of healthcare investors.",
+      "id": "d8ca94d824",
+      "title": "BeOne Medicines and partners renew Brukinsa access programme for CLL",
+      "url": "https://www.pharmaceutical-technology.com/news/beone-medicines-partners-renew-brukinsa-programme/",
+      "summary": "BeOne Medicines, the BeOne Care Foundation, and The Max Foundation have extended their Brukinsa access programme for CLL until 2028.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-18T07:56:47+00:00",
-      "pub_ts": 1787039807
+      "pub_date": "2026-08-19T07:49:37+00:00",
+      "pub_ts": 1787125777
     },
     {
-      "id": "ee54d5236a",
-      "title": "Moving at the speed of pharma digitalisation: driving ROI from AI and digital tools",
-      "url": "https://www.pharmaceutical-technology.com/news/moving-at-the-speed-of-pharma-digitalisation-driving-roi-from-ai-and-digital-tools/",
-      "summary": "Discover how GSK, Boehringer Ingelheim, Takeda and more than 100 pharma leaders scale digital projects at AUTOMA+ 2026 in Switzerland.",
+      "id": "4cd2a15d5c",
+      "title": "Reformed pharmaceutical regulation across India’s drug landscape",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/reformed-pharmaceutical-regulation-across-india-drug-landscape/",
+      "summary": "One of the major changes made to India’s primary legal framework for drug price regulation affects the pricing of essential drugs.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-17T13:04:13+00:00",
-      "pub_ts": 1786971853
+      "pub_date": "2026-08-18T14:17:02+00:00",
+      "pub_ts": 1787062622
     }
   ],
   "source_success_count": 1,

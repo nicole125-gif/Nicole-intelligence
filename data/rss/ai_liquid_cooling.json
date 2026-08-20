@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-08-19T01:39:32.513996+00:00",
+  "updated_at": "2026-08-20T01:37:45.221062+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "4a49fe69ae",
-      "title": "πO引用的中国团队，又出手了：世界仿真器新作发布",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913226&idx=1&sn=e27c5e451dfbd7ca48dc76b052a597a0",
-      "summary": "πO引用的中国团队，又出手了：世界仿真器新作发布",
+      "id": "01b631fd98",
+      "title": "这届“WRC必看”：全栈AI、2O+超难家务，8.99万带回家",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913666&idx=1&sn=32334844094736739bd124a52bc79679",
+      "summary": "这届“WRC必看”：全栈AI、2O+超难家务，8.99万带回家",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-19T01:39:26.647003+00:00",
-      "pub_ts": 1787103566
+      "pub_date": "2026-08-20T01:37:40.592175+00:00",
+      "pub_ts": 1787189860
     },
     {
-      "id": "fa8b06ac26",
-      "title": "GPT新模型在OpenAI内网自建留言板！3个月聊了几十万条，一直没人发现",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913226&idx=2&sn=cf67865e0153fe7081395d86496d3adc",
-      "summary": "GPT新模型在OpenAI内网自建留言板！3个月聊了几十万条，一直没人发现",
+      "id": "e2c4dc41a2",
+      "title": "智谱唐杰：大模型只看参数的时代，结束了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913666&idx=2&sn=7f25ecfa7fed3d48375d9e81ae0d3a56",
+      "summary": "智谱唐杰：大模型只看参数的时代，结束了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-19T01:39:26.647105+00:00",
-      "pub_ts": 1787103566
+      "pub_date": "2026-08-20T01:37:40.592218+00:00",
+      "pub_ts": 1787189860
     },
     {
-      "id": "8f52b2d4a6",
-      "title": "用DeepSeek网页版就能瓜分鹅厂600万？？！",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913187&idx=1&sn=538946e12656c0233ae4c36f04ed5611",
-      "summary": "用DeepSeek网页版就能瓜分鹅厂600万？？！",
+      "id": "b7ecddd1a6",
+      "title": "具身数据底座开卖，首发5100元：机器人训练数据有了新解法",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913455&idx=1&sn=2d532b18dbbb9e98b6a45b1ae6efe577",
+      "summary": "具身数据底座开卖，首发5100元：机器人训练数据有了新解法",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-19T01:39:26.647139+00:00",
-      "pub_ts": 1787103566
+      "pub_date": "2026-08-20T01:37:40.592237+00:00",
+      "pub_ts": 1787189860
     },
     {
-      "id": "b635455c81",
-      "title": "6个Agent组团VibeGaming：自己生成、试玩、修Bug",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913187&idx=2&sn=81e00adfb8b8d69ad1dcc2b2f03bfb0d",
-      "summary": "6个Agent组团VibeGaming：自己生成、试玩、修Bug",
+      "id": "24750ca837",
+      "title": "MiniMax核心工程负责人阿岛离职",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913455&idx=2&sn=f6f4f7348801979d15afd62d689a0ab2",
+      "summary": "MiniMax核心工程负责人阿岛离职",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-19T01:39:26.647163+00:00",
-      "pub_ts": 1787103566
+      "pub_date": "2026-08-20T01:37:40.592254+00:00",
+      "pub_ts": 1787189860
     },
     {
-      "id": "b163dd4231",
-      "title": "实证研究：AI杀猪盘比人类更强，已上岗缅甸",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913187&idx=3&sn=1e01310da3828a8ff7ec06940f621592",
-      "summary": "实证研究：AI杀猪盘比人类更强，已上岗缅甸",
+      "id": "aec9a76c88",
+      "title": "写2000字提示词，不如先一键生成3D白模！AI视频创作进入“预演时代“",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913441&idx=1&sn=3b333e64f1da0497c6f2627ae0e0bcd1",
+      "summary": "写2000字提示词，不如先一键生成3D白模！AI视频创作进入“预演时代“",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-19T01:39:26.647188+00:00",
-      "pub_ts": 1787103566
+      "pub_date": "2026-08-20T01:37:40.592270+00:00",
+      "pub_ts": 1787189860
     }
   ],
   "source_success_count": 1,
