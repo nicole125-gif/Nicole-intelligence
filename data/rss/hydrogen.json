@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-08-20T01:37:55.654066+00:00",
+  "updated_at": "2026-08-21T01:42:58.810241+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "3131f96199",
-      "title": "Hellesylt Hydrogen Hub Becomes the First RFNBO-Certified Hydrogen Production Site in Norway",
-      "url": "https://fuelcellsworks.com/2026/08/18/electrolyzer/hellesylt-hydrogen-hub-becomes-the-first-rfnbo-certified-hydrogen-production-site-in-norway",
+      "id": "e93f4bdc23",
+      "title": "Px Group and SoHHytec Launch Industrial Solar-to-Hydrogen Demonstration Project",
+      "url": "https://fuelcellsworks.com/2026/08/17/green-hydrogen/px-group-and-sohhytec-launch-industrial-solar-to-hydrogen-demonstration-project",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-18T15:58:04+00:00",
-      "pub_ts": 1787068684
+      "pub_date": "2026-08-19T15:28:26+00:00",
+      "pub_ts": 1787153306
     },
     {
-      "id": "476dc125c1",
-      "title": "Florida Startup Tests 1MW Containerized Hydrogen Power System for Off-Grid Use",
-      "url": "https://fuelcellsworks.com/2026/08/18/h2/florida-startup-tests-1mw-containerized-hydrogen-power-system-for-off-grid-use",
+      "id": "7aca38d5be",
+      "title": "Sunfire Begins Building Megawatt-Scale SOEC Plant at BASF Site With Eye on 89% Efficiency",
+      "url": "https://fuelcellsworks.com/2026/08/19/green-investment/sunfire-begins-building-megawatt-scale-soec-plant-at-basf-site-with-eye-on-89-percent-efficiency",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-18T15:44:48+00:00",
-      "pub_ts": 1787067888
+      "pub_date": "2026-08-19T15:23:08+00:00",
+      "pub_ts": 1787152988
     },
     {
-      "id": "82740aaa81",
-      "title": "San Bernardino International Airport and Total Hydrogen Development to Produce Clean, Low-Cost Hydrogen in the Inland Empire",
-      "url": "https://fuelcellsworks.com/2026/08/18/fuel-cells/san-bernardino-international-airport-and-total-hydrogen-development-to-produce-clean-low-cost-hydrogen-in-the-inland-empire",
+      "id": "a980c7d0da",
+      "title": "Iwatani Launches Hydrogen-Compatible Industrial Hot Air Generator From ¥10 Million",
+      "url": "https://fuelcellsworks.com/2026/08/17/h2/iwatani-launches-hydrogen-compatible-industrial-hot-air-generator-from-10-million",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-18T15:35:54+00:00",
-      "pub_ts": 1787067354
+      "pub_date": "2026-08-19T15:10:12+00:00",
+      "pub_ts": 1787152212
     },
     {
-      "id": "2eac674d7d",
-      "title": "Wuhan Deploys First Customized Hydrogen-Powered Two-Wheelers in Optics Valley",
-      "url": "https://fuelcellsworks.com/2026/08/18/fuel-cells/wuhan-deploys-first-customized-hydrogen-powered-two-wheelers-in-optics-valley",
+      "id": "58eb57e07e",
+      "title": "Detecting Ammonia Leaks at Concentrations as Low as 1 Ppm!",
+      "url": "https://fuelcellsworks.com/2026/08/19/clean-energy/detecting-ammonia-leaks-at-concentrations-as-low-as-1-ppm",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-18T15:02:39+00:00",
-      "pub_ts": 1787065359
+      "pub_date": "2026-08-19T15:02:36+00:00",
+      "pub_ts": 1787151756
     },
     {
-      "id": "8f3711dca0",
-      "title": "DayOne Raises SGD 530M for Hydrogen-Ready Singapore Data Centre",
-      "url": "https://fuelcellsworks.com/2026/08/18/green-investment/dayone-raises-sgd-530m-for-hydrogen-ready-singapore-data-centre",
+      "id": "c0f5784503",
+      "title": "TH₂ECO Seeks Funding for First Ten Hydrogen Trucks as Erfurt Freight Hub Moves Toward Deployment",
+      "url": "https://fuelcellsworks.com/2026/08/17/h2/th-eco-seeks-funding-for-first-ten-hydrogen-trucks-as-erfurt-freight-hub-moves-toward-deployment",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-18T14:57:17+00:00",
-      "pub_ts": 1787065037
+      "pub_date": "2026-08-19T14:43:35+00:00",
+      "pub_ts": 1787150615
     }
   ],
   "source_success_count": 1,
