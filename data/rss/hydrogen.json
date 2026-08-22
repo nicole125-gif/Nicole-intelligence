@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-08-21T01:42:58.810241+00:00",
+  "updated_at": "2026-08-22T01:36:42.258531+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "e93f4bdc23",
-      "title": "Px Group and SoHHytec Launch Industrial Solar-to-Hydrogen Demonstration Project",
-      "url": "https://fuelcellsworks.com/2026/08/17/green-hydrogen/px-group-and-sohhytec-launch-industrial-solar-to-hydrogen-demonstration-project",
+      "id": "b10ad51070",
+      "title": "Britain Puts £28M Behind Storing Power for Four Days — and Hydrogen Caverns Are Half the Answer",
+      "url": "https://fuelcellsworks.com/2026/08/20/h2/britain-puts-28m-behind-storing-power-for-four-days-and-hydrogen-caverns-are-half-the-answer",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-19T15:28:26+00:00",
-      "pub_ts": 1787153306
+      "pub_date": "2026-08-20T17:14:59+00:00",
+      "pub_ts": 1787246099
     },
     {
-      "id": "7aca38d5be",
-      "title": "Sunfire Begins Building Megawatt-Scale SOEC Plant at BASF Site With Eye on 89% Efficiency",
-      "url": "https://fuelcellsworks.com/2026/08/19/green-investment/sunfire-begins-building-megawatt-scale-soec-plant-at-basf-site-with-eye-on-89-percent-efficiency",
+      "id": "5493b4a0a6",
+      "title": "RVK Enters the Production of Green Hydrogen",
+      "url": "https://fuelcellsworks.com/2026/08/20/clean-hydrogen/rvk-enters-the-production-of-green-hydrogen",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-19T15:23:08+00:00",
-      "pub_ts": 1787152988
+      "pub_date": "2026-08-20T16:05:47+00:00",
+      "pub_ts": 1787241947
     },
     {
-      "id": "a980c7d0da",
-      "title": "Iwatani Launches Hydrogen-Compatible Industrial Hot Air Generator From ¥10 Million",
-      "url": "https://fuelcellsworks.com/2026/08/17/h2/iwatani-launches-hydrogen-compatible-industrial-hot-air-generator-from-10-million",
+      "id": "02f64bc404",
+      "title": "Perdaman Appoints Electric Hydrogen as Preferred Electrolyser Vendor for Project Helios",
+      "url": "https://fuelcellsworks.com/2026/08/20/clean-energy/perdaman-appoints-electric-hydrogen-as-preferred-electrolyser-vendor-for-project-helios",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-19T15:10:12+00:00",
-      "pub_ts": 1787152212
+      "pub_date": "2026-08-20T15:36:57+00:00",
+      "pub_ts": 1787240217
     },
     {
-      "id": "58eb57e07e",
-      "title": "Detecting Ammonia Leaks at Concentrations as Low as 1 Ppm!",
-      "url": "https://fuelcellsworks.com/2026/08/19/clean-energy/detecting-ammonia-leaks-at-concentrations-as-low-as-1-ppm",
+      "id": "b0a7c63a3d",
+      "title": "Buan Builds Local Green Hydrogen Network With Electrolysis, Pipelines and Fuel Cells",
+      "url": "https://fuelcellsworks.com/2026/08/17/electrolyzer/buan-builds-local-green-hydrogen-network-with-electrolysis-pipelines-and-fuel-cells",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-19T15:02:36+00:00",
-      "pub_ts": 1787151756
+      "pub_date": "2026-08-20T15:28:47+00:00",
+      "pub_ts": 1787239727
     },
     {
-      "id": "c0f5784503",
-      "title": "TH₂ECO Seeks Funding for First Ten Hydrogen Trucks as Erfurt Freight Hub Moves Toward Deployment",
-      "url": "https://fuelcellsworks.com/2026/08/17/h2/th-eco-seeks-funding-for-first-ten-hydrogen-trucks-as-erfurt-freight-hub-moves-toward-deployment",
+      "id": "64d4326b00",
+      "title": "Bloom Energy Introduces Power Connect, Cutting Onsite Power Installation Time by Over 40%",
+      "url": "https://fuelcellsworks.com/2026/08/20/energy-innovation/bloom-energy-introduces-power-connect-cutting-onsite-power-installation-time-by-over-40-percent",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-19T14:43:35+00:00",
-      "pub_ts": 1787150615
+      "pub_date": "2026-08-20T15:24:56+00:00",
+      "pub_ts": 1787239496
     }
   ],
   "source_success_count": 1,

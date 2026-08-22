@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-08-21T01:42:46.272317+00:00",
+  "updated_at": "2026-08-22T01:36:30.471870+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "047612b72a",
-      "title": "WRC展会拿I旧Demo炒冷饭？扒一扒千寻藏在水下的全栈底牌",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913811&idx=1&sn=c95e547bcad101fe9de3b40e2eae1ec6",
-      "summary": "WRC展会拿I旧Demo炒冷饭？扒一扒千寻藏在水下的全栈底牌",
+      "id": "193366f35a",
+      "title": "WRC兵乓球局爆火！这家中国具身创业公司，砸出了一套全栈新解法",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913986&idx=1&sn=2525be4ee4ddfac3222a9183a8bfd96a",
+      "summary": "WRC兵乓球局爆火！这家中国具身创业公司，砸出了一套全栈新解法",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-21T01:42:42.122206+00:00",
-      "pub_ts": 1787276562
+      "pub_date": "2026-08-22T01:36:25.650629+00:00",
+      "pub_ts": 1787362585
     },
     {
-      "id": "2823f33113",
-      "title": "JeffDean离职后首次公开访谈火力有点猛。。。",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913811&idx=2&sn=e335453e542b84b89f372da4f20776a2",
-      "summary": "JeffDean离职后首次公开访谈火力有点猛。。。",
+      "id": "273133c49b",
+      "title": "内存价格一年暴涨500%，20年降价红利彻底没了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913986&idx=2&sn=8d9082a541e45c3f82eade94ffd53d4e",
+      "summary": "内存价格一年暴涨500%，20年降价红利彻底没了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-21T01:42:42.122251+00:00",
-      "pub_ts": 1787276562
+      "pub_date": "2026-08-22T01:36:25.650673+00:00",
+      "pub_ts": 1787362585
     },
     {
-      "id": "2c8703508c",
-      "title": "今年WRC最大展台，预告具身智能未来",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913813&idx=1&sn=3521b8a148f2341139395fa6dd9813d0",
-      "summary": "今年WRC最大展台，预告具身智能未来",
+      "id": "d3aac61010",
+      "title": "机器人的GPT-3时刻真·来了！卡卡西上身，看3秒就学会新动作",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913963&idx=1&sn=0dae7e2b4a7a49a24898c6e6b46f09c7",
+      "summary": "机器人的GPT-3时刻真·来了！卡卡西上身，看3秒就学会新动作",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-21T01:42:42.122275+00:00",
-      "pub_ts": 1787276562
+      "pub_date": "2026-08-22T01:36:25.650695+00:00",
+      "pub_ts": 1787362585
     },
     {
-      "id": "c57510a8f4",
-      "title": "陶哲轩隔空对话王虹：数学界该学会「消化」AI了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913813&idx=2&sn=ca2aeb044f73afa2ece48bfb2aa6d6b7",
-      "summary": "陶哲轩隔空对话王虹：数学界该学会「消化」AI了",
+      "id": "1a50d7cc12",
+      "title": "不藏了！Meta曝光MuseSpark 1.2核心具身能力",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913963&idx=2&sn=5d762d63ca7f8bae2094ef4e01d269c8",
+      "summary": "不藏了！Meta曝光MuseSpark 1.2核心具身能力",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-21T01:42:42.122295+00:00",
-      "pub_ts": 1787276562
+      "pub_date": "2026-08-22T01:36:25.650715+00:00",
+      "pub_ts": 1787362585
     },
     {
-      "id": "42199f3e4a",
-      "title": "OpenAICFO剧透了IPO时间",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913813&idx=3&sn=9316dc6ee22b6687cd3bf3c94a9ee718",
-      "summary": "OpenAICFO剧透了IPO时间",
+      "id": "a1cfbffc1d",
+      "title": "开源国产8B模型，比肩闭源Image 2了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913930&idx=1&sn=efcc73f2cb808d993b8bc43534dc21ab",
+      "summary": "开源国产8B模型，比肩闭源Image 2了！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-21T01:42:42.122316+00:00",
-      "pub_ts": 1787276562
+      "pub_date": "2026-08-22T01:36:25.650735+00:00",
+      "pub_ts": 1787362585
     }
   ],
   "source_success_count": 1,

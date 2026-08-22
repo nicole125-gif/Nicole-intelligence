@@ -3,108 +3,118 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-08-21T01:42:32.778274+00:00",
+  "updated_at": "2026-08-22T01:36:16.080621+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "1b3e582780",
-      "title": "英伟达、SK海力士：必须拿下CPO！",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816332&idx=1&sn=c0424554a70634843c87ecc2324986a1",
-      "summary": "英伟达、SK海力士：必须拿下CPO！",
+      "id": "52f10c453f",
+      "title": "刚刚！长存控股IPO首披，Q1净利333.79亿",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816382&idx=1&sn=dc45445e84fc661bafc6177b5d3c1c51",
+      "summary": "刚刚！长存控股IPO首披，Q1净利333.79亿",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-21T01:42:28.745936+00:00",
-      "pub_ts": 1787276548
+      "pub_date": "2026-08-22T01:36:11.905312+00:00",
+      "pub_ts": 1787362571
     },
     {
-      "id": "17b6e65322",
-      "title": "IWAPS2026|国际先进光刻技术研讨会日程公布",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816332&idx=2&sn=f209f5a7b69f3ed15db5053dad8e520c",
-      "summary": "IWAPS2026|国际先进光刻技术研讨会日程公布",
+      "id": "43c93cc904",
+      "title": "国产存储开始补齐最后一块缺口",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816368&idx=1&sn=ed59c8eb9d72f4d3a52f13db8b40b972",
+      "summary": "国产存储开始补齐最后一块缺口",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-21T01:42:28.745981+00:00",
-      "pub_ts": 1787276548
+      "pub_date": "2026-08-22T01:36:11.905359+00:00",
+      "pub_ts": 1787362571
     },
     {
-      "id": "2f9bb3758c",
-      "title": "紫光国微：第九代FPGA芯片，已经批量供货",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816332&idx=3&sn=d5069d5cb3deff3cb1fc8b396866015c",
-      "summary": "紫光国微：第九代FPGA芯片，已经批量供货",
+      "id": "8c15cab6dc",
+      "title": "在手订单翻倍！韩国半导体设备商吃到扩产红利",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816368&idx=2&sn=e05d713e0caf6359b6ea6eeb172b096b",
+      "summary": "在手订单翻倍！韩国半导体设备商吃到扩产红利",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-21T01:42:28.746008+00:00",
-      "pub_ts": 1787276548
+      "pub_date": "2026-08-22T01:36:11.905384+00:00",
+      "pub_ts": 1787362571
     },
     {
-      "id": "c92b0e63a4",
-      "title": "光子集成电路，下一个前沿领域",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816332&idx=4&sn=3bc1bf3149fb45a178a712178504e671",
-      "summary": "光子集成电路，下一个前沿领域",
+      "id": "cd0ff2334b",
+      "title": "35%年复合增速！功率氮化镓市场2031年将达35亿美元",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816368&idx=3&sn=712ae9a898ee79766a780845ac6e8a03",
+      "summary": "35%年复合增速！功率氮化镓市场2031年将达35亿美元",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-21T01:42:28.746032+00:00",
-      "pub_ts": 1787276548
+      "pub_date": "2026-08-22T01:36:11.905411+00:00",
+      "pub_ts": 1787362571
     },
     {
-      "id": "e6734cd98f",
-      "title": "CFET带飞芯片互连性能",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816332&idx=5&sn=8d7ff3c3a19846c54fdf28c3e4cd956e",
-      "summary": "CFET带飞芯片互连性能",
+      "id": "35356c8a4d",
+      "title": "0.8纳米碳膜或将替代芯片互连两层薄膜",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816368&idx=4&sn=319f1361af9844dc2f555514a31c01a5",
+      "summary": "0.8纳米碳膜或将替代芯片互连两层薄膜",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-21T01:42:28.746053+00:00",
-      "pub_ts": 1787276548
+      "pub_date": "2026-08-22T01:36:11.905431+00:00",
+      "pub_ts": 1787362571
     },
     {
-      "id": "624312afa7",
-      "title": "美光宣布，巨额投资",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829944&idx=1&sn=b925aa05055d297a9b766c728443c8a1",
-      "summary": "美光宣布，巨额投资",
+      "id": "5bb9751089",
+      "title": "一季度净利润333亿，长存上市，新进展",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247830045&idx=1&sn=85fa3527b60f772c778b38b826f74abb",
+      "summary": "一季度净利润333亿，长存上市，新进展",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-21T01:42:20.541532+00:00",
-      "pub_ts": 1787276540
+      "pub_date": "2026-08-22T01:35:56.598123+00:00",
+      "pub_ts": 1787362556
     },
     {
-      "id": "4543691166",
-      "title": "SK海力士，入局CPO",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829905&idx=1&sn=1b81c1e80409a570b1c114bf65dfc3b4",
-      "summary": "SK海力士，入局CPO",
+      "id": "c9b7841669",
+      "title": "曦智科技，营收大增284%",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247830029&idx=1&sn=8b9e946ba8435eb72903f2f3415aaf2a",
+      "summary": "曦智科技，营收大增284%",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-21T01:42:20.541586+00:00",
-      "pub_ts": 1787276540
+      "pub_date": "2026-08-22T01:35:56.598185+00:00",
+      "pub_ts": 1787362556
     },
     {
-      "id": "72e466f2b3",
-      "title": "国产存储ATE，迎来拐点！",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829886&idx=1&sn=ce2b3302ba0016dfd6babd642b0636d7",
-      "summary": "国产存储ATE，迎来拐点！",
+      "id": "d02925e661",
+      "title": "95%展位已被锁定，谁在抢国芯展的“产业入口”?",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247830023&idx=1&sn=f011b1a84bfbe5bdc4bd2a6ae5733e96",
+      "summary": "95%展位已被锁定，谁在抢国芯展的“产业入口”?",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-21T01:42:20.541612+00:00",
-      "pub_ts": 1787276540
+      "pub_date": "2026-08-22T01:35:56.598210+00:00",
+      "pub_ts": 1787362556
     },
     {
-      "id": "a7134888d6",
-      "title": "设计自动化年度盛会！IDAS2026汇聚百余位行业专家，全面解读EDA未来！",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829886&idx=2&sn=85567b003fb259c1059492422f988799",
-      "summary": "设计自动化年度盛会！IDAS2026汇聚百余位行业专家，全面解读EDA未来！",
+      "id": "0fa7ab9eec",
+      "title": "独家|腾讯芯片一号位，离职创业，投身AI CPU",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829979&idx=1&sn=0984172176c16b7d880d49365f390a1e",
+      "summary": "独家|腾讯芯片一号位，离职创业，投身AI CPU",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-21T01:42:20.541634+00:00",
-      "pub_ts": 1787276540
+      "pub_date": "2026-08-22T01:35:56.598231+00:00",
+      "pub_ts": 1787362556
     },
     {
-      "id": "695f854427",
-      "title": "NPO，异军突起",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829886&idx=3&sn=a51765969f67e7382621808da71a6840",
-      "summary": "NPO，异军突起",
+      "id": "ea4560251a",
+      "title": "HBF首份OCP技术规范落地，AI推理走向Tiered Memory：九天睿芯构建多层...",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247829972&idx=1&sn=1e4d4d23de3ee675c6c52f3407684fbe",
+      "summary": "HBF首份OCP技术规范落地，AI推理走向Tiered Memory：九天睿芯构建多层...",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-21T01:42:20.541661+00:00",
-      "pub_ts": 1787276540
+      "pub_date": "2026-08-22T01:35:56.598250+00:00",
+      "pub_ts": 1787362556
+    },
+    {
+      "id": "9a6b110a43",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-152/",
+      "summary": "New Micron lab; chip/AI price jump; multi-die monitoring; cryo links for quantum chips; interconnect RC bottleneck; 18A win; CPO roadmap; 2 new CEOs; humanoid readiness gap; Hot Interconnects.\nThe post Chip Industry Week In Review appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-21T07:01:08+00:00",
+      "pub_ts": 1787295668
     },
     {
       "id": "0fafeb1b8f",
@@ -145,16 +155,6 @@
       "lang": "en",
       "pub_date": "2026-08-20T07:02:04+00:00",
       "pub_ts": 1787209324
-    },
-    {
-      "id": "ee580d4bd8",
-      "title": "Three Strategic Imperatives For Energy-Efficient AI Computing",
-      "url": "https://semiengineering.com/three-strategic-imperatives-for-energy-efficient-ai-computing/",
-      "summary": "Reducing energy consumption is key to both lowering inference cost and enabling emerging physical AI applications.\nThe post Three Strategic Imperatives For Energy-Efficient AI Computing appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-20T07:01:40+00:00",
-      "pub_ts": 1787209300
     }
   ],
   "source_success_count": 3,

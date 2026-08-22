@@ -3,9 +3,49 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-08-21T01:43:11.166314+00:00",
+  "updated_at": "2026-08-22T01:36:54.795299+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "ad45fb5791",
+      "title": "Roche commits $750m to double Oregon-based US manufacturing capacity",
+      "url": "https://www.pharmaceutical-technology.com/news/roche-750m-oregon-us-injectable-manufacturing-site/",
+      "summary": "Roche's Oregon fill-finish site will produce both autoinjectors and pre-filled syringes – serving its pipeline and portfolio.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-08-21T10:59:34+00:00",
+      "pub_ts": 1787309974
+    },
+    {
+      "id": "2ed9d1a751",
+      "title": "Eli Lilly’s weekly insulin jab Onswik set for NHS use if approved",
+      "url": "https://www.pharmaceutical-technology.com/news/eli-lillys-weekly-insulin-jab-onswik-set-for-nhs-use-if-approved/",
+      "summary": "Lilly’s drug could cut the number of injections each patient needs by 85%.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-08-21T09:52:25+00:00",
+      "pub_ts": 1787305945
+    },
+    {
+      "id": "b43c04f3ff",
+      "title": "WellSpan and Johns Hopkins renew partnership for advanced cancer care access",
+      "url": "https://www.pharmaceutical-technology.com/news/wellspan-johns-hopkins-advanced-cancer-care/",
+      "summary": "WellSpan Health and Johns Hopkins Medicine have renewed their oncology collaboration to widen access to advanced care throughout central Pennsylvania, US.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-08-21T09:01:21+00:00",
+      "pub_ts": 1787302881
+    },
+    {
+      "id": "e7fce24389",
+      "title": "Charles River and MVC to develop enterovirus vaccine",
+      "url": "https://www.pharmaceutical-technology.com/news/charles-river-mvc-enterovirus-vaccine/",
+      "summary": "Charles River Laboratories International and MVC have entered a collaboration to support the characterisation, along with validation of the virus seed bank for the latter’s next-generation multivalent enterovirus vaccine.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-08-21T08:27:41+00:00",
+      "pub_ts": 1787300861
+    },
     {
       "id": "0badafb471",
       "title": "Regeneron’s Pasatru wins FDA approval in ultra-rare ‘stone man disease’",
@@ -15,46 +55,6 @@
       "lang": "en",
       "pub_date": "2026-08-20T10:39:32+00:00",
       "pub_ts": 1787222372
-    },
-    {
-      "id": "930c4e0ac0",
-      "title": "Kynexis pockets €97m to advance cognition-focused schizophrenia drug",
-      "url": "https://www.pharmaceutical-technology.com/news/kynexis-97m-cognitive-focused-schizophrenia-drug-progression/",
-      "summary": "Kynexis will now prepare for registrational studies on lead asset, KYN-5356 in cognitive impairment associated with schizophrenia (CIAS).",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-08-20T10:32:56+00:00",
-      "pub_ts": 1787221976
-    },
-    {
-      "id": "b3b9e30d24",
-      "title": "FDA grants accelerated approval to Ultragenyx’s Genglycos gene therapy",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-approval-ultragenyx-genglycos-gene-therapy/",
-      "summary": "Ultragenyx Pharmaceutical has received accelerated approval from the FDA for its gene therapy, Genglycos, to treat GSDIa.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-08-20T09:40:26+00:00",
-      "pub_ts": 1787218826
-    },
-    {
-      "id": "efc8c5a1fe",
-      "title": "SandboxAQ introduces AQPotency for virtual drug screening",
-      "url": "https://www.pharmaceutical-technology.com/news/sandboxaq-aqpotency-virtual-drug-screening/",
-      "summary": "SandboxAQ has introduced AQPotency, a LQM designed to virtually screen and predict the potential of drug candidates without the need for a solved protein structure.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-08-20T08:51:07+00:00",
-      "pub_ts": 1787215867
-    },
-    {
-      "id": "ef05be28c0",
-      "title": "BioMarin spends up to $490m for Alesta’s bone disease candidate",
-      "url": "https://www.pharmaceutical-technology.com/news/biomarin-spends-up-to-490m-for-alestas-bone-disease-candidate/",
-      "summary": "The deal provides BioMarin with a potential rival to AstraZeneca’s blockbuster Strensiq in hypophosphatasia.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-08-19T13:55:55+00:00",
-      "pub_ts": 1787147755
     }
   ],
   "source_success_count": 1,
