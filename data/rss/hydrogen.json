@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-08-22T01:36:42.258531+00:00",
+  "updated_at": "2026-08-23T01:46:07.614628+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "b10ad51070",
-      "title": "Britain Puts £28M Behind Storing Power for Four Days — and Hydrogen Caverns Are Half the Answer",
-      "url": "https://fuelcellsworks.com/2026/08/20/h2/britain-puts-28m-behind-storing-power-for-four-days-and-hydrogen-caverns-are-half-the-answer",
+      "id": "f71fa7ea1c",
+      "title": "Next-Generation Propulsion Technologies Target Lower-Emission Regional Aviation",
+      "url": "https://fuelcellsworks.com/2026/08/16/h2/next-generation-propulsion-technologies-target-lower-emission-regional-aviation",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-20T17:14:59+00:00",
-      "pub_ts": 1787246099
+      "pub_date": "2026-08-21T15:54:09+00:00",
+      "pub_ts": 1787327649
     },
     {
-      "id": "5493b4a0a6",
-      "title": "RVK Enters the Production of Green Hydrogen",
-      "url": "https://fuelcellsworks.com/2026/08/20/clean-hydrogen/rvk-enters-the-production-of-green-hydrogen",
+      "id": "822c25461b",
+      "title": "Manawatū Becomes Home to New Zealand’s First Toyota Mirai Rental Fleet",
+      "url": "https://fuelcellsworks.com/2026/08/21/fuel-cells/manawatu-becomes-home-to-new-zealand-s-first-toyota-mirai-rental-fleet",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-20T16:05:47+00:00",
-      "pub_ts": 1787241947
+      "pub_date": "2026-08-21T15:53:16+00:00",
+      "pub_ts": 1787327596
     },
     {
-      "id": "02f64bc404",
-      "title": "Perdaman Appoints Electric Hydrogen as Preferred Electrolyser Vendor for Project Helios",
-      "url": "https://fuelcellsworks.com/2026/08/20/clean-energy/perdaman-appoints-electric-hydrogen-as-preferred-electrolyser-vendor-for-project-helios",
+      "id": "2f24ea8045",
+      "title": "Colruyt Group and Scania Are Pioneering the Use of Hydrogen Trucks in Day-to-Day Operations",
+      "url": "https://fuelcellsworks.com/2026/08/21/fuel-cells/colruyt-group-and-scania-are-pioneering-the-use-of-hydrogen-trucks-in-day-to-day-operations",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-20T15:36:57+00:00",
-      "pub_ts": 1787240217
+      "pub_date": "2026-08-21T15:43:05+00:00",
+      "pub_ts": 1787326985
     },
     {
-      "id": "b0a7c63a3d",
-      "title": "Buan Builds Local Green Hydrogen Network With Electrolysis, Pipelines and Fuel Cells",
-      "url": "https://fuelcellsworks.com/2026/08/17/electrolyzer/buan-builds-local-green-hydrogen-network-with-electrolysis-pipelines-and-fuel-cells",
+      "id": "b7c56208bf",
+      "title": "GWM Brings Hydrogen-Powered Truck, ORA 5 and Electrification Experiments to Rio Innovation Week 2026.",
+      "url": "https://fuelcellsworks.com/2026/08/21/energy-innovation/gwm-brings-hydrogen-powered-truck-ora-5-and-electrification-experiments-to-rio-innovation-week-2026",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-20T15:28:47+00:00",
-      "pub_ts": 1787239727
+      "pub_date": "2026-08-21T15:33:28+00:00",
+      "pub_ts": 1787326408
     },
     {
-      "id": "64d4326b00",
-      "title": "Bloom Energy Introduces Power Connect, Cutting Onsite Power Installation Time by Over 40%",
-      "url": "https://fuelcellsworks.com/2026/08/20/energy-innovation/bloom-energy-introduces-power-connect-cutting-onsite-power-installation-time-by-over-40-percent",
+      "id": "a52ed5fc7d",
+      "title": "Yamanashi Wants to Become a Global Hub for Hydrogen Deployment Knowledge",
+      "url": "https://fuelcellsworks.com/2026/08/17/h2/yamanashi-wants-to-become-a-global-hub-for-hydrogen-deployment-knowledge",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-20T15:24:56+00:00",
-      "pub_ts": 1787239496
+      "pub_date": "2026-08-21T15:18:01+00:00",
+      "pub_ts": 1787325481
     }
   ],
   "source_success_count": 1,
