@@ -3,58 +3,58 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-08-23T01:45:38.858362+00:00",
-  "item_count": 15,
+  "updated_at": "2026-08-24T01:43:09.965797+00:00",
+  "item_count": 11,
   "items": [
     {
-      "id": "5113888efa",
-      "title": "量产时间集体更改，玻璃基板迎来第一次大考？",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816405&idx=1&sn=a02cf5bb0442dfa09bfe0bb609418ead",
-      "summary": "量产时间集体更改，玻璃基板迎来第一次大考？",
+      "id": "4c962710a7",
+      "title": "330天后，安世中国管理团队重磅发布，看他们带来了什么？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816436&idx=1&sn=24888b2a652c0e38f9c08fb807ab6160",
+      "summary": "330天后，安世中国管理团队重磅发布，看他们带来了什么？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-23T01:45:34.567796+00:00",
-      "pub_ts": 1787449534
+      "pub_date": "2026-08-24T01:43:05.736717+00:00",
+      "pub_ts": 1787535785
     },
     {
-      "id": "855a34c564",
-      "title": "HIPI联盟副理事长、华为半导体产业生态高级顾问王志敏：韬定律开启时间缩.",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816405&idx=2&sn=616b34a089410f6f337173c950969eff",
-      "summary": "HIPI联盟副理事长、华为半导体产业生态高级顾问王志敏：韬定律开启时间缩.",
+      "id": "2744e294bf",
+      "title": "十年投入百亿美元，美光设立美光研究实验室",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816436&idx=2&sn=c7c983cbd621229d01587682f6ce3291",
+      "summary": "十年投入百亿美元，美光设立美光研究实验室",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-23T01:45:34.567845+00:00",
-      "pub_ts": 1787449534
+      "pub_date": "2026-08-24T01:43:05.736762+00:00",
+      "pub_ts": 1787535785
     },
     {
-      "id": "d0008a7b0e",
-      "title": "全球手机遇冷跌14.3%，华为却是特例",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816405&idx=3&sn=527203169c7f6235674861d67857193e",
-      "summary": "全球手机遇冷跌14.3%，华为却是特例",
+      "id": "5f8526d07d",
+      "title": "散热成门槛，芯片设计要换新玩法",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816436&idx=3&sn=b1bda6fc44dbbd6872edcdf6b58224fe",
+      "summary": "散热成门槛，芯片设计要换新玩法",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-23T01:45:34.567872+00:00",
-      "pub_ts": 1787449534
+      "pub_date": "2026-08-24T01:43:05.736787+00:00",
+      "pub_ts": 1787535785
     },
     {
-      "id": "50f915e624",
-      "title": "2.5D封装，遇到难题",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816405&idx=4&sn=46429a3511fb0adbc8205c277dd0c31c",
-      "summary": "2.5D封装，遇到难题",
+      "id": "0ca5d54605",
+      "title": "“所有人都抢存储芯片，像一场战争”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816436&idx=4&sn=794c3406bccee960a58e6288848493c1",
+      "summary": "“所有人都抢存储芯片，像一场战争”",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-23T01:45:34.567894+00:00",
-      "pub_ts": 1787449534
+      "pub_date": "2026-08-24T01:43:05.736809+00:00",
+      "pub_ts": 1787535785
     },
     {
-      "id": "c515ee30d8",
-      "title": "国产滤波器，终于开始打起来了?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816405&idx=5&sn=8c32c3f6e4d85d74ebd0c64c6e15b930",
-      "summary": "国产滤波器，终于开始打起来了?",
+      "id": "a33c16fb94",
+      "title": "亚马逊、谷歌、微软新季度财报B面：一切让位给AgenticAl，一边失血一边..",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816436&idx=5&sn=2623b21fd1b1ab52b2d19ef8d79c36b7",
+      "summary": "亚马逊、谷歌、微软新季度财报B面：一切让位给AgenticAl，一边失血一边..",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-23T01:45:34.567914+00:00",
-      "pub_ts": 1787449534
+      "pub_date": "2026-08-24T01:43:05.736830+00:00",
+      "pub_ts": 1787535785
     },
     {
       "id": "65f5429390",
@@ -63,48 +63,8 @@
       "summary": "IWAPS2026I国际先进光刻技术研讨会日程公布",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-23T01:45:25.491619+00:00",
-      "pub_ts": 1787449525
-    },
-    {
-      "id": "cefe5dc0c5",
-      "title": "博通的生意，大家都想抢",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247830119&idx=1&sn=339dcdf5827aaeb033a3b806f9c7c5fb",
-      "summary": "博通的生意，大家都想抢",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-08-23T01:45:25.491672+00:00",
-      "pub_ts": 1787449525
-    },
-    {
-      "id": "a1c1e2a4a7",
-      "title": "Meta对互联的最新看法",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247830119&idx=2&sn=3a90c795e67cc1516fc672ee271a7490",
-      "summary": "Meta对互联的最新看法",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-08-23T01:45:25.491696+00:00",
-      "pub_ts": 1787449525
-    },
-    {
-      "id": "3805c6b445",
-      "title": "HBM4为了绕开存储墙，却撞上了另一堵墙",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247830119&idx=3&sn=2f80609cb988d209fdf3bd194f943b86",
-      "summary": "HBM4为了绕开存储墙，却撞上了另一堵墙",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-08-23T01:45:25.491718+00:00",
-      "pub_ts": 1787449525
-    },
-    {
-      "id": "afb2718485",
-      "title": "AMD 新里程碑，客户端CPU市占，首超30%",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247830119&idx=4&sn=dff632d40e91dc252cfcf86939db4c41",
-      "summary": "AMD 新里程碑，客户端CPU市占，首超30%",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-08-23T01:45:25.491738+00:00",
-      "pub_ts": 1787449525
+      "pub_date": "2026-08-24T01:42:55.516246+00:00",
+      "pub_ts": 1787535775
     },
     {
       "id": "9a6b110a43",
