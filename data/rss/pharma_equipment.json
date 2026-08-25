@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-08-24T01:43:48.402642+00:00",
+  "updated_at": "2026-08-25T01:38:58.269940+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "ad45fb5791",
-      "title": "Roche commits $750m to double Oregon-based US manufacturing capacity",
-      "url": "https://www.pharmaceutical-technology.com/news/roche-750m-oregon-us-injectable-manufacturing-site/",
-      "summary": "Roche's Oregon fill-finish site will produce both autoinjectors and pre-filled syringes – serving its pipeline and portfolio.",
+      "id": "fa3e6db52d",
+      "title": "Roche outlays $2.3bn for Hanmi’s non-GLP-1 obesity candidate",
+      "url": "https://www.pharmaceutical-technology.com/news/roche-outlays-2-3bn-for-hanmis-non-glp-1-obesity-candidate/",
+      "summary": "The licensing deal marks a diversification of Roche’s obesity pipeline as it seeks entry into the lucrative market.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-21T10:59:34+00:00",
-      "pub_ts": 1787309974
+      "pub_date": "2026-08-24T15:35:12+00:00",
+      "pub_ts": 1787585712
     },
     {
-      "id": "2ed9d1a751",
-      "title": "Eli Lilly’s weekly insulin jab Onswik set for NHS use if approved",
-      "url": "https://www.pharmaceutical-technology.com/news/eli-lillys-weekly-insulin-jab-onswik-set-for-nhs-use-if-approved/",
-      "summary": "Lilly’s drug could cut the number of injections each patient needs by 85%.",
+      "id": "5fc54ab07c",
+      "title": "Reaching maturity: A roadmap for Quality Excellence amid regulatory transformation",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/reaching-maturity-a-roadmap-for-quality-excellence-amid-regulatory-transformation/",
+      "summary": "A convergence of regulations across life sciences has shifted quality management from a burden into an imperative for excellence.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-21T09:52:25+00:00",
-      "pub_ts": 1787305945
+      "pub_date": "2026-08-24T11:43:28+00:00",
+      "pub_ts": 1787571808
     },
     {
-      "id": "b43c04f3ff",
-      "title": "WellSpan and Johns Hopkins renew partnership for advanced cancer care access",
-      "url": "https://www.pharmaceutical-technology.com/news/wellspan-johns-hopkins-advanced-cancer-care/",
-      "summary": "WellSpan Health and Johns Hopkins Medicine have renewed their oncology collaboration to widen access to advanced care throughout central Pennsylvania, US.",
+      "id": "766e80242d",
+      "title": "CKD market expected to reach $10.9bn across the 7MM by 2035",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ckd-market-reach-10-9bn-across-7mm-2035/",
+      "summary": "The chronic kidney disease (CKD) market is poised to grow at a CAGR of 9.8% from $4.3bn in 2025 to $10.9bn in 2035 across the 7MM.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-21T09:01:21+00:00",
-      "pub_ts": 1787302881
+      "pub_date": "2026-08-24T10:58:05+00:00",
+      "pub_ts": 1787569085
     },
     {
-      "id": "e7fce24389",
-      "title": "Charles River and MVC to develop enterovirus vaccine",
-      "url": "https://www.pharmaceutical-technology.com/news/charles-river-mvc-enterovirus-vaccine/",
-      "summary": "Charles River Laboratories International and MVC have entered a collaboration to support the characterisation, along with validation of the virus seed bank for the latter’s next-generation multivalent enterovirus vaccine.",
+      "id": "80abe48d7a",
+      "title": "Analysts praise intismeran’s landmark Phase III win, look to further data",
+      "url": "https://www.pharmaceutical-technology.com/news/analysts-praise-intismeran-landmark-phase-ii-win-look-to-further-data/",
+      "summary": "Analysts now turn to intismeran’s upcoming Phase II RCC readout, which they say could signal the drug’s wider potential across solid tumours.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-21T08:27:41+00:00",
-      "pub_ts": 1787300861
+      "pub_date": "2026-08-24T10:39:40+00:00",
+      "pub_ts": 1787567980
     },
     {
-      "id": "0badafb471",
-      "title": "Regeneron’s Pasatru wins FDA approval in ultra-rare ‘stone man disease’",
-      "url": "https://www.pharmaceutical-technology.com/news/regenerons-pasatru-wins-fda-approval-in-ultra-rare-stone-man-disease/",
-      "summary": "Pasatru demonstrated strong efficacy in a Phase III trial, helping patients reduce lesions and flare-ups.",
+      "id": "5922a9f380",
+      "title": "A strategic shift for gene therapies: manufacturing and market size take centre stage",
+      "url": "https://www.pharmaceutical-technology.com/features/a-strategic-shift-for-gene-therapies-manufacturing-and-market-size-take-centre-stage/",
+      "summary": "A desire for sustainable growth is pushing gene therapy biotechs to be strategic about manufacturing and pipelines.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-20T10:39:32+00:00",
-      "pub_ts": 1787222372
+      "pub_date": "2026-08-24T10:23:43+00:00",
+      "pub_ts": 1787567023
     }
   ],
   "source_success_count": 1,

@@ -3,68 +3,118 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-08-24T01:43:09.965797+00:00",
-  "item_count": 11,
+  "updated_at": "2026-08-25T01:38:21.182749+00:00",
+  "item_count": 15,
   "items": [
     {
-      "id": "4c962710a7",
-      "title": "330天后，安世中国管理团队重磅发布，看他们带来了什么？",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816436&idx=1&sn=24888b2a652c0e38f9c08fb807ab6160",
-      "summary": "330天后，安世中国管理团队重磅发布，看他们带来了什么？",
+      "id": "d282d75557",
+      "title": "二手半导体设备成抢手货了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816496&idx=1&sn=99c12482de1071bae2eaf9ec9fbe386b",
+      "summary": "二手半导体设备成抢手货了",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-24T01:43:05.736717+00:00",
-      "pub_ts": 1787535785
+      "pub_date": "2026-08-25T01:38:16.926090+00:00",
+      "pub_ts": 1787621896
     },
     {
-      "id": "2744e294bf",
-      "title": "十年投入百亿美元，美光设立美光研究实验室",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816436&idx=2&sn=c7c983cbd621229d01587682f6ce3291",
-      "summary": "十年投入百亿美元，美光设立美光研究实验室",
+      "id": "3b019c909c",
+      "title": "存储芯片材料大变革：300层以上NAND必须“由钨转钼”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816496&idx=2&sn=581e4feeb8300bbc4a1e342873735333",
+      "summary": "存储芯片材料大变革：300层以上NAND必须“由钨转钼”",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-24T01:43:05.736762+00:00",
-      "pub_ts": 1787535785
+      "pub_date": "2026-08-25T01:38:16.926135+00:00",
+      "pub_ts": 1787621896
     },
     {
-      "id": "5f8526d07d",
-      "title": "散热成门槛，芯片设计要换新玩法",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816436&idx=3&sn=b1bda6fc44dbbd6872edcdf6b58224fe",
-      "summary": "散热成门槛，芯片设计要换新玩法",
+      "id": "64302d9c77",
+      "title": "2nm时代，多芯片组件成为主流",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816496&idx=3&sn=11dd9f30e4e51427dfb57003b18cfa36",
+      "summary": "2nm时代，多芯片组件成为主流",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-24T01:43:05.736787+00:00",
-      "pub_ts": 1787535785
+      "pub_date": "2026-08-25T01:38:16.926162+00:00",
+      "pub_ts": 1787621896
     },
     {
-      "id": "0ca5d54605",
-      "title": "“所有人都抢存储芯片，像一场战争”",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816436&idx=4&sn=794c3406bccee960a58e6288848493c1",
-      "summary": "“所有人都抢存储芯片，像一场战争”",
+      "id": "d74ca5981d",
+      "title": "小米玄戒三芯，一次性揭晓",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816496&idx=4&sn=fc83f77f8eddff058623f019a38ef078",
+      "summary": "小米玄戒三芯，一次性揭晓",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-24T01:43:05.736809+00:00",
-      "pub_ts": 1787535785
+      "pub_date": "2026-08-25T01:38:16.926185+00:00",
+      "pub_ts": 1787621896
     },
     {
-      "id": "a33c16fb94",
-      "title": "亚马逊、谷歌、微软新季度财报B面：一切让位给AgenticAl，一边失血一边..",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816436&idx=5&sn=2623b21fd1b1ab52b2d19ef8d79c36b7",
-      "summary": "亚马逊、谷歌、微软新季度财报B面：一切让位给AgenticAl，一边失血一边..",
+      "id": "a6afff3322",
+      "title": "存储三雄，亮出HBM底牌",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&mid=2247816496&idx=5&sn=e0a4c127643819a44ad6399529d48a0d",
+      "summary": "存储三雄，亮出HBM底牌",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-24T01:43:05.736830+00:00",
-      "pub_ts": 1787535785
+      "pub_date": "2026-08-25T01:38:16.926217+00:00",
+      "pub_ts": 1787621896
     },
     {
-      "id": "65f5429390",
-      "title": "IWAPS2026I国际先进光刻技术研讨会日程公布",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247830145&idx=1&sn=a0c3993add629d6b474e8c80b542f685",
-      "summary": "IWAPS2026I国际先进光刻技术研讨会日程公布",
+      "id": "27091f498a",
+      "title": "刚刚，小米发布三颗芯片",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247830400&idx=1&sn=80c278d25b4d21a7cc6f3dd342be5741",
+      "summary": "刚刚，小米发布三颗芯片",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-24T01:42:55.516246+00:00",
-      "pub_ts": 1787535775
+      "pub_date": "2026-08-25T01:38:07.513267+00:00",
+      "pub_ts": 1787621887
+    },
+    {
+      "id": "82c0096ed7",
+      "title": "小米发布玄戒O3，还披露AI芯片和智驾芯片",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247830339&idx=1&sn=bbfd74c710cfb61f68fecdbe6bf77a75",
+      "summary": "小米发布玄戒O3，还披露AI芯片和智驾芯片",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-08-25T01:38:07.513317+00:00",
+      "pub_ts": 1787621887
+    },
+    {
+      "id": "7b0a36a61e",
+      "title": "存储芯片，新战场",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247830243&idx=1&sn=28b4e8fbe39024596b0cb549f0abe9a3",
+      "summary": "存储芯片，新战场",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-08-25T01:38:07.513343+00:00",
+      "pub_ts": 1787621887
+    },
+    {
+      "id": "caa0de41af",
+      "title": "三星的晶圆代工路线图解读",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247830243&idx=2&sn=eddfeac2147777a0a2fd234ec778eb9f",
+      "summary": "三星的晶圆代工路线图解读",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-08-25T01:38:07.513366+00:00",
+      "pub_ts": 1787621887
+    },
+    {
+      "id": "1a475d381d",
+      "title": "TGV的瓶颈，在哪里?",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&mid=2247830243&idx=3&sn=ba7dd9915757eb83dea3ec0a7d8958b0",
+      "summary": "TGV的瓶颈，在哪里?",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-08-25T01:38:07.513387+00:00",
+      "pub_ts": 1787621887
+    },
+    {
+      "id": "b0ebfa118e",
+      "title": "Multi-Die Assemblies Dominate At 2nm And Below",
+      "url": "https://semiengineering.com/multi-die-assemblies-dominate-at-2nm-and-below/",
+      "summary": "Chips are getting bigger, more modular, and much more capable as new innovations mix with existing processes and long-researched projects go mainstream.\nThe post Multi-Die Assemblies Dominate At 2nm And Below appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-24T07:01:03+00:00",
+      "pub_ts": 1787554863
     },
     {
       "id": "9a6b110a43",
@@ -105,16 +155,6 @@
       "lang": "en",
       "pub_date": "2026-08-20T07:02:29+00:00",
       "pub_ts": 1787209349
-    },
-    {
-      "id": "3bf64e8fc8",
-      "title": "Reducing Scope 3 Value Chain Emissions For Customers Through Sustainability And Innovation",
-      "url": "https://semiengineering.com/reducing-scope-3-value-chain-emissions-for-customers-through-sustainability-and-innovation/",
-      "summary": "Reducing manufacturing-related emissions may support lowering the embedded carbon footprint of the chips customers use in their products. \nThe post Reducing Scope 3 Value Chain Emissions For Customers Through Sustainability And Innovation appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-20T07:02:04+00:00",
-      "pub_ts": 1787209324
     }
   ],
   "source_success_count": 3,

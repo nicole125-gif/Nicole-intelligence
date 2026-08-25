@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-08-24T01:43:24.467063+00:00",
+  "updated_at": "2026-08-25T01:38:35.118989+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "7d618d2e71",
-      "title": "WRC唯一真「人机共生」展台，是家沉浸式机器人咖啡店",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247914398&idx=1&sn=093f1656bed26b6e1506d5e96bf3e646",
-      "summary": "WRC唯一真「人机共生」展台，是家沉浸式机器人咖啡店",
+      "id": "03901ee080",
+      "title": "AI4S开始进入「项目时代」：紫东太初把AI从做Task推向做Project",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247914630&idx=1&sn=f69a93f5e6113519919f74fed5a94e08",
+      "summary": "AI4S开始进入「项目时代」：紫东太初把AI从做Task推向做Project",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-24T01:43:19.315825+00:00",
-      "pub_ts": 1787535799
+      "pub_date": "2026-08-25T01:38:30.996523+00:00",
+      "pub_ts": 1787621910
     },
     {
-      "id": "5d21941271",
-      "title": "全球首次！机器人迎战网球运动员，极限救球，摔倒光速弹起",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247914342&idx=1&sn=82282035ab8b3e7753d73d1c7729402f",
-      "summary": "全球首次！机器人迎战网球运动员，极限救球，摔倒光速弹起",
+      "id": "f0c5ed44e3",
+      "title": "AI正在重塑商业，信任决定未来商业能走多远|Visa大中华区总裁张文翊",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247914630&idx=2&sn=80df85bd53d5bbed4472eb260a2f74b9",
+      "summary": "AI正在重塑商业，信任决定未来商业能走多远|Visa大中华区总裁张文翊",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-24T01:43:19.315868+00:00",
-      "pub_ts": 1787535799
+      "pub_date": "2026-08-25T01:38:30.996565+00:00",
+      "pub_ts": 1787621910
     },
     {
-      "id": "dc6d4fdfb2",
-      "title": "英伟达AI服务器将涨价15%！1GW数据中心成本激增50亿美元",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247914342&idx=2&sn=4bd058a143b7ca2b3d63a431b42c9e3e",
-      "summary": "英伟达AI服务器将涨价15%！1GW数据中心成本激增50亿美元",
+      "id": "361b1e537f",
+      "title": "刚刚，小米一口气发布三颗自研芯片！玄戒O3安兔兔跑分522万，安卓首破500万",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247914630&idx=3&sn=b0952d1b3b89f3df119fa8d9dfc9cec9",
+      "summary": "刚刚，小米一口气发布三颗自研芯片！玄戒O3安兔兔跑分522万，安卓首破500万",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-24T01:43:19.315891+00:00",
-      "pub_ts": 1787535799
+      "pub_date": "2026-08-25T01:38:30.996588+00:00",
+      "pub_ts": 1787621910
     },
     {
-      "id": "66e8075366",
-      "title": "不做硅谷follower：几个读博的年轻人，押注双足人形的一体化大脑",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247914338&idx=1&sn=16a9f30f149a5a43faae07ae23e67c48",
-      "summary": "不做硅谷follower：几个读博的年轻人，押注双足人形的一体化大脑",
+      "id": "44c3150900",
+      "title": "仇太深！奥特曼炮轰A社“反人类”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247914531&idx=1&sn=7b2555a076cdca1c109aec42dd8c3023",
+      "summary": "仇太深！奥特曼炮轰A社“反人类”",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-24T01:43:19.315913+00:00",
-      "pub_ts": 1787535799
+      "pub_date": "2026-08-25T01:38:30.996609+00:00",
+      "pub_ts": 1787621910
     },
     {
-      "id": "3a014ac42f",
-      "title": "匿名牛来大模型被扒出智谱血缘，也有人怀疑Cursor拿开源GLM训的",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247914338&idx=2&sn=2ff9bfd49e1df185bba2332ffe2db8de",
-      "summary": "匿名牛来大模型被扒出智谱血缘，也有人怀疑Cursor拿开源GLM训的",
+      "id": "dc70a6914e",
+      "title": "王虹合作者获奖！科学探索奖2026年度获奖名单公布",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247914531&idx=2&sn=dd0deb00ea49963d22988a2ea519409e",
+      "summary": "王虹合作者获奖！科学探索奖2026年度获奖名单公布",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-24T01:43:19.315933+00:00",
-      "pub_ts": 1787535799
+      "pub_date": "2026-08-25T01:38:30.996630+00:00",
+      "pub_ts": 1787621910
     }
   ],
   "source_success_count": 1,
