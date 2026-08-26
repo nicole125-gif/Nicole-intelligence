@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-08-25T01:38:58.269940+00:00",
+  "updated_at": "2026-08-26T01:43:53.034358+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "fa3e6db52d",
-      "title": "Roche outlays $2.3bn for Hanmi’s non-GLP-1 obesity candidate",
-      "url": "https://www.pharmaceutical-technology.com/news/roche-outlays-2-3bn-for-hanmis-non-glp-1-obesity-candidate/",
-      "summary": "The licensing deal marks a diversification of Roche’s obesity pipeline as it seeks entry into the lucrative market.",
+      "id": "63063b63a3",
+      "title": "J&J’s Imaavy secures expanded US approval in rare blood disorder",
+      "url": "https://www.pharmaceutical-technology.com/news/jjs-imaavy-secures-expanded-us-approval-in-rare-blood-disorder/",
+      "summary": "The FDA approval marks another successful step in J&amp;J’s aim of achieving $5bn in peak sales for the drug.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-24T15:35:12+00:00",
-      "pub_ts": 1787585712
+      "pub_date": "2026-08-25T15:38:34+00:00",
+      "pub_ts": 1787672314
     },
     {
-      "id": "5fc54ab07c",
-      "title": "Reaching maturity: A roadmap for Quality Excellence amid regulatory transformation",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/reaching-maturity-a-roadmap-for-quality-excellence-amid-regulatory-transformation/",
-      "summary": "A convergence of regulations across life sciences has shifted quality management from a burden into an imperative for excellence.",
+      "id": "4ae3ff8361",
+      "title": "BMS Texas investment advances pharma’s modular manufacturing agenda",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/bms-texas-investment-pharma-modular-manufacturing/",
+      "summary": "BMS is investing $2.3bn in a new campus in Houston, Texas, which will have flexibility firmly embedded in its construction.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-24T11:43:28+00:00",
-      "pub_ts": 1787571808
+      "pub_date": "2026-08-25T15:37:15+00:00",
+      "pub_ts": 1787672235
     },
     {
-      "id": "766e80242d",
-      "title": "CKD market expected to reach $10.9bn across the 7MM by 2035",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ckd-market-reach-10-9bn-across-7mm-2035/",
-      "summary": "The chronic kidney disease (CKD) market is poised to grow at a CAGR of 9.8% from $4.3bn in 2025 to $10.9bn in 2035 across the 7MM.",
+      "id": "9e0e9b8a5d",
+      "title": "Formulation as a key differentiator in crowded therapeutic areas",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/formulation-as-a-key-differentiator-in-crowded-therapeutic-areas/",
+      "summary": "Formulation differentiates therapies in crowded markets by improving adherence, tolerability, convenience, and delivery efficiency.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-24T10:58:05+00:00",
-      "pub_ts": 1787569085
+      "pub_date": "2026-08-25T14:47:31+00:00",
+      "pub_ts": 1787669251
     },
     {
-      "id": "80abe48d7a",
-      "title": "Analysts praise intismeran’s landmark Phase III win, look to further data",
-      "url": "https://www.pharmaceutical-technology.com/news/analysts-praise-intismeran-landmark-phase-ii-win-look-to-further-data/",
-      "summary": "Analysts now turn to intismeran’s upcoming Phase II RCC readout, which they say could signal the drug’s wider potential across solid tumours.",
+      "id": "1bb30443d5",
+      "title": "Asia’s clinical research revolution: Why the world’s innovation centre is shifting east",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/asias-clinical-research-revolution-why-the-worlds-innovation-centre-is-shifting-east/",
+      "summary": "APAC is becoming a clinical research hub as China, Japan and South Korea accelerate trials.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-24T10:39:40+00:00",
-      "pub_ts": 1787567980
+      "pub_date": "2026-08-25T14:24:08+00:00",
+      "pub_ts": 1787667848
     },
     {
-      "id": "5922a9f380",
-      "title": "A strategic shift for gene therapies: manufacturing and market size take centre stage",
-      "url": "https://www.pharmaceutical-technology.com/features/a-strategic-shift-for-gene-therapies-manufacturing-and-market-size-take-centre-stage/",
-      "summary": "A desire for sustainable growth is pushing gene therapy biotechs to be strategic about manufacturing and pipelines.",
+      "id": "93beb414fb",
+      "title": "GSK snags Japanese approval for first hepatitis B functional cure, Hibsago",
+      "url": "https://www.pharmaceutical-technology.com/news/gsk-japanese-approval-hibsago-chronic-hepatitis-b-functional-cure/",
+      "summary": "Analysts are heralding functional cures like Hibsago in chronic hepatitis B as the next frontier in treatment for patients.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-24T10:23:43+00:00",
-      "pub_ts": 1787567023
+      "pub_date": "2026-08-25T10:35:59+00:00",
+      "pub_ts": 1787654159
     }
   ],
   "source_success_count": 1,

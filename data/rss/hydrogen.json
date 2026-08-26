@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-08-25T01:38:45.806152+00:00",
+  "updated_at": "2026-08-26T01:43:40.627359+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "f71fa7ea1c",
-      "title": "Next-Generation Propulsion Technologies Target Lower-Emission Regional Aviation",
-      "url": "https://fuelcellsworks.com/2026/08/16/h2/next-generation-propulsion-technologies-target-lower-emission-regional-aviation",
+      "id": "b26062a446",
+      "title": "Exxon Beats Antitrust Claim in $7.5Bn Blue-Ammonia Dispute — but Clean Hydrogen Works Lawsuit Survives",
+      "url": "https://fuelcellsworks.com/2026/08/23/h2/exxon-beats-antitrust-claim-in-7-5bn-blue-ammonia-dispute-but-clean-hydrogen-works-lawsuit-survives",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-21T15:54:09+00:00",
-      "pub_ts": 1787327649
+      "pub_date": "2026-08-24T15:47:17+00:00",
+      "pub_ts": 1787586437
     },
     {
-      "id": "822c25461b",
-      "title": "Manawatū Becomes Home to New Zealand’s First Toyota Mirai Rental Fleet",
-      "url": "https://fuelcellsworks.com/2026/08/21/fuel-cells/manawatu-becomes-home-to-new-zealand-s-first-toyota-mirai-rental-fleet",
+      "id": "43cb2a5ecb",
+      "title": "Hydros Power to Participate in the Development of the First Hydrogen-Powered Boat in the Basque Country",
+      "url": "https://fuelcellsworks.com/2026/08/24/clean-energy/hydros-power-to-participate-in-the-development-of-the-first-hydrogen-powered-boat-in-the-basque-country",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-21T15:53:16+00:00",
-      "pub_ts": 1787327596
+      "pub_date": "2026-08-24T15:38:43+00:00",
+      "pub_ts": 1787585923
     },
     {
-      "id": "2f24ea8045",
-      "title": "Colruyt Group and Scania Are Pioneering the Use of Hydrogen Trucks in Day-to-Day Operations",
-      "url": "https://fuelcellsworks.com/2026/08/21/fuel-cells/colruyt-group-and-scania-are-pioneering-the-use-of-hydrogen-trucks-in-day-to-day-operations",
+      "id": "2e2b9bdc90",
+      "title": "Japan Throws ¥15.1 Billion [$95 Million] at Zero-Emission Ships — Hydrogen and Ammonia Get the Best Deal",
+      "url": "https://fuelcellsworks.com/2026/08/24/h2/japan-throws-15-1-billion-95-million-at-zero-emission-ships-hydrogen-and-ammonia-get-the-best-deal",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-21T15:43:05+00:00",
-      "pub_ts": 1787326985
+      "pub_date": "2026-08-24T15:19:09+00:00",
+      "pub_ts": 1787584749
     },
     {
-      "id": "b7c56208bf",
-      "title": "GWM Brings Hydrogen-Powered Truck, ORA 5 and Electrification Experiments to Rio Innovation Week 2026.",
-      "url": "https://fuelcellsworks.com/2026/08/21/energy-innovation/gwm-brings-hydrogen-powered-truck-ora-5-and-electrification-experiments-to-rio-innovation-week-2026",
+      "id": "f2520d2ab7",
+      "title": "Japan's Yamanashi and India's Uttar Pradesh Sign Green Hydrogen MoU — Over 200 Delegates Seal the Deal in Varanasi",
+      "url": "https://fuelcellsworks.com/2026/08/24/energy-policy/japan-s-yamanashi-and-india-s-uttar-pradesh-sign-green-hydrogen-mou-over-200-delegates-seal-the-deal-in-varanasi",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-21T15:33:28+00:00",
-      "pub_ts": 1787326408
+      "pub_date": "2026-08-24T15:15:31+00:00",
+      "pub_ts": 1787584531
     },
     {
-      "id": "a52ed5fc7d",
-      "title": "Yamanashi Wants to Become a Global Hub for Hydrogen Deployment Knowledge",
-      "url": "https://fuelcellsworks.com/2026/08/17/h2/yamanashi-wants-to-become-a-global-hub-for-hydrogen-deployment-knowledge",
+      "id": "8101f6e641",
+      "title": "China Deploys First Batch of Hydrogen Fuel-Cell Excavators in Mining Operations",
+      "url": "https://fuelcellsworks.com/2026/08/09/fuel-cells/china-deploys-first-batch-of-hydrogen-fuel-cell-excavators-in-mining-operations",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-21T15:18:01+00:00",
-      "pub_ts": 1787325481
+      "pub_date": "2026-08-24T14:41:55+00:00",
+      "pub_ts": 1787582515
     }
   ],
   "source_success_count": 1,
