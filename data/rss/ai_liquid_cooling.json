@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-08-26T01:43:29.653640+00:00",
+  "updated_at": "2026-08-27T08:41:57.127226+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "6632361985",
-      "title": "深度实测「豆包工作」+飞书：目前最接近企业Agent终局的答案",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247914906&idx=1&sn=c19b026091ee0c2290bcc0f068eea137",
-      "summary": "深度实测「豆包工作」+飞书：目前最接近企业Agent终局的答案",
+      "id": "67d2bdd443",
+      "title": "MiniMax ARR暴涨500%，token暴涨2000%！这就是Agent红利吧",
+      "url": "https://mp.weixin.qq.com/s/sF4h5e0Q4luPZbR7h7cMHA",
+      "summary": "MiniMax ARR暴涨500%，token暴涨2000%！这就是Agent红利吧",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-26T01:43:25.313081+00:00",
-      "pub_ts": 1787708605
+      "pub_date": "2026-08-27T08:41:52.233899+00:00",
+      "pub_ts": 1787820112
     },
     {
-      "id": "ac0c12a551",
-      "title": "黄仁勋李飞飞林斌投了同一家机器人公司",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247914906&idx=2&sn=7f154c2b309c744ddf04fa598a23e842",
-      "summary": "黄仁勋李飞飞林斌投了同一家机器人公司",
+      "id": "d8f964f78f",
+      "title": "小扎不死心Manus“自研”了一个，但模型用的Claude...",
+      "url": "https://mp.weixin.qq.com/s/8o1DZ9sfFQHaP6-R4mPuNQ",
+      "summary": "小扎不死心Manus“自研”了一个，但模型用的Claude...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-26T01:43:25.313124+00:00",
-      "pub_ts": 1787708605
+      "pub_date": "2026-08-27T08:41:52.233937+00:00",
+      "pub_ts": 1787820112
     },
     {
-      "id": "e2c5b0c054",
-      "title": "半年3轮10亿，他们都投了这家已经把机器人卖到500个家庭的公司",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247914838&idx=1&sn=07603c6db9fa5b097ecfc3c48461df63",
-      "summary": "半年3轮10亿，他们都投了这家已经把机器人卖到500个家庭的公司",
+      "id": "796f7b85c5",
+      "title": "刚刚，Top级的视频AI免费了！我反手做了个精致版《牛来》",
+      "url": "https://mp.weixin.qq.com/s/N-YL-SXFuIhv-5RxYtCLRA",
+      "summary": "刚刚，Top级的视频AI免费了！我反手做了个精致版《牛来》",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-26T01:43:25.313167+00:00",
-      "pub_ts": 1787708605
+      "pub_date": "2026-08-27T08:41:52.233955+00:00",
+      "pub_ts": 1787820112
     },
     {
-      "id": "604cf47a0a",
-      "title": "赛博义父Tibo最新访谈：专门实体按钮搞重置，“我想重置就重置“",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247914838&idx=2&sn=d361f7666335e4a0c96b3212c8f274ed",
-      "summary": "赛博义父Tibo最新访谈：专门实体按钮搞重置，“我想重置就重置“",
+      "id": "a437d04150",
+      "title": "硅谷今日最热具身模型！不用后训练，看一遍就学会",
+      "url": "https://mp.weixin.qq.com/s/PUqVaPtjdspwe7LgQUz2iQ",
+      "summary": "硅谷今日最热具身模型！不用后训练，看一遍就学会",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-26T01:43:25.313196+00:00",
-      "pub_ts": 1787708605
+      "pub_date": "2026-08-27T08:41:52.233970+00:00",
+      "pub_ts": 1787820112
     },
     {
-      "id": "71f918f3bc",
-      "title": "英伟达400亿押注开源，边卖铲子边挖矿",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247914838&idx=3&sn=0ced317280f95ca346e2a848fc85a1b1",
-      "summary": "英伟达400亿押注开源，边卖铲子边挖矿",
+      "id": "9e50141ab3",
+      "title": "单卡可跑18万原子！分子模拟的“规模焦虑”该终结了",
+      "url": "https://mp.weixin.qq.com/s/jO_5zz7raLdoG3X57HvEXg",
+      "summary": "单卡可跑18万原子！分子模拟的“规模焦虑”该终结了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-26T01:43:25.313217+00:00",
-      "pub_ts": 1787708605
+      "pub_date": "2026-08-27T08:41:52.233985+00:00",
+      "pub_ts": 1787820112
     }
   ],
   "source_success_count": 1,

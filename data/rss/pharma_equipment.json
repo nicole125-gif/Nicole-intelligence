@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-08-26T01:43:53.034358+00:00",
+  "updated_at": "2026-08-27T08:42:26.279757+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "63063b63a3",
-      "title": "J&J’s Imaavy secures expanded US approval in rare blood disorder",
-      "url": "https://www.pharmaceutical-technology.com/news/jjs-imaavy-secures-expanded-us-approval-in-rare-blood-disorder/",
-      "summary": "The FDA approval marks another successful step in J&amp;J’s aim of achieving $5bn in peak sales for the drug.",
+      "id": "c5b5117915",
+      "title": "RevMed’s pancreatic cancer drug breezes through with swift approval",
+      "url": "https://www.pharmaceutical-technology.com/news/revmeds-pancreatic-cancer-drug-breezes-through-with-swift-approval/",
+      "summary": "Revolution Medicines’ breakthrough drug for pancreatic cancer was approved more than six months ahead of schedule.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-25T15:38:34+00:00",
-      "pub_ts": 1787672314
+      "pub_date": "2026-08-26T17:10:50+00:00",
+      "pub_ts": 1787764250
     },
     {
-      "id": "4ae3ff8361",
-      "title": "BMS Texas investment advances pharma’s modular manufacturing agenda",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/bms-texas-investment-pharma-modular-manufacturing/",
-      "summary": "BMS is investing $2.3bn in a new campus in Houston, Texas, which will have flexibility firmly embedded in its construction.",
+      "id": "e80fe32d46",
+      "title": "Metsera backers establish new biotech armed with China-licensed immunology asset",
+      "url": "https://www.pharmaceutical-technology.com/news/metsera-backers-establish-new-biotech-armed-with-china-licensed-immunology-asset/",
+      "summary": "PHP and ARCH have established Sentivera, a biotech that now has an immunology licensing deal with China-based Haisco.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-25T15:37:15+00:00",
-      "pub_ts": 1787672235
+      "pub_date": "2026-08-26T10:40:18+00:00",
+      "pub_ts": 1787740818
     },
     {
-      "id": "9e0e9b8a5d",
-      "title": "Formulation as a key differentiator in crowded therapeutic areas",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/formulation-as-a-key-differentiator-in-crowded-therapeutic-areas/",
-      "summary": "Formulation differentiates therapies in crowded markets by improving adherence, tolerability, convenience, and delivery efficiency.",
+      "id": "fbe95b072f",
+      "title": "Jazz secures FDA approval for Ziihera in advanced HER2+ GEA",
+      "url": "https://www.pharmaceutical-technology.com/news/jazz-fda-approval-ziihera/",
+      "summary": "The FDA has approved two Jazz Pharmaceuticals regimens containing Ziihera for the first-line treatment of adults with unresectable, locally advanced or metastatic HER2-positive GEA.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-25T14:47:31+00:00",
-      "pub_ts": 1787669251
+      "pub_date": "2026-08-26T10:08:44+00:00",
+      "pub_ts": 1787738924
     },
     {
-      "id": "1bb30443d5",
-      "title": "Asia’s clinical research revolution: Why the world’s innovation centre is shifting east",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/asias-clinical-research-revolution-why-the-worlds-innovation-centre-is-shifting-east/",
-      "summary": "APAC is becoming a clinical research hub as China, Japan and South Korea accelerate trials.",
+      "id": "bb1d17b1ad",
+      "title": "ESC 2026: Common pharma excipient linked to uptick in cardiovascular risk",
+      "url": "https://www.pharmaceutical-technology.com/news/esc-2026-xylitol-cardiovascular-risk-analysis/",
+      "summary": "Researchers call for further exploration of xylitol’s impact on heart health as its use in food and pharma continues to rise.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-25T14:24:08+00:00",
-      "pub_ts": 1787667848
+      "pub_date": "2026-08-26T09:46:29+00:00",
+      "pub_ts": 1787737589
     },
     {
-      "id": "93beb414fb",
-      "title": "GSK snags Japanese approval for first hepatitis B functional cure, Hibsago",
-      "url": "https://www.pharmaceutical-technology.com/news/gsk-japanese-approval-hibsago-chronic-hepatitis-b-functional-cure/",
-      "summary": "Analysts are heralding functional cures like Hibsago in chronic hepatitis B as the next frontier in treatment for patients.",
+      "id": "b276c77b0f",
+      "title": "McKesson to acquire Precision Medicine Group for $2.25bn",
+      "url": "https://www.pharmaceutical-technology.com/news/mckesson-to-buy-precision-medicine-group/",
+      "summary": "US-based healthcare services provider McKesson has agreed to acquire Precision Medicine Group for $2.25bn.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-25T10:35:59+00:00",
-      "pub_ts": 1787654159
+      "pub_date": "2026-08-26T08:46:14+00:00",
+      "pub_ts": 1787733974
     }
   ],
   "source_success_count": 1,
