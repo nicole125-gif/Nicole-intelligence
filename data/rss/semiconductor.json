@@ -3,108 +3,118 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-08-27T08:41:42.566438+00:00",
+  "updated_at": "2026-08-28T10:53:57.112111+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "cd06a7ec3a",
-      "title": "HBM正在被重新定义",
-      "url": "https://mp.weixin.qq.com/s/_4703Jo1B0t-vhI20SzJ5Q",
-      "summary": "HBM正在被重新定义",
+      "id": "d5dc955697",
+      "title": "中芯国际，半年报来了",
+      "url": "https://mp.weixin.qq.com/s/9Oc0bDWmLTZk5lMnxPoUJg",
+      "summary": "中芯国际，半年报来了",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-27T08:41:38.372932+00:00",
-      "pub_ts": 1787820098
+      "pub_date": "2026-08-28T10:53:52.978348+00:00",
+      "pub_ts": 1787914432
     },
     {
-      "id": "2fe29a578e",
-      "title": "21%！中国CIS反超韩国，跃居全球第二",
-      "url": "https://mp.weixin.qq.com/s/FrY-YXZ32JC-jYIZqMKXXw",
-      "summary": "21%！中国CIS反超韩国，跃居全球第二",
+      "id": "54a91a9d65",
+      "title": "新品首发|格蓝若新主动减振产品亮相CSEAC，减振-运控协同破解...",
+      "url": "https://mp.weixin.qq.com/s/LiOA1tuEmZ97mPWFLe6Lhg",
+      "summary": "新品首发|格蓝若新主动减振产品亮相CSEAC，减振-运控协同破解...",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-27T08:41:38.372974+00:00",
-      "pub_ts": 1787820098
+      "pub_date": "2026-08-28T10:53:52.978395+00:00",
+      "pub_ts": 1787914432
     },
     {
-      "id": "2e2a078b5f",
-      "title": "一站触达智能制造与产线升级！来NEPCON ASIA 2026亚洲电子展...",
-      "url": "https://mp.weixin.qq.com/s/hdxxA30tfVv4CXRktII2MQ",
-      "summary": "一站触达智能制造与产线升级！来NEPCON ASIA 2026亚洲电子展...",
+      "id": "1ec24c17af",
+      "title": "国家统计局：前7月集成电路行业利润增长18.5倍",
+      "url": "https://mp.weixin.qq.com/s/xOy5rrZ2gSBIrHaADdodIg",
+      "summary": "国家统计局：前7月集成电路行业利润增长18.5倍",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-27T08:41:38.372994+00:00",
-      "pub_ts": 1787820098
+      "pub_date": "2026-08-28T10:53:52.978424+00:00",
+      "pub_ts": 1787914432
     },
     {
-      "id": "2067f48846",
-      "title": "华为与惠普签署多年Wi-Fi专利协议，覆盖Wi-Fi 7",
-      "url": "https://mp.weixin.qq.com/s/PNKKaoeEE5N_jcDeh4nu9Q",
-      "summary": "华为与惠普签署多年Wi-Fi专利协议，覆盖Wi-Fi 7",
+      "id": "f5b98b57d3",
+      "title": "AI玻璃基板，决胜可靠性与量产",
+      "url": "https://mp.weixin.qq.com/s/_P36u-Wz23e21xue5BcFOg",
+      "summary": "AI玻璃基板，决胜可靠性与量产",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-27T08:41:38.373033+00:00",
-      "pub_ts": 1787820098
+      "pub_date": "2026-08-28T10:53:52.978447+00:00",
+      "pub_ts": 1787914432
     },
     {
-      "id": "5e254de838",
-      "title": "OpenAI掀桌，自研芯片超越英伟达",
-      "url": "https://mp.weixin.qq.com/s/6HWYa-dVL628EFSVueYe1g",
-      "summary": "OpenAI掀桌，自研芯片超越英伟达",
+      "id": "f2e7115779",
+      "title": "AMD、博通，提前锁定FOPLP产能",
+      "url": "https://mp.weixin.qq.com/s/anxEkFms-EAFXm-qDLq8jg",
+      "summary": "AMD、博通，提前锁定FOPLP产能",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-27T08:41:38.373049+00:00",
-      "pub_ts": 1787820098
+      "pub_date": "2026-08-28T10:53:52.978467+00:00",
+      "pub_ts": 1787914432
     },
     {
-      "id": "669718f16b",
-      "title": "选哪个？",
-      "url": "https://mp.weixin.qq.com/s/e9V9v5ptKhqADQqSSNEQQQ",
-      "summary": "选哪个？",
+      "id": "ea998b0c80",
+      "title": "铠侠闪迪，投资超5万亿",
+      "url": "https://mp.weixin.qq.com/s/kxoyDrWHnYZTit-qMD3Wxw",
+      "summary": "铠侠闪迪，投资超5万亿",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-27T08:41:25.665866+00:00",
-      "pub_ts": 1787820085
+      "pub_date": "2026-08-28T10:53:43.288506+00:00",
+      "pub_ts": 1787914423
     },
     {
-      "id": "c4b16b394a",
-      "title": "DRAM价格，直逼黄金，还能涨！",
-      "url": "https://mp.weixin.qq.com/s/vwIhhDtyUPPec_QBSrPANg",
-      "summary": "DRAM价格，直逼黄金，还能涨！",
+      "id": "dd6fc0f6e4",
+      "title": "国产芯片，告别算力内卷，打响“Token产出战”",
+      "url": "https://mp.weixin.qq.com/s/SYAkiIW-GRZmMiviSMHXCQ",
+      "summary": "国产芯片，告别算力内卷，打响“Token产出战”",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-27T08:41:25.665918+00:00",
-      "pub_ts": 1787820085
+      "pub_date": "2026-08-28T10:53:43.288561+00:00",
+      "pub_ts": 1787914423
     },
     {
-      "id": "47324a130c",
-      "title": "OpenAl首颗芯片，吊打英伟达",
-      "url": "https://mp.weixin.qq.com/s/K3tXSGmnN7ilRD79yV8gvg",
-      "summary": "OpenAl首颗芯片，吊打英伟达",
+      "id": "1b9661bae6",
+      "title": "英伟达，收购 Hugging Face!",
+      "url": "https://mp.weixin.qq.com/s/g-hs6YjKoOcVHkYXqqkK-Q",
+      "summary": "英伟达，收购 Hugging Face!",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-27T08:41:25.665938+00:00",
-      "pub_ts": 1787820085
+      "pub_date": "2026-08-28T10:53:43.288584+00:00",
+      "pub_ts": 1787914423
     },
     {
-      "id": "e6ebca774d",
-      "title": "2nm后的关键技术",
-      "url": "https://mp.weixin.qq.com/s/TAwbnM5AQ_EZr6c9HluZZg",
-      "summary": "2nm后的关键技术",
+      "id": "61a1d35f15",
+      "title": "和海力士同源、给三星供货：长电科技韩国工厂的前世今生",
+      "url": "https://mp.weixin.qq.com/s/L4FDGbl8rWZDxkA83ZYcLw",
+      "summary": "和海力士同源、给三星供货：长电科技韩国工厂的前世今生",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-27T08:41:25.665955+00:00",
-      "pub_ts": 1787820085
+      "pub_date": "2026-08-28T10:53:43.288606+00:00",
+      "pub_ts": 1787914423
     },
     {
-      "id": "3db2f19745",
-      "title": "英伟达开始谈Scale in",
-      "url": "https://mp.weixin.qq.com/s/Yz3mszbDbuyo1Afw5ciSPg",
-      "summary": "英伟达开始谈Scale in",
+      "id": "598f5ddb40",
+      "title": "垂直供电，成为“新贵",
+      "url": "https://mp.weixin.qq.com/s/SCu-JwfWnqGK2Ea9qXhhZA",
+      "summary": "垂直供电，成为“新贵",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-27T08:41:25.665973+00:00",
-      "pub_ts": 1787820085
+      "pub_date": "2026-08-28T10:53:43.288625+00:00",
+      "pub_ts": 1787914423
+    },
+    {
+      "id": "3ce66e7cc1",
+      "title": "Chip Industry Week in Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-153/",
+      "summary": "Hot Chips AI HW wave; HBM vs HBC; capacity buildout; Infineon's latest buy; advanced packaging enablers; foundry report; ASIC security threats; IC tariffs; executive changes; Nvidia, Synopsys earnings; dependence on Taiwan; wafer-scale 2D semiconductors.\nThe post Chip Industry Week in Review appeare…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-28T07:01:37+00:00",
+      "pub_ts": 1787900497
     },
     {
       "id": "547d31beda",
@@ -145,16 +155,6 @@
       "lang": "en",
       "pub_date": "2026-08-27T07:09:31+00:00",
       "pub_ts": 1787814571
-    },
-    {
-      "id": "4f987abdca",
-      "title": "How Cache Coherency Simplifies AI Software",
-      "url": "https://semiengineering.com/how-cache-coherency-simplifies-ai-software/",
-      "summary": "Designing SoCs to reduce the software required to coordinate increasingly complex systems. \nThe post How Cache Coherency Simplifies AI Software appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-27T07:08:29+00:00",
-      "pub_ts": 1787814509
     }
   ],
   "source_success_count": 3,

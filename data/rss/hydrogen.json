@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-08-27T08:42:13.768822+00:00",
+  "updated_at": "2026-08-28T10:54:21.700220+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "d479a16438",
-      "title": "Siemens Energy Is Spinning Out Its Industrial Unit — and the Electrolyser Business Goes With It",
-      "url": "https://fuelcellsworks.com/2026/08/26/electrolyzer/siemens-energy-is-spinning-out-its-industrial-unit-and-the-electrolyser-business-goes-with-it",
+      "id": "d037809f75",
+      "title": "ZeroAvia Appoints Christine Ourmières-Widener as Chief Executive Officer",
+      "url": "https://fuelcellsworks.com/2026/08/27/hydrogen/zeroavia-appoints-christine-ourmieres-widener-as-chief-executive-officer",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-26T15:45:32+00:00",
-      "pub_ts": 1787759132
+      "pub_date": "2026-08-27T15:43:54+00:00",
+      "pub_ts": 1787845434
     },
     {
-      "id": "ab2ab1ec83",
-      "title": "NEDO, Kyoto University Build World’s First Hydrogen Beamline at SPring-8-II",
-      "url": "https://fuelcellsworks.com/2026/08/26/electrolyzer/nedo-kyoto-university-build-world-s-first-hydrogen-beamline-at-spring-8-ii",
+      "id": "90af1ca542",
+      "title": "FuelCell Energy's Carbonate Modules Now Installed at ExxonMobil's Rotterdam Site",
+      "url": "https://fuelcellsworks.com/2026/08/25/h2/fuelcell-energy-s-carbonate-modules-now-installed-at-exxonmobil-s-rotterdam-site",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-26T15:34:48+00:00",
-      "pub_ts": 1787758488
+      "pub_date": "2026-08-27T15:40:54+00:00",
+      "pub_ts": 1787845254
     },
     {
-      "id": "323ee8410f",
-      "title": "VIVIFY Technology Appoints Wesley Persall as Chief Engineer",
-      "url": "https://fuelcellsworks.com/2026/08/26/energy-innovation/vivify-technology-appoints-wesley-persall-as-chief-engineer",
+      "id": "1dc2344849",
+      "title": "Australian Start-Up Raises A$3 Million [$2.1 Million] to Make Ammonia From Air and Water",
+      "url": "https://fuelcellsworks.com/2026/08/27/h2/australian-start-up-raises-a-3-million-2-1-million-to-make-ammonia-from-air-and-water",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-26T15:27:43+00:00",
-      "pub_ts": 1787758063
+      "pub_date": "2026-08-27T15:39:06+00:00",
+      "pub_ts": 1787845146
     },
     {
-      "id": "4c75077fbe",
-      "title": "Remstal Hydrogen Buses Clear First Three-Month Reliability Test as Full Service Nears",
-      "url": "https://fuelcellsworks.com/2026/08/26/fuel-cells/remstal-hydrogen-buses-clear-first-three-month-reliability-test-as-full-service-nears",
+      "id": "45a2bc61df",
+      "title": "WATT Fuel Cell Assessed Awardable for Department of War Work in the CDAO’s Tradewinds Solutions Marketplace",
+      "url": "https://fuelcellsworks.com/2026/08/27/energy-innovation/watt-fuel-cell-assessed-awardable-for-department-of-war-work-in-the-cdao-s-tradewinds-solutions-marketplace",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-26T15:24:16+00:00",
-      "pub_ts": 1787757856
+      "pub_date": "2026-08-27T15:37:08+00:00",
+      "pub_ts": 1787845028
     },
     {
-      "id": "647675253f",
-      "title": "Nobian and Air Products Sign Long-Term Agreement for RFNBO-Compliant Hydrogen",
-      "url": "https://fuelcellsworks.com/2026/08/26/h2/nobian-and-air-products-sign-long-term-agreement-for-rfnbo-compliant-hydrogen",
+      "id": "3fe25fd395",
+      "title": "Luxembourg's IPC Proposes 1GW Green Hydrogen Plant in Karnataka — ₹83,480 Crore [$9.93 Billion] Three-Phase Investment",
+      "url": "https://fuelcellsworks.com/2026/08/27/green-hydrogen/luxembourg-s-ipc-proposes-1gw-green-hydrogen-plant-in-karnataka-83-480-crore-9-93-billion-three-phase-investment",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-26T15:12:31+00:00",
-      "pub_ts": 1787757151
+      "pub_date": "2026-08-27T15:30:37+00:00",
+      "pub_ts": 1787844637
     }
   ],
   "source_success_count": 1,

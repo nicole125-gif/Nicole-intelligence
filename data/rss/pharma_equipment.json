@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-08-27T08:42:26.279757+00:00",
+  "updated_at": "2026-08-28T10:54:34.263529+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "c5b5117915",
-      "title": "RevMed’s pancreatic cancer drug breezes through with swift approval",
-      "url": "https://www.pharmaceutical-technology.com/news/revmeds-pancreatic-cancer-drug-breezes-through-with-swift-approval/",
-      "summary": "Revolution Medicines’ breakthrough drug for pancreatic cancer was approved more than six months ahead of schedule.",
+      "id": "f2f4f4e5ac",
+      "title": "MSD’s Lipfendra takes on injectable rivals for cholesterol-lowering market supremacy",
+      "url": "https://www.pharmaceutical-technology.com/features/msds-lipfendra-takes-on-injectable-rivals-for-cholesterol-lowering-market-supremacy/",
+      "summary": "Armed with oral administration and a cheaper price tag, Lipfendra is touted as a major advancement for patients.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-26T17:10:50+00:00",
-      "pub_ts": 1787764250
+      "pub_date": "2026-08-28T10:41:17+00:00",
+      "pub_ts": 1787913677
     },
     {
-      "id": "e80fe32d46",
-      "title": "Metsera backers establish new biotech armed with China-licensed immunology asset",
-      "url": "https://www.pharmaceutical-technology.com/news/metsera-backers-establish-new-biotech-armed-with-china-licensed-immunology-asset/",
-      "summary": "PHP and ARCH have established Sentivera, a biotech that now has an immunology licensing deal with China-based Haisco.",
+      "id": "82c798899d",
+      "title": "AusperBio raises $120m to progress hepatitis B therapies",
+      "url": "https://www.pharmaceutical-technology.com/news/ausperbio-120m-hepatitis-b-therapies/",
+      "summary": "AusperBio Therapeutics and Ausper Biopharma have closed a Series C funding round worth $120m to support the development of new therapies for chronic hepatitis B.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-26T10:40:18+00:00",
-      "pub_ts": 1787740818
+      "pub_date": "2026-08-28T09:36:46+00:00",
+      "pub_ts": 1787909806
     },
     {
-      "id": "fbe95b072f",
-      "title": "Jazz secures FDA approval for Ziihera in advanced HER2+ GEA",
-      "url": "https://www.pharmaceutical-technology.com/news/jazz-fda-approval-ziihera/",
-      "summary": "The FDA has approved two Jazz Pharmaceuticals regimens containing Ziihera for the first-line treatment of adults with unresectable, locally advanced or metastatic HER2-positive GEA.",
+      "id": "fab902bee7",
+      "title": "FDA to review Kowa Pharmaceuticals’ NDA for glaucoma eye drop K-911",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-to-review-kowa-nda-k911/",
+      "summary": "The US FDA is set to review Kowa Pharmaceuticals America’s NDA for K-911, an investigational once-daily eye drop aimed at IOP in OAG or OHT patients.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-26T10:08:44+00:00",
-      "pub_ts": 1787738924
+      "pub_date": "2026-08-28T08:56:15+00:00",
+      "pub_ts": 1787907375
     },
     {
-      "id": "bb1d17b1ad",
-      "title": "ESC 2026: Common pharma excipient linked to uptick in cardiovascular risk",
-      "url": "https://www.pharmaceutical-technology.com/news/esc-2026-xylitol-cardiovascular-risk-analysis/",
-      "summary": "Researchers call for further exploration of xylitol’s impact on heart health as its use in food and pharma continues to rise.",
+      "id": "24d6ddb580",
+      "title": "SK inks $795m Biohaven epilepsy deal, entering potassium channel opener race",
+      "url": "https://www.pharmaceutical-technology.com/news/sk-biohaven-focal-epilepsy-opakalim-partnership-licensing-deal/",
+      "summary": "SK and Biohaven hope opakalim will show differential benefit to Xenon’s rival focal epilepsy drug, azetukalner, in an upcoming pivotal readout.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-26T09:46:29+00:00",
-      "pub_ts": 1787737589
+      "pub_date": "2026-08-27T13:40:43+00:00",
+      "pub_ts": 1787838043
     },
     {
-      "id": "b276c77b0f",
-      "title": "McKesson to acquire Precision Medicine Group for $2.25bn",
-      "url": "https://www.pharmaceutical-technology.com/news/mckesson-to-buy-precision-medicine-group/",
-      "summary": "US-based healthcare services provider McKesson has agreed to acquire Precision Medicine Group for $2.25bn.",
+      "id": "1f34d1da6f",
+      "title": "ESC 2026: True impact of poor medicine adherence laid bare in hypertensive patients",
+      "url": "https://www.pharmaceutical-technology.com/news/esc-2026-true-impact-of-poor-medicine-adherence-laid-bare-in-hypertensive-patients/",
+      "summary": "Study shows that those with low adherence of blood pressure-lowering drugs had significantly impaired therapeutic effect.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-26T08:46:14+00:00",
-      "pub_ts": 1787733974
+      "pub_date": "2026-08-27T11:00:00+00:00",
+      "pub_ts": 1787828400
     }
   ],
   "source_success_count": 1,
