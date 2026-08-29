@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-08-28T10:54:21.700220+00:00",
+  "updated_at": "2026-08-29T06:41:00.984693+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "d037809f75",
-      "title": "ZeroAvia Appoints Christine Ourmières-Widener as Chief Executive Officer",
-      "url": "https://fuelcellsworks.com/2026/08/27/hydrogen/zeroavia-appoints-christine-ourmieres-widener-as-chief-executive-officer",
+      "id": "fdd66dcd6a",
+      "title": "TAURON H2 and PKM Tychy Want to Cooperate to Develop Hydrogen-Powered Public Transport",
+      "url": "https://fuelcellsworks.com/2026/08/28/fuel-cells/tauron-h2-and-pkm-tychy-want-to-cooperate-to-develop-hydrogen-powered-public-transport",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-27T15:43:54+00:00",
-      "pub_ts": 1787845434
+      "pub_date": "2026-08-28T15:55:52+00:00",
+      "pub_ts": 1787932552
     },
     {
-      "id": "90af1ca542",
-      "title": "FuelCell Energy's Carbonate Modules Now Installed at ExxonMobil's Rotterdam Site",
-      "url": "https://fuelcellsworks.com/2026/08/25/h2/fuelcell-energy-s-carbonate-modules-now-installed-at-exxonmobil-s-rotterdam-site",
+      "id": "c85f015f29",
+      "title": "Rio Grande Do Norte Uses New Hydrogen Rules as Data Centre Regulation Lags",
+      "url": "https://fuelcellsworks.com/2026/08/28/h2/rio-grande-do-norte-uses-new-hydrogen-rules-as-data-centre-regulation-lags",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-27T15:40:54+00:00",
-      "pub_ts": 1787845254
+      "pub_date": "2026-08-28T15:54:42+00:00",
+      "pub_ts": 1787932482
     },
     {
-      "id": "1dc2344849",
-      "title": "Australian Start-Up Raises A$3 Million [$2.1 Million] to Make Ammonia From Air and Water",
-      "url": "https://fuelcellsworks.com/2026/08/27/h2/australian-start-up-raises-a-3-million-2-1-million-to-make-ammonia-from-air-and-water",
+      "id": "d6406ddb51",
+      "title": "First Hydrogen Combustion Test at an Austrian Cement Plant",
+      "url": "https://fuelcellsworks.com/2026/08/28/clean-energy/first-hydrogen-combustion-test-at-an-austrian-cement-plant",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-27T15:39:06+00:00",
-      "pub_ts": 1787845146
+      "pub_date": "2026-08-28T15:46:20+00:00",
+      "pub_ts": 1787931980
     },
     {
-      "id": "45a2bc61df",
-      "title": "WATT Fuel Cell Assessed Awardable for Department of War Work in the CDAO’s Tradewinds Solutions Marketplace",
-      "url": "https://fuelcellsworks.com/2026/08/27/energy-innovation/watt-fuel-cell-assessed-awardable-for-department-of-war-work-in-the-cdao-s-tradewinds-solutions-marketplace",
+      "id": "6b5b075f62",
+      "title": "Ishikawa and Toyama Firm Test Low-Cost Mobile Hydrogen Dispenser in Kanazawa",
+      "url": "https://fuelcellsworks.com/2026/08/26/electrolyzer/ishikawa-and-toyama-firm-test-low-cost-mobile-hydrogen-dispenser-in-kanazawa",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-27T15:37:08+00:00",
-      "pub_ts": 1787845028
+      "pub_date": "2026-08-28T15:41:33+00:00",
+      "pub_ts": 1787931693
     },
     {
-      "id": "3fe25fd395",
-      "title": "Luxembourg's IPC Proposes 1GW Green Hydrogen Plant in Karnataka — ₹83,480 Crore [$9.93 Billion] Three-Phase Investment",
-      "url": "https://fuelcellsworks.com/2026/08/27/green-hydrogen/luxembourg-s-ipc-proposes-1gw-green-hydrogen-plant-in-karnataka-83-480-crore-9-93-billion-three-phase-investment",
+      "id": "f5a41656a9",
+      "title": "NLR Hydrogen Drone Flies at Airport: A First for Rotterdam the Hague Airport",
+      "url": "https://fuelcellsworks.com/2026/08/28/energy-innovation/nlr-hydrogen-drone-flies-at-airport-a-first-for-rotterdam-the-hague-airport",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-27T15:30:37+00:00",
-      "pub_ts": 1787844637
+      "pub_date": "2026-08-28T15:38:45+00:00",
+      "pub_ts": 1787931525
     }
   ],
   "source_success_count": 1,

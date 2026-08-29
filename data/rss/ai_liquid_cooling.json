@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-08-28T10:54:10.991842+00:00",
+  "updated_at": "2026-08-29T06:40:48.688275+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "bbdbb30c57",
-      "title": "我的自媒体搭子太能卷，一顿饭功夫17份成品",
-      "url": "https://mp.weixin.qq.com/s/X3M6LMHe03YSH4kmYbr1XA",
-      "summary": "我的自媒体搭子太能卷，一顿饭功夫17份成品",
+      "id": "965bd3a3ec",
+      "title": "《时代》周刊全球AI100放榜，精准捕获稚晖君最“想低调”的幕后老板",
+      "url": "https://mp.weixin.qq.com/s/FmSE_6cqAUyfvgIr0fy9IQ",
+      "summary": "《时代》周刊全球AI100放榜，精准捕获稚晖君最“想低调”的幕后老板",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-28T10:54:06.985422+00:00",
-      "pub_ts": 1787914446
+      "pub_date": "2026-08-29T06:40:44.350589+00:00",
+      "pub_ts": 1787985644
     },
     {
-      "id": "a1ff42d905",
-      "title": "被高估的视触觉：容易复制的生意，能有多大投资价值?",
-      "url": "https://mp.weixin.qq.com/s/j5WIc28E6wI6eLDpsfQe4g",
-      "summary": "被高估的视触觉：容易复制的生意，能有多大投资价值?",
+      "id": "8fef42e1ff",
+      "title": "实测比 DeepSeek便宜的Qwen3.8Flash，卷飞了",
+      "url": "https://mp.weixin.qq.com/s/FbCnWDuw_E6Wt6YqX6J7Cg",
+      "summary": "实测比 DeepSeek便宜的Qwen3.8Flash，卷飞了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-28T10:54:06.985468+00:00",
-      "pub_ts": 1787914446
+      "pub_date": "2026-08-29T06:40:44.350632+00:00",
+      "pub_ts": 1787985644
     },
     {
-      "id": "3d44a5b5b0",
-      "title": "给Al Agent装上“科学常识”，端到端仿真成功率从0拉到84%",
-      "url": "https://mp.weixin.qq.com/s/emhIQg6C7Kt80OL93ohUZQ",
-      "summary": "给Al Agent装上“科学常识”，端到端仿真成功率从0拉到84%",
+      "id": "95d94c0076",
+      "title": "刚刚，港股AGI第一股杀疯了！Agent业务半年进账近5亿，Token收入...",
+      "url": "https://mp.weixin.qq.com/s/oNL6OKFJ1Mlqaym_BxQohw",
+      "summary": "刚刚，港股AGI第一股杀疯了！Agent业务半年进账近5亿，Token收入...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-28T10:54:06.985490+00:00",
-      "pub_ts": 1787914446
+      "pub_date": "2026-08-29T06:40:44.350657+00:00",
+      "pub_ts": 1787985644
     },
     {
-      "id": "7045b4872e",
-      "title": "首款癌症疫苗，一针300万？？?",
-      "url": "https://mp.weixin.qq.com/s/MoSMpZLQaRky-9e9bedP9Q",
-      "summary": "首款癌症疫苗，一针300万？？?",
+      "id": "c00473801f",
+      "title": "OpenAI模型失控过程太恐怖！幽灵误判，1200个Agent，还弄出敢死队...",
+      "url": "https://mp.weixin.qq.com/s/ZneQpYKfVuxH-RaJUTXyyQ",
+      "summary": "OpenAI模型失控过程太恐怖！幽灵误判，1200个Agent，还弄出敢死队...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-28T10:54:06.985510+00:00",
-      "pub_ts": 1787914446
+      "pub_date": "2026-08-29T06:40:44.350678+00:00",
+      "pub_ts": 1787985644
     },
     {
-      "id": "96281a0699",
-      "title": "好消息！DeepSeek营收暴涨10倍，7个月营收4.75亿，API毛利82.9%",
-      "url": "https://mp.weixin.qq.com/s/jrwjz5Le4JKLgrL0_mZcjA",
-      "summary": "好消息！DeepSeek营收暴涨10倍，7个月营收4.75亿，API毛利82.9%",
+      "id": "fa871a7700",
+      "title": "7个月超15数学家6年工作量，A写下百万行代码挑战核验超大数学证...",
+      "url": "https://mp.weixin.qq.com/s/Er46T4nwnAkikztPlNLf7A",
+      "summary": "7个月超15数学家6年工作量，A写下百万行代码挑战核验超大数学证...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-28T10:54:06.985530+00:00",
-      "pub_ts": 1787914446
+      "pub_date": "2026-08-29T06:40:44.350699+00:00",
+      "pub_ts": 1787985644
     }
   ],
   "source_success_count": 1,

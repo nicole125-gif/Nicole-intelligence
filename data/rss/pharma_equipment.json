@@ -3,9 +3,39 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-08-28T10:54:34.263529+00:00",
+  "updated_at": "2026-08-29T06:41:13.484865+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "a3516c1d24",
+      "title": "Myasthenia gravis market to reach $13.0bn across 7MM by 2034",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/myasthenia-gravis-market-7mm-2034/",
+      "summary": "The myasthenia gravis (MG) market across the 7MM is poised to grow at a CAGR of 11.1% from $4.5bn in 2024 to $13.0bn in 2034.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-08-28T15:36:14+00:00",
+      "pub_ts": 1787931374
+    },
+    {
+      "id": "a368f86690",
+      "title": "Lilly’s Mounjaro wins US label expansion for cardiovascular risk reduction",
+      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-mounjaro-fda-approval-cardiovascular-risk-reduction-type-2-diabetes/",
+      "summary": "The new Mounjaro approval will likely expand Lilly’s cardiometabolic empire as it looks to stay ahead of rival Novo Nordisk.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-08-28T14:15:52+00:00",
+      "pub_ts": 1787926552
+    },
+    {
+      "id": "e0fee9ce10",
+      "title": "FDA approves Priovant’s rare autoimmune therapy Lisraya in indication first",
+      "url": "https://www.pharmaceutical-technology.com/news/priovant-rare-autoimmune-therapy-lisraya-fda-approval-dermatomyositis/",
+      "summary": "Priovant is now looking to roll out Lisraya, the first targeted therapy for dermatomyositis, across the US via specialty pharmacies.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-08-28T10:42:01+00:00",
+      "pub_ts": 1787913721
+    },
     {
       "id": "f2f4f4e5ac",
       "title": "MSD’s Lipfendra takes on injectable rivals for cholesterol-lowering market supremacy",
@@ -25,36 +55,6 @@
       "lang": "en",
       "pub_date": "2026-08-28T09:36:46+00:00",
       "pub_ts": 1787909806
-    },
-    {
-      "id": "fab902bee7",
-      "title": "FDA to review Kowa Pharmaceuticals’ NDA for glaucoma eye drop K-911",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-to-review-kowa-nda-k911/",
-      "summary": "The US FDA is set to review Kowa Pharmaceuticals America’s NDA for K-911, an investigational once-daily eye drop aimed at IOP in OAG or OHT patients.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-08-28T08:56:15+00:00",
-      "pub_ts": 1787907375
-    },
-    {
-      "id": "24d6ddb580",
-      "title": "SK inks $795m Biohaven epilepsy deal, entering potassium channel opener race",
-      "url": "https://www.pharmaceutical-technology.com/news/sk-biohaven-focal-epilepsy-opakalim-partnership-licensing-deal/",
-      "summary": "SK and Biohaven hope opakalim will show differential benefit to Xenon’s rival focal epilepsy drug, azetukalner, in an upcoming pivotal readout.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-08-27T13:40:43+00:00",
-      "pub_ts": 1787838043
-    },
-    {
-      "id": "1f34d1da6f",
-      "title": "ESC 2026: True impact of poor medicine adherence laid bare in hypertensive patients",
-      "url": "https://www.pharmaceutical-technology.com/news/esc-2026-true-impact-of-poor-medicine-adherence-laid-bare-in-hypertensive-patients/",
-      "summary": "Study shows that those with low adherence of blood pressure-lowering drugs had significantly impaired therapeutic effect.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-08-27T11:00:00+00:00",
-      "pub_ts": 1787828400
     }
   ],
   "source_success_count": 1,
