@@ -3,108 +3,138 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-08-29T06:40:34.967637+00:00",
+  "updated_at": "2026-08-30T04:53:27.255396+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "cf80845599",
-      "title": "京东方上半年财报：净利润52.48亿元！同比增长61.62%",
-      "url": "https://mp.weixin.qq.com/s/yVVckZQQtFULlWt2yl0WuQ",
-      "summary": "京东方上半年财报：净利润52.48亿元！同比增长61.62%",
+      "id": "eae5be14d8",
+      "title": "长鑫科技宣布LPDDR6量产，站上世界第一排",
+      "url": "https://mp.weixin.qq.com/s/X5ttPC6zncsxr0ERLpsK6Q",
+      "summary": "长鑫科技宣布LPDDR6量产，站上世界第一排",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-29T06:40:30.722961+00:00",
-      "pub_ts": 1787985630
+      "pub_date": "2026-08-30T04:53:23.144498+00:00",
+      "pub_ts": 1788065603
     },
     {
-      "id": "c2a616ba86",
-      "title": "长鑫科技，上半年营收增长超800%",
-      "url": "https://mp.weixin.qq.com/s/_obD3TLW7d8KzB2-VHm1wQ",
-      "summary": "长鑫科技，上半年营收增长超800%",
+      "id": "36d1c73698",
+      "title": "重磅整合！国产大硅片赛道再提速",
+      "url": "https://mp.weixin.qq.com/s/WokDbPv2bcBLn8ql7BqioQ",
+      "summary": "重磅整合！国产大硅片赛道再提速",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-29T06:40:30.723007+00:00",
-      "pub_ts": 1787985630
+      "pub_date": "2026-08-30T04:53:23.144542+00:00",
+      "pub_ts": 1788065603
     },
     {
-      "id": "362480846f",
-      "title": "对话华勤技术联合创始人、执行副总裁兼CTO吴振海：五条曲线，五...",
-      "url": "https://mp.weixin.qq.com/s/DawVAbDI_PXhml2ptoCGrQ",
-      "summary": "对话华勤技术联合创始人、执行副总裁兼CTO吴振海：五条曲线，五...",
+      "id": "c9d13258b9",
+      "title": "富士通发布Monaka处理器：2nmCPU搭配5nm SRAM",
+      "url": "https://mp.weixin.qq.com/s/hxL_xPMMeSmQy57eEQY6kQ",
+      "summary": "富士通发布Monaka处理器：2nmCPU搭配5nm SRAM",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-29T06:40:30.723034+00:00",
-      "pub_ts": 1787985630
+      "pub_date": "2026-08-30T04:53:23.144570+00:00",
+      "pub_ts": 1788065603
     },
     {
-      "id": "4e8788dbcc",
-      "title": "年内七度调价，覆铜板又要涨价了",
-      "url": "https://mp.weixin.qq.com/s/ul4z1qFqa1ohxbDVX5DTYw",
-      "summary": "年内七度调价，覆铜板又要涨价了",
+      "id": "2e6ca0df6d",
+      "title": "你不说是GPU，我以为房地产呢",
+      "url": "https://mp.weixin.qq.com/s/GQfFWww_Hi9urnw8VQ7e3Q",
+      "summary": "你不说是GPU，我以为房地产呢",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-29T06:40:30.723058+00:00",
-      "pub_ts": 1787985630
+      "pub_date": "2026-08-30T04:53:23.144593+00:00",
+      "pub_ts": 1788065603
     },
     {
-      "id": "a19bdc4775",
-      "title": "AI与先进封装时代，为什么需要重新认识硅电容？",
-      "url": "https://mp.weixin.qq.com/s/Y2-vlu9ZS0q0900Qg3bk4g",
-      "summary": "AI与先进封装时代，为什么需要重新认识硅电容？",
+      "id": "0284ecb5ad",
+      "title": "10.5亿！上市公司加码半导体材料",
+      "url": "https://mp.weixin.qq.com/s/ossw7Oz1zRVIden0e8cL5g",
+      "summary": "10.5亿！上市公司加码半导体材料",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-29T06:40:30.723080+00:00",
-      "pub_ts": 1787985630
+      "pub_date": "2026-08-30T04:53:23.144615+00:00",
+      "pub_ts": 1788065603
     },
     {
-      "id": "ddcb7139b7",
-      "title": "对话华为徐直军：绝境下逼出来的“何式定律”",
-      "url": "https://mp.weixin.qq.com/s/kEP6191IThkvON72daIQ2Q",
-      "summary": "对话华为徐直军：绝境下逼出来的“何式定律”",
+      "id": "9a76f7ddfc",
+      "title": "源杰净利润，大增1212.2%",
+      "url": "https://mp.weixin.qq.com/s/3Bjg2wJYXweVdCdIDsvWbQ",
+      "summary": "源杰净利润，大增1212.2%",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-29T06:40:17.760956+00:00",
-      "pub_ts": 1787985617
+      "pub_date": "2026-08-30T04:53:11.868548+00:00",
+      "pub_ts": 1788065591
     },
     {
-      "id": "ebcf8f9d14",
-      "title": "长鑫科技：上半年净利776亿",
-      "url": "https://mp.weixin.qq.com/s/z-eUgFk5iRy4WlWDNGR1DQ",
-      "summary": "长鑫科技：上半年净利776亿",
+      "id": "6b1b529745",
+      "title": "芯片巨头，涌向CPO",
+      "url": "https://mp.weixin.qq.com/s/rZhhjwRukA1Xs4UmbtZGpg",
+      "summary": "芯片巨头，涌向CPO",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-29T06:40:17.761009+00:00",
-      "pub_ts": 1787985617
+      "pub_date": "2026-08-30T04:53:11.868599+00:00",
+      "pub_ts": 1788065591
     },
     {
-      "id": "cd55e15b02",
-      "title": "硅片，大涨价！",
-      "url": "https://mp.weixin.qq.com/s/_pWSAjqeY7X2Fem3mfS1yQ",
-      "summary": "硅片，大涨价！",
+      "id": "bd4aca93a6",
+      "title": "苹果芯片路线图，曝光！",
+      "url": "https://mp.weixin.qq.com/s/rp4zEdEy-RpmsHHRF9lX_g",
+      "summary": "苹果芯片路线图，曝光！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-29T06:40:17.761035+00:00",
-      "pub_ts": 1787985617
+      "pub_date": "2026-08-30T04:53:11.868625+00:00",
+      "pub_ts": 1788065591
     },
     {
-      "id": "9bf6dacefa",
-      "title": "磁传感器，本土第一，纳芯微凭啥？",
-      "url": "https://mp.weixin.qq.com/s/NPFgfKzqwjROkCogY8y4Sg",
-      "summary": "磁传感器，本土第一，纳芯微凭啥？",
+      "id": "7cfcbd98b6",
+      "title": "台积电海外晶圆厂，进展显著",
+      "url": "https://mp.weixin.qq.com/s/FCyYddMIYgc8yn0nGkwBUg",
+      "summary": "台积电海外晶圆厂，进展显著",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-29T06:40:17.761058+00:00",
-      "pub_ts": 1787985617
+      "pub_date": "2026-08-30T04:53:11.868648+00:00",
+      "pub_ts": 1788065591
     },
     {
-      "id": "f86918bc96",
-      "title": "AI芯片创业，又开始疯狂了",
-      "url": "https://mp.weixin.qq.com/s/6eavOdE_jzHcqbwv2LjCnQ",
-      "summary": "AI芯片创业，又开始疯狂了",
+      "id": "a2b70edcd2",
+      "title": "英特尔：14A是22nm后最好的工艺",
+      "url": "https://mp.weixin.qq.com/s/l_gkcawzxlaB0ij-X7lRfw",
+      "summary": "英特尔：14A是22nm后最好的工艺",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-29T06:40:17.761080+00:00",
-      "pub_ts": 1787985617
+      "pub_date": "2026-08-30T04:53:11.868694+00:00",
+      "pub_ts": 1788065591
+    },
+    {
+      "id": "0a02e78417",
+      "title": "Predicting Post-Route PPA from Macro and Standard-Cell Placements (U. of Alberta)",
+      "url": "https://semiengineering.com/predicting-post-route-ppa-from-macro-and-standard-cell-placements-u-of-alberta/",
+      "summary": "Researchers from University of Alberta published a technical paper titled “PPAPlace: Differentiable Cross-Stage Objectives for Chip Placement Optimization.” Abstract: “Macro placement significantly affects a chip&#8217;s post-route performance, power, and area (PPA). Most placement methods optimize …",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-29T17:00:22+00:00",
+      "pub_ts": 1788022822
+    },
+    {
+      "id": "df3bc21651",
+      "title": "Rowhammer Backdoor Injection Attack During Inference (Northeastern)",
+      "url": "https://semiengineering.com/rowhammer-backdoor-injection-attack-during-inference-northeastern/",
+      "summary": "Researchers from Northeastern University published a technical paper titled “ROBBIN: Rowhammer-Based Backdoor Injection during Inference.” Abstract excerpt: &#8220;This work presents ROBBIN, a hardware-aware Rowhammer-based backdoor injection attack that integrates the device-specific vulnerability …",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-29T07:01:49+00:00",
+      "pub_ts": 1787986909
+    },
+    {
+      "id": "35dd5ef532",
+      "title": "Ferroelectric Tuning Reduces Optical-Interconnect Stalls In LLM Training (Georgia Tech)",
+      "url": "https://semiengineering.com/ferroelectric-tuning-reduces-optical-interconnect-stalls-in-llm-training-georgia-tech/",
+      "summary": "Researchers from Georgia Institute of Technology published a technical paper titled “Thermal Tuning Overhead in Wafer-Scale Optical Interconnects for LLM MoE Training: A Cross-Layer Analysis and Ferroelectric-Based Mitigation.” Abstract Excerpt: The paper analyzes “wafer-scale optical interconnects”…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-28T21:41:18+00:00",
+      "pub_ts": 1787953278
     },
     {
       "id": "a9da161bbd",
@@ -117,16 +147,6 @@
       "pub_ts": 1787939397
     },
     {
-      "id": "35dd5ef532",
-      "title": "Ferroelectric Tuning Reduces Optical-Interconnect Stalls In LLM Training (Georgia Tech)",
-      "url": "https://semiengineering.com/ferroelectric-tuning-reduces-optical-interconnect-stalls-in-llm-training-georgia-tech/",
-      "summary": "Researchers from Georgia Institute of Technology published a technical paper titled “Thermal Tuning Overhead in Wafer-Scale Optical Interconnects for LLM MoE Training: A Cross-Layer Analysis and Ferroelectric-Based Mitigation.” Abstract Excerpt: The paper analyzes “wafer-scale optical interconnects”…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-28T17:41:18+00:00",
-      "pub_ts": 1787938878
-    },
-    {
       "id": "eb150f563e",
       "title": "Generative Design Optimizes Liquid-Cooling Channels For 2.5D And 3D Packages (UM-Dearborn)",
       "url": "https://semiengineering.com/generative-design-optimizes-liquid-cooling-channels-for-2-5d-and-3d-packages-um-dearborn/",
@@ -135,26 +155,6 @@
       "lang": "en",
       "pub_date": "2026-08-28T17:34:14+00:00",
       "pub_ts": 1787938454
-    },
-    {
-      "id": "4bdcd2319a",
-      "title": "Sapphire Surface Modification Enables Wafer-Scale 2D Semiconductor Growth (Peking U., CAS et al.)",
-      "url": "https://semiengineering.com/sapphire-surface-modification-enables-wafer-scale-2d-semiconductor-growth-peking-u-cas-et-al/",
-      "summary": "Researchers from Peking University, Chinese Academy of Sciences et al. published a technical paper titled “Homo-metal-element mediated surface modification of sapphire for robust epitaxy of wafer-scale single-crystalline 2D semiconductors.” Abstract Excerpt: The paper presents a “homo-metal-element …",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-28T17:28:19+00:00",
-      "pub_ts": 1787938099
-    },
-    {
-      "id": "745aecd4dc",
-      "title": "Deep Learning Automates Parameter Extraction For 2D Transistors (Stanford, SLAC)",
-      "url": "https://semiengineering.com/deep-learning-automates-parameter-extraction-for-2d-transistors-stanford-slac/",
-      "summary": "Researchers from Stanford University and SLAC National Accelerator Laboratory published a technical paper titled “Deep Learning to Automate Parameter Extraction and Model Fitting of Two-Dimensional Transistors.” Abstract Excerpt: &#8220;We present a deep learning approach to extract physical paramet…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-28T17:20:53+00:00",
-      "pub_ts": 1787937653
     }
   ],
   "source_success_count": 3,

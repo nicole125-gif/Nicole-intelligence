@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-08-29T06:40:48.688275+00:00",
+  "updated_at": "2026-08-30T04:53:41.001443+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "965bd3a3ec",
-      "title": "《时代》周刊全球AI100放榜，精准捕获稚晖君最“想低调”的幕后老板",
-      "url": "https://mp.weixin.qq.com/s/FmSE_6cqAUyfvgIr0fy9IQ",
-      "summary": "《时代》周刊全球AI100放榜，精准捕获稚晖君最“想低调”的幕后老板",
+      "id": "af583502b1",
+      "title": "OpenClaw：红过，爱过，散了",
+      "url": "https://mp.weixin.qq.com/s/rEJaC2zpCk_YqkKoOMTSAQ",
+      "summary": "OpenClaw：红过，爱过，散了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-29T06:40:44.350589+00:00",
-      "pub_ts": 1787985644
+      "pub_date": "2026-08-30T04:53:36.699358+00:00",
+      "pub_ts": 1788065616
     },
     {
-      "id": "8fef42e1ff",
-      "title": "实测比 DeepSeek便宜的Qwen3.8Flash，卷飞了",
-      "url": "https://mp.weixin.qq.com/s/FbCnWDuw_E6Wt6YqX6J7Cg",
-      "summary": "实测比 DeepSeek便宜的Qwen3.8Flash，卷飞了",
+      "id": "0a1659f319",
+      "title": "去年归国的徐梦迪，成了清华姚班班主任",
+      "url": "https://mp.weixin.qq.com/s/-9yZxkiV3sY0hCkYREGvPw",
+      "summary": "去年归国的徐梦迪，成了清华姚班班主任",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-29T06:40:44.350632+00:00",
-      "pub_ts": 1787985644
+      "pub_date": "2026-08-30T04:53:36.699400+00:00",
+      "pub_ts": 1788065616
     },
     {
-      "id": "95d94c0076",
-      "title": "刚刚，港股AGI第一股杀疯了！Agent业务半年进账近5亿，Token收入...",
-      "url": "https://mp.weixin.qq.com/s/oNL6OKFJ1Mlqaym_BxQohw",
-      "summary": "刚刚，港股AGI第一股杀疯了！Agent业务半年进账近5亿，Token收入...",
+      "id": "8eb35158ef",
+      "title": "企业智能化产品与案例征集|量子位智库",
+      "url": "https://mp.weixin.qq.com/s/kL48ANQ2_HjDTG2yGQaUeQ",
+      "summary": "企业智能化产品与案例征集|量子位智库",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-29T06:40:44.350657+00:00",
-      "pub_ts": 1787985644
+      "pub_date": "2026-08-30T04:53:36.699424+00:00",
+      "pub_ts": 1788065616
     },
     {
-      "id": "c00473801f",
-      "title": "OpenAI模型失控过程太恐怖！幽灵误判，1200个Agent，还弄出敢死队...",
-      "url": "https://mp.weixin.qq.com/s/ZneQpYKfVuxH-RaJUTXyyQ",
-      "summary": "OpenAI模型失控过程太恐怖！幽灵误判，1200个Agent，还弄出敢死队...",
+      "id": "eb1ef2e3b4",
+      "title": "只靠一问一答，就能抓出大模型幻觉，准确率88%|ICML'26",
+      "url": "https://mp.weixin.qq.com/s/m5j1kNbznWUKdnF9NLSThA",
+      "summary": "只靠一问一答，就能抓出大模型幻觉，准确率88%|ICML'26",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-29T06:40:44.350678+00:00",
-      "pub_ts": 1787985644
+      "pub_date": "2026-08-30T04:53:36.699446+00:00",
+      "pub_ts": 1788065616
     },
     {
-      "id": "fa871a7700",
-      "title": "7个月超15数学家6年工作量，A写下百万行代码挑战核验超大数学证...",
-      "url": "https://mp.weixin.qq.com/s/Er46T4nwnAkikztPlNLf7A",
-      "summary": "7个月超15数学家6年工作量，A写下百万行代码挑战核验超大数学证...",
+      "id": "853eedf629",
+      "title": "Coding不再是程序员专属！阿里Qoder这波有点绝",
+      "url": "https://mp.weixin.qq.com/s/2hT23BYT6obKY6cXKhZQ0w",
+      "summary": "Coding不再是程序员专属！阿里Qoder这波有点绝",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-29T06:40:44.350699+00:00",
-      "pub_ts": 1787985644
+      "pub_date": "2026-08-30T04:53:36.699468+00:00",
+      "pub_ts": 1788065616
     }
   ],
   "source_success_count": 1,
