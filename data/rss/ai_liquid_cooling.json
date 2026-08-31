@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-08-30T04:53:41.001443+00:00",
+  "updated_at": "2026-08-31T04:57:59.433954+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "af583502b1",
-      "title": "OpenClaw：红过，爱过，散了",
-      "url": "https://mp.weixin.qq.com/s/rEJaC2zpCk_YqkKoOMTSAQ",
-      "summary": "OpenClaw：红过，爱过，散了",
+      "id": "48f5bf692d",
+      "title": "2026年具身智能人才迁徙观察",
+      "url": "https://mp.weixin.qq.com/s/lkmamnyA9dogZv5nutIRLQ",
+      "summary": "2026年具身智能人才迁徙观察",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-30T04:53:36.699358+00:00",
-      "pub_ts": 1788065616
+      "pub_date": "2026-08-31T04:57:55.001743+00:00",
+      "pub_ts": 1788152275
     },
     {
-      "id": "0a1659f319",
-      "title": "去年归国的徐梦迪，成了清华姚班班主任",
-      "url": "https://mp.weixin.qq.com/s/-9yZxkiV3sY0hCkYREGvPw",
-      "summary": "去年归国的徐梦迪，成了清华姚班班主任",
+      "id": "25bc17aede",
+      "title": "GitHub最热架构图Agent，开发者故事看哭了",
+      "url": "https://mp.weixin.qq.com/s/8ViuK7ZFUd2wRgTPGesjEw",
+      "summary": "GitHub最热架构图Agent，开发者故事看哭了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-30T04:53:36.699400+00:00",
-      "pub_ts": 1788065616
+      "pub_date": "2026-08-31T04:57:55.001786+00:00",
+      "pub_ts": 1788152275
     },
     {
-      "id": "8eb35158ef",
-      "title": "企业智能化产品与案例征集|量子位智库",
-      "url": "https://mp.weixin.qq.com/s/kL48ANQ2_HjDTG2yGQaUeQ",
-      "summary": "企业智能化产品与案例征集|量子位智库",
+      "id": "e26d09b58a",
+      "title": "急急急用电！马斯克开造燃气轮机叶片",
+      "url": "https://mp.weixin.qq.com/s/6jBr99Mnij4ctbDK4JpgHg",
+      "summary": "急急急用电！马斯克开造燃气轮机叶片",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-30T04:53:36.699424+00:00",
-      "pub_ts": 1788065616
+      "pub_date": "2026-08-31T04:57:55.001810+00:00",
+      "pub_ts": 1788152275
     },
     {
-      "id": "eb1ef2e3b4",
-      "title": "只靠一问一答，就能抓出大模型幻觉，准确率88%|ICML'26",
-      "url": "https://mp.weixin.qq.com/s/m5j1kNbznWUKdnF9NLSThA",
-      "summary": "只靠一问一答，就能抓出大模型幻觉，准确率88%|ICML'26",
+      "id": "9682cc26ae",
+      "title": "A社化身A割！Claude官宣永久提额25%，结果到手反而少17%",
+      "url": "https://mp.weixin.qq.com/s/IuyCwE231PT-zYN-tNUH6A",
+      "summary": "A社化身A割！Claude官宣永久提额25%，结果到手反而少17%",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-30T04:53:36.699446+00:00",
-      "pub_ts": 1788065616
+      "pub_date": "2026-08-31T04:57:55.001832+00:00",
+      "pub_ts": 1788152275
     },
     {
-      "id": "853eedf629",
-      "title": "Coding不再是程序员专属！阿里Qoder这波有点绝",
-      "url": "https://mp.weixin.qq.com/s/2hT23BYT6obKY6cXKhZQ0w",
-      "summary": "Coding不再是程序员专属！阿里Qoder这波有点绝",
+      "id": "23d22a689a",
+      "title": "手机本地一键成片，靠的是一个8B小模型的自我进化|EMNLP'26",
+      "url": "https://mp.weixin.qq.com/s/vqeVAOIZlTuDly39C6RiPA",
+      "summary": "手机本地一键成片，靠的是一个8B小模型的自我进化|EMNLP'26",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-08-30T04:53:36.699468+00:00",
-      "pub_ts": 1788065616
+      "pub_date": "2026-08-31T04:57:55.001853+00:00",
+      "pub_ts": 1788152275
     }
   ],
   "source_success_count": 1,
