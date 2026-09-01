@@ -3,61 +3,101 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-08-31T04:58:10.399651+00:00",
-  "item_count": 5,
+  "updated_at": "2026-09-01T04:37:08.899434+00:00",
+  "item_count": 9,
   "items": [
     {
-      "id": "fdd66dcd6a",
-      "title": "TAURON H2 and PKM Tychy Want to Cooperate to Develop Hydrogen-Powered Public Transport",
-      "url": "https://fuelcellsworks.com/2026/08/28/fuel-cells/tauron-h2-and-pkm-tychy-want-to-cooperate-to-develop-hydrogen-powered-public-transport",
-      "summary": "",
-      "source": "Fuel Cells Works",
+      "id": "43005cdd00",
+      "title": "US ambassador heads to Laayoune with green hydrogen agreement expected",
+      "url": "https://hydrogen-central.com/us-ambassador-heads-to-laayoune-with-green-hydrogen-agreement-expected/",
+      "summary": "US ambassador heads to Laayoune with green hydrogen agreement expected US Ambassador to Morocco Duke Buchan III is expected to visit Laayoune on Tuesday for meetings with regional officials, elected [&#8230;]\nThe post US ambassador heads to Laayoune with green hydrogen agreement expected appeared fi…",
+      "source": "Hydrogen Central",
       "lang": "en",
-      "pub_date": "2026-08-28T15:55:52+00:00",
-      "pub_ts": 1787932552
+      "pub_date": "2026-08-31T22:41:43+00:00",
+      "pub_ts": 1788216103
     },
     {
-      "id": "c85f015f29",
-      "title": "Rio Grande Do Norte Uses New Hydrogen Rules as Data Centre Regulation Lags",
-      "url": "https://fuelcellsworks.com/2026/08/28/h2/rio-grande-do-norte-uses-new-hydrogen-rules-as-data-centre-regulation-lags",
-      "summary": "",
-      "source": "Fuel Cells Works",
+      "id": "4f4c37197b",
+      "title": "Lewis County Hydrogen Alliance Launches Phase 1 Work to Turn Forest Residuals into Fuel-Grade Hydrogen and Dispatchable Clean Power",
+      "url": "https://hydrogen-central.com/lewis-county-hydrogen-alliance-launches-phase-1-work-to-turn-forest-residuals-into-fuel-grade-hydrogen-and-dispatchable-clean-power/",
+      "summary": "CHEHALIS, Wash. &#8211; July 28, 2026 &#8211; PRLog &#8212; Lewis County Hydrogen Alliance, Inc. (LCH2) today announced the launch of Phase 1 project assessment work for the Lewis County Forestry [&#8230;]\nThe post Lewis County Hydrogen Alliance Launches Phase 1 Work to Turn Forest Residuals into Fu…",
+      "source": "Hydrogen Central",
       "lang": "en",
-      "pub_date": "2026-08-28T15:54:42+00:00",
-      "pub_ts": 1787932482
+      "pub_date": "2026-08-31T22:38:38+00:00",
+      "pub_ts": 1788215918
     },
     {
-      "id": "d6406ddb51",
-      "title": "First Hydrogen Combustion Test at an Austrian Cement Plant",
-      "url": "https://fuelcellsworks.com/2026/08/28/clean-energy/first-hydrogen-combustion-test-at-an-austrian-cement-plant",
-      "summary": "",
-      "source": "Fuel Cells Works",
+      "id": "ce78ea54bd",
+      "title": "Headwinds sink Air Products / Yara blue hydrogen project",
+      "url": "https://hydrogen-central.com/headwinds-sink-air-products-yara-blue-hydrogen-project/",
+      "summary": "In late June, Air Products cancelled its massive blue hydrogen / blue ammonia Louisiana Clean Energy Complex (LCEC) planned for Ascension Parish, Louisiana. The decision is a huge win for [&#8230;]\nThe post Headwinds sink Air Products / Yara blue hydrogen project appeared first on Hydrogen Central.",
+      "source": "Hydrogen Central",
       "lang": "en",
-      "pub_date": "2026-08-28T15:46:20+00:00",
-      "pub_ts": 1787931980
+      "pub_date": "2026-08-31T22:33:51+00:00",
+      "pub_ts": 1788215631
     },
     {
-      "id": "6b5b075f62",
-      "title": "Ishikawa and Toyama Firm Test Low-Cost Mobile Hydrogen Dispenser in Kanazawa",
-      "url": "https://fuelcellsworks.com/2026/08/26/electrolyzer/ishikawa-and-toyama-firm-test-low-cost-mobile-hydrogen-dispenser-in-kanazawa",
-      "summary": "",
-      "source": "Fuel Cells Works",
+      "id": "18d41ae498",
+      "title": "Hyroad Energy Deploys Hydrogen Refueling Station, Enabling Fuel Access for Southern California Trucking Fleets",
+      "url": "https://hydrogen-central.com/hyroad-energy-deploys-hydrogen-refueling-station-enabling-fuel-access-for-southern-california-trucking-fleets/",
+      "summary": "AUSTIN, Texas, July 29, 2026 /PRNewswire/ &#8212; Hyroad Energy, an independent solution provider operationalizing hydrogen-fueled commercial trucking for fleets, today announced a hydrogen refueling station is officially open in Santa [&#8230;]\nThe post Hyroad Energy Deploys Hydrogen Refueling Stat…",
+      "source": "Hydrogen Central",
       "lang": "en",
-      "pub_date": "2026-08-28T15:41:33+00:00",
-      "pub_ts": 1787931693
+      "pub_date": "2026-08-31T22:28:54+00:00",
+      "pub_ts": 1788215334
     },
     {
-      "id": "f5a41656a9",
-      "title": "NLR Hydrogen Drone Flies at Airport: A First for Rotterdam the Hague Airport",
-      "url": "https://fuelcellsworks.com/2026/08/28/energy-innovation/nlr-hydrogen-drone-flies-at-airport-a-first-for-rotterdam-the-hague-airport",
+      "id": "628a69f468",
+      "title": "Teragen Energy Raises Oversubscribed $6M to Take Solid-Oxide Fuel Cells Toward Commercial Pilots",
+      "url": "https://fuelcellsworks.com/2026/08/31/energy-innovation/teragen-energy-raises-oversubscribed-6m-to-take-solid-oxide-fuel-cells-toward-commercial-pilots",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-08-28T15:38:45+00:00",
-      "pub_ts": 1787931525
+      "pub_date": "2026-08-31T15:40:46+00:00",
+      "pub_ts": 1788190846
+    },
+    {
+      "id": "5b96a4a5b5",
+      "title": "ITOCHU Announces Investment in Ammonia Storage Terminal Business at Port Pipavav, India",
+      "url": "https://fuelcellsworks.com/2026/08/31/green-investment/itochu-announces-investment-in-ammonia-storage-terminal-business-at-port-pipavav-india",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-08-31T15:27:36+00:00",
+      "pub_ts": 1788190056
+    },
+    {
+      "id": "e0441f2e28",
+      "title": "Fuel Cell and Hydrogen News Highlights From China: August 24-28, 2026",
+      "url": "https://fuelcellsworks.com/2026/08/31/clean-hydrogen/fuel-cell-and-hydrogen-news-highlights-from-china-august-24-28-2026",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-08-31T15:24:37+00:00",
+      "pub_ts": 1788189877
+    },
+    {
+      "id": "6365ed625c",
+      "title": "ABO Energy and the City of Oulu Sign Agreement to Advance Hydrogen Plant Zoning",
+      "url": "https://fuelcellsworks.com/2026/08/31/green-investment/abo-energy-and-the-city-of-oulu-sign-agreement-to-advance-hydrogen-plant-zoning",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-08-31T15:22:29+00:00",
+      "pub_ts": 1788189749
+    },
+    {
+      "id": "ff9ea4f222",
+      "title": "Green Hydrogen Costs Fall as Conventional H₂ Production Becomes More Expensive",
+      "url": "https://fuelcellsworks.com/2026/08/25/green-hydrogen/green-hydrogen-costs-fall-as-conventional-h-production-becomes-more-expensive",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-08-31T14:49:35+00:00",
+      "pub_ts": 1788187775
     }
   ],
-  "source_success_count": 1,
+  "source_success_count": 2,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }

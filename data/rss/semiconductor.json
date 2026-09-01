@@ -3,108 +3,138 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-08-31T04:57:45.654353+00:00",
+  "updated_at": "2026-09-01T04:36:43.169183+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "422bd290c4",
-      "title": "离子注入机突围：国产设备的一场硬仗",
-      "url": "https://mp.weixin.qq.com/s/MK2s8Zaknr5TfoCAsTW3-A",
-      "summary": "离子注入机突围：国产设备的一场硬仗",
+      "id": "9a8c28dcc5",
+      "title": "3DNAND闪存，藏了三张底牌",
+      "url": "https://mp.weixin.qq.com/s/jbpN_zUtwJV_81SjFZFqiQ",
+      "summary": "3DNAND闪存，藏了三张底牌",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-31T04:57:41.522559+00:00",
-      "pub_ts": 1788152261
+      "pub_date": "2026-09-01T04:36:38.867236+00:00",
+      "pub_ts": 1788237398
     },
     {
-      "id": "1553c41dcf",
-      "title": "国产公版微镜大阵列芯片问世，OCS国产化进程加速",
-      "url": "https://mp.weixin.qq.com/s/VJb1KtC4c4h_c5bcrcOVPg",
-      "summary": "国产公版微镜大阵列芯片问世，OCS国产化进程加速",
+      "id": "cfcf362a8d",
+      "title": "华为上半年净赚234亿，研发投入超1200亿",
+      "url": "https://mp.weixin.qq.com/s/a8aGEw8a_7FsHy4KSxBT6Q",
+      "summary": "华为上半年净赚234亿，研发投入超1200亿",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-31T04:57:41.522620+00:00",
-      "pub_ts": 1788152261
+      "pub_date": "2026-09-01T04:36:38.867284+00:00",
+      "pub_ts": 1788237398
     },
     {
-      "id": "0b544d5cfd",
-      "title": "HBM疯狂堆叠层数，技术瓶颈越来越多",
-      "url": "https://mp.weixin.qq.com/s/DWHuk2LP-g_BLp-0-yenBg",
-      "summary": "HBM疯狂堆叠层数，技术瓶颈越来越多",
+      "id": "2457116d87",
+      "title": "工信部：加大大模型、智能体、Token等服务采购力度",
+      "url": "https://mp.weixin.qq.com/s/0c5kCggIZ3Z1MIdJMqpSTA",
+      "summary": "工信部：加大大模型、智能体、Token等服务采购力度",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-31T04:57:41.522650+00:00",
-      "pub_ts": 1788152261
+      "pub_date": "2026-09-01T04:36:38.867314+00:00",
+      "pub_ts": 1788237398
     },
     {
-      "id": "7ee4e07eb6",
-      "title": "当我们谈论小米造芯，我们该谈论什么",
-      "url": "https://mp.weixin.qq.com/s/LN7TdfaQPb2kZkAsqT0YtA",
-      "summary": "当我们谈论小米造芯，我们该谈论什么",
+      "id": "245de518fc",
+      "title": "台积电高管：2029 年算力提升至2024年的50倍",
+      "url": "https://mp.weixin.qq.com/s/s6UE21s4Hkdzb9BkV6I2og",
+      "summary": "台积电高管：2029 年算力提升至2024年的50倍",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-31T04:57:41.522679+00:00",
-      "pub_ts": 1788152261
+      "pub_date": "2026-09-01T04:36:38.867351+00:00",
+      "pub_ts": 1788237398
     },
     {
-      "id": "b427b56587",
-      "title": "左手注资，右手卖卡：半导体巨头投了2570亿美元，最后全回自己口袋",
-      "url": "https://mp.weixin.qq.com/s/22NFww3MvPIbt7-ZWRbfKQ",
-      "summary": "左手注资，右手卖卡：半导体巨头投了2570亿美元，最后全回自己口袋",
+      "id": "da12da7ef4",
+      "title": "50亿次脉冲实测，重新审视DUV光学元件性能",
+      "url": "https://mp.weixin.qq.com/s/17mtu87-rdwmId0v3r9CEA",
+      "summary": "50亿次脉冲实测，重新审视DUV光学元件性能",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-08-31T04:57:41.522711+00:00",
-      "pub_ts": 1788152261
+      "pub_date": "2026-09-01T04:36:38.867376+00:00",
+      "pub_ts": 1788237398
     },
     {
-      "id": "2c9232ec89",
-      "title": "一类模拟芯片，意外走红！",
-      "url": "https://mp.weixin.qq.com/s/lYdIv2jByqVOfBdaYLV8KQ",
-      "summary": "一类模拟芯片，意外走红！",
+      "id": "38eb9a2ab3",
+      "title": "英伟达宣布，投资联发科，235亿！",
+      "url": "https://mp.weixin.qq.com/s/1MBNPYqV8vCNWir5TxzKfQ",
+      "summary": "英伟达宣布，投资联发科，235亿！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-31T04:57:29.226875+00:00",
-      "pub_ts": 1788152249
+      "pub_date": "2026-09-01T04:36:28.235917+00:00",
+      "pub_ts": 1788237388
     },
     {
-      "id": "1a77dc180e",
-      "title": "台积电所有制程，涨价10~15%?",
-      "url": "https://mp.weixin.qq.com/s/KhvzxlWlXUKXBi-ZyAziRg",
-      "summary": "台积电所有制程，涨价10~15%?",
+      "id": "3b7ff3a45e",
+      "title": "刚刚，华为业绩公布",
+      "url": "https://mp.weixin.qq.com/s/0gmjVGgXZ-D-cteElhEglQ",
+      "summary": "刚刚，华为业绩公布",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-31T04:57:29.226926+00:00",
-      "pub_ts": 1788152249
+      "pub_date": "2026-09-01T04:36:28.235971+00:00",
+      "pub_ts": 1788237388
     },
     {
-      "id": "fbf42d9337",
-      "title": "三星揭露PLP与玻璃基板路线图",
-      "url": "https://mp.weixin.qq.com/s/eFGqkuNyRPWJw2q6RUaVbg",
-      "summary": "三星揭露PLP与玻璃基板路线图",
+      "id": "1ddd00d7a1",
+      "title": "玻璃基板，路线图",
+      "url": "https://mp.weixin.qq.com/s/LpDTxEIiGOyzbRKiLqKspA",
+      "summary": "玻璃基板，路线图",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-31T04:57:29.226953+00:00",
-      "pub_ts": 1788152249
+      "pub_date": "2026-09-01T04:36:28.236004+00:00",
+      "pub_ts": 1788237388
     },
     {
-      "id": "6ddb5f46f7",
-      "title": "中国机器人，离不开美国芯片?",
-      "url": "https://mp.weixin.qq.com/s/ni-IiSTQ6f-2-aT7dj-UpQ",
-      "summary": "中国机器人，离不开美国芯片?",
+      "id": "c8f6b270c8",
+      "title": "台积电CoWoS的弱点",
+      "url": "https://mp.weixin.qq.com/s/gqGYfrA33NQfxmXCX3ydzw",
+      "summary": "台积电CoWoS的弱点",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-31T04:57:29.226976+00:00",
-      "pub_ts": 1788152249
+      "pub_date": "2026-09-01T04:36:28.236025+00:00",
+      "pub_ts": 1788237388
     },
     {
-      "id": "ecb8a5eda1",
-      "title": "TCL，杀进磷化铟赛道！",
-      "url": "https://mp.weixin.qq.com/s/HTuqvtKyY1W_2BmQY7HB7w",
-      "summary": "TCL，杀进磷化铟赛道！",
+      "id": "874d08f4e9",
+      "title": "三星HBM4，力压海力士",
+      "url": "https://mp.weixin.qq.com/s/qGJiNsuqeG9YGtj3wIcSxA",
+      "summary": "三星HBM4，力压海力士",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-08-31T04:57:29.226998+00:00",
-      "pub_ts": 1788152249
+      "pub_date": "2026-09-01T04:36:28.236044+00:00",
+      "pub_ts": 1788237388
+    },
+    {
+      "id": "0f5dd15bc7",
+      "title": "Workload-Driven HBF Substrate For Capacity-Scalable LLM Inference (Huawei, ETH Zurich, HUST)",
+      "url": "https://semiengineering.com/workload-driven-hbf-substrate-for-capacity-scalable-llm-inference-huawei-eth-zurich-hust/",
+      "summary": "Researchers at Huawei, ETH Zürich, and HUST published a technical paper titled “FLINT: Efficiently Leveraging High Bandwidth Flash for Capacity-Scalable LLM Inference Acceleration.” Abstract: “LLM inference is increasingly constrained by accelerator memory capacity rather than compute throughput. Th…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-31T17:25:59+00:00",
+      "pub_ts": 1788197159
+    },
+    {
+      "id": "73483a7ace",
+      "title": "Trust, But Verify",
+      "url": "https://semiengineering.com/trust-but-verify/",
+      "summary": "We trust designers to do the best they can, but know they cannot be perfect. That's why we verify. When AI gets involved, it cannot be trusted.\nThe post Trust, But Verify appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-31T07:03:35+00:00",
+      "pub_ts": 1788159815
+    },
+    {
+      "id": "45a22cbc10",
+      "title": "Photonics Forces A Chiplet Rethink",
+      "url": "https://semiengineering.com/photonics-forces-a-chiplet-rethink/",
+      "summary": "Thermal drift, stress, electromagnetic coupling, and verification gaps are turning optical integration into a full-system co-design problem rather than a plug-in bandwidth upgrade. \nThe post Photonics Forces A Chiplet Rethink appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-08-31T07:01:38+00:00",
+      "pub_ts": 1788159698
     },
     {
       "id": "a7e5bae3e1",
@@ -125,36 +155,6 @@
       "lang": "en",
       "pub_date": "2026-08-30T07:04:34+00:00",
       "pub_ts": 1788073474
-    },
-    {
-      "id": "e47241017c",
-      "title": "Intrinsic Polarization Superjunctions Boost GaN-On-Silicon Power Devices (EPFL)",
-      "url": "https://semiengineering.com/intrinsic-polarization-superjunctions-boost-gan-on-silicon-power-devices-epfl/",
-      "summary": "Researchers from École Polytechnique Fédérale de Lausanne (EPFL) published a technical paper titled “Intrinsic polarization superjunctions in III-nitride heterostructures for efficient power electronics.” Abstract Excerpt: &#8220;III-nitride semiconductors combine a wide bandgap with low sheet resis…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-30T07:03:28+00:00",
-      "pub_ts": 1788073408
-    },
-    {
-      "id": "5adef9f683",
-      "title": "Cycle-Level Simulator for Distributed GPUs For AI Workloads (Purdue)",
-      "url": "https://semiengineering.com/cycle-level-simulator-for-distributed-gpus-for-ai-workloads-purdue/",
-      "summary": "Researchers from Purdue University published a technical paper titled “Architecting the Next Generation of Asynchronous, Distributed GPUs for the AI Era.” Abstract Excerpt: The paper presents a “cycle-level simulation framework” for modern GPU generations including Ampere, Hopper, and Blackwell. It …",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-30T07:02:05+00:00",
-      "pub_ts": 1788073325
-    },
-    {
-      "id": "97a93b77a4",
-      "title": "Molecular Dynamics Study Explains Aluminum Dopant Activation In 4H-SiC (TU Wien, Silvaco)",
-      "url": "https://semiengineering.com/molecular-dynamics-study-explains-aluminum-dopant-activation-in-4h-sic-tu-wien-silvaco/",
-      "summary": "Researchers from TU Wien and Silvaco Europe published a technical paper titled “The influence of implantation conditions on dopant activation in Al-implanted 4H-SiC: A MD study applying an Al potential fitted to DFT barriers.” Abstract Excerpt: &#8220;The non-monotonic dependence of Al dopant activa…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-30T07:01:27+00:00",
-      "pub_ts": 1788073287
     }
   ],
   "source_success_count": 3,

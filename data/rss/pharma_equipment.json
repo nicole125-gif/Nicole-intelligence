@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-08-31T04:58:22.847363+00:00",
+  "updated_at": "2026-09-01T04:37:21.699735+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "a3516c1d24",
-      "title": "Myasthenia gravis market to reach $13.0bn across 7MM by 2034",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/myasthenia-gravis-market-7mm-2034/",
-      "summary": "The myasthenia gravis (MG) market across the 7MM is poised to grow at a CAGR of 11.1% from $4.5bn in 2024 to $13.0bn in 2034.",
+      "id": "13c7312549",
+      "title": "ESC 2026: Evidence supporting SGLT2 inhibitors and finerenone in heart failure grows",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/esc-2026-evidence-supporting-sglt2-inhibitors-and-finerenone-in-heart-failure-grows/",
+      "summary": "Several treatment guidelines worldwide recommend the use of SGLT2 inhibitors as a treatment for all types of heart failure.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-28T15:36:14+00:00",
-      "pub_ts": 1787931374
+      "pub_date": "2026-08-31T21:27:43+00:00",
+      "pub_ts": 1788211663
     },
     {
-      "id": "a368f86690",
-      "title": "Lilly’s Mounjaro wins US label expansion for cardiovascular risk reduction",
-      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-mounjaro-fda-approval-cardiovascular-risk-reduction-type-2-diabetes/",
-      "summary": "The new Mounjaro approval will likely expand Lilly’s cardiometabolic empire as it looks to stay ahead of rival Novo Nordisk.",
+      "id": "df9b3c3fb2",
+      "title": "ESC 2026: Aficamten breaks new ground in nonobstructive HCM",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/esc-2026-aficamten-breaks-new-ground-in-nonobstructive-hcm/",
+      "summary": "Aficamten improves cardiac structure and diastolic function, strengthening its case as a targeted therapy for nonobstructive HCM.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-28T14:15:52+00:00",
-      "pub_ts": 1787926552
+      "pub_date": "2026-08-31T13:40:04+00:00",
+      "pub_ts": 1788183604
     },
     {
-      "id": "e0fee9ce10",
-      "title": "FDA approves Priovant’s rare autoimmune therapy Lisraya in indication first",
-      "url": "https://www.pharmaceutical-technology.com/news/priovant-rare-autoimmune-therapy-lisraya-fda-approval-dermatomyositis/",
-      "summary": "Priovant is now looking to roll out Lisraya, the first targeted therapy for dermatomyositis, across the US via specialty pharmacies.",
+      "id": "94049b5559",
+      "title": "ESC 2026: Evolocumab explores new frontiers in CV disease prevention",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/esc-2026-evolocumab-explores-new-frontiers-in-cv-disease-prevention/",
+      "summary": "The benefits of intensive LDL-C lowering with Repatha (evolocumab) may extend beyond cardiovascular event prevention to reducing mortality.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-28T10:42:01+00:00",
-      "pub_ts": 1787913721
+      "pub_date": "2026-08-31T13:17:14+00:00",
+      "pub_ts": 1788182234
     },
     {
-      "id": "f2f4f4e5ac",
-      "title": "MSD’s Lipfendra takes on injectable rivals for cholesterol-lowering market supremacy",
-      "url": "https://www.pharmaceutical-technology.com/features/msds-lipfendra-takes-on-injectable-rivals-for-cholesterol-lowering-market-supremacy/",
-      "summary": "Armed with oral administration and a cheaper price tag, Lipfendra is touted as a major advancement for patients.",
+      "id": "0ea7ce28a9",
+      "title": "Teva Pharmaceuticals to acquire BioXcel assets for up to $125m",
+      "url": "https://www.pharmaceutical-technology.com/news/teva-to-acquire-bioxcel-assets/",
+      "summary": "Teva Pharmaceuticals International has made a bid to acquire a range of neuroscience assets from BioXcel Therapeutics for a total deal value of $125m.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-28T10:41:17+00:00",
-      "pub_ts": 1787913677
+      "pub_date": "2026-08-31T09:32:23+00:00",
+      "pub_ts": 1788168743
     },
     {
-      "id": "82c798899d",
-      "title": "AusperBio raises $120m to progress hepatitis B therapies",
-      "url": "https://www.pharmaceutical-technology.com/news/ausperbio-120m-hepatitis-b-therapies/",
-      "summary": "AusperBio Therapeutics and Ausper Biopharma have closed a Series C funding round worth $120m to support the development of new therapies for chronic hepatitis B.",
+      "id": "3f1627ae9c",
+      "title": "ESC 2026: Statins show worth despite emergence of PCSK9 inhibitors",
+      "url": "https://www.pharmaceutical-technology.com/news/esc-2026-statins-show-worth-despite-emergence-of-pcsk9-inhibitors/",
+      "summary": "The Australia-based STAREE trial is the first of its kind demonstrating the preventative effects of statins in older patients.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-28T09:36:46+00:00",
-      "pub_ts": 1787909806
+      "pub_date": "2026-08-29T06:25:00+00:00",
+      "pub_ts": 1787984700
     }
   ],
   "source_success_count": 1,
