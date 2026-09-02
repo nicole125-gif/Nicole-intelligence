@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-09-01T04:36:57.543072+00:00",
+  "updated_at": "2026-09-02T03:59:13.538934+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "95c79494e4",
-      "title": "VC疯了！200万现金冠军奖，又花4000万造了一座AI「创业乌托邦」",
-      "url": "https://mp.weixin.qq.com/s/eZDzbsoQyR_i3SIy6ersEw",
-      "summary": "VC疯了！200万现金冠军奖，又花4000万造了一座AI「创业乌托邦」",
+      "id": "9fd59f5ce9",
+      "title": "世界生成模型来了3D头部玩家，可进入生产管线的场景级生成时代来临！",
+      "url": "https://mp.weixin.qq.com/s/wuE8zuAnRJwdGf7f4qSBLw",
+      "summary": "世界生成模型来了3D头部玩家，可进入生产管线的场景级生成时代来临！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-01T04:36:52.916761+00:00",
-      "pub_ts": 1788237412
+      "pub_date": "2026-09-02T03:59:09.071832+00:00",
+      "pub_ts": 1788321549
     },
     {
-      "id": "cbb8cc4f39",
-      "title": "姚顺雨空降腾讯半年，混元Hy4冲进第一梯队",
-      "url": "https://mp.weixin.qq.com/s/eRNf2XZERRCcThuabNxD2w",
-      "summary": "姚顺雨空降腾讯半年，混元Hy4冲进第一梯队",
+      "id": "3efa640062",
+      "title": "CodeX记忆系统大更新",
+      "url": "https://mp.weixin.qq.com/s/98tEVto9x3sth_zME4zR8w",
+      "summary": "CodeX记忆系统大更新",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-01T04:36:52.916801+00:00",
-      "pub_ts": 1788237412
+      "pub_date": "2026-09-02T03:59:09.071864+00:00",
+      "pub_ts": 1788321549
     },
     {
-      "id": "d589f895a3",
-      "title": "第二个宇树？众擎CEO：60%资源投大脑，走英伟达路线",
-      "url": "https://mp.weixin.qq.com/s/HmoY_a7GFa0uQtEftqqKuw",
-      "summary": "第二个宇树？众擎CEO：60%资源投大脑，走英伟达路线",
+      "id": "6de01775c8",
+      "title": "“没有Token的CS学生，应立即退学",
+      "url": "https://mp.weixin.qq.com/s/BP-gU8ZSErE-0Ws8FaEwbg",
+      "summary": "“没有Token的CS学生，应立即退学",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-01T04:36:52.916820+00:00",
-      "pub_ts": 1788237412
+      "pub_date": "2026-09-02T03:59:09.071876+00:00",
+      "pub_ts": 1788321549
     },
     {
-      "id": "b2c61a0a02",
-      "title": "「GPT-6」灰测demo刷屏！周四发布在即",
-      "url": "https://mp.weixin.qq.com/s/ESettlOPyt49hgI6V0aq6A",
-      "summary": "「GPT-6」灰测demo刷屏！周四发布在即",
+      "id": "cdc48d78d0",
+      "title": "A社故意黑化Opus，模拟入侵Hugging Face，抱抱脸：?",
+      "url": "https://mp.weixin.qq.com/s/1Rs6Lga9Ezm1cZPiNufV6w",
+      "summary": "A社故意黑化Opus，模拟入侵Hugging Face，抱抱脸：?",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-01T04:36:52.916838+00:00",
-      "pub_ts": 1788237412
+      "pub_date": "2026-09-02T03:59:09.071888+00:00",
+      "pub_ts": 1788321549
     },
     {
-      "id": "4a317cea35",
-      "title": "OpenAl买几万台Mac搞强化训练！英伟达的活被苹果抢了",
-      "url": "https://mp.weixin.qq.com/s/Hvyfb04lH2Sz3TV_I9CIEQ",
-      "summary": "OpenAl买几万台Mac搞强化训练！英伟达的活被苹果抢了",
+      "id": "441f60d511",
+      "title": "AIVC只是前菜！复旦提出生命算子，统一生命建模",
+      "url": "https://mp.weixin.qq.com/s/f8djHVqTY0V7BneT4BwNHg",
+      "summary": "AIVC只是前菜！复旦提出生命算子，统一生命建模",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-01T04:36:52.916857+00:00",
-      "pub_ts": 1788237412
+      "pub_date": "2026-09-02T03:59:09.071900+00:00",
+      "pub_ts": 1788321549
     }
   ],
   "source_success_count": 1,

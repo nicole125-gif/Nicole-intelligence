@@ -3,108 +3,98 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-09-01T04:36:43.169183+00:00",
-  "item_count": 15,
+  "updated_at": "2026-09-02T03:58:59.424830+00:00",
+  "item_count": 11,
   "items": [
     {
-      "id": "9a8c28dcc5",
-      "title": "3DNAND闪存，藏了三张底牌",
-      "url": "https://mp.weixin.qq.com/s/jbpN_zUtwJV_81SjFZFqiQ",
-      "summary": "3DNAND闪存，藏了三张底牌",
+      "id": "f3a6297342",
+      "title": "在无锡，中微又发布六款高端设备",
+      "url": "https://mp.weixin.qq.com/s/xHZAis-8bL88yfcooHnBDQ",
+      "summary": "在无锡，中微又发布六款高端设备",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-01T04:36:38.867236+00:00",
-      "pub_ts": 1788237398
+      "pub_date": "2026-09-02T03:58:55.278499+00:00",
+      "pub_ts": 1788321535
     },
     {
-      "id": "cfcf362a8d",
-      "title": "华为上半年净赚234亿，研发投入超1200亿",
-      "url": "https://mp.weixin.qq.com/s/a8aGEw8a_7FsHy4KSxBT6Q",
-      "summary": "华为上半年净赚234亿，研发投入超1200亿",
+      "id": "512eb17283",
+      "title": "英伟达涨价背后，ASIC要被认真对待了",
+      "url": "https://mp.weixin.qq.com/s/CQIoIYdN9V0E4UjXRmzEYg",
+      "summary": "英伟达涨价背后，ASIC要被认真对待了",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-01T04:36:38.867284+00:00",
-      "pub_ts": 1788237398
+      "pub_date": "2026-09-02T03:58:55.278535+00:00",
+      "pub_ts": 1788321535
     },
     {
-      "id": "2457116d87",
-      "title": "工信部：加大大模型、智能体、Token等服务采购力度",
-      "url": "https://mp.weixin.qq.com/s/0c5kCggIZ3Z1MIdJMqpSTA",
-      "summary": "工信部：加大大模型、智能体、Token等服务采购力度",
+      "id": "7bee4d73c0",
+      "title": "超8000亿！中国半导体产业投资上半年暴涨72%",
+      "url": "https://mp.weixin.qq.com/s/Qog8oY1t3AbQLLL-nenZpg",
+      "summary": "超8000亿！中国半导体产业投资上半年暴涨72%",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-01T04:36:38.867314+00:00",
-      "pub_ts": 1788237398
+      "pub_date": "2026-09-02T03:58:55.278548+00:00",
+      "pub_ts": 1788321535
     },
     {
-      "id": "245de518fc",
-      "title": "台积电高管：2029 年算力提升至2024年的50倍",
-      "url": "https://mp.weixin.qq.com/s/s6UE21s4Hkdzb9BkV6I2og",
-      "summary": "台积电高管：2029 年算力提升至2024年的50倍",
+      "id": "a0879740eb",
+      "title": "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新",
+      "url": "https://mp.weixin.qq.com/s/lGZ4KqVjOiCXJ8ozjR25Ig",
+      "summary": "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-01T04:36:38.867351+00:00",
-      "pub_ts": 1788237398
+      "pub_date": "2026-09-02T03:58:55.278559+00:00",
+      "pub_ts": 1788321535
     },
     {
-      "id": "da12da7ef4",
-      "title": "50亿次脉冲实测，重新审视DUV光学元件性能",
-      "url": "https://mp.weixin.qq.com/s/17mtu87-rdwmId0v3r9CEA",
-      "summary": "50亿次脉冲实测，重新审视DUV光学元件性能",
+      "id": "6b0845b6a4",
+      "title": "五大企业级SSD厂商，Q2营收环比翻倍",
+      "url": "https://mp.weixin.qq.com/s/Zox7y_EoS6ovNWeC6cY8Bg",
+      "summary": "五大企业级SSD厂商，Q2营收环比翻倍",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-01T04:36:38.867376+00:00",
-      "pub_ts": 1788237398
+      "pub_date": "2026-09-02T03:58:55.278572+00:00",
+      "pub_ts": 1788321535
     },
     {
-      "id": "38eb9a2ab3",
-      "title": "英伟达宣布，投资联发科，235亿！",
-      "url": "https://mp.weixin.qq.com/s/1MBNPYqV8vCNWir5TxzKfQ",
-      "summary": "英伟达宣布，投资联发科，235亿！",
+      "id": "e1efe75adf",
+      "title": "募资48亿，发力交换芯片",
+      "url": "https://mp.weixin.qq.com/s/GqpxQZLfd3RmzWQld3TUWw",
+      "summary": "募资48亿，发力交换芯片",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-01T04:36:28.235917+00:00",
-      "pub_ts": 1788237388
+      "pub_date": "2026-09-02T03:58:43.515176+00:00",
+      "pub_ts": 1788321523
     },
     {
-      "id": "3b7ff3a45e",
-      "title": "刚刚，华为业绩公布",
-      "url": "https://mp.weixin.qq.com/s/0gmjVGgXZ-D-cteElhEglQ",
-      "summary": "刚刚，华为业绩公布",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-09-01T04:36:28.235971+00:00",
-      "pub_ts": 1788237388
+      "id": "83f9055188",
+      "title": "The imec Report: Advancing The CFET-Based Device Roadmap",
+      "url": "https://semiengineering.com/advancing-the-cfet-based-device-roadmap-novel-integration-modules-and-standard-cell-configurations/",
+      "summary": "Part I: Novel integration modules and standard cell configurations. \nThe post The imec Report: Advancing The CFET-Based Device Roadmap appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-09-01T07:01:52+00:00",
+      "pub_ts": 1788246112
     },
     {
-      "id": "1ddd00d7a1",
-      "title": "玻璃基板，路线图",
-      "url": "https://mp.weixin.qq.com/s/LpDTxEIiGOyzbRKiLqKspA",
-      "summary": "玻璃基板，路线图",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-09-01T04:36:28.236004+00:00",
-      "pub_ts": 1788237388
+      "id": "3265ad329b",
+      "title": "Research Bits: Sept. 1",
+      "url": "https://semiengineering.com/research-bits-sep-1/",
+      "summary": "Gallium nitride: High voltage; low resistance; diamond interposer.\nThe post Research Bits: Sept. 1 appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-09-01T07:01:15+00:00",
+      "pub_ts": 1788246075
     },
     {
-      "id": "c8f6b270c8",
-      "title": "台积电CoWoS的弱点",
-      "url": "https://mp.weixin.qq.com/s/gqGYfrA33NQfxmXCX3ydzw",
-      "summary": "台积电CoWoS的弱点",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-09-01T04:36:28.236025+00:00",
-      "pub_ts": 1788237388
-    },
-    {
-      "id": "874d08f4e9",
-      "title": "三星HBM4，力压海力士",
-      "url": "https://mp.weixin.qq.com/s/qGJiNsuqeG9YGtj3wIcSxA",
-      "summary": "三星HBM4，力压海力士",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-09-01T04:36:28.236044+00:00",
-      "pub_ts": 1788237388
+      "id": "baf05af022",
+      "title": "Chip Industry Technical Paper Roundup: Sept. 1",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-sep-1/",
+      "summary": "Wafer-scale optical interconnects for LLM training; Rowhammer-based inference attacks; 3D-IC test cases; liquid cooling for 2.5D/3D packages; wafer-scale 2D semi growth; DL-based parameter extraction for 2D transistors; and chip-placement optimization.\nThe post Chip Industry Technical Paper Roundup:…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-09-01T07:01:14+00:00",
+      "pub_ts": 1788246074
     },
     {
       "id": "0f5dd15bc7",
@@ -125,36 +115,6 @@
       "lang": "en",
       "pub_date": "2026-08-31T07:03:35+00:00",
       "pub_ts": 1788159815
-    },
-    {
-      "id": "45a22cbc10",
-      "title": "Photonics Forces A Chiplet Rethink",
-      "url": "https://semiengineering.com/photonics-forces-a-chiplet-rethink/",
-      "summary": "Thermal drift, stress, electromagnetic coupling, and verification gaps are turning optical integration into a full-system co-design problem rather than a plug-in bandwidth upgrade. \nThe post Photonics Forces A Chiplet Rethink appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-31T07:01:38+00:00",
-      "pub_ts": 1788159698
-    },
-    {
-      "id": "a7e5bae3e1",
-      "title": "Hybrid HBM-HBF Architecture in LLM Inference (University of Oxford)",
-      "url": "https://semiengineering.com/hybrid-hbm-hbf-architecture-in-llm-inference-university-of-oxford/",
-      "summary": "Researchers at the University of Oxford published a technical paper titled “Hardware-Managed Heterogeneous High-Bandwidth Memory and Flash in LLM Inference Systems.” Abstract Excerpt: “ High-Bandwidth Flash (HBF) offers a denser alternative, providing 16x more capacity per stack at comparable bandwi…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-30T07:06:37+00:00",
-      "pub_ts": 1788073597
-    },
-    {
-      "id": "735eb29b7c",
-      "title": "M3D 6T SRAM With BEOL Pass-Gates at 2nm (Georgia Tech, Synopsys)",
-      "url": "https://semiengineering.com/m3d-6t-sram-with-beol-pass-gates-at-2nm-georgia-tech-synopsys/",
-      "summary": "Researchers from Georgia Institute of Technology and Synopsys published a technical paper titled “A Process-Aware Hybrid Si/IGO Monolithic-3D 6T SRAM with BEOL Pass-Gates for the 2nm Node.” Abstract Excerpt: The paper proposes “a monolithic-3D (M3D) 6T SRAM at the 2nm node” that integrates BEOL IGO …",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-08-30T07:04:34+00:00",
-      "pub_ts": 1788073474
     }
   ],
   "source_success_count": 3,

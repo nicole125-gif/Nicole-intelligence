@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-09-01T04:37:21.699735+00:00",
+  "updated_at": "2026-09-02T03:59:36.371347+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "13c7312549",
-      "title": "ESC 2026: Evidence supporting SGLT2 inhibitors and finerenone in heart failure grows",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/esc-2026-evidence-supporting-sglt2-inhibitors-and-finerenone-in-heart-failure-grows/",
-      "summary": "Several treatment guidelines worldwide recommend the use of SGLT2 inhibitors as a treatment for all types of heart failure.",
+      "id": "c645702147",
+      "title": "ESC 2026: Tirzepatide 5mg sustains cardiometabolic benefit with weight maintenance",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/esc-2026-tirzepatide-5mg-sustains-cardiometabolic-benefit-with-weight-maintenance/",
+      "summary": "KOLs interviewed by GlobalData consistently recognized tirzepatide's cardiometabolic value as extending well beyond weight loss alone.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-31T21:27:43+00:00",
-      "pub_ts": 1788211663
+      "pub_date": "2026-09-01T18:53:23+00:00",
+      "pub_ts": 1788288803
     },
     {
-      "id": "df9b3c3fb2",
-      "title": "ESC 2026: Aficamten breaks new ground in nonobstructive HCM",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/esc-2026-aficamten-breaks-new-ground-in-nonobstructive-hcm/",
-      "summary": "Aficamten improves cardiac structure and diastolic function, strengthening its case as a targeted therapy for nonobstructive HCM.",
+      "id": "07566c31b6",
+      "title": "Why CMC readiness is becoming central to biopharma licensing deals",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/why-cmc-readiness-is-becoming-central-to-biopharma-licensing-deals/",
+      "summary": "CMC readiness is becoming critical in biopharma licensing as partners demand proof an asset can be transferred, scaled and supplied",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-31T13:40:04+00:00",
-      "pub_ts": 1788183604
+      "pub_date": "2026-09-01T13:59:47+00:00",
+      "pub_ts": 1788271187
     },
     {
-      "id": "94049b5559",
-      "title": "ESC 2026: Evolocumab explores new frontiers in CV disease prevention",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/esc-2026-evolocumab-explores-new-frontiers-in-cv-disease-prevention/",
-      "summary": "The benefits of intensive LDL-C lowering with Repatha (evolocumab) may extend beyond cardiovascular event prevention to reducing mortality.",
+      "id": "405f32cf97",
+      "title": "Trump lines up MFN deals with nine mid-size pharmas on drug pricing push",
+      "url": "https://www.pharmaceutical-technology.com/news/trump-mfn-drug-pricing-deal-mid-sized-pharma/",
+      "summary": "These White House deals will require the nine midsize pharma companies to provide MFN prices to state Medicaid programmes nationally.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-31T13:17:14+00:00",
-      "pub_ts": 1788182234
+      "pub_date": "2026-09-01T11:05:16+00:00",
+      "pub_ts": 1788260716
     },
     {
-      "id": "0ea7ce28a9",
-      "title": "Teva Pharmaceuticals to acquire BioXcel assets for up to $125m",
-      "url": "https://www.pharmaceutical-technology.com/news/teva-to-acquire-bioxcel-assets/",
-      "summary": "Teva Pharmaceuticals International has made a bid to acquire a range of neuroscience assets from BioXcel Therapeutics for a total deal value of $125m.",
+      "id": "85f1688557",
+      "title": "Eli Lilly continues near-monthly M&A presence with $2.9bn Merida deal",
+      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-continues-near-monthly-ma-presence-with-2-9bn-merida-deal/",
+      "summary": "Merida's lead programme, MER511, is in Phase I development for Graves' disease and thyroid eye disease (TED).",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-31T09:32:23+00:00",
-      "pub_ts": 1788168743
+      "pub_date": "2026-09-01T10:15:13+00:00",
+      "pub_ts": 1788257713
     },
     {
-      "id": "3f1627ae9c",
-      "title": "ESC 2026: Statins show worth despite emergence of PCSK9 inhibitors",
-      "url": "https://www.pharmaceutical-technology.com/news/esc-2026-statins-show-worth-despite-emergence-of-pcsk9-inhibitors/",
-      "summary": "The Australia-based STAREE trial is the first of its kind demonstrating the preventative effects of statins in older patients.",
+      "id": "e49b39036e",
+      "title": "PharmaEssentia’s Besremi receives FDA approval for ET",
+      "url": "https://www.pharmaceutical-technology.com/news/pharmaessentias-besremi-fda-approval-et/",
+      "summary": "The US FDA has approved PharmaEssentia’s Besremi (ropeginterferon alfa-2b-njft) to treat adults with essential thrombocythaemia (ET).",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-08-29T06:25:00+00:00",
-      "pub_ts": 1787984700
+      "pub_date": "2026-09-01T09:05:51+00:00",
+      "pub_ts": 1788253551
     }
   ],
   "source_success_count": 1,
