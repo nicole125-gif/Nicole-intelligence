@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-09-02T03:59:13.538934+00:00",
+  "updated_at": "2026-09-03T03:58:14.223496+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "9fd59f5ce9",
-      "title": "世界生成模型来了3D头部玩家，可进入生产管线的场景级生成时代来临！",
-      "url": "https://mp.weixin.qq.com/s/wuE8zuAnRJwdGf7f4qSBLw",
-      "summary": "世界生成模型来了3D头部玩家，可进入生产管线的场景级生成时代来临！",
+      "id": "928c33e396",
+      "title": "今年最难的机器人Demo，“机器人含量”为0",
+      "url": "https://mp.weixin.qq.com/s/2fBjEf6kDX0245-tMgS5uA",
+      "summary": "今年最难的机器人Demo，“机器人含量”为0",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-02T03:59:09.071832+00:00",
-      "pub_ts": 1788321549
+      "pub_date": "2026-09-03T03:58:10.479361+00:00",
+      "pub_ts": 1788407890
     },
     {
-      "id": "3efa640062",
-      "title": "CodeX记忆系统大更新",
-      "url": "https://mp.weixin.qq.com/s/98tEVto9x3sth_zME4zR8w",
-      "summary": "CodeX记忆系统大更新",
+      "id": "47f23061b1",
+      "title": "具身大脑进了真实世界，难题才刚刚开始",
+      "url": "https://mp.weixin.qq.com/s/1HouUZZP9J9zbwn-NrKsBw",
+      "summary": "具身大脑进了真实世界，难题才刚刚开始",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-02T03:59:09.071864+00:00",
-      "pub_ts": 1788321549
+      "pub_date": "2026-09-03T03:58:10.479409+00:00",
+      "pub_ts": 1788407890
     },
     {
-      "id": "6de01775c8",
-      "title": "“没有Token的CS学生，应立即退学",
-      "url": "https://mp.weixin.qq.com/s/BP-gU8ZSErE-0Ws8FaEwbg",
-      "summary": "“没有Token的CS学生，应立即退学",
+      "id": "0f7f0b24d3",
+      "title": "0.25秒识破未见攻击，这套检测方法没看过任何越狱样本|EMNLP'26",
+      "url": "https://mp.weixin.qq.com/s/BnOCqfSkOIdJohugtc_PSA",
+      "summary": "0.25秒识破未见攻击，这套检测方法没看过任何越狱样本|EMNLP'26",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-02T03:59:09.071876+00:00",
-      "pub_ts": 1788321549
+      "pub_date": "2026-09-03T03:58:10.479431+00:00",
+      "pub_ts": 1788407890
     },
     {
-      "id": "cdc48d78d0",
-      "title": "A社故意黑化Opus，模拟入侵Hugging Face，抱抱脸：?",
-      "url": "https://mp.weixin.qq.com/s/1Rs6Lga9Ezm1cZPiNufV6w",
-      "summary": "A社故意黑化Opus，模拟入侵Hugging Face，抱抱脸：?",
+      "id": "40136be7a6",
+      "title": "神秘具身团队又放出一连串很炸的Demo视频...自进化模型，技术...",
+      "url": "https://mp.weixin.qq.com/s/K6LKLukDaoKXMRpmnGQrBg",
+      "summary": "神秘具身团队又放出一连串很炸的Demo视频...自进化模型，技术...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-02T03:59:09.071888+00:00",
-      "pub_ts": 1788321549
+      "pub_date": "2026-09-03T03:58:10.479450+00:00",
+      "pub_ts": 1788407890
     },
     {
-      "id": "441f60d511",
-      "title": "AIVC只是前菜！复旦提出生命算子，统一生命建模",
-      "url": "https://mp.weixin.qq.com/s/f8djHVqTY0V7BneT4BwNHg",
-      "summary": "AIVC只是前菜！复旦提出生命算子，统一生命建模",
+      "id": "0759a66f9f",
+      "title": "“GPT-6”Astra能力首次公开！浙大同济校友参与研发",
+      "url": "https://mp.weixin.qq.com/s/IbauVSJcNipvMYG7Nb5Lyg",
+      "summary": "“GPT-6”Astra能力首次公开！浙大同济校友参与研发",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-02T03:59:09.071900+00:00",
-      "pub_ts": 1788321549
+      "pub_date": "2026-09-03T03:58:10.479469+00:00",
+      "pub_ts": 1788407890
     }
   ],
   "source_success_count": 1,

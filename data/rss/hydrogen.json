@@ -3,61 +3,101 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-09-02T03:59:23.584866+00:00",
-  "item_count": 5,
+  "updated_at": "2026-09-03T03:58:27.598925+00:00",
+  "item_count": 9,
   "items": [
     {
-      "id": "f796c2c900",
-      "title": "Metz Puts Its First Three Hydrogen Buses on the Road — 34 Solaris Units Planned in Total",
-      "url": "https://fuelcellsworks.com/2026/09/01/fuel-cells/metz-puts-its-first-three-hydrogen-buses-on-the-road-34-solaris-units-planned-in-total",
+      "id": "aca689c4ad",
+      "title": "Wales & West Utilities Sets Its Sights on Low Emission Hydrogen Vehicles",
+      "url": "https://fuelcellsworks.com/2026/09/02/fuel-cells/wales-and-west-utilities-sets-its-sights-on-low-emission-hydrogen-vehicles",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-01T15:26:03+00:00",
-      "pub_ts": 1788276363
+      "pub_date": "2026-09-02T16:04:48+00:00",
+      "pub_ts": 1788365088
     },
     {
-      "id": "b85eea0c96",
-      "title": "DP World Tour Drives Golf’s Green Hydrogen Shift",
-      "url": "https://fuelcellsworks.com/2026/09/01/h2/dp-world-tour-drives-golf-s-green-hydrogen-shift",
+      "id": "2393739fd6",
+      "title": "Dongfeng Hydrogen-Powered Heavy Trucks Are Accelerating Towards Normalized Commercial Operation.",
+      "url": "https://fuelcellsworks.com/2026/09/01/fuel-cells/dongfeng-hydrogen-powered-heavy-trucks-are-accelerating-towards-normalized-commercial-operation",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-01T15:25:12+00:00",
-      "pub_ts": 1788276312
+      "pub_date": "2026-09-02T15:56:19+00:00",
+      "pub_ts": 1788364579
     },
     {
-      "id": "f00845bd03",
-      "title": "First Hydrogen Agreement for Mobile AI-Driven Robotic Ground Drone Platform",
-      "url": "https://fuelcellsworks.com/2026/09/01/fuel-cells/first-hydrogen-agreement-for-mobile-ai-driven-robotic-ground-drone-platform",
+      "id": "3d1ac1c385",
+      "title": "KoneCranes Straddle Carrier Outfitted with zepp.solutions Hydrogen System",
+      "url": "https://fuelcellsworks.com/2026/09/02/h2/konecranes-straddle-carrier-outfitted-with-zepp-solutions-hydrogen-system",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-01T15:08:53+00:00",
-      "pub_ts": 1788275333
+      "pub_date": "2026-09-02T15:47:50+00:00",
+      "pub_ts": 1788364070
     },
     {
-      "id": "87326d2b06",
-      "title": "Dutch Urban Farmer Claims European First for On-Farm Solar Hydrogen Production and Tractor Refuelling",
-      "url": "https://fuelcellsworks.com/2026/08/30/h2/dutch-urban-farmer-claims-european-first-for-on-farm-solar-hydrogen-production-and-tractor-refuelling",
+      "id": "4d966afd88",
+      "title": "SK Innovation E&S and Deokyang Energen Sign MOU to Build Five Combined Hydrogen Refuelling Stations in South Korea",
+      "url": "https://fuelcellsworks.com/2026/09/02/electrolyzer/sk-innovation-e-and-s-and-deokyang-energen-sign-mou-to-build-five-combined-hydrogen-refuelling-stations-in-south-korea",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-01T15:01:28+00:00",
-      "pub_ts": 1788274888
+      "pub_date": "2026-09-02T15:30:02+00:00",
+      "pub_ts": 1788363002
     },
     {
-      "id": "cbcedbf20c",
-      "title": "Camilla Nilsson Appointed CEO of Gen2 Energy",
-      "url": "https://fuelcellsworks.com/2026/09/01/h2/camilla-nilsson-appointed-ceo-of-gen2-energy",
+      "id": "203f04cc21",
+      "title": "Brazil Approves NEBRA Hydrogen Research Facility at Parnaíba Export Zone",
+      "url": "https://fuelcellsworks.com/2026/09/01/h2/brazil-approves-nebra-hydrogen-research-facility-at-parnaiba-export-zone",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-01T14:45:27+00:00",
-      "pub_ts": 1788273927
+      "pub_date": "2026-09-02T15:18:11+00:00",
+      "pub_ts": 1788362291
+    },
+    {
+      "id": "43005cdd00",
+      "title": "US ambassador heads to Laayoune with green hydrogen agreement expected",
+      "url": "https://hydrogen-central.com/us-ambassador-heads-to-laayoune-with-green-hydrogen-agreement-expected/",
+      "summary": "US ambassador heads to Laayoune with green hydrogen agreement expected US Ambassador to Morocco Duke Buchan III is expected to visit Laayoune on Tuesday for meetings with regional officials, elected [&#8230;]\nThe post US ambassador heads to Laayoune with green hydrogen agreement expected appeared fi…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-08-31T22:41:43+00:00",
+      "pub_ts": 1788216103
+    },
+    {
+      "id": "4f4c37197b",
+      "title": "Lewis County Hydrogen Alliance Launches Phase 1 Work to Turn Forest Residuals into Fuel-Grade Hydrogen and Dispatchable Clean Power",
+      "url": "https://hydrogen-central.com/lewis-county-hydrogen-alliance-launches-phase-1-work-to-turn-forest-residuals-into-fuel-grade-hydrogen-and-dispatchable-clean-power/",
+      "summary": "CHEHALIS, Wash. &#8211; July 28, 2026 &#8211; PRLog &#8212; Lewis County Hydrogen Alliance, Inc. (LCH2) today announced the launch of Phase 1 project assessment work for the Lewis County Forestry [&#8230;]\nThe post Lewis County Hydrogen Alliance Launches Phase 1 Work to Turn Forest Residuals into Fu…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-08-31T22:38:38+00:00",
+      "pub_ts": 1788215918
+    },
+    {
+      "id": "ce78ea54bd",
+      "title": "Headwinds sink Air Products / Yara blue hydrogen project",
+      "url": "https://hydrogen-central.com/headwinds-sink-air-products-yara-blue-hydrogen-project/",
+      "summary": "In late June, Air Products cancelled its massive blue hydrogen / blue ammonia Louisiana Clean Energy Complex (LCEC) planned for Ascension Parish, Louisiana. The decision is a huge win for [&#8230;]\nThe post Headwinds sink Air Products / Yara blue hydrogen project appeared first on Hydrogen Central.",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-08-31T22:33:51+00:00",
+      "pub_ts": 1788215631
+    },
+    {
+      "id": "18d41ae498",
+      "title": "Hyroad Energy Deploys Hydrogen Refueling Station, Enabling Fuel Access for Southern California Trucking Fleets",
+      "url": "https://hydrogen-central.com/hyroad-energy-deploys-hydrogen-refueling-station-enabling-fuel-access-for-southern-california-trucking-fleets/",
+      "summary": "AUSTIN, Texas, July 29, 2026 /PRNewswire/ &#8212; Hyroad Energy, an independent solution provider operationalizing hydrogen-fueled commercial trucking for fleets, today announced a hydrogen refueling station is officially open in Santa [&#8230;]\nThe post Hyroad Energy Deploys Hydrogen Refueling Stat…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-08-31T22:28:54+00:00",
+      "pub_ts": 1788215334
     }
   ],
-  "source_success_count": 1,
+  "source_success_count": 2,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }

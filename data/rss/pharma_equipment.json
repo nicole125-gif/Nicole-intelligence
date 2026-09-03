@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-09-02T03:59:36.371347+00:00",
+  "updated_at": "2026-09-03T03:58:40.023168+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "c645702147",
-      "title": "ESC 2026: Tirzepatide 5mg sustains cardiometabolic benefit with weight maintenance",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/esc-2026-tirzepatide-5mg-sustains-cardiometabolic-benefit-with-weight-maintenance/",
-      "summary": "KOLs interviewed by GlobalData consistently recognized tirzepatide's cardiometabolic value as extending well beyond weight loss alone.",
+      "id": "5c8a8f5059",
+      "title": "FDA cracks down on online black market for weight loss peptides",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-cracks-down-on-black-market-peptide-trade/",
+      "summary": "The FDA's latest efforts to curb the illicit US medicines trade are primarily centred around weight loss and fat-reducing peptides.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-01T18:53:23+00:00",
-      "pub_ts": 1788288803
+      "pub_date": "2026-09-02T16:22:50+00:00",
+      "pub_ts": 1788366170
     },
     {
-      "id": "07566c31b6",
-      "title": "Why CMC readiness is becoming central to biopharma licensing deals",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/why-cmc-readiness-is-becoming-central-to-biopharma-licensing-deals/",
-      "summary": "CMC readiness is becoming critical in biopharma licensing as partners demand proof an asset can be transferred, scaled and supplied",
+      "id": "ca7e0a54be",
+      "title": "Roche licenses Simcere’s B-cell-targeting tri-specific for $1.53bn",
+      "url": "https://www.pharmaceutical-technology.com/news/roche-licenses-simceres-b-cell-targeting-tri-specific-for-1-53bn/",
+      "summary": "The antibody is designed to provide broad coverage across B-cell mediated diseases and might have autoimmune therapeutic potential.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-01T13:59:47+00:00",
-      "pub_ts": 1788271187
+      "pub_date": "2026-09-02T15:06:38+00:00",
+      "pub_ts": 1788361598
     },
     {
-      "id": "405f32cf97",
-      "title": "Trump lines up MFN deals with nine mid-size pharmas on drug pricing push",
-      "url": "https://www.pharmaceutical-technology.com/news/trump-mfn-drug-pricing-deal-mid-sized-pharma/",
-      "summary": "These White House deals will require the nine midsize pharma companies to provide MFN prices to state Medicaid programmes nationally.",
+      "id": "7edb4841f0",
+      "title": "Peptide innovator says the drug class is due for a rethink",
+      "url": "https://www.pharmaceutical-technology.com/features/peptide-innovator-says-the-drug-class-is-due-for-a-rethink/",
+      "summary": "Karsten Eastman, CEO of Sethera Therapeutics, discusses developments in peptides from cutting-edge innovation to mass consumption.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-01T11:05:16+00:00",
-      "pub_ts": 1788260716
+      "pub_date": "2026-09-02T11:05:21+00:00",
+      "pub_ts": 1788347121
     },
     {
-      "id": "85f1688557",
-      "title": "Eli Lilly continues near-monthly M&A presence with $2.9bn Merida deal",
-      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-continues-near-monthly-ma-presence-with-2-9bn-merida-deal/",
-      "summary": "Merida's lead programme, MER511, is in Phase I development for Graves' disease and thyroid eye disease (TED).",
+      "id": "da0b3fe294",
+      "title": "How to avoid common contamination control mistakes in new aseptic facilities",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/how-to-avoid-common-contamination-control-mistakes-in-new-aseptic-facilities/",
+      "summary": "As soaring biologics demand drives new aseptic facility construction, manufacturers face stricter regulatory scrutiny.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-01T10:15:13+00:00",
-      "pub_ts": 1788257713
+      "pub_date": "2026-09-02T10:03:11+00:00",
+      "pub_ts": 1788343391
     },
     {
-      "id": "e49b39036e",
-      "title": "PharmaEssentia’s Besremi receives FDA approval for ET",
-      "url": "https://www.pharmaceutical-technology.com/news/pharmaessentias-besremi-fda-approval-et/",
-      "summary": "The US FDA has approved PharmaEssentia’s Besremi (ropeginterferon alfa-2b-njft) to treat adults with essential thrombocythaemia (ET).",
+      "id": "83e84d8ab2",
+      "title": "Ono Pharmaceutical joins forces with Aitia for drug discovery in neurology",
+      "url": "https://www.pharmaceutical-technology.com/news/ono-pharmaceutical-aitia-drug-discovery-neurology/",
+      "summary": "Ono Pharmaceutical has signed an agreement with US biotechnology company Aitia to collaborate on drug discovery in neurological diseases.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-01T09:05:51+00:00",
-      "pub_ts": 1788253551
+      "pub_date": "2026-09-02T09:12:41+00:00",
+      "pub_ts": 1788340361
     }
   ],
   "source_success_count": 1,
