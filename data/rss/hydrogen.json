@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-09-03T03:58:27.598925+00:00",
+  "updated_at": "2026-09-04T04:00:13.155353+00:00",
   "item_count": 9,
   "items": [
     {
-      "id": "aca689c4ad",
-      "title": "Wales & West Utilities Sets Its Sights on Low Emission Hydrogen Vehicles",
-      "url": "https://fuelcellsworks.com/2026/09/02/fuel-cells/wales-and-west-utilities-sets-its-sights-on-low-emission-hydrogen-vehicles",
+      "id": "be5355a21d",
+      "title": "Fraunhofer IMM Develops System Solution for Ammonia-Powered Engines in Inland Water-Way Shipping",
+      "url": "https://fuelcellsworks.com/2026/09/02/h2/fraunhofer-imm-develops-system-solution-for-ammonia-powered-engines-in-inland-water-way-shipping",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-02T16:04:48+00:00",
-      "pub_ts": 1788365088
+      "pub_date": "2026-09-03T15:47:08+00:00",
+      "pub_ts": 1788450428
     },
     {
-      "id": "2393739fd6",
-      "title": "Dongfeng Hydrogen-Powered Heavy Trucks Are Accelerating Towards Normalized Commercial Operation.",
-      "url": "https://fuelcellsworks.com/2026/09/01/fuel-cells/dongfeng-hydrogen-powered-heavy-trucks-are-accelerating-towards-normalized-commercial-operation",
+      "id": "a3a3eceb69",
+      "title": "ERA Backs Two Alberta Hydrogen Refuelling Projects — C$8 Million for Brooks Newell Hub and Azolla's Methanol-to-Hydrogen System",
+      "url": "https://fuelcellsworks.com/2026/09/02/h2/era-backs-two-alberta-hydrogen-refuelling-projects-c-8-million-for-brooks-newell-hub-and-azolla-s-methanol-to-hydrogen-system",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-02T15:56:19+00:00",
-      "pub_ts": 1788364579
+      "pub_date": "2026-09-03T15:45:27+00:00",
+      "pub_ts": 1788450327
     },
     {
-      "id": "3d1ac1c385",
-      "title": "KoneCranes Straddle Carrier Outfitted with zepp.solutions Hydrogen System",
-      "url": "https://fuelcellsworks.com/2026/09/02/h2/konecranes-straddle-carrier-outfitted-with-zepp-solutions-hydrogen-system",
+      "id": "cb6c847dd4",
+      "title": "50 Partners Join Forces to Plan Hydrogen Distribution Network Across Eastern Germany",
+      "url": "https://fuelcellsworks.com/2026/09/02/h2/50-partners-join-forces-to-plan-hydrogen-distribution-network-across-eastern-germany",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-02T15:47:50+00:00",
-      "pub_ts": 1788364070
+      "pub_date": "2026-09-03T15:41:19+00:00",
+      "pub_ts": 1788450079
     },
     {
-      "id": "4d966afd88",
-      "title": "SK Innovation E&S and Deokyang Energen Sign MOU to Build Five Combined Hydrogen Refuelling Stations in South Korea",
-      "url": "https://fuelcellsworks.com/2026/09/02/electrolyzer/sk-innovation-e-and-s-and-deokyang-energen-sign-mou-to-build-five-combined-hydrogen-refuelling-stations-in-south-korea",
+      "id": "fc5c6304c2",
+      "title": "ORLEN Forms New Baltic Energy Alliance, Hydrogen and CCS Markets Included",
+      "url": "https://fuelcellsworks.com/2026/09/03/h2/orlen-forms-14-member-baltic-energy-alliance-to-build-regional-hydrogen-and-ccs-markets",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-02T15:30:02+00:00",
-      "pub_ts": 1788363002
+      "pub_date": "2026-09-03T15:39:03+00:00",
+      "pub_ts": 1788449943
     },
     {
-      "id": "203f04cc21",
-      "title": "Brazil Approves NEBRA Hydrogen Research Facility at Parnaíba Export Zone",
-      "url": "https://fuelcellsworks.com/2026/09/01/h2/brazil-approves-nebra-hydrogen-research-facility-at-parnaiba-export-zone",
+      "id": "7199d52bc3",
+      "title": "South Korean Lawmakers Pledge Hydrogen Industry Bills After Hyundai R&D Visit",
+      "url": "https://fuelcellsworks.com/2026/09/02/fuel-cells/south-korean-lawmakers-pledge-hydrogen-industry-bills-after-hyundai-r-and-d-visit",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-02T15:18:11+00:00",
-      "pub_ts": 1788362291
+      "pub_date": "2026-09-03T15:27:17+00:00",
+      "pub_ts": 1788449237
     },
     {
       "id": "43005cdd00",

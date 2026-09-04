@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-09-03T03:58:14.223496+00:00",
+  "updated_at": "2026-09-04T03:59:57.753167+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "928c33e396",
-      "title": "今年最难的机器人Demo，“机器人含量”为0",
-      "url": "https://mp.weixin.qq.com/s/2fBjEf6kDX0245-tMgS5uA",
-      "summary": "今年最难的机器人Demo，“机器人含量”为0",
+      "id": "52d3e194f2",
+      "title": "李飞飞刚发Atlas，中国开源“同款”已抢跑半年？",
+      "url": "https://mp.weixin.qq.com/s/5jdIzvnL4zIBD3NaTdB8xg",
+      "summary": "李飞飞刚发Atlas，中国开源“同款”已抢跑半年？",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-03T03:58:10.479361+00:00",
-      "pub_ts": 1788407890
+      "pub_date": "2026-09-04T03:59:53.294268+00:00",
+      "pub_ts": 1788494393
     },
     {
-      "id": "47f23061b1",
-      "title": "具身大脑进了真实世界，难题才刚刚开始",
-      "url": "https://mp.weixin.qq.com/s/1HouUZZP9J9zbwn-NrKsBw",
-      "summary": "具身大脑进了真实世界，难题才刚刚开始",
+      "id": "1bf66e7f66",
+      "title": "腾讯WorkBuddy联名硬件来了！首批100多家伙伴入场",
+      "url": "https://mp.weixin.qq.com/s/budkTWZoetb-c4-XDjg_EQ",
+      "summary": "腾讯WorkBuddy联名硬件来了！首批100多家伙伴入场",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-03T03:58:10.479409+00:00",
-      "pub_ts": 1788407890
+      "pub_date": "2026-09-04T03:59:53.294314+00:00",
+      "pub_ts": 1788494393
     },
     {
-      "id": "0f7f0b24d3",
-      "title": "0.25秒识破未见攻击，这套检测方法没看过任何越狱样本|EMNLP'26",
-      "url": "https://mp.weixin.qq.com/s/BnOCqfSkOIdJohugtc_PSA",
-      "summary": "0.25秒识破未见攻击，这套检测方法没看过任何越狱样本|EMNLP'26",
+      "id": "5737837688",
+      "title": "陈大年复出，入局大模型",
+      "url": "https://mp.weixin.qq.com/s/365CtdgGYFlEKNDICtoCfg",
+      "summary": "陈大年复出，入局大模型",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-03T03:58:10.479431+00:00",
-      "pub_ts": 1788407890
+      "pub_date": "2026-09-04T03:59:53.294336+00:00",
+      "pub_ts": 1788494393
     },
     {
-      "id": "40136be7a6",
-      "title": "神秘具身团队又放出一连串很炸的Demo视频...自进化模型，技术...",
-      "url": "https://mp.weixin.qq.com/s/K6LKLukDaoKXMRpmnGQrBg",
-      "summary": "神秘具身团队又放出一连串很炸的Demo视频...自进化模型，技术...",
+      "id": "e57378e58d",
+      "title": "火速吃瓜，OpenAI模型还没发又惹出争议了？？",
+      "url": "https://mp.weixin.qq.com/s/ZH_XE7qP-RmKUo21XFrmow",
+      "summary": "火速吃瓜，OpenAI模型还没发又惹出争议了？？",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-03T03:58:10.479450+00:00",
-      "pub_ts": 1788407890
+      "pub_date": "2026-09-04T03:59:53.294356+00:00",
+      "pub_ts": 1788494393
     },
     {
-      "id": "0759a66f9f",
-      "title": "“GPT-6”Astra能力首次公开！浙大同济校友参与研发",
-      "url": "https://mp.weixin.qq.com/s/IbauVSJcNipvMYG7Nb5Lyg",
-      "summary": "“GPT-6”Astra能力首次公开！浙大同济校友参与研发",
+      "id": "66ccc5bb4b",
+      "title": "卡车自动驾驶里程超10亿公里，赢彻科技定义“货运物理AI”",
+      "url": "https://mp.weixin.qq.com/s/OJBbYSnBIjVBKJMC0L2n4w",
+      "summary": "卡车自动驾驶里程超10亿公里，赢彻科技定义“货运物理AI”",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-03T03:58:10.479469+00:00",
-      "pub_ts": 1788407890
+      "pub_date": "2026-09-04T03:59:53.294376+00:00",
+      "pub_ts": 1788494393
     }
   ],
   "source_success_count": 1,

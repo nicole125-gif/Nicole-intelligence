@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-09-03T03:58:40.023168+00:00",
+  "updated_at": "2026-09-04T04:00:25.993262+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "5c8a8f5059",
-      "title": "FDA cracks down on online black market for weight loss peptides",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-cracks-down-on-black-market-peptide-trade/",
-      "summary": "The FDA's latest efforts to curb the illicit US medicines trade are primarily centred around weight loss and fat-reducing peptides.",
+      "id": "77c284b531",
+      "title": "ESC 2026: oral and injectable GLP-1 comparisons under the spotlight",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/esc-2026-oral-and-injectable-glp-1-comparisons-under-the-spotlight/",
+      "summary": "At ESC 2026, a session presented by Dr Domenica Rubino covered the considerations to take into account when comparing oral and injectable formulations of GLP-1 therapies.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-02T16:22:50+00:00",
-      "pub_ts": 1788366170
+      "pub_date": "2026-09-03T14:04:21+00:00",
+      "pub_ts": 1788444261
     },
     {
-      "id": "ca7e0a54be",
-      "title": "Roche licenses Simcere’s B-cell-targeting tri-specific for $1.53bn",
-      "url": "https://www.pharmaceutical-technology.com/news/roche-licenses-simceres-b-cell-targeting-tri-specific-for-1-53bn/",
-      "summary": "The antibody is designed to provide broad coverage across B-cell mediated diseases and might have autoimmune therapeutic potential.",
+      "id": "bd02d33e4b",
+      "title": "GSK licenses HUTCHMED’s solid tumour conjugate in up to $1.3bn deal",
+      "url": "https://www.pharmaceutical-technology.com/news/gsk-licenses-hutchmeds-solid-tumour-conjugate-in-up-to-1-3bn-deal/",
+      "summary": "HMPL-A830 is an antibody-targeted therapy conjugate (ATTC) that selectively delivers a therapeutic drug to cancer cells, while sparing healthy tissue.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-02T15:06:38+00:00",
-      "pub_ts": 1788361598
+      "pub_date": "2026-09-03T10:57:43+00:00",
+      "pub_ts": 1788433063
     },
     {
-      "id": "7edb4841f0",
-      "title": "Peptide innovator says the drug class is due for a rethink",
-      "url": "https://www.pharmaceutical-technology.com/features/peptide-innovator-says-the-drug-class-is-due-for-a-rethink/",
-      "summary": "Karsten Eastman, CEO of Sethera Therapeutics, discusses developments in peptides from cutting-edge innovation to mass consumption.",
+      "id": "b8254a7ec0",
+      "title": "Typewriter raises $56m Series A to progress non-viral gene therapy platform",
+      "url": "https://www.pharmaceutical-technology.com/news/typewriter-emerges-from-stealth-in-vivo-gene-therapy-platform-56m/",
+      "summary": "Typewriter harnesses a non-viral approach as viral vectors increasingly come under the spotlight for their associated safety risks.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-02T11:05:21+00:00",
-      "pub_ts": 1788347121
+      "pub_date": "2026-09-03T10:45:02+00:00",
+      "pub_ts": 1788432302
     },
     {
-      "id": "da0b3fe294",
-      "title": "How to avoid common contamination control mistakes in new aseptic facilities",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/how-to-avoid-common-contamination-control-mistakes-in-new-aseptic-facilities/",
-      "summary": "As soaring biologics demand drives new aseptic facility construction, manufacturers face stricter regulatory scrutiny.",
+      "id": "aaa05c3952",
+      "title": "Biocytogen and Qilu Pharmaceutical sign agreement for VHH antibody molecule",
+      "url": "https://www.pharmaceutical-technology.com/news/biocytogen-qilu-pharmaceutical-vhh-antibody-molecule/",
+      "summary": "Biocytogen Pharmaceuticals has entered into a non-exclusive licensing agreement with Qilu Pharmaceutical for a fully human VHH antibody molecule.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-02T10:03:11+00:00",
-      "pub_ts": 1788343391
+      "pub_date": "2026-09-03T08:54:20+00:00",
+      "pub_ts": 1788425660
     },
     {
-      "id": "83e84d8ab2",
-      "title": "Ono Pharmaceutical joins forces with Aitia for drug discovery in neurology",
-      "url": "https://www.pharmaceutical-technology.com/news/ono-pharmaceutical-aitia-drug-discovery-neurology/",
-      "summary": "Ono Pharmaceutical has signed an agreement with US biotechnology company Aitia to collaborate on drug discovery in neurological diseases.",
+      "id": "b0149def54",
+      "title": "Novartis signs $3.2bn drug delivery deal with Alteogen",
+      "url": "https://www.pharmaceutical-technology.com/news/novartis-3bn-agreement-alteogen-drug-delivery/",
+      "summary": "Novartis has signed an agreement with Alteogen that could be worth up to $3.22bn for the development and commercialisation of subcutaneous drug formulations using Alteogen’s ALT-B4 technology.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-02T09:12:41+00:00",
-      "pub_ts": 1788340361
+      "pub_date": "2026-09-03T08:37:52+00:00",
+      "pub_ts": 1788424672
     }
   ],
   "source_success_count": 1,
