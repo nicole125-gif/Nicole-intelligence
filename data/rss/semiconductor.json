@@ -3,78 +3,108 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-09-04T03:59:43.303638+00:00",
-  "item_count": 12,
+  "updated_at": "2026-09-05T03:56:45.833569+00:00",
+  "item_count": 14,
   "items": [
     {
-      "id": "d7c0ce01ad",
-      "title": "晶圆代工业，集体涨涨涨！",
-      "url": "https://mp.weixin.qq.com/s/wTw1_cSijNYQoXb3vSOlrg",
-      "summary": "晶圆代工业，集体涨涨涨！",
+      "id": "b8555749c2",
+      "title": "华为韬定律，再次被更新！",
+      "url": "https://mp.weixin.qq.com/s/X3lcTu8epitXV04X2hXZXQ",
+      "summary": "华为韬定律，再次被更新！",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-04T03:59:39.163241+00:00",
-      "pub_ts": 1788494379
+      "pub_date": "2026-09-05T03:56:41.566599+00:00",
+      "pub_ts": 1788580601
     },
     {
-      "id": "5a293889c2",
-      "title": "澜起科技：CXL3.2 MXC芯片，已导入三星、SK海力士",
-      "url": "https://mp.weixin.qq.com/s/_M2_GGp_l87oMxBzyPZIvQ",
-      "summary": "澜起科技：CXL3.2 MXC芯片，已导入三星、SK海力士",
+      "id": "73961cd330",
+      "title": "AI四年洗牌半导体：有人暴涨16.7倍，有人几乎零增长",
+      "url": "https://mp.weixin.qq.com/s/r9H9NOzY3O_JUWRxmRYYWg",
+      "summary": "AI四年洗牌半导体：有人暴涨16.7倍，有人几乎零增长",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-04T03:59:39.163287+00:00",
-      "pub_ts": 1788494379
+      "pub_date": "2026-09-05T03:56:41.566682+00:00",
+      "pub_ts": 1788580601
     },
     {
-      "id": "93456e8af1",
-      "title": "重磅发布！SENSORCHINA2026展商名单新鲜出炉！5大核心亮点，…",
-      "url": "https://mp.weixin.qq.com/s/W39e4Kc99ALxC8WJQDt5Xg",
-      "summary": "重磅发布！SENSORCHINA2026展商名单新鲜出炉！5大核心亮点，…",
+      "id": "1fe6036e72",
+      "title": "CPU没那么缺了，PC厂商涨价压力拉满",
+      "url": "https://mp.weixin.qq.com/s/c-B7TasZmqjULqafjskysg",
+      "summary": "CPU没那么缺了，PC厂商涨价压力拉满",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-04T03:59:39.163310+00:00",
-      "pub_ts": 1788494379
+      "pub_date": "2026-09-05T03:56:41.566706+00:00",
+      "pub_ts": 1788580601
     },
     {
-      "id": "d5b1cd45e5",
-      "title": "关于CPO和面板级封装，泛林最新判断",
-      "url": "https://mp.weixin.qq.com/s/1vohSkI80R0TSg-_PwnQMw",
-      "summary": "关于CPO和面板级封装，泛林最新判断",
+      "id": "e18ed1139a",
+      "title": "增23%",
+      "url": "https://mp.weixin.qq.com/s/jNo0TKkPYXIAuS9A8A95KQ",
+      "summary": "增23%",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-04T03:59:39.163332+00:00",
-      "pub_ts": 1788494379
+      "pub_date": "2026-09-05T03:56:41.566728+00:00",
+      "pub_ts": 1788580601
     },
     {
-      "id": "275862bc62",
-      "title": "甩开一众对手，博通悄悄拿下AI最赚钱赛道",
-      "url": "https://mp.weixin.qq.com/s/KXQ0UiJ2frDBPid8CAMAlg",
-      "summary": "甩开一众对手，博通悄悄拿下AI最赚钱赛道",
-      "source": "半导体产业纵横",
-      "lang": "zh",
-      "pub_date": "2026-09-04T03:59:39.163351+00:00",
-      "pub_ts": 1788494379
-    },
-    {
-      "id": "ca9e1a14a1",
-      "title": "精智达，签订15.76亿大单",
-      "url": "https://mp.weixin.qq.com/s/QruutUj3tzqGToTKWxBqzg",
-      "summary": "精智达，签订15.76亿大单",
+      "id": "204964c337",
+      "title": "320万像素SPAD光子计数成像芯片，国内首发，填补空白！",
+      "url": "https://mp.weixin.qq.com/s/lyoeMMAgV9C-j9CdnZpsQg",
+      "summary": "320万像素SPAD光子计数成像芯片，国内首发，填补空白！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-04T03:59:27.271184+00:00",
-      "pub_ts": 1788494367
+      "pub_date": "2026-09-05T03:56:29.085182+00:00",
+      "pub_ts": 1788580589
     },
     {
-      "id": "f2ca9c588a",
-      "title": "为何都盯上了硅光?",
-      "url": "https://mp.weixin.qq.com/s/Nrpos4VkEps3N8ZMjikoLw",
-      "summary": "为何都盯上了硅光?",
+      "id": "62c741981c",
+      "title": "混合键合，碰壁了?",
+      "url": "https://mp.weixin.qq.com/s/7q7VwkBpplpdDQd5-ZPw3Q",
+      "summary": "混合键合，碰壁了?",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-04T03:59:27.271239+00:00",
-      "pub_ts": 1788494367
+      "pub_date": "2026-09-05T03:56:29.085233+00:00",
+      "pub_ts": 1788580589
+    },
+    {
+      "id": "7e48714894",
+      "title": "三星HBM市占飙升，直逼 SK海力士",
+      "url": "https://mp.weixin.qq.com/s/5_kJzL-Wio6IZFVW85rk6g",
+      "summary": "三星HBM市占飙升，直逼 SK海力士",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-09-05T03:56:29.085258+00:00",
+      "pub_ts": 1788580589
+    },
+    {
+      "id": "e7b828e85e",
+      "title": "外媒：绝不能让英伟达收购HuggingFace",
+      "url": "https://mp.weixin.qq.com/s/cmtcbuXXWVe9o-wmXiQoYg",
+      "summary": "外媒：绝不能让英伟达收购HuggingFace",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-09-05T03:56:29.085281+00:00",
+      "pub_ts": 1788580589
+    },
+    {
+      "id": "eac3a96bec",
+      "title": "光芯片，Marvell的最强底牌",
+      "url": "https://mp.weixin.qq.com/s/qswphWHYuid3PrAMZJDLQQ",
+      "summary": "光芯片，Marvell的最强底牌",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-09-05T03:56:29.085303+00:00",
+      "pub_ts": 1788580589
+    },
+    {
+      "id": "82b920fd59",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-154/",
+      "summary": "2D Tunnel FET; in-memory photonic computing; India's $13.4B Semicon 2.0; SEMICON Taiwan; PCIe 6/7 test; MediaTek deal; 300mm Si photonics; InP expansion; $75M to recycle rare earths; GF PDKs; Gain-Cell RAM; edge AI developer tools;  heterogeneous HBM; safe AI in SDVs.\nThe post Chip Industry Week In …",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-09-04T07:01:21+00:00",
+      "pub_ts": 1788505281
     },
     {
       "id": "0ee0fa5bfd",
@@ -115,16 +145,6 @@
       "lang": "en",
       "pub_date": "2026-09-03T07:03:07+00:00",
       "pub_ts": 1788418987
-    },
-    {
-      "id": "015406e042",
-      "title": "AI Is Forcing Data Centers To Rethink Trust",
-      "url": "https://semiengineering.com/ai-is-forcing-data-centers-to-rethink-trust/",
-      "summary": "Exploding compute demand is exposing new gaps across the hardware supply chain, from chip identity and firmware integrity to post-quantum readiness.\nThe post AI Is Forcing Data Centers To Rethink Trust appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-09-03T07:02:45+00:00",
-      "pub_ts": 1788418965
     }
   ],
   "source_success_count": 3,

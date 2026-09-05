@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-09-04T04:00:25.993262+00:00",
+  "updated_at": "2026-09-05T03:57:22.844505+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "77c284b531",
-      "title": "ESC 2026: oral and injectable GLP-1 comparisons under the spotlight",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/esc-2026-oral-and-injectable-glp-1-comparisons-under-the-spotlight/",
-      "summary": "At ESC 2026, a session presented by Dr Domenica Rubino covered the considerations to take into account when comparing oral and injectable formulations of GLP-1 therapies.",
+      "id": "c39d7d7009",
+      "title": "Pineapples and green tea: FDA turns to public for new approaches to botanical drugs",
+      "url": "https://www.pharmaceutical-technology.com/news/pineapples-and-green-tea-fda-turns-to-public-for-new-approaches-to-botanical-drugs/",
+      "summary": "The FDA is looking to modernise its regulatory framework for drugs derived from plants, algae, and fungi.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-03T14:04:21+00:00",
-      "pub_ts": 1788444261
+      "pub_date": "2026-09-04T10:29:40+00:00",
+      "pub_ts": 1788517780
     },
     {
-      "id": "bd02d33e4b",
-      "title": "GSK licenses HUTCHMED’s solid tumour conjugate in up to $1.3bn deal",
-      "url": "https://www.pharmaceutical-technology.com/news/gsk-licenses-hutchmeds-solid-tumour-conjugate-in-up-to-1-3bn-deal/",
-      "summary": "HMPL-A830 is an antibody-targeted therapy conjugate (ATTC) that selectively delivers a therapeutic drug to cancer cells, while sparing healthy tissue.",
+      "id": "d9dcce9495",
+      "title": "Ionis nets Zanvastro US approval in first for Alexander disease",
+      "url": "https://www.pharmaceutical-technology.com/news/ionis-zanvastro-us-fda-approval-alexander-disease/",
+      "summary": "Ionis claims Zanvastro will become available to US patients with rare neurodegenerative condition, Alexander disease “in the coming weeks”.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-03T10:57:43+00:00",
-      "pub_ts": 1788433063
+      "pub_date": "2026-09-04T10:27:04+00:00",
+      "pub_ts": 1788517624
     },
     {
-      "id": "b8254a7ec0",
-      "title": "Typewriter raises $56m Series A to progress non-viral gene therapy platform",
-      "url": "https://www.pharmaceutical-technology.com/news/typewriter-emerges-from-stealth-in-vivo-gene-therapy-platform-56m/",
-      "summary": "Typewriter harnesses a non-viral approach as viral vectors increasingly come under the spotlight for their associated safety risks.",
+      "id": "6279e7aec1",
+      "title": "FDA rallies HRT manufacturers amid US-wide estradiol patch shortage",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-rallies-hrt-manufacturers-amid-us-estradiol-patch-shortage/",
+      "summary": "The uptick in demand for HRT comes shortly after the FDA removed the long-standing black box label warning from such products.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-03T10:45:02+00:00",
-      "pub_ts": 1788432302
+      "pub_date": "2026-09-04T10:20:42+00:00",
+      "pub_ts": 1788517242
     },
     {
-      "id": "aaa05c3952",
-      "title": "Biocytogen and Qilu Pharmaceutical sign agreement for VHH antibody molecule",
-      "url": "https://www.pharmaceutical-technology.com/news/biocytogen-qilu-pharmaceutical-vhh-antibody-molecule/",
-      "summary": "Biocytogen Pharmaceuticals has entered into a non-exclusive licensing agreement with Qilu Pharmaceutical for a fully human VHH antibody molecule.",
+      "id": "a96302745c",
+      "title": "Superluminal Medicines secures $60m to advance rare obesity therapy",
+      "url": "https://www.pharmaceutical-technology.com/news/superluminal-60m-advance-rare-obesity-therapy/",
+      "summary": "Superluminal Medicines has completed a $60m Series B round to support its research into therapies for rare genetic forms of obesity.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-03T08:54:20+00:00",
-      "pub_ts": 1788425660
+      "pub_date": "2026-09-04T09:18:50+00:00",
+      "pub_ts": 1788513530
     },
     {
-      "id": "b0149def54",
-      "title": "Novartis signs $3.2bn drug delivery deal with Alteogen",
-      "url": "https://www.pharmaceutical-technology.com/news/novartis-3bn-agreement-alteogen-drug-delivery/",
-      "summary": "Novartis has signed an agreement with Alteogen that could be worth up to $3.22bn for the development and commercialisation of subcutaneous drug formulations using Alteogen’s ALT-B4 technology.",
+      "id": "8f5f1bdba1",
+      "title": "Médunik and Biocodex sign exclusive agreement for Diacomit in Canada",
+      "url": "https://www.pharmaceutical-technology.com/news/medunik-biocodex-diacomit-canada/",
+      "summary": "Médunik Canada has entered into an exclusive promotional services agreement with Biocodex for Diacomit, a medication approved in Canada as an add-on therapy for seizures associated with Dravet syndrome.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-03T08:37:52+00:00",
-      "pub_ts": 1788424672
+      "pub_date": "2026-09-04T08:42:01+00:00",
+      "pub_ts": 1788511321
     }
   ],
   "source_success_count": 1,

@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-09-04T04:00:13.155353+00:00",
+  "updated_at": "2026-09-05T03:57:10.347417+00:00",
   "item_count": 9,
   "items": [
     {
-      "id": "be5355a21d",
-      "title": "Fraunhofer IMM Develops System Solution for Ammonia-Powered Engines in Inland Water-Way Shipping",
-      "url": "https://fuelcellsworks.com/2026/09/02/h2/fraunhofer-imm-develops-system-solution-for-ammonia-powered-engines-in-inland-water-way-shipping",
+      "id": "029738fe4c",
+      "title": "DHL Freight Adds Second Hydrogen Truck in Netherlands — This One in Houten for Trans24",
+      "url": "https://fuelcellsworks.com/2026/08/27/fuel-cells/dhl-freight-adds-second-hydrogen-truck-in-netherlands-this-one-in-houten-for-trans24",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-03T15:47:08+00:00",
-      "pub_ts": 1788450428
+      "pub_date": "2026-09-04T16:07:19+00:00",
+      "pub_ts": 1788538039
     },
     {
-      "id": "a3a3eceb69",
-      "title": "ERA Backs Two Alberta Hydrogen Refuelling Projects — C$8 Million for Brooks Newell Hub and Azolla's Methanol-to-Hydrogen System",
-      "url": "https://fuelcellsworks.com/2026/09/02/h2/era-backs-two-alberta-hydrogen-refuelling-projects-c-8-million-for-brooks-newell-hub-and-azolla-s-methanol-to-hydrogen-system",
+      "id": "2e04c401ba",
+      "title": "Essity Invests £2.85 Million in Hydrogen-Ready Burners at Oakenholt Mill in North Wales",
+      "url": "https://fuelcellsworks.com/2026/09/02/h2/essity-invests-2-85-million-in-hydrogen-ready-burners-at-oakenholt-mill-in-north-wales",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-03T15:45:27+00:00",
-      "pub_ts": 1788450327
+      "pub_date": "2026-09-04T15:54:06+00:00",
+      "pub_ts": 1788537246
     },
     {
-      "id": "cb6c847dd4",
-      "title": "50 Partners Join Forces to Plan Hydrogen Distribution Network Across Eastern Germany",
-      "url": "https://fuelcellsworks.com/2026/09/02/h2/50-partners-join-forces-to-plan-hydrogen-distribution-network-across-eastern-germany",
+      "id": "54c7239a87",
+      "title": "TU Graz Commissions 1.25MW Hydrogen Engine to Cover University's Base Electricity Load During Trials",
+      "url": "https://fuelcellsworks.com/2026/09/02/electrolyzer/tu-graz-commissions-1-25mw-hydrogen-engine-to-cover-university-s-base-electricity-load-during-trials",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-03T15:41:19+00:00",
-      "pub_ts": 1788450079
+      "pub_date": "2026-09-04T15:36:37+00:00",
+      "pub_ts": 1788536197
     },
     {
-      "id": "fc5c6304c2",
-      "title": "ORLEN Forms New Baltic Energy Alliance, Hydrogen and CCS Markets Included",
-      "url": "https://fuelcellsworks.com/2026/09/03/h2/orlen-forms-14-member-baltic-energy-alliance-to-build-regional-hydrogen-and-ccs-markets",
+      "id": "d62a371441",
+      "title": "€1.5M [$1.74M] Grant Backs Research Into Hydrogen Leaks, Ignition and Flame Spread",
+      "url": "https://fuelcellsworks.com/2026/09/03/h2/1-5m-1-74m-grant-backs-research-into-hydrogen-leaks-ignition-and-flame-spread",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-03T15:39:03+00:00",
-      "pub_ts": 1788449943
+      "pub_date": "2026-09-04T15:29:34+00:00",
+      "pub_ts": 1788535774
     },
     {
-      "id": "7199d52bc3",
-      "title": "South Korean Lawmakers Pledge Hydrogen Industry Bills After Hyundai R&D Visit",
-      "url": "https://fuelcellsworks.com/2026/09/02/fuel-cells/south-korean-lawmakers-pledge-hydrogen-industry-bills-after-hyundai-r-and-d-visit",
+      "id": "1f27c89841",
+      "title": "KBR to Design Nebraska E-NG Project Using 250MW of Renewable Hydrogen Electrolysis",
+      "url": "https://fuelcellsworks.com/2026/09/03/electrolyzer/kbr-to-design-nebraska-e-ng-project-using-250mw-of-renewable-hydrogen-electrolysis",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-03T15:27:17+00:00",
-      "pub_ts": 1788449237
+      "pub_date": "2026-09-04T15:12:52+00:00",
+      "pub_ts": 1788534772
     },
     {
       "id": "43005cdd00",

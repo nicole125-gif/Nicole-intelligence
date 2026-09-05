@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-09-04T03:59:57.753167+00:00",
+  "updated_at": "2026-09-05T03:56:59.631481+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "52d3e194f2",
-      "title": "李飞飞刚发Atlas，中国开源“同款”已抢跑半年？",
-      "url": "https://mp.weixin.qq.com/s/5jdIzvnL4zIBD3NaTdB8xg",
-      "summary": "李飞飞刚发Atlas，中国开源“同款”已抢跑半年？",
+      "id": "8b2fdbe36f",
+      "title": "首批GPT-6内测结果好离谱啊。。。",
+      "url": "https://mp.weixin.qq.com/s/Jn7OoHL7iUF0cIhgv_b-fw",
+      "summary": "首批GPT-6内测结果好离谱啊。。。",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-04T03:59:53.294268+00:00",
-      "pub_ts": 1788494393
+      "pub_date": "2026-09-05T03:56:55.607898+00:00",
+      "pub_ts": 1788580615
     },
     {
-      "id": "1bf66e7f66",
-      "title": "腾讯WorkBuddy联名硬件来了！首批100多家伙伴入场",
-      "url": "https://mp.weixin.qq.com/s/budkTWZoetb-c4-XDjg_EQ",
-      "summary": "腾讯WorkBuddy联名硬件来了！首批100多家伙伴入场",
+      "id": "ce0e917bd1",
+      "title": "GPT-6第1天直接攻破5道Erdös难题！Fable 5.1交了白卷",
+      "url": "https://mp.weixin.qq.com/s/jmWhLI_qrwGbOqmLj524hQ",
+      "summary": "GPT-6第1天直接攻破5道Erdös难题！Fable 5.1交了白卷",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-04T03:59:53.294314+00:00",
-      "pub_ts": 1788494393
+      "pub_date": "2026-09-05T03:56:55.607940+00:00",
+      "pub_ts": 1788580615
     },
     {
-      "id": "5737837688",
-      "title": "陈大年复出，入局大模型",
-      "url": "https://mp.weixin.qq.com/s/365CtdgGYFlEKNDICtoCfg",
-      "summary": "陈大年复出，入局大模型",
+      "id": "0e05e65c76",
+      "title": "金融AI的年度大考交卷了：2万名选手、30+家机构、百亿级数据开源",
+      "url": "https://mp.weixin.qq.com/s/8IrOyyGdXFFEpjegVww6Qg",
+      "summary": "金融AI的年度大考交卷了：2万名选手、30+家机构、百亿级数据开源",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-04T03:59:53.294336+00:00",
-      "pub_ts": 1788494393
+      "pub_date": "2026-09-05T03:56:55.607964+00:00",
+      "pub_ts": 1788580615
     },
     {
-      "id": "e57378e58d",
-      "title": "火速吃瓜，OpenAI模型还没发又惹出争议了？？",
-      "url": "https://mp.weixin.qq.com/s/ZH_XE7qP-RmKUo21XFrmow",
-      "summary": "火速吃瓜，OpenAI模型还没发又惹出争议了？？",
+      "id": "92c91c6571",
+      "title": "九问ScienceDiscovery实现树搜索驱动RSI，加速科学发现，小时级写...",
+      "url": "https://mp.weixin.qq.com/s/zmGK2G4h6XlbFoLe6HDNVg",
+      "summary": "九问ScienceDiscovery实现树搜索驱动RSI，加速科学发现，小时级写...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-04T03:59:53.294356+00:00",
-      "pub_ts": 1788494393
+      "pub_date": "2026-09-05T03:56:55.607987+00:00",
+      "pub_ts": 1788580615
     },
     {
-      "id": "66ccc5bb4b",
-      "title": "卡车自动驾驶里程超10亿公里，赢彻科技定义“货运物理AI”",
-      "url": "https://mp.weixin.qq.com/s/OJBbYSnBIjVBKJMC0L2n4w",
-      "summary": "卡车自动驾驶里程超10亿公里，赢彻科技定义“货运物理AI”",
+      "id": "170b79c7f5",
+      "title": "从像素空间走向数据流形：生成模型的对抗净化新范式|TPAMI'26",
+      "url": "https://mp.weixin.qq.com/s/ulcN_TWFtBRiaVyxFTccuw",
+      "summary": "从像素空间走向数据流形：生成模型的对抗净化新范式|TPAMI'26",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-04T03:59:53.294376+00:00",
-      "pub_ts": 1788494393
+      "pub_date": "2026-09-05T03:56:55.608028+00:00",
+      "pub_ts": 1788580615
     }
   ],
   "source_success_count": 1,
