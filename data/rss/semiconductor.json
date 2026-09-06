@@ -3,98 +3,58 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-09-05T03:56:45.833569+00:00",
-  "item_count": 14,
+  "updated_at": "2026-09-06T04:02:48.859705+00:00",
+  "item_count": 10,
   "items": [
     {
-      "id": "b8555749c2",
-      "title": "华为韬定律，再次被更新！",
-      "url": "https://mp.weixin.qq.com/s/X3lcTu8epitXV04X2hXZXQ",
-      "summary": "华为韬定律，再次被更新！",
+      "id": "a6db432dfa",
+      "title": "疯狂买买买，英伟达的野心何在?",
+      "url": "https://mp.weixin.qq.com/s/NQ-wQULdZd-YU6XNIMUbzQ",
+      "summary": "疯狂买买买，英伟达的野心何在?",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-05T03:56:41.566599+00:00",
-      "pub_ts": 1788580601
+      "pub_date": "2026-09-06T04:02:44.842144+00:00",
+      "pub_ts": 1788667364
     },
     {
-      "id": "73961cd330",
-      "title": "AI四年洗牌半导体：有人暴涨16.7倍，有人几乎零增长",
-      "url": "https://mp.weixin.qq.com/s/r9H9NOzY3O_JUWRxmRYYWg",
-      "summary": "AI四年洗牌半导体：有人暴涨16.7倍，有人几乎零增长",
+      "id": "ca1b659220",
+      "title": "95亿美元设计IP市场：Arm的固守与RISC-V的进击",
+      "url": "https://mp.weixin.qq.com/s/OXsxQ7J5_Nqvm1qeHdSqdg",
+      "summary": "95亿美元设计IP市场：Arm的固守与RISC-V的进击",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-05T03:56:41.566682+00:00",
-      "pub_ts": 1788580601
+      "pub_date": "2026-09-06T04:02:44.842206+00:00",
+      "pub_ts": 1788667364
     },
     {
-      "id": "1fe6036e72",
-      "title": "CPU没那么缺了，PC厂商涨价压力拉满",
-      "url": "https://mp.weixin.qq.com/s/c-B7TasZmqjULqafjskysg",
-      "summary": "CPU没那么缺了，PC厂商涨价压力拉满",
+      "id": "a5dd2d3207",
+      "title": "瞄准下一代封装技术：SKC斥资2810亿韩元布局玻璃基板",
+      "url": "https://mp.weixin.qq.com/s/JjrenAh56ov25X-Gqv87FA",
+      "summary": "瞄准下一代封装技术：SKC斥资2810亿韩元布局玻璃基板",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-05T03:56:41.566706+00:00",
-      "pub_ts": 1788580601
+      "pub_date": "2026-09-06T04:02:44.842230+00:00",
+      "pub_ts": 1788667364
     },
     {
-      "id": "e18ed1139a",
-      "title": "增23%",
-      "url": "https://mp.weixin.qq.com/s/jNo0TKkPYXIAuS9A8A95KQ",
-      "summary": "增23%",
+      "id": "2051dc028d",
+      "title": "利润暴增2000%，“芯”浪潮谁能接住？",
+      "url": "https://mp.weixin.qq.com/s/AskOan6bnwALtaCkAo6bog",
+      "summary": "利润暴增2000%，“芯”浪潮谁能接住？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-05T03:56:41.566728+00:00",
-      "pub_ts": 1788580601
+      "pub_date": "2026-09-06T04:02:44.842250+00:00",
+      "pub_ts": 1788667364
     },
     {
-      "id": "204964c337",
-      "title": "320万像素SPAD光子计数成像芯片，国内首发，填补空白！",
-      "url": "https://mp.weixin.qq.com/s/lyoeMMAgV9C-j9CdnZpsQg",
-      "summary": "320万像素SPAD光子计数成像芯片，国内首发，填补空白！",
+      "id": "257e456543",
+      "title": "光芯片大厂积压巨额订单，缺货到2028",
+      "url": "https://mp.weixin.qq.com/s/KXL5ytPsCfmRfkHu4FxVLg",
+      "summary": "光芯片大厂积压巨额订单，缺货到2028",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-05T03:56:29.085182+00:00",
-      "pub_ts": 1788580589
-    },
-    {
-      "id": "62c741981c",
-      "title": "混合键合，碰壁了?",
-      "url": "https://mp.weixin.qq.com/s/7q7VwkBpplpdDQd5-ZPw3Q",
-      "summary": "混合键合，碰壁了?",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-09-05T03:56:29.085233+00:00",
-      "pub_ts": 1788580589
-    },
-    {
-      "id": "7e48714894",
-      "title": "三星HBM市占飙升，直逼 SK海力士",
-      "url": "https://mp.weixin.qq.com/s/5_kJzL-Wio6IZFVW85rk6g",
-      "summary": "三星HBM市占飙升，直逼 SK海力士",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-09-05T03:56:29.085258+00:00",
-      "pub_ts": 1788580589
-    },
-    {
-      "id": "e7b828e85e",
-      "title": "外媒：绝不能让英伟达收购HuggingFace",
-      "url": "https://mp.weixin.qq.com/s/cmtcbuXXWVe9o-wmXiQoYg",
-      "summary": "外媒：绝不能让英伟达收购HuggingFace",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-09-05T03:56:29.085281+00:00",
-      "pub_ts": 1788580589
-    },
-    {
-      "id": "eac3a96bec",
-      "title": "光芯片，Marvell的最强底牌",
-      "url": "https://mp.weixin.qq.com/s/qswphWHYuid3PrAMZJDLQQ",
-      "summary": "光芯片，Marvell的最强底牌",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-09-05T03:56:29.085303+00:00",
-      "pub_ts": 1788580589
+      "pub_date": "2026-09-06T04:02:35.573628+00:00",
+      "pub_ts": 1788667355
     },
     {
       "id": "82b920fd59",

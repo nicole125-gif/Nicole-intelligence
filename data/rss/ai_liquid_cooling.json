@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-09-05T03:56:59.631481+00:00",
+  "updated_at": "2026-09-06T04:03:02.713298+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "8b2fdbe36f",
-      "title": "首批GPT-6内测结果好离谱啊。。。",
-      "url": "https://mp.weixin.qq.com/s/Jn7OoHL7iUF0cIhgv_b-fw",
-      "summary": "首批GPT-6内测结果好离谱啊。。。",
+      "id": "ddf5dedf20",
+      "title": "GPT-6带火循环Transformer，阿里早已布局",
+      "url": "https://mp.weixin.qq.com/s/q3cjIus8SEt-9vpTpEdBfA",
+      "summary": "GPT-6带火循环Transformer，阿里早已布局",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-05T03:56:55.607898+00:00",
-      "pub_ts": 1788580615
+      "pub_date": "2026-09-06T04:02:58.683091+00:00",
+      "pub_ts": 1788667378
     },
     {
-      "id": "ce0e917bd1",
-      "title": "GPT-6第1天直接攻破5道Erdös难题！Fable 5.1交了白卷",
-      "url": "https://mp.weixin.qq.com/s/jmWhLI_qrwGbOqmLj524hQ",
-      "summary": "GPT-6第1天直接攻破5道Erdös难题！Fable 5.1交了白卷",
+      "id": "7e25fa2da6",
+      "title": "押中SpaceX的硅谷老将，把票投给了一家中国世界模型公司",
+      "url": "https://mp.weixin.qq.com/s/drTM2nihUHLiFj52dyWDwQ",
+      "summary": "押中SpaceX的硅谷老将，把票投给了一家中国世界模型公司",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-05T03:56:55.607940+00:00",
-      "pub_ts": 1788580615
+      "pub_date": "2026-09-06T04:02:58.683139+00:00",
+      "pub_ts": 1788667378
     },
     {
-      "id": "0e05e65c76",
-      "title": "金融AI的年度大考交卷了：2万名选手、30+家机构、百亿级数据开源",
-      "url": "https://mp.weixin.qq.com/s/8IrOyyGdXFFEpjegVww6Qg",
-      "summary": "金融AI的年度大考交卷了：2万名选手、30+家机构、百亿级数据开源",
+      "id": "ef0b1c5593",
+      "title": "李飞飞新访谈：LLM预测Token，世界模型预测「新视角」",
+      "url": "https://mp.weixin.qq.com/s/ctcxA45ANAQF6lK2zu0DDQ",
+      "summary": "李飞飞新访谈：LLM预测Token，世界模型预测「新视角」",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-05T03:56:55.607964+00:00",
-      "pub_ts": 1788580615
+      "pub_date": "2026-09-06T04:02:58.683174+00:00",
+      "pub_ts": 1788667378
     },
     {
-      "id": "92c91c6571",
-      "title": "九问ScienceDiscovery实现树搜索驱动RSI，加速科学发现，小时级写...",
-      "url": "https://mp.weixin.qq.com/s/zmGK2G4h6XlbFoLe6HDNVg",
-      "summary": "九问ScienceDiscovery实现树搜索驱动RSI，加速科学发现，小时级写...",
+      "id": "92aad3d3ef",
+      "title": "这个世界模型训练完就“退场”，机器人反而更能干了",
+      "url": "https://mp.weixin.qq.com/s/MIelUmYiVZdO1cRQqipjoA",
+      "summary": "这个世界模型训练完就“退场”，机器人反而更能干了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-05T03:56:55.607987+00:00",
-      "pub_ts": 1788580615
+      "pub_date": "2026-09-06T04:02:58.683195+00:00",
+      "pub_ts": 1788667378
     },
     {
-      "id": "170b79c7f5",
-      "title": "从像素空间走向数据流形：生成模型的对抗净化新范式|TPAMI'26",
-      "url": "https://mp.weixin.qq.com/s/ulcN_TWFtBRiaVyxFTccuw",
-      "summary": "从像素空间走向数据流形：生成模型的对抗净化新范式|TPAMI'26",
+      "id": "f1bcc10d87",
+      "title": "陶哲轩吐槽GPT-6孪生素数新突破：令人无语的一幕",
+      "url": "https://mp.weixin.qq.com/s/KUX_BUsL8yayMEOr4-e2Vw",
+      "summary": "陶哲轩吐槽GPT-6孪生素数新突破：令人无语的一幕",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-05T03:56:55.608028+00:00",
-      "pub_ts": 1788580615
+      "pub_date": "2026-09-06T04:02:58.683214+00:00",
+      "pub_ts": 1788667378
     }
   ],
   "source_success_count": 1,
