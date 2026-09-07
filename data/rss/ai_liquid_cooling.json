@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-09-06T04:03:02.713298+00:00",
+  "updated_at": "2026-09-07T04:02:25.618506+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "ddf5dedf20",
-      "title": "GPT-6带火循环Transformer，阿里早已布局",
-      "url": "https://mp.weixin.qq.com/s/q3cjIus8SEt-9vpTpEdBfA",
-      "summary": "GPT-6带火循环Transformer，阿里早已布局",
+      "id": "1e2840ad85",
+      "title": "又一个百年数学问题被“AI+外行”攻破",
+      "url": "https://mp.weixin.qq.com/s/WPqkTamXIVE1wvFoRIaNMA",
+      "summary": "又一个百年数学问题被“AI+外行”攻破",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-06T04:02:58.683091+00:00",
-      "pub_ts": 1788667378
+      "pub_date": "2026-09-07T04:02:19.983471+00:00",
+      "pub_ts": 1788753739
     },
     {
-      "id": "7e25fa2da6",
-      "title": "押中SpaceX的硅谷老将，把票投给了一家中国世界模型公司",
-      "url": "https://mp.weixin.qq.com/s/drTM2nihUHLiFj52dyWDwQ",
-      "summary": "押中SpaceX的硅谷老将，把票投给了一家中国世界模型公司",
+      "id": "16b451c761",
+      "title": "具身ICL来了创业玩家！上下文成Scaling新赛道",
+      "url": "https://mp.weixin.qq.com/s/Q7YBlvcQvTpub7SHo4DfJg",
+      "summary": "具身ICL来了创业玩家！上下文成Scaling新赛道",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-06T04:02:58.683139+00:00",
-      "pub_ts": 1788667378
+      "pub_date": "2026-09-07T04:02:19.983513+00:00",
+      "pub_ts": 1788753739
     },
     {
-      "id": "ef0b1c5593",
-      "title": "李飞飞新访谈：LLM预测Token，世界模型预测「新视角」",
-      "url": "https://mp.weixin.qq.com/s/ctcxA45ANAQF6lK2zu0DDQ",
-      "summary": "李飞飞新访谈：LLM预测Token，世界模型预测「新视角」",
+      "id": "fe09ffa2a0",
+      "title": "GPT-6最佳拍档= 字节 Seedance",
+      "url": "https://mp.weixin.qq.com/s/QYn2OeBXhsO2O7XLwE0lfA",
+      "summary": "GPT-6最佳拍档= 字节 Seedance",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-06T04:02:58.683174+00:00",
-      "pub_ts": 1788667378
+      "pub_date": "2026-09-07T04:02:19.983536+00:00",
+      "pub_ts": 1788753739
     },
     {
-      "id": "92aad3d3ef",
-      "title": "这个世界模型训练完就“退场”，机器人反而更能干了",
-      "url": "https://mp.weixin.qq.com/s/MIelUmYiVZdO1cRQqipjoA",
-      "summary": "这个世界模型训练完就“退场”，机器人反而更能干了",
+      "id": "944219c2a9",
+      "title": "奥特曼：GPT-6早训练完了，更更更强的模型很快发布",
+      "url": "https://mp.weixin.qq.com/s/JBs6it67YqonqDZ9MUqasw",
+      "summary": "奥特曼：GPT-6早训练完了，更更更强的模型很快发布",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-06T04:02:58.683195+00:00",
-      "pub_ts": 1788667378
+      "pub_date": "2026-09-07T04:02:19.983556+00:00",
+      "pub_ts": 1788753739
     },
     {
-      "id": "f1bcc10d87",
-      "title": "陶哲轩吐槽GPT-6孪生素数新突破：令人无语的一幕",
-      "url": "https://mp.weixin.qq.com/s/KUX_BUsL8yayMEOr4-e2Vw",
-      "summary": "陶哲轩吐槽GPT-6孪生素数新突破：令人无语的一幕",
+      "id": "6df0469ea6",
+      "title": "陶哲轩：假如AI早来20年，张益唐还在刷盘子",
+      "url": "https://mp.weixin.qq.com/s/tsBKGzbBmquEmoFTFSV-5g",
+      "summary": "陶哲轩：假如AI早来20年，张益唐还在刷盘子",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-06T04:02:58.683214+00:00",
-      "pub_ts": 1788667378
+      "pub_date": "2026-09-07T04:02:19.983577+00:00",
+      "pub_ts": 1788753739
     }
   ],
   "source_success_count": 1,

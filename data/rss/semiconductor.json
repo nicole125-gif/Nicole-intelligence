@@ -3,58 +3,108 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-09-06T04:02:48.859705+00:00",
-  "item_count": 10,
+  "updated_at": "2026-09-07T04:02:10.257820+00:00",
+  "item_count": 15,
   "items": [
     {
-      "id": "a6db432dfa",
-      "title": "疯狂买买买，英伟达的野心何在?",
-      "url": "https://mp.weixin.qq.com/s/NQ-wQULdZd-YU6XNIMUbzQ",
-      "summary": "疯狂买买买，英伟达的野心何在?",
+      "id": "5a1334d1ca",
+      "title": "PCB超级周期，能确定了?",
+      "url": "https://mp.weixin.qq.com/s/NM-Sb7A7MnoQ7EUjnM5BRQ",
+      "summary": "PCB超级周期，能确定了?",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-06T04:02:44.842144+00:00",
-      "pub_ts": 1788667364
+      "pub_date": "2026-09-07T04:02:06.067214+00:00",
+      "pub_ts": 1788753726
     },
     {
-      "id": "ca1b659220",
-      "title": "95亿美元设计IP市场：Arm的固守与RISC-V的进击",
-      "url": "https://mp.weixin.qq.com/s/OXsxQ7J5_Nqvm1qeHdSqdg",
-      "summary": "95亿美元设计IP市场：Arm的固守与RISC-V的进击",
+      "id": "449ce36fd8",
+      "title": "北方华创突破3DDRAM，国产存储再进一步",
+      "url": "https://mp.weixin.qq.com/s/qFajI7XRRzgJjDl_Xc40ZQ",
+      "summary": "北方华创突破3DDRAM，国产存储再进一步",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-06T04:02:44.842206+00:00",
-      "pub_ts": 1788667364
+      "pub_date": "2026-09-07T04:02:06.067260+00:00",
+      "pub_ts": 1788753726
     },
     {
-      "id": "a5dd2d3207",
-      "title": "瞄准下一代封装技术：SKC斥资2810亿韩元布局玻璃基板",
-      "url": "https://mp.weixin.qq.com/s/JjrenAh56ov25X-Gqv87FA",
-      "summary": "瞄准下一代封装技术：SKC斥资2810亿韩元布局玻璃基板",
+      "id": "175d07b97d",
+      "title": "AMD的Rust赌局：一支精英小队，能否改写GPU软件的未来？",
+      "url": "https://mp.weixin.qq.com/s/K_SciSMshtMJZiz7r1zLwA",
+      "summary": "AMD的Rust赌局：一支精英小队，能否改写GPU软件的未来？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-06T04:02:44.842230+00:00",
-      "pub_ts": 1788667364
+      "pub_date": "2026-09-07T04:02:06.067287+00:00",
+      "pub_ts": 1788753726
     },
     {
-      "id": "2051dc028d",
-      "title": "利润暴增2000%，“芯”浪潮谁能接住？",
-      "url": "https://mp.weixin.qq.com/s/AskOan6bnwALtaCkAo6bog",
-      "summary": "利润暴增2000%，“芯”浪潮谁能接住？",
+      "id": "77a650f1ae",
+      "title": "豪威集团，“急寻”第二曲线",
+      "url": "https://mp.weixin.qq.com/s/6sIGCmwI7cgqEDemw7qgow",
+      "summary": "豪威集团，“急寻”第二曲线",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-06T04:02:44.842250+00:00",
-      "pub_ts": 1788667364
+      "pub_date": "2026-09-07T04:02:06.067311+00:00",
+      "pub_ts": 1788753726
     },
     {
-      "id": "257e456543",
-      "title": "光芯片大厂积压巨额订单，缺货到2028",
-      "url": "https://mp.weixin.qq.com/s/KXL5ytPsCfmRfkHu4FxVLg",
-      "summary": "光芯片大厂积压巨额订单，缺货到2028",
+      "id": "88b38b4348",
+      "title": "大模型厂商，正忙着自备“干粮”",
+      "url": "https://mp.weixin.qq.com/s/HK3MPL0vBYETmgQT1TfGZQ",
+      "summary": "大模型厂商，正忙着自备“干粮”",
+      "source": "半导体产业纵横",
+      "lang": "zh",
+      "pub_date": "2026-09-07T04:02:06.067344+00:00",
+      "pub_ts": 1788753726
+    },
+    {
+      "id": "d5c2c41a26",
+      "title": "台积电，重磅突破，为告别硅做准备",
+      "url": "https://mp.weixin.qq.com/s/akJPweLPeJVeznGzMURulQ",
+      "summary": "台积电，重磅突破，为告别硅做准备",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-06T04:02:35.573628+00:00",
-      "pub_ts": 1788667355
+      "pub_date": "2026-09-07T04:01:55.380679+00:00",
+      "pub_ts": 1788753715
+    },
+    {
+      "id": "38c95bb73a",
+      "title": "PCB关键材料，供应持续恶化",
+      "url": "https://mp.weixin.qq.com/s/JoXVpLWbvhl7Z06_P7tREw",
+      "summary": "PCB关键材料，供应持续恶化",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-09-07T04:01:55.380730+00:00",
+      "pub_ts": 1788753715
+    },
+    {
+      "id": "17e4b2e855",
+      "title": "锚定工业算力新赛道|第二届工业算力芯引擎研讨会：上海产业高地聚...",
+      "url": "https://mp.weixin.qq.com/s/J_CAck7rb4kvz1hlNU0SxQ",
+      "summary": "锚定工业算力新赛道|第二届工业算力芯引擎研讨会：上海产业高地聚...",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-09-07T04:01:55.380756+00:00",
+      "pub_ts": 1788753715
+    },
+    {
+      "id": "923e619908",
+      "title": "苹果即将发布的芯片，细节猜想",
+      "url": "https://mp.weixin.qq.com/s/MUTRMkHrzRNUS8DPQtJ6uA",
+      "summary": "苹果即将发布的芯片，细节猜想",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-09-07T04:01:55.380778+00:00",
+      "pub_ts": 1788753715
+    },
+    {
+      "id": "846bf08ca3",
+      "title": "英伟达HBM策略转变背后",
+      "url": "https://mp.weixin.qq.com/s/f6Cdh0zlFPupwvPDqwbw1w",
+      "summary": "英伟达HBM策略转变背后",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-09-07T04:01:55.380799+00:00",
+      "pub_ts": 1788753715
     },
     {
       "id": "82b920fd59",
