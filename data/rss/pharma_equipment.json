@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-09-07T04:02:50.074642+00:00",
+  "updated_at": "2026-09-08T04:04:19.999773+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "c39d7d7009",
-      "title": "Pineapples and green tea: FDA turns to public for new approaches to botanical drugs",
-      "url": "https://www.pharmaceutical-technology.com/news/pineapples-and-green-tea-fda-turns-to-public-for-new-approaches-to-botanical-drugs/",
-      "summary": "The FDA is looking to modernise its regulatory framework for drugs derived from plants, algae, and fungi.",
+      "id": "c677559117",
+      "title": "Aptar Pharma to support Aceso’s inhaled cystic fibrosis candidate’s advance",
+      "url": "https://www.pharmaceutical-technology.com/news/aptar-pharma-to-support-aceso-inhaled-cystic-fibrosis-candidate-advance/",
+      "summary": "Aptar's ACT-101 is designed to intervene a step earlier than current CF modulators.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-04T10:29:40+00:00",
-      "pub_ts": 1788517780
+      "pub_date": "2026-09-07T14:38:46+00:00",
+      "pub_ts": 1788791926
     },
     {
-      "id": "d9dcce9495",
-      "title": "Ionis nets Zanvastro US approval in first for Alexander disease",
-      "url": "https://www.pharmaceutical-technology.com/news/ionis-zanvastro-us-fda-approval-alexander-disease/",
-      "summary": "Ionis claims Zanvastro will become available to US patients with rare neurodegenerative condition, Alexander disease “in the coming weeks”.",
+      "id": "c44302478f",
+      "title": "EU pharma industry pushes for expansion of barcodes on medicines",
+      "url": "https://www.pharmaceutical-technology.com/news/eu-pharma-industry-pushes-for-expansion-of-barcodes-on-medicines/",
+      "summary": "The EAHP and EFPIA want all individual doses to carry a barcode, an addition they say will further reduce medication errors.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-04T10:27:04+00:00",
-      "pub_ts": 1788517624
+      "pub_date": "2026-09-07T14:37:04+00:00",
+      "pub_ts": 1788791824
     },
     {
-      "id": "6279e7aec1",
-      "title": "FDA rallies HRT manufacturers amid US-wide estradiol patch shortage",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-rallies-hrt-manufacturers-amid-us-estradiol-patch-shortage/",
-      "summary": "The uptick in demand for HRT comes shortly after the FDA removed the long-standing black box label warning from such products.",
+      "id": "c847ddf585",
+      "title": "Develop site-centric protocols to optimize enrollment and maximize performance",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/develop-site-centric-protocols-to-optimize-enrollment-and-maximize-performance/",
+      "summary": "",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-04T10:20:42+00:00",
-      "pub_ts": 1788517242
+      "pub_date": "2026-09-07T14:23:24+00:00",
+      "pub_ts": 1788791004
     },
     {
-      "id": "a96302745c",
-      "title": "Superluminal Medicines secures $60m to advance rare obesity therapy",
-      "url": "https://www.pharmaceutical-technology.com/news/superluminal-60m-advance-rare-obesity-therapy/",
-      "summary": "Superluminal Medicines has completed a $60m Series B round to support its research into therapies for rare genetic forms of obesity.",
+      "id": "5c0088d7d2",
+      "title": "Remedying the paper trail: Manufacturing a digital route to compliance",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/remedying-the-paper-trail-manufacturing-a-digital-route-to-compliance/",
+      "summary": "As regulatory enforcement surges, life science manufacturers must shift away from paper-based systems to ensure compliance.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-04T09:18:50+00:00",
-      "pub_ts": 1788513530
+      "pub_date": "2026-09-07T11:06:07+00:00",
+      "pub_ts": 1788779167
     },
     {
-      "id": "8f5f1bdba1",
-      "title": "Médunik and Biocodex sign exclusive agreement for Diacomit in Canada",
-      "url": "https://www.pharmaceutical-technology.com/news/medunik-biocodex-diacomit-canada/",
-      "summary": "Médunik Canada has entered into an exclusive promotional services agreement with Biocodex for Diacomit, a medication approved in Canada as an add-on therapy for seizures associated with Dravet syndrome.",
+      "id": "250123a74f",
+      "title": "AtomVie opens $160m radiopharmaceutical manufacturing facility in Ontario",
+      "url": "https://www.pharmaceutical-technology.com/news/atomvie-radiopharmaceutical-manufacturing-facility-ontario/",
+      "summary": "AtomVie has opened a purpose-built radiopharmaceutical manufacturing facility in Hamilton, Ontario, Canada, with an investment of over $160m.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-04T08:42:01+00:00",
-      "pub_ts": 1788511321
+      "pub_date": "2026-09-07T09:07:01+00:00",
+      "pub_ts": 1788772021
     }
   ],
   "source_success_count": 1,

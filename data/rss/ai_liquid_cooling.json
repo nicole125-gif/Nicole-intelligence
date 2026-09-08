@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-09-07T04:02:25.618506+00:00",
+  "updated_at": "2026-09-08T04:03:57.916087+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "1e2840ad85",
-      "title": "又一个百年数学问题被“AI+外行”攻破",
-      "url": "https://mp.weixin.qq.com/s/WPqkTamXIVE1wvFoRIaNMA",
-      "summary": "又一个百年数学问题被“AI+外行”攻破",
+      "id": "90345d1a43",
+      "title": "清华学霸开源Agent学习法！看不懂的PDF扔过去，直接开出互动课程",
+      "url": "https://mp.weixin.qq.com/s/OUihedSbk8ep0HOXNDCCfQ",
+      "summary": "清华学霸开源Agent学习法！看不懂的PDF扔过去，直接开出互动课程",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-07T04:02:19.983471+00:00",
-      "pub_ts": 1788753739
+      "pub_date": "2026-09-08T04:03:53.414001+00:00",
+      "pub_ts": 1788840233
     },
     {
-      "id": "16b451c761",
-      "title": "具身ICL来了创业玩家！上下文成Scaling新赛道",
-      "url": "https://mp.weixin.qq.com/s/Q7YBlvcQvTpub7SHo4DfJg",
-      "summary": "具身ICL来了创业玩家！上下文成Scaling新赛道",
+      "id": "d65e93cccc",
+      "title": "菲尔兹奖得主入局大模型！4B手机Qwen+云端GLM刷爆ARC-AGI3",
+      "url": "https://mp.weixin.qq.com/s/QJT6HoqIkrLFARNAR7_0oQ",
+      "summary": "菲尔兹奖得主入局大模型！4B手机Qwen+云端GLM刷爆ARC-AGI3",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-07T04:02:19.983513+00:00",
-      "pub_ts": 1788753739
+      "pub_date": "2026-09-08T04:03:53.414047+00:00",
+      "pub_ts": 1788840233
     },
     {
-      "id": "fe09ffa2a0",
-      "title": "GPT-6最佳拍档= 字节 Seedance",
-      "url": "https://mp.weixin.qq.com/s/QYn2OeBXhsO2O7XLwE0lfA",
-      "summary": "GPT-6最佳拍档= 字节 Seedance",
+      "id": "cc3fbbc83f",
+      "title": "图形学宗师童欣加盟Meshy，要做“AIforFun\"的头号玩家",
+      "url": "https://mp.weixin.qq.com/s/QYEE9F3c1jn1lr262VJ0NA",
+      "summary": "图形学宗师童欣加盟Meshy，要做“AIforFun\"的头号玩家",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-07T04:02:19.983536+00:00",
-      "pub_ts": 1788753739
+      "pub_date": "2026-09-08T04:03:53.414069+00:00",
+      "pub_ts": 1788840233
     },
     {
-      "id": "944219c2a9",
-      "title": "奥特曼：GPT-6早训练完了，更更更强的模型很快发布",
-      "url": "https://mp.weixin.qq.com/s/JBs6it67YqonqDZ9MUqasw",
-      "summary": "奥特曼：GPT-6早训练完了，更更更强的模型很快发布",
+      "id": "2f53c0c614",
+      "title": "3秒变身！会合体的机器人，卖到全球50国",
+      "url": "https://mp.weixin.qq.com/s/I6FwFIJSJ56YzCEXMxNsPw",
+      "summary": "3秒变身！会合体的机器人，卖到全球50国",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-07T04:02:19.983556+00:00",
-      "pub_ts": 1788753739
+      "pub_date": "2026-09-08T04:03:53.414090+00:00",
+      "pub_ts": 1788840233
     },
     {
-      "id": "6df0469ea6",
-      "title": "陶哲轩：假如AI早来20年，张益唐还在刷盘子",
-      "url": "https://mp.weixin.qq.com/s/tsBKGzbBmquEmoFTFSV-5g",
-      "summary": "陶哲轩：假如AI早来20年，张益唐还在刷盘子",
+      "id": "8f49e8ce25",
+      "title": "GPT-6不只Astra！Sol内测结果曝光，速度快6倍",
+      "url": "https://mp.weixin.qq.com/s/7UgT_nKsJBJdePgv_s8Piw",
+      "summary": "GPT-6不只Astra！Sol内测结果曝光，速度快6倍",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-07T04:02:19.983577+00:00",
-      "pub_ts": 1788753739
+      "pub_date": "2026-09-08T04:03:53.414109+00:00",
+      "pub_ts": 1788840233
     }
   ],
   "source_success_count": 1,
