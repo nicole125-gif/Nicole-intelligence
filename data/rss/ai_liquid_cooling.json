@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-09-08T04:03:57.916087+00:00",
+  "updated_at": "2026-09-09T04:11:20.242893+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "90345d1a43",
-      "title": "清华学霸开源Agent学习法！看不懂的PDF扔过去，直接开出互动课程",
-      "url": "https://mp.weixin.qq.com/s/OUihedSbk8ep0HOXNDCCfQ",
-      "summary": "清华学霸开源Agent学习法！看不懂的PDF扔过去，直接开出互动课程",
+      "id": "0f6ff2bb1f",
+      "title": "一周连发6个模型！这家公司把具身智能的闭环跑通了",
+      "url": "https://mp.weixin.qq.com/s/x63S4uPidenCyUwbANRJZg",
+      "summary": "一周连发6个模型！这家公司把具身智能的闭环跑通了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-08T04:03:53.414001+00:00",
-      "pub_ts": 1788840233
+      "pub_date": "2026-09-09T04:11:15.860296+00:00",
+      "pub_ts": 1788927075
     },
     {
-      "id": "d65e93cccc",
-      "title": "菲尔兹奖得主入局大模型！4B手机Qwen+云端GLM刷爆ARC-AGI3",
-      "url": "https://mp.weixin.qq.com/s/QJT6HoqIkrLFARNAR7_0oQ",
-      "summary": "菲尔兹奖得主入局大模型！4B手机Qwen+云端GLM刷爆ARC-AGI3",
+      "id": "6eee03359c",
+      "title": "ClaudeCode团队讲究啊，这都往外说",
+      "url": "https://mp.weixin.qq.com/s/nbf34grXcYwe3zbYhO9iwQ",
+      "summary": "ClaudeCode团队讲究啊，这都往外说",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-08T04:03:53.414047+00:00",
-      "pub_ts": 1788840233
+      "pub_date": "2026-09-09T04:11:15.860341+00:00",
+      "pub_ts": 1788927075
     },
     {
-      "id": "cc3fbbc83f",
-      "title": "图形学宗师童欣加盟Meshy，要做“AIforFun\"的头号玩家",
-      "url": "https://mp.weixin.qq.com/s/QYEE9F3c1jn1lr262VJ0NA",
-      "summary": "图形学宗师童欣加盟Meshy，要做“AIforFun\"的头号玩家",
+      "id": "751a2e4993",
+      "title": "Arm造了颗AGICPU，火山引擎首批智能体沙箱先上车",
+      "url": "https://mp.weixin.qq.com/s/Qawgesu8baDHVOEs1UJEaw",
+      "summary": "Arm造了颗AGICPU，火山引擎首批智能体沙箱先上车",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-08T04:03:53.414069+00:00",
-      "pub_ts": 1788840233
+      "pub_date": "2026-09-09T04:11:15.860364+00:00",
+      "pub_ts": 1788927075
     },
     {
-      "id": "2f53c0c614",
-      "title": "3秒变身！会合体的机器人，卖到全球50国",
-      "url": "https://mp.weixin.qq.com/s/I6FwFIJSJ56YzCEXMxNsPw",
-      "summary": "3秒变身！会合体的机器人，卖到全球50国",
+      "id": "7a2718dce1",
+      "title": "刚刚，能预测多智能体交互的世界模型来了",
+      "url": "https://mp.weixin.qq.com/s/SRFPA6WbwNgnxboFdA5YVw",
+      "summary": "刚刚，能预测多智能体交互的世界模型来了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-08T04:03:53.414090+00:00",
-      "pub_ts": 1788840233
+      "pub_date": "2026-09-09T04:11:15.860384+00:00",
+      "pub_ts": 1788927075
     },
     {
-      "id": "8f49e8ce25",
-      "title": "GPT-6不只Astra！Sol内测结果曝光，速度快6倍",
-      "url": "https://mp.weixin.qq.com/s/7UgT_nKsJBJdePgv_s8Piw",
-      "summary": "GPT-6不只Astra！Sol内测结果曝光，速度快6倍",
+      "id": "6451810939",
+      "title": "小米L3负责人王乃岩离职，下一站具身创业",
+      "url": "https://mp.weixin.qq.com/s/P3E5qtj6sZoLdgN3a6c2ow",
+      "summary": "小米L3负责人王乃岩离职，下一站具身创业",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-08T04:03:53.414109+00:00",
-      "pub_ts": 1788840233
+      "pub_date": "2026-09-09T04:11:15.860404+00:00",
+      "pub_ts": 1788927075
     }
   ],
   "source_success_count": 1,

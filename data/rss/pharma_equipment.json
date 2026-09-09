@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-09-08T04:04:19.999773+00:00",
+  "updated_at": "2026-09-09T04:12:15.403857+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "c677559117",
-      "title": "Aptar Pharma to support Aceso’s inhaled cystic fibrosis candidate’s advance",
-      "url": "https://www.pharmaceutical-technology.com/news/aptar-pharma-to-support-aceso-inhaled-cystic-fibrosis-candidate-advance/",
-      "summary": "Aptar's ACT-101 is designed to intervene a step earlier than current CF modulators.",
+      "id": "82c36da951",
+      "title": "Why the CNS boom owes its success to breakthroughs in neurological pathologies",
+      "url": "https://www.pharmaceutical-technology.com/news/why-the-cns-boom-owes-its-success-to-breakthroughs-in-neurological-pathologies/",
+      "summary": "Shifting emphasis from symptoms to biomarkers has bolstered sector confidence in emerging CNS therapies.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-07T14:38:46+00:00",
-      "pub_ts": 1788791926
+      "pub_date": "2026-09-08T17:13:28+00:00",
+      "pub_ts": 1788887608
     },
     {
-      "id": "c44302478f",
-      "title": "EU pharma industry pushes for expansion of barcodes on medicines",
-      "url": "https://www.pharmaceutical-technology.com/news/eu-pharma-industry-pushes-for-expansion-of-barcodes-on-medicines/",
-      "summary": "The EAHP and EFPIA want all individual doses to carry a barcode, an addition they say will further reduce medication errors.",
+      "id": "85d0bddd4c",
+      "title": "Quoin in line for priority review voucher if rare paediatric drug approved",
+      "url": "https://www.pharmaceutical-technology.com/news/quoin-in-line-for-priority-review-voucher-if-rare-paediatric-drug-approved/",
+      "summary": "Quoin has now received two rare paediatric disease designations for its lead asset QRX003.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-07T14:37:04+00:00",
-      "pub_ts": 1788791824
+      "pub_date": "2026-09-08T16:28:55+00:00",
+      "pub_ts": 1788884935
     },
     {
-      "id": "c847ddf585",
-      "title": "Develop site-centric protocols to optimize enrollment and maximize performance",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/develop-site-centric-protocols-to-optimize-enrollment-and-maximize-performance/",
-      "summary": "",
+      "id": "8dd21402a2",
+      "title": "UK on track to reverse years of pharma decline, ABPI report finds",
+      "url": "https://www.pharmaceutical-technology.com/news/abpi-report-uk-pharma-competitiveness/",
+      "summary": "The UK remains competitive in its science, but experts say more must be done to incentivise investment into Britain as global rivalry mounts.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-07T14:23:24+00:00",
-      "pub_ts": 1788791004
+      "pub_date": "2026-09-08T13:28:15+00:00",
+      "pub_ts": 1788874095
     },
     {
-      "id": "5c0088d7d2",
-      "title": "Remedying the paper trail: Manufacturing a digital route to compliance",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/remedying-the-paper-trail-manufacturing-a-digital-route-to-compliance/",
-      "summary": "As regulatory enforcement surges, life science manufacturers must shift away from paper-based systems to ensure compliance.",
+      "id": "d76e267096",
+      "title": "LSTM opens $23m robotic AI lab for infection research",
+      "url": "https://www.pharmaceutical-technology.com/news/lstm-opens-robotic-ai-lab-infections-research/",
+      "summary": "The LSTM in the UK has opened a £20m ($23.2m) robotic AI laboratory to test drugs and vaccines against infections and diseases.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-07T11:06:07+00:00",
-      "pub_ts": 1788779167
+      "pub_date": "2026-09-08T10:24:15+00:00",
+      "pub_ts": 1788863055
     },
     {
-      "id": "250123a74f",
-      "title": "AtomVie opens $160m radiopharmaceutical manufacturing facility in Ontario",
-      "url": "https://www.pharmaceutical-technology.com/news/atomvie-radiopharmaceutical-manufacturing-facility-ontario/",
-      "summary": "AtomVie has opened a purpose-built radiopharmaceutical manufacturing facility in Hamilton, Ontario, Canada, with an investment of over $160m.",
+      "id": "0af078c2c1",
+      "title": "Osaka has the science. Now it needs the business",
+      "url": "https://www.pharmaceutical-technology.com/features/osaka-has-the-science-now-it-needs-the-business/",
+      "summary": "Osaka is striving to turn world-class life sciences research into a global healthcare industry - testing whether Japan's pharma and biotech sector can finally scale internationally.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-07T09:07:01+00:00",
-      "pub_ts": 1788772021
+      "pub_date": "2026-09-08T09:13:46+00:00",
+      "pub_ts": 1788858826
     }
   ],
   "source_success_count": 1,

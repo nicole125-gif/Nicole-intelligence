@@ -3,108 +3,138 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-09-08T04:03:43.572972+00:00",
+  "updated_at": "2026-09-09T04:11:06.087100+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "7369c26e63",
-      "title": "全球首次！长鑫LPDDR6实现旗舰手机端落地商用",
-      "url": "https://mp.weixin.qq.com/s/akROGDQx8DL0F_GP7Kf5Ww",
-      "summary": "全球首次！长鑫LPDDR6实现旗舰手机端落地商用",
+      "id": "0af472445c",
+      "title": "工业迈入A时代，算力和存力谁来兜底？",
+      "url": "https://mp.weixin.qq.com/s/qcu7p1NmzHZyN-hvbl8aFQ",
+      "summary": "工业迈入A时代，算力和存力谁来兜底？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-08T04:03:39.316279+00:00",
-      "pub_ts": 1788840219
+      "pub_date": "2026-09-09T04:11:02.016504+00:00",
+      "pub_ts": 1788927062
     },
     {
-      "id": "311f9dcb0c",
-      "title": "端侧AI的“不可能三角”？被这家中国芯片公司打破了",
-      "url": "https://mp.weixin.qq.com/s/YVO-0HvuY_omLacdD5ZskA",
-      "summary": "端侧AI的“不可能三角”？被这家中国芯片公司打破了",
+      "id": "16c6f533df",
+      "title": "MLCC下一棒来了，是硅电容！",
+      "url": "https://mp.weixin.qq.com/s/LOr73IrWCkDU3HKxB-eKKQ",
+      "summary": "MLCC下一棒来了，是硅电容！",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-08T04:03:39.316342+00:00",
-      "pub_ts": 1788840219
+      "pub_date": "2026-09-09T04:11:02.016551+00:00",
+      "pub_ts": 1788927062
     },
     {
-      "id": "e817a2db1e",
-      "title": "三星与SK海力士，库存不足10天",
-      "url": "https://mp.weixin.qq.com/s/imQ19Orx9GTrynz4Ht5fVw",
-      "summary": "三星与SK海力士，库存不足10天",
+      "id": "b55a394244",
+      "title": "12英寸掩模版来了！三大晶圆厂光刻机时间表出炉",
+      "url": "https://mp.weixin.qq.com/s/JBvM2utx2DuIoxGTGw_MFQ",
+      "summary": "12英寸掩模版来了！三大晶圆厂光刻机时间表出炉",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-08T04:03:39.316368+00:00",
-      "pub_ts": 1788840219
+      "pub_date": "2026-09-09T04:11:02.016577+00:00",
+      "pub_ts": 1788927062
     },
     {
-      "id": "570f5669a4",
-      "title": "工信部：有序部署十万卡智算集群，加大国产算力芯片适配",
-      "url": "https://mp.weixin.qq.com/s/pLYWE4b2lLGHeQweyJyLiw",
-      "summary": "工信部：有序部署十万卡智算集群，加大国产算力芯片适配",
+      "id": "90e912d91d",
+      "title": "英特尔CPU再涨10%",
+      "url": "https://mp.weixin.qq.com/s/1GJQ2BgcB7m3e_2FAUVM8Q",
+      "summary": "英特尔CPU再涨10%",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-08T04:03:39.316390+00:00",
-      "pub_ts": 1788840219
+      "pub_date": "2026-09-09T04:11:02.016600+00:00",
+      "pub_ts": 1788927062
     },
     {
-      "id": "148db6ab03",
-      "title": "台积电3纳米产能紧急扩容",
-      "url": "https://mp.weixin.qq.com/s/mlDPMYvGetHGq17fJ2llFg",
-      "summary": "台积电3纳米产能紧急扩容",
+      "id": "54d76b825c",
+      "title": "全球氮化镓市场：英飞凌第二、英诺赛科第一",
+      "url": "https://mp.weixin.qq.com/s/iKeWP1qpP-J31LYP4gzV0w",
+      "summary": "全球氮化镓市场：英飞凌第二、英诺赛科第一",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-08T04:03:39.316410+00:00",
-      "pub_ts": 1788840219
+      "pub_date": "2026-09-09T04:11:02.016621+00:00",
+      "pub_ts": 1788927062
     },
     {
-      "id": "f7bb7e6eda",
-      "title": "长鑫LPDDR6，细节披露",
-      "url": "https://mp.weixin.qq.com/s/1epQpLVNnQLoEgus8yPwPQ",
-      "summary": "长鑫LPDDR6，细节披露",
+      "id": "8724ba8e40",
+      "title": "最贵光刻机，台积电终于买了，推动光罩走向12英寸",
+      "url": "https://mp.weixin.qq.com/s/oJNU2bjqRbLhmkH_sGGiTQ",
+      "summary": "最贵光刻机，台积电终于买了，推动光罩走向12英寸",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-08T04:03:30.593750+00:00",
-      "pub_ts": 1788840210
+      "pub_date": "2026-09-09T04:10:53.503702+00:00",
+      "pub_ts": 1788927053
     },
     {
-      "id": "086efa099e",
-      "title": "华为再发高端芯片，韬定律逻辑折叠正式落地",
-      "url": "https://mp.weixin.qq.com/s/00CuQMBmrXFGNeR3W9pO6w",
-      "summary": "华为再发高端芯片，韬定律逻辑折叠正式落地",
+      "id": "4fa0e3eadc",
+      "title": "磷化铟，再发预警",
+      "url": "https://mp.weixin.qq.com/s/knqzwQKPm0J13LGEb7joag",
+      "summary": "磷化铟，再发预警",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-08T04:03:30.593815+00:00",
-      "pub_ts": 1788840210
+      "pub_date": "2026-09-09T04:10:53.503756+00:00",
+      "pub_ts": 1788927053
     },
     {
-      "id": "b86a5adad0",
-      "title": "华为麒麟新芯片，正式发布",
-      "url": "https://mp.weixin.qq.com/s/jOVXbZaQrC1ix8dbx2-rWw",
-      "summary": "华为麒麟新芯片，正式发布",
+      "id": "86bd52a95e",
+      "title": "孔雀SPAD-SoC落地量产，速腾聚创继续打开机器人感知边界",
+      "url": "https://mp.weixin.qq.com/s/6sXYiDSqoR3ocxE-42ywmg",
+      "summary": "孔雀SPAD-SoC落地量产，速腾聚创继续打开机器人感知边界",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-08T04:03:30.593840+00:00",
-      "pub_ts": 1788840210
+      "pub_date": "2026-09-09T04:10:53.503781+00:00",
+      "pub_ts": 1788927053
     },
     {
-      "id": "240026328e",
-      "title": "重估先进封装",
-      "url": "https://mp.weixin.qq.com/s/4SZv2JklGkp4wflmIzdFYw",
-      "summary": "重估先进封装",
+      "id": "95464bbb41",
+      "title": "谷歌TPU，太强了",
+      "url": "https://mp.weixin.qq.com/s/jfIILH8cRnKJkQ7HBAQpsA",
+      "summary": "谷歌TPU，太强了",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-08T04:03:30.593862+00:00",
-      "pub_ts": 1788840210
+      "pub_date": "2026-09-09T04:10:53.503802+00:00",
+      "pub_ts": 1788927053
     },
     {
-      "id": "053f550a6e",
-      "title": "台积电3纳米，卖爆了",
-      "url": "https://mp.weixin.qq.com/s/HAyIV4toMTsApX3BA2YN6g",
-      "summary": "台积电3纳米，卖爆了",
+      "id": "9bf31e6d8e",
+      "title": "英伟达史上最成功的芯片收购?",
+      "url": "https://mp.weixin.qq.com/s/w1tvLkjW4S2p3SNvHhxwdQ",
+      "summary": "英伟达史上最成功的芯片收购?",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-08T04:03:30.593881+00:00",
-      "pub_ts": 1788840210
+      "pub_date": "2026-09-09T04:10:53.503823+00:00",
+      "pub_ts": 1788927053
+    },
+    {
+      "id": "b918ecb3e5",
+      "title": "Smart Outlier Detection",
+      "url": "https://semiengineering.com/smart-outlier-detection/",
+      "summary": "Just because a chip is deemed good doesn't mean it will work as expected.\nThe post Smart Outlier Detection appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-09-08T07:15:48+00:00",
+      "pub_ts": 1788851748
+    },
+    {
+      "id": "92826c527b",
+      "title": "Research Bits: Sept. 8",
+      "url": "https://semiengineering.com/research-bits-sept-8-2/",
+      "summary": "Carbon insulator for interconnects; high-temperature SiC JFETs; VCT dielectric.\nThe post Research Bits: Sept. 8 appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-09-08T07:01:53+00:00",
+      "pub_ts": 1788850913
+    },
+    {
+      "id": "3f0c44b194",
+      "title": "Chip Industry Technical Paper Roundup: Sept. 8",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-sept-8-2/",
+      "summary": "HBF for LLM inference; M3D SRAM with BEOL pass-gates at 2nm; distributed GPU architectures; hybrid HBM-HBF memory; GaN-on-silicon polarization superjunctions; programmable silicon photonics; Al dopant activation in 4H-SiC.\nThe post Chip Industry Technical Paper Roundup: Sept. 8 appeared first on Sem…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-09-08T07:01:25+00:00",
+      "pub_ts": 1788850885
     },
     {
       "id": "82b920fd59",
@@ -125,36 +155,6 @@
       "lang": "en",
       "pub_date": "2026-09-03T07:08:39+00:00",
       "pub_ts": 1788419319
-    },
-    {
-      "id": "2dc1a111b9",
-      "title": "Protecting Mission-Critical Data Beyond The SoC: Why Inline Memory Encryption Needs Integrity",
-      "url": "https://semiengineering.com/protecting-mission-critical-data-beyond-the-soc-why-inline-memory-encryption-needs-integrity/",
-      "summary": "Aerospace and government systems need confidentiality, authentication, and implementation resilience for off-chip memory.\nThe post Protecting Mission-Critical Data Beyond The SoC: Why Inline Memory Encryption Needs Integrity appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-09-03T07:07:47+00:00",
-      "pub_ts": 1788419267
-    },
-    {
-      "id": "fcbf933a4a",
-      "title": "Building Trust Into Physical AI Systems",
-      "url": "https://semiengineering.com/building-trust-into-physical-ai-systems/",
-      "summary": "Security and safety are inseparable in the physical world.\nThe post Building Trust Into Physical AI Systems appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-09-03T07:03:52+00:00",
-      "pub_ts": 1788419032
-    },
-    {
-      "id": "b1cb5ca47f",
-      "title": "Humanoid Compute, Security More Complex Than AVs",
-      "url": "https://semiengineering.com/humanoid-compute-security-more-complex-than-avs/",
-      "summary": "Robots and autonomous vehicles are both edge devices, but a humanoid has wheels as well as fingers. Close interaction with humans raises the stakes. \nThe post Humanoid Compute, Security More Complex Than AVs appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-09-03T07:03:07+00:00",
-      "pub_ts": 1788418987
     }
   ],
   "source_success_count": 3,
