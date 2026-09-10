@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-09-09T04:12:15.403857+00:00",
+  "updated_at": "2026-09-10T04:09:01.616389+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "82c36da951",
-      "title": "Why the CNS boom owes its success to breakthroughs in neurological pathologies",
-      "url": "https://www.pharmaceutical-technology.com/news/why-the-cns-boom-owes-its-success-to-breakthroughs-in-neurological-pathologies/",
-      "summary": "Shifting emphasis from symptoms to biomarkers has bolstered sector confidence in emerging CNS therapies.",
+      "id": "10914beb34",
+      "title": "Pharma’s R&D, commercial approach shifts amid global policy evolution",
+      "url": "https://www.pharmaceutical-technology.com/news/pharma-r-d-commercial-approval-shifts-amid-global-policy-evolution/",
+      "summary": "A survey of 175 pharma executives highlights an increasing reluctance to launch in lower-value markets, alongside a heightened focus on RWE.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-08T17:13:28+00:00",
-      "pub_ts": 1788887608
+      "pub_date": "2026-09-09T15:36:10+00:00",
+      "pub_ts": 1788968170
     },
     {
-      "id": "85d0bddd4c",
-      "title": "Quoin in line for priority review voucher if rare paediatric drug approved",
-      "url": "https://www.pharmaceutical-technology.com/news/quoin-in-line-for-priority-review-voucher-if-rare-paediatric-drug-approved/",
-      "summary": "Quoin has now received two rare paediatric disease designations for its lead asset QRX003.",
+      "id": "1e524b6a19",
+      "title": "ERS 2026: GB-0895 clinical results show potential of next-gen anti-TSLP for asthma",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ers-2026-gb-0895-results-anti-tslp-asthma/",
+      "summary": "At ERS 2026, Generate: Biomedicines investigators presented pharmacodynamics and safety results from the company’s ongoing Phase I study (NCT07116889) evaluating GB-0895.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-08T16:28:55+00:00",
-      "pub_ts": 1788884935
+      "pub_date": "2026-09-09T14:36:28+00:00",
+      "pub_ts": 1788964588
     },
     {
-      "id": "8dd21402a2",
-      "title": "UK on track to reverse years of pharma decline, ABPI report finds",
-      "url": "https://www.pharmaceutical-technology.com/news/abpi-report-uk-pharma-competitiveness/",
-      "summary": "The UK remains competitive in its science, but experts say more must be done to incentivise investment into Britain as global rivalry mounts.",
+      "id": "0701592c44",
+      "title": "Moonwalk banks $70m to progress siRNA therapy for obesity",
+      "url": "https://www.pharmaceutical-technology.com/news/moonwalk-banks-70m-progress-sirna-obesity-therapy-mw101/",
+      "summary": "Moonwalk says MW101 could spare lean muscle at an infrequent dosing schedule, potentially differentiating it from current obesity options.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-08T13:28:15+00:00",
-      "pub_ts": 1788874095
+      "pub_date": "2026-09-09T10:44:04+00:00",
+      "pub_ts": 1788950644
     },
     {
-      "id": "d76e267096",
-      "title": "LSTM opens $23m robotic AI lab for infection research",
-      "url": "https://www.pharmaceutical-technology.com/news/lstm-opens-robotic-ai-lab-infections-research/",
-      "summary": "The LSTM in the UK has opened a £20m ($23.2m) robotic AI laboratory to test drugs and vaccines against infections and diseases.",
+      "id": "21f19c7d54",
+      "title": "“Unparalleled opportunity”: Sandoz embarks on ambitious biosimilar growth strategy",
+      "url": "https://www.pharmaceutical-technology.com/news/unparalleled-opportunity-sandoz-embarks-on-ambitious-biosimilar-growth-strategy/",
+      "summary": "Sandoz wants its portfolio to include more than 100 biosimilars by 2040, up from the 13 it has now.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-08T10:24:15+00:00",
-      "pub_ts": 1788863055
+      "pub_date": "2026-09-09T10:19:17+00:00",
+      "pub_ts": 1788949157
     },
     {
-      "id": "0af078c2c1",
-      "title": "Osaka has the science. Now it needs the business",
-      "url": "https://www.pharmaceutical-technology.com/features/osaka-has-the-science-now-it-needs-the-business/",
-      "summary": "Osaka is striving to turn world-class life sciences research into a global healthcare industry - testing whether Japan's pharma and biotech sector can finally scale internationally.",
+      "id": "01bef30fde",
+      "title": "Gilead launches research facility in US for new medicine development",
+      "url": "https://www.pharmaceutical-technology.com/news/gilead-research-facility-medicine-development/",
+      "summary": "Gilead Sciences has opened a new 182,000ft² research centre at its Foster City headquarters in California, US, for advancing medicines to treat challenging diseases.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-08T09:13:46+00:00",
-      "pub_ts": 1788858826
+      "pub_date": "2026-09-09T09:59:25+00:00",
+      "pub_ts": 1788947965
     }
   ],
   "source_success_count": 1,

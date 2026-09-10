@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-09-09T04:12:02.953158+00:00",
+  "updated_at": "2026-09-10T04:08:48.832980+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "187ac8d8b5",
-      "title": "Spain Approves 40MW Moreruela II Green Hydrogen Plant",
-      "url": "https://fuelcellsworks.com/2026/09/03/electrolyzer/spain-approves-40mw-moreruela-ii-green-hydrogen-plant-as-water",
+      "id": "1ae4a2a216",
+      "title": "Hydrogen Becomes Grid Backup for Electric Trucks at New €6M [$7.0M] German Refuelling Hub",
+      "url": "https://fuelcellsworks.com/2026/09/05/electrolyzer/hydrogen-becomes-grid-backup-for-electric-trucks-at-new-6m-7-0m-german-refuelling-hub",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-08T16:16:48+00:00",
-      "pub_ts": 1788884208
+      "pub_date": "2026-09-09T16:15:13+00:00",
+      "pub_ts": 1788970513
     },
     {
-      "id": "3195681b58",
-      "title": "Hydrogen Innovations at Volvo Trucks at IAA Transportation 2026",
-      "url": "https://fuelcellsworks.com/2026/09/07/fuel-cells/hydrogen-innovations-at-volvo-trucks-at-iaa-transportation-2026",
+      "id": "2f16bd87d2",
+      "title": "Moeve and ArcelorMittal Team Up to Put Green Hydrogen to Work in Steelmaking",
+      "url": "https://fuelcellsworks.com/2026/09/09/h2/moeve-and-arcelormittal-team-up-to-put-green-hydrogen-to-work-in-steelmaking",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-08T16:10:16+00:00",
-      "pub_ts": 1788883816
+      "pub_date": "2026-09-09T16:03:12+00:00",
+      "pub_ts": 1788969792
     },
     {
-      "id": "5e6395c2b7",
-      "title": "Germany Marks Ten Years of Its Clean-Tech Export Programme — €82 Million Deployed Across 200+ Projects in 97 Countries",
-      "url": "https://fuelcellsworks.com/2026/09/05/fuel-cells/germany-s-clean-tech-export-programme-deploys-82m-95-2m-across-203-projects-in-97-countries",
+      "id": "5be19d6d6f",
+      "title": "Hebei Haiwei Takes Small Stake in Sungrow Hydrogen",
+      "url": "https://fuelcellsworks.com/2026/09/08/h2/hebei-haiwei-takes-small-stake-in-sungrow-hydrogen",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-08T16:02:55+00:00",
-      "pub_ts": 1788883375
+      "pub_date": "2026-09-09T15:59:42+00:00",
+      "pub_ts": 1788969582
     },
     {
-      "id": "591ee67631",
-      "title": "Primary Hydrogen Completes Initial Soil Sampling, Engages Contractors and Sets October 1 Drill Start at Wicheeda North",
-      "url": "https://fuelcellsworks.com/2026/09/08/h2/primary-hydrogen-completes-initial-soil-sampling-engages-contractors-and-sets-october-1-drill-start-at-wicheeda-north",
+      "id": "8b7c9543b7",
+      "title": "Winter Hydrogen Trial at Exeter Airport Strengthens Case for Lower-Carbon Ground Operations",
+      "url": "https://fuelcellsworks.com/2026/09/09/clean-energy/winter-hydrogen-trial-at-exeter-airport-strengthens-case-for-lower-carbon-ground-operations",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-08T16:01:07+00:00",
-      "pub_ts": 1788883267
+      "pub_date": "2026-09-09T15:43:00+00:00",
+      "pub_ts": 1788968580
     },
     {
-      "id": "06fcd75c1d",
-      "title": "Enagás Takes 31.5% Stake in France's Teréga — H2med Partners Deepen Ties",
-      "url": "https://fuelcellsworks.com/2026/09/06/h2/enagas-takes-31-5-percent-stake-in-france-s-terega-h2med-partners-deepen-ties",
+      "id": "f8cdfe4156",
+      "title": "Germany Researchers Hydrogen Backup Power to Keep Mobile Networks Running Through Multi-Day Blackouts",
+      "url": "https://fuelcellsworks.com/2026/09/07/h2/germany-researchers-hydrogen-backup-power-to-keep-mobile-networks-running-through-multi-day-blackouts",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-08T15:54:03+00:00",
-      "pub_ts": 1788882843
+      "pub_date": "2026-09-09T15:24:41+00:00",
+      "pub_ts": 1788967481
     }
   ],
   "source_success_count": 1,

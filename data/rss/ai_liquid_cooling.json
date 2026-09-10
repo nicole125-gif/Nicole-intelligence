@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-09-09T04:11:20.242893+00:00",
+  "updated_at": "2026-09-10T04:08:35.989914+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "0f6ff2bb1f",
-      "title": "一周连发6个模型！这家公司把具身智能的闭环跑通了",
-      "url": "https://mp.weixin.qq.com/s/x63S4uPidenCyUwbANRJZg",
-      "summary": "一周连发6个模型！这家公司把具身智能的闭环跑通了",
+      "id": "df00cab0f1",
+      "title": "全球疯狂「抢单」，中国智驾黑马浮现：蒋京芳为何选择neueHCT?",
+      "url": "https://mp.weixin.qq.com/s/B8WM7z9XCqYa2JelDlf0gQ",
+      "summary": "全球疯狂「抢单」，中国智驾黑马浮现：蒋京芳为何选择neueHCT?",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-09T04:11:15.860296+00:00",
-      "pub_ts": 1788927075
+      "pub_date": "2026-09-10T04:08:31.678558+00:00",
+      "pub_ts": 1789013311
     },
     {
-      "id": "6eee03359c",
-      "title": "ClaudeCode团队讲究啊，这都往外说",
-      "url": "https://mp.weixin.qq.com/s/nbf34grXcYwe3zbYhO9iwQ",
-      "summary": "ClaudeCode团队讲究啊，这都往外说",
+      "id": "87e17e9741",
+      "title": "AGI时代的第一个生图模型，ChatGPT Images 2.5上线",
+      "url": "https://mp.weixin.qq.com/s/iwXeBNYYjDlBFVQYYck5OA",
+      "summary": "AGI时代的第一个生图模型，ChatGPT Images 2.5上线",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-09T04:11:15.860341+00:00",
-      "pub_ts": 1788927075
+      "pub_date": "2026-09-10T04:08:31.678619+00:00",
+      "pub_ts": 1789013311
     },
     {
-      "id": "751a2e4993",
-      "title": "Arm造了颗AGICPU，火山引擎首批智能体沙箱先上车",
-      "url": "https://mp.weixin.qq.com/s/Qawgesu8baDHVOEs1UJEaw",
-      "summary": "Arm造了颗AGICPU，火山引擎首批智能体沙箱先上车",
+      "id": "843ab77e7d",
+      "title": "单样本校准、零推理开销，免训练LoRA合并框架上线|ICML'26",
+      "url": "https://mp.weixin.qq.com/s/upPySGsYukjCzmYh3QJW2A",
+      "summary": "单样本校准、零推理开销，免训练LoRA合并框架上线|ICML'26",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-09T04:11:15.860364+00:00",
-      "pub_ts": 1788927075
+      "pub_date": "2026-09-10T04:08:31.678645+00:00",
+      "pub_ts": 1789013311
     },
     {
-      "id": "7a2718dce1",
-      "title": "刚刚，能预测多智能体交互的世界模型来了",
-      "url": "https://mp.weixin.qq.com/s/SRFPA6WbwNgnxboFdA5YVw",
-      "summary": "刚刚，能预测多智能体交互的世界模型来了",
+      "id": "1d40c0b38d",
+      "title": "实测星火X2.5：手搓粒子月亮、拆完61页财报....还顺手揪出了我的Bug",
+      "url": "https://mp.weixin.qq.com/s/J812d_xkcV0oVQfGY8e_rA",
+      "summary": "实测星火X2.5：手搓粒子月亮、拆完61页财报....还顺手揪出了我的Bug",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-09T04:11:15.860384+00:00",
-      "pub_ts": 1788927075
+      "pub_date": "2026-09-10T04:08:31.678666+00:00",
+      "pub_ts": 1789013311
     },
     {
-      "id": "6451810939",
-      "title": "小米L3负责人王乃岩离职，下一站具身创业",
-      "url": "https://mp.weixin.qq.com/s/P3E5qtj6sZoLdgN3a6c2ow",
-      "summary": "小米L3负责人王乃岩离职，下一站具身创业",
+      "id": "c5dc805e6e",
+      "title": "OpenAI刚曝光循环架构，这家公司更早将其用于世界模型",
+      "url": "https://mp.weixin.qq.com/s/0mqI0i8NprIsxXnhuAGaXA",
+      "summary": "OpenAI刚曝光循环架构，这家公司更早将其用于世界模型",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-09T04:11:15.860404+00:00",
-      "pub_ts": 1788927075
+      "pub_date": "2026-09-10T04:08:31.678687+00:00",
+      "pub_ts": 1789013311
     }
   ],
   "source_success_count": 1,
