@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-09-10T04:08:35.989914+00:00",
+  "updated_at": "2026-09-11T04:06:53.403207+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "df00cab0f1",
-      "title": "全球疯狂「抢单」，中国智驾黑马浮现：蒋京芳为何选择neueHCT?",
-      "url": "https://mp.weixin.qq.com/s/B8WM7z9XCqYa2JelDlf0gQ",
-      "summary": "全球疯狂「抢单」，中国智驾黑马浮现：蒋京芳为何选择neueHCT?",
+      "id": "1b1d12ec92",
+      "title": "吹爆开源！RunningHub让MiniMaxH3满血提速12倍，本地部署照样起飞",
+      "url": "https://mp.weixin.qq.com/s/bygc8puWmTmN2KSt7otkwA",
+      "summary": "吹爆开源！RunningHub让MiniMaxH3满血提速12倍，本地部署照样起飞",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-10T04:08:31.678558+00:00",
-      "pub_ts": 1789013311
+      "pub_date": "2026-09-11T04:06:49.094789+00:00",
+      "pub_ts": 1789099609
     },
     {
-      "id": "87e17e9741",
-      "title": "AGI时代的第一个生图模型，ChatGPT Images 2.5上线",
-      "url": "https://mp.weixin.qq.com/s/iwXeBNYYjDlBFVQYYck5OA",
-      "summary": "AGI时代的第一个生图模型，ChatGPT Images 2.5上线",
+      "id": "ef717dcca1",
+      "title": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
+      "url": "https://mp.weixin.qq.com/s/f-J8TGelF7Wr1XnLdy62hw",
+      "summary": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-10T04:08:31.678619+00:00",
-      "pub_ts": 1789013311
+      "pub_date": "2026-09-11T04:06:49.094835+00:00",
+      "pub_ts": 1789099609
     },
     {
-      "id": "843ab77e7d",
-      "title": "单样本校准、零推理开销，免训练LoRA合并框架上线|ICML'26",
-      "url": "https://mp.weixin.qq.com/s/upPySGsYukjCzmYh3QJW2A",
-      "summary": "单样本校准、零推理开销，免训练LoRA合并框架上线|ICML'26",
+      "id": "5fa32b6bf0",
+      "title": "中科院×字节提出直播间模拟器：让大模型还原用户如何被环境一步步..",
+      "url": "https://mp.weixin.qq.com/s/ZYyi86XmJUBGYEfkWH8Egw",
+      "summary": "中科院×字节提出直播间模拟器：让大模型还原用户如何被环境一步步..",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-10T04:08:31.678645+00:00",
-      "pub_ts": 1789013311
+      "pub_date": "2026-09-11T04:06:49.094859+00:00",
+      "pub_ts": 1789099609
     },
     {
-      "id": "1d40c0b38d",
-      "title": "实测星火X2.5：手搓粒子月亮、拆完61页财报....还顺手揪出了我的Bug",
-      "url": "https://mp.weixin.qq.com/s/J812d_xkcV0oVQfGY8e_rA",
-      "summary": "实测星火X2.5：手搓粒子月亮、拆完61页财报....还顺手揪出了我的Bug",
+      "id": "cf116e2e0e",
+      "title": "ECCV上，顶尖学者们开始研究如何让AI做生意了",
+      "url": "https://mp.weixin.qq.com/s/K1M-cPRuuvqW-XbnxGuKmg",
+      "summary": "ECCV上，顶尖学者们开始研究如何让AI做生意了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-10T04:08:31.678666+00:00",
-      "pub_ts": 1789013311
+      "pub_date": "2026-09-11T04:06:49.094880+00:00",
+      "pub_ts": 1789099609
     },
     {
-      "id": "c5dc805e6e",
-      "title": "OpenAI刚曝光循环架构，这家公司更早将其用于世界模型",
-      "url": "https://mp.weixin.qq.com/s/0mqI0i8NprIsxXnhuAGaXA",
-      "summary": "OpenAI刚曝光循环架构，这家公司更早将其用于世界模型",
+      "id": "4579b24606",
+      "title": "DeepSeekV4.1重回国产一哥！全新架构非对称Transformer,Engram ...",
+      "url": "https://mp.weixin.qq.com/s/-a3MXvHw4PtZNlfNjMtaig",
+      "summary": "DeepSeekV4.1重回国产一哥！全新架构非对称Transformer,Engram ...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-10T04:08:31.678687+00:00",
-      "pub_ts": 1789013311
+      "pub_date": "2026-09-11T04:06:49.094902+00:00",
+      "pub_ts": 1789099609
     }
   ],
   "source_success_count": 1,

@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-09-10T04:09:01.616389+00:00",
+  "updated_at": "2026-09-11T04:07:17.744981+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "10914beb34",
-      "title": "Pharma’s R&D, commercial approach shifts amid global policy evolution",
-      "url": "https://www.pharmaceutical-technology.com/news/pharma-r-d-commercial-approval-shifts-amid-global-policy-evolution/",
-      "summary": "A survey of 175 pharma executives highlights an increasing reluctance to launch in lower-value markets, alongside a heightened focus on RWE.",
+      "id": "189f3eba38",
+      "title": "Encoded secures $275m for Dravet syndrome gene therapy",
+      "url": "https://www.pharmaceutical-technology.com/news/encoded-secures-275m-for-dravet-syndrome-gene-therapy/",
+      "summary": "Proceeds will go towards a pivotal trial of the candidate in paediatric patients.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-09T15:36:10+00:00",
-      "pub_ts": 1788968170
+      "pub_date": "2026-09-10T14:23:56+00:00",
+      "pub_ts": 1789050236
     },
     {
-      "id": "1e524b6a19",
-      "title": "ERS 2026: GB-0895 clinical results show potential of next-gen anti-TSLP for asthma",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ers-2026-gb-0895-results-anti-tslp-asthma/",
-      "summary": "At ERS 2026, Generate: Biomedicines investigators presented pharmacodynamics and safety results from the company’s ongoing Phase I study (NCT07116889) evaluating GB-0895.",
+      "id": "634d339dd3",
+      "title": "Podcast: key readouts from ESC and ERS",
+      "url": "https://www.pharmaceutical-technology.com/features/podcast-key-readouts-from-esc-and-ers/",
+      "summary": "The healthcare team dive into the latest data and emerging trends from the ESC Congress and ERS Congress.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-09T14:36:28+00:00",
-      "pub_ts": 1788964588
+      "pub_date": "2026-09-10T10:55:56+00:00",
+      "pub_ts": 1789037756
     },
     {
-      "id": "0701592c44",
-      "title": "Moonwalk banks $70m to progress siRNA therapy for obesity",
-      "url": "https://www.pharmaceutical-technology.com/news/moonwalk-banks-70m-progress-sirna-obesity-therapy-mw101/",
-      "summary": "Moonwalk says MW101 could spare lean muscle at an infrequent dosing schedule, potentially differentiating it from current obesity options.",
+      "id": "763ef78ac1",
+      "title": "Bayer’s Hyrnuo set for the NSCLC frontlines on accelerated FDA label expansion",
+      "url": "https://www.pharmaceutical-technology.com/news/bayer-hyrnuo-nsclc-frontline-accelerated-fda-label-expansion-approval/",
+      "summary": "Thoracic oncologists previously touted the potential of Bayer's Hyrnuo in HER2-mutant NSCLC in both the first- and second-line settings.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-09T10:44:04+00:00",
-      "pub_ts": 1788950644
+      "pub_date": "2026-09-10T10:26:07+00:00",
+      "pub_ts": 1789035967
     },
     {
-      "id": "21f19c7d54",
-      "title": "“Unparalleled opportunity”: Sandoz embarks on ambitious biosimilar growth strategy",
-      "url": "https://www.pharmaceutical-technology.com/news/unparalleled-opportunity-sandoz-embarks-on-ambitious-biosimilar-growth-strategy/",
-      "summary": "Sandoz wants its portfolio to include more than 100 biosimilars by 2040, up from the 13 it has now.",
+      "id": "835f99424c",
+      "title": "HHS appoints permanent FDA CBER, CDER heads",
+      "url": "https://www.pharmaceutical-technology.com/news/hhs-appoints-permanent-fda-cber-cder-heads/",
+      "summary": "The HHS appoints these leadership positions as it looks to “reform” the FDA, which has recently faced a high turnover in leadership.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-09T10:19:17+00:00",
-      "pub_ts": 1788949157
+      "pub_date": "2026-09-10T09:40:49+00:00",
+      "pub_ts": 1789033249
     },
     {
-      "id": "01bef30fde",
-      "title": "Gilead launches research facility in US for new medicine development",
-      "url": "https://www.pharmaceutical-technology.com/news/gilead-research-facility-medicine-development/",
-      "summary": "Gilead Sciences has opened a new 182,000ft² research centre at its Foster City headquarters in California, US, for advancing medicines to treat challenging diseases.",
+      "id": "66cbfcb422",
+      "title": "Solstice Oncology secures $225m to drive porustobart’s development for cancer",
+      "url": "https://www.pharmaceutical-technology.com/news/solstice-225m-porustobart-development/",
+      "summary": "Solstice Oncology has secured $225m to advance its lead candidate, porustobart, a neoadjuvant immuno-oncology therapy.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-09T09:59:25+00:00",
-      "pub_ts": 1788947965
+      "pub_date": "2026-09-10T09:39:18+00:00",
+      "pub_ts": 1789033158
     }
   ],
   "source_success_count": 1,

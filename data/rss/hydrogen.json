@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-09-10T04:08:48.832980+00:00",
+  "updated_at": "2026-09-11T04:07:04.913288+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "1ae4a2a216",
-      "title": "Hydrogen Becomes Grid Backup for Electric Trucks at New €6M [$7.0M] German Refuelling Hub",
-      "url": "https://fuelcellsworks.com/2026/09/05/electrolyzer/hydrogen-becomes-grid-backup-for-electric-trucks-at-new-6m-7-0m-german-refuelling-hub",
+      "id": "5258129e8d",
+      "title": "Siltrax Launches Commercialization Initiative in the Americas for Silicon-Based Hydrogen Technology",
+      "url": "https://fuelcellsworks.com/2026/09/10/h2/siltrax-launches-commercialization-initiative-in-the-americas-for-silicon-based-hydrogen-technology",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-09T16:15:13+00:00",
-      "pub_ts": 1788970513
+      "pub_date": "2026-09-10T18:57:40+00:00",
+      "pub_ts": 1789066660
     },
     {
-      "id": "2f16bd87d2",
-      "title": "Moeve and ArcelorMittal Team Up to Put Green Hydrogen to Work in Steelmaking",
-      "url": "https://fuelcellsworks.com/2026/09/09/h2/moeve-and-arcelormittal-team-up-to-put-green-hydrogen-to-work-in-steelmaking",
+      "id": "b7120ea8a9",
+      "title": "BMW iX5 Hydrogen: Testing Under Real Driving Conditions, Prototype Assembly and Industrialisation in Parallel",
+      "url": "https://fuelcellsworks.com/2026/09/10/green-technology/bmw-ix5-hydrogen-testing-under-real-driving-conditions-prototype-assembly-and-industrialisation-in-parallel",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-09T16:03:12+00:00",
-      "pub_ts": 1788969792
+      "pub_date": "2026-09-10T16:15:20+00:00",
+      "pub_ts": 1789056920
     },
     {
-      "id": "5be19d6d6f",
-      "title": "Hebei Haiwei Takes Small Stake in Sungrow Hydrogen",
-      "url": "https://fuelcellsworks.com/2026/09/08/h2/hebei-haiwei-takes-small-stake-in-sungrow-hydrogen",
+      "id": "269713af55",
+      "title": "Air Products Signs 75GWh/Year RWE PPA for Rotterdam Hydrogen Plants and New Liquefier",
+      "url": "https://fuelcellsworks.com/2026/09/09/h2/air-products-signs-75gwh-year-rwe-ppa-for-rotterdam-hydrogen-plants-and-new-liquefier",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-09T15:59:42+00:00",
-      "pub_ts": 1788969582
+      "pub_date": "2026-09-10T16:05:31+00:00",
+      "pub_ts": 1789056331
     },
     {
-      "id": "8b7c9543b7",
-      "title": "Winter Hydrogen Trial at Exeter Airport Strengthens Case for Lower-Carbon Ground Operations",
-      "url": "https://fuelcellsworks.com/2026/09/09/clean-energy/winter-hydrogen-trial-at-exeter-airport-strengthens-case-for-lower-carbon-ground-operations",
+      "id": "6bed05b49a",
+      "title": "Twelve Secures Up to $45 Million Credit Facility to Expand AirPlant One Hydrogen Production",
+      "url": "https://fuelcellsworks.com/2026/09/10/h2/twelve-secures-up-to-45-million-credit-facility-to-expand-airplant-one-hydrogen-production",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-09T15:43:00+00:00",
-      "pub_ts": 1788968580
+      "pub_date": "2026-09-10T15:56:38+00:00",
+      "pub_ts": 1789055798
     },
     {
-      "id": "f8cdfe4156",
-      "title": "Germany Researchers Hydrogen Backup Power to Keep Mobile Networks Running Through Multi-Day Blackouts",
-      "url": "https://fuelcellsworks.com/2026/09/07/h2/germany-researchers-hydrogen-backup-power-to-keep-mobile-networks-running-through-multi-day-blackouts",
+      "id": "ec39747d72",
+      "title": "Peru Turns to Japan to Launch Green Hydrogen Pilot Projects",
+      "url": "https://fuelcellsworks.com/2026/09/10/green-hydrogen/peru-turns-to-japan-to-launch-green-hydrogen-pilot-projects",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-09T15:24:41+00:00",
-      "pub_ts": 1788967481
+      "pub_date": "2026-09-10T15:48:18+00:00",
+      "pub_ts": 1789055298
     }
   ],
   "source_success_count": 1,
