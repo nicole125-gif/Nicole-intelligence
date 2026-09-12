@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-09-11T04:07:17.744981+00:00",
+  "updated_at": "2026-09-12T04:07:50.909771+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "189f3eba38",
-      "title": "Encoded secures $275m for Dravet syndrome gene therapy",
-      "url": "https://www.pharmaceutical-technology.com/news/encoded-secures-275m-for-dravet-syndrome-gene-therapy/",
-      "summary": "Proceeds will go towards a pivotal trial of the candidate in paediatric patients.",
+      "id": "83cdd9c008",
+      "title": "HIV charities lament NICE snub for Gilead’s twice-yearly lenacapavir",
+      "url": "https://www.pharmaceutical-technology.com/news/hiv-charities-lament-nice-snub-for-gileads-twice-yearly-lenacapavir/",
+      "summary": "Though yet to be finalised, the initial recommendation would mean the injectable PrEP would not be covered on the NHS.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-10T14:23:56+00:00",
-      "pub_ts": 1789050236
+      "pub_date": "2026-09-11T13:10:35+00:00",
+      "pub_ts": 1789132235
     },
     {
-      "id": "634d339dd3",
-      "title": "Podcast: key readouts from ESC and ERS",
-      "url": "https://www.pharmaceutical-technology.com/features/podcast-key-readouts-from-esc-and-ers/",
-      "summary": "The healthcare team dive into the latest data and emerging trends from the ESC Congress and ERS Congress.",
+      "id": "cf73760c5c",
+      "title": "ERS 2026: BMI, type-2 inflammation, and asthma attack risk",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ers-2026-bmi-type-2-inflammation-asthma-attack-risk/",
+      "summary": "At ERS 2026, investigators reported their findings from their review of the Oxford Asthma Attack Risk Scale Meta-Analysis (ORACLE2).",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-10T10:55:56+00:00",
-      "pub_ts": 1789037756
+      "pub_date": "2026-09-11T13:04:30+00:00",
+      "pub_ts": 1789131870
     },
     {
-      "id": "763ef78ac1",
-      "title": "Bayer’s Hyrnuo set for the NSCLC frontlines on accelerated FDA label expansion",
-      "url": "https://www.pharmaceutical-technology.com/news/bayer-hyrnuo-nsclc-frontline-accelerated-fda-label-expansion-approval/",
-      "summary": "Thoracic oncologists previously touted the potential of Bayer's Hyrnuo in HER2-mutant NSCLC in both the first- and second-line settings.",
+      "id": "5296c702a5",
+      "title": "Staunch biotech competition spurs new secretive tactics, shifts investor approach",
+      "url": "https://www.pharmaceutical-technology.com/features/biotech-competition-spurs-new-secretive-tactics-shifts-investor-approach/",
+      "summary": "Biotechs and investors are increasingly altering their strategies amid changes in the development and commercial landscape.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-10T10:26:07+00:00",
-      "pub_ts": 1789035967
+      "pub_date": "2026-09-11T10:34:38+00:00",
+      "pub_ts": 1789122878
     },
     {
-      "id": "835f99424c",
-      "title": "HHS appoints permanent FDA CBER, CDER heads",
-      "url": "https://www.pharmaceutical-technology.com/news/hhs-appoints-permanent-fda-cber-cder-heads/",
-      "summary": "The HHS appoints these leadership positions as it looks to “reform” the FDA, which has recently faced a high turnover in leadership.",
+      "id": "5119091d6e",
+      "title": "Exegenesis Bio and Modalis sign research deal for Duchenne therapy",
+      "url": "https://www.pharmaceutical-technology.com/news/exegenesis-bio-modalis-deal-duchenne-therapy/",
+      "summary": "Exegenesis Bio and Modalis Therapeutics have entered into a research partnership and licence agreement to progress MDL-201, a therapeutic candidate for DMD.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-10T09:40:49+00:00",
-      "pub_ts": 1789033249
+      "pub_date": "2026-09-11T10:28:29+00:00",
+      "pub_ts": 1789122509
     },
     {
-      "id": "66cbfcb422",
-      "title": "Solstice Oncology secures $225m to drive porustobart’s development for cancer",
-      "url": "https://www.pharmaceutical-technology.com/news/solstice-225m-porustobart-development/",
-      "summary": "Solstice Oncology has secured $225m to advance its lead candidate, porustobart, a neoadjuvant immuno-oncology therapy.",
+      "id": "01d03a9163",
+      "title": "ABEC to expand global manufacturing network with new Wilson facility",
+      "url": "https://www.pharmaceutical-technology.com/news/abec-global-manufacturing-network-wilson-facility/",
+      "summary": "ABEC is to open a new manufacturing facility in Wilson, North Carolina, US, expanding its network for biopharmaceutical process equipment.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-10T09:39:18+00:00",
-      "pub_ts": 1789033158
+      "pub_date": "2026-09-11T08:35:37+00:00",
+      "pub_ts": 1789115737
     }
   ],
   "source_success_count": 1,

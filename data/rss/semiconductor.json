@@ -3,7 +3,7 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-09-11T04:06:39.364563+00:00",
+  "updated_at": "2026-09-12T04:07:13.822184+00:00",
   "item_count": 15,
   "items": [
     {
@@ -13,8 +13,8 @@
       "summary": "一条完整的半导体产业链应该长什么样?",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-11T04:06:35.265913+00:00",
-      "pub_ts": 1789099595
+      "pub_date": "2026-09-12T04:07:09.536597+00:00",
+      "pub_ts": 1789186029
     },
     {
       "id": "6e24d53488",
@@ -23,8 +23,8 @@
       "summary": "磷化铟，短缺超70%",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-11T04:06:35.265965+00:00",
-      "pub_ts": 1789099595
+      "pub_date": "2026-09-12T04:07:09.536642+00:00",
+      "pub_ts": 1789186029
     },
     {
       "id": "36cb0137d1",
@@ -33,8 +33,8 @@
       "summary": "高通智能体AI落地成果，上海集中亮相",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-11T04:06:35.265993+00:00",
-      "pub_ts": 1789099595
+      "pub_date": "2026-09-12T04:07:09.536670+00:00",
+      "pub_ts": 1789186029
     },
     {
       "id": "09034329cf",
@@ -43,8 +43,8 @@
       "summary": "出货1250万块！Q2 PC独显逆势环比增长10%",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-11T04:06:35.266016+00:00",
-      "pub_ts": 1789099595
+      "pub_date": "2026-09-12T04:07:09.536693+00:00",
+      "pub_ts": 1789186029
     },
     {
       "id": "8edb29be8a",
@@ -53,8 +53,8 @@
       "summary": "120亿美元！安靠先进封测园区大扩产",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-11T04:06:35.266037+00:00",
-      "pub_ts": 1789099595
+      "pub_date": "2026-09-12T04:07:09.536715+00:00",
+      "pub_ts": 1789186029
     },
     {
       "id": "1e923ff085",
@@ -63,8 +63,8 @@
       "summary": "突发，英伟达被查",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-11T04:06:26.063574+00:00",
-      "pub_ts": 1789099586
+      "pub_date": "2026-09-12T04:06:56.881916+00:00",
+      "pub_ts": 1789186016
     },
     {
       "id": "ab6fa3d581",
@@ -73,8 +73,8 @@
       "summary": "AI电话机器人突围战：从“段子手”到”办事员”有多远？",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-11T04:06:26.063627+00:00",
-      "pub_ts": 1789099586
+      "pub_date": "2026-09-12T04:06:56.881976+00:00",
+      "pub_ts": 1789186016
     },
     {
       "id": "6a8a8690c6",
@@ -83,8 +83,8 @@
       "summary": "半年融资近20亿元，光羽芯辰加速端侧AI芯片量产落地和云端推理新...",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-11T04:06:26.063652+00:00",
-      "pub_ts": 1789099586
+      "pub_date": "2026-09-12T04:06:56.882003+00:00",
+      "pub_ts": 1789186016
     },
     {
       "id": "376f7f9d93",
@@ -93,8 +93,8 @@
       "summary": "光互连加速迈向“芯片级”集成国产全栈方案亮相光博会",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-11T04:06:26.063675+00:00",
-      "pub_ts": 1789099586
+      "pub_date": "2026-09-12T04:06:56.882026+00:00",
+      "pub_ts": 1789186016
     },
     {
       "id": "f605ba6a68",
@@ -103,58 +103,58 @@
       "summary": "台积电1.4nm，将提前量产",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-11T04:06:26.063702+00:00",
-      "pub_ts": 1789099586
+      "pub_date": "2026-09-12T04:06:56.882051+00:00",
+      "pub_ts": 1789186016
     },
     {
-      "id": "0e2a114157",
-      "title": "Redefining Processes At Sub-2nm",
-      "url": "https://semiengineering.com/redefining-processes-at-sub-2nm/",
-      "summary": "Discrete steps are being merged with others as dimensions shrink into the angstrom range.\nThe post Redefining Processes At Sub-2nm appeared first on Semiconductor Engineering.",
+      "id": "099e5ca81a",
+      "title": "Heterogeneous Memory Chiplets Accelerate Multi-Request LLM Inference (NUS)",
+      "url": "https://semiengineering.com/heterogeneous-memory-chiplets-accelerate-multi-request-llm-inference-nus/",
+      "summary": "Researchers at the National University of Singapore published a technical paper titled “CHIPSMORE: Compute-in-Interconnect and -Memory Chiplets for Multi-Mode Multi-Request LLM Inference Acceleration.” Abstract Excerpt: “This paper presents CHIPSMORE, a multi-mode and multi-request LLM inference acc…",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-09-10T07:13:52+00:00",
-      "pub_ts": 1789024432
+      "pub_date": "2026-09-11T21:56:01+00:00",
+      "pub_ts": 1789163761
     },
     {
-      "id": "d72b33957a",
-      "title": "Silent Data Errors Redefine Test Coverage And Fleet Maintenance Strategies",
-      "url": "https://semiengineering.com/silent-data-errors-redefine-test-coverage-and-fleet-maintenance-strategies/",
-      "summary": "Through better manufacturing screening, DFT for systems and fleet monitors, this major scourge on data center hardware is gradually being tamed.\nThe post Silent Data Errors Redefine Test Coverage And Fleet Maintenance Strategies appeared first on Semiconductor Engineering.",
+      "id": "5c8db7f015",
+      "title": "Reducing HBM ECC Controller Overhead For AI Inference (RPI, IBM)",
+      "url": "https://semiengineering.com/reducing-hbm-ecc-controller-overhead-for-ai-inference-rpi-ibm/",
+      "summary": "Researchers at Rensselaer Polytechnic Institute and IBM T.J. Watson Research Center published a technical paper titled “REACH: Controller-Managed Long-Span ECC for HBM AI Inference.” Abstract Excerpt: “High-Bandwidth Memory (HBM) cost motivates stronger controller protection that can support a wider…",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-09-10T07:12:39+00:00",
-      "pub_ts": 1789024359
+      "pub_date": "2026-09-11T21:43:18+00:00",
+      "pub_ts": 1789162998
     },
     {
-      "id": "853a35522b",
-      "title": "Validation Gets Tested At 1kW",
-      "url": "https://semiengineering.com/validation-gets-tested-at-1kw/",
-      "summary": "Kilowatt-class AI accelerators are forcing engineers to rethink what counts as adequate coverage across workload, thermal behavior, test hardware, and time.\nThe post Validation Gets Tested At 1kW appeared first on Semiconductor Engineering.",
+      "id": "4015cfdcad",
+      "title": "Molybdenum Quasi Phase-Only Masks Improve EUV Imaging (NYCU, TSMC)",
+      "url": "https://semiengineering.com/molybdenum-quasi-phase-only-masks-improve-euv-imaging-nycu-tsmc/",
+      "summary": "Researchers at National Yang Ming Chiao Tung University and TSMC published a technical paper titled “High contrast EUV imaging enabled by topological quasi phase-only masks.” Abstract Excerpt: “Here, we propose a paradigm shift in EUV PSM technology by introducing molybdenum (Mo)-based quasi phase-o…",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-09-10T07:11:34+00:00",
-      "pub_ts": 1789024294
+      "pub_date": "2026-09-11T21:28:44+00:00",
+      "pub_ts": 1789162124
     },
     {
-      "id": "02061f7828",
-      "title": "Beyond Thickness: Using Picosecond Ultrasonic Technology For SiCr Process Control In BCD Devices",
-      "url": "https://semiengineering.com/beyond-thickness-using-picosecond-ultrasonic-technology-for-sicr-process-control-in-bcd-devices/",
-      "summary": "Improve visibility into deposition variation by combining thickness metrology with simultaneous reflectivity measurements.\nThe post Beyond Thickness: Using Picosecond Ultrasonic Technology For SiCr Process Control In BCD Devices appeared first on Semiconductor Engineering.",
+      "id": "b28f96b1e8",
+      "title": "Characterizing Charge Components In TMD-based MOS Structures (imec, KU Leuven, ASM)",
+      "url": "https://semiengineering.com/characterizing-charge-components-in-tmd-based-mos-structures-imec-ku-leuven-asm/",
+      "summary": "Researchers at imec, KU Leuven, and ASM published a technical paper titled “Dissecting the transition metal dichalcogenides-based metal-oxide-semiconductor structures charge components.” Abstract Excerpt: “Different variable charges such as interface traps, oxide border traps, and mobile carriers ca…",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-09-10T07:09:47+00:00",
-      "pub_ts": 1789024187
+      "pub_date": "2026-09-11T21:06:41+00:00",
+      "pub_ts": 1789160801
     },
     {
-      "id": "b109e2559a",
-      "title": "Beyond Conventional Ring Oscillators: Purpose-Built Process Detectors For Deeper Silicon Insight",
-      "url": "https://semiengineering.com/beyond-conventional-ring-oscillators-purpose-built-process-detectors-for-deeper-silicon-insight/",
-      "summary": "How design-aware monitor analytics connects production measurements with device behavior and pre-silicon expectations.\nThe post Beyond Conventional Ring Oscillators: Purpose-Built Process Detectors For Deeper Silicon Insight appeared first on Semiconductor Engineering.",
+      "id": "a8eca05efc",
+      "title": "Modeling Predicts Cure And Thermal Endurance Of Advanced Packaging Underfill (NIST, UCSD et al.)",
+      "url": "https://semiengineering.com/modeling-predicts-cure-and-thermal-endurance-of-advanced-packaging-underfill-nist-ucsd-et-al/",
+      "summary": "Researchers at the NIST, UCSD et al. published a technical paper titled “Predicting Cure Evolution and Thermal Endurance of a Highly Filled Epoxy Underfill for Advanced Packaging.” Abstract Excerpt: “Epoxy underfill materials are critical to advanced semiconductor packaging by enhancing mechanical i…",
       "source": "Semiconductor Engineering",
       "lang": "en",
-      "pub_date": "2026-09-10T07:08:40+00:00",
-      "pub_ts": 1789024120
+      "pub_date": "2026-09-11T20:54:59+00:00",
+      "pub_ts": 1789160099
     }
   ],
   "source_success_count": 3,

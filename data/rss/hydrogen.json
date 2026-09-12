@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-09-11T04:07:04.913288+00:00",
+  "updated_at": "2026-09-12T04:07:38.546174+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "5258129e8d",
-      "title": "Siltrax Launches Commercialization Initiative in the Americas for Silicon-Based Hydrogen Technology",
-      "url": "https://fuelcellsworks.com/2026/09/10/h2/siltrax-launches-commercialization-initiative-in-the-americas-for-silicon-based-hydrogen-technology",
+      "id": "14399b9242",
+      "title": "Covestro, Fertiglobe and MB Energy Sign MoU to Explore Ammonia Supply Chain",
+      "url": "https://fuelcellsworks.com/2026/09/11/h2/covestro-fertiglobe-and-mb-energy-sign-mou-to-explore-ammonia-supply-chain",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-10T18:57:40+00:00",
-      "pub_ts": 1789066660
+      "pub_date": "2026-09-11T16:23:19+00:00",
+      "pub_ts": 1789143799
     },
     {
-      "id": "b7120ea8a9",
-      "title": "BMW iX5 Hydrogen: Testing Under Real Driving Conditions, Prototype Assembly and Industrialisation in Parallel",
-      "url": "https://fuelcellsworks.com/2026/09/10/green-technology/bmw-ix5-hydrogen-testing-under-real-driving-conditions-prototype-assembly-and-industrialisation-in-parallel",
+      "id": "8cc9a5dc17",
+      "title": "Spree-Neiße Builds Hydrogen Refuelling Network for 35-Bus Fleet",
+      "url": "https://fuelcellsworks.com/2026/09/10/clean-hydrogen/spree-nei-e-builds-hydrogen-refuelling-network-for-35-bus-fleet",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-10T16:15:20+00:00",
-      "pub_ts": 1789056920
+      "pub_date": "2026-09-11T15:53:10+00:00",
+      "pub_ts": 1789141990
     },
     {
-      "id": "269713af55",
-      "title": "Air Products Signs 75GWh/Year RWE PPA for Rotterdam Hydrogen Plants and New Liquefier",
-      "url": "https://fuelcellsworks.com/2026/09/09/h2/air-products-signs-75gwh-year-rwe-ppa-for-rotterdam-hydrogen-plants-and-new-liquefier",
+      "id": "3733b153be",
+      "title": "HVR Energy Secures €20 Million to Accelerate the Rollout of Its Hydrogen Refuelling Network in Spain",
+      "url": "https://fuelcellsworks.com/2026/09/09/h2/hvr-energy-secures-20-million-to-accelerate-the-rollout-of-its-hydrogen-refuelling-network-in-spain",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-10T16:05:31+00:00",
-      "pub_ts": 1789056331
+      "pub_date": "2026-09-11T15:44:45+00:00",
+      "pub_ts": 1789141485
     },
     {
-      "id": "6bed05b49a",
-      "title": "Twelve Secures Up to $45 Million Credit Facility to Expand AirPlant One Hydrogen Production",
-      "url": "https://fuelcellsworks.com/2026/09/10/h2/twelve-secures-up-to-45-million-credit-facility-to-expand-airplant-one-hydrogen-production",
+      "id": "caaed1bab0",
+      "title": "Hydrogen-Powered Sauna Boat Offers New Way to Unwind",
+      "url": "https://fuelcellsworks.com/2026/09/09/h2/hydrogen-powered-sauna-boat-offers-new-way-to-unwind",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-10T15:56:38+00:00",
-      "pub_ts": 1789055798
+      "pub_date": "2026-09-11T15:37:34+00:00",
+      "pub_ts": 1789141054
     },
     {
-      "id": "ec39747d72",
-      "title": "Peru Turns to Japan to Launch Green Hydrogen Pilot Projects",
-      "url": "https://fuelcellsworks.com/2026/09/10/green-hydrogen/peru-turns-to-japan-to-launch-green-hydrogen-pilot-projects",
+      "id": "277057b989",
+      "title": "Mitsubishi Kakoki Wins Kawasaki Order for 18-Tonne-a-Day Hydrogen Plant",
+      "url": "https://fuelcellsworks.com/2026/09/10/h2/mitsubishi-kakoki-wins-kawasaki-order-for-18-tonne-a-day-hydrogen-plant",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-10T15:48:18+00:00",
-      "pub_ts": 1789055298
+      "pub_date": "2026-09-11T15:13:11+00:00",
+      "pub_ts": 1789139591
     }
   ],
   "source_success_count": 1,
