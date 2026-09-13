@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-09-12T04:07:27.430684+00:00",
+  "updated_at": "2026-09-13T04:18:52.774996+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "1b1d12ec92",
-      "title": "吹爆开源！RunningHub让MiniMaxH3满血提速12倍，本地部署照样起飞",
-      "url": "https://mp.weixin.qq.com/s/bygc8puWmTmN2KSt7otkwA",
-      "summary": "吹爆开源！RunningHub让MiniMaxH3满血提速12倍，本地部署照样起飞",
+      "id": "ed3754a8ee",
+      "title": "这个学生，用4天做的AI短片，从京东拿走30000元！",
+      "url": "https://mp.weixin.qq.com/s/TF5dRYiWzNTKr4qOuqYmjg",
+      "summary": "这个学生，用4天做的AI短片，从京东拿走30000元！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-12T04:07:23.164326+00:00",
-      "pub_ts": 1789186043
+      "pub_date": "2026-09-13T04:18:48.640567+00:00",
+      "pub_ts": 1789273128
     },
     {
-      "id": "ef717dcca1",
-      "title": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
-      "url": "https://mp.weixin.qq.com/s/f-J8TGelF7Wr1XnLdy62hw",
-      "summary": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
+      "id": "7d7e6196f1",
+      "title": "配套CLI与Skills，浙大开源可插拔Agent评测底座",
+      "url": "https://mp.weixin.qq.com/s/4c9x7AjLWSD8ZunmhA0b_g",
+      "summary": "配套CLI与Skills，浙大开源可插拔Agent评测底座",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-12T04:07:23.164373+00:00",
-      "pub_ts": 1789186043
+      "pub_date": "2026-09-13T04:18:48.640609+00:00",
+      "pub_ts": 1789273128
     },
     {
-      "id": "5fa32b6bf0",
-      "title": "中科院×字节提出直播间模拟器：让大模型还原用户如何被环境一步步..",
-      "url": "https://mp.weixin.qq.com/s/ZYyi86XmJUBGYEfkWH8Egw",
-      "summary": "中科院×字节提出直播间模拟器：让大模型还原用户如何被环境一步步..",
+      "id": "b524da6b4e",
+      "title": "探索RSI，生数新世界模型让机器人开始自我进化",
+      "url": "https://mp.weixin.qq.com/s/pg7LlHGMOC-4d3XDbsZwNA",
+      "summary": "探索RSI，生数新世界模型让机器人开始自我进化",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-12T04:07:23.164397+00:00",
-      "pub_ts": 1789186043
+      "pub_date": "2026-09-13T04:18:48.640627+00:00",
+      "pub_ts": 1789273128
     },
     {
-      "id": "cf116e2e0e",
-      "title": "ECCV上，顶尖学者们开始研究如何让AI做生意了",
-      "url": "https://mp.weixin.qq.com/s/K1M-cPRuuvqW-XbnxGuKmg",
-      "summary": "ECCV上，顶尖学者们开始研究如何让AI做生意了",
+      "id": "2a3835d39d",
+      "title": "Kimi突发K2.8：性能逼近K3，百万上下文全员开放",
+      "url": "https://mp.weixin.qq.com/s/39OE9oBWEInFbX1d1etVog",
+      "summary": "Kimi突发K2.8：性能逼近K3，百万上下文全员开放",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-12T04:07:23.164442+00:00",
-      "pub_ts": 1789186043
+      "pub_date": "2026-09-13T04:18:48.640644+00:00",
+      "pub_ts": 1789273128
     },
     {
-      "id": "4579b24606",
-      "title": "DeepSeekV4.1重回国产一哥！全新架构非对称Transformer,Engram ...",
-      "url": "https://mp.weixin.qq.com/s/-a3MXvHw4PtZNlfNjMtaig",
-      "summary": "DeepSeekV4.1重回国产一哥！全新架构非对称Transformer,Engram ...",
+      "id": "46775c1999",
+      "title": "陶哲轩邓煜究竟在反对什么：AI暴力解题摧毁人类数学精神",
+      "url": "https://mp.weixin.qq.com/s/OV3uz4xa_rhZRkTCJPquxw",
+      "summary": "陶哲轩邓煜究竟在反对什么：AI暴力解题摧毁人类数学精神",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-12T04:07:23.164472+00:00",
-      "pub_ts": 1789186043
+      "pub_date": "2026-09-13T04:18:48.640661+00:00",
+      "pub_ts": 1789273128
     }
   ],
   "source_success_count": 1,
