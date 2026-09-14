@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-09-13T04:18:52.774996+00:00",
+  "updated_at": "2026-09-14T04:25:56.392624+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "ed3754a8ee",
-      "title": "这个学生，用4天做的AI短片，从京东拿走30000元！",
-      "url": "https://mp.weixin.qq.com/s/TF5dRYiWzNTKr4qOuqYmjg",
-      "summary": "这个学生，用4天做的AI短片，从京东拿走30000元！",
+      "id": "5490cefde9",
+      "title": "中国物理AI大突破：PhysBrain1.5 登顶全球开源榜一，空间智能与GPT..",
+      "url": "https://mp.weixin.qq.com/s/V0X8LrYe-B4JVXDEz2bZqg",
+      "summary": "中国物理AI大突破：PhysBrain1.5 登顶全球开源榜一，空间智能与GPT..",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-13T04:18:48.640567+00:00",
-      "pub_ts": 1789273128
+      "pub_date": "2026-09-14T04:25:51.859023+00:00",
+      "pub_ts": 1789359951
     },
     {
-      "id": "7d7e6196f1",
-      "title": "配套CLI与Skills，浙大开源可插拔Agent评测底座",
-      "url": "https://mp.weixin.qq.com/s/4c9x7AjLWSD8ZunmhA0b_g",
-      "summary": "配套CLI与Skills，浙大开源可插拔Agent评测底座",
+      "id": "90046b0cd0",
+      "title": "今年外滩最特别Agent：能干活，能陪聊，还会朋友圈拉黑你",
+      "url": "https://mp.weixin.qq.com/s/7xFSIkY_mCSSSUTC4a7FnA",
+      "summary": "今年外滩最特别Agent：能干活，能陪聊，还会朋友圈拉黑你",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-13T04:18:48.640609+00:00",
-      "pub_ts": 1789273128
+      "pub_date": "2026-09-14T04:25:51.859062+00:00",
+      "pub_ts": 1789359951
     },
     {
-      "id": "b524da6b4e",
-      "title": "探索RSI，生数新世界模型让机器人开始自我进化",
-      "url": "https://mp.weixin.qq.com/s/pg7LlHGMOC-4d3XDbsZwNA",
-      "summary": "探索RSI，生数新世界模型让机器人开始自我进化",
+      "id": "1501a9b9fc",
+      "title": "GitHub三榜第一背后，—个“专升本工程师的十年",
+      "url": "https://mp.weixin.qq.com/s/o82CF-NiDaUg7ebmIiN7Hw",
+      "summary": "GitHub三榜第一背后，—个“专升本工程师的十年",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-13T04:18:48.640627+00:00",
-      "pub_ts": 1789273128
+      "pub_date": "2026-09-14T04:25:51.859079+00:00",
+      "pub_ts": 1789359951
     },
     {
-      "id": "2a3835d39d",
-      "title": "Kimi突发K2.8：性能逼近K3，百万上下文全员开放",
-      "url": "https://mp.weixin.qq.com/s/39OE9oBWEInFbX1d1etVog",
-      "summary": "Kimi突发K2.8：性能逼近K3，百万上下文全员开放",
+      "id": "85afa9d62d",
+      "title": "2000+真实场景搬进仿真！一个导航模型零样本“通吃”四种机器人本体",
+      "url": "https://mp.weixin.qq.com/s/ltmv8WUSuBg4oFm1wbNc-g",
+      "summary": "2000+真实场景搬进仿真！一个导航模型零样本“通吃”四种机器人本体",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-13T04:18:48.640644+00:00",
-      "pub_ts": 1789273128
+      "pub_date": "2026-09-14T04:25:51.859095+00:00",
+      "pub_ts": 1789359951
     },
     {
-      "id": "46775c1999",
-      "title": "陶哲轩邓煜究竟在反对什么：AI暴力解题摧毁人类数学精神",
-      "url": "https://mp.weixin.qq.com/s/OV3uz4xa_rhZRkTCJPquxw",
-      "summary": "陶哲轩邓煜究竟在反对什么：AI暴力解题摧毁人类数学精神",
+      "id": "64f1c051de",
+      "title": "个性化智能体强化学习框架上线，8B模型盲测第一",
+      "url": "https://mp.weixin.qq.com/s/O2GDbvazq85_Ob1603DPJQ",
+      "summary": "个性化智能体强化学习框架上线，8B模型盲测第一",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-13T04:18:48.640661+00:00",
-      "pub_ts": 1789273128
+      "pub_date": "2026-09-14T04:25:51.859110+00:00",
+      "pub_ts": 1789359951
     }
   ],
   "source_success_count": 1,
