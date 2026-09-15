@@ -3,161 +3,101 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-09-14T04:25:42.371102+00:00",
-  "item_count": 15,
+  "updated_at": "2026-09-15T04:25:56.725788+00:00",
+  "item_count": 9,
   "items": [
     {
-      "id": "f761d99336",
-      "title": "国产AI芯片大卖，上半年谁真正赚到了钱？",
-      "url": "https://mp.weixin.qq.com/s/F4kOERlScCdyWqIeifCxuw",
-      "summary": "国产AI芯片大卖，上半年谁真正赚到了钱？",
+      "id": "2f3a44cbe2",
+      "title": "DRAM的下一个十年，要“站起来”",
+      "url": "https://mp.weixin.qq.com/s/GDxdl1odhWa-RnXBjtSPJA",
+      "summary": "DRAM的下一个十年，要“站起来”",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-14T04:25:38.183801+00:00",
-      "pub_ts": 1789359938
+      "pub_date": "2026-09-15T04:25:50.436875+00:00",
+      "pub_ts": 1789446350
     },
     {
-      "id": "6fccf53bbc",
-      "title": "AI服务器的蓬勃发展重塑了MLCC供应格局",
-      "url": "https://mp.weixin.qq.com/s/ae5maX-FCYpIDqpz23wuyg",
-      "summary": "AI服务器的蓬勃发展重塑了MLCC供应格局",
+      "id": "ca956339e6",
+      "title": "西电芯片存储研究，取得新突破",
+      "url": "https://mp.weixin.qq.com/s/Cb6P3sy8dCB3dXRiNedxGw",
+      "summary": "西电芯片存储研究，取得新突破",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-14T04:25:38.183841+00:00",
-      "pub_ts": 1789359938
+      "pub_date": "2026-09-15T04:25:50.436948+00:00",
+      "pub_ts": 1789446350
     },
     {
-      "id": "2b2bdb8033",
-      "title": "先进封装撑起AI半导体新周期",
-      "url": "https://mp.weixin.qq.com/s/R8clvMeduDY6kv-UvQuCmg",
-      "summary": "先进封装撑起AI半导体新周期",
+      "id": "bcc25bc34f",
+      "title": "MLCC需求至少持续到2028年，村田要“大胆”扩产",
+      "url": "https://mp.weixin.qq.com/s/xE2D8eutet-_6deZ8Sxs8w",
+      "summary": "MLCC需求至少持续到2028年，村田要“大胆”扩产",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-14T04:25:38.183860+00:00",
-      "pub_ts": 1789359938
+      "pub_date": "2026-09-15T04:25:50.436970+00:00",
+      "pub_ts": 1789446350
     },
     {
-      "id": "5119c95dd0",
-      "title": "算力之后，存储成为AI应用落地的“胜负手”",
-      "url": "https://mp.weixin.qq.com/s/fRBMT_nu9r174RsUmTmL4w",
-      "summary": "算力之后，存储成为AI应用落地的“胜负手”",
+      "id": "b920d18108",
+      "title": "NORFlash高容量产品，下半年最高涨110%",
+      "url": "https://mp.weixin.qq.com/s/dhATGkxCst51Vk1Dxow4SQ",
+      "summary": "NORFlash高容量产品，下半年最高涨110%",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-14T04:25:38.183878+00:00",
-      "pub_ts": 1789359938
+      "pub_date": "2026-09-15T04:25:50.436990+00:00",
+      "pub_ts": 1789446350
     },
     {
-      "id": "cc80b7d086",
-      "title": "清华、上交提出光计算走向实用化的技术路线图",
-      "url": "https://mp.weixin.qq.com/s/Ufpi-FcBba5IxAYF3mTMVg",
-      "summary": "清华、上交提出光计算走向实用化的技术路线图",
-      "source": "半导体产业纵横",
-      "lang": "zh",
-      "pub_date": "2026-09-14T04:25:38.183905+00:00",
-      "pub_ts": 1789359938
-    },
-    {
-      "id": "a54b4a284b",
-      "title": "三星晶圆厂，支棱起来了?",
-      "url": "https://mp.weixin.qq.com/s/_ElSeLzIF58-0eX9gfZj-w",
-      "summary": "三星晶圆厂，支棱起来了?",
+      "id": "b6ac064659",
+      "title": "Nor Flash，告急！",
+      "url": "https://mp.weixin.qq.com/s/0AtZ2v4b3fwJLSnohlhtnw",
+      "summary": "Nor Flash，告急！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-14T04:25:25.086956+00:00",
-      "pub_ts": 1789359925
+      "pub_date": "2026-09-15T04:25:39.833806+00:00",
+      "pub_ts": 1789446339
     },
     {
-      "id": "05317b6fa8",
-      "title": "俄罗斯光刻机，取得新突破",
-      "url": "https://mp.weixin.qq.com/s/Rv25JYXfbRVTmGVyY9rpMA",
-      "summary": "俄罗斯光刻机，取得新突破",
+      "id": "6d304e7dec",
+      "title": "十月来深圳，一站看遍全球“芯”势力！2026湾芯展即将启幕",
+      "url": "https://mp.weixin.qq.com/s/y7H6SJiPqzO5hob_a0JG8w",
+      "summary": "十月来深圳，一站看遍全球“芯”势力！2026湾芯展即将启幕",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-14T04:25:25.087001+00:00",
-      "pub_ts": 1789359925
+      "pub_date": "2026-09-15T04:25:39.833858+00:00",
+      "pub_ts": 1789446339
     },
     {
-      "id": "bb5645d869",
-      "title": "分析师警告：内存原厂不要过度依赖长期合同",
-      "url": "https://mp.weixin.qq.com/s/OqLEZRi3scR7K0VKr2dvnw",
-      "summary": "分析师警告：内存原厂不要过度依赖长期合同",
+      "id": "6d3d0076cb",
+      "title": "图解可插拔、XPO、NPO、CPO",
+      "url": "https://mp.weixin.qq.com/s/aNYvX8NispJZ-iw1z_ao0w",
+      "summary": "图解可插拔、XPO、NPO、CPO",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-14T04:25:25.087019+00:00",
-      "pub_ts": 1789359925
+      "pub_date": "2026-09-15T04:25:39.833883+00:00",
+      "pub_ts": 1789446339
     },
     {
-      "id": "5ef8b11ea4",
-      "title": "先进封装，今非昔比",
-      "url": "https://mp.weixin.qq.com/s/IepotmPNyVo4YyD93fDQqA",
-      "summary": "先进封装，今非昔比",
+      "id": "88ab5a88dd",
+      "title": "HBM，急刹车！",
+      "url": "https://mp.weixin.qq.com/s/wCQZkZx8OQpGdTpRJDyIag",
+      "summary": "HBM，急刹车！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-14T04:25:25.087036+00:00",
-      "pub_ts": 1789359925
+      "pub_date": "2026-09-15T04:25:39.833906+00:00",
+      "pub_ts": 1789446339
     },
     {
-      "id": "62ae600d63",
-      "title": "【第四轮通知-大会正式议程】2026半导体生态发展大会-暨上海院士专...",
-      "url": "https://mp.weixin.qq.com/s/JFP-N2SIeO7K-DaEcqmAtg",
-      "summary": "【第四轮通知-大会正式议程】2026半导体生态发展大会-暨上海院士专...",
+      "id": "f19e3d94c5",
+      "title": "台积电最新扩产计划：2/3nm全面提速",
+      "url": "https://mp.weixin.qq.com/s/C53WNKqVBB4I3oZVFK6MUA",
+      "summary": "台积电最新扩产计划：2/3nm全面提速",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-14T04:25:25.087052+00:00",
-      "pub_ts": 1789359925
-    },
-    {
-      "id": "099e5ca81a",
-      "title": "Heterogeneous Memory Chiplets Accelerate Multi-Request LLM Inference (NUS)",
-      "url": "https://semiengineering.com/heterogeneous-memory-chiplets-accelerate-multi-request-llm-inference-nus/",
-      "summary": "Researchers at the National University of Singapore published a technical paper titled “CHIPSMORE: Compute-in-Interconnect and -Memory Chiplets for Multi-Mode Multi-Request LLM Inference Acceleration.” Abstract Excerpt: “This paper presents CHIPSMORE, a multi-mode and multi-request LLM inference acc…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-09-11T21:56:01+00:00",
-      "pub_ts": 1789163761
-    },
-    {
-      "id": "5c8db7f015",
-      "title": "Reducing HBM ECC Controller Overhead For AI Inference (RPI, IBM)",
-      "url": "https://semiengineering.com/reducing-hbm-ecc-controller-overhead-for-ai-inference-rpi-ibm/",
-      "summary": "Researchers at Rensselaer Polytechnic Institute and IBM T.J. Watson Research Center published a technical paper titled “REACH: Controller-Managed Long-Span ECC for HBM AI Inference.” Abstract Excerpt: “High-Bandwidth Memory (HBM) cost motivates stronger controller protection that can support a wider…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-09-11T21:43:18+00:00",
-      "pub_ts": 1789162998
-    },
-    {
-      "id": "4015cfdcad",
-      "title": "Molybdenum Quasi Phase-Only Masks Improve EUV Imaging (NYCU, TSMC)",
-      "url": "https://semiengineering.com/molybdenum-quasi-phase-only-masks-improve-euv-imaging-nycu-tsmc/",
-      "summary": "Researchers at National Yang Ming Chiao Tung University and TSMC published a technical paper titled “High contrast EUV imaging enabled by topological quasi phase-only masks.” Abstract Excerpt: “Here, we propose a paradigm shift in EUV PSM technology by introducing molybdenum (Mo)-based quasi phase-o…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-09-11T21:28:44+00:00",
-      "pub_ts": 1789162124
-    },
-    {
-      "id": "b28f96b1e8",
-      "title": "Characterizing Charge Components In TMD-based MOS Structures (imec, KU Leuven, ASM)",
-      "url": "https://semiengineering.com/characterizing-charge-components-in-tmd-based-mos-structures-imec-ku-leuven-asm/",
-      "summary": "Researchers at imec, KU Leuven, and ASM published a technical paper titled “Dissecting the transition metal dichalcogenides-based metal-oxide-semiconductor structures charge components.” Abstract Excerpt: “Different variable charges such as interface traps, oxide border traps, and mobile carriers ca…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-09-11T21:06:41+00:00",
-      "pub_ts": 1789160801
-    },
-    {
-      "id": "a8eca05efc",
-      "title": "Modeling Predicts Cure And Thermal Endurance Of Advanced Packaging Underfill (NIST, UCSD et al.)",
-      "url": "https://semiengineering.com/modeling-predicts-cure-and-thermal-endurance-of-advanced-packaging-underfill-nist-ucsd-et-al/",
-      "summary": "Researchers at the NIST, UCSD et al. published a technical paper titled “Predicting Cure Evolution and Thermal Endurance of a Highly Filled Epoxy Underfill for Advanced Packaging.” Abstract Excerpt: “Epoxy underfill materials are critical to advanced semiconductor packaging by enhancing mechanical i…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-09-11T20:54:59+00:00",
-      "pub_ts": 1789160099
+      "pub_date": "2026-09-15T04:25:39.833926+00:00",
+      "pub_ts": 1789446339
     }
   ],
-  "source_success_count": 3,
+  "source_success_count": 2,
   "source_total_count": 6,
   "fetch_status": "fresh"
 }

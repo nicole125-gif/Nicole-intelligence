@@ -3,9 +3,49 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-09-14T04:26:20.159279+00:00",
+  "updated_at": "2026-09-15T04:26:32.258102+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "84f044c63c",
+      "title": "No more Nordisk: Novo’s latest trim is in its name",
+      "url": "https://www.pharmaceutical-technology.com/news/no-more-nordisk-novos-latest-trim-is-in-its-name/",
+      "summary": "Joining a minimalistic wave in pharma marketing, Novo said the change increases memorability and relevance.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-09-14T14:52:15+00:00",
+      "pub_ts": 1789397535
+    },
+    {
+      "id": "5df9dcc7aa",
+      "title": "Pressure intensifies on Novartis as bolt-on deal strategy faces major test",
+      "url": "https://www.pharmaceutical-technology.com/news/pressure-intensifies-on-novartis-as-bolt-on-deal-strategy-faces-major-test/",
+      "summary": "Share prices tumbled last week after a key asset from Novartis’ $12bn Avidity deal fumbled in a Phase III trial.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-09-14T10:39:24+00:00",
+      "pub_ts": 1789382364
+    },
+    {
+      "id": "db58ef4b76",
+      "title": "Scholar Rock’s muscle-targeting SMA therapy Isemblyd lands FDA approval",
+      "url": "https://www.pharmaceutical-technology.com/news/scholar-rock-isemblyd-sma-fda-approval/",
+      "summary": "GlobalData analysts predicts that myostatin inhibitors like Isemblyd will be key drivers of growth within the SMA market in years to come.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-09-14T09:52:06+00:00",
+      "pub_ts": 1789379526
+    },
+    {
+      "id": "7ac02f6323",
+      "title": "The rare disease revolution: The state of play for CGTs in orphan diseases",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/the-rare-disease-revolution-the-state-of-play-for-cgts-in-orphan-diseases/",
+      "summary": "Cell and gene therapies are fuelling new possibilities for rare diseases, turning a field defined by unmet need into one of the industry’s most dynamic areas of innovation.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-09-14T09:44:23+00:00",
+      "pub_ts": 1789379063
+    },
     {
       "id": "83cdd9c008",
       "title": "HIV charities lament NICE snub for Gilead’s twice-yearly lenacapavir",
@@ -15,46 +55,6 @@
       "lang": "en",
       "pub_date": "2026-09-11T13:10:35+00:00",
       "pub_ts": 1789132235
-    },
-    {
-      "id": "cf73760c5c",
-      "title": "ERS 2026: BMI, type-2 inflammation, and asthma attack risk",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ers-2026-bmi-type-2-inflammation-asthma-attack-risk/",
-      "summary": "At ERS 2026, investigators reported their findings from their review of the Oxford Asthma Attack Risk Scale Meta-Analysis (ORACLE2).",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-09-11T13:04:30+00:00",
-      "pub_ts": 1789131870
-    },
-    {
-      "id": "5296c702a5",
-      "title": "Staunch biotech competition spurs new secretive tactics, shifts investor approach",
-      "url": "https://www.pharmaceutical-technology.com/features/biotech-competition-spurs-new-secretive-tactics-shifts-investor-approach/",
-      "summary": "Biotechs and investors are increasingly altering their strategies amid changes in the development and commercial landscape.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-09-11T10:34:38+00:00",
-      "pub_ts": 1789122878
-    },
-    {
-      "id": "5119091d6e",
-      "title": "Exegenesis Bio and Modalis sign research deal for Duchenne therapy",
-      "url": "https://www.pharmaceutical-technology.com/news/exegenesis-bio-modalis-deal-duchenne-therapy/",
-      "summary": "Exegenesis Bio and Modalis Therapeutics have entered into a research partnership and licence agreement to progress MDL-201, a therapeutic candidate for DMD.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-09-11T10:28:29+00:00",
-      "pub_ts": 1789122509
-    },
-    {
-      "id": "01d03a9163",
-      "title": "ABEC to expand global manufacturing network with new Wilson facility",
-      "url": "https://www.pharmaceutical-technology.com/news/abec-global-manufacturing-network-wilson-facility/",
-      "summary": "ABEC is to open a new manufacturing facility in Wilson, North Carolina, US, expanding its network for biopharmaceutical process equipment.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-09-11T08:35:37+00:00",
-      "pub_ts": 1789115737
     }
   ],
   "source_success_count": 1,

@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-09-14T04:25:56.392624+00:00",
+  "updated_at": "2026-09-15T04:26:10.278989+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "5490cefde9",
-      "title": "中国物理AI大突破：PhysBrain1.5 登顶全球开源榜一，空间智能与GPT..",
-      "url": "https://mp.weixin.qq.com/s/V0X8LrYe-B4JVXDEz2bZqg",
-      "summary": "中国物理AI大突破：PhysBrain1.5 登顶全球开源榜一，空间智能与GPT..",
+      "id": "3c4d1798ec",
+      "title": "首个AIGC长片大赛！RunningHub设单项大奖100万现金，科幻IP免..",
+      "url": "https://mp.weixin.qq.com/s/tPk1nWsxqo8ZhvLIFGzP7w",
+      "summary": "首个AIGC长片大赛！RunningHub设单项大奖100万现金，科幻IP免..",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-14T04:25:51.859023+00:00",
-      "pub_ts": 1789359951
+      "pub_date": "2026-09-15T04:26:06.217853+00:00",
+      "pub_ts": 1789446366
     },
     {
-      "id": "90046b0cd0",
-      "title": "今年外滩最特别Agent：能干活，能陪聊，还会朋友圈拉黑你",
-      "url": "https://mp.weixin.qq.com/s/7xFSIkY_mCSSSUTC4a7FnA",
-      "summary": "今年外滩最特别Agent：能干活，能陪聊，还会朋友圈拉黑你",
+      "id": "c9d2cccf5b",
+      "title": "7名博士生仅用3个月从零训练7B大模型：代码+数据+训练日志全公开",
+      "url": "https://mp.weixin.qq.com/s/kzScxJki8hY2IHIl32l5cQ",
+      "summary": "7名博士生仅用3个月从零训练7B大模型：代码+数据+训练日志全公开",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-14T04:25:51.859062+00:00",
-      "pub_ts": 1789359951
+      "pub_date": "2026-09-15T04:26:06.217898+00:00",
+      "pub_ts": 1789446366
     },
     {
-      "id": "1501a9b9fc",
-      "title": "GitHub三榜第一背后，—个“专升本工程师的十年",
-      "url": "https://mp.weixin.qq.com/s/o82CF-NiDaUg7ebmIiN7Hw",
-      "summary": "GitHub三榜第一背后，—个“专升本工程师的十年",
+      "id": "6368304572",
+      "title": "端侧AI从「能跑」到「会进化」，元空智能跑进惠普预装",
+      "url": "https://mp.weixin.qq.com/s/sDELwsyioS0X1qX63oackw",
+      "summary": "端侧AI从「能跑」到「会进化」，元空智能跑进惠普预装",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-14T04:25:51.859079+00:00",
-      "pub_ts": 1789359951
+      "pub_date": "2026-09-15T04:26:06.217921+00:00",
+      "pub_ts": 1789446366
     },
     {
-      "id": "85afa9d62d",
-      "title": "2000+真实场景搬进仿真！一个导航模型零样本“通吃”四种机器人本体",
-      "url": "https://mp.weixin.qq.com/s/ltmv8WUSuBg4oFm1wbNc-g",
-      "summary": "2000+真实场景搬进仿真！一个导航模型零样本“通吃”四种机器人本体",
+      "id": "a83928695d",
+      "title": "一年连融三轮，这家金融AI公司又拿下超3亿B轮",
+      "url": "https://mp.weixin.qq.com/s/6PVy2e-HvD3pVNKZyIuCBA",
+      "summary": "一年连融三轮，这家金融AI公司又拿下超3亿B轮",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-14T04:25:51.859095+00:00",
-      "pub_ts": 1789359951
+      "pub_date": "2026-09-15T04:26:06.217942+00:00",
+      "pub_ts": 1789446366
     },
     {
-      "id": "64f1c051de",
-      "title": "个性化智能体强化学习框架上线，8B模型盲测第一",
-      "url": "https://mp.weixin.qq.com/s/O2GDbvazq85_Ob1603DPJQ",
-      "summary": "个性化智能体强化学习框架上线，8B模型盲测第一",
+      "id": "f68f656258",
+      "title": "前OpenAI后训练VP回应陶哲轩：说AI毁了数学，可能还是太小瞧AI了",
+      "url": "https://mp.weixin.qq.com/s/ahHDvc1IZGoZTBDej_bJcw",
+      "summary": "前OpenAI后训练VP回应陶哲轩：说AI毁了数学，可能还是太小瞧AI了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-14T04:25:51.859110+00:00",
-      "pub_ts": 1789359951
+      "pub_date": "2026-09-15T04:26:06.217962+00:00",
+      "pub_ts": 1789446366
     }
   ],
   "source_success_count": 1,

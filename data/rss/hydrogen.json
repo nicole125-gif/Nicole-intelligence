@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-09-14T04:26:07.625870+00:00",
+  "updated_at": "2026-09-15T04:26:19.799927+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "14399b9242",
-      "title": "Covestro, Fertiglobe and MB Energy Sign MoU to Explore Ammonia Supply Chain",
-      "url": "https://fuelcellsworks.com/2026/09/11/h2/covestro-fertiglobe-and-mb-energy-sign-mou-to-explore-ammonia-supply-chain",
+      "id": "d61a719c47",
+      "title": "Toyota Announces Hydrogen Hilux for 2028 in European Launch",
+      "url": "https://fuelcellsworks.com/2026/09/14/fuel-cells/toyota-announces-hydrogen-hilux-for-2028-in-european-launch",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-11T16:23:19+00:00",
-      "pub_ts": 1789143799
+      "pub_date": "2026-09-14T19:26:14+00:00",
+      "pub_ts": 1789413974
     },
     {
-      "id": "8cc9a5dc17",
-      "title": "Spree-Neiße Builds Hydrogen Refuelling Network for 35-Bus Fleet",
-      "url": "https://fuelcellsworks.com/2026/09/10/clean-hydrogen/spree-nei-e-builds-hydrogen-refuelling-network-for-35-bus-fleet",
+      "id": "eeb554011c",
+      "title": "Premiere in Romania: Delgaz Grid Validates Mixtures with up to 30% Hydrogen in Existing Gas Installations",
+      "url": "https://fuelcellsworks.com/2026/09/14/h2/premiere-in-romania-delgaz-grid-validates-mixtures-with-up-to-30-percent-hydrogen-in-existing-gas-installations",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-11T15:53:10+00:00",
-      "pub_ts": 1789141990
+      "pub_date": "2026-09-14T14:23:09+00:00",
+      "pub_ts": 1789395789
     },
     {
-      "id": "3733b153be",
-      "title": "HVR Energy Secures €20 Million to Accelerate the Rollout of Its Hydrogen Refuelling Network in Spain",
-      "url": "https://fuelcellsworks.com/2026/09/09/h2/hvr-energy-secures-20-million-to-accelerate-the-rollout-of-its-hydrogen-refuelling-network-in-spain",
+      "id": "5d22f14840",
+      "title": "Fuel Cell and Hydrogen News Highlights From China: Sept. 7-Sept. 11, 2026",
+      "url": "https://fuelcellsworks.com/2026/09/13/clean-energy/fuel-cell-and-hydrogen-news-highlights-from-china-sept-7-sept-11-2026",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-11T15:44:45+00:00",
-      "pub_ts": 1789141485
+      "pub_date": "2026-09-14T14:14:33+00:00",
+      "pub_ts": 1789395273
     },
     {
-      "id": "caaed1bab0",
-      "title": "Hydrogen-Powered Sauna Boat Offers New Way to Unwind",
-      "url": "https://fuelcellsworks.com/2026/09/09/h2/hydrogen-powered-sauna-boat-offers-new-way-to-unwind",
+      "id": "856899f466",
+      "title": "Jordan, Chinese Firm Study Green Hydrogen Project",
+      "url": "https://fuelcellsworks.com/2026/09/14/h2/jordan-chinese-firm-study-green-hydrogen-project",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-11T15:37:34+00:00",
-      "pub_ts": 1789141054
+      "pub_date": "2026-09-14T14:12:58+00:00",
+      "pub_ts": 1789395178
     },
     {
-      "id": "277057b989",
-      "title": "Mitsubishi Kakoki Wins Kawasaki Order for 18-Tonne-a-Day Hydrogen Plant",
-      "url": "https://fuelcellsworks.com/2026/09/10/h2/mitsubishi-kakoki-wins-kawasaki-order-for-18-tonne-a-day-hydrogen-plant",
+      "id": "9361f98389",
+      "title": "Kawasaki and RWE Complete 30MW Hydrogen Gas Turbine Installation in Germany",
+      "url": "https://fuelcellsworks.com/2026/09/09/h2/kawasaki-and-rwe-complete-30mw-hydrogen-gas-turbine-installation-in-germany",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-11T15:13:11+00:00",
-      "pub_ts": 1789139591
+      "pub_date": "2026-09-14T14:04:39+00:00",
+      "pub_ts": 1789394679
     }
   ],
   "source_success_count": 1,
