@@ -3,101 +3,161 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-09-15T04:25:56.725788+00:00",
-  "item_count": 9,
+  "updated_at": "2026-09-16T04:21:28.938857+00:00",
+  "item_count": 15,
   "items": [
     {
-      "id": "2f3a44cbe2",
-      "title": "DRAM的下一个十年，要“站起来”",
-      "url": "https://mp.weixin.qq.com/s/GDxdl1odhWa-RnXBjtSPJA",
-      "summary": "DRAM的下一个十年，要“站起来”",
+      "id": "d157fc623d",
+      "title": "对话AMD大中华区市场营销副总裁纪朝晖：告别问答式AI，押注智能.",
+      "url": "https://mp.weixin.qq.com/s/yVLvtmA65ICnm3aM30WvhA",
+      "summary": "对话AMD大中华区市场营销副总裁纪朝晖：告别问答式AI，押注智能.",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-15T04:25:50.436875+00:00",
-      "pub_ts": 1789446350
+      "pub_date": "2026-09-16T04:21:24.709246+00:00",
+      "pub_ts": 1789532484
     },
     {
-      "id": "ca956339e6",
-      "title": "西电芯片存储研究，取得新突破",
-      "url": "https://mp.weixin.qq.com/s/Cb6P3sy8dCB3dXRiNedxGw",
-      "summary": "西电芯片存储研究，取得新突破",
+      "id": "5cb335710e",
+      "title": "华为郭平：ICT业务及计算领域，华为的目标是成为英伟达",
+      "url": "https://mp.weixin.qq.com/s/NEojL5hGjWZRl--CzFp9qA",
+      "summary": "华为郭平：ICT业务及计算领域，华为的目标是成为英伟达",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-15T04:25:50.436948+00:00",
-      "pub_ts": 1789446350
+      "pub_date": "2026-09-16T04:21:24.709292+00:00",
+      "pub_ts": 1789532484
     },
     {
-      "id": "bcc25bc34f",
-      "title": "MLCC需求至少持续到2028年，村田要“大胆”扩产",
-      "url": "https://mp.weixin.qq.com/s/xE2D8eutet-_6deZ8Sxs8w",
-      "summary": "MLCC需求至少持续到2028年，村田要“大胆”扩产",
+      "id": "4d9c207b44",
+      "title": "两部门联合发文：集成电路全链条攻关！",
+      "url": "https://mp.weixin.qq.com/s/-RJlv9Lu_-AqZQm4upOMtA",
+      "summary": "两部门联合发文：集成电路全链条攻关！",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-15T04:25:50.436970+00:00",
-      "pub_ts": 1789446350
+      "pub_date": "2026-09-16T04:21:24.709319+00:00",
+      "pub_ts": 1789532484
     },
     {
-      "id": "b920d18108",
-      "title": "NORFlash高容量产品，下半年最高涨110%",
-      "url": "https://mp.weixin.qq.com/s/dhATGkxCst51Vk1Dxow4SQ",
-      "summary": "NORFlash高容量产品，下半年最高涨110%",
+      "id": "6a664e42dc",
+      "title": "订单拿到手软，ASML要生产超110 台EUV光刻机",
+      "url": "https://mp.weixin.qq.com/s/snB-z8OkMg6KsYdEK_eUUA",
+      "summary": "订单拿到手软，ASML要生产超110 台EUV光刻机",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-15T04:25:50.436990+00:00",
-      "pub_ts": 1789446350
+      "pub_date": "2026-09-16T04:21:24.709341+00:00",
+      "pub_ts": 1789532484
     },
     {
-      "id": "b6ac064659",
-      "title": "Nor Flash，告急！",
-      "url": "https://mp.weixin.qq.com/s/0AtZ2v4b3fwJLSnohlhtnw",
-      "summary": "Nor Flash，告急！",
-      "source": "半导体行业观察",
+      "id": "703856a8de",
+      "title": "OpenAl：怎么用Al设计自研芯片?",
+      "url": "https://mp.weixin.qq.com/s/T9X-5JmUHB32bwjQJl-vkg",
+      "summary": "OpenAl：怎么用Al设计自研芯片?",
+      "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-15T04:25:39.833806+00:00",
-      "pub_ts": 1789446339
+      "pub_date": "2026-09-16T04:21:24.709374+00:00",
+      "pub_ts": 1789532484
     },
     {
-      "id": "6d304e7dec",
-      "title": "十月来深圳，一站看遍全球“芯”势力！2026湾芯展即将启幕",
-      "url": "https://mp.weixin.qq.com/s/y7H6SJiPqzO5hob_a0JG8w",
-      "summary": "十月来深圳，一站看遍全球“芯”势力！2026湾芯展即将启幕",
+      "id": "8abf60b62e",
+      "title": "网络芯片初创，融资7亿",
+      "url": "https://mp.weixin.qq.com/s/rXD6je9bsrGepI2KeM_WVA",
+      "summary": "网络芯片初创，融资7亿",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-15T04:25:39.833858+00:00",
-      "pub_ts": 1789446339
+      "pub_date": "2026-09-16T04:21:13.332904+00:00",
+      "pub_ts": 1789532473
     },
     {
-      "id": "6d3d0076cb",
-      "title": "图解可插拔、XPO、NPO、CPO",
-      "url": "https://mp.weixin.qq.com/s/aNYvX8NispJZ-iw1z_ao0w",
-      "summary": "图解可插拔、XPO、NPO、CPO",
+      "id": "8c21ccd022",
+      "title": "奇点已至，AI的下半场，如何走?",
+      "url": "https://mp.weixin.qq.com/s/USk5E78MWWnNEVf5zac7fg",
+      "summary": "奇点已至，AI的下半场，如何走?",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-15T04:25:39.833883+00:00",
-      "pub_ts": 1789446339
+      "pub_date": "2026-09-16T04:21:13.332955+00:00",
+      "pub_ts": 1789532473
     },
     {
-      "id": "88ab5a88dd",
-      "title": "HBM，急刹车！",
-      "url": "https://mp.weixin.qq.com/s/wCQZkZx8OQpGdTpRJDyIag",
-      "summary": "HBM，急刹车！",
+      "id": "3f1cd761ba",
+      "title": "两部门：推进RISC-V产业化",
+      "url": "https://mp.weixin.qq.com/s/CqCGq3vbJ0lPfEf42m-h0g",
+      "summary": "两部门：推进RISC-V产业化",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-15T04:25:39.833906+00:00",
-      "pub_ts": 1789446339
+      "pub_date": "2026-09-16T04:21:13.332979+00:00",
+      "pub_ts": 1789532473
     },
     {
-      "id": "f19e3d94c5",
-      "title": "台积电最新扩产计划：2/3nm全面提速",
-      "url": "https://mp.weixin.qq.com/s/C53WNKqVBB4I3oZVFK6MUA",
-      "summary": "台积电最新扩产计划：2/3nm全面提速",
+      "id": "10dffee9d9",
+      "title": "MEMS产业盛会，议程首发！",
+      "url": "https://mp.weixin.qq.com/s/1Om2VlB59yfNEPGyY05z5w",
+      "summary": "MEMS产业盛会，议程首发！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-15T04:25:39.833926+00:00",
-      "pub_ts": 1789446339
+      "pub_date": "2026-09-16T04:21:13.333001+00:00",
+      "pub_ts": 1789532473
+    },
+    {
+      "id": "a62f165b38",
+      "title": "用Al设计芯片，OpenAl是怎么做到的？",
+      "url": "https://mp.weixin.qq.com/s/1P67wyG93iM1G-eNC9Hj-w",
+      "summary": "用Al设计芯片，OpenAl是怎么做到的？",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-09-16T04:21:13.333020+00:00",
+      "pub_ts": 1789532473
+    },
+    {
+      "id": "c645cf2b41",
+      "title": "AI Data Centers Have A Stranded Power Problem",
+      "url": "https://semiengineering.com/ai-data-centers-have-a-power-hoarding-problem/",
+      "summary": "Redundant feeds protect uptime, but they also strand capacity that could support more hardware.\nThe post AI Data Centers Have A Stranded Power Problem appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-09-15T07:13:41+00:00",
+      "pub_ts": 1789456421
+    },
+    {
+      "id": "5f1c1343a3",
+      "title": "Hardware-Software Co-Design In The AI Era",
+      "url": "https://semiengineering.com/hardware-software-co-design-in-the-ai-era/",
+      "summary": "Even though the benefits are accepted, a combined hardware/software development flow is hampered by a lot of challenges.\nThe post Hardware-Software Co-Design In The AI Era appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-09-15T07:12:38+00:00",
+      "pub_ts": 1789456358
+    },
+    {
+      "id": "14d929ad84",
+      "title": "Scaling Thermal Analysis From Transistors To Data Centers",
+      "url": "https://semiengineering.com/scaling-thermal-analysis-from-transistors-to-data-centers/",
+      "summary": "Rising power density and chiplet complexity drive thermal considerations earlier in the design process.\nThe post Scaling Thermal Analysis From Transistors To Data Centers appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-09-15T07:11:30+00:00",
+      "pub_ts": 1789456290
+    },
+    {
+      "id": "956c844ed6",
+      "title": "Scaling AI Infrastructure With PCIe Switches And Retimers",
+      "url": "https://semiengineering.com/scaling-ai-infrastructure-with-pcie-switches-and-retimers/",
+      "summary": "Build configurable PCIe subsystems spanning local expansion, shared resource domains, and longer-reach topologies.\nThe post Scaling AI Infrastructure With PCIe Switches And Retimers appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-09-15T07:06:12+00:00",
+      "pub_ts": 1789455972
+    },
+    {
+      "id": "19df82abde",
+      "title": "AMBA Over UCIe: Building Coherent Multi-Die Systems",
+      "url": "https://semiengineering.com/amba-over-ucie-building-coherent-multi-die-systems/",
+      "summary": "Transforming established SoC design paradigms into system-level fabrics capable of supporting next-generation AI, HPC, and data center workloads.\nThe post AMBA Over UCIe: Building Coherent Multi-Die Systems appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-09-15T07:04:57+00:00",
+      "pub_ts": 1789455897
     }
   ],
-  "source_success_count": 2,
+  "source_success_count": 3,
   "source_total_count": 6,
   "fetch_status": "fresh"
 }

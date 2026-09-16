@@ -3,61 +3,111 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-09-15T04:26:19.799927+00:00",
-  "item_count": 5,
+  "updated_at": "2026-09-16T04:21:53.743320+00:00",
+  "item_count": 10,
   "items": [
     {
-      "id": "d61a719c47",
-      "title": "Toyota Announces Hydrogen Hilux for 2028 in European Launch",
-      "url": "https://fuelcellsworks.com/2026/09/14/fuel-cells/toyota-announces-hydrogen-hilux-for-2028-in-european-launch",
+      "id": "d2e08788f6",
+      "title": "Walmart Chile Shows How Green Hydrogen Is Already Being Used in Warehouses and Freight",
+      "url": "https://fuelcellsworks.com/2026/09/15/fuel-cells/walmart-chile-shows-how-green-hydrogen-is-already-being-used-in-warehouses-and-freight",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-14T19:26:14+00:00",
-      "pub_ts": 1789413974
+      "pub_date": "2026-09-15T16:40:27+00:00",
+      "pub_ts": 1789490427
     },
     {
-      "id": "eeb554011c",
-      "title": "Premiere in Romania: Delgaz Grid Validates Mixtures with up to 30% Hydrogen in Existing Gas Installations",
-      "url": "https://fuelcellsworks.com/2026/09/14/h2/premiere-in-romania-delgaz-grid-validates-mixtures-with-up-to-30-percent-hydrogen-in-existing-gas-installations",
+      "id": "8377282276",
+      "title": "Canada Awards Next Hydrogen Up to CA$2 Million [$1.44 Million] for Third-Generation Electrolyser Technology",
+      "url": "https://fuelcellsworks.com/2026/09/15/electrolyzer/canada-awards-next-hydrogen-up-to-ca-2-million-1-44-million-for-third-generation-electrolyser-technology",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-14T14:23:09+00:00",
-      "pub_ts": 1789395789
+      "pub_date": "2026-09-15T16:22:46+00:00",
+      "pub_ts": 1789489366
     },
     {
-      "id": "5d22f14840",
-      "title": "Fuel Cell and Hydrogen News Highlights From China: Sept. 7-Sept. 11, 2026",
-      "url": "https://fuelcellsworks.com/2026/09/13/clean-energy/fuel-cell-and-hydrogen-news-highlights-from-china-sept-7-sept-11-2026",
+      "id": "38f5c3bbdc",
+      "title": "Alstom Tests Hydrogen Combustion Engine in Regional Passenger Railcar at Stendal",
+      "url": "https://fuelcellsworks.com/2026/09/13/h2/alstom-tests-hydrogen-combustion-engine-in-regional-passenger-railcar-at-stendal",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-14T14:14:33+00:00",
-      "pub_ts": 1789395273
+      "pub_date": "2026-09-15T16:03:00+00:00",
+      "pub_ts": 1789488180
     },
     {
-      "id": "856899f466",
-      "title": "Jordan, Chinese Firm Study Green Hydrogen Project",
-      "url": "https://fuelcellsworks.com/2026/09/14/h2/jordan-chinese-firm-study-green-hydrogen-project",
+      "id": "7df201536e",
+      "title": "Hyroad Energy Now Fueling and Servicing IMC Logistics' Hydrogen Fleet in Fontana, California",
+      "url": "https://fuelcellsworks.com/2026/09/15/fuel-cells/hyroad-energy-now-fueling-and-servicing-imc-logistics-hydrogen-fleet-in-fontana-california",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-14T14:12:58+00:00",
-      "pub_ts": 1789395178
+      "pub_date": "2026-09-15T15:44:38+00:00",
+      "pub_ts": 1789487078
     },
     {
-      "id": "9361f98389",
-      "title": "Kawasaki and RWE Complete 30MW Hydrogen Gas Turbine Installation in Germany",
-      "url": "https://fuelcellsworks.com/2026/09/09/h2/kawasaki-and-rwe-complete-30mw-hydrogen-gas-turbine-installation-in-germany",
+      "id": "647066417c",
+      "title": "The Miracle Called Hydrogen",
+      "url": "https://fuelcellsworks.com/2026/09/14/h2/certainly-the-dutch-sentence-het-wonder-dat-waterstof-heet-translates-to-english-as-the-miracle-called-hydrogen",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-14T14:04:39+00:00",
-      "pub_ts": 1789394679
+      "pub_date": "2026-09-15T15:27:24+00:00",
+      "pub_ts": 1789486044
+    },
+    {
+      "id": "60874d847c",
+      "title": "Covestro, Fertiglobe and MB Energy Sign MoU to Explore Ammonia Supply Chain",
+      "url": "https://hydrogen-central.com/covestro-fertiglobe-and-mb-energy-sign-mou-to-explore-ammonia-supply-chain/",
+      "summary": "Covestro, Fertiglobe and MB Energy Sign MoU to Explore Ammonia Supply Chain Covestro, Fertiglobe and MB Energy have signed a Memorandum of Understanding (MoU) to explore collaboration across the ammonia [&#8230;]\nThe post Covestro, Fertiglobe and MB Energy Sign MoU to Explore Ammonia Supply Chain ap…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-09-15T15:26:19+00:00",
+      "pub_ts": 1789485979
+    },
+    {
+      "id": "4d2afe2ef8",
+      "title": "Yokogawa Wins Orders from Kawasaki Heavy Industries to Supply Integrated Automation Systems for World’s Largest Liquefied Hydrogen Carrier and for Hydrogen-Fueled Vessels",
+      "url": "https://hydrogen-central.com/yokogawa-wins-orders-from-kawasaki-heavy-industries-to-supply-integrated-automation-systems-for-worlds-largest-liquefied-hydrogen-carrier-and-for-hydrogen-fueled-vessels/",
+      "summary": "Yokogawa Wins Orders from Kawasaki Heavy Industries to Supply Integrated Automation Systems for World&#8217;s Largest Liquefied Hydrogen Carrier and for Hydrogen-Fueled Vessels Tokyo, Japan &#8211; September 14, 2026 Yokogawa Electric [&#8230;]\nThe post Yokogawa Wins Orders from Kawasaki Heavy Indus…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-09-15T15:25:28+00:00",
+      "pub_ts": 1789485928
+    },
+    {
+      "id": "8619c5bc1f",
+      "title": "Premiere in Romania: Delgaz Grid validates mixtures with up to 30% hydrogen in existing gas installations",
+      "url": "https://hydrogen-central.com/premiere-in-romania-delgaz-grid-validates-mixtures-with-up-to-30-hydrogen-in-existing-gas-installations/",
+      "summary": "Premiere in Romania: Delgaz Grid validates mixtures with up to 30% hydrogen in existing gas installations Delgaz Grid a finalizat proiectul pilot&#160;30HyGrid, o inițiativă în premieră pentru România, care demonstrează [&#8230;]\nThe post Premiere in Romania: Delgaz Grid validates mixtures with up t…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-09-15T15:21:36+00:00",
+      "pub_ts": 1789485696
+    },
+    {
+      "id": "e58031cb6f",
+      "title": "Amogy and LOTTE Fine Chemical Sign MOU to Advance Green Ammonia-to-Hydrogen and Ammonia-to-Power Solutions in South Korea",
+      "url": "https://hydrogen-central.com/amogy-and-lotte-fine-chemical-sign-mou-to-advance-green-ammonia-to-hydrogen-and-ammonia-to-power-solutions-in-south-korea/",
+      "summary": "Amogy and LOTTE Fine Chemical Sign MOU to Advance Green Ammonia-to-Hydrogen and Ammonia-to-Power Solutions in South Korea Collaboration will combine LOTTE Fine Chemical’s ammonia infrastructure with Amogy’s technology across hydrogen, [&#8230;]\nThe post Amogy and LOTTE Fine Chemical Sign MOU to Adva…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-09-15T15:04:41+00:00",
+      "pub_ts": 1789484681
+    },
+    {
+      "id": "741075c309",
+      "title": "IVECO and Toyota join forces to advance next-generation hydrogen fuel cell heavy-duty trucks through the EU-funded EMPOWER project",
+      "url": "https://hydrogen-central.com/iveco-and-toyota-join-forces-to-advance-next-generation-hydrogen-fuel-cell-heavy-duty-trucks-through-the-eu-funded-empower-project/",
+      "summary": "IVECO and Toyota join forces to advance next-generation hydrogen fuel cell heavy-duty trucks through the EU-funded EMPOWER project IVECO and Toyota announce a new collaboration under EMPOWER – the EU-funded [&#8230;]\nThe post IVECO and Toyota join forces to advance next-generation hydrogen fuel cell…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-09-15T15:02:29+00:00",
+      "pub_ts": 1789484549
     }
   ],
-  "source_success_count": 1,
+  "source_success_count": 2,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }
