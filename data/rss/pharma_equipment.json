@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-09-16T04:22:06.223909+00:00",
+  "updated_at": "2026-09-17T04:28:04.771778+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "f7a8a4afb8",
-      "title": "Electra targets $342m IPO to fund hyperinflammatory syndrome drug’s pivotal trials",
-      "url": "https://www.pharmaceutical-technology.com/news/electra-targets-342m-ipo-to-fund-hyperinflammatory-syndrome-drugs-pivotal-trials/",
-      "summary": "Electra likens its targeted approach in immune-mediated disease to what precision oncology has achieved in cancer.",
+      "id": "f50abe47cd",
+      "title": "Sling ropes in $123m for oral thyroid eye disease drug",
+      "url": "https://www.pharmaceutical-technology.com/news/sling-ropes-in-123m-for-oral-thyroid-eye-disease-drug/",
+      "summary": "Sling is racing to market the first oral IGF-1R blocker, which would likely provide competition to Amgen’s Tepezza.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-15T14:47:58+00:00",
-      "pub_ts": 1789483678
+      "pub_date": "2026-09-16T15:51:10+00:00",
+      "pub_ts": 1789573870
     },
     {
-      "id": "97982b86ff",
-      "title": "Agentic AI trust gap slowing healthcare provider adoption, survey reveals",
-      "url": "https://www.pharmaceutical-technology.com/news/agentic-ai-trust-gap-slowing-healthcare-provider-adoption-imprivata-survey/",
-      "summary": "As healthcare providers begin to embed agentic AI into their workflows, effective governance and accountability becomes key.",
+      "id": "6eb9b6d723",
+      "title": "Looking beyond short-term turmoil, Syngene is investing for the future",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/syngene-investing-for-future/",
+      "summary": "CRDMO Syngene has revamped its leadership and is building capacity as it eyes growth and emerging modalities.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-15T14:08:34+00:00",
-      "pub_ts": 1789481314
+      "pub_date": "2026-09-16T12:26:24+00:00",
+      "pub_ts": 1789561584
     },
     {
-      "id": "b58b742613",
-      "title": "GSK bolsters oncology pipeline with $750m Chimagen TCE deal",
-      "url": "https://www.pharmaceutical-technology.com/news/gsk-chimagen-tce-licensing-deal-multiple-myeloma/",
-      "summary": "GSK plans to take the TCE to Phase I clinical trials in multiple myeloma during 2027, adding to the company's growing oncology pipeline.",
+      "id": "ec2e039a9d",
+      "title": "ERS 2026: obesity, an independent obstruction to biologic-treated asthma",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ers-2026-obesity-biologic-treated-asthma/",
+      "summary": "At ERS 2026, investigators presented their findings exploring the link between BMI and severe asthma outcomes in response to biologics.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-15T10:47:43+00:00",
-      "pub_ts": 1789469263
+      "pub_date": "2026-09-16T09:39:52+00:00",
+      "pub_ts": 1789551592
     },
     {
-      "id": "8ea207d73a",
-      "title": "Definium tees up regulatory submission for psychedelic on Phase III hat trick",
-      "url": "https://www.pharmaceutical-technology.com/news/definium-dt120-psychedelic-gad-anxiety-phase-iii/",
-      "summary": "Definium Therapeutics plans to submit an NDA for LSD-based psychedelic, DT120 in generalised anxiety disorder (GAD) during H1 2027.",
+      "id": "66c70406d0",
+      "title": "Gilead and PAHO agree to expedite lenacapavir access for HIV prevention",
+      "url": "https://www.pharmaceutical-technology.com/news/gilead-paho-lenacapavir-hiv-prevention/",
+      "summary": "Gilead Sciences and the PAHO have signed an agreement to expedite access to the company’s twice-yearly lenacapavir injection for HIV prevention as PrEP across Latin America and the Caribbean.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-15T10:04:01+00:00",
-      "pub_ts": 1789466641
+      "pub_date": "2026-09-16T09:20:49+00:00",
+      "pub_ts": 1789550449
     },
     {
-      "id": "e3920d07f0",
-      "title": "Cheplapharm to take over 20 medicines and three sites from Sanofi",
-      "url": "https://www.pharmaceutical-technology.com/news/cheplapharm-20-medicines-three-sites-sanofi/",
-      "summary": "Cheplapharm has entered into a strategic partnership to take over a portfolio of 20 mature medicines along with three manufacturing facilities globally from Sanofi.",
+      "id": "02390548be",
+      "title": "Eli Lilly and QurCan sign genetic medicine deal",
+      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-qurcan-genetic-medicine-deal/",
+      "summary": "Lilly and QurCan Therapeutics have partnered to develop genetic medicine for diseases of the central and peripheral nervous systems.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-15T09:16:05+00:00",
-      "pub_ts": 1789463765
+      "pub_date": "2026-09-16T08:25:56+00:00",
+      "pub_ts": 1789547156
     }
   ],
   "source_success_count": 1,
