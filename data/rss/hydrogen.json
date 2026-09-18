@@ -3,108 +3,108 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-09-17T04:27:52.384264+00:00",
+  "updated_at": "2026-09-18T04:12:07.147105+00:00",
   "item_count": 10,
   "items": [
     {
-      "id": "75d7b1e7b7",
-      "title": "Toll and BlueScope Launch Two Hydrogen B-Double Prime Movers on Hastings-Geelong Steel Route",
-      "url": "https://fuelcellsworks.com/2026/09/08/fuel-cells/toll-and-bluescope-launch-two-hydrogen-b-double-prime-movers-on-hastings-geelong-steel-route",
+      "id": "509a9b4006",
+      "title": "Hydrogen Ships – ABS Joins Korean Initiative to Advance Standards for Next-Generation Ships and Shipyards",
+      "url": "https://hydrogen-central.com/hydrogen-ships-abs-joins-korean-initiative-to-advance-standards-for-next-generation-ships-and-shipyards/",
+      "summary": "Hydrogen Ships &#8211; ABS Joins Korean Initiative to Advance Standards for Next-Generation Ships and Shipyards MOU targets ISO standards for hydrogen ships, smart shipyards and future maritime technologies (HOUSTON) ABS [&#8230;]\nThe post Hydrogen Ships &#8211; ABS Joins Korean Initiative to Advanc…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-09-18T04:05:11+00:00",
+      "pub_ts": 1789704311
+    },
+    {
+      "id": "03fc879e6c",
+      "title": "Toyota expands hydrogen fuel cell technology for heavy-duty transport",
+      "url": "https://hydrogen-central.com/toyota-expands-hydrogen-fuel-cell-technology-for-heavy-duty-transport/",
+      "summary": "Toyota expands hydrogen fuel cell technology for heavy-duty transport HANNOVER, Germany, 14 September 2026 &#8211; At IAA Transportation 2026, Toyota Motor Europe has presented the next stage of its hydrogen [&#8230;]\nThe post Toyota expands hydrogen fuel cell technology for heavy-duty transport app…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-09-18T04:02:26+00:00",
+      "pub_ts": 1789704146
+    },
+    {
+      "id": "ae8311f6f6",
+      "title": "MCM Intelli-X: Maximum measurement performance with minimal installation space – SMART TESTSOLUTIONS",
+      "url": "https://hydrogen-central.com/mcm-intelli-x-maximum-measurement-performance-with-minimal-installation-space-smart-testsolutions/",
+      "summary": "MCM Intelli-X: Maximum measurement performance with minimal installation space &#8211; SMART TESTSOLUTIONS The MCM Intelli-X measurement and simulation modules are characterised by high channel density, 16-bit resolution, galvanic isolation and [&#8230;]\nThe post MCM Intelli-X: Maximum measurement p…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-09-18T04:02:06+00:00",
+      "pub_ts": 1789704126
+    },
+    {
+      "id": "74e665152b",
+      "title": "Worley supports renewable hydrogen development in Australia with strategic advisory study",
+      "url": "https://hydrogen-central.com/worley-supports-renewable-hydrogen-development-in-australia-with-strategic-advisory-study/",
+      "summary": "Worley supports renewable hydrogen development in Australia with strategic advisory study Worley has completed a strategic advisory study for the Australian Renewable Energy Agency (ARENA), providing executive‑ready insight to inform [&#8230;]\nThe post Worley supports renewable hydrogen development …",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-09-17T16:27:29+00:00",
+      "pub_ts": 1789662449
+    },
+    {
+      "id": "7b29ee0315",
+      "title": "Kawasaki finishes Lingen hydrogen turbine installation",
+      "url": "https://hydrogen-central.com/kawasaki-finishes-lingen-hydrogen-turbine-installation/",
+      "summary": "Kawasaki finishes Lingen hydrogen turbine installation Kawasaki has completed installation of Lingen’s 30MW hydrogen turbine equipment. Commissioning will precede trials spanning 100% hydrogen operation and variable hydrogen-natural-gas blends. Kawasaki Heavy [&#8230;]\nThe post Kawasaki finishes Lin…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-09-17T16:24:46+00:00",
+      "pub_ts": 1789662286
+    },
+    {
+      "id": "d72a8fc4a5",
+      "title": "Doosan Fuel Cell Secures Additional Fuel Cell Orders Worth 322.2 Billion Won",
+      "url": "https://fuelcellsworks.com/2026/09/15/electrolyzer/doosan-fuel-cell-secures-additional-fuel-cell-orders-worth-322-2-billion-won",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-16T16:17:26+00:00",
-      "pub_ts": 1789575446
+      "pub_date": "2026-09-17T15:50:17+00:00",
+      "pub_ts": 1789660217
     },
     {
-      "id": "02fa454671",
-      "title": "ABS Joins Korean Initiative to Advance Standards for Next-Generation Ships and Shipyards",
-      "url": "https://fuelcellsworks.com/2026/09/15/h2/abs-joins-korean-initiative-to-advance-standards-for-next-generation-ships-and-shipyards",
+      "id": "7fb9ac179f",
+      "title": "Spanish Rail Group Points to Hydrogen Trains as Option for León Narrow-Gauge Network",
+      "url": "https://fuelcellsworks.com/2026/09/16/fuel-cells/spanish-rail-group-points-to-hydrogen-trains-as-option-for-leon-narrow-gauge-network",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-16T16:06:07+00:00",
-      "pub_ts": 1789574767
+      "pub_date": "2026-09-17T15:35:53+00:00",
+      "pub_ts": 1789659353
     },
     {
-      "id": "c3d570ac31",
-      "title": "H2iseO Hydrogen Trains Begin Dynamic Testing on Brescia-Iseo-Edolo Line — Commercial Service Targeted for 2027",
-      "url": "https://fuelcellsworks.com/2026/09/14/fuel-cells/h2iseo-hydrogen-trains-begin-dynamic-testing-on-brescia-iseo-edolo-line-commercial-service-targeted-for-2027",
+      "id": "7233073f38",
+      "title": "“Artificial Leaf” Generates Clean Hydrogen From Contaminated Seawater",
+      "url": "https://fuelcellsworks.com/2026/09/17/electrolyzer/artificial-leaf-generates-clean-hydrogen-from-contaminated-seawater",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-16T15:51:22+00:00",
-      "pub_ts": 1789573882
+      "pub_date": "2026-09-17T15:21:22+00:00",
+      "pub_ts": 1789658482
     },
     {
-      "id": "3d876c8c01",
-      "title": "Bloom Energy’s 800V DC-Native Power Can Cut Billions From AI Data Center Costs, Reduce Power Use, and Eliminate Need for Transformers",
-      "url": "https://fuelcellsworks.com/2026/09/16/clean-energy/bloom-energy-s-800v-dc-native-power-can-cut-billions-from-ai-data-center-costs-reduce-power-use-and-eliminate-need-for-transformers",
+      "id": "e999f5e0ab",
+      "title": "Ren-Gas Secures Renewable Electricity for Tampere E-Methane Plant Through H2PPA Portfolio",
+      "url": "https://fuelcellsworks.com/2026/09/17/h2/ren-gas-secures-renewable-electricity-for-tampere-e-methane-plant-through-h2ppa-portfolio",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-16T15:45:22+00:00",
-      "pub_ts": 1789573522
+      "pub_date": "2026-09-17T15:13:33+00:00",
+      "pub_ts": 1789658013
     },
     {
-      "id": "bcf99ab21c",
-      "title": "Tokyo and Alvark Basketball Team Launch Hydrogen Promotion Program at Toyota Arena",
-      "url": "https://fuelcellsworks.com/2026/09/15/fuel-cells/tokyo-and-alvark-basketball-team-launch-hydrogen-promotion-program-at-toyota-arena",
+      "id": "0501f632f0",
+      "title": "Kawasaki Heavy Industries Chairman Says Hydrogen Project Will Be Profitable by Late 2030S",
+      "url": "https://fuelcellsworks.com/2026/09/16/h2/kawasaki-heavy-industries-chairman-says-hydrogen-project-will-be-profitable-by-late-2030s",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-16T15:37:19+00:00",
-      "pub_ts": 1789573039
-    },
-    {
-      "id": "9a76ead44c",
-      "title": "IAA Transportation premiere: ‘Night of Hydrogen’ honors companies for pioneering use of hydrogen in logistics – H2 Mobility",
-      "url": "https://hydrogen-central.com/iaa-transportation-premiere-night-of-hydrogen-honors-companies-for-pioneering-use-of-hydrogen-in-logistics-h2-mobility/",
-      "summary": "IAA Transportation premiere: ‘Night of Hydrogen’ honors companies for pioneering use of hydrogen in logistics &#8211; H2 Mobility Do you have questions about our refuelling station network, would you like [&#8230;]\nThe post IAA Transportation premiere: ‘Night of Hydrogen’ honors companies for pionee…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-09-16T15:13:11+00:00",
-      "pub_ts": 1789571591
-    },
-    {
-      "id": "ef62764013",
-      "title": "BMW iX5 Hydrogen: Testing under real driving conditions, prototype assembly and industrialisation in parallel",
-      "url": "https://hydrogen-central.com/bmw-ix5-hydrogen-testing-under-real-driving-conditions-prototype-assembly-and-industrialisation-in-parallel/",
-      "summary": "BMW iX5 Hydrogen: Testing under real driving conditions, prototype assembly and industrialisation in parallel Current vehicle prototypes are completing a comprehensive testing programme. At the same time, the next assembly [&#8230;]\nThe post BMW iX5 Hydrogen: Testing under real driving conditions, p…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-09-16T15:11:57+00:00",
-      "pub_ts": 1789571517
-    },
-    {
-      "id": "e159673165",
-      "title": "A new milestone for heavy-duty transportation: EKPO Fuel Cell Technologies unveils its next-generation NM20 stack at IAA Transportation 2026",
-      "url": "https://hydrogen-central.com/a-new-milestone-for-heavy-duty-transportation-ekpo-fuel-cell-technologies-unveils-its-next-generation-nm20-stack-at-iaa-transportation-2026/",
-      "summary": "A new milestone for heavy-duty transportation: EKPO Fuel Cell Technologies unveils its next-generation NM20 stack at IAA Transportation 2026 EKPO Fuel Cell Technologies GmbH (EKPO), a leading full-service supplier of [&#8230;]\nThe post A new milestone for heavy-duty transportation: EKPO Fuel Cell Te…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-09-16T15:01:29+00:00",
-      "pub_ts": 1789570889
-    },
-    {
-      "id": "1f60869c88",
-      "title": "Siltrax Launches Commercialization Initiative in the Americas for Silicon-Based Hydrogen Technology",
-      "url": "https://hydrogen-central.com/siltrax-launches-commercialization-initiative-in-the-americas-for-silicon-based-hydrogen-technology/",
-      "summary": "Siltrax Launches Commercialization Initiative in the Americas for Silicon-Based Hydrogen Technology Roberto Iriti will lead commercialization efforts across the Americas for the company&#8217;s next-generation PEM fuel cells and electrolyzers BOSTON, [&#8230;]\nThe post Siltrax Launches Commercializa…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-09-16T14:54:46+00:00",
-      "pub_ts": 1789570486
-    },
-    {
-      "id": "d21c945a1c",
-      "title": "Industry leaders scale full value chain for hydrogen mobility across Europe",
-      "url": "https://hydrogen-central.com/industry-leaders-scale-full-value-chain-for-hydrogen-mobility-across-europe/",
-      "summary": "Industry leaders scale full value chain for hydrogen mobility across Europe Today at IAA Transportation, Volvo Group, Daimler Truck, Toyota Motor Corporation, Bosch, Air Liquide, TotalEnergies, TEAL Mobility, and MB Energy [&#8230;]\nThe post Industry leaders scale full value chain for hydrogen mobil…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-09-16T14:47:55+00:00",
-      "pub_ts": 1789570075
+      "pub_date": "2026-09-17T15:04:05+00:00",
+      "pub_ts": 1789657445
     }
   ],
   "source_success_count": 2,

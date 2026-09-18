@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-09-17T04:27:41.459093+00:00",
+  "updated_at": "2026-09-18T04:11:55.917521+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "e5e7dbb02f",
-      "title": "通用能力不打折，空间具身智能断层领先！ZDTaichu5.0-9B国产开源..",
-      "url": "https://mp.weixin.qq.com/s/aBak5FZaC6nhGpwkeL8hAg",
-      "summary": "通用能力不打折，空间具身智能断层领先！ZDTaichu5.0-9B国产开源..",
+      "id": "68ec63001e",
+      "title": "央企做了个通用Agent，直接杀进IDC实测前三！",
+      "url": "https://mp.weixin.qq.com/s/Z-3qh0YsJzhrVD81ajW5XQ",
+      "summary": "央企做了个通用Agent，直接杀进IDC实测前三！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-17T04:27:35.940277+00:00",
-      "pub_ts": 1789619255
+      "pub_date": "2026-09-18T04:11:51.420507+00:00",
+      "pub_ts": 1789704711
     },
     {
-      "id": "9fde7006fe",
-      "title": "留给人类阻止AI的时间不多了”",
-      "url": "https://mp.weixin.qq.com/s/CWo0b-4Yk2aeHpc83Fs7fQ",
-      "summary": "留给人类阻止AI的时间不多了”",
+      "id": "1ac7b51f9e",
+      "title": "刚刚，唐杰发布智谱RSI首个成果",
+      "url": "https://mp.weixin.qq.com/s/BT9Jz6rU5boftL-vZpX34A",
+      "summary": "刚刚，唐杰发布智谱RSI首个成果",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-17T04:27:35.940323+00:00",
-      "pub_ts": 1789619255
+      "pub_date": "2026-09-18T04:11:51.420552+00:00",
+      "pub_ts": 1789704711
     },
     {
-      "id": "4a7f0cd9ef",
-      "title": "快手搜索广告落地生成式检索新范式：UniGD生成-判别一体化重塑检索链路",
-      "url": "https://mp.weixin.qq.com/s/JOyfXNcG5TTfFh0mQgBQkg",
-      "summary": "快手搜索广告落地生成式检索新范式：UniGD生成-判别一体化重塑检索链路",
+      "id": "43fff9ab5b",
+      "title": "从“会回答”到“会办事”，vivo如何解AI手机这道题?",
+      "url": "https://mp.weixin.qq.com/s/ojpnlUVW4gJ7G1mb8J5lbw",
+      "summary": "从“会回答”到“会办事”，vivo如何解AI手机这道题?",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-17T04:27:35.940346+00:00",
-      "pub_ts": 1789619255
+      "pub_date": "2026-09-18T04:11:51.420576+00:00",
+      "pub_ts": 1789704711
     },
     {
-      "id": "c9f040bff7",
-      "title": "西门子不造机器人，为什么机器人进厂的故事里总有它?",
-      "url": "https://mp.weixin.qq.com/s/r2fDsA4wVncP3kLKSKC_cQ",
-      "summary": "西门子不造机器人，为什么机器人进厂的故事里总有它?",
+      "id": "932b09d7b6",
+      "title": "谷歌RSI论文：AI自进化，做梦吧！",
+      "url": "https://mp.weixin.qq.com/s/_eUySsuIUAQZCeOfxY1PWw",
+      "summary": "谷歌RSI论文：AI自进化，做梦吧！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-17T04:27:35.940368+00:00",
-      "pub_ts": 1789619255
+      "pub_date": "2026-09-18T04:11:51.420597+00:00",
+      "pub_ts": 1789704711
     },
     {
-      "id": "70bd21ffd7",
-      "title": "联发科扔出2纳米王炸：330亿晶体管、端侧30B模型，下周上真机",
-      "url": "https://mp.weixin.qq.com/s/cyFpBUzFB3nRoBxh1u3Tpw",
-      "summary": "联发科扔出2纳米王炸：330亿晶体管、端侧30B模型，下周上真机",
+      "id": "04aa7b0cb0",
+      "title": "时间序列预测新成果：因果视角下，决策条件模拟的完整工程实现|...",
+      "url": "https://mp.weixin.qq.com/s/Z3skyA9Ak4AIub7lMmo5VA",
+      "summary": "时间序列预测新成果：因果视角下，决策条件模拟的完整工程实现|...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-17T04:27:35.940388+00:00",
-      "pub_ts": 1789619255
+      "pub_date": "2026-09-18T04:11:51.420619+00:00",
+      "pub_ts": 1789704711
     }
   ],
   "source_success_count": 1,

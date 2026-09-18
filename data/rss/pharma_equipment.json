@@ -3,9 +3,39 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-09-17T04:28:04.771778+00:00",
+  "updated_at": "2026-09-18T04:12:19.713976+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "9ecd4df1ef",
+      "title": "Novo taps Anthropic’s Claude to ‘supercharge’ R&D efforts",
+      "url": "https://www.pharmaceutical-technology.com/news/novo-taps-anthropics-claude-to-supercharge-rd-efforts/",
+      "summary": "Anthropic said it would help Novo shorten research timelines and discover impactful medicines.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-09-17T10:07:00+00:00",
+      "pub_ts": 1789639620
+    },
+    {
+      "id": "040c4d4b15",
+      "title": "Cellares and GenomeFrontier to assess automated GF-CART01 production",
+      "url": "https://www.pharmaceutical-technology.com/news/cellares-genomefrontier-gf-cart01-production/",
+      "summary": "Cellares and GenomeFrontier Therapeutics are to assess automated manufacturing for the latter’s investigational CAR-T cell therapy, GF-CART01, on the Cell Shuttle platform.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-09-17T09:26:15+00:00",
+      "pub_ts": 1789637175
+    },
+    {
+      "id": "b377949722",
+      "title": "Viatris’ Wakix receives Japanese approval to treat OSAS and narcolepsy",
+      "url": "https://www.pharmaceutical-technology.com/news/viatris-wakix-japanese-approval-osas-narcolepsy/",
+      "summary": "Japan’s Ministry of Health, Labour and Welfare has approved Viatris’ Wakix for EDS related to OSAS and for narcolepsy types 1 and 2.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-09-17T08:40:45+00:00",
+      "pub_ts": 1789634445
+    },
     {
       "id": "f50abe47cd",
       "title": "Sling ropes in $123m for oral thyroid eye disease drug",
@@ -25,36 +55,6 @@
       "lang": "en",
       "pub_date": "2026-09-16T12:26:24+00:00",
       "pub_ts": 1789561584
-    },
-    {
-      "id": "ec2e039a9d",
-      "title": "ERS 2026: obesity, an independent obstruction to biologic-treated asthma",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ers-2026-obesity-biologic-treated-asthma/",
-      "summary": "At ERS 2026, investigators presented their findings exploring the link between BMI and severe asthma outcomes in response to biologics.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-09-16T09:39:52+00:00",
-      "pub_ts": 1789551592
-    },
-    {
-      "id": "66c70406d0",
-      "title": "Gilead and PAHO agree to expedite lenacapavir access for HIV prevention",
-      "url": "https://www.pharmaceutical-technology.com/news/gilead-paho-lenacapavir-hiv-prevention/",
-      "summary": "Gilead Sciences and the PAHO have signed an agreement to expedite access to the company’s twice-yearly lenacapavir injection for HIV prevention as PrEP across Latin America and the Caribbean.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-09-16T09:20:49+00:00",
-      "pub_ts": 1789550449
-    },
-    {
-      "id": "02390548be",
-      "title": "Eli Lilly and QurCan sign genetic medicine deal",
-      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-qurcan-genetic-medicine-deal/",
-      "summary": "Lilly and QurCan Therapeutics have partnered to develop genetic medicine for diseases of the central and peripheral nervous systems.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-09-16T08:25:56+00:00",
-      "pub_ts": 1789547156
     }
   ],
   "source_success_count": 1,
