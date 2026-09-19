@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-09-18T04:12:19.713976+00:00",
+  "updated_at": "2026-09-19T04:09:11.319198+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "9ecd4df1ef",
-      "title": "Novo taps Anthropic’s Claude to ‘supercharge’ R&D efforts",
-      "url": "https://www.pharmaceutical-technology.com/news/novo-taps-anthropics-claude-to-supercharge-rd-efforts/",
-      "summary": "Anthropic said it would help Novo shorten research timelines and discover impactful medicines.",
+      "id": "7d4dc23c95",
+      "title": "FDA approves first gene therapy for Sanfilippo syndrome type A",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-approves-first-gene-therapy-for-sanfilippo-syndrome-type-a/",
+      "summary": "With a $3.95m price tag, Fayuvi – a one-time gene therapy – is one of the most expensive drugs on the market.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-17T10:07:00+00:00",
-      "pub_ts": 1789639620
+      "pub_date": "2026-09-18T13:47:50+00:00",
+      "pub_ts": 1789739270
     },
     {
-      "id": "040c4d4b15",
-      "title": "Cellares and GenomeFrontier to assess automated GF-CART01 production",
-      "url": "https://www.pharmaceutical-technology.com/news/cellares-genomefrontier-gf-cart01-production/",
-      "summary": "Cellares and GenomeFrontier Therapeutics are to assess automated manufacturing for the latter’s investigational CAR-T cell therapy, GF-CART01, on the Cell Shuttle platform.",
+      "id": "1ad5e8f234",
+      "title": "Novo targets oral macrocycles with $1.4bn Orbis partnership",
+      "url": "https://www.pharmaceutical-technology.com/news/novo-targets-oral-macrocycles-with-1-4bn-orbis-partnership/",
+      "summary": "The deal reflects a growing interest from big pharma in the compounds that bridge the gap between small molecules and biologics.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-17T09:26:15+00:00",
-      "pub_ts": 1789637175
+      "pub_date": "2026-09-18T10:16:09+00:00",
+      "pub_ts": 1789726569
     },
     {
-      "id": "b377949722",
-      "title": "Viatris’ Wakix receives Japanese approval to treat OSAS and narcolepsy",
-      "url": "https://www.pharmaceutical-technology.com/news/viatris-wakix-japanese-approval-osas-narcolepsy/",
-      "summary": "Japan’s Ministry of Health, Labour and Welfare has approved Viatris’ Wakix for EDS related to OSAS and for narcolepsy types 1 and 2.",
+      "id": "641bfb67e4",
+      "title": "Ona Therapeutics to develop ADC with WuXi’s payload-linker platform",
+      "url": "https://www.pharmaceutical-technology.com/news/ona-therapeutics-adc-wuxis-payload-linker-platform/",
+      "summary": "WuXi XDC Cayman is to provide Ona Therapeutics with an exclusive global licence to its WuXiTecan-2 platform to develop an ADC candidate.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-17T08:40:45+00:00",
-      "pub_ts": 1789634445
+      "pub_date": "2026-09-18T09:39:52+00:00",
+      "pub_ts": 1789724392
     },
     {
-      "id": "f50abe47cd",
-      "title": "Sling ropes in $123m for oral thyroid eye disease drug",
-      "url": "https://www.pharmaceutical-technology.com/news/sling-ropes-in-123m-for-oral-thyroid-eye-disease-drug/",
-      "summary": "Sling is racing to market the first oral IGF-1R blocker, which would likely provide competition to Amgen’s Tepezza.",
+      "id": "7dbc650721",
+      "title": "Roche agrees to $1bn deal with Dualitas for bispecific antibody research",
+      "url": "https://www.pharmaceutical-technology.com/news/roche-dualitas-1bn-bispecific-antibody-research/",
+      "summary": "Roche and Dualitas Therapeutics have entered a research and licence agreement to develop bispecific antibodies for I&amp;I diseases.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-16T15:51:10+00:00",
-      "pub_ts": 1789573870
+      "pub_date": "2026-09-18T08:29:24+00:00",
+      "pub_ts": 1789720164
     },
     {
-      "id": "6eb9b6d723",
-      "title": "Looking beyond short-term turmoil, Syngene is investing for the future",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/syngene-investing-for-future/",
-      "summary": "CRDMO Syngene has revamped its leadership and is building capacity as it eyes growth and emerging modalities.",
+      "id": "47f788006b",
+      "title": "The shrinking return on investment for Nordic innovation",
+      "url": "https://www.pharmaceutical-technology.com/features/the-shrinking-return-on-investment-for-nordic-innovation/",
+      "summary": "Nordic biopharma innovation outpaces commercialization as regional biotechs struggle to raise the capital needed to upscale.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-16T12:26:24+00:00",
-      "pub_ts": 1789561584
+      "pub_date": "2026-09-17T14:37:48+00:00",
+      "pub_ts": 1789655868
     }
   ],
   "source_success_count": 1,

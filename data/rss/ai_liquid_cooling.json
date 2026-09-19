@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-09-18T04:11:55.917521+00:00",
+  "updated_at": "2026-09-19T04:08:47.676398+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "68ec63001e",
-      "title": "央企做了个通用Agent，直接杀进IDC实测前三！",
-      "url": "https://mp.weixin.qq.com/s/Z-3qh0YsJzhrVD81ajW5XQ",
-      "summary": "央企做了个通用Agent，直接杀进IDC实测前三！",
+      "id": "699f4a4b67",
+      "title": "AGI新战场谷歌亚马逊巨头激战，杀出个中国LimiX-2赢了又赢",
+      "url": "https://mp.weixin.qq.com/s/pRv_ys0rmFMLpsw6XzWfMw",
+      "summary": "AGI新战场谷歌亚马逊巨头激战，杀出个中国LimiX-2赢了又赢",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-18T04:11:51.420507+00:00",
-      "pub_ts": 1789704711
+      "pub_date": "2026-09-19T04:08:43.453183+00:00",
+      "pub_ts": 1789790923
     },
     {
-      "id": "1ac7b51f9e",
-      "title": "刚刚，唐杰发布智谱RSI首个成果",
-      "url": "https://mp.weixin.qq.com/s/BT9Jz6rU5boftL-vZpX34A",
-      "summary": "刚刚，唐杰发布智谱RSI首个成果",
+      "id": "e87522053d",
+      "title": "OpenAl服务器被黑！3人用Claude打进了内部代码仓库",
+      "url": "https://mp.weixin.qq.com/s/xr6nCxV-Jqu4Kv2uMUQLQw",
+      "summary": "OpenAl服务器被黑！3人用Claude打进了内部代码仓库",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-18T04:11:51.420552+00:00",
-      "pub_ts": 1789704711
+      "pub_date": "2026-09-19T04:08:43.453229+00:00",
+      "pub_ts": 1789790923
     },
     {
-      "id": "43fff9ab5b",
-      "title": "从“会回答”到“会办事”，vivo如何解AI手机这道题?",
-      "url": "https://mp.weixin.qq.com/s/ojpnlUVW4gJ7G1mb8J5lbw",
-      "summary": "从“会回答”到“会办事”，vivo如何解AI手机这道题?",
+      "id": "f883aa9922",
+      "title": "白天务农晚上码农，这个斐济农民跨越一万公里来拼多多取经",
+      "url": "https://mp.weixin.qq.com/s/wJpz2soEh4ggMJjxnAyoCw",
+      "summary": "白天务农晚上码农，这个斐济农民跨越一万公里来拼多多取经",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-18T04:11:51.420576+00:00",
-      "pub_ts": 1789704711
+      "pub_date": "2026-09-19T04:08:43.453253+00:00",
+      "pub_ts": 1789790923
     },
     {
-      "id": "932b09d7b6",
-      "title": "谷歌RSI论文：AI自进化，做梦吧！",
-      "url": "https://mp.weixin.qq.com/s/_eUySsuIUAQZCeOfxY1PWw",
-      "summary": "谷歌RSI论文：AI自进化，做梦吧！",
+      "id": "9bb5802529",
+      "title": "具身智能技术路线尚未定型，基础设施却先收敛",
+      "url": "https://mp.weixin.qq.com/s/G9ZVJbQak96RP4XW71BZEA",
+      "summary": "具身智能技术路线尚未定型，基础设施却先收敛",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-18T04:11:51.420597+00:00",
-      "pub_ts": 1789704711
+      "pub_date": "2026-09-19T04:08:43.453275+00:00",
+      "pub_ts": 1789790923
     },
     {
-      "id": "04aa7b0cb0",
-      "title": "时间序列预测新成果：因果视角下，决策条件模拟的完整工程实现|...",
-      "url": "https://mp.weixin.qq.com/s/Z3skyA9Ak4AIub7lMmo5VA",
-      "summary": "时间序列预测新成果：因果视角下，决策条件模拟的完整工程实现|...",
+      "id": "5df5c94732",
+      "title": "流式推理优化，让机器人决策延迟低至0.68秒",
+      "url": "https://mp.weixin.qq.com/s/mnvDiC-Ll_P8aVrzR5uKLQ",
+      "summary": "流式推理优化，让机器人决策延迟低至0.68秒",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-18T04:11:51.420619+00:00",
-      "pub_ts": 1789704711
+      "pub_date": "2026-09-19T04:08:43.453296+00:00",
+      "pub_ts": 1789790923
     }
   ],
   "source_success_count": 1,
