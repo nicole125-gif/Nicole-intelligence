@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-09-19T04:08:47.676398+00:00",
+  "updated_at": "2026-09-20T04:27:58.557201+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "699f4a4b67",
-      "title": "AGI新战场谷歌亚马逊巨头激战，杀出个中国LimiX-2赢了又赢",
-      "url": "https://mp.weixin.qq.com/s/pRv_ys0rmFMLpsw6XzWfMw",
-      "summary": "AGI新战场谷歌亚马逊巨头激战，杀出个中国LimiX-2赢了又赢",
+      "id": "c805377f3a",
+      "title": "AI制药玩家格局与现状",
+      "url": "https://mp.weixin.qq.com/s/O4vgIK7PrljGNqlu8GsF0A",
+      "summary": "AI制药玩家格局与现状",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-19T04:08:43.453183+00:00",
-      "pub_ts": 1789790923
+      "pub_date": "2026-09-20T04:27:53.367238+00:00",
+      "pub_ts": 1789878473
     },
     {
-      "id": "e87522053d",
-      "title": "OpenAl服务器被黑！3人用Claude打进了内部代码仓库",
-      "url": "https://mp.weixin.qq.com/s/xr6nCxV-Jqu4Kv2uMUQLQw",
-      "summary": "OpenAl服务器被黑！3人用Claude打进了内部代码仓库",
+      "id": "71e3b06c65",
+      "title": "干万奖池找“鲸锐”！单项奖金200万，只等一个最会用AI讲故事的你",
+      "url": "https://mp.weixin.qq.com/s/f1ThXLn6qxTUAYv4fdUv3w",
+      "summary": "干万奖池找“鲸锐”！单项奖金200万，只等一个最会用AI讲故事的你",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-19T04:08:43.453229+00:00",
-      "pub_ts": 1789790923
+      "pub_date": "2026-09-20T04:27:53.367277+00:00",
+      "pub_ts": 1789878473
     },
     {
-      "id": "f883aa9922",
-      "title": "白天务农晚上码农，这个斐济农民跨越一万公里来拼多多取经",
-      "url": "https://mp.weixin.qq.com/s/wJpz2soEh4ggMJjxnAyoCw",
-      "summary": "白天务农晚上码农，这个斐济农民跨越一万公里来拼多多取经",
+      "id": "70ddb5f91c",
+      "title": "Nature：Al重生到19OO，这一世抢先爱因斯坦提出光量子",
+      "url": "https://mp.weixin.qq.com/s/DZVMAPVP2Eh0TqFpkzGgbw",
+      "summary": "Nature：Al重生到19OO，这一世抢先爱因斯坦提出光量子",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-19T04:08:43.453253+00:00",
-      "pub_ts": 1789790923
+      "pub_date": "2026-09-20T04:27:53.367302+00:00",
+      "pub_ts": 1789878473
     },
     {
-      "id": "9bb5802529",
-      "title": "具身智能技术路线尚未定型，基础设施却先收敛",
-      "url": "https://mp.weixin.qq.com/s/G9ZVJbQak96RP4XW71BZEA",
-      "summary": "具身智能技术路线尚未定型，基础设施却先收敛",
+      "id": "0ec83b2101",
+      "title": "华为汪涛：华为要打造AI算力底座，只做好一颗芯片远远不够",
+      "url": "https://mp.weixin.qq.com/s/ySEDOOxunS83slT_KRzplg",
+      "summary": "华为汪涛：华为要打造AI算力底座，只做好一颗芯片远远不够",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-19T04:08:43.453275+00:00",
-      "pub_ts": 1789790923
+      "pub_date": "2026-09-20T04:27:53.367324+00:00",
+      "pub_ts": 1789878473
     },
     {
-      "id": "5df5c94732",
-      "title": "流式推理优化，让机器人决策延迟低至0.68秒",
-      "url": "https://mp.weixin.qq.com/s/mnvDiC-Ll_P8aVrzR5uKLQ",
-      "summary": "流式推理优化，让机器人决策延迟低至0.68秒",
+      "id": "ceb807ac8e",
+      "title": "27B模型分分钟交付网页，Qwen 3.8还是太能了",
+      "url": "https://mp.weixin.qq.com/s/B-ZRhbYg_S8ZyPcWwcsbvA",
+      "summary": "27B模型分分钟交付网页，Qwen 3.8还是太能了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-19T04:08:43.453296+00:00",
-      "pub_ts": 1789790923
+      "pub_date": "2026-09-20T04:27:53.367346+00:00",
+      "pub_ts": 1789878473
     }
   ],
   "source_success_count": 1,
