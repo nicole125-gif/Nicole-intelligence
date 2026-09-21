@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-09-20T04:27:58.557201+00:00",
+  "updated_at": "2026-09-21T04:26:19.169062+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "c805377f3a",
-      "title": "AI制药玩家格局与现状",
-      "url": "https://mp.weixin.qq.com/s/O4vgIK7PrljGNqlu8GsF0A",
-      "summary": "AI制药玩家格局与现状",
+      "id": "7044e23755",
+      "title": "华为首发企业AI白皮书：AI让员工更快了，怎样让整个企业受益?",
+      "url": "https://mp.weixin.qq.com/s/hxk5xEyT7PKoQdL_pGRJtw",
+      "summary": "华为首发企业AI白皮书：AI让员工更快了，怎样让整个企业受益?",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-20T04:27:53.367238+00:00",
-      "pub_ts": 1789878473
+      "pub_date": "2026-09-21T04:26:14.735415+00:00",
+      "pub_ts": 1789964774
     },
     {
-      "id": "71e3b06c65",
-      "title": "干万奖池找“鲸锐”！单项奖金200万，只等一个最会用AI讲故事的你",
-      "url": "https://mp.weixin.qq.com/s/f1ThXLn6qxTUAYv4fdUv3w",
-      "summary": "干万奖池找“鲸锐”！单项奖金200万，只等一个最会用AI讲故事的你",
+      "id": "a96bede8ae",
+      "title": "WebArena作者Shuyan Zhou入职Meta亿元俱乐部",
+      "url": "https://mp.weixin.qq.com/s/-H7KsmJCroLGjC3DDp5bqQ",
+      "summary": "WebArena作者Shuyan Zhou入职Meta亿元俱乐部",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-20T04:27:53.367277+00:00",
-      "pub_ts": 1789878473
+      "pub_date": "2026-09-21T04:26:14.735457+00:00",
+      "pub_ts": 1789964774
     },
     {
-      "id": "70ddb5f91c",
-      "title": "Nature：Al重生到19OO，这一世抢先爱因斯坦提出光量子",
-      "url": "https://mp.weixin.qq.com/s/DZVMAPVP2Eh0TqFpkzGgbw",
-      "summary": "Nature：Al重生到19OO，这一世抢先爱因斯坦提出光量子",
+      "id": "6af542133c",
+      "title": "刚刚，剪映发了个大的：AI生视频和AI剪辑的壁，被打破了！",
+      "url": "https://mp.weixin.qq.com/s/yRZJMQoFCwRD8uIE-DOXHA",
+      "summary": "刚刚，剪映发了个大的：AI生视频和AI剪辑的壁，被打破了！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-20T04:27:53.367302+00:00",
-      "pub_ts": 1789878473
+      "pub_date": "2026-09-21T04:26:14.735482+00:00",
+      "pub_ts": 1789964774
     },
     {
-      "id": "0ec83b2101",
-      "title": "华为汪涛：华为要打造AI算力底座，只做好一颗芯片远远不够",
-      "url": "https://mp.weixin.qq.com/s/ySEDOOxunS83slT_KRzplg",
-      "summary": "华为汪涛：华为要打造AI算力底座，只做好一颗芯片远远不够",
+      "id": "35eaac4afc",
+      "title": "一张3090就能跑！全栈国产模型，把AI办公搬到企业本地",
+      "url": "https://mp.weixin.qq.com/s/F9nYI-IPhnFPp8ct0jhzOw",
+      "summary": "一张3090就能跑！全栈国产模型，把AI办公搬到企业本地",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-20T04:27:53.367324+00:00",
-      "pub_ts": 1789878473
+      "pub_date": "2026-09-21T04:26:14.735503+00:00",
+      "pub_ts": 1789964774
     },
     {
-      "id": "ceb807ac8e",
-      "title": "27B模型分分钟交付网页，Qwen 3.8还是太能了",
-      "url": "https://mp.weixin.qq.com/s/B-ZRhbYg_S8ZyPcWwcsbvA",
-      "summary": "27B模型分分钟交付网页，Qwen 3.8还是太能了",
+      "id": "e248987b3b",
+      "title": "Suno最强开源对手来了：4090一分钟出歌，把AI音乐从抽卡变成可..",
+      "url": "https://mp.weixin.qq.com/s/ZLNh5SX9_yZU6sab4UGLmg",
+      "summary": "Suno最强开源对手来了：4090一分钟出歌，把AI音乐从抽卡变成可..",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-20T04:27:53.367346+00:00",
-      "pub_ts": 1789878473
+      "pub_date": "2026-09-21T04:26:14.735523+00:00",
+      "pub_ts": 1789964774
     }
   ],
   "source_success_count": 1,

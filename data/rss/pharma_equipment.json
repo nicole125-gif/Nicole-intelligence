@@ -3,9 +3,19 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-09-20T04:28:22.582346+00:00",
+  "updated_at": "2026-09-21T04:26:42.303755+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "0bd99f2d11",
+      "title": "FDA hearing: psychedelics launch needs balanced regulation without limiting access",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/fda-hearing-psychedelics-launch-balanced-regulation/",
+      "summary": "Psychedelics have become a clear priority for the FDA following an EO aimed at accelerating research and regulatory pathways to psychedelic treatments.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-09-18T14:19:26+00:00",
+      "pub_ts": 1789741166
+    },
     {
       "id": "7d4dc23c95",
       "title": "FDA approves first gene therapy for Sanfilippo syndrome type A",
@@ -45,16 +55,6 @@
       "lang": "en",
       "pub_date": "2026-09-18T08:29:24+00:00",
       "pub_ts": 1789720164
-    },
-    {
-      "id": "47f788006b",
-      "title": "The shrinking return on investment for Nordic innovation",
-      "url": "https://www.pharmaceutical-technology.com/features/the-shrinking-return-on-investment-for-nordic-innovation/",
-      "summary": "Nordic biopharma innovation outpaces commercialization as regional biotechs struggle to raise the capital needed to upscale.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-09-17T14:37:48+00:00",
-      "pub_ts": 1789655868
     }
   ],
   "source_success_count": 1,
