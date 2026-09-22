@@ -3,9 +3,59 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-09-21T04:26:29.925433+00:00",
+  "updated_at": "2026-09-22T04:22:14.773262+00:00",
   "item_count": 10,
   "items": [
+    {
+      "id": "5c8bd56f7f",
+      "title": "Lower Saxony Approves 20Km Wilhelmshaven Hydrogen Pipeline",
+      "url": "https://fuelcellsworks.com/2026/09/17/h2/lower-saxony-approves-20km-wilhelmshaven-hydrogen-pipeline",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-09-21T16:14:42+00:00",
+      "pub_ts": 1790007282
+    },
+    {
+      "id": "e5f7d1c3af",
+      "title": "GAZOO Racing Announces Official Partners for Its FCEV* Challenge on the 2027 Dakar Rally",
+      "url": "https://fuelcellsworks.com/2026/09/21/clean-energy/gazoo-racing-announces-official-partners-for-its-fcev-challenge-on-the-2027-dakar-rally",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-09-21T16:08:40+00:00",
+      "pub_ts": 1790006920
+    },
+    {
+      "id": "b97beb285e",
+      "title": "Fuel Cell and Hydrogen News Highlights From China: Sept. 14-Sept. 18, 2026",
+      "url": "https://fuelcellsworks.com/2026/09/19/clean-energy/fuel-cell-and-hydrogen-news-highlights-from-china-sept-14-sept-18-2026",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-09-21T15:59:54+00:00",
+      "pub_ts": 1790006394
+    },
+    {
+      "id": "d37d322202",
+      "title": "Cefmof Hydrogen and Reduciner Deepen Cooperation to Develop New Applications for Hydrogen",
+      "url": "https://fuelcellsworks.com/2026/09/21/h2/cefmof-hydrogen-and-reduciner-deepen-cooperation-to-develop-new-applications-for-hydrogen",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-09-21T15:56:41+00:00",
+      "pub_ts": 1790006201
+    },
+    {
+      "id": "609af59429",
+      "title": "Dutch Trio Unveils What They Say Is the First Fuel Cell Vehicle Purpose-Built for Infrastructure Work at IAA",
+      "url": "https://fuelcellsworks.com/2026/09/14/fuel-cells/dutch-trio-unveils-what-they-say-is-the-first-fuel-cell-vehicle-purpose-built-for-infrastructure-work-at-iaa",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-09-21T15:50:41+00:00",
+      "pub_ts": 1790005841
+    },
     {
       "id": "6c9e3a98ba",
       "title": "Smoltek appoints Gabriel Altby as Chief Operating Officer",
@@ -55,56 +105,6 @@
       "lang": "en",
       "pub_date": "2026-09-19T16:50:37+00:00",
       "pub_ts": 1789836637
-    },
-    {
-      "id": "58cab454ba",
-      "title": "Europe's Hydrogen Plane Push Hits a Milestone: Honeywell Integrates a Megawatt-Class Fuel-Cell Power Source for Aircraft",
-      "url": "https://fuelcellsworks.com/2026/09/17/fuel-cells/europe-s-hydrogen-plane-push-hits-a-milestone-honeywell-integrates-a-megawatt-class-fuel-cell-power-source-for-aircraft",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-09-18T16:21:17+00:00",
-      "pub_ts": 1789748477
-    },
-    {
-      "id": "46a21a8e44",
-      "title": "Ebara Elliott Energy Secures Liquid Hydrogen Pump Contract for Chart Ferox, A.s.",
-      "url": "https://fuelcellsworks.com/2026/09/17/h2/ebara-elliott-energy-secures-liquid-hydrogen-pump-contract-for-chart-ferox-a-s",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-09-18T16:08:06+00:00",
-      "pub_ts": 1789747686
-    },
-    {
-      "id": "11b00083bf",
-      "title": "Siesling Presents What It Says Is the World's First Hydrogen-Powered Truck-Mounted Aerial Work Platform",
-      "url": "https://fuelcellsworks.com/2026/09/13/h2/siesling-presents-what-it-says-is-the-world-s-first-hydrogen-powered-truck-mounted-aerial-work-platform",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-09-18T15:58:59+00:00",
-      "pub_ts": 1789747139
-    },
-    {
-      "id": "9757fadf4c",
-      "title": "ALTPRO to Premiere HERMESMobile Hydrogen Power System at InnoTrans 2026",
-      "url": "https://fuelcellsworks.com/2026/09/16/h2/altpro-to-premiere-hermes-hydrogen-power-wagon-at-innotrans-2026",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-09-18T15:51:58+00:00",
-      "pub_ts": 1789746718
-    },
-    {
-      "id": "56cb8dc0e3",
-      "title": "Hyvolution 2026: Hitachi Energy Highlights Energy Planning for Green Hydrogen Growth in Chile",
-      "url": "https://fuelcellsworks.com/2026/09/16/h2/hyvolution-2026-hitachi-energy-highlights-energy-planning-for-green-hydrogen-growth-in-chile",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-09-18T15:49:35+00:00",
-      "pub_ts": 1789746575
     }
   ],
   "source_success_count": 2,

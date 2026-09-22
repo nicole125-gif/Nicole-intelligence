@@ -3,9 +3,49 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-09-21T04:26:42.303755+00:00",
+  "updated_at": "2026-09-22T04:22:27.121030+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "35f609671c",
+      "title": "Beijing unveils blueprint for biomedical dominance by 2030",
+      "url": "https://www.pharmaceutical-technology.com/news/beijing-unveils-blueprint-for-biomedical-dominance-by-2030/",
+      "summary": "Outlining a five-year biomedical plan, China wants to expand its global role beyond just pipeline innovation.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-09-21T14:36:24+00:00",
+      "pub_ts": 1790001384
+    },
+    {
+      "id": "9f39125557",
+      "title": "Telix to acquire ITM in deal worth up to $2.35bn",
+      "url": "https://www.pharmaceutical-technology.com/news/telix-to-acquire-itm/",
+      "summary": "Telix Pharmaceuticals has agreed to acquire ITM Isotope Technologies Munich in a transaction valued at up to $2.35bn, combining Telix’s operations with ITM’s radioisotope production business and late-stage treatment candidate ITM-11.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-09-21T09:13:00+00:00",
+      "pub_ts": 1789981980
+    },
+    {
+      "id": "52d192b555",
+      "title": "How DFE Pharma supports confident continuous manufacturing decisions",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/how-dfe-pharma-supports-confident-continuous-manufacturing-decisions/",
+      "summary": "DFE Pharma supports confident continuous manufacturing decisions with CM-ready excipients, non-GMP testing and expert support.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-09-21T09:12:57+00:00",
+      "pub_ts": 1789981977
+    },
+    {
+      "id": "2529c56a22",
+      "title": "Sandoz and mAbxience agree on emicizumab biosimilar partnership",
+      "url": "https://www.pharmaceutical-technology.com/news/sandoz-mabxience-emicizumab-biosimilar/",
+      "summary": "Sandoz and mAbxience have signed a licensing, development and commercialisation agreement for a proposed emicizumab biosimilar candidate for haemophilia A.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-09-21T07:38:53+00:00",
+      "pub_ts": 1789976333
+    },
     {
       "id": "0bd99f2d11",
       "title": "FDA hearing: psychedelics launch needs balanced regulation without limiting access",
@@ -15,46 +55,6 @@
       "lang": "en",
       "pub_date": "2026-09-18T14:19:26+00:00",
       "pub_ts": 1789741166
-    },
-    {
-      "id": "7d4dc23c95",
-      "title": "FDA approves first gene therapy for Sanfilippo syndrome type A",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-approves-first-gene-therapy-for-sanfilippo-syndrome-type-a/",
-      "summary": "With a $3.95m price tag, Fayuvi – a one-time gene therapy – is one of the most expensive drugs on the market.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-09-18T13:47:50+00:00",
-      "pub_ts": 1789739270
-    },
-    {
-      "id": "1ad5e8f234",
-      "title": "Novo targets oral macrocycles with $1.4bn Orbis partnership",
-      "url": "https://www.pharmaceutical-technology.com/news/novo-targets-oral-macrocycles-with-1-4bn-orbis-partnership/",
-      "summary": "The deal reflects a growing interest from big pharma in the compounds that bridge the gap between small molecules and biologics.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-09-18T10:16:09+00:00",
-      "pub_ts": 1789726569
-    },
-    {
-      "id": "641bfb67e4",
-      "title": "Ona Therapeutics to develop ADC with WuXi’s payload-linker platform",
-      "url": "https://www.pharmaceutical-technology.com/news/ona-therapeutics-adc-wuxis-payload-linker-platform/",
-      "summary": "WuXi XDC Cayman is to provide Ona Therapeutics with an exclusive global licence to its WuXiTecan-2 platform to develop an ADC candidate.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-09-18T09:39:52+00:00",
-      "pub_ts": 1789724392
-    },
-    {
-      "id": "7dbc650721",
-      "title": "Roche agrees to $1bn deal with Dualitas for bispecific antibody research",
-      "url": "https://www.pharmaceutical-technology.com/news/roche-dualitas-1bn-bispecific-antibody-research/",
-      "summary": "Roche and Dualitas Therapeutics have entered a research and licence agreement to develop bispecific antibodies for I&amp;I diseases.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-09-18T08:29:24+00:00",
-      "pub_ts": 1789720164
     }
   ],
   "source_success_count": 1,

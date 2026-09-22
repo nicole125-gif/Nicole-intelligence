@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-09-21T04:26:19.169062+00:00",
+  "updated_at": "2026-09-22T04:22:01.610338+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "7044e23755",
-      "title": "华为首发企业AI白皮书：AI让员工更快了，怎样让整个企业受益?",
-      "url": "https://mp.weixin.qq.com/s/hxk5xEyT7PKoQdL_pGRJtw",
-      "summary": "华为首发企业AI白皮书：AI让员工更快了，怎样让整个企业受益?",
+      "id": "e75032ef53",
+      "title": "AI算力之争不靠堆卡！浪潮信息捅破智算「能力天花板」，还瓦解了...",
+      "url": "https://mp.weixin.qq.com/s/9_6-Oupr1WVvmbRxjqtQxA",
+      "summary": "AI算力之争不靠堆卡！浪潮信息捅破智算「能力天花板」，还瓦解了...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-21T04:26:14.735415+00:00",
-      "pub_ts": 1789964774
+      "pub_date": "2026-09-22T04:21:57.044135+00:00",
+      "pub_ts": 1790050917
     },
     {
-      "id": "a96bede8ae",
-      "title": "WebArena作者Shuyan Zhou入职Meta亿元俱乐部",
-      "url": "https://mp.weixin.qq.com/s/-H7KsmJCroLGjC3DDp5bqQ",
-      "summary": "WebArena作者Shuyan Zhou入职Meta亿元俱乐部",
+      "id": "ea6a7893fb",
+      "title": "实测Qwen3.8-Omni-Flash：全模态Agent有了“白菜价”",
+      "url": "https://mp.weixin.qq.com/s/hdPAglegzIOmcz4g4cCmlQ",
+      "summary": "实测Qwen3.8-Omni-Flash：全模态Agent有了“白菜价”",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-21T04:26:14.735457+00:00",
-      "pub_ts": 1789964774
+      "pub_date": "2026-09-22T04:21:57.044200+00:00",
+      "pub_ts": 1790050917
     },
     {
-      "id": "6af542133c",
-      "title": "刚刚，剪映发了个大的：AI生视频和AI剪辑的壁，被打破了！",
-      "url": "https://mp.weixin.qq.com/s/yRZJMQoFCwRD8uIE-DOXHA",
-      "summary": "刚刚，剪映发了个大的：AI生视频和AI剪辑的壁，被打破了！",
+      "id": "b28bd5c6dd",
+      "title": "啊啊啊GPT-6 Astra这么不安全！这次马斯克都瘫坐了",
+      "url": "https://mp.weixin.qq.com/s/4D9HmGm0bB5gdn1Vc5yICw",
+      "summary": "啊啊啊GPT-6 Astra这么不安全！这次马斯克都瘫坐了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-21T04:26:14.735482+00:00",
-      "pub_ts": 1789964774
+      "pub_date": "2026-09-22T04:21:57.044226+00:00",
+      "pub_ts": 1790050917
     },
     {
-      "id": "35eaac4afc",
-      "title": "一张3090就能跑！全栈国产模型，把AI办公搬到企业本地",
-      "url": "https://mp.weixin.qq.com/s/F9nYI-IPhnFPp8ct0jhzOw",
-      "summary": "一张3090就能跑！全栈国产模型，把AI办公搬到企业本地",
+      "id": "f544dfb4d6",
+      "title": "千问7B生图模型开放权重！3090就能跑，2K出图修图抠图全包",
+      "url": "https://mp.weixin.qq.com/s/VvNqSgg_sY4Zno4cS_IiRA",
+      "summary": "千问7B生图模型开放权重！3090就能跑，2K出图修图抠图全包",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-21T04:26:14.735503+00:00",
-      "pub_ts": 1789964774
+      "pub_date": "2026-09-22T04:21:57.044247+00:00",
+      "pub_ts": 1790050917
     },
     {
-      "id": "e248987b3b",
-      "title": "Suno最强开源对手来了：4090一分钟出歌，把AI音乐从抽卡变成可..",
-      "url": "https://mp.weixin.qq.com/s/ZLNh5SX9_yZU6sab4UGLmg",
-      "summary": "Suno最强开源对手来了：4090一分钟出歌，把AI音乐从抽卡变成可..",
+      "id": "17bac9f006",
+      "title": "复旦上线音视频模型新裁判：一万组数据对齐人类审美",
+      "url": "https://mp.weixin.qq.com/s/nvKrctrR-bXVrPfwnd0L2g",
+      "summary": "复旦上线音视频模型新裁判：一万组数据对齐人类审美",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-21T04:26:14.735523+00:00",
-      "pub_ts": 1789964774
+      "pub_date": "2026-09-22T04:21:57.044268+00:00",
+      "pub_ts": 1790050917
     }
   ],
   "source_success_count": 1,

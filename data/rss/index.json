@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T04:27:10.732936+00:00",
+  "generated_at": "2026-09-22T04:22:55.802714+00:00",
   "verticals": {
     "macro": {
       "name": "宏观经济",
@@ -9,22 +9,22 @@
     "semiconductor": {
       "name": "半导体",
       "item_count": 10,
-      "updated_at": "2026-09-21T04:26:05.294861+00:00"
+      "updated_at": "2026-09-22T04:21:47.677626+00:00"
     },
     "ai_liquid_cooling": {
       "name": "AI液冷",
       "item_count": 5,
-      "updated_at": "2026-09-21T04:26:19.169062+00:00"
+      "updated_at": "2026-09-22T04:22:01.610338+00:00"
     },
     "hydrogen": {
       "name": "氢能",
       "item_count": 10,
-      "updated_at": "2026-09-21T04:26:29.925433+00:00"
+      "updated_at": "2026-09-22T04:22:14.773262+00:00"
     },
     "pharma_equipment": {
       "name": "医药设备",
       "item_count": 5,
-      "updated_at": "2026-09-21T04:26:42.303755+00:00"
+      "updated_at": "2026-09-22T04:22:27.121030+00:00"
     },
     "food_beverage": {
       "name": "食品饮料",
