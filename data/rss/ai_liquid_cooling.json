@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-09-22T04:22:01.610338+00:00",
+  "updated_at": "2026-09-23T04:18:38.969693+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "e75032ef53",
-      "title": "AI算力之争不靠堆卡！浪潮信息捅破智算「能力天花板」，还瓦解了...",
-      "url": "https://mp.weixin.qq.com/s/9_6-Oupr1WVvmbRxjqtQxA",
-      "summary": "AI算力之争不靠堆卡！浪潮信息捅破智算「能力天花板」，还瓦解了...",
+      "id": "ebf5715898",
+      "title": "陆川手搓历史现场，王珞丹熬夜抽卡，阿里全模态开始兜底生产",
+      "url": "https://mp.weixin.qq.com/s/UGsv7PiYPidl6_iJSYCgrg",
+      "summary": "陆川手搓历史现场，王珞丹熬夜抽卡，阿里全模态开始兜底生产",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-22T04:21:57.044135+00:00",
-      "pub_ts": 1790050917
+      "pub_date": "2026-09-23T04:18:34.388241+00:00",
+      "pub_ts": 1790137114
     },
     {
-      "id": "ea6a7893fb",
-      "title": "实测Qwen3.8-Omni-Flash：全模态Agent有了“白菜价”",
-      "url": "https://mp.weixin.qq.com/s/hdPAglegzIOmcz4g4cCmlQ",
-      "summary": "实测Qwen3.8-Omni-Flash：全模态Agent有了“白菜价”",
+      "id": "159b979941",
+      "title": "Grok 4.7来了！网友实测先把SpaceX玩坏了，大火箭走起",
+      "url": "https://mp.weixin.qq.com/s/SE5sK_XOEgkShw_448PPnA",
+      "summary": "Grok 4.7来了！网友实测先把SpaceX玩坏了，大火箭走起",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-22T04:21:57.044200+00:00",
-      "pub_ts": 1790050917
+      "pub_date": "2026-09-23T04:18:34.388303+00:00",
+      "pub_ts": 1790137114
     },
     {
-      "id": "b28bd5c6dd",
-      "title": "啊啊啊GPT-6 Astra这么不安全！这次马斯克都瘫坐了",
-      "url": "https://mp.weixin.qq.com/s/4D9HmGm0bB5gdn1Vc5yICw",
-      "summary": "啊啊啊GPT-6 Astra这么不安全！这次马斯克都瘫坐了",
+      "id": "881576edd4",
+      "title": "Agent时代，CPU的价值该重估了",
+      "url": "https://mp.weixin.qq.com/s/b69643qBaEkaJuxQxZrsSQ",
+      "summary": "Agent时代，CPU的价值该重估了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-22T04:21:57.044226+00:00",
-      "pub_ts": 1790050917
+      "pub_date": "2026-09-23T04:18:34.388327+00:00",
+      "pub_ts": 1790137114
     },
     {
-      "id": "f544dfb4d6",
-      "title": "千问7B生图模型开放权重！3090就能跑，2K出图修图抠图全包",
-      "url": "https://mp.weixin.qq.com/s/VvNqSgg_sY4Zno4cS_IiRA",
-      "summary": "千问7B生图模型开放权重！3090就能跑，2K出图修图抠图全包",
+      "id": "8e13e095f8",
+      "title": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
+      "url": "https://mp.weixin.qq.com/s/Kzf6OuZ22QMRhXAR_17UzQ",
+      "summary": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-22T04:21:57.044247+00:00",
-      "pub_ts": 1790050917
+      "pub_date": "2026-09-23T04:18:34.388349+00:00",
+      "pub_ts": 1790137114
     },
     {
-      "id": "17bac9f006",
-      "title": "复旦上线音视频模型新裁判：一万组数据对齐人类审美",
-      "url": "https://mp.weixin.qq.com/s/nvKrctrR-bXVrPfwnd0L2g",
-      "summary": "复旦上线音视频模型新裁判：一万组数据对齐人类审美",
+      "id": "071a74a3ba",
+      "title": "千问一号位定了！前华为天才少年刘大一恒，接棒林俊旸",
+      "url": "https://mp.weixin.qq.com/s/pb3YIyq_6MaEKo2vNUEL2Q",
+      "summary": "千问一号位定了！前华为天才少年刘大一恒，接棒林俊旸",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-22T04:21:57.044268+00:00",
-      "pub_ts": 1790050917
+      "pub_date": "2026-09-23T04:18:34.388369+00:00",
+      "pub_ts": 1790137114
     }
   ],
   "source_success_count": 1,

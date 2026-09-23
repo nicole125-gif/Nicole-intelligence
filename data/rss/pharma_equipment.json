@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-09-22T04:22:27.121030+00:00",
+  "updated_at": "2026-09-23T04:19:03.071162+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "35f609671c",
-      "title": "Beijing unveils blueprint for biomedical dominance by 2030",
-      "url": "https://www.pharmaceutical-technology.com/news/beijing-unveils-blueprint-for-biomedical-dominance-by-2030/",
-      "summary": "Outlining a five-year biomedical plan, China wants to expand its global role beyond just pipeline innovation.",
+      "id": "64d92ede3d",
+      "title": "Why Most FDA Warning Letters Share a Single — and Fixable — Root Cause",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/why-most-fda-warning-letters-share-a-single-and-fixable-root-cause/",
+      "summary": "",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-21T14:36:24+00:00",
-      "pub_ts": 1790001384
+      "pub_date": "2026-09-22T13:07:15+00:00",
+      "pub_ts": 1790082435
     },
     {
-      "id": "9f39125557",
-      "title": "Telix to acquire ITM in deal worth up to $2.35bn",
-      "url": "https://www.pharmaceutical-technology.com/news/telix-to-acquire-itm/",
-      "summary": "Telix Pharmaceuticals has agreed to acquire ITM Isotope Technologies Munich in a transaction valued at up to $2.35bn, combining Telix’s operations with ITM’s radioisotope production business and late-stage treatment candidate ITM-11.",
+      "id": "9feac8898f",
+      "title": "Novo targets blockbuster-heavy 2030 but share slump signals unease",
+      "url": "https://www.pharmaceutical-technology.com/news/novo-targets-blockbuster-heavy-2030-but-share-slump-signals-unease/",
+      "summary": "Novo is shaping a future beyond its Wegovy franchise as CEO Maziar Mike Doustdar looks to turn the drugmaker’s fortunes around.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-21T09:13:00+00:00",
-      "pub_ts": 1789981980
+      "pub_date": "2026-09-22T10:59:48+00:00",
+      "pub_ts": 1790074788
     },
     {
-      "id": "52d192b555",
-      "title": "How DFE Pharma supports confident continuous manufacturing decisions",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/how-dfe-pharma-supports-confident-continuous-manufacturing-decisions/",
-      "summary": "DFE Pharma supports confident continuous manufacturing decisions with CM-ready excipients, non-GMP testing and expert support.",
+      "id": "62f5833b94",
+      "title": "What drives time-to-randomization in oncology trials?",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/what-drives-time-to-randomization-in-oncology-trials/",
+      "summary": "Analyze drivers of oncology time-to-randomization: screen failures, biomarker delays, eligibility criteria, and patient dropouts.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-21T09:12:57+00:00",
-      "pub_ts": 1789981977
+      "pub_date": "2026-09-22T10:58:24+00:00",
+      "pub_ts": 1790074704
     },
     {
-      "id": "2529c56a22",
-      "title": "Sandoz and mAbxience agree on emicizumab biosimilar partnership",
-      "url": "https://www.pharmaceutical-technology.com/news/sandoz-mabxience-emicizumab-biosimilar/",
-      "summary": "Sandoz and mAbxience have signed a licensing, development and commercialisation agreement for a proposed emicizumab biosimilar candidate for haemophilia A.",
+      "id": "101cfd8223",
+      "title": "Made Scientific acquires cell therapy facility in Pennsylvania, US",
+      "url": "https://www.pharmaceutical-technology.com/news/made-scientific-cell-therapy-facility-us/",
+      "summary": "Made Scientific has acquired an 85,000ft² cell therapy manufacturing facility in Pennsylvania, US, from National Resilience.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-21T07:38:53+00:00",
-      "pub_ts": 1789976333
+      "pub_date": "2026-09-22T09:31:11+00:00",
+      "pub_ts": 1790069471
     },
     {
-      "id": "0bd99f2d11",
-      "title": "FDA hearing: psychedelics launch needs balanced regulation without limiting access",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/fda-hearing-psychedelics-launch-balanced-regulation/",
-      "summary": "Psychedelics have become a clear priority for the FDA following an EO aimed at accelerating research and regulatory pathways to psychedelic treatments.",
+      "id": "4724e6a568",
+      "title": "EC approves Menarini and NewAmsterdam’s obicetrapib therapies",
+      "url": "https://www.pharmaceutical-technology.com/news/ec-menarini-newamsterdams-obicetrapib-therapies/",
+      "summary": "The EC has granted marketing authorisation to NewAmsterdam Pharma and Menarini Group for Ubeslo and Evlarco.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-18T14:19:26+00:00",
-      "pub_ts": 1789741166
+      "pub_date": "2026-09-22T08:50:35+00:00",
+      "pub_ts": 1790067035
     }
   ],
   "source_success_count": 1,
