@@ -3,111 +3,61 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-09-23T04:18:50.309670+00:00",
-  "item_count": 10,
+  "updated_at": "2026-09-24T04:15:59.204320+00:00",
+  "item_count": 5,
   "items": [
     {
-      "id": "908600b4a2",
-      "title": "Chinese Researchers Build 250kW System that Produces Hydrogen and Fresh Water From Seawater",
-      "url": "https://fuelcellsworks.com/2026/09/21/h2/chinese-researchers-build-250kw-system-that-produces-hydrogen-and-fresh-water-from-seawater",
+      "id": "a831116069",
+      "title": "150KW Green Hydrogen Pilot Turns Surplus Solar Power Into Storable Fuel",
+      "url": "https://fuelcellsworks.com/2026/09/22/electrolyzer/150kw-green-hydrogen-pilot-turns-surplus-solar-power-into-storable-fuel",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-22T16:06:52+00:00",
-      "pub_ts": 1790093212
+      "pub_date": "2026-09-23T16:04:45+00:00",
+      "pub_ts": 1790179485
     },
     {
-      "id": "7432f2030d",
-      "title": "VERDE HYDROGEN’s World-First 5,000 Nm³/H Asymmetric 'Five-to-One' Water Electrolysis System Runs Safely for 760+ Days",
-      "url": "https://fuelcellsworks.com/2026/09/21/electrolyzer/verde-hydrogen-s-world-first-5-000-nm-h-asymmetric-five-to-one-water-electrolysis-system-runs-safely-for-760-days",
+      "id": "6168292bff",
+      "title": "Siltrax C2 Series Redefines Air-Cooled Fuel Cell Power for UAV and Off-Grid Applications",
+      "url": "https://fuelcellsworks.com/2026/09/23/fuel-cells/siltrax-c2-series-redefines-air-cooled-fuel-cell-power-for-uav-and-off-grid-applications",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-22T15:55:23+00:00",
-      "pub_ts": 1790092523
+      "pub_date": "2026-09-23T15:59:26+00:00",
+      "pub_ts": 1790179166
     },
     {
-      "id": "c76552d46b",
-      "title": "Italy: Abruzzo Points to CNR Hydrogen Study as Region Pushes Vasto Green Hydrogen Project",
-      "url": "https://fuelcellsworks.com/2026/09/20/h2/italy-abruzzo-points-to-cnr-hydrogen-study-as-region-pushes-vasto-green-hydrogen-project",
+      "id": "f38594b70f",
+      "title": "HysetCo Calls for Hydrogen to Remain Part of France’s Mobility Electrification Plan",
+      "url": "https://fuelcellsworks.com/2026/09/22/h2/hysetco-calls-for-hydrogen-to-remain-part-of-france-s-mobility-electrification-plan",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-22T15:51:19+00:00",
-      "pub_ts": 1790092279
+      "pub_date": "2026-09-23T15:40:35+00:00",
+      "pub_ts": 1790178035
     },
     {
-      "id": "4b9715111f",
-      "title": "Eclipse Energy and Wood Validate Pathway to Low-Cost, Ultra-Low-Carbon Hydrogen From Depleted Oil Reservoirs",
-      "url": "https://fuelcellsworks.com/2026/09/22/h2/eclipse-energy-and-wood-validate-pathway-to-low-cost-ultra-low-carbon-hydrogen-from-depleted-oil-reservoirs",
+      "id": "a72513b9c4",
+      "title": "HK Opens First Hydrogen Fuel Testing Lab as Commercial Rollout Remains in Early Stages",
+      "url": "https://fuelcellsworks.com/2026/09/23/h2/hk-opens-first-hydrogen-fuel-testing-lab-as-commercial-rollout-remains-in-early-stages",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-22T15:46:38+00:00",
-      "pub_ts": 1790091998
+      "pub_date": "2026-09-23T15:38:50+00:00",
+      "pub_ts": 1790177930
     },
     {
-      "id": "aaa05cd856",
-      "title": "Seawater Cooling System Under Development for Marine Hydrogen Fuel Cells",
-      "url": "https://fuelcellsworks.com/2026/09/22/electrolyzer/hopium-and-mota-turn-to-seawater-cooling-for-marine-hydrogen-fuel-cells",
+      "id": "696b687f01",
+      "title": "Jeonbuk and Wanju to Build Honam's First Hydrogen Mobility Inspection Centre — ₩8.1 Billion Project Due in 2028",
+      "url": "https://fuelcellsworks.com/2026/09/21/h2/jeonbuk-and-wanju-to-build-honam-s-first-hydrogen-mobility-inspection-centre-8-1-billion-project-due-in-2028",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-22T15:39:31+00:00",
-      "pub_ts": 1790091571
-    },
-    {
-      "id": "124593e009",
-      "title": "Power to Hydrogen and Repsol Demonstrate Lower-Cost Green Hydrogen Pathway with Successful AEM Electrolyzer Pilot",
-      "url": "https://hydrogen-central.com/power-to-hydrogen-and-repsol-demonstrate-lower-cost-green-hydrogen-pathway-with-successful-aem-electrolyzer-pilot/",
-      "summary": "Power to Hydrogen and Repsol Demonstrate Lower-Cost Green Hydrogen Pathway with Successful AEM Electrolyzer Pilot COLUMBUS, Ohio — September 8, 2026 —Power to Hydrogen (P2H2), a developer of anion exchange [&#8230;]\nThe post Power to Hydrogen and Repsol Demonstrate Lower-Cost Green Hydrogen Pathway …",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-09-22T09:48:05+00:00",
-      "pub_ts": 1790070485
-    },
-    {
-      "id": "6c28578d0b",
-      "title": "TANAKA to Showcase Precious Metal Technologies at Hydrogen Technology World Expo 2026 in Hamburg",
-      "url": "https://hydrogen-central.com/tanaka-to-showcase-precious-metal-technologies-at-hydrogen-technology-world-expo-2026-in-hamburg/",
-      "summary": "TANAKA to Showcase Precious Metal Technologies at Hydrogen Technology World Expo 2026 in Hamburg First-time participation showcasing technologies that support the hydrogen value chain, from hydrogen production, purification and utilization [&#8230;]\nThe post TANAKA to Showcase Precious Metal Technol…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-09-22T09:45:41+00:00",
-      "pub_ts": 1790070341
-    },
-    {
-      "id": "6cb6152295",
-      "title": "China Approves Hydrogen Pilot Program – Impact Coatings Sees Immediate Increase in Demand",
-      "url": "https://hydrogen-central.com/china-approves-hydrogen-pilot-program-impact-coatings-sees-immediate-increase-in-demand/",
-      "summary": "China Approves Hydrogen Pilot Program &#8211; Impact Coatings Sees Immediate Increase in Demand Chinese authorities in August approved five regional hydrogen city clusters under the country&#8217;s four-year comprehensive hydrogen application [&#8230;]\nThe post China Approves Hydrogen Pilot Program …",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-09-22T09:43:07+00:00",
-      "pub_ts": 1790070187
-    },
-    {
-      "id": "cebab634e7",
-      "title": "New Sensor Could Be A Game-Changer For The Hydrogen Economy",
-      "url": "https://hydrogen-central.com/new-sensor-could-be-a-game-changer-for-the-hydrogen-economy/",
-      "summary": "New Sensor Could Be A Game-Changer For The Hydrogen Economy Newswise — People like to know how much and what they are paying for, and the way it is measured [&#8230;]\nThe post New Sensor Could Be A Game-Changer For The Hydrogen Economy appeared first on Hydrogen Central.",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-09-22T09:42:55+00:00",
-      "pub_ts": 1790070175
-    },
-    {
-      "id": "207f818049",
-      "title": "Study unites SA and global expertise to advance Eastern Cape green hydrogen hub",
-      "url": "https://hydrogen-central.com/study-unites-sa-and-global-expertise-to-advance-eastern-cape-green-hydrogen-hub/",
-      "summary": "Study unites SA and global expertise to advance Eastern Cape green hydrogen hub A multidisciplinary consortium led by the Ikigai Group and Nelson Mandela University and comprising DNV, the Thames [&#8230;]\nThe post Study unites SA and global expertise to advance Eastern Cape green hydrogen hub appea…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-09-22T09:39:45+00:00",
-      "pub_ts": 1790069985
+      "pub_date": "2026-09-23T15:26:52+00:00",
+      "pub_ts": 1790177212
     }
   ],
-  "source_success_count": 2,
+  "source_success_count": 1,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }

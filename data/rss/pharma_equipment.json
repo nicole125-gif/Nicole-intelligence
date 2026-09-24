@@ -3,9 +3,49 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-09-23T04:19:03.071162+00:00",
+  "updated_at": "2026-09-24T04:16:11.927141+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "b1f29e518a",
+      "title": "European big pharma unites amid ‘ringing alarm bells’ of continent’s dominance",
+      "url": "https://www.pharmaceutical-technology.com/news/european-big-pharma-unites-amid-ringing-alarm-bells-of-continents-dominance/",
+      "summary": "All the chairs of Europe’s big pharma companies have written a public letter asserting that a shift in strategy is needed to close the gap to international rivals.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-09-23T13:52:15+00:00",
+      "pub_ts": 1790171535
+    },
+    {
+      "id": "818847c346",
+      "title": "How China’s rise as a biopharma innovation hub is reshaping global dealmaking strategies",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/how-chinas-rise-as-a-biopharma-innovation-hub-is-reshaping-global-dealmaking-strategies/",
+      "summary": "GlobalData briefing: China biopharma drives global licensing growth, platform acquisitions, amid tightening US scrutiny.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-09-23T12:18:21+00:00",
+      "pub_ts": 1790165901
+    },
+    {
+      "id": "4035c22646",
+      "title": "BoomRay and Novartis sign $900m deal for radioligand therapy",
+      "url": "https://www.pharmaceutical-technology.com/news/boomray-novartis-900m-deal-radioligand-therapy/",
+      "summary": "BoomRay Pharmaceuticals and Novartis have signed an exclusive worldwide licence deal for an undisclosed preclinical RLT asset in a deal worth up to $900m.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-09-23T09:18:31+00:00",
+      "pub_ts": 1790155111
+    },
+    {
+      "id": "7156b2402f",
+      "title": "Boehringer and Envisagenics to develop precision cancer therapies in $1bn deal",
+      "url": "https://www.pharmaceutical-technology.com/news/boehringer-envisagenics-develop-precision-cancer-therapies-in-1bn-deal/",
+      "summary": "Boehringer Ingelheim and Envisagenics have entered into a research collaboration and option agreement aimed at validating tumour-specific targets for the development of precision therapies in solid tumours.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-09-23T08:52:34+00:00",
+      "pub_ts": 1790153554
+    },
     {
       "id": "64d92ede3d",
       "title": "Why Most FDA Warning Letters Share a Single — and Fixable — Root Cause",
@@ -15,46 +55,6 @@
       "lang": "en",
       "pub_date": "2026-09-22T13:07:15+00:00",
       "pub_ts": 1790082435
-    },
-    {
-      "id": "9feac8898f",
-      "title": "Novo targets blockbuster-heavy 2030 but share slump signals unease",
-      "url": "https://www.pharmaceutical-technology.com/news/novo-targets-blockbuster-heavy-2030-but-share-slump-signals-unease/",
-      "summary": "Novo is shaping a future beyond its Wegovy franchise as CEO Maziar Mike Doustdar looks to turn the drugmaker’s fortunes around.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-09-22T10:59:48+00:00",
-      "pub_ts": 1790074788
-    },
-    {
-      "id": "62f5833b94",
-      "title": "What drives time-to-randomization in oncology trials?",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/what-drives-time-to-randomization-in-oncology-trials/",
-      "summary": "Analyze drivers of oncology time-to-randomization: screen failures, biomarker delays, eligibility criteria, and patient dropouts.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-09-22T10:58:24+00:00",
-      "pub_ts": 1790074704
-    },
-    {
-      "id": "101cfd8223",
-      "title": "Made Scientific acquires cell therapy facility in Pennsylvania, US",
-      "url": "https://www.pharmaceutical-technology.com/news/made-scientific-cell-therapy-facility-us/",
-      "summary": "Made Scientific has acquired an 85,000ft² cell therapy manufacturing facility in Pennsylvania, US, from National Resilience.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-09-22T09:31:11+00:00",
-      "pub_ts": 1790069471
-    },
-    {
-      "id": "4724e6a568",
-      "title": "EC approves Menarini and NewAmsterdam’s obicetrapib therapies",
-      "url": "https://www.pharmaceutical-technology.com/news/ec-menarini-newamsterdams-obicetrapib-therapies/",
-      "summary": "The EC has granted marketing authorisation to NewAmsterdam Pharma and Menarini Group for Ubeslo and Evlarco.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-09-22T08:50:35+00:00",
-      "pub_ts": 1790067035
     }
   ],
   "source_success_count": 1,
