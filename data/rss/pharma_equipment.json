@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-09-24T04:16:11.927141+00:00",
+  "updated_at": "2026-09-25T04:27:59.080598+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "b1f29e518a",
-      "title": "European big pharma unites amid ‘ringing alarm bells’ of continent’s dominance",
-      "url": "https://www.pharmaceutical-technology.com/news/european-big-pharma-unites-amid-ringing-alarm-bells-of-continents-dominance/",
-      "summary": "All the chairs of Europe’s big pharma companies have written a public letter asserting that a shift in strategy is needed to close the gap to international rivals.",
+      "id": "ae15d3ca05",
+      "title": "Eli Lilly outlays $3.35bn for secretive drug discovery pact with China’s InnoCare",
+      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-outlays-3-35bn-for-secretive-drug-discovery-pact-with-chinas-innocare/",
+      "summary": "InnoCare, which already has three approved therapies, describes itself as a biopharma focusing on cancer and autoimmune disease treatments.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-23T13:52:15+00:00",
-      "pub_ts": 1790171535
+      "pub_date": "2026-09-24T13:57:40+00:00",
+      "pub_ts": 1790258260
     },
     {
-      "id": "818847c346",
-      "title": "How China’s rise as a biopharma innovation hub is reshaping global dealmaking strategies",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/how-chinas-rise-as-a-biopharma-innovation-hub-is-reshaping-global-dealmaking-strategies/",
-      "summary": "GlobalData briefing: China biopharma drives global licensing growth, platform acquisitions, amid tightening US scrutiny.",
+      "id": "5c7b61bb02",
+      "title": "Australia starts investigation into OpenAI Medicare breach",
+      "url": "https://www.pharmaceutical-technology.com/news/australian-government-openai-investigation-hacking-event-2/",
+      "summary": "Amid this probe, experts point to the importance of airtight AI governance when implementing the technology in high-risk contexts.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-23T12:18:21+00:00",
-      "pub_ts": 1790165901
+      "pub_date": "2026-09-24T13:07:34+00:00",
+      "pub_ts": 1790255254
     },
     {
-      "id": "4035c22646",
-      "title": "BoomRay and Novartis sign $900m deal for radioligand therapy",
-      "url": "https://www.pharmaceutical-technology.com/news/boomray-novartis-900m-deal-radioligand-therapy/",
-      "summary": "BoomRay Pharmaceuticals and Novartis have signed an exclusive worldwide licence deal for an undisclosed preclinical RLT asset in a deal worth up to $900m.",
+      "id": "b0b90391a9",
+      "title": "Podcast: How Sandoz plans to harness its “golden decade”",
+      "url": "https://www.pharmaceutical-technology.com/features/podcast-how-sandoz-plans-to-harness-its-golden-decade/",
+      "summary": "Sandoz’s chief commercial officer discusses the company’s ambitions plans to have a biosimilar-driven growth engine by 2040.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-23T09:18:31+00:00",
-      "pub_ts": 1790155111
+      "pub_date": "2026-09-24T10:22:31+00:00",
+      "pub_ts": 1790245351
     },
     {
-      "id": "7156b2402f",
-      "title": "Boehringer and Envisagenics to develop precision cancer therapies in $1bn deal",
-      "url": "https://www.pharmaceutical-technology.com/news/boehringer-envisagenics-develop-precision-cancer-therapies-in-1bn-deal/",
-      "summary": "Boehringer Ingelheim and Envisagenics have entered into a research collaboration and option agreement aimed at validating tumour-specific targets for the development of precision therapies in solid tumours.",
+      "id": "58fc12b114",
+      "title": "Enveda nabs $311m to progress nature-derived drug pipeline",
+      "url": "https://www.pharmaceutical-technology.com/news/enveda-nabs-311m-to-progress-nature-derived-drug-pipeline/",
+      "summary": "The cash will primarily fund Enveda’s continued development of three clinical-stage assets for inflammatory and metabolic disorders.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-23T08:52:34+00:00",
-      "pub_ts": 1790153554
+      "pub_date": "2026-09-24T10:00:39+00:00",
+      "pub_ts": 1790244039
     },
     {
-      "id": "64d92ede3d",
-      "title": "Why Most FDA Warning Letters Share a Single — and Fixable — Root Cause",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/why-most-fda-warning-letters-share-a-single-and-fixable-root-cause/",
-      "summary": "",
+      "id": "dc9c35170a",
+      "title": "Genialis and Inventia to enhance pancreatic cancer treatment testing",
+      "url": "https://www.pharmaceutical-technology.com/news/genialis-inventia-pancreatic-cancer-treatments-testing/",
+      "summary": "Genialis and Inventia Life Science have partnered to enhance pancreatic cancer treatment testing and match them to the patients who are likely to benefit.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-22T13:07:15+00:00",
-      "pub_ts": 1790082435
+      "pub_date": "2026-09-24T09:14:36+00:00",
+      "pub_ts": 1790241276
     }
   ],
   "source_success_count": 1,

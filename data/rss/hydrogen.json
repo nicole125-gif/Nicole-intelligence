@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-09-24T04:15:59.204320+00:00",
+  "updated_at": "2026-09-25T04:27:46.723194+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "a831116069",
-      "title": "150KW Green Hydrogen Pilot Turns Surplus Solar Power Into Storable Fuel",
-      "url": "https://fuelcellsworks.com/2026/09/22/electrolyzer/150kw-green-hydrogen-pilot-turns-surplus-solar-power-into-storable-fuel",
+      "id": "9d3f852ee0",
+      "title": "Haffner Energy Brings the Cost of Renewable Diesel and SAF Closer to that of Fossil Fuels with SB-HEFA",
+      "url": "https://fuelcellsworks.com/2026/09/24/clean-energy/haffner-energy-brings-the-cost-of-renewable-diesel-and-saf-closer-to-that-of-fossil-fuels-with-sb-hefa",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-23T16:04:45+00:00",
-      "pub_ts": 1790179485
+      "pub_date": "2026-09-24T15:59:27+00:00",
+      "pub_ts": 1790265567
     },
     {
-      "id": "6168292bff",
-      "title": "Siltrax C2 Series Redefines Air-Cooled Fuel Cell Power for UAV and Off-Grid Applications",
-      "url": "https://fuelcellsworks.com/2026/09/23/fuel-cells/siltrax-c2-series-redefines-air-cooled-fuel-cell-power-for-uav-and-off-grid-applications",
+      "id": "0544e86360",
+      "title": "Floating Testbed Moves Closer to Sea Trials for Next-Generation Marine Power",
+      "url": "https://fuelcellsworks.com/2026/09/21/h2/dlr-launches-modularis-research-vessel-to-test-hydrogen-batteries-and-ammonia-at-sea",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-23T15:59:26+00:00",
-      "pub_ts": 1790179166
+      "pub_date": "2026-09-24T15:49:13+00:00",
+      "pub_ts": 1790264953
     },
     {
-      "id": "f38594b70f",
-      "title": "HysetCo Calls for Hydrogen to Remain Part of France’s Mobility Electrification Plan",
-      "url": "https://fuelcellsworks.com/2026/09/22/h2/hysetco-calls-for-hydrogen-to-remain-part-of-france-s-mobility-electrification-plan",
+      "id": "7b056b9cde",
+      "title": "Hyundai E&C Sets Out to Secure Core Technology for Next-Generation Hydrogen Production via Water Electrolysis",
+      "url": "https://fuelcellsworks.com/2026/09/24/h2/hyundai-e-and-c-sets-out-to-secure-core-technology-for-next-generation-hydrogen-production-via-water-electrolysis",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-23T15:40:35+00:00",
-      "pub_ts": 1790178035
+      "pub_date": "2026-09-24T15:40:22+00:00",
+      "pub_ts": 1790264422
     },
     {
-      "id": "a72513b9c4",
-      "title": "HK Opens First Hydrogen Fuel Testing Lab as Commercial Rollout Remains in Early Stages",
-      "url": "https://fuelcellsworks.com/2026/09/23/h2/hk-opens-first-hydrogen-fuel-testing-lab-as-commercial-rollout-remains-in-early-stages",
+      "id": "04c4ebea25",
+      "title": "Moselle Sits on Two Energy Futures — Fossil Gas Now, or the World's Biggest Natural Hydrogen Deposit Later. France Just Got Asked to Choose.",
+      "url": "https://fuelcellsworks.com/2026/09/22/h2/moselle-sits-on-two-energy-futures-fossil-gas-now-or-the-world-s-biggest-natural-hydrogen-deposit-later-france-just-got-asked-to-choose",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-23T15:38:50+00:00",
-      "pub_ts": 1790177930
+      "pub_date": "2026-09-24T15:23:06+00:00",
+      "pub_ts": 1790263386
     },
     {
-      "id": "696b687f01",
-      "title": "Jeonbuk and Wanju to Build Honam's First Hydrogen Mobility Inspection Centre — ₩8.1 Billion Project Due in 2028",
-      "url": "https://fuelcellsworks.com/2026/09/21/h2/jeonbuk-and-wanju-to-build-honam-s-first-hydrogen-mobility-inspection-centre-8-1-billion-project-due-in-2028",
+      "id": "bf5ee37fc7",
+      "title": "BNamericas: Hydrogen Council CEO Talks State of Play, Outlook, Energy Shocks",
+      "url": "https://fuelcellsworks.com/2026/09/24/h2/bnamericas-hydrogen-council-ceo-talks-state-of-play-outlook-energy-shocks",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-23T15:26:52+00:00",
-      "pub_ts": 1790177212
+      "pub_date": "2026-09-24T15:20:20+00:00",
+      "pub_ts": 1790263220
     }
   ],
   "source_success_count": 1,
