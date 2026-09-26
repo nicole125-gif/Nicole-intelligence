@@ -3,108 +3,98 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-09-25T04:26:48.280878+00:00",
-  "item_count": 15,
+  "updated_at": "2026-09-26T04:31:09.433593+00:00",
+  "item_count": 12,
   "items": [
     {
-      "id": "c07231c62e",
-      "title": "卖设备、建方舱、租算力，立讯智算的算力棋局三步走",
-      "url": "https://mp.weixin.qq.com/s/_uZnGCncLOua6XO9kcptCg",
-      "summary": "卖设备、建方舱、租算力，立讯智算的算力棋局三步走",
+      "id": "bc84c38fdc",
+      "title": "一颗芯，点亮一轮月",
+      "url": "https://mp.weixin.qq.com/s/IohO9_VacZDsSgaXzAYeRA",
+      "summary": "一颗芯，点亮一轮月",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-25T04:26:44.138338+00:00",
-      "pub_ts": 1790310404
+      "pub_date": "2026-09-26T04:31:05.249294+00:00",
+      "pub_ts": 1790397065
     },
     {
-      "id": "6cb9fa55a0",
-      "title": "到2031年，高端封装市场营收将达到520亿美元",
-      "url": "https://mp.weixin.qq.com/s/XJ3dJU8XhNCbffhOHHM2hA",
-      "summary": "到2031年，高端封装市场营收将达到520亿美元",
+      "id": "6c60692b7a",
+      "title": "新定义EUV光源",
+      "url": "https://mp.weixin.qq.com/s/MF_2hbmBLcw8Sm9kLae-aw",
+      "summary": "新定义EUV光源",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-25T04:26:44.138383+00:00",
-      "pub_ts": 1790310404
+      "pub_date": "2026-09-26T04:31:05.249335+00:00",
+      "pub_ts": 1790397065
     },
     {
-      "id": "2637e5cd54",
-      "title": "LG显示终止出售南京车载模组业务",
-      "url": "https://mp.weixin.qq.com/s/4H7CITw9NipQCCwrqbisvQ",
-      "summary": "LG显示终止出售南京车载模组业务",
-      "source": "半导体产业纵横",
-      "lang": "zh",
-      "pub_date": "2026-09-25T04:26:44.138410+00:00",
-      "pub_ts": 1790310404
-    },
-    {
-      "id": "7db073a2c6",
-      "title": "AI需求挤压下，明年硅晶圆价格或涨40%",
-      "url": "https://mp.weixin.qq.com/s/7V96TNKKVwke1e2MuTii5g",
-      "summary": "AI需求挤压下，明年硅晶圆价格或涨40%",
-      "source": "半导体产业纵横",
-      "lang": "zh",
-      "pub_date": "2026-09-25T04:26:44.138434+00:00",
-      "pub_ts": 1790310404
-    },
-    {
-      "id": "1e22cf3101",
-      "title": "带宽至420GHz！新型超宽带放大芯片问世",
-      "url": "https://mp.weixin.qq.com/s/25jWCnBLK4TKAF1qKK68aA",
-      "summary": "带宽至420GHz！新型超宽带放大芯片问世",
-      "source": "半导体产业纵横",
-      "lang": "zh",
-      "pub_date": "2026-09-25T04:26:44.138465+00:00",
-      "pub_ts": 1790310404
-    },
-    {
-      "id": "d8ce9a641a",
-      "title": "芯片性能，将如何增长？",
-      "url": "https://mp.weixin.qq.com/s/k248NR3megYAX4zr_Atv8g",
-      "summary": "芯片性能，将如何增长？",
+      "id": "1d1d922c88",
+      "title": "面向智能体AI时代，高通重构骁龙芯片",
+      "url": "https://mp.weixin.qq.com/s/M57Z5LbHIRdSOFqg2aGleg",
+      "summary": "面向智能体AI时代，高通重构骁龙芯片",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-25T04:26:35.540053+00:00",
-      "pub_ts": 1790310395
+      "pub_date": "2026-09-26T04:30:57.108277+00:00",
+      "pub_ts": 1790397057
     },
     {
-      "id": "0ed2fdd11b",
-      "title": "AI推理时代下，德明利的存储能力跃迁",
-      "url": "https://mp.weixin.qq.com/s/tzyNIr2BlFx7i73rYdlxEA",
-      "summary": "AI推理时代下，德明利的存储能力跃迁",
+      "id": "7fd5fe356a",
+      "title": "微软，颠覆光互连？",
+      "url": "https://mp.weixin.qq.com/s/EQIKePXDa2usWuRSnQB4lg",
+      "summary": "微软，颠覆光互连？",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-25T04:26:35.540103+00:00",
-      "pub_ts": 1790310395
+      "pub_date": "2026-09-26T04:30:57.108324+00:00",
+      "pub_ts": 1790397057
     },
     {
-      "id": "95c5592716",
-      "title": "替代硅，迈出关键一步",
-      "url": "https://mp.weixin.qq.com/s/IKS_-C4bdrvo8yX10nUkeA",
-      "summary": "替代硅，迈出关键一步",
+      "id": "8e7a2ff08f",
+      "title": "美国内存芯片，面临严重挑战",
+      "url": "https://mp.weixin.qq.com/s/63KA--w9HRnRS9S1guNLvw",
+      "summary": "美国内存芯片，面临严重挑战",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-25T04:26:35.540129+00:00",
-      "pub_ts": 1790310395
+      "pub_date": "2026-09-26T04:30:57.108350+00:00",
+      "pub_ts": 1790397057
     },
     {
-      "id": "6d65b50aec",
-      "title": "先进封装，暴增500%",
-      "url": "https://mp.weixin.qq.com/s/NAOysgb0nXxUVe-1YJx-yw",
-      "summary": "先进封装，暴增500%",
+      "id": "d6a3a5cf6d",
+      "title": "3D芯片，难倒EDA",
+      "url": "https://mp.weixin.qq.com/s/-bkB2ywrRLaV5OXknfOVDQ",
+      "summary": "3D芯片，难倒EDA",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-25T04:26:35.540151+00:00",
-      "pub_ts": 1790310395
+      "pub_date": "2026-09-26T04:30:57.108373+00:00",
+      "pub_ts": 1790397057
     },
     {
-      "id": "74146eb165",
-      "title": "台积电最被低估的“武器”",
-      "url": "https://mp.weixin.qq.com/s/0tXv5Oqib4iu9GFYrahckA",
-      "summary": "台积电最被低估的“武器”",
+      "id": "dc98629946",
+      "title": "芯片设计，要革命了",
+      "url": "https://mp.weixin.qq.com/s/Wbzd64KUtiZlbyhe16M9sg",
+      "summary": "芯片设计，要革命了",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-25T04:26:35.540173+00:00",
-      "pub_ts": 1790310395
+      "pub_date": "2026-09-26T04:30:57.108394+00:00",
+      "pub_ts": 1790397057
+    },
+    {
+      "id": "f31de64f82",
+      "title": "Comparing A7 CFET and A10 Nanosheet FETs From Parasitics to Chip Reliability (TUM, UNIMORE, Applied Materials)",
+      "url": "https://semiengineering.com/comparing-a7-cfet-and-a10-nanosheet-fets-from-parasitics-to-chip-reliability-tum-unimore-applied-materials/",
+      "summary": "Researchers at the TU Munich, University of Modena and Reggio Emilia, and Applied Materials published a technical paper titled “System-Technology Co-Evaluation of A7 CFET and A10 NSFET Technologies from Cell Parasitics to Chip Reliability.” Abstract Excerpt: “ In this work, we present a physics-base…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-09-25T22:29:43+00:00",
+      "pub_ts": 1790375383
+    },
+    {
+      "id": "25552ddd16",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-157/",
+      "summary": "AI agents move deeper into chip design; China doubles down on AI compute and memory; chip supply chains tighten for equipment and critical materials; TSMC partners accelerate; ICs head to space; optics advances, neural super resolution, auto PQC; Purdue-UIUC workforce training.\nThe post Chip Industr…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-09-25T07:01:42+00:00",
+      "pub_ts": 1790319702
     },
     {
       "id": "4bfdfbd4d6",
@@ -135,26 +125,6 @@
       "lang": "en",
       "pub_date": "2026-09-24T07:03:42+00:00",
       "pub_ts": 1790233422
-    },
-    {
-      "id": "c95622ab82",
-      "title": "EDA’s Future Is Evidence-Driven Automation",
-      "url": "https://semiengineering.com/edas-future-is-evidence-driven-automation/",
-      "summary": "AI may accelerate semiconductor design, but users still need formal proof, semantic continuity, and auditable workflows to trust automation. \nThe post EDA’s Future Is Evidence-Driven Automation appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-09-24T07:02:50+00:00",
-      "pub_ts": 1790233370
-    },
-    {
-      "id": "d08eb168ca",
-      "title": "AI-Driven Device Modeling For Next Generation Quantum Applications",
-      "url": "https://semiengineering.com/ai-driven-device-modeling-for-next-generation-quantum-applications/",
-      "summary": "Extracting advanced compact models and overcoming their shortcomings using a hybrid ANN approach at cryogenic temperatures.\nThe post AI-Driven Device Modeling For Next Generation Quantum Applications appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-09-24T07:02:21+00:00",
-      "pub_ts": 1790233341
     }
   ],
   "source_success_count": 3,

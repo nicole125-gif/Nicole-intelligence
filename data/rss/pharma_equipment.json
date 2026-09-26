@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-09-25T04:27:59.080598+00:00",
+  "updated_at": "2026-09-26T04:31:46.809332+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "ae15d3ca05",
-      "title": "Eli Lilly outlays $3.35bn for secretive drug discovery pact with China’s InnoCare",
-      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-outlays-3-35bn-for-secretive-drug-discovery-pact-with-chinas-innocare/",
-      "summary": "InnoCare, which already has three approved therapies, describes itself as a biopharma focusing on cancer and autoimmune disease treatments.",
+      "id": "a72df1209d",
+      "title": "China expands its manufacturing role for biopharma’s new drugs",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/china-manufacturing-biopharmas-new-drugs/",
+      "summary": "Biopharma firms are increasingly choosing to manufacture their newer FDA-approved innovator and biosimilar products at facilities in China.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-24T13:57:40+00:00",
-      "pub_ts": 1790258260
+      "pub_date": "2026-09-25T14:31:14+00:00",
+      "pub_ts": 1790346674
     },
     {
-      "id": "5c7b61bb02",
-      "title": "Australia starts investigation into OpenAI Medicare breach",
-      "url": "https://www.pharmaceutical-technology.com/news/australian-government-openai-investigation-hacking-event-2/",
-      "summary": "Amid this probe, experts point to the importance of airtight AI governance when implementing the technology in high-risk contexts.",
+      "id": "5ed87c7d97",
+      "title": "Aptar Pharma and Macquarie University partner on drug delivery project",
+      "url": "https://www.pharmaceutical-technology.com/news/aptar-pharma-and-macquarie-university-partner-on-drug-delivery-project/",
+      "summary": "Aptar and Macquarie's collaboration will evaluate how factors, including how formulation variables influence drug delivery with Aptar’s dry powder inhaler platform.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-24T13:07:34+00:00",
-      "pub_ts": 1790255254
+      "pub_date": "2026-09-25T13:51:15+00:00",
+      "pub_ts": 1790344275
     },
     {
-      "id": "b0b90391a9",
-      "title": "Podcast: How Sandoz plans to harness its “golden decade”",
-      "url": "https://www.pharmaceutical-technology.com/features/podcast-how-sandoz-plans-to-harness-its-golden-decade/",
-      "summary": "Sandoz’s chief commercial officer discusses the company’s ambitions plans to have a biosimilar-driven growth engine by 2040.",
+      "id": "c2808ad78e",
+      "title": "FDA commissioner nominee affirms MMR vaccine safety despite Trump’s claims",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-commissioner-nominee-affirms-mmr-vaccine-safety-despite-trumps-claims/",
+      "summary": "Despite Dr Heidi Overton’s declaration, senators questioned whether the commissioner-elect would challenge erroneous statements from president Trump.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-24T10:22:31+00:00",
-      "pub_ts": 1790245351
+      "pub_date": "2026-09-25T10:51:24+00:00",
+      "pub_ts": 1790333484
     },
     {
-      "id": "58fc12b114",
-      "title": "Enveda nabs $311m to progress nature-derived drug pipeline",
-      "url": "https://www.pharmaceutical-technology.com/news/enveda-nabs-311m-to-progress-nature-derived-drug-pipeline/",
-      "summary": "The cash will primarily fund Enveda’s continued development of three clinical-stage assets for inflammatory and metabolic disorders.",
+      "id": "6411a924d3",
+      "title": "Roche and Earendil forge $1.5bn bispecific discovery deal",
+      "url": "https://www.pharmaceutical-technology.com/news/roche-earendil-1-5bn-bispecific-oncology-discovery-development-deal/",
+      "summary": "Roche joins Sanofi on the list of big pharma companies that are betting on Earendil’s AI-powered drug discovery platform.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-24T10:00:39+00:00",
-      "pub_ts": 1790244039
+      "pub_date": "2026-09-25T10:27:57+00:00",
+      "pub_ts": 1790332077
     },
     {
-      "id": "dc9c35170a",
-      "title": "Genialis and Inventia to enhance pancreatic cancer treatment testing",
-      "url": "https://www.pharmaceutical-technology.com/news/genialis-inventia-pancreatic-cancer-treatments-testing/",
-      "summary": "Genialis and Inventia Life Science have partnered to enhance pancreatic cancer treatment testing and match them to the patients who are likely to benefit.",
+      "id": "3f09e7bfdd",
+      "title": "Amberstone and Henlius agree to develop solid-tumour T-cell engagers",
+      "url": "https://www.pharmaceutical-technology.com/news/amberstone-henlius-solid-tumour-t-cell-engagers/",
+      "summary": "Amberstone Biosciences has signed a partnership and licence agreement with Shanghai Henlius Biotech for conditionally activated T-cell engager candidates to treat solid tumours.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-24T09:14:36+00:00",
-      "pub_ts": 1790241276
+      "pub_date": "2026-09-25T09:10:42+00:00",
+      "pub_ts": 1790327442
     }
   ],
   "source_success_count": 1,

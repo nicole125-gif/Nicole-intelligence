@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-09-25T04:27:03.612156+00:00",
+  "updated_at": "2026-09-26T04:31:22.947337+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "513729b06d",
-      "title": "PCle显卡被低估了！内核补齐+通信重构，DeepSeek推理吞吐直接翻...",
-      "url": "https://mp.weixin.qq.com/s/zomroWevXq5DO__OXhg0JQ",
-      "summary": "PCle显卡被低估了！内核补齐+通信重构，DeepSeek推理吞吐直接翻...",
+      "id": "b73e0c487a",
+      "title": "亮出“中国最强AI芯片”还不够，平头哥又甩出一手开源",
+      "url": "https://mp.weixin.qq.com/s/120xltM38EhjLFZsgaboWQ",
+      "summary": "亮出“中国最强AI芯片”还不够，平头哥又甩出一手开源",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-25T04:26:57.640854+00:00",
-      "pub_ts": 1790310417
+      "pub_date": "2026-09-26T04:31:18.785755+00:00",
+      "pub_ts": 1790397078
     },
     {
-      "id": "547be4b165",
-      "title": "豆包PC端前负责人，创业Agent操作系统",
-      "url": "https://mp.weixin.qq.com/s/B75S5zOW9AA3i0UVWFJ9FQ",
-      "summary": "豆包PC端前负责人，创业Agent操作系统",
+      "id": "9151d14f57",
+      "title": "OpenAI闯大祸！GPT竟黑进医保系统，黄仁勋：管不住就关掉",
+      "url": "https://mp.weixin.qq.com/s/9OltQ99pt8m0sT9b_rsMsA",
+      "summary": "OpenAI闯大祸！GPT竟黑进医保系统，黄仁勋：管不住就关掉",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-25T04:26:57.640898+00:00",
-      "pub_ts": 1790310417
+      "pub_date": "2026-09-26T04:31:18.785794+00:00",
+      "pub_ts": 1790397078
     },
     {
-      "id": "06820dd873",
-      "title": "从真机到世界模型，具身智能正在补一条看不见的数据产线",
-      "url": "https://mp.weixin.qq.com/s/rjdCVCv8rwQj4UKUWCh-ww",
-      "summary": "从真机到世界模型，具身智能正在补一条看不见的数据产线",
+      "id": "e7986ca2bd",
+      "title": "“AlphaGo”杀进足球场！自我对弈140年，机器人练成“梅西终结者”",
+      "url": "https://mp.weixin.qq.com/s/t0i20HHkthdbwBh_bHSEyg",
+      "summary": "“AlphaGo”杀进足球场！自我对弈140年，机器人练成“梅西终结者”",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-25T04:26:57.640922+00:00",
-      "pub_ts": 1790310417
+      "pub_date": "2026-09-26T04:31:18.785818+00:00",
+      "pub_ts": 1790397078
     },
     {
-      "id": "96fae1753c",
-      "title": "给机器人当老师，还能赚外快？“中国版Index”觅蜂派来了",
-      "url": "https://mp.weixin.qq.com/s/Ujs9ducJGfdpBTF5q5jb7g",
-      "summary": "给机器人当老师，还能赚外快？“中国版Index”觅蜂派来了",
+      "id": "523f7f3452",
+      "title": "高通Allin 智能体！CEO安蒙：我们已处在智能体时代的开端",
+      "url": "https://mp.weixin.qq.com/s/bfvQbyeZv_3GiVY3NABq3w",
+      "summary": "高通Allin 智能体！CEO安蒙：我们已处在智能体时代的开端",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-25T04:26:57.640943+00:00",
-      "pub_ts": 1790310417
+      "pub_date": "2026-09-26T04:31:18.785840+00:00",
+      "pub_ts": 1790397078
     },
     {
-      "id": "227694c09d",
-      "title": "音视频生成提速54倍！TurboT2VA：分布蒸馏与轨迹蒸馏的联合蒸馏方案",
-      "url": "https://mp.weixin.qq.com/s/qOU9kBfFQ-LpXeCr-6mCLw",
-      "summary": "音视频生成提速54倍！TurboT2VA：分布蒸馏与轨迹蒸馏的联合蒸馏方案",
+      "id": "ee65af5a6d",
+      "title": "呃...小扎「自研Manus」刚成Meta太子，就塌房了",
+      "url": "https://mp.weixin.qq.com/s/Ry36YTndEvMCbzwxdbxHkg",
+      "summary": "呃...小扎「自研Manus」刚成Meta太子，就塌房了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-25T04:26:57.640964+00:00",
-      "pub_ts": 1790310417
+      "pub_date": "2026-09-26T04:31:18.785862+00:00",
+      "pub_ts": 1790397078
     }
   ],
   "source_success_count": 1,

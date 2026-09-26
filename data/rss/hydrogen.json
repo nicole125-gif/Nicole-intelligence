@@ -3,61 +3,111 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-09-25T04:27:46.723194+00:00",
-  "item_count": 5,
+  "updated_at": "2026-09-26T04:31:34.468067+00:00",
+  "item_count": 10,
   "items": [
     {
-      "id": "9d3f852ee0",
-      "title": "Haffner Energy Brings the Cost of Renewable Diesel and SAF Closer to that of Fossil Fuels with SB-HEFA",
-      "url": "https://fuelcellsworks.com/2026/09/24/clean-energy/haffner-energy-brings-the-cost-of-renewable-diesel-and-saf-closer-to-that-of-fossil-fuels-with-sb-hefa",
-      "summary": "",
-      "source": "Fuel Cells Works",
+      "id": "49caffcf98",
+      "title": "Provaris Energy advances hydrogen tank commercialisation through Himile manufacturing collaboration",
+      "url": "https://hydrogen-central.com/provaris-energy-advances-hydrogen-tank-commercialisation-through-himile-manufacturing-collaboration/",
+      "summary": "Provaris Energy advances hydrogen tank commercialisation through Himile manufacturing collaboration Provaris Energy Ltd (ASX:PV1, OTC:GBBLF, FRA:WS90) has moved its compressed hydrogen technology closer to commercial-scale production after signing a technical [&#8230;]\nThe post Provaris Energy advan…",
+      "source": "Hydrogen Central",
       "lang": "en",
-      "pub_date": "2026-09-24T15:59:27+00:00",
-      "pub_ts": 1790265567
+      "pub_date": "2026-09-25T17:52:55+00:00",
+      "pub_ts": 1790358775
     },
     {
-      "id": "0544e86360",
-      "title": "Floating Testbed Moves Closer to Sea Trials for Next-Generation Marine Power",
-      "url": "https://fuelcellsworks.com/2026/09/21/h2/dlr-launches-modularis-research-vessel-to-test-hydrogen-batteries-and-ammonia-at-sea",
-      "summary": "",
-      "source": "Fuel Cells Works",
+      "id": "99ee8650ab",
+      "title": "Creos Deutschland officially started construction work on the first hydrogen pipeline of the cross-border mosaHYc project",
+      "url": "https://hydrogen-central.com/creos-deutschland-officially-started-construction-work-on-the-first-hydrogen-pipeline-of-the-cross-border-mosahyc-project/",
+      "summary": "Creos Deutschland officially started construction work on the first hydrogen pipeline of the cross-border mosaHYc project On Friday 28 August 2026, Lex Delles, Minister of the Economy, SMEs, Energy and [&#8230;]\nThe post Creos Deutschland officially started construction work on the first hydrogen pi…",
+      "source": "Hydrogen Central",
       "lang": "en",
-      "pub_date": "2026-09-24T15:49:13+00:00",
-      "pub_ts": 1790264953
+      "pub_date": "2026-09-25T17:49:58+00:00",
+      "pub_ts": 1790358598
     },
     {
-      "id": "7b056b9cde",
-      "title": "Hyundai E&C Sets Out to Secure Core Technology for Next-Generation Hydrogen Production via Water Electrolysis",
-      "url": "https://fuelcellsworks.com/2026/09/24/h2/hyundai-e-and-c-sets-out-to-secure-core-technology-for-next-generation-hydrogen-production-via-water-electrolysis",
-      "summary": "",
-      "source": "Fuel Cells Works",
+      "id": "4482463ea3",
+      "title": "This startup is fuel-injecting hydrogen to make cargo ships more efficient – TechCrunch",
+      "url": "https://hydrogen-central.com/this-startup-is-fuel-injecting-hydrogen-to-make-cargo-ships-more-efficient-techcrunch/",
+      "summary": "This startup is fuel-injecting hydrogen to make cargo ships more efficient &#8211; TechCrunch It’s one of the most iconic scenes in the Fast &#38; Furious film franchise: Paul Walker’s thumb [&#8230;]\nThe post This startup is fuel-injecting hydrogen to make cargo ships more efficient &#8211; TechCru…",
+      "source": "Hydrogen Central",
       "lang": "en",
-      "pub_date": "2026-09-24T15:40:22+00:00",
-      "pub_ts": 1790264422
+      "pub_date": "2026-09-25T17:49:44+00:00",
+      "pub_ts": 1790358584
     },
     {
-      "id": "04c4ebea25",
-      "title": "Moselle Sits on Two Energy Futures — Fossil Gas Now, or the World's Biggest Natural Hydrogen Deposit Later. France Just Got Asked to Choose.",
-      "url": "https://fuelcellsworks.com/2026/09/22/h2/moselle-sits-on-two-energy-futures-fossil-gas-now-or-the-world-s-biggest-natural-hydrogen-deposit-later-france-just-got-asked-to-choose",
-      "summary": "",
-      "source": "Fuel Cells Works",
+      "id": "83d221350a",
+      "title": "AFRY selected to lead engineering for Uniper NorthStarH2 e-methanol plant",
+      "url": "https://hydrogen-central.com/afry-selected-to-lead-engineering-for-uniper-northstarh2-e-methanol-plant/",
+      "summary": "AFRY selected to lead engineering for Uniper NorthStarH2 e-methanol plant AFRY has been awarded by Uniper to deliver a FEED (Front-End Engineering Design) for NorthStarH2, a planned e-methanol production facility [&#8230;]\nThe post AFRY selected to lead engineering for Uniper NorthStarH2 e-methanol …",
+      "source": "Hydrogen Central",
       "lang": "en",
-      "pub_date": "2026-09-24T15:23:06+00:00",
-      "pub_ts": 1790263386
+      "pub_date": "2026-09-25T17:41:17+00:00",
+      "pub_ts": 1790358077
     },
     {
-      "id": "bf5ee37fc7",
-      "title": "BNamericas: Hydrogen Council CEO Talks State of Play, Outlook, Energy Shocks",
-      "url": "https://fuelcellsworks.com/2026/09/24/h2/bnamericas-hydrogen-council-ceo-talks-state-of-play-outlook-energy-shocks",
+      "id": "f2b226cf88",
+      "title": "EcoEngineers Approved as Auditor Under the Ammonia Energy Association’s Ammonia Certification System",
+      "url": "https://hydrogen-central.com/ecoengineers-approved-as-auditor-under-the-ammonia-energy-associations-ammonia-certification-system/",
+      "summary": "EcoEngineers Approved as Auditor Under the Ammonia Energy Association&#8217;s Ammonia Certification System New auditing service supports producers, traders, and buyers seeking credible carbon intensity and origin data for low-emission ammonia [&#8230;]\nThe post EcoEngineers Approved as Auditor Under…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-09-25T17:36:34+00:00",
+      "pub_ts": 1790357794
+    },
+    {
+      "id": "7c2bab5eec",
+      "title": "How an AI-Run Lab Cracked Open Green Hydrogen's Catalyst Problem",
+      "url": "https://fuelcellsworks.com/2026/09/25/green-hydrogen/how-an-ai-run-lab-cracked-open-green-hydrogen-s-catalyst-problem",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-24T15:20:20+00:00",
-      "pub_ts": 1790263220
+      "pub_date": "2026-09-25T16:14:18+00:00",
+      "pub_ts": 1790352858
+    },
+    {
+      "id": "3b8f4f5607",
+      "title": "170 Companies Urge Brussels to Keep Binding RFNBO Hydrogen Targets Beyond 2030",
+      "url": "https://fuelcellsworks.com/2026/09/24/h2/170-companies-urge-brussels-to-keep-binding-rfnbo-hydrogen-targets-beyond-2030",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-09-25T15:39:01+00:00",
+      "pub_ts": 1790350741
+    },
+    {
+      "id": "47dac75201",
+      "title": "Armenia Explores Hydrogen Safety Cooperation with Fraunhofer",
+      "url": "https://fuelcellsworks.com/2026/09/21/h2/armenia-explores-hydrogen-safety-cooperation-with-fraunhofer",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-09-25T15:29:01+00:00",
+      "pub_ts": 1790350141
+    },
+    {
+      "id": "1106ccdf8c",
+      "title": "India Opens New 54,000-Tonne Green Ammonia Auction for Dhule Fertiliser Plant",
+      "url": "https://fuelcellsworks.com/2026/09/25/clean-energy/india-opens-new-54-000-tonne-green-ammonia-auction-for-dhule-fertiliser-plant",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-09-25T15:27:25+00:00",
+      "pub_ts": 1790350045
+    },
+    {
+      "id": "a488c9bc18",
+      "title": "Atlas Copco Introduces H2Y Hydraulic Booster to Support Next Phase of UK Hydrogen Rollout",
+      "url": "https://fuelcellsworks.com/2026/09/21/h2/atlas-copco-introduces-h2y-hydraulic-booster-to-support-next-phase-of-uk-hydrogen-rollout",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-09-25T15:19:53+00:00",
+      "pub_ts": 1790349593
     }
   ],
-  "source_success_count": 1,
+  "source_success_count": 2,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }
