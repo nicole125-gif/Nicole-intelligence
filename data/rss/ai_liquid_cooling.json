@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-09-26T04:31:22.947337+00:00",
+  "updated_at": "2026-09-27T04:49:51.247718+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "b73e0c487a",
-      "title": "亮出“中国最强AI芯片”还不够，平头哥又甩出一手开源",
-      "url": "https://mp.weixin.qq.com/s/120xltM38EhjLFZsgaboWQ",
-      "summary": "亮出“中国最强AI芯片”还不够，平头哥又甩出一手开源",
+      "id": "8d53a0edd3",
+      "title": "轮到谷歌踩油门了！Gemini4泄漏、TPU上天、工程师因「太快」辞职",
+      "url": "https://mp.weixin.qq.com/s/kDH53jzHbBOWaoEFkBG1zA",
+      "summary": "轮到谷歌踩油门了！Gemini4泄漏、TPU上天、工程师因「太快」辞职",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-26T04:31:18.785755+00:00",
-      "pub_ts": 1790397078
+      "pub_date": "2026-09-27T04:49:46.199495+00:00",
+      "pub_ts": 1790484586
     },
     {
-      "id": "9151d14f57",
-      "title": "OpenAI闯大祸！GPT竟黑进医保系统，黄仁勋：管不住就关掉",
-      "url": "https://mp.weixin.qq.com/s/9OltQ99pt8m0sT9b_rsMsA",
-      "summary": "OpenAI闯大祸！GPT竟黑进医保系统，黄仁勋：管不住就关掉",
+      "id": "24ccac8ea6",
+      "title": "AI开始研究PhysicalAI：FSD级团队亮出首版模型Simate-beta，空...",
+      "url": "https://mp.weixin.qq.com/s/BFSJvvz-fTIj7GoBn8G0Zg",
+      "summary": "AI开始研究PhysicalAI：FSD级团队亮出首版模型Simate-beta，空...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-26T04:31:18.785794+00:00",
-      "pub_ts": 1790397078
+      "pub_date": "2026-09-27T04:49:46.199538+00:00",
+      "pub_ts": 1790484586
     },
     {
-      "id": "e7986ca2bd",
-      "title": "“AlphaGo”杀进足球场！自我对弈140年，机器人练成“梅西终结者”",
-      "url": "https://mp.weixin.qq.com/s/t0i20HHkthdbwBh_bHSEyg",
-      "summary": "“AlphaGo”杀进足球场！自我对弈140年，机器人练成“梅西终结者”",
+      "id": "b5122f623e",
+      "title": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
+      "url": "https://mp.weixin.qq.com/s/-PTSEOdrH2Z20-HkAtllIg",
+      "summary": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-26T04:31:18.785818+00:00",
-      "pub_ts": 1790397078
+      "pub_date": "2026-09-27T04:49:46.199563+00:00",
+      "pub_ts": 1790484586
     },
     {
-      "id": "523f7f3452",
-      "title": "高通Allin 智能体！CEO安蒙：我们已处在智能体时代的开端",
-      "url": "https://mp.weixin.qq.com/s/bfvQbyeZv_3GiVY3NABq3w",
-      "summary": "高通Allin 智能体！CEO安蒙：我们已处在智能体时代的开端",
+      "id": "306dd376fd",
+      "title": "在云栖大会，我终于看懂了米哈游千亿AI野心",
+      "url": "https://mp.weixin.qq.com/s/Vz8tdk31DLgbifKghguunw",
+      "summary": "在云栖大会，我终于看懂了米哈游千亿AI野心",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-26T04:31:18.785840+00:00",
-      "pub_ts": 1790397078
+      "pub_date": "2026-09-27T04:49:46.199584+00:00",
+      "pub_ts": 1790484586
     },
     {
-      "id": "ee65af5a6d",
-      "title": "呃...小扎「自研Manus」刚成Meta太子，就塌房了",
-      "url": "https://mp.weixin.qq.com/s/Ry36YTndEvMCbzwxdbxHkg",
-      "summary": "呃...小扎「自研Manus」刚成Meta太子，就塌房了",
+      "id": "abc011c872",
+      "title": "笔记本跑7000亿参数GLM！无GPU也行？SSD当显存用火爆GitHub",
+      "url": "https://mp.weixin.qq.com/s/BsYmFPz3vvtQUcBtaJhOAw",
+      "summary": "笔记本跑7000亿参数GLM！无GPU也行？SSD当显存用火爆GitHub",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-26T04:31:18.785862+00:00",
-      "pub_ts": 1790397078
+      "pub_date": "2026-09-27T04:49:46.199605+00:00",
+      "pub_ts": 1790484586
     }
   ],
   "source_success_count": 1,
