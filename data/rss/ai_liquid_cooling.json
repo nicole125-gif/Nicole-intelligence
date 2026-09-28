@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-09-27T04:49:51.247718+00:00",
+  "updated_at": "2026-09-28T04:52:14.066875+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "8d53a0edd3",
-      "title": "轮到谷歌踩油门了！Gemini4泄漏、TPU上天、工程师因「太快」辞职",
-      "url": "https://mp.weixin.qq.com/s/kDH53jzHbBOWaoEFkBG1zA",
-      "summary": "轮到谷歌踩油门了！Gemini4泄漏、TPU上天、工程师因「太快」辞职",
+      "id": "8d515825ec",
+      "title": "又快又能打！匿名模型玉兔模型杀上双榜第一，Coding实测全记录",
+      "url": "https://mp.weixin.qq.com/s/pJz6s7e1ki6FgCOGIpWAhQ",
+      "summary": "又快又能打！匿名模型玉兔模型杀上双榜第一，Coding实测全记录",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-27T04:49:46.199495+00:00",
-      "pub_ts": 1790484586
+      "pub_date": "2026-09-28T04:52:09.325786+00:00",
+      "pub_ts": 1790571129
     },
     {
-      "id": "24ccac8ea6",
-      "title": "AI开始研究PhysicalAI：FSD级团队亮出首版模型Simate-beta，空...",
-      "url": "https://mp.weixin.qq.com/s/BFSJvvz-fTIj7GoBn8G0Zg",
-      "summary": "AI开始研究PhysicalAI：FSD级团队亮出首版模型Simate-beta，空...",
+      "id": "0f0784faeb",
+      "title": "量子计算走上桌面！“小盒子”跑通端到端，数据全程不出门",
+      "url": "https://mp.weixin.qq.com/s/3dzKNuK4iJlimPWjO7JQsg",
+      "summary": "量子计算走上桌面！“小盒子”跑通端到端，数据全程不出门",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-27T04:49:46.199538+00:00",
-      "pub_ts": 1790484586
+      "pub_date": "2026-09-28T04:52:09.325834+00:00",
+      "pub_ts": 1790571129
     },
     {
-      "id": "b5122f623e",
-      "title": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
-      "url": "https://mp.weixin.qq.com/s/-PTSEOdrH2Z20-HkAtllIg",
-      "summary": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
+      "id": "b6a589a6e7",
+      "title": "啥题啊能干崩OpenAl最强模型训练...",
+      "url": "https://mp.weixin.qq.com/s/-yOfNljCC5GuVqEYDKJQEQ",
+      "summary": "啥题啊能干崩OpenAl最强模型训练...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-27T04:49:46.199563+00:00",
-      "pub_ts": 1790484586
+      "pub_date": "2026-09-28T04:52:09.325860+00:00",
+      "pub_ts": 1790571129
     },
     {
-      "id": "306dd376fd",
-      "title": "在云栖大会，我终于看懂了米哈游千亿AI野心",
-      "url": "https://mp.weixin.qq.com/s/Vz8tdk31DLgbifKghguunw",
-      "summary": "在云栖大会，我终于看懂了米哈游千亿AI野心",
+      "id": "09ada8ee62",
+      "title": "量子AI创业来了一支“清华梦之队”：10亿估值，用量子改造大模型底层",
+      "url": "https://mp.weixin.qq.com/s/kqduZ02WlMuv57oVnMj5bw",
+      "summary": "量子AI创业来了一支“清华梦之队”：10亿估值，用量子改造大模型底层",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-27T04:49:46.199584+00:00",
-      "pub_ts": 1790484586
+      "pub_date": "2026-09-28T04:52:09.325883+00:00",
+      "pub_ts": 1790571129
     },
     {
-      "id": "abc011c872",
-      "title": "笔记本跑7000亿参数GLM！无GPU也行？SSD当显存用火爆GitHub",
-      "url": "https://mp.weixin.qq.com/s/BsYmFPz3vvtQUcBtaJhOAw",
-      "summary": "笔记本跑7000亿参数GLM！无GPU也行？SSD当显存用火爆GitHub",
+      "id": "713e39a801",
+      "title": "量子位2026人工智能年度榜单，正式启动！",
+      "url": "https://mp.weixin.qq.com/s/Mpzo4TE8FUI5J7RAMURiMQ",
+      "summary": "量子位2026人工智能年度榜单，正式启动！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-27T04:49:46.199605+00:00",
-      "pub_ts": 1790484586
+      "pub_date": "2026-09-28T04:52:09.325904+00:00",
+      "pub_ts": 1790571129
     }
   ],
   "source_success_count": 1,

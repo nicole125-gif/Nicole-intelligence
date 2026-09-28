@@ -3,161 +3,111 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-09-27T04:49:36.457407+00:00",
-  "item_count": 15,
+  "updated_at": "2026-09-28T04:51:59.483435+00:00",
+  "item_count": 10,
   "items": [
     {
-      "id": "93968179d3",
-      "title": "2026工博会最不可错过的论坛议程来了，一次看透边缘计算与存储应用！",
-      "url": "https://mp.weixin.qq.com/s/mH6UK2s2Hk9rVGJ2VjsUSg",
-      "summary": "2026工博会最不可错过的论坛议程来了，一次看透边缘计算与存储应用！",
+      "id": "98dfceace2",
+      "title": "苹果或重返服务器，互联市场开始“群雄逐鹿”",
+      "url": "https://mp.weixin.qq.com/s/AKYMiZtXEagxmDtxVx4nEg",
+      "summary": "苹果或重返服务器，互联市场开始“群雄逐鹿”",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-27T04:49:32.325282+00:00",
-      "pub_ts": 1790484572
+      "pub_date": "2026-09-28T04:51:23.287146+00:00",
+      "pub_ts": 1790571083
     },
     {
-      "id": "144d7304f1",
-      "title": "再加66万颗GB300，马斯克算力疯狂",
-      "url": "https://mp.weixin.qq.com/s/BMpWRSbYg8qjf0r6DI9TAw",
-      "summary": "再加66万颗GB300，马斯克算力疯狂",
+      "id": "0200e662ec",
+      "title": "投资近百亿，英飞凌泰国工厂将投产",
+      "url": "https://mp.weixin.qq.com/s/wfDxRvUZbBlkTU3gMx9h-Q",
+      "summary": "投资近百亿，英飞凌泰国工厂将投产",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-27T04:49:32.325330+00:00",
-      "pub_ts": 1790484572
+      "pub_date": "2026-09-28T04:51:23.287192+00:00",
+      "pub_ts": 1790571083
     },
     {
-      "id": "6ead4ebea0",
-      "title": "补齐芯片制造关键一环，欧洲押注超快激光",
-      "url": "https://mp.weixin.qq.com/s/8hqcLhWNsAx7yXBVwKsInw",
-      "summary": "补齐芯片制造关键一环，欧洲押注超快激光",
+      "id": "e2ab86a345",
+      "title": "自动化3D重建，跟上AI芯片竞速",
+      "url": "https://mp.weixin.qq.com/s/cDT9P8-AZPO5dszL6o8KYQ",
+      "summary": "自动化3D重建，跟上AI芯片竞速",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-27T04:49:32.325359+00:00",
-      "pub_ts": 1790484572
+      "pub_date": "2026-09-28T04:51:23.287220+00:00",
+      "pub_ts": 1790571083
     },
     {
-      "id": "adcdcd9895",
-      "title": "对话徐直军：被低估的灵衢，重新理解AI算力",
-      "url": "https://mp.weixin.qq.com/s/p4dXSnTQb7E8Kf3SJGeaSA",
-      "summary": "对话徐直军：被低估的灵衢，重新理解AI算力",
+      "id": "e33e963f09",
+      "title": "端侧AI：芯片、模型与终端的隐秘战争",
+      "url": "https://mp.weixin.qq.com/s/G-Bsk2rUt9C2gPHsUNxhkA",
+      "summary": "端侧AI：芯片、模型与终端的隐秘战争",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-27T04:49:32.325384+00:00",
-      "pub_ts": 1790484572
+      "pub_date": "2026-09-28T04:51:23.287244+00:00",
+      "pub_ts": 1790571083
     },
     {
-      "id": "b23a403dde",
-      "title": "联想VS戴尔：万字长文拆解全球AI基建双雄的巅峰对决",
-      "url": "https://mp.weixin.qq.com/s/R5tXjIqme-YX6g3UKKsGSw",
-      "summary": "联想VS戴尔：万字长文拆解全球AI基建双雄的巅峰对决",
+      "id": "800eee45d4",
+      "title": "估值142亿！腾讯重注的DPU厂商冲刺IPO",
+      "url": "https://mp.weixin.qq.com/s/9h5iUQDD31gVYGkqcvXU6Q",
+      "summary": "估值142亿！腾讯重注的DPU厂商冲刺IPO",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-27T04:49:32.325406+00:00",
-      "pub_ts": 1790484572
+      "pub_date": "2026-09-28T04:51:23.287265+00:00",
+      "pub_ts": 1790571083
     },
     {
-      "id": "fe7a64616e",
-      "title": "存储芯片，新变局！",
-      "url": "https://mp.weixin.qq.com/s/D_o-2heT3S4T-xzAqWWGFA",
-      "summary": "存储芯片，新变局！",
+      "id": "e7b93b2b6b",
+      "title": "光模块的七个转折",
+      "url": "https://mp.weixin.qq.com/s/gDRTWfsAZcnwp9mm-ZRuiQ",
+      "summary": "光模块的七个转折",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-27T04:49:22.949884+00:00",
-      "pub_ts": 1790484562
+      "pub_date": "2026-09-28T04:51:13.012746+00:00",
+      "pub_ts": 1790571073
     },
     {
-      "id": "38b4eead78",
-      "title": "台积电披露AI芯片路线图",
-      "url": "https://mp.weixin.qq.com/s/jkKY6NuL6zUNMsk7ziI-cw",
-      "summary": "台积电披露AI芯片路线图",
+      "id": "715563d8f5",
+      "title": "电路展（国芯展）展前指南速看！",
+      "url": "https://mp.weixin.qq.com/s/UCU6Hq0eihR1detXg8NkCw",
+      "summary": "电路展（国芯展）展前指南速看！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-27T04:49:22.949934+00:00",
-      "pub_ts": 1790484562
+      "pub_date": "2026-09-28T04:51:13.012799+00:00",
+      "pub_ts": 1790571073
     },
     {
-      "id": "d61821f960",
-      "title": "聚焦细分技术与产业应用，湾芯展×半导体行业观察联合展区亮相",
-      "url": "https://mp.weixin.qq.com/s/ZeD36-lm18xhDvD9W9NZww",
-      "summary": "聚焦细分技术与产业应用，湾芯展×半导体行业观察联合展区亮相",
+      "id": "3257792dc1",
+      "title": "英特尔Panther Lake 拆解",
+      "url": "https://mp.weixin.qq.com/s/uF4bVvnSxiUOiqkeuUh7Sg",
+      "summary": "英特尔Panther Lake 拆解",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-27T04:49:22.949961+00:00",
-      "pub_ts": 1790484562
+      "pub_date": "2026-09-28T04:51:13.012825+00:00",
+      "pub_ts": 1790571073
     },
     {
-      "id": "1d36309039",
-      "title": "Elon Musk，部署120万颗GPU",
-      "url": "https://mp.weixin.qq.com/s/oxzcrHmrddw_QX7VP6fGrA",
-      "summary": "Elon Musk，部署120万颗GPU",
+      "id": "b22012aec0",
+      "title": "英伟达，布局玻璃基板",
+      "url": "https://mp.weixin.qq.com/s/_4pDxHIUfxGkMajy3d8FlA",
+      "summary": "英伟达，布局玻璃基板",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-27T04:49:22.949984+00:00",
-      "pub_ts": 1790484562
+      "pub_date": "2026-09-28T04:51:13.012848+00:00",
+      "pub_ts": 1790571073
     },
     {
-      "id": "8c75490ea3",
-      "title": "英特尔14A工艺，备受青睐",
-      "url": "https://mp.weixin.qq.com/s/qSdDQIydtbL29irs1x3vJQ",
-      "summary": "英特尔14A工艺，备受青睐",
+      "id": "14f2f77987",
+      "title": "高通盯上了PIM！考虑三星2nm?",
+      "url": "https://mp.weixin.qq.com/s/bEDl5cMDR_J5Kv_BL73YEw",
+      "summary": "高通盯上了PIM！考虑三星2nm?",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-27T04:49:22.950005+00:00",
-      "pub_ts": 1790484562
-    },
-    {
-      "id": "f31de64f82",
-      "title": "Comparing A7 CFET and A10 Nanosheet FETs From Parasitics to Chip Reliability (TUM, UNIMORE, Applied Materials)",
-      "url": "https://semiengineering.com/comparing-a7-cfet-and-a10-nanosheet-fets-from-parasitics-to-chip-reliability-tum-unimore-applied-materials/",
-      "summary": "Researchers at the TU Munich, University of Modena and Reggio Emilia, and Applied Materials published a technical paper titled “System-Technology Co-Evaluation of A7 CFET and A10 NSFET Technologies from Cell Parasitics to Chip Reliability.” Abstract Excerpt: “ In this work, we present a physics-base…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-09-25T22:29:43+00:00",
-      "pub_ts": 1790375383
-    },
-    {
-      "id": "25552ddd16",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-157/",
-      "summary": "AI agents move deeper into chip design; China doubles down on AI compute and memory; chip supply chains tighten for equipment and critical materials; TSMC partners accelerate; ICs head to space; optics advances, neural super resolution, auto PQC; Purdue-UIUC workforce training.\nThe post Chip Industr…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-09-25T07:01:42+00:00",
-      "pub_ts": 1790319702
-    },
-    {
-      "id": "4bfdfbd4d6",
-      "title": "A Network-on-Chip (NoC) For Multi-Die Devices",
-      "url": "https://semiengineering.com/a-network-on-chip-noc-for-multi-die-devices/",
-      "summary": "Transporting the native packetized traffic of the NoC directly across die boundaries using a stable, invariant interface.\nThe post A Network-on-Chip (NoC) For Multi-Die Devices appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-09-24T07:07:06+00:00",
-      "pub_ts": 1790233626
-    },
-    {
-      "id": "419d2d3aeb",
-      "title": "Managing 3D-IC Design And IP",
-      "url": "https://semiengineering.com/managing-3d-ic-design-and-ip/",
-      "summary": "Design data management, traceability, and revision control are critical for multi-chiplet heterogeneous integration.\nThe post Managing 3D-IC Design And IP appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-09-24T07:05:05+00:00",
-      "pub_ts": 1790233505
-    },
-    {
-      "id": "941cda3db5",
-      "title": "When AI Agents Cross Chip Design Silos",
-      "url": "https://semiengineering.com/when-ai-agents-cross-chip-design-silos/",
-      "summary": "Specialization and orchestration are becoming more important as the role of AI agents in chip design widens, but coordination, control, and trust remain challenging.\nThe post When AI Agents Cross Chip Design Silos appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-09-24T07:03:42+00:00",
-      "pub_ts": 1790233422
+      "pub_date": "2026-09-28T04:51:13.012870+00:00",
+      "pub_ts": 1790571073
     }
   ],
-  "source_success_count": 3,
+  "source_success_count": 2,
   "source_total_count": 6,
   "fetch_status": "fresh"
 }
