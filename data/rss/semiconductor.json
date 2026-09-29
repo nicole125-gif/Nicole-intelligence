@@ -3,111 +3,161 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-09-28T04:51:59.483435+00:00",
-  "item_count": 10,
+  "updated_at": "2026-09-29T05:16:49.730154+00:00",
+  "item_count": 15,
   "items": [
     {
-      "id": "98dfceace2",
-      "title": "苹果或重返服务器，互联市场开始“群雄逐鹿”",
-      "url": "https://mp.weixin.qq.com/s/AKYMiZtXEagxmDtxVx4nEg",
-      "summary": "苹果或重返服务器，互联市场开始“群雄逐鹿”",
+      "id": "415c1e3189",
+      "title": "长鑫科技：拟斥资349亿元投建两项目",
+      "url": "https://mp.weixin.qq.com/s/zyQ8mosIQzS7CSnMiGL77A",
+      "summary": "长鑫科技：拟斥资349亿元投建两项目",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-28T04:51:23.287146+00:00",
-      "pub_ts": 1790571083
+      "pub_date": "2026-09-29T05:16:45.553035+00:00",
+      "pub_ts": 1790659005
     },
     {
-      "id": "0200e662ec",
-      "title": "投资近百亿，英飞凌泰国工厂将投产",
-      "url": "https://mp.weixin.qq.com/s/wfDxRvUZbBlkTU3gMx9h-Q",
-      "summary": "投资近百亿，英飞凌泰国工厂将投产",
+      "id": "c2f2f2e197",
+      "title": "DRAM代工涨价！兆易创新全年采购预算增至78.54亿",
+      "url": "https://mp.weixin.qq.com/s/fy_I47fh0NItxFGod_jfpQ",
+      "summary": "DRAM代工涨价！兆易创新全年采购预算增至78.54亿",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-28T04:51:23.287192+00:00",
-      "pub_ts": 1790571083
+      "pub_date": "2026-09-29T05:16:45.553079+00:00",
+      "pub_ts": 1790659005
     },
     {
-      "id": "e2ab86a345",
-      "title": "自动化3D重建，跟上AI芯片竞速",
-      "url": "https://mp.weixin.qq.com/s/cDT9P8-AZPO5dszL6o8KYQ",
-      "summary": "自动化3D重建，跟上AI芯片竞速",
+      "id": "79a9a54f9e",
+      "title": "一颗CPU跑1000个智能体，英特尔在赌什么？",
+      "url": "https://mp.weixin.qq.com/s/aG-pcT0y7YqhzKwbF4Hy3g",
+      "summary": "一颗CPU跑1000个智能体，英特尔在赌什么？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-28T04:51:23.287220+00:00",
-      "pub_ts": 1790571083
+      "pub_date": "2026-09-29T05:16:45.553107+00:00",
+      "pub_ts": 1790659005
     },
     {
-      "id": "e33e963f09",
-      "title": "端侧AI：芯片、模型与终端的隐秘战争",
-      "url": "https://mp.weixin.qq.com/s/G-Bsk2rUt9C2gPHsUNxhkA",
-      "summary": "端侧AI：芯片、模型与终端的隐秘战争",
+      "id": "9eba346339",
+      "title": "展商名录公布！2026中国工博会国芯展展前指南速看！",
+      "url": "https://mp.weixin.qq.com/s/I-2-v5GrTX6xhH91QMzUlA",
+      "summary": "展商名录公布！2026中国工博会国芯展展前指南速看！",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-28T04:51:23.287244+00:00",
-      "pub_ts": 1790571083
+      "pub_date": "2026-09-29T05:16:45.553131+00:00",
+      "pub_ts": 1790659005
     },
     {
-      "id": "800eee45d4",
-      "title": "估值142亿！腾讯重注的DPU厂商冲刺IPO",
-      "url": "https://mp.weixin.qq.com/s/9h5iUQDD31gVYGkqcvXU6Q",
-      "summary": "估值142亿！腾讯重注的DPU厂商冲刺IPO",
+      "id": "150ba4272c",
+      "title": "CPO设备订单爆满，多家厂商启动扩产",
+      "url": "https://mp.weixin.qq.com/s/8q40eyzBA0ZSpVnKM7XY5Q",
+      "summary": "CPO设备订单爆满，多家厂商启动扩产",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-28T04:51:23.287265+00:00",
-      "pub_ts": 1790571083
+      "pub_date": "2026-09-29T05:16:45.553153+00:00",
+      "pub_ts": 1790659005
     },
     {
-      "id": "e7b93b2b6b",
-      "title": "光模块的七个转折",
-      "url": "https://mp.weixin.qq.com/s/gDRTWfsAZcnwp9mm-ZRuiQ",
-      "summary": "光模块的七个转折",
+      "id": "06511d8317",
+      "title": "长鑫宣布，巨额投资",
+      "url": "https://mp.weixin.qq.com/s/xoWquzR9_xNQ3INpsgSo5Q",
+      "summary": "长鑫宣布，巨额投资",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-28T04:51:13.012746+00:00",
-      "pub_ts": 1790571073
+      "pub_date": "2026-09-29T05:16:35.061917+00:00",
+      "pub_ts": 1790658995
     },
     {
-      "id": "715563d8f5",
-      "title": "电路展（国芯展）展前指南速看！",
-      "url": "https://mp.weixin.qq.com/s/UCU6Hq0eihR1detXg8NkCw",
-      "summary": "电路展（国芯展）展前指南速看！",
+      "id": "a4704c3c19",
+      "title": "华澜微，被整体收购",
+      "url": "https://mp.weixin.qq.com/s/Fnr1wMQRcb1euLjkw7LsTQ",
+      "summary": "华澜微，被整体收购",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-28T04:51:13.012799+00:00",
-      "pub_ts": 1790571073
+      "pub_date": "2026-09-29T05:16:35.061972+00:00",
+      "pub_ts": 1790658995
     },
     {
-      "id": "3257792dc1",
-      "title": "英特尔Panther Lake 拆解",
-      "url": "https://mp.weixin.qq.com/s/uF4bVvnSxiUOiqkeuUh7Sg",
-      "summary": "英特尔Panther Lake 拆解",
+      "id": "b7f57b6aaf",
+      "title": "江波龙端侧AI存储，重要进展！",
+      "url": "https://mp.weixin.qq.com/s/pB5zqecl53_SoDTS3Vk0DA",
+      "summary": "江波龙端侧AI存储，重要进展！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-28T04:51:13.012825+00:00",
-      "pub_ts": 1790571073
+      "pub_date": "2026-09-29T05:16:35.062007+00:00",
+      "pub_ts": 1790658995
     },
     {
-      "id": "b22012aec0",
-      "title": "英伟达，布局玻璃基板",
-      "url": "https://mp.weixin.qq.com/s/_4pDxHIUfxGkMajy3d8FlA",
-      "summary": "英伟达，布局玻璃基板",
+      "id": "56a8829964",
+      "title": "为何都盯上了3DDRAM?",
+      "url": "https://mp.weixin.qq.com/s/kSgCl_frTd230HFb1oe_Iw",
+      "summary": "为何都盯上了3DDRAM?",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-28T04:51:13.012848+00:00",
-      "pub_ts": 1790571073
+      "pub_date": "2026-09-29T05:16:35.062030+00:00",
+      "pub_ts": 1790658995
     },
     {
-      "id": "14f2f77987",
-      "title": "高通盯上了PIM！考虑三星2nm?",
-      "url": "https://mp.weixin.qq.com/s/bEDl5cMDR_J5Kv_BL73YEw",
-      "summary": "高通盯上了PIM！考虑三星2nm?",
+      "id": "052f4bdcdf",
+      "title": "台积电2nm，被疯抢",
+      "url": "https://mp.weixin.qq.com/s/z1ino5HRy2eo9o-t35CXaA",
+      "summary": "台积电2nm，被疯抢",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-28T04:51:13.012870+00:00",
-      "pub_ts": 1790571073
+      "pub_date": "2026-09-29T05:16:35.062052+00:00",
+      "pub_ts": 1790658995
+    },
+    {
+      "id": "f5836b5bb0",
+      "title": "Impact of Cu Microstructure On The TSV-Induced Residual Stress Within Silicon (Purdue, UCLA)",
+      "url": "https://semiengineering.com/copper-grain-structure-influences-stress-around-scaled-tsvs-purdue-ucla/",
+      "summary": "Researchers at Purdue University and the UCLA published a technical paper titled “Experimental Evidence for the Impact of Copper Microstructure on Residual Stress of Through Silicon Via.” Abstract Excerpt: “Here, we experimentally quantify the impact of Cu microstructure on the TSV-induced residual …",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-09-28T18:02:09+00:00",
+      "pub_ts": 1790618529
+    },
+    {
+      "id": "ec472f1155",
+      "title": "Intuition and AI",
+      "url": "https://semiengineering.com/intuition-and-ai/",
+      "summary": "Can AI be creative? It is impossible to know unless we understand what creativity really means, and that's difficult to describe.\nThe post Intuition and AI appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-09-28T07:01:56+00:00",
+      "pub_ts": 1790578916
+    },
+    {
+      "id": "53440c3b4c",
+      "title": "One Substrate No Longer Rules Them All",
+      "url": "https://semiengineering.com/one-substrate-no-longer-rules-them-all/",
+      "summary": "Larger packages, finer routing, and embedded functions are pushing advanced substrates toward application-specific designs.\nThe post One Substrate No Longer Rules Them All appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-09-28T07:01:09+00:00",
+      "pub_ts": 1790578869
+    },
+    {
+      "id": "f31de64f82",
+      "title": "Comparing A7 CFET and A10 Nanosheet FETs From Parasitics to Chip Reliability (TUM, UNIMORE, Applied Materials)",
+      "url": "https://semiengineering.com/comparing-a7-cfet-and-a10-nanosheet-fets-from-parasitics-to-chip-reliability-tum-unimore-applied-materials/",
+      "summary": "Researchers at the TU Munich, University of Modena and Reggio Emilia, and Applied Materials published a technical paper titled “System-Technology Co-Evaluation of A7 CFET and A10 NSFET Technologies from Cell Parasitics to Chip Reliability.” Abstract Excerpt: “ In this work, we present a physics-base…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-09-25T22:29:43+00:00",
+      "pub_ts": 1790375383
+    },
+    {
+      "id": "25552ddd16",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-157/",
+      "summary": "AI agents move deeper into chip design; China doubles down on AI compute and memory; chip supply chains tighten for equipment and critical materials; TSMC partners accelerate; ICs head to space; optics advances, neural super resolution, auto PQC; Purdue-UIUC workforce training.\nThe post Chip Industr…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-09-25T07:01:42+00:00",
+      "pub_ts": 1790319702
     }
   ],
-  "source_success_count": 2,
+  "source_success_count": 3,
   "source_total_count": 6,
   "fetch_status": "fresh"
 }
