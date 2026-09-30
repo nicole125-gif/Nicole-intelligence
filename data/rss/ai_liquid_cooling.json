@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-09-29T05:17:03.793242+00:00",
+  "updated_at": "2026-09-30T05:04:55.129440+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "22261be2da",
-      "title": "工业创新进入“组队局”，拆解西门子Xcelerator开放生态的赋能链路",
-      "url": "https://mp.weixin.qq.com/s/QClvYTTPbyXUXFX1-ov6zQ",
-      "summary": "工业创新进入“组队局”，拆解西门子Xcelerator开放生态的赋能链路",
+      "id": "53cc486196",
+      "title": "上千块录音笔的活儿，元宝免费干了，还能边录边拍",
+      "url": "https://mp.weixin.qq.com/s/vC-eGAnz7b5U7ssqXKtRNA",
+      "summary": "上千块录音笔的活儿，元宝免费干了，还能边录边拍",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-29T05:16:59.057938+00:00",
-      "pub_ts": 1790659019
+      "pub_date": "2026-09-30T05:04:50.415045+00:00",
+      "pub_ts": 1790744690
     },
     {
-      "id": "13e81a308a",
-      "title": "刚刚，GPT-6Astra接上宇树G1，把厨房收拾了！",
-      "url": "https://mp.weixin.qq.com/s/oLrVmb0deE51yY7yrE9SkA",
-      "summary": "刚刚，GPT-6Astra接上宇树G1，把厨房收拾了！",
+      "id": "699eb92c62",
+      "title": "OpenAl推理之父最新访谈！数学只是多智能体时代的开胃菜",
+      "url": "https://mp.weixin.qq.com/s/6-FqoV2H1ZShD9I-KAQAKg",
+      "summary": "OpenAl推理之父最新访谈！数学只是多智能体时代的开胃菜",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-29T05:16:59.057983+00:00",
-      "pub_ts": 1790659019
+      "pub_date": "2026-09-30T05:04:50.415085+00:00",
+      "pub_ts": 1790744690
     },
     {
-      "id": "674cc88223",
-      "title": "话：AI员工得直接扛KPI",
-      "url": "https://mp.weixin.qq.com/s/weh2IuCQsbqCZT1z73fGow",
-      "summary": "话：AI员工得直接扛KPI",
+      "id": "53605d47e7",
+      "title": "精准揪出RL训练数据Bug，Prompt直出小游戏，IQuest-Q1夯爆了！",
+      "url": "https://mp.weixin.qq.com/s/zeQVHS3cOHOz4_wcaG2BGw",
+      "summary": "精准揪出RL训练数据Bug，Prompt直出小游戏，IQuest-Q1夯爆了！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-29T05:16:59.058008+00:00",
-      "pub_ts": 1790659019
+      "pub_date": "2026-09-30T05:04:50.415110+00:00",
+      "pub_ts": 1790744690
     },
     {
-      "id": "b1fcf5e344",
-      "title": "HC归来，华为正重新定义AIDC基础设施",
-      "url": "https://mp.weixin.qq.com/s/Z29YEb0Tw6gB7nLkLcnSmg",
-      "summary": "HC归来，华为正重新定义AIDC基础设施",
+      "id": "e85de8301c",
+      "title": "GPT-6.1Astra不发了！DevDay错过，Claude已赢麻",
+      "url": "https://mp.weixin.qq.com/s/lQznJjXIAOB-4xmxZio-4A",
+      "summary": "GPT-6.1Astra不发了！DevDay错过，Claude已赢麻",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-29T05:16:59.058030+00:00",
-      "pub_ts": 1790659019
+      "pub_date": "2026-09-30T05:04:50.415132+00:00",
+      "pub_ts": 1790744690
     },
     {
-      "id": "0a02d07c25",
-      "title": "比Jev快2-3倍的国产开源模型来了：Intern-Decision拿下多模态决...",
-      "url": "https://mp.weixin.qq.com/s/-54LSAh3uSdBy-hoNZzHzg",
-      "summary": "比Jev快2-3倍的国产开源模型来了：Intern-Decision拿下多模态决...",
+      "id": "68b1e8fcaa",
+      "title": "删掉99.95%训练信号，效果反而更好！极端稀疏监督刷新大模型后...",
+      "url": "https://mp.weixin.qq.com/s/_dM9tgEYYf9Urs3MFei7tQ",
+      "summary": "删掉99.95%训练信号，效果反而更好！极端稀疏监督刷新大模型后...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-29T05:16:59.058052+00:00",
-      "pub_ts": 1790659019
+      "pub_date": "2026-09-30T05:04:50.415154+00:00",
+      "pub_ts": 1790744690
     }
   ],
   "source_success_count": 1,

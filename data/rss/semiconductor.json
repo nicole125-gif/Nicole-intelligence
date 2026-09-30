@@ -3,108 +3,148 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-09-29T05:16:49.730154+00:00",
+  "updated_at": "2026-09-30T05:04:41.000502+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "415c1e3189",
-      "title": "长鑫科技：拟斥资349亿元投建两项目",
-      "url": "https://mp.weixin.qq.com/s/zyQ8mosIQzS7CSnMiGL77A",
-      "summary": "长鑫科技：拟斥资349亿元投建两项目",
+      "id": "0391c743d1",
+      "title": "工业智能化进入下半场，边存协同成为焦点",
+      "url": "https://mp.weixin.qq.com/s/0UOWVDlcAq_Aa_VrSZP7QQ",
+      "summary": "工业智能化进入下半场，边存协同成为焦点",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-29T05:16:45.553035+00:00",
-      "pub_ts": 1790659005
+      "pub_date": "2026-09-30T05:04:36.944386+00:00",
+      "pub_ts": 1790744676
     },
     {
-      "id": "c2f2f2e197",
-      "title": "DRAM代工涨价！兆易创新全年采购预算增至78.54亿",
-      "url": "https://mp.weixin.qq.com/s/fy_I47fh0NItxFGod_jfpQ",
-      "summary": "DRAM代工涨价！兆易创新全年采购预算增至78.54亿",
+      "id": "e4652e36f1",
+      "title": "封装基板紧俏，三星电机开启史上最大资本开支",
+      "url": "https://mp.weixin.qq.com/s/YPHtrHiTvxvmE03SygAbow",
+      "summary": "封装基板紧俏，三星电机开启史上最大资本开支",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-29T05:16:45.553079+00:00",
-      "pub_ts": 1790659005
+      "pub_date": "2026-09-30T05:04:36.944429+00:00",
+      "pub_ts": 1790744676
     },
     {
-      "id": "79a9a54f9e",
-      "title": "一颗CPU跑1000个智能体，英特尔在赌什么？",
-      "url": "https://mp.weixin.qq.com/s/aG-pcT0y7YqhzKwbF4Hy3g",
-      "summary": "一颗CPU跑1000个智能体，英特尔在赌什么？",
+      "id": "7cbc430446",
+      "title": "7000天技术演进！iPhone 18 Pro拆出2nm真身",
+      "url": "https://mp.weixin.qq.com/s/6mDIg6KCNBgDol4MTv6JEQ",
+      "summary": "7000天技术演进！iPhone 18 Pro拆出2nm真身",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-29T05:16:45.553107+00:00",
-      "pub_ts": 1790659005
+      "pub_date": "2026-09-30T05:04:36.944457+00:00",
+      "pub_ts": 1790744676
     },
     {
-      "id": "9eba346339",
-      "title": "展商名录公布！2026中国工博会国芯展展前指南速看！",
-      "url": "https://mp.weixin.qq.com/s/I-2-v5GrTX6xhH91QMzUlA",
-      "summary": "展商名录公布！2026中国工博会国芯展展前指南速看！",
+      "id": "ecaa7174b7",
+      "title": "HBM产能持续吃紧，2027年价格或高涨121%",
+      "url": "https://mp.weixin.qq.com/s/Q3PES0tbHnF_QJDWbXfmOw",
+      "summary": "HBM产能持续吃紧，2027年价格或高涨121%",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-29T05:16:45.553131+00:00",
-      "pub_ts": 1790659005
+      "pub_date": "2026-09-30T05:04:36.944481+00:00",
+      "pub_ts": 1790744676
     },
     {
-      "id": "150ba4272c",
-      "title": "CPO设备订单爆满，多家厂商启动扩产",
-      "url": "https://mp.weixin.qq.com/s/8q40eyzBA0ZSpVnKM7XY5Q",
-      "summary": "CPO设备订单爆满，多家厂商启动扩产",
+      "id": "fb9ea43c5f",
+      "title": "封测扩产潮，布局推进至2027年",
+      "url": "https://mp.weixin.qq.com/s/jgAoH8HM5u6jADrYS4D6xw",
+      "summary": "封测扩产潮，布局推进至2027年",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-09-29T05:16:45.553153+00:00",
-      "pub_ts": 1790659005
+      "pub_date": "2026-09-30T05:04:36.944513+00:00",
+      "pub_ts": 1790744676
     },
     {
-      "id": "06511d8317",
-      "title": "长鑫宣布，巨额投资",
-      "url": "https://mp.weixin.qq.com/s/xoWquzR9_xNQ3INpsgSo5Q",
-      "summary": "长鑫宣布，巨额投资",
+      "id": "23cb913c77",
+      "title": "数百路相机、毫秒级调度：汽车工厂视觉检测的新算力战争",
+      "url": "https://mp.weixin.qq.com/s/bvnwVzi86yr7eDxp8jjNEg",
+      "summary": "数百路相机、毫秒级调度：汽车工厂视觉检测的新算力战争",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-29T05:16:35.061917+00:00",
-      "pub_ts": 1790658995
+      "pub_date": "2026-09-30T05:04:25.671470+00:00",
+      "pub_ts": 1790744665
     },
     {
-      "id": "a4704c3c19",
-      "title": "华澜微，被整体收购",
-      "url": "https://mp.weixin.qq.com/s/Fnr1wMQRcb1euLjkw7LsTQ",
-      "summary": "华澜微，被整体收购",
+      "id": "0293f43dbb",
+      "title": "台积电再掀建厂潮？六座晶圆厂！五座封装厂！",
+      "url": "https://mp.weixin.qq.com/s/WMW32vHpmAif4ioZAXDGrw",
+      "summary": "台积电再掀建厂潮？六座晶圆厂！五座封装厂！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-29T05:16:35.061972+00:00",
-      "pub_ts": 1790658995
+      "pub_date": "2026-09-30T05:04:25.671545+00:00",
+      "pub_ts": 1790744665
     },
     {
-      "id": "b7f57b6aaf",
-      "title": "江波龙端侧AI存储，重要进展！",
-      "url": "https://mp.weixin.qq.com/s/pB5zqecl53_SoDTS3Vk0DA",
-      "summary": "江波龙端侧AI存储，重要进展！",
+      "id": "7036564584",
+      "title": "基板，巨变",
+      "url": "https://mp.weixin.qq.com/s/0q21_K8p3uzvQ2Q8TFwRSQ",
+      "summary": "基板，巨变",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-29T05:16:35.062007+00:00",
-      "pub_ts": 1790658995
+      "pub_date": "2026-09-30T05:04:25.671571+00:00",
+      "pub_ts": 1790744665
     },
     {
-      "id": "56a8829964",
-      "title": "为何都盯上了3DDRAM?",
-      "url": "https://mp.weixin.qq.com/s/kSgCl_frTd230HFb1oe_Iw",
-      "summary": "为何都盯上了3DDRAM?",
+      "id": "04b4b82159",
+      "title": "CPU抢购潮，交货周期飙升至30周",
+      "url": "https://mp.weixin.qq.com/s/c7bizLdkjTXZAROHjiFFTA",
+      "summary": "CPU抢购潮，交货周期飙升至30周",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-29T05:16:35.062030+00:00",
-      "pub_ts": 1790658995
+      "pub_date": "2026-09-30T05:04:25.671595+00:00",
+      "pub_ts": 1790744665
     },
     {
-      "id": "052f4bdcdf",
-      "title": "台积电2nm，被疯抢",
-      "url": "https://mp.weixin.qq.com/s/z1ino5HRy2eo9o-t35CXaA",
-      "summary": "台积电2nm，被疯抢",
+      "id": "1c6731e385",
+      "title": "数据中心最大瓶颈，转移到芯片内部",
+      "url": "https://mp.weixin.qq.com/s/8dmPj8_7FDt6Ch2_9JAYXw",
+      "summary": "数据中心最大瓶颈，转移到芯片内部",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-09-29T05:16:35.062052+00:00",
-      "pub_ts": 1790658995
+      "pub_date": "2026-09-30T05:04:25.671618+00:00",
+      "pub_ts": 1790744665
+    },
+    {
+      "id": "9c68653b49",
+      "title": "TSMC OIP: Chip Industry Growth Blows Past Forecast",
+      "url": "https://semiengineering.com/tsmc-oip-chip-industry-growth-blows-past-forecast/",
+      "summary": "Aggressive prediction of $1T by 2030 was $700B too low. Here's why. \nThe post TSMC OIP: Chip Industry Growth Blows Past Forecast appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-09-29T07:01:50+00:00",
+      "pub_ts": 1790665310
+    },
+    {
+      "id": "e85b8a6455",
+      "title": "Why Verification Needs a Thread, Not More Fragments",
+      "url": "https://semiengineering.com/why-verification-needs-a-thread-not-more-fragments/",
+      "summary": "Why traceability at scale is so critical.\nThe post Why Verification Needs a Thread, Not More Fragments appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-09-29T07:01:46+00:00",
+      "pub_ts": 1790665306
+    },
+    {
+      "id": "764b122a99",
+      "title": "Chip Industry Technical Paper Roundup: Sept. 29",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-sept-29/",
+      "summary": "A7 CFET vs. A10 NSFETs; wafer-scale sub-5nm MoS₂ transistors; multi-kW power delivery for 3D HI; copper microstructure and TSV residual stress; Rowhammer attacks on GPUs; gate-level RTL Trojan localization; concurrent HBM and host-memory access for LLM inference; agent-driven chip design using HLS.\n…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-09-29T07:01:34+00:00",
+      "pub_ts": 1790665294
+    },
+    {
+      "id": "3b497548a2",
+      "title": "Moores Lab AI: Applying Agentic AI Across Chip Design",
+      "url": "https://semiengineering.com/moores-law-ai-applying-agentic-ai-across-chip-design/",
+      "summary": "EDA startup bets on domain expertise to speed the design process.\nThe post Moores Lab AI: Applying Agentic AI Across Chip Design appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-09-29T07:01:00+00:00",
+      "pub_ts": 1790665260
     },
     {
       "id": "f5836b5bb0",
@@ -115,46 +155,6 @@
       "lang": "en",
       "pub_date": "2026-09-28T18:02:09+00:00",
       "pub_ts": 1790618529
-    },
-    {
-      "id": "ec472f1155",
-      "title": "Intuition and AI",
-      "url": "https://semiengineering.com/intuition-and-ai/",
-      "summary": "Can AI be creative? It is impossible to know unless we understand what creativity really means, and that's difficult to describe.\nThe post Intuition and AI appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-09-28T07:01:56+00:00",
-      "pub_ts": 1790578916
-    },
-    {
-      "id": "53440c3b4c",
-      "title": "One Substrate No Longer Rules Them All",
-      "url": "https://semiengineering.com/one-substrate-no-longer-rules-them-all/",
-      "summary": "Larger packages, finer routing, and embedded functions are pushing advanced substrates toward application-specific designs.\nThe post One Substrate No Longer Rules Them All appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-09-28T07:01:09+00:00",
-      "pub_ts": 1790578869
-    },
-    {
-      "id": "f31de64f82",
-      "title": "Comparing A7 CFET and A10 Nanosheet FETs From Parasitics to Chip Reliability (TUM, UNIMORE, Applied Materials)",
-      "url": "https://semiengineering.com/comparing-a7-cfet-and-a10-nanosheet-fets-from-parasitics-to-chip-reliability-tum-unimore-applied-materials/",
-      "summary": "Researchers at the TU Munich, University of Modena and Reggio Emilia, and Applied Materials published a technical paper titled “System-Technology Co-Evaluation of A7 CFET and A10 NSFET Technologies from Cell Parasitics to Chip Reliability.” Abstract Excerpt: “ In this work, we present a physics-base…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-09-25T22:29:43+00:00",
-      "pub_ts": 1790375383
-    },
-    {
-      "id": "25552ddd16",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-157/",
-      "summary": "AI agents move deeper into chip design; China doubles down on AI compute and memory; chip supply chains tighten for equipment and critical materials; TSMC partners accelerate; ICs head to space; optics advances, neural super resolution, auto PQC; Purdue-UIUC workforce training.\nThe post Chip Industr…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-09-25T07:01:42+00:00",
-      "pub_ts": 1790319702
     }
   ],
   "source_success_count": 3,

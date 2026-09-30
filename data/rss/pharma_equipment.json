@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-09-29T05:17:27.351973+00:00",
+  "updated_at": "2026-09-30T05:05:18.639565+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "ffadbcc67a",
-      "title": "AbbVie lands FDA approval for next-generation Parkinson’s drug, Juvmo",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-approves-abbvie-next-generation-parkinsons-therapy-juvmo/",
-      "summary": "Juvmo was designed to offer a reduction in motor symptoms, while reducing non-motor side effects, through its more selective mechanism.",
+      "id": "b10ddf05fe",
+      "title": "Novo outlays $2.6bn in Hengrui deal to bolster oral obesity pipeline",
+      "url": "https://www.pharmaceutical-technology.com/news/novo-hengrui-2-6bn-licensing-deal-oral-obesity-drug/",
+      "summary": "Novo forges this deal as the company looks to extend the lead secured from its first-to-market advantage in the oral weight loss drug arena.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-28T12:12:29+00:00",
-      "pub_ts": 1790597549
+      "pub_date": "2026-09-29T10:35:05+00:00",
+      "pub_ts": 1790678105
     },
     {
-      "id": "d2bd3b61b8",
-      "title": "Oral solid dose at a turning point: Scaling for the next generation of therapies",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/oral-solid-dose-scaling-for-the-next-generation-of-therapies/",
-      "summary": "From patient-centric designs and sustainable changes to component shortages, anti-counterfeiting, and low-volume production, sponsors of OSD products are navigating a number of packaging trends and challenges.",
+      "id": "b34aba5ef5",
+      "title": "MSD bets $2.13bn on SciBrunch’s KRAS (ON) inhibitor",
+      "url": "https://www.pharmaceutical-technology.com/news/msd-scibrunch-licensing-deal-kras-g12d-on-inhibitor/",
+      "summary": "MSD's bet on targeting RAS comes amid the industry buzz around the approval of Revolution's OS-doubling pancreatic cancer drug, Rasonque.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-28T10:30:40+00:00",
-      "pub_ts": 1790591440
+      "pub_date": "2026-09-29T10:32:03+00:00",
+      "pub_ts": 1790677923
     },
     {
-      "id": "cfc2826ed9",
-      "title": "Novo inks $1.33bn long-lasting injectable pact with Sweden-based Nanexa",
-      "url": "https://www.pharmaceutical-technology.com/news/novo-inks-1-33bn-long-lasting-injectable-pact-with-sweden-based-nanexa/",
-      "summary": "Novo has meanwhile been busy bolstering its pipeline amid a target to launch more than five multi-blockbusters by 2030.",
+      "id": "2b5ef4daff",
+      "title": "AstraZeneca to invest $2bn in Summit for ADC combination therapies",
+      "url": "https://www.pharmaceutical-technology.com/news/astrazeneca-to-invest-2bn-summit-adc-therapies/",
+      "summary": "AstraZeneca has agreed to invest $2bn in newly issued equity in Summit Therapeutics to develop combination therapies using the bispecific antibody ivonescimab and ADCs across multiple tumour types.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-28T09:34:08+00:00",
-      "pub_ts": 1790588048
+      "pub_date": "2026-09-29T09:34:34+00:00",
+      "pub_ts": 1790674474
     },
     {
-      "id": "0fb561c1d1",
-      "title": "Daiichi Sankyo, MSD withdraw cancer drug application",
-      "url": "https://www.pharmaceutical-technology.com/news/daiichi-sankyo-msd-cancer-application/",
-      "summary": "Daiichi Sankyo and Merck & Co (MSD) have voluntarily withdrawn their biologics license application (BLA) for ifinatamab deruxtecan, aimed at treating adult patients with extensive-stage small cell lung cancer (ES-SCLC).",
+      "id": "1510e9b30c",
+      "title": "Tolerance Bio signs $560m worldwide TLB-33 deal with Tanabe Pharma",
+      "url": "https://www.pharmaceutical-technology.com/news/tolerance-bio-560m-worldwide-deal-tanabe-pharma/",
+      "summary": "Tolerance Bio has signed an agreement securing an exclusive licence from Tanabe Pharma for TLB-33 in a deal of up to around $560m.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-28T08:50:23+00:00",
-      "pub_ts": 1790585423
+      "pub_date": "2026-09-29T08:57:04+00:00",
+      "pub_ts": 1790672224
     },
     {
-      "id": "fb1f80f3f8",
-      "title": "Mirum and Incyte’s Atebrioz approved for FOP in US",
-      "url": "https://www.pharmaceutical-technology.com/news/mirum-incytes-atebrioz-fop-us/",
-      "summary": "The US Food and Drug Administration (FDA) has approved Mirum Pharmaceuticals and Incyte’s Atebrioz (zilurgisertib) for the treatment of fibrodysplasia ossificans progressiva (FOP) in patients aged 12 and above.",
+      "id": "14985d37e9",
+      "title": "Beyond OEB5: Is OEB6 really the next standard for high-potency pharma?",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/beyond-oeb5-is-oeb6-really-the-next-standard-for-high-potency-pharma/",
+      "summary": "",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-28T06:39:48+00:00",
-      "pub_ts": 1790577588
+      "pub_date": "2026-09-28T16:47:26+00:00",
+      "pub_ts": 1790614046
     }
   ],
   "source_success_count": 1,

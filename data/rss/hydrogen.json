@@ -3,108 +3,108 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-09-29T05:17:15.009048+00:00",
+  "updated_at": "2026-09-30T05:05:06.214646+00:00",
   "item_count": 10,
   "items": [
     {
-      "id": "44a3f2c5cb",
-      "title": "India Expects 400-500 Hydrogen Buses and Trucks on Roads by 2030, NGHM Chief Says",
-      "url": "https://fuelcellsworks.com/2026/09/27/fuel-cells/india-expects-400-500-hydrogen-buses-and-trucks-on-roads-by-2030-nghm-chief-says",
+      "id": "40aee3a131",
+      "title": "PowerCell secures SEK 21 million DLR order for integrated Fuel-to-Power system",
+      "url": "https://hydrogen-central.com/powercell-secures-sek-21-million-dlr-order-for-integrated-fuel-to-power-system/",
+      "summary": "PowerCell secures SEK 21 million DLR order for integrated Fuel-to-Power system PowerCell Group has secured an order worth approximately SEK 21 million from the German Aerospace Center (DLR) for an [&#8230;]\nThe post PowerCell secures SEK 21 million DLR order for integrated Fuel-to-Power system appea…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-09-29T17:22:24+00:00",
+      "pub_ts": 1790702544
+    },
+    {
+      "id": "b76eba722c",
+      "title": "Commission approves €290 million Dutch State aid to support sustainable aviation fuels",
+      "url": "https://hydrogen-central.com/commission-approves-e290-million-dutch-state-aid-to-support-sustainable-aviation-fuels/",
+      "summary": "Commission approves €290 million Dutch State aid to support sustainable aviation fuels The European Commission has approved, under EU State aid rules, two Dutch schemes with a combined budget of [&#8230;]\nThe post Commission approves €290 million Dutch State aid to support sustainable aviation fuels…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-09-29T17:19:35+00:00",
+      "pub_ts": 1790702375
+    },
+    {
+      "id": "9f4fc80e2a",
+      "title": "MEYER WERFT launches H2MASS project to develop hydrogen energy system for cruise ships",
+      "url": "https://hydrogen-central.com/meyer-werft-launches-h2mass-project-to-develop-hydrogen-energy-system-for-cruise-ships/",
+      "summary": "MEYER WERFT launches H2MASS project to develop hydrogen energy system for cruise ships MEYER WERFT has joined a new research initiative aimed at advancing the use of hydrogen in the [&#8230;]\nThe post MEYER WERFT launches H2MASS project to develop hydrogen energy system for cruise ships appeared fir…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-09-29T17:19:22+00:00",
+      "pub_ts": 1790702362
+    },
+    {
+      "id": "380ce7e68e",
+      "title": "RWE – GET H2 Nukleus gains momentum: First hydrogen from Lingen reaches Marl",
+      "url": "https://hydrogen-central.com/rwe-get-h2-nukleus-gains-momentum-first-hydrogen-from-lingen-reaches-marl/",
+      "summary": "RWE &#8211; GET H2 Nukleus gains momentum: First hydrogen from Lingen reaches Marl Lingen / Marl / Münster / Essen, 4 August 2026 The first hydrogen produced in the electrolysis [&#8230;]\nThe post RWE &#8211; GET H2 Nukleus gains momentum: First hydrogen from Lingen reaches Marl appeared first on Hy…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-09-29T17:14:51+00:00",
+      "pub_ts": 1790702091
+    },
+    {
+      "id": "4bc40a4fbe",
+      "title": "Hydrogen – Hydnum Steel secures a €150 million investment commitment from COFIDES to build the Iberian Peninsula’s first clean steel plant",
+      "url": "https://hydrogen-central.com/hydrogen-hydnum-steel-secures-a-e150-million-investment-commitment-from-cofides-to-build-the-iberian-peninsulas-first-clean-steel-plant/",
+      "summary": "Hydrogen &#8211; Hydnum Steel secures a €150 million investment commitment from COFIDES to build the Iberian Peninsula&#8217;s first clean steel plant The facility will be the first clean steel plant [&#8230;]\nThe post Hydrogen &#8211; Hydnum Steel secures a €150 million investment commitment from C…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-09-29T17:14:40+00:00",
+      "pub_ts": 1790702080
+    },
+    {
+      "id": "7ffa1402ac",
+      "title": "Story You May Have Missed: VEICHI Begins Rectifier Production for Sinopec Green Hydrogen Project",
+      "url": "https://fuelcellsworks.com/2026/09/29/h2/veichi-begins-rectifier-production-for-sinopec-green-hydrogen-project",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-28T16:44:58+00:00",
-      "pub_ts": 1790613898
+      "pub_date": "2026-09-29T17:01:31+00:00",
+      "pub_ts": 1790701291
     },
     {
-      "id": "65482b9261",
-      "title": "Fuel Cell and Hydrogen News Highlights From China: Sept. 21-Sept. 26, 2026",
-      "url": "https://fuelcellsworks.com/2026/09/26/electrolyzer/fuel-cell-and-hydrogen-news-highlights-from-china-sept-21-sep-t-18-2026",
+      "id": "c26bc7ba7d",
+      "title": "Denmark Adds $850M to Hydrogen Pipeline Support as Booking Rules Are Eased",
+      "url": "https://fuelcellsworks.com/2026/09/29/h2/denmark-adds-850m-to-hydrogen-pipeline-support-as-booking-rules-are-eased",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-28T16:28:19+00:00",
-      "pub_ts": 1790612899
+      "pub_date": "2026-09-29T16:09:11+00:00",
+      "pub_ts": 1790698151
     },
     {
-      "id": "192fd16086",
-      "title": "Fuel-Cell Components Hub Opens with Production and Testing Under One Roof",
-      "url": "https://fuelcellsworks.com/2026/09/28/electrolyzer/ufi-hydrogen-inaugurates-mea-production-hub-in-trentino-50-million-investment-plan-by-2029",
+      "id": "a5352d9a97",
+      "title": "HYDS Awards FEED Contract to Moreld Apply for 10MW Green Hydrogen Project at Port of Gothenburg",
+      "url": "https://fuelcellsworks.com/2026/09/29/h2/hyds-awards-feed-contract-to-moreld-apply-for-10mw-green-hydrogen-project-at-port-of-gothenburg",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-28T15:59:20+00:00",
-      "pub_ts": 1790611160
+      "pub_date": "2026-09-29T15:50:55+00:00",
+      "pub_ts": 1790697055
     },
     {
-      "id": "d6736060d4",
-      "title": "Hydrogen's First Kilometers on a Greek Motorway",
-      "url": "https://fuelcellsworks.com/2026/09/27/fuel-cells/hydrogen-s-first-kilometers-on-a-greek-motorway",
+      "id": "18e92a339a",
+      "title": "Liquid Hydrogen Drones to Patrol 120Km Pipeline in Real-World Trial",
+      "url": "https://fuelcellsworks.com/2026/09/27/fuel-cells/liquid-hydrogen-drones-to-patrol-120km-pipeline-in-real-world-trial",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-28T15:54:45+00:00",
-      "pub_ts": 1790610885
+      "pub_date": "2026-09-29T15:41:02+00:00",
+      "pub_ts": 1790696462
     },
     {
-      "id": "4429a256bd",
-      "title": "Bosch Rexroth and Kawasaki to Cooperate on Future-Proof Solutions for Off-Highway Machines and Hydrogen Applications",
-      "url": "https://fuelcellsworks.com/2026/09/28/h2/bosch-rexroth-and-kawasaki-to-cooperate-on-future-proof-solutions-for-off-highway-machines-and-hydrogen-applications",
+      "id": "5db5728562",
+      "title": "SunHydrogen Extends Joint Development Agreement with Honda R&D",
+      "url": "https://fuelcellsworks.com/2026/09/29/green-hydrogen/sunhydrogen-extends-joint-development-agreement-with-honda-r-and-d",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-09-28T15:36:18+00:00",
-      "pub_ts": 1790609778
-    },
-    {
-      "id": "37f0aa6b07",
-      "title": "US Hybrid Locates Headquarters and Manufacturing in Lancaster in Partnership with First Public Hydrogen Authority and City of Lancaster",
-      "url": "https://hydrogen-central.com/us-hybrid-locates-headquarters-and-manufacturing-in-lancaster-in-partnership-with-first-public-hydrogen-authority-and-city-of-lancaster/",
-      "summary": "US Hybrid Locates Headquarters and Manufacturing in Lancaster in Partnership with First Public Hydrogen Authority and City of Lancaster Pairing zero-emission vehicle manufacturing with public hydrogen supply to serve fleets [&#8230;]\nThe post US Hybrid Locates Headquarters and Manufacturing in Lanca…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-09-26T08:50:06+00:00",
-      "pub_ts": 1790412606
-    },
-    {
-      "id": "046a812269",
-      "title": "Utility Global Taps Erik Meuleman as Chief Technology Officer to Advance Proprietary H2Gen Commercialization",
-      "url": "https://hydrogen-central.com/utility-global-taps-erik-meuleman-as-chief-technology-officer-to-advance-proprietary-h2gen-commercialization/",
-      "summary": "Utility Global Taps Erik Meuleman as Chief Technology Officer to Advance Proprietary H2Gen Commercialization Industry veteran brings 20+ years of experience advancing decarbonization technologies from research to commercial deployment HOUSTON, [&#8230;]\nThe post Utility Global Taps Erik Meuleman as …",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-09-26T08:49:41+00:00",
-      "pub_ts": 1790412581
-    },
-    {
-      "id": "d10d9eb568",
-      "title": "Commercial use of green hydrogen cautiously gets under way in Czechia, with new project in Napajedla showing potential",
-      "url": "https://hydrogen-central.com/commercial-use-of-green-hydrogen-cautiously-gets-under-way-in-czechia-with-new-project-in-napajedla-showing-potential/",
-      "summary": "Commercial use of green hydrogen cautiously gets under way in Czechia, with new project in Napajedla showing potential Czechia’s first electrolyser producing green, or zero-emission, hydrogen has been built and [&#8230;]\nThe post Commercial use of green hydrogen cautiously gets under way in Czechia,…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-09-26T08:46:48+00:00",
-      "pub_ts": 1790412408
-    },
-    {
-      "id": "c60a76acf1",
-      "title": "OMV Petrom expands its green hydrogen production capacity at the Petrobrazi refinery to 55 MW with the delivery of a second 35 MW electrolyzer",
-      "url": "https://hydrogen-central.com/omv-petrom-expands-its-green-hydrogen-production-capacity-at-the-petrobrazi-refinery-to-55-mw-with-the-delivery-of-a-second-35-mw-electrolyzer/",
-      "summary": "OMV Petrom expands its green hydrogen production capacity at the Petrobrazi refinery to 55 MW with the delivery of a second 35 MW electrolyzer OMV Petrom, the largest integrated energy [&#8230;]\nThe post OMV Petrom expands its green hydrogen production capacity at the Petrobrazi refinery to 55 MW wi…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-09-26T08:23:11+00:00",
-      "pub_ts": 1790410991
-    },
-    {
-      "id": "bafb8ad723",
-      "title": "Poland – TAURON H2 and PKM Tychy want to cooperate to develop hydrogen-powered public transport",
-      "url": "https://hydrogen-central.com/poland-tauron-h2-and-pkm-tychy-want-to-cooperate-to-develop-hydrogen-powered-public-transport/",
-      "summary": "Poland &#8211; TAURON H2 and PKM Tychy want to cooperate to develop hydrogen-powered public transport TAURON H2 and the Tychy Municipal Transport Company have signed a letter of intent expressing [&#8230;]\nThe post Poland &#8211; TAURON H2 and PKM Tychy want to cooperate to develop hydrogen-powered …",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-09-26T08:23:09+00:00",
-      "pub_ts": 1790410989
+      "pub_date": "2026-09-29T15:32:02+00:00",
+      "pub_ts": 1790695922
     }
   ],
   "source_success_count": 2,
