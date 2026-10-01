@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-09-30T05:05:18.639565+00:00",
+  "updated_at": "2026-10-01T05:19:32.883647+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "b10ddf05fe",
-      "title": "Novo outlays $2.6bn in Hengrui deal to bolster oral obesity pipeline",
-      "url": "https://www.pharmaceutical-technology.com/news/novo-hengrui-2-6bn-licensing-deal-oral-obesity-drug/",
-      "summary": "Novo forges this deal as the company looks to extend the lead secured from its first-to-market advantage in the oral weight loss drug arena.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-09-29T10:35:05+00:00",
-      "pub_ts": 1790678105
-    },
-    {
-      "id": "b34aba5ef5",
-      "title": "MSD bets $2.13bn on SciBrunch’s KRAS (ON) inhibitor",
-      "url": "https://www.pharmaceutical-technology.com/news/msd-scibrunch-licensing-deal-kras-g12d-on-inhibitor/",
-      "summary": "MSD's bet on targeting RAS comes amid the industry buzz around the approval of Revolution's OS-doubling pancreatic cancer drug, Rasonque.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-09-29T10:32:03+00:00",
-      "pub_ts": 1790677923
-    },
-    {
-      "id": "2b5ef4daff",
-      "title": "AstraZeneca to invest $2bn in Summit for ADC combination therapies",
-      "url": "https://www.pharmaceutical-technology.com/news/astrazeneca-to-invest-2bn-summit-adc-therapies/",
-      "summary": "AstraZeneca has agreed to invest $2bn in newly issued equity in Summit Therapeutics to develop combination therapies using the bispecific antibody ivonescimab and ADCs across multiple tumour types.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-09-29T09:34:34+00:00",
-      "pub_ts": 1790674474
-    },
-    {
-      "id": "1510e9b30c",
-      "title": "Tolerance Bio signs $560m worldwide TLB-33 deal with Tanabe Pharma",
-      "url": "https://www.pharmaceutical-technology.com/news/tolerance-bio-560m-worldwide-deal-tanabe-pharma/",
-      "summary": "Tolerance Bio has signed an agreement securing an exclusive licence from Tanabe Pharma for TLB-33 in a deal of up to around $560m.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-09-29T08:57:04+00:00",
-      "pub_ts": 1790672224
-    },
-    {
-      "id": "14985d37e9",
-      "title": "Beyond OEB5: Is OEB6 really the next standard for high-potency pharma?",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/beyond-oeb5-is-oeb6-really-the-next-standard-for-high-potency-pharma/",
+      "id": "9f5bd94b7f",
+      "title": "Leading CDMO to attend CPHI Milan 2026 in Italy",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/leading-cdmo-to-attend-cphi-milan-2026-in-italy/",
       "summary": "",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-09-28T16:47:26+00:00",
-      "pub_ts": 1790614046
+      "pub_date": "2026-09-30T17:09:28+00:00",
+      "pub_ts": 1790788168
+    },
+    {
+      "id": "c8a73a8f84",
+      "title": "EASD 2026: CagriSema weight loss holds at submaximal doses in REDEFINE-1 analysis",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/easd-2026-cagrisema-weight-loss-holds-at-submaximal-doses-in-redefine-1-analysis/",
+      "summary": "Data arrives as drugmakers race to bring successors to popular obesity therapies like semaglutide and tirzepatide to market.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-09-30T16:40:31+00:00",
+      "pub_ts": 1790786431
+    },
+    {
+      "id": "1ff067a902",
+      "title": "Atossa plans shareholder stake in potential PRV proceeds",
+      "url": "https://www.pharmaceutical-technology.com/news/atossa-plans-shareholder-stake-in-potential-prv-proceeds/",
+      "summary": "Shareholders could be set for a cash reward if the biotech wins a voucher upon approval of (Z)-endoxifen.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-09-30T16:18:08+00:00",
+      "pub_ts": 1790785088
+    },
+    {
+      "id": "8a0b3f419e",
+      "title": "OBIO marks $704m funding milestone for Canadian health tech ventures",
+      "url": "https://www.pharmaceutical-technology.com/news/obio-1bn-canadian-health-tech-ventures/",
+      "summary": "Life sciences and technology companies supported by the OBIO's CAAP have collectively raised more than $1bn in capital.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-09-30T09:52:45+00:00",
+      "pub_ts": 1790761965
+    },
+    {
+      "id": "a7522f823b",
+      "title": "Kyowa Kirin, Knight agree Latin American distribution deal for mogamulizumab",
+      "url": "https://www.pharmaceutical-technology.com/news/kyowa-kirin-knight-latin-american-distribution-mogamulizumab/",
+      "summary": "Kyowa Kirin International has signed an exclusive distribution agreement with Knight Therapeutics for Poteligeo across selected Latin American markets.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-09-30T07:36:19+00:00",
+      "pub_ts": 1790753779
     }
   ],
   "source_success_count": 1,

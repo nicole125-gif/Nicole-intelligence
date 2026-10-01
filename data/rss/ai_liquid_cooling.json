@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-09-30T05:04:55.129440+00:00",
+  "updated_at": "2026-10-01T05:19:09.482380+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "53cc486196",
-      "title": "上千块录音笔的活儿，元宝免费干了，还能边录边拍",
-      "url": "https://mp.weixin.qq.com/s/vC-eGAnz7b5U7ssqXKtRNA",
-      "summary": "上千块录音笔的活儿，元宝免费干了，还能边录边拍",
+      "id": "73ce56721a",
+      "title": "Anthropic，你是来给智谱打广告的吧！",
+      "url": "https://mp.weixin.qq.com/s/XzR_J9cVrMViGiPtBt8WLQ",
+      "summary": "Anthropic，你是来给智谱打广告的吧！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-30T05:04:50.415045+00:00",
-      "pub_ts": 1790744690
+      "pub_date": "2026-10-01T05:19:03.784673+00:00",
+      "pub_ts": 1790831943
     },
     {
-      "id": "699eb92c62",
-      "title": "OpenAl推理之父最新访谈！数学只是多智能体时代的开胃菜",
-      "url": "https://mp.weixin.qq.com/s/6-FqoV2H1ZShD9I-KAQAKg",
-      "summary": "OpenAl推理之父最新访谈！数学只是多智能体时代的开胃菜",
+      "id": "b685ee6a42",
+      "title": "直播回顾：工业AI的下一个机会在哪？",
+      "url": "https://mp.weixin.qq.com/s/M3YCYV4ynr2FVSIKMdwSIQ",
+      "summary": "直播回顾：工业AI的下一个机会在哪？",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-30T05:04:50.415085+00:00",
-      "pub_ts": 1790744690
+      "pub_date": "2026-10-01T05:19:03.784719+00:00",
+      "pub_ts": 1790831943
     },
     {
-      "id": "53605d47e7",
-      "title": "精准揪出RL训练数据Bug，Prompt直出小游戏，IQuest-Q1夯爆了！",
-      "url": "https://mp.weixin.qq.com/s/zeQVHS3cOHOz4_wcaG2BGw",
-      "summary": "精准揪出RL训练数据Bug，Prompt直出小游戏，IQuest-Q1夯爆了！",
+      "id": "704ab612a5",
+      "title": "GPT-6要“吃掉”3D公司？这家公司不到2年ARR翻百倍，破1亿美元",
+      "url": "https://mp.weixin.qq.com/s/SZl3U1PORuRh2f9k8h7EeQ",
+      "summary": "GPT-6要“吃掉”3D公司？这家公司不到2年ARR翻百倍，破1亿美元",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-30T05:04:50.415110+00:00",
-      "pub_ts": 1790744690
+      "pub_date": "2026-10-01T05:19:03.784744+00:00",
+      "pub_ts": 1790831943
     },
     {
-      "id": "e85de8301c",
-      "title": "GPT-6.1Astra不发了！DevDay错过，Claude已赢麻",
-      "url": "https://mp.weixin.qq.com/s/lQznJjXIAOB-4xmxZio-4A",
-      "summary": "GPT-6.1Astra不发了！DevDay错过，Claude已赢麻",
+      "id": "3ae9814042",
+      "title": "国产世界模型首次出海上路！Momenta直接让百亿公里老司机..",
+      "url": "https://mp.weixin.qq.com/s/L-WXOXwbTo5BUELU18Ag3w",
+      "summary": "国产世界模型首次出海上路！Momenta直接让百亿公里老司机..",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-30T05:04:50.415132+00:00",
-      "pub_ts": 1790744690
+      "pub_date": "2026-10-01T05:19:03.784766+00:00",
+      "pub_ts": 1790831943
     },
     {
-      "id": "68b1e8fcaa",
-      "title": "删掉99.95%训练信号，效果反而更好！极端稀疏监督刷新大模型后...",
-      "url": "https://mp.weixin.qq.com/s/_dM9tgEYYf9Urs3MFei7tQ",
-      "summary": "删掉99.95%训练信号，效果反而更好！极端稀疏监督刷新大模型后...",
+      "id": "79da429826",
+      "title": "2026年度AI十大趋势征集启动|量子位智库",
+      "url": "https://mp.weixin.qq.com/s/hWAKJ0RBmaNHYm9LsFk4vw",
+      "summary": "2026年度AI十大趋势征集启动|量子位智库",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-09-30T05:04:50.415154+00:00",
-      "pub_ts": 1790744690
+      "pub_date": "2026-10-01T05:19:03.784827+00:00",
+      "pub_ts": 1790831943
     }
   ],
   "source_success_count": 1,
