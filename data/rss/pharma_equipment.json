@@ -3,9 +3,39 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-10-02T05:07:45.721897+00:00",
+  "updated_at": "2026-10-03T04:51:03.065370+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "f8c42178d5",
+      "title": "AstraZeneca deepens Summit ties on ADC-bispecific cancer combo testing pact",
+      "url": "https://www.pharmaceutical-technology.com/news/astrazeneca-daiichi-summit-adc-bispecific-cancer-partnership/",
+      "summary": "Summit is currently developing Ivonescimab in combination with other drugs across several types of solid tumours.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-10-02T13:30:13+00:00",
+      "pub_ts": 1790947813
+    },
+    {
+      "id": "c1a2c193cf",
+      "title": "Novartis bets on autoimmune BiTEs through $7.8bn Abogen deal",
+      "url": "https://www.pharmaceutical-technology.com/news/novartis-abogen-bite-deal-t-cell-engager-autoimmune/",
+      "summary": "Unlike other therapies in this class, Abogen’s ABO2203 is designed to produce a T-cell engager protein in vivo through an mRNA-encoded system.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-10-02T10:24:05+00:00",
+      "pub_ts": 1790936645
+    },
+    {
+      "id": "9321bf69de",
+      "title": "Magazine: Keep it cool",
+      "url": "https://www.pharmaceutical-technology.com/features/magazine-keep-it-cool/",
+      "summary": "In this issue: Key themes of CPHI 2026, the GLP-1 manufacturing shift, cold chain logistics, and more.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-10-02T09:23:56+00:00",
+      "pub_ts": 1790933036
+    },
     {
       "id": "8874773edc",
       "title": "Drug delivery’s next bottleneck isn’t innovation, it’s industrial capacity",
@@ -25,36 +55,6 @@
       "lang": "en",
       "pub_date": "2026-10-01T10:40:58+00:00",
       "pub_ts": 1790851258
-    },
-    {
-      "id": "507ffadaeb",
-      "title": "Varda pockets $251m to back space-based pharma processing mission",
-      "url": "https://www.pharmaceutical-technology.com/news/varda-pockets-251m-space-based-pharma-processing/",
-      "summary": "Varda secures this capital as drugmakers tout the potential of manufacturing in microgravity conditions to create differentiated medicines.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-10-01T10:24:46+00:00",
-      "pub_ts": 1790850286
-    },
-    {
-      "id": "f12a6748e1",
-      "title": "Bristol Myers Squibb secures expanded US approval for Camzyos",
-      "url": "https://www.pharmaceutical-technology.com/news/bms-expanded-us-approval-camzyos/",
-      "summary": "The US FDA has expanded the approved indication for BMS' Camzyos to treat symptomatic oHCM in adults and paediatric patients weighing at least 30 kg.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-10-01T09:21:41+00:00",
-      "pub_ts": 1790846501
-    },
-    {
-      "id": "fd3c08a48c",
-      "title": "BioMarin and Profluent partner on AI-designed enzyme therapies",
-      "url": "https://www.pharmaceutical-technology.com/news/biomarin-profluent-ai-enzyme-therapies/",
-      "summary": "BioMarin Pharmaceutical has entered into a research collaboration with Profluent to design and optimise novel enzyme therapies for its drug development pipeline.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-10-01T08:36:27+00:00",
-      "pub_ts": 1790843787
     }
   ],
   "source_success_count": 1,

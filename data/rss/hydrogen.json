@@ -3,111 +3,61 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-10-02T05:07:33.021362+00:00",
-  "item_count": 10,
+  "updated_at": "2026-10-03T04:50:50.400708+00:00",
+  "item_count": 5,
   "items": [
     {
-      "id": "2324ef9932",
-      "title": "Südostbayernbahn and Siemens launch new hydrogen train",
-      "url": "https://hydrogen-central.com/sudostbayernbahn-and-siemens-launch-new-hydrogen-train/",
-      "summary": "Südostbayernbahn and Siemens launch new hydrogen train Quiet, clean, hydrogen – these are the trio of characteristics that best describe the first hydrogen train for regional operation in Bavaria, unveiled [&#8230;]\nThe post Südostbayernbahn and Siemens launch new hydrogen train appeared first on Hy…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-10-01T16:56:49+00:00",
-      "pub_ts": 1790873809
-    },
-    {
-      "id": "a6993cfff5",
-      "title": "Israel turns to hydrogen as the world questions whether it is really the fuel of the future",
-      "url": "https://hydrogen-central.com/israel-turns-to-hydrogen-as-the-world-questions-whether-it-is-really-the-fuel-of-the-future/",
-      "summary": "Israel turns to hydrogen as the world questions whether it is really the fuel of the future This week, the Ministry of Energy proudly announced: The Hydrogen Valley in the [&#8230;]\nThe post Israel turns to hydrogen as the world questions whether it is really the fuel of the future appeared first on…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-10-01T16:56:23+00:00",
-      "pub_ts": 1790873783
-    },
-    {
-      "id": "59e3beeb62",
-      "title": "Primary Hydrogen Announces Fully Funded and Permitted 2026 Exploration and Maiden Drill Program at Wicheeda North",
-      "url": "https://hydrogen-central.com/primary-hydrogen-announces-fully-funded-and-permitted-2026-exploration-and-maiden-drill-program-at-wicheeda-north/",
-      "summary": "Primary Hydrogen Announces Fully Funded and Permitted 2026 Exploration and Maiden Drill Program at Wicheeda North Calgary, Alberta&#8211;(Newsfile Corp. &#8211; August 10, 2026) &#8211; Primary Hydrogen Corp. (TSXV: HDRO) (FSE: [&#8230;]\nThe post Primary Hydrogen Announces Fully Funded and Permitted…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-10-01T16:56:01+00:00",
-      "pub_ts": 1790873761
-    },
-    {
-      "id": "1fa90e49bd",
-      "title": "SwRI develops improved medium-duty hydrogen engine",
-      "url": "https://hydrogen-central.com/swri-develops-improved-medium-duty-hydrogen-engine/",
-      "summary": "SwRI develops improved medium-duty hydrogen engine August 5, 2026 — Southwest Research Institute successfully completed development of an optimized spark-ignited hydrogen (H2) internal combustion engine (ICE) designed for medium-duty commercial [&#8230;]\nThe post SwRI develops improved medium-duty h…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-10-01T16:55:45+00:00",
-      "pub_ts": 1790873745
-    },
-    {
-      "id": "d1f9c28b9e",
-      "title": "HRS (HYDROGEN REFUELING SOLUTIONS) – SIGNING OF THE PRELIMINARY SALE-AND-LEASEBACK AGREEMENT WITH AZUR DATACENTER FOR THE CHAMPAGNIER HEADQUARTERS",
-      "url": "https://hydrogen-central.com/hrs-hydrogen-refueling-solutions-signing-of-the-preliminary-sale-and-leaseback-agreement-with-azur-datacenter-for-the-champagnier-headquarters/",
-      "summary": "HRS (HYDROGEN REFUELING SOLUTIONS) &#8211; SIGNING OF THE PRELIMINARY SALE-AND-LEASEBACK AGREEMENT WITH AZUR DATACENTER FOR THE CHAMPAGNIER HEADQUARTERS Grenoble, 10 August 2026 – HRS, a French designer and manufacturer of [&#8230;]\nThe post HRS (HYDROGEN REFUELING SOLUTIONS) &#8211; SIGNING OF THE …",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-10-01T16:50:34+00:00",
-      "pub_ts": 1790873434
-    },
-    {
-      "id": "a77b69c9cf",
-      "title": "Greece Eyes Green Hydrogen Exports to Central Europe Through Planned Italy Link",
-      "url": "https://fuelcellsworks.com/2026/10/01/h2/greece-eyes-green-hydrogen-exports-to-central-europe-through-planned-italy-link",
+      "id": "2f351e9b82",
+      "title": "Everfuel CEO Relieved by Danish Pipeline Deal: \"Totally Essential\"",
+      "url": "https://fuelcellsworks.com/2026/09/30/h2/everfuel-ceo-relieved-by-danish-pipeline-deal-totally-essential",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-01T15:50:10+00:00",
-      "pub_ts": 1790869810
+      "pub_date": "2026-10-02T15:56:38+00:00",
+      "pub_ts": 1790956598
     },
     {
-      "id": "d8caa82328",
-      "title": "VIVIFY Technology Signs Letter of Intent to Power Evolution Metals & Technologies' Rare Earth Magnet Operations with Behind-the-Meter Hydrogen Energy",
-      "url": "https://fuelcellsworks.com/2026/10/01/h2/vivify-technology-signs-letter-of-intent-to-power-evolution-metals-and-technologies-rare-earth-magnet-operations-with-behind-the-meter-hydrogen-energy",
+      "id": "94f5e365dc",
+      "title": "EnBW Inagurates 5MW Hydropower-Fed Hydrogen Plant in Wyhlen",
+      "url": "https://fuelcellsworks.com/2026/10/02/clean-energy/enbw-opens-5mw-hydropower-fed-hydrogen-plant-in-wyhlen",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-01T15:49:36+00:00",
-      "pub_ts": 1790869776
+      "pub_date": "2026-10-02T15:54:32+00:00",
+      "pub_ts": 1790956472
     },
     {
-      "id": "dc28db3808",
-      "title": "Story You May Have Missed: Spain Fast-Tracks Permitting for First 234 Km of National Hydrogen Pipeline Network",
-      "url": "https://fuelcellsworks.com/2026/10/01/h2/story-you-may-have-missed-spain-fast-tracks-permitting-for-first-234-km-of-national-hydrogen-pipeline-network",
+      "id": "ec92c9b597",
+      "title": "Hyundai XCIENT Fuel Cell Truck Takes On Beverage Logistics in Germany",
+      "url": "https://fuelcellsworks.com/2026/09/29/fuel-cells/hyundai-xcient-fuel-cell-truck-takes-on-beverage-logistics-in-germany",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-01T15:48:32+00:00",
-      "pub_ts": 1790869712
+      "pub_date": "2026-10-02T15:39:08+00:00",
+      "pub_ts": 1790955548
     },
     {
-      "id": "147a9f0b75",
-      "title": "Austria Steps In With National Hydrogen Funds as EU Projects Fall Away",
-      "url": "https://fuelcellsworks.com/2026/09/30/h2/austria-steps-in-with-national-hydrogen-funds-as-eu-projects-fall-away",
+      "id": "6f7acfb112",
+      "title": "Voestalpine and VERBUND Launch Expanded H2FUTURE Hydrogen Pilot Plant in Linz",
+      "url": "https://fuelcellsworks.com/2026/10/02/h2/voestalpine-and-verbund-launch-expanded-h2future-hydrogen-pilot-plant-in-linz",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-01T15:12:43+00:00",
-      "pub_ts": 1790867563
+      "pub_date": "2026-10-02T15:34:17+00:00",
+      "pub_ts": 1790955257
     },
     {
-      "id": "508f41278e",
-      "title": "Japan’s KIKOU MARU Completes 33Km Voyage Using Hydrogen-Only Marine Engine",
-      "url": "https://fuelcellsworks.com/2026/10/01/clean-hydrogen/japan-s-kikou-maru-completes-33km-voyage-using-hydrogen-only-marine-engine",
+      "id": "62265cf212",
+      "title": "SPARX to Build Green Hydrogen Refuelling Station in Tomakomai",
+      "url": "https://fuelcellsworks.com/2026/10/01/h2/sparx-to-build-green-hydrogen-refuelling-station-in-tomakomai",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-01T14:44:20+00:00",
-      "pub_ts": 1790865860
+      "pub_date": "2026-10-02T15:24:53+00:00",
+      "pub_ts": 1790954693
     }
   ],
-  "source_success_count": 2,
+  "source_success_count": 1,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }

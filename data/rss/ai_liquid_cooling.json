@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-10-02T05:07:21.888520+00:00",
+  "updated_at": "2026-10-03T04:50:06.963641+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "31a9b7d7ae",
-      "title": "平遥搞起AI短片黑客松，本某果爱好者大为震撼。。。",
-      "url": "https://mp.weixin.qq.com/s/M6gB2vIgs0MUmsuMaQenbQ",
-      "summary": "平遥搞起AI短片黑客松，本某果爱好者大为震撼。。。",
+      "id": "21a3d5ce35",
+      "title": "Jev估值100亿美元！创始人DiogoAlmeida回答一切",
+      "url": "https://mp.weixin.qq.com/s/TYgfqz-galSfQIBgjCEvDA",
+      "summary": "Jev估值100亿美元！创始人DiogoAlmeida回答一切",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-02T05:07:17.026493+00:00",
-      "pub_ts": 1790917637
+      "pub_date": "2026-10-03T04:50:01.075838+00:00",
+      "pub_ts": 1791003001
     },
     {
-      "id": "75cf3c4be4",
-      "title": "啊啊啊好多瓜！Altman与Dario闹掰内幕给我看爽了",
-      "url": "https://mp.weixin.qq.com/s/jOjJE-k4eWBazMYOeSnE0Q",
-      "summary": "啊啊啊好多瓜！Altman与Dario闹掰内幕给我看爽了",
+      "id": "a4ff4f3bf0",
+      "title": "arXiv最严新规！每人每月最多提交2篇，拒稿不退额度",
+      "url": "https://mp.weixin.qq.com/s/swAACvgEkHxhjD7Vw89CzQ",
+      "summary": "arXiv最严新规！每人每月最多提交2篇，拒稿不退额度",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-02T05:07:17.026536+00:00",
-      "pub_ts": 1790917637
+      "pub_date": "2026-10-03T04:50:01.075881+00:00",
+      "pub_ts": 1791003001
     },
     {
-      "id": "0586055b06",
-      "title": "Anthropic招股书，全招了",
-      "url": "https://mp.weixin.qq.com/s/3i1xgBxLSCv0OQtvoxXuLQ",
-      "summary": "Anthropic招股书，全招了",
+      "id": "ae71e8b500",
+      "title": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
+      "url": "https://mp.weixin.qq.com/s/dNe74gJ3tBoj3vczWWl8Zw",
+      "summary": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-02T05:07:17.026558+00:00",
-      "pub_ts": 1790917637
+      "pub_date": "2026-10-03T04:50:01.075905+00:00",
+      "pub_ts": 1791003001
     },
     {
-      "id": "803579bc93",
-      "title": "我的五线老家成了“Token之都”",
-      "url": "https://mp.weixin.qq.com/s/RjHuN2AdvL_wAv9Z2kuVGA",
-      "summary": "我的五线老家成了“Token之都”",
+      "id": "475ce4a0a1",
+      "title": "丘成桐新论文致谢了GPT和Claude",
+      "url": "https://mp.weixin.qq.com/s/dN-jwowN_PDJGEaAi_c4DQ",
+      "summary": "丘成桐新论文致谢了GPT和Claude",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-02T05:07:17.026579+00:00",
-      "pub_ts": 1790917637
+      "pub_date": "2026-10-03T04:50:01.075927+00:00",
+      "pub_ts": 1791003001
     },
     {
-      "id": "69dc78eb74",
-      "title": "何恺明团队新作：看猫片就能学会ARC挑战",
-      "url": "https://mp.weixin.qq.com/s/IQH3easn93wPN_cXtbUzMw",
-      "summary": "何恺明团队新作：看猫片就能学会ARC挑战",
+      "id": "f39d5c927a",
+      "title": "openJiuwen X-Router自演进模型路由技术首发，昇腾亲和，Agent...",
+      "url": "https://mp.weixin.qq.com/s/V22hT0-KzELM0BbKTitKeg",
+      "summary": "openJiuwen X-Router自演进模型路由技术首发，昇腾亲和，Agent...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-02T05:07:17.026599+00:00",
-      "pub_ts": 1790917637
+      "pub_date": "2026-10-03T04:50:01.075948+00:00",
+      "pub_ts": 1791003001
     }
   ],
   "source_success_count": 1,
