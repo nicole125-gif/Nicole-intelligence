@@ -3,9 +3,59 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-10-03T04:50:50.400708+00:00",
-  "item_count": 5,
+  "updated_at": "2026-10-04T05:22:59.995979+00:00",
+  "item_count": 10,
   "items": [
+    {
+      "id": "f02fa63dfa",
+      "title": "Next Hydrogen Completes Engineering Design for 10 MW Fueling Station in Expanding British Columbia Market",
+      "url": "https://hydrogen-central.com/next-hydrogen-completes-engineering-design-for-10-mw-fueling-station-in-expanding-british-columbia-market/",
+      "summary": "Next Hydrogen Completes Engineering Design for 10 MW Fueling Station in Expanding British Columbia Market MISSISSAUGA, Ontario, Aug. 18, 2026 (GLOBE NEWSWIRE) &#8212; Next Hydrogen Solutions Inc. (“Next Hydrogen” or [&#8230;]\nThe post Next Hydrogen Completes Engineering Design for 10 MW Fueling Stat…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-10-02T16:58:48+00:00",
+      "pub_ts": 1790960328
+    },
+    {
+      "id": "514143dc76",
+      "title": "MAX Power Closes $10 Million Strategic Investment From Eric Sprott to Advance Commercial Validation at Lawson",
+      "url": "https://hydrogen-central.com/max-power-closes-10-million-strategic-investment-from-eric-sprott-to-advance-commercial-validation-at-lawson/",
+      "summary": "MAX Power Closes $10 Million Strategic Investment From Eric Sprott to Advance Commercial Validation at Lawson Fresh investment by Eric Sprott into MAX Power follows early success in ongoing commercial [&#8230;]\nThe post MAX Power Closes $10 Million Strategic Investment From Eric Sprott to Advance Co…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-10-02T16:56:51+00:00",
+      "pub_ts": 1790960211
+    },
+    {
+      "id": "3e3d3ffa63",
+      "title": "NiftyLift adds hydrogen option, retrofit",
+      "url": "https://hydrogen-central.com/niftylift-adds-hydrogen-option-retrofit/",
+      "summary": "NiftyLift adds hydrogen option, retrofit 17 Aug NiftyLift will launch a new fuel cell powered version of its HR21 access platform at Vertikal Days, with the hydrogen electric option available [&#8230;]\nThe post NiftyLift adds hydrogen option, retrofit appeared first on Hydrogen Central.",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-10-02T16:56:45+00:00",
+      "pub_ts": 1790960205
+    },
+    {
+      "id": "36946ea0e9",
+      "title": "Portugal – Is the gas network ready for hydrogen?",
+      "url": "https://hydrogen-central.com/portugal-is-the-gas-network-ready-for-hydrogen/",
+      "summary": "Portugal &#8211; Is the gas network ready for hydrogen? Injecting hydrogen into infrastructure originally designed for natural gas requires testing to assess whether the distribution networks are adequate, determine the [&#8230;]\nThe post Portugal &#8211; Is the gas network ready for hydrogen? appea…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-10-02T16:56:39+00:00",
+      "pub_ts": 1790960199
+    },
+    {
+      "id": "72a48d9ab2",
+      "title": "GLOBAL POWER SOLUTIONS ADVANCES MODULAR HYDROGEN POWER SYSTEM WITH PROPOSED FIRST EQUIPMENT PURCHASE",
+      "url": "https://hydrogen-central.com/global-power-solutions-advances-modular-hydrogen-power-system-with-proposed-first-equipment-purchase/",
+      "summary": "GLOBAL POWER SOLUTIONS ADVANCES MODULAR HYDROGEN POWER SYSTEM WITH PROPOSED FIRST EQUIPMENT PURCHASE Vancouver, British Columbia, Aug. 17, 2026 (GLOBE NEWSWIRE) &#8212; Global Power Solutions Corp. (TSXV: PWER) (FSE: NJA) [&#8230;]\nThe post GLOBAL POWER SOLUTIONS ADVANCES MODULAR HYDROGEN POWER SYST…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-10-02T16:56:20+00:00",
+      "pub_ts": 1790960180
+    },
     {
       "id": "2f351e9b82",
       "title": "Everfuel CEO Relieved by Danish Pipeline Deal: \"Totally Essential\"",
@@ -57,7 +107,7 @@
       "pub_ts": 1790954693
     }
   ],
-  "source_success_count": 1,
+  "source_success_count": 2,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }

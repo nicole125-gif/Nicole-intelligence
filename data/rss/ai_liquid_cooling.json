@@ -3,58 +3,48 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-10-03T04:50:06.963641+00:00",
-  "item_count": 5,
+  "updated_at": "2026-10-04T05:22:49.213718+00:00",
+  "item_count": 4,
   "items": [
     {
-      "id": "21a3d5ce35",
-      "title": "Jev估值100亿美元！创始人DiogoAlmeida回答一切",
-      "url": "https://mp.weixin.qq.com/s/TYgfqz-galSfQIBgjCEvDA",
-      "summary": "Jev估值100亿美元！创始人DiogoAlmeida回答一切",
+      "id": "2e1117101f",
+      "title": "DeepSeek扩招！弹性计算团队大量HC，尤其需要资深工程师",
+      "url": "https://mp.weixin.qq.com/s/SfHH58LQK-RFv-9dpMmOMw",
+      "summary": "DeepSeek扩招！弹性计算团队大量HC，尤其需要资深工程师",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-03T04:50:01.075838+00:00",
-      "pub_ts": 1791003001
+      "pub_date": "2026-10-04T05:22:43.857996+00:00",
+      "pub_ts": 1791091363
     },
     {
-      "id": "a4ff4f3bf0",
-      "title": "arXiv最严新规！每人每月最多提交2篇，拒稿不退额度",
-      "url": "https://mp.weixin.qq.com/s/swAACvgEkHxhjD7Vw89CzQ",
-      "summary": "arXiv最严新规！每人每月最多提交2篇，拒稿不退额度",
+      "id": "a3964bba58",
+      "title": "魔搭开源动态检索新框架，无需预构建向量索引，知识库还能自己进化",
+      "url": "https://mp.weixin.qq.com/s/aUEvKaotmC-2u4k5GBBoVw",
+      "summary": "魔搭开源动态检索新框架，无需预构建向量索引，知识库还能自己进化",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-03T04:50:01.075881+00:00",
-      "pub_ts": 1791003001
+      "pub_date": "2026-10-04T05:22:43.858036+00:00",
+      "pub_ts": 1791091363
     },
     {
-      "id": "ae71e8b500",
-      "title": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
-      "url": "https://mp.weixin.qq.com/s/dNe74gJ3tBoj3vczWWl8Zw",
-      "summary": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
+      "id": "88be6db8be",
+      "title": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
+      "url": "https://mp.weixin.qq.com/s/HBuB_NryTns-E3gNNisPsQ",
+      "summary": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-03T04:50:01.075905+00:00",
-      "pub_ts": 1791003001
+      "pub_date": "2026-10-04T05:22:43.858060+00:00",
+      "pub_ts": 1791091363
     },
     {
-      "id": "475ce4a0a1",
-      "title": "丘成桐新论文致谢了GPT和Claude",
-      "url": "https://mp.weixin.qq.com/s/dN-jwowN_PDJGEaAi_c4DQ",
-      "summary": "丘成桐新论文致谢了GPT和Claude",
+      "id": "1166c8aecd",
+      "title": "2026年度A十大趋势征集启动|量子位智库",
+      "url": "https://mp.weixin.qq.com/s/AdD_9H3jgCBJV1eREdbeWQ",
+      "summary": "2026年度A十大趋势征集启动|量子位智库",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-03T04:50:01.075927+00:00",
-      "pub_ts": 1791003001
-    },
-    {
-      "id": "f39d5c927a",
-      "title": "openJiuwen X-Router自演进模型路由技术首发，昇腾亲和，Agent...",
-      "url": "https://mp.weixin.qq.com/s/V22hT0-KzELM0BbKTitKeg",
-      "summary": "openJiuwen X-Router自演进模型路由技术首发，昇腾亲和，Agent...",
-      "source": "量子位-AI硬件",
-      "lang": "zh",
-      "pub_date": "2026-10-03T04:50:01.075948+00:00",
-      "pub_ts": 1791003001
+      "pub_date": "2026-10-04T05:22:43.858082+00:00",
+      "pub_ts": 1791091363
     }
   ],
   "source_success_count": 1,
