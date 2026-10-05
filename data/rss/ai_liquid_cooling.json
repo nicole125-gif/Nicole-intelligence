@@ -3,48 +3,48 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-10-04T05:22:49.213718+00:00",
+  "updated_at": "2026-10-05T05:05:37.693959+00:00",
   "item_count": 4,
   "items": [
     {
-      "id": "2e1117101f",
-      "title": "DeepSeek扩招！弹性计算团队大量HC，尤其需要资深工程师",
-      "url": "https://mp.weixin.qq.com/s/SfHH58LQK-RFv-9dpMmOMw",
-      "summary": "DeepSeek扩招！弹性计算团队大量HC，尤其需要资深工程师",
+      "id": "ee2c442cca",
+      "title": "AI算力硬合作，马斯克还是更相信中国制造",
+      "url": "https://mp.weixin.qq.com/s/4N6ayTEpDNJvrG_gL1n5ug",
+      "summary": "AI算力硬合作，马斯克还是更相信中国制造",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-04T05:22:43.857996+00:00",
-      "pub_ts": 1791091363
+      "pub_date": "2026-10-05T05:05:32.812849+00:00",
+      "pub_ts": 1791176732
     },
     {
-      "id": "a3964bba58",
-      "title": "魔搭开源动态检索新框架，无需预构建向量索引，知识库还能自己进化",
-      "url": "https://mp.weixin.qq.com/s/aUEvKaotmC-2u4k5GBBoVw",
-      "summary": "魔搭开源动态检索新框架，无需预构建向量索引，知识库还能自己进化",
+      "id": "b3ae380d18",
+      "title": "GPT-6Astra盲打魔兽世界，40分钟刷穿新手村",
+      "url": "https://mp.weixin.qq.com/s/tJmtem7AX7SAwfwEDqBzkA",
+      "summary": "GPT-6Astra盲打魔兽世界，40分钟刷穿新手村",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-04T05:22:43.858036+00:00",
-      "pub_ts": 1791091363
+      "pub_date": "2026-10-05T05:05:32.812892+00:00",
+      "pub_ts": 1791176732
     },
     {
-      "id": "88be6db8be",
-      "title": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
-      "url": "https://mp.weixin.qq.com/s/HBuB_NryTns-E3gNNisPsQ",
-      "summary": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
+      "id": "b8bbc855cf",
+      "title": "最火AI岗位FDE：月薪5万，都干这些..",
+      "url": "https://mp.weixin.qq.com/s/0mXJEMj4e_xrY1fH88iWow",
+      "summary": "最火AI岗位FDE：月薪5万，都干这些..",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-04T05:22:43.858060+00:00",
-      "pub_ts": 1791091363
+      "pub_date": "2026-10-05T05:05:32.812916+00:00",
+      "pub_ts": 1791176732
     },
     {
-      "id": "1166c8aecd",
-      "title": "2026年度A十大趋势征集启动|量子位智库",
-      "url": "https://mp.weixin.qq.com/s/AdD_9H3jgCBJV1eREdbeWQ",
-      "summary": "2026年度A十大趋势征集启动|量子位智库",
+      "id": "4129ba80ed",
+      "title": "异构分组混合专家架构上线：参数瘦身20%，推理反超传统MoE|ACL'26",
+      "url": "https://mp.weixin.qq.com/s/KXcHiVoYrHCU6nXpVPiuGA",
+      "summary": "异构分组混合专家架构上线：参数瘦身20%，推理反超传统MoE|ACL'26",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-04T05:22:43.858082+00:00",
-      "pub_ts": 1791091363
+      "pub_date": "2026-10-05T05:05:32.812939+00:00",
+      "pub_ts": 1791176732
     }
   ],
   "source_success_count": 1,
