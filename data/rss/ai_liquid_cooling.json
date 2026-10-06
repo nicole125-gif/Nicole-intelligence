@@ -3,48 +3,38 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-10-05T05:05:37.693959+00:00",
-  "item_count": 4,
+  "updated_at": "2026-10-06T05:52:53.082952+00:00",
+  "item_count": 3,
   "items": [
     {
-      "id": "ee2c442cca",
-      "title": "AI算力硬合作，马斯克还是更相信中国制造",
-      "url": "https://mp.weixin.qq.com/s/4N6ayTEpDNJvrG_gL1n5ug",
-      "summary": "AI算力硬合作，马斯克还是更相信中国制造",
+      "id": "47c51b1274",
+      "title": "刚刚，诺贝尔奖颁给光遗传学！",
+      "url": "https://mp.weixin.qq.com/s/Kyw9hi5zCB-mQSCjjr9FJg",
+      "summary": "刚刚，诺贝尔奖颁给光遗传学！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-05T05:05:32.812849+00:00",
-      "pub_ts": 1791176732
+      "pub_date": "2026-10-06T05:52:49.278585+00:00",
+      "pub_ts": 1791265969
     },
     {
-      "id": "b3ae380d18",
-      "title": "GPT-6Astra盲打魔兽世界，40分钟刷穿新手村",
-      "url": "https://mp.weixin.qq.com/s/tJmtem7AX7SAwfwEDqBzkA",
-      "summary": "GPT-6Astra盲打魔兽世界，40分钟刷穿新手村",
+      "id": "297377f0f3",
+      "title": "刚刚，Hinton发了首篇RSI论文",
+      "url": "https://mp.weixin.qq.com/s/tEyarN9uAFXBrrf9jjD01Q",
+      "summary": "刚刚，Hinton发了首篇RSI论文",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-05T05:05:32.812892+00:00",
-      "pub_ts": 1791176732
+      "pub_date": "2026-10-06T05:52:49.278626+00:00",
+      "pub_ts": 1791265969
     },
     {
-      "id": "b8bbc855cf",
-      "title": "最火AI岗位FDE：月薪5万，都干这些..",
-      "url": "https://mp.weixin.qq.com/s/0mXJEMj4e_xrY1fH88iWow",
-      "summary": "最火AI岗位FDE：月薪5万，都干这些..",
+      "id": "a40bd66c81",
+      "title": "限时28天！OpenAl承诺没新功能就重置，网友：只想要Opus",
+      "url": "https://mp.weixin.qq.com/s/-hc69LfHf2qs9RBLtfryPw",
+      "summary": "限时28天！OpenAl承诺没新功能就重置，网友：只想要Opus",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-05T05:05:32.812916+00:00",
-      "pub_ts": 1791176732
-    },
-    {
-      "id": "4129ba80ed",
-      "title": "异构分组混合专家架构上线：参数瘦身20%，推理反超传统MoE|ACL'26",
-      "url": "https://mp.weixin.qq.com/s/KXcHiVoYrHCU6nXpVPiuGA",
-      "summary": "异构分组混合专家架构上线：参数瘦身20%，推理反超传统MoE|ACL'26",
-      "source": "量子位-AI硬件",
-      "lang": "zh",
-      "pub_date": "2026-10-05T05:05:32.812939+00:00",
-      "pub_ts": 1791176732
+      "pub_date": "2026-10-06T05:52:49.278651+00:00",
+      "pub_ts": 1791265969
     }
   ],
   "source_success_count": 1,

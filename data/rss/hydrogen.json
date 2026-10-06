@@ -3,9 +3,69 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-10-05T05:05:55.076294+00:00",
+  "updated_at": "2026-10-06T05:53:03.835726+00:00",
   "item_count": 10,
   "items": [
+    {
+      "id": "8e16236be3",
+      "title": "Perpetual Next and Lhyfe to Explore Renewable Hydrogen Supply for Biomethanol Facility in Delfzijl, the Netherlands",
+      "url": "https://fuelcellsworks.com/2026/10/05/h2/perpetual-next-and-lhyfe-to-explore-renewable-hydrogen-supply-for-biomethanol-facility-in-delfzijl-the-netherlands",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-10-05T16:22:45+00:00",
+      "pub_ts": 1791217365
+    },
+    {
+      "id": "7930dbc1b3",
+      "title": "Fuel Cell and Hydrogen News Highlights From China: Sept. 28-Oct. 02 2026",
+      "url": "https://fuelcellsworks.com/2026/10/03/clean-energy/fuel-cell-and-hydrogen-news-highlights-from-china-sept-28-oct-02-2026",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-10-05T16:12:24+00:00",
+      "pub_ts": 1791216744
+    },
+    {
+      "id": "828523efe4",
+      "title": "Toyota Launches New Fuel Cell Route Bus \"Sora\"",
+      "url": "https://fuelcellsworks.com/2026/10/05/fuel-cells/toyota-launches-new-fuel-cell-route-bus-sora",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-10-05T15:55:40+00:00",
+      "pub_ts": 1791215740
+    },
+    {
+      "id": "991f239a74",
+      "title": "Spain’s Snap Election Puts Green Hydrogen Policy Under Scrutiny — But a Change of Government Would Not Necessarily Derail Sector",
+      "url": "https://fuelcellsworks.com/2026/10/05/h2/spain-s-snap-election-puts-green-hydrogen-policy-under-scrutiny-but-a-change-of-government-would-not-necessarily-derail-sector",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-10-05T15:40:52+00:00",
+      "pub_ts": 1791214852
+    },
+    {
+      "id": "317f432a0b",
+      "title": "HKUST Develops Self-Sustaining Seawater-to-Hydrogen System",
+      "url": "https://fuelcellsworks.com/2026/10/05/clean-energy/hkust-develops-self-sustaining-seawater-to-hydrogen-system",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-10-05T15:30:07+00:00",
+      "pub_ts": 1791214207
+    },
+    {
+      "id": "6c1396d956",
+      "title": "DynElectro sets new world record for Solid Oxide electrolysis stack durability: 25,000 hours with near-zero degradation",
+      "url": "https://hydrogen-central.com/dynelectro-sets-new-world-record-for-solid-oxide-electrolysis-stack-durability25000-hours-with-near-zero-degradation/",
+      "summary": "DynElectro sets new world record for Solid Oxide electrolysis stack durability: 25,000 hours with near-zero degradation Published in Nature Communications, the results show that DynElectro&#8217;s patented AC:DC operation reduces degradation of solid [&#8230;]\nThe post DynElectro sets new world reco…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-10-05T11:23:59+00:00",
+      "pub_ts": 1791199439
+    },
     {
       "id": "f02fa63dfa",
       "title": "Next Hydrogen Completes Engineering Design for 10 MW Fueling Station in Expanding British Columbia Market",
@@ -45,66 +105,6 @@
       "lang": "en",
       "pub_date": "2026-10-02T16:56:39+00:00",
       "pub_ts": 1790960199
-    },
-    {
-      "id": "72a48d9ab2",
-      "title": "GLOBAL POWER SOLUTIONS ADVANCES MODULAR HYDROGEN POWER SYSTEM WITH PROPOSED FIRST EQUIPMENT PURCHASE",
-      "url": "https://hydrogen-central.com/global-power-solutions-advances-modular-hydrogen-power-system-with-proposed-first-equipment-purchase/",
-      "summary": "GLOBAL POWER SOLUTIONS ADVANCES MODULAR HYDROGEN POWER SYSTEM WITH PROPOSED FIRST EQUIPMENT PURCHASE Vancouver, British Columbia, Aug. 17, 2026 (GLOBE NEWSWIRE) &#8212; Global Power Solutions Corp. (TSXV: PWER) (FSE: NJA) [&#8230;]\nThe post GLOBAL POWER SOLUTIONS ADVANCES MODULAR HYDROGEN POWER SYST…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-10-02T16:56:20+00:00",
-      "pub_ts": 1790960180
-    },
-    {
-      "id": "2f351e9b82",
-      "title": "Everfuel CEO Relieved by Danish Pipeline Deal: \"Totally Essential\"",
-      "url": "https://fuelcellsworks.com/2026/09/30/h2/everfuel-ceo-relieved-by-danish-pipeline-deal-totally-essential",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-10-02T15:56:38+00:00",
-      "pub_ts": 1790956598
-    },
-    {
-      "id": "94f5e365dc",
-      "title": "EnBW Inagurates 5MW Hydropower-Fed Hydrogen Plant in Wyhlen",
-      "url": "https://fuelcellsworks.com/2026/10/02/clean-energy/enbw-opens-5mw-hydropower-fed-hydrogen-plant-in-wyhlen",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-10-02T15:54:32+00:00",
-      "pub_ts": 1790956472
-    },
-    {
-      "id": "ec92c9b597",
-      "title": "Hyundai XCIENT Fuel Cell Truck Takes On Beverage Logistics in Germany",
-      "url": "https://fuelcellsworks.com/2026/09/29/fuel-cells/hyundai-xcient-fuel-cell-truck-takes-on-beverage-logistics-in-germany",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-10-02T15:39:08+00:00",
-      "pub_ts": 1790955548
-    },
-    {
-      "id": "6f7acfb112",
-      "title": "Voestalpine and VERBUND Launch Expanded H2FUTURE Hydrogen Pilot Plant in Linz",
-      "url": "https://fuelcellsworks.com/2026/10/02/h2/voestalpine-and-verbund-launch-expanded-h2future-hydrogen-pilot-plant-in-linz",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-10-02T15:34:17+00:00",
-      "pub_ts": 1790955257
-    },
-    {
-      "id": "62265cf212",
-      "title": "SPARX to Build Green Hydrogen Refuelling Station in Tomakomai",
-      "url": "https://fuelcellsworks.com/2026/10/01/h2/sparx-to-build-green-hydrogen-refuelling-station-in-tomakomai",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-10-02T15:24:53+00:00",
-      "pub_ts": 1790954693
     }
   ],
   "source_success_count": 2,
