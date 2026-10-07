@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-10-06T05:53:03.835726+00:00",
+  "updated_at": "2026-10-07T05:25:36.593230+00:00",
   "item_count": 10,
   "items": [
     {
-      "id": "8e16236be3",
-      "title": "Perpetual Next and Lhyfe to Explore Renewable Hydrogen Supply for Biomethanol Facility in Delfzijl, the Netherlands",
-      "url": "https://fuelcellsworks.com/2026/10/05/h2/perpetual-next-and-lhyfe-to-explore-renewable-hydrogen-supply-for-biomethanol-facility-in-delfzijl-the-netherlands",
+      "id": "c09b802bf2",
+      "title": "China's First Ammonia-Fuelled Gas Carrier Sets Sail on National Day",
+      "url": "https://fuelcellsworks.com/2026/10/05/h2/china-s-first-ammonia-fuelled-gas-carrier-sets-sail-on-national-day",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-05T16:22:45+00:00",
-      "pub_ts": 1791217365
+      "pub_date": "2026-10-06T16:19:33+00:00",
+      "pub_ts": 1791303573
     },
     {
-      "id": "7930dbc1b3",
-      "title": "Fuel Cell and Hydrogen News Highlights From China: Sept. 28-Oct. 02 2026",
-      "url": "https://fuelcellsworks.com/2026/10/03/clean-energy/fuel-cell-and-hydrogen-news-highlights-from-china-sept-28-oct-02-2026",
+      "id": "4989e0c6b5",
+      "title": "Fit Energy to Repurpose Former Mining Lands Into a Fuel Cell Power Generation, Technology & Data Center Project in Newport Township",
+      "url": "https://fuelcellsworks.com/2026/10/06/electrolyzer/fit-energy-to-repurpose-former-mining-lands-into-a-fuel-cell-power-generation-technology-and-data-center-project-in-newport-township",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-05T16:12:24+00:00",
-      "pub_ts": 1791216744
+      "pub_date": "2026-10-06T16:10:18+00:00",
+      "pub_ts": 1791303018
     },
     {
-      "id": "828523efe4",
-      "title": "Toyota Launches New Fuel Cell Route Bus \"Sora\"",
-      "url": "https://fuelcellsworks.com/2026/10/05/fuel-cells/toyota-launches-new-fuel-cell-route-bus-sora",
+      "id": "b3b6066beb",
+      "title": "European Energy Drops Its Winning German Hydrogen Bid — Then Immediately Wins a Higher One at the Same Site",
+      "url": "https://fuelcellsworks.com/2026/10/06/h2/european-energy-drops-its-winning-german-hydrogen-bid-then-immediately-wins-a-higher-one-at-the-same-site",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-05T15:55:40+00:00",
-      "pub_ts": 1791215740
+      "pub_date": "2026-10-06T15:54:06+00:00",
+      "pub_ts": 1791302046
     },
     {
-      "id": "991f239a74",
-      "title": "Spain’s Snap Election Puts Green Hydrogen Policy Under Scrutiny — But a Change of Government Would Not Necessarily Derail Sector",
-      "url": "https://fuelcellsworks.com/2026/10/05/h2/spain-s-snap-election-puts-green-hydrogen-policy-under-scrutiny-but-a-change-of-government-would-not-necessarily-derail-sector",
+      "id": "d167a8a375",
+      "title": "University of Córdoba Finds Cheaper Route to Solar Hydrogen Production",
+      "url": "https://fuelcellsworks.com/2026/10/06/green-hydrogen/university-of-cordoba-finds-cheaper-route-to-solar-hydrogen-production",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-05T15:40:52+00:00",
-      "pub_ts": 1791214852
+      "pub_date": "2026-10-06T15:52:18+00:00",
+      "pub_ts": 1791301938
     },
     {
-      "id": "317f432a0b",
-      "title": "HKUST Develops Self-Sustaining Seawater-to-Hydrogen System",
-      "url": "https://fuelcellsworks.com/2026/10/05/clean-energy/hkust-develops-self-sustaining-seawater-to-hydrogen-system",
+      "id": "84fdeda34b",
+      "title": "Daihatsu to Unveil Ammonia-Hydrogen Co-Firing Engine in Japan",
+      "url": "https://fuelcellsworks.com/2026/10/06/clean-energy/daihatsu-to-unveil-ammonia-hydrogen-co-firing-engine-in-japan",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-05T15:30:07+00:00",
-      "pub_ts": 1791214207
+      "pub_date": "2026-10-06T15:42:55+00:00",
+      "pub_ts": 1791301375
     },
     {
       "id": "6c1396d956",

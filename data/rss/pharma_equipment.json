@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-10-06T05:53:16.292871+00:00",
+  "updated_at": "2026-10-07T05:25:49.289589+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "2edcb34688",
-      "title": "Scientists claim Nobel Prize for approach behind light-activated gene therapy",
-      "url": "https://www.pharmaceutical-technology.com/news/nobel-prize-approach-behind-light-activated-gene-therapy/",
-      "summary": "The Nobel Prize committee says that optogenetics will lay the foundations for a new era in neuroscience, as pharma explores its role on treating ophthalmic conditions.",
+      "id": "341c150242",
+      "title": "Shionogi bolsters rare disease portfolio with $2bn IntraBio buyout",
+      "url": "https://www.pharmaceutical-technology.com/news/shionogi-2bn-intrabio-buyout-rare-disease-aqneursa/",
+      "summary": "Shionogi's acquisition of IntraBio would expand its rare disease portfolio following the recent acquisition of ALS drug, Radicava.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-05T15:02:27+00:00",
-      "pub_ts": 1791212547
+      "pub_date": "2026-10-06T10:59:16+00:00",
+      "pub_ts": 1791284356
     },
     {
-      "id": "1113ba3d7c",
-      "title": "GLP-1RA non-responders: tackling a hidden challenge behind the obesity epidemic",
-      "url": "https://www.pharmaceutical-technology.com/features/glp-1ra-non-responders-obesity-metabolic-disease/",
-      "summary": "Improving outcomes for patients classed as ‘non-responders’ to GLP-1RA drugs remains a key unmet need within the obesity space.",
+      "id": "b166adf7b8",
+      "title": "Lilly deepens ties with Gate Bioscience in $870m deal expansion",
+      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-gate-biosciences-870m-deal-expansion-molecular-gate-therapies/",
+      "summary": "Lilly is continuing to bet on the molecular gate approach, which Gate says could create therapies targeting hard-to-drug proteins.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-05T10:55:20+00:00",
-      "pub_ts": 1791197720
+      "pub_date": "2026-10-06T10:33:36+00:00",
+      "pub_ts": 1791282816
     },
     {
-      "id": "a35a8e4935",
-      "title": "FDA approves expanded indication for Lilly’s Jaypirca",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-expanded-indication-lillys-jaypirca/",
-      "summary": "The US FDA has approved an expanded indication for Lilly's Jaypirca as a first-line treatment for adults with previously untreated CLL or SLL who do not have a 17p deletion.",
+      "id": "0501020eb4",
+      "title": "Alector shares up after sealing $1.27bn Roche Parkinson’s disease license deal",
+      "url": "https://www.pharmaceutical-technology.com/news/alector-shares-up-after-sealing-1-27bn-roche-parkinsons-disease-license-deal/",
+      "summary": "Alector’s approach combines an engineered GCase with the biotech’s blood-brain barrier delivery platform.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-05T09:49:21+00:00",
-      "pub_ts": 1791193761
+      "pub_date": "2026-10-06T09:59:33+00:00",
+      "pub_ts": 1791280773
     },
     {
-      "id": "16e9721f47",
-      "title": "Bayer plans $2.2bn pharmaceutical manufacturing facility in Ohio, US",
-      "url": "https://www.pharmaceutical-technology.com/news/bayer-2bn-pharmaceutical-manufacturing-facility-us/",
-      "summary": "Bayer has announced plans to invest $2.2bn in a new pharmaceutical manufacturing facility in Ohio, US.",
+      "id": "bcdb605ecb",
+      "title": "CSL and Alentis ink $1.5bn partnership to progress antifibrotic drug",
+      "url": "https://www.pharmaceutical-technology.com/news/csl-alentis-1-5bn-partnership-lixudebart-antifibrotic-kidney-liver-diseases/",
+      "summary": "CSL and Alentis will work together to progress antifibrotic drug, lixudebart across multiple rare kidney and liver diseases.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-05T07:56:26+00:00",
-      "pub_ts": 1791186986
+      "pub_date": "2026-10-06T09:54:20+00:00",
+      "pub_ts": 1791280460
     },
     {
-      "id": "f8c42178d5",
-      "title": "AstraZeneca deepens Summit ties on ADC-bispecific cancer combo testing pact",
-      "url": "https://www.pharmaceutical-technology.com/news/astrazeneca-daiichi-summit-adc-bispecific-cancer-partnership/",
-      "summary": "Summit is currently developing Ivonescimab in combination with other drugs across several types of solid tumours.",
+      "id": "92edcbb57d",
+      "title": "Pacira partners with Molteni for Exparel commercialisation",
+      "url": "https://www.pharmaceutical-technology.com/news/pacira-molteni-exparel-commercialisation/",
+      "summary": "Pacira BioSciences has entered into an exclusive agreement with Italian pharmaceutical company Molteni Farmaceutici to distribute and commercialise Exparel across the EU and the UK.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-02T13:30:13+00:00",
-      "pub_ts": 1790947813
+      "pub_date": "2026-10-06T09:28:34+00:00",
+      "pub_ts": 1791278914
     }
   ],
   "source_success_count": 1,

@@ -3,38 +3,48 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-10-06T05:52:53.082952+00:00",
-  "item_count": 3,
+  "updated_at": "2026-10-07T05:25:25.422286+00:00",
+  "item_count": 4,
   "items": [
     {
-      "id": "47c51b1274",
-      "title": "刚刚，诺贝尔奖颁给光遗传学！",
-      "url": "https://mp.weixin.qq.com/s/Kyw9hi5zCB-mQSCjjr9FJg",
-      "summary": "刚刚，诺贝尔奖颁给光遗传学！",
+      "id": "f071880873",
+      "title": "刚刚，诺贝尔物理奖一人独揽！拼多多创始人母校教授独享",
+      "url": "https://mp.weixin.qq.com/s/xe_h60qJSXS7xIISNYNKuw",
+      "summary": "刚刚，诺贝尔物理奖一人独揽！拼多多创始人母校教授独享",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-06T05:52:49.278585+00:00",
-      "pub_ts": 1791265969
+      "pub_date": "2026-10-07T05:25:20.192134+00:00",
+      "pub_ts": 1791350720
     },
     {
-      "id": "297377f0f3",
-      "title": "刚刚，Hinton发了首篇RSI论文",
-      "url": "https://mp.weixin.qq.com/s/tEyarN9uAFXBrrf9jjD01Q",
-      "summary": "刚刚，Hinton发了首篇RSI论文",
+      "id": "c0506241b2",
+      "title": "不er，咋陶哲轩也成AI减速派了？？",
+      "url": "https://mp.weixin.qq.com/s/s35QsObpRO2G6mS1CGoBHQ",
+      "summary": "不er，咋陶哲轩也成AI减速派了？？",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-06T05:52:49.278626+00:00",
-      "pub_ts": 1791265969
+      "pub_date": "2026-10-07T05:25:20.192167+00:00",
+      "pub_ts": 1791350720
     },
     {
-      "id": "a40bd66c81",
-      "title": "限时28天！OpenAl承诺没新功能就重置，网友：只想要Opus",
-      "url": "https://mp.weixin.qq.com/s/-hc69LfHf2qs9RBLtfryPw",
-      "summary": "限时28天！OpenAl承诺没新功能就重置，网友：只想要Opus",
+      "id": "0c51136ac0",
+      "title": "OpenAI「疯狂28天」首日，这都发了些啥啊..",
+      "url": "https://mp.weixin.qq.com/s/hqEoxWVTxmqaO6o9V1JABw",
+      "summary": "OpenAI「疯狂28天」首日，这都发了些啥啊..",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-06T05:52:49.278651+00:00",
-      "pub_ts": 1791265969
+      "pub_date": "2026-10-07T05:25:20.192180+00:00",
+      "pub_ts": 1791350720
+    },
+    {
+      "id": "c350c0e7f3",
+      "title": "2026年度AI十大趋势征集启动Ⅰ量子位智库",
+      "url": "https://mp.weixin.qq.com/s/pdJqrk0qW2r6VNlvhaCyjg",
+      "summary": "2026年度AI十大趋势征集启动Ⅰ量子位智库",
+      "source": "量子位-AI硬件",
+      "lang": "zh",
+      "pub_date": "2026-10-07T05:25:20.192192+00:00",
+      "pub_ts": 1791350720
     }
   ],
   "source_success_count": 1,
