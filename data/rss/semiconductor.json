@@ -3,108 +3,138 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-10-07T05:25:10.614183+00:00",
+  "updated_at": "2026-10-08T05:33:47.396818+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "ef574bf997",
-      "title": "华为徐直军最新媒体交流：中国芯片的发展之路",
-      "url": "https://mp.weixin.qq.com/s/M57kHgLz0tcsy8XkRX5SgQ",
-      "summary": "华为徐直军最新媒体交流：中国芯片的发展之路",
+      "id": "4360319bf0",
+      "title": "华为余承东面向海外媒体交流纪要：在芯片、鸿蒙、AI、折叠屏以及...",
+      "url": "https://mp.weixin.qq.com/s/manEV_ElIBO6Swg4-kio2g",
+      "summary": "华为余承东面向海外媒体交流纪要：在芯片、鸿蒙、AI、折叠屏以及...",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-07T05:25:06.486896+00:00",
-      "pub_ts": 1791350706
+      "pub_date": "2026-10-08T05:33:43.305792+00:00",
+      "pub_ts": 1791437623
     },
     {
-      "id": "f3e296945b",
-      "title": "NORFlash的僵局，正在被打破",
-      "url": "https://mp.weixin.qq.com/s/8XViZjVE0_2m8lpSPifBtw",
-      "summary": "NORFlash的僵局，正在被打破",
+      "id": "ecafe65986",
+      "title": "倒计时5天！中国工博会集成电路展（国芯展）同期活动排期出炉，5..",
+      "url": "https://mp.weixin.qq.com/s/4Fv8hGmBisWuVtk1sTUF1g",
+      "summary": "倒计时5天！中国工博会集成电路展（国芯展）同期活动排期出炉，5..",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-07T05:25:06.486934+00:00",
-      "pub_ts": 1791350706
+      "pub_date": "2026-10-08T05:33:43.305842+00:00",
+      "pub_ts": 1791437623
     },
     {
-      "id": "1c39fa6f3f",
-      "title": "嘉宾阵容首发！新型存储MRAM工业实践，10.12上海，驰拓科技来讲！",
-      "url": "https://mp.weixin.qq.com/s/L8n47NFeO3f_mgbAE_-70g",
-      "summary": "嘉宾阵容首发！新型存储MRAM工业实践，10.12上海，驰拓科技来讲！",
+      "id": "78603d56d6",
+      "title": "英特尔与应用材料联合研发下一代AI芯片制造技术",
+      "url": "https://mp.weixin.qq.com/s/wASHjNowaxGSVTHmD7lXLA",
+      "summary": "英特尔与应用材料联合研发下一代AI芯片制造技术",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-07T05:25:06.486949+00:00",
-      "pub_ts": 1791350706
+      "pub_date": "2026-10-08T05:33:43.305871+00:00",
+      "pub_ts": 1791437623
     },
     {
-      "id": "f528aaad53",
-      "title": "截至8月，全球半导体销售额突破1万亿美元",
-      "url": "https://mp.weixin.qq.com/s/6soy5vqStmU4n37ZV6xSBg",
-      "summary": "截至8月，全球半导体销售额突破1万亿美元",
+      "id": "3bdfe457ac",
+      "title": "嘉宾阵容首发！企业级存储工业实践，10.12上海，大普微来讲",
+      "url": "https://mp.weixin.qq.com/s/7wcGqaAHb6OOrWusIlXUJQ",
+      "summary": "嘉宾阵容首发！企业级存储工业实践，10.12上海，大普微来讲",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-07T05:25:06.486962+00:00",
-      "pub_ts": 1791350706
+      "pub_date": "2026-10-08T05:33:43.305896+00:00",
+      "pub_ts": 1791437623
     },
     {
-      "id": "5c80d3e0bc",
-      "title": "纳米散热，会是AI芯片的救星吗？",
-      "url": "https://mp.weixin.qq.com/s/T8ixu8zSVsDg3HFQZMqNlg",
-      "summary": "纳米散热，会是AI芯片的救星吗？",
+      "id": "c55595502f",
+      "title": "AI封装变局：CoPoS来了，CoWoS退场？",
+      "url": "https://mp.weixin.qq.com/s/6e6svpEfAhON-XoZfwra-w",
+      "summary": "AI封装变局：CoPoS来了，CoWoS退场？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-07T05:25:06.486986+00:00",
-      "pub_ts": 1791350706
+      "pub_date": "2026-10-08T05:33:43.305932+00:00",
+      "pub_ts": 1791437623
     },
     {
-      "id": "0aff044a61",
-      "title": "华为徐直军最新讲话：中国芯片自主化是必然之路",
-      "url": "https://mp.weixin.qq.com/s/PXb3gYe-PnQgj_u57RQv4Q",
-      "summary": "华为徐直军最新讲话：中国芯片自主化是必然之路",
+      "id": "1fc7498a53",
+      "title": "0.3nm芯片路线图",
+      "url": "https://mp.weixin.qq.com/s/a1UK0c5iV80gV2vzjddc-A",
+      "summary": "0.3nm芯片路线图",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-07T05:24:54.048379+00:00",
-      "pub_ts": 1791350694
+      "pub_date": "2026-10-08T05:33:35.190567+00:00",
+      "pub_ts": 1791437615
     },
     {
-      "id": "49a6aad963",
-      "title": "一文看懂CPO：共封装光学",
-      "url": "https://mp.weixin.qq.com/s/N-R2qGOwPfTnECR46TbX2g",
-      "summary": "一文看懂CPO：共封装光学",
+      "id": "fe5d14d7e3",
+      "title": "马斯克募资2680亿，抢购英伟达GPU",
+      "url": "https://mp.weixin.qq.com/s/RwIllMxpwOAp1MuKhMXgEA",
+      "summary": "马斯克募资2680亿，抢购英伟达GPU",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-07T05:24:54.048427+00:00",
-      "pub_ts": 1791350694
+      "pub_date": "2026-10-08T05:33:35.190624+00:00",
+      "pub_ts": 1791437615
     },
     {
-      "id": "232ece48ba",
-      "title": "三星，疯狂建芯片厂",
-      "url": "https://mp.weixin.qq.com/s/YDAThg0okc9WKm8ahnToSA",
-      "summary": "三星，疯狂建芯片厂",
+      "id": "f8630731d3",
+      "title": "ASML进军混合键合，重创BESI",
+      "url": "https://mp.weixin.qq.com/s/lVOKmmylOO7PrtechUL6hg",
+      "summary": "ASML进军混合键合，重创BESI",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-07T05:24:54.048440+00:00",
-      "pub_ts": 1791350694
+      "pub_date": "2026-10-08T05:33:35.190646+00:00",
+      "pub_ts": 1791437615
     },
     {
-      "id": "2ba2b7142f",
-      "title": "内存虹吸了巨额资金",
-      "url": "https://mp.weixin.qq.com/s/dlrXuZ8fqglRvIqV_KCznQ",
-      "summary": "内存虹吸了巨额资金",
+      "id": "6a787a3f8c",
+      "title": "半导体设计与制造协同创新高端论坛正式启动，聚焦“设计一制造”关...",
+      "url": "https://mp.weixin.qq.com/s/prMiuyyOsirqHG1iC64mRQ",
+      "summary": "半导体设计与制造协同创新高端论坛正式启动，聚焦“设计一制造”关...",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-07T05:24:54.048452+00:00",
-      "pub_ts": 1791350694
+      "pub_date": "2026-10-08T05:33:35.190665+00:00",
+      "pub_ts": 1791437615
     },
     {
-      "id": "68d512010e",
-      "title": "聚焦光互连GPU超节点，壁仞科技丁云帆亮相第二届工业算力芯引擎...",
-      "url": "https://mp.weixin.qq.com/s/rJYkLQJQTqCRbz0y7ObmHg",
-      "summary": "聚焦光互连GPU超节点，壁仞科技丁云帆亮相第二届工业算力芯引擎...",
+      "id": "db95d371e9",
+      "title": "Cirrus Logic收购一家混合信号芯片公司",
+      "url": "https://mp.weixin.qq.com/s/la9K-fR1ovdyrVE174Qs3g",
+      "summary": "Cirrus Logic收购一家混合信号芯片公司",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-07T05:24:54.048464+00:00",
-      "pub_ts": 1791350694
+      "pub_date": "2026-10-08T05:33:35.190684+00:00",
+      "pub_ts": 1791437615
+    },
+    {
+      "id": "7f2997983c",
+      "title": "Hyper-NA EUV: The Next Extension Beyond High NA Lithography (Carl Zeiss, ASML)",
+      "url": "https://semiengineering.com/hyper-na-euv-the-next-extension-beyond-high-na-lithography-carl-zeiss-asml/",
+      "summary": "Researchers at Carl Zeiss SMT and ASML published a technical paper titled “Hyper-NA: a system with a numerical aperture of at least 0.75.” Abstract Summary: The researchers examine Hyper-NA EUV lithography with a numerical aperture of at least 0.75 as a path beyond current 0.55-NA High-NA systems, i…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-10-07T19:47:59+00:00",
+      "pub_ts": 1791402479
+    },
+    {
+      "id": "53deaad1e7",
+      "title": "Thermal Complexity Grows With AI Chips And Photonics",
+      "url": "https://semiengineering.com/thermal-complexity-grows-with-ai-chips-and-photonics/",
+      "summary": "Increasing power density makes heat, stress, and aging harder to predict, and more critical to address earlier in the design flow.\nThe post Thermal Complexity Grows With AI Chips And Photonics appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-10-07T07:01:34+00:00",
+      "pub_ts": 1791356494
+    },
+    {
+      "id": "6ed10b4da2",
+      "title": "Blog Review: Oct. 7",
+      "url": "https://semiengineering.com/blog-review-oct-7-3/",
+      "summary": "CFETs and buried power rails; agentic AI for EDA; 6G architecture decisions; chiplet connectivity.\nThe post Blog Review: Oct. 7 appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-10-07T07:01:12+00:00",
+      "pub_ts": 1791356472
     },
     {
       "id": "b92622d778",
@@ -125,36 +155,6 @@
       "lang": "en",
       "pub_date": "2026-10-06T21:29:31+00:00",
       "pub_ts": 1791322171
-    },
-    {
-      "id": "8f2436e1ef",
-      "title": "Programmable Memory Controller Eases Adoption of New DRAM Techniques (ETH Zürich, CISPA, NYU)",
-      "url": "https://semiengineering.com/programmable-memory-controller-eases-adoption-of-new-dram-techniques-eth-zurich-cispa-nyu/",
-      "summary": "Researchers at ETH Zürich, CISPA, and New York University published a technical paper titled “Terracotta: Enabling the Adoption of New DRAM Techniques via a Flexible DRAM Interface and Memory Controller.” Abstract Excerpt: “DRAM continues to limit the performance, energy efficiency, and robustness o…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-10-06T20:58:05+00:00",
-      "pub_ts": 1791320285
-    },
-    {
-      "id": "3d1fd2ef10",
-      "title": "Chip Industry Technical Paper Roundup: Oct. 6",
-      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-oct-6/",
-      "summary": "Low-contact-resistance WSe₂ transistors; backside clock meshes for 2nm GAAFETs; row-parallel processing in DRAM; HBF for high-throughput LLM serving; formal security analysis of CAN XL; abstraction and validation from physical devices to RTL.\nThe post Chip Industry Technical Paper Roundup: Oct. 6 ap…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-10-06T07:01:55+00:00",
-      "pub_ts": 1791270115
-    },
-    {
-      "id": "544ef51724",
-      "title": "Advancing The CFET-Based Device Roadmap: Novel Integration Modules And Standard Cell Configurations",
-      "url": "https://semiengineering.com/advancing-the-cfet-based-device-roadmap-novel-integration-modules-and-standard-cell-configurations-2/",
-      "summary": "Part 2: Toward scalable sCFET standard cell architectures: split-gate devices, a 5T+1 CFET SRAM bit cell, and improved back-end-of-line routability.\nThe post Advancing The CFET-Based Device Roadmap: Novel Integration Modules And Standard Cell Configurations appeared first on Semiconductor Engineerin…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-10-06T07:01:13+00:00",
-      "pub_ts": 1791270073
     }
   ],
   "source_success_count": 3,

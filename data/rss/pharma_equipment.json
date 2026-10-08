@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-10-07T05:25:49.289589+00:00",
+  "updated_at": "2026-10-08T05:34:26.464974+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "341c150242",
-      "title": "Shionogi bolsters rare disease portfolio with $2bn IntraBio buyout",
-      "url": "https://www.pharmaceutical-technology.com/news/shionogi-2bn-intrabio-buyout-rare-disease-aqneursa/",
-      "summary": "Shionogi's acquisition of IntraBio would expand its rare disease portfolio following the recent acquisition of ALS drug, Radicava.",
+      "id": "60fc1e4310",
+      "title": "Suspected plague outbreak in Russia: public health risk lower than Covid-19",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/suspected-plague-outbreak-in-russia-public-health-risk-lower-than-covid-19/",
+      "summary": "Despite concern, Y. pestis has a lower rate of transmission than coronavirus, as well being a more studied pathogen.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-06T10:59:16+00:00",
-      "pub_ts": 1791284356
+      "pub_date": "2026-10-07T16:47:28+00:00",
+      "pub_ts": 1791391648
     },
     {
-      "id": "b166adf7b8",
-      "title": "Lilly deepens ties with Gate Bioscience in $870m deal expansion",
-      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-gate-biosciences-870m-deal-expansion-molecular-gate-therapies/",
-      "summary": "Lilly is continuing to bet on the molecular gate approach, which Gate says could create therapies targeting hard-to-drug proteins.",
+      "id": "d44789a8de",
+      "title": "CAR-T specialist Caribou culls pipeline and seeks exit deal",
+      "url": "https://www.pharmaceutical-technology.com/news/car-t-specialist-caribou-culls-pipeline-and-seeks-exit-deal/",
+      "summary": "Despite Nobel Prize origins, Caribou has succumbed to a sector shifting its focus to in vivo CAR-T approaches.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-06T10:33:36+00:00",
-      "pub_ts": 1791282816
+      "pub_date": "2026-10-07T14:16:33+00:00",
+      "pub_ts": 1791382593
     },
     {
-      "id": "0501020eb4",
-      "title": "Alector shares up after sealing $1.27bn Roche Parkinson’s disease license deal",
-      "url": "https://www.pharmaceutical-technology.com/news/alector-shares-up-after-sealing-1-27bn-roche-parkinsons-disease-license-deal/",
-      "summary": "Alector’s approach combines an engineered GCase with the biotech’s blood-brain barrier delivery platform.",
+      "id": "0a772dab0f",
+      "title": "CPHI 2026: Moderna builds on its COVID-era manufacturing lessons",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/cphi-2026-moderna-covid-manufacturing-cdmos/",
+      "summary": "The biotech’s VP of Drug Product Operations Michelle Rodriguez on how it works with CDMOs.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-06T09:59:33+00:00",
-      "pub_ts": 1791280773
+      "pub_date": "2026-10-07T13:43:14+00:00",
+      "pub_ts": 1791380594
     },
     {
-      "id": "bcdb605ecb",
-      "title": "CSL and Alentis ink $1.5bn partnership to progress antifibrotic drug",
-      "url": "https://www.pharmaceutical-technology.com/news/csl-alentis-1-5bn-partnership-lixudebart-antifibrotic-kidney-liver-diseases/",
-      "summary": "CSL and Alentis will work together to progress antifibrotic drug, lixudebart across multiple rare kidney and liver diseases.",
+      "id": "6e24965c8c",
+      "title": "KymaThera pulls in $80m to bring breast cancer drug to clinic",
+      "url": "https://www.pharmaceutical-technology.com/news/kymathera-80m-series-b-to-bringbreast-cancer-drug-k-1728-to-clinic/",
+      "summary": "KymaThera plans to dose the first patients in its Phase I trial on oral, selective PI3Kα inhibitor, K-1728, in breast cancer in Q4 2026.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-06T09:54:20+00:00",
-      "pub_ts": 1791280460
+      "pub_date": "2026-10-07T10:15:10+00:00",
+      "pub_ts": 1791368110
     },
     {
-      "id": "92edcbb57d",
-      "title": "Pacira partners with Molteni for Exparel commercialisation",
-      "url": "https://www.pharmaceutical-technology.com/news/pacira-molteni-exparel-commercialisation/",
-      "summary": "Pacira BioSciences has entered into an exclusive agreement with Italian pharmaceutical company Molteni Farmaceutici to distribute and commercialise Exparel across the EU and the UK.",
+      "id": "210622e5fe",
+      "title": "Rocket receives $150m credit facility to advance cardiovascular portfolio",
+      "url": "https://www.pharmaceutical-technology.com/news/rocket-150m-advance-cardiovascular-portfolio/",
+      "summary": "Rocket Pharmaceuticals has entered into a credit facility agreement of up to $150m with Hercules Capital to support the ongoing development of its cardiovascular portfolio.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-06T09:28:34+00:00",
-      "pub_ts": 1791278914
+      "pub_date": "2026-10-07T09:42:57+00:00",
+      "pub_ts": 1791366177
     }
   ],
   "source_success_count": 1,

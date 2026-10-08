@@ -3,48 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-10-07T05:25:25.422286+00:00",
-  "item_count": 4,
+  "updated_at": "2026-10-08T05:34:01.047531+00:00",
+  "item_count": 5,
   "items": [
     {
-      "id": "f071880873",
-      "title": "刚刚，诺贝尔物理奖一人独揽！拼多多创始人母校教授独享",
-      "url": "https://mp.weixin.qq.com/s/xe_h60qJSXS7xIISNYNKuw",
-      "summary": "刚刚，诺贝尔物理奖一人独揽！拼多多创始人母校教授独享",
+      "id": "3bc42dac4c",
+      "title": "迟到25年！诺贝尔化学奖揭晓，95岁法国教授圆梦",
+      "url": "https://mp.weixin.qq.com/s/FYUB-blcJh60VU33Ts44Uw",
+      "summary": "迟到25年！诺贝尔化学奖揭晓，95岁法国教授圆梦",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-07T05:25:20.192134+00:00",
-      "pub_ts": 1791350720
+      "pub_date": "2026-10-08T05:33:56.929580+00:00",
+      "pub_ts": 1791437636
     },
     {
-      "id": "c0506241b2",
-      "title": "不er，咋陶哲轩也成AI减速派了？？",
-      "url": "https://mp.weixin.qq.com/s/s35QsObpRO2G6mS1CGoBHQ",
-      "summary": "不er，咋陶哲轩也成AI减速派了？？",
+      "id": "ebbe039aaf",
+      "title": "晕...这年头还有说人话的AI不",
+      "url": "https://mp.weixin.qq.com/s/IOtREoAcCTNCdw130lRLwQ",
+      "summary": "晕...这年头还有说人话的AI不",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-07T05:25:20.192167+00:00",
-      "pub_ts": 1791350720
+      "pub_date": "2026-10-08T05:33:56.929629+00:00",
+      "pub_ts": 1791437636
     },
     {
-      "id": "0c51136ac0",
-      "title": "OpenAI「疯狂28天」首日，这都发了些啥啊..",
-      "url": "https://mp.weixin.qq.com/s/hqEoxWVTxmqaO6o9V1JABw",
-      "summary": "OpenAI「疯狂28天」首日，这都发了些啥啊..",
+      "id": "45123b6153",
+      "title": "《怪物史莱克》编剧也来了！这家AI影视公司，视频模型全球第二！",
+      "url": "https://mp.weixin.qq.com/s/W7ZWvy4ukpfoxP1DkS0gMw",
+      "summary": "《怪物史莱克》编剧也来了！这家AI影视公司，视频模型全球第二！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-07T05:25:20.192180+00:00",
-      "pub_ts": 1791350720
+      "pub_date": "2026-10-08T05:33:56.929655+00:00",
+      "pub_ts": 1791437636
     },
     {
-      "id": "c350c0e7f3",
-      "title": "2026年度AI十大趋势征集启动Ⅰ量子位智库",
-      "url": "https://mp.weixin.qq.com/s/pdJqrk0qW2r6VNlvhaCyjg",
-      "summary": "2026年度AI十大趋势征集启动Ⅰ量子位智库",
+      "id": "810b5cec87",
+      "title": "2026年度A十大趋势征集启动|量子位智库",
+      "url": "https://mp.weixin.qq.com/s/WkxpjOhmwlyKHZPaFZ65Pg",
+      "summary": "2026年度A十大趋势征集启动|量子位智库",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-07T05:25:20.192192+00:00",
-      "pub_ts": 1791350720
+      "pub_date": "2026-10-08T05:33:56.929678+00:00",
+      "pub_ts": 1791437636
+    },
+    {
+      "id": "8088bfbfcb",
+      "title": "OpenAI一夜甩出722篇数学论文！黎曼霍奇BSD全上阵，数学家：读...",
+      "url": "https://mp.weixin.qq.com/s/P40M32TnTppU3jsDTvFGmg",
+      "summary": "OpenAI一夜甩出722篇数学论文！黎曼霍奇BSD全上阵，数学家：读...",
+      "source": "量子位-AI硬件",
+      "lang": "zh",
+      "pub_date": "2026-10-08T05:33:56.929702+00:00",
+      "pub_ts": 1791437636
     }
   ],
   "source_success_count": 1,

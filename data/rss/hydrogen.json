@@ -3,108 +3,108 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-10-07T05:25:36.593230+00:00",
+  "updated_at": "2026-10-08T05:34:13.889291+00:00",
   "item_count": 10,
   "items": [
     {
-      "id": "c09b802bf2",
-      "title": "China's First Ammonia-Fuelled Gas Carrier Sets Sail on National Day",
-      "url": "https://fuelcellsworks.com/2026/10/05/h2/china-s-first-ammonia-fuelled-gas-carrier-sets-sail-on-national-day",
+      "id": "e6f60355cb",
+      "title": "Walmart Chile and Copec Inaugurate First Hydrogen Station for High-Tonnage Trucks",
+      "url": "https://fuelcellsworks.com/2026/10/01/electrolyzer/walmart-chile-and-copec-inaugurate-first-hydrogen-station-for-high-tonnage-trucks",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-06T16:19:33+00:00",
-      "pub_ts": 1791303573
+      "pub_date": "2026-10-07T18:44:10+00:00",
+      "pub_ts": 1791398650
     },
     {
-      "id": "4989e0c6b5",
-      "title": "Fit Energy to Repurpose Former Mining Lands Into a Fuel Cell Power Generation, Technology & Data Center Project in Newport Township",
-      "url": "https://fuelcellsworks.com/2026/10/06/electrolyzer/fit-energy-to-repurpose-former-mining-lands-into-a-fuel-cell-power-generation-technology-and-data-center-project-in-newport-township",
+      "id": "4ae3aeffd1",
+      "title": "Perkins Tests New Hydrogen Hybridised IOPU",
+      "url": "https://fuelcellsworks.com/2026/10/05/h2/perkins-tests-new-hydrogen-hybridised-iopu",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-06T16:10:18+00:00",
-      "pub_ts": 1791303018
+      "pub_date": "2026-10-07T18:35:52+00:00",
+      "pub_ts": 1791398152
     },
     {
-      "id": "b3b6066beb",
-      "title": "European Energy Drops Its Winning German Hydrogen Bid — Then Immediately Wins a Higher One at the Same Site",
-      "url": "https://fuelcellsworks.com/2026/10/06/h2/european-energy-drops-its-winning-german-hydrogen-bid-then-immediately-wins-a-higher-one-at-the-same-site",
+      "id": "6545bd2ce1",
+      "title": "DNV Cuts 2060 Clean Hydrogen Forecast to 210 Million Tonnes — Just Five Months After Previous Outlook",
+      "url": "https://fuelcellsworks.com/2026/10/07/h2/dnv-cuts-2060-clean-hydrogen-forecast-to-210-million-tonnes-just-five-months-after-previous-outlook",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-06T15:54:06+00:00",
-      "pub_ts": 1791302046
+      "pub_date": "2026-10-07T17:05:05+00:00",
+      "pub_ts": 1791392705
     },
     {
-      "id": "d167a8a375",
-      "title": "University of Córdoba Finds Cheaper Route to Solar Hydrogen Production",
-      "url": "https://fuelcellsworks.com/2026/10/06/green-hydrogen/university-of-cordoba-finds-cheaper-route-to-solar-hydrogen-production",
+      "id": "f103a77a2b",
+      "title": "Walmart Chile, Copec launch hydrogen station for heavy trucks",
+      "url": "https://hydrogen-central.com/walmart-chile-copec-launch-hydrogen-station-for-heavy-trucks/",
+      "summary": "Walmart Chile, Copec launch hydrogen station for heavy trucks The facility will supply green hydrogen to heavy-duty trucks serving Walmart Chile’s logistics network, supporting a pilot project aimed at advancing [&#8230;]\nThe post Walmart Chile, Copec launch hydrogen station for heavy trucks appeare…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-10-07T16:58:37+00:00",
+      "pub_ts": 1791392317
+    },
+    {
+      "id": "467f665d84",
+      "title": "Germany’s Hydrogen Rollout Risks Falling Out of Sync, Ariadne Warns",
+      "url": "https://fuelcellsworks.com/2026/10/06/h2/germany-s-hydrogen-rollout-risks-falling-out-of-sync-ariadne-warns",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-06T15:52:18+00:00",
-      "pub_ts": 1791301938
+      "pub_date": "2026-10-07T16:30:17+00:00",
+      "pub_ts": 1791390617
     },
     {
-      "id": "84fdeda34b",
-      "title": "Daihatsu to Unveil Ammonia-Hydrogen Co-Firing Engine in Japan",
-      "url": "https://fuelcellsworks.com/2026/10/06/clean-energy/daihatsu-to-unveil-ammonia-hydrogen-co-firing-engine-in-japan",
+      "id": "1460b3bb47",
+      "title": "Pioneer in Automotive Logistics: BMW Group Uses Trucks with Hydrogen Combustion Engines in Logistics",
+      "url": "https://fuelcellsworks.com/2026/10/06/h2/pioneer-in-automotive-logistics-bmw-group-uses-trucks-with-hydrogen-combustion-engines-in-logistics",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-06T15:42:55+00:00",
-      "pub_ts": 1791301375
+      "pub_date": "2026-10-07T16:20:24+00:00",
+      "pub_ts": 1791390024
     },
     {
-      "id": "6c1396d956",
-      "title": "DynElectro sets new world record for Solid Oxide electrolysis stack durability: 25,000 hours with near-zero degradation",
-      "url": "https://hydrogen-central.com/dynelectro-sets-new-world-record-for-solid-oxide-electrolysis-stack-durability25000-hours-with-near-zero-degradation/",
-      "summary": "DynElectro sets new world record for Solid Oxide electrolysis stack durability: 25,000 hours with near-zero degradation Published in Nature Communications, the results show that DynElectro&#8217;s patented AC:DC operation reduces degradation of solid [&#8230;]\nThe post DynElectro sets new world reco…",
+      "id": "70991c3f15",
+      "title": "Oregon State’s new MOF turns light and water into hydrogen with no added metal catalyst",
+      "url": "https://hydrogen-central.com/oregon-states-new-mof-turns-light-and-water-into-hydrogen-with-no-added-metal-catalyst/",
+      "summary": "Oregon State’s new MOF turns light and water into hydrogen with no added metal catalyst Researchers at Oregon State University have created a new class of light-activated materials that can [&#8230;]\nThe post Oregon State’s new MOF turns light and water into hydrogen with no added metal catalyst app…",
       "source": "Hydrogen Central",
       "lang": "en",
-      "pub_date": "2026-10-05T11:23:59+00:00",
-      "pub_ts": 1791199439
+      "pub_date": "2026-10-07T16:12:10+00:00",
+      "pub_ts": 1791389530
     },
     {
-      "id": "f02fa63dfa",
-      "title": "Next Hydrogen Completes Engineering Design for 10 MW Fueling Station in Expanding British Columbia Market",
-      "url": "https://hydrogen-central.com/next-hydrogen-completes-engineering-design-for-10-mw-fueling-station-in-expanding-british-columbia-market/",
-      "summary": "Next Hydrogen Completes Engineering Design for 10 MW Fueling Station in Expanding British Columbia Market MISSISSAUGA, Ontario, Aug. 18, 2026 (GLOBE NEWSWIRE) &#8212; Next Hydrogen Solutions Inc. (“Next Hydrogen” or [&#8230;]\nThe post Next Hydrogen Completes Engineering Design for 10 MW Fueling Stat…",
+      "id": "ed0647af69",
+      "title": "Vortex Energy Commissions Hydrogen and Helium Study at Robinsons River Salt Project",
+      "url": "https://hydrogen-central.com/vortex-energy-commissions-hydrogen-and-helium-study-at-robinsons-river-salt-project/",
+      "summary": "Vortex Energy Commissions Hydrogen and Helium Study at Robinsons River Salt Project Desktop study will use existing geological, geophysical and well data to assess natural hydrogen and helium potential VANCOUVER, [&#8230;]\nThe post Vortex Energy Commissions Hydrogen and Helium Study at Robinsons Riv…",
       "source": "Hydrogen Central",
       "lang": "en",
-      "pub_date": "2026-10-02T16:58:48+00:00",
-      "pub_ts": 1790960328
+      "pub_date": "2026-10-07T16:11:44+00:00",
+      "pub_ts": 1791389504
     },
     {
-      "id": "514143dc76",
-      "title": "MAX Power Closes $10 Million Strategic Investment From Eric Sprott to Advance Commercial Validation at Lawson",
-      "url": "https://hydrogen-central.com/max-power-closes-10-million-strategic-investment-from-eric-sprott-to-advance-commercial-validation-at-lawson/",
-      "summary": "MAX Power Closes $10 Million Strategic Investment From Eric Sprott to Advance Commercial Validation at Lawson Fresh investment by Eric Sprott into MAX Power follows early success in ongoing commercial [&#8230;]\nThe post MAX Power Closes $10 Million Strategic Investment From Eric Sprott to Advance Co…",
+      "id": "15f0f5b6bf",
+      "title": "Pacifico Mexinol Project and Its Low-Carbon Methanol Technology Presented in Mexico City",
+      "url": "https://hydrogen-central.com/pacifico-mexinol-project-and-its-low-carbon-methanol-technology-presented-in-mexico-city/",
+      "summary": "Pacifico Mexinol Project and Its Low-Carbon Methanol Technology Presented in Mexico City MEXICO CITY&#8211;(BUSINESS WIRE)&#8211;In the framework of today&#8217;s World Habitat Day, here is an invitation to reflect on building [&#8230;]\nThe post Pacifico Mexinol Project and Its Low-Carbon Methanol T…",
       "source": "Hydrogen Central",
       "lang": "en",
-      "pub_date": "2026-10-02T16:56:51+00:00",
-      "pub_ts": 1790960211
+      "pub_date": "2026-10-07T16:08:35+00:00",
+      "pub_ts": 1791389315
     },
     {
-      "id": "3e3d3ffa63",
-      "title": "NiftyLift adds hydrogen option, retrofit",
-      "url": "https://hydrogen-central.com/niftylift-adds-hydrogen-option-retrofit/",
-      "summary": "NiftyLift adds hydrogen option, retrofit 17 Aug NiftyLift will launch a new fuel cell powered version of its HR21 access platform at Vertikal Days, with the hydrogen electric option available [&#8230;]\nThe post NiftyLift adds hydrogen option, retrofit appeared first on Hydrogen Central.",
+      "id": "7f1ffb61a6",
+      "title": "Toyota Launches New Fuel Cell Route Bus “Sora”",
+      "url": "https://hydrogen-central.com/toyota-launches-new-fuel-cell-route-bus-sora/",
+      "summary": "Toyota Launches New Fuel Cell Route Bus &#8220;Sora&#8221; Promoting the use of hydrogen in public transportation to help realize a hydrogen society Toyota Motor Corporation (Toyota) today launched the new [&#8230;]\nThe post Toyota Launches New Fuel Cell Route Bus &#8220;Sora&#8221; appeared first o…",
       "source": "Hydrogen Central",
       "lang": "en",
-      "pub_date": "2026-10-02T16:56:45+00:00",
-      "pub_ts": 1790960205
-    },
-    {
-      "id": "36946ea0e9",
-      "title": "Portugal – Is the gas network ready for hydrogen?",
-      "url": "https://hydrogen-central.com/portugal-is-the-gas-network-ready-for-hydrogen/",
-      "summary": "Portugal &#8211; Is the gas network ready for hydrogen? Injecting hydrogen into infrastructure originally designed for natural gas requires testing to assess whether the distribution networks are adequate, determine the [&#8230;]\nThe post Portugal &#8211; Is the gas network ready for hydrogen? appea…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-10-02T16:56:39+00:00",
-      "pub_ts": 1790960199
+      "pub_date": "2026-10-07T15:59:52+00:00",
+      "pub_ts": 1791388792
     }
   ],
   "source_success_count": 2,
