@@ -3,111 +3,61 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-10-08T05:34:13.889291+00:00",
-  "item_count": 10,
+  "updated_at": "2026-10-09T05:38:59.700956+00:00",
+  "item_count": 5,
   "items": [
     {
-      "id": "e6f60355cb",
-      "title": "Walmart Chile and Copec Inaugurate First Hydrogen Station for High-Tonnage Trucks",
-      "url": "https://fuelcellsworks.com/2026/10/01/electrolyzer/walmart-chile-and-copec-inaugurate-first-hydrogen-station-for-high-tonnage-trucks",
+      "id": "e161b32536",
+      "title": "Brazil Develops Hybrid Hydrogen Propulsion System for JAQ H2 Vessel",
+      "url": "https://fuelcellsworks.com/2026/10/08/fuel-cells/brazil-develops-hybrid-hydrogen-propulsion-system-for-jaq-h2-vessel",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-07T18:44:10+00:00",
-      "pub_ts": 1791398650
+      "pub_date": "2026-10-08T16:34:13+00:00",
+      "pub_ts": 1791477253
     },
     {
-      "id": "4ae3aeffd1",
-      "title": "Perkins Tests New Hydrogen Hybridised IOPU",
-      "url": "https://fuelcellsworks.com/2026/10/05/h2/perkins-tests-new-hydrogen-hybridised-iopu",
+      "id": "1cd06f0f98",
+      "title": "PowerCell Secures SEK 27 Million Follow-Up Order for Two Additional Hydrogen-Electric Bulk Carriers",
+      "url": "https://fuelcellsworks.com/2026/10/08/electrolyzer/powercell-secures-sek-27-million-follow-up-order-for-two-additional-hydrogen-electric-bulk-carriers",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-07T18:35:52+00:00",
-      "pub_ts": 1791398152
+      "pub_date": "2026-10-08T16:09:55+00:00",
+      "pub_ts": 1791475795
     },
     {
-      "id": "6545bd2ce1",
-      "title": "DNV Cuts 2060 Clean Hydrogen Forecast to 210 Million Tonnes — Just Five Months After Previous Outlook",
-      "url": "https://fuelcellsworks.com/2026/10/07/h2/dnv-cuts-2060-clean-hydrogen-forecast-to-210-million-tonnes-just-five-months-after-previous-outlook",
+      "id": "b63318d79c",
+      "title": "Hydrogen Combustion Moves Into Heavy Machinery",
+      "url": "https://fuelcellsworks.com/2026/10/07/h2/hydrogen-combustion-moves-into-heavy-machinery",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-07T17:05:05+00:00",
-      "pub_ts": 1791392705
+      "pub_date": "2026-10-08T16:08:40+00:00",
+      "pub_ts": 1791475720
     },
     {
-      "id": "f103a77a2b",
-      "title": "Walmart Chile, Copec launch hydrogen station for heavy trucks",
-      "url": "https://hydrogen-central.com/walmart-chile-copec-launch-hydrogen-station-for-heavy-trucks/",
-      "summary": "Walmart Chile, Copec launch hydrogen station for heavy trucks The facility will supply green hydrogen to heavy-duty trucks serving Walmart Chile’s logistics network, supporting a pilot project aimed at advancing [&#8230;]\nThe post Walmart Chile, Copec launch hydrogen station for heavy trucks appeare…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-10-07T16:58:37+00:00",
-      "pub_ts": 1791392317
-    },
-    {
-      "id": "467f665d84",
-      "title": "Germany’s Hydrogen Rollout Risks Falling Out of Sync, Ariadne Warns",
-      "url": "https://fuelcellsworks.com/2026/10/06/h2/germany-s-hydrogen-rollout-risks-falling-out-of-sync-ariadne-warns",
+      "id": "7f33c1407b",
+      "title": "EU Hydrogen Expansion Unlikely to Strain Most Water Supplies",
+      "url": "https://fuelcellsworks.com/2026/10/08/h2/eu-hydrogen-expansion-unlikely-to-strain-most-water-supplies",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-07T16:30:17+00:00",
-      "pub_ts": 1791390617
+      "pub_date": "2026-10-08T15:51:27+00:00",
+      "pub_ts": 1791474687
     },
     {
-      "id": "1460b3bb47",
-      "title": "Pioneer in Automotive Logistics: BMW Group Uses Trucks with Hydrogen Combustion Engines in Logistics",
-      "url": "https://fuelcellsworks.com/2026/10/06/h2/pioneer-in-automotive-logistics-bmw-group-uses-trucks-with-hydrogen-combustion-engines-in-logistics",
+      "id": "0f368d9ebb",
+      "title": "Duiker Clean Technologies Builds Ammonia Cracking Pilot in Rotterdam to Bring CO₂-Free Hydrogen to Industry",
+      "url": "https://fuelcellsworks.com/2026/10/07/h2/duiker-clean-technologies-builds-ammonia-cracking-pilot-in-rotterdam-to-bring-co-free-hydrogen-to-industry",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-07T16:20:24+00:00",
-      "pub_ts": 1791390024
-    },
-    {
-      "id": "70991c3f15",
-      "title": "Oregon State’s new MOF turns light and water into hydrogen with no added metal catalyst",
-      "url": "https://hydrogen-central.com/oregon-states-new-mof-turns-light-and-water-into-hydrogen-with-no-added-metal-catalyst/",
-      "summary": "Oregon State’s new MOF turns light and water into hydrogen with no added metal catalyst Researchers at Oregon State University have created a new class of light-activated materials that can [&#8230;]\nThe post Oregon State’s new MOF turns light and water into hydrogen with no added metal catalyst app…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-10-07T16:12:10+00:00",
-      "pub_ts": 1791389530
-    },
-    {
-      "id": "ed0647af69",
-      "title": "Vortex Energy Commissions Hydrogen and Helium Study at Robinsons River Salt Project",
-      "url": "https://hydrogen-central.com/vortex-energy-commissions-hydrogen-and-helium-study-at-robinsons-river-salt-project/",
-      "summary": "Vortex Energy Commissions Hydrogen and Helium Study at Robinsons River Salt Project Desktop study will use existing geological, geophysical and well data to assess natural hydrogen and helium potential VANCOUVER, [&#8230;]\nThe post Vortex Energy Commissions Hydrogen and Helium Study at Robinsons Riv…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-10-07T16:11:44+00:00",
-      "pub_ts": 1791389504
-    },
-    {
-      "id": "15f0f5b6bf",
-      "title": "Pacifico Mexinol Project and Its Low-Carbon Methanol Technology Presented in Mexico City",
-      "url": "https://hydrogen-central.com/pacifico-mexinol-project-and-its-low-carbon-methanol-technology-presented-in-mexico-city/",
-      "summary": "Pacifico Mexinol Project and Its Low-Carbon Methanol Technology Presented in Mexico City MEXICO CITY&#8211;(BUSINESS WIRE)&#8211;In the framework of today&#8217;s World Habitat Day, here is an invitation to reflect on building [&#8230;]\nThe post Pacifico Mexinol Project and Its Low-Carbon Methanol T…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-10-07T16:08:35+00:00",
-      "pub_ts": 1791389315
-    },
-    {
-      "id": "7f1ffb61a6",
-      "title": "Toyota Launches New Fuel Cell Route Bus “Sora”",
-      "url": "https://hydrogen-central.com/toyota-launches-new-fuel-cell-route-bus-sora/",
-      "summary": "Toyota Launches New Fuel Cell Route Bus &#8220;Sora&#8221; Promoting the use of hydrogen in public transportation to help realize a hydrogen society Toyota Motor Corporation (Toyota) today launched the new [&#8230;]\nThe post Toyota Launches New Fuel Cell Route Bus &#8220;Sora&#8221; appeared first o…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-10-07T15:59:52+00:00",
-      "pub_ts": 1791388792
+      "pub_date": "2026-10-08T15:48:25+00:00",
+      "pub_ts": 1791474505
     }
   ],
-  "source_success_count": 2,
+  "source_success_count": 1,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }

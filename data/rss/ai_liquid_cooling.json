@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-10-08T05:34:01.047531+00:00",
+  "updated_at": "2026-10-09T05:38:16.569316+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "3bc42dac4c",
-      "title": "迟到25年！诺贝尔化学奖揭晓，95岁法国教授圆梦",
-      "url": "https://mp.weixin.qq.com/s/FYUB-blcJh60VU33Ts44Uw",
-      "summary": "迟到25年！诺贝尔化学奖揭晓，95岁法国教授圆梦",
+      "id": "465412b0c5",
+      "title": "真香！做这个邪恶老奶版「GTA6」我只花了5元！",
+      "url": "https://mp.weixin.qq.com/s/Up_tCeaXu3_r2cDYHU1UEQ",
+      "summary": "真香！做这个邪恶老奶版「GTA6」我只花了5元！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-08T05:33:56.929580+00:00",
-      "pub_ts": 1791437636
+      "pub_date": "2026-10-09T05:38:11.611188+00:00",
+      "pub_ts": 1791524291
     },
     {
-      "id": "ebbe039aaf",
-      "title": "晕...这年头还有说人话的AI不",
-      "url": "https://mp.weixin.qq.com/s/IOtREoAcCTNCdw130lRLwQ",
-      "summary": "晕...这年头还有说人话的AI不",
+      "id": "85cb9d4df9",
+      "title": "openJiuwen 发布并开源企业级AgentOS，加速智能体规模落地企业",
+      "url": "https://mp.weixin.qq.com/s/mKDocV8ywDyEVor3FpjVQQ",
+      "summary": "openJiuwen 发布并开源企业级AgentOS，加速智能体规模落地企业",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-08T05:33:56.929629+00:00",
-      "pub_ts": 1791437636
+      "pub_date": "2026-10-09T05:38:11.611228+00:00",
+      "pub_ts": 1791524291
     },
     {
-      "id": "45123b6153",
-      "title": "《怪物史莱克》编剧也来了！这家AI影视公司，视频模型全球第二！",
-      "url": "https://mp.weixin.qq.com/s/W7ZWvy4ukpfoxP1DkS0gMw",
-      "summary": "《怪物史莱克》编剧也来了！这家AI影视公司，视频模型全球第二！",
+      "id": "b9e31b59c6",
+      "title": "蚂蚁×浙大新研究：让A在流式对话中“读懂”情绪EMNLP'26",
+      "url": "https://mp.weixin.qq.com/s/LMQQXDEhgasGiJpdyYJOAQ",
+      "summary": "蚂蚁×浙大新研究：让A在流式对话中“读懂”情绪EMNLP'26",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-08T05:33:56.929655+00:00",
-      "pub_ts": 1791437636
+      "pub_date": "2026-10-09T05:38:11.611247+00:00",
+      "pub_ts": 1791524291
     },
     {
-      "id": "810b5cec87",
-      "title": "2026年度A十大趋势征集启动|量子位智库",
-      "url": "https://mp.weixin.qq.com/s/WkxpjOhmwlyKHZPaFZ65Pg",
-      "summary": "2026年度A十大趋势征集启动|量子位智库",
+      "id": "c253c04e4c",
+      "title": "代码造世界，扩散绘现实：AgentGarten让智能体在实时试...",
+      "url": "https://mp.weixin.qq.com/s/AK95fXOGD3l5rePKMx3vKw",
+      "summary": "代码造世界，扩散绘现实：AgentGarten让智能体在实时试...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-08T05:33:56.929678+00:00",
-      "pub_ts": 1791437636
+      "pub_date": "2026-10-09T05:38:11.611262+00:00",
+      "pub_ts": 1791524291
     },
     {
-      "id": "8088bfbfcb",
-      "title": "OpenAI一夜甩出722篇数学论文！黎曼霍奇BSD全上阵，数学家：读...",
-      "url": "https://mp.weixin.qq.com/s/P40M32TnTppU3jsDTvFGmg",
-      "summary": "OpenAI一夜甩出722篇数学论文！黎曼霍奇BSD全上阵，数学家：读...",
+      "id": "45d101be06",
+      "title": "谷歌上线Gemini版4399游戏站",
+      "url": "https://mp.weixin.qq.com/s/KbhHB4huDPVbwX-R0O1lpQ",
+      "summary": "谷歌上线Gemini版4399游戏站",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-08T05:33:56.929702+00:00",
-      "pub_ts": 1791437636
+      "pub_date": "2026-10-09T05:38:11.611278+00:00",
+      "pub_ts": 1791524291
     }
   ],
   "source_success_count": 1,

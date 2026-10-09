@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-10-08T05:34:26.464974+00:00",
+  "updated_at": "2026-10-09T05:39:12.338173+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "60fc1e4310",
-      "title": "Suspected plague outbreak in Russia: public health risk lower than Covid-19",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/suspected-plague-outbreak-in-russia-public-health-risk-lower-than-covid-19/",
-      "summary": "Despite concern, Y. pestis has a lower rate of transmission than coronavirus, as well being a more studied pathogen.",
+      "id": "97464dbf51",
+      "title": "Change lifestyle before giving children weight loss medication, WHO says",
+      "url": "https://www.pharmaceutical-technology.com/news/change-lifestyle-before-giving-children-weight-loss-medication-who-says/",
+      "summary": "In its first global guidelines for child and adolescent obesity, the WHO says diet, exercise, and behavioural changes should be the first port of call.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-07T16:47:28+00:00",
-      "pub_ts": 1791391648
+      "pub_date": "2026-10-08T10:08:34+00:00",
+      "pub_ts": 1791454114
     },
     {
-      "id": "d44789a8de",
-      "title": "CAR-T specialist Caribou culls pipeline and seeks exit deal",
-      "url": "https://www.pharmaceutical-technology.com/news/car-t-specialist-caribou-culls-pipeline-and-seeks-exit-deal/",
-      "summary": "Despite Nobel Prize origins, Caribou has succumbed to a sector shifting its focus to in vivo CAR-T approaches.",
+      "id": "1d3ce3602e",
+      "title": "FDA approves Pfizer’s Tukysa regimen for metastatic breast cancer",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-pfizers-tukysa-metastatic-breast-cancer/",
+      "summary": "The US FDA has approved Pfizer’s Tukysa (tucatinib) along with pertuzumab and trastuzumab as a maintenance therapy for breast cancer.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-07T14:16:33+00:00",
-      "pub_ts": 1791382593
+      "pub_date": "2026-10-08T10:05:41+00:00",
+      "pub_ts": 1791453941
     },
     {
-      "id": "0a772dab0f",
-      "title": "CPHI 2026: Moderna builds on its COVID-era manufacturing lessons",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/cphi-2026-moderna-covid-manufacturing-cdmos/",
-      "summary": "The biotech’s VP of Drug Product Operations Michelle Rodriguez on how it works with CDMOs.",
+      "id": "ed5f63e54f",
+      "title": "CPHI 2026: Finding the right CDMO partner in an age of consolidation",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/cphi-2026-finding-the-right-cdmo-partner-in-an-age-of-consolidation/",
+      "summary": "Executives from companies such as Leo Pharma and Daiichi Sankyo debated outsourcing selections and whether size is better in manufacturing.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-07T13:43:14+00:00",
-      "pub_ts": 1791380594
+      "pub_date": "2026-10-08T09:47:56+00:00",
+      "pub_ts": 1791452876
     },
     {
-      "id": "6e24965c8c",
-      "title": "KymaThera pulls in $80m to bring breast cancer drug to clinic",
-      "url": "https://www.pharmaceutical-technology.com/news/kymathera-80m-series-b-to-bringbreast-cancer-drug-k-1728-to-clinic/",
-      "summary": "KymaThera plans to dose the first patients in its Phase I trial on oral, selective PI3Kα inhibitor, K-1728, in breast cancer in Q4 2026.",
+      "id": "f83d03380e",
+      "title": "Podcast: Key takeaways from EASD 2026 on where GLP-1s are headed",
+      "url": "https://www.pharmaceutical-technology.com/features/podcast-key-takeaways-from-easd-2026-on-where-glp-1s-are-headed/",
+      "summary": "Experts discuss the latest research released at EASD 2026 and what it could mean for the diabetes community.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-07T10:15:10+00:00",
-      "pub_ts": 1791368110
+      "pub_date": "2026-10-08T09:32:09+00:00",
+      "pub_ts": 1791451929
     },
     {
-      "id": "210622e5fe",
-      "title": "Rocket receives $150m credit facility to advance cardiovascular portfolio",
-      "url": "https://www.pharmaceutical-technology.com/news/rocket-150m-advance-cardiovascular-portfolio/",
-      "summary": "Rocket Pharmaceuticals has entered into a credit facility agreement of up to $150m with Hercules Capital to support the ongoing development of its cardiovascular portfolio.",
+      "id": "4c7b6d2f48",
+      "title": "10x Genomics and Fred Hutch partner on cancer technologies",
+      "url": "https://www.pharmaceutical-technology.com/news/10x-genomics-fred-hutch-cancer-technologies/",
+      "summary": "10x Genomics has entered into a multi-project research agreement with Fred Hutch for advancing single cell as well as spatial platforms in solid tumours and blood cancers.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-07T09:42:57+00:00",
-      "pub_ts": 1791366177
+      "pub_date": "2026-10-08T07:50:27+00:00",
+      "pub_ts": 1791445827
     }
   ],
   "source_success_count": 1,
