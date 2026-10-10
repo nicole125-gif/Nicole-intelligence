@@ -3,108 +3,118 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-10-09T05:38:02.112171+00:00",
+  "updated_at": "2026-10-10T05:22:09.913008+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "08c4844380",
-      "title": "国产芯片集体杀入工控机领域",
-      "url": "https://mp.weixin.qq.com/s/RtvoE_i3XxPkV_T86WNakg",
-      "summary": "国产芯片集体杀入工控机领域",
+      "id": "78e7786016",
+      "title": "从器件到整机，国产工控的“芯”机遇",
+      "url": "https://mp.weixin.qq.com/s/m62l2fOfL8TjCcFuKBLICg",
+      "summary": "从器件到整机，国产工控的“芯”机遇",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-09T05:37:57.980823+00:00",
-      "pub_ts": 1791524277
+      "pub_date": "2026-10-10T05:22:05.750732+00:00",
+      "pub_ts": 1791609725
     },
     {
-      "id": "fed5a367f9",
-      "title": "瑞芯微：RK182X已顺利导入数百个客户项目中",
-      "url": "https://mp.weixin.qq.com/s/A9JXwtl79pI0JEwOHdBVyQ",
-      "summary": "瑞芯微：RK182X已顺利导入数百个客户项目中",
+      "id": "e4a83c081b",
+      "title": "嘉宾阵容首发！2026边缘计算与存储应用产业研究报告即将发布",
+      "url": "https://mp.weixin.qq.com/s/f8zH5zMlGGclUl5lWkHEGA",
+      "summary": "嘉宾阵容首发！2026边缘计算与存储应用产业研究报告即将发布",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-09T05:37:57.980863+00:00",
-      "pub_ts": 1791524277
+      "pub_date": "2026-10-10T05:22:05.750776+00:00",
+      "pub_ts": 1791609725
     },
     {
-      "id": "f949160ffe",
-      "title": "2026湾芯展展商名录+展位图来啦！",
-      "url": "https://mp.weixin.qq.com/s/6fqWTKnbf20Fj7j2Uw5QXg",
-      "summary": "2026湾芯展展商名录+展位图来啦！",
+      "id": "4daf78fdfc",
+      "title": "美国光通信龙头：产能售罄，订单排至2029年初",
+      "url": "https://mp.weixin.qq.com/s/2X40gmecCWnGrfr5e7huRw",
+      "summary": "美国光通信龙头：产能售罄，订单排至2029年初",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-09T05:37:57.980884+00:00",
-      "pub_ts": 1791524277
+      "pub_date": "2026-10-10T05:22:05.750804+00:00",
+      "pub_ts": 1791609725
     },
     {
-      "id": "21f2a31ecb",
-      "title": "应用，10.12上海，东土科技来讲！",
-      "url": "https://mp.weixin.qq.com/s/JJbvBijNrtIC7kzcwOl5Ig",
-      "summary": "应用，10.12上海，东土科技来讲！",
+      "id": "c9343ad292",
+      "title": "英伟达，或将采用英特尔Foveros封装技术",
+      "url": "https://mp.weixin.qq.com/s/ppX8KUKHW1Y78IwGMH2x9g",
+      "summary": "英伟达，或将采用英特尔Foveros封装技术",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-09T05:37:57.980900+00:00",
-      "pub_ts": 1791524277
+      "pub_date": "2026-10-10T05:22:05.750828+00:00",
+      "pub_ts": 1791609725
     },
     {
-      "id": "dd5e44ae7d",
-      "title": "博通牵线500亿，OpenAI加码定制AI芯片",
-      "url": "https://mp.weixin.qq.com/s/YFNxk_-3DyDKFFmzTo8_Jg",
-      "summary": "博通牵线500亿，OpenAI加码定制AI芯片",
+      "id": "33fd328bfe",
+      "title": "玻璃基板新突破，TGV填铜工艺仅需数分钟",
+      "url": "https://mp.weixin.qq.com/s/_Q0_59ruPalZ95Mw18MCdg",
+      "summary": "玻璃基板新突破，TGV填铜工艺仅需数分钟",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-09T05:37:57.980916+00:00",
-      "pub_ts": 1791524277
+      "pub_date": "2026-10-10T05:22:05.750849+00:00",
+      "pub_ts": 1791609725
     },
     {
-      "id": "6fbda1e452",
-      "title": "下一代光刻机，ASML最新分享",
-      "url": "https://mp.weixin.qq.com/s/CXjGu3N4uGgUbcwSBRZ8RQ",
-      "summary": "下一代光刻机，ASML最新分享",
+      "id": "f88ddb79ef",
+      "title": "RISC-V第一股，来了",
+      "url": "https://mp.weixin.qq.com/s/86CnAdZan8IROTC8oj9eSg",
+      "summary": "RISC-V第一股，来了",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-09T05:37:44.922118+00:00",
-      "pub_ts": 1791524264
+      "pub_date": "2026-10-10T05:21:57.058780+00:00",
+      "pub_ts": 1791609717
     },
     {
-      "id": "2ff75802f9",
-      "title": "2026湾芯展展商名录+展位图来啦！",
-      "url": "https://mp.weixin.qq.com/s/4KYg8qs4DByjQb_3IXfY4g",
-      "summary": "2026湾芯展展商名录+展位图来啦！",
+      "id": "6d0b958c3f",
+      "title": "传英伟达投资AI芯片公司",
+      "url": "https://mp.weixin.qq.com/s/B-gSmA-Tu0YPmf2wqvlXLQ",
+      "summary": "传英伟达投资AI芯片公司",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-09T05:37:44.922162+00:00",
-      "pub_ts": 1791524264
+      "pub_date": "2026-10-10T05:21:57.058834+00:00",
+      "pub_ts": 1791609717
     },
     {
-      "id": "d4858cb99f",
-      "title": "三星利润飙升782%，日挣59亿",
-      "url": "https://mp.weixin.qq.com/s/Uy7fSLdDkUEXwG3KMjFyJA",
-      "summary": "三星利润飙升782%，日挣59亿",
+      "id": "233eda5b0e",
+      "title": "参观攻略|2026湾芯展展期论坛合集",
+      "url": "https://mp.weixin.qq.com/s/7DIBhTShdRSjYrsTrRK9PQ",
+      "summary": "参观攻略|2026湾芯展展期论坛合集",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-09T05:37:44.922181+00:00",
-      "pub_ts": 1791524264
+      "pub_date": "2026-10-10T05:21:57.058859+00:00",
+      "pub_ts": 1791609717
     },
     {
-      "id": "f372f0b474",
-      "title": "MicroLED，走向数据中心",
-      "url": "https://mp.weixin.qq.com/s/FxzGBKRgeRNv0zrgwMeC5A",
-      "summary": "MicroLED，走向数据中心",
+      "id": "3943b69a4e",
+      "title": "这类不起眼的材料，正在成为AI光模块的新瓶颈",
+      "url": "https://mp.weixin.qq.com/s/GtCBAq3V7h-JE07J-Zas7w",
+      "summary": "这类不起眼的材料，正在成为AI光模块的新瓶颈",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-09T05:37:44.922197+00:00",
-      "pub_ts": 1791524264
+      "pub_date": "2026-10-10T05:21:57.058882+00:00",
+      "pub_ts": 1791609717
     },
     {
-      "id": "85cd24058a",
-      "title": "马斯克拒绝台积电",
-      "url": "https://mp.weixin.qq.com/s/5xjLHOC75Sw2TlCv7N7cVg",
-      "summary": "马斯克拒绝台积电",
+      "id": "9c3d041ea7",
+      "title": "芯片预期，两万亿！分析师：别太乐观",
+      "url": "https://mp.weixin.qq.com/s/dD8ur5aB-2VXULLx9YUdDg",
+      "summary": "芯片预期，两万亿！分析师：别太乐观",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-09T05:37:44.922212+00:00",
-      "pub_ts": 1791524264
+      "pub_date": "2026-10-10T05:21:57.058903+00:00",
+      "pub_ts": 1791609717
+    },
+    {
+      "id": "26aeda925e",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-159/",
+      "summary": "$2B foundry pact; hyper-NA EUV; TSMC, Samsung financials; Canon readies nanoimprint; AI chips under scrutiny; $10T data center buildout; $1.5B SiC boost; chip smuggling; 800V power gains traction; quantum HW scales up; wireless EV road charging; sub-nm gate dielectrics; mobile fab.\nThe post Chip Ind…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-10-09T07:01:17+00:00",
+      "pub_ts": 1791529277
     },
     {
       "id": "411cf5e09f",
@@ -145,16 +155,6 @@
       "lang": "en",
       "pub_date": "2026-10-08T07:03:41+00:00",
       "pub_ts": 1791443021
-    },
-    {
-      "id": "b2da8cac7b",
-      "title": "Shift Left Complicates Fab Data Management",
-      "url": "https://semiengineering.com/shift-left-complicates-fab-data-management/",
-      "summary": "Streaming sensor data creates new challenges for advanced process control.\nThe post Shift Left Complicates Fab Data Management appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-10-08T07:02:25+00:00",
-      "pub_ts": 1791442945
     }
   ],
   "source_success_count": 3,

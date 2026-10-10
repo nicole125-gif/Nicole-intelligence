@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-10-09T05:38:59.700956+00:00",
+  "updated_at": "2026-10-10T05:23:06.714559+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "e161b32536",
-      "title": "Brazil Develops Hybrid Hydrogen Propulsion System for JAQ H2 Vessel",
-      "url": "https://fuelcellsworks.com/2026/10/08/fuel-cells/brazil-develops-hybrid-hydrogen-propulsion-system-for-jaq-h2-vessel",
+      "id": "9173ad0dcb",
+      "title": "EXI Lighthouse Project GH2GH on Green Hydrogen and Fuel Cells Successfully Completed",
+      "url": "https://fuelcellsworks.com/2026/10/07/h2/exi-lighthouse-project-gh2gh-on-green-hydrogen-and-fuel-cells-successfully-completed",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-08T16:34:13+00:00",
-      "pub_ts": 1791477253
+      "pub_date": "2026-10-09T15:33:46+00:00",
+      "pub_ts": 1791560026
     },
     {
-      "id": "1cd06f0f98",
-      "title": "PowerCell Secures SEK 27 Million Follow-Up Order for Two Additional Hydrogen-Electric Bulk Carriers",
-      "url": "https://fuelcellsworks.com/2026/10/08/electrolyzer/powercell-secures-sek-27-million-follow-up-order-for-two-additional-hydrogen-electric-bulk-carriers",
+      "id": "695463e5cb",
+      "title": "Faster to High-Quality Electrolysis Data: Forschungszentrum Jülich Relies on High Throughput Systems and Support From Hte",
+      "url": "https://fuelcellsworks.com/2026/10/09/h2/faster-to-high-quality-electrolysis-data-forschungszentrum-julich-relies-on-high-throughput-systems-and-support-from-hte",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-08T16:09:55+00:00",
-      "pub_ts": 1791475795
+      "pub_date": "2026-10-09T15:29:00+00:00",
+      "pub_ts": 1791559740
     },
     {
-      "id": "b63318d79c",
-      "title": "Hydrogen Combustion Moves Into Heavy Machinery",
-      "url": "https://fuelcellsworks.com/2026/10/07/h2/hydrogen-combustion-moves-into-heavy-machinery",
+      "id": "bb2566c592",
+      "title": "HyStock Completes Evaluation Drilling for Dutch Underground Hydrogen Storage Project",
+      "url": "https://fuelcellsworks.com/2026/10/06/h2/hystock-completes-evaluation-drilling-for-dutch-underground-hydrogen-storage-project",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-08T16:08:40+00:00",
-      "pub_ts": 1791475720
+      "pub_date": "2026-10-09T15:18:34+00:00",
+      "pub_ts": 1791559114
     },
     {
-      "id": "7f33c1407b",
-      "title": "EU Hydrogen Expansion Unlikely to Strain Most Water Supplies",
-      "url": "https://fuelcellsworks.com/2026/10/08/h2/eu-hydrogen-expansion-unlikely-to-strain-most-water-supplies",
+      "id": "4a4bf121a4",
+      "title": "Uruguay Opens Its First Green Hydrogen and Electric Mobility Pilot Plant",
+      "url": "https://fuelcellsworks.com/2026/10/09/h2/uruguay-opens-its-first-green-hydrogen-and-electric-mobility-pilot-plant",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-08T15:51:27+00:00",
-      "pub_ts": 1791474687
+      "pub_date": "2026-10-09T15:08:33+00:00",
+      "pub_ts": 1791558513
     },
     {
-      "id": "0f368d9ebb",
-      "title": "Duiker Clean Technologies Builds Ammonia Cracking Pilot in Rotterdam to Bring CO₂-Free Hydrogen to Industry",
-      "url": "https://fuelcellsworks.com/2026/10/07/h2/duiker-clean-technologies-builds-ammonia-cracking-pilot-in-rotterdam-to-bring-co-free-hydrogen-to-industry",
+      "id": "7988bb1c39",
+      "title": "DESFA Takes FID on 145Km Hydrogen-Ready Pipeline to Patras",
+      "url": "https://fuelcellsworks.com/2026/10/06/h2/desfa-takes-fid-on-145km-hydrogen-ready-pipeline-to-patras",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-08T15:48:25+00:00",
-      "pub_ts": 1791474505
+      "pub_date": "2026-10-09T14:52:44+00:00",
+      "pub_ts": 1791557564
     }
   ],
   "source_success_count": 1,

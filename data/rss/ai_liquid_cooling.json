@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-10-09T05:38:16.569316+00:00",
+  "updated_at": "2026-10-10T05:22:23.750143+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "465412b0c5",
-      "title": "真香！做这个邪恶老奶版「GTA6」我只花了5元！",
-      "url": "https://mp.weixin.qq.com/s/Up_tCeaXu3_r2cDYHU1UEQ",
-      "summary": "真香！做这个邪恶老奶版「GTA6」我只花了5元！",
+      "id": "acfa632915",
+      "title": "TRAE终于把Code和Work合并了",
+      "url": "https://mp.weixin.qq.com/s/tckIeqpzcq2jB11STQLTBg",
+      "summary": "TRAE终于把Code和Work合并了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-09T05:38:11.611188+00:00",
-      "pub_ts": 1791524291
+      "pub_date": "2026-10-10T05:22:19.269726+00:00",
+      "pub_ts": 1791609739
     },
     {
-      "id": "85cb9d4df9",
-      "title": "openJiuwen 发布并开源企业级AgentOS，加速智能体规模落地企业",
-      "url": "https://mp.weixin.qq.com/s/mKDocV8ywDyEVor3FpjVQQ",
-      "summary": "openJiuwen 发布并开源企业级AgentOS，加速智能体规模落地企业",
+      "id": "a819bd0afe",
+      "title": "量子位2026人工智能年度榜单，正式启动！",
+      "url": "https://mp.weixin.qq.com/s/GaBs8aPbieKN86LfDnE89Q",
+      "summary": "量子位2026人工智能年度榜单，正式启动！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-09T05:38:11.611228+00:00",
-      "pub_ts": 1791524291
+      "pub_date": "2026-10-10T05:22:19.269772+00:00",
+      "pub_ts": 1791609739
     },
     {
-      "id": "b9e31b59c6",
-      "title": "蚂蚁×浙大新研究：让A在流式对话中“读懂”情绪EMNLP'26",
-      "url": "https://mp.weixin.qq.com/s/LMQQXDEhgasGiJpdyYJOAQ",
-      "summary": "蚂蚁×浙大新研究：让A在流式对话中“读懂”情绪EMNLP'26",
+      "id": "9a55ff916d",
+      "title": "图像生成模型调优新思路：让解码器提前适应”生成器的潜变量",
+      "url": "https://mp.weixin.qq.com/s/IkvZ__Cat0gbEfMHl-pYvw",
+      "summary": "图像生成模型调优新思路：让解码器提前适应”生成器的潜变量",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-09T05:38:11.611247+00:00",
-      "pub_ts": 1791524291
+      "pub_date": "2026-10-10T05:22:19.269795+00:00",
+      "pub_ts": 1791609739
     },
     {
-      "id": "c253c04e4c",
-      "title": "代码造世界，扩散绘现实：AgentGarten让智能体在实时试...",
-      "url": "https://mp.weixin.qq.com/s/AK95fXOGD3l5rePKMx3vKw",
-      "summary": "代码造世界，扩散绘现实：AgentGarten让智能体在实时试...",
+      "id": "b04ba2a103",
+      "title": "0.2秒急停、秒级重规划！因果智能走进真实世界",
+      "url": "https://mp.weixin.qq.com/s/Kc4EZEeHjup6Rq0GSDJx2A",
+      "summary": "0.2秒急停、秒级重规划！因果智能走进真实世界",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-09T05:38:11.611262+00:00",
-      "pub_ts": 1791524291
+      "pub_date": "2026-10-10T05:22:19.269815+00:00",
+      "pub_ts": 1791609739
     },
     {
-      "id": "45d101be06",
-      "title": "谷歌上线Gemini版4399游戏站",
-      "url": "https://mp.weixin.qq.com/s/KbhHB4huDPVbwX-R0O1lpQ",
-      "summary": "谷歌上线Gemini版4399游戏站",
+      "id": "3a71235504",
+      "title": "字节找到了DeepSeek时强时弱的原因",
+      "url": "https://mp.weixin.qq.com/s/7esZzT6_HKX4KlhVXcKVbA",
+      "summary": "字节找到了DeepSeek时强时弱的原因",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-09T05:38:11.611278+00:00",
-      "pub_ts": 1791524291
+      "pub_date": "2026-10-10T05:22:19.269836+00:00",
+      "pub_ts": 1791609739
     }
   ],
   "source_success_count": 1,

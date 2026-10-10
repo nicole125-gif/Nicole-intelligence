@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-10-09T05:39:12.338173+00:00",
+  "updated_at": "2026-10-10T05:23:19.142014+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "97464dbf51",
-      "title": "Change lifestyle before giving children weight loss medication, WHO says",
-      "url": "https://www.pharmaceutical-technology.com/news/change-lifestyle-before-giving-children-weight-loss-medication-who-says/",
-      "summary": "In its first global guidelines for child and adolescent obesity, the WHO says diet, exercise, and behavioural changes should be the first port of call.",
+      "id": "b8516a086e",
+      "title": "Big tech- and pharma-backed Iambic Therapeutics aims for $135m IPO",
+      "url": "https://www.pharmaceutical-technology.com/news/big-tech-and-pharma-backed-iambic-therapeutics-aims-for-135m-ipo/",
+      "summary": "A US listing for the oncology specialist continues a bumper year for biotech IPOs.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-08T10:08:34+00:00",
-      "pub_ts": 1791454114
+      "pub_date": "2026-10-09T15:02:22+00:00",
+      "pub_ts": 1791558142
     },
     {
-      "id": "1d3ce3602e",
-      "title": "FDA approves Pfizer’s Tukysa regimen for metastatic breast cancer",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-pfizers-tukysa-metastatic-breast-cancer/",
-      "summary": "The US FDA has approved Pfizer’s Tukysa (tucatinib) along with pertuzumab and trastuzumab as a maintenance therapy for breast cancer.",
+      "id": "675a6a8c47",
+      "title": "Roche’s Tecentriq snags FDA label expansion in type of colon cancer",
+      "url": "https://www.pharmaceutical-technology.com/news/roche-tecentriq-fda-label-expansion-dmmr-colon-cancer-stage-iii/",
+      "summary": "Tecentriq is now the first immunotherapy indicated for dMMR colon cancer specifically, which is often linked to a higher risk of progression after surgery.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-08T10:05:41+00:00",
-      "pub_ts": 1791453941
+      "pub_date": "2026-10-09T10:37:16+00:00",
+      "pub_ts": 1791542236
     },
     {
-      "id": "ed5f63e54f",
-      "title": "CPHI 2026: Finding the right CDMO partner in an age of consolidation",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/cphi-2026-finding-the-right-cdmo-partner-in-an-age-of-consolidation/",
-      "summary": "Executives from companies such as Leo Pharma and Daiichi Sankyo debated outsourcing selections and whether size is better in manufacturing.",
+      "id": "fb7fceb57f",
+      "title": "Bio-Techne opens GMP small molecule facility in Bristol, UK",
+      "url": "https://www.pharmaceutical-technology.com/news/bio-techne-gmp-small-molecule-facility-uk/",
+      "summary": "Life science tools and diagnostics provider Bio-Techne Corporation has opened a new manufacturing facility in Bristol, UK, dedicated to GMP grade small molecules.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-08T09:47:56+00:00",
-      "pub_ts": 1791452876
+      "pub_date": "2026-10-09T10:02:07+00:00",
+      "pub_ts": 1791540127
     },
     {
-      "id": "f83d03380e",
-      "title": "Podcast: Key takeaways from EASD 2026 on where GLP-1s are headed",
-      "url": "https://www.pharmaceutical-technology.com/features/podcast-key-takeaways-from-easd-2026-on-where-glp-1s-are-headed/",
-      "summary": "Experts discuss the latest research released at EASD 2026 and what it could mean for the diabetes community.",
+      "id": "3571afe73b",
+      "title": "Biohaven partners with Ono in $100m IgG degrader deal",
+      "url": "https://www.pharmaceutical-technology.com/news/biohaven-ono-100m-igg-degrader-deal/",
+      "summary": "Biohaven has entered into an exclusive regional collaboration and licensing agreement worth up to $100m with Ono Pharmaceutical for its MoDE pan IgG degrader portfolio.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-08T09:32:09+00:00",
-      "pub_ts": 1791451929
+      "pub_date": "2026-10-09T08:00:00+00:00",
+      "pub_ts": 1791532800
     },
     {
-      "id": "4c7b6d2f48",
-      "title": "10x Genomics and Fred Hutch partner on cancer technologies",
-      "url": "https://www.pharmaceutical-technology.com/news/10x-genomics-fred-hutch-cancer-technologies/",
-      "summary": "10x Genomics has entered into a multi-project research agreement with Fred Hutch for advancing single cell as well as spatial platforms in solid tumours and blood cancers.",
+      "id": "7862336212",
+      "title": "Viatris makes foray into non-opioid pain space on $1.65bn Pacira buyout",
+      "url": "https://www.pharmaceutical-technology.com/news/viatris-1-65bn-pacira-buyout-non-opioid-pain/",
+      "summary": "The non-opioid pain field is attracting interest as experts sound the alarm on dependency issues linked to long-term opioid-based pain management.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-08T07:50:27+00:00",
-      "pub_ts": 1791445827
+      "pub_date": "2026-10-08T16:20:16+00:00",
+      "pub_ts": 1791476416
     }
   ],
   "source_success_count": 1,
