@@ -3,8 +3,8 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-10-10T05:23:06.714559+00:00",
-  "item_count": 5,
+  "updated_at": "2026-10-11T05:14:27.611485+00:00",
+  "item_count": 10,
   "items": [
     {
       "id": "9173ad0dcb",
@@ -55,9 +55,59 @@
       "lang": "en",
       "pub_date": "2026-10-09T14:52:44+00:00",
       "pub_ts": 1791557564
+    },
+    {
+      "id": "3ba93d9efc",
+      "title": "voestalpine and VERBUND launch expanded H2FUTURE hydrogen pilot plant in Linz",
+      "url": "https://hydrogen-central.com/voestalpine-and-verbund-launch-expanded-h2future-hydrogen-pilot-plant-in-linz/",
+      "summary": "voestalpine and VERBUND launch expanded H2FUTURE hydrogen pilot plant in Linz The internationally renowned H2FUTURE research project at the voestalpine site in Linz is entering the next expansion stage. Enhancements [&#8230;]\nThe post voestalpine and VERBUND launch expanded H2FUTURE hydrogen pilot p…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-10-08T13:24:59+00:00",
+      "pub_ts": 1791465899
+    },
+    {
+      "id": "6436df6038",
+      "title": "Hydrogen pipeline construction begins – BMW Group to integrate Plant Leipzig into core hydrogen grid.",
+      "url": "https://hydrogen-central.com/hydrogen-pipeline-construction-begins-bmw-group-to-integrate-plant-leipzig-into-core-hydrogen-grid/",
+      "summary": "Hydrogen pipeline construction begins &#8211; BMW Group to integrate Plant Leipzig into core hydrogen grid. +++ First vehicle plant worldwide to connect to a hydrogen grid +++ Milestone in energy [&#8230;]\nThe post Hydrogen pipeline construction begins &#8211; BMW Group to integrate Plant Leipzig in…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-10-08T13:23:14+00:00",
+      "pub_ts": 1791465794
+    },
+    {
+      "id": "2cf5df6664",
+      "title": "Ballard launches Fleet360 services for new North American FCmove®-HD+ fleets at APTA EXPO 2026",
+      "url": "https://hydrogen-central.com/ballard-launches-fleet360-services-for-new-north-american-fcmove-hd-fleets-at-apta-expo-2026/",
+      "summary": "Ballard launches Fleet360 services for new North American FCmove®-HD+ fleets at APTA EXPO 2026 End-to-end service program combines fuel cell module performance guarantee with committed service response and resolution times, [&#8230;]\nThe post Ballard launches Fleet360 services for new North American…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-10-08T13:20:41+00:00",
+      "pub_ts": 1791465641
+    },
+    {
+      "id": "fd54b64db9",
+      "title": "The LEGO Group starts making selected LEGO® elements using e-methanol",
+      "url": "https://hydrogen-central.com/the-lego-group-starts-making-selected-lego-elements-using-e-methanol/",
+      "summary": "The LEGO Group starts making selected LEGO® elements using e-methanol We have started using e-methanol, a renewable material, to help make more than 90 robust and rigid LEGO® elements, including [&#8230;]\nThe post The LEGO Group starts making selected LEGO® elements using e-methanol appeared first o…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-10-08T13:18:23+00:00",
+      "pub_ts": 1791465503
+    },
+    {
+      "id": "f103a77a2b",
+      "title": "Walmart Chile, Copec launch hydrogen station for heavy trucks",
+      "url": "https://hydrogen-central.com/walmart-chile-copec-launch-hydrogen-station-for-heavy-trucks/",
+      "summary": "Walmart Chile, Copec launch hydrogen station for heavy trucks The facility will supply green hydrogen to heavy-duty trucks serving Walmart Chile’s logistics network, supporting a pilot project aimed at advancing [&#8230;]\nThe post Walmart Chile, Copec launch hydrogen station for heavy trucks appeare…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-10-07T16:58:37+00:00",
+      "pub_ts": 1791392317
     }
   ],
-  "source_success_count": 1,
+  "source_success_count": 2,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }

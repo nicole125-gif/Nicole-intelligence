@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-10-10T05:22:23.750143+00:00",
+  "updated_at": "2026-10-11T05:14:03.843445+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "acfa632915",
-      "title": "TRAE终于把Code和Work合并了",
-      "url": "https://mp.weixin.qq.com/s/tckIeqpzcq2jB11STQLTBg",
-      "summary": "TRAE终于把Code和Work合并了",
+      "id": "60d21a2de2",
+      "title": "DeepSeek你这岗位到底想招啥嘞?",
+      "url": "https://mp.weixin.qq.com/s/w5laFWuPCR9pODVesGsxbA",
+      "summary": "DeepSeek你这岗位到底想招啥嘞?",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-10T05:22:19.269726+00:00",
-      "pub_ts": 1791609739
+      "pub_date": "2026-10-11T05:13:59.457602+00:00",
+      "pub_ts": 1791695639
     },
     {
-      "id": "a819bd0afe",
-      "title": "量子位2026人工智能年度榜单，正式启动！",
-      "url": "https://mp.weixin.qq.com/s/GaBs8aPbieKN86LfDnE89Q",
-      "summary": "量子位2026人工智能年度榜单，正式启动！",
+      "id": "5335aa1b82",
+      "title": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
+      "url": "https://mp.weixin.qq.com/s/G0zqzhR5tK7qMEBRQZPljQ",
+      "summary": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-10T05:22:19.269772+00:00",
-      "pub_ts": 1791609739
+      "pub_date": "2026-10-11T05:13:59.457647+00:00",
+      "pub_ts": 1791695639
     },
     {
-      "id": "9a55ff916d",
-      "title": "图像生成模型调优新思路：让解码器提前适应”生成器的潜变量",
-      "url": "https://mp.weixin.qq.com/s/IkvZ__Cat0gbEfMHl-pYvw",
-      "summary": "图像生成模型调优新思路：让解码器提前适应”生成器的潜变量",
+      "id": "6123f7d987",
+      "title": "H-JEPA！LeCun世界模型创业交卷，代码权重全部开源",
+      "url": "https://mp.weixin.qq.com/s/U8r0Nn9fT7eC7BAXx1ZUPQ",
+      "summary": "H-JEPA！LeCun世界模型创业交卷，代码权重全部开源",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-10T05:22:19.269795+00:00",
-      "pub_ts": 1791609739
+      "pub_date": "2026-10-11T05:13:59.457666+00:00",
+      "pub_ts": 1791695639
     },
     {
-      "id": "b04ba2a103",
-      "title": "0.2秒急停、秒级重规划！因果智能走进真实世界",
-      "url": "https://mp.weixin.qq.com/s/Kc4EZEeHjup6Rq0GSDJx2A",
-      "summary": "0.2秒急停、秒级重规划！因果智能走进真实世界",
+      "id": "af49add2f1",
+      "title": "24天！Jev估值翻至75亿美元，年度硅谷最爽逆袭了吧",
+      "url": "https://mp.weixin.qq.com/s/_sI0SQOBXgF7Diupj1HCmw",
+      "summary": "24天！Jev估值翻至75亿美元，年度硅谷最爽逆袭了吧",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-10T05:22:19.269815+00:00",
-      "pub_ts": 1791609739
+      "pub_date": "2026-10-11T05:13:59.457684+00:00",
+      "pub_ts": 1791695639
     },
     {
-      "id": "3a71235504",
-      "title": "字节找到了DeepSeek时强时弱的原因",
-      "url": "https://mp.weixin.qq.com/s/7esZzT6_HKX4KlhVXcKVbA",
-      "summary": "字节找到了DeepSeek时强时弱的原因",
+      "id": "d9dc04f7aa",
+      "title": "2026年度A十大趋势征集启动|量子位智库",
+      "url": "https://mp.weixin.qq.com/s/WtAcoPEONhfwSjg3QMa74A",
+      "summary": "2026年度A十大趋势征集启动|量子位智库",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-10T05:22:19.269836+00:00",
-      "pub_ts": 1791609739
+      "pub_date": "2026-10-11T05:13:59.457700+00:00",
+      "pub_ts": 1791695639
     }
   ],
   "source_success_count": 1,
