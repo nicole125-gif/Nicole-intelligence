@@ -3,9 +3,39 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-10-12T05:27:44.263206+00:00",
+  "updated_at": "2026-10-13T06:25:36.117419+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "b4a37e6cd4",
+      "title": "FDA approves Teva’s monthly injection of olanzapine for schizophrenia",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-approves-tevas-monthly-injection-of-olanzapine-for-schizophrenia/",
+      "summary": "Teva said it is debuting the drug to overcome adherence issues with an oral counterpart and improve symptom outcomes.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-10-12T10:48:19+00:00",
+      "pub_ts": 1791802099
+    },
+    {
+      "id": "5c6dbeb20d",
+      "title": "FDA approves Asahi Kasei’s Hovilpri for refractory HSV",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-asahi-kaseis-hovilpri-refractory-hsv/",
+      "summary": "The US FDA has approved Asahi Kasei Therapeutics’ Hovilpri 100mg tablets to treat refractory mucocutaneous HSV lesions in immunocompromised adults.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-10-12T10:04:27+00:00",
+      "pub_ts": 1791799467
+    },
+    {
+      "id": "bb0f52fd0f",
+      "title": "Perceptive, Nucleus partner to support radiopharmaceutical development",
+      "url": "https://www.pharmaceutical-technology.com/news/perceptive-nucleus-support-radiopharmaceutical-development/",
+      "summary": "Perceptive Discovery and Nucleus RadioPharma have announced a non-exclusive strategic partnership to assist radiopharmaceutical developers shift from initial target validation through to clinical manufacturing.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-10-12T08:13:29+00:00",
+      "pub_ts": 1791792809
+    },
     {
       "id": "b8516a086e",
       "title": "Big tech- and pharma-backed Iambic Therapeutics aims for $135m IPO",
@@ -25,36 +55,6 @@
       "lang": "en",
       "pub_date": "2026-10-09T10:37:16+00:00",
       "pub_ts": 1791542236
-    },
-    {
-      "id": "fb7fceb57f",
-      "title": "Bio-Techne opens GMP small molecule facility in Bristol, UK",
-      "url": "https://www.pharmaceutical-technology.com/news/bio-techne-gmp-small-molecule-facility-uk/",
-      "summary": "Life science tools and diagnostics provider Bio-Techne Corporation has opened a new manufacturing facility in Bristol, UK, dedicated to GMP grade small molecules.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-10-09T10:02:07+00:00",
-      "pub_ts": 1791540127
-    },
-    {
-      "id": "3571afe73b",
-      "title": "Biohaven partners with Ono in $100m IgG degrader deal",
-      "url": "https://www.pharmaceutical-technology.com/news/biohaven-ono-100m-igg-degrader-deal/",
-      "summary": "Biohaven has entered into an exclusive regional collaboration and licensing agreement worth up to $100m with Ono Pharmaceutical for its MoDE pan IgG degrader portfolio.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-10-09T08:00:00+00:00",
-      "pub_ts": 1791532800
-    },
-    {
-      "id": "7862336212",
-      "title": "Viatris makes foray into non-opioid pain space on $1.65bn Pacira buyout",
-      "url": "https://www.pharmaceutical-technology.com/news/viatris-1-65bn-pacira-buyout-non-opioid-pain/",
-      "summary": "The non-opioid pain field is attracting interest as experts sound the alarm on dependency issues linked to long-term opioid-based pain management.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-10-08T16:20:16+00:00",
-      "pub_ts": 1791476416
     }
   ],
   "source_success_count": 1,

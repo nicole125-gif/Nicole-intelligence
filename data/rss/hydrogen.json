@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-10-12T05:27:31.565007+00:00",
+  "updated_at": "2026-10-13T06:25:23.144396+00:00",
   "item_count": 10,
   "items": [
     {
-      "id": "9173ad0dcb",
-      "title": "EXI Lighthouse Project GH2GH on Green Hydrogen and Fuel Cells Successfully Completed",
-      "url": "https://fuelcellsworks.com/2026/10/07/h2/exi-lighthouse-project-gh2gh-on-green-hydrogen-and-fuel-cells-successfully-completed",
+      "id": "e715cc5762",
+      "title": "FuelCell Energy Appoints John Dansby to Lead Manufacturing Scale-Up",
+      "url": "https://fuelcellsworks.com/2026/10/12/electrolyzer/fuelcell-energy-appoints-john-dansby-to-lead-manufacturing-scale-up",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-09T15:33:46+00:00",
-      "pub_ts": 1791560026
+      "pub_date": "2026-10-12T16:11:19+00:00",
+      "pub_ts": 1791821479
     },
     {
-      "id": "695463e5cb",
-      "title": "Faster to High-Quality Electrolysis Data: Forschungszentrum Jülich Relies on High Throughput Systems and Support From Hte",
-      "url": "https://fuelcellsworks.com/2026/10/09/h2/faster-to-high-quality-electrolysis-data-forschungszentrum-julich-relies-on-high-throughput-systems-and-support-from-hte",
+      "id": "963856cd6a",
+      "title": "NaTran Advances 820Km Hy-Fen Hydrogen Pipeline Toward 2032 Start",
+      "url": "https://fuelcellsworks.com/2026/10/11/h2/natran-advances-820km-hy-fen-hydrogen-pipeline-toward-2032-start",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-09T15:29:00+00:00",
-      "pub_ts": 1791559740
+      "pub_date": "2026-10-12T15:49:31+00:00",
+      "pub_ts": 1791820171
     },
     {
-      "id": "bb2566c592",
-      "title": "HyStock Completes Evaluation Drilling for Dutch Underground Hydrogen Storage Project",
-      "url": "https://fuelcellsworks.com/2026/10/06/h2/hystock-completes-evaluation-drilling-for-dutch-underground-hydrogen-storage-project",
+      "id": "209dd62a08",
+      "title": "Scania Puts Five Hydrogen Fuel-Cell Trucks Into Real-World Service in Switzerland",
+      "url": "https://fuelcellsworks.com/2026/10/10/fuel-cells/scania-puts-five-hydrogen-fuel-cell-trucks-into-real-world-service-in-switzerland",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-09T15:18:34+00:00",
-      "pub_ts": 1791559114
+      "pub_date": "2026-10-12T15:40:49+00:00",
+      "pub_ts": 1791819649
     },
     {
-      "id": "4a4bf121a4",
-      "title": "Uruguay Opens Its First Green Hydrogen and Electric Mobility Pilot Plant",
-      "url": "https://fuelcellsworks.com/2026/10/09/h2/uruguay-opens-its-first-green-hydrogen-and-electric-mobility-pilot-plant",
+      "id": "f871b1ee7e",
+      "title": "China’s Hydrogen Revolution: From Gas to Clean Energy",
+      "url": "https://fuelcellsworks.com/2026/10/11/h2/china-s-hydrogen-revolution-from-gas-to-clean-energy",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-09T15:08:33+00:00",
-      "pub_ts": 1791558513
+      "pub_date": "2026-10-12T15:37:02+00:00",
+      "pub_ts": 1791819422
     },
     {
-      "id": "7988bb1c39",
-      "title": "DESFA Takes FID on 145Km Hydrogen-Ready Pipeline to Patras",
-      "url": "https://fuelcellsworks.com/2026/10/06/h2/desfa-takes-fid-on-145km-hydrogen-ready-pipeline-to-patras",
+      "id": "5ca51e98c7",
+      "title": "Bloom Energy to Announce Third Quarter 2026 Financial Results on October 22, 2026",
+      "url": "https://fuelcellsworks.com/2026/10/12/electrolyzer/bloom-energy-to-announce-third-quarter-2026-financial-results-on-october-22-2026",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-09T14:52:44+00:00",
-      "pub_ts": 1791557564
+      "pub_date": "2026-10-12T15:32:01+00:00",
+      "pub_ts": 1791819121
     },
     {
       "id": "3ba93d9efc",
