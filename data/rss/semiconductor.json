@@ -3,78 +3,118 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-10-13T06:24:55.195272+00:00",
-  "item_count": 12,
+  "updated_at": "2026-10-14T04:25:41.547278+00:00",
+  "item_count": 14,
   "items": [
     {
-      "id": "1b49a9f4f3",
-      "title": "上海海思显示芯核CEO罗琨：屏幕的未来，不止于看见",
-      "url": "https://mp.weixin.qq.com/s/0gmOW9PPMhVM7v5z5ClQ-Q",
-      "summary": "上海海思显示芯核CEO罗琨：屏幕的未来，不止于看见",
+      "id": "ad6362cd8a",
+      "title": "王东升又干出IPO：RISC-V，中国芯片的另一种可能",
+      "url": "https://mp.weixin.qq.com/s/BQacbt3d-Rrl13y6D8_nTQ",
+      "summary": "王东升又干出IPO：RISC-V，中国芯片的另一种可能",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-13T06:24:50.993289+00:00",
-      "pub_ts": 1791872690
+      "pub_date": "2026-10-14T04:25:37.264894+00:00",
+      "pub_ts": 1791951937
     },
     {
-      "id": "e51b084a17",
-      "title": "来了",
-      "url": "https://mp.weixin.qq.com/s/ZqXkmoQLa-ahwSWF1Pk1BA",
-      "summary": "来了",
+      "id": "52206c9c2b",
+      "title": "湾芯展参观全攻略！展商名录、展位图、展期论坛、交通指引、打卡..",
+      "url": "https://mp.weixin.qq.com/s/v-XV1tO9ua4lATRPQCdDuw",
+      "summary": "湾芯展参观全攻略！展商名录、展位图、展期论坛、交通指引、打卡..",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-13T06:24:50.993333+00:00",
-      "pub_ts": 1791872690
+      "pub_date": "2026-10-14T04:25:37.264965+00:00",
+      "pub_ts": 1791951937
     },
     {
-      "id": "f1d74184bf",
-      "title": "最高涨30%，半导体封测最强涨价潮来袭",
-      "url": "https://mp.weixin.qq.com/s/-PrWN2TsR1AuEWdkc7g5-g",
-      "summary": "最高涨30%，半导体封测最强涨价潮来袭",
+      "id": "75335d3c85",
+      "title": "涨幅反超DDR5！DDR4合约价三月暴涨24%",
+      "url": "https://mp.weixin.qq.com/s/oZAHOBHysGHN2_Ln2YsErw",
+      "summary": "涨幅反超DDR5！DDR4合约价三月暴涨24%",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-13T06:24:50.993383+00:00",
-      "pub_ts": 1791872690
+      "pub_date": "2026-10-14T04:25:37.265005+00:00",
+      "pub_ts": 1791951937
     },
     {
-      "id": "d0b6e57279",
-      "title": "存储芯片太抢手，美光利润反超苹果",
-      "url": "https://mp.weixin.qq.com/s/s2IndB0txgQ_nNDwctX7RA",
-      "summary": "存储芯片太抢手，美光利润反超苹果",
+      "id": "8b3832c978",
+      "title": "不是CPO！英伟达、思科联手抛出光模块新方案",
+      "url": "https://mp.weixin.qq.com/s/1ByHJIfJ8rwI7M-sDUXyOA",
+      "summary": "不是CPO！英伟达、思科联手抛出光模块新方案",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-13T06:24:50.993407+00:00",
-      "pub_ts": 1791872690
+      "pub_date": "2026-10-14T04:25:37.265028+00:00",
+      "pub_ts": 1791951937
     },
     {
-      "id": "a270aba8f0",
-      "title": "高通又收购一家RISC-V初创公司",
-      "url": "https://mp.weixin.qq.com/s/ooEWLvP8S01g-fl4E0T6Jw",
-      "summary": "高通又收购一家RISC-V初创公司",
-      "source": "半导体产业纵横",
-      "lang": "zh",
-      "pub_date": "2026-10-13T06:24:50.993427+00:00",
-      "pub_ts": 1791872690
-    },
-    {
-      "id": "c910fffabd",
-      "title": "微软发布2nm芯片，加速抛弃英伟达！",
-      "url": "https://mp.weixin.qq.com/s/BGApMOVyoWlISW19DF2nfg",
-      "summary": "微软发布2nm芯片，加速抛弃英伟达！",
+      "id": "4c5eec6bac",
+      "title": "芯启万亿周期，深联全球未来！2026湾芯展，“圳”耀登场！",
+      "url": "https://mp.weixin.qq.com/s/JFTayIjvimkzBHLBcvoqKg",
+      "summary": "芯启万亿周期，深联全球未来！2026湾芯展，“圳”耀登场！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-13T06:24:38.049845+00:00",
-      "pub_ts": 1791872678
+      "pub_date": "2026-10-14T04:25:25.826410+00:00",
+      "pub_ts": 1791951925
     },
     {
-      "id": "64066fa576",
-      "title": "判！",
-      "url": "https://mp.weixin.qq.com/s/SsbZQ9B5_t7Ec_93vX8_0g",
-      "summary": "判！",
+      "id": "2a273f3e85",
+      "title": "粤芯上市暴涨，市值破千亿",
+      "url": "https://mp.weixin.qq.com/s/DlU9yCiffJjs5A2fnmVXzw",
+      "summary": "粤芯上市暴涨，市值破千亿",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-13T06:24:38.049898+00:00",
-      "pub_ts": 1791872678
+      "pub_date": "2026-10-14T04:25:25.826460+00:00",
+      "pub_ts": 1791951925
+    },
+    {
+      "id": "affb5a90a0",
+      "title": "明天深圳见！请收好这份2026湾芯展参观全攻略，逛展不迷路！",
+      "url": "https://mp.weixin.qq.com/s/6ehuJsxKjObN3HWGwTwwGA",
+      "summary": "明天深圳见！请收好这份2026湾芯展参观全攻略，逛展不迷路！",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-10-14T04:25:25.826485+00:00",
+      "pub_ts": 1791951925
+    },
+    {
+      "id": "fbb14e534a",
+      "title": "磷化铟，缺口巨大！",
+      "url": "https://mp.weixin.qq.com/s/Qf_yE6KOpsFEC6mSwgXrHw",
+      "summary": "磷化铟，缺口巨大！",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-10-14T04:25:25.826508+00:00",
+      "pub_ts": 1791951925
+    },
+    {
+      "id": "ea196ed063",
+      "title": "马斯克宣布，一年要搞10款芯片",
+      "url": "https://mp.weixin.qq.com/s/aMWtB_Yy_zUhhVvo1niuVg",
+      "summary": "马斯克宣布，一年要搞10款芯片",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-10-14T04:25:25.826529+00:00",
+      "pub_ts": 1791951925
+    },
+    {
+      "id": "8b32532bb1",
+      "title": "Agentic AI Automates RTL Waveform Analysis And Debugging (Columbia, Google)",
+      "url": "https://semiengineering.com/agentic-ai-automates-rtl-waveform-analysis-and-debugging-columbia-google/",
+      "summary": "Researchers at Columbia University, Google DeepMind, and Google published a technical paper titled “Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification.” Abstract “The unprecedented computational scale of modern artificial intelligence depends on complex…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-10-13T20:20:40+00:00",
+      "pub_ts": 1791922840
+    },
+    {
+      "id": "e783bab3ad",
+      "title": "Chip Industry Technical Paper Roundup: Oct. 13",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-oct-13-2/",
+      "summary": "M3D mem-TFT neuromorphic computing; 2D semiconductor nucleation; ultrathin high-κ dielectrics; hyper-NA EUV litho; bit-flip attack detection in AI accelerators; programmable DRAM controllers; foundry-compatible photonic bends.\nThe post Chip Industry Technical Paper Roundup: Oct. 13 appeared first on…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-10-13T07:01:36+00:00",
+      "pub_ts": 1791874896
     },
     {
       "id": "5267921b84",
@@ -105,26 +145,6 @@
       "lang": "en",
       "pub_date": "2026-10-12T22:25:06+00:00",
       "pub_ts": 1791843906
-    },
-    {
-      "id": "2043b963c8",
-      "title": "Startup Funding: Q3 2026",
-      "url": "https://semiengineering.com/startup-funding-q3-2026/",
-      "summary": "80 startups raised $8.5B in Q3, with big hauls by companies tackling data movement and memory.\nThe post Startup Funding: Q3 2026 appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-10-12T07:01:27+00:00",
-      "pub_ts": 1791788487
-    },
-    {
-      "id": "26aeda925e",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-159/",
-      "summary": "$2B foundry pact; hyper-NA EUV; TSMC, Samsung financials; Canon readies nanoimprint; AI chips under scrutiny; $10T data center buildout; $1.5B SiC boost; chip smuggling; 800V power gains traction; quantum HW scales up; wireless EV road charging; sub-nm gate dielectrics; mobile fab.\nThe post Chip Ind…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-10-09T07:01:17+00:00",
-      "pub_ts": 1791529277
     }
   ],
   "source_success_count": 3,

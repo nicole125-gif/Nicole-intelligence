@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-10-13T06:25:36.117419+00:00",
+  "updated_at": "2026-10-14T04:26:51.247569+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "b4a37e6cd4",
-      "title": "FDA approves Teva’s monthly injection of olanzapine for schizophrenia",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-approves-tevas-monthly-injection-of-olanzapine-for-schizophrenia/",
-      "summary": "Teva said it is debuting the drug to overcome adherence issues with an oral counterpart and improve symptom outcomes.",
+      "id": "a23618de20",
+      "title": "Tremfya rescues J&J’s immunology sales to fuel strong Q3",
+      "url": "https://www.pharmaceutical-technology.com/news/tremfya-rescues-jjs-immunology-sales-to-fuel-strong-q3/",
+      "summary": "Despite several products succumbing to generics and biosimilars, J&amp;J raised its 2026 guidance.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-12T10:48:19+00:00",
-      "pub_ts": 1791802099
+      "pub_date": "2026-10-13T14:34:38+00:00",
+      "pub_ts": 1791902078
     },
     {
-      "id": "5c6dbeb20d",
-      "title": "FDA approves Asahi Kasei’s Hovilpri for refractory HSV",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-asahi-kaseis-hovilpri-refractory-hsv/",
-      "summary": "The US FDA has approved Asahi Kasei Therapeutics’ Hovilpri 100mg tablets to treat refractory mucocutaneous HSV lesions in immunocompromised adults.",
+      "id": "1ccd82006a",
+      "title": "Roche bets on the RNAi approach for obesity through $1bn Rona deal",
+      "url": "https://www.pharmaceutical-technology.com/news/roche-rona-obesity-rnai-licensing-deal-1bn/",
+      "summary": "Roche now joins a growing list of big pharma and biotech players exploring the RNAi approach’s promise in treating obesity.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-12T10:04:27+00:00",
-      "pub_ts": 1791799467
+      "pub_date": "2026-10-13T10:26:45+00:00",
+      "pub_ts": 1791887205
     },
     {
-      "id": "bb0f52fd0f",
-      "title": "Perceptive, Nucleus partner to support radiopharmaceutical development",
-      "url": "https://www.pharmaceutical-technology.com/news/perceptive-nucleus-support-radiopharmaceutical-development/",
-      "summary": "Perceptive Discovery and Nucleus RadioPharma have announced a non-exclusive strategic partnership to assist radiopharmaceutical developers shift from initial target validation through to clinical manufacturing.",
+      "id": "78dc79cda0",
+      "title": "China’s NMPA clears Foresee’s Camcevi 42 mg for prostate cancer",
+      "url": "https://www.pharmaceutical-technology.com/news/chinas-nmpa-foresees-camcevi-42-mg/",
+      "summary": "China's NMPA has approved the MAA for Foresee Pharmaceuticals’ Camcevi 42 mg to treat adult patients with advanced prostate cancer.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-12T08:13:29+00:00",
-      "pub_ts": 1791792809
+      "pub_date": "2026-10-13T09:27:23+00:00",
+      "pub_ts": 1791883643
     },
     {
-      "id": "b8516a086e",
-      "title": "Big tech- and pharma-backed Iambic Therapeutics aims for $135m IPO",
-      "url": "https://www.pharmaceutical-technology.com/news/big-tech-and-pharma-backed-iambic-therapeutics-aims-for-135m-ipo/",
-      "summary": "A US listing for the oncology specialist continues a bumper year for biotech IPOs.",
+      "id": "ecdd06dea8",
+      "title": "Southern Research secures NIH funding for drug testing hub",
+      "url": "https://www.pharmaceutical-technology.com/news/southern-research-nih-drug-testing-hub/",
+      "summary": "Southern Research has secured an $8m grant from the US NIH to establish a national shared-use biomedical facility, the THRIVE,",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-09T15:02:22+00:00",
-      "pub_ts": 1791558142
+      "pub_date": "2026-10-13T08:11:46+00:00",
+      "pub_ts": 1791879106
     },
     {
-      "id": "675a6a8c47",
-      "title": "Roche’s Tecentriq snags FDA label expansion in type of colon cancer",
-      "url": "https://www.pharmaceutical-technology.com/news/roche-tecentriq-fda-label-expansion-dmmr-colon-cancer-stage-iii/",
-      "summary": "Tecentriq is now the first immunotherapy indicated for dMMR colon cancer specifically, which is often linked to a higher risk of progression after surgery.",
+      "id": "46b986728a",
+      "title": "Women’s health landscape shifting, but systemic hurdles remain",
+      "url": "https://www.pharmaceutical-technology.com/features/womens-health-landscape-shifting-systemic-hurdles-remain/",
+      "summary": "Closing the data gap with inclusionary research and educating investors on the promise of women’s health innovations remain key steps to health equity.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-09T10:37:16+00:00",
-      "pub_ts": 1791542236
+      "pub_date": "2026-10-12T16:49:31+00:00",
+      "pub_ts": 1791823771
     }
   ],
   "source_success_count": 1,

@@ -3,111 +3,61 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-10-13T06:25:23.144396+00:00",
-  "item_count": 10,
+  "updated_at": "2026-10-14T04:26:38.597761+00:00",
+  "item_count": 5,
   "items": [
     {
-      "id": "e715cc5762",
-      "title": "FuelCell Energy Appoints John Dansby to Lead Manufacturing Scale-Up",
-      "url": "https://fuelcellsworks.com/2026/10/12/electrolyzer/fuelcell-energy-appoints-john-dansby-to-lead-manufacturing-scale-up",
+      "id": "ec888ce2fc",
+      "title": "LS Materials Wins $50M Order for Ultracapacitors Used in Hydrogen Fuel-Cell Data Centres",
+      "url": "https://fuelcellsworks.com/2026/10/13/clean-technology/ls-materials-wins-51-5m-order-for-ultracapacitors-used-in-hydrogen-fuel-cell-data-centres",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-12T16:11:19+00:00",
-      "pub_ts": 1791821479
+      "pub_date": "2026-10-13T16:30:17+00:00",
+      "pub_ts": 1791909017
     },
     {
-      "id": "963856cd6a",
-      "title": "NaTran Advances 820Km Hy-Fen Hydrogen Pipeline Toward 2032 Start",
-      "url": "https://fuelcellsworks.com/2026/10/11/h2/natran-advances-820km-hy-fen-hydrogen-pipeline-toward-2032-start",
+      "id": "9cf621bd0e",
+      "title": "Hydrogen Storage: Fraunhofer Turns to Lasers to Make Rock Caverns Leak-Proof",
+      "url": "https://fuelcellsworks.com/2026/10/12/h2/hydrogen-storage-fraunhofer-turns-to-lasers-to-make-rock-caverns-leak-proof",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-12T15:49:31+00:00",
-      "pub_ts": 1791820171
+      "pub_date": "2026-10-13T16:27:23+00:00",
+      "pub_ts": 1791908843
     },
     {
-      "id": "209dd62a08",
-      "title": "Scania Puts Five Hydrogen Fuel-Cell Trucks Into Real-World Service in Switzerland",
-      "url": "https://fuelcellsworks.com/2026/10/10/fuel-cells/scania-puts-five-hydrogen-fuel-cell-trucks-into-real-world-service-in-switzerland",
+      "id": "bba75d8353",
+      "title": "Daejeon Adds 50 More Hydrogen Vehicle Subsidies After 2026 Quota Sells Out Early",
+      "url": "https://fuelcellsworks.com/2026/10/11/fuel-cells/daejeon-adds-50-more-hydrogen-vehicle-subsidies-after-2026-quota-sells-out-early",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-12T15:40:49+00:00",
-      "pub_ts": 1791819649
+      "pub_date": "2026-10-13T16:09:43+00:00",
+      "pub_ts": 1791907783
     },
     {
-      "id": "f871b1ee7e",
-      "title": "China’s Hydrogen Revolution: From Gas to Clean Energy",
-      "url": "https://fuelcellsworks.com/2026/10/11/h2/china-s-hydrogen-revolution-from-gas-to-clean-energy",
+      "id": "2fd86f55e3",
+      "title": "Mott MacDonald Appointed to Support East Coast Hydrogen Network Development",
+      "url": "https://fuelcellsworks.com/2026/10/08/h2/mott-macdonald-appointed-to-support-east-coast-hydrogen-network-development",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-12T15:37:02+00:00",
-      "pub_ts": 1791819422
+      "pub_date": "2026-10-13T16:03:11+00:00",
+      "pub_ts": 1791907391
     },
     {
-      "id": "5ca51e98c7",
-      "title": "Bloom Energy to Announce Third Quarter 2026 Financial Results on October 22, 2026",
-      "url": "https://fuelcellsworks.com/2026/10/12/electrolyzer/bloom-energy-to-announce-third-quarter-2026-financial-results-on-october-22-2026",
+      "id": "08fd0eaba0",
+      "title": "Magallanes Commission Gives Favourable Ruling on Río Verde Hydrogen Port Concession",
+      "url": "https://fuelcellsworks.com/2026/10/13/h2/magallanes-commission-gives-favourable-ruling-on-rio-verde-hydrogen-port-concession",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-12T15:32:01+00:00",
-      "pub_ts": 1791819121
-    },
-    {
-      "id": "3ba93d9efc",
-      "title": "voestalpine and VERBUND launch expanded H2FUTURE hydrogen pilot plant in Linz",
-      "url": "https://hydrogen-central.com/voestalpine-and-verbund-launch-expanded-h2future-hydrogen-pilot-plant-in-linz/",
-      "summary": "voestalpine and VERBUND launch expanded H2FUTURE hydrogen pilot plant in Linz The internationally renowned H2FUTURE research project at the voestalpine site in Linz is entering the next expansion stage. Enhancements [&#8230;]\nThe post voestalpine and VERBUND launch expanded H2FUTURE hydrogen pilot p…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-10-08T13:24:59+00:00",
-      "pub_ts": 1791465899
-    },
-    {
-      "id": "6436df6038",
-      "title": "Hydrogen pipeline construction begins – BMW Group to integrate Plant Leipzig into core hydrogen grid.",
-      "url": "https://hydrogen-central.com/hydrogen-pipeline-construction-begins-bmw-group-to-integrate-plant-leipzig-into-core-hydrogen-grid/",
-      "summary": "Hydrogen pipeline construction begins &#8211; BMW Group to integrate Plant Leipzig into core hydrogen grid. +++ First vehicle plant worldwide to connect to a hydrogen grid +++ Milestone in energy [&#8230;]\nThe post Hydrogen pipeline construction begins &#8211; BMW Group to integrate Plant Leipzig in…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-10-08T13:23:14+00:00",
-      "pub_ts": 1791465794
-    },
-    {
-      "id": "2cf5df6664",
-      "title": "Ballard launches Fleet360 services for new North American FCmove®-HD+ fleets at APTA EXPO 2026",
-      "url": "https://hydrogen-central.com/ballard-launches-fleet360-services-for-new-north-american-fcmove-hd-fleets-at-apta-expo-2026/",
-      "summary": "Ballard launches Fleet360 services for new North American FCmove®-HD+ fleets at APTA EXPO 2026 End-to-end service program combines fuel cell module performance guarantee with committed service response and resolution times, [&#8230;]\nThe post Ballard launches Fleet360 services for new North American…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-10-08T13:20:41+00:00",
-      "pub_ts": 1791465641
-    },
-    {
-      "id": "fd54b64db9",
-      "title": "The LEGO Group starts making selected LEGO® elements using e-methanol",
-      "url": "https://hydrogen-central.com/the-lego-group-starts-making-selected-lego-elements-using-e-methanol/",
-      "summary": "The LEGO Group starts making selected LEGO® elements using e-methanol We have started using e-methanol, a renewable material, to help make more than 90 robust and rigid LEGO® elements, including [&#8230;]\nThe post The LEGO Group starts making selected LEGO® elements using e-methanol appeared first o…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-10-08T13:18:23+00:00",
-      "pub_ts": 1791465503
-    },
-    {
-      "id": "f103a77a2b",
-      "title": "Walmart Chile, Copec launch hydrogen station for heavy trucks",
-      "url": "https://hydrogen-central.com/walmart-chile-copec-launch-hydrogen-station-for-heavy-trucks/",
-      "summary": "Walmart Chile, Copec launch hydrogen station for heavy trucks The facility will supply green hydrogen to heavy-duty trucks serving Walmart Chile’s logistics network, supporting a pilot project aimed at advancing [&#8230;]\nThe post Walmart Chile, Copec launch hydrogen station for heavy trucks appeare…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-10-07T16:58:37+00:00",
-      "pub_ts": 1791392317
+      "pub_date": "2026-10-13T15:57:01+00:00",
+      "pub_ts": 1791907021
     }
   ],
-  "source_success_count": 2,
+  "source_success_count": 1,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }
