@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-10-14T04:25:55.642563+00:00",
+  "updated_at": "2026-10-15T04:08:27.115969+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "d6c5ebed15",
-      "title": "iPhone断网跑35B多模态！国产开源新模型，只占3G内存",
-      "url": "https://mp.weixin.qq.com/s/-3bucYVQ2WINwj7RZuXOQw",
-      "summary": "iPhone断网跑35B多模态！国产开源新模型，只占3G内存",
+      "id": "33a7b8c2e8",
+      "title": "阶跃终端首款「Agent手机」STEPXNeo正式发布，创客先行",
+      "url": "https://mp.weixin.qq.com/s/VsUVApOBLOTa0Tfjiax4JQ",
+      "summary": "阶跃终端首款「Agent手机」STEPXNeo正式发布，创客先行",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-14T04:25:51.453791+00:00",
-      "pub_ts": 1791951951
+      "pub_date": "2026-10-15T04:08:22.418039+00:00",
+      "pub_ts": 1792037302
     },
     {
-      "id": "292590436e",
-      "title": "告别资料散落，让知识持续积累：openJiuwen首发个人知识空间，…..",
-      "url": "https://mp.weixin.qq.com/s/EqwTHqK7fVeHGS0HQTbklw",
-      "summary": "告别资料散落，让知识持续积累：openJiuwen首发个人知识空间，…..",
+      "id": "5171b9eb69",
+      "title": "7天几百元开一家店！用千问办公电商版，立省启动资金5万元",
+      "url": "https://mp.weixin.qq.com/s/VZGdxQ0Bn-L97aaLpPqixA",
+      "summary": "7天几百元开一家店！用千问办公电商版，立省启动资金5万元",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-14T04:25:51.453833+00:00",
-      "pub_ts": 1791951951
+      "pub_date": "2026-10-15T04:08:22.418079+00:00",
+      "pub_ts": 1792037302
     },
     {
-      "id": "23375b1698",
-      "title": "千问版个人Agent，先进眼镜里",
-      "url": "https://mp.weixin.qq.com/s/kFYPn3GE47zK2oOtxRHfHQ",
-      "summary": "千问版个人Agent，先进眼镜里",
+      "id": "82b9d0ba4d",
+      "title": "最新ego视角手部重建框架，单模型输出世界坐标系下手部运动",
+      "url": "https://mp.weixin.qq.com/s/2K_KcjZufFUP8X3_QQZS0A",
+      "summary": "最新ego视角手部重建框架，单模型输出世界坐标系下手部运动",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-14T04:25:51.453856+00:00",
-      "pub_ts": 1791951951
+      "pub_date": "2026-10-15T04:08:22.418096+00:00",
+      "pub_ts": 1792037302
     },
     {
-      "id": "ff0e6fa51b",
-      "title": "Token用量减少74.9%：Real2Gym把仿真经验变成真机可复用技能",
-      "url": "https://mp.weixin.qq.com/s/NTVjoy3Jc-Ezo5aWOqYUuA",
-      "summary": "Token用量减少74.9%：Real2Gym把仿真经验变成真机可复用技能",
+      "id": "04dfaf6bdc",
+      "title": "《变形计》综艺赛博复活，AI版MrBeast爆火，LibTV下场「造星」了",
+      "url": "https://mp.weixin.qq.com/s/lIJdqycICFUps3PQy6x15Q",
+      "summary": "《变形计》综艺赛博复活，AI版MrBeast爆火，LibTV下场「造星」了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-14T04:25:51.453877+00:00",
-      "pub_ts": 1791951951
+      "pub_date": "2026-10-15T04:08:22.418113+00:00",
+      "pub_ts": 1792037302
     },
     {
-      "id": "e5c5838f8a",
-      "title": "华为哈勃投了个98年博士！让机器人皮肤变色，团队平均23岁",
-      "url": "https://mp.weixin.qq.com/s/_JvsX1ALNqmj7ZrdLJ7Itg",
-      "summary": "华为哈勃投了个98年博士！让机器人皮肤变色，团队平均23岁",
+      "id": "ff92e244ff",
+      "title": "Jeff Dean投的RSI出成果了：KimiK3自我进化排国产第一",
+      "url": "https://mp.weixin.qq.com/s/ScwrHKmybM_AOlFhqwu4ow",
+      "summary": "Jeff Dean投的RSI出成果了：KimiK3自我进化排国产第一",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-14T04:25:51.453897+00:00",
-      "pub_ts": 1791951951
+      "pub_date": "2026-10-15T04:08:22.418130+00:00",
+      "pub_ts": 1792037302
     }
   ],
   "source_success_count": 1,

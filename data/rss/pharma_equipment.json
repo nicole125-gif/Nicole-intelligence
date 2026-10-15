@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-10-14T04:26:51.247569+00:00",
+  "updated_at": "2026-10-15T04:08:51.112327+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "a23618de20",
-      "title": "Tremfya rescues J&J’s immunology sales to fuel strong Q3",
-      "url": "https://www.pharmaceutical-technology.com/news/tremfya-rescues-jjs-immunology-sales-to-fuel-strong-q3/",
-      "summary": "Despite several products succumbing to generics and biosimilars, J&amp;J raised its 2026 guidance.",
+      "id": "65330d23b2",
+      "title": "Zealand Pharma pens $1.2bn AI obesity drug discovery pact with Generate",
+      "url": "https://www.pharmaceutical-technology.com/news/zealand-pharma-pens-1-2bn-ai-obesity-drug-discovery-pact-with-generate/",
+      "summary": "The tie-up makes Zealand the latest pharma company to enlist Generate's AI-powered drug discovery services.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-13T14:34:38+00:00",
-      "pub_ts": 1791902078
+      "pub_date": "2026-10-14T15:17:51+00:00",
+      "pub_ts": 1791991071
     },
     {
-      "id": "1ccd82006a",
-      "title": "Roche bets on the RNAi approach for obesity through $1bn Rona deal",
-      "url": "https://www.pharmaceutical-technology.com/news/roche-rona-obesity-rnai-licensing-deal-1bn/",
-      "summary": "Roche now joins a growing list of big pharma and biotech players exploring the RNAi approach’s promise in treating obesity.",
+      "id": "11ba5d53ed",
+      "title": "MHRA homes in on personalised healthcare and tech in new 2030 strategy",
+      "url": "https://www.pharmaceutical-technology.com/news/uk-mhra-2030-strategy-drug-medical-device-regulation/",
+      "summary": "The MHRA’s new 2030 strategy plans to make drug and device regulation more efficient and patient centric by using technologies like AI.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-13T10:26:45+00:00",
-      "pub_ts": 1791887205
+      "pub_date": "2026-10-14T11:06:42+00:00",
+      "pub_ts": 1791976002
     },
     {
-      "id": "78dc79cda0",
-      "title": "China’s NMPA clears Foresee’s Camcevi 42 mg for prostate cancer",
-      "url": "https://www.pharmaceutical-technology.com/news/chinas-nmpa-foresees-camcevi-42-mg/",
-      "summary": "China's NMPA has approved the MAA for Foresee Pharmaceuticals’ Camcevi 42 mg to treat adult patients with advanced prostate cancer.",
+      "id": "bcd9a744e3",
+      "title": "Soufflé Therapeutics snags $135m to bring trio of drugs to the clinic",
+      "url": "https://www.pharmaceutical-technology.com/news/souffle-therapeutics-135m-series-b-financing-round/",
+      "summary": "Pharma-backed Soufflé will now progress three drugs for FSHD, heart failure and muscle & metabolic disorders to the clinic.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-13T09:27:23+00:00",
-      "pub_ts": 1791883643
+      "pub_date": "2026-10-14T09:46:33+00:00",
+      "pub_ts": 1791971193
     },
     {
-      "id": "ecdd06dea8",
-      "title": "Southern Research secures NIH funding for drug testing hub",
-      "url": "https://www.pharmaceutical-technology.com/news/southern-research-nih-drug-testing-hub/",
-      "summary": "Southern Research has secured an $8m grant from the US NIH to establish a national shared-use biomedical facility, the THRIVE,",
+      "id": "9b2258ff96",
+      "title": "Charles River partners with Magellan Stem Cells on cell therapy",
+      "url": "https://www.pharmaceutical-technology.com/news/charles-river-magellan-stem-cell-therapy/",
+      "summary": "CRL has collaborated with Australian biotechnology firm Magellan Stem Cells to advance the development and clinical progress of Magellan's regenerative medicine candidate, Zelestrocel.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-13T08:11:46+00:00",
-      "pub_ts": 1791879106
+      "pub_date": "2026-10-14T09:25:42+00:00",
+      "pub_ts": 1791969942
     },
     {
-      "id": "46b986728a",
-      "title": "Women’s health landscape shifting, but systemic hurdles remain",
-      "url": "https://www.pharmaceutical-technology.com/features/womens-health-landscape-shifting-systemic-hurdles-remain/",
-      "summary": "Closing the data gap with inclusionary research and educating investors on the promise of women’s health innovations remain key steps to health equity.",
+      "id": "cda3dca037",
+      "title": "Pfizer partners with Enodia Therapeutics in $500m drug deal",
+      "url": "https://www.pharmaceutical-technology.com/news/pfizer-enodia-therapeutics-500m-drug-deal/",
+      "summary": "Pfizer and Enodia Therapeutics have announced a research collaboration and licensing deal potentially worth over $500m to discover and develop Sec61 inhibitors.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-12T16:49:31+00:00",
-      "pub_ts": 1791823771
+      "pub_date": "2026-10-14T07:40:41+00:00",
+      "pub_ts": 1791963641
     }
   ],
   "source_success_count": 1,
