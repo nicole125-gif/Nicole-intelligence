@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-10-15T04:08:27.115969+00:00",
+  "updated_at": "2026-10-16T04:04:39.363097+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "33a7b8c2e8",
-      "title": "阶跃终端首款「Agent手机」STEPXNeo正式发布，创客先行",
-      "url": "https://mp.weixin.qq.com/s/VsUVApOBLOTa0Tfjiax4JQ",
-      "summary": "阶跃终端首款「Agent手机」STEPXNeo正式发布，创客先行",
+      "id": "c9cab7fbdd",
+      "title": "这个双十一，百灵新模型干起活来不烧心",
+      "url": "https://mp.weixin.qq.com/s/9BpGsE1Sn7uO39mDKc4V-w",
+      "summary": "这个双十一，百灵新模型干起活来不烧心",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-15T04:08:22.418039+00:00",
-      "pub_ts": 1792037302
+      "pub_date": "2026-10-16T04:04:33.998710+00:00",
+      "pub_ts": 1792123473
     },
     {
-      "id": "5171b9eb69",
-      "title": "7天几百元开一家店！用千问办公电商版，立省启动资金5万元",
-      "url": "https://mp.weixin.qq.com/s/VZGdxQ0Bn-L97aaLpPqixA",
-      "summary": "7天几百元开一家店！用千问办公电商版，立省启动资金5万元",
+      "id": "269e05a7bd",
+      "title": "GPT证千禧年难题成果大反转！OpenAl自己没看懂就发...",
+      "url": "https://mp.weixin.qq.com/s/-YFwVeMl0AnP7bsUophI-Q",
+      "summary": "GPT证千禧年难题成果大反转！OpenAl自己没看懂就发...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-15T04:08:22.418079+00:00",
-      "pub_ts": 1792037302
+      "pub_date": "2026-10-16T04:04:33.998754+00:00",
+      "pub_ts": 1792123473
     },
     {
-      "id": "82b9d0ba4d",
-      "title": "最新ego视角手部重建框架，单模型输出世界坐标系下手部运动",
-      "url": "https://mp.weixin.qq.com/s/2K_KcjZufFUP8X3_QQZS0A",
-      "summary": "最新ego视角手部重建框架，单模型输出世界坐标系下手部运动",
+      "id": "340caad966",
+      "title": "前华为小艺大模型负责人创业，押注”主动式物理AI”",
+      "url": "https://mp.weixin.qq.com/s/otnj4n6wNot-bsJ8COaARg",
+      "summary": "前华为小艺大模型负责人创业，押注”主动式物理AI”",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-15T04:08:22.418096+00:00",
-      "pub_ts": 1792037302
+      "pub_date": "2026-10-16T04:04:33.998772+00:00",
+      "pub_ts": 1792123473
     },
     {
-      "id": "04dfaf6bdc",
-      "title": "《变形计》综艺赛博复活，AI版MrBeast爆火，LibTV下场「造星」了",
-      "url": "https://mp.weixin.qq.com/s/lIJdqycICFUps3PQy6x15Q",
-      "summary": "《变形计》综艺赛博复活，AI版MrBeast爆火，LibTV下场「造星」了",
+      "id": "8ab405f227",
+      "title": "AI时代，商学院这样培养未来商业领袖",
+      "url": "https://mp.weixin.qq.com/s/ZOF7uWlxqPWYqFMach3eZA",
+      "summary": "AI时代，商学院这样培养未来商业领袖",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-15T04:08:22.418113+00:00",
-      "pub_ts": 1792037302
+      "pub_date": "2026-10-16T04:04:33.998789+00:00",
+      "pub_ts": 1792123473
     },
     {
-      "id": "ff92e244ff",
-      "title": "Jeff Dean投的RSI出成果了：KimiK3自我进化排国产第一",
-      "url": "https://mp.weixin.qq.com/s/ScwrHKmybM_AOlFhqwu4ow",
-      "summary": "Jeff Dean投的RSI出成果了：KimiK3自我进化排国产第一",
+      "id": "cbc50ee920",
+      "title": "刚刚，苹果正式迈入5万亿美元时代",
+      "url": "https://mp.weixin.qq.com/s/2DFr0dX00-2DRWe5bExZCQ",
+      "summary": "刚刚，苹果正式迈入5万亿美元时代",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-15T04:08:22.418130+00:00",
-      "pub_ts": 1792037302
+      "pub_date": "2026-10-16T04:04:33.998806+00:00",
+      "pub_ts": 1792123473
     }
   ],
   "source_success_count": 1,

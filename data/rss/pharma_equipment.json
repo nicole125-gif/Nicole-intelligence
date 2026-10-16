@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-10-15T04:08:51.112327+00:00",
+  "updated_at": "2026-10-16T04:05:09.558391+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "65330d23b2",
-      "title": "Zealand Pharma pens $1.2bn AI obesity drug discovery pact with Generate",
-      "url": "https://www.pharmaceutical-technology.com/news/zealand-pharma-pens-1-2bn-ai-obesity-drug-discovery-pact-with-generate/",
-      "summary": "The tie-up makes Zealand the latest pharma company to enlist Generate's AI-powered drug discovery services.",
+      "id": "56b2555dd3",
+      "title": "Gilead and Vir forge $1.9bn pact to develop next-gen T-cell engagers",
+      "url": "https://www.pharmaceutical-technology.com/news/gilead-vir-1-9bn-pact-next-gen-t-cell-engagers-tce/",
+      "summary": "This deal sees Gilead double down on TCEs, following its first bet on the modality through its buyout of autoimmune-focused Ouro Medicines.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-14T15:17:51+00:00",
-      "pub_ts": 1791991071
+      "pub_date": "2026-10-15T13:30:54+00:00",
+      "pub_ts": 1792071054
     },
     {
-      "id": "11ba5d53ed",
-      "title": "MHRA homes in on personalised healthcare and tech in new 2030 strategy",
-      "url": "https://www.pharmaceutical-technology.com/news/uk-mhra-2030-strategy-drug-medical-device-regulation/",
-      "summary": "The MHRA’s new 2030 strategy plans to make drug and device regulation more efficient and patient centric by using technologies like AI.",
+      "id": "167d6c5a9e",
+      "title": "Rare disease regulation reaches “inflection point” with new FDA framework",
+      "url": "https://www.pharmaceutical-technology.com/news/rare-disease-regulation-reaches-inflection-point-with-new-fda-framework/",
+      "summary": "The tailored framework arrives amid renewed focus on rare diseases across US health agencies.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-14T11:06:42+00:00",
-      "pub_ts": 1791976002
+      "pub_date": "2026-10-15T10:44:50+00:00",
+      "pub_ts": 1792061090
     },
     {
-      "id": "bcd9a744e3",
-      "title": "Soufflé Therapeutics snags $135m to bring trio of drugs to the clinic",
-      "url": "https://www.pharmaceutical-technology.com/news/souffle-therapeutics-135m-series-b-financing-round/",
-      "summary": "Pharma-backed Soufflé will now progress three drugs for FSHD, heart failure and muscle & metabolic disorders to the clinic.",
+      "id": "d962cb4b06",
+      "title": "QCi and INmune Bio partner to study XPro in Alzheimer’s",
+      "url": "https://www.pharmaceutical-technology.com/news/qci-inmune-bio-study-xpro-alzheimers/",
+      "summary": "INmune Bio and QCi have agreed to collaborate using quantum computing, AI, and data analytics to explore new indications for XPro, an investigational treatment for Alzheimer's disease and other medical conditions.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-14T09:46:33+00:00",
-      "pub_ts": 1791971193
+      "pub_date": "2026-10-15T09:59:29+00:00",
+      "pub_ts": 1792058369
     },
     {
-      "id": "9b2258ff96",
-      "title": "Charles River partners with Magellan Stem Cells on cell therapy",
-      "url": "https://www.pharmaceutical-technology.com/news/charles-river-magellan-stem-cell-therapy/",
-      "summary": "CRL has collaborated with Australian biotechnology firm Magellan Stem Cells to advance the development and clinical progress of Magellan's regenerative medicine candidate, Zelestrocel.",
+      "id": "c247f0bf22",
+      "title": "ImmunityBio’s bladder cancer drug, Anktiva lands US label expansion",
+      "url": "https://www.pharmaceutical-technology.com/news/immunitybio-anktiva-nmibc-us-label-expansion/",
+      "summary": "Anktiva’s newfound FDA label expansion comes as the agency deems cases of CIS and high-grade papillary only NMIBC clinically similar.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-14T09:25:42+00:00",
-      "pub_ts": 1791969942
+      "pub_date": "2026-10-15T09:42:16+00:00",
+      "pub_ts": 1792057336
     },
     {
-      "id": "cda3dca037",
-      "title": "Pfizer partners with Enodia Therapeutics in $500m drug deal",
-      "url": "https://www.pharmaceutical-technology.com/news/pfizer-enodia-therapeutics-500m-drug-deal/",
-      "summary": "Pfizer and Enodia Therapeutics have announced a research collaboration and licensing deal potentially worth over $500m to discover and develop Sec61 inhibitors.",
+      "id": "a3e6ad5282",
+      "title": "Alentis and PinotBio partner to develop claudin-1 oncology ADCs",
+      "url": "https://www.pharmaceutical-technology.com/news/alentis-pinotbio-claudin-1-oncology-adcs/",
+      "summary": "Alentis Therapeutics and PinotBio have entered into a research collaboration and licensing agreement to develop claudin-1-targeting antibody-drug conjugates (ADCs) for oncology indications.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-14T07:40:41+00:00",
-      "pub_ts": 1791963641
+      "pub_date": "2026-10-15T07:57:14+00:00",
+      "pub_ts": 1792051034
     }
   ],
   "source_success_count": 1,

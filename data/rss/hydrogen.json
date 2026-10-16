@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-10-15T04:08:38.324876+00:00",
+  "updated_at": "2026-10-16T04:04:56.684636+00:00",
   "item_count": 10,
   "items": [
     {
-      "id": "23852cfb5f",
-      "title": "AEP Advances Innovative Energy Solution for Google with 702MW of Bloom Fuel Cells",
-      "url": "https://fuelcellsworks.com/2026/10/14/clean-energy/aep-advances-innovative-energy-solution-for-google-with-702mw-of-bloom-fuel-cells",
+      "id": "2a331178af",
+      "title": "Lombardy's First Open-Market Hydrogen Valley Opens on Former Paper Mill Site",
+      "url": "https://fuelcellsworks.com/2026/10/15/electrolyzer/lombardy-s-first-open-market-hydrogen-valley-opens-on-former-paper-mill-site",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-14T15:53:34+00:00",
-      "pub_ts": 1791993214
+      "pub_date": "2026-10-15T16:13:26+00:00",
+      "pub_ts": 1792080806
     },
     {
-      "id": "0f9a8858de",
-      "title": "World's First Commercial Green Ammonia Ship-to-Ship Bunkering Completed at Zhoushan",
-      "url": "https://fuelcellsworks.com/2026/10/14/clean-technology/world-s-first-commercial-green-ammonia-ship-to-ship-bunkering-completed-at-zhoushan",
+      "id": "334aa0b070",
+      "title": "First in Japan to Validate a Hydrogen Aircraft Engine Capable of Achieving One of the World's Lowest NOx Emission Levels",
+      "url": "https://fuelcellsworks.com/2026/10/08/h2/first-in-japan-to-validate-a-hydrogen-aircraft-engine-capable-of-achieving-one-of-the-world-s-lowest-nox-emission-levels",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-14T15:45:08+00:00",
-      "pub_ts": 1791992708
+      "pub_date": "2026-10-15T15:47:15+00:00",
+      "pub_ts": 1792079235
     },
     {
-      "id": "868842d96e",
-      "title": "HyLight Raises €13 Million to Scale Hydrogen-Powered Airship Fleet to 15 Units by 2027",
-      "url": "https://fuelcellsworks.com/2026/10/12/clean-energy/hylight-raises-13-million-to-scale-hydrogen-powered-airship-fleet-to-15-units-by-2027",
+      "id": "72a3d82501",
+      "title": "Oracle Asks FERC to Fast-Track Gas Pipeline for New Mexico AI Data Center",
+      "url": "https://fuelcellsworks.com/2026/10/14/clean-energy/oracle-asks-ferc-to-fast-track-gas-pipeline-for-new-mexico-ai-data-center",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-14T15:33:01+00:00",
-      "pub_ts": 1791991981
+      "pub_date": "2026-10-15T15:22:20+00:00",
+      "pub_ts": 1792077740
     },
     {
-      "id": "0f73b5dcef",
-      "title": "South Korea's Seosan to Raise Hydrogen Refuelling Price by 10.5% From November",
-      "url": "https://fuelcellsworks.com/2026/10/13/h2/south-korea-s-seosan-to-raise-hydrogen-refuelling-price-by-10-5-percent-from-november",
+      "id": "e56f2f8c0f",
+      "title": "Aragon Launches Pioneering Industrial Laboratory to Scale Hydrogen Storage Solutions.",
+      "url": "https://fuelcellsworks.com/2026/10/11/h2/aragon-launches-pioneering-industrial-laboratory-to-scale-hydrogen-storage-solutions",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-14T15:16:42+00:00",
-      "pub_ts": 1791991002
+      "pub_date": "2026-10-15T14:48:51+00:00",
+      "pub_ts": 1792075731
     },
     {
-      "id": "2bc5d76ae4",
-      "title": "Stargate Hydrogen Launches STARDUST®: Ceramic Electrode Technology That Lowers the Cost of Green Hydrogen Without the Use of Precious Metals",
-      "url": "https://fuelcellsworks.com/2026/10/14/fuel-cells/stargate-hydrogen-launches-stardust-ceramic-electrode-technology-that-lowers-the-cost-of-green-hydrogen-without-the-use-of-precious-metals",
+      "id": "5f3a576bdb",
+      "title": "India’s First Hydrogen Train Saves 3,200 Litres of Diesel in First 1,200Km",
+      "url": "https://fuelcellsworks.com/2026/10/12/fuel-cells/india-s-hydrogen-train-ready-for-2600-passengers",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-14T15:09:49+00:00",
-      "pub_ts": 1791990589
+      "pub_date": "2026-10-15T14:38:40+00:00",
+      "pub_ts": 1792075120
     },
     {
       "id": "771e06c570",
