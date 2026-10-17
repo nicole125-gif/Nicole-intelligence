@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-10-16T04:05:09.558391+00:00",
+  "updated_at": "2026-10-17T03:55:55.952108+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "56b2555dd3",
-      "title": "Gilead and Vir forge $1.9bn pact to develop next-gen T-cell engagers",
-      "url": "https://www.pharmaceutical-technology.com/news/gilead-vir-1-9bn-pact-next-gen-t-cell-engagers-tce/",
-      "summary": "This deal sees Gilead double down on TCEs, following its first bet on the modality through its buyout of autoimmune-focused Ouro Medicines.",
+      "id": "b648ae9cc7",
+      "title": "Can smarter technology selection help de-risk small-molecule development?",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/can-smarter-technology-selection-help-de-risk-small-molecule-development/",
+      "summary": "Predictive modelling for drug formulation helps developers select promising approaches and identify manufacturing challenges earlier.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-15T13:30:54+00:00",
-      "pub_ts": 1792071054
+      "pub_date": "2026-10-16T13:48:34+00:00",
+      "pub_ts": 1792158514
     },
     {
-      "id": "167d6c5a9e",
-      "title": "Rare disease regulation reaches “inflection point” with new FDA framework",
-      "url": "https://www.pharmaceutical-technology.com/news/rare-disease-regulation-reaches-inflection-point-with-new-fda-framework/",
-      "summary": "The tailored framework arrives amid renewed focus on rare diseases across US health agencies.",
+      "id": "188d343a41",
+      "title": "OrbiMed raises $3bn to back global life science players",
+      "url": "https://www.pharmaceutical-technology.com/news/orbimed-raises-3bn-to-back-global-life-science-players/",
+      "summary": "The duo of funds will support companies across the biopharma, healthcare technology, diagnostics and medical device disciplines.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-15T10:44:50+00:00",
-      "pub_ts": 1792061090
+      "pub_date": "2026-10-16T10:59:50+00:00",
+      "pub_ts": 1792148390
     },
     {
-      "id": "d962cb4b06",
-      "title": "QCi and INmune Bio partner to study XPro in Alzheimer’s",
-      "url": "https://www.pharmaceutical-technology.com/news/qci-inmune-bio-study-xpro-alzheimers/",
-      "summary": "INmune Bio and QCi have agreed to collaborate using quantum computing, AI, and data analytics to explore new indications for XPro, an investigational treatment for Alzheimer's disease and other medical conditions.",
+      "id": "ff2b928130",
+      "title": "AstraZeneca and insitro forge $1.5bn AI-powered cardiometabolic partnership",
+      "url": "https://www.pharmaceutical-technology.com/news/astrazeneca-inistro-ai-cardiometabolic-drug-discovery-partnership/",
+      "summary": "This insitro deal sees AstraZeneca double down on its plans to enter the MASH market, which is expected to reach a value of $20.3bn in 2032.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-15T09:59:29+00:00",
-      "pub_ts": 1792058369
+      "pub_date": "2026-10-16T10:24:37+00:00",
+      "pub_ts": 1792146277
     },
     {
-      "id": "c247f0bf22",
-      "title": "ImmunityBio’s bladder cancer drug, Anktiva lands US label expansion",
-      "url": "https://www.pharmaceutical-technology.com/news/immunitybio-anktiva-nmibc-us-label-expansion/",
-      "summary": "Anktiva’s newfound FDA label expansion comes as the agency deems cases of CIS and high-grade papillary only NMIBC clinically similar.",
+      "id": "7dfebcacfb",
+      "title": "Acta Pharmaceuticals raises $24m for Alzheimer’s therapies",
+      "url": "https://www.pharmaceutical-technology.com/news/acta-24m-alzheimers-therapies/",
+      "summary": "Acta Pharmaceuticals has secured $24m in seed funding for advancing a drug pipeline focused on early intervention and prevention of AD, including the clinical progression of its lead candidate, GSM-779690T.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-15T09:42:16+00:00",
-      "pub_ts": 1792057336
+      "pub_date": "2026-10-16T10:09:54+00:00",
+      "pub_ts": 1792145394
     },
     {
-      "id": "a3e6ad5282",
-      "title": "Alentis and PinotBio partner to develop claudin-1 oncology ADCs",
-      "url": "https://www.pharmaceutical-technology.com/news/alentis-pinotbio-claudin-1-oncology-adcs/",
-      "summary": "Alentis Therapeutics and PinotBio have entered into a research collaboration and licensing agreement to develop claudin-1-targeting antibody-drug conjugates (ADCs) for oncology indications.",
+      "id": "72a3a812d5",
+      "title": "RevMed’s pancreatic cancer drug inches closer to EU approval after panel’s backing",
+      "url": "https://www.pharmaceutical-technology.com/news/revmeds-pancreatic-cancer-drug-inches-closer-to-eu-approval-after-panels-backing/",
+      "summary": "Revolution’s Rasonque has been called a turning point for pancreatic cancer patients, nearly doubling median overall survival in the second-line setting.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-15T07:57:14+00:00",
-      "pub_ts": 1792051034
+      "pub_date": "2026-10-16T09:55:28+00:00",
+      "pub_ts": 1792144528
     }
   ],
   "source_success_count": 1,

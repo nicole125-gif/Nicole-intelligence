@@ -3,108 +3,98 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-10-16T04:04:23.961938+00:00",
-  "item_count": 15,
+  "updated_at": "2026-10-17T03:55:12.852894+00:00",
+  "item_count": 13,
   "items": [
     {
-      "id": "541f3c38a5",
-      "title": "算力赛道业绩兑现！海光信息净利预增38%-52%、瑞芯微增68%-73%...",
-      "url": "https://mp.weixin.qq.com/s/_GxuWOfBR0jEY_wxLjmo9g",
-      "summary": "算力赛道业绩兑现！海光信息净利预增38%-52%、瑞芯微增68%-73%...",
+      "id": "0965127588",
+      "title": "长鑫科技：前三季度预盈利1310亿至1325亿元，同比扭亏",
+      "url": "https://mp.weixin.qq.com/s/rN9yO0iiNkeH6_CH8A8hDg",
+      "summary": "长鑫科技：前三季度预盈利1310亿至1325亿元，同比扭亏",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-16T04:04:19.711907+00:00",
-      "pub_ts": 1792123459
+      "pub_date": "2026-10-17T03:55:08.591672+00:00",
+      "pub_ts": 1792209308
     },
     {
-      "id": "73253314a3",
-      "title": "存储龙头，净利最高预增1991%",
-      "url": "https://mp.weixin.qq.com/s/l1Pm6gi3M0oTFD7KMglcug",
-      "summary": "存储龙头，净利最高预增1991%",
+      "id": "faaf7d134f",
+      "title": "“AI狂飙”搅动半导体江湖",
+      "url": "https://mp.weixin.qq.com/s/cYsSoAZISHEPw8874NSWcw",
+      "summary": "“AI狂飙”搅动半导体江湖",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-16T04:04:19.711955+00:00",
-      "pub_ts": 1792123459
+      "pub_date": "2026-10-17T03:55:08.591717+00:00",
+      "pub_ts": 1792209308
     },
     {
-      "id": "488343fae9",
-      "title": "FPGA龙头，前三季度净利最高预增248%",
-      "url": "https://mp.weixin.qq.com/s/ejXNxrNMXEweQh97UvJnmg",
-      "summary": "FPGA龙头，前三季度净利最高预增248%",
+      "id": "71a54f9442",
+      "title": "ASML，盯上混合键合",
+      "url": "https://mp.weixin.qq.com/s/Zqf-99pP5UqXihBGFZLQDQ",
+      "summary": "ASML，盯上混合键合",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-16T04:04:19.711978+00:00",
-      "pub_ts": 1792123459
+      "pub_date": "2026-10-17T03:55:08.591742+00:00",
+      "pub_ts": 1792209308
     },
     {
-      "id": "1285dd1deb",
-      "title": "在工博会上，存储巨头秀出“工业肌肉",
-      "url": "https://mp.weixin.qq.com/s/p4bXOCC7f44YP0AJpRJslw",
-      "summary": "在工博会上，存储巨头秀出“工业肌肉",
+      "id": "944d81eaa2",
+      "title": "数据中心CPU，还在疯狂扩张",
+      "url": "https://mp.weixin.qq.com/s/A8rSAL9-f7WJH_XEVg5wUg",
+      "summary": "数据中心CPU，还在疯狂扩张",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-16T04:04:19.712010+00:00",
-      "pub_ts": 1792123459
+      "pub_date": "2026-10-17T03:55:08.591766+00:00",
+      "pub_ts": 1792209308
     },
     {
-      "id": "386dbc8f55",
-      "title": "2nm占比飙升至8%，台积电最新业绩来了",
-      "url": "https://mp.weixin.qq.com/s/zjHU2x5Ji_MfTgfA50omuw",
-      "summary": "2nm占比飙升至8%，台积电最新业绩来了",
+      "id": "65d1ca9fc5",
+      "title": "美光台中新厂启用，2027年产能售罄",
+      "url": "https://mp.weixin.qq.com/s/9wCmJz5YPHW2B1P8eAGHMw",
+      "summary": "美光台中新厂启用，2027年产能售罄",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-16T04:04:19.712027+00:00",
-      "pub_ts": 1792123459
+      "pub_date": "2026-10-17T03:55:08.591810+00:00",
+      "pub_ts": 1792209308
     },
     {
-      "id": "6347c19878",
-      "title": "江波龙江波龙，利润大增2991.23%",
-      "url": "https://mp.weixin.qq.com/s/5fTk1Fj2ZGDMCIu-dxPC9Q",
-      "summary": "江波龙江波龙，利润大增2991.23%",
+      "id": "1a39fbf31a",
+      "title": "德明利，净利润暴增17722.26%",
+      "url": "https://mp.weixin.qq.com/s/rCYkLCTI_AUzUMIyst2sdA",
+      "summary": "德明利，净利润暴增17722.26%",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-16T04:04:10.542482+00:00",
-      "pub_ts": 1792123450
+      "pub_date": "2026-10-17T03:54:57.626492+00:00",
+      "pub_ts": 1792209297
     },
     {
-      "id": "78ab63f39f",
-      "title": "披露12颗芯片，众星微要做“中国的博通”！",
-      "url": "https://mp.weixin.qq.com/s/wuRCq7qAdjHQh5x-CBPLGQ",
-      "summary": "披露12颗芯片，众星微要做“中国的博通”！",
+      "id": "b34cd84553",
+      "title": "长鑫预告，净利超1300亿",
+      "url": "https://mp.weixin.qq.com/s/g_MQPG_Lv3JgdnRkqvvsnw",
+      "summary": "长鑫预告，净利超1300亿",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-16T04:04:10.542550+00:00",
-      "pub_ts": 1792123450
+      "pub_date": "2026-10-17T03:54:57.626543+00:00",
+      "pub_ts": 1792209297
     },
     {
-      "id": "7e730e7a7a",
-      "title": "台积电业绩，再创新高，魏哲家：要拿下所有可能的生意",
-      "url": "https://mp.weixin.qq.com/s/JLL6N987tR8y2eO7PdtV-Q",
-      "summary": "台积电业绩，再创新高，魏哲家：要拿下所有可能的生意",
+      "id": "7b59c0ae05",
+      "title": "刚刚，理想芯片公司，完成巨额融资",
+      "url": "https://mp.weixin.qq.com/s/xSrni7lYzQyCKUjAw7hWjw",
+      "summary": "刚刚，理想芯片公司，完成巨额融资",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-16T04:04:10.542574+00:00",
-      "pub_ts": 1792123450
+      "pub_date": "2026-10-17T03:54:57.626569+00:00",
+      "pub_ts": 1792209297
     },
     {
-      "id": "dca40fc124",
-      "title": "芯片良率，越来越离不开这项“隐形技术”",
-      "url": "https://mp.weixin.qq.com/s/8jSSze1RsfZKwLB42grq4g",
-      "summary": "芯片良率，越来越离不开这项“隐形技术”",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-10-16T04:04:10.542593+00:00",
-      "pub_ts": 1792123450
-    },
-    {
-      "id": "b4186a1011",
-      "title": "英特尔封装，最新路线图",
-      "url": "https://mp.weixin.qq.com/s/lyKLU9sfdc1tFdtav4dpfg",
-      "summary": "英特尔封装，最新路线图",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-10-16T04:04:10.542611+00:00",
-      "pub_ts": 1792123450
+      "id": "2bc4c1d723",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-160/",
+      "summary": "Fab expansion accelerates; China advances memory and EUV; Teradyne's test deal; SEMICON West and OCP highlights; 3D SiP; TSMC and ASML signals; 300mm fab spending; optical and 3D-compute startups raise fresh funding; quantum HW advances.\nThe post Chip Industry Week In Review appeared first on Semico…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-10-16T07:01:05+00:00",
+      "pub_ts": 1792134065
     },
     {
       "id": "fd1dd49159",
@@ -145,16 +135,6 @@
       "lang": "en",
       "pub_date": "2026-10-15T07:02:37+00:00",
       "pub_ts": 1792047757
-    },
-    {
-      "id": "18ad4c46be",
-      "title": "Why Open-Weight AI Matters",
-      "url": "https://semiengineering.com/why-open-weight-ai-matters/",
-      "summary": "Proprietary models still hold the edge, but open-weight models add more flexibility for deploying AI.\nThe post Why Open-Weight AI Matters appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-10-15T07:02:13+00:00",
-      "pub_ts": 1792047733
     }
   ],
   "source_success_count": 3,

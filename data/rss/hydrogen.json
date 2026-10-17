@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-10-16T04:04:56.684636+00:00",
+  "updated_at": "2026-10-17T03:55:43.311063+00:00",
   "item_count": 10,
   "items": [
     {
-      "id": "2a331178af",
-      "title": "Lombardy's First Open-Market Hydrogen Valley Opens on Former Paper Mill Site",
-      "url": "https://fuelcellsworks.com/2026/10/15/electrolyzer/lombardy-s-first-open-market-hydrogen-valley-opens-on-former-paper-mill-site",
+      "id": "964826d25b",
+      "title": "RVK Uses First Hydrogen-Powered School Bus in Germany",
+      "url": "https://fuelcellsworks.com/2026/10/15/fuel-cells/rvk-uses-first-hydrogen-powered-school-bus-in-germany",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-15T16:13:26+00:00",
-      "pub_ts": 1792080806
+      "pub_date": "2026-10-16T15:59:40+00:00",
+      "pub_ts": 1792166380
     },
     {
-      "id": "334aa0b070",
-      "title": "First in Japan to Validate a Hydrogen Aircraft Engine Capable of Achieving One of the World's Lowest NOx Emission Levels",
-      "url": "https://fuelcellsworks.com/2026/10/08/h2/first-in-japan-to-validate-a-hydrogen-aircraft-engine-capable-of-achieving-one-of-the-world-s-lowest-nox-emission-levels",
+      "id": "f921b57e75",
+      "title": "EnergyPathways Plans to Market Hydrogen and Graphite as Early as 2029",
+      "url": "https://fuelcellsworks.com/2026/10/16/h2/energypathways-plans-to-market-hydrogen-and-graphite-as-early-as-2029",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-15T15:47:15+00:00",
-      "pub_ts": 1792079235
+      "pub_date": "2026-10-16T15:47:21+00:00",
+      "pub_ts": 1792165641
     },
     {
-      "id": "72a3d82501",
-      "title": "Oracle Asks FERC to Fast-Track Gas Pipeline for New Mexico AI Data Center",
-      "url": "https://fuelcellsworks.com/2026/10/14/clean-energy/oracle-asks-ferc-to-fast-track-gas-pipeline-for-new-mexico-ai-data-center",
+      "id": "0ed277c587",
+      "title": "Bloom Energy SOFC System to Support AOI Taiwan Expansion",
+      "url": "https://fuelcellsworks.com/2026/10/15/clean-energy/bloom-energy-sofc-system-to-support-aoi-taiwan-expansion",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-15T15:22:20+00:00",
-      "pub_ts": 1792077740
+      "pub_date": "2026-10-16T15:36:17+00:00",
+      "pub_ts": 1792164977
     },
     {
-      "id": "e56f2f8c0f",
-      "title": "Aragon Launches Pioneering Industrial Laboratory to Scale Hydrogen Storage Solutions.",
-      "url": "https://fuelcellsworks.com/2026/10/11/h2/aragon-launches-pioneering-industrial-laboratory-to-scale-hydrogen-storage-solutions",
+      "id": "048acc58ca",
+      "title": "KENTECH Licenses Liquid Hydrogen Plant Design Know-How to KEPCO E&C in Record ₩500 Million Deal",
+      "url": "https://fuelcellsworks.com/2026/10/13/h2/kentech-licenses-liquid-hydrogen-plant-design-know-how-to-kepco-e-and-c-in-record-500-million-deal",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-15T14:48:51+00:00",
-      "pub_ts": 1792075731
+      "pub_date": "2026-10-16T15:13:58+00:00",
+      "pub_ts": 1792163638
     },
     {
-      "id": "5f3a576bdb",
-      "title": "India’s First Hydrogen Train Saves 3,200 Litres of Diesel in First 1,200Km",
-      "url": "https://fuelcellsworks.com/2026/10/12/fuel-cells/india-s-hydrogen-train-ready-for-2600-passengers",
+      "id": "ba3d551830",
+      "title": "Kawasaki and TBG Complete World-First 6-Inch Liquid Hydrogen Loading Arm",
+      "url": "https://fuelcellsworks.com/2026/10/15/h2/kawasaki-and-tbg-complete-world-first-6-inch-liquid-hydrogen-loading-arm",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-15T14:38:40+00:00",
-      "pub_ts": 1792075120
+      "pub_date": "2026-10-16T15:08:31+00:00",
+      "pub_ts": 1792163311
     },
     {
       "id": "771e06c570",
