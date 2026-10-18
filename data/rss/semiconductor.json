@@ -3,88 +3,68 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-10-17T03:55:12.852894+00:00",
-  "item_count": 13,
+  "updated_at": "2026-10-18T04:01:23.813811+00:00",
+  "item_count": 11,
   "items": [
     {
-      "id": "0965127588",
-      "title": "长鑫科技：前三季度预盈利1310亿至1325亿元，同比扭亏",
-      "url": "https://mp.weixin.qq.com/s/rN9yO0iiNkeH6_CH8A8hDg",
-      "summary": "长鑫科技：前三季度预盈利1310亿至1325亿元，同比扭亏",
+      "id": "aba93e1045",
+      "title": "光器件订单排到2029年，谁能接住这波大单?",
+      "url": "https://mp.weixin.qq.com/s/kevJPYF4bLIgtsr7fem7Lw",
+      "summary": "光器件订单排到2029年，谁能接住这波大单?",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-17T03:55:08.591672+00:00",
-      "pub_ts": 1792209308
+      "pub_date": "2026-10-18T04:01:19.642223+00:00",
+      "pub_ts": 1792296079
     },
     {
-      "id": "faaf7d134f",
-      "title": "“AI狂飙”搅动半导体江湖",
-      "url": "https://mp.weixin.qq.com/s/cYsSoAZISHEPw8874NSWcw",
-      "summary": "“AI狂飙”搅动半导体江湖",
+      "id": "1147de9ef6",
+      "title": "长鑫罕见出手！新芯航途累计融资50亿",
+      "url": "https://mp.weixin.qq.com/s/KMmGBPD-9kHwtuy1Z-HI0A",
+      "summary": "长鑫罕见出手！新芯航途累计融资50亿",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-17T03:55:08.591717+00:00",
-      "pub_ts": 1792209308
+      "pub_date": "2026-10-18T04:01:19.642267+00:00",
+      "pub_ts": 1792296079
     },
     {
-      "id": "71a54f9442",
-      "title": "ASML，盯上混合键合",
-      "url": "https://mp.weixin.qq.com/s/Zqf-99pP5UqXihBGFZLQDQ",
-      "summary": "ASML，盯上混合键合",
+      "id": "7d141bdcd2",
+      "title": "我国高性能光电传感器件研发获重要进展",
+      "url": "https://mp.weixin.qq.com/s/EEXo7Cq7ztIMLZhKtXXl3Q",
+      "summary": "我国高性能光电传感器件研发获重要进展",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-17T03:55:08.591742+00:00",
-      "pub_ts": 1792209308
+      "pub_date": "2026-10-18T04:01:19.642292+00:00",
+      "pub_ts": 1792296079
     },
     {
-      "id": "944d81eaa2",
-      "title": "数据中心CPU，还在疯狂扩张",
-      "url": "https://mp.weixin.qq.com/s/A8rSAL9-f7WJH_XEVg5wUg",
-      "summary": "数据中心CPU，还在疯狂扩张",
+      "id": "f9ad767f2b",
+      "title": "单卡炒到50万，订单排到明年，却没人能挣钱",
+      "url": "https://mp.weixin.qq.com/s/ZB4rO0qXcrBW10rCksCUyw",
+      "summary": "单卡炒到50万，订单排到明年，却没人能挣钱",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-17T03:55:08.591766+00:00",
-      "pub_ts": 1792209308
+      "pub_date": "2026-10-18T04:01:19.642314+00:00",
+      "pub_ts": 1792296079
     },
     {
-      "id": "65d1ca9fc5",
-      "title": "美光台中新厂启用，2027年产能售罄",
-      "url": "https://mp.weixin.qq.com/s/9wCmJz5YPHW2B1P8eAGHMw",
-      "summary": "美光台中新厂启用，2027年产能售罄",
+      "id": "9313e06d0c",
+      "title": "在太空中建AI算力中心，马斯克又带火一个万亿美元赛道",
+      "url": "https://mp.weixin.qq.com/s/bOfF_8XclHf1J8uXXzjniw",
+      "summary": "在太空中建AI算力中心，马斯克又带火一个万亿美元赛道",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-17T03:55:08.591810+00:00",
-      "pub_ts": 1792209308
+      "pub_date": "2026-10-18T04:01:19.642335+00:00",
+      "pub_ts": 1792296079
     },
     {
-      "id": "1a39fbf31a",
-      "title": "德明利，净利润暴增17722.26%",
-      "url": "https://mp.weixin.qq.com/s/rCYkLCTI_AUzUMIyst2sdA",
-      "summary": "德明利，净利润暴增17722.26%",
+      "id": "515c5e8ae0",
+      "title": "Terafab晶圆厂，挑战重重",
+      "url": "https://mp.weixin.qq.com/s/lto60NNB7m2-hnh1Ja3o2g",
+      "summary": "Terafab晶圆厂，挑战重重",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-17T03:54:57.626492+00:00",
-      "pub_ts": 1792209297
-    },
-    {
-      "id": "b34cd84553",
-      "title": "长鑫预告，净利超1300亿",
-      "url": "https://mp.weixin.qq.com/s/g_MQPG_Lv3JgdnRkqvvsnw",
-      "summary": "长鑫预告，净利超1300亿",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-10-17T03:54:57.626543+00:00",
-      "pub_ts": 1792209297
-    },
-    {
-      "id": "7b59c0ae05",
-      "title": "刚刚，理想芯片公司，完成巨额融资",
-      "url": "https://mp.weixin.qq.com/s/xSrni7lYzQyCKUjAw7hWjw",
-      "summary": "刚刚，理想芯片公司，完成巨额融资",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-10-17T03:54:57.626569+00:00",
-      "pub_ts": 1792209297
+      "pub_date": "2026-10-18T04:01:10.805437+00:00",
+      "pub_ts": 1792296070
     },
     {
       "id": "2bc4c1d723",

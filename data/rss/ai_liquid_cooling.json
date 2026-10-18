@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-10-17T03:55:27.246672+00:00",
+  "updated_at": "2026-10-18T04:01:37.858618+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "ec8480350f",
-      "title": "3个月估值数十亿！清华特奖得主创业世界模型，红杉蚂蚁等押注",
-      "url": "https://mp.weixin.qq.com/s/B3N_pmdT7F8h28gBAoms3Q",
-      "summary": "3个月估值数十亿！清华特奖得主创业世界模型，红杉蚂蚁等押注",
+      "id": "76aff71887",
+      "title": "突发！DeepSeek新模型发布，超级性价比斩杀一切",
+      "url": "https://mp.weixin.qq.com/s/rnlMFZR6zyJmEimC5k9Oig",
+      "summary": "突发！DeepSeek新模型发布，超级性价比斩杀一切",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-17T03:55:22.413964+00:00",
-      "pub_ts": 1792209322
+      "pub_date": "2026-10-18T04:01:33.614626+00:00",
+      "pub_ts": 1792296093
     },
     {
-      "id": "df07313f4f",
-      "title": "千问Agent训练框架公开！不多加一张卡，训练效率提升78%",
-      "url": "https://mp.weixin.qq.com/s/NWZO5fjT7UGTafOauRgNXw",
-      "summary": "千问Agent训练框架公开！不多加一张卡，训练效率提升78%",
+      "id": "9a7df27656",
+      "title": "智谱新模型，懂法方面全球第一了",
+      "url": "https://mp.weixin.qq.com/s/RFbL6EoKvxKnx_0Wct-OpA",
+      "summary": "智谱新模型，懂法方面全球第一了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-17T03:55:22.414006+00:00",
-      "pub_ts": 1792209322
+      "pub_date": "2026-10-18T04:01:33.614668+00:00",
+      "pub_ts": 1792296093
     },
     {
-      "id": "8a0ad383e8",
-      "title": "据终端",
-      "url": "https://mp.weixin.qq.com/s/KDzs2GnQHDw1z-znIPUH5A",
-      "summary": "据终端",
+      "id": "4c43852443",
+      "title": "8000字，Codex逆袭ChatGPT抓马史首次大公开！",
+      "url": "https://mp.weixin.qq.com/s/yWI4z-Mj0GN68l9SKO90Ww",
+      "summary": "8000字，Codex逆袭ChatGPT抓马史首次大公开！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-17T03:55:22.414030+00:00",
-      "pub_ts": 1792209322
+      "pub_date": "2026-10-18T04:01:33.614692+00:00",
+      "pub_ts": 1792296093
     },
     {
-      "id": "7d4920b542",
-      "title": "可灵4.0一手实测！奥特曼大战达里奥，30秒拍出硅谷《窃听风云》",
-      "url": "https://mp.weixin.qq.com/s/OUOdw6UXD-9AWjlSchWlOw",
-      "summary": "可灵4.0一手实测！奥特曼大战达里奥，30秒拍出硅谷《窃听风云》",
+      "id": "63f8a5777e",
+      "title": "刚刚，英伟达开源机器人Harness！接入GPT-6Astra一夜刷爆所有基准",
+      "url": "https://mp.weixin.qq.com/s/N_8oxNw6Cth99LH6qZLwwA",
+      "summary": "刚刚，英伟达开源机器人Harness！接入GPT-6Astra一夜刷爆所有基准",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-17T03:55:22.414052+00:00",
-      "pub_ts": 1792209322
+      "pub_date": "2026-10-18T04:01:33.614714+00:00",
+      "pub_ts": 1792296093
     },
     {
-      "id": "741c13d471",
-      "title": "AI进入企业的最后一公里，怎么这么难啊啊啊！",
-      "url": "https://mp.weixin.qq.com/s/HjaqhmvOk2k441hjw33y1w",
-      "summary": "AI进入企业的最后一公里，怎么这么难啊啊啊！",
+      "id": "79cf9ab3a2",
+      "title": "科技企业出海，为啥我推荐你去迪拜？",
+      "url": "https://mp.weixin.qq.com/s/vcKtTOC8Qz1qRlIgZND8Lg",
+      "summary": "科技企业出海，为啥我推荐你去迪拜？",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-17T03:55:22.414072+00:00",
-      "pub_ts": 1792209322
+      "pub_date": "2026-10-18T04:01:33.614734+00:00",
+      "pub_ts": 1792296093
     }
   ],
   "source_success_count": 1,
