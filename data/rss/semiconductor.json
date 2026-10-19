@@ -3,68 +3,88 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-10-18T04:01:23.813811+00:00",
-  "item_count": 11,
+  "updated_at": "2026-10-19T04:10:35.347773+00:00",
+  "item_count": 10,
   "items": [
     {
-      "id": "aba93e1045",
-      "title": "光器件订单排到2029年，谁能接住这波大单?",
-      "url": "https://mp.weixin.qq.com/s/kevJPYF4bLIgtsr7fem7Lw",
-      "summary": "光器件订单排到2029年，谁能接住这波大单?",
+      "id": "ca06b08774",
+      "title": "智元战略投资芯际无限！加码清华系RISC-V具身智能算力赛道",
+      "url": "https://mp.weixin.qq.com/s/w48XzgkuqWPYQlwTvdHyjg",
+      "summary": "智元战略投资芯际无限！加码清华系RISC-V具身智能算力赛道",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-18T04:01:19.642223+00:00",
-      "pub_ts": 1792296079
+      "pub_date": "2026-10-19T04:10:30.165805+00:00",
+      "pub_ts": 1792383030
     },
     {
-      "id": "1147de9ef6",
-      "title": "长鑫罕见出手！新芯航途累计融资50亿",
-      "url": "https://mp.weixin.qq.com/s/KMmGBPD-9kHwtuy1Z-HI0A",
-      "summary": "长鑫罕见出手！新芯航途累计融资50亿",
+      "id": "a522d43421",
+      "title": "算力需求催热高速接口IP，国产厂商加速布局",
+      "url": "https://mp.weixin.qq.com/s/Q2Jp2tJ0dVUSywfjwv1NkA",
+      "summary": "算力需求催热高速接口IP，国产厂商加速布局",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-18T04:01:19.642267+00:00",
-      "pub_ts": 1792296079
+      "pub_date": "2026-10-19T04:10:30.165875+00:00",
+      "pub_ts": 1792383030
     },
     {
-      "id": "7d141bdcd2",
-      "title": "我国高性能光电传感器件研发获重要进展",
-      "url": "https://mp.weixin.qq.com/s/EEXo7Cq7ztIMLZhKtXXl3Q",
-      "summary": "我国高性能光电传感器件研发获重要进展",
+      "id": "14447ba67e",
+      "title": "高通首次给华为交专利费，中国如何用20年击败“高通税”?",
+      "url": "https://mp.weixin.qq.com/s/bRAOlQ42ItCzEws6NPfsiA",
+      "summary": "高通首次给华为交专利费，中国如何用20年击败“高通税”?",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-18T04:01:19.642292+00:00",
-      "pub_ts": 1792296079
+      "pub_date": "2026-10-19T04:10:30.165897+00:00",
+      "pub_ts": 1792383030
     },
     {
-      "id": "f9ad767f2b",
-      "title": "单卡炒到50万，订单排到明年，却没人能挣钱",
-      "url": "https://mp.weixin.qq.com/s/ZB4rO0qXcrBW10rCksCUyw",
-      "summary": "单卡炒到50万，订单排到明年，却没人能挣钱",
+      "id": "99f9a5602c",
+      "title": "建造世界上最大的数据中心需要哪些准备？",
+      "url": "https://mp.weixin.qq.com/s/BCCWMJ_oLVySM53VR6S3UA",
+      "summary": "建造世界上最大的数据中心需要哪些准备？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-18T04:01:19.642314+00:00",
-      "pub_ts": 1792296079
+      "pub_date": "2026-10-19T04:10:30.165918+00:00",
+      "pub_ts": 1792383030
     },
     {
-      "id": "9313e06d0c",
-      "title": "在太空中建AI算力中心，马斯克又带火一个万亿美元赛道",
-      "url": "https://mp.weixin.qq.com/s/bOfF_8XclHf1J8uXXzjniw",
-      "summary": "在太空中建AI算力中心，马斯克又带火一个万亿美元赛道",
-      "source": "半导体产业纵横",
-      "lang": "zh",
-      "pub_date": "2026-10-18T04:01:19.642335+00:00",
-      "pub_ts": 1792296079
-    },
-    {
-      "id": "515c5e8ae0",
-      "title": "Terafab晶圆厂，挑战重重",
-      "url": "https://mp.weixin.qq.com/s/lto60NNB7m2-hnh1Ja3o2g",
-      "summary": "Terafab晶圆厂，挑战重重",
+      "id": "8d1feb76ed",
+      "title": "吗？",
+      "url": "https://mp.weixin.qq.com/s/C2rB8SX7CaYAeU9no5-hAg",
+      "summary": "吗？",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-18T04:01:10.805437+00:00",
-      "pub_ts": 1792296070
+      "pub_date": "2026-10-19T04:10:22.435750+00:00",
+      "pub_ts": 1792383022
+    },
+    {
+      "id": "8a30582a2a",
+      "title": "Nanoelectromechanical Switches Target More Efficient Embedded DRAM (UC Berkeley, Samsung, Intel)",
+      "url": "https://semiengineering.com/nanoelectromechanical-switches-target-more-efficient-embedded-dram-uc-berkeley-samsung-intel/",
+      "summary": "Researchers at the UC Berkeley, Samsung Electronics, and Intel published “Nanoelectromechanically Gated Gain Cell eDRAM.” Abstract Excerpt: “The memory wall and the slowdown of static random access memory (SRAM) scaling have renewed interest in gain-cell embedded dynamic random access memory (DRAM).…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-10-18T23:28:31+00:00",
+      "pub_ts": 1792366111
+    },
+    {
+      "id": "75cd67c1fe",
+      "title": "A Composable Thermal Solver For Heterogeneous 2.5D/3D-IC Packages (Cadence, Notre Dame)",
+      "url": "https://semiengineering.com/a-composable-thermal-solver-for-heterogeneous-2-5d-3d-ic-packages-cadence-notre-dame/",
+      "summary": "Researchers at Cadence Design Systems and the University of Notre Dame published “A Composable AI-Accelerated Iterative Solver for 3D-IC Thermal Modeling.&#8221; Abstract: “Accurate thermal analysis of heterogeneous 2.5D/3D-IC packages is essential yet computationally prohibitive. A single full-pack…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-10-18T22:51:32+00:00",
+      "pub_ts": 1792363892
+    },
+    {
+      "id": "516c13a454",
+      "title": "Thermal Side Channels Create New Security Risks For Autonomous Vehicles (Missouri S&T)",
+      "url": "https://semiengineering.com/thermal-side-channels-create-new-security-risks-for-autonomous-vehicles-missouri-st/",
+      "summary": "Researchers at Missouri University of Science and Technology published “Can Autonomous Vehicles Keep Their Cool? A Survey of Thermal Side-Channel and Perception Attacks.” Abstract excerpt: “This survey systematizes thirteen representative works into thermal perception integrity, telemetry leakage, a…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-10-18T22:10:59+00:00",
+      "pub_ts": 1792361459
     },
     {
       "id": "2bc4c1d723",
@@ -85,36 +105,6 @@
       "lang": "en",
       "pub_date": "2026-10-15T07:07:45+00:00",
       "pub_ts": 1792048065
-    },
-    {
-      "id": "2272c6f4f9",
-      "title": "Strengthening Advanced-Node Interconnects Through Automated Via Insertion",
-      "url": "https://semiengineering.com/strengthening-advanced-node-interconnects-through-automated-via-insertion/",
-      "summary": "Short-resilient via insertion improves reliability and performance.\nThe post Strengthening Advanced-Node Interconnects Through Automated Via Insertion appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-10-15T07:06:02+00:00",
-      "pub_ts": 1792047962
-    },
-    {
-      "id": "fbef64ee54",
-      "title": "Building AI Infrastructure For Greater Choice And Flexibility",
-      "url": "https://semiengineering.com/building-ai-infrastructure-for-greater-choice-and-flexibility/",
-      "summary": "Open interfaces and interoperability allow designers to choose technologies based on the needs of the system.\nThe post Building AI Infrastructure For Greater Choice And Flexibility appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-10-15T07:03:05+00:00",
-      "pub_ts": 1792047785
-    },
-    {
-      "id": "453a19af1a",
-      "title": "AMBA C2C: Moving Forward With A Converged AMBA Foundation For C2C Connectivity",
-      "url": "https://semiengineering.com/amba-c2c-moving-forward-with-a-converged-amba-foundation-for-c2c-connectivity/",
-      "summary": "Extending chiplet connectivity across AXI and CHI with scalable protocol subsets, interoperability, and flexible transport support.\nThe post AMBA C2C: Moving Forward With A Converged AMBA Foundation For C2C Connectivity appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-10-15T07:02:37+00:00",
-      "pub_ts": 1792047757
     }
   ],
   "source_success_count": 3,
