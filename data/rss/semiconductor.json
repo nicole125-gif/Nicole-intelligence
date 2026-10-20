@@ -3,58 +3,108 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-10-19T04:10:35.347773+00:00",
-  "item_count": 10,
+  "updated_at": "2026-10-20T04:22:55.838897+00:00",
+  "item_count": 11,
   "items": [
     {
-      "id": "ca06b08774",
-      "title": "智元战略投资芯际无限！加码清华系RISC-V具身智能算力赛道",
-      "url": "https://mp.weixin.qq.com/s/w48XzgkuqWPYQlwTvdHyjg",
-      "summary": "智元战略投资芯际无限！加码清华系RISC-V具身智能算力赛道",
+      "id": "8eb2ae2676",
+      "title": "长鑫科技股东会：订单饱满，两地晶圆厂高产能利用率运转",
+      "url": "https://mp.weixin.qq.com/s/SF_B0O48dcDxk9jOsaQcbw",
+      "summary": "长鑫科技股东会：订单饱满，两地晶圆厂高产能利用率运转",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-19T04:10:30.165805+00:00",
-      "pub_ts": 1792383030
+      "pub_date": "2026-10-20T04:22:51.726672+00:00",
+      "pub_ts": 1792470171
     },
     {
-      "id": "a522d43421",
-      "title": "算力需求催热高速接口IP，国产厂商加速布局",
-      "url": "https://mp.weixin.qq.com/s/Q2Jp2tJ0dVUSywfjwv1NkA",
-      "summary": "算力需求催热高速接口IP，国产厂商加速布局",
+      "id": "00cfe53197",
+      "title": "60亿颗出货后，达摩院玄铁奔赴RISC-V生态下半场",
+      "url": "https://mp.weixin.qq.com/s/pSyss-YErEaVtx_B_bJgHA",
+      "summary": "60亿颗出货后，达摩院玄铁奔赴RISC-V生态下半场",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-19T04:10:30.165875+00:00",
-      "pub_ts": 1792383030
+      "pub_date": "2026-10-20T04:22:51.726712+00:00",
+      "pub_ts": 1792470171
     },
     {
-      "id": "14447ba67e",
-      "title": "高通首次给华为交专利费，中国如何用20年击败“高通税”?",
-      "url": "https://mp.weixin.qq.com/s/bRAOlQ42ItCzEws6NPfsiA",
-      "summary": "高通首次给华为交专利费，中国如何用20年击败“高通税”?",
+      "id": "50d6af7969",
+      "title": "蔡司High-NA EUV爆单，订单排至2027年",
+      "url": "https://mp.weixin.qq.com/s/vInnl2O1Kz0W26ml18Hntw",
+      "summary": "蔡司High-NA EUV爆单，订单排至2027年",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-19T04:10:30.165897+00:00",
-      "pub_ts": 1792383030
+      "pub_date": "2026-10-20T04:22:51.726726+00:00",
+      "pub_ts": 1792470171
     },
     {
-      "id": "99f9a5602c",
-      "title": "建造世界上最大的数据中心需要哪些准备？",
-      "url": "https://mp.weixin.qq.com/s/BCCWMJ_oLVySM53VR6S3UA",
-      "summary": "建造世界上最大的数据中心需要哪些准备？",
+      "id": "12e5145a1e",
+      "title": "放弃芯粒路线？英伟达Vera团队细谈CPU取舍",
+      "url": "https://mp.weixin.qq.com/s/1xZy5uDR9Cz4roI3IMe9hg",
+      "summary": "放弃芯粒路线？英伟达Vera团队细谈CPU取舍",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-19T04:10:30.165918+00:00",
-      "pub_ts": 1792383030
+      "pub_date": "2026-10-20T04:22:51.726738+00:00",
+      "pub_ts": 1792470171
     },
     {
-      "id": "8d1feb76ed",
-      "title": "吗？",
-      "url": "https://mp.weixin.qq.com/s/C2rB8SX7CaYAeU9no5-hAg",
-      "summary": "吗？",
+      "id": "6388d8f521",
+      "title": "良率99.5%！金刚石光子器件制造难题获突破",
+      "url": "https://mp.weixin.qq.com/s/GP5bphZQkYmfZ1flMAjF9g",
+      "summary": "良率99.5%！金刚石光子器件制造难题获突破",
+      "source": "半导体产业纵横",
+      "lang": "zh",
+      "pub_date": "2026-10-20T04:22:51.726750+00:00",
+      "pub_ts": 1792470171
+    },
+    {
+      "id": "f0daf8dd94",
+      "title": "成立75年的设备巨头：豪赌先进封装",
+      "url": "https://mp.weixin.qq.com/s/Wv-eCEj57WgWRA1FQMVbzQ",
+      "summary": "成立75年的设备巨头：豪赌先进封装",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-19T04:10:22.435750+00:00",
-      "pub_ts": 1792383022
+      "pub_date": "2026-10-20T04:22:41.889901+00:00",
+      "pub_ts": 1792470161
+    },
+    {
+      "id": "28608f0b4a",
+      "title": "Agentic AI Explores Heterogeneous Chip and Interconnect Architectures (Argonne, UIUC)",
+      "url": "https://semiengineering.com/agentic-ai-explores-heterogeneous-chip-and-interconnect-architectures-argonne-uiuc/",
+      "summary": "Researchers at Argonne National Laboratory and the University of Illinois Urbana-Champaign published a technical paper titled “Agentic AI for Heterogeneous System Design Across Chip, Scale-Up, and Scale-Out Domains.” Abstract Excerpt: “The design space of modern AI/HPC systems has expanded rapidly a…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-10-19T16:02:46+00:00",
+      "pub_ts": 1792425766
+    },
+    {
+      "id": "f6cb4bccaf",
+      "title": "Breaking The Memory Bottleneck In AI And HPC SoCs",
+      "url": "https://semiengineering.com/breaking-the-memory-bottleneck-in-ai-and-hpc-socs/",
+      "summary": "Opimizing embedded memory IP for RibbonFET and PowerVia.\nThe post Breaking The Memory Bottleneck In AI And HPC SoCs appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-10-19T07:03:19+00:00",
+      "pub_ts": 1792393399
+    },
+    {
+      "id": "ac5c0ce723",
+      "title": "Why Physical AI Is So Hard To Engineer",
+      "url": "https://semiengineering.com/why-physical-ai-is-so-hard-to-engineer/",
+      "summary": "Integrating sensors, compute, and actuators into autonomous systems adds new challenges for chip design.\nThe post Why Physical AI Is So Hard To Engineer appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-10-19T07:01:53+00:00",
+      "pub_ts": 1792393313
+    },
+    {
+      "id": "dc383ae8f6",
+      "title": "Shift-Left DE-Via",
+      "url": "https://semiengineering.com/shift-left-de-via/",
+      "summary": "Calibre-aware, short-resilient via insertion for signoff-ready physical design.\nThe post Shift-Left DE-Via appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-10-19T07:01:16+00:00",
+      "pub_ts": 1792393276
     },
     {
       "id": "8a30582a2a",
@@ -65,46 +115,6 @@
       "lang": "en",
       "pub_date": "2026-10-18T23:28:31+00:00",
       "pub_ts": 1792366111
-    },
-    {
-      "id": "75cd67c1fe",
-      "title": "A Composable Thermal Solver For Heterogeneous 2.5D/3D-IC Packages (Cadence, Notre Dame)",
-      "url": "https://semiengineering.com/a-composable-thermal-solver-for-heterogeneous-2-5d-3d-ic-packages-cadence-notre-dame/",
-      "summary": "Researchers at Cadence Design Systems and the University of Notre Dame published “A Composable AI-Accelerated Iterative Solver for 3D-IC Thermal Modeling.&#8221; Abstract: “Accurate thermal analysis of heterogeneous 2.5D/3D-IC packages is essential yet computationally prohibitive. A single full-pack…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-10-18T22:51:32+00:00",
-      "pub_ts": 1792363892
-    },
-    {
-      "id": "516c13a454",
-      "title": "Thermal Side Channels Create New Security Risks For Autonomous Vehicles (Missouri S&T)",
-      "url": "https://semiengineering.com/thermal-side-channels-create-new-security-risks-for-autonomous-vehicles-missouri-st/",
-      "summary": "Researchers at Missouri University of Science and Technology published “Can Autonomous Vehicles Keep Their Cool? A Survey of Thermal Side-Channel and Perception Attacks.” Abstract excerpt: “This survey systematizes thirteen representative works into thermal perception integrity, telemetry leakage, a…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-10-18T22:10:59+00:00",
-      "pub_ts": 1792361459
-    },
-    {
-      "id": "2bc4c1d723",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-160/",
-      "summary": "Fab expansion accelerates; China advances memory and EUV; Teradyne's test deal; SEMICON West and OCP highlights; 3D SiP; TSMC and ASML signals; 300mm fab spending; optical and 3D-compute startups raise fresh funding; quantum HW advances.\nThe post Chip Industry Week In Review appeared first on Semico…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-10-16T07:01:05+00:00",
-      "pub_ts": 1792134065
-    },
-    {
-      "id": "fd1dd49159",
-      "title": "Beyond The Specification: What Really Determines PCIe Retimer Reach?",
-      "url": "https://semiengineering.com/beyond-the-specification-what-really-determines-pcie-retimer-reach/",
-      "summary": "Multiple interacting factors span silicon design, controller intelligence, channel quality, and the transmission medium itself.\nThe post Beyond The Specification: What Really Determines PCIe Retimer Reach? appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-10-15T07:07:45+00:00",
-      "pub_ts": 1792048065
     }
   ],
   "source_success_count": 3,

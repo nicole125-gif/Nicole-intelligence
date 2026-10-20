@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-10-19T04:10:51.641540+00:00",
+  "updated_at": "2026-10-20T04:23:10.070231+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "6d1004dc8a",
-      "title": "29岁Nature一作乔木，被曝创业量子计算",
-      "url": "https://mp.weixin.qq.com/s/M_pjVXH2aQtdAirMtXUsFQ",
-      "summary": "29岁Nature一作乔木，被曝创业量子计算",
+      "id": "83d9d3e6bf",
+      "title": "内存还会跌吗？KVCache砍掉99%，单卡吞吐飙6倍，港科大、CMU...",
+      "url": "https://mp.weixin.qq.com/s/XlGTNPhtP88uAL5srNtoxQ",
+      "summary": "内存还会跌吗？KVCache砍掉99%，单卡吞吐飙6倍，港科大、CMU...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-19T04:10:45.193099+00:00",
-      "pub_ts": 1792383045
+      "pub_date": "2026-10-20T04:23:05.342189+00:00",
+      "pub_ts": 1792470185
     },
     {
-      "id": "8da09ecc79",
-      "title": "Transformer 作者团队，下场RSI",
-      "url": "https://mp.weixin.qq.com/s/QbBsszAIJ1Uj4LJ49v8Zug",
-      "summary": "Transformer 作者团队，下场RSI",
+      "id": "182d6bc45e",
+      "title": "通研院孵化的团队，也盯上了RSI",
+      "url": "https://mp.weixin.qq.com/s/Xni5hfbEfMqBu7ELyhkM-g",
+      "summary": "通研院孵化的团队，也盯上了RSI",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-19T04:10:45.193140+00:00",
-      "pub_ts": 1792383045
+      "pub_date": "2026-10-20T04:23:05.342227+00:00",
+      "pub_ts": 1792470185
     },
     {
-      "id": "731f872886",
-      "title": "VAST开源实时世界模型EdenLive！单消费级显卡、720P超24FPS",
-      "url": "https://mp.weixin.qq.com/s/K7RFfECx_Igog5bbkVT1zg",
-      "summary": "VAST开源实时世界模型EdenLive！单消费级显卡、720P超24FPS",
+      "id": "aab297e64e",
+      "title": "从百比特芯片到整机交付，这家量子计算公司正将量子算力推向可调..",
+      "url": "https://mp.weixin.qq.com/s/g_NF1iS47SFIq-9__TOpyA",
+      "summary": "从百比特芯片到整机交付，这家量子计算公司正将量子算力推向可调..",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-19T04:10:45.193164+00:00",
-      "pub_ts": 1792383045
+      "pub_date": "2026-10-20T04:23:05.342241+00:00",
+      "pub_ts": 1792470185
     },
     {
-      "id": "4afb42a06e",
-      "title": "“大家用Al都太保守了！”ClaudeCode负责人：我的方法更有野心~",
-      "url": "https://mp.weixin.qq.com/s/DSkimaN8KLtSRI0UFNFaPA",
-      "summary": "“大家用Al都太保守了！”ClaudeCode负责人：我的方法更有野心~",
+      "id": "ecdc516f10",
+      "title": "全栈自研！国产高端互连芯片，稳了！",
+      "url": "https://mp.weixin.qq.com/s/qqs3x-KGkpDDLxutauNOmQ",
+      "summary": "全栈自研！国产高端互连芯片，稳了！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-19T04:10:45.193185+00:00",
-      "pub_ts": 1792383045
+      "pub_date": "2026-10-20T04:23:05.342252+00:00",
+      "pub_ts": 1792470185
     },
     {
-      "id": "714ccb32b7",
-      "title": "画几条线就能控制机器人：上海交大提出稀疏输入策略引导框架",
-      "url": "https://mp.weixin.qq.com/s/bfmpCCR7tCLm79ygzSTAKA",
-      "summary": "画几条线就能控制机器人：上海交大提出稀疏输入策略引导框架",
+      "id": "225093bb0c",
+      "title": "世界动作模型的“自训练”红利：无专家示范，从自我想象中迭代进化",
+      "url": "https://mp.weixin.qq.com/s/l3hnOK41dHXwGzIDjxG2TA",
+      "summary": "世界动作模型的“自训练”红利：无专家示范，从自我想象中迭代进化",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-19T04:10:45.193206+00:00",
-      "pub_ts": 1792383045
+      "pub_date": "2026-10-20T04:23:05.342264+00:00",
+      "pub_ts": 1792470185
     }
   ],
   "source_success_count": 1,

@@ -3,9 +3,49 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-10-19T04:11:46.794162+00:00",
+  "updated_at": "2026-10-20T04:23:35.224208+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "1737c69df0",
+      "title": "MHRA could allow schools to hold reserves of nasal adrenaline spray",
+      "url": "https://www.pharmaceutical-technology.com/news/mhra-could-allow-schools-to-hold-reserves-of-nasal-adrenaline-spray/",
+      "summary": "Though schools already store autoinjectors like EpiPen, a nasal spray would offer another easy-to-use option.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-10-19T10:50:44+00:00",
+      "pub_ts": 1792407044
+    },
+    {
+      "id": "d9e3611b1b",
+      "title": "FDA approves Viatris’ Ryzumvi for adult presbyopia",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-viatris-ryzumvi-adult-presbyopia/",
+      "summary": "The US FDA has approved Viatris' Ryzumvi (phentolamine ophthalmic solution 0.75%) to treat presbyopia in adults.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-10-19T09:41:35+00:00",
+      "pub_ts": 1792402895
+    },
+    {
+      "id": "3b96797233",
+      "title": "Estuary secures $103m to advance kidney disease gene therapies",
+      "url": "https://www.pharmaceutical-technology.com/news/estuary-103m-advance-kidney-gene-therapies/",
+      "summary": "Estuary Biotherapeutics has launched after securing $103m in total committed financing for developing targeted gene therapies to treat kidney diseases.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-10-19T07:32:21+00:00",
+      "pub_ts": 1792395141
+    },
+    {
+      "id": "3bb4865bcd",
+      "title": "Lilly’s Foundayo wins EMA panel backing for obesity and type 2 diabetes",
+      "url": "https://www.pharmaceutical-technology.com/news/lillys-foundayo-wins-ema-panel-backing-for-obesity-and-type-2-diabetes/",
+      "summary": "Foundayo is on course to join Novo’s oral Wegovy in the European oral GLP-1RA market.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-10-16T14:29:51+00:00",
+      "pub_ts": 1792160991
+    },
     {
       "id": "b648ae9cc7",
       "title": "Can smarter technology selection help de-risk small-molecule development?",
@@ -15,46 +55,6 @@
       "lang": "en",
       "pub_date": "2026-10-16T13:48:34+00:00",
       "pub_ts": 1792158514
-    },
-    {
-      "id": "188d343a41",
-      "title": "OrbiMed raises $3bn to back global life science players",
-      "url": "https://www.pharmaceutical-technology.com/news/orbimed-raises-3bn-to-back-global-life-science-players/",
-      "summary": "The duo of funds will support companies across the biopharma, healthcare technology, diagnostics and medical device disciplines.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-10-16T10:59:50+00:00",
-      "pub_ts": 1792148390
-    },
-    {
-      "id": "ff2b928130",
-      "title": "AstraZeneca and insitro forge $1.5bn AI-powered cardiometabolic partnership",
-      "url": "https://www.pharmaceutical-technology.com/news/astrazeneca-inistro-ai-cardiometabolic-drug-discovery-partnership/",
-      "summary": "This insitro deal sees AstraZeneca double down on its plans to enter the MASH market, which is expected to reach a value of $20.3bn in 2032.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-10-16T10:24:37+00:00",
-      "pub_ts": 1792146277
-    },
-    {
-      "id": "7dfebcacfb",
-      "title": "Acta Pharmaceuticals raises $24m for Alzheimer’s therapies",
-      "url": "https://www.pharmaceutical-technology.com/news/acta-24m-alzheimers-therapies/",
-      "summary": "Acta Pharmaceuticals has secured $24m in seed funding for advancing a drug pipeline focused on early intervention and prevention of AD, including the clinical progression of its lead candidate, GSM-779690T.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-10-16T10:09:54+00:00",
-      "pub_ts": 1792145394
-    },
-    {
-      "id": "72a3a812d5",
-      "title": "RevMed’s pancreatic cancer drug inches closer to EU approval after panel’s backing",
-      "url": "https://www.pharmaceutical-technology.com/news/revmeds-pancreatic-cancer-drug-inches-closer-to-eu-approval-after-panels-backing/",
-      "summary": "Revolution’s Rasonque has been called a turning point for pancreatic cancer patients, nearly doubling median overall survival in the second-line setting.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-10-16T09:55:28+00:00",
-      "pub_ts": 1792144528
     }
   ],
   "source_success_count": 1,
