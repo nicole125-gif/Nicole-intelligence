@@ -3,9 +3,49 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-10-20T04:23:35.224208+00:00",
+  "updated_at": "2026-10-21T04:13:27.702245+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "46a927e627",
+      "title": "EyePoint halves workforce and ends Phase III trial early after endpoint miss",
+      "url": "https://www.pharmaceutical-technology.com/news/eyepoint-halves-workforce-ends-phase-iii-trial-early/",
+      "summary": "The biotech is now hoping that duravyu will have more success in DME, with pivotal readouts expected late next year.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-10-20T10:37:37+00:00",
+      "pub_ts": 1792492657
+    },
+    {
+      "id": "6e40c724b3",
+      "title": "Merck KGaA spends $1.3bn to buy siRNA specialist Silence Therapeutics",
+      "url": "https://www.pharmaceutical-technology.com/news/merck-kgaa-spends-1-3bn-to-buy-sirna-specialist-silence-therapeutics/",
+      "summary": "Buying the UK-based biotech will add a siRNA drug candidate with high sales potential to Merck’s portfolio.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-10-20T10:28:43+00:00",
+      "pub_ts": 1792492123
+    },
+    {
+      "id": "24b1e82aea",
+      "title": "Ambrose Healthcare fortifies rare disease pipeline on AM-Pharma takeover",
+      "url": "https://www.pharmaceutical-technology.com/news/ambrose-healthcare-am-pharma-takeover-rare-bone-disease/",
+      "summary": "Ambrose will now enter the race to debut a new medicine on the HPP market as the only approved therapy edges closer to key patent expiries.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-10-20T06:00:00+00:00",
+      "pub_ts": 1792476000
+    },
+    {
+      "id": "1c5b4d8cca",
+      "title": "Roche’s Enspryng nets a second indication on FDA eye disease approval",
+      "url": "https://www.pharmaceutical-technology.com/news/roche-enspryng-thyroid-eye-disease-fda-approval/",
+      "summary": "Enspryng is the first drug suitable for at-home administration in TED, but analysts are lukewarm on its commercial potential.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-10-19T16:28:21+00:00",
+      "pub_ts": 1792427301
+    },
     {
       "id": "1737c69df0",
       "title": "MHRA could allow schools to hold reserves of nasal adrenaline spray",
@@ -15,46 +55,6 @@
       "lang": "en",
       "pub_date": "2026-10-19T10:50:44+00:00",
       "pub_ts": 1792407044
-    },
-    {
-      "id": "d9e3611b1b",
-      "title": "FDA approves Viatris’ Ryzumvi for adult presbyopia",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-viatris-ryzumvi-adult-presbyopia/",
-      "summary": "The US FDA has approved Viatris' Ryzumvi (phentolamine ophthalmic solution 0.75%) to treat presbyopia in adults.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-10-19T09:41:35+00:00",
-      "pub_ts": 1792402895
-    },
-    {
-      "id": "3b96797233",
-      "title": "Estuary secures $103m to advance kidney disease gene therapies",
-      "url": "https://www.pharmaceutical-technology.com/news/estuary-103m-advance-kidney-gene-therapies/",
-      "summary": "Estuary Biotherapeutics has launched after securing $103m in total committed financing for developing targeted gene therapies to treat kidney diseases.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-10-19T07:32:21+00:00",
-      "pub_ts": 1792395141
-    },
-    {
-      "id": "3bb4865bcd",
-      "title": "Lilly’s Foundayo wins EMA panel backing for obesity and type 2 diabetes",
-      "url": "https://www.pharmaceutical-technology.com/news/lillys-foundayo-wins-ema-panel-backing-for-obesity-and-type-2-diabetes/",
-      "summary": "Foundayo is on course to join Novo’s oral Wegovy in the European oral GLP-1RA market.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-10-16T14:29:51+00:00",
-      "pub_ts": 1792160991
-    },
-    {
-      "id": "b648ae9cc7",
-      "title": "Can smarter technology selection help de-risk small-molecule development?",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/can-smarter-technology-selection-help-de-risk-small-molecule-development/",
-      "summary": "Predictive modelling for drug formulation helps developers select promising approaches and identify manufacturing challenges earlier.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-10-16T13:48:34+00:00",
-      "pub_ts": 1792158514
     }
   ],
   "source_success_count": 1,

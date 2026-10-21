@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-10-20T04:23:10.070231+00:00",
+  "updated_at": "2026-10-21T04:13:03.368552+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "83d9d3e6bf",
-      "title": "内存还会跌吗？KVCache砍掉99%，单卡吞吐飙6倍，港科大、CMU...",
-      "url": "https://mp.weixin.qq.com/s/XlGTNPhtP88uAL5srNtoxQ",
-      "summary": "内存还会跌吗？KVCache砍掉99%，单卡吞吐飙6倍，港科大、CMU...",
+      "id": "80d0af2070",
+      "title": "国模Agent第一！MiniMax爆改Flash战力，全时段大肥鱼谷价",
+      "url": "https://mp.weixin.qq.com/s/U9LetHV9_L0GO9snOXnHPQ",
+      "summary": "国模Agent第一！MiniMax爆改Flash战力，全时段大肥鱼谷价",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-20T04:23:05.342189+00:00",
-      "pub_ts": 1792470185
+      "pub_date": "2026-10-21T04:12:57.556970+00:00",
+      "pub_ts": 1792555977
     },
     {
-      "id": "182d6bc45e",
-      "title": "通研院孵化的团队，也盯上了RSI",
-      "url": "https://mp.weixin.qq.com/s/Xni5hfbEfMqBu7ELyhkM-g",
-      "summary": "通研院孵化的团队，也盯上了RSI",
+      "id": "a6053b7cb9",
+      "title": "刚刚，DeepSeek开源自家推理框架！",
+      "url": "https://mp.weixin.qq.com/s/w-e7bdkr2_bTGnGCiExO9A",
+      "summary": "刚刚，DeepSeek开源自家推理框架！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-20T04:23:05.342227+00:00",
-      "pub_ts": 1792470185
+      "pub_date": "2026-10-21T04:12:57.557016+00:00",
+      "pub_ts": 1792555977
     },
     {
-      "id": "aab297e64e",
-      "title": "从百比特芯片到整机交付，这家量子计算公司正将量子算力推向可调..",
-      "url": "https://mp.weixin.qq.com/s/g_NF1iS47SFIq-9__TOpyA",
-      "summary": "从百比特芯片到整机交付，这家量子计算公司正将量子算力推向可调..",
+      "id": "b3e9bbe108",
+      "title": "RSI三块关键拼图，MemT1.0从模型层补上「记忆」",
+      "url": "https://mp.weixin.qq.com/s/DTdaGUk8o0dwkx1wxnnbYw",
+      "summary": "RSI三块关键拼图，MemT1.0从模型层补上「记忆」",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-20T04:23:05.342241+00:00",
-      "pub_ts": 1792470185
+      "pub_date": "2026-10-21T04:12:57.557042+00:00",
+      "pub_ts": 1792555977
     },
     {
-      "id": "ecdc516f10",
-      "title": "全栈自研！国产高端互连芯片，稳了！",
-      "url": "https://mp.weixin.qq.com/s/qqs3x-KGkpDDLxutauNOmQ",
-      "summary": "全栈自研！国产高端互连芯片，稳了！",
+      "id": "63d307726b",
+      "title": "英伟达世界模型团队创业！种子轮拿下9000万美元，具身模型反击通...",
+      "url": "https://mp.weixin.qq.com/s/f4r39Wuon7GSJgAWaV19bA",
+      "summary": "英伟达世界模型团队创业！种子轮拿下9000万美元，具身模型反击通...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-20T04:23:05.342252+00:00",
-      "pub_ts": 1792470185
+      "pub_date": "2026-10-21T04:12:57.557066+00:00",
+      "pub_ts": 1792555977
     },
     {
-      "id": "225093bb0c",
-      "title": "世界动作模型的“自训练”红利：无专家示范，从自我想象中迭代进化",
-      "url": "https://mp.weixin.qq.com/s/l3hnOK41dHXwGzIDjxG2TA",
-      "summary": "世界动作模型的“自训练”红利：无专家示范，从自我想象中迭代进化",
+      "id": "475865a598",
+      "title": "首Token 延迟降低 32.4%！是石科技放出集群调度大招，国产推理再提效",
+      "url": "https://mp.weixin.qq.com/s/O60KQCGStlXRBrJyODtWag",
+      "summary": "首Token 延迟降低 32.4%！是石科技放出集群调度大招，国产推理再提效",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-20T04:23:05.342264+00:00",
-      "pub_ts": 1792470185
+      "pub_date": "2026-10-21T04:12:57.557089+00:00",
+      "pub_ts": 1792555977
     }
   ],
   "source_success_count": 1,

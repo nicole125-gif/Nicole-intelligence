@@ -3,68 +3,118 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-10-20T04:22:55.838897+00:00",
-  "item_count": 11,
+  "updated_at": "2026-10-21T04:12:47.969819+00:00",
+  "item_count": 15,
   "items": [
     {
-      "id": "8eb2ae2676",
-      "title": "长鑫科技股东会：订单饱满，两地晶圆厂高产能利用率运转",
-      "url": "https://mp.weixin.qq.com/s/SF_B0O48dcDxk9jOsaQcbw",
-      "summary": "长鑫科技股东会：订单饱满，两地晶圆厂高产能利用率运转",
+      "id": "9016803851",
+      "title": "净利预增154%-175%，澜起科技DDR5内存接口芯片出货大增",
+      "url": "https://mp.weixin.qq.com/s/7Upq3Qrk5B2zML_Tt8IBpA",
+      "summary": "净利预增154%-175%，澜起科技DDR5内存接口芯片出货大增",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-20T04:22:51.726672+00:00",
-      "pub_ts": 1792470171
+      "pub_date": "2026-10-21T04:12:43.783755+00:00",
+      "pub_ts": 1792555963
     },
     {
-      "id": "00cfe53197",
-      "title": "60亿颗出货后，达摩院玄铁奔赴RISC-V生态下半场",
-      "url": "https://mp.weixin.qq.com/s/pSyss-YErEaVtx_B_bJgHA",
-      "summary": "60亿颗出货后，达摩院玄铁奔赴RISC-V生态下半场",
+      "id": "a348b720e4",
+      "title": "当机器狗学会自己挣钱，芯片才是真正的贏家",
+      "url": "https://mp.weixin.qq.com/s/0rl6n0jnxZO89fVotG0JEg",
+      "summary": "当机器狗学会自己挣钱，芯片才是真正的贏家",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-20T04:22:51.726712+00:00",
-      "pub_ts": 1792470171
+      "pub_date": "2026-10-21T04:12:43.783800+00:00",
+      "pub_ts": 1792555963
     },
     {
-      "id": "50d6af7969",
-      "title": "蔡司High-NA EUV爆单，订单排至2027年",
-      "url": "https://mp.weixin.qq.com/s/vInnl2O1Kz0W26ml18Hntw",
-      "summary": "蔡司High-NA EUV爆单，订单排至2027年",
+      "id": "9cd804edab",
+      "title": "不止CPO！英伟达已经在准备下一代光互联",
+      "url": "https://mp.weixin.qq.com/s/tdVImKfVuJ6LFt_HG_mWgg",
+      "summary": "不止CPO！英伟达已经在准备下一代光互联",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-20T04:22:51.726726+00:00",
-      "pub_ts": 1792470171
+      "pub_date": "2026-10-21T04:12:43.783830+00:00",
+      "pub_ts": 1792555963
     },
     {
-      "id": "12e5145a1e",
-      "title": "放弃芯粒路线？英伟达Vera团队细谈CPU取舍",
-      "url": "https://mp.weixin.qq.com/s/1xZy5uDR9Cz4roI3IMe9hg",
-      "summary": "放弃芯粒路线？英伟达Vera团队细谈CPU取舍",
+      "id": "c6b84d3231",
+      "title": "10月盛会！下半年电子制造看NEPCONASIA2026亚洲电子展...",
+      "url": "https://mp.weixin.qq.com/s/3iiagdwjHPPn06vpu5B1Kw",
+      "summary": "10月盛会！下半年电子制造看NEPCONASIA2026亚洲电子展...",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-20T04:22:51.726738+00:00",
-      "pub_ts": 1792470171
+      "pub_date": "2026-10-21T04:12:43.783869+00:00",
+      "pub_ts": 1792555963
     },
     {
-      "id": "6388d8f521",
-      "title": "良率99.5%！金刚石光子器件制造难题获突破",
-      "url": "https://mp.weixin.qq.com/s/GP5bphZQkYmfZ1flMAjF9g",
-      "summary": "良率99.5%！金刚石光子器件制造难题获突破",
+      "id": "76ab4ba036",
+      "title": "成熟制程，明年接着涨",
+      "url": "https://mp.weixin.qq.com/s/a3yzalJ0jRhe1gd4W9FFeQ",
+      "summary": "成熟制程，明年接着涨",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-20T04:22:51.726750+00:00",
-      "pub_ts": 1792470171
+      "pub_date": "2026-10-21T04:12:43.783892+00:00",
+      "pub_ts": 1792555963
     },
     {
-      "id": "f0daf8dd94",
-      "title": "成立75年的设备巨头：豪赌先进封装",
-      "url": "https://mp.weixin.qq.com/s/Wv-eCEj57WgWRA1FQMVbzQ",
-      "summary": "成立75年的设备巨头：豪赌先进封装",
+      "id": "fd07aa995f",
+      "title": "迈过高性能门槛，达摩院玄铁RISC-V开始打量产硬仗",
+      "url": "https://mp.weixin.qq.com/s/3OMiPJJZDiDdPTJjQm0ZrA",
+      "summary": "迈过高性能门槛，达摩院玄铁RISC-V开始打量产硬仗",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-20T04:22:41.889901+00:00",
-      "pub_ts": 1792470161
+      "pub_date": "2026-10-21T04:12:33.383201+00:00",
+      "pub_ts": 1792555953
+    },
+    {
+      "id": "931f647da0",
+      "title": "凌存科技：做的从来不止一颗电容",
+      "url": "https://mp.weixin.qq.com/s/66z_2qTXLweeV_aOTw3feA",
+      "summary": "凌存科技：做的从来不止一颗电容",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-10-21T04:12:33.383245+00:00",
+      "pub_ts": 1792555953
+    },
+    {
+      "id": "953202a2e7",
+      "title": "芯片的老传统，被AI颠覆！",
+      "url": "https://mp.weixin.qq.com/s/iyTf8BK-YPh1Z4Y9ZACgBA",
+      "summary": "芯片的老传统，被AI颠覆！",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-10-21T04:12:33.383266+00:00",
+      "pub_ts": 1792555953
+    },
+    {
+      "id": "1fca1353b5",
+      "title": "超睿科技亮相2026RISC-V中国峰会，展示高性能处理器核与多场景AI...",
+      "url": "https://mp.weixin.qq.com/s/NW_zLWvFsbdjKIsV03ubFg",
+      "summary": "超睿科技亮相2026RISC-V中国峰会，展示高性能处理器核与多场景AI...",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-10-21T04:12:33.383286+00:00",
+      "pub_ts": 1792555953
+    },
+    {
+      "id": "b257f37fe5",
+      "title": "英伟达正式入局，CPU市场生变！",
+      "url": "https://mp.weixin.qq.com/s/TEcg-_0D0Qw6Zh1-0LcaKw",
+      "summary": "英伟达正式入局，CPU市场生变！",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-10-21T04:12:33.383305+00:00",
+      "pub_ts": 1792555953
+    },
+    {
+      "id": "afac2ca88f",
+      "title": "Chip Industry Technical Paper Roundup: Oct. 20",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-oct-14-2/",
+      "summary": "HBM power consumption; GAAFET leakage pathways; agentic AI for heterogeneous system design; nanoelectromechanical gain-cell eDRAM; AI-accelerated 3D-IC thermal modeling; agentic AI for RTL verification and debugging; thermal side-channel attacks in autonomous vehicles.\nThe post Chip Industry Technic…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-10-20T07:01:46+00:00",
+      "pub_ts": 1792479706
     },
     {
       "id": "28608f0b4a",
@@ -105,16 +155,6 @@
       "lang": "en",
       "pub_date": "2026-10-19T07:01:16+00:00",
       "pub_ts": 1792393276
-    },
-    {
-      "id": "8a30582a2a",
-      "title": "Nanoelectromechanical Switches Target More Efficient Embedded DRAM (UC Berkeley, Samsung, Intel)",
-      "url": "https://semiengineering.com/nanoelectromechanical-switches-target-more-efficient-embedded-dram-uc-berkeley-samsung-intel/",
-      "summary": "Researchers at the UC Berkeley, Samsung Electronics, and Intel published “Nanoelectromechanically Gated Gain Cell eDRAM.” Abstract Excerpt: “The memory wall and the slowdown of static random access memory (SRAM) scaling have renewed interest in gain-cell embedded dynamic random access memory (DRAM).…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-10-18T23:28:31+00:00",
-      "pub_ts": 1792366111
     }
   ],
   "source_success_count": 3,
