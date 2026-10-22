@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-10-21T04:13:15.073994+00:00",
+  "updated_at": "2026-10-22T04:13:40.858068+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "f50a2820e3",
-      "title": "Researchers Cut Precious Metal Use in Half for Green Hydrogen Production",
-      "url": "https://fuelcellsworks.com/2026/10/19/h2/researchers-cut-precious-metal-use-in-half-for-green-hydrogen-production",
+      "id": "7c85132867",
+      "title": "World Premiere: Stadler Tests Hydrogen Trains on New Narrow-Gauge Track",
+      "url": "https://fuelcellsworks.com/2026/10/18/fuel-cells/world-premiere-stadler-tests-hydrogen-trains-on-new-narrow-gauge-track",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-20T16:21:22+00:00",
-      "pub_ts": 1792513282
+      "pub_date": "2026-10-21T16:11:37+00:00",
+      "pub_ts": 1792599097
     },
     {
-      "id": "f0dab142f9",
-      "title": "Toyota Achieves Heavy-Duty Hydrogen Truck Milestones",
-      "url": "https://fuelcellsworks.com/2026/10/20/clean-hydrogen/toyota-achieves-heavy-duty-hydrogen-truck-milestones",
+      "id": "2ff1deca50",
+      "title": "Norwegian Hydrogen Ferries Delayed Again",
+      "url": "https://fuelcellsworks.com/2026/10/20/electrolyzer/norwegian-hydrogen-ferries-delayed-again",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-20T16:09:24+00:00",
-      "pub_ts": 1792512564
+      "pub_date": "2026-10-21T16:03:18+00:00",
+      "pub_ts": 1792598598
     },
     {
-      "id": "0d2361041d",
-      "title": "Ufi Hydrogen Unveils Seven-Component MEA Platform and Plans €50 Million Investment by 2029",
-      "url": "https://fuelcellsworks.com/2026/10/20/h2/ufi-hydrogen-unveils-seven-component-mea-platform-and-plans-50-million-investment-by-2029",
+      "id": "064e8bdbca",
+      "title": "ABB Launches High-Efficiency Rectifier to Help Reduce Green Hydrogen Power Costs",
+      "url": "https://fuelcellsworks.com/2026/10/20/h2/abb-launches-high-efficiency-rectifier-to-help-reduce-green-hydrogen-power-costs",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-20T15:58:01+00:00",
-      "pub_ts": 1792511881
+      "pub_date": "2026-10-21T15:55:58+00:00",
+      "pub_ts": 1792598158
     },
     {
-      "id": "f1952e2b72",
-      "title": "China’s Hydrogen Output Tops 39 Million Tonnes as 41 Pilot Projects Move Toward Larger-Scale Deployment",
-      "url": "https://fuelcellsworks.com/2026/10/19/h2/china-s-hydrogen-output-tops-39-million-tonnes-as-41-pilot-projects-move-toward-larger-scale-deployment",
+      "id": "ad676044e4",
+      "title": "Bosch Says CryoPump Can Cut Hydrogen Station Investment Cost by Half",
+      "url": "https://fuelcellsworks.com/2026/10/20/electrolyzer/bosch-says-cryopump-can-cut-hydrogen-station-investment-cost-by-half",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-20T15:48:05+00:00",
-      "pub_ts": 1792511285
+      "pub_date": "2026-10-21T15:48:05+00:00",
+      "pub_ts": 1792597685
     },
     {
-      "id": "3b3f6415ea",
-      "title": "VIVIFY Technology Signs Letter of Intent to Serve as Primary Hydrogen Energy Infrastructure Provider for ELISIUM, a Planned Cognitive City in Hendry County, Florida",
-      "url": "https://fuelcellsworks.com/2026/10/20/h2/vivify-technology-signs-letter-of-intent-to-serve-as-primary-hydrogen-energy-infrastructure-provider-for-elisium-a-planned-cognitive-city-in-hendry-county-florida",
+      "id": "9d861ee02f",
+      "title": "Finland 'S  VTT to Put Battery-Hydrogen SISU Truck Into Daily Freight Service Before Year-End",
+      "url": "https://fuelcellsworks.com/2026/10/21/fuel-cells/finland-s-vtt-to-put-battery-hydrogen-sisu-truck-into-daily-freight-service-before-year-end",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-20T15:41:24+00:00",
-      "pub_ts": 1792510884
+      "pub_date": "2026-10-21T15:22:03+00:00",
+      "pub_ts": 1792596123
     }
   ],
   "source_success_count": 1,

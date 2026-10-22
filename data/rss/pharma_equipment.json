@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-10-21T04:13:27.702245+00:00",
+  "updated_at": "2026-10-22T04:13:53.352187+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "46a927e627",
-      "title": "EyePoint halves workforce and ends Phase III trial early after endpoint miss",
-      "url": "https://www.pharmaceutical-technology.com/news/eyepoint-halves-workforce-ends-phase-iii-trial-early/",
-      "summary": "The biotech is now hoping that duravyu will have more success in DME, with pivotal readouts expected late next year.",
+      "id": "1b474c9cea",
+      "title": "AbbVie races into F1 as pharma companies continue push into sport",
+      "url": "https://www.pharmaceutical-technology.com/news/abbvie-races-into-f1-as-pharma-companies-continue-push-into-sport/",
+      "summary": "AbbVie is just one of several pharmaceutical companies to pen sponsorship deals in sport, blurring the commercial line between the two industries.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-20T10:37:37+00:00",
-      "pub_ts": 1792492657
+      "pub_date": "2026-10-21T10:40:34+00:00",
+      "pub_ts": 1792579234
     },
     {
-      "id": "6e40c724b3",
-      "title": "Merck KGaA spends $1.3bn to buy siRNA specialist Silence Therapeutics",
-      "url": "https://www.pharmaceutical-technology.com/news/merck-kgaa-spends-1-3bn-to-buy-sirna-specialist-silence-therapeutics/",
-      "summary": "Buying the UK-based biotech will add a siRNA drug candidate with high sales potential to Merck’s portfolio.",
+      "id": "5f9e931e4d",
+      "title": "Pharma’s supplier sprawl problem: When more vendors create less control",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/pharmas-supplier-sprawl-problem-when-more-vendors-create-less-control/",
+      "summary": "Consolidating complicated supply chains with trusted providers reduces governance, sharpens cost and emissions insight, and creates a more resilient, coordinated network.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-20T10:28:43+00:00",
-      "pub_ts": 1792492123
+      "pub_date": "2026-10-21T10:00:25+00:00",
+      "pub_ts": 1792576825
     },
     {
-      "id": "24b1e82aea",
-      "title": "Ambrose Healthcare fortifies rare disease pipeline on AM-Pharma takeover",
-      "url": "https://www.pharmaceutical-technology.com/news/ambrose-healthcare-am-pharma-takeover-rare-bone-disease/",
-      "summary": "Ambrose will now enter the race to debut a new medicine on the HPP market as the only approved therapy edges closer to key patent expiries.",
+      "id": "faea3357ae",
+      "title": "FDA approves Cosette’s Evoxac oral solution for Sjögren’s disease",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-cosettes-evoxac-sjogrens-disease/",
+      "summary": "The FDA has granted approval for Cosette’s Evoxac oral solution to treat dry mouth symptoms in adults diagnosed with Sjögren’s disease.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-20T06:00:00+00:00",
-      "pub_ts": 1792476000
+      "pub_date": "2026-10-21T09:41:37+00:00",
+      "pub_ts": 1792575697
     },
     {
-      "id": "1c5b4d8cca",
-      "title": "Roche’s Enspryng nets a second indication on FDA eye disease approval",
-      "url": "https://www.pharmaceutical-technology.com/news/roche-enspryng-thyroid-eye-disease-fda-approval/",
-      "summary": "Enspryng is the first drug suitable for at-home administration in TED, but analysts are lukewarm on its commercial potential.",
+      "id": "c795b14840",
+      "title": "MHRA revokes approval for Valneva’s Ixchiq due to safety frailties",
+      "url": "https://www.pharmaceutical-technology.com/news/mhra-revokes-approval-for-valnevas-ixchiq-due-to-safety-frailties/",
+      "summary": "The market withdrawal caps a tumultuous few years for the chikungunya vaccine amid related adverse events.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-19T16:28:21+00:00",
-      "pub_ts": 1792427301
+      "pub_date": "2026-10-21T09:08:56+00:00",
+      "pub_ts": 1792573736
     },
     {
-      "id": "1737c69df0",
-      "title": "MHRA could allow schools to hold reserves of nasal adrenaline spray",
-      "url": "https://www.pharmaceutical-technology.com/news/mhra-could-allow-schools-to-hold-reserves-of-nasal-adrenaline-spray/",
-      "summary": "Though schools already store autoinjectors like EpiPen, a nasal spray would offer another easy-to-use option.",
+      "id": "3189f2e2bb",
+      "title": "Sanofi and ScionxBio partner on mRNA therapies",
+      "url": "https://www.pharmaceutical-technology.com/news/sanofi-scionxbio-long-acting-mrna-therapies/",
+      "summary": "Sanofi has signed a global licensing and strategic collaboration agreement with ScionxBio to develop long-acting mRNA therapies using the TERA platform.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-19T10:50:44+00:00",
-      "pub_ts": 1792407044
+      "pub_date": "2026-10-21T08:37:03+00:00",
+      "pub_ts": 1792571823
     }
   ],
   "source_success_count": 1,

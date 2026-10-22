@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-10-21T04:13:03.368552+00:00",
+  "updated_at": "2026-10-22T04:13:29.924632+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "80d0af2070",
-      "title": "国模Agent第一！MiniMax爆改Flash战力，全时段大肥鱼谷价",
-      "url": "https://mp.weixin.qq.com/s/U9LetHV9_L0GO9snOXnHPQ",
-      "summary": "国模Agent第一！MiniMax爆改Flash战力，全时段大肥鱼谷价",
+      "id": "827589370b",
+      "title": "多智能体协同重构医疗AI！清华AIR孵化：医生A分身“坐诊”医院",
+      "url": "https://mp.weixin.qq.com/s/tdIC7MTsGQw7SZkleXBbGw",
+      "summary": "多智能体协同重构医疗AI！清华AIR孵化：医生A分身“坐诊”医院",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-21T04:12:57.556970+00:00",
-      "pub_ts": 1792555977
+      "pub_date": "2026-10-22T04:13:25.826082+00:00",
+      "pub_ts": 1792642405
     },
     {
-      "id": "a6053b7cb9",
-      "title": "刚刚，DeepSeek开源自家推理框架！",
-      "url": "https://mp.weixin.qq.com/s/w-e7bdkr2_bTGnGCiExO9A",
-      "summary": "刚刚，DeepSeek开源自家推理框架！",
+      "id": "4a0833e214",
+      "title": "南京物理AI上大分！三位图灵奖得主发声，50个应用场景亮相",
+      "url": "https://mp.weixin.qq.com/s/bnIxohpokfoG3sa9_e8otw",
+      "summary": "南京物理AI上大分！三位图灵奖得主发声，50个应用场景亮相",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-21T04:12:57.557016+00:00",
-      "pub_ts": 1792555977
+      "pub_date": "2026-10-22T04:13:25.826133+00:00",
+      "pub_ts": 1792642405
     },
     {
-      "id": "b3e9bbe108",
-      "title": "RSI三块关键拼图，MemT1.0从模型层补上「记忆」",
-      "url": "https://mp.weixin.qq.com/s/DTdaGUk8o0dwkx1wxnnbYw",
-      "summary": "RSI三块关键拼图，MemT1.0从模型层补上「记忆」",
+      "id": "dea2e63b43",
+      "title": "LeCun押注的世界模型，中国一家清华系公司已经做进了机器人",
+      "url": "https://mp.weixin.qq.com/s/eg7fXCDa3-wAxwqL-IvsFQ",
+      "summary": "LeCun押注的世界模型，中国一家清华系公司已经做进了机器人",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-21T04:12:57.557042+00:00",
-      "pub_ts": 1792555977
+      "pub_date": "2026-10-22T04:13:25.826156+00:00",
+      "pub_ts": 1792642405
     },
     {
-      "id": "63d307726b",
-      "title": "英伟达世界模型团队创业！种子轮拿下9000万美元，具身模型反击通...",
-      "url": "https://mp.weixin.qq.com/s/f4r39Wuon7GSJgAWaV19bA",
-      "summary": "英伟达世界模型团队创业！种子轮拿下9000万美元，具身模型反击通...",
+      "id": "bfbb04220f",
+      "title": "OpenAI抢滩AI制药：又收购一家初创，CTO来自北大",
+      "url": "https://mp.weixin.qq.com/s/wadkLvUJYN57APJGZZm2lQ",
+      "summary": "OpenAI抢滩AI制药：又收购一家初创，CTO来自北大",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-21T04:12:57.557066+00:00",
-      "pub_ts": 1792555977
+      "pub_date": "2026-10-22T04:13:25.826178+00:00",
+      "pub_ts": 1792642405
     },
     {
-      "id": "475865a598",
-      "title": "首Token 延迟降低 32.4%！是石科技放出集群调度大招，国产推理再提效",
-      "url": "https://mp.weixin.qq.com/s/O60KQCGStlXRBrJyODtWag",
-      "summary": "首Token 延迟降低 32.4%！是石科技放出集群调度大招，国产推理再提效",
+      "id": "ea6aefc051",
+      "title": "Anthropic上半年平均每天亏30亿",
+      "url": "https://mp.weixin.qq.com/s/dRB-RZbuOSCxyssgVOmeNQ",
+      "summary": "Anthropic上半年平均每天亏30亿",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-21T04:12:57.557089+00:00",
-      "pub_ts": 1792555977
+      "pub_date": "2026-10-22T04:13:25.826197+00:00",
+      "pub_ts": 1792642405
     }
   ],
   "source_success_count": 1,
