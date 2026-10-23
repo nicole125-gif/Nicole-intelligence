@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-10-22T04:13:53.352187+00:00",
+  "updated_at": "2026-10-23T04:17:32.587764+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "1b474c9cea",
-      "title": "AbbVie races into F1 as pharma companies continue push into sport",
-      "url": "https://www.pharmaceutical-technology.com/news/abbvie-races-into-f1-as-pharma-companies-continue-push-into-sport/",
-      "summary": "AbbVie is just one of several pharmaceutical companies to pen sponsorship deals in sport, blurring the commercial line between the two industries.",
+      "id": "ec13357ca7",
+      "title": "CPHI 2026: Pharma manufacturers put AI to work",
+      "url": "https://www.pharmaceutical-technology.com/features/cphi-2026-pharma-manufacturers-put-ai-to-work/",
+      "summary": "At CPHI Milan 2026, pharma leaders examined how AI can accelerate formulation, process development, maintenance, and quality management—without compromising data security or human oversight.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-21T10:40:34+00:00",
-      "pub_ts": 1792579234
+      "pub_date": "2026-10-22T16:37:03+00:00",
+      "pub_ts": 1792687023
     },
     {
-      "id": "5f9e931e4d",
-      "title": "Pharma’s supplier sprawl problem: When more vendors create less control",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/pharmas-supplier-sprawl-problem-when-more-vendors-create-less-control/",
-      "summary": "Consolidating complicated supply chains with trusted providers reduces governance, sharpens cost and emissions insight, and creates a more resilient, coordinated network.",
+      "id": "82d05a5402",
+      "title": "Roche’s pharma sales grow 7% but pipeline trimmed down",
+      "url": "https://www.pharmaceutical-technology.com/news/roches-pharma-sales-grow-7-but-pipeline-trimmed-down/",
+      "summary": "Several drugs fuelled Roche’s sales for the first nine months reflecting the company’s diverse commercial portfolio.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-21T10:00:25+00:00",
-      "pub_ts": 1792576825
+      "pub_date": "2026-10-22T16:14:13+00:00",
+      "pub_ts": 1792685653
     },
     {
-      "id": "faea3357ae",
-      "title": "FDA approves Cosette’s Evoxac oral solution for Sjögren’s disease",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-cosettes-evoxac-sjogrens-disease/",
-      "summary": "The FDA has granted approval for Cosette’s Evoxac oral solution to treat dry mouth symptoms in adults diagnosed with Sjögren’s disease.",
+      "id": "72b473543a",
+      "title": "Danish fast-track model inspires growth in national reimbursement rates",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/danish-fast-track-model/",
+      "summary": "As of 1 June 2026, a novel assessment process for PD-(L)1 drugs was implemented in Denmark by the Danish Medicines Council.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-21T09:41:37+00:00",
-      "pub_ts": 1792575697
+      "pub_date": "2026-10-22T15:23:34+00:00",
+      "pub_ts": 1792682614
     },
     {
-      "id": "c795b14840",
-      "title": "MHRA revokes approval for Valneva’s Ixchiq due to safety frailties",
-      "url": "https://www.pharmaceutical-technology.com/news/mhra-revokes-approval-for-valnevas-ixchiq-due-to-safety-frailties/",
-      "summary": "The market withdrawal caps a tumultuous few years for the chikungunya vaccine amid related adverse events.",
+      "id": "9e5567a20d",
+      "title": "Retatrutide peptide: A quality-control checklist for sourcing research-grade material",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/retatrutide-peptide-a-quality-control-checklist-for-sourcing-research-grade-material/",
+      "summary": "Explore retatrutide peptide quality control, including batch testing and supplier documentation checks for laboratory research.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-21T09:08:56+00:00",
-      "pub_ts": 1792573736
+      "pub_date": "2026-10-22T14:46:30+00:00",
+      "pub_ts": 1792680390
     },
     {
-      "id": "3189f2e2bb",
-      "title": "Sanofi and ScionxBio partner on mRNA therapies",
-      "url": "https://www.pharmaceutical-technology.com/news/sanofi-scionxbio-long-acting-mrna-therapies/",
-      "summary": "Sanofi has signed a global licensing and strategic collaboration agreement with ScionxBio to develop long-acting mRNA therapies using the TERA platform.",
+      "id": "88c196f903",
+      "title": "AstraZeneca bags another US indication for Ultomiris with IgAN approval",
+      "url": "https://www.pharmaceutical-technology.com/news/astrazeneca-ultomiris-igan-fda-approval/",
+      "summary": "Following its provisional blessing in IgAN, AstraZeneca's Ultomiris is now indicated for use in six conditions.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-21T08:37:03+00:00",
-      "pub_ts": 1792571823
+      "pub_date": "2026-10-22T12:33:01+00:00",
+      "pub_ts": 1792672381
     }
   ],
   "source_success_count": 1,

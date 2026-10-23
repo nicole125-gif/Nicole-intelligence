@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-10-22T04:13:29.924632+00:00",
+  "updated_at": "2026-10-23T04:17:08.810436+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "827589370b",
-      "title": "多智能体协同重构医疗AI！清华AIR孵化：医生A分身“坐诊”医院",
-      "url": "https://mp.weixin.qq.com/s/tdIC7MTsGQw7SZkleXBbGw",
-      "summary": "多智能体协同重构医疗AI！清华AIR孵化：医生A分身“坐诊”医院",
+      "id": "b8d8e6709e",
+      "title": "4.2米擎天柱引马斯克围观！京东工业的A野心已经藏不住了",
+      "url": "https://mp.weixin.qq.com/s/OzvtfvAAv8IttFGysDTeJg",
+      "summary": "4.2米擎天柱引马斯克围观！京东工业的A野心已经藏不住了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-22T04:13:25.826082+00:00",
-      "pub_ts": 1792642405
+      "pub_date": "2026-10-23T04:17:04.453577+00:00",
+      "pub_ts": 1792729024
     },
     {
-      "id": "4a0833e214",
-      "title": "南京物理AI上大分！三位图灵奖得主发声，50个应用场景亮相",
-      "url": "https://mp.weixin.qq.com/s/bnIxohpokfoG3sa9_e8otw",
-      "summary": "南京物理AI上大分！三位图灵奖得主发声，50个应用场景亮相",
+      "id": "9f65b1654a",
+      "title": "死对头牵手！GPT住进Gemini家，OpenAl半年集齐三大云",
+      "url": "https://mp.weixin.qq.com/s/8uKp8ratgarg9OonlbffFg",
+      "summary": "死对头牵手！GPT住进Gemini家，OpenAl半年集齐三大云",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-22T04:13:25.826133+00:00",
-      "pub_ts": 1792642405
+      "pub_date": "2026-10-23T04:17:04.453621+00:00",
+      "pub_ts": 1792729024
     },
     {
-      "id": "dea2e63b43",
-      "title": "LeCun押注的世界模型，中国一家清华系公司已经做进了机器人",
-      "url": "https://mp.weixin.qq.com/s/eg7fXCDa3-wAxwqL-IvsFQ",
-      "summary": "LeCun押注的世界模型，中国一家清华系公司已经做进了机器人",
+      "id": "8201020153",
+      "title": "企业AI需要两个世界模型",
+      "url": "https://mp.weixin.qq.com/s/HtvIDcP_6WYJWBXs2FgoSg",
+      "summary": "企业AI需要两个世界模型",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-22T04:13:25.826156+00:00",
-      "pub_ts": 1792642405
+      "pub_date": "2026-10-23T04:17:04.453645+00:00",
+      "pub_ts": 1792729024
     },
     {
-      "id": "bfbb04220f",
-      "title": "OpenAI抢滩AI制药：又收购一家初创，CTO来自北大",
-      "url": "https://mp.weixin.qq.com/s/wadkLvUJYN57APJGZZm2lQ",
-      "summary": "OpenAI抢滩AI制药：又收购一家初创，CTO来自北大",
+      "id": "dff6a569ca",
+      "title": "少步视频生成不再牺牲画质！双重分布匹配方案实现又快又好",
+      "url": "https://mp.weixin.qq.com/s/6yy0XRLmeu-p8GG1MJ5V8Q",
+      "summary": "少步视频生成不再牺牲画质！双重分布匹配方案实现又快又好",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-22T04:13:25.826178+00:00",
-      "pub_ts": 1792642405
+      "pub_date": "2026-10-23T04:17:04.453666+00:00",
+      "pub_ts": 1792729024
     },
     {
-      "id": "ea6aefc051",
-      "title": "Anthropic上半年平均每天亏30亿",
-      "url": "https://mp.weixin.qq.com/s/dRB-RZbuOSCxyssgVOmeNQ",
-      "summary": "Anthropic上半年平均每天亏30亿",
+      "id": "e4cfb41d1e",
+      "title": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
+      "url": "https://mp.weixin.qq.com/s/Trq5hJfS1wuBNQjN1CCnHQ",
+      "summary": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-22T04:13:25.826197+00:00",
-      "pub_ts": 1792642405
+      "pub_date": "2026-10-23T04:17:04.453686+00:00",
+      "pub_ts": 1792729024
     }
   ],
   "source_success_count": 1,

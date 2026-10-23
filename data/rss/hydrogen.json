@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-10-22T04:13:40.858068+00:00",
+  "updated_at": "2026-10-23T04:17:20.015601+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "7c85132867",
-      "title": "World Premiere: Stadler Tests Hydrogen Trains on New Narrow-Gauge Track",
-      "url": "https://fuelcellsworks.com/2026/10/18/fuel-cells/world-premiere-stadler-tests-hydrogen-trains-on-new-narrow-gauge-track",
+      "id": "6bc1b63344",
+      "title": "Dutch Researcher Wins Up to €850,000 to Develop Magnetic Catalysts for Green Hydrogen Production",
+      "url": "https://fuelcellsworks.com/2026/10/22/green-investment/dutch-researcher-wins-up-to-850-000-to-develop-magnetic-catalysts-for-green-hydrogen-production",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-21T16:11:37+00:00",
-      "pub_ts": 1792599097
+      "pub_date": "2026-10-22T16:04:18+00:00",
+      "pub_ts": 1792685058
     },
     {
-      "id": "2ff1deca50",
-      "title": "Norwegian Hydrogen Ferries Delayed Again",
-      "url": "https://fuelcellsworks.com/2026/10/20/electrolyzer/norwegian-hydrogen-ferries-delayed-again",
+      "id": "f8066b2464",
+      "title": "Eastern Pacific Shipping Takes Delivery of World’s First Ammonia Dual-Fuel VLAC",
+      "url": "https://fuelcellsworks.com/2026/10/22/clean-energy/eastern-pacific-shipping-takes-delivery-of-world-s-first-ammonia-dual-fuel-vlac",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-21T16:03:18+00:00",
-      "pub_ts": 1792598598
+      "pub_date": "2026-10-22T15:52:22+00:00",
+      "pub_ts": 1792684342
     },
     {
-      "id": "064e8bdbca",
-      "title": "ABB Launches High-Efficiency Rectifier to Help Reduce Green Hydrogen Power Costs",
-      "url": "https://fuelcellsworks.com/2026/10/20/h2/abb-launches-high-efficiency-rectifier-to-help-reduce-green-hydrogen-power-costs",
+      "id": "1d2a82a298",
+      "title": "Korea Pallet Pool and Lotte Chilsung Beverage Trial Hydrogen Fuel Cell Trucks in Logistics Operations",
+      "url": "https://fuelcellsworks.com/2026/10/19/h2/korea-pallet-pool-and-lotte-chilsung-beverage-trial-hydrogen-fuel-cell-trucks-in-logistics-operations",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-21T15:55:58+00:00",
-      "pub_ts": 1792598158
+      "pub_date": "2026-10-22T15:14:18+00:00",
+      "pub_ts": 1792682058
     },
     {
-      "id": "ad676044e4",
-      "title": "Bosch Says CryoPump Can Cut Hydrogen Station Investment Cost by Half",
-      "url": "https://fuelcellsworks.com/2026/10/20/electrolyzer/bosch-says-cryopump-can-cut-hydrogen-station-investment-cost-by-half",
+      "id": "7dbddbd1b9",
+      "title": "Advancing Hydrogen Adoption in Belgium with Fujitsu’s Digital Twin Technology",
+      "url": "https://fuelcellsworks.com/2026/10/22/h2/advancing-hydrogen-adoption-in-belgium-with-fujitsu-s-digital-twin-technology",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-21T15:48:05+00:00",
-      "pub_ts": 1792597685
+      "pub_date": "2026-10-22T15:12:34+00:00",
+      "pub_ts": 1792681954
     },
     {
-      "id": "9d861ee02f",
-      "title": "Finland 'S  VTT to Put Battery-Hydrogen SISU Truck Into Daily Freight Service Before Year-End",
-      "url": "https://fuelcellsworks.com/2026/10/21/fuel-cells/finland-s-vtt-to-put-battery-hydrogen-sisu-truck-into-daily-freight-service-before-year-end",
+      "id": "0bace68f99",
+      "title": "BRÜCK Strengthens International Contacts in the Energy Sector Including Hydrogen",
+      "url": "https://fuelcellsworks.com/2026/10/21/h2/bruck-strengthens-international-contacts-in-the-energy-sector-including-hydrogen",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-21T15:22:03+00:00",
-      "pub_ts": 1792596123
+      "pub_date": "2026-10-22T14:58:51+00:00",
+      "pub_ts": 1792681131
     }
   ],
   "source_success_count": 1,
