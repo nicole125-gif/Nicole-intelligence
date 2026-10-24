@@ -3,58 +3,118 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-10-23T04:16:54.929360+00:00",
-  "item_count": 10,
+  "updated_at": "2026-10-24T04:07:59.789930+00:00",
+  "item_count": 15,
   "items": [
     {
-      "id": "ddb4b8808f",
-      "title": "309.52亿！长电科技前三季度营收创历史新高",
-      "url": "https://mp.weixin.qq.com/s/QJ5UWl-cQyKeydsrcw-fQQ",
-      "summary": "309.52亿！长电科技前三季度营收创历史新高",
+      "id": "4b47dc0d33",
+      "title": "净利润同比增长148%，寒武纪最新业绩来了",
+      "url": "https://mp.weixin.qq.com/s/wo6EOrTTPpAEMu6RD8yGjg",
+      "summary": "净利润同比增长148%，寒武纪最新业绩来了",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-23T04:16:50.789554+00:00",
-      "pub_ts": 1792729010
+      "pub_date": "2026-10-24T04:07:55.434518+00:00",
+      "pub_ts": 1792814875
     },
     {
-      "id": "739587fb94",
-      "title": "ASIC大单接连落地，芯片供应商要换打法了？",
-      "url": "https://mp.weixin.qq.com/s/Y09rtbNYO51zL_xqtx6SoA",
-      "summary": "ASIC大单接连落地，芯片供应商要换打法了？",
+      "id": "db16d440dc",
+      "title": "刚刚！国家信息化“十五五”规划：提高芯片先进制程制造能力",
+      "url": "https://mp.weixin.qq.com/s/kpDx6I6rGh_2MbzfACEk5g",
+      "summary": "刚刚！国家信息化“十五五”规划：提高芯片先进制程制造能力",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-23T04:16:50.789597+00:00",
-      "pub_ts": 1792729010
+      "pub_date": "2026-10-24T04:07:55.434559+00:00",
+      "pub_ts": 1792814875
     },
     {
-      "id": "420606642c",
-      "title": "服务器CPU，明年出货还将大涨40%",
-      "url": "https://mp.weixin.qq.com/s/Iz8iFAN0k8kxEb0rJ0dTgw",
-      "summary": "服务器CPU，明年出货还将大涨40%",
+      "id": "c1e20920d5",
+      "title": "恒玄、乐鑫、瑞芯微财报出炉，AloT芯片业绩分化",
+      "url": "https://mp.weixin.qq.com/s/rfdA-rfKsvaBCzwIBlM_1w",
+      "summary": "恒玄、乐鑫、瑞芯微财报出炉，AloT芯片业绩分化",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-23T04:16:50.789642+00:00",
-      "pub_ts": 1792729010
+      "pub_date": "2026-10-24T04:07:55.434579+00:00",
+      "pub_ts": 1792814875
     },
     {
-      "id": "92e4be78c5",
-      "title": "TI财报出炉，模拟芯片回暖了",
-      "url": "https://mp.weixin.qq.com/s/SADabLwi0bNnMLm9MoqYJQ",
-      "summary": "TI财报出炉，模拟芯片回暖了",
+      "id": "8f3ab15d15",
+      "title": "为什么手机越卖越少，反而越卖越贵？",
+      "url": "https://mp.weixin.qq.com/s/Ay0--JBHItusdld2Bmn63A",
+      "summary": "为什么手机越卖越少，反而越卖越贵？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-23T04:16:50.789663+00:00",
-      "pub_ts": 1792729010
+      "pub_date": "2026-10-24T04:07:55.434597+00:00",
+      "pub_ts": 1792814875
     },
     {
-      "id": "7f9113fa0e",
-      "title": "微纳核芯与无问芯穹，达成战略合作！",
-      "url": "https://mp.weixin.qq.com/s/6xhiyBbN22l4LZPejYjDYg",
-      "summary": "微纳核芯与无问芯穹，达成战略合作！",
+      "id": "e39b621bc0",
+      "title": "存算一体再出圈！亿铸科技拿下10亿级融资",
+      "url": "https://mp.weixin.qq.com/s/IoQjy-C1TlRnm3ZTBuguGA",
+      "summary": "存算一体再出圈！亿铸科技拿下10亿级融资",
+      "source": "半导体产业纵横",
+      "lang": "zh",
+      "pub_date": "2026-10-24T04:07:55.434614+00:00",
+      "pub_ts": 1792814875
+    },
+    {
+      "id": "3b503f2fe5",
+      "title": "寒武纪，利润大增，立下新目标！",
+      "url": "https://mp.weixin.qq.com/s/5fIssfGHU_MjpGebeTQixw",
+      "summary": "寒武纪，利润大增，立下新目标！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-23T04:16:41.411606+00:00",
-      "pub_ts": 1792729001
+      "pub_date": "2026-10-24T04:07:45.990252+00:00",
+      "pub_ts": 1792814865
+    },
+    {
+      "id": "643dccce4d",
+      "title": "净利润大增，长电科技：全面布局先进封装！",
+      "url": "https://mp.weixin.qq.com/s/Wp1dHFvOCe1tr72R676mIw",
+      "summary": "净利润大增，长电科技：全面布局先进封装！",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-10-24T04:07:45.990297+00:00",
+      "pub_ts": 1792814865
+    },
+    {
+      "id": "2995947fd6",
+      "title": "AI加持芯片设计：人机协同共绘未来",
+      "url": "https://mp.weixin.qq.com/s/6u6r7bpdfXbxidivgGwLaw",
+      "summary": "AI加持芯片设计：人机协同共绘未来",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-10-24T04:07:45.990316+00:00",
+      "pub_ts": 1792814865
+    },
+    {
+      "id": "d5b6dfb339",
+      "title": "沁恒以青稞RISC-V+MRS智能体，迎接嵌入式AI时代",
+      "url": "https://mp.weixin.qq.com/s/KqxGSWHQhyh05xXSTwb1VA",
+      "summary": "沁恒以青稞RISC-V+MRS智能体，迎接嵌入式AI时代",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-10-24T04:07:45.990332+00:00",
+      "pub_ts": 1792814865
+    },
+    {
+      "id": "3fc277496e",
+      "title": "面板级封装，问题来了",
+      "url": "https://mp.weixin.qq.com/s/y-YliIFUkw0yVQakSDBOkA",
+      "summary": "面板级封装，问题来了",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-10-24T04:07:45.990347+00:00",
+      "pub_ts": 1792814865
+    },
+    {
+      "id": "88f10c1513",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-161/",
+      "summary": "CHIPS Act $389M to power chips, vertical GaN, materials; Micron's memory roadmap; Nvidia expands supply chain capacity; Tenstorrent raises $1.5B; China NAND fabs; 800V power for AI data centers; Intel advances Arizona fab; China orders +$35B in Nvidia GPUs.\nThe post Chip Industry Week In Review appe…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-10-23T07:01:23+00:00",
+      "pub_ts": 1792738883
     },
     {
       "id": "d6418e1af7",
@@ -95,16 +155,6 @@
       "lang": "en",
       "pub_date": "2026-10-22T07:05:02+00:00",
       "pub_ts": 1792652702
-    },
-    {
-      "id": "518c6ca18e",
-      "title": "Stacked-Die Multi-Chip Architectures: The Tradeoff Between Scaling And Power Delivery",
-      "url": "https://semiengineering.com/stacked-die-multi-chip-architectures-the-tradeoff-between-scaling-and-power-delivery/",
-      "summary": "Integrated voltage regulators reduce current density, provide higher regulation bandwidth, and reduce reliance on large decoupling capacitor networks. \nThe post Stacked-Die Multi-Chip Architectures: The Tradeoff Between Scaling And Power Delivery appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-10-22T07:02:07+00:00",
-      "pub_ts": 1792652527
     }
   ],
   "source_success_count": 3,

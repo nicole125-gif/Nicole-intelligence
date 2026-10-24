@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-10-23T04:17:08.810436+00:00",
+  "updated_at": "2026-10-24T04:08:13.707283+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "b8d8e6709e",
-      "title": "4.2米擎天柱引马斯克围观！京东工业的A野心已经藏不住了",
-      "url": "https://mp.weixin.qq.com/s/OzvtfvAAv8IttFGysDTeJg",
-      "summary": "4.2米擎天柱引马斯克围观！京东工业的A野心已经藏不住了",
+      "id": "3617181da7",
+      "title": "任天堂破绷！ChatGPT逆向Switch2游戏，一天改出马里奥卡丁车大乱斗",
+      "url": "https://mp.weixin.qq.com/s/XOW1-Qw4T0VIOsf7PXUCUw",
+      "summary": "任天堂破绷！ChatGPT逆向Switch2游戏，一天改出马里奥卡丁车大乱斗",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-23T04:17:04.453577+00:00",
-      "pub_ts": 1792729024
+      "pub_date": "2026-10-24T04:08:09.294189+00:00",
+      "pub_ts": 1792814889
     },
     {
-      "id": "9f65b1654a",
-      "title": "死对头牵手！GPT住进Gemini家，OpenAl半年集齐三大云",
-      "url": "https://mp.weixin.qq.com/s/8uKp8ratgarg9OonlbffFg",
-      "summary": "死对头牵手！GPT住进Gemini家，OpenAl半年集齐三大云",
+      "id": "99409a4efb",
+      "title": "Claude给391行代码找Bug，狂写1.8亿行证明！首次大规模汇编层形..",
+      "url": "https://mp.weixin.qq.com/s/qISCTgl01V3IH_qjMAlFVg",
+      "summary": "Claude给391行代码找Bug，狂写1.8亿行证明！首次大规模汇编层形..",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-23T04:17:04.453621+00:00",
-      "pub_ts": 1792729024
+      "pub_date": "2026-10-24T04:08:09.294227+00:00",
+      "pub_ts": 1792814889
     },
     {
-      "id": "8201020153",
-      "title": "企业AI需要两个世界模型",
-      "url": "https://mp.weixin.qq.com/s/HtvIDcP_6WYJWBXs2FgoSg",
-      "summary": "企业AI需要两个世界模型",
+      "id": "ebb4f64178",
+      "title": "Hinton警告全人类：必须与AI友好相处，否则“我们就完了“",
+      "url": "https://mp.weixin.qq.com/s/DolnK99zjMlTx_H27Xdatg",
+      "summary": "Hinton警告全人类：必须与AI友好相处，否则“我们就完了“",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-23T04:17:04.453645+00:00",
-      "pub_ts": 1792729024
+      "pub_date": "2026-10-24T04:08:09.294243+00:00",
+      "pub_ts": 1792814889
     },
     {
-      "id": "dff6a569ca",
-      "title": "少步视频生成不再牺牲画质！双重分布匹配方案实现又快又好",
-      "url": "https://mp.weixin.qq.com/s/6yy0XRLmeu-p8GG1MJ5V8Q",
-      "summary": "少步视频生成不再牺牲画质！双重分布匹配方案实现又快又好",
+      "id": "374e78b657",
+      "title": "智谱唐杰署名RSI新成果开源！Agent自我进化成本还狂降53%",
+      "url": "https://mp.weixin.qq.com/s/1nbncYhO5xZ7HAk6F3N0Dw",
+      "summary": "智谱唐杰署名RSI新成果开源！Agent自我进化成本还狂降53%",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-23T04:17:04.453666+00:00",
-      "pub_ts": 1792729024
+      "pub_date": "2026-10-24T04:08:09.294258+00:00",
+      "pub_ts": 1792814889
     },
     {
-      "id": "e4cfb41d1e",
-      "title": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
-      "url": "https://mp.weixin.qq.com/s/Trq5hJfS1wuBNQjN1CCnHQ",
-      "summary": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
+      "id": "2ebbf228d3",
+      "title": "物理AI怎么“击穿”场景落地？宇树生态大会上的钢铁答案",
+      "url": "https://mp.weixin.qq.com/s/yXP5VhZPMOQz9ZMRi15Tng",
+      "summary": "物理AI怎么“击穿”场景落地？宇树生态大会上的钢铁答案",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-23T04:17:04.453686+00:00",
-      "pub_ts": 1792729024
+      "pub_date": "2026-10-24T04:08:09.294272+00:00",
+      "pub_ts": 1792814889
     }
   ],
   "source_success_count": 1,

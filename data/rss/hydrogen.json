@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-10-23T04:17:20.015601+00:00",
+  "updated_at": "2026-10-24T04:08:33.562095+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "6bc1b63344",
-      "title": "Dutch Researcher Wins Up to €850,000 to Develop Magnetic Catalysts for Green Hydrogen Production",
-      "url": "https://fuelcellsworks.com/2026/10/22/green-investment/dutch-researcher-wins-up-to-850-000-to-develop-magnetic-catalysts-for-green-hydrogen-production",
+      "id": "33d3abb094",
+      "title": "Amogy to Deploy Ammonia Cracking Module at New Low-Carbon Testbed with A*STAR, Advancing Ammonia-to-Hydrogen Technology in Singapore",
+      "url": "https://fuelcellsworks.com/2026/10/23/clean-energy/amogy-to-deploy-ammonia-cracking-module-at-new-low-carbon-testbed-with-a-star-advancing-ammonia-to-hydrogen-technology-in-singapore",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-22T16:04:18+00:00",
-      "pub_ts": 1792685058
+      "pub_date": "2026-10-23T16:02:13+00:00",
+      "pub_ts": 1792771333
     },
     {
-      "id": "f8066b2464",
-      "title": "Eastern Pacific Shipping Takes Delivery of World’s First Ammonia Dual-Fuel VLAC",
-      "url": "https://fuelcellsworks.com/2026/10/22/clean-energy/eastern-pacific-shipping-takes-delivery-of-world-s-first-ammonia-dual-fuel-vlac",
+      "id": "db697346bc",
+      "title": "Germany’s Hydrogen Backbone Network: 537Km Running, 9,040Km Planned",
+      "url": "https://fuelcellsworks.com/2026/10/22/h2/germany-s-hydrogen-backbone-network-537km-running-9-040km-planned",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-22T15:52:22+00:00",
-      "pub_ts": 1792684342
+      "pub_date": "2026-10-23T15:50:58+00:00",
+      "pub_ts": 1792770658
     },
     {
-      "id": "1d2a82a298",
-      "title": "Korea Pallet Pool and Lotte Chilsung Beverage Trial Hydrogen Fuel Cell Trucks in Logistics Operations",
-      "url": "https://fuelcellsworks.com/2026/10/19/h2/korea-pallet-pool-and-lotte-chilsung-beverage-trial-hydrogen-fuel-cell-trucks-in-logistics-operations",
+      "id": "52e26ee31c",
+      "title": "GRUBER Logistics Truck at Hydrogen Truck Premiere at Milan Airport",
+      "url": "https://fuelcellsworks.com/2026/10/23/fuel-cells/gruber-logistics-truck-at-hydrogen-truck-premiere-at-milan-airport",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-22T15:14:18+00:00",
-      "pub_ts": 1792682058
+      "pub_date": "2026-10-23T15:39:59+00:00",
+      "pub_ts": 1792769999
     },
     {
-      "id": "7dbddbd1b9",
-      "title": "Advancing Hydrogen Adoption in Belgium with Fujitsu’s Digital Twin Technology",
-      "url": "https://fuelcellsworks.com/2026/10/22/h2/advancing-hydrogen-adoption-in-belgium-with-fujitsu-s-digital-twin-technology",
+      "id": "45c17b371d",
+      "title": "Seatrium Wins Five-Vessel Deal for Hydrogen-Ready 600MW Karpowerships",
+      "url": "https://fuelcellsworks.com/2026/10/23/h2/seatrium-wins-five-vessel-deal-for-hydrogen-ready-600mw-karpowerships",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-22T15:12:34+00:00",
-      "pub_ts": 1792681954
+      "pub_date": "2026-10-23T15:28:43+00:00",
+      "pub_ts": 1792769323
     },
     {
-      "id": "0bace68f99",
-      "title": "BRÜCK Strengthens International Contacts in the Energy Sector Including Hydrogen",
-      "url": "https://fuelcellsworks.com/2026/10/21/h2/bruck-strengthens-international-contacts-in-the-energy-sector-including-hydrogen",
+      "id": "d1986a9a97",
+      "title": "Gyeonggi Green Energy and Fuel Cell Energy Strengthen Cooperation for Stable Power Plant Operation",
+      "url": "https://fuelcellsworks.com/2026/10/21/electrolyzer/gyeonggi-green-energy-and-fuel-cell-energy-strengthen-cooperation-for-stable-power-plant-operation",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-22T14:58:51+00:00",
-      "pub_ts": 1792681131
+      "pub_date": "2026-10-23T15:26:27+00:00",
+      "pub_ts": 1792769187
     }
   ],
   "source_success_count": 1,
