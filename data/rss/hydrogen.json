@@ -3,7 +3,7 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-10-24T04:08:33.562095+00:00",
+  "updated_at": "2026-10-25T04:10:47.461167+00:00",
   "item_count": 5,
   "items": [
     {
@@ -13,8 +13,8 @@
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-23T16:02:13+00:00",
-      "pub_ts": 1792771333
+      "pub_date": "2026-10-23T16:32:05+00:00",
+      "pub_ts": 1792773125
     },
     {
       "id": "db697346bc",

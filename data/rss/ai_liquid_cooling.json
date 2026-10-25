@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-10-24T04:08:13.707283+00:00",
+  "updated_at": "2026-10-25T04:10:35.893529+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "3617181da7",
-      "title": "任天堂破绷！ChatGPT逆向Switch2游戏，一天改出马里奥卡丁车大乱斗",
-      "url": "https://mp.weixin.qq.com/s/XOW1-Qw4T0VIOsf7PXUCUw",
-      "summary": "任天堂破绷！ChatGPT逆向Switch2游戏，一天改出马里奥卡丁车大乱斗",
+      "id": "d4247c314d",
+      "title": "OpenAl开始断网训练最强模型：“安全起见”",
+      "url": "https://mp.weixin.qq.com/s/mAO-9xwrlEVkfwmsDGKLrw",
+      "summary": "OpenAl开始断网训练最强模型：“安全起见”",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-24T04:08:09.294189+00:00",
-      "pub_ts": 1792814889
+      "pub_date": "2026-10-25T04:10:31.389141+00:00",
+      "pub_ts": 1792901431
     },
     {
-      "id": "99409a4efb",
-      "title": "Claude给391行代码找Bug，狂写1.8亿行证明！首次大规模汇编层形..",
-      "url": "https://mp.weixin.qq.com/s/qISCTgl01V3IH_qjMAlFVg",
-      "summary": "Claude给391行代码找Bug，狂写1.8亿行证明！首次大规模汇编层形..",
+      "id": "2b8de95345",
+      "title": "速！看到GPT-6Astra给我的穿搭，我要去小红书起号了！",
+      "url": "https://mp.weixin.qq.com/s/Jchc5r51HRADyZFyPVaMmQ",
+      "summary": "速！看到GPT-6Astra给我的穿搭，我要去小红书起号了！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-24T04:08:09.294227+00:00",
-      "pub_ts": 1792814889
+      "pub_date": "2026-10-25T04:10:31.389182+00:00",
+      "pub_ts": 1792901431
     },
     {
-      "id": "ebb4f64178",
-      "title": "Hinton警告全人类：必须与AI友好相处，否则“我们就完了“",
-      "url": "https://mp.weixin.qq.com/s/DolnK99zjMlTx_H27Xdatg",
-      "summary": "Hinton警告全人类：必须与AI友好相处，否则“我们就完了“",
+      "id": "c01be175d2",
+      "title": "大模型商业化迎来TaaS时刻！科大讯飞让Token交付结果",
+      "url": "https://mp.weixin.qq.com/s/EVqSjpossv3oXkTToS1aeQ",
+      "summary": "大模型商业化迎来TaaS时刻！科大讯飞让Token交付结果",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-24T04:08:09.294243+00:00",
-      "pub_ts": 1792814889
+      "pub_date": "2026-10-25T04:10:31.389206+00:00",
+      "pub_ts": 1792901431
     },
     {
-      "id": "374e78b657",
-      "title": "智谱唐杰署名RSI新成果开源！Agent自我进化成本还狂降53%",
-      "url": "https://mp.weixin.qq.com/s/1nbncYhO5xZ7HAk6F3N0Dw",
-      "summary": "智谱唐杰署名RSI新成果开源！Agent自我进化成本还狂降53%",
+      "id": "79590c4370",
+      "title": "“Gemini4研发已用上RSI”，谷歌CEO劈柴亲口承认",
+      "url": "https://mp.weixin.qq.com/s/xRD7JKh21LSqo9d7lrreZQ",
+      "summary": "“Gemini4研发已用上RSI”，谷歌CEO劈柴亲口承认",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-24T04:08:09.294258+00:00",
-      "pub_ts": 1792814889
+      "pub_date": "2026-10-25T04:10:31.389227+00:00",
+      "pub_ts": 1792901431
     },
     {
-      "id": "2ebbf228d3",
-      "title": "物理AI怎么“击穿”场景落地？宇树生态大会上的钢铁答案",
-      "url": "https://mp.weixin.qq.com/s/yXP5VhZPMOQz9ZMRi15Tng",
-      "summary": "物理AI怎么“击穿”场景落地？宇树生态大会上的钢铁答案",
+      "id": "a3dbfcf375",
+      "title": "Kimi K3.1 Pro一手实测：Godot、Blender全能接，23轮测试自己跑",
+      "url": "https://mp.weixin.qq.com/s/PoTh33uyrpDt8Nejt3reQw",
+      "summary": "Kimi K3.1 Pro一手实测：Godot、Blender全能接，23轮测试自己跑",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-24T04:08:09.294272+00:00",
-      "pub_ts": 1792814889
+      "pub_date": "2026-10-25T04:10:31.389266+00:00",
+      "pub_ts": 1792901431
     }
   ],
   "source_success_count": 1,

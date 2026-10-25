@@ -3,108 +3,68 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-10-24T04:07:59.789930+00:00",
-  "item_count": 15,
+  "updated_at": "2026-10-25T04:10:21.952460+00:00",
+  "item_count": 11,
   "items": [
     {
-      "id": "4b47dc0d33",
-      "title": "净利润同比增长148%，寒武纪最新业绩来了",
-      "url": "https://mp.weixin.qq.com/s/wo6EOrTTPpAEMu6RD8yGjg",
-      "summary": "净利润同比增长148%，寒武纪最新业绩来了",
+      "id": "9a171c597a",
+      "title": "全线扩产仍供不应求，光刻机被抢疯了",
+      "url": "https://mp.weixin.qq.com/s/0midz7d3sfKQNdxWCrC1kw",
+      "summary": "全线扩产仍供不应求，光刻机被抢疯了",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-24T04:07:55.434518+00:00",
-      "pub_ts": 1792814875
+      "pub_date": "2026-10-25T04:10:17.778188+00:00",
+      "pub_ts": 1792901417
     },
     {
-      "id": "db16d440dc",
-      "title": "刚刚！国家信息化“十五五”规划：提高芯片先进制程制造能力",
-      "url": "https://mp.weixin.qq.com/s/kpDx6I6rGh_2MbzfACEk5g",
-      "summary": "刚刚！国家信息化“十五五”规划：提高芯片先进制程制造能力",
+      "id": "5d3fd94bd0",
+      "title": "钼材料从NAND向DRAM、逻辑芯片渗透",
+      "url": "https://mp.weixin.qq.com/s/Uj76gyGqcq467KDP0vD0lQ",
+      "summary": "钼材料从NAND向DRAM、逻辑芯片渗透",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-24T04:07:55.434559+00:00",
-      "pub_ts": 1792814875
+      "pub_date": "2026-10-25T04:10:17.778228+00:00",
+      "pub_ts": 1792901417
     },
     {
-      "id": "c1e20920d5",
-      "title": "恒玄、乐鑫、瑞芯微财报出炉，AloT芯片业绩分化",
-      "url": "https://mp.weixin.qq.com/s/rfdA-rfKsvaBCzwIBlM_1w",
-      "summary": "恒玄、乐鑫、瑞芯微财报出炉，AloT芯片业绩分化",
+      "id": "fc74418bbe",
+      "title": "港交所上新AI与半导体两大自主指数",
+      "url": "https://mp.weixin.qq.com/s/A4E9zQdgIInAWcbN1MZAlg",
+      "summary": "港交所上新AI与半导体两大自主指数",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-24T04:07:55.434579+00:00",
-      "pub_ts": 1792814875
+      "pub_date": "2026-10-25T04:10:17.778272+00:00",
+      "pub_ts": 1792901417
     },
     {
-      "id": "8f3ab15d15",
-      "title": "为什么手机越卖越少，反而越卖越贵？",
-      "url": "https://mp.weixin.qq.com/s/Ay0--JBHItusdld2Bmn63A",
-      "summary": "为什么手机越卖越少，反而越卖越贵？",
+      "id": "e9ffa080de",
+      "title": "英伟达做了个芯片，把CPU和GPU的活都干了?",
+      "url": "https://mp.weixin.qq.com/s/YuwwIim9K1kdVw_fJ7jyKw",
+      "summary": "英伟达做了个芯片，把CPU和GPU的活都干了?",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-24T04:07:55.434597+00:00",
-      "pub_ts": 1792814875
+      "pub_date": "2026-10-25T04:10:17.778297+00:00",
+      "pub_ts": 1792901417
     },
     {
-      "id": "e39b621bc0",
-      "title": "存算一体再出圈！亿铸科技拿下10亿级融资",
-      "url": "https://mp.weixin.qq.com/s/IoQjy-C1TlRnm3ZTBuguGA",
-      "summary": "存算一体再出圈！亿铸科技拿下10亿级融资",
+      "id": "18c33d2294",
+      "title": "芯片涨6倍，学生机直逼5000元，手机厂疯抢年轻人",
+      "url": "https://mp.weixin.qq.com/s/G1MLCzbLDpC9d2E0r-CFCg",
+      "summary": "芯片涨6倍，学生机直逼5000元，手机厂疯抢年轻人",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-24T04:07:55.434614+00:00",
-      "pub_ts": 1792814875
+      "pub_date": "2026-10-25T04:10:17.778319+00:00",
+      "pub_ts": 1792901417
     },
     {
-      "id": "3b503f2fe5",
-      "title": "寒武纪，利润大增，立下新目标！",
-      "url": "https://mp.weixin.qq.com/s/5fIssfGHU_MjpGebeTQixw",
-      "summary": "寒武纪，利润大增，立下新目标！",
+      "id": "4863d676e4",
+      "title": "算力狂飙之下，PCB凭什么成为基础设施的“承重墙”",
+      "url": "https://mp.weixin.qq.com/s/HNXjJH39qUJ8O56C-LZipA",
+      "summary": "算力狂飙之下，PCB凭什么成为基础设施的“承重墙”",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-24T04:07:45.990252+00:00",
-      "pub_ts": 1792814865
-    },
-    {
-      "id": "643dccce4d",
-      "title": "净利润大增，长电科技：全面布局先进封装！",
-      "url": "https://mp.weixin.qq.com/s/Wp1dHFvOCe1tr72R676mIw",
-      "summary": "净利润大增，长电科技：全面布局先进封装！",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-10-24T04:07:45.990297+00:00",
-      "pub_ts": 1792814865
-    },
-    {
-      "id": "2995947fd6",
-      "title": "AI加持芯片设计：人机协同共绘未来",
-      "url": "https://mp.weixin.qq.com/s/6u6r7bpdfXbxidivgGwLaw",
-      "summary": "AI加持芯片设计：人机协同共绘未来",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-10-24T04:07:45.990316+00:00",
-      "pub_ts": 1792814865
-    },
-    {
-      "id": "d5b6dfb339",
-      "title": "沁恒以青稞RISC-V+MRS智能体，迎接嵌入式AI时代",
-      "url": "https://mp.weixin.qq.com/s/KqxGSWHQhyh05xXSTwb1VA",
-      "summary": "沁恒以青稞RISC-V+MRS智能体，迎接嵌入式AI时代",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-10-24T04:07:45.990332+00:00",
-      "pub_ts": 1792814865
-    },
-    {
-      "id": "3fc277496e",
-      "title": "面板级封装，问题来了",
-      "url": "https://mp.weixin.qq.com/s/y-YliIFUkw0yVQakSDBOkA",
-      "summary": "面板级封装，问题来了",
-      "source": "半导体行业观察",
-      "lang": "zh",
-      "pub_date": "2026-10-24T04:07:45.990347+00:00",
-      "pub_ts": 1792814865
+      "pub_date": "2026-10-25T04:10:05.381722+00:00",
+      "pub_ts": 1792901405
     },
     {
       "id": "88f10c1513",
