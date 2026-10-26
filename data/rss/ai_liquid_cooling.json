@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-10-25T04:10:35.893529+00:00",
+  "updated_at": "2026-10-26T04:14:33.575491+00:00",
   "item_count": 5,
   "items": [
     {
+      "id": "2b6082d7bc",
+      "title": "Claude的“Tibo”官宣离职，高中辍学做出Claude 桌面版，离职后第一.",
+      "url": "https://mp.weixin.qq.com/s/o-XzqgwPqdVcWZNVRE8dOw",
+      "summary": "Claude的“Tibo”官宣离职，高中辍学做出Claude 桌面版，离职后第一.",
+      "source": "量子位-AI硬件",
+      "lang": "zh",
+      "pub_date": "2026-10-26T04:14:28.501433+00:00",
+      "pub_ts": 1792988068
+    },
+    {
+      "id": "4290d8fc13",
+      "title": "被谷歌下架的哈萨比斯，对AGI改口了",
+      "url": "https://mp.weixin.qq.com/s/WHFY9do7xPEX3md6xr_i_A",
+      "summary": "被谷歌下架的哈萨比斯，对AGI改口了",
+      "source": "量子位-AI硬件",
+      "lang": "zh",
+      "pub_date": "2026-10-26T04:14:28.501477+00:00",
+      "pub_ts": 1792988068
+    },
+    {
+      "id": "12c68f2b2b",
+      "title": "IPO遇冷？机器人老板们烧香、磕头、翻旧账",
+      "url": "https://mp.weixin.qq.com/s/lqMUqkBIT0NPBqJsCXVOvA",
+      "summary": "IPO遇冷？机器人老板们烧香、磕头、翻旧账",
+      "source": "量子位-AI硬件",
+      "lang": "zh",
+      "pub_date": "2026-10-26T04:14:28.501501+00:00",
+      "pub_ts": 1792988068
+    },
+    {
+      "id": "7c9ffb7d91",
+      "title": "A社联创演讲：AI奇点已来",
+      "url": "https://mp.weixin.qq.com/s/GZDdvnnbNiU45JfWcLxWAA",
+      "summary": "A社联创演讲：AI奇点已来",
+      "source": "量子位-AI硬件",
+      "lang": "zh",
+      "pub_date": "2026-10-26T04:14:28.501522+00:00",
+      "pub_ts": 1792988068
+    },
+    {
       "id": "d4247c314d",
-      "title": "OpenAl开始断网训练最强模型：“安全起见”",
+      "title": "OpenAI开始断网训练最强模型：“安全起见”",
       "url": "https://mp.weixin.qq.com/s/mAO-9xwrlEVkfwmsDGKLrw",
-      "summary": "OpenAl开始断网训练最强模型：“安全起见”",
+      "summary": "OpenAI开始断网训练最强模型：“安全起见”",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-25T04:10:31.389141+00:00",
-      "pub_ts": 1792901431
-    },
-    {
-      "id": "2b8de95345",
-      "title": "速！看到GPT-6Astra给我的穿搭，我要去小红书起号了！",
-      "url": "https://mp.weixin.qq.com/s/Jchc5r51HRADyZFyPVaMmQ",
-      "summary": "速！看到GPT-6Astra给我的穿搭，我要去小红书起号了！",
-      "source": "量子位-AI硬件",
-      "lang": "zh",
-      "pub_date": "2026-10-25T04:10:31.389182+00:00",
-      "pub_ts": 1792901431
-    },
-    {
-      "id": "c01be175d2",
-      "title": "大模型商业化迎来TaaS时刻！科大讯飞让Token交付结果",
-      "url": "https://mp.weixin.qq.com/s/EVqSjpossv3oXkTToS1aeQ",
-      "summary": "大模型商业化迎来TaaS时刻！科大讯飞让Token交付结果",
-      "source": "量子位-AI硬件",
-      "lang": "zh",
-      "pub_date": "2026-10-25T04:10:31.389206+00:00",
-      "pub_ts": 1792901431
-    },
-    {
-      "id": "79590c4370",
-      "title": "“Gemini4研发已用上RSI”，谷歌CEO劈柴亲口承认",
-      "url": "https://mp.weixin.qq.com/s/xRD7JKh21LSqo9d7lrreZQ",
-      "summary": "“Gemini4研发已用上RSI”，谷歌CEO劈柴亲口承认",
-      "source": "量子位-AI硬件",
-      "lang": "zh",
-      "pub_date": "2026-10-25T04:10:31.389227+00:00",
-      "pub_ts": 1792901431
-    },
-    {
-      "id": "a3dbfcf375",
-      "title": "Kimi K3.1 Pro一手实测：Godot、Blender全能接，23轮测试自己跑",
-      "url": "https://mp.weixin.qq.com/s/PoTh33uyrpDt8Nejt3reQw",
-      "summary": "Kimi K3.1 Pro一手实测：Godot、Blender全能接，23轮测试自己跑",
-      "source": "量子位-AI硬件",
-      "lang": "zh",
-      "pub_date": "2026-10-25T04:10:31.389266+00:00",
-      "pub_ts": 1792901431
+      "pub_date": "2026-10-26T04:14:28.501542+00:00",
+      "pub_ts": 1792988068
     }
   ],
   "source_success_count": 1,
