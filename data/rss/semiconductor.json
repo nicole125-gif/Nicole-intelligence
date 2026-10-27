@@ -3,161 +3,111 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-10-26T04:14:19.142364+00:00",
-  "item_count": 15,
+  "updated_at": "2026-10-27T04:33:51.796032+00:00",
+  "item_count": 10,
   "items": [
     {
-      "id": "6b0641e3bb",
-      "title": "英飞凌续约Wolfspeed：200mm碳化硅的“下一关”",
-      "url": "https://mp.weixin.qq.com/s/ivZx-17TILqIFaUgYssfxQ",
-      "summary": "英飞凌续约Wolfspeed：200mm碳化硅的“下一关”",
+      "id": "4812b2fa49",
+      "title": "当AI压进GPU，边缘算力走向融合",
+      "url": "https://mp.weixin.qq.com/s/_7lRpP3xkJLF156I2rXWCg",
+      "summary": "当AI压进GPU，边缘算力走向融合",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-26T04:14:14.823657+00:00",
-      "pub_ts": 1792988054
+      "pub_date": "2026-10-27T04:33:15.546174+00:00",
+      "pub_ts": 1793075595
     },
     {
-      "id": "d251620905",
-      "title": "事关半导体，美国将氦气认定为关键材料",
-      "url": "https://mp.weixin.qq.com/s/4LxnsVIkzFbupN51NKFQmQ",
-      "summary": "事关半导体，美国将氦气认定为关键材料",
+      "id": "bd53fe6640",
+      "title": "大尺寸掩膜版，未来10年有望进入产业应用",
+      "url": "https://mp.weixin.qq.com/s/tHVCxskFpbqZXMGnC1CrHg",
+      "summary": "大尺寸掩膜版，未来10年有望进入产业应用",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-26T04:14:14.823701+00:00",
-      "pub_ts": 1792988054
+      "pub_date": "2026-10-27T04:33:15.546218+00:00",
+      "pub_ts": 1793075595
     },
     {
-      "id": "3d2ce468f6",
-      "title": "力积电再次上调成熟制程价格，预计2027年涨幅高达20%",
-      "url": "https://mp.weixin.qq.com/s/DzIYR2X-CHCzIPtR3JnzWg",
-      "summary": "力积电再次上调成熟制程价格，预计2027年涨幅高达20%",
+      "id": "ce89e3701f",
+      "title": "模拟芯片，供应趋紧",
+      "url": "https://mp.weixin.qq.com/s/i1i1BeMOTlu2OK5gG5BitA",
+      "summary": "模拟芯片，供应趋紧",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-26T04:14:14.823729+00:00",
-      "pub_ts": 1792988054
+      "pub_date": "2026-10-27T04:33:15.546245+00:00",
+      "pub_ts": 1793075595
     },
     {
-      "id": "45bc13f390",
-      "title": "AI算力中心背后，一场价值千亿的“制冷战争”",
-      "url": "https://mp.weixin.qq.com/s/vHg09l9iPsYMv7o5NO1FzQ",
-      "summary": "AI算力中心背后，一场价值千亿的“制冷战争”",
+      "id": "e908cd9e63",
+      "title": "先进制程产能想一口气扩10倍，英特尔高管直言不现实",
+      "url": "https://mp.weixin.qq.com/s/Ef3_9akv9uYNlNmfHnd9rQ",
+      "summary": "先进制程产能想一口气扩10倍，英特尔高管直言不现实",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-26T04:14:14.823752+00:00",
-      "pub_ts": 1792988054
+      "pub_date": "2026-10-27T04:33:15.546268+00:00",
+      "pub_ts": 1793075595
     },
     {
-      "id": "9ccb383bdb",
-      "title": "华为麒麟芯片简史",
-      "url": "https://mp.weixin.qq.com/s/XbYvCQ-gpJmiDyiUkYGbTA",
-      "summary": "华为麒麟芯片简史",
+      "id": "4df42ee84a",
+      "title": "硅太薄了，二维半导体准备接班？",
+      "url": "https://mp.weixin.qq.com/s/LNaaSLTXWr3CV5f9xHZnwg",
+      "summary": "硅太薄了，二维半导体准备接班？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-26T04:14:14.823773+00:00",
-      "pub_ts": 1792988054
+      "pub_date": "2026-10-27T04:33:15.546289+00:00",
+      "pub_ts": 1793075595
     },
     {
-      "id": "e251e48021",
-      "title": "德明利净利，大增32399.91%！",
-      "url": "https://mp.weixin.qq.com/s/kOkPrqNeZgLVCBKAxgkWaA",
-      "summary": "德明利净利，大增32399.91%！",
+      "id": "cd9a036b61",
+      "title": "国科微净利润，大增5640.94%",
+      "url": "https://mp.weixin.qq.com/s/fa_qPfdoiF9e94bIjN1AfA",
+      "summary": "国科微净利润，大增5640.94%",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-26T04:14:03.335654+00:00",
-      "pub_ts": 1792988043
+      "pub_date": "2026-10-27T04:33:07.530934+00:00",
+      "pub_ts": 1793075587
     },
     {
-      "id": "7d5cea3602",
-      "title": "1nm后的晶体管，四强争霸！",
-      "url": "https://mp.weixin.qq.com/s/Bl1zkKU4knHK_L5dLqJ94w",
-      "summary": "1nm后的晶体管，四强争霸！",
+      "id": "4527fe8224",
+      "title": "越南，首座晶圆厂！",
+      "url": "https://mp.weixin.qq.com/s/bgv9ouSog-8ypeNSJNCCBQ",
+      "summary": "越南，首座晶圆厂！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-26T04:14:03.335708+00:00",
-      "pub_ts": 1792988043
+      "pub_date": "2026-10-27T04:33:07.530985+00:00",
+      "pub_ts": 1793075587
     },
     {
-      "id": "ad45ef1f1f",
-      "title": "GPU供不应求，连A100都在涨价！",
-      "url": "https://mp.weixin.qq.com/s/DpXqRrO2qYJQBAjae0WGfg",
-      "summary": "GPU供不应求，连A100都在涨价！",
+      "id": "252becdef2",
+      "title": "从GPU、LPU到“MPU”：熵旋芯智以MITA架构重算AI推理成本",
+      "url": "https://mp.weixin.qq.com/s/fARf--TM2oJJgWdTuU3eOQ",
+      "summary": "从GPU、LPU到“MPU”：熵旋芯智以MITA架构重算AI推理成本",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-26T04:14:03.335734+00:00",
-      "pub_ts": 1792988043
+      "pub_date": "2026-10-27T04:33:07.531012+00:00",
+      "pub_ts": 1793075587
     },
     {
-      "id": "663db68f79",
-      "title": "AI芯片最大瓶颈，可能不是内存",
-      "url": "https://mp.weixin.qq.com/s/-_psEgzMhoOYydU8xopyuQ",
-      "summary": "AI芯片最大瓶颈，可能不是内存",
+      "id": "421a94a5a0",
+      "title": "CoPoS来袭，封装变了！",
+      "url": "https://mp.weixin.qq.com/s/eCtRswb4cGvbzfNeN_J-tQ",
+      "summary": "CoPoS来袭，封装变了！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-26T04:14:03.335757+00:00",
-      "pub_ts": 1792988043
+      "pub_date": "2026-10-27T04:33:07.531034+00:00",
+      "pub_ts": 1793075587
     },
     {
-      "id": "4ad2ab7832",
-      "title": "美国收紧半导体关键气体出口",
-      "url": "https://mp.weixin.qq.com/s/_7S-bOqCml4EmmaieloSbw",
-      "summary": "美国收紧半导体关键气体出口",
+      "id": "e022d3d3c2",
+      "title": "全阵容公布|从芯片到系统，10月30日，一起站在AI的光里",
+      "url": "https://mp.weixin.qq.com/s/hlXvlbhWUOa9auqU_liTcQ",
+      "summary": "全阵容公布|从芯片到系统，10月30日，一起站在AI的光里",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-26T04:14:03.335779+00:00",
-      "pub_ts": 1792988043
-    },
-    {
-      "id": "d5bcdaefa0",
-      "title": "Pt-W Alloy Shows Potential For Thinner High-NA EUV Mask Absorbers (Chinese Academy of Sciences et al.)",
-      "url": "https://semiengineering.com/pt-w-alloy-shows-potential-for-thinner-high-na-euv-mask-absorbers-chinese-academy-of-sciences-et-al/",
-      "summary": "Researchers at Chinese Academy of Sciences, Jilin University, State Key Laboratory of Advanced Manufacturing for Optical Systems, and University of Chinese Academy of Sciences published a technical paper titled “Evaluating an alternative Pt-W alloy as a low-n EUV mask absorber: Film properties and i…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-10-25T21:17:41+00:00",
-      "pub_ts": 1792963061
-    },
-    {
-      "id": "6c6c94e00d",
-      "title": "Dry-Deposited Resist Shows Different Tone Behavior Under EUV And E-Beam Exposure (KU Leuven, Kunsan, VUB, Imec)",
-      "url": "https://semiengineering.com/dry-deposited-resist-shows-different-tone-behavior-under-euv-and-e-beam-exposure-ku-leuven-kunsan-vub-imec/",
-      "summary": "Researchers at KU Leuven, Kunsan National University, Vrije Universiteit Brussel, imec, et al. published “Irradiation-Source-Dependent Tone Conversion in Dry-Deposited Halogenated Amorphous Zeolitic Imidazolate Framework Resists for Electron-Beam and Extreme Ultraviolet Lithography.” Abstract Excerp…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-10-25T21:08:26+00:00",
-      "pub_ts": 1792962506
-    },
-    {
-      "id": "eafd18cb13",
-      "title": "Silicon Photonic Modulator Reaches 200 Gb/s PAM4 With Reduced DSP (Science Tokyo, Yokohama, AIST, PETRA)",
-      "url": "https://semiengineering.com/silicon-photonic-modulator-reaches-200-gb-s-pam4-with-reduced-dsp-science-tokyo-yokohama-aist-petra/",
-      "summary": "Researchers from Institute of Science Tokyo, Yokohama National University, AIST, and Photonics Electronics Technology Research Association (PETRA) published a technical paper titled “Reduced-DSP 200G/λ Low-Voltage Slow-Light Silicon Modulator Enabled by Built-In EO Equalizer.” Abstract Excerpt: “Mul…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-10-25T20:49:45+00:00",
-      "pub_ts": 1792961385
-    },
-    {
-      "id": "e63727a255",
-      "title": "Security-Aware Layer Mapping Reduces Fault Vulnerability In 3D Compute-In-Memory (ASU, U. of Maryland)",
-      "url": "https://semiengineering.com/security-aware-layer-mapping-reduces-fault-vulnerability-in-3d-compute-in-memory-asu-u-of-maryland/",
-      "summary": "Researchers at Arizona State University and University of Maryland published “SEAL: Multitenant Security-Aware Layer Mapping for Heterogeneous 3-D CiM Accelerators.” Abstract: &#8220;Heterogeneous 3-D compute-in-memory architectures can combine different memory technologies across stacked tiers to a…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-10-25T20:30:42+00:00",
-      "pub_ts": 1792960242
-    },
-    {
-      "id": "2bb80f72d8",
-      "title": "Neural Networks Speed 3nm Nanosheet SPICE Simulation (TU Munich)",
-      "url": "https://semiengineering.com/neural-networks-speed-3nm-nanosheet-spice-simulation-tu-munich/",
-      "summary": "Researchers at Technical University of Munich published “NN-Based Transistor Modeling for Ultra-Fast SPICE Simulation and Standard Cell Library Characterization.” Abstract: “Neural network (NN)-based transistor models have proven to be a promising solution to accelerate device modeling. Although the…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-10-25T20:14:26+00:00",
-      "pub_ts": 1792959266
+      "pub_date": "2026-10-27T04:33:07.531055+00:00",
+      "pub_ts": 1793075587
     }
   ],
-  "source_success_count": 3,
+  "source_success_count": 2,
   "source_total_count": 6,
   "fetch_status": "fresh"
 }

@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-10-26T04:15:00.540026+00:00",
+  "updated_at": "2026-10-27T04:34:32.263096+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "44168d32b0",
-      "title": "ESMO26: GSK’s Mo-Rez seeks an edge in a crowded ADC field in ovarian cancer",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/esmo26-gsks-mo-rez-seeks-an-edge-in-a-crowded-adc-field-in-ovarian-cancer/",
-      "summary": "GSK’s Mo-Rez is projected to reach global annual sales of $540m by 2032 based on GlobalData’s analyst consensus forecast.",
+      "id": "5e4176e923",
+      "title": "ESMO26: SANOVO data backs 1L Orpathys use in NSCLC subgroup, but AEs temper reaction",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/esmo26-sanovo-data-backs-1l-orpathys-use-in-nsclc-subgroup-but-aes-temper-reaction/",
+      "summary": "Positive Phase III results from the SANOVO and SAFFRON studies with Orpathys raise several sequencing and usage considerations.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-25T22:35:51+00:00",
-      "pub_ts": 1792967751
+      "pub_date": "2026-10-26T15:52:07+00:00",
+      "pub_ts": 1793029927
     },
     {
-      "id": "c2a5d81f0c",
-      "title": "ESMO26: Oral cell cycle inhibitors place Cyclin E1 as new target in PROC",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/esmo26-oral-cell-cycle-inhibitors-place-cyclin-e1-as-new-target-in-proc/",
-      "summary": "Data for the two PROC candidates that act on Cyclin E1 were presented at ESMO26.",
+      "id": "03d616aeb4",
+      "title": "Transitioning from lab bench to GMP: What research scientists should know about manual aseptic filling",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/transitioning-from-lab-bench-to-gmp-what-research-scientists-should-know-about-manual-aseptic-filling/",
+      "summary": "When it’s time to look for a fill-finish CDMO, the transition to GMP filling is not just a scale issue — it’s a regulatory, technical, and operational shift.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-25T07:24:56+00:00",
-      "pub_ts": 1792913096
+      "pub_date": "2026-10-26T11:33:33+00:00",
+      "pub_ts": 1793014413
     },
     {
-      "id": "c91d9f43f7",
-      "title": "US targets Chinese biotech investment, but licensing deals remain exempt",
-      "url": "https://www.pharmaceutical-technology.com/news/us-targets-chinese-biotech-investment-but-licensing-deals-remain-exempt/",
-      "summary": "Numerous types of equity deals involving Chinese biotech, including the popular NewCo model, will be impacted by the proposed rule.",
+      "id": "adbb5b772b",
+      "title": "Lunit and Summit to evaluate pathology platform for tumour analysis",
+      "url": "https://www.pharmaceutical-technology.com/news/lunit-summit-pathology-platform-tumour-analysis/",
+      "summary": "Lunit and Summit Therapeutics have entered a research agreement to assess the Lunit SCOPE IO AI pathology platform for analysing the tumour microenvironment across immuno-oncology programmes evaluating ivonescimab.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-23T15:17:30+00:00",
-      "pub_ts": 1792768650
+      "pub_date": "2026-10-26T10:00:58+00:00",
+      "pub_ts": 1793008858
     },
     {
-      "id": "cccad598a0",
-      "title": "Egypt reforms obsolete pharmaceutical pricing framework",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/egypt-reforms-obsolete-pharmaceutical-pricing-framework/",
-      "summary": "In late September 2026, the Egyptian Drug Authority (EDA) published Decree No.480 of 2026 in the Official Gazette.",
+      "id": "8acb9083d1",
+      "title": "Pathos AI completes $237m Series E round to expand oncology pipeline",
+      "url": "https://www.pharmaceutical-technology.com/news/pathos-ai-237m-expand-oncology-pipeline/",
+      "summary": "Pathos AI has secured $237m in a Series E round to expand its clinical oncology pipeline and scale its AI drug development platform.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-23T13:33:11+00:00",
-      "pub_ts": 1792762391
+      "pub_date": "2026-10-26T09:39:42+00:00",
+      "pub_ts": 1793007582
     },
     {
-      "id": "ad7d9906e9",
-      "title": "Gilead spends $1.28bn on PepStar’s potential Icotyde rival",
-      "url": "https://www.pharmaceutical-technology.com/news/gilead-1-28bn-pepstar-deal-potential-icotyde-rival-ibd/",
-      "summary": "Gilead plans to develop HCXT-2001 both as a monotherapy and in combination with its own IBD hopeful, emvistegrast.",
+      "id": "04e1d8f7b6",
+      "title": "UK biotech poised for record VC year after maintaining recovery momentum",
+      "url": "https://www.pharmaceutical-technology.com/news/uk-biotech-poised-for-record-vc-year-after-maintaining-recovery-momentum/",
+      "summary": "British biotech generally raised more across public and private markets in Q3 2026, despite an overall downturn in the flow of VC more generally into the UK.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-23T11:07:27+00:00",
-      "pub_ts": 1792753647
+      "pub_date": "2026-10-26T07:00:00+00:00",
+      "pub_ts": 1792998000
     }
   ],
   "source_success_count": 1,
