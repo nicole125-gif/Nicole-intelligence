@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-10-27T04:34:19.716433+00:00",
+  "updated_at": "2026-10-28T05:05:43.064674+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "e77c7e7174",
-      "title": "EU Launches T-MED Platform With Up to €4.5 Billion in Guarantees for Mediterranean Hydrogen and Clean Energy",
-      "url": "https://fuelcellsworks.com/2026/10/26/green-investment/eu-launches-t-med-platform-with-up-to-4-5-billion-in-guarantees-for-mediterranean-clean-energy",
+      "id": "b8a699b38d",
+      "title": "Baotou Puts Around 2,000 Solid-State Hydrogen Storage Two-Wheelers Into Shared Fleet, Plans 10,000 Total",
+      "url": "https://fuelcellsworks.com/2026/10/27/fuel-cells/txt-just-now-baotou-puts-around-2-000-solid-state-hydrogen-storage-two-wheelers-into-shared-fleet-plans-10-000-total",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-26T16:15:47+00:00",
-      "pub_ts": 1793031347
+      "pub_date": "2026-10-27T17:04:53+00:00",
+      "pub_ts": 1793120693
     },
     {
-      "id": "1fb2fb6e5f",
-      "title": "Fuel Cell and Hydrogen News Highlights From China: Oct 19-Oct. 24, 2026",
-      "url": "https://fuelcellsworks.com/2026/10/24/clean-energy/fuel-cell-and-hydrogen-news-highlights-from-china-oct-19-oct-24-2026",
+      "id": "7894b9c6d4",
+      "title": "Enagás Calls for German-Style Financing to Secure Spain's 2,875Km Hydrogen Pipeline Network",
+      "url": "https://fuelcellsworks.com/2026/10/27/h2/enagas-calls-for-german-style-financing-to-secure-spain-s-2-875km-hydrogen-pipeline-network",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-26T16:03:45+00:00",
-      "pub_ts": 1793030625
+      "pub_date": "2026-10-27T16:51:48+00:00",
+      "pub_ts": 1793119908
     },
     {
-      "id": "ac911cb90d",
-      "title": "Ljubljana Puts Ten Mercedes-Benz Hydrogen Fuel-Cell Articulated Buses Into Service",
-      "url": "https://fuelcellsworks.com/2026/10/26/fuel-cells/ljubljana-puts-ten-mercedes-benz-hydrogen-fuel-cell-articulated-buses-into-service",
+      "id": "0861800831",
+      "title": "HyOrc Unveils European Expansion Strategy, Targets 150 TPD Waste-to-Methanol Facility in Portugal by 2028",
+      "url": "https://fuelcellsworks.com/2026/10/27/h2/hyorc-targets-150-tonne-per-day-waste-to-methanol-plant-in-portugal-seeks-eu-funding-for-2028-installation",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-26T15:57:19+00:00",
-      "pub_ts": 1793030239
+      "pub_date": "2026-10-27T16:03:24+00:00",
+      "pub_ts": 1793117004
     },
     {
-      "id": "67cb403e86",
-      "title": "South Korea’s Jeonnam-Gwangju Region Pushes to Build Clean Hydrogen Hub Linking Three Industrial Cities",
-      "url": "https://fuelcellsworks.com/2026/10/21/h2/south-korea-s-jeonnam-gwangju-region-pushes-to-build-clean-hydrogen-hub-linking-three-industrial-cities",
+      "id": "bb14e06550",
+      "title": "Siemens Energy Warns EU Green Hydrogen Policy Uncertainty Could Halt Investment Decisions and Threaten Electrolyser Suppliers",
+      "url": "https://fuelcellsworks.com/2026/10/27/electrolyzer/siemens-energy-warns-eu-green-hydrogen-policy-uncertainty-could-halt-investment-decisions-and-threaten-electrolyser-suppliers",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-26T15:48:06+00:00",
-      "pub_ts": 1793029686
+      "pub_date": "2026-10-27T15:56:35+00:00",
+      "pub_ts": 1793116595
     },
     {
-      "id": "22a9547117",
-      "title": "Smoltek Now Traded on Nordic Growth Market (NGM)",
-      "url": "https://fuelcellsworks.com/2026/10/26/h2/smoltek-now-traded-on-nordic-growth-market-ngm",
+      "id": "2b9aaefc65",
+      "title": "Hiroki Nakajima: \"Toyota Racing Can Contribute to Missionh24's Ambitions\"",
+      "url": "https://fuelcellsworks.com/2026/10/26/h2/hiroki-nakajima-toyota-racing-can-contribute-to-missionh24-s-ambitions",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-26T15:45:08+00:00",
-      "pub_ts": 1793029508
+      "pub_date": "2026-10-27T15:46:53+00:00",
+      "pub_ts": 1793116013
     }
   ],
   "source_success_count": 1,

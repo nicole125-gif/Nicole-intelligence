@@ -3,111 +3,161 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-10-27T04:33:51.796032+00:00",
-  "item_count": 10,
+  "updated_at": "2026-10-28T05:05:18.130789+00:00",
+  "item_count": 15,
   "items": [
     {
-      "id": "4812b2fa49",
-      "title": "当AI压进GPU，边缘算力走向融合",
-      "url": "https://mp.weixin.qq.com/s/_7lRpP3xkJLF156I2rXWCg",
-      "summary": "当AI压进GPU，边缘算力走向融合",
+      "id": "4ffde48acd",
+      "title": "存储龙头，净利大增近2600%！",
+      "url": "https://mp.weixin.qq.com/s/MBU9HUH6Bu1mlR5WSxEPPA",
+      "summary": "存储龙头，净利大增近2600%！",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-27T04:33:15.546174+00:00",
-      "pub_ts": 1793075595
+      "pub_date": "2026-10-28T05:05:14.084468+00:00",
+      "pub_ts": 1793163914
     },
     {
-      "id": "bd53fe6640",
-      "title": "大尺寸掩膜版，未来10年有望进入产业应用",
-      "url": "https://mp.weixin.qq.com/s/tHVCxskFpbqZXMGnC1CrHg",
-      "summary": "大尺寸掩膜版，未来10年有望进入产业应用",
+      "id": "260d633f7e",
+      "title": "MRAM国产产业链，正在打通",
+      "url": "https://mp.weixin.qq.com/s/tOIo-o7t9BWFWYQOe0XISw",
+      "summary": "MRAM国产产业链，正在打通",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-27T04:33:15.546218+00:00",
-      "pub_ts": 1793075595
+      "pub_date": "2026-10-28T05:05:14.084504+00:00",
+      "pub_ts": 1793163914
     },
     {
-      "id": "ce89e3701f",
-      "title": "模拟芯片，供应趋紧",
-      "url": "https://mp.weixin.qq.com/s/i1i1BeMOTlu2OK5gG5BitA",
-      "summary": "模拟芯片，供应趋紧",
+      "id": "b1f46de114",
+      "title": "13大半导体设备赛道，要洗牌了",
+      "url": "https://mp.weixin.qq.com/s/Y-S4OClOF-Jxho8tMFJMaw",
+      "summary": "13大半导体设备赛道，要洗牌了",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-27T04:33:15.546245+00:00",
-      "pub_ts": 1793075595
+      "pub_date": "2026-10-28T05:05:14.084520+00:00",
+      "pub_ts": 1793163914
     },
     {
-      "id": "e908cd9e63",
-      "title": "先进制程产能想一口气扩10倍，英特尔高管直言不现实",
-      "url": "https://mp.weixin.qq.com/s/Ef3_9akv9uYNlNmfHnd9rQ",
-      "summary": "先进制程产能想一口气扩10倍，英特尔高管直言不现实",
+      "id": "bfb62085ab",
+      "title": "PCB供应短缺，2027年PC大厂们更难了",
+      "url": "https://mp.weixin.qq.com/s/xk_JlnkJa3AL4_RSDylTOA",
+      "summary": "PCB供应短缺，2027年PC大厂们更难了",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-27T04:33:15.546268+00:00",
-      "pub_ts": 1793075595
+      "pub_date": "2026-10-28T05:05:14.084534+00:00",
+      "pub_ts": 1793163914
     },
     {
-      "id": "4df42ee84a",
-      "title": "硅太薄了，二维半导体准备接班？",
-      "url": "https://mp.weixin.qq.com/s/LNaaSLTXWr3CV5f9xHZnwg",
-      "summary": "硅太薄了，二维半导体准备接班？",
+      "id": "40c4c6db5d",
+      "title": "台积电，先进封装涨价20%",
+      "url": "https://mp.weixin.qq.com/s/-HIEXie3jb1x7-NZ3xgnUw",
+      "summary": "台积电，先进封装涨价20%",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-27T04:33:15.546289+00:00",
-      "pub_ts": 1793075595
+      "pub_date": "2026-10-28T05:05:14.084546+00:00",
+      "pub_ts": 1793163914
     },
     {
-      "id": "cd9a036b61",
-      "title": "国科微净利润，大增5640.94%",
-      "url": "https://mp.weixin.qq.com/s/fa_qPfdoiF9e94bIjN1AfA",
-      "summary": "国科微净利润，大增5640.94%",
+      "id": "384840229d",
+      "title": "全球首座12英寸GaN工厂，英飞凌宣布开建！",
+      "url": "https://mp.weixin.qq.com/s/YEjhDALCcjRPQZMi803mBQ",
+      "summary": "全球首座12英寸GaN工厂，英飞凌宣布开建！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-27T04:33:07.530934+00:00",
-      "pub_ts": 1793075587
+      "pub_date": "2026-10-28T05:05:06.193818+00:00",
+      "pub_ts": 1793163906
     },
     {
-      "id": "4527fe8224",
-      "title": "越南，首座晶圆厂！",
-      "url": "https://mp.weixin.qq.com/s/bgv9ouSog-8ypeNSJNCCBQ",
-      "summary": "越南，首座晶圆厂！",
+      "id": "80ab0c4c93",
+      "title": "芯片制造格局，被改写！",
+      "url": "https://mp.weixin.qq.com/s/F-6qIA8r29vgQ7LVN54TTQ",
+      "summary": "芯片制造格局，被改写！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-27T04:33:07.530985+00:00",
-      "pub_ts": 1793075587
+      "pub_date": "2026-10-28T05:05:06.193859+00:00",
+      "pub_ts": 1793163906
     },
     {
-      "id": "252becdef2",
-      "title": "从GPU、LPU到“MPU”：熵旋芯智以MITA架构重算AI推理成本",
-      "url": "https://mp.weixin.qq.com/s/fARf--TM2oJJgWdTuU3eOQ",
-      "summary": "从GPU、LPU到“MPU”：熵旋芯智以MITA架构重算AI推理成本",
+      "id": "a749ab2837",
+      "title": "iPhone DUO，深度拆解",
+      "url": "https://mp.weixin.qq.com/s/ebn92i-hVOgD74ntm7qzoA",
+      "summary": "iPhone DUO，深度拆解",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-27T04:33:07.531012+00:00",
-      "pub_ts": 1793075587
+      "pub_date": "2026-10-28T05:05:06.193873+00:00",
+      "pub_ts": 1793163906
     },
     {
-      "id": "421a94a5a0",
-      "title": "CoPoS来袭，封装变了！",
-      "url": "https://mp.weixin.qq.com/s/eCtRswb4cGvbzfNeN_J-tQ",
-      "summary": "CoPoS来袭，封装变了！",
+      "id": "d3a0495a5b",
+      "title": "2万亿存储芯片，面临大考",
+      "url": "https://mp.weixin.qq.com/s/OrIJKqFzwZB4m3xc4ur49w",
+      "summary": "2万亿存储芯片，面临大考",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-27T04:33:07.531034+00:00",
-      "pub_ts": 1793075587
+      "pub_date": "2026-10-28T05:05:06.193885+00:00",
+      "pub_ts": 1793163906
     },
     {
-      "id": "e022d3d3c2",
-      "title": "全阵容公布|从芯片到系统，10月30日，一起站在AI的光里",
-      "url": "https://mp.weixin.qq.com/s/hlXvlbhWUOa9auqU_liTcQ",
-      "summary": "全阵容公布|从芯片到系统，10月30日，一起站在AI的光里",
+      "id": "e65978e600",
+      "title": "英特尔，135亿收购",
+      "url": "https://mp.weixin.qq.com/s/l5dRsNhDiX-fIEh3LswmwA",
+      "summary": "英特尔，135亿收购",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-27T04:33:07.531055+00:00",
-      "pub_ts": 1793075587
+      "pub_date": "2026-10-28T05:05:06.193897+00:00",
+      "pub_ts": 1793163906
+    },
+    {
+      "id": "2087b72a65",
+      "title": "Analog Superposition Increases Effective PCM Storage Density (IBM Research Europe)",
+      "url": "https://semiengineering.com/analog-superposition-increases-effective-pcm-storage-density-ibm-research-europe/",
+      "summary": "Researchers at IBM Research Europe published “Superposed analog memory for vector storage in neural networks.” Summary: Researchers demonstrated an analog phase-change memory architecture that stores multiple AI vectors in superposition, increasing effective storage density with a tunable accuracy t…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-10-27T20:37:31+00:00",
+      "pub_ts": 1793133451
+    },
+    {
+      "id": "ba10cc83b2",
+      "title": "The imec Report: Scaling Optical Interconnects For The AI Era",
+      "url": "https://semiengineering.com/the-imec-report-scaling-optical-interconnects-for-the-ai-era/",
+      "summary": "Unprecedented demand for bandwidth calls for bringing optics closer to silicon through a fundamental rethinking of the optical interconnect roadmap.\nThe post The imec Report: Scaling Optical Interconnects For The AI Era appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-10-27T07:01:34+00:00",
+      "pub_ts": 1793084494
+    },
+    {
+      "id": "999ff08925",
+      "title": "Chip Industry Technical Paper Roundup: Oct. 27",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-oct-27/",
+      "summary": "3D DRAM-on-GPU thermal design; multi-tier CFET self-heating and parasitics; 200G/λ silicon photonics; dry-deposited EUV and e-beam resists; neural-network-based SPICE modeling for 3nm; security-aware 3D CiM mapping; Pt-W absorbers for high-NA EUV masks.\nThe post Chip Industry Technical Paper Roundup…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-10-27T07:01:16+00:00",
+      "pub_ts": 1793084476
+    },
+    {
+      "id": "963f8d9d7b",
+      "title": "Vertical DRAM Stacking Expands Thermal Design Space Beyond HBM-on-GPU (imec)",
+      "url": "https://semiengineering.com/vertical-dram-stacking-expands-thermal-design-space-beyond-hbm-imec/",
+      "summary": "Researchers at imec published “Beyond HBM-on-GPU: Thermal Design Envelope for 3D Volumetric DRAM-on-GPU Integration.” Summary: Researchers evaluated a 3D memory architecture that rotates DRAM dies vertically above a GPU and places cooling cavities between them as an alternative to conventional 2.5D …",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-10-26T07:02:36+00:00",
+      "pub_ts": 1792998156
+    },
+    {
+      "id": "f966401696",
+      "title": "Large-Format Masks Move From Aspiration To Industry Roadmap",
+      "url": "https://semiengineering.com/large-format-masks-move-from-aspiration-to-industry-roadmap/",
+      "summary": "Expert panel sees a compelling productivity case, but the entire photomask ecosystem must be ready together.\nThe post Large-Format Masks Move From Aspiration To Industry Roadmap appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-10-26T07:02:08+00:00",
+      "pub_ts": 1792998128
     }
   ],
-  "source_success_count": 2,
+  "source_success_count": 3,
   "source_total_count": 6,
   "fetch_status": "fresh"
 }

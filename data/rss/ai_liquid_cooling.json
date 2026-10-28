@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-10-27T04:34:06.782762+00:00",
+  "updated_at": "2026-10-28T05:05:31.996964+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "867deeba6c",
-      "title": "DeepSeek开源真香！vLLM/SGLang连夜性能反超，推理速度卷出新高度",
-      "url": "https://mp.weixin.qq.com/s/fK3mkAFImswHu_ETHI2N1g",
-      "summary": "DeepSeek开源真香！vLLM/SGLang连夜性能反超，推理速度卷出新高度",
+      "id": "1dd317175d",
+      "title": "不藏了！人形机器人全开源动真格，从机械结构一路拆到运动算法",
+      "url": "https://mp.weixin.qq.com/s/Vu8Rl9PEcnnC9qBgOxOXyg",
+      "summary": "不藏了！人形机器人全开源动真格，从机械结构一路拆到运动算法",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-27T04:34:01.359621+00:00",
-      "pub_ts": 1793075641
+      "pub_date": "2026-10-28T05:05:27.620992+00:00",
+      "pub_ts": 1793163927
     },
     {
-      "id": "feb8a0881b",
-      "title": "AI终身学习新解法：成功经验自蒸馏进权重，交互轮数直接减半",
-      "url": "https://mp.weixin.qq.com/s/vED30WX1r2evq8rQNlZErQ",
-      "summary": "AI终身学习新解法：成功经验自蒸馏进权重，交互轮数直接减半",
+      "id": "c7299e35ad",
+      "title": "A社交表当天被打脸！服务器12小时被黑，马斯克前员工干的",
+      "url": "https://mp.weixin.qq.com/s/X_qVxU7qK99Lhj_v5JuJ2A",
+      "summary": "A社交表当天被打脸！服务器12小时被黑，马斯克前员工干的",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-27T04:34:01.359664+00:00",
-      "pub_ts": 1793075641
+      "pub_date": "2026-10-28T05:05:27.621023+00:00",
+      "pub_ts": 1793163927
     },
     {
-      "id": "d03d91cd16",
-      "title": "中国近50%的新云生意，竟被这家公司包揽！",
-      "url": "https://mp.weixin.qq.com/s/7AFrX8cf1_q0_WTkqig6mg",
-      "summary": "中国近50%的新云生意，竟被这家公司包揽！",
+      "id": "45c5a458ad",
+      "title": "PhysicalRSI第一站！便利店打工“人”自己进化，物理AI飞轮启动了",
+      "url": "https://mp.weixin.qq.com/s/0zmdVjp8qrnfYTKwR5QfsQ",
+      "summary": "PhysicalRSI第一站！便利店打工“人”自己进化，物理AI飞轮启动了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-27T04:34:01.359687+00:00",
-      "pub_ts": 1793075641
+      "pub_date": "2026-10-28T05:05:27.621036+00:00",
+      "pub_ts": 1793163927
     },
     {
-      "id": "8325e42b18",
-      "title": "NeoLab第一个商业模式：转售GPU",
-      "url": "https://mp.weixin.qq.com/s/tUB9ryx8yZqHxuFEYNr6Hw",
-      "summary": "NeoLab第一个商业模式：转售GPU",
+      "id": "60bb3e9a99",
+      "title": "GPT-6.1Terra首批网友实测来了！1折价格获得Astra级电脑操作能力",
+      "url": "https://mp.weixin.qq.com/s/yUNQzlGffRVO43CusPjU1g",
+      "summary": "GPT-6.1Terra首批网友实测来了！1折价格获得Astra级电脑操作能力",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-27T04:34:01.359708+00:00",
-      "pub_ts": 1793075641
+      "pub_date": "2026-10-28T05:05:27.621047+00:00",
+      "pub_ts": 1793163927
     },
     {
-      "id": "5d0e706f7b",
-      "title": "10亿Tokens免费送！实测全国产算力模型Spark-X2.6，纯代码搓出3D故宫",
-      "url": "https://mp.weixin.qq.com/s/o6FYRqQAiitNUSUgzTf7Og",
-      "summary": "10亿Tokens免费送！实测全国产算力模型Spark-X2.6，纯代码搓出3D故宫",
+      "id": "8dae060b40",
+      "title": "RSI立大功！国产开源登顶全球第一，1.3BOXR重塑OCR",
+      "url": "https://mp.weixin.qq.com/s/BBNjdqN1YBJSLf7ApUHCHQ",
+      "summary": "RSI立大功！国产开源登顶全球第一，1.3BOXR重塑OCR",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-27T04:34:01.359727+00:00",
-      "pub_ts": 1793075641
+      "pub_date": "2026-10-28T05:05:27.621058+00:00",
+      "pub_ts": 1793163927
     }
   ],
   "source_success_count": 1,

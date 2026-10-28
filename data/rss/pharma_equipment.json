@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-10-27T04:34:32.263096+00:00",
+  "updated_at": "2026-10-28T05:05:55.664544+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "5e4176e923",
-      "title": "ESMO26: SANOVO data backs 1L Orpathys use in NSCLC subgroup, but AEs temper reaction",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/esmo26-sanovo-data-backs-1l-orpathys-use-in-nsclc-subgroup-but-aes-temper-reaction/",
-      "summary": "Positive Phase III results from the SANOVO and SAFFRON studies with Orpathys raise several sequencing and usage considerations.",
+      "id": "6d154297fe",
+      "title": "ESMO26: Standard dosing prevails over 12-week checkpoint inhibitors in MOIO trial",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/esmo26-standard-dosing-prevails-over-12-week-checkpoint-inhibitors-in-moio-trial/",
+      "summary": "Reduced-frequency checkpoint inhibitor treatment could not demonstrate non-inferior PFS and showed a signal of worse survival.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-26T15:52:07+00:00",
-      "pub_ts": 1793029927
+      "pub_date": "2026-10-28T00:43:12+00:00",
+      "pub_ts": 1793148192
     },
     {
-      "id": "03d616aeb4",
-      "title": "Transitioning from lab bench to GMP: What research scientists should know about manual aseptic filling",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/transitioning-from-lab-bench-to-gmp-what-research-scientists-should-know-about-manual-aseptic-filling/",
-      "summary": "When it’s time to look for a fill-finish CDMO, the transition to GMP filling is not just a scale issue — it’s a regulatory, technical, and operational shift.",
+      "id": "001e792ac5",
+      "title": "ESMO26: Intismeran sets new benchmark in adjuvant melanoma",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/esmo26-intismeran-sets-new-benchmark-in-adjuvant-melanoma/",
+      "summary": "One notable finding from the INTerpath-001 trial, for which data was presented at ESMO 2026, was when the benefit appeared.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-26T11:33:33+00:00",
-      "pub_ts": 1793014413
+      "pub_date": "2026-10-27T17:18:46+00:00",
+      "pub_ts": 1793121526
     },
     {
-      "id": "adbb5b772b",
-      "title": "Lunit and Summit to evaluate pathology platform for tumour analysis",
-      "url": "https://www.pharmaceutical-technology.com/news/lunit-summit-pathology-platform-tumour-analysis/",
-      "summary": "Lunit and Summit Therapeutics have entered a research agreement to assess the Lunit SCOPE IO AI pathology platform for analysing the tumour microenvironment across immuno-oncology programmes evaluating ivonescimab.",
+      "id": "50dc45745f",
+      "title": "ESMO26: KEYNOTE-C93 backs chemo-free Keytruda in dMMR endometrial cancer",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/esmo26-keynote-c93-backs-chemo-free-keytruda-in-dmmr-endometrial-cancer/",
+      "summary": "Phase III results support chemotherapy-free first-line Keytruda in dMMR but leave the most clinically relevant comparison untested.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-26T10:00:58+00:00",
-      "pub_ts": 1793008858
+      "pub_date": "2026-10-27T14:20:37+00:00",
+      "pub_ts": 1793110837
     },
     {
-      "id": "8acb9083d1",
-      "title": "Pathos AI completes $237m Series E round to expand oncology pipeline",
-      "url": "https://www.pharmaceutical-technology.com/news/pathos-ai-237m-expand-oncology-pipeline/",
-      "summary": "Pathos AI has secured $237m in a Series E round to expand its clinical oncology pipeline and scale its AI drug development platform.",
+      "id": "cc32397570",
+      "title": "ESMO26: Sac-TMT sets survival benchmark in recurrent endometrial cancer",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/esmo26-sac-tmt-sets-survival-benchmark-in-recurrent-endometrial-cancer/",
+      "summary": "Data for MSD and Kelun-Biotech's sac-TMT in endometrial cancer was presented at ESMO 2026.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-26T09:39:42+00:00",
-      "pub_ts": 1793007582
+      "pub_date": "2026-10-27T12:58:21+00:00",
+      "pub_ts": 1793105901
     },
     {
-      "id": "04e1d8f7b6",
-      "title": "UK biotech poised for record VC year after maintaining recovery momentum",
-      "url": "https://www.pharmaceutical-technology.com/news/uk-biotech-poised-for-record-vc-year-after-maintaining-recovery-momentum/",
-      "summary": "British biotech generally raised more across public and private markets in Q3 2026, despite an overall downturn in the flow of VC more generally into the UK.",
+      "id": "f2e766b1fa",
+      "title": "Pfizer’s prostate cancer combo moves to earlier line on expanded US approval",
+      "url": "https://www.pharmaceutical-technology.com/news/pfizer-talzenna-xtandi-prostate-cancer-fda-label-expansion/",
+      "summary": "The FDA expands Talzenna-Xtandi's label as the cancer treatment paradigm shifts towards the use of mutation-specific targeted therapies.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-26T07:00:00+00:00",
-      "pub_ts": 1792998000
+      "pub_date": "2026-10-27T11:34:41+00:00",
+      "pub_ts": 1793100881
     }
   ],
   "source_success_count": 1,
