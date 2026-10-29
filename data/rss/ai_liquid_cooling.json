@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-10-28T05:05:31.996964+00:00",
+  "updated_at": "2026-10-29T05:18:13.862251+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "1dd317175d",
-      "title": "不藏了！人形机器人全开源动真格，从机械结构一路拆到运动算法",
-      "url": "https://mp.weixin.qq.com/s/Vu8Rl9PEcnnC9qBgOxOXyg",
-      "summary": "不藏了！人形机器人全开源动真格，从机械结构一路拆到运动算法",
+      "id": "362a6a4a75",
+      "title": "工程能力一键复用，专心卷新能力！轮子造一次就够了Ⅰ详解FluxVLA...",
+      "url": "https://mp.weixin.qq.com/s/RKoD-j4LfFEG-CmpWrjmLQ",
+      "summary": "工程能力一键复用，专心卷新能力！轮子造一次就够了Ⅰ详解FluxVLA...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-28T05:05:27.620992+00:00",
-      "pub_ts": 1793163927
+      "pub_date": "2026-10-29T05:18:09.879506+00:00",
+      "pub_ts": 1793251089
     },
     {
-      "id": "c7299e35ad",
-      "title": "A社交表当天被打脸！服务器12小时被黑，马斯克前员工干的",
-      "url": "https://mp.weixin.qq.com/s/X_qVxU7qK99Lhj_v5JuJ2A",
-      "summary": "A社交表当天被打脸！服务器12小时被黑，马斯克前员工干的",
+      "id": "39b104d245",
+      "title": "物理学也要被AI攻陷了？5道20多年量子公开问题被突破",
+      "url": "https://mp.weixin.qq.com/s/Oxz99ERVRfNxEro2wm1jFw",
+      "summary": "物理学也要被AI攻陷了？5道20多年量子公开问题被突破",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-28T05:05:27.621023+00:00",
-      "pub_ts": 1793163927
+      "pub_date": "2026-10-29T05:18:09.879549+00:00",
+      "pub_ts": 1793251089
     },
     {
-      "id": "45c5a458ad",
-      "title": "PhysicalRSI第一站！便利店打工“人”自己进化，物理AI飞轮启动了",
-      "url": "https://mp.weixin.qq.com/s/0zmdVjp8qrnfYTKwR5QfsQ",
-      "summary": "PhysicalRSI第一站！便利店打工“人”自己进化，物理AI飞轮启动了",
+      "id": "4b7a790693",
+      "title": "蚂蚁推出OCR大模型：同一架构实现全场景文本智能，2B参数也能打",
+      "url": "https://mp.weixin.qq.com/s/LhSqZC_5VNj9JHLSFyToAw",
+      "summary": "蚂蚁推出OCR大模型：同一架构实现全场景文本智能，2B参数也能打",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-28T05:05:27.621036+00:00",
-      "pub_ts": 1793163927
+      "pub_date": "2026-10-29T05:18:09.879572+00:00",
+      "pub_ts": 1793251089
     },
     {
-      "id": "60bb3e9a99",
-      "title": "GPT-6.1Terra首批网友实测来了！1折价格获得Astra级电脑操作能力",
-      "url": "https://mp.weixin.qq.com/s/yUNQzlGffRVO43CusPjU1g",
-      "summary": "GPT-6.1Terra首批网友实测来了！1折价格获得Astra级电脑操作能力",
+      "id": "7e952a3e65",
+      "title": "量子位2026人工智能年度榜单，正式启动！",
+      "url": "https://mp.weixin.qq.com/s/2PvxVe4qjVRHCgDy2lbjrQ",
+      "summary": "量子位2026人工智能年度榜单，正式启动！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-28T05:05:27.621047+00:00",
-      "pub_ts": 1793163927
+      "pub_date": "2026-10-29T05:18:09.879593+00:00",
+      "pub_ts": 1793251089
     },
     {
-      "id": "8dae060b40",
-      "title": "RSI立大功！国产开源登顶全球第一，1.3BOXR重塑OCR",
-      "url": "https://mp.weixin.qq.com/s/BBNjdqN1YBJSLf7ApUHCHQ",
-      "summary": "RSI立大功！国产开源登顶全球第一，1.3BOXR重塑OCR",
+      "id": "bd89938216",
+      "title": "中国AI刷爆英伟达GPU性能榜，这家公司拿下88项第一",
+      "url": "https://mp.weixin.qq.com/s/z0Pj9auYXdGsBU2J6HUpGg",
+      "summary": "中国AI刷爆英伟达GPU性能榜，这家公司拿下88项第一",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-28T05:05:27.621058+00:00",
-      "pub_ts": 1793163927
+      "pub_date": "2026-10-29T05:18:09.879614+00:00",
+      "pub_ts": 1793251089
     }
   ],
   "source_success_count": 1,

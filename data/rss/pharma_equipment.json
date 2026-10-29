@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-10-28T05:05:55.664544+00:00",
+  "updated_at": "2026-10-29T05:18:38.080231+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "6d154297fe",
-      "title": "ESMO26: Standard dosing prevails over 12-week checkpoint inhibitors in MOIO trial",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/esmo26-standard-dosing-prevails-over-12-week-checkpoint-inhibitors-in-moio-trial/",
-      "summary": "Reduced-frequency checkpoint inhibitor treatment could not demonstrate non-inferior PFS and showed a signal of worse survival.",
+      "id": "4ba4638779",
+      "title": "Ferring bets on Gameto’s reproductive health solution through $1.38bn takeover",
+      "url": "https://www.pharmaceutical-technology.com/news/ferring-gameto-1-38bn-takeover-reproductive-health/",
+      "summary": "Gameto’s lead asset is a cell-based IVM tool, Fertilo, which is currently in late-stage development within the US.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-28T00:43:12+00:00",
-      "pub_ts": 1793148192
+      "pub_date": "2026-10-28T16:13:29+00:00",
+      "pub_ts": 1793204009
     },
     {
-      "id": "001e792ac5",
-      "title": "ESMO26: Intismeran sets new benchmark in adjuvant melanoma",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/esmo26-intismeran-sets-new-benchmark-in-adjuvant-melanoma/",
-      "summary": "One notable finding from the INTerpath-001 trial, for which data was presented at ESMO 2026, was when the benefit appeared.",
+      "id": "170fc44cd4",
+      "title": "IDWeek 2026: despite missing primary endpoint, LB6V shows promise in Lyme disease",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/idweek-2026-lb6v-promise-lyme-disease/",
+      "summary": "The commercial opportunity for a prophylactic Lyme disease vaccine in the US and Europe is substantial. LB6V is well placed to capitalise on this gap.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-27T17:18:46+00:00",
-      "pub_ts": 1793121526
+      "pub_date": "2026-10-28T14:00:38+00:00",
+      "pub_ts": 1793196038
     },
     {
-      "id": "50dc45745f",
-      "title": "ESMO26: KEYNOTE-C93 backs chemo-free Keytruda in dMMR endometrial cancer",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/esmo26-keynote-c93-backs-chemo-free-keytruda-in-dmmr-endometrial-cancer/",
-      "summary": "Phase III results support chemotherapy-free first-line Keytruda in dMMR but leave the most clinically relevant comparison untested.",
+      "id": "9e19be2333",
+      "title": "Astellas fortifies immuno-oncology pipeline on $1.3bn Audax licensing deal",
+      "url": "https://www.pharmaceutical-technology.com/news/astellas-audax-immuno-oncology-deal-dax-044/",
+      "summary": "Astellas pens this immuno-oncology deal with Audax as it looks to offset the upcoming patent expiry of key portfolio medicine, Xtandi.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-27T14:20:37+00:00",
-      "pub_ts": 1793110837
+      "pub_date": "2026-10-28T11:06:41+00:00",
+      "pub_ts": 1793185601
     },
     {
-      "id": "cc32397570",
-      "title": "ESMO26: Sac-TMT sets survival benchmark in recurrent endometrial cancer",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/esmo26-sac-tmt-sets-survival-benchmark-in-recurrent-endometrial-cancer/",
-      "summary": "Data for MSD and Kelun-Biotech's sac-TMT in endometrial cancer was presented at ESMO 2026.",
+      "id": "59bd785942",
+      "title": "Anthropic plots IPO amid ongoing foray into drug development",
+      "url": "https://www.pharmaceutical-technology.com/news/anthropic-ipo-drug-development-pharma/",
+      "summary": "Anthropic hopes Powerful AI will “match or exceed the cognitive capabilities of top human experts across scientific disciplines”.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-27T12:58:21+00:00",
-      "pub_ts": 1793105901
+      "pub_date": "2026-10-28T10:29:26+00:00",
+      "pub_ts": 1793183366
     },
     {
-      "id": "f2e766b1fa",
-      "title": "Pfizer’s prostate cancer combo moves to earlier line on expanded US approval",
-      "url": "https://www.pharmaceutical-technology.com/news/pfizer-talzenna-xtandi-prostate-cancer-fda-label-expansion/",
-      "summary": "The FDA expands Talzenna-Xtandi's label as the cancer treatment paradigm shifts towards the use of mutation-specific targeted therapies.",
+      "id": "a3a65ce3a1",
+      "title": "FDA grants orphan drug status to Octant’s OCT-980 for RP",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-orphan-drug-octants-oct-980/",
+      "summary": "The FDA has granted orphan drug designation to Octant’s OCT-980, an investigational oral small molecule, to treat retinitis pigmentosa.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-27T11:34:41+00:00",
-      "pub_ts": 1793100881
+      "pub_date": "2026-10-28T09:57:16+00:00",
+      "pub_ts": 1793181436
     }
   ],
   "source_success_count": 1,
