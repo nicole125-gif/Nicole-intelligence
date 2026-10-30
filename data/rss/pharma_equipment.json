@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-10-29T05:18:38.080231+00:00",
+  "updated_at": "2026-10-30T05:18:02.131364+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "4ba4638779",
-      "title": "Ferring bets on Gameto’s reproductive health solution through $1.38bn takeover",
-      "url": "https://www.pharmaceutical-technology.com/news/ferring-gameto-1-38bn-takeover-reproductive-health/",
-      "summary": "Gameto’s lead asset is a cell-based IVM tool, Fertilo, which is currently in late-stage development within the US.",
+      "id": "b5ab27f249",
+      "title": "RFK Jr backs compounding of six unapproved peptides in new policy",
+      "url": "https://www.pharmaceutical-technology.com/news/rfk-jr-compounding-policy-unapproved-wellness-peptides/",
+      "summary": "The policy will allow licensed professionals to use certain wellness-focused peptides not approved by the FDA in their compounded medicines.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-28T16:13:29+00:00",
-      "pub_ts": 1793204009
+      "pub_date": "2026-10-29T15:27:58+00:00",
+      "pub_ts": 1793287678
     },
     {
-      "id": "170fc44cd4",
-      "title": "IDWeek 2026: despite missing primary endpoint, LB6V shows promise in Lyme disease",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/idweek-2026-lb6v-promise-lyme-disease/",
-      "summary": "The commercial opportunity for a prophylactic Lyme disease vaccine in the US and Europe is substantial. LB6V is well placed to capitalise on this gap.",
+      "id": "e8c06ff5c3",
+      "title": "Gaelic Labs: the EU Critical Medicines Act will have a positive impact on supply",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/gaelic-labs-the-eu-critical-medicines-act-supply/",
+      "summary": "Gaelic Labs is eyeing competitive benefits from its 2025 acquisition of fellow Irish beta-lactams manufacturer and further expansion.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-28T14:00:38+00:00",
-      "pub_ts": 1793196038
+      "pub_date": "2026-10-29T15:01:08+00:00",
+      "pub_ts": 1793286068
     },
     {
-      "id": "9e19be2333",
-      "title": "Astellas fortifies immuno-oncology pipeline on $1.3bn Audax licensing deal",
-      "url": "https://www.pharmaceutical-technology.com/news/astellas-audax-immuno-oncology-deal-dax-044/",
-      "summary": "Astellas pens this immuno-oncology deal with Audax as it looks to offset the upcoming patent expiry of key portfolio medicine, Xtandi.",
+      "id": "db24c1a348",
+      "title": "IDWeek 2026: Abrysvo data in nursing home residents could support re-vaccination",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/idweek-2026-abrysvo-data-support-re-vaccination/",
+      "summary": "Abrysvo was first approved in the US in 2023 for the prevention of lower respiratory tract disease (LRTD) caused by RSV.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-28T11:06:41+00:00",
-      "pub_ts": 1793185601
+      "pub_date": "2026-10-29T14:47:18+00:00",
+      "pub_ts": 1793285238
     },
     {
-      "id": "59bd785942",
-      "title": "Anthropic plots IPO amid ongoing foray into drug development",
-      "url": "https://www.pharmaceutical-technology.com/news/anthropic-ipo-drug-development-pharma/",
-      "summary": "Anthropic hopes Powerful AI will “match or exceed the cognitive capabilities of top human experts across scientific disciplines”.",
+      "id": "41ac563bb0",
+      "title": "UK Budget light on life sciences but more doors open for biotech startups",
+      "url": "https://www.pharmaceutical-technology.com/news/uk-budget-light-on-life-sciences-but-more-doors-open-for-biotech-startups/",
+      "summary": "Reaction from the life sciences industry to the Autumn Budget was mixed, with the government opting for a more macro focus on business scaling.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-28T10:29:26+00:00",
-      "pub_ts": 1793183366
+      "pub_date": "2026-10-29T12:05:48+00:00",
+      "pub_ts": 1793275548
     },
     {
-      "id": "a3a65ce3a1",
-      "title": "FDA grants orphan drug status to Octant’s OCT-980 for RP",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-orphan-drug-octants-oct-980/",
-      "summary": "The FDA has granted orphan drug designation to Octant’s OCT-980, an investigational oral small molecule, to treat retinitis pigmentosa.",
+      "id": "b51d1af677",
+      "title": "Podcast: ESMO26: Major readouts from the 2026 congress",
+      "url": "https://www.pharmaceutical-technology.com/features/podcast-esmo26-major-readouts-from-the-2026-congress/",
+      "summary": "This week's podcast features the Clinical Trials Arena team and GlobalData analysts who discuss the biggest study readouts from the ESMO Congress 2026.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-28T09:57:16+00:00",
-      "pub_ts": 1793181436
+      "pub_date": "2026-10-29T11:42:20+00:00",
+      "pub_ts": 1793274140
     }
   ],
   "source_success_count": 1,

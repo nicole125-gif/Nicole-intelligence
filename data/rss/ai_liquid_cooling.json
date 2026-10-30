@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-10-29T05:18:13.862251+00:00",
+  "updated_at": "2026-10-30T05:17:40.195307+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "362a6a4a75",
-      "title": "工程能力一键复用，专心卷新能力！轮子造一次就够了Ⅰ详解FluxVLA...",
-      "url": "https://mp.weixin.qq.com/s/RKoD-j4LfFEG-CmpWrjmLQ",
-      "summary": "工程能力一键复用，专心卷新能力！轮子造一次就够了Ⅰ详解FluxVLA...",
+      "id": "d84106dac1",
+      "title": "前排围观！MEET2027报名通道正式开启，首批重磅嘉宾已就位",
+      "url": "https://mp.weixin.qq.com/s/9T4l3YYS2vU_Pri8U2FaZQ",
+      "summary": "前排围观！MEET2027报名通道正式开启，首批重磅嘉宾已就位",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-29T05:18:09.879506+00:00",
-      "pub_ts": 1793251089
+      "pub_date": "2026-10-30T05:17:35.973778+00:00",
+      "pub_ts": 1793337455
     },
     {
-      "id": "39b104d245",
-      "title": "物理学也要被AI攻陷了？5道20多年量子公开问题被突破",
-      "url": "https://mp.weixin.qq.com/s/Oxz99ERVRfNxEro2wm1jFw",
-      "summary": "物理学也要被AI攻陷了？5道20多年量子公开问题被突破",
+      "id": "44c3f04540",
+      "title": "灭霸戒指连上AI了！手势直接操控智能眼镜，打响指拍照",
+      "url": "https://mp.weixin.qq.com/s/I9JOX5d3TW0JnHUXRtUxXQ",
+      "summary": "灭霸戒指连上AI了！手势直接操控智能眼镜，打响指拍照",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-29T05:18:09.879549+00:00",
-      "pub_ts": 1793251089
+      "pub_date": "2026-10-30T05:17:35.973815+00:00",
+      "pub_ts": 1793337455
     },
     {
-      "id": "4b7a790693",
-      "title": "蚂蚁推出OCR大模型：同一架构实现全场景文本智能，2B参数也能打",
-      "url": "https://mp.weixin.qq.com/s/LhSqZC_5VNj9JHLSFyToAw",
-      "summary": "蚂蚁推出OCR大模型：同一架构实现全场景文本智能，2B参数也能打",
+      "id": "a80e110cd5",
+      "title": "LeetCode你就学吧，AI顶流招聘开始不考了",
+      "url": "https://mp.weixin.qq.com/s/DnJnxVq2OXuhE3OS1-P5Ug",
+      "summary": "LeetCode你就学吧，AI顶流招聘开始不考了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-29T05:18:09.879572+00:00",
-      "pub_ts": 1793251089
+      "pub_date": "2026-10-30T05:17:35.973832+00:00",
+      "pub_ts": 1793337455
     },
     {
-      "id": "7e952a3e65",
-      "title": "量子位2026人工智能年度榜单，正式启动！",
-      "url": "https://mp.weixin.qq.com/s/2PvxVe4qjVRHCgDy2lbjrQ",
-      "summary": "量子位2026人工智能年度榜单，正式启动！",
+      "id": "8d5a0d8313",
+      "title": "混元Hy4即将发布！腾讯所有应用打通WorkBuddy，AI办公转正了",
+      "url": "https://mp.weixin.qq.com/s/2CEbGFOWVJh3ugItxW9e8A",
+      "summary": "混元Hy4即将发布！腾讯所有应用打通WorkBuddy，AI办公转正了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-29T05:18:09.879593+00:00",
-      "pub_ts": 1793251089
+      "pub_date": "2026-10-30T05:17:35.973846+00:00",
+      "pub_ts": 1793337455
     },
     {
-      "id": "bd89938216",
-      "title": "中国AI刷爆英伟达GPU性能榜，这家公司拿下88项第一",
-      "url": "https://mp.weixin.qq.com/s/z0Pj9auYXdGsBU2J6HUpGg",
-      "summary": "中国AI刷爆英伟达GPU性能榜，这家公司拿下88项第一",
+      "id": "310f47e23d",
+      "title": "敢和英伟达现场PK的国产GPU，我是服的",
+      "url": "https://mp.weixin.qq.com/s/Non20tfUB860KjNQkW3LZQ",
+      "summary": "敢和英伟达现场PK的国产GPU，我是服的",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-10-29T05:18:09.879614+00:00",
-      "pub_ts": 1793251089
+      "pub_date": "2026-10-30T05:17:35.973861+00:00",
+      "pub_ts": 1793337455
     }
   ],
   "source_success_count": 1,
