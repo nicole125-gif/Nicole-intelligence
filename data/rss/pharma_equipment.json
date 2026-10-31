@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-10-30T05:18:02.131364+00:00",
+  "updated_at": "2026-10-31T05:01:35.735126+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "b5ab27f249",
-      "title": "RFK Jr backs compounding of six unapproved peptides in new policy",
-      "url": "https://www.pharmaceutical-technology.com/news/rfk-jr-compounding-policy-unapproved-wellness-peptides/",
-      "summary": "The policy will allow licensed professionals to use certain wellness-focused peptides not approved by the FDA in their compounded medicines.",
+      "id": "c09a49bf88",
+      "title": "IDWeek 2026: early ensitrelvir PEP may benefit breakthrough and established Covid-19",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/idweek-2026-early-ensitrelvir-pep-covid-19/",
+      "summary": "At IDWeek 2026, Akimasa Fukushi from Shionogi presented a subpopulation analysis of the Phase III SCORPIO-PEP trial.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-29T15:27:58+00:00",
-      "pub_ts": 1793287678
+      "pub_date": "2026-10-30T16:38:53+00:00",
+      "pub_ts": 1793378333
     },
     {
-      "id": "e8c06ff5c3",
-      "title": "Gaelic Labs: the EU Critical Medicines Act will have a positive impact on supply",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/gaelic-labs-the-eu-critical-medicines-act-supply/",
-      "summary": "Gaelic Labs is eyeing competitive benefits from its 2025 acquisition of fellow Irish beta-lactams manufacturer and further expansion.",
+      "id": "9eaaef7f05",
+      "title": "IDWeek 2026: ISL/LEN on track to become the first once-weekly oral HIV therapy",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/idweek2026-isl-len-once-weekly-oral-hiv-therapy/",
+      "summary": "At IDWeek 2026, Samir K Gupta presented a pooled analysis of the Phase III ISLEND-1 and ISLEND-2 trials evaluating once-weekly ISL/LEN in adults with virologically suppressed HIV.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-29T15:01:08+00:00",
-      "pub_ts": 1793286068
+      "pub_date": "2026-10-30T16:28:51+00:00",
+      "pub_ts": 1793377731
     },
     {
-      "id": "db24c1a348",
-      "title": "IDWeek 2026: Abrysvo data in nursing home residents could support re-vaccination",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/idweek-2026-abrysvo-data-support-re-vaccination/",
-      "summary": "Abrysvo was first approved in the US in 2023 for the prevention of lower respiratory tract disease (LRTD) caused by RSV.",
+      "id": "3b7ede47cf",
+      "title": "Prediction markets herald insider trading risks for private biotechs",
+      "url": "https://www.pharmaceutical-technology.com/features/prediction-markets-herald-insider-trading-risks-for-private-biotechs/",
+      "summary": "Legal experts say that pharma outcome bets on platforms like Kalshi and Polymarket pose new insider trading risks.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-29T14:47:18+00:00",
-      "pub_ts": 1793285238
+      "pub_date": "2026-10-30T14:26:32+00:00",
+      "pub_ts": 1793370392
     },
     {
-      "id": "41ac563bb0",
-      "title": "UK Budget light on life sciences but more doors open for biotech startups",
-      "url": "https://www.pharmaceutical-technology.com/news/uk-budget-light-on-life-sciences-but-more-doors-open-for-biotech-startups/",
-      "summary": "Reaction from the life sciences industry to the Autumn Budget was mixed, with the government opting for a more macro focus on business scaling.",
+      "id": "ca8dae0ab4",
+      "title": "Casgevy gains UK label expansion for younger patient population",
+      "url": "https://www.pharmaceutical-technology.com/news/vertex-crispr-casgevy-mhra-label-expansion-five-years-and-up/",
+      "summary": "Following this MHRA label expansion, UK patients with β-thalassemia and sickle cell disease aged five and up can now receive Casgevy.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-29T12:05:48+00:00",
-      "pub_ts": 1793275548
+      "pub_date": "2026-10-30T12:34:17+00:00",
+      "pub_ts": 1793363657
     },
     {
-      "id": "b51d1af677",
-      "title": "Podcast: ESMO26: Major readouts from the 2026 congress",
-      "url": "https://www.pharmaceutical-technology.com/features/podcast-esmo26-major-readouts-from-the-2026-congress/",
-      "summary": "This week's podcast features the Clinical Trials Arena team and GlobalData analysts who discuss the biggest study readouts from the ESMO Congress 2026.",
+      "id": "7775afee71",
+      "title": "Eli Lilly’s tirzepatide outperforms big pharma companies in Q3",
+      "url": "https://www.pharmaceutical-technology.com/news/eli-lillys-tirzepatide-outperforms-big-pharma-companies-in-q3/",
+      "summary": "Sales for Eli Lilly’s Mounjaro and Zepbound topped $16bn, exceeding total revenue for many big pharma players.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-10-29T11:42:20+00:00",
-      "pub_ts": 1793274140
+      "pub_date": "2026-10-30T11:16:38+00:00",
+      "pub_ts": 1793358998
     }
   ],
   "source_success_count": 1,

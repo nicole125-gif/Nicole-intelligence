@@ -3,108 +3,118 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-10-30T05:17:26.215183+00:00",
+  "updated_at": "2026-10-31T05:00:27.276112+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "48b4ce7c23",
-      "title": "盈利弹性收敛，兆易创新三季报藏着周期的新线索",
-      "url": "https://mp.weixin.qq.com/s/hP1_EjH9waQlINrwt5TdSA",
-      "summary": "盈利弹性收敛，兆易创新三季报藏着周期的新线索",
+      "id": "0731aa2315",
+      "title": "长鑫科技三季报单季营收破千亿，毛利率逼近九成",
+      "url": "https://mp.weixin.qq.com/s/pviz4DOn82dT6g0700oGLw",
+      "summary": "长鑫科技三季报单季营收破千亿，毛利率逼近九成",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-30T05:17:22.096872+00:00",
-      "pub_ts": 1793337442
+      "pub_date": "2026-10-31T05:00:23.074643+00:00",
+      "pub_ts": 1793422823
     },
     {
-      "id": "e1c2c5e2ed",
-      "title": "预制数据中心，突然火了",
-      "url": "https://mp.weixin.qq.com/s/AOGBbPMMFmfFqYgaCFDwRg",
-      "summary": "预制数据中心，突然火了",
+      "id": "447a2cdc1e",
+      "title": "快充红利耗尽，氮化镓能跟上AI浪潮吗",
+      "url": "https://mp.weixin.qq.com/s/VdWGE6CAgoO7PRfz7faxhg",
+      "summary": "快充红利耗尽，氮化镓能跟上AI浪潮吗",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-30T05:17:22.096911+00:00",
-      "pub_ts": 1793337442
+      "pub_date": "2026-10-31T05:00:23.074686+00:00",
+      "pub_ts": 1793422823
     },
     {
-      "id": "8bae436c0e",
-      "title": "国产GPU过了H200这道槛",
-      "url": "https://mp.weixin.qq.com/s/W_3YVMrdxPeCtWfsZE-VDw",
-      "summary": "国产GPU过了H200这道槛",
+      "id": "2ef162e037",
+      "title": "凛冬已至，AI正在抛弃手机和PC",
+      "url": "https://mp.weixin.qq.com/s/vIqj4NveByC92jZKCA7egw",
+      "summary": "凛冬已至，AI正在抛弃手机和PC",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-30T05:17:22.096931+00:00",
-      "pub_ts": 1793337442
+      "pub_date": "2026-10-31T05:00:23.074713+00:00",
+      "pub_ts": 1793422823
     },
     {
-      "id": "c7bb89b4b0",
-      "title": "Solidigm拟斥资450亿美元赴美建厂，优先大连产线升级成谈判筹码",
-      "url": "https://mp.weixin.qq.com/s/WMFvw94OQ3gu8cB56-PZ3w",
-      "summary": "Solidigm拟斥资450亿美元赴美建厂，优先大连产线升级成谈判筹码",
+      "id": "07926f9375",
+      "title": "功主办广州市算力芯片产业生态大会",
+      "url": "https://mp.weixin.qq.com/s/e3P3SjcE70A5pWtOvRISHw",
+      "summary": "功主办广州市算力芯片产业生态大会",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-30T05:17:22.096948+00:00",
-      "pub_ts": 1793337442
+      "pub_date": "2026-10-31T05:00:23.074737+00:00",
+      "pub_ts": 1793422823
     },
     {
-      "id": "02deccdaf1",
-      "title": "Marvell盯上了Lumentum，光通信再起风浪",
-      "url": "https://mp.weixin.qq.com/s/w5EZmxx-RU4jHyjHJf6tCQ",
-      "summary": "Marvell盯上了Lumentum，光通信再起风浪",
+      "id": "6bf35f5f53",
+      "title": "3nm到2nm，苹果A20 Pro到底强在哪？",
+      "url": "https://mp.weixin.qq.com/s/7CLEkwCWxV0LR-5_IOgPAQ",
+      "summary": "3nm到2nm，苹果A20 Pro到底强在哪？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-10-30T05:17:22.096963+00:00",
-      "pub_ts": 1793337442
+      "pub_date": "2026-10-31T05:00:23.074758+00:00",
+      "pub_ts": 1793422823
     },
     {
-      "id": "0c33fea547",
-      "title": "芯片大厂，向苹果“复仇”！",
-      "url": "https://mp.weixin.qq.com/s/iPhiuUp2U6TZzpWZ97lhUQ",
-      "summary": "芯片大厂，向苹果“复仇”！",
+      "id": "62ee4e3942",
+      "title": "光芯片，迎来拐点！",
+      "url": "https://mp.weixin.qq.com/s/Gef3VAGCYuFsjsMJIjNcaA",
+      "summary": "光芯片，迎来拐点！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-30T05:17:06.771149+00:00",
-      "pub_ts": 1793337426
+      "pub_date": "2026-10-31T05:00:13.160963+00:00",
+      "pub_ts": 1793422813
     },
     {
-      "id": "f06ef2ada9",
-      "title": "又一颗智驾芯片发布，700TOPS！",
-      "url": "https://mp.weixin.qq.com/s/eWV2RhWb8FmYl34-X_3mgA",
-      "summary": "又一颗智驾芯片发布，700TOPS！",
+      "id": "667b05f659",
+      "title": "大湾区3DIC先进封装创新中心发起，聚焦“两个协同”刚需",
+      "url": "https://mp.weixin.qq.com/s/tZrwUuFQoED_v1YXIgkWtg",
+      "summary": "大湾区3DIC先进封装创新中心发起，聚焦“两个协同”刚需",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-30T05:17:06.771201+00:00",
-      "pub_ts": 1793337426
+      "pub_date": "2026-10-31T05:00:13.161024+00:00",
+      "pub_ts": 1793422813
     },
     {
-      "id": "97992c233d",
-      "title": "MemSilicon押注RRAM，跨越22年的技术征程",
-      "url": "https://mp.weixin.qq.com/s/BE2_VyYXGhj6RoJwXHxXAQ",
-      "summary": "MemSilicon押注RRAM，跨越22年的技术征程",
+      "id": "53e71f99e5",
+      "title": "台积电1.4nm，要来了",
+      "url": "https://mp.weixin.qq.com/s/8Ir8SpGKAPiFI8neklh0TA",
+      "summary": "台积电1.4nm，要来了",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-30T05:17:06.771219+00:00",
-      "pub_ts": 1793337426
+      "pub_date": "2026-10-31T05:00:13.161050+00:00",
+      "pub_ts": 1793422813
     },
     {
-      "id": "208bcde992",
-      "title": "冰火两重天的PCB",
-      "url": "https://mp.weixin.qq.com/s/liOIIK7NR1XDYqhuiy9LuA",
-      "summary": "冰火两重天的PCB",
+      "id": "f2de3c3590",
+      "title": "又一种新型存储，被看好",
+      "url": "https://mp.weixin.qq.com/s/hbcw6y1QMPOX14DPVbjMCw",
+      "summary": "又一种新型存储，被看好",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-30T05:17:06.771235+00:00",
-      "pub_ts": 1793337426
+      "pub_date": "2026-10-31T05:00:13.161072+00:00",
+      "pub_ts": 1793422813
     },
     {
-      "id": "c54ac4b85f",
-      "title": "三星芯片大卖，利润飙升782.5%",
-      "url": "https://mp.weixin.qq.com/s/tzhvc4SNQiHwvqQg3d8lig",
-      "summary": "三星芯片大卖，利润飙升782.5%",
+      "id": "18b52fc0ac",
+      "title": "股价大跌背后，英特尔透露了哪些信息？",
+      "url": "https://mp.weixin.qq.com/s/28N7-nkWFG0U54XcYtpqeA",
+      "summary": "股价大跌背后，英特尔透露了哪些信息？",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-10-30T05:17:06.771250+00:00",
-      "pub_ts": 1793337426
+      "pub_date": "2026-10-31T05:00:13.161093+00:00",
+      "pub_ts": 1793422813
+    },
+    {
+      "id": "e018cf5f0b",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-162/",
+      "summary": "HBM shortages threaten AI expansion; TSMC weighs price hikes; advanced packaging ramps; domain-specialized AI models; Infineon and UMC boost fab investments; Intel's quantum move; Lam and imec advance 3D integration; Google expands TPUs; AI-driven earnings; CPU benchmarking methodology for agentic A…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-10-30T07:01:27+00:00",
+      "pub_ts": 1793343687
     },
     {
       "id": "3922959ebf",
@@ -145,16 +155,6 @@
       "lang": "en",
       "pub_date": "2026-10-29T07:09:52+00:00",
       "pub_ts": 1793257792
-    },
-    {
-      "id": "0181e87fc2",
-      "title": "Is It Getting Hot In Here? Why Thermal Is No Longer A Signoff Problem",
-      "url": "https://semiengineering.com/is-it-getting-hot-in-here-why-thermal-is-no-longer-a-signoff-problem/",
-      "summary": "Applying the appropriate level of simulation and abstraction at each stage of the design process is key to effective thermal analysis.\nThe post Is It Getting Hot In Here? Why Thermal Is No Longer A Signoff Problem appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-10-29T07:08:48+00:00",
-      "pub_ts": 1793257728
     }
   ],
   "source_success_count": 3,

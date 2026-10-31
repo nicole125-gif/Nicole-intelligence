@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-10-30T05:17:49.681953+00:00",
+  "updated_at": "2026-10-31T05:01:23.283974+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "e63ab400bd",
-      "title": "Total Hydrogen Solutions Selects American Honda Motor Company Inc. For Fuel Cell Hydrogen Generator",
-      "url": "https://fuelcellsworks.com/2026/10/29/news/total-hydrogen-solutions-selects-american-honda-motor-company-inc-for-fuel-cell-hydrogen-generator",
+      "id": "830834315d",
+      "title": "Estonia Selects Planner for Nordic-Baltic Hydrogen Corridor Route",
+      "url": "https://fuelcellsworks.com/2026/10/30/h2/estonia-selects-planner-for-nordic-baltic-hydrogen-corridor-route",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-29T16:31:24+00:00",
-      "pub_ts": 1793291484
+      "pub_date": "2026-10-30T16:05:00+00:00",
+      "pub_ts": 1793376300
     },
     {
-      "id": "31ba009350",
-      "title": "Ecosuntek Plans 10MW Green Hydrogen Hub with 100MW Solar and 140MWh Storage in Tuscany",
-      "url": "https://fuelcellsworks.com/2026/10/28/green-hydrogen/ecosuntek-plans-10mw-green-hydrogen-hub-with-100mw-solar-and-140mwh-storage-in-tuscany",
+      "id": "db0ca4ea2e",
+      "title": "Xpan Selected by California Transit Training Consortium to Develop Statewide Fuel Cell Electric Bus Training Program",
+      "url": "https://fuelcellsworks.com/2026/10/28/h2/xpan-selected-by-california-transit-training-consortium-to-develop-statewide-fuel-cell-electric-bus-training-program",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-29T15:48:48+00:00",
-      "pub_ts": 1793288928
+      "pub_date": "2026-10-30T15:58:51+00:00",
+      "pub_ts": 1793375931
     },
     {
-      "id": "0fe7e4bd52",
-      "title": "Brazil’s Green Hydrogen Pipeline Tops R$115 Billion But Projects Still Waiting on Contracts and Financing",
-      "url": "https://fuelcellsworks.com/2026/10/27/h2/brazil-s-green-hydrogen-pipeline-tops-r-115-billion-but-projects-still-waiting-on-contracts-and-financing",
+      "id": "f80ea3b9fe",
+      "title": "Ulsan Port Completes South Korea’s First Commercial Ammonia Ship-Fuel Supply Demonstration",
+      "url": "https://fuelcellsworks.com/2026/10/27/clean-energy/ulsan-port-completes-south-korea-s-first-commercial-ammonia-ship-fuel-supply-demonstration",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-29T15:38:58+00:00",
-      "pub_ts": 1793288338
+      "pub_date": "2026-10-30T15:50:58+00:00",
+      "pub_ts": 1793375458
     },
     {
-      "id": "424482b5c0",
-      "title": "Transition Industries Signs Definitive EPC Agreement with Siemens Energy and Techint E&C for Pacifico Mexinol’s 210 MW Electrolyzer Facility",
-      "url": "https://fuelcellsworks.com/2026/10/29/h2/transition-industries-signs-definitive-epc-agreement-with-siemens-energy-and-techint-e-and-c-for-pacifico-mexinol-s-210-mw-electrolyzer-facility",
+      "id": "0d1837d51e",
+      "title": "200 Hydrogen Fuel-Cell Two-Wheelers Start Operations at Inner Mongolia Power Plant",
+      "url": "https://fuelcellsworks.com/2026/10/26/fuel-cells/200-hydrogen-fuel-cell-two-wheelers-start-operations-at-inner-mongolia-power-plant",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-29T15:30:57+00:00",
-      "pub_ts": 1793287857
+      "pub_date": "2026-10-30T15:32:59+00:00",
+      "pub_ts": 1793374379
     },
     {
-      "id": "296e28e1ca",
-      "title": "Holborn Secures Hydrogen Connection to HH-WIN for the Production of Low-CO₂ Fuels",
-      "url": "https://fuelcellsworks.com/2026/10/28/h2/holborn-secures-hydrogen-connection-to-hh-win-for-the-production-of-low-co-fuels",
+      "id": "16aa605c6f",
+      "title": "Germany’s Hydrogen Core Network Passes 6GW of Contracted Capacity Reservations",
+      "url": "https://fuelcellsworks.com/2026/10/30/h2/germany-s-hydrogen-core-network-passes-6gw-of-contracted-capacity-reservations",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-29T15:21:17+00:00",
-      "pub_ts": 1793287277
+      "pub_date": "2026-10-30T15:27:57+00:00",
+      "pub_ts": 1793374077
     }
   ],
   "source_success_count": 1,
