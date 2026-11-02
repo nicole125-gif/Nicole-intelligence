@@ -3,48 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-11-01T05:30:58.752110+00:00",
-  "item_count": 4,
+  "updated_at": "2026-11-02T05:29:29.577283+00:00",
+  "item_count": 5,
   "items": [
     {
-      "id": "119801501b",
-      "title": "刚刚，DeepSeek重磅开源：Agent底座架构！",
-      "url": "https://mp.weixin.qq.com/s/CfHGwFAPzsTi6XSELQ9CoA",
-      "summary": "刚刚，DeepSeek重磅开源：Agent底座架构！",
+      "id": "eca4df0ee3",
+      "title": "清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考",
+      "url": "https://mp.weixin.qq.com/s/haxf2xPoFoYNsndRCkIDLw",
+      "summary": "清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-01T05:30:53.419430+00:00",
-      "pub_ts": 1793511053
+      "pub_date": "2026-11-02T05:29:24.660971+00:00",
+      "pub_ts": 1793597364
     },
     {
-      "id": "bcf44b04fa",
-      "title": "马斯克挖走Claude最强“产品大脑\"Jenny Wen",
-      "url": "https://mp.weixin.qq.com/s/41Xlw8tF4cCqLVNXV0Ps6Q",
-      "summary": "马斯克挖走Claude最强“产品大脑\"Jenny Wen",
+      "id": "ffe5b2ec30",
+      "title": "Claude紧急叫停！暗改Harness禁止逆向游戏",
+      "url": "https://mp.weixin.qq.com/s/ITPYABlfGBaOxGV_hsnD6Q",
+      "summary": "Claude紧急叫停！暗改Harness禁止逆向游戏",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-01T05:30:53.419471+00:00",
-      "pub_ts": 1793511053
+      "pub_date": "2026-11-02T05:29:24.661034+00:00",
+      "pub_ts": 1793597364
     },
     {
-      "id": "5207cd1a79",
-      "title": "MEET2027报名开启，首批重磅嘉宾已就位",
-      "url": "https://mp.weixin.qq.com/s/lieB5TfMJBnovpqzVJn-OQ",
-      "summary": "MEET2027报名开启，首批重磅嘉宾已就位",
+      "id": "419921b772",
+      "title": "老牌便利店机器人售货折戟：实验室锤炼上万次，货架前还是摔瓶子",
+      "url": "https://mp.weixin.qq.com/s/FuYTXnvsGtVBnp9cRAO3Vg",
+      "summary": "老牌便利店机器人售货折戟：实验室锤炼上万次，货架前还是摔瓶子",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-01T05:30:53.419493+00:00",
-      "pub_ts": 1793511053
+      "pub_date": "2026-11-02T05:29:24.661059+00:00",
+      "pub_ts": 1793597364
     },
     {
-      "id": "763053cc1f",
-      "title": "世界模型首次指导设计芯片！超大核NPU700TOPS，99%算力可用",
-      "url": "https://mp.weixin.qq.com/s/NQbFbzX4yInszSZ7z8TDAw",
-      "summary": "世界模型首次指导设计芯片！超大核NPU700TOPS，99%算力可用",
+      "id": "ab966954d0",
+      "title": "AI泡裂纳指崩了！OpenAl融资暴雷，A社被华尔街「垃圾」评级",
+      "url": "https://mp.weixin.qq.com/s/-sTITModceMfVPCwqpFxTw",
+      "summary": "AI泡裂纳指崩了！OpenAl融资暴雷，A社被华尔街「垃圾」评级",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-01T05:30:53.419514+00:00",
-      "pub_ts": 1793511053
+      "pub_date": "2026-11-02T05:29:24.661080+00:00",
+      "pub_ts": 1793597364
+    },
+    {
+      "id": "d8a8c13a9f",
+      "title": "Jev新成果，再次引爆开源",
+      "url": "https://mp.weixin.qq.com/s/Oj4JI-ocbmHuGiA-JzRhRw",
+      "summary": "Jev新成果，再次引爆开源",
+      "source": "量子位-AI硬件",
+      "lang": "zh",
+      "pub_date": "2026-11-02T05:29:24.661100+00:00",
+      "pub_ts": 1793597364
     }
   ],
   "source_success_count": 1,
