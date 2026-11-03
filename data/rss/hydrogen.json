@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-11-02T05:30:12.756057+00:00",
+  "updated_at": "2026-11-03T06:08:56.925177+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "830834315d",
-      "title": "Estonia Selects Planner for Nordic-Baltic Hydrogen Corridor Route",
-      "url": "https://fuelcellsworks.com/2026/10/30/h2/estonia-selects-planner-for-nordic-baltic-hydrogen-corridor-route",
+      "id": "bc864c6fca",
+      "title": "Fuel Cell and Hydrogen News Highlights From China: Oct. 26-30, 2026",
+      "url": "https://fuelcellsworks.com/2026/11/01/clean-hydrogen/fuel-cell-and-hydrogen-news-highlights-from-china-oct-26-30-2026",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-30T16:05:00+00:00",
-      "pub_ts": 1793376300
+      "pub_date": "2026-11-02T16:50:07+00:00",
+      "pub_ts": 1793638207
     },
     {
-      "id": "db0ca4ea2e",
-      "title": "Xpan Selected by California Transit Training Consortium to Develop Statewide Fuel Cell Electric Bus Training Program",
-      "url": "https://fuelcellsworks.com/2026/10/28/h2/xpan-selected-by-california-transit-training-consortium-to-develop-statewide-fuel-cell-electric-bus-training-program",
+      "id": "39098c1f0f",
+      "title": "Cellen and Cantronic Pair Hydrogen Drone with Methane Leak Detection System",
+      "url": "https://fuelcellsworks.com/2026/10/28/h2/cellen-and-cantronic-pair-hydrogen-drone-with-methane-leak-detection-system",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-30T15:58:51+00:00",
-      "pub_ts": 1793375931
+      "pub_date": "2026-11-02T16:38:34+00:00",
+      "pub_ts": 1793637514
     },
     {
-      "id": "f80ea3b9fe",
-      "title": "Ulsan Port Completes South Korea’s First Commercial Ammonia Ship-Fuel Supply Demonstration",
-      "url": "https://fuelcellsworks.com/2026/10/27/clean-energy/ulsan-port-completes-south-korea-s-first-commercial-ammonia-ship-fuel-supply-demonstration",
+      "id": "5df9728992",
+      "title": "Germany’s Energy Industry Lobby Calls for Offshore Hydrogen Pipelines to Be Included in Wind Law Reform",
+      "url": "https://fuelcellsworks.com/2026/11/02/green-hydrogen/germany-s-energy-industry-lobby-calls-for-offshore-hydrogen-pipelines-to-be-included-in-wind-law-reform",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-30T15:50:58+00:00",
-      "pub_ts": 1793375458
+      "pub_date": "2026-11-02T16:35:05+00:00",
+      "pub_ts": 1793637305
     },
     {
-      "id": "0d1837d51e",
-      "title": "200 Hydrogen Fuel-Cell Two-Wheelers Start Operations at Inner Mongolia Power Plant",
-      "url": "https://fuelcellsworks.com/2026/10/26/fuel-cells/200-hydrogen-fuel-cell-two-wheelers-start-operations-at-inner-mongolia-power-plant",
+      "id": "13f120a5a3",
+      "title": "Switzerland’s First Hydrogen Passenger Ship to Enter Service in March 2027",
+      "url": "https://fuelcellsworks.com/2026/10/28/h2/switzerland-s-first-hydrogen-passenger-ship-to-enter-service-in-march-2027",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-30T15:32:59+00:00",
-      "pub_ts": 1793374379
+      "pub_date": "2026-11-02T16:09:58+00:00",
+      "pub_ts": 1793635798
     },
     {
-      "id": "16aa605c6f",
-      "title": "Germany’s Hydrogen Core Network Passes 6GW of Contracted Capacity Reservations",
-      "url": "https://fuelcellsworks.com/2026/10/30/h2/germany-s-hydrogen-core-network-passes-6gw-of-contracted-capacity-reservations",
+      "id": "3ee34de3ba",
+      "title": "Cell Impact to Evaluate NC Titanium for Undisclosed Customers",
+      "url": "https://fuelcellsworks.com/2026/11/02/electrolyzer/cell-impact-to-evaluate-nc-titanium-for-undisclosed-customers",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-10-30T15:27:57+00:00",
-      "pub_ts": 1793374077
+      "pub_date": "2026-11-02T15:58:17+00:00",
+      "pub_ts": 1793635097
     }
   ],
   "source_success_count": 1,

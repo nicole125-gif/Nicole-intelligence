@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-11-02T05:29:29.577283+00:00",
+  "updated_at": "2026-11-03T06:08:43.894666+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "eca4df0ee3",
-      "title": "清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考",
-      "url": "https://mp.weixin.qq.com/s/haxf2xPoFoYNsndRCkIDLw",
-      "summary": "清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考",
+      "id": "253d12cee8",
+      "title": "顶级AI翻车的活儿，被这个新出的免费国产AI接住了！",
+      "url": "https://mp.weixin.qq.com/s/WOIo1YEGWDFsqpg4HpRt1g",
+      "summary": "顶级AI翻车的活儿，被这个新出的免费国产AI接住了！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-02T05:29:24.660971+00:00",
-      "pub_ts": 1793597364
+      "pub_date": "2026-11-03T06:08:37.360999+00:00",
+      "pub_ts": 1793686117
     },
     {
-      "id": "ffe5b2ec30",
-      "title": "Claude紧急叫停！暗改Harness禁止逆向游戏",
-      "url": "https://mp.weixin.qq.com/s/ITPYABlfGBaOxGV_hsnD6Q",
-      "summary": "Claude紧急叫停！暗改Harness禁止逆向游戏",
+      "id": "600e54a59e",
+      "title": "卡多确实更容易发顶会！CVPR发布算力报告",
+      "url": "https://mp.weixin.qq.com/s/w6TV68cow3MqZo1N6jVzrw",
+      "summary": "卡多确实更容易发顶会！CVPR发布算力报告",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-02T05:29:24.661034+00:00",
-      "pub_ts": 1793597364
+      "pub_date": "2026-11-03T06:08:37.361043+00:00",
+      "pub_ts": 1793686117
     },
     {
-      "id": "419921b772",
-      "title": "老牌便利店机器人售货折戟：实验室锤炼上万次，货架前还是摔瓶子",
-      "url": "https://mp.weixin.qq.com/s/FuYTXnvsGtVBnp9cRAO3Vg",
-      "summary": "老牌便利店机器人售货折戟：实验室锤炼上万次，货架前还是摔瓶子",
+      "id": "963b088967",
+      "title": "央视严选「中国AI创业十骏」：唯一AI制药公司是清华系",
+      "url": "https://mp.weixin.qq.com/s/BQynBjhzTlSazQg5-80EBg",
+      "summary": "央视严选「中国AI创业十骏」：唯一AI制药公司是清华系",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-02T05:29:24.661059+00:00",
-      "pub_ts": 1793597364
+      "pub_date": "2026-11-03T06:08:37.361066+00:00",
+      "pub_ts": 1793686117
     },
     {
-      "id": "ab966954d0",
-      "title": "AI泡裂纳指崩了！OpenAl融资暴雷，A社被华尔街「垃圾」评级",
-      "url": "https://mp.weixin.qq.com/s/-sTITModceMfVPCwqpFxTw",
-      "summary": "AI泡裂纳指崩了！OpenAl融资暴雷，A社被华尔街「垃圾」评级",
+      "id": "90d50d5944",
+      "title": "小米开源了个150元的AI小玩意，火到配件都涨价了",
+      "url": "https://mp.weixin.qq.com/s/JfPpYBqF8mYFyDkBGiSGfA",
+      "summary": "小米开源了个150元的AI小玩意，火到配件都涨价了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-02T05:29:24.661080+00:00",
-      "pub_ts": 1793597364
+      "pub_date": "2026-11-03T06:08:37.361088+00:00",
+      "pub_ts": 1793686117
     },
     {
-      "id": "d8a8c13a9f",
-      "title": "Jev新成果，再次引爆开源",
-      "url": "https://mp.weixin.qq.com/s/Oj4JI-ocbmHuGiA-JzRhRw",
-      "summary": "Jev新成果，再次引爆开源",
+      "id": "4c14c473ad",
+      "title": "不用考生实测就知道题难不难：这个AI试题评测框架把考试难度“量化”...",
+      "url": "https://mp.weixin.qq.com/s/D0iGStadxDc2dsXadVH1vg",
+      "summary": "不用考生实测就知道题难不难：这个AI试题评测框架把考试难度“量化”...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-02T05:29:24.661100+00:00",
-      "pub_ts": 1793597364
+      "pub_date": "2026-11-03T06:08:37.361108+00:00",
+      "pub_ts": 1793686117
     }
   ],
   "source_success_count": 1,

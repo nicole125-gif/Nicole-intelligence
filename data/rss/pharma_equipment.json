@@ -3,9 +3,39 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-11-02T05:30:25.180074+00:00",
+  "updated_at": "2026-11-03T06:09:09.302960+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "b7aadf0c16",
+      "title": "Fresenius and WuXi team up in 37-strong biosimilar development deal",
+      "url": "https://www.pharmaceutical-technology.com/news/fresenius-and-wuxi-team-up-in-37-strong-biosimilar-development-deal/",
+      "summary": "The deal covers assets that target more than €370bn in originator sales.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-11-02T16:35:08+00:00",
+      "pub_ts": 1793637308
+    },
+    {
+      "id": "31479f2878",
+      "title": "Pelthos and Castle Creek plan merger to target skin diseases",
+      "url": "https://www.pharmaceutical-technology.com/news/pelthos-castle-creek-merger-skin-diseases/",
+      "summary": "Pelthos Therapeutics has agreed to merge with Castle Creek Biosciences to form a new biotechnology company that will focus on serious diseases affecting the skin.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-11-02T09:55:34+00:00",
+      "pub_ts": 1793613334
+    },
+    {
+      "id": "9d3ddaa9ee",
+      "title": "Inovio’s Voceryq receives FDA accelerated approval for RRP",
+      "url": "https://www.pharmaceutical-technology.com/news/inovios-voceryq-fda-accelerated-approval/",
+      "summary": "Inovio has secured accelerated approval from the FDA for Voceryq to minimise the frequency of surgery in adults with recurrent respiratory papillomatosis (RRP).",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-11-02T09:39:44+00:00",
+      "pub_ts": 1793612384
+    },
     {
       "id": "c09a49bf88",
       "title": "IDWeek 2026: early ensitrelvir PEP may benefit breakthrough and established Covid-19",
@@ -25,36 +55,6 @@
       "lang": "en",
       "pub_date": "2026-10-30T16:28:51+00:00",
       "pub_ts": 1793377731
-    },
-    {
-      "id": "3b7ede47cf",
-      "title": "Prediction markets herald insider trading risks for private biotechs",
-      "url": "https://www.pharmaceutical-technology.com/features/prediction-markets-herald-insider-trading-risks-for-private-biotechs/",
-      "summary": "Legal experts say that pharma outcome bets on platforms like Kalshi and Polymarket pose new insider trading risks.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-10-30T14:26:32+00:00",
-      "pub_ts": 1793370392
-    },
-    {
-      "id": "ca8dae0ab4",
-      "title": "Casgevy gains UK label expansion for younger patient population",
-      "url": "https://www.pharmaceutical-technology.com/news/vertex-crispr-casgevy-mhra-label-expansion-five-years-and-up/",
-      "summary": "Following this MHRA label expansion, UK patients with β-thalassemia and sickle cell disease aged five and up can now receive Casgevy.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-10-30T12:34:17+00:00",
-      "pub_ts": 1793363657
-    },
-    {
-      "id": "7775afee71",
-      "title": "Eli Lilly’s tirzepatide outperforms big pharma companies in Q3",
-      "url": "https://www.pharmaceutical-technology.com/news/eli-lillys-tirzepatide-outperforms-big-pharma-companies-in-q3/",
-      "summary": "Sales for Eli Lilly’s Mounjaro and Zepbound topped $16bn, exceeding total revenue for many big pharma players.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-10-30T11:16:38+00:00",
-      "pub_ts": 1793358998
     }
   ],
   "source_success_count": 1,
