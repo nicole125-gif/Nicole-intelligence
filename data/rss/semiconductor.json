@@ -3,108 +3,138 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-11-03T06:08:28.034997+00:00",
+  "updated_at": "2026-11-04T05:47:05.649621+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "8d096b1d9a",
-      "title": "7646亿，Marvell宣布光通信重大收购",
-      "url": "https://mp.weixin.qq.com/s/b-tACnh4_QahOzs6weXqww",
-      "summary": "7646亿，Marvell宣布光通信重大收购",
+      "id": "a12888c05e",
+      "title": "超500亿！半导体业绩出炉，谁是Q3净利润之王?",
+      "url": "https://mp.weixin.qq.com/s/vkV78Dik-hDWGJM850yCHw",
+      "summary": "超500亿！半导体业绩出炉，谁是Q3净利润之王?",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-03T06:08:23.958024+00:00",
-      "pub_ts": 1793686103
+      "pub_date": "2026-11-04T05:47:01.544005+00:00",
+      "pub_ts": 1793771221
     },
     {
-      "id": "3260c092d0",
-      "title": "半导体设备IPO换了主角",
-      "url": "https://mp.weixin.qq.com/s/rNBg5RiXycQM_Utmfonfmw",
-      "summary": "半导体设备IPO换了主角",
+      "id": "1d0b00178f",
+      "title": "DeepSeek下一代大模型，昇腾芯片承担训练",
+      "url": "https://mp.weixin.qq.com/s/zoeThw5AWp72OWEZWIUTOQ",
+      "summary": "DeepSeek下一代大模型，昇腾芯片承担训练",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-03T06:08:23.958070+00:00",
-      "pub_ts": 1793686103
+      "pub_date": "2026-11-04T05:47:01.544046+00:00",
+      "pub_ts": 1793771221
     },
     {
-      "id": "a9437019c2",
-      "title": "Q3手机SoC出货大跌21%，中低端成重灾区",
-      "url": "https://mp.weixin.qq.com/s/C8pB8dYnH2PBPpSgQWbqwg",
-      "summary": "Q3手机SoC出货大跌21%，中低端成重灾区",
+      "id": "52ba3b2ed1",
+      "title": "阿里达摩院玄铁C950荣获“中国芯”年度重大创新突破产品奖",
+      "url": "https://mp.weixin.qq.com/s/1guOEWZQYm7dJxwM019iVA",
+      "summary": "阿里达摩院玄铁C950荣获“中国芯”年度重大创新突破产品奖",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-03T06:08:23.958096+00:00",
-      "pub_ts": 1793686103
+      "pub_date": "2026-11-04T05:47:01.544063+00:00",
+      "pub_ts": 1793771221
     },
     {
-      "id": "b592a286a5",
-      "title": "议程重磅发布IMEMS大咖云集！第18届传感器与MEMS产业化技术...",
-      "url": "https://mp.weixin.qq.com/s/5_HMlyEN_4Wcnzc9VHpLmQ",
-      "summary": "议程重磅发布IMEMS大咖云集！第18届传感器与MEMS产业化技术...",
+      "id": "87a27357bf",
+      "title": "恩智浦再发调价函，明年1月起涨价",
+      "url": "https://mp.weixin.qq.com/s/ZdYQvKsZsUZAJeOign9hFA",
+      "summary": "恩智浦再发调价函，明年1月起涨价",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-03T06:08:23.958119+00:00",
-      "pub_ts": 1793686103
+      "pub_date": "2026-11-04T05:47:01.544076+00:00",
+      "pub_ts": 1793771221
     },
     {
-      "id": "8ccacf71b8",
-      "title": "要涨到211美元，汽车芯片越卖越贵",
-      "url": "https://mp.weixin.qq.com/s/mceNw-TZ2ZrhmhhZTWiXMw",
-      "summary": "要涨到211美元，汽车芯片越卖越贵",
+      "id": "a5add55a43",
+      "title": "5倍HBM4能效！高通HBC要颠覆HBM",
+      "url": "https://mp.weixin.qq.com/s/OyAqV5yCgKTHg7PzB91sUQ",
+      "summary": "5倍HBM4能效！高通HBC要颠覆HBM",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-03T06:08:23.958140+00:00",
-      "pub_ts": 1793686103
+      "pub_date": "2026-11-04T05:47:01.544088+00:00",
+      "pub_ts": 1793771221
     },
     {
-      "id": "7476df4143",
-      "title": "刚刚，Marvell 收购Lumentum，总价1150亿美元",
-      "url": "https://mp.weixin.qq.com/s/tZrF8XzVAgbBXZhokYuDww",
-      "summary": "刚刚，Marvell 收购Lumentum，总价1150亿美元",
+      "id": "797305b200",
+      "title": "得一微，五获\"中国芯\"！",
+      "url": "https://mp.weixin.qq.com/s/F-a7oFCMo7lwj2gT95fSXg",
+      "summary": "得一微，五获\"中国芯\"！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-03T06:08:13.673861+00:00",
-      "pub_ts": 1793686093
+      "pub_date": "2026-11-04T05:46:49.489012+00:00",
+      "pub_ts": 1793771209
     },
     {
-      "id": "f33e6053be",
-      "title": "拆解X7Ultra：大模型定义芯片，智驾算力告别纸面竞赛",
-      "url": "https://mp.weixin.qq.com/s/rdMZp1bVsGcpHgxRRuFViQ",
-      "summary": "拆解X7Ultra：大模型定义芯片，智驾算力告别纸面竞赛",
+      "id": "a3a1345ac6",
+      "title": "Marvell CEO，发内部信",
+      "url": "https://mp.weixin.qq.com/s/hb-oTTjk5RgRNa9TokOsfw",
+      "summary": "Marvell CEO，发内部信",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-03T06:08:13.673920+00:00",
-      "pub_ts": 1793686093
+      "pub_date": "2026-11-04T05:46:49.489060+00:00",
+      "pub_ts": 1793771209
     },
     {
-      "id": "06cfec31ae",
-      "title": "钻石，拯救芯片！",
-      "url": "https://mp.weixin.qq.com/s/KY--Eyhp8Q1R89wK6i_McA",
-      "summary": "钻石，拯救芯片！",
+      "id": "0361495942",
+      "title": "2026年“中国芯”集成电路产业促进大会在琴澳举行，聚焦芯片创新、…..",
+      "url": "https://mp.weixin.qq.com/s/ppjURzAFBvT2sUf76c-ZOA",
+      "summary": "2026年“中国芯”集成电路产业促进大会在琴澳举行，聚焦芯片创新、…..",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-03T06:08:13.673946+00:00",
-      "pub_ts": 1793686093
+      "pub_date": "2026-11-04T05:46:49.489074+00:00",
+      "pub_ts": 1793771209
     },
     {
-      "id": "0d73963c6c",
-      "title": "络",
-      "url": "https://mp.weixin.qq.com/s/sqQ1Hi6FNxiLkxGOoEIW5w",
-      "summary": "络",
+      "id": "d151646876",
+      "title": "AI算力走向系统级，2026芯和半导体用户生态大会聚焦STCO与 Al for EDA",
+      "url": "https://mp.weixin.qq.com/s/F6cbv3oH8xuhqGqDMajmWw",
+      "summary": "AI算力走向系统级，2026芯和半导体用户生态大会聚焦STCO与 Al for EDA",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-03T06:08:13.673969+00:00",
-      "pub_ts": 1793686093
+      "pub_date": "2026-11-04T05:46:49.489086+00:00",
+      "pub_ts": 1793771209
     },
     {
-      "id": "aa813c4a31",
-      "title": "奕泰智能完成超2亿元A轮融资",
-      "url": "https://mp.weixin.qq.com/s/PJ2eD2uXeU9-sYRxEjmvCQ",
-      "summary": "奕泰智能完成超2亿元A轮融资",
+      "id": "545e6bdf6d",
+      "title": "Lumentum的惊天大逆袭！",
+      "url": "https://mp.weixin.qq.com/s/xcxcTYd7PxVu-UdKnCxMJQ",
+      "summary": "Lumentum的惊天大逆袭！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-03T06:08:13.673990+00:00",
-      "pub_ts": 1793686093
+      "pub_date": "2026-11-04T05:46:49.489098+00:00",
+      "pub_ts": 1793771209
+    },
+    {
+      "id": "4149608fe5",
+      "title": "Randomized Caches in HW: Overheads And Limitations (RUB, Max Planck, Georgia Tech)",
+      "url": "https://semiengineering.com/randomized-caches-in-hw-overheads-and-limitations-rub-max-planck-georgia-tech/",
+      "summary": "Researchers at Ruhr University Bochum, the Max Planck Institute for Security and Privacy, and Georgia Tech published “Randomized Caches in Hardware: Challenges and Trade-offs.” Abstract Excerpt: &#8220;Randomized caches protect against side-channel attacks by obfuscating the mapping of memory addres…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-11-03T18:01:10+00:00",
+      "pub_ts": 1793728870
+    },
+    {
+      "id": "521ac2d83c",
+      "title": "Fast, Sub-Volt HZO Ferroelectric Capacitors For DRAM-Like Memory (SNU)",
+      "url": "https://semiengineering.com/fast-sub-volt-hzo-ferroelectric-capacitors-for-dram-like-memory-snu/",
+      "summary": "Seoul National University-led researchers published “Resolving the Kay–Dunn limit and the speed–endurance dilemma in ferroelectric Hf0.5Zr0.5O2 for DRAM-class sub-volt capacitors.” Abstract &#8220;Ferroelectric hafnium zirconium oxide can increase charge density in scaled capacitors, but its high co…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-11-03T17:10:21+00:00",
+      "pub_ts": 1793725821
+    },
+    {
+      "id": "20ddfc57b6",
+      "title": "Chip Industry Technical Paper Roundup: Nov. 3",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-nov-3/",
+      "summary": "Meter-scale quantum interconnects; 2.5D/3D GPU integration and embodied emissions; secure memory-dependent prefetching; routing-aware analog placement; AI-enhanced flip-chip defect detection; superposed PCM for neural-network vector storage.\nThe post Chip Industry Technical Paper Roundup: Nov. 3 app…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-11-03T08:01:14+00:00",
+      "pub_ts": 1793692874
     },
     {
       "id": "a1c47df90c",
@@ -125,36 +155,6 @@
       "lang": "en",
       "pub_date": "2026-11-02T20:00:12+00:00",
       "pub_ts": 1793649612
-    },
-    {
-      "id": "cb6bc05061",
-      "title": "Quantum Interconnects Link Two 120-Qubit Processors (IBM Research)",
-      "url": "https://semiengineering.com/quantum-interconnects-link-two-120-qubit-processors-ibm-research/",
-      "summary": "Researchers at IBM Research published “Meter-scale quantum interconnects between large quantum processors.” Abstract Excerpt: &#8220;Modular quantum architecture requires long-distance quantum interconnects to stitch together individual processor modules. Such interconnects, long-distance couplers o…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-11-02T19:45:53+00:00",
-      "pub_ts": 1793648753
-    },
-    {
-      "id": "3dd4dacd24",
-      "title": "Hardware Defense Blocks Memory-Dependent Prefetcher Leakage (KU Leuven)",
-      "url": "https://semiengineering.com/hardware-defense-blocks-memory-dependent-prefetcher-leakage-ku-leuven/",
-      "summary": "Researchers at KU Leuven and EURECOM published “SecDMP: Provably Secure Data Memory-Dependent Prefetching.” Abstract Excerpt: &#8220;In this work, we address this gap by designing a defense that is both secure and efficient. First, we propose a classification of DMP leakage, categorize existing and …",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-11-02T19:24:48+00:00",
-      "pub_ts": 1793647488
-    },
-    {
-      "id": "8d5df89fc4",
-      "title": "Co-Optimizing Access Points Improves Analog Placement (UT Austin)",
-      "url": "https://semiengineering.com/co-optimizing-access-points-improves-analog-placement-ut-austin/",
-      "summary": "Researchers at the University of Texas at Austin published “APPlace: Co-Optimizing Device Locations and Access Points for Routing-Aware Analog Placement.” Abstract &#8220;Analog layout automation remains challenging in Analog/Mixed-Signal circuit design, because parasitics and mismatches introduced …",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-11-02T18:57:45+00:00",
-      "pub_ts": 1793645865
     }
   ],
   "source_success_count": 3,

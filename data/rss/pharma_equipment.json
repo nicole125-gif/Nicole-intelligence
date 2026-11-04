@@ -3,9 +3,49 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-11-03T06:09:09.302960+00:00",
+  "updated_at": "2026-11-04T05:47:47.155561+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "af4c923bfb",
+      "title": "FDA calls for stronger potency upkeep in CGT manufacturing",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-calls-for-stronger-potency-upkeep-in-cgt-manufacturing/",
+      "summary": "The FDA’s CBER director said patients should have assurance that administered products will work as intended.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-11-03T16:23:05+00:00",
+      "pub_ts": 1793722985
+    },
+    {
+      "id": "09cc139848",
+      "title": "AbbVie inks $757m migraine-focused deal with Brise Pharmaceuticals",
+      "url": "https://www.pharmaceutical-technology.com/news/abbvie-brise-757m-migraine-licensing-deal/",
+      "summary": "AbbVie and Brise have shared details on this migraine deal two years after the pair originally forged it.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-11-03T14:21:40+00:00",
+      "pub_ts": 1793715700
+    },
+    {
+      "id": "86a439a52a",
+      "title": "Lonza to acquire five US manufacturing sites from Merck KGaA",
+      "url": "https://www.pharmaceutical-technology.com/news/lonza-us-manufacturing-sites-merck-kgaa/",
+      "summary": "Lonza has entered an agreement for the acquisition of five US CDMO sites from Merck KGaA, bringing 1,100 employees into Lonza's workforce.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-11-03T09:59:42+00:00",
+      "pub_ts": 1793699982
+    },
+    {
+      "id": "42972d065e",
+      "title": "Bavarian Nordic secures four-year UK vaccine supply deal",
+      "url": "https://www.pharmaceutical-technology.com/news/bavarian-nordic-uk-vaccine-supply/",
+      "summary": "Bavarian Nordic has secured a four-year contract from the UK Government to supply its MVA-BN vaccine, used for the prevention of mpox and smallpox.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-11-03T09:37:30+00:00",
+      "pub_ts": 1793698650
+    },
     {
       "id": "b7aadf0c16",
       "title": "Fresenius and WuXi team up in 37-strong biosimilar development deal",
@@ -15,46 +55,6 @@
       "lang": "en",
       "pub_date": "2026-11-02T16:35:08+00:00",
       "pub_ts": 1793637308
-    },
-    {
-      "id": "31479f2878",
-      "title": "Pelthos and Castle Creek plan merger to target skin diseases",
-      "url": "https://www.pharmaceutical-technology.com/news/pelthos-castle-creek-merger-skin-diseases/",
-      "summary": "Pelthos Therapeutics has agreed to merge with Castle Creek Biosciences to form a new biotechnology company that will focus on serious diseases affecting the skin.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-11-02T09:55:34+00:00",
-      "pub_ts": 1793613334
-    },
-    {
-      "id": "9d3ddaa9ee",
-      "title": "Inovio’s Voceryq receives FDA accelerated approval for RRP",
-      "url": "https://www.pharmaceutical-technology.com/news/inovios-voceryq-fda-accelerated-approval/",
-      "summary": "Inovio has secured accelerated approval from the FDA for Voceryq to minimise the frequency of surgery in adults with recurrent respiratory papillomatosis (RRP).",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-11-02T09:39:44+00:00",
-      "pub_ts": 1793612384
-    },
-    {
-      "id": "c09a49bf88",
-      "title": "IDWeek 2026: early ensitrelvir PEP may benefit breakthrough and established Covid-19",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/idweek-2026-early-ensitrelvir-pep-covid-19/",
-      "summary": "At IDWeek 2026, Akimasa Fukushi from Shionogi presented a subpopulation analysis of the Phase III SCORPIO-PEP trial.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-10-30T16:38:53+00:00",
-      "pub_ts": 1793378333
-    },
-    {
-      "id": "9eaaef7f05",
-      "title": "IDWeek 2026: ISL/LEN on track to become the first once-weekly oral HIV therapy",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/idweek2026-isl-len-once-weekly-oral-hiv-therapy/",
-      "summary": "At IDWeek 2026, Samir K Gupta presented a pooled analysis of the Phase III ISLEND-1 and ISLEND-2 trials evaluating once-weekly ISL/LEN in adults with virologically suppressed HIV.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-10-30T16:28:51+00:00",
-      "pub_ts": 1793377731
     }
   ],
   "source_success_count": 1,

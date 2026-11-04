@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-11-03T06:08:43.894666+00:00",
+  "updated_at": "2026-11-04T05:47:19.321441+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "253d12cee8",
-      "title": "顶级AI翻车的活儿，被这个新出的免费国产AI接住了！",
-      "url": "https://mp.weixin.qq.com/s/WOIo1YEGWDFsqpg4HpRt1g",
-      "summary": "顶级AI翻车的活儿，被这个新出的免费国产AI接住了！",
+      "id": "449c911d2d",
+      "title": "机器人干活，AI当厂长！这家巨头要造下一代自主智能仓",
+      "url": "https://mp.weixin.qq.com/s/Er8ZUQCeRor5x5lXm1iGJQ",
+      "summary": "机器人干活，AI当厂长！这家巨头要造下一代自主智能仓",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-03T06:08:37.360999+00:00",
-      "pub_ts": 1793686117
+      "pub_date": "2026-11-04T05:47:15.100331+00:00",
+      "pub_ts": 1793771235
     },
     {
-      "id": "600e54a59e",
-      "title": "卡多确实更容易发顶会！CVPR发布算力报告",
-      "url": "https://mp.weixin.qq.com/s/w6TV68cow3MqZo1N6jVzrw",
-      "summary": "卡多确实更容易发顶会！CVPR发布算力报告",
+      "id": "28dff517e6",
+      "title": "让Agent首次拥有“视听双流记忆”：openJiuwen Agent-Memory看...",
+      "url": "https://mp.weixin.qq.com/s/uAe1SVHs8bHBalJiTbri3Q",
+      "summary": "让Agent首次拥有“视听双流记忆”：openJiuwen Agent-Memory看...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-03T06:08:37.361043+00:00",
-      "pub_ts": 1793686117
+      "pub_date": "2026-11-04T05:47:15.100374+00:00",
+      "pub_ts": 1793771235
     },
     {
-      "id": "963b088967",
-      "title": "央视严选「中国AI创业十骏」：唯一AI制药公司是清华系",
-      "url": "https://mp.weixin.qq.com/s/BQynBjhzTlSazQg5-80EBg",
-      "summary": "央视严选「中国AI创业十骏」：唯一AI制药公司是清华系",
+      "id": "460c6e6502",
+      "title": "脑机接口玩家打《艾尔登法环》，把B站百大UP主虐菜了",
+      "url": "https://mp.weixin.qq.com/s/H7WDmFIWfKZrT_1DI8xIDw",
+      "summary": "脑机接口玩家打《艾尔登法环》，把B站百大UP主虐菜了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-03T06:08:37.361066+00:00",
-      "pub_ts": 1793686117
+      "pub_date": "2026-11-04T05:47:15.100387+00:00",
+      "pub_ts": 1793771235
     },
     {
-      "id": "90d50d5944",
-      "title": "小米开源了个150元的AI小玩意，火到配件都涨价了",
-      "url": "https://mp.weixin.qq.com/s/JfPpYBqF8mYFyDkBGiSGfA",
-      "summary": "小米开源了个150元的AI小玩意，火到配件都涨价了",
+      "id": "c9cd9b63d6",
+      "title": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
+      "url": "https://mp.weixin.qq.com/s/Yn7F_BF994BsaZV9WIuj0Q",
+      "summary": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-03T06:08:37.361088+00:00",
-      "pub_ts": 1793686117
+      "pub_date": "2026-11-04T05:47:15.100399+00:00",
+      "pub_ts": 1793771235
     },
     {
-      "id": "4c14c473ad",
-      "title": "不用考生实测就知道题难不难：这个AI试题评测框架把考试难度“量化”...",
-      "url": "https://mp.weixin.qq.com/s/D0iGStadxDc2dsXadVH1vg",
-      "summary": "不用考生实测就知道题难不难：这个AI试题评测框架把考试难度“量化”...",
+      "id": "ced39ecda7",
+      "title": "模型谁都买得到，拉开差距的是AI生产力系统",
+      "url": "https://mp.weixin.qq.com/s/vJDK570WT8aoEDBwp9lKFQ",
+      "summary": "模型谁都买得到，拉开差距的是AI生产力系统",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-03T06:08:37.361108+00:00",
-      "pub_ts": 1793686117
+      "pub_date": "2026-11-04T05:47:15.100410+00:00",
+      "pub_ts": 1793771235
     }
   ],
   "source_success_count": 1,

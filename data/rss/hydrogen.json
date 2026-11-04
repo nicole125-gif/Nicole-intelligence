@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-11-03T06:08:56.925177+00:00",
+  "updated_at": "2026-11-04T05:47:34.707265+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "bc864c6fca",
-      "title": "Fuel Cell and Hydrogen News Highlights From China: Oct. 26-30, 2026",
-      "url": "https://fuelcellsworks.com/2026/11/01/clean-hydrogen/fuel-cell-and-hydrogen-news-highlights-from-china-oct-26-30-2026",
+      "id": "5c2543a058",
+      "title": "California Resources Corporation Announces Strategic Collaboration with Bloom Energy to Advance Decarbonized Power Across California",
+      "url": "https://fuelcellsworks.com/2026/11/03/clean-energy/california-resources-corporation-announces-strategic-collaboration-with-bloom-energy-to-advance-decarbonized-power-across-california",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-02T16:50:07+00:00",
-      "pub_ts": 1793638207
+      "pub_date": "2026-11-03T18:02:04+00:00",
+      "pub_ts": 1793728924
     },
     {
-      "id": "39098c1f0f",
-      "title": "Cellen and Cantronic Pair Hydrogen Drone with Methane Leak Detection System",
-      "url": "https://fuelcellsworks.com/2026/10/28/h2/cellen-and-cantronic-pair-hydrogen-drone-with-methane-leak-detection-system",
+      "id": "a913de88d1",
+      "title": "Germany Steps Up Natural Hydrogen Hunt as Northern Bavaria Emerges as Leading Exploration Region",
+      "url": "https://fuelcellsworks.com/2026/11/03/h2/germany-steps-up-natural-hydrogen-hunt-as-northern-bavaria-emerges-as-leading-exploration-region",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-02T16:38:34+00:00",
-      "pub_ts": 1793637514
+      "pub_date": "2026-11-03T16:51:52+00:00",
+      "pub_ts": 1793724712
     },
     {
-      "id": "5df9728992",
-      "title": "Germany’s Energy Industry Lobby Calls for Offshore Hydrogen Pipelines to Be Included in Wind Law Reform",
-      "url": "https://fuelcellsworks.com/2026/11/02/green-hydrogen/germany-s-energy-industry-lobby-calls-for-offshore-hydrogen-pipelines-to-be-included-in-wind-law-reform",
+      "id": "cb5170040c",
+      "title": "World’s First Fuel-Cell Construction Vehicle for Snow Removal Enters Service in Sweden",
+      "url": "https://fuelcellsworks.com/2026/11/02/fuel-cells/world-s-first-fuel-cell-construction-vehicle-for-snow-removal-enters-service-in-sweden",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-02T16:35:05+00:00",
-      "pub_ts": 1793637305
+      "pub_date": "2026-11-03T16:36:18+00:00",
+      "pub_ts": 1793723778
     },
     {
-      "id": "13f120a5a3",
-      "title": "Switzerland’s First Hydrogen Passenger Ship to Enter Service in March 2027",
-      "url": "https://fuelcellsworks.com/2026/10/28/h2/switzerland-s-first-hydrogen-passenger-ship-to-enter-service-in-march-2027",
+      "id": "5f0c628616",
+      "title": "SFC Energy Continues Strong, Profitable Growth in the First Nine Months of 2026 – Preliminary Figures – Earnings Guidance Raised Again",
+      "url": "https://fuelcellsworks.com/2026/11/02/electrolyzer/sfc-energy-continues-strong-profitable-growth-in-the-first-nine-months-of-2026-preliminary-figures-earnings-guidance-raised-again",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-02T16:09:58+00:00",
-      "pub_ts": 1793635798
+      "pub_date": "2026-11-03T16:24:15+00:00",
+      "pub_ts": 1793723055
     },
     {
-      "id": "3ee34de3ba",
-      "title": "Cell Impact to Evaluate NC Titanium for Undisclosed Customers",
-      "url": "https://fuelcellsworks.com/2026/11/02/electrolyzer/cell-impact-to-evaluate-nc-titanium-for-undisclosed-customers",
+      "id": "df8ef9a804",
+      "title": "Galgotias University Expands Green Hydrogen Partnership With Japan’s Yamanashi",
+      "url": "https://fuelcellsworks.com/2026/11/02/h2/galgotias-university-expands-green-hydrogen-partnership-with-japan-s-yamanashi",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-02T15:58:17+00:00",
-      "pub_ts": 1793635097
+      "pub_date": "2026-11-03T16:16:48+00:00",
+      "pub_ts": 1793722608
     }
   ],
   "source_success_count": 1,
