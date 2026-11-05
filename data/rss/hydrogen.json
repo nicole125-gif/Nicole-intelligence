@@ -3,58 +3,58 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-11-04T05:47:34.707265+00:00",
+  "updated_at": "2026-11-05T06:05:46.167769+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "5c2543a058",
-      "title": "California Resources Corporation Announces Strategic Collaboration with Bloom Energy to Advance Decarbonized Power Across California",
-      "url": "https://fuelcellsworks.com/2026/11/03/clean-energy/california-resources-corporation-announces-strategic-collaboration-with-bloom-energy-to-advance-decarbonized-power-across-california",
+      "id": "22550f8020",
+      "title": "MAN Hydrogen Combustion Truck Enters Service With Dutch Construction Company",
+      "url": "https://fuelcellsworks.com/2026/11/02/h2/man-hydrogen-combustion-truck-enters-service-with-dutch-construction-company",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-03T18:02:04+00:00",
-      "pub_ts": 1793728924
+      "pub_date": "2026-11-04T17:28:09+00:00",
+      "pub_ts": 1793813289
     },
     {
-      "id": "a913de88d1",
-      "title": "Germany Steps Up Natural Hydrogen Hunt as Northern Bavaria Emerges as Leading Exploration Region",
-      "url": "https://fuelcellsworks.com/2026/11/03/h2/germany-steps-up-natural-hydrogen-hunt-as-northern-bavaria-emerges-as-leading-exploration-region",
+      "id": "5314ba3919",
+      "title": "Solid Oxide Fuel-Cell Developer Serenity Power Wins Backing From New C$2m Canadian Climate Fund",
+      "url": "https://fuelcellsworks.com/2026/11/03/electrolyzer/solid-oxide-fuel-cell-developer-serenity-power-wins-backing-from-new-c-2m-canadian-climate-fund",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-03T16:51:52+00:00",
-      "pub_ts": 1793724712
+      "pub_date": "2026-11-04T17:11:38+00:00",
+      "pub_ts": 1793812298
     },
     {
-      "id": "cb5170040c",
-      "title": "World’s First Fuel-Cell Construction Vehicle for Snow Removal Enters Service in Sweden",
-      "url": "https://fuelcellsworks.com/2026/11/02/fuel-cells/world-s-first-fuel-cell-construction-vehicle-for-snow-removal-enters-service-in-sweden",
+      "id": "645ba8d9e8",
+      "title": "Bremerhaven Drops Hydrogen Truck Testing Facilities as Costs Double and Demand Falls",
+      "url": "https://fuelcellsworks.com/2026/11/02/h2/bremerhaven-drops-hydrogen-truck-testing-facilities-as-costs-double-and-demand-falls",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-03T16:36:18+00:00",
-      "pub_ts": 1793723778
+      "pub_date": "2026-11-04T17:03:44+00:00",
+      "pub_ts": 1793811824
     },
     {
-      "id": "5f0c628616",
-      "title": "SFC Energy Continues Strong, Profitable Growth in the First Nine Months of 2026 – Preliminary Figures – Earnings Guidance Raised Again",
-      "url": "https://fuelcellsworks.com/2026/11/02/electrolyzer/sfc-energy-continues-strong-profitable-growth-in-the-first-nine-months-of-2026-preliminary-figures-earnings-guidance-raised-again",
+      "id": "1221a1830c",
+      "title": "Nippon Steel Produces More Than 1,000 Tonnes of DRI From Low-Grade Ore Using 100% Hydrogen",
+      "url": "https://fuelcellsworks.com/2026/11/04/h2/nippon-steel-produces-more-than-1-000-tonnes-of-dri-from-low-grade-ore-using-100-percent-hydrogen",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-03T16:24:15+00:00",
-      "pub_ts": 1793723055
+      "pub_date": "2026-11-04T16:59:01+00:00",
+      "pub_ts": 1793811541
     },
     {
-      "id": "df8ef9a804",
-      "title": "Galgotias University Expands Green Hydrogen Partnership With Japan’s Yamanashi",
-      "url": "https://fuelcellsworks.com/2026/11/02/h2/galgotias-university-expands-green-hydrogen-partnership-with-japan-s-yamanashi",
+      "id": "2aba751d5b",
+      "title": "‘Investment Decisions Are Not Being Made’: GET H2 Urges Germany to Fix Hydrogen Market Rules",
+      "url": "https://fuelcellsworks.com/2026/11/02/h2/investment-decisions-are-not-being-made-get-h2-urges-germany-to-fix-hydrogen-market-rules",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-03T16:16:48+00:00",
-      "pub_ts": 1793722608
+      "pub_date": "2026-11-04T16:49:47+00:00",
+      "pub_ts": 1793810987
     }
   ],
   "source_success_count": 1,

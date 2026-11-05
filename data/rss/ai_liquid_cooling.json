@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-11-04T05:47:19.321441+00:00",
+  "updated_at": "2026-11-05T06:05:35.654187+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "449c911d2d",
-      "title": "机器人干活，AI当厂长！这家巨头要造下一代自主智能仓",
-      "url": "https://mp.weixin.qq.com/s/Er8ZUQCeRor5x5lXm1iGJQ",
-      "summary": "机器人干活，AI当厂长！这家巨头要造下一代自主智能仓",
+      "id": "fd4faa7c31",
+      "title": "百度无人车搞出“黑客帝国”！世界模型实时推演全局，跑一天抵三年",
+      "url": "https://mp.weixin.qq.com/s/m8da63ZjM0-deHNEzHawAQ",
+      "summary": "百度无人车搞出“黑客帝国”！世界模型实时推演全局，跑一天抵三年",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-04T05:47:15.100331+00:00",
-      "pub_ts": 1793771235
+      "pub_date": "2026-11-05T06:05:31.681893+00:00",
+      "pub_ts": 1793858731
     },
     {
-      "id": "28dff517e6",
-      "title": "让Agent首次拥有“视听双流记忆”：openJiuwen Agent-Memory看...",
-      "url": "https://mp.weixin.qq.com/s/uAe1SVHs8bHBalJiTbri3Q",
-      "summary": "让Agent首次拥有“视听双流记忆”：openJiuwen Agent-Memory看...",
+      "id": "e0bf4800d7",
+      "title": "马斯克打通了脑机接口和扫地机器人",
+      "url": "https://mp.weixin.qq.com/s/b841ka8nhenUkOiQ-iN2qg",
+      "summary": "马斯克打通了脑机接口和扫地机器人",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-04T05:47:15.100374+00:00",
-      "pub_ts": 1793771235
+      "pub_date": "2026-11-05T06:05:31.681951+00:00",
+      "pub_ts": 1793858731
     },
     {
-      "id": "460c6e6502",
-      "title": "脑机接口玩家打《艾尔登法环》，把B站百大UP主虐菜了",
-      "url": "https://mp.weixin.qq.com/s/H7WDmFIWfKZrT_1DI8xIDw",
-      "summary": "脑机接口玩家打《艾尔登法环》，把B站百大UP主虐菜了",
+      "id": "40d0967809",
+      "title": "腾讯混元路身最强开源模型！一手实测Hy4：搭配WorkBuddy，多模..",
+      "url": "https://mp.weixin.qq.com/s/OThj_29CAuHn6ioaqjkSpQ",
+      "summary": "腾讯混元路身最强开源模型！一手实测Hy4：搭配WorkBuddy，多模..",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-04T05:47:15.100387+00:00",
-      "pub_ts": 1793771235
+      "pub_date": "2026-11-05T06:05:31.681978+00:00",
+      "pub_ts": 1793858731
     },
     {
-      "id": "c9cd9b63d6",
-      "title": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
-      "url": "https://mp.weixin.qq.com/s/Yn7F_BF994BsaZV9WIuj0Q",
-      "summary": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
+      "id": "fdf18e6739",
+      "title": "Claude 工程师Agent大教程：如何防止被AI养废",
+      "url": "https://mp.weixin.qq.com/s/kp1BKbV2xVHpFE7dp7u37A",
+      "summary": "Claude 工程师Agent大教程：如何防止被AI养废",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-04T05:47:15.100399+00:00",
-      "pub_ts": 1793771235
+      "pub_date": "2026-11-05T06:05:31.682000+00:00",
+      "pub_ts": 1793858731
     },
     {
-      "id": "ced39ecda7",
-      "title": "模型谁都买得到，拉开差距的是AI生产力系统",
-      "url": "https://mp.weixin.qq.com/s/vJDK570WT8aoEDBwp9lKFQ",
-      "summary": "模型谁都买得到，拉开差距的是AI生产力系统",
+      "id": "f94ac464f5",
+      "title": "从3D生成到世界模型，这家AI公司想和年轻人一起定义问题",
+      "url": "https://mp.weixin.qq.com/s/YREokjPrEgZ2Tggo3GBKWw",
+      "summary": "从3D生成到世界模型，这家AI公司想和年轻人一起定义问题",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-04T05:47:15.100410+00:00",
-      "pub_ts": 1793771235
+      "pub_date": "2026-11-05T06:05:31.682022+00:00",
+      "pub_ts": 1793858731
     }
   ],
   "source_success_count": 1,

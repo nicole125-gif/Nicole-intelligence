@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-11-04T05:47:47.155561+00:00",
+  "updated_at": "2026-11-05T06:05:58.480285+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "af4c923bfb",
-      "title": "FDA calls for stronger potency upkeep in CGT manufacturing",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-calls-for-stronger-potency-upkeep-in-cgt-manufacturing/",
-      "summary": "The FDA’s CBER director said patients should have assurance that administered products will work as intended.",
+      "id": "ea92f86df9",
+      "title": "Trump’s healthcare plans under contention after Democrats’ midterm landslide",
+      "url": "https://www.pharmaceutical-technology.com/news/us-midterms-2026-healthcare-impact/",
+      "summary": "Experts note that Democrats are likely to place Trump’s MFN deals under the microscope and vie to reverse sweeping Medicaid cuts following the midterm results.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-03T16:23:05+00:00",
-      "pub_ts": 1793722985
+      "pub_date": "2026-11-04T11:51:57+00:00",
+      "pub_ts": 1793793117
     },
     {
-      "id": "09cc139848",
-      "title": "AbbVie inks $757m migraine-focused deal with Brise Pharmaceuticals",
-      "url": "https://www.pharmaceutical-technology.com/news/abbvie-brise-757m-migraine-licensing-deal/",
-      "summary": "AbbVie and Brise have shared details on this migraine deal two years after the pair originally forged it.",
+      "id": "7b737c8a51",
+      "title": "Boehringer signs oncology deal with Sino Biopharm worth up to $7.4bn",
+      "url": "https://www.pharmaceutical-technology.com/news/boehringer-signs-oncology-deal-with-sino-biopharm-worth-up-to-7-4bn/",
+      "summary": "The collaboration will focus on antibody-drug conjugate (ADC) and T-cell engager (TCE) technologies across six programmes.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-03T14:21:40+00:00",
-      "pub_ts": 1793715700
+      "pub_date": "2026-11-04T11:39:16+00:00",
+      "pub_ts": 1793792356
     },
     {
-      "id": "86a439a52a",
-      "title": "Lonza to acquire five US manufacturing sites from Merck KGaA",
-      "url": "https://www.pharmaceutical-technology.com/news/lonza-us-manufacturing-sites-merck-kgaa/",
-      "summary": "Lonza has entered an agreement for the acquisition of five US CDMO sites from Merck KGaA, bringing 1,100 employees into Lonza's workforce.",
+      "id": "b05bb47727",
+      "title": "AbbVie bolsters UK R&D presence, inks $1.38bn IBD deal with Nxera",
+      "url": "https://www.pharmaceutical-technology.com/news/abbvie-bolsters-uk-rd-presence-inks-ibd-deal-nxera/",
+      "summary": "AbbVie will use the Oxford site to advance treatments for immunological, neurological and oncological diseases.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-03T09:59:42+00:00",
-      "pub_ts": 1793699982
+      "pub_date": "2026-11-04T11:36:25+00:00",
+      "pub_ts": 1793792185
     },
     {
-      "id": "42972d065e",
-      "title": "Bavarian Nordic secures four-year UK vaccine supply deal",
-      "url": "https://www.pharmaceutical-technology.com/news/bavarian-nordic-uk-vaccine-supply/",
-      "summary": "Bavarian Nordic has secured a four-year contract from the UK Government to supply its MVA-BN vaccine, used for the prevention of mpox and smallpox.",
+      "id": "5e80fc1645",
+      "title": "GEBRO and Spektus sign collaboration for ActraFlex",
+      "url": "https://www.pharmaceutical-technology.com/news/gebro-spektus-agreement-actraflex/",
+      "summary": "GEBRO Holding and Spektus Pharma have agreed a global commercialisation partnership for ActraFlex, an extended-release pain management therapy taken twice daily.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-03T09:37:30+00:00",
-      "pub_ts": 1793698650
+      "pub_date": "2026-11-04T10:00:08+00:00",
+      "pub_ts": 1793786408
     },
     {
-      "id": "b7aadf0c16",
-      "title": "Fresenius and WuXi team up in 37-strong biosimilar development deal",
-      "url": "https://www.pharmaceutical-technology.com/news/fresenius-and-wuxi-team-up-in-37-strong-biosimilar-development-deal/",
-      "summary": "The deal covers assets that target more than €370bn in originator sales.",
+      "id": "c802f663ea",
+      "title": "Seeing the full patient journey",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/seeing-the-full-patient-journey/",
+      "summary": "",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-02T16:35:08+00:00",
-      "pub_ts": 1793637308
+      "pub_date": "2026-11-04T09:54:01+00:00",
+      "pub_ts": 1793786041
     }
   ],
   "source_success_count": 1,
