@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-11-05T06:05:58.480285+00:00",
+  "updated_at": "2026-11-06T06:00:36.998926+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "ea92f86df9",
-      "title": "Trump’s healthcare plans under contention after Democrats’ midterm landslide",
-      "url": "https://www.pharmaceutical-technology.com/news/us-midterms-2026-healthcare-impact/",
-      "summary": "Experts note that Democrats are likely to place Trump’s MFN deals under the microscope and vie to reverse sweeping Medicaid cuts following the midterm results.",
+      "id": "1cf5f7a83f",
+      "title": "Big pharma-backed T-Therapeutics snags $133m to bring TCEs to clinic",
+      "url": "https://www.pharmaceutical-technology.com/news/t-therapeutics-135m-series-b-oncology-immunology-tces-to-clinic/",
+      "summary": "T-Therapeutics will now generate proof-of-concept data for its oncology and immunology TCE drugs with “blockbuster” potential.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-04T11:51:57+00:00",
-      "pub_ts": 1793793117
+      "pub_date": "2026-11-05T15:10:48+00:00",
+      "pub_ts": 1793891448
     },
     {
-      "id": "7b737c8a51",
-      "title": "Boehringer signs oncology deal with Sino Biopharm worth up to $7.4bn",
-      "url": "https://www.pharmaceutical-technology.com/news/boehringer-signs-oncology-deal-with-sino-biopharm-worth-up-to-7-4bn/",
-      "summary": "The collaboration will focus on antibody-drug conjugate (ADC) and T-cell engager (TCE) technologies across six programmes.",
+      "id": "70e87b5a00",
+      "title": "Podcast: An investor’s guide to preparing your clinical data package",
+      "url": "https://www.pharmaceutical-technology.com/features/oct-cts-nordics-2026-biotech-investor-stephan-christgau-podcast/",
+      "summary": "Biotech investor Stephan Christgau speaks about the key considerations when devising a clinical strategy that will attract investor attention.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-04T11:39:16+00:00",
-      "pub_ts": 1793792356
+      "pub_date": "2026-11-05T10:49:12+00:00",
+      "pub_ts": 1793875752
     },
     {
-      "id": "b05bb47727",
-      "title": "AbbVie bolsters UK R&D presence, inks $1.38bn IBD deal with Nxera",
-      "url": "https://www.pharmaceutical-technology.com/news/abbvie-bolsters-uk-rd-presence-inks-ibd-deal-nxera/",
-      "summary": "AbbVie will use the Oxford site to advance treatments for immunological, neurological and oncological diseases.",
+      "id": "b1de5a568c",
+      "title": "Evommune signs $1.1bn licence deal with Hinova for EVO570",
+      "url": "https://www.pharmaceutical-technology.com/news/evommune-licence-deal-hinova-evo570/",
+      "summary": "Evommune has secured exclusive rights outside Greater China to develop EVO570 from Hinova Pharmaceuticals in a deal worth up to $1.1bn.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-04T11:36:25+00:00",
-      "pub_ts": 1793792185
+      "pub_date": "2026-11-05T10:36:36+00:00",
+      "pub_ts": 1793874996
     },
     {
-      "id": "5e80fc1645",
-      "title": "GEBRO and Spektus sign collaboration for ActraFlex",
-      "url": "https://www.pharmaceutical-technology.com/news/gebro-spektus-agreement-actraflex/",
-      "summary": "GEBRO Holding and Spektus Pharma have agreed a global commercialisation partnership for ActraFlex, an extended-release pain management therapy taken twice daily.",
+      "id": "98544016ce",
+      "title": "PharmatrophiX and Circular partner on neurodegenerative drugs",
+      "url": "https://www.pharmaceutical-technology.com/news/pharmatrophix-circular-neurodegenerative-drugs/",
+      "summary": "PharmatrophiX and Circular Genomics have partnered to advance blood-based circular RNA biomarkers in neurodegenerative drug development programmes.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-04T10:00:08+00:00",
-      "pub_ts": 1793786408
+      "pub_date": "2026-11-05T09:16:02+00:00",
+      "pub_ts": 1793870162
     },
     {
-      "id": "c802f663ea",
-      "title": "Seeing the full patient journey",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/seeing-the-full-patient-journey/",
-      "summary": "",
+      "id": "a64b44c223",
+      "title": "MSD’s non-oncology sales set to double as Keytruda faces patent cliff",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/msd-non-oncology-sales-keytruda-patent/",
+      "summary": "MSD’s expanding non-oncology portfolio is expected to play an increasingly important role in cushioning the impact of Keytruda’s patent cliff.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-04T09:54:01+00:00",
-      "pub_ts": 1793786041
+      "pub_date": "2026-11-04T17:00:14+00:00",
+      "pub_ts": 1793811614
     }
   ],
   "source_success_count": 1,

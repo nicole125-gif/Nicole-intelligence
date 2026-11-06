@@ -3,61 +3,111 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-11-05T06:05:46.167769+00:00",
-  "item_count": 5,
+  "updated_at": "2026-11-06T06:00:24.545023+00:00",
+  "item_count": 10,
   "items": [
     {
-      "id": "22550f8020",
-      "title": "MAN Hydrogen Combustion Truck Enters Service With Dutch Construction Company",
-      "url": "https://fuelcellsworks.com/2026/11/02/h2/man-hydrogen-combustion-truck-enters-service-with-dutch-construction-company",
-      "summary": "",
-      "source": "Fuel Cells Works",
+      "id": "4d1271e690",
+      "title": "Asahi Kasei Signs MOU with Power to Hydrogen to Accelerate Commercialization of AEM Water Electrolysis for Clean Hydrogen Production",
+      "url": "https://hydrogen-central.com/asahi-kasei-signs-mou-with-power-to-hydrogen-to-accelerate-commercialization-of-aem-water-electrolysis-for-clean-hydrogen-production/",
+      "summary": "Asahi Kasei Signs MOU with Power to Hydrogen to Accelerate Commercialization of AEM Water Electrolysis for Clean Hydrogen Production Asahi Kasei, a diversified global company, and U.S.-based Power to Hydrogen [&#8230;]\nThe post Asahi Kasei Signs MOU with Power to Hydrogen to Accelerate Commercializa…",
+      "source": "Hydrogen Central",
       "lang": "en",
-      "pub_date": "2026-11-04T17:28:09+00:00",
-      "pub_ts": 1793813289
+      "pub_date": "2026-11-06T01:26:28+00:00",
+      "pub_ts": 1793928388
     },
     {
-      "id": "5314ba3919",
-      "title": "Solid Oxide Fuel-Cell Developer Serenity Power Wins Backing From New C$2m Canadian Climate Fund",
-      "url": "https://fuelcellsworks.com/2026/11/03/electrolyzer/solid-oxide-fuel-cell-developer-serenity-power-wins-backing-from-new-c-2m-canadian-climate-fund",
-      "summary": "",
-      "source": "Fuel Cells Works",
+      "id": "a1a9c9bfc8",
+      "title": "Nippon Steel – Successful Test Production of Direct Reduced Iron from Low-Grade Iron Ore Using 100% Hydrogen",
+      "url": "https://hydrogen-central.com/nippon-steel-successful-test-production-of-direct-reduced-iron-from-low-grade-iron-ore-using-100-hydrogen/",
+      "summary": "Nippon Steel &#8211; Successful Test Production of Direct Reduced Iron from Low-Grade Iron Ore Using 100% Hydrogen Nippon Steel Corporation (&#8220;Nippon Steel&#8221;) has successfully conducted a direct reduction test using [&#8230;]\nThe post Nippon Steel &#8211; Successful Test Production of Dire…",
+      "source": "Hydrogen Central",
       "lang": "en",
-      "pub_date": "2026-11-04T17:11:38+00:00",
-      "pub_ts": 1793812298
+      "pub_date": "2026-11-06T01:23:00+00:00",
+      "pub_ts": 1793928180
     },
     {
-      "id": "645ba8d9e8",
-      "title": "Bremerhaven Drops Hydrogen Truck Testing Facilities as Costs Double and Demand Falls",
-      "url": "https://fuelcellsworks.com/2026/11/02/h2/bremerhaven-drops-hydrogen-truck-testing-facilities-as-costs-double-and-demand-falls",
-      "summary": "",
-      "source": "Fuel Cells Works",
+      "id": "1f32273d99",
+      "title": "Everfuel signs Hydrogen Bank grant agreement and reserves cross-border pipeline capacity, advancing Denmark’s role as Germany’s first significant RFNBO import corridor by 2031",
+      "url": "https://hydrogen-central.com/everfuel-signs-hydrogen-bank-grant-agreement-and-reserves-cross-border-pipeline-capacity-advancing-denmarks-role-as-germanys-first-significant-rfnbo-import-corridor-by-2031/",
+      "summary": "Everfuel signs Hydrogen Bank grant agreement and reserves cross-border pipeline capacity, advancing Denmark’s role as Germany’s first significant RFNBO import corridor by 2031 Herning, Denmark, 4 November 2026 &#8211; Everfuel [&#8230;]\nThe post Everfuel signs Hydrogen Bank grant agreement and reser…",
+      "source": "Hydrogen Central",
       "lang": "en",
-      "pub_date": "2026-11-04T17:03:44+00:00",
-      "pub_ts": 1793811824
+      "pub_date": "2026-11-06T01:20:38+00:00",
+      "pub_ts": 1793928038
     },
     {
-      "id": "1221a1830c",
-      "title": "Nippon Steel Produces More Than 1,000 Tonnes of DRI From Low-Grade Ore Using 100% Hydrogen",
-      "url": "https://fuelcellsworks.com/2026/11/04/h2/nippon-steel-produces-more-than-1-000-tonnes-of-dri-from-low-grade-ore-using-100-percent-hydrogen",
-      "summary": "",
-      "source": "Fuel Cells Works",
+      "id": "6343d2df81",
+      "title": "Towngas and DBS Hong Kong sign MoU to launch the first sustainable financing initiative for Hong Kong’s green hydrogen projects",
+      "url": "https://hydrogen-central.com/towngas-and-dbs-hong-kong-sign-mou-to-launch-the-first-sustainable-financing-initiative-for-hong-kongs-green-hydrogen-projects/",
+      "summary": "Towngas and DBS Hong Kong sign MoU to launch the first sustainable financing initiative for Hong Kong&#8217;s green hydrogen projects Hong Kong, 30 Oct 2026 &#8211; DBS Bank (Hong Kong) [&#8230;]\nThe post Towngas and DBS Hong Kong sign MoU to launch the first sustainable financing initiative for Hon…",
+      "source": "Hydrogen Central",
       "lang": "en",
-      "pub_date": "2026-11-04T16:59:01+00:00",
-      "pub_ts": 1793811541
+      "pub_date": "2026-11-06T01:12:44+00:00",
+      "pub_ts": 1793927564
     },
     {
-      "id": "2aba751d5b",
-      "title": "‘Investment Decisions Are Not Being Made’: GET H2 Urges Germany to Fix Hydrogen Market Rules",
-      "url": "https://fuelcellsworks.com/2026/11/02/h2/investment-decisions-are-not-being-made-get-h2-urges-germany-to-fix-hydrogen-market-rules",
+      "id": "10962e061d",
+      "title": "Fuel for thought: hydrogen-powered vehicle trials",
+      "url": "https://hydrogen-central.com/fuel-for-thought-hydrogen-powered-vehicle-trials/",
+      "summary": "Fuel for thought: hydrogen-powered vehicle trials Although many operators making the switch to zero-emission vehicles are choosing the battery electric route, trials currently taking place show hydrogen power can support [&#8230;]\nThe post Fuel for thought: hydrogen-powered vehicle trials appeared f…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-06T01:09:03+00:00",
+      "pub_ts": 1793927343
+    },
+    {
+      "id": "80a609ba8d",
+      "title": "Transmashholding Completes First Russian Hydrogen Fuel-Cell Train Ahead of 2027 Sakhalin Trials",
+      "url": "https://fuelcellsworks.com/2026/10/28/electrolyzer/transmashholding-completes-first-russian-hydrogen-fuel-cell-train-ahead-of-2027-sakhalin-trials",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-04T16:49:47+00:00",
-      "pub_ts": 1793810987
+      "pub_date": "2026-11-05T17:56:30+00:00",
+      "pub_ts": 1793901390
+    },
+    {
+      "id": "b8c6240184",
+      "title": "Houpu as a China Leading HRS Supplier: Fixed, Mobile and Integrated Hydrogen Refueling Configurations",
+      "url": "https://fuelcellsworks.com/2026/11/03/electrolyzer/houpu-as-a-china-leading-hrs-supplier-fixed-mobile-and-integrated-hydrogen-refueling-configurations",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-05T17:31:06+00:00",
+      "pub_ts": 1793899866
+    },
+    {
+      "id": "af01574a24",
+      "title": "Japan Tests Building-Scale Green Hydrogen System at Tokyo High-Rise",
+      "url": "https://fuelcellsworks.com/2026/11/05/fuel-cells/japan-tests-building-scale-green-hydrogen-system-at-tokyo-high-rise",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-05T17:22:53+00:00",
+      "pub_ts": 1793899373
+    },
+    {
+      "id": "bd581295dc",
+      "title": "Aramco Backs Finnish Methane-Pyrolysis Start-Up ROTOBOOST to Scale Low-Carbon Hydrogen",
+      "url": "https://fuelcellsworks.com/2026/11/05/h2/aramco-backs-finnish-methane-pyrolysis-start-up-rotoboost-to-scale-low-carbon-hydrogen",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-05T17:01:36+00:00",
+      "pub_ts": 1793898096
+    },
+    {
+      "id": "1d3237c6c6",
+      "title": "Mainz Halts Hydrogen Pipeline After Buyers Fail to Commit, Leaving €7M in State Funding Unused",
+      "url": "https://fuelcellsworks.com/2026/11/02/h2/mainz-halts-hydrogen-pipeline-after-buyers-fail-to-commit-leaving-7m-in-state-funding-unused",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-05T16:57:19+00:00",
+      "pub_ts": 1793897839
     }
   ],
-  "source_success_count": 1,
+  "source_success_count": 2,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }

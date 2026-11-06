@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-11-05T06:05:35.654187+00:00",
+  "updated_at": "2026-11-06T06:00:07.291308+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "fd4faa7c31",
-      "title": "百度无人车搞出“黑客帝国”！世界模型实时推演全局，跑一天抵三年",
-      "url": "https://mp.weixin.qq.com/s/m8da63ZjM0-deHNEzHawAQ",
-      "summary": "百度无人车搞出“黑客帝国”！世界模型实时推演全局，跑一天抵三年",
+      "id": "bdcbe7dc0b",
+      "title": "孩子的人生大事，你要怎样的AI?",
+      "url": "https://mp.weixin.qq.com/s/yVGySvVKQyT1a8ftKn5Qpg",
+      "summary": "孩子的人生大事，你要怎样的AI?",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-05T06:05:31.681893+00:00",
-      "pub_ts": 1793858731
+      "pub_date": "2026-11-06T06:00:01.690615+00:00",
+      "pub_ts": 1793944801
     },
     {
-      "id": "e0bf4800d7",
-      "title": "马斯克打通了脑机接口和扫地机器人",
-      "url": "https://mp.weixin.qq.com/s/b841ka8nhenUkOiQ-iN2qg",
-      "summary": "马斯克打通了脑机接口和扫地机器人",
+      "id": "322d35e59c",
+      "title": "拼多多让年轻人造草莓工厂，170天后“答案”熟了",
+      "url": "https://mp.weixin.qq.com/s/mFOPFpDhmNyvIQ-eP72tYA",
+      "summary": "拼多多让年轻人造草莓工厂，170天后“答案”熟了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-05T06:05:31.681951+00:00",
-      "pub_ts": 1793858731
+      "pub_date": "2026-11-06T06:00:01.690653+00:00",
+      "pub_ts": 1793944801
     },
     {
-      "id": "40d0967809",
-      "title": "腾讯混元路身最强开源模型！一手实测Hy4：搭配WorkBuddy，多模..",
-      "url": "https://mp.weixin.qq.com/s/OThj_29CAuHn6ioaqjkSpQ",
-      "summary": "腾讯混元路身最强开源模型！一手实测Hy4：搭配WorkBuddy，多模..",
+      "id": "8d83cafe46",
+      "title": "淘宝MNN团队开源O.3B手机模型，iPhone 18 Pro 上离线跑出350 tok..",
+      "url": "https://mp.weixin.qq.com/s/pnV01H_SN7jkGa-qpH-lXA",
+      "summary": "淘宝MNN团队开源O.3B手机模型，iPhone 18 Pro 上离线跑出350 tok..",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-05T06:05:31.681978+00:00",
-      "pub_ts": 1793858731
+      "pub_date": "2026-11-06T06:00:01.690670+00:00",
+      "pub_ts": 1793944801
     },
     {
-      "id": "fdf18e6739",
-      "title": "Claude 工程师Agent大教程：如何防止被AI养废",
-      "url": "https://mp.weixin.qq.com/s/kp1BKbV2xVHpFE7dp7u37A",
-      "summary": "Claude 工程师Agent大教程：如何防止被AI养废",
+      "id": "3bbd8e4d66",
+      "title": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
+      "url": "https://mp.weixin.qq.com/s/UeSbuOBoe-5fgrNU5D7_bQ",
+      "summary": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-05T06:05:31.682000+00:00",
-      "pub_ts": 1793858731
+      "pub_date": "2026-11-06T06:00:01.690686+00:00",
+      "pub_ts": 1793944801
     },
     {
-      "id": "f94ac464f5",
-      "title": "从3D生成到世界模型，这家AI公司想和年轻人一起定义问题",
-      "url": "https://mp.weixin.qq.com/s/YREokjPrEgZ2Tggo3GBKWw",
-      "summary": "从3D生成到世界模型，这家AI公司想和年轻人一起定义问题",
+      "id": "09efacacb0",
+      "title": "MIT神作被锤爆：Astra爆改Qwen权重？就吹吧！",
+      "url": "https://mp.weixin.qq.com/s/OIXBSI0GEHnPgKqKHHxKog",
+      "summary": "MIT神作被锤爆：Astra爆改Qwen权重？就吹吧！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-05T06:05:31.682022+00:00",
-      "pub_ts": 1793858731
+      "pub_date": "2026-11-06T06:00:01.690702+00:00",
+      "pub_ts": 1793944801
     }
   ],
   "source_success_count": 1,
