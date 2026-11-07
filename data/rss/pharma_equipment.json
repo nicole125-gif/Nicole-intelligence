@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-11-06T06:00:36.998926+00:00",
+  "updated_at": "2026-11-07T05:32:33.646003+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "1cf5f7a83f",
-      "title": "Big pharma-backed T-Therapeutics snags $133m to bring TCEs to clinic",
-      "url": "https://www.pharmaceutical-technology.com/news/t-therapeutics-135m-series-b-oncology-immunology-tces-to-clinic/",
-      "summary": "T-Therapeutics will now generate proof-of-concept data for its oncology and immunology TCE drugs with “blockbuster” potential.",
+      "id": "170519227e",
+      "title": "FDA expands J&J’s Rybrevant Faspro label with head and neck cancer approval",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-expands-jjs-rybrevant-faspro-label-with-head-and-neck-cancer-approval/",
+      "summary": "The accelerated approval marks the first indication beyond lung cancer for J&amp;J’s bispecific antibody.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-05T15:10:48+00:00",
-      "pub_ts": 1793891448
+      "pub_date": "2026-11-06T11:34:03+00:00",
+      "pub_ts": 1793964843
     },
     {
-      "id": "70e87b5a00",
-      "title": "Podcast: An investor’s guide to preparing your clinical data package",
-      "url": "https://www.pharmaceutical-technology.com/features/oct-cts-nordics-2026-biotech-investor-stephan-christgau-podcast/",
-      "summary": "Biotech investor Stephan Christgau speaks about the key considerations when devising a clinical strategy that will attract investor attention.",
+      "id": "47d1ffaefe",
+      "title": "MHRA champions patient voices through new policy",
+      "url": "https://www.pharmaceutical-technology.com/news/mhra-patient-public-involvement-engagement-plan-2026-2030/",
+      "summary": "Through its PPIE initiative, the MHRA plans to consider a diverse range of patient and public opinions when making regulatory decisions.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-05T10:49:12+00:00",
-      "pub_ts": 1793875752
+      "pub_date": "2026-11-06T11:01:46+00:00",
+      "pub_ts": 1793962906
     },
     {
-      "id": "b1de5a568c",
-      "title": "Evommune signs $1.1bn licence deal with Hinova for EVO570",
-      "url": "https://www.pharmaceutical-technology.com/news/evommune-licence-deal-hinova-evo570/",
-      "summary": "Evommune has secured exclusive rights outside Greater China to develop EVO570 from Hinova Pharmaceuticals in a deal worth up to $1.1bn.",
+      "id": "113be39636",
+      "title": "Armada to combine with Brains Bioceutical in $750m deal",
+      "url": "https://www.pharmaceutical-technology.com/news/armada-brains-bioceutical-combine-750m/",
+      "summary": "Armada Acquisition has entered a definitive business combination agreement with Brains Bioceutical that values the latter at an implied pre-money equity value of $750m.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-05T10:36:36+00:00",
-      "pub_ts": 1793874996
+      "pub_date": "2026-11-06T10:41:01+00:00",
+      "pub_ts": 1793961661
     },
     {
-      "id": "98544016ce",
-      "title": "PharmatrophiX and Circular partner on neurodegenerative drugs",
-      "url": "https://www.pharmaceutical-technology.com/news/pharmatrophix-circular-neurodegenerative-drugs/",
-      "summary": "PharmatrophiX and Circular Genomics have partnered to advance blood-based circular RNA biomarkers in neurodegenerative drug development programmes.",
+      "id": "c38ad72fd7",
+      "title": "Alfasigma receives EC’s expanded approval for filgotinib to treat axSpA",
+      "url": "https://www.pharmaceutical-technology.com/news/alfasigma-ecs-expanded-approval-filgotinib-axspa/",
+      "summary": "Alfasigma has received the EC's expanded approval for Jyseleca to treat adult patients living with active axial spondyloarthritis (axSpA).",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-05T09:16:02+00:00",
-      "pub_ts": 1793870162
+      "pub_date": "2026-11-06T09:57:24+00:00",
+      "pub_ts": 1793959044
     },
     {
-      "id": "a64b44c223",
-      "title": "MSD’s non-oncology sales set to double as Keytruda faces patent cliff",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/msd-non-oncology-sales-keytruda-patent/",
-      "summary": "MSD’s expanding non-oncology portfolio is expected to play an increasingly important role in cushioning the impact of Keytruda’s patent cliff.",
+      "id": "5d15684477",
+      "title": "Cordavis to stay in CVS Health after bifurcation of $117bn empire",
+      "url": "https://www.pharmaceutical-technology.com/news/cordavis-to-stay-in-cvs-health-after-bifurcation-of-117bn-empire/",
+      "summary": "Cordavis was established by CVS Health three years ago to capture more of the US biosimilar supply chain.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-04T17:00:14+00:00",
-      "pub_ts": 1793811614
+      "pub_date": "2026-11-05T16:10:59+00:00",
+      "pub_ts": 1793895059
     }
   ],
   "source_success_count": 1,

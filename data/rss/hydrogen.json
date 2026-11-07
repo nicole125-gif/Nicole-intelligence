@@ -3,9 +3,59 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-11-06T06:00:24.545023+00:00",
+  "updated_at": "2026-11-07T05:32:21.158527+00:00",
   "item_count": 10,
   "items": [
+    {
+      "id": "aa3d181c3f",
+      "title": "Google Confirms $17 Billion Wyoming Data Centre Investment With 702MW Bloom Fuel Cells and Carbon Capture",
+      "url": "https://fuelcellsworks.com/2026/11/05/clean-energy/google-confirms-17-billion-wyoming-data-centre-investment-with-702mw-bloom-fuel-cells-and-carbon-capture",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-06T17:30:51+00:00",
+      "pub_ts": 1793986251
+    },
+    {
+      "id": "7661f88871",
+      "title": "South Korea Opens 39.8MW Fuel-Cell Plant Featuring First Commercial Domestic SOFC",
+      "url": "https://fuelcellsworks.com/2026/11/05/electrolyzer/south-korea-opens-39-8mw-fuel-cell-plant-featuring-first-commercial-domestic-sofc",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-06T17:08:48+00:00",
+      "pub_ts": 1793984928
+    },
+    {
+      "id": "0b0b11292b",
+      "title": "German Researchers Run Converted Diesel Engine on Waste-Derived Hydrogen-Rich Gas at Just 40% H₂",
+      "url": "https://fuelcellsworks.com/2026/11/02/h2/german-researchers-run-converted-diesel-engine-on-waste-derived-hydrogen-rich-gas-at-just-40-percent-h",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-06T17:04:40+00:00",
+      "pub_ts": 1793984680
+    },
+    {
+      "id": "a8b0f2af06",
+      "title": "Algeria’s Sonatrach Teams Up With World Bank on Green Hydrogen and Methane Reduction",
+      "url": "https://fuelcellsworks.com/2026/11/06/h2/algeria-s-sonatrach-teams-up-with-world-bank-on-green-hydrogen-and-methane-reduction",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-06T16:23:45+00:00",
+      "pub_ts": 1793982225
+    },
+    {
+      "id": "9ce10d04a9",
+      "title": "Thyssengas Opens Ground in Xanten for Hydrogen Pipeline Inspection Prep",
+      "url": "https://fuelcellsworks.com/2026/11/05/h2/thyssengas-opens-ground-in-xanten-for-hydrogen-pipeline-inspection-prep",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-06T16:08:54+00:00",
+      "pub_ts": 1793981334
+    },
     {
       "id": "4d1271e690",
       "title": "Asahi Kasei Signs MOU with Power to Hydrogen to Accelerate Commercialization of AEM Water Electrolysis for Clean Hydrogen Production",
@@ -55,56 +105,6 @@
       "lang": "en",
       "pub_date": "2026-11-06T01:09:03+00:00",
       "pub_ts": 1793927343
-    },
-    {
-      "id": "80a609ba8d",
-      "title": "Transmashholding Completes First Russian Hydrogen Fuel-Cell Train Ahead of 2027 Sakhalin Trials",
-      "url": "https://fuelcellsworks.com/2026/10/28/electrolyzer/transmashholding-completes-first-russian-hydrogen-fuel-cell-train-ahead-of-2027-sakhalin-trials",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-05T17:56:30+00:00",
-      "pub_ts": 1793901390
-    },
-    {
-      "id": "b8c6240184",
-      "title": "Houpu as a China Leading HRS Supplier: Fixed, Mobile and Integrated Hydrogen Refueling Configurations",
-      "url": "https://fuelcellsworks.com/2026/11/03/electrolyzer/houpu-as-a-china-leading-hrs-supplier-fixed-mobile-and-integrated-hydrogen-refueling-configurations",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-05T17:31:06+00:00",
-      "pub_ts": 1793899866
-    },
-    {
-      "id": "af01574a24",
-      "title": "Japan Tests Building-Scale Green Hydrogen System at Tokyo High-Rise",
-      "url": "https://fuelcellsworks.com/2026/11/05/fuel-cells/japan-tests-building-scale-green-hydrogen-system-at-tokyo-high-rise",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-05T17:22:53+00:00",
-      "pub_ts": 1793899373
-    },
-    {
-      "id": "bd581295dc",
-      "title": "Aramco Backs Finnish Methane-Pyrolysis Start-Up ROTOBOOST to Scale Low-Carbon Hydrogen",
-      "url": "https://fuelcellsworks.com/2026/11/05/h2/aramco-backs-finnish-methane-pyrolysis-start-up-rotoboost-to-scale-low-carbon-hydrogen",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-05T17:01:36+00:00",
-      "pub_ts": 1793898096
-    },
-    {
-      "id": "1d3237c6c6",
-      "title": "Mainz Halts Hydrogen Pipeline After Buyers Fail to Commit, Leaving €7M in State Funding Unused",
-      "url": "https://fuelcellsworks.com/2026/11/02/h2/mainz-halts-hydrogen-pipeline-after-buyers-fail-to-commit-leaving-7m-in-state-funding-unused",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-05T16:57:19+00:00",
-      "pub_ts": 1793897839
     }
   ],
   "source_success_count": 2,

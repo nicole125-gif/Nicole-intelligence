@@ -3,108 +3,118 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-11-06T05:59:51.984922+00:00",
+  "updated_at": "2026-11-07T05:31:56.499745+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "46c4dab9b3",
-      "title": "英伟达CPU下场，要推翻Chiplet?",
-      "url": "https://mp.weixin.qq.com/s/UBq3tg-YzFaKeUpWXRtV3A",
-      "summary": "英伟达CPU下场，要推翻Chiplet?",
+      "id": "65324894c8",
+      "title": "一季狂赚万亿！存储的繁荣却望到天花板",
+      "url": "https://mp.weixin.qq.com/s/6VxhYK9KWt3ryTv-ar0yJg",
+      "summary": "一季狂赚万亿！存储的繁荣却望到天花板",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-06T05:59:47.610283+00:00",
-      "pub_ts": 1793944787
+      "pub_date": "2026-11-07T05:31:52.365559+00:00",
+      "pub_ts": 1794029512
     },
     {
-      "id": "a71a3d4f7c",
-      "title": "华虹Q3业绩出炉：北美收入暴增75%，量价齐升将持续",
-      "url": "https://mp.weixin.qq.com/s/zbhn6rnLMBiE2oe42N_YDw",
-      "summary": "华虹Q3业绩出炉：北美收入暴增75%，量价齐升将持续",
+      "id": "7e48007458",
+      "title": "高通CEO安蒙：6G将智能带入网络，加速各行各业数字化转型",
+      "url": "https://mp.weixin.qq.com/s/AaAErXuC2X-ZQGnuMB1jsw",
+      "summary": "高通CEO安蒙：6G将智能带入网络，加速各行各业数字化转型",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-06T05:59:47.610322+00:00",
-      "pub_ts": 1793944787
+      "pub_date": "2026-11-07T05:31:52.365594+00:00",
+      "pub_ts": 1794029512
     },
     {
-      "id": "a05a2d3e38",
-      "title": "放弃4F²，美光明确下一代存储路线",
-      "url": "https://mp.weixin.qq.com/s/EtmpdkFsdsxzay6NbVIZ4g",
-      "summary": "放弃4F²，美光明确下一代存储路线",
+      "id": "4531e5f374",
+      "title": "晶合集成四期晶圆厂增资91亿，华勤押注",
+      "url": "https://mp.weixin.qq.com/s/09qxIpmA93hbwdHZSdHh8A",
+      "summary": "晶合集成四期晶圆厂增资91亿，华勤押注",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-06T05:59:47.610343+00:00",
-      "pub_ts": 1793944787
+      "pub_date": "2026-11-07T05:31:52.365608+00:00",
+      "pub_ts": 1794029512
     },
     {
-      "id": "7e3810d971",
-      "title": "英飞凌首款RISC-V汽车MCU，要来了",
-      "url": "https://mp.weixin.qq.com/s/DaTau6Sgftxr4MbS56ZByw",
-      "summary": "英飞凌首款RISC-V汽车MCU，要来了",
+      "id": "69a2815acc",
+      "title": "冷却方案分化，光模块迎来两条路",
+      "url": "https://mp.weixin.qq.com/s/0UWV2wyVNZ8Ihwqk9MssDQ",
+      "summary": "冷却方案分化，光模块迎来两条路",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-06T05:59:47.610360+00:00",
-      "pub_ts": 1793944787
+      "pub_date": "2026-11-07T05:31:52.365622+00:00",
+      "pub_ts": 1794029512
     },
     {
-      "id": "69c57a3b9e",
-      "title": "联发科延揽英特尔37年封测老将，发力数据中心ASIC",
-      "url": "https://mp.weixin.qq.com/s/qRbJgYC0VMLQPobJp58HGg",
-      "summary": "联发科延揽英特尔37年封测老将，发力数据中心ASIC",
+      "id": "5113b82cd9",
+      "title": "80OVDC标准之争：英伟达与超大规模云厂商路线出现分歧?",
+      "url": "https://mp.weixin.qq.com/s/7tzlLpFY9FScDE_dghxdkw",
+      "summary": "80OVDC标准之争：英伟达与超大规模云厂商路线出现分歧?",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-06T05:59:47.610377+00:00",
-      "pub_ts": 1793944787
+      "pub_date": "2026-11-07T05:31:52.365633+00:00",
+      "pub_ts": 1794029512
     },
     {
-      "id": "0736634201",
-      "title": "突发，300亿晶圆厂，停建！",
-      "url": "https://mp.weixin.qq.com/s/GNOAwHGPhbAu2V_767sgrQ",
-      "summary": "突发，300亿晶圆厂，停建！",
+      "id": "80ae3a7346",
+      "title": "谷歌，投资高通！",
+      "url": "https://mp.weixin.qq.com/s/mHsgYD9mGvz6mt8Z3F2_Vw",
+      "summary": "谷歌，投资高通！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-06T05:59:38.956172+00:00",
-      "pub_ts": 1793944778
+      "pub_date": "2026-11-07T05:31:35.969159+00:00",
+      "pub_ts": 1794029495
     },
     {
-      "id": "22212441db",
-      "title": "从存储破局到三线并进：普冉股份的“技术+战略”成长路径",
-      "url": "https://mp.weixin.qq.com/s/lfBm2NXA58ZzZ5dLyMOY3w",
-      "summary": "从存储破局到三线并进：普冉股份的“技术+战略”成长路径",
+      "id": "18d4ad3622",
+      "title": "从服务器到一体机、超节点：全球首款量产RISC-V+AI服务器芯片再进化",
+      "url": "https://mp.weixin.qq.com/s/b4woUYhwDUXXfIL-Cyp8kA",
+      "summary": "从服务器到一体机、超节点：全球首款量产RISC-V+AI服务器芯片再进化",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-06T05:59:38.956218+00:00",
-      "pub_ts": 1793944778
+      "pub_date": "2026-11-07T05:31:35.969203+00:00",
+      "pub_ts": 1794029495
     },
     {
-      "id": "1004f5a9e6",
-      "title": "美光DRAM和NAND，最新路线图",
-      "url": "https://mp.weixin.qq.com/s/eEZpYlwAeVlQm1mf8GO_IQ",
-      "summary": "美光DRAM和NAND，最新路线图",
+      "id": "3b48e04374",
+      "title": "英伟达，盯上特氟龙?",
+      "url": "https://mp.weixin.qq.com/s/fZpl1MohoeyiEsdnIMwxOQ",
+      "summary": "英伟达，盯上特氟龙?",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-06T05:59:38.956236+00:00",
-      "pub_ts": 1793944778
+      "pub_date": "2026-11-07T05:31:35.969218+00:00",
+      "pub_ts": 1794029495
     },
     {
-      "id": "3ea67136e4",
-      "title": "进博会看应用材料公司：解码30余年的显示创新之路",
-      "url": "https://mp.weixin.qq.com/s/YQRR1JjABh16DnGrLsi2rQ",
-      "summary": "进博会看应用材料公司：解码30余年的显示创新之路",
+      "id": "b4165d2efe",
+      "title": "芯片股，暴跌！",
+      "url": "https://mp.weixin.qq.com/s/GViWfhrSBEFhiZ6FJ38Fqw",
+      "summary": "芯片股，暴跌！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-06T05:59:38.956252+00:00",
-      "pub_ts": 1793944778
+      "pub_date": "2026-11-07T05:31:35.969231+00:00",
+      "pub_ts": 1794029495
     },
     {
-      "id": "934f72217e",
-      "title": "GPU之后，芯片何去何从?",
-      "url": "https://mp.weixin.qq.com/s/wH6uhBZkeqEEf_NB74MX9g",
-      "summary": "GPU之后，芯片何去何从?",
+      "id": "599f31a678",
+      "title": "重塑芯片市场的五大趋势",
+      "url": "https://mp.weixin.qq.com/s/jQaqmmQIJUga_qjRxgTcTA",
+      "summary": "重塑芯片市场的五大趋势",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-06T05:59:38.956268+00:00",
-      "pub_ts": 1793944778
+      "pub_date": "2026-11-07T05:31:35.969243+00:00",
+      "pub_ts": 1794029495
+    },
+    {
+      "id": "3f83e6efab",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-163/",
+      "summary": "HBM smuggling routes into China; Nvidia H200s held in Hong Kong; Micron pauses Taiwan fab work; Samsung expands HBM base-die capacity; Oracle-Tencent AI chip deal collapses; Bosch builds out semiconductors; S. Korea boosts AI and chip spending; Marvell-Lumentum deal draws scrutiny; more acquisitions…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-11-06T08:01:01+00:00",
+      "pub_ts": 1793952061
     },
     {
       "id": "3f5667e0c0",
@@ -145,16 +155,6 @@
       "lang": "en",
       "pub_date": "2026-11-05T08:04:08+00:00",
       "pub_ts": 1793865848
-    },
-    {
-      "id": "9d2ddedf58",
-      "title": "Why Testing Automated Driving Is Harder Than It Looks",
-      "url": "https://semiengineering.com/why-testing-automated-driving-is-harder-than-it-looks/",
-      "summary": "Instead of waiting for rare situations to occur on public roads, engineers can create those situations virtually. \nThe post Why Testing Automated Driving Is Harder Than It Looks appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-11-05T08:02:40+00:00",
-      "pub_ts": 1793865760
     }
   ],
   "source_success_count": 3,
