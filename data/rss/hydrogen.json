@@ -3,9 +3,59 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-11-07T05:32:21.158527+00:00",
+  "updated_at": "2026-11-08T05:33:40.090290+00:00",
   "item_count": 10,
   "items": [
+    {
+      "id": "9312989b65",
+      "title": "CINEA at European Hydrogen Week",
+      "url": "https://hydrogen-central.com/cinea-at-european-hydrogen-week/",
+      "summary": "CINEA at European Hydrogen Week Over three days, the European Hydrogen Week 2026 brought together 7 500 participants at Brussels Expo. Leading policymakers and companies gathered under the theme “Scaling hydrogen, strengthening resilience” for panel sessions, networking events and lunch discussions.…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-08T03:25:50+00:00",
+      "pub_ts": 1794108350
+    },
+    {
+      "id": "ef8d73ef6f",
+      "title": "Deep Conduit Signature Identified Near Lawson 4 Expands Commercial Potential of Canada’s First Subsurface Natural Hydrogen System",
+      "url": "https://hydrogen-central.com/deep-conduit-signature-identified-near-lawson-4-expands-commercial-potential-of-canadas-first-subsurface-natural-hydrogen-system/",
+      "summary": "Deep Conduit Signature Identified Near Lawson 4 Expands Commercial Potential of Canada’s First Subsurface Natural Hydrogen System Confirmation of the Lawson Conduit and newly interpreted four-way structural closure near Lawson 4, combined with reprocessing of proprietary 3D seismic data through inte…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-08T03:25:34+00:00",
+      "pub_ts": 1794108334
+    },
+    {
+      "id": "e993fa5669",
+      "title": "Cell Impact to evaluate NC titanium for undisclosed customers",
+      "url": "https://hydrogen-central.com/cell-impact-to-evaluate-nc-titanium-for-undisclosed-customers/",
+      "summary": "Cell Impact to evaluate NC titanium for undisclosed customers KARLSKOGA, Sweden, Nov. 2, 2026 /PRNewswire/ &#8212; Cell Impact AB (publ) will conduct forming tests on Japanese-produced nanocrystalline titanium at the request of a number of undisclosed customers. The material is already used in serie…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-08T03:23:36+00:00",
+      "pub_ts": 1794108216
+    },
+    {
+      "id": "780961e830",
+      "title": "ScienceOra Demonstrates AI Assisted Hydrogen Production Catalyst Design Workflow at Tencent Global Digital Ecosystem Summit",
+      "url": "https://hydrogen-central.com/scienceora-demonstrates-ai-assisted-hydrogen-production-catalyst-design-workflow-at-tencent-global-digital-ecosystem-summit/",
+      "summary": "ScienceOra Demonstrates AI Assisted Hydrogen Production Catalyst Design Workflow at Tencent Global Digital Ecosystem Summit The workflow spans literature analysis, candidate design, experimental planning and industrial decision support, extending AI4S into materials research SHENZHEN, China, Oct. 30…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-08T03:19:40+00:00",
+      "pub_ts": 1794107980
+    },
+    {
+      "id": "069443febe",
+      "title": "European Investment Bank calls for a unified clean hydrogen market to boost the green transition",
+      "url": "https://hydrogen-central.com/european-investment-bank-calls-for-a-unified-clean-hydrogen-market-to-boost-the-green-transition/",
+      "summary": "European Investment Bank calls for a unified clean hydrogen market to boost the green transition Brussels, Belgium – The European Investment Bank has emphasized the need for Europe to build an integrated market for clean hydrogen. This step is essential for accelerating the transition toward low-emi…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-08T03:19:27+00:00",
+      "pub_ts": 1794107967
+    },
     {
       "id": "aa3d181c3f",
       "title": "Google Confirms $17 Billion Wyoming Data Centre Investment With 702MW Bloom Fuel Cells and Carbon Capture",
@@ -55,56 +105,6 @@
       "lang": "en",
       "pub_date": "2026-11-06T16:08:54+00:00",
       "pub_ts": 1793981334
-    },
-    {
-      "id": "4d1271e690",
-      "title": "Asahi Kasei Signs MOU with Power to Hydrogen to Accelerate Commercialization of AEM Water Electrolysis for Clean Hydrogen Production",
-      "url": "https://hydrogen-central.com/asahi-kasei-signs-mou-with-power-to-hydrogen-to-accelerate-commercialization-of-aem-water-electrolysis-for-clean-hydrogen-production/",
-      "summary": "Asahi Kasei Signs MOU with Power to Hydrogen to Accelerate Commercialization of AEM Water Electrolysis for Clean Hydrogen Production Asahi Kasei, a diversified global company, and U.S.-based Power to Hydrogen [&#8230;]\nThe post Asahi Kasei Signs MOU with Power to Hydrogen to Accelerate Commercializa…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-06T01:26:28+00:00",
-      "pub_ts": 1793928388
-    },
-    {
-      "id": "a1a9c9bfc8",
-      "title": "Nippon Steel – Successful Test Production of Direct Reduced Iron from Low-Grade Iron Ore Using 100% Hydrogen",
-      "url": "https://hydrogen-central.com/nippon-steel-successful-test-production-of-direct-reduced-iron-from-low-grade-iron-ore-using-100-hydrogen/",
-      "summary": "Nippon Steel &#8211; Successful Test Production of Direct Reduced Iron from Low-Grade Iron Ore Using 100% Hydrogen Nippon Steel Corporation (&#8220;Nippon Steel&#8221;) has successfully conducted a direct reduction test using [&#8230;]\nThe post Nippon Steel &#8211; Successful Test Production of Dire…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-06T01:23:00+00:00",
-      "pub_ts": 1793928180
-    },
-    {
-      "id": "1f32273d99",
-      "title": "Everfuel signs Hydrogen Bank grant agreement and reserves cross-border pipeline capacity, advancing Denmark’s role as Germany’s first significant RFNBO import corridor by 2031",
-      "url": "https://hydrogen-central.com/everfuel-signs-hydrogen-bank-grant-agreement-and-reserves-cross-border-pipeline-capacity-advancing-denmarks-role-as-germanys-first-significant-rfnbo-import-corridor-by-2031/",
-      "summary": "Everfuel signs Hydrogen Bank grant agreement and reserves cross-border pipeline capacity, advancing Denmark’s role as Germany’s first significant RFNBO import corridor by 2031 Herning, Denmark, 4 November 2026 &#8211; Everfuel [&#8230;]\nThe post Everfuel signs Hydrogen Bank grant agreement and reser…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-06T01:20:38+00:00",
-      "pub_ts": 1793928038
-    },
-    {
-      "id": "6343d2df81",
-      "title": "Towngas and DBS Hong Kong sign MoU to launch the first sustainable financing initiative for Hong Kong’s green hydrogen projects",
-      "url": "https://hydrogen-central.com/towngas-and-dbs-hong-kong-sign-mou-to-launch-the-first-sustainable-financing-initiative-for-hong-kongs-green-hydrogen-projects/",
-      "summary": "Towngas and DBS Hong Kong sign MoU to launch the first sustainable financing initiative for Hong Kong&#8217;s green hydrogen projects Hong Kong, 30 Oct 2026 &#8211; DBS Bank (Hong Kong) [&#8230;]\nThe post Towngas and DBS Hong Kong sign MoU to launch the first sustainable financing initiative for Hon…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-06T01:12:44+00:00",
-      "pub_ts": 1793927564
-    },
-    {
-      "id": "10962e061d",
-      "title": "Fuel for thought: hydrogen-powered vehicle trials",
-      "url": "https://hydrogen-central.com/fuel-for-thought-hydrogen-powered-vehicle-trials/",
-      "summary": "Fuel for thought: hydrogen-powered vehicle trials Although many operators making the switch to zero-emission vehicles are choosing the battery electric route, trials currently taking place show hydrogen power can support [&#8230;]\nThe post Fuel for thought: hydrogen-powered vehicle trials appeared f…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-06T01:09:03+00:00",
-      "pub_ts": 1793927343
     }
   ],
   "source_success_count": 2,

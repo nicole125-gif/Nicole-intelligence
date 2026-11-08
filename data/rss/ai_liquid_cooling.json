@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-11-07T05:32:10.423394+00:00",
+  "updated_at": "2026-11-08T05:33:29.469366+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "3d79288088",
-      "title": "A\\三大内部模型曝光！领先Opus5.5三个月，RSI缩短80%实验时间",
-      "url": "https://mp.weixin.qq.com/s/BIRCKgD9YOEeJV4Mn-UqJA",
-      "summary": "A\\三大内部模型曝光！领先Opus5.5三个月，RSI缩短80%实验时间",
+      "id": "bbe7b52870",
+      "title": "Jeff Dean李飞飞最新对谈：全是RSI非共识",
+      "url": "https://mp.weixin.qq.com/s/o-fWqG46Tw_4BgZKoPxf9w",
+      "summary": "Jeff Dean李飞飞最新对谈：全是RSI非共识",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-07T05:32:05.942428+00:00",
-      "pub_ts": 1794029525
+      "pub_date": "2026-11-08T05:33:25.335307+00:00",
+      "pub_ts": 1794116005
     },
     {
-      "id": "f732ba380f",
-      "title": "Tibo被调岗！GPT重置键换主了",
-      "url": "https://mp.weixin.qq.com/s/ItagCIwqha7Fv8DOj2TSTw",
-      "summary": "Tibo被调岗！GPT重置键换主了",
+      "id": "93912b66ac",
+      "title": "GitHub不堪重负！OpenAl收购替代品，A社原地自研，马斯克也要搞",
+      "url": "https://mp.weixin.qq.com/s/IZHbW4SEgeIZKIeINWzuYg",
+      "summary": "GitHub不堪重负！OpenAl收购替代品，A社原地自研，马斯克也要搞",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-07T05:32:05.942467+00:00",
-      "pub_ts": 1794029525
+      "pub_date": "2026-11-08T05:33:25.335348+00:00",
+      "pub_ts": 1794116005
     },
     {
-      "id": "3caccf0ae8",
-      "title": "一边赛博修仙，一边卖家电！AI短剧开始冲双11业绩了？",
-      "url": "https://mp.weixin.qq.com/s/WoivbF8jGnpWYhjSSWgWWA",
-      "summary": "一边赛博修仙，一边卖家电！AI短剧开始冲双11业绩了？",
+      "id": "02790c88d8",
+      "title": "OpenAI新融资到账110亿美元，不及原计划一半",
+      "url": "https://mp.weixin.qq.com/s/uGjX-MmZIEFD-Qrvew0TvA",
+      "summary": "OpenAI新融资到账110亿美元，不及原计划一半",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-07T05:32:05.942480+00:00",
-      "pub_ts": 1794029525
+      "pub_date": "2026-11-08T05:33:25.335371+00:00",
+      "pub_ts": 1794116005
     },
     {
-      "id": "fd10cf803a",
-      "title": "谷歌新视频模型双榜第一！价格反手砍30%，15秒只要7元",
-      "url": "https://mp.weixin.qq.com/s/GrEJpTuOHBrwI1pLMAaTXA",
-      "summary": "谷歌新视频模型双榜第一！价格反手砍30%，15秒只要7元",
+      "id": "c5c378242a",
+      "title": "抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！?",
+      "url": "https://mp.weixin.qq.com/s/w7JDM7qMsfYFvt27NH_wIw",
+      "summary": "抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！?",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-07T05:32:05.942492+00:00",
-      "pub_ts": 1794029525
+      "pub_date": "2026-11-08T05:33:25.335393+00:00",
+      "pub_ts": 1794116005
     },
     {
-      "id": "16fecb829b",
-      "title": "99.4%登顶全球第一！这个中国AI师承世界冠军",
-      "url": "https://mp.weixin.qq.com/s/PUY0DQSEc3ILn2TafAXwGA",
-      "summary": "99.4%登顶全球第一！这个中国AI师承世界冠军",
+      "id": "718398d98f",
+      "title": "为了去AI味，人类开始主动写烂文章了……",
+      "url": "https://mp.weixin.qq.com/s/jYw5gQV7AZcdtjijcRF06Q",
+      "summary": "为了去AI味，人类开始主动写烂文章了……",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-07T05:32:05.942504+00:00",
-      "pub_ts": 1794029525
+      "pub_date": "2026-11-08T05:33:25.335413+00:00",
+      "pub_ts": 1794116005
     }
   ],
   "source_success_count": 1,
