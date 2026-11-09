@@ -3,9 +3,19 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-11-08T05:33:40.090290+00:00",
+  "updated_at": "2026-11-09T05:43:48.949351+00:00",
   "item_count": 10,
   "items": [
+    {
+      "id": "d31a065c62",
+      "title": "“Not dead” – Hyundai considers future hydrogen car for Australia",
+      "url": "https://hydrogen-central.com/not-dead-hyundai-considers-future-hydrogen-car-for-australia/",
+      "summary": "“Not dead” – Hyundai considers future hydrogen car for Australia A new wave of hydrogen-powered passenger cars could be bound for Australia. Hyundai says the company is considering a new hydrogen vehicle locally, and insists the technology still has a future here – provided it can find buyers. Scott…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-08T18:02:54+00:00",
+      "pub_ts": 1794160974
+    },
     {
       "id": "9312989b65",
       "title": "CINEA at European Hydrogen Week",
@@ -45,16 +55,6 @@
       "lang": "en",
       "pub_date": "2026-11-08T03:19:40+00:00",
       "pub_ts": 1794107980
-    },
-    {
-      "id": "069443febe",
-      "title": "European Investment Bank calls for a unified clean hydrogen market to boost the green transition",
-      "url": "https://hydrogen-central.com/european-investment-bank-calls-for-a-unified-clean-hydrogen-market-to-boost-the-green-transition/",
-      "summary": "European Investment Bank calls for a unified clean hydrogen market to boost the green transition Brussels, Belgium – The European Investment Bank has emphasized the need for Europe to build an integrated market for clean hydrogen. This step is essential for accelerating the transition toward low-emi…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-08T03:19:27+00:00",
-      "pub_ts": 1794107967
     },
     {
       "id": "aa3d181c3f",

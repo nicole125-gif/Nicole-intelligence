@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-11-08T05:33:29.469366+00:00",
+  "updated_at": "2026-11-09T05:43:31.316212+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "bbe7b52870",
-      "title": "Jeff Dean李飞飞最新对谈：全是RSI非共识",
-      "url": "https://mp.weixin.qq.com/s/o-fWqG46Tw_4BgZKoPxf9w",
-      "summary": "Jeff Dean李飞飞最新对谈：全是RSI非共识",
+      "id": "ed81942450",
+      "title": "AI接管一家8万Star开源公司，写代码、派任务、查Bug全包了",
+      "url": "https://mp.weixin.qq.com/s/LiYrfk3XQxZVV77w0rBy7A",
+      "summary": "AI接管一家8万Star开源公司，写代码、派任务、查Bug全包了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-08T05:33:25.335307+00:00",
-      "pub_ts": 1794116005
+      "pub_date": "2026-11-09T05:43:27.127268+00:00",
+      "pub_ts": 1794203007
     },
     {
-      "id": "93912b66ac",
-      "title": "GitHub不堪重负！OpenAl收购替代品，A社原地自研，马斯克也要搞",
-      "url": "https://mp.weixin.qq.com/s/IZHbW4SEgeIZKIeINWzuYg",
-      "summary": "GitHub不堪重负！OpenAl收购替代品，A社原地自研，马斯克也要搞",
+      "id": "eeeb993fb8",
+      "title": "2026年度A十大趋势征集中|量子位智库",
+      "url": "https://mp.weixin.qq.com/s/T9n8Fqloo4ZcxjB_O00ULw",
+      "summary": "2026年度A十大趋势征集中|量子位智库",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-08T05:33:25.335348+00:00",
-      "pub_ts": 1794116005
+      "pub_date": "2026-11-09T05:43:27.127310+00:00",
+      "pub_ts": 1794203007
     },
     {
-      "id": "02790c88d8",
-      "title": "OpenAI新融资到账110亿美元，不及原计划一半",
-      "url": "https://mp.weixin.qq.com/s/uGjX-MmZIEFD-Qrvew0TvA",
-      "summary": "OpenAI新融资到账110亿美元，不及原计划一半",
+      "id": "d25717074b",
+      "title": "GPT-6之后，具身大模型画地为牢！明年自研预算估计悬了",
+      "url": "https://mp.weixin.qq.com/s/GyNORQxK4l1Cq9YdGTbWSg",
+      "summary": "GPT-6之后，具身大模型画地为牢！明年自研预算估计悬了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-08T05:33:25.335371+00:00",
-      "pub_ts": 1794116005
+      "pub_date": "2026-11-09T05:43:27.127330+00:00",
+      "pub_ts": 1794203007
     },
     {
-      "id": "c5c378242a",
-      "title": "抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！?",
-      "url": "https://mp.weixin.qq.com/s/w7JDM7qMsfYFvt27NH_wIw",
-      "summary": "抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！?",
+      "id": "242ad4fdfc",
+      "title": "资本正在撤离“世界模型”",
+      "url": "https://mp.weixin.qq.com/s/8U3Lwbq2q0klDUTIy7LWNQ",
+      "summary": "资本正在撤离“世界模型”",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-08T05:33:25.335393+00:00",
-      "pub_ts": 1794116005
+      "pub_date": "2026-11-09T05:43:27.127349+00:00",
+      "pub_ts": 1794203007
     },
     {
-      "id": "718398d98f",
-      "title": "为了去AI味，人类开始主动写烂文章了……",
-      "url": "https://mp.weixin.qq.com/s/jYw5gQV7AZcdtjijcRF06Q",
-      "summary": "为了去AI味，人类开始主动写烂文章了……",
+      "id": "8297bcb8cb",
+      "title": "Anthropic流血也要IPO！估值预期跌到不如SpaceX，马斯克纪录保住了",
+      "url": "https://mp.weixin.qq.com/s/k3SbXBWEt0II0lmVbbFKkA",
+      "summary": "Anthropic流血也要IPO！估值预期跌到不如SpaceX，马斯克纪录保住了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-08T05:33:25.335413+00:00",
-      "pub_ts": 1794116005
+      "pub_date": "2026-11-09T05:43:27.127368+00:00",
+      "pub_ts": 1794203007
     }
   ],
   "source_success_count": 1,
