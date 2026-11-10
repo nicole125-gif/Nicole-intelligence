@@ -3,108 +3,128 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-11-09T05:43:17.608951+00:00",
+  "updated_at": "2026-11-10T06:51:47.912876+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "f26fd2efd5",
-      "title": "先进封装扩产潮，还差哪些?",
-      "url": "https://mp.weixin.qq.com/s/tlfUp_aj294k1-96NAwYXg",
-      "summary": "先进封装扩产潮，还差哪些?",
+      "id": "445ae4c0eb",
+      "title": "模拟芯片回暖，工业最先动了",
+      "url": "https://mp.weixin.qq.com/s/Cd7QQMtKcdR5UdCFytqevQ",
+      "summary": "模拟芯片回暖，工业最先动了",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-09T05:43:13.372605+00:00",
-      "pub_ts": 1794202993
+      "pub_date": "2026-11-10T06:51:43.933499+00:00",
+      "pub_ts": 1794293503
     },
     {
-      "id": "cb471577fc",
-      "title": "天域半导体拟收购浙江东尼电子约7%股份",
-      "url": "https://mp.weixin.qq.com/s/kPltuPmV88pDVV6i4qfsMQ",
-      "summary": "天域半导体拟收购浙江东尼电子约7%股份",
+      "id": "cea90f24c0",
+      "title": "“同构+异构”双箭齐发！沐曦，进博会中国馆唯一国产GPU",
+      "url": "https://mp.weixin.qq.com/s/aXXbccsX_5hhgh0XsDnVmg",
+      "summary": "“同构+异构”双箭齐发！沐曦，进博会中国馆唯一国产GPU",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-09T05:43:13.372649+00:00",
-      "pub_ts": 1794202993
+      "pub_date": "2026-11-10T06:51:43.933551+00:00",
+      "pub_ts": 1794293503
     },
     {
-      "id": "96d5c7e04d",
-      "title": "存储芯片，迎来新方向",
-      "url": "https://mp.weixin.qq.com/s/HodJdI39wo03zSs91OeY9w",
-      "summary": "存储芯片，迎来新方向",
+      "id": "12cb506413",
+      "title": "光刻胶重磅并购！120亿美元，JSR易主",
+      "url": "https://mp.weixin.qq.com/s/8Zo0kth0_xdM_0OOuTp65w",
+      "summary": "光刻胶重磅并购！120亿美元，JSR易主",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-09T05:43:13.372673+00:00",
-      "pub_ts": 1794202993
+      "pub_date": "2026-11-10T06:51:43.933597+00:00",
+      "pub_ts": 1794293503
     },
     {
-      "id": "93ed6200ef",
-      "title": "一屏向万亿：新型显示产业的升维答卷",
-      "url": "https://mp.weixin.qq.com/s/IK5yWqbkXgSUFF8S7pT7Lw",
-      "summary": "一屏向万亿：新型显示产业的升维答卷",
+      "id": "e8505c4922",
+      "title": "目标月产70万片存储晶圆，马斯克Terafab 直追三星",
+      "url": "https://mp.weixin.qq.com/s/TXNi9dEqiGLu2TuolldDUg",
+      "summary": "目标月产70万片存储晶圆，马斯克Terafab 直追三星",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-09T05:43:13.372693+00:00",
-      "pub_ts": 1794202993
+      "pub_date": "2026-11-10T06:51:43.933618+00:00",
+      "pub_ts": 1794293503
     },
     {
-      "id": "cef5eae435",
-      "title": "一家味精厂，为什么要去跟日本人抢芯片命门?",
-      "url": "https://mp.weixin.qq.com/s/x13ejrSSDMNfQ0ZGU2Q4Rw",
-      "summary": "一家味精厂，为什么要去跟日本人抢芯片命门?",
+      "id": "888bf05159",
+      "title": "1.6T光模块元年，磷化铟产能跟不上了",
+      "url": "https://mp.weixin.qq.com/s/kr834mNnx3sVykVSQLmReQ",
+      "summary": "1.6T光模块元年，磷化铟产能跟不上了",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-09T05:43:13.372712+00:00",
-      "pub_ts": 1794202993
+      "pub_date": "2026-11-10T06:51:43.933634+00:00",
+      "pub_ts": 1794293503
     },
     {
-      "id": "b21dda1b8b",
-      "title": "FD-SOI，挑战7nm，凭啥？",
-      "url": "https://mp.weixin.qq.com/s/ZJehPFbZ1nI5q9VdEHRxew",
-      "summary": "FD-SOI，挑战7nm，凭啥？",
+      "id": "f95e16ce45",
+      "title": "刚刚，谷歌发布两颗TPU",
+      "url": "https://mp.weixin.qq.com/s/11nCchxPQ1IyMY3RiddTdw",
+      "summary": "刚刚，谷歌发布两颗TPU",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-09T05:43:03.358844+00:00",
-      "pub_ts": 1794202983
+      "pub_date": "2026-11-10T06:51:31.314814+00:00",
+      "pub_ts": 1794293491
     },
     {
-      "id": "0390c673a8",
-      "title": "台积电否认！",
-      "url": "https://mp.weixin.qq.com/s/jF6fEFqNJzcBSNG67dplmg",
-      "summary": "台积电否认！",
+      "id": "6d2ad5fca0",
+      "title": "艾为电子，拟收购钰泰",
+      "url": "https://mp.weixin.qq.com/s/ak-tO6IpCkFjXUJKfC6BIw",
+      "summary": "艾为电子，拟收购钰泰",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-09T05:43:03.358898+00:00",
-      "pub_ts": 1794202983
+      "pub_date": "2026-11-10T06:51:31.314861+00:00",
+      "pub_ts": 1794293491
     },
     {
-      "id": "0bad2624b7",
-      "title": "EUV光刻机，太缺了，巨头疯抢",
-      "url": "https://mp.weixin.qq.com/s/gy_rpk0M3X7oD6nLKOeCug",
-      "summary": "EUV光刻机，太缺了，巨头疯抢",
+      "id": "d9b2dcefa7",
+      "title": "光刻机的软件测试，为什么要故意制造故障?",
+      "url": "https://mp.weixin.qq.com/s/KFMEp9wgNLzlaeTX0Xf6NA",
+      "summary": "光刻机的软件测试，为什么要故意制造故障?",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-09T05:43:03.358920+00:00",
-      "pub_ts": 1794202983
+      "pub_date": "2026-11-10T06:51:31.314875+00:00",
+      "pub_ts": 1794293491
     },
     {
-      "id": "380cd91230",
-      "title": "英伟达，悄然成为网络芯片龙头",
-      "url": "https://mp.weixin.qq.com/s/duNFUhTnGGc_VOV3pl4_ow",
-      "summary": "英伟达，悄然成为网络芯片龙头",
+      "id": "0851da97ec",
+      "title": "都在抢EUV光刻机！",
+      "url": "https://mp.weixin.qq.com/s/-yj8IFAL9a70gJJn8lsR6A",
+      "summary": "都在抢EUV光刻机！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-09T05:43:03.358939+00:00",
-      "pub_ts": 1794202983
+      "pub_date": "2026-11-10T06:51:31.314888+00:00",
+      "pub_ts": 1794293491
     },
     {
-      "id": "4adaac3e83",
-      "title": "分析师：芯片设备，大有可为",
-      "url": "https://mp.weixin.qq.com/s/2v5j8BFUMqr4Kttk5FRL_A",
-      "summary": "分析师：芯片设备，大有可为",
+      "id": "722affe495",
+      "title": "16位MCU，为何还没退场？",
+      "url": "https://mp.weixin.qq.com/s/BOJvuUBJU5IUp7BgE5UGUg",
+      "summary": "16位MCU，为何还没退场？",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-09T05:43:03.358957+00:00",
-      "pub_ts": 1794202983
+      "pub_date": "2026-11-10T06:51:31.314899+00:00",
+      "pub_ts": 1794293491
+    },
+    {
+      "id": "5dfca256b5",
+      "title": "Memory In Physical AI",
+      "url": "https://semiengineering.com/memory-in-physical-ai/",
+      "summary": "LPDDR6 becomes an essential ingredient as intelligence moves into autonomous and mobile edge systems.\nThe post Memory In Physical AI appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-11-09T08:15:21+00:00",
+      "pub_ts": 1794212121
+    },
+    {
+      "id": "59e6b89e1d",
+      "title": "The Optical Superhighway For AI",
+      "url": "https://semiengineering.com/the-optical-super-highway-for-ai/",
+      "summary": "Exponentially increasing AI compute performance requires exponential interconnect speeds.\nThe post The Optical Superhighway For AI appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-11-09T08:01:28+00:00",
+      "pub_ts": 1794211288
     },
     {
       "id": "3f83e6efab",
@@ -135,26 +155,6 @@
       "lang": "en",
       "pub_date": "2026-11-05T08:05:35+00:00",
       "pub_ts": 1793865935
-    },
-    {
-      "id": "9fe3b16821",
-      "title": "A System-Level Approach To Protecting 3D-IC Signal Integrity",
-      "url": "https://semiengineering.com/a-system-level-approach-to-protecting-3d-ic-signal-integrity/",
-      "summary": "Accurate SI analysis must account for interactions across vertical interconnects, interposers, silicon bridges, package transitions, and neighboring high-speed channels. \nThe post A System-Level Approach To Protecting 3D-IC Signal Integrity appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-11-05T08:04:55+00:00",
-      "pub_ts": 1793865895
-    },
-    {
-      "id": "e108a63eee",
-      "title": "Fitting AI Models To Edge Applications",
-      "url": "https://semiengineering.com/fitting-ai-models-to-edge-applications/",
-      "summary": "Compression can shrink AI models, but efficient edge deployment starts with matching the architecture to the workload and hardware limits.\nThe post Fitting AI Models To Edge Applications appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-11-05T08:04:08+00:00",
-      "pub_ts": 1793865848
     }
   ],
   "source_success_count": 3,

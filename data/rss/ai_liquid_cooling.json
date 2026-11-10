@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-11-09T05:43:31.316212+00:00",
+  "updated_at": "2026-11-10T06:52:04.074508+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "ed81942450",
-      "title": "AI接管一家8万Star开源公司，写代码、派任务、查Bug全包了",
-      "url": "https://mp.weixin.qq.com/s/LiYrfk3XQxZVV77w0rBy7A",
-      "summary": "AI接管一家8万Star开源公司，写代码、派任务、查Bug全包了",
+      "id": "1efd174ef9",
+      "title": "千问办公2.0卷向Team Agent，我们用它跑了一遍编辑部日常",
+      "url": "https://mp.weixin.qq.com/s/C0_oQlblkuB5ENSqP_dQaA",
+      "summary": "千问办公2.0卷向Team Agent，我们用它跑了一遍编辑部日常",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-09T05:43:27.127268+00:00",
-      "pub_ts": 1794203007
+      "pub_date": "2026-11-10T06:51:57.510068+00:00",
+      "pub_ts": 1794293517
     },
     {
-      "id": "eeeb993fb8",
-      "title": "2026年度A十大趋势征集中|量子位智库",
-      "url": "https://mp.weixin.qq.com/s/T9n8Fqloo4ZcxjB_O00ULw",
-      "summary": "2026年度A十大趋势征集中|量子位智库",
+      "id": "56c120a08e",
+      "title": "Claude「做梦」机制大公开！Al睡一觉学会通关宝可梦",
+      "url": "https://mp.weixin.qq.com/s/vbsbhNtH1aksrXhRnupHtA",
+      "summary": "Claude「做梦」机制大公开！Al睡一觉学会通关宝可梦",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-09T05:43:27.127310+00:00",
-      "pub_ts": 1794203007
+      "pub_date": "2026-11-10T06:51:57.510106+00:00",
+      "pub_ts": 1794293517
     },
     {
-      "id": "d25717074b",
-      "title": "GPT-6之后，具身大模型画地为牢！明年自研预算估计悬了",
-      "url": "https://mp.weixin.qq.com/s/GyNORQxK4l1Cq9YdGTbWSg",
-      "summary": "GPT-6之后，具身大模型画地为牢！明年自研预算估计悬了",
+      "id": "9a0f4f452d",
+      "title": "“AI毁了我的计算机学位”",
+      "url": "https://mp.weixin.qq.com/s/ORig6uSoiJjr41Eeitlc1A",
+      "summary": "“AI毁了我的计算机学位”",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-09T05:43:27.127330+00:00",
-      "pub_ts": 1794203007
+      "pub_date": "2026-11-10T06:51:57.510118+00:00",
+      "pub_ts": 1794293517
     },
     {
-      "id": "242ad4fdfc",
-      "title": "资本正在撤离“世界模型”",
-      "url": "https://mp.weixin.qq.com/s/8U3Lwbq2q0klDUTIy7LWNQ",
-      "summary": "资本正在撤离“世界模型”",
+      "id": "5aff0ddfe0",
+      "title": "具身智能出海，物流先行",
+      "url": "https://mp.weixin.qq.com/s/VhV3DCTXlln6aijp2hOSJA",
+      "summary": "具身智能出海，物流先行",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-09T05:43:27.127349+00:00",
-      "pub_ts": 1794203007
+      "pub_date": "2026-11-10T06:51:57.510130+00:00",
+      "pub_ts": 1794293517
     },
     {
-      "id": "8297bcb8cb",
-      "title": "Anthropic流血也要IPO！估值预期跌到不如SpaceX，马斯克纪录保住了",
-      "url": "https://mp.weixin.qq.com/s/k3SbXBWEt0II0lmVbbFKkA",
-      "summary": "Anthropic流血也要IPO！估值预期跌到不如SpaceX，马斯克纪录保住了",
+      "id": "ba57364b15",
+      "title": "倒计时一周|量子位2026人工智能年度榜单征集即将截止！",
+      "url": "https://mp.weixin.qq.com/s/WWewTSqRmYuIKqngy4TpgQ",
+      "summary": "倒计时一周|量子位2026人工智能年度榜单征集即将截止！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-09T05:43:27.127368+00:00",
-      "pub_ts": 1794203007
+      "pub_date": "2026-11-10T06:51:57.510141+00:00",
+      "pub_ts": 1794293517
     }
   ],
   "source_success_count": 1,

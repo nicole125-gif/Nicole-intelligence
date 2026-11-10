@@ -3,9 +3,39 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-11-09T05:44:01.545690+00:00",
+  "updated_at": "2026-11-10T06:52:27.862807+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "c3040c9566",
+      "title": "Network Bio partners with Duke University on AI disease models",
+      "url": "https://www.pharmaceutical-technology.com/news/network-bio-duke-university-ai-disease-models/",
+      "summary": "Network Bio has entered into a research collaboration with Duke University to develop AI models of human disease using biospecimens and clinical records.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-11-09T09:46:19+00:00",
+      "pub_ts": 1794217579
+    },
+    {
+      "id": "9ee50d143e",
+      "title": "Bio-Thera gains Chinese approval for spondylitis and rheumatoid arthritis drug",
+      "url": "https://www.pharmaceutical-technology.com/news/bio-thera-nmpa-authorisation-bat2506-china/",
+      "summary": "China's NMPA has granted marketing authorisation for Bio-Thera Solutions’ BAT2506 to treat ankylosing spondylitis and rheumatoid arthritis.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-11-09T09:40:15+00:00",
+      "pub_ts": 1794217215
+    },
+    {
+      "id": "27384fdf7a",
+      "title": "Lonza is doubling down on US and ADC expansion with its Merck CDMO deal",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/lonza-us-adc-expansion-merck/",
+      "summary": "Lonza’s deal to acquire almost all of Merck KGaA’s US CDMO network will significantly boost its US footprint and capabilities in key areas.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-11-06T16:03:34+00:00",
+      "pub_ts": 1793981014
+    },
     {
       "id": "170519227e",
       "title": "FDA expands J&J’s Rybrevant Faspro label with head and neck cancer approval",
@@ -25,36 +55,6 @@
       "lang": "en",
       "pub_date": "2026-11-06T11:01:46+00:00",
       "pub_ts": 1793962906
-    },
-    {
-      "id": "113be39636",
-      "title": "Armada to combine with Brains Bioceutical in $750m deal",
-      "url": "https://www.pharmaceutical-technology.com/news/armada-brains-bioceutical-combine-750m/",
-      "summary": "Armada Acquisition has entered a definitive business combination agreement with Brains Bioceutical that values the latter at an implied pre-money equity value of $750m.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-11-06T10:41:01+00:00",
-      "pub_ts": 1793961661
-    },
-    {
-      "id": "c38ad72fd7",
-      "title": "Alfasigma receives EC’s expanded approval for filgotinib to treat axSpA",
-      "url": "https://www.pharmaceutical-technology.com/news/alfasigma-ecs-expanded-approval-filgotinib-axspa/",
-      "summary": "Alfasigma has received the EC's expanded approval for Jyseleca to treat adult patients living with active axial spondyloarthritis (axSpA).",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-11-06T09:57:24+00:00",
-      "pub_ts": 1793959044
-    },
-    {
-      "id": "5d15684477",
-      "title": "Cordavis to stay in CVS Health after bifurcation of $117bn empire",
-      "url": "https://www.pharmaceutical-technology.com/news/cordavis-to-stay-in-cvs-health-after-bifurcation-of-117bn-empire/",
-      "summary": "Cordavis was established by CVS Health three years ago to capture more of the US biosimilar supply chain.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-11-05T16:10:59+00:00",
-      "pub_ts": 1793895059
     }
   ],
   "source_success_count": 1,
