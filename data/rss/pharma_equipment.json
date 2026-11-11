@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-11-10T06:52:27.862807+00:00",
+  "updated_at": "2026-11-11T05:41:55.070761+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "c3040c9566",
-      "title": "Network Bio partners with Duke University on AI disease models",
-      "url": "https://www.pharmaceutical-technology.com/news/network-bio-duke-university-ai-disease-models/",
-      "summary": "Network Bio has entered into a research collaboration with Duke University to develop AI models of human disease using biospecimens and clinical records.",
+      "id": "cac7c9b716",
+      "title": "VC funding in Europe falls short at early-stage investment hurdles",
+      "url": "https://www.pharmaceutical-technology.com/news/vc-funding-in-europe-falls-short-at-early-stage-investment-hurdles/",
+      "summary": "As larger late-stage funding gets a boost, biotechs struggle to secure Series A rounds to progress towards clinical development.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-09T09:46:19+00:00",
-      "pub_ts": 1794217579
+      "pub_date": "2026-11-10T17:17:47+00:00",
+      "pub_ts": 1794331067
     },
     {
-      "id": "9ee50d143e",
-      "title": "Bio-Thera gains Chinese approval for spondylitis and rheumatoid arthritis drug",
-      "url": "https://www.pharmaceutical-technology.com/news/bio-thera-nmpa-authorisation-bat2506-china/",
-      "summary": "China's NMPA has granted marketing authorisation for Bio-Thera Solutions’ BAT2506 to treat ankylosing spondylitis and rheumatoid arthritis.",
+      "id": "2f16b59312",
+      "title": "Pentagon drops WuXi AppTec from Chinese military company list",
+      "url": "https://www.pharmaceutical-technology.com/news/pentagon-drops-wuxi-apptec-from-chinese-military-company-list/",
+      "summary": "The decision means the CRDMO will no longer face any US national security repercussions.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-09T09:40:15+00:00",
-      "pub_ts": 1794217215
+      "pub_date": "2026-11-10T16:48:51+00:00",
+      "pub_ts": 1794329331
     },
     {
-      "id": "27384fdf7a",
-      "title": "Lonza is doubling down on US and ADC expansion with its Merck CDMO deal",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/lonza-us-adc-expansion-merck/",
-      "summary": "Lonza’s deal to acquire almost all of Merck KGaA’s US CDMO network will significantly boost its US footprint and capabilities in key areas.",
+      "id": "5e667a6fb6",
+      "title": "How Kenya has become a clinical logistics hub for sub-Saharan Africa",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/how-kenya-has-become-a-clinical-logistics-hub-for-sub-saharan-africa/",
+      "summary": "With Africa possessing immense potential for clinical trials that is largely untapped, Kenya has emerged as a strategic hub for clinical logistics.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-06T16:03:34+00:00",
-      "pub_ts": 1793981014
+      "pub_date": "2026-11-10T11:09:37+00:00",
+      "pub_ts": 1794308977
     },
     {
-      "id": "170519227e",
-      "title": "FDA expands J&J’s Rybrevant Faspro label with head and neck cancer approval",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-expands-jjs-rybrevant-faspro-label-with-head-and-neck-cancer-approval/",
-      "summary": "The accelerated approval marks the first indication beyond lung cancer for J&amp;J’s bispecific antibody.",
+      "id": "f482fa0269",
+      "title": "China’s burgeoning novel medicines success presents opportunity for Europe",
+      "url": "https://www.pharmaceutical-technology.com/news/bio-europe-2026-china-novel-medicines-success-presents-opportunity-for-europe/",
+      "summary": "Experts at BIO-Europe 2026 say that Europe should seize the opportunity to rethink its legacy approaches to keep up as China races ahead.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-06T11:34:03+00:00",
-      "pub_ts": 1793964843
+      "pub_date": "2026-11-10T10:41:37+00:00",
+      "pub_ts": 1794307297
     },
     {
-      "id": "47d1ffaefe",
-      "title": "MHRA champions patient voices through new policy",
-      "url": "https://www.pharmaceutical-technology.com/news/mhra-patient-public-involvement-engagement-plan-2026-2030/",
-      "summary": "Through its PPIE initiative, the MHRA plans to consider a diverse range of patient and public opinions when making regulatory decisions.",
+      "id": "e4ce701ecb",
+      "title": "Delix Therapeutics raises $100m for zalsupindole development",
+      "url": "https://www.pharmaceutical-technology.com/news/delix-raises-100m-zalsupindole-development/",
+      "summary": "Delix Therapeutics has secured $100m in an oversubscribed Series C financing round to fund the development of Zalsupindole, an orally bioavailable neuroplastogen.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-06T11:01:46+00:00",
-      "pub_ts": 1793962906
+      "pub_date": "2026-11-10T10:22:34+00:00",
+      "pub_ts": 1794306154
     }
   ],
   "source_success_count": 1,

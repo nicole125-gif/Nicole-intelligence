@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-11-10T06:52:04.074508+00:00",
+  "updated_at": "2026-11-11T05:41:32.635359+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "1efd174ef9",
-      "title": "千问办公2.0卷向Team Agent，我们用它跑了一遍编辑部日常",
-      "url": "https://mp.weixin.qq.com/s/C0_oQlblkuB5ENSqP_dQaA",
-      "summary": "千问办公2.0卷向Team Agent，我们用它跑了一遍编辑部日常",
+      "id": "ab2ba4f7d1",
+      "title": "从芯片到千比特整机，超导量子计算还有一场硬仗",
+      "url": "https://mp.weixin.qq.com/s/I-RmcIvZola23kx-oi-dDg",
+      "summary": "从芯片到千比特整机，超导量子计算还有一场硬仗",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-10T06:51:57.510068+00:00",
-      "pub_ts": 1794293517
+      "pub_date": "2026-11-11T05:41:27.991602+00:00",
+      "pub_ts": 1794375687
     },
     {
-      "id": "56c120a08e",
-      "title": "Claude「做梦」机制大公开！Al睡一觉学会通关宝可梦",
-      "url": "https://mp.weixin.qq.com/s/vbsbhNtH1aksrXhRnupHtA",
-      "summary": "Claude「做梦」机制大公开！Al睡一觉学会通关宝可梦",
+      "id": "ced6235c8a",
+      "title": "英伟达机器人开源撞上Fable5.2发布！JimFan：不是寒冬是夏天",
+      "url": "https://mp.weixin.qq.com/s/GYvDK_igD6IYB_aJqsv2Sw",
+      "summary": "英伟达机器人开源撞上Fable5.2发布！JimFan：不是寒冬是夏天",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-10T06:51:57.510106+00:00",
-      "pub_ts": 1794293517
+      "pub_date": "2026-11-11T05:41:27.991642+00:00",
+      "pub_ts": 1794375687
     },
     {
-      "id": "9a0f4f452d",
-      "title": "“AI毁了我的计算机学位”",
-      "url": "https://mp.weixin.qq.com/s/ORig6uSoiJjr41Eeitlc1A",
-      "summary": "“AI毁了我的计算机学位”",
+      "id": "1ca9f02fda",
+      "title": "Token卷到触觉了！机器人终于有了通用手感",
+      "url": "https://mp.weixin.qq.com/s/b7PNN5A3W8e1bZDVNTd5tg",
+      "summary": "Token卷到触觉了！机器人终于有了通用手感",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-10T06:51:57.510118+00:00",
-      "pub_ts": 1794293517
+      "pub_date": "2026-11-11T05:41:27.991665+00:00",
+      "pub_ts": 1794375687
     },
     {
-      "id": "5aff0ddfe0",
-      "title": "具身智能出海，物流先行",
-      "url": "https://mp.weixin.qq.com/s/VhV3DCTXlln6aijp2hOSJA",
-      "summary": "具身智能出海，物流先行",
+      "id": "4859aca39d",
+      "title": "Fable 5.2首批实测来了！网友：Opus突然不香了",
+      "url": "https://mp.weixin.qq.com/s/Y2OnlXqFEtb9APgfK_FebA",
+      "summary": "Fable 5.2首批实测来了！网友：Opus突然不香了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-10T06:51:57.510130+00:00",
-      "pub_ts": 1794293517
+      "pub_date": "2026-11-11T05:41:27.991685+00:00",
+      "pub_ts": 1794375687
     },
     {
-      "id": "ba57364b15",
-      "title": "倒计时一周|量子位2026人工智能年度榜单征集即将截止！",
-      "url": "https://mp.weixin.qq.com/s/WWewTSqRmYuIKqngy4TpgQ",
-      "summary": "倒计时一周|量子位2026人工智能年度榜单征集即将截止！",
+      "id": "88885bb90b",
+      "title": "100轮图像编辑这道「毙刷题」，新出的Seedream 5.5稳上来了!",
+      "url": "https://mp.weixin.qq.com/s/_OgVL6s3PIguqFN-WN1mhQ",
+      "summary": "100轮图像编辑这道「毙刷题」，新出的Seedream 5.5稳上来了!",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-10T06:51:57.510141+00:00",
-      "pub_ts": 1794293517
+      "pub_date": "2026-11-11T05:41:27.991705+00:00",
+      "pub_ts": 1794375687
     }
   ],
   "source_success_count": 1,

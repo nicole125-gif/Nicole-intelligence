@@ -3,9 +3,79 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-11-10T06:52:15.235008+00:00",
+  "updated_at": "2026-11-11T05:41:42.738113+00:00",
   "item_count": 10,
   "items": [
+    {
+      "id": "acc10569cd",
+      "title": "Hydrogen’s next big customer is the power grid, but most of it still runs on gas",
+      "url": "https://hydrogen-central.com/hydrogens-next-big-customer-is-the-power-grid-but-most-of-it-still-runs-on-gas/",
+      "summary": "Hydrogen’s next big customer is the power grid, but most of it still runs on gas &#8211; Hydrogen moves into power and data centres, but gas does the work first Welcome to Hydrogen Central: the hydrogen market in five minutes. Electrolyzers, projects, policy, offtake and M&#38;A, with the insight be…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-10T22:05:39+00:00",
+      "pub_ts": 1794348339
+    },
+    {
+      "id": "7eb047d910",
+      "title": "Korean Researchers Unveil 110 kW Hydrogen Fuel Cell Unmanned Tractor at KIEMSTA 2026",
+      "url": "https://fuelcellsworks.com/2026/11/09/fuel-cells/korean-researchers-unveil-110-kw-hydrogen-fuel-cell-unmanned-tractor-at-kiemsta-2026",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-10T17:10:48+00:00",
+      "pub_ts": 1794330648
+    },
+    {
+      "id": "d0ea8f2a40",
+      "title": "PowerCell Secures SEK 15 Million Order From H2SITE for Maritime Ammonia-to-Power Project in Norway",
+      "url": "https://fuelcellsworks.com/2026/11/10/electrolyzer/powercell-secures-sek-15-million-order-from-h2site-for-maritime-ammonia-to-power-project-in-norway",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-10T17:01:01+00:00",
+      "pub_ts": 1794330061
+    },
+    {
+      "id": "e350e20f3f",
+      "title": "Qiangyun's Hydrogen Refrigerated Truck Fleet Clears 6.35 Million Kilometres in Under a Year",
+      "url": "https://fuelcellsworks.com/2026/11/09/fuel-cells/qiangyun-s-hydrogen-refrigerated-truck-fleet-clears-6-35-million-kilometres-in-under-a-year",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-10T16:59:43+00:00",
+      "pub_ts": 1794329983
+    },
+    {
+      "id": "5531936505",
+      "title": "Mitsui Mining & Smelting and Kyoto University Develop MOF Glass Membrane for Next-Generation Hydrogen Production",
+      "url": "https://fuelcellsworks.com/2026/11/09/electrolyzer/mitsui-mining-and-smelting-and-kyoto-university-develop-mof-glass-membrane-for-next-generation-hydrogen-production",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-10T16:32:46+00:00",
+      "pub_ts": 1794328366
+    },
+    {
+      "id": "e8ccdeb129",
+      "title": "Hanwha Aerospace Obtains Korea's First Type Approval for Marine Hydrogen Fuel Cells",
+      "url": "https://fuelcellsworks.com/2026/11/10/fuel-cells/hanwha-aerospace-obtains-korea-s-first-type-approval-for-marine-hydrogen-fuel-cells",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-10T16:26:30+00:00",
+      "pub_ts": 1794327990
+    },
+    {
+      "id": "533731c6a3",
+      "title": "HDF Energy Selects Topsoe for 250 MW Power Plant in Texas – hydrogen fuel cells for data centers",
+      "url": "https://hydrogen-central.com/hdf-energy-selects-topsoe-for-250-mw-power-plant-in-texas-hydrogen-fuel-cells-for-data-centers/",
+      "summary": "HDF Energy Selects Topsoe for 250 MW Power Plant in Texas &#8211; hydrogen fuel cells for data centers HDF Energy&#8217;s BaseBlue Power™ plant solution will use Topsoe&#8217;s SynCOR™ technology to produce hydrogen from natural gas, capture CO₂ and power fuel cells to deliver firm, low-carbon elect…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-10T07:27:12+00:00",
+      "pub_ts": 1794295632
+    },
     {
       "id": "5dbe933b8f",
       "title": "Nikkiso cuts hydrogen boil-off at fueling stations thanks to next-generation pump",
@@ -35,76 +105,6 @@
       "lang": "en",
       "pub_date": "2026-11-10T05:52:53+00:00",
       "pub_ts": 1794289973
-    },
-    {
-      "id": "7c154e0fcb",
-      "title": "ErreDue wins 500,000 EUR contract for two plants for the jewelry sector – PEM technology",
-      "url": "https://hydrogen-central.com/erredue-wins-500000-eur-contract-for-two-plants-for-the-jewelry-sector-pem-technology/",
-      "summary": "ErreDue wins 500,000 EUR contract for two plants for the jewelry sector &#8211; PEM technology (Alliance News) &#8211; ErreDue Spa said Wednesday that it had signed a contract worth approximately €500,000 to supply two plants for the generation of hydrogen and oxygen to a jewelry manufacturing compa…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-10T05:50:08+00:00",
-      "pub_ts": 1794289808
-    },
-    {
-      "id": "0dba509be0",
-      "title": "Researchers, industry teaming up to help hydrogen fuel cells take flight",
-      "url": "https://hydrogen-central.com/researchers-industry-teaming-up-to-help-hydrogen-fuel-cells-take-flight/",
-      "summary": "Researchers, industry teaming up to help hydrogen fuel cells take flight UBC, Unilia, Harbour Air to explore lighter, more durable fuel cell technology for aviation A fuel cell powerful enough to help propel an aircraft needs to be light enough to leave the ground—and durable enough to keep working …",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-10T03:43:37+00:00",
-      "pub_ts": 1794282217
-    },
-    {
-      "id": "75859799ed",
-      "title": "Oxygenwerk Friedrichshafen Awards Contracts for 5 MW Hydrogen Plant in the Allgäu",
-      "url": "https://fuelcellsworks.com/2026/11/09/h2/oxygenwerk-friedrichshafen-awards-contracts-for-5-mw-hydrogen-plant-in-the-allgau",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-09T17:19:20+00:00",
-      "pub_ts": 1794244760
-    },
-    {
-      "id": "7a968e4f35",
-      "title": "Fuel Cell and Hydrogen News Highlights From China: Nov. 02-06, 2026",
-      "url": "https://fuelcellsworks.com/2026/11/08/clean-energy/fuel-cell-and-hydrogen-news-highlights-from-china-nov-02-06-2026",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-09T17:01:14+00:00",
-      "pub_ts": 1794243674
-    },
-    {
-      "id": "9dc50b5240",
-      "title": "Wärtsilä Backs Hydrogen and Ammonia Engine Research at Aalto University With €200,000 Donation",
-      "url": "https://fuelcellsworks.com/2026/11/09/green-investment/wartsila-backs-hydrogen-and-ammonia-engine-research-at-aalto-university-with-200-000-donation",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-09T16:51:29+00:00",
-      "pub_ts": 1794243089
-    },
-    {
-      "id": "0646cc2491",
-      "title": "German Hydrogen Storage Project Clears Leak Test as EWE Prepares 1,440-Tonne Cavern for 2028",
-      "url": "https://fuelcellsworks.com/2026/11/08/h2/german-hydrogen-storage-project-clears-key-test-as-ewe-prepares-1-440-tonne-cavern-for-2028",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-09T16:19:04+00:00",
-      "pub_ts": 1794241144
-    },
-    {
-      "id": "3068ef0ffb",
-      "title": "Researchers, Industry Teaming up to Help Hydrogen Fuel Cells Take Flight",
-      "url": "https://fuelcellsworks.com/2026/11/01/fuel-cells/researchers-industry-teaming-up-to-help-hydrogen-fuel-cells-take-flight",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-09T16:05:51+00:00",
-      "pub_ts": 1794240351
     }
   ],
   "source_success_count": 2,
