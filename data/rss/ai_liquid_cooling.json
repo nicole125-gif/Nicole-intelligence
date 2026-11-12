@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-11-11T05:41:32.635359+00:00",
+  "updated_at": "2026-11-12T06:47:26.630809+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "ab2ba4f7d1",
-      "title": "从芯片到千比特整机，超导量子计算还有一场硬仗",
-      "url": "https://mp.weixin.qq.com/s/I-RmcIvZola23kx-oi-dDg",
-      "summary": "从芯片到千比特整机，超导量子计算还有一场硬仗",
+      "id": "3865ad61b7",
+      "title": "纯代码造《后室》，116秒切20种画风！文心新模型玩嗨了",
+      "url": "https://mp.weixin.qq.com/s/Rj-T8unLFnHUk6R89rt02Q",
+      "summary": "纯代码造《后室》，116秒切20种画风！文心新模型玩嗨了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-11T05:41:27.991602+00:00",
-      "pub_ts": 1794375687
+      "pub_date": "2026-11-12T06:47:22.112632+00:00",
+      "pub_ts": 1794466042
     },
     {
-      "id": "ced6235c8a",
-      "title": "英伟达机器人开源撞上Fable5.2发布！JimFan：不是寒冬是夏天",
-      "url": "https://mp.weixin.qq.com/s/GYvDK_igD6IYB_aJqsv2Sw",
-      "summary": "英伟达机器人开源撞上Fable5.2发布！JimFan：不是寒冬是夏天",
+      "id": "93146fc233",
+      "title": "Claude狂挖3.8万个漏洞，竟然管挖不管埋？！",
+      "url": "https://mp.weixin.qq.com/s/0WWCQ28eAuPxcMzivKhI9A",
+      "summary": "Claude狂挖3.8万个漏洞，竟然管挖不管埋？！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-11T05:41:27.991642+00:00",
-      "pub_ts": 1794375687
+      "pub_date": "2026-11-12T06:47:22.112671+00:00",
+      "pub_ts": 1794466042
     },
     {
-      "id": "1ca9f02fda",
-      "title": "Token卷到触觉了！机器人终于有了通用手感",
-      "url": "https://mp.weixin.qq.com/s/b7PNN5A3W8e1bZDVNTd5tg",
-      "summary": "Token卷到触觉了！机器人终于有了通用手感",
+      "id": "01a927e686",
+      "title": "越值钱的任务，信号反而越弱！个性化依赖图破解多任务推荐的“信号...",
+      "url": "https://mp.weixin.qq.com/s/ZJ2LlkFTpgPbVL1DP9SGDQ",
+      "summary": "越值钱的任务，信号反而越弱！个性化依赖图破解多任务推荐的“信号...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-11T05:41:27.991665+00:00",
-      "pub_ts": 1794375687
+      "pub_date": "2026-11-12T06:47:22.112689+00:00",
+      "pub_ts": 1794466042
     },
     {
-      "id": "4859aca39d",
-      "title": "Fable 5.2首批实测来了！网友：Opus突然不香了",
-      "url": "https://mp.weixin.qq.com/s/Y2OnlXqFEtb9APgfK_FebA",
-      "summary": "Fable 5.2首批实测来了！网友：Opus突然不香了",
+      "id": "c52f6380ca",
+      "title": "机器人接管酒店洗衣！双脑协同+RSI，顶级Astra驾驶员来了",
+      "url": "https://mp.weixin.qq.com/s/fD4uYivyvjH3BJKCKUj_KQ",
+      "summary": "机器人接管酒店洗衣！双脑协同+RSI，顶级Astra驾驶员来了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-11T05:41:27.991685+00:00",
-      "pub_ts": 1794375687
+      "pub_date": "2026-11-12T06:47:22.112705+00:00",
+      "pub_ts": 1794466042
     },
     {
-      "id": "88885bb90b",
-      "title": "100轮图像编辑这道「毙刷题」，新出的Seedream 5.5稳上来了!",
-      "url": "https://mp.weixin.qq.com/s/_OgVL6s3PIguqFN-WN1mhQ",
-      "summary": "100轮图像编辑这道「毙刷题」，新出的Seedream 5.5稳上来了!",
+      "id": "69c343a237",
+      "title": "Gemini具身RSI发布！御三家连续暴击垂直具身模型，太惨了",
+      "url": "https://mp.weixin.qq.com/s/HVQjjdnKI0mdhWYubWFbIA",
+      "summary": "Gemini具身RSI发布！御三家连续暴击垂直具身模型，太惨了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-11T05:41:27.991705+00:00",
-      "pub_ts": 1794375687
+      "pub_date": "2026-11-12T06:47:22.112721+00:00",
+      "pub_ts": 1794466042
     }
   ],
   "source_success_count": 1,

@@ -3,108 +3,108 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-11-11T05:41:42.738113+00:00",
+  "updated_at": "2026-11-12T06:47:37.476040+00:00",
   "item_count": 10,
   "items": [
     {
-      "id": "acc10569cd",
-      "title": "Hydrogen’s next big customer is the power grid, but most of it still runs on gas",
-      "url": "https://hydrogen-central.com/hydrogens-next-big-customer-is-the-power-grid-but-most-of-it-still-runs-on-gas/",
-      "summary": "Hydrogen’s next big customer is the power grid, but most of it still runs on gas &#8211; Hydrogen moves into power and data centres, but gas does the work first Welcome to Hydrogen Central: the hydrogen market in five minutes. Electrolyzers, projects, policy, offtake and M&#38;A, with the insight be…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-10T22:05:39+00:00",
-      "pub_ts": 1794348339
-    },
-    {
-      "id": "7eb047d910",
-      "title": "Korean Researchers Unveil 110 kW Hydrogen Fuel Cell Unmanned Tractor at KIEMSTA 2026",
-      "url": "https://fuelcellsworks.com/2026/11/09/fuel-cells/korean-researchers-unveil-110-kw-hydrogen-fuel-cell-unmanned-tractor-at-kiemsta-2026",
+      "id": "6521c04fa8",
+      "title": "Spain’s Enagás Picks AI-Based Predictive Maintenance Technology for Future Hydrogen Grid",
+      "url": "https://fuelcellsworks.com/2026/11/11/h2/spain-s-enagas-picks-ai-based-predictive-maintenance-technology-for-future-hydrogen-grid",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-10T17:10:48+00:00",
-      "pub_ts": 1794330648
+      "pub_date": "2026-11-11T16:22:17+00:00",
+      "pub_ts": 1794414137
     },
     {
-      "id": "d0ea8f2a40",
-      "title": "PowerCell Secures SEK 15 Million Order From H2SITE for Maritime Ammonia-to-Power Project in Norway",
-      "url": "https://fuelcellsworks.com/2026/11/10/electrolyzer/powercell-secures-sek-15-million-order-from-h2site-for-maritime-ammonia-to-power-project-in-norway",
+      "id": "f4c92bf6f0",
+      "title": "Hydri Inaugurates Its Eleventh Green Hydrogen Filling Station in Hofors",
+      "url": "https://fuelcellsworks.com/2026/11/10/electrolyzer/hydri-inaugurates-its-eleventh-green-hydrogen-filling-station-in-hofors",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-10T17:01:01+00:00",
-      "pub_ts": 1794330061
+      "pub_date": "2026-11-11T16:08:20+00:00",
+      "pub_ts": 1794413300
     },
     {
-      "id": "e350e20f3f",
-      "title": "Qiangyun's Hydrogen Refrigerated Truck Fleet Clears 6.35 Million Kilometres in Under a Year",
-      "url": "https://fuelcellsworks.com/2026/11/09/fuel-cells/qiangyun-s-hydrogen-refrigerated-truck-fleet-clears-6-35-million-kilometres-in-under-a-year",
+      "id": "6eb4de6130",
+      "title": "Teesside Airport plans solar power and hydrogen network",
+      "url": "https://hydrogen-central.com/teesside-airport-plans-solar-power-and-hydrogen-network/",
+      "summary": "Teesside Airport plans solar power and hydrogen network The airport has teamed up with renewable energy specialists Geo Green Power to generate 1.4MW of solar power on site, with plans to expand as demand grows. The project supports the airport’s aim to become operationally net zero by 2030 and lead…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-11T16:06:44+00:00",
+      "pub_ts": 1794413204
+    },
+    {
+      "id": "e953a72903",
+      "title": "Técnicas Reunidas expands its presence in Africa with a hydrogen project in Ethiopia",
+      "url": "https://hydrogen-central.com/tecnicas-reunidas-expands-its-presence-in-africa-with-a-hydrogen-project-in-ethiopia/",
+      "summary": "Técnicas Reunidas expands its presence in Africa with a hydrogen project in Ethiopia Madrid, 28 October 2026.- The multinational Dangote Group has awarded Técnicas Reunidas the contract to supply two hydrogen production reformers for the new ammonia and urea fertilizer complex it is developing in Go…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-11T16:03:59+00:00",
+      "pub_ts": 1794413039
+    },
+    {
+      "id": "2cad08737c",
+      "title": "KAIST Develops Ruthenium Catalyst that Matches Platinum in Hydrogen Production Using One-Quarter as Much Precious Metal",
+      "url": "https://hydrogen-central.com/kaist-develops-ruthenium-catalyst-that-matches-platinum-in-hydrogen-production-using-one-quarter-as-much-precious-metal/",
+      "summary": "KAIST Develops Ruthenium Catalyst that Matches Platinum in Hydrogen Production Using One-Quarter as Much Precious Metal Newswise — Lowering the cost of green hydrogen production requires catalysts that produce hydrogen efficiently while using smaller amounts of expensive precious metals. A Korean re…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-11T16:03:48+00:00",
+      "pub_ts": 1794413028
+    },
+    {
+      "id": "f3c5ed9e38",
+      "title": "Ballard launches HPU – Hydrogen Power Unit – Agile-H: 80kW of clean power in a lightweight, towable unit",
+      "url": "https://hydrogen-central.com/ballard-launches-hpu-hydrogen-power-unit-agile-h-80kw-of-clean-power-in-a-lightweight-towable-unit/",
+      "summary": "Ballard launches HPU &#8211; Hydrogen Power Unit &#8211; Agile-H: 80kW of clean power in a lightweight, towable unit Designed by GeoPura, manufactured by Siemens Energy and powered by a Ballard fuel cell, HPU Agile-H is available to pre-order now for delivery in Q1 2027 HPU Agile-H VANCOUVER, BC and…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-11T16:00:16+00:00",
+      "pub_ts": 1794412816
+    },
+    {
+      "id": "c636abad75",
+      "title": "First green hydrogen produced in Bad Lauchstädt",
+      "url": "https://hydrogen-central.com/first-green-hydrogen-produced-in-bad-lauchstadt/",
+      "summary": "First green hydrogen produced in Bad Lauchstädt Wind power is converted into gas for industrial use. Before it can be put to its intended use in Leuna, the interaction between the various systems must still be tested. &#8220;Green hydrogen&#8221; has been produced for the first time at the Bad Lauch…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-11T15:59:57+00:00",
+      "pub_ts": 1794412797
+    },
+    {
+      "id": "9266e2ed0f",
+      "title": "Smoltek and Hyworx Sign LOI to Validate Low-Iridium Electrodes in PEM Electrolyzer Stacks",
+      "url": "https://fuelcellsworks.com/2026/11/10/electrolyzer/smoltek-and-hyworx-sign-loi-to-validate-low-iridium-electrodes-in-pem-electrolyzer-stacks",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-10T16:59:43+00:00",
-      "pub_ts": 1794329983
+      "pub_date": "2026-11-11T15:54:27+00:00",
+      "pub_ts": 1794412467
     },
     {
-      "id": "5531936505",
-      "title": "Mitsui Mining & Smelting and Kyoto University Develop MOF Glass Membrane for Next-Generation Hydrogen Production",
-      "url": "https://fuelcellsworks.com/2026/11/09/electrolyzer/mitsui-mining-and-smelting-and-kyoto-university-develop-mof-glass-membrane-for-next-generation-hydrogen-production",
+      "id": "4c0c95253d",
+      "title": "German Nuclear Regulator to Release Study on Safety of Hydrogen Production From Nuclear Power",
+      "url": "https://fuelcellsworks.com/2026/11/11/h2/german-nuclear-regulator-to-release-study-on-safety-of-hydrogen-production-from-nuclear-power",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-10T16:32:46+00:00",
-      "pub_ts": 1794328366
+      "pub_date": "2026-11-11T15:52:07+00:00",
+      "pub_ts": 1794412327
     },
     {
-      "id": "e8ccdeb129",
-      "title": "Hanwha Aerospace Obtains Korea's First Type Approval for Marine Hydrogen Fuel Cells",
-      "url": "https://fuelcellsworks.com/2026/11/10/fuel-cells/hanwha-aerospace-obtains-korea-s-first-type-approval-for-marine-hydrogen-fuel-cells",
+      "id": "bb59ca6616",
+      "title": "Hyundai Motor Group Unveils ‘Future Hydrogen City’  at 'WHE 2026'",
+      "url": "https://fuelcellsworks.com/2026/11/09/h2/hyundai-motor-group-unveils-future-hydrogen-city-at-whe-2026",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-10T16:26:30+00:00",
-      "pub_ts": 1794327990
-    },
-    {
-      "id": "533731c6a3",
-      "title": "HDF Energy Selects Topsoe for 250 MW Power Plant in Texas – hydrogen fuel cells for data centers",
-      "url": "https://hydrogen-central.com/hdf-energy-selects-topsoe-for-250-mw-power-plant-in-texas-hydrogen-fuel-cells-for-data-centers/",
-      "summary": "HDF Energy Selects Topsoe for 250 MW Power Plant in Texas &#8211; hydrogen fuel cells for data centers HDF Energy&#8217;s BaseBlue Power™ plant solution will use Topsoe&#8217;s SynCOR™ technology to produce hydrogen from natural gas, capture CO₂ and power fuel cells to deliver firm, low-carbon elect…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-10T07:27:12+00:00",
-      "pub_ts": 1794295632
-    },
-    {
-      "id": "5dbe933b8f",
-      "title": "Nikkiso cuts hydrogen boil-off at fueling stations thanks to next-generation pump",
-      "url": "https://hydrogen-central.com/nikkiso-cuts-hydrogen-boil-off-at-fueling-stations-thanks-to-next-generation-pump/",
-      "summary": "Nikkiso cuts hydrogen boil-off at fueling stations thanks to next-generation pump Temecula, Calif. – Nikkiso Clean Energy &#38; Industrial Gases Group has today announced an industry-leading solution to high boil-off gas rates at hydrogen fueling stations with the launch of a next-generation recipro…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-10T05:54:55+00:00",
-      "pub_ts": 1794290095
-    },
-    {
-      "id": "98b2e6dcb4",
-      "title": "thyssenkrupp nucera – Three Things Europe Needs to Turn Hydrogen Ambition Into Industrial Reality",
-      "url": "https://hydrogen-central.com/thyssenkrupp-nucera-three-things-europe-needs-to-turn-hydrogen-ambition-into-industrial-reality/",
-      "summary": "thyssenkrupp nucera &#8211; Three Things Europe Needs to Turn Hydrogen Ambition Into Industrial Reality An electrolyzer is not something you buy for next year. You buy it for the next 20 or 30 years. That is a long time in business – and an even longer time in politics. When our customers invest in …",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-10T05:53:06+00:00",
-      "pub_ts": 1794289986
-    },
-    {
-      "id": "1c43ff0f8a",
-      "title": "Greenfield Global and European Energy sign joint venture to establish a platform for large-scale e-methanol production in Québec, Canada",
-      "url": "https://hydrogen-central.com/greenfield-global-and-european-energy-sign-joint-venture-to-establish-a-platform-for-large-scale-e-methanol-production-in-quebec-canada/",
-      "summary": "Greenfield Global and European Energy sign joint venture to establish a platform for large-scale e-methanol production in Québec, Canada The planned facility will have an annual production capacity of 48,000 tonnes of e-methanol, combining renewable electricity with biogenic CO₂ from Greenfield Glob…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-10T05:52:53+00:00",
-      "pub_ts": 1794289973
+      "pub_date": "2026-11-11T15:40:36+00:00",
+      "pub_ts": 1794411636
     }
   ],
   "source_success_count": 2,

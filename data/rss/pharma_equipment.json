@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-11-11T05:41:55.070761+00:00",
+  "updated_at": "2026-11-12T06:47:49.993261+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "cac7c9b716",
-      "title": "VC funding in Europe falls short at early-stage investment hurdles",
-      "url": "https://www.pharmaceutical-technology.com/news/vc-funding-in-europe-falls-short-at-early-stage-investment-hurdles/",
-      "summary": "As larger late-stage funding gets a boost, biotechs struggle to secure Series A rounds to progress towards clinical development.",
+      "id": "d094bd19c1",
+      "title": "AstraZeneca acquires bacterial vaccine biotech, Omniose",
+      "url": "https://www.pharmaceutical-technology.com/news/astrazeneca-omniose-acquisition-bacterial-infection/",
+      "summary": "Omniose is developing a bioconjugate platform to create vaccines against multidrug resistant superbugs as anti-microbial resistance rises.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-10T17:17:47+00:00",
-      "pub_ts": 1794331067
+      "pub_date": "2026-11-11T14:58:52+00:00",
+      "pub_ts": 1794409132
     },
     {
-      "id": "2f16b59312",
-      "title": "Pentagon drops WuXi AppTec from Chinese military company list",
-      "url": "https://www.pharmaceutical-technology.com/news/pentagon-drops-wuxi-apptec-from-chinese-military-company-list/",
-      "summary": "The decision means the CRDMO will no longer face any US national security repercussions.",
+      "id": "5803005086",
+      "title": "Australia’s largest early-phase clinical trial network expands to Sydney",
+      "url": "https://www.pharmaceutical-technology.com/sponsored/australias-largest-early-phase-clinical-trial-network-expands-to-sydney/",
+      "summary": "",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-10T16:48:51+00:00",
-      "pub_ts": 1794329331
+      "pub_date": "2026-11-11T14:52:48+00:00",
+      "pub_ts": 1794408768
     },
     {
-      "id": "5e667a6fb6",
-      "title": "How Kenya has become a clinical logistics hub for sub-Saharan Africa",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/how-kenya-has-become-a-clinical-logistics-hub-for-sub-saharan-africa/",
-      "summary": "With Africa possessing immense potential for clinical trials that is largely untapped, Kenya has emerged as a strategic hub for clinical logistics.",
+      "id": "b8eb1850a7",
+      "title": "Longevity sector ambitions outpace regulatory and investment frameworks",
+      "url": "https://www.pharmaceutical-technology.com/news/longevity-sector-ambitions-outpace-regulatory-and-investment-frameworks/",
+      "summary": "While investment appetite for longevity is growing, biotech valuations still depend on classic disease-led data packages.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-10T11:09:37+00:00",
-      "pub_ts": 1794308977
+      "pub_date": "2026-11-11T14:16:45+00:00",
+      "pub_ts": 1794406605
     },
     {
-      "id": "f482fa0269",
-      "title": "China’s burgeoning novel medicines success presents opportunity for Europe",
-      "url": "https://www.pharmaceutical-technology.com/news/bio-europe-2026-china-novel-medicines-success-presents-opportunity-for-europe/",
-      "summary": "Experts at BIO-Europe 2026 say that Europe should seize the opportunity to rethink its legacy approaches to keep up as China races ahead.",
+      "id": "e280a23a56",
+      "title": "Moderna’s CEO eyes Keytruda-eclipsing future for personalised cancer vaccine",
+      "url": "https://www.pharmaceutical-technology.com/news/modernas-ceo-eyes-keytruda-eclipsing-future-for-personalised-cancer-vaccine/",
+      "summary": "Analysts have placed intismeran central to Moderna’s long-term growth beyond infectious diseases.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-10T10:41:37+00:00",
-      "pub_ts": 1794307297
+      "pub_date": "2026-11-11T11:27:05+00:00",
+      "pub_ts": 1794396425
     },
     {
-      "id": "e4ce701ecb",
-      "title": "Delix Therapeutics raises $100m for zalsupindole development",
-      "url": "https://www.pharmaceutical-technology.com/news/delix-raises-100m-zalsupindole-development/",
-      "summary": "Delix Therapeutics has secured $100m in an oversubscribed Series C financing round to fund the development of Zalsupindole, an orally bioavailable neuroplastogen.",
+      "id": "f0fbe974af",
+      "title": "ProBio signs global antibody licensing deal with AbTis",
+      "url": "https://www.pharmaceutical-technology.com/news/probio-global-antibody-licensing-deal-abtis/",
+      "summary": "ProBio has entered into an exclusive worldwide licensing agreement with South Korean biotechnology firm AbTis to develop and commercialise an early-stage therapeutic antibody asset.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-10T10:22:34+00:00",
-      "pub_ts": 1794306154
+      "pub_date": "2026-11-11T10:42:24+00:00",
+      "pub_ts": 1794393744
     }
   ],
   "source_success_count": 1,
