@@ -3,108 +3,108 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-11-12T06:47:37.476040+00:00",
+  "updated_at": "2026-11-13T06:03:44.860816+00:00",
   "item_count": 10,
   "items": [
     {
-      "id": "6521c04fa8",
-      "title": "Spain’s Enagás Picks AI-Based Predictive Maintenance Technology for Future Hydrogen Grid",
-      "url": "https://fuelcellsworks.com/2026/11/11/h2/spain-s-enagas-picks-ai-based-predictive-maintenance-technology-for-future-hydrogen-grid",
+      "id": "d2b1569370",
+      "title": "Hyundai’s HTWO Guangzhou Puts Next-Generation Hydrogen Fuel Cell System Into Local Mass Production",
+      "url": "https://fuelcellsworks.com/2026/11/11/electrolyzer/hyundai-s-htwo-guangzhou-puts-next-generation-hydrogen-fuel-cell-system-into-local-mass-production",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-11T16:22:17+00:00",
-      "pub_ts": 1794414137
+      "pub_date": "2026-11-12T16:45:29+00:00",
+      "pub_ts": 1794501929
     },
     {
-      "id": "f4c92bf6f0",
-      "title": "Hydri Inaugurates Its Eleventh Green Hydrogen Filling Station in Hofors",
-      "url": "https://fuelcellsworks.com/2026/11/10/electrolyzer/hydri-inaugurates-its-eleventh-green-hydrogen-filling-station-in-hofors",
+      "id": "734eebfabd",
+      "title": "Meta Buys Green Steel Certificates From Stegra’s 740MW Hydrogen-Based Plant in Sweden",
+      "url": "https://fuelcellsworks.com/2026/11/12/h2/meta-buys-green-steel-certificates-from-stegra-s-740mw-hydrogen-based-plant-in-sweden",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-11T16:08:20+00:00",
-      "pub_ts": 1794413300
+      "pub_date": "2026-11-12T16:37:17+00:00",
+      "pub_ts": 1794501437
     },
     {
-      "id": "6eb4de6130",
-      "title": "Teesside Airport plans solar power and hydrogen network",
-      "url": "https://hydrogen-central.com/teesside-airport-plans-solar-power-and-hydrogen-network/",
-      "summary": "Teesside Airport plans solar power and hydrogen network The airport has teamed up with renewable energy specialists Geo Green Power to generate 1.4MW of solar power on site, with plans to expand as demand grows. The project supports the airport’s aim to become operationally net zero by 2030 and lead…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-11T16:06:44+00:00",
-      "pub_ts": 1794413204
-    },
-    {
-      "id": "e953a72903",
-      "title": "Técnicas Reunidas expands its presence in Africa with a hydrogen project in Ethiopia",
-      "url": "https://hydrogen-central.com/tecnicas-reunidas-expands-its-presence-in-africa-with-a-hydrogen-project-in-ethiopia/",
-      "summary": "Técnicas Reunidas expands its presence in Africa with a hydrogen project in Ethiopia Madrid, 28 October 2026.- The multinational Dangote Group has awarded Técnicas Reunidas the contract to supply two hydrogen production reformers for the new ammonia and urea fertilizer complex it is developing in Go…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-11T16:03:59+00:00",
-      "pub_ts": 1794413039
-    },
-    {
-      "id": "2cad08737c",
-      "title": "KAIST Develops Ruthenium Catalyst that Matches Platinum in Hydrogen Production Using One-Quarter as Much Precious Metal",
-      "url": "https://hydrogen-central.com/kaist-develops-ruthenium-catalyst-that-matches-platinum-in-hydrogen-production-using-one-quarter-as-much-precious-metal/",
-      "summary": "KAIST Develops Ruthenium Catalyst that Matches Platinum in Hydrogen Production Using One-Quarter as Much Precious Metal Newswise — Lowering the cost of green hydrogen production requires catalysts that produce hydrogen efficiently while using smaller amounts of expensive precious metals. A Korean re…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-11T16:03:48+00:00",
-      "pub_ts": 1794413028
-    },
-    {
-      "id": "f3c5ed9e38",
-      "title": "Ballard launches HPU – Hydrogen Power Unit – Agile-H: 80kW of clean power in a lightweight, towable unit",
-      "url": "https://hydrogen-central.com/ballard-launches-hpu-hydrogen-power-unit-agile-h-80kw-of-clean-power-in-a-lightweight-towable-unit/",
-      "summary": "Ballard launches HPU &#8211; Hydrogen Power Unit &#8211; Agile-H: 80kW of clean power in a lightweight, towable unit Designed by GeoPura, manufactured by Siemens Energy and powered by a Ballard fuel cell, HPU Agile-H is available to pre-order now for delivery in Q1 2027 HPU Agile-H VANCOUVER, BC and…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-11T16:00:16+00:00",
-      "pub_ts": 1794412816
-    },
-    {
-      "id": "c636abad75",
-      "title": "First green hydrogen produced in Bad Lauchstädt",
-      "url": "https://hydrogen-central.com/first-green-hydrogen-produced-in-bad-lauchstadt/",
-      "summary": "First green hydrogen produced in Bad Lauchstädt Wind power is converted into gas for industrial use. Before it can be put to its intended use in Leuna, the interaction between the various systems must still be tested. &#8220;Green hydrogen&#8221; has been produced for the first time at the Bad Lauch…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-11T15:59:57+00:00",
-      "pub_ts": 1794412797
-    },
-    {
-      "id": "9266e2ed0f",
-      "title": "Smoltek and Hyworx Sign LOI to Validate Low-Iridium Electrodes in PEM Electrolyzer Stacks",
-      "url": "https://fuelcellsworks.com/2026/11/10/electrolyzer/smoltek-and-hyworx-sign-loi-to-validate-low-iridium-electrodes-in-pem-electrolyzer-stacks",
+      "id": "c03bc551b1",
+      "title": "50 Hydrogen Trucks Enter Service as China Expands Chengdu-Chongqing Freight Corridor",
+      "url": "https://fuelcellsworks.com/2026/11/11/fuel-cells/50-hydrogen-trucks-enter-service-as-china-expands-chengdu-chongqing-freight-corridor",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-11T15:54:27+00:00",
-      "pub_ts": 1794412467
+      "pub_date": "2026-11-12T16:23:17+00:00",
+      "pub_ts": 1794500597
     },
     {
-      "id": "4c0c95253d",
-      "title": "German Nuclear Regulator to Release Study on Safety of Hydrogen Production From Nuclear Power",
-      "url": "https://fuelcellsworks.com/2026/11/11/h2/german-nuclear-regulator-to-release-study-on-safety-of-hydrogen-production-from-nuclear-power",
+      "id": "eac5091ca1",
+      "title": "Fuel-Cell Developers Target Floating Data Centres with New Power System Partnership",
+      "url": "https://fuelcellsworks.com/2026/11/09/electrolyzer/samsung-heavy-industries-and-morimura-sofc-technology-team-up-on-fuel-cells-for-floating-data-centers",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-11T15:52:07+00:00",
-      "pub_ts": 1794412327
+      "pub_date": "2026-11-12T16:13:46+00:00",
+      "pub_ts": 1794500026
     },
     {
-      "id": "bb59ca6616",
-      "title": "Hyundai Motor Group Unveils ‘Future Hydrogen City’  at 'WHE 2026'",
-      "url": "https://fuelcellsworks.com/2026/11/09/h2/hyundai-motor-group-unveils-future-hydrogen-city-at-whe-2026",
+      "id": "20aad87793",
+      "title": "Estonia begins route planning for European hydrogen corridor",
+      "url": "https://hydrogen-central.com/estonia-begins-route-planning-for-european-hydrogen-corridor/",
+      "summary": "Estonia begins route planning for European hydrogen corridor Hydrogen is on the rise. Estonian environmental planning company Hendrikson &#38; Ko has been selected to prepare the national spatial plan for Estonia’s section of a European hydrogen corridor linking producers in Finland with major indus…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-12T16:06:55+00:00",
+      "pub_ts": 1794499615
+    },
+    {
+      "id": "f0effa8da8",
+      "title": "Max Power Expands Scale of Saskatchewan Natural Hydrogen System With Lawson 5, Commences Follow-Up Well",
+      "url": "https://hydrogen-central.com/max-power-expands-scale-of-saskatchewan-natural-hydrogen-system-with-lawson-5-commences-follow-up-well/",
+      "summary": "Max Power Expands Scale of Saskatchewan Natural Hydrogen System With Lawson 5, Commences Follow-Up Well Lawson 5 near the western edge of the Prairie Evaporite has confirmed an active, generative Natural Hydrogen system in a 30-km step-out from the first four wells within the Lawson Complex near Cen…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-12T16:04:30+00:00",
+      "pub_ts": 1794499470
+    },
+    {
+      "id": "a42ea77abd",
+      "title": "UK – Testing and validating underground hydrogen storage components",
+      "url": "https://hydrogen-central.com/uk-testing-and-validating-underground-hydrogen-storage-components/",
+      "summary": "UK &#8211; Testing and validating underground hydrogen storage components UK registered organisations can apply for a share of up to £5 million for a collaborative programme to accelerate the development and validation of critical technologies needed for the safe, reliable and cost effective use of …",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-12T16:04:16+00:00",
+      "pub_ts": 1794499456
+    },
+    {
+      "id": "8bea118253",
+      "title": "Amogy and HD Construction Equipment Complete Ammonia-to-Power Test Ahead of 2027 Pohang Launch",
+      "url": "https://fuelcellsworks.com/2026/11/12/h2/amogy-and-hd-construction-equipment-complete-ammonia-to-power-test-ahead-of-2027-pohang-launch",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-11T15:40:36+00:00",
-      "pub_ts": 1794411636
+      "pub_date": "2026-11-12T16:01:03+00:00",
+      "pub_ts": 1794499263
+    },
+    {
+      "id": "1fc95d60c7",
+      "title": "EBARA Opens World’s First Commercial-Scale Liquid Hydrogen Pump Test Center and Manufacturing Hub",
+      "url": "https://hydrogen-central.com/ebara-opens-worlds-first-commercial-scale-liquid-hydrogen-pump-test-center-and-manufacturing-hub/",
+      "summary": "EBARA Opens World’s First Commercial-Scale Liquid Hydrogen Pump Test Center and Manufacturing Hub EBARA announced the official opening of the Futtsu District 2nd in Chiba Prefecture, Japan, featuring &#8220;E-HYETEC&#8221;—the world’s first commercial-scale product test center for liquid hydrogen pu…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-12T16:00:43+00:00",
+      "pub_ts": 1794499243
+    },
+    {
+      "id": "498b17cc74",
+      "title": "Höegh taps BYD batteries for ammonia powered car carrier",
+      "url": "https://hydrogen-central.com/hoegh-taps-byd-batteries-for-ammonia-powered-car-carrier/",
+      "summary": "Höegh taps BYD batteries for ammonia powered car carrier Norwegian car carrier operator Höegh Autoliners has signed a deal with Chinese battery giant BYD to install energy storage technology aboard an ammonia-capable newbuilding, bringing together four different energy technologies on a deepsea vess…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-12T16:00:31+00:00",
+      "pub_ts": 1794499231
     }
   ],
   "source_success_count": 2,

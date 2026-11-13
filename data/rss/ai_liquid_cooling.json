@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-11-12T06:47:26.630809+00:00",
+  "updated_at": "2026-11-13T06:03:34.256718+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "3865ad61b7",
-      "title": "纯代码造《后室》，116秒切20种画风！文心新模型玩嗨了",
-      "url": "https://mp.weixin.qq.com/s/Rj-T8unLFnHUk6R89rt02Q",
-      "summary": "纯代码造《后室》，116秒切20种画风！文心新模型玩嗨了",
+      "id": "4a694b8162",
+      "title": "70+机器人公司投出具身第一云：优化Ego视频位姿恢复，砍掉43%G...",
+      "url": "https://mp.weixin.qq.com/s/X_0E3440Ju-rXUBXuOXRlA",
+      "summary": "70+机器人公司投出具身第一云：优化Ego视频位姿恢复，砍掉43%G...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-12T06:47:22.112632+00:00",
-      "pub_ts": 1794466042
+      "pub_date": "2026-11-13T06:03:30.143551+00:00",
+      "pub_ts": 1794549810
     },
     {
-      "id": "93146fc233",
-      "title": "Claude狂挖3.8万个漏洞，竟然管挖不管埋？！",
-      "url": "https://mp.weixin.qq.com/s/0WWCQ28eAuPxcMzivKhI9A",
-      "summary": "Claude狂挖3.8万个漏洞，竟然管挖不管埋？！",
+      "id": "2798de7d7c",
+      "title": "都2026了，腾讯居然又做了个搜索引擎？！",
+      "url": "https://mp.weixin.qq.com/s/9SXrQduRuwpRiOyWO6pNww",
+      "summary": "都2026了，腾讯居然又做了个搜索引擎？！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-12T06:47:22.112671+00:00",
-      "pub_ts": 1794466042
+      "pub_date": "2026-11-13T06:03:30.143589+00:00",
+      "pub_ts": 1794549810
     },
     {
-      "id": "01a927e686",
-      "title": "越值钱的任务，信号反而越弱！个性化依赖图破解多任务推荐的“信号...",
-      "url": "https://mp.weixin.qq.com/s/ZJ2LlkFTpgPbVL1DP9SGDQ",
-      "summary": "越值钱的任务，信号反而越弱！个性化依赖图破解多任务推荐的“信号...",
+      "id": "cc29ccf33a",
+      "title": "深度研究准确率提升4.97个百分点！清华腾讯让Agent学会“论功行赏”",
+      "url": "https://mp.weixin.qq.com/s/7HsvsEcqXHKrUr5OIafdvg",
+      "summary": "深度研究准确率提升4.97个百分点！清华腾讯让Agent学会“论功行赏”",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-12T06:47:22.112689+00:00",
-      "pub_ts": 1794466042
+      "pub_date": "2026-11-13T06:03:30.143606+00:00",
+      "pub_ts": 1794549810
     },
     {
-      "id": "c52f6380ca",
-      "title": "机器人接管酒店洗衣！双脑协同+RSI，顶级Astra驾驶员来了",
-      "url": "https://mp.weixin.qq.com/s/fD4uYivyvjH3BJKCKUj_KQ",
-      "summary": "机器人接管酒店洗衣！双脑协同+RSI，顶级Astra驾驶员来了",
+      "id": "811efbab85",
+      "title": "倒计时一周|量子位2026人工智能年度榜单征集即将截止！",
+      "url": "https://mp.weixin.qq.com/s/doVrG4hyp19SR8MevTKrQA",
+      "summary": "倒计时一周|量子位2026人工智能年度榜单征集即将截止！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-12T06:47:22.112705+00:00",
-      "pub_ts": 1794466042
+      "pub_date": "2026-11-13T06:03:30.143621+00:00",
+      "pub_ts": 1794549810
     },
     {
-      "id": "69c343a237",
-      "title": "Gemini具身RSI发布！御三家连续暴击垂直具身模型，太惨了",
-      "url": "https://mp.weixin.qq.com/s/HVQjjdnKI0mdhWYubWFbIA",
-      "summary": "Gemini具身RSI发布！御三家连续暴击垂直具身模型，太惨了",
+      "id": "b4080cb8ef",
+      "title": "多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛",
+      "url": "https://mp.weixin.qq.com/s/ha4_D5Aj4as0l3hUIeGUKQ",
+      "summary": "多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-12T06:47:22.112721+00:00",
-      "pub_ts": 1794466042
+      "pub_date": "2026-11-13T06:03:30.143636+00:00",
+      "pub_ts": 1794549810
     }
   ],
   "source_success_count": 1,

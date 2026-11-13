@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-11-12T06:47:49.993261+00:00",
+  "updated_at": "2026-11-13T06:03:57.313946+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "d094bd19c1",
-      "title": "AstraZeneca acquires bacterial vaccine biotech, Omniose",
-      "url": "https://www.pharmaceutical-technology.com/news/astrazeneca-omniose-acquisition-bacterial-infection/",
-      "summary": "Omniose is developing a bioconjugate platform to create vaccines against multidrug resistant superbugs as anti-microbial resistance rises.",
+      "id": "51b3295ef9",
+      "title": "Blackstone backs Pfizer’s obesity ambitions with $1.5bn fund",
+      "url": "https://www.pharmaceutical-technology.com/news/blackstone-backs-pfizers-obesity-ambitions-with-1-5bn-fund/",
+      "summary": "Pfizer has an extensive clinical programme for berobenatide, acquired via its $10bn takeover of Metsera.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-11T14:58:52+00:00",
-      "pub_ts": 1794409132
+      "pub_date": "2026-11-12T15:13:55+00:00",
+      "pub_ts": 1794496435
     },
     {
-      "id": "5803005086",
-      "title": "Australia’s largest early-phase clinical trial network expands to Sydney",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/australias-largest-early-phase-clinical-trial-network-expands-to-sydney/",
-      "summary": "",
+      "id": "4b500f4c7d",
+      "title": "Beyond GLP-1RA’s: Novel mechanisms and combos to shape future of obesity market",
+      "url": "https://www.pharmaceutical-technology.com/news/obesity-market-novel-mechanisms-combo-shape-future-beyond-glp1ras/",
+      "summary": "Emerging mechanisms and combinatorial approaches are redefining the obesity space as the outcome focus shifts away from weight loss alone.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-11T14:52:48+00:00",
-      "pub_ts": 1794408768
+      "pub_date": "2026-11-12T13:11:19+00:00",
+      "pub_ts": 1794489079
     },
     {
-      "id": "b8eb1850a7",
-      "title": "Longevity sector ambitions outpace regulatory and investment frameworks",
-      "url": "https://www.pharmaceutical-technology.com/news/longevity-sector-ambitions-outpace-regulatory-and-investment-frameworks/",
-      "summary": "While investment appetite for longevity is growing, biotech valuations still depend on classic disease-led data packages.",
+      "id": "4452e98267",
+      "title": "Podcast: Longevity, China, and AI the talk of the town at BIO Europe 2026",
+      "url": "https://www.pharmaceutical-technology.com/features/podcast-pharma-2027-landscape-according-to-bio-europe-2026/",
+      "summary": "The attending members of the editorial team talk through the key themes and takeaways from the 2026 BIO-Europe conference.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-11T14:16:45+00:00",
-      "pub_ts": 1794406605
+      "pub_date": "2026-11-12T11:58:30+00:00",
+      "pub_ts": 1794484710
     },
     {
-      "id": "e280a23a56",
-      "title": "Moderna’s CEO eyes Keytruda-eclipsing future for personalised cancer vaccine",
-      "url": "https://www.pharmaceutical-technology.com/news/modernas-ceo-eyes-keytruda-eclipsing-future-for-personalised-cancer-vaccine/",
-      "summary": "Analysts have placed intismeran central to Moderna’s long-term growth beyond infectious diseases.",
+      "id": "351f91e314",
+      "title": "FDA and EMA waive paediatric studies for Shanton’s gout candidate",
+      "url": "https://www.pharmaceutical-technology.com/news/shanton-ema-fda-paediatric-waivers-gout/",
+      "summary": "SAP-001 will not require paediatric studies in market authorisation applications for hyperuricemia and gout.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-11T11:27:05+00:00",
-      "pub_ts": 1794396425
+      "pub_date": "2026-11-12T10:14:43+00:00",
+      "pub_ts": 1794478483
     },
     {
-      "id": "f0fbe974af",
-      "title": "ProBio signs global antibody licensing deal with AbTis",
-      "url": "https://www.pharmaceutical-technology.com/news/probio-global-antibody-licensing-deal-abtis/",
-      "summary": "ProBio has entered into an exclusive worldwide licensing agreement with South Korean biotechnology firm AbTis to develop and commercialise an early-stage therapeutic antibody asset.",
+      "id": "bf7c4b6f48",
+      "title": "Life-extending peptides are likely not around the corner",
+      "url": "https://www.pharmaceutical-technology.com/news/life-extending-peptides-are-likely-not-around-the-corner/",
+      "summary": "Claims that peptides increase life span are still clinically inconclusive as experts await long-term mortality data.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-11T10:42:24+00:00",
-      "pub_ts": 1794393744
+      "pub_date": "2026-11-12T10:07:24+00:00",
+      "pub_ts": 1794478044
     }
   ],
   "source_success_count": 1,
