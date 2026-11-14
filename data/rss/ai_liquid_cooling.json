@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-11-13T06:03:34.256718+00:00",
+  "updated_at": "2026-11-14T05:51:49.176163+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "4a694b8162",
-      "title": "70+机器人公司投出具身第一云：优化Ego视频位姿恢复，砍掉43%G...",
-      "url": "https://mp.weixin.qq.com/s/X_0E3440Ju-rXUBXuOXRlA",
-      "summary": "70+机器人公司投出具身第一云：优化Ego视频位姿恢复，砍掉43%G...",
+      "id": "5eda39ef5c",
+      "title": "高难盲测超越GPT-6-Astra与Opus-5！无界前沿开源Fx-Bio-10...",
+      "url": "https://mp.weixin.qq.com/s/B6xE0gW56sF5caLNvBprtw",
+      "summary": "高难盲测超越GPT-6-Astra与Opus-5！无界前沿开源Fx-Bio-10...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-13T06:03:30.143551+00:00",
-      "pub_ts": 1794549810
+      "pub_date": "2026-11-14T05:51:45.299922+00:00",
+      "pub_ts": 1794635505
     },
     {
-      "id": "2798de7d7c",
-      "title": "都2026了，腾讯居然又做了个搜索引擎？！",
-      "url": "https://mp.weixin.qq.com/s/9SXrQduRuwpRiOyWO6pNww",
-      "summary": "都2026了，腾讯居然又做了个搜索引擎？！",
+      "id": "cb4c519291",
+      "title": "特斯拉和SpaceX最快下月合并",
+      "url": "https://mp.weixin.qq.com/s/rxu01fqvADSMQgLB2jFWHw",
+      "summary": "特斯拉和SpaceX最快下月合并",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-13T06:03:30.143589+00:00",
-      "pub_ts": 1794549810
+      "pub_date": "2026-11-14T05:51:45.299964+00:00",
+      "pub_ts": 1794635505
     },
     {
-      "id": "cc29ccf33a",
-      "title": "深度研究准确率提升4.97个百分点！清华腾讯让Agent学会“论功行赏”",
-      "url": "https://mp.weixin.qq.com/s/7HsvsEcqXHKrUr5OIafdvg",
-      "summary": "深度研究准确率提升4.97个百分点！清华腾讯让Agent学会“论功行赏”",
+      "id": "64fda8bb43",
+      "title": "国产大模型又杀出一匹黑马，引发硅谷关注！",
+      "url": "https://mp.weixin.qq.com/s/d2PycGL_WwpYgcdB9dssMQ",
+      "summary": "国产大模型又杀出一匹黑马，引发硅谷关注！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-13T06:03:30.143606+00:00",
-      "pub_ts": 1794549810
+      "pub_date": "2026-11-14T05:51:45.299987+00:00",
+      "pub_ts": 1794635505
     },
     {
-      "id": "811efbab85",
-      "title": "倒计时一周|量子位2026人工智能年度榜单征集即将截止！",
-      "url": "https://mp.weixin.qq.com/s/doVrG4hyp19SR8MevTKrQA",
-      "summary": "倒计时一周|量子位2026人工智能年度榜单征集即将截止！",
+      "id": "8c7f06d27b",
+      "title": "MEET2027含金量再加码：AI4S/量子计算/AlInfra...第二批嘉宾强势来袭！",
+      "url": "https://mp.weixin.qq.com/s/IhMb7MLX8fPzVARfmpUStA",
+      "summary": "MEET2027含金量再加码：AI4S/量子计算/AlInfra...第二批嘉宾强势来袭！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-13T06:03:30.143621+00:00",
-      "pub_ts": 1794549810
+      "pub_date": "2026-11-14T05:51:45.300008+00:00",
+      "pub_ts": 1794635505
     },
     {
-      "id": "b4080cb8ef",
-      "title": "多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛",
-      "url": "https://mp.weixin.qq.com/s/ha4_D5Aj4as0l3hUIeGUKQ",
-      "summary": "多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛",
+      "id": "75f5666178",
+      "title": "中国AI突破复杂肺癌诊疗！中美医疗圈集体坐不住了",
+      "url": "https://mp.weixin.qq.com/s/ZMpb5VeAL9g0zwoAWDALqQ",
+      "summary": "中国AI突破复杂肺癌诊疗！中美医疗圈集体坐不住了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-13T06:03:30.143636+00:00",
-      "pub_ts": 1794549810
+      "pub_date": "2026-11-14T05:51:45.300028+00:00",
+      "pub_ts": 1794635505
     }
   ],
   "source_success_count": 1,

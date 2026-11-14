@@ -3,108 +3,108 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-11-13T06:03:44.860816+00:00",
+  "updated_at": "2026-11-14T05:51:59.274406+00:00",
   "item_count": 10,
   "items": [
     {
-      "id": "d2b1569370",
-      "title": "Hyundai’s HTWO Guangzhou Puts Next-Generation Hydrogen Fuel Cell System Into Local Mass Production",
-      "url": "https://fuelcellsworks.com/2026/11/11/electrolyzer/hyundai-s-htwo-guangzhou-puts-next-generation-hydrogen-fuel-cell-system-into-local-mass-production",
+      "id": "fd7361a241",
+      "title": "Korea Pallet Pool Launches Hydrogen Fuel Cell Truck Pilot Project with Lotte Chilsung Beverage",
+      "url": "https://hydrogen-central.com/korea-pallet-pool-launches-hydrogen-fuel-cell-truck-pilot-project-with-lotte-chilsung-beverage/",
+      "summary": "Korea Pallet Pool Launches Hydrogen Fuel Cell Truck Pilot Project with Lotte Chilsung Beverage Three hydrogen fuel cell trucks deployed in logistics operations to support greener transportation &#8211; Pilot project to evaluate operational feasibility and support the transition toward low-carbon log…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-14T05:45:10+00:00",
+      "pub_ts": 1794635110
+    },
+    {
+      "id": "6cd20d5cde",
+      "title": "Amogy to Deploy Ammonia Cracking Module at New Low-Carbon Testbed with A*STAR, Advancing Ammonia-to-Hydrogen Technology in Singapore",
+      "url": "https://hydrogen-central.com/amogy-to-deploy-ammonia-cracking-module-at-new-low-carbon-testbed-with-astar-advancing-ammonia-to-hydrogen-technology-in-singapore/",
+      "summary": "Amogy to Deploy Ammonia Cracking Module at New Low-Carbon Testbed with A*STAR, Advancing Ammonia-to-Hydrogen Technology in Singapore First deployment targets production of up to one ton of hydrogen per day, paving the way for future scaling and expanding Amogy’s presence in Singapore SINGAPORE and N…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-14T05:41:48+00:00",
+      "pub_ts": 1794634908
+    },
+    {
+      "id": "41f2209d5e",
+      "title": "INPEX Commences Ammonia Production and Supply at Kashiwazaki Hydrogen Park as Part of Integrated Blue Hydrogen and Ammonia Production and Utilization Demonstration Project in Niigata, Japan",
+      "url": "https://hydrogen-central.com/inpex-commences-ammonia-production-and-supply-at-kashiwazaki-hydrogen-park-as-part-of-integrated-blue-hydrogen-and-ammonia-production-and-utilization-demonstration-project-in-niigata-japan/",
+      "summary": "INPEX Commences Ammonia Production and Supply at Kashiwazaki Hydrogen Park as Part of Integrated Blue Hydrogen and Ammonia Production and Utilization Demonstration Project in Niigata, Japan TOKYO, JAPAN &#8211; INPEX CORPORATION (INPEX) announced that it has commenced ammonia production as part of i…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-14T05:41:36+00:00",
+      "pub_ts": 1794634896
+    },
+    {
+      "id": "20a0cd2f7a",
+      "title": "QIMC Further Derisks Nova Scotia Natural Hydrogen Multi-Gas System with New Thermogenic Gas and Helium Results",
+      "url": "https://hydrogen-central.com/qimc-further-derisks-nova-scotia-natural-hydrogen-multi-gas-system-with-new-thermogenic-gas-and-helium-results/",
+      "summary": "QIMC Further Derisks Nova Scotia Natural Hydrogen Multi-Gas System with New Thermogenic Gas and Helium Results 147 new soil-gas stations at New Salem-Apple River return a thermogenic wet-gas signature in 99% of samples and helium anomalies peaking at 5.573 ppmv, strengthening QIMC&#8217;s natural hy…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-14T05:35:25+00:00",
+      "pub_ts": 1794634525
+    },
+    {
+      "id": "6a664c347b",
+      "title": "Two years after launch, Germany’s hydrogen core network grows slowly",
+      "url": "https://hydrogen-central.com/two-years-after-launch-germanys-hydrogen-core-network-grows-slowly/",
+      "summary": "Two years after launch, Germany’s hydrogen core network grows slowly Germany’s ‘core network’ to connect hydrogen production and consumption centres, as well as storage facilities and import points, is slowly expanding two years after the green light by regulators, data by gas grid operator associat…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-14T05:34:41+00:00",
+      "pub_ts": 1794634481
+    },
+    {
+      "id": "43dfce1b5a",
+      "title": "German Beverage Distributor Voßkamp Tests Hyundai XCIENT Hydrogen Truck Alongside BEV and Combustion Fleet",
+      "url": "https://fuelcellsworks.com/2026/11/12/fuel-cells/german-beverage-distributor-vo-kamp-tests-hyundai-xcient-hydrogen-truck-alongside-bev-and-combustion-fleet",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-12T16:45:29+00:00",
-      "pub_ts": 1794501929
+      "pub_date": "2026-11-13T15:54:19+00:00",
+      "pub_ts": 1794585259
     },
     {
-      "id": "734eebfabd",
-      "title": "Meta Buys Green Steel Certificates From Stegra’s 740MW Hydrogen-Based Plant in Sweden",
-      "url": "https://fuelcellsworks.com/2026/11/12/h2/meta-buys-green-steel-certificates-from-stegra-s-740mw-hydrogen-based-plant-in-sweden",
+      "id": "41b0ba63f3",
+      "title": "Brazil’s Energy Regulator Authorises First Green Hydrogen Project to Access National Grid",
+      "url": "https://fuelcellsworks.com/2026/11/13/h2/brazil-s-energy-regulator-authorises-first-green-hydrogen-project-to-access-national-grid",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-12T16:37:17+00:00",
-      "pub_ts": 1794501437
+      "pub_date": "2026-11-13T15:33:32+00:00",
+      "pub_ts": 1794584012
     },
     {
-      "id": "c03bc551b1",
-      "title": "50 Hydrogen Trucks Enter Service as China Expands Chengdu-Chongqing Freight Corridor",
-      "url": "https://fuelcellsworks.com/2026/11/11/fuel-cells/50-hydrogen-trucks-enter-service-as-china-expands-chengdu-chongqing-freight-corridor",
+      "id": "b051404c96",
+      "title": "DHL Becomes First Express Cargo Carrier to Use Sustainable Aviation Fuel (SAF) at Paris Charles De Gaulle Airport",
+      "url": "https://fuelcellsworks.com/2026/11/12/clean-energy/dhl-becomes-first-express-cargo-carrier-to-use-sustainable-aviation-fuel-saf-at-paris-charles-de-gaulle-airport",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-12T16:23:17+00:00",
-      "pub_ts": 1794500597
+      "pub_date": "2026-11-13T15:18:29+00:00",
+      "pub_ts": 1794583109
     },
     {
-      "id": "eac5091ca1",
-      "title": "Fuel-Cell Developers Target Floating Data Centres with New Power System Partnership",
-      "url": "https://fuelcellsworks.com/2026/11/09/electrolyzer/samsung-heavy-industries-and-morimura-sofc-technology-team-up-on-fuel-cells-for-floating-data-centers",
+      "id": "e55fecef08",
+      "title": "Luxembourg Puts Hydrogen Cars on Equal Footing With Battery EVs in Revamped Subsidy Scheme",
+      "url": "https://fuelcellsworks.com/2026/11/12/h2/luxembourg-puts-hydrogen-cars-on-equal-footing-with-battery-evs-in-revamped-subsidy-scheme",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-12T16:13:46+00:00",
-      "pub_ts": 1794500026
+      "pub_date": "2026-11-13T14:51:31+00:00",
+      "pub_ts": 1794581491
     },
     {
-      "id": "20aad87793",
-      "title": "Estonia begins route planning for European hydrogen corridor",
-      "url": "https://hydrogen-central.com/estonia-begins-route-planning-for-european-hydrogen-corridor/",
-      "summary": "Estonia begins route planning for European hydrogen corridor Hydrogen is on the rise. Estonian environmental planning company Hendrikson &#38; Ko has been selected to prepare the national spatial plan for Estonia’s section of a European hydrogen corridor linking producers in Finland with major indus…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-12T16:06:55+00:00",
-      "pub_ts": 1794499615
-    },
-    {
-      "id": "f0effa8da8",
-      "title": "Max Power Expands Scale of Saskatchewan Natural Hydrogen System With Lawson 5, Commences Follow-Up Well",
-      "url": "https://hydrogen-central.com/max-power-expands-scale-of-saskatchewan-natural-hydrogen-system-with-lawson-5-commences-follow-up-well/",
-      "summary": "Max Power Expands Scale of Saskatchewan Natural Hydrogen System With Lawson 5, Commences Follow-Up Well Lawson 5 near the western edge of the Prairie Evaporite has confirmed an active, generative Natural Hydrogen system in a 30-km step-out from the first four wells within the Lawson Complex near Cen…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-12T16:04:30+00:00",
-      "pub_ts": 1794499470
-    },
-    {
-      "id": "a42ea77abd",
-      "title": "UK – Testing and validating underground hydrogen storage components",
-      "url": "https://hydrogen-central.com/uk-testing-and-validating-underground-hydrogen-storage-components/",
-      "summary": "UK &#8211; Testing and validating underground hydrogen storage components UK registered organisations can apply for a share of up to £5 million for a collaborative programme to accelerate the development and validation of critical technologies needed for the safe, reliable and cost effective use of …",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-12T16:04:16+00:00",
-      "pub_ts": 1794499456
-    },
-    {
-      "id": "8bea118253",
-      "title": "Amogy and HD Construction Equipment Complete Ammonia-to-Power Test Ahead of 2027 Pohang Launch",
-      "url": "https://fuelcellsworks.com/2026/11/12/h2/amogy-and-hd-construction-equipment-complete-ammonia-to-power-test-ahead-of-2027-pohang-launch",
+      "id": "040fe1147b",
+      "title": "Catator Appoints Martin Svensson as CFO and Deputy CEO",
+      "url": "https://fuelcellsworks.com/2026/11/11/h2/catator-appoints-martin-svensson-as-cfo-and-deputy-ceo",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-12T16:01:03+00:00",
-      "pub_ts": 1794499263
-    },
-    {
-      "id": "1fc95d60c7",
-      "title": "EBARA Opens World’s First Commercial-Scale Liquid Hydrogen Pump Test Center and Manufacturing Hub",
-      "url": "https://hydrogen-central.com/ebara-opens-worlds-first-commercial-scale-liquid-hydrogen-pump-test-center-and-manufacturing-hub/",
-      "summary": "EBARA Opens World’s First Commercial-Scale Liquid Hydrogen Pump Test Center and Manufacturing Hub EBARA announced the official opening of the Futtsu District 2nd in Chiba Prefecture, Japan, featuring &#8220;E-HYETEC&#8221;—the world’s first commercial-scale product test center for liquid hydrogen pu…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-12T16:00:43+00:00",
-      "pub_ts": 1794499243
-    },
-    {
-      "id": "498b17cc74",
-      "title": "Höegh taps BYD batteries for ammonia powered car carrier",
-      "url": "https://hydrogen-central.com/hoegh-taps-byd-batteries-for-ammonia-powered-car-carrier/",
-      "summary": "Höegh taps BYD batteries for ammonia powered car carrier Norwegian car carrier operator Höegh Autoliners has signed a deal with Chinese battery giant BYD to install energy storage technology aboard an ammonia-capable newbuilding, bringing together four different energy technologies on a deepsea vess…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-12T16:00:31+00:00",
-      "pub_ts": 1794499231
+      "pub_date": "2026-11-13T14:46:07+00:00",
+      "pub_ts": 1794581167
     }
   ],
   "source_success_count": 2,

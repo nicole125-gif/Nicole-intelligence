@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-11-13T06:03:57.313946+00:00",
+  "updated_at": "2026-11-14T05:52:11.665976+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "51b3295ef9",
-      "title": "Blackstone backs Pfizer’s obesity ambitions with $1.5bn fund",
-      "url": "https://www.pharmaceutical-technology.com/news/blackstone-backs-pfizers-obesity-ambitions-with-1-5bn-fund/",
-      "summary": "Pfizer has an extensive clinical programme for berobenatide, acquired via its $10bn takeover of Metsera.",
+      "id": "4e3272207b",
+      "title": "AHA26: Semaglutide’s real-world CV benefits highlight importance of persistence",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/aha26-semaglutides-real-world-cv-benefits-highlight-importance-of-persistence/",
+      "summary": "Real-world semaglutide CV outcomes mirror clinical trials, with greater treatment persistence linked to better outcomes.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-12T15:13:55+00:00",
-      "pub_ts": 1794496435
+      "pub_date": "2026-11-13T16:07:31+00:00",
+      "pub_ts": 1794586051
     },
     {
-      "id": "4b500f4c7d",
-      "title": "Beyond GLP-1RA’s: Novel mechanisms and combos to shape future of obesity market",
-      "url": "https://www.pharmaceutical-technology.com/news/obesity-market-novel-mechanisms-combo-shape-future-beyond-glp1ras/",
-      "summary": "Emerging mechanisms and combinatorial approaches are redefining the obesity space as the outcome focus shifts away from weight loss alone.",
+      "id": "9eb2a47dce",
+      "title": "BIO Europe: Financing, AI and geopolitics shape biotech discourse",
+      "url": "https://www.pharmaceutical-technology.com/features/bio-europe-2026-financing-ai-geopolitics-shape-biotech-discourse/",
+      "summary": "Speakers at BIO-Europe 2026 noted that European biotechs must be agile and adaptable in times of geopolitical and financial upheaval.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-12T13:11:19+00:00",
-      "pub_ts": 1794489079
+      "pub_date": "2026-11-13T15:36:48+00:00",
+      "pub_ts": 1794584208
     },
     {
-      "id": "4452e98267",
-      "title": "Podcast: Longevity, China, and AI the talk of the town at BIO Europe 2026",
-      "url": "https://www.pharmaceutical-technology.com/features/podcast-pharma-2027-landscape-according-to-bio-europe-2026/",
-      "summary": "The attending members of the editorial team talk through the key themes and takeaways from the 2026 BIO-Europe conference.",
+      "id": "4863915f0a",
+      "title": "FDA puts commissioner’s priority voucher framework on ice",
+      "url": "https://www.pharmaceutical-technology.com/news/fda-puts-commissioners-priority-voucher-framework-on-ice/",
+      "summary": "Experts consistently questioned how vouchers were awarded, along with critiquing its wider industry benefits.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-12T11:58:30+00:00",
-      "pub_ts": 1794484710
+      "pub_date": "2026-11-13T11:40:48+00:00",
+      "pub_ts": 1794570048
     },
     {
-      "id": "351f91e314",
-      "title": "FDA and EMA waive paediatric studies for Shanton’s gout candidate",
-      "url": "https://www.pharmaceutical-technology.com/news/shanton-ema-fda-paediatric-waivers-gout/",
-      "summary": "SAP-001 will not require paediatric studies in market authorisation applications for hyperuricemia and gout.",
+      "id": "6d36bff768",
+      "title": "Neurosterix pockets $105m to advance neuropsychiatry pipeline",
+      "url": "https://www.pharmaceutical-technology.com/news/neurosterix-150m-series-b-to-advance-neuropsychiatry-pipeline-schizophrenia/",
+      "summary": "Neurosterix hopes that NTX-253 may compete with BMS’s Cobenfy as the schizophrenia field explores mechanisms past dopamine modulation.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-12T10:14:43+00:00",
-      "pub_ts": 1794478483
+      "pub_date": "2026-11-13T11:28:31+00:00",
+      "pub_ts": 1794569311
     },
     {
-      "id": "bf7c4b6f48",
-      "title": "Life-extending peptides are likely not around the corner",
-      "url": "https://www.pharmaceutical-technology.com/news/life-extending-peptides-are-likely-not-around-the-corner/",
-      "summary": "Claims that peptides increase life span are still clinically inconclusive as experts await long-term mortality data.",
+      "id": "2ca69435ad",
+      "title": "BMS sets unified research and development structure for 2027",
+      "url": "https://www.pharmaceutical-technology.com/news/bms-unified-research-and-development-structure-2027/",
+      "summary": "Bristol Myers Squibb (BMS) is set to merge its separate research and development (R&amp;D) departments into a single entity, effective from 1 January 2027.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-12T10:07:24+00:00",
-      "pub_ts": 1794478044
+      "pub_date": "2026-11-13T09:31:20+00:00",
+      "pub_ts": 1794562280
     }
   ],
   "source_success_count": 1,

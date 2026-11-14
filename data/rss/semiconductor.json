@@ -3,108 +3,128 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-11-13T06:03:20.640837+00:00",
+  "updated_at": "2026-11-14T05:51:35.814670+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "a339053462",
-      "title": "突发！黄仁勋，辞职！",
-      "url": "https://mp.weixin.qq.com/s/Hqft0HJpljhHQ5QIX_i1XA",
-      "summary": "突发！黄仁勋，辞职！",
+      "id": "e663f13970",
+      "title": "华大九天联合大湾区基金，完成国产数字前端EDA专业化整合",
+      "url": "https://mp.weixin.qq.com/s/z0EyntJHUuGyZi7Mouir-w",
+      "summary": "华大九天联合大湾区基金，完成国产数字前端EDA专业化整合",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-13T06:03:16.444931+00:00",
-      "pub_ts": 1794549796
+      "pub_date": "2026-11-14T05:51:31.693255+00:00",
+      "pub_ts": 1794635491
     },
     {
-      "id": "fb76ddd51a",
-      "title": "盈利爆发！中芯国际前三季净利73亿",
-      "url": "https://mp.weixin.qq.com/s/HMUwwU0hUZEuRErI9u5OiA",
-      "summary": "盈利爆发！中芯国际前三季净利73亿",
+      "id": "d0d8ff967e",
+      "title": "为了让机器人拥有反射弧，恩智浦决定补一条脊髓",
+      "url": "https://mp.weixin.qq.com/s/NFrtj7S3cPFVrcvjOX1uyw",
+      "summary": "为了让机器人拥有反射弧，恩智浦决定补一条脊髓",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-13T06:03:16.444969+00:00",
-      "pub_ts": 1794549796
+      "pub_date": "2026-11-14T05:51:31.693300+00:00",
+      "pub_ts": 1794635491
     },
     {
-      "id": "9560fdda24",
-      "title": "车企自研芯片开始外供，能否打开新市场？",
-      "url": "https://mp.weixin.qq.com/s/as-a7mNCmcb0FnW-6GTdXQ",
-      "summary": "车企自研芯片开始外供，能否打开新市场？",
+      "id": "f6546bf05c",
+      "title": "拟募资80亿元，超聚变有望成为今年创业板最大IPO",
+      "url": "https://mp.weixin.qq.com/s/rRKfg4PXlGW6_-dUAl4CuQ",
+      "summary": "拟募资80亿元，超聚变有望成为今年创业板最大IPO",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-13T06:03:16.444989+00:00",
-      "pub_ts": 1794549796
+      "pub_date": "2026-11-14T05:51:31.693327+00:00",
+      "pub_ts": 1794635491
     },
     {
-      "id": "ea1037bb46",
-      "title": "智能汽车把内存推向新风口，长鑫车规存储显破局之道",
-      "url": "https://mp.weixin.qq.com/s/5YiTJvHFw-LoZpHvw0KPhw",
-      "summary": "智能汽车把内存推向新风口，长鑫车规存储显破局之道",
+      "id": "3122219383",
+      "title": "芯粒互联，智驱未来|HIPICHIPLETFORUM2026完整议程重磅公布...",
+      "url": "https://mp.weixin.qq.com/s/R3Hy_ZxogZJKlU-ZM0sa9g",
+      "summary": "芯粒互联，智驱未来|HIPICHIPLETFORUM2026完整议程重磅公布...",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-13T06:03:16.445007+00:00",
-      "pub_ts": 1794549796
+      "pub_date": "2026-11-14T05:51:31.693350+00:00",
+      "pub_ts": 1794635491
     },
     {
-      "id": "a751e98016",
-      "title": "昆仑芯M300，明年推出",
-      "url": "https://mp.weixin.qq.com/s/wRYQ8PT9zt8c1-24Jw-Jpw",
-      "summary": "昆仑芯M300，明年推出",
+      "id": "46b8fdba7e",
+      "title": "绕开HBM和液冷！欧洲AI芯片公司推出Titania 架构",
+      "url": "https://mp.weixin.qq.com/s/-9CT2EgnSXIIuKGW4d6HkA",
+      "summary": "绕开HBM和液冷！欧洲AI芯片公司推出Titania 架构",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-13T06:03:16.445024+00:00",
-      "pub_ts": 1794549796
+      "pub_date": "2026-11-14T05:51:31.693388+00:00",
+      "pub_ts": 1794635491
     },
     {
-      "id": "be2feb2133",
-      "title": "刚刚，黄仁勋辞任CEO",
-      "url": "https://mp.weixin.qq.com/s/6IcV_ixE4AlGR505tCS7ow",
-      "summary": "刚刚，黄仁勋辞任CEO",
+      "id": "8abf8dffe9",
+      "title": "新禹思官宣成立，华大九天重磅整合",
+      "url": "https://mp.weixin.qq.com/s/AR2ofUHPNEIQGsMvD_s_5g",
+      "summary": "新禹思官宣成立，华大九天重磅整合",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-13T06:03:05.678298+00:00",
-      "pub_ts": 1794549785
+      "pub_date": "2026-11-14T05:51:20.931489+00:00",
+      "pub_ts": 1794635480
     },
     {
-      "id": "00bbd5499f",
-      "title": "报名开启ⅠAI如何重塑芯片设计，这场ICCAD同期会议值得关注",
-      "url": "https://mp.weixin.qq.com/s/-DYqyWERfgFqgIRB4Ub78g",
-      "summary": "报名开启ⅠAI如何重塑芯片设计，这场ICCAD同期会议值得关注",
+      "id": "541b932401",
+      "title": "亚科鸿禹与思尔芯重组：新禹思正式成立！",
+      "url": "https://mp.weixin.qq.com/s/-5s-vLMLTYvlX1eRUC8TsA",
+      "summary": "亚科鸿禹与思尔芯重组：新禹思正式成立！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-13T06:03:05.678340+00:00",
-      "pub_ts": 1794549785
+      "pub_date": "2026-11-14T05:51:20.931559+00:00",
+      "pub_ts": 1794635480
     },
     {
-      "id": "3150ab304b",
-      "title": "昆仑芯，最新路线图，刚刚发布！",
-      "url": "https://mp.weixin.qq.com/s/K1igKSnwyuyhtWf_ZUG8Zw",
-      "summary": "昆仑芯，最新路线图，刚刚发布！",
+      "id": "e4cb7eca51",
+      "title": "中芯国际赵海军，最新发声",
+      "url": "https://mp.weixin.qq.com/s/9cLzM0ZO-i9ihql09YkYZw",
+      "summary": "中芯国际赵海军，最新发声",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-13T06:03:05.678360+00:00",
-      "pub_ts": 1794549785
+      "pub_date": "2026-11-14T05:51:20.931601+00:00",
+      "pub_ts": 1794635480
     },
     {
-      "id": "ae10938fcd",
-      "title": "矽力杰宣布，完成收购",
-      "url": "https://mp.weixin.qq.com/s/939oz5gI9Sow3DBtScoiRA",
-      "summary": "矽力杰宣布，完成收购",
+      "id": "5625b3088e",
+      "title": "存储大变局，长鑫亮剑",
+      "url": "https://mp.weixin.qq.com/s/362jIF45vGh2aA8PAAbueA",
+      "summary": "存储大变局，长鑫亮剑",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-13T06:03:05.678376+00:00",
-      "pub_ts": 1794549785
+      "pub_date": "2026-11-14T05:51:20.931639+00:00",
+      "pub_ts": 1794635480
     },
     {
-      "id": "50dc9e1209",
-      "title": "日本半导体，急了！",
-      "url": "https://mp.weixin.qq.com/s/ns7jYa5YoCqzE5J0ptJR4Q",
-      "summary": "日本半导体，急了！",
+      "id": "f27be792df",
+      "title": "UCle4.0标准，发布！",
+      "url": "https://mp.weixin.qq.com/s/MvkmmLamJsw1VcBWoNM5Yw",
+      "summary": "UCle4.0标准，发布！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-13T06:03:05.678392+00:00",
-      "pub_ts": 1794549785
+      "pub_date": "2026-11-14T05:51:20.931677+00:00",
+      "pub_ts": 1794635480
+    },
+    {
+      "id": "68f3520403",
+      "title": "Shifting HBM4 Controller Functions Closer To Memory (UC Riverside)",
+      "url": "https://semiengineering.com/shifting-hbm4-controller-functions-closer-to-memory-uc-riverside/",
+      "summary": "Tharunya Yogananda and Wantong Li of the University of California, Riverside published a technical paper titled “Beyond Host-Side Control: HBM Controller Partitioning Across Host and HBM Base Dies.” Abstract Excerpt: &#8220;Recent generations of high bandwidth memory (HBM), such as HBM4, allow the b…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-11-13T21:53:30+00:00",
+      "pub_ts": 1794606810
+    },
+    {
+      "id": "6b6e0dbbb5",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-164/",
+      "summary": "300mm SiC breakthrough; Nvidia faces questions about security and oversight; Siemens buys Lauterbach; chiplet standards; new memory bets; imec interposer process flow; TPUs with CPUs; 2D transistors; anti-smuggling tools for chips.\nThe post Chip Industry Week In Review appeared first on Semiconducto…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-11-13T08:01:34+00:00",
+      "pub_ts": 1794556894
     },
     {
       "id": "8ad5e5f72d",
@@ -135,26 +155,6 @@
       "lang": "en",
       "pub_date": "2026-11-12T08:08:39+00:00",
       "pub_ts": 1794470919
-    },
-    {
-      "id": "8b4e8ba66f",
-      "title": "The Semiconductor Singularity: When AI Starts Accelerating The Silicon That Accelerates AI",
-      "url": "https://semiengineering.com/the-semiconductor-singularity-when-ai-starts-accelerating-the-silicon-that-accelerates-ai/",
-      "summary": "Use evidence from silicon to improve the tools and decisions that create the next generation of hardware.\nThe post The Semiconductor Singularity: When AI Starts Accelerating The Silicon That Accelerates AI appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-11-12T08:06:49+00:00",
-      "pub_ts": 1794470809
-    },
-    {
-      "id": "e57527810a",
-      "title": "Designing Edge AI SoCs At Near-Threshold: Why Foundation IP Can Help You Break Down The Power Wall",
-      "url": "https://semiengineering.com/designing-edge-ai-socs-at-near-threshold-why-foundation-ip-can-help-you-break-down-the-power-wall/",
-      "summary": "Traditional voltage scaling is no longer sufficient to deliver real-time performance within tight energy and thermal limits.\nThe post Designing Edge AI SoCs At Near-Threshold: Why Foundation IP Can Help You Break Down The Power Wall appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-11-12T08:05:04+00:00",
-      "pub_ts": 1794470704
     }
   ],
   "source_success_count": 3,
