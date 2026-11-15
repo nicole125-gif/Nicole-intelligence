@@ -3,58 +3,38 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-11-14T05:51:59.274406+00:00",
-  "item_count": 10,
+  "updated_at": "2026-11-15T05:53:07.686798+00:00",
+  "item_count": 5,
   "items": [
     {
-      "id": "fd7361a241",
-      "title": "Korea Pallet Pool Launches Hydrogen Fuel Cell Truck Pilot Project with Lotte Chilsung Beverage",
-      "url": "https://hydrogen-central.com/korea-pallet-pool-launches-hydrogen-fuel-cell-truck-pilot-project-with-lotte-chilsung-beverage/",
-      "summary": "Korea Pallet Pool Launches Hydrogen Fuel Cell Truck Pilot Project with Lotte Chilsung Beverage Three hydrogen fuel cell trucks deployed in logistics operations to support greener transportation &#8211; Pilot project to evaluate operational feasibility and support the transition toward low-carbon log…",
-      "source": "Hydrogen Central",
+      "id": "ad5d542636",
+      "title": "Why AI Data Centres Are Powering a Boom in Fuel Cell Demand",
+      "url": "https://fuelcellsworks.com/2026/11/14/news/why-ai-data-centres-are-powering-a-boom-in-fuel-cell-demand",
+      "summary": "",
+      "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-14T05:45:10+00:00",
-      "pub_ts": 1794635110
+      "pub_date": "2026-11-14T17:02:10+00:00",
+      "pub_ts": 1794675730
     },
     {
-      "id": "6cd20d5cde",
-      "title": "Amogy to Deploy Ammonia Cracking Module at New Low-Carbon Testbed with A*STAR, Advancing Ammonia-to-Hydrogen Technology in Singapore",
-      "url": "https://hydrogen-central.com/amogy-to-deploy-ammonia-cracking-module-at-new-low-carbon-testbed-with-astar-advancing-ammonia-to-hydrogen-technology-in-singapore/",
-      "summary": "Amogy to Deploy Ammonia Cracking Module at New Low-Carbon Testbed with A*STAR, Advancing Ammonia-to-Hydrogen Technology in Singapore First deployment targets production of up to one ton of hydrogen per day, paving the way for future scaling and expanding Amogy’s presence in Singapore SINGAPORE and N…",
-      "source": "Hydrogen Central",
+      "id": "403788a092",
+      "title": "Vidi Grants for UT Researchers Who Work on Networks, Hydrogen and Waste Heat",
+      "url": "https://fuelcellsworks.com/2026/11/14/h2/vidi-grants-for-ut-researchers-who-work-on-networks-hydrogen-and-waste-heat",
+      "summary": "",
+      "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-14T05:41:48+00:00",
-      "pub_ts": 1794634908
+      "pub_date": "2026-11-14T16:58:31+00:00",
+      "pub_ts": 1794675511
     },
     {
-      "id": "41f2209d5e",
-      "title": "INPEX Commences Ammonia Production and Supply at Kashiwazaki Hydrogen Park as Part of Integrated Blue Hydrogen and Ammonia Production and Utilization Demonstration Project in Niigata, Japan",
-      "url": "https://hydrogen-central.com/inpex-commences-ammonia-production-and-supply-at-kashiwazaki-hydrogen-park-as-part-of-integrated-blue-hydrogen-and-ammonia-production-and-utilization-demonstration-project-in-niigata-japan/",
-      "summary": "INPEX Commences Ammonia Production and Supply at Kashiwazaki Hydrogen Park as Part of Integrated Blue Hydrogen and Ammonia Production and Utilization Demonstration Project in Niigata, Japan TOKYO, JAPAN &#8211; INPEX CORPORATION (INPEX) announced that it has commenced ammonia production as part of i…",
-      "source": "Hydrogen Central",
+      "id": "24fb041c79",
+      "title": "KONČAR Wins EU Innovation Fund Backing for 2.5MW Power Interface Targeting Green Hydrogen Electrolysers",
+      "url": "https://fuelcellsworks.com/2026/11/14/electrolyzer/koncar-wins-eu-innovation-fund-backing-for-2-5mw-power-interface-targeting-green-hydrogen-electrolysers",
+      "summary": "",
+      "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-14T05:41:36+00:00",
-      "pub_ts": 1794634896
-    },
-    {
-      "id": "20a0cd2f7a",
-      "title": "QIMC Further Derisks Nova Scotia Natural Hydrogen Multi-Gas System with New Thermogenic Gas and Helium Results",
-      "url": "https://hydrogen-central.com/qimc-further-derisks-nova-scotia-natural-hydrogen-multi-gas-system-with-new-thermogenic-gas-and-helium-results/",
-      "summary": "QIMC Further Derisks Nova Scotia Natural Hydrogen Multi-Gas System with New Thermogenic Gas and Helium Results 147 new soil-gas stations at New Salem-Apple River return a thermogenic wet-gas signature in 99% of samples and helium anomalies peaking at 5.573 ppmv, strengthening QIMC&#8217;s natural hy…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-14T05:35:25+00:00",
-      "pub_ts": 1794634525
-    },
-    {
-      "id": "6a664c347b",
-      "title": "Two years after launch, Germany’s hydrogen core network grows slowly",
-      "url": "https://hydrogen-central.com/two-years-after-launch-germanys-hydrogen-core-network-grows-slowly/",
-      "summary": "Two years after launch, Germany’s hydrogen core network grows slowly Germany’s ‘core network’ to connect hydrogen production and consumption centres, as well as storage facilities and import points, is slowly expanding two years after the green light by regulators, data by gas grid operator associat…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-14T05:34:41+00:00",
-      "pub_ts": 1794634481
+      "pub_date": "2026-11-14T16:55:43+00:00",
+      "pub_ts": 1794675343
     },
     {
       "id": "43dfce1b5a",
@@ -75,39 +55,9 @@
       "lang": "en",
       "pub_date": "2026-11-13T15:33:32+00:00",
       "pub_ts": 1794584012
-    },
-    {
-      "id": "b051404c96",
-      "title": "DHL Becomes First Express Cargo Carrier to Use Sustainable Aviation Fuel (SAF) at Paris Charles De Gaulle Airport",
-      "url": "https://fuelcellsworks.com/2026/11/12/clean-energy/dhl-becomes-first-express-cargo-carrier-to-use-sustainable-aviation-fuel-saf-at-paris-charles-de-gaulle-airport",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-13T15:18:29+00:00",
-      "pub_ts": 1794583109
-    },
-    {
-      "id": "e55fecef08",
-      "title": "Luxembourg Puts Hydrogen Cars on Equal Footing With Battery EVs in Revamped Subsidy Scheme",
-      "url": "https://fuelcellsworks.com/2026/11/12/h2/luxembourg-puts-hydrogen-cars-on-equal-footing-with-battery-evs-in-revamped-subsidy-scheme",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-13T14:51:31+00:00",
-      "pub_ts": 1794581491
-    },
-    {
-      "id": "040fe1147b",
-      "title": "Catator Appoints Martin Svensson as CFO and Deputy CEO",
-      "url": "https://fuelcellsworks.com/2026/11/11/h2/catator-appoints-martin-svensson-as-cfo-and-deputy-ceo",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-13T14:46:07+00:00",
-      "pub_ts": 1794581167
     }
   ],
-  "source_success_count": 2,
+  "source_success_count": 1,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }

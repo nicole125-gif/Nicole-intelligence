@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-11-14T05:51:49.176163+00:00",
+  "updated_at": "2026-11-15T05:52:58.385568+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "5eda39ef5c",
-      "title": "高难盲测超越GPT-6-Astra与Opus-5！无界前沿开源Fx-Bio-10...",
-      "url": "https://mp.weixin.qq.com/s/B6xE0gW56sF5caLNvBprtw",
-      "summary": "高难盲测超越GPT-6-Astra与Opus-5！无界前沿开源Fx-Bio-10...",
+      "id": "63de56f405",
+      "title": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
+      "url": "https://mp.weixin.qq.com/s/HGoMt5bKUDGHE8b19FXXig",
+      "summary": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-14T05:51:45.299922+00:00",
-      "pub_ts": 1794635505
+      "pub_date": "2026-11-15T05:52:54.029858+00:00",
+      "pub_ts": 1794721974
     },
     {
-      "id": "cb4c519291",
-      "title": "特斯拉和SpaceX最快下月合并",
-      "url": "https://mp.weixin.qq.com/s/rxu01fqvADSMQgLB2jFWHw",
-      "summary": "特斯拉和SpaceX最快下月合并",
+      "id": "d0824f870e",
+      "title": "英伟达上演“奥特曼2.0”，员工集体请愿：让老黄回家！",
+      "url": "https://mp.weixin.qq.com/s/-yJJXQRzm9wsjz1uY53k9w",
+      "summary": "英伟达上演“奥特曼2.0”，员工集体请愿：让老黄回家！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-14T05:51:45.299964+00:00",
-      "pub_ts": 1794635505
+      "pub_date": "2026-11-15T05:52:54.029897+00:00",
+      "pub_ts": 1794721974
     },
     {
-      "id": "64fda8bb43",
-      "title": "国产大模型又杀出一匹黑马，引发硅谷关注！",
-      "url": "https://mp.weixin.qq.com/s/d2PycGL_WwpYgcdB9dssMQ",
-      "summary": "国产大模型又杀出一匹黑马，引发硅谷关注！",
+      "id": "c09578f4d4",
+      "title": "绿电进Token出！联想重新定义词元工厂",
+      "url": "https://mp.weixin.qq.com/s/r8cwMNoo7cmjNAKbwtdYIw",
+      "summary": "绿电进Token出！联想重新定义词元工厂",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-14T05:51:45.299987+00:00",
-      "pub_ts": 1794635505
+      "pub_date": "2026-11-15T05:52:54.029910+00:00",
+      "pub_ts": 1794721974
     },
     {
-      "id": "8c7f06d27b",
-      "title": "MEET2027含金量再加码：AI4S/量子计算/AlInfra...第二批嘉宾强势来袭！",
-      "url": "https://mp.weixin.qq.com/s/IhMb7MLX8fPzVARfmpUStA",
-      "summary": "MEET2027含金量再加码：AI4S/量子计算/AlInfra...第二批嘉宾强势来袭！",
+      "id": "9b7281f9cd",
+      "title": "程序员集体沉迷折纸飞机！最长滞空31.2秒",
+      "url": "https://mp.weixin.qq.com/s/VnuFb0BrS3Bhxdr3QvjIMw",
+      "summary": "程序员集体沉迷折纸飞机！最长滞空31.2秒",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-14T05:51:45.300008+00:00",
-      "pub_ts": 1794635505
+      "pub_date": "2026-11-15T05:52:54.029923+00:00",
+      "pub_ts": 1794721974
     },
     {
-      "id": "75f5666178",
-      "title": "中国AI突破复杂肺癌诊疗！中美医疗圈集体坐不住了",
-      "url": "https://mp.weixin.qq.com/s/ZMpb5VeAL9g0zwoAWDALqQ",
-      "summary": "中国AI突破复杂肺癌诊疗！中美医疗圈集体坐不住了",
+      "id": "8259fac1ef",
+      "title": "轻量模型搜索能力追平前沿闭源：重新定义环境，刷新多模态搜索能力",
+      "url": "https://mp.weixin.qq.com/s/56wAsed1Sn_mMJihq9b75A",
+      "summary": "轻量模型搜索能力追平前沿闭源：重新定义环境，刷新多模态搜索能力",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-14T05:51:45.300028+00:00",
-      "pub_ts": 1794635505
+      "pub_date": "2026-11-15T05:52:54.029936+00:00",
+      "pub_ts": 1794721974
     }
   ],
   "source_success_count": 1,
