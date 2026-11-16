@@ -3,9 +3,59 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-11-15T05:53:07.686798+00:00",
-  "item_count": 5,
+  "updated_at": "2026-11-16T05:53:03.861324+00:00",
+  "item_count": 10,
   "items": [
+    {
+      "id": "0df2d29fe7",
+      "title": "NewHydrogen Completes Construction and Commissioning of Its ThermoLoop® Engineering Test Unit",
+      "url": "https://hydrogen-central.com/newhydrogen-completes-construction-and-commissioning-of-its-thermoloop-engineering-test-unit/",
+      "summary": "NewHydrogen Completes Construction and Commissioning of Its ThermoLoop® Engineering Test Unit The ETU allows continuous cycling of the ThermoLoop® process, enabling the Company to demonstrate long duration stability and generate the data needed to design its first commercial pilot plant SANTA CLARIT…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-15T14:01:25+00:00",
+      "pub_ts": 1794751285
+    },
+    {
+      "id": "21740381d2",
+      "title": "California Enacts Landmark Hydrogen Pipeline Safety Law, Advancing Safer Hydrogen Infrastructure",
+      "url": "https://hydrogen-central.com/california-enacts-landmark-hydrogen-pipeline-safety-law-advancing-safer-hydrogen-infrastructure/",
+      "summary": "California Enacts Landmark Hydrogen Pipeline Safety Law, Advancing Safer Hydrogen Infrastructure SB 804 establishes hydrogen-specific safety standards and resolves uncertainty over regulatory oversight as California prepares for expanded hydrogen infrastructure SANTA BARBARA, Calif., Oct. 20, 2026 (…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-15T14:01:16+00:00",
+      "pub_ts": 1794751276
+    },
+    {
+      "id": "5d8fdcfdc6",
+      "title": "Loughborough researcher awarded prestigious Royal Academy of Engineering Fellowship to advance green hydrogen production",
+      "url": "https://hydrogen-central.com/loughborough-researcher-awarded-prestigious-royal-academy-of-engineering-fellowship-to-advance-green-hydrogen-production/",
+      "summary": "Loughborough researcher awarded prestigious Royal Academy of Engineering Fellowship to advance green hydrogen production A Loughborough University researcher has been awarded a prestigious Royal Academy of Engineering Research Fellowship to develop technology that could help tackle one of the bigges…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-15T13:59:04+00:00",
+      "pub_ts": 1794751144
+    },
+    {
+      "id": "f81bac0424",
+      "title": "Toyota Achieves Heavy-Duty Hydrogen Truck Milestones",
+      "url": "https://hydrogen-central.com/toyota-achieves-heavy-duty-hydrogen-truck-milestones/",
+      "summary": "Toyota Achieves Heavy-Duty Hydrogen Truck Milestones GARDENA, Calif. and PLANO, Texas , Oct. 20, 2026 /PRNewswire/ &#8212; Toyota Motor North America&#8217;s Hydrogen Headquarters (H2HQ) division is making steady progress in fueling improvements for heavy-duty fuel cell trucks as it works to bring t…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-15T13:49:23+00:00",
+      "pub_ts": 1794750563
+    },
+    {
+      "id": "5ea2c17914",
+      "title": "PowerUP and H2Boat to offer complete zero-emission hydrogen solution for yachts",
+      "url": "https://hydrogen-central.com/powerup-and-h2boat-to-offer-complete-zero-emission-hydrogen-solution-for-yachts/",
+      "summary": "PowerUP and H2Boat to offer complete zero-emission hydrogen solution for yachts PowerUP Energy Technologies, renowned for its advanced hydrogen fuel cell-based electric generators, today announced a strategic partnership with H2Boat, an Italian marine hydrogen technology company developing integrate…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-15T13:49:13+00:00",
+      "pub_ts": 1794750553
+    },
     {
       "id": "ad5d542636",
       "title": "Why AI Data Centres Are Powering a Boom in Fuel Cell Demand",
@@ -57,7 +107,7 @@
       "pub_ts": 1794584012
     }
   ],
-  "source_success_count": 1,
+  "source_success_count": 2,
   "source_total_count": 5,
   "fetch_status": "fresh"
 }

@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-11-15T05:52:58.385568+00:00",
+  "updated_at": "2026-11-16T05:52:52.567867+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "63de56f405",
-      "title": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
-      "url": "https://mp.weixin.qq.com/s/HGoMt5bKUDGHE8b19FXXig",
-      "summary": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
+      "id": "8cf858d71c",
+      "title": "没搞过一天研发的他，50岁以华为董事的身份退休了",
+      "url": "https://mp.weixin.qq.com/s/TQrWBwyRGY95YOHyh3g55g",
+      "summary": "没搞过一天研发的他，50岁以华为董事的身份退休了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-15T05:52:54.029858+00:00",
-      "pub_ts": 1794721974
+      "pub_date": "2026-11-16T05:52:45.805084+00:00",
+      "pub_ts": 1794808365
     },
     {
-      "id": "d0824f870e",
-      "title": "英伟达上演“奥特曼2.0”，员工集体请愿：让老黄回家！",
-      "url": "https://mp.weixin.qq.com/s/-yJJXQRzm9wsjz1uY53k9w",
-      "summary": "英伟达上演“奥特曼2.0”，员工集体请愿：让老黄回家！",
+      "id": "75c72e0600",
+      "title": "海外爆火的跟拍机器人，国内现货开卖了",
+      "url": "https://mp.weixin.qq.com/s/l6VX6q4ISoiJLpeJ2GnRZg",
+      "summary": "海外爆火的跟拍机器人，国内现货开卖了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-15T05:52:54.029897+00:00",
-      "pub_ts": 1794721974
+      "pub_date": "2026-11-16T05:52:45.805125+00:00",
+      "pub_ts": 1794808365
     },
     {
-      "id": "c09578f4d4",
-      "title": "绿电进Token出！联想重新定义词元工厂",
-      "url": "https://mp.weixin.qq.com/s/r8cwMNoo7cmjNAKbwtdYIw",
-      "summary": "绿电进Token出！联想重新定义词元工厂",
+      "id": "14b69fde20",
+      "title": "谷歌奇袭英伟达：整柜TPU外售加速交付，推理每美元性能领先GB20...",
+      "url": "https://mp.weixin.qq.com/s/-5Vvst-dRW6irkn6heGj_w",
+      "summary": "谷歌奇袭英伟达：整柜TPU外售加速交付，推理每美元性能领先GB20...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-15T05:52:54.029910+00:00",
-      "pub_ts": 1794721974
+      "pub_date": "2026-11-16T05:52:45.805140+00:00",
+      "pub_ts": 1794808365
     },
     {
-      "id": "9b7281f9cd",
-      "title": "程序员集体沉迷折纸飞机！最长滞空31.2秒",
-      "url": "https://mp.weixin.qq.com/s/VnuFb0BrS3Bhxdr3QvjIMw",
-      "summary": "程序员集体沉迷折纸飞机！最长滞空31.2秒",
+      "id": "0ad1d30569",
+      "title": "BMI不靠谱实锤！华科同济教授领衔Nature最新研究",
+      "url": "https://mp.weixin.qq.com/s/BwKM4KMAi0G1JPg-kwf7Bg",
+      "summary": "BMI不靠谱实锤！华科同济教授领衔Nature最新研究",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-15T05:52:54.029923+00:00",
-      "pub_ts": 1794721974
+      "pub_date": "2026-11-16T05:52:45.805153+00:00",
+      "pub_ts": 1794808365
     },
     {
-      "id": "8259fac1ef",
-      "title": "轻量模型搜索能力追平前沿闭源：重新定义环境，刷新多模态搜索能力",
-      "url": "https://mp.weixin.qq.com/s/56wAsed1Sn_mMJihq9b75A",
-      "summary": "轻量模型搜索能力追平前沿闭源：重新定义环境，刷新多模态搜索能力",
+      "id": "b6dec59075",
+      "title": "MEET2027含金量加码：第二批嘉宾强势来袭！",
+      "url": "https://mp.weixin.qq.com/s/J45mEtVPBSU0-F5-t-LH4Q",
+      "summary": "MEET2027含金量加码：第二批嘉宾强势来袭！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-15T05:52:54.029936+00:00",
-      "pub_ts": 1794721974
+      "pub_date": "2026-11-16T05:52:45.805165+00:00",
+      "pub_ts": 1794808365
     }
   ],
   "source_success_count": 1,

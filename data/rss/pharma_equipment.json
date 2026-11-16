@@ -3,9 +3,19 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-11-15T05:53:19.952550+00:00",
+  "updated_at": "2026-11-16T05:53:16.240425+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "076dad88b0",
+      "title": "AHA26: Boehringer’s survodutide establishes CV safety in SYNCHRONIZE-CVOT",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/aha26-boehringers-survodutide-establishes-cv-safety-in-synchronize-cvot/",
+      "summary": "KOLs interviewed by GlobalData were more optimistic about survodutide’s potential in fatty liver disease (MASLD) than weight loss.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-11-13T19:53:35+00:00",
+      "pub_ts": 1794599615
+    },
     {
       "id": "4e3272207b",
       "title": "AHA26: Semaglutide’s real-world CV benefits highlight importance of persistence",
@@ -45,16 +55,6 @@
       "lang": "en",
       "pub_date": "2026-11-13T11:28:31+00:00",
       "pub_ts": 1794569311
-    },
-    {
-      "id": "2ca69435ad",
-      "title": "BMS sets unified research and development structure for 2027",
-      "url": "https://www.pharmaceutical-technology.com/news/bms-unified-research-and-development-structure-2027/",
-      "summary": "Bristol Myers Squibb (BMS) is set to merge its separate research and development (R&amp;D) departments into a single entity, effective from 1 January 2027.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-11-13T09:31:20+00:00",
-      "pub_ts": 1794562280
     }
   ],
   "source_success_count": 1,
