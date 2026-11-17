@@ -3,108 +3,148 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-11-16T05:52:36.461175+00:00",
+  "updated_at": "2026-11-17T07:29:39.739508+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "380035cbec",
-      "title": "国产芯片融资潮，来势凶猛",
-      "url": "https://mp.weixin.qq.com/s/AT0E4rU5UA2yEe96WzpKVQ",
-      "summary": "国产芯片融资潮，来势凶猛",
+      "id": "8e62f4ccba",
+      "title": "华为&CNN联创纪录片《创新无限》，第一集：小基站，大跨..",
+      "url": "https://mp.weixin.qq.com/s/EKKt35SrwQ9SPAIWITp1QA",
+      "summary": "华为&amp;CNN联创纪录片《创新无限》，第一集：小基站，大跨..",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-16T05:52:32.153636+00:00",
-      "pub_ts": 1794808352
+      "pub_date": "2026-11-17T07:29:35.473338+00:00",
+      "pub_ts": 1794900575
     },
     {
-      "id": "048c852590",
-      "title": "持股比例拟升至98.52%，TCL中环加码半导体硅片",
-      "url": "https://mp.weixin.qq.com/s/ZTCEI0b2Gp6RH0_cGyWGoQ",
-      "summary": "持股比例拟升至98.52%，TCL中环加码半导体硅片",
+      "id": "1c69acbf43",
+      "title": "10月，中国芯片产量大涨21.9%",
+      "url": "https://mp.weixin.qq.com/s/cF7ewvFAn6AzVmE9FaVsRQ",
+      "summary": "10月，中国芯片产量大涨21.9%",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-16T05:52:32.153675+00:00",
-      "pub_ts": 1794808352
+      "pub_date": "2026-11-17T07:29:35.473396+00:00",
+      "pub_ts": 1794900575
     },
     {
-      "id": "e5508d0df0",
-      "title": "打通芯片到整机，星闪智能家电OpenLab正式投运",
-      "url": "https://mp.weixin.qq.com/s/XKto7WzCbpcGEy9jqIVwew",
-      "summary": "打通芯片到整机，星闪智能家电OpenLab正式投运",
+      "id": "eb0d17fce5",
+      "title": "5年投10亿美元，SK海力士放大招",
+      "url": "https://mp.weixin.qq.com/s/BSmifw8VtUcLgyndHoVUtA",
+      "summary": "5年投10亿美元，SK海力士放大招",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-16T05:52:32.153692+00:00",
-      "pub_ts": 1794808352
+      "pub_date": "2026-11-17T07:29:35.473427+00:00",
+      "pub_ts": 1794900575
     },
     {
-      "id": "776057ea92",
-      "title": "青岛一口气落了三家芯片公司",
-      "url": "https://mp.weixin.qq.com/s/2XxACJ_dcBvTgTcuXfYy-A",
-      "summary": "青岛一口气落了三家芯片公司",
+      "id": "39513e2e84",
+      "title": "深度拆解，一颗现代CPU里到底有什么？",
+      "url": "https://mp.weixin.qq.com/s/l2KBLzNNH948IKnZ1hJaZQ",
+      "summary": "深度拆解，一颗现代CPU里到底有什么？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-16T05:52:32.153707+00:00",
-      "pub_ts": 1794808352
+      "pub_date": "2026-11-17T07:29:35.473454+00:00",
+      "pub_ts": 1794900575
     },
     {
-      "id": "954e8d3c5c",
-      "title": "1.84万亿“神操作”，日本守住了半导体产业“命门”",
-      "url": "https://mp.weixin.qq.com/s/9JaL-gdTPyOOUW-rSKCS5A",
-      "summary": "1.84万亿“神操作”，日本守住了半导体产业“命门”",
+      "id": "ec65e4ca91",
+      "title": "用钻石给GPU降温，会不会太昂贵了?",
+      "url": "https://mp.weixin.qq.com/s/_X1P_UOF9TtLBNghMj05pQ",
+      "summary": "用钻石给GPU降温，会不会太昂贵了?",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-16T05:52:32.153721+00:00",
-      "pub_ts": 1794808352
+      "pub_date": "2026-11-17T07:29:35.473479+00:00",
+      "pub_ts": 1794900575
     },
     {
-      "id": "9e4014143c",
-      "title": "模拟芯片六巨头，透露行业新风向",
-      "url": "https://mp.weixin.qq.com/s/T2YU5p1SGU_Zl7wItN2Yuw",
-      "summary": "模拟芯片六巨头，透露行业新风向",
+      "id": "7459fed582",
+      "title": "刚刚，纳芯微宣布，收购隔空智能！",
+      "url": "https://mp.weixin.qq.com/s/B34HNGkPpg7XTkOGMku09g",
+      "summary": "刚刚，纳芯微宣布，收购隔空智能！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-16T05:52:24.156222+00:00",
-      "pub_ts": 1794808344
+      "pub_date": "2026-11-17T07:29:28.347584+00:00",
+      "pub_ts": 1794900568
     },
     {
-      "id": "1fbbe37f3a",
-      "title": "AMDZen6，架构师深度揭秘",
-      "url": "https://mp.weixin.qq.com/s/OQ72pZoNXuezMGHtGzBfUA",
-      "summary": "AMDZen6，架构师深度揭秘",
+      "id": "1c296a752d",
+      "title": "芯片双雄，斥巨资扩产",
+      "url": "https://mp.weixin.qq.com/s/neXBGt_TPArkV5WLvkqt6Q",
+      "summary": "芯片双雄，斥巨资扩产",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-16T05:52:24.156274+00:00",
-      "pub_ts": 1794808344
+      "pub_date": "2026-11-17T07:29:28.347649+00:00",
+      "pub_ts": 1794900568
     },
     {
-      "id": "fc1a54912c",
-      "title": "警告：英伟达GPU恐遭“雪崩”",
-      "url": "https://mp.weixin.qq.com/s/a6SWztXlT0GTWr8504yIsg",
-      "summary": "警告：英伟达GPU恐遭“雪崩”",
+      "id": "4fcfe88475",
+      "title": "报名中|12月3日，先进封装开发者大会@香港",
+      "url": "https://mp.weixin.qq.com/s/ty3KuBv-MPg8eA_-pXa8Hw",
+      "summary": "报名中|12月3日，先进封装开发者大会@香港",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-16T05:52:24.156289+00:00",
-      "pub_ts": 1794808344
+      "pub_date": "2026-11-17T07:29:28.347672+00:00",
+      "pub_ts": 1794900568
     },
     {
-      "id": "c7a75b6ec1",
-      "title": "HBM的增长逻辑，正在发生变化",
-      "url": "https://mp.weixin.qq.com/s/3xAuqC6168nUs9MLqBCERg",
-      "summary": "HBM的增长逻辑，正在发生变化",
+      "id": "a7f0eab4c1",
+      "title": "一场股权整合，折射国产硅片竞争新局",
+      "url": "https://mp.weixin.qq.com/s/5--ag-LSutvazjj1UNp_vQ",
+      "summary": "一场股权整合，折射国产硅片竞争新局",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-16T05:52:24.156303+00:00",
-      "pub_ts": 1794808344
+      "pub_date": "2026-11-17T07:29:28.347725+00:00",
+      "pub_ts": 1794900568
     },
     {
-      "id": "4053741c13",
-      "title": "全球市值TOP10的半导体公司",
-      "url": "https://mp.weixin.qq.com/s/OKblmKdWRNFBS3HbLIuIuQ",
-      "summary": "全球市值TOP10的半导体公司",
+      "id": "5482a0b4db",
+      "title": "AI时代，FPGA再次崛起",
+      "url": "https://mp.weixin.qq.com/s/CT2w3DW-PoX3OBGCdUD4MA",
+      "summary": "AI时代，FPGA再次崛起",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-16T05:52:24.156317+00:00",
-      "pub_ts": 1794808344
+      "pub_date": "2026-11-17T07:29:28.347747+00:00",
+      "pub_ts": 1794900568
+    },
+    {
+      "id": "fa134c1896",
+      "title": "Self-Supervised Virtual Metrology For CMP MRR Prediction (SUTD, A*STAR, NUS)",
+      "url": "https://semiengineering.com/self-supervised-virtual-metrology-for-cmp-mrr-prediction-sutd-astar-nus/",
+      "summary": "Researchers at Singapore University of Technology and Design (SUTD), A*STAR, and National University of Singapore (NUS) published “Self-Supervised Attention-Based Virtual Metrology for CMP MRR Prediction.” Excerpt &#8220;In this paper, we propose Global Regression Pretraining (GREP), a self-supervis…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-11-17T00:56:29+00:00",
+      "pub_ts": 1794876989
+    },
+    {
+      "id": "754e15e103",
+      "title": "Reducing High-Bandwidth Flash Latency In GPU Systems (Georgia Tech, Nvidia, Stanford)",
+      "url": "https://semiengineering.com/reducing-high-bandwidth-flash-latency-in-gpu-systems-georgia-tech-nvidia-stanford/",
+      "summary": "Researchers at Georgia Tech, NVIDIA Research, and Stanford University published “SlipStream: Enabling HBF for GPU Systems by Mitigating the Latency and SRAM Overheads.” Abstract Excerpt &#8220;Large language model (LLM) inference demands ever more memory capacity for larger models and batch sizes. H…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-11-16T23:52:56+00:00",
+      "pub_ts": 1794873176
+    },
+    {
+      "id": "125002c1bd",
+      "title": "What Is Acoustic Micro Imaging? A Quick Guide To This Inspection Process",
+      "url": "https://semiengineering.com/what-is-acoustic-micro-imaging-a-quick-guide-to-this-inspection-process/",
+      "summary": "Obtaining clear images of gaps and delaminations in advanced packages.\nThe post What Is Acoustic Micro Imaging? A Quick Guide To This Inspection Process appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-11-16T08:01:29+00:00",
+      "pub_ts": 1794816089
+    },
+    {
+      "id": "22755edd0a",
+      "title": "Are AI Agents The New Semiconductor IP?",
+      "url": "https://semiengineering.com/are-ai-agents-the-new-semiconductor-ip/",
+      "summary": "Agents are emerging as reusable design tools, but trust and use models remain challenging.\nThe post Are AI Agents The New Semiconductor IP? appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-11-16T08:01:17+00:00",
+      "pub_ts": 1794816077
     },
     {
       "id": "68f3520403",
@@ -115,46 +155,6 @@
       "lang": "en",
       "pub_date": "2026-11-13T21:53:30+00:00",
       "pub_ts": 1794606810
-    },
-    {
-      "id": "6b6e0dbbb5",
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-164/",
-      "summary": "300mm SiC breakthrough; Nvidia faces questions about security and oversight; Siemens buys Lauterbach; chiplet standards; new memory bets; imec interposer process flow; TPUs with CPUs; 2D transistors; anti-smuggling tools for chips.\nThe post Chip Industry Week In Review appeared first on Semiconducto…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-11-13T08:01:34+00:00",
-      "pub_ts": 1794556894
-    },
-    {
-      "id": "8ad5e5f72d",
-      "title": "The Semiconductor Singularity",
-      "url": "https://semiengineering.com/the-semiconductor-singularity/",
-      "summary": "Accelerating IC innovation with AI.\nThe post The Semiconductor Singularity appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-11-12T15:57:50+00:00",
-      "pub_ts": 1794499070
-    },
-    {
-      "id": "14abe18709",
-      "title": "Rethinking Memory For AI Inference",
-      "url": "https://semiengineering.com/rethinking-memory-for-ai-inference/",
-      "summary": "Processing data closer to memory could reduce power and boost performance, but software, thermal, and architectural challenges remain.\nThe post Rethinking Memory For AI Inference appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-11-12T08:11:46+00:00",
-      "pub_ts": 1794471106
-    },
-    {
-      "id": "315b29da2c",
-      "title": "Beyond Bandwidth: AI Inference Is Reshaping The Memory Wall",
-      "url": "https://semiengineering.com/beyond-bandwidth-ai-inference-is-reshaping-the-memory-wall/",
-      "summary": "Longer contexts, higher concurrency, multimodal models, and AI agents will continue changing where memory pressure appears. \nThe post Beyond Bandwidth: AI Inference Is Reshaping The Memory Wall appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-11-12T08:08:39+00:00",
-      "pub_ts": 1794470919
     }
   ],
   "source_success_count": 3,

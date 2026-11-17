@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-11-16T05:53:16.240425+00:00",
+  "updated_at": "2026-11-17T07:30:24.765984+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "076dad88b0",
-      "title": "AHA26: Boehringer’s survodutide establishes CV safety in SYNCHRONIZE-CVOT",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/aha26-boehringers-survodutide-establishes-cv-safety-in-synchronize-cvot/",
-      "summary": "KOLs interviewed by GlobalData were more optimistic about survodutide’s potential in fatty liver disease (MASLD) than weight loss.",
+      "id": "3781af907b",
+      "title": "J&J outlays up to $3.3bn to buy ophthalmology specialist Ollin Biosciences",
+      "url": "https://www.pharmaceutical-technology.com/news/jj-outlays-up-to-3-3bn-to-buy-ophthalmology-specialist-ollin-biosciences/",
+      "summary": "The deal sees J&amp;J bolster its pipeline with a bispecific antibody in Phase III development for wAMD and DME.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-13T19:53:35+00:00",
-      "pub_ts": 1794599615
+      "pub_date": "2026-11-16T17:03:50+00:00",
+      "pub_ts": 1794848630
     },
     {
-      "id": "4e3272207b",
-      "title": "AHA26: Semaglutide’s real-world CV benefits highlight importance of persistence",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/aha26-semaglutides-real-world-cv-benefits-highlight-importance-of-persistence/",
-      "summary": "Real-world semaglutide CV outcomes mirror clinical trials, with greater treatment persistence linked to better outcomes.",
+      "id": "7ecf382e9d",
+      "title": "RevMed CEO on tackling “complex” launch for wonder pancreatic drug",
+      "url": "https://www.pharmaceutical-technology.com/news/revmed-ceo-on-tackling-complex-launch-for-pancreatic-drug/",
+      "summary": "One of oncology’s biggest success stories this year, RevMed's Rasonque, has started with strong uptake in the US.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-13T16:07:31+00:00",
-      "pub_ts": 1794586051
+      "pub_date": "2026-11-16T16:15:02+00:00",
+      "pub_ts": 1794845702
     },
     {
-      "id": "9eb2a47dce",
-      "title": "BIO Europe: Financing, AI and geopolitics shape biotech discourse",
-      "url": "https://www.pharmaceutical-technology.com/features/bio-europe-2026-financing-ai-geopolitics-shape-biotech-discourse/",
-      "summary": "Speakers at BIO-Europe 2026 noted that European biotechs must be agile and adaptable in times of geopolitical and financial upheaval.",
+      "id": "7155054831",
+      "title": "Flagship Pioneering expands to UK with £100m AI-native lab",
+      "url": "https://www.pharmaceutical-technology.com/news/flagship-pioneering-uk-expansion-100m-ai-native-lab/",
+      "summary": "Flagship's UK investment marks another sign of turning tides for the UK life sciences sector, following prior big pharma funding pullouts.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-13T15:36:48+00:00",
-      "pub_ts": 1794584208
+      "pub_date": "2026-11-16T16:01:20+00:00",
+      "pub_ts": 1794844880
     },
     {
-      "id": "4863915f0a",
-      "title": "FDA puts commissioner’s priority voucher framework on ice",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-puts-commissioners-priority-voucher-framework-on-ice/",
-      "summary": "Experts consistently questioned how vouchers were awarded, along with critiquing its wider industry benefits.",
+      "id": "4cf7cd78cd",
+      "title": "Sofinnova Partners backs European life sciences sector with €725M raise",
+      "url": "https://www.pharmaceutical-technology.com/news/sofinnova-partners-life-sciences-crossover-ii-fund/",
+      "summary": "The main recipients of this fund will be European life sciences companies, though some across the US and other geographies will also benefit.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-13T11:40:48+00:00",
-      "pub_ts": 1794570048
+      "pub_date": "2026-11-16T09:53:42+00:00",
+      "pub_ts": 1794822822
     },
     {
-      "id": "6d36bff768",
-      "title": "Neurosterix pockets $105m to advance neuropsychiatry pipeline",
-      "url": "https://www.pharmaceutical-technology.com/news/neurosterix-150m-series-b-to-advance-neuropsychiatry-pipeline-schizophrenia/",
-      "summary": "Neurosterix hopes that NTX-253 may compete with BMS’s Cobenfy as the schizophrenia field explores mechanisms past dopamine modulation.",
+      "id": "abcb052342",
+      "title": "AstraZeneca secures FDA approval for Imfinzi combo in MIBC",
+      "url": "https://www.pharmaceutical-technology.com/news/astrazeneca-fda-approval-imfinzi-combo-mibc/",
+      "summary": "The US FDA has approved AstraZeneca's Imfinzi in combination with enfortumab vedotin for adult patients with MIBC who cannot receive or have refused cisplatin-based chemotherapy.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-13T11:28:31+00:00",
-      "pub_ts": 1794569311
+      "pub_date": "2026-11-16T09:37:25+00:00",
+      "pub_ts": 1794821845
     }
   ],
   "source_success_count": 1,

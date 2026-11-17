@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-11-16T05:52:52.567867+00:00",
+  "updated_at": "2026-11-17T07:29:53.610485+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "8cf858d71c",
-      "title": "没搞过一天研发的他，50岁以华为董事的身份退休了",
-      "url": "https://mp.weixin.qq.com/s/TQrWBwyRGY95YOHyh3g55g",
-      "summary": "没搞过一天研发的他，50岁以华为董事的身份退休了",
+      "id": "248c87bfca",
+      "title": "物理AI的强化学习仿真环境来了，光轮智能推出RoboFinals RLEnvs",
+      "url": "https://mp.weixin.qq.com/s/6gpkLwyAOdHic4JLFC_2nQ",
+      "summary": "物理AI的强化学习仿真环境来了，光轮智能推出RoboFinals RLEnvs",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-16T05:52:45.805084+00:00",
-      "pub_ts": 1794808365
+      "pub_date": "2026-11-17T07:29:49.421895+00:00",
+      "pub_ts": 1794900589
     },
     {
-      "id": "75c72e0600",
-      "title": "海外爆火的跟拍机器人，国内现货开卖了",
-      "url": "https://mp.weixin.qq.com/s/l6VX6q4ISoiJLpeJ2GnRZg",
-      "summary": "海外爆火的跟拍机器人，国内现货开卖了",
+      "id": "c105b39b79",
+      "title": "Claude破解千页哥德尔手稿：80年前他差一步拿菲尔兹奖",
+      "url": "https://mp.weixin.qq.com/s/Y5Z0xxLpGItQFqeY6cJYEA",
+      "summary": "Claude破解千页哥德尔手稿：80年前他差一步拿菲尔兹奖",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-16T05:52:45.805125+00:00",
-      "pub_ts": 1794808365
+      "pub_date": "2026-11-17T07:29:49.421948+00:00",
+      "pub_ts": 1794900589
     },
     {
-      "id": "14b69fde20",
-      "title": "谷歌奇袭英伟达：整柜TPU外售加速交付，推理每美元性能领先GB20...",
-      "url": "https://mp.weixin.qq.com/s/-5Vvst-dRW6irkn6heGj_w",
-      "summary": "谷歌奇袭英伟达：整柜TPU外售加速交付，推理每美元性能领先GB20...",
+      "id": "9ac53b57ea",
+      "title": "长视频推理耗时减半！中大、港理工等提出免训练压缩新方法...",
+      "url": "https://mp.weixin.qq.com/s/1aqfKElTHgZy7buTjIRNTQ",
+      "summary": "长视频推理耗时减半！中大、港理工等提出免训练压缩新方法...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-16T05:52:45.805140+00:00",
-      "pub_ts": 1794808365
+      "pub_date": "2026-11-17T07:29:49.421967+00:00",
+      "pub_ts": 1794900589
     },
     {
-      "id": "0ad1d30569",
-      "title": "BMI不靠谱实锤！华科同济教授领衔Nature最新研究",
-      "url": "https://mp.weixin.qq.com/s/BwKM4KMAi0G1JPg-kwf7Bg",
-      "summary": "BMI不靠谱实锤！华科同济教授领衔Nature最新研究",
+      "id": "6b14719a60",
+      "title": "计算/AI Infra...第二批嘉宾强势来袭！",
+      "url": "https://mp.weixin.qq.com/s/bCLAavH8i8-lpMeggfNfKw",
+      "summary": "计算/AI Infra...第二批嘉宾强势来袭！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-16T05:52:45.805153+00:00",
-      "pub_ts": 1794808365
+      "pub_date": "2026-11-17T07:29:49.421987+00:00",
+      "pub_ts": 1794900589
     },
     {
-      "id": "b6dec59075",
-      "title": "MEET2027含金量加码：第二批嘉宾强势来袭！",
-      "url": "https://mp.weixin.qq.com/s/J45mEtVPBSU0-F5-t-LH4Q",
-      "summary": "MEET2027含金量加码：第二批嘉宾强势来袭！",
+      "id": "11243b3170",
+      "title": "龙芯、海光老兵集结，通研院孵化的AGI芯片公司浮出水面！半年连融...",
+      "url": "https://mp.weixin.qq.com/s/rwevJGa1-6eFyIWpYTDssw",
+      "summary": "龙芯、海光老兵集结，通研院孵化的AGI芯片公司浮出水面！半年连融...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-16T05:52:45.805165+00:00",
-      "pub_ts": 1794808365
+      "pub_date": "2026-11-17T07:29:49.422019+00:00",
+      "pub_ts": 1794900589
     }
   ],
   "source_success_count": 1,

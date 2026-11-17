@@ -3,9 +3,59 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-11-16T05:53:03.861324+00:00",
+  "updated_at": "2026-11-17T07:30:12.194311+00:00",
   "item_count": 10,
   "items": [
+    {
+      "id": "56b672cb37",
+      "title": "Fuel Cell and Hydrogen News Highlights From China: Nov. 09-13, 2026",
+      "url": "https://fuelcellsworks.com/2026/11/14/clean-energy/fuel-cell-and-hydrogen-news-highlights-from-china-nov-09-13-2026",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-16T16:43:14+00:00",
+      "pub_ts": 1794847394
+    },
+    {
+      "id": "94665bd166",
+      "title": "Multi-Million-Dollar Research Programme Puts Underground Energy Resources to the Test",
+      "url": "https://fuelcellsworks.com/2026/11/12/h2/multi-million-dollar-research-programme-puts-underground-energy-resources-to-the-test",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-16T16:33:51+00:00",
+      "pub_ts": 1794846831
+    },
+    {
+      "id": "ead72db930",
+      "title": "Oman Selects Two Green Hydrogen Projects in Duqm as Fourth Auction Pivots to Data Centres",
+      "url": "https://fuelcellsworks.com/2026/11/16/h2/oman-selects-two-green-hydrogen-projects-in-duqm-as-fourth-auction-pivots-to-data-centres-e60316311",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-16T16:27:38+00:00",
+      "pub_ts": 1794846458
+    },
+    {
+      "id": "0dd0ce0921",
+      "title": "Fuel-Cell-Powered Trailer Technology Targets Lower-Emission Heavy Freight",
+      "url": "https://fuelcellsworks.com/2026/11/15/fuel-cells/fuel-cell-powered-trailer-technology-targets-lower-emission-heavy-freight",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-16T16:13:30+00:00",
+      "pub_ts": 1794845610
+    },
+    {
+      "id": "2f7d54f188",
+      "title": "Hy2gen Finalises €139.8M Hydrogen Bank Subsidy for 100MW Albatros Project",
+      "url": "https://fuelcellsworks.com/2026/11/16/h2/hy2gen-finalises-139-8m-hydrogen-bank-subsidy-for-100mw-albatros-project",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-16T16:07:35+00:00",
+      "pub_ts": 1794845255
+    },
     {
       "id": "0df2d29fe7",
       "title": "NewHydrogen Completes Construction and Commissioning of Its ThermoLoop® Engineering Test Unit",
@@ -55,56 +105,6 @@
       "lang": "en",
       "pub_date": "2026-11-15T13:49:13+00:00",
       "pub_ts": 1794750553
-    },
-    {
-      "id": "ad5d542636",
-      "title": "Why AI Data Centres Are Powering a Boom in Fuel Cell Demand",
-      "url": "https://fuelcellsworks.com/2026/11/14/news/why-ai-data-centres-are-powering-a-boom-in-fuel-cell-demand",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-14T17:02:10+00:00",
-      "pub_ts": 1794675730
-    },
-    {
-      "id": "403788a092",
-      "title": "Vidi Grants for UT Researchers Who Work on Networks, Hydrogen and Waste Heat",
-      "url": "https://fuelcellsworks.com/2026/11/14/h2/vidi-grants-for-ut-researchers-who-work-on-networks-hydrogen-and-waste-heat",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-14T16:58:31+00:00",
-      "pub_ts": 1794675511
-    },
-    {
-      "id": "24fb041c79",
-      "title": "KONČAR Wins EU Innovation Fund Backing for 2.5MW Power Interface Targeting Green Hydrogen Electrolysers",
-      "url": "https://fuelcellsworks.com/2026/11/14/electrolyzer/koncar-wins-eu-innovation-fund-backing-for-2-5mw-power-interface-targeting-green-hydrogen-electrolysers",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-14T16:55:43+00:00",
-      "pub_ts": 1794675343
-    },
-    {
-      "id": "43dfce1b5a",
-      "title": "German Beverage Distributor Voßkamp Tests Hyundai XCIENT Hydrogen Truck Alongside BEV and Combustion Fleet",
-      "url": "https://fuelcellsworks.com/2026/11/12/fuel-cells/german-beverage-distributor-vo-kamp-tests-hyundai-xcient-hydrogen-truck-alongside-bev-and-combustion-fleet",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-13T15:54:19+00:00",
-      "pub_ts": 1794585259
-    },
-    {
-      "id": "41b0ba63f3",
-      "title": "Brazil’s Energy Regulator Authorises First Green Hydrogen Project to Access National Grid",
-      "url": "https://fuelcellsworks.com/2026/11/13/h2/brazil-s-energy-regulator-authorises-first-green-hydrogen-project-to-access-national-grid",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-13T15:33:32+00:00",
-      "pub_ts": 1794584012
     }
   ],
   "source_success_count": 2,
