@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-11-17T07:30:24.765984+00:00",
+  "updated_at": "2026-11-18T06:54:16.847032+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "3781af907b",
-      "title": "J&J outlays up to $3.3bn to buy ophthalmology specialist Ollin Biosciences",
-      "url": "https://www.pharmaceutical-technology.com/news/jj-outlays-up-to-3-3bn-to-buy-ophthalmology-specialist-ollin-biosciences/",
-      "summary": "The deal sees J&amp;J bolster its pipeline with a bispecific antibody in Phase III development for wAMD and DME.",
+      "id": "524da91690",
+      "title": "Eli Lilly inks cancer pact worth up to $5.9bn with Stipple Bio",
+      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-inks-cancer-pact-worth-up-to-5-9bn-with-stipple-bio/",
+      "summary": "Stipple plans to initiate a Phase I trial for an ADC for solid tumours in early 2027.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-16T17:03:50+00:00",
-      "pub_ts": 1794848630
+      "pub_date": "2026-11-17T16:13:43+00:00",
+      "pub_ts": 1794932023
     },
     {
-      "id": "7ecf382e9d",
-      "title": "RevMed CEO on tackling “complex” launch for wonder pancreatic drug",
-      "url": "https://www.pharmaceutical-technology.com/news/revmed-ceo-on-tackling-complex-launch-for-pancreatic-drug/",
-      "summary": "One of oncology’s biggest success stories this year, RevMed's Rasonque, has started with strong uptake in the US.",
+      "id": "737a7e951b",
+      "title": "Pfizer CEO: ‘China will be my major competition by 2030’",
+      "url": "https://www.pharmaceutical-technology.com/news/pfizer-ceo-china-will-be-my-major-competition-2030/",
+      "summary": "Pfizer CEO Albert Bourla’s comments come a month after the Chinese government unveiled a five-year biomedical plan to grow its pharma exports.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-16T16:15:02+00:00",
-      "pub_ts": 1794845702
+      "pub_date": "2026-11-17T15:58:41+00:00",
+      "pub_ts": 1794931121
     },
     {
-      "id": "7155054831",
-      "title": "Flagship Pioneering expands to UK with £100m AI-native lab",
-      "url": "https://www.pharmaceutical-technology.com/news/flagship-pioneering-uk-expansion-100m-ai-native-lab/",
-      "summary": "Flagship's UK investment marks another sign of turning tides for the UK life sciences sector, following prior big pharma funding pullouts.",
+      "id": "92f4e12bca",
+      "title": "Seawolf Therapeutics and Sanofi agree $1.2bn drug deal",
+      "url": "https://www.pharmaceutical-technology.com/news/seawolf-sanofi-agree-drug-deal/",
+      "summary": "Seawolf Therapeutics and Sanofi have signed a multi-target research partnership and exclusive licensing deal worth up to $1.2bn to develop treatments for bleeding disorders and other undisclosed indications.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-16T16:01:20+00:00",
-      "pub_ts": 1794844880
+      "pub_date": "2026-11-17T11:15:54+00:00",
+      "pub_ts": 1794914154
     },
     {
-      "id": "4cf7cd78cd",
-      "title": "Sofinnova Partners backs European life sciences sector with €725M raise",
-      "url": "https://www.pharmaceutical-technology.com/news/sofinnova-partners-life-sciences-crossover-ii-fund/",
-      "summary": "The main recipients of this fund will be European life sciences companies, though some across the US and other geographies will also benefit.",
+      "id": "b5c1e4993e",
+      "title": "UK biotech sector calls on government to support sector’s growth on home soil",
+      "url": "https://www.pharmaceutical-technology.com/news/uk-biotech-sectors-calls-on-government-support-sector-scale/",
+      "summary": "UK biotech organisations outline their needs to the British government to scale, manufacture and commercialise biological products.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-16T09:53:42+00:00",
-      "pub_ts": 1794822822
+      "pub_date": "2026-11-17T11:00:32+00:00",
+      "pub_ts": 1794913232
     },
     {
-      "id": "abcb052342",
-      "title": "AstraZeneca secures FDA approval for Imfinzi combo in MIBC",
-      "url": "https://www.pharmaceutical-technology.com/news/astrazeneca-fda-approval-imfinzi-combo-mibc/",
-      "summary": "The US FDA has approved AstraZeneca's Imfinzi in combination with enfortumab vedotin for adult patients with MIBC who cannot receive or have refused cisplatin-based chemotherapy.",
+      "id": "4b9ac3b5f0",
+      "title": "Lilly agrees to acquire Calytrix Bio for $1.5bn",
+      "url": "https://www.pharmaceutical-technology.com/news/lilly-to-acquire-calytrix-bio-1-5bn/",
+      "summary": "Eli Lilly and Company has agreed to acquire Calytrix Bio in a deal valued at up to $1.5bn to advance an investigational biparatopic antibody targeting mCALR-driven ET and MF.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-16T09:37:25+00:00",
-      "pub_ts": 1794821845
+      "pub_date": "2026-11-17T09:52:24+00:00",
+      "pub_ts": 1794909144
     }
   ],
   "source_success_count": 1,

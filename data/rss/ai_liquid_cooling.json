@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-11-17T07:29:53.610485+00:00",
+  "updated_at": "2026-11-18T06:53:52.909817+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "248c87bfca",
-      "title": "物理AI的强化学习仿真环境来了，光轮智能推出RoboFinals RLEnvs",
-      "url": "https://mp.weixin.qq.com/s/6gpkLwyAOdHic4JLFC_2nQ",
-      "summary": "物理AI的强化学习仿真环境来了，光轮智能推出RoboFinals RLEnvs",
+      "id": "f5d43e6066",
+      "title": "潜伏小红书48h：AI时代，顶尖技术人才都在聊什么？",
+      "url": "https://mp.weixin.qq.com/s/3uotv0KLZfG_2Yt9KvmBpg",
+      "summary": "潜伏小红书48h：AI时代，顶尖技术人才都在聊什么？",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-17T07:29:49.421895+00:00",
-      "pub_ts": 1794900589
+      "pub_date": "2026-11-18T06:53:47.979086+00:00",
+      "pub_ts": 1794984827
     },
     {
-      "id": "c105b39b79",
-      "title": "Claude破解千页哥德尔手稿：80年前他差一步拿菲尔兹奖",
-      "url": "https://mp.weixin.qq.com/s/Y5Z0xxLpGItQFqeY6cJYEA",
-      "summary": "Claude破解千页哥德尔手稿：80年前他差一步拿菲尔兹奖",
+      "id": "9922560bc6",
+      "title": "李沐加盟的Aimotion，是一家什么Al公司？",
+      "url": "https://mp.weixin.qq.com/s/i_l6hXPYPAzxwVl783-EIQ",
+      "summary": "李沐加盟的Aimotion，是一家什么Al公司？",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-17T07:29:49.421948+00:00",
-      "pub_ts": 1794900589
+      "pub_date": "2026-11-18T06:53:47.979129+00:00",
+      "pub_ts": 1794984827
     },
     {
-      "id": "9ac53b57ea",
-      "title": "长视频推理耗时减半！中大、港理工等提出免训练压缩新方法...",
-      "url": "https://mp.weixin.qq.com/s/1aqfKElTHgZy7buTjIRNTQ",
-      "summary": "长视频推理耗时减半！中大、港理工等提出免训练压缩新方法...",
+      "id": "fdcc806048",
+      "title": "MEET2027含金量再加码：AI4S/量子计算/AI Infra...第二批嘉宾强势来袭！",
+      "url": "https://mp.weixin.qq.com/s/1lQHTY6EeeXPXet53FJfUA",
+      "summary": "MEET2027含金量再加码：AI4S/量子计算/AI Infra...第二批嘉宾强势来袭！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-17T07:29:49.421967+00:00",
-      "pub_ts": 1794900589
+      "pub_date": "2026-11-18T06:53:47.979153+00:00",
+      "pub_ts": 1794984827
     },
     {
-      "id": "6b14719a60",
-      "title": "计算/AI Infra...第二批嘉宾强势来袭！",
-      "url": "https://mp.weixin.qq.com/s/bCLAavH8i8-lpMeggfNfKw",
-      "summary": "计算/AI Infra...第二批嘉宾强势来袭！",
+      "id": "68ba155dda",
+      "title": "Qwen4-Max首批实测，能力第一梯队成本暴砍67%！",
+      "url": "https://mp.weixin.qq.com/s/7Nuzb6joA2xOkm2Lh5d2dA",
+      "summary": "Qwen4-Max首批实测，能力第一梯队成本暴砍67%！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-17T07:29:49.421987+00:00",
-      "pub_ts": 1794900589
+      "pub_date": "2026-11-18T06:53:47.979174+00:00",
+      "pub_ts": 1794984827
     },
     {
-      "id": "11243b3170",
-      "title": "龙芯、海光老兵集结，通研院孵化的AGI芯片公司浮出水面！半年连融...",
-      "url": "https://mp.weixin.qq.com/s/rwevJGa1-6eFyIWpYTDssw",
-      "summary": "龙芯、海光老兵集结，通研院孵化的AGI芯片公司浮出水面！半年连融...",
+      "id": "a9cbb8ec80",
+      "title": "Gemini新模型箭在弦上，网友：遍历元素周期表?",
+      "url": "https://mp.weixin.qq.com/s/mMTwQOyk5dyCSzmWHFcX0w",
+      "summary": "Gemini新模型箭在弦上，网友：遍历元素周期表?",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-17T07:29:49.422019+00:00",
-      "pub_ts": 1794900589
+      "pub_date": "2026-11-18T06:53:47.979195+00:00",
+      "pub_ts": 1794984827
     }
   ],
   "source_success_count": 1,

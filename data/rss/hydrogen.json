@@ -3,108 +3,108 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-11-17T07:30:12.194311+00:00",
+  "updated_at": "2026-11-18T06:54:04.093178+00:00",
   "item_count": 10,
   "items": [
     {
-      "id": "56b672cb37",
-      "title": "Fuel Cell and Hydrogen News Highlights From China: Nov. 09-13, 2026",
-      "url": "https://fuelcellsworks.com/2026/11/14/clean-energy/fuel-cell-and-hydrogen-news-highlights-from-china-nov-09-13-2026",
+      "id": "dbea340dbf",
+      "title": "ROTOBOOST Secures Strategic Investment from Aramco Ventures to Accelerate Global Deployment of Methane Pyrolysis Technology for Low-Carbon Hydrogen and Advanced Carbon Materials",
+      "url": "https://hydrogen-central.com/rotoboost-secures-strategic-investment-from-aramco-ventures-to-accelerate-global-deployment-of-methane-pyrolysis-technology-for-low-carbon-hydrogen-and-advanced-carbon-materials/",
+      "summary": "ROTOBOOST Secures Strategic Investment from Aramco Ventures to Accelerate Global Deployment of Methane Pyrolysis Technology for Low-Carbon Hydrogen and Advanced Carbon Materials HELSINKI, Nov. 17, 2026 /PRNewswire/ &#8212; ROTOBOOST, a Finnish energy transition technology company pioneering propriet…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-18T04:17:04+00:00",
+      "pub_ts": 1794975424
+    },
+    {
+      "id": "5dbb091787",
+      "title": "Cavendish Hydrogen Secures Contract for Public Hydrogen Fueling Station in Poland",
+      "url": "https://hydrogen-central.com/cavendish-hydrogen-secures-contract-for-public-hydrogen-fueling-station-in-poland/",
+      "summary": "Cavendish Hydrogen Secures Contract for Public Hydrogen Fueling Station in Poland (November 17, 2026 – Oslo, Norway) Cavendish Hydrogen ASA (Cavendish, the Company, Oslo Børs ticker: CAVEN) is pleased to announce the signing of a contract with a new customer in Poland for the delivery of a new publi…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-18T04:14:43+00:00",
+      "pub_ts": 1794975283
+    },
+    {
+      "id": "8c6bcd3bd3",
+      "title": "Cefmof joins Yrityskylä to spark young people’s interest in technology and the hydrogen sector",
+      "url": "https://hydrogen-central.com/cefmof-joins-yrityskyla-to-spark-young-peoples-interest-in-technology-and-the-hydrogen-sector-2/",
+      "summary": "Cefmof joins Yrityskylä to spark young people’s interest in technology and the hydrogen sector Central Finland Mobility Foundation (Cefmof) is launching a three-year partnership with JA Finland’s Yrityskylä Central Finland Through Vety Oy, a miniature company developed as part of the collaboration, …",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-18T04:14:30+00:00",
+      "pub_ts": 1794975270
+    },
+    {
+      "id": "ea4390b873",
+      "title": "From “Era of Resource Competition” to “Era of Resource Creation”: Future of Hydrogen Society Discussed at Fuji Hydrogen Summit 2026 in Yamanashi",
+      "url": "https://hydrogen-central.com/from-era-of-resource-competition-to-era-of-resource-creation-future-of-hydrogen-society-discussed-at-fuji-hydrogen-summit-2026-in-yamanashi/",
+      "summary": "From &#8220;Era of Resource Competition&#8221; to &#8220;Era of Resource Creation&#8221;: Future of Hydrogen Society Discussed at Fuji Hydrogen Summit 2026 in Yamanashi KOFU, Japan, Nov. 17, 2026 /PRNewswire/ &#8212; The Yamanashi Prefectural Government hosted the Fuji Hydrogen Summit 2026 on Octobe…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-18T04:14:21+00:00",
+      "pub_ts": 1794975261
+    },
+    {
+      "id": "b2c43b4419",
+      "title": "SunHydrogen CTO Shares Video Update on Austin Pilot and Year-End Goals",
+      "url": "https://hydrogen-central.com/sunhydrogen-cto-shares-video-update-on-austin-pilot-and-year-end-goals/",
+      "summary": "SunHydrogen CTO Shares Video Update on Austin Pilot and Year-End Goals CORALVILLE, IA, Nov. 17, 2026 (GLOBE NEWSWIRE) &#8212; SunHydrogen, Inc. (OTCQB: HYSR), the developer of a breakthrough technology to produce renewable hydrogen using sunlight and water, today shared a video update from Chief Tec…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-18T04:10:26+00:00",
+      "pub_ts": 1794975026
+    },
+    {
+      "id": "da0954a14a",
+      "title": "Hyundai XCIENT Hydrogen Truck Completes First Full-Load Beverage Demonstration in Germany",
+      "url": "https://fuelcellsworks.com/2026/11/12/fuel-cells/hyundai-xcient-hydrogen-truck-completes-first-full-load-beverage-demonstration-in-germany",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-16T16:43:14+00:00",
-      "pub_ts": 1794847394
+      "pub_date": "2026-11-17T16:59:47+00:00",
+      "pub_ts": 1794934787
     },
     {
-      "id": "94665bd166",
-      "title": "Multi-Million-Dollar Research Programme Puts Underground Energy Resources to the Test",
-      "url": "https://fuelcellsworks.com/2026/11/12/h2/multi-million-dollar-research-programme-puts-underground-energy-resources-to-the-test",
+      "id": "88d9e24c36",
+      "title": "SunHydrogen Aims to Scale Austin Pilot to 16 Panels After Stable Outdoor H₂ Tests",
+      "url": "https://fuelcellsworks.com/2026/11/17/electrolyzer/sunhydrogen-aims-to-scale-austin-pilot-to-16-panels-after-stable-outdoor-h-tests",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-16T16:33:51+00:00",
-      "pub_ts": 1794846831
+      "pub_date": "2026-11-17T16:41:44+00:00",
+      "pub_ts": 1794933704
     },
     {
-      "id": "ead72db930",
-      "title": "Oman Selects Two Green Hydrogen Projects in Duqm as Fourth Auction Pivots to Data Centres",
-      "url": "https://fuelcellsworks.com/2026/11/16/h2/oman-selects-two-green-hydrogen-projects-in-duqm-as-fourth-auction-pivots-to-data-centres-e60316311",
+      "id": "0b0402d705",
+      "title": "Dassault Aviation Drops Hydrogen Research, Bets on SAF for Business Jet Decarbonisation",
+      "url": "https://fuelcellsworks.com/2026/11/16/h2/dassault-aviation-drops-hydrogen-research-bets-on-saf-for-business-jet-decarbonisation",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-16T16:27:38+00:00",
-      "pub_ts": 1794846458
+      "pub_date": "2026-11-17T16:19:38+00:00",
+      "pub_ts": 1794932378
     },
     {
-      "id": "0dd0ce0921",
-      "title": "Fuel-Cell-Powered Trailer Technology Targets Lower-Emission Heavy Freight",
-      "url": "https://fuelcellsworks.com/2026/11/15/fuel-cells/fuel-cell-powered-trailer-technology-targets-lower-emission-heavy-freight",
+      "id": "fd46196cce",
+      "title": "China Develops First 20-Kg Hydrogen-Powered Unmanned Helicopter with Dual Propulsion Systems for Low-Altitude Economy",
+      "url": "https://fuelcellsworks.com/2026/11/14/fuel-cells/china-develops-first-20-kg-hydrogen-powered-unmanned-helicopter-with-dual-propulsion-systems-for-low-altitude-economy",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-16T16:13:30+00:00",
-      "pub_ts": 1794845610
+      "pub_date": "2026-11-17T16:04:21+00:00",
+      "pub_ts": 1794931461
     },
     {
-      "id": "2f7d54f188",
-      "title": "Hy2gen Finalises €139.8M Hydrogen Bank Subsidy for 100MW Albatros Project",
-      "url": "https://fuelcellsworks.com/2026/11/16/h2/hy2gen-finalises-139-8m-hydrogen-bank-subsidy-for-100mw-albatros-project",
+      "id": "58dbb43c78",
+      "title": "EU's Green Methanol Targets Risk Strengthening Chinese Imports Instead of European Production, Regulator Warns",
+      "url": "https://fuelcellsworks.com/2026/11/17/h2/eu-s-green-methanol-targets-risk-strengthening-chinese-imports-instead-of-european-production-regulator-warns",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-16T16:07:35+00:00",
-      "pub_ts": 1794845255
-    },
-    {
-      "id": "0df2d29fe7",
-      "title": "NewHydrogen Completes Construction and Commissioning of Its ThermoLoop® Engineering Test Unit",
-      "url": "https://hydrogen-central.com/newhydrogen-completes-construction-and-commissioning-of-its-thermoloop-engineering-test-unit/",
-      "summary": "NewHydrogen Completes Construction and Commissioning of Its ThermoLoop® Engineering Test Unit The ETU allows continuous cycling of the ThermoLoop® process, enabling the Company to demonstrate long duration stability and generate the data needed to design its first commercial pilot plant SANTA CLARIT…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-15T14:01:25+00:00",
-      "pub_ts": 1794751285
-    },
-    {
-      "id": "21740381d2",
-      "title": "California Enacts Landmark Hydrogen Pipeline Safety Law, Advancing Safer Hydrogen Infrastructure",
-      "url": "https://hydrogen-central.com/california-enacts-landmark-hydrogen-pipeline-safety-law-advancing-safer-hydrogen-infrastructure/",
-      "summary": "California Enacts Landmark Hydrogen Pipeline Safety Law, Advancing Safer Hydrogen Infrastructure SB 804 establishes hydrogen-specific safety standards and resolves uncertainty over regulatory oversight as California prepares for expanded hydrogen infrastructure SANTA BARBARA, Calif., Oct. 20, 2026 (…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-15T14:01:16+00:00",
-      "pub_ts": 1794751276
-    },
-    {
-      "id": "5d8fdcfdc6",
-      "title": "Loughborough researcher awarded prestigious Royal Academy of Engineering Fellowship to advance green hydrogen production",
-      "url": "https://hydrogen-central.com/loughborough-researcher-awarded-prestigious-royal-academy-of-engineering-fellowship-to-advance-green-hydrogen-production/",
-      "summary": "Loughborough researcher awarded prestigious Royal Academy of Engineering Fellowship to advance green hydrogen production A Loughborough University researcher has been awarded a prestigious Royal Academy of Engineering Research Fellowship to develop technology that could help tackle one of the bigges…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-15T13:59:04+00:00",
-      "pub_ts": 1794751144
-    },
-    {
-      "id": "f81bac0424",
-      "title": "Toyota Achieves Heavy-Duty Hydrogen Truck Milestones",
-      "url": "https://hydrogen-central.com/toyota-achieves-heavy-duty-hydrogen-truck-milestones/",
-      "summary": "Toyota Achieves Heavy-Duty Hydrogen Truck Milestones GARDENA, Calif. and PLANO, Texas , Oct. 20, 2026 /PRNewswire/ &#8212; Toyota Motor North America&#8217;s Hydrogen Headquarters (H2HQ) division is making steady progress in fueling improvements for heavy-duty fuel cell trucks as it works to bring t…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-15T13:49:23+00:00",
-      "pub_ts": 1794750563
-    },
-    {
-      "id": "5ea2c17914",
-      "title": "PowerUP and H2Boat to offer complete zero-emission hydrogen solution for yachts",
-      "url": "https://hydrogen-central.com/powerup-and-h2boat-to-offer-complete-zero-emission-hydrogen-solution-for-yachts/",
-      "summary": "PowerUP and H2Boat to offer complete zero-emission hydrogen solution for yachts PowerUP Energy Technologies, renowned for its advanced hydrogen fuel cell-based electric generators, today announced a strategic partnership with H2Boat, an Italian marine hydrogen technology company developing integrate…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-15T13:49:13+00:00",
-      "pub_ts": 1794750553
+      "pub_date": "2026-11-17T15:58:49+00:00",
+      "pub_ts": 1794931129
     }
   ],
   "source_success_count": 2,

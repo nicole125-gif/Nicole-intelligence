@@ -3,108 +3,148 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-11-17T07:29:39.739508+00:00",
+  "updated_at": "2026-11-18T06:53:38.311731+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "8e62f4ccba",
-      "title": "华为&CNN联创纪录片《创新无限》，第一集：小基站，大跨..",
-      "url": "https://mp.weixin.qq.com/s/EKKt35SrwQ9SPAIWITp1QA",
-      "summary": "华为&amp;CNN联创纪录片《创新无限》，第一集：小基站，大跨..",
+      "id": "5632663422",
+      "title": "刚刚！英伟达宣布成立国家安全与出口管制监督委员会",
+      "url": "https://mp.weixin.qq.com/s/16HIb2h3JWY4B8TK-5w19Q",
+      "summary": "刚刚！英伟达宣布成立国家安全与出口管制监督委员会",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-17T07:29:35.473338+00:00",
-      "pub_ts": 1794900575
+      "pub_date": "2026-11-18T06:53:34.183246+00:00",
+      "pub_ts": 1794984814
     },
     {
-      "id": "1c69acbf43",
-      "title": "10月，中国芯片产量大涨21.9%",
-      "url": "https://mp.weixin.qq.com/s/cF7ewvFAn6AzVmE9FaVsRQ",
-      "summary": "10月，中国芯片产量大涨21.9%",
+      "id": "8836b1f122",
+      "title": "卖马桶的、卖味精的、卖香皂的，正在给全球AI芯片供货",
+      "url": "https://mp.weixin.qq.com/s/HWOzHQq8wZYcmeEkmoIRvw",
+      "summary": "卖马桶的、卖味精的、卖香皂的，正在给全球AI芯片供货",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-17T07:29:35.473396+00:00",
-      "pub_ts": 1794900575
+      "pub_date": "2026-11-18T06:53:34.183304+00:00",
+      "pub_ts": 1794984814
     },
     {
-      "id": "eb0d17fce5",
-      "title": "5年投10亿美元，SK海力士放大招",
-      "url": "https://mp.weixin.qq.com/s/BSmifw8VtUcLgyndHoVUtA",
-      "summary": "5年投10亿美元，SK海力士放大招",
+      "id": "d99ca3a960",
+      "title": "第十届创芯大赛合作命题企业征集",
+      "url": "https://mp.weixin.qq.com/s/kKSWRrKv0PCY6JjbDkLYGg",
+      "summary": "第十届创芯大赛合作命题企业征集",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-17T07:29:35.473427+00:00",
-      "pub_ts": 1794900575
+      "pub_date": "2026-11-18T06:53:34.183342+00:00",
+      "pub_ts": 1794984814
     },
     {
-      "id": "39513e2e84",
-      "title": "深度拆解，一颗现代CPU里到底有什么？",
-      "url": "https://mp.weixin.qq.com/s/l2KBLzNNH948IKnZ1hJaZQ",
-      "summary": "深度拆解，一颗现代CPU里到底有什么？",
+      "id": "4e2538fbc6",
+      "title": "ASIC企业，忙着到处借钱",
+      "url": "https://mp.weixin.qq.com/s/Czt7DTKoyjHZSVdiEf10Hg",
+      "summary": "ASIC企业，忙着到处借钱",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-17T07:29:35.473454+00:00",
-      "pub_ts": 1794900575
+      "pub_date": "2026-11-18T06:53:34.183400+00:00",
+      "pub_ts": 1794984814
     },
     {
-      "id": "ec65e4ca91",
-      "title": "用钻石给GPU降温，会不会太昂贵了?",
-      "url": "https://mp.weixin.qq.com/s/_X1P_UOF9TtLBNghMj05pQ",
-      "summary": "用钻石给GPU降温，会不会太昂贵了?",
+      "id": "ad7162b95a",
+      "title": "净利润大增194%，捷捷微电15亿投向高压车规功率器件",
+      "url": "https://mp.weixin.qq.com/s/hp_Jowoi_AEp1JM-1Pb1Qg",
+      "summary": "净利润大增194%，捷捷微电15亿投向高压车规功率器件",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-17T07:29:35.473479+00:00",
-      "pub_ts": 1794900575
+      "pub_date": "2026-11-18T06:53:34.183435+00:00",
+      "pub_ts": 1794984814
     },
     {
-      "id": "7459fed582",
-      "title": "刚刚，纳芯微宣布，收购隔空智能！",
-      "url": "https://mp.weixin.qq.com/s/B34HNGkPpg7XTkOGMku09g",
-      "summary": "刚刚，纳芯微宣布，收购隔空智能！",
+      "id": "1227418f02",
+      "title": "英伟达宣布，成立出口管制监督委员会",
+      "url": "https://mp.weixin.qq.com/s/8EF5j8-Y14cLCARV5JR90w",
+      "summary": "英伟达宣布，成立出口管制监督委员会",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-17T07:29:28.347584+00:00",
-      "pub_ts": 1794900568
+      "pub_date": "2026-11-18T06:53:22.998921+00:00",
+      "pub_ts": 1794984802
     },
     {
-      "id": "1c296a752d",
-      "title": "芯片双雄，斥巨资扩产",
-      "url": "https://mp.weixin.qq.com/s/neXBGt_TPArkV5WLvkqt6Q",
-      "summary": "芯片双雄，斥巨资扩产",
+      "id": "76c51dfd49",
+      "title": "中芯国际联合创始人、摩尔线程执行总裁同台：11月28日上海算力对接...",
+      "url": "https://mp.weixin.qq.com/s/xogtCZHXMYTx2pj_V9JOgA",
+      "summary": "中芯国际联合创始人、摩尔线程执行总裁同台：11月28日上海算力对接...",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-17T07:29:28.347649+00:00",
-      "pub_ts": 1794900568
+      "pub_date": "2026-11-18T06:53:22.998972+00:00",
+      "pub_ts": 1794984802
     },
     {
-      "id": "4fcfe88475",
-      "title": "报名中|12月3日，先进封装开发者大会@香港",
-      "url": "https://mp.weixin.qq.com/s/ty3KuBv-MPg8eA_-pXa8Hw",
-      "summary": "报名中|12月3日，先进封装开发者大会@香港",
+      "id": "f8d5395c65",
+      "title": "STM32，重大战略升级！以统一的STM32MCU平台释放物理AI潜能",
+      "url": "https://mp.weixin.qq.com/s/9rRCfDv6dBTdYnOsPaNnxw",
+      "summary": "STM32，重大战略升级！以统一的STM32MCU平台释放物理AI潜能",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-17T07:29:28.347672+00:00",
-      "pub_ts": 1794900568
+      "pub_date": "2026-11-18T06:53:22.998997+00:00",
+      "pub_ts": 1794984802
     },
     {
-      "id": "a7f0eab4c1",
-      "title": "一场股权整合，折射国产硅片竞争新局",
-      "url": "https://mp.weixin.qq.com/s/5--ag-LSutvazjj1UNp_vQ",
-      "summary": "一场股权整合，折射国产硅片竞争新局",
+      "id": "e3814c6b4b",
+      "title": "AI芯片预期，被大幅下调！",
+      "url": "https://mp.weixin.qq.com/s/57sZDyEhqL-lIUIWUkfRFw",
+      "summary": "AI芯片预期，被大幅下调！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-17T07:29:28.347725+00:00",
-      "pub_ts": 1794900568
+      "pub_date": "2026-11-18T06:53:22.999019+00:00",
+      "pub_ts": 1794984802
     },
     {
-      "id": "5482a0b4db",
-      "title": "AI时代，FPGA再次崛起",
-      "url": "https://mp.weixin.qq.com/s/CT2w3DW-PoX3OBGCdUD4MA",
-      "summary": "AI时代，FPGA再次崛起",
+      "id": "f05e24dbfa",
+      "title": "英伟达发布一颗GPU：CUDA核心突破5万",
+      "url": "https://mp.weixin.qq.com/s/qXp0Tee_vcFj7n5D-5RVFQ",
+      "summary": "英伟达发布一颗GPU：CUDA核心突破5万",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-17T07:29:28.347747+00:00",
-      "pub_ts": 1794900568
+      "pub_date": "2026-11-18T06:53:22.999041+00:00",
+      "pub_ts": 1794984802
+    },
+    {
+      "id": "f7e6252f0a",
+      "title": "Defect-Aware Chiplet Matching For Heterogeneous Integration Yield (ASU, Ampere)",
+      "url": "https://semiengineering.com/defect-aware-chiplet-matching-for-heterogeneous-integration-yield-asu-ampere/",
+      "summary": "Researchers at Arizona State University and Ampere Computing published “DT-MATCH: Defect- and Topology-Aware Chiplet Matching for Yield Optimization in Heterogeneous Integration.” Abstract “Heterogeneous integration (HI) and advanced packaging enable chiplet-based system-on-chip (SoC) designs; howev…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-11-17T17:44:39+00:00",
+      "pub_ts": 1794937479
+    },
+    {
+      "id": "a1a49b1f35",
+      "title": "Backside Clock Mesh Reduces Skew And Power In Backside Power Delivery (KAIST)",
+      "url": "https://semiengineering.com/backside-clock-mesh-reduces-skew-and-power-in-backside-power-delivery-kaist/",
+      "summary": "Researchers at Korea Advanced Institute of Science and Technology (KAIST) published “Clock Distribution Network with Backside Clock Mesh in BSPDN Architecture.” Abstract Excerpt &#8220;We propose a clock distribution network (CDN) in which the clock mesh is located on backside metal (BM) layers, whi…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-11-17T17:35:37+00:00",
+      "pub_ts": 1794936937
+    },
+    {
+      "id": "926f6b0c5d",
+      "title": "Physics Vs. Data",
+      "url": "https://semiengineering.com/physics-vs-data/",
+      "summary": "Why both approaches are needed at angstrom-level dimensions. \nThe post Physics Vs. Data appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-11-17T08:15:58+00:00",
+      "pub_ts": 1794903358
+    },
+    {
+      "id": "8139488b58",
+      "title": "Chip Industry Technical Paper Roundup: Nov. 17",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-nov-17/",
+      "summary": "HBM4 controller partitioning; single-crystal high-κ dielectrics for low-power 2D CFETs; HW-based location checks for AI chip smuggling; embedded ECC for AI weight protection; optimized e-beam evaporation for metal-semiconductor contacts; sub-volt HZO ferroelectric capacitors; randomized-cache HW sec…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-11-17T08:01:08+00:00",
+      "pub_ts": 1794902468
     },
     {
       "id": "fa134c1896",
@@ -115,46 +155,6 @@
       "lang": "en",
       "pub_date": "2026-11-17T00:56:29+00:00",
       "pub_ts": 1794876989
-    },
-    {
-      "id": "754e15e103",
-      "title": "Reducing High-Bandwidth Flash Latency In GPU Systems (Georgia Tech, Nvidia, Stanford)",
-      "url": "https://semiengineering.com/reducing-high-bandwidth-flash-latency-in-gpu-systems-georgia-tech-nvidia-stanford/",
-      "summary": "Researchers at Georgia Tech, NVIDIA Research, and Stanford University published “SlipStream: Enabling HBF for GPU Systems by Mitigating the Latency and SRAM Overheads.” Abstract Excerpt &#8220;Large language model (LLM) inference demands ever more memory capacity for larger models and batch sizes. H…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-11-16T23:52:56+00:00",
-      "pub_ts": 1794873176
-    },
-    {
-      "id": "125002c1bd",
-      "title": "What Is Acoustic Micro Imaging? A Quick Guide To This Inspection Process",
-      "url": "https://semiengineering.com/what-is-acoustic-micro-imaging-a-quick-guide-to-this-inspection-process/",
-      "summary": "Obtaining clear images of gaps and delaminations in advanced packages.\nThe post What Is Acoustic Micro Imaging? A Quick Guide To This Inspection Process appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-11-16T08:01:29+00:00",
-      "pub_ts": 1794816089
-    },
-    {
-      "id": "22755edd0a",
-      "title": "Are AI Agents The New Semiconductor IP?",
-      "url": "https://semiengineering.com/are-ai-agents-the-new-semiconductor-ip/",
-      "summary": "Agents are emerging as reusable design tools, but trust and use models remain challenging.\nThe post Are AI Agents The New Semiconductor IP? appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-11-16T08:01:17+00:00",
-      "pub_ts": 1794816077
-    },
-    {
-      "id": "68f3520403",
-      "title": "Shifting HBM4 Controller Functions Closer To Memory (UC Riverside)",
-      "url": "https://semiengineering.com/shifting-hbm4-controller-functions-closer-to-memory-uc-riverside/",
-      "summary": "Tharunya Yogananda and Wantong Li of the University of California, Riverside published a technical paper titled “Beyond Host-Side Control: HBM Controller Partitioning Across Host and HBM Base Dies.” Abstract Excerpt: &#8220;Recent generations of high bandwidth memory (HBM), such as HBM4, allow the b…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-11-13T21:53:30+00:00",
-      "pub_ts": 1794606810
     }
   ],
   "source_success_count": 3,
