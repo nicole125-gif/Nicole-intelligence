@@ -3,108 +3,128 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-11-18T06:53:38.311731+00:00",
+  "updated_at": "2026-11-19T06:54:35.905425+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "5632663422",
-      "title": "刚刚！英伟达宣布成立国家安全与出口管制监督委员会",
-      "url": "https://mp.weixin.qq.com/s/16HIb2h3JWY4B8TK-5w19Q",
-      "summary": "刚刚！英伟达宣布成立国家安全与出口管制监督委员会",
+      "id": "da9481f27b",
+      "title": "HIPI副理事长王志敏：Chiplet是紧耦合的分工，繁荣取决于生态效率",
+      "url": "https://mp.weixin.qq.com/s/Q3ipr_B_uono6jnZ66hKNQ",
+      "summary": "HIPI副理事长王志敏：Chiplet是紧耦合的分工，繁荣取决于生态效率",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-18T06:53:34.183246+00:00",
-      "pub_ts": 1794984814
+      "pub_date": "2026-11-19T06:54:31.635380+00:00",
+      "pub_ts": 1795071271
     },
     {
-      "id": "8836b1f122",
-      "title": "卖马桶的、卖味精的、卖香皂的，正在给全球AI芯片供货",
-      "url": "https://mp.weixin.qq.com/s/HWOzHQq8wZYcmeEkmoIRvw",
-      "summary": "卖马桶的、卖味精的、卖香皂的，正在给全球AI芯片供货",
+      "id": "a1c319e880",
+      "title": "你没听说过的设备公司，正在批量出现",
+      "url": "https://mp.weixin.qq.com/s/3jYtqIxfUbNOJGIbOjSU3Q",
+      "summary": "你没听说过的设备公司，正在批量出现",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-18T06:53:34.183304+00:00",
-      "pub_ts": 1794984814
+      "pub_date": "2026-11-19T06:54:31.635432+00:00",
+      "pub_ts": 1795071271
     },
     {
-      "id": "d99ca3a960",
-      "title": "第十届创芯大赛合作命题企业征集",
-      "url": "https://mp.weixin.qq.com/s/kKSWRrKv0PCY6JjbDkLYGg",
-      "summary": "第十届创芯大赛合作命题企业征集",
+      "id": "c6230b57c8",
+      "title": "工信部批准半导体设备新标准",
+      "url": "https://mp.weixin.qq.com/s/X6YR3E11GSFcn2gy-kd9og",
+      "summary": "工信部批准半导体设备新标准",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-18T06:53:34.183342+00:00",
-      "pub_ts": 1794984814
+      "pub_date": "2026-11-19T06:54:31.635452+00:00",
+      "pub_ts": 1795071271
     },
     {
-      "id": "4e2538fbc6",
-      "title": "ASIC企业，忙着到处借钱",
-      "url": "https://mp.weixin.qq.com/s/Czt7DTKoyjHZSVdiEf10Hg",
-      "summary": "ASIC企业，忙着到处借钱",
+      "id": "0c8f76825f",
+      "title": "NAND芯片市场，开始降温了？",
+      "url": "https://mp.weixin.qq.com/s/rMsNKpaSD6Wm4K6TbqyV_A",
+      "summary": "NAND芯片市场，开始降温了？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-18T06:53:34.183400+00:00",
-      "pub_ts": 1794984814
+      "pub_date": "2026-11-19T06:54:31.635470+00:00",
+      "pub_ts": 1795071271
     },
     {
-      "id": "ad7162b95a",
-      "title": "净利润大增194%，捷捷微电15亿投向高压车规功率器件",
-      "url": "https://mp.weixin.qq.com/s/hp_Jowoi_AEp1JM-1Pb1Qg",
-      "summary": "净利润大增194%，捷捷微电15亿投向高压车规功率器件",
+      "id": "939187f32d",
+      "title": "MLCC交期，拉长至10个月",
+      "url": "https://mp.weixin.qq.com/s/7nDk6dGdk9osEsSaCMwU3A",
+      "summary": "MLCC交期，拉长至10个月",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-18T06:53:34.183435+00:00",
-      "pub_ts": 1794984814
+      "pub_date": "2026-11-19T06:54:31.635485+00:00",
+      "pub_ts": 1795071271
     },
     {
-      "id": "1227418f02",
-      "title": "英伟达宣布，成立出口管制监督委员会",
-      "url": "https://mp.weixin.qq.com/s/8EF5j8-Y14cLCARV5JR90w",
-      "summary": "英伟达宣布，成立出口管制监督委员会",
+      "id": "a43ef9b599",
+      "title": "安谋科技重磅发布，推动AI算力下沉！",
+      "url": "https://mp.weixin.qq.com/s/k9JNDqcabUdq8QGyMZaHiw",
+      "summary": "安谋科技重磅发布，推动AI算力下沉！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-18T06:53:22.998921+00:00",
-      "pub_ts": 1794984802
+      "pub_date": "2026-11-19T06:54:24.446930+00:00",
+      "pub_ts": 1795071264
     },
     {
-      "id": "76c51dfd49",
-      "title": "中芯国际联合创始人、摩尔线程执行总裁同台：11月28日上海算力对接...",
-      "url": "https://mp.weixin.qq.com/s/xogtCZHXMYTx2pj_V9JOgA",
-      "summary": "中芯国际联合创始人、摩尔线程执行总裁同台：11月28日上海算力对接...",
+      "id": "e223a64d99",
+      "title": "这颗芯片，火了",
+      "url": "https://mp.weixin.qq.com/s/GSYOM2aqgo7Z8uQ-mHNAxw",
+      "summary": "这颗芯片，火了",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-18T06:53:22.998972+00:00",
-      "pub_ts": 1794984802
+      "pub_date": "2026-11-19T06:54:24.446981+00:00",
+      "pub_ts": 1795071264
     },
     {
-      "id": "f8d5395c65",
-      "title": "STM32，重大战略升级！以统一的STM32MCU平台释放物理AI潜能",
-      "url": "https://mp.weixin.qq.com/s/9rRCfDv6dBTdYnOsPaNnxw",
-      "summary": "STM32，重大战略升级！以统一的STM32MCU平台释放物理AI潜能",
+      "id": "715573fa1b",
+      "title": "光计算芯片，机会来了",
+      "url": "https://mp.weixin.qq.com/s/vHDeaSrktdBC2P1t2r4MiQ",
+      "summary": "光计算芯片，机会来了",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-18T06:53:22.998997+00:00",
-      "pub_ts": 1794984802
+      "pub_date": "2026-11-19T06:54:24.446999+00:00",
+      "pub_ts": 1795071264
     },
     {
-      "id": "e3814c6b4b",
-      "title": "AI芯片预期，被大幅下调！",
-      "url": "https://mp.weixin.qq.com/s/57sZDyEhqL-lIUIWUkfRFw",
-      "summary": "AI芯片预期，被大幅下调！",
+      "id": "b88ac3f7fa",
+      "title": "芯片设备预期，3720亿！",
+      "url": "https://mp.weixin.qq.com/s/3KBKPchEz2OG2GBsB8vEYg",
+      "summary": "芯片设备预期，3720亿！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-18T06:53:22.999019+00:00",
-      "pub_ts": 1794984802
+      "pub_date": "2026-11-19T06:54:24.447016+00:00",
+      "pub_ts": 1795071264
     },
     {
-      "id": "f05e24dbfa",
-      "title": "英伟达发布一颗GPU：CUDA核心突破5万",
-      "url": "https://mp.weixin.qq.com/s/qXp0Tee_vcFj7n5D-5RVFQ",
-      "summary": "英伟达发布一颗GPU：CUDA核心突破5万",
+      "id": "6377687849",
+      "title": "HBM4价格，将翻番",
+      "url": "https://mp.weixin.qq.com/s/ChIP8t-Ks3fCcouO455-6Q",
+      "summary": "HBM4价格，将翻番",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-18T06:53:22.999041+00:00",
-      "pub_ts": 1794984802
+      "pub_date": "2026-11-19T06:54:24.447031+00:00",
+      "pub_ts": 1795071264
+    },
+    {
+      "id": "a96df045a1",
+      "title": "Can AI Agents Really Shift Chip Design Left?",
+      "url": "https://semiengineering.com/can-ai-agents-really-shift-chip-design-left/",
+      "summary": "Agentic AI promises to automate more of the chip flow, but integration with EDA tools and capturing decades of engineering expertise are non-trivial.\nThe post Can AI Agents Really Shift Chip Design Left? appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-11-18T08:01:53+00:00",
+      "pub_ts": 1794988913
+    },
+    {
+      "id": "0efac83243",
+      "title": "Blog Review: Nov. 18",
+      "url": "https://semiengineering.com/blog-review-nov-18-3/",
+      "summary": "PCIe and trust; rack-scale co-design; heterogeneous scaling; AI data center primer; on-device balancing; EU semi trends.\nThe post Blog Review: Nov. 18 appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-11-18T08:01:49+00:00",
+      "pub_ts": 1794988909
     },
     {
       "id": "f7e6252f0a",
@@ -135,26 +155,6 @@
       "lang": "en",
       "pub_date": "2026-11-17T08:15:58+00:00",
       "pub_ts": 1794903358
-    },
-    {
-      "id": "8139488b58",
-      "title": "Chip Industry Technical Paper Roundup: Nov. 17",
-      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-nov-17/",
-      "summary": "HBM4 controller partitioning; single-crystal high-κ dielectrics for low-power 2D CFETs; HW-based location checks for AI chip smuggling; embedded ECC for AI weight protection; optimized e-beam evaporation for metal-semiconductor contacts; sub-volt HZO ferroelectric capacitors; randomized-cache HW sec…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-11-17T08:01:08+00:00",
-      "pub_ts": 1794902468
-    },
-    {
-      "id": "fa134c1896",
-      "title": "Self-Supervised Virtual Metrology For CMP MRR Prediction (SUTD, A*STAR, NUS)",
-      "url": "https://semiengineering.com/self-supervised-virtual-metrology-for-cmp-mrr-prediction-sutd-astar-nus/",
-      "summary": "Researchers at Singapore University of Technology and Design (SUTD), A*STAR, and National University of Singapore (NUS) published “Self-Supervised Attention-Based Virtual Metrology for CMP MRR Prediction.” Excerpt &#8220;In this paper, we propose Global Regression Pretraining (GREP), a self-supervis…",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-11-17T00:56:29+00:00",
-      "pub_ts": 1794876989
     }
   ],
   "source_success_count": 3,

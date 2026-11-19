@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-11-18T06:54:16.847032+00:00",
+  "updated_at": "2026-11-19T06:55:13.141380+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "524da91690",
-      "title": "Eli Lilly inks cancer pact worth up to $5.9bn with Stipple Bio",
-      "url": "https://www.pharmaceutical-technology.com/news/eli-lilly-inks-cancer-pact-worth-up-to-5-9bn-with-stipple-bio/",
-      "summary": "Stipple plans to initiate a Phase I trial for an ADC for solid tumours in early 2027.",
+      "id": "481e96215e",
+      "title": "Will AI cure cancer? Probably not, but it could change how we fight it",
+      "url": "https://www.pharmaceutical-technology.com/news/will-ai-cure-cancer-probably-not-but-it-could-change-how-we-fight-it/",
+      "summary": "",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-17T16:13:43+00:00",
-      "pub_ts": 1794932023
+      "pub_date": "2026-11-18T21:31:41+00:00",
+      "pub_ts": 1795037501
     },
     {
-      "id": "737a7e951b",
-      "title": "Pfizer CEO: ‘China will be my major competition by 2030’",
-      "url": "https://www.pharmaceutical-technology.com/news/pfizer-ceo-china-will-be-my-major-competition-2030/",
-      "summary": "Pfizer CEO Albert Bourla’s comments come a month after the Chinese government unveiled a five-year biomedical plan to grow its pharma exports.",
+      "id": "f0888417d2",
+      "title": "European capital markets require efforts to attract biotech listings",
+      "url": "https://www.pharmaceutical-technology.com/news/european-capital-markets-require-efforts-to-attract-biotech-listings/",
+      "summary": "Experts are looking at broader reforms and reorganization to revitalise biotech’s interest in European capital markets.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-17T15:58:41+00:00",
-      "pub_ts": 1794931121
+      "pub_date": "2026-11-18T17:30:01+00:00",
+      "pub_ts": 1795023001
     },
     {
-      "id": "92f4e12bca",
-      "title": "Seawolf Therapeutics and Sanofi agree $1.2bn drug deal",
-      "url": "https://www.pharmaceutical-technology.com/news/seawolf-sanofi-agree-drug-deal/",
-      "summary": "Seawolf Therapeutics and Sanofi have signed a multi-target research partnership and exclusive licensing deal worth up to $1.2bn to develop treatments for bleeding disorders and other undisclosed indications.",
+      "id": "4e0a64699f",
+      "title": "GSK’s $10.6bn Nuvalent bet pays off with second lung cancer drug approval",
+      "url": "https://www.pharmaceutical-technology.com/news/gsks-10-6bn-nuvalent-bet-pays-off-with-second-lung-cancer-drug-approval/",
+      "summary": "GSK’s Nelkarmi will now be in direct competition with Roche’s established ALK inhibitor Alecensa.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-17T11:15:54+00:00",
-      "pub_ts": 1794914154
+      "pub_date": "2026-11-18T14:50:44+00:00",
+      "pub_ts": 1795013444
     },
     {
-      "id": "b5c1e4993e",
-      "title": "UK biotech sector calls on government to support sector’s growth on home soil",
-      "url": "https://www.pharmaceutical-technology.com/news/uk-biotech-sectors-calls-on-government-support-sector-scale/",
-      "summary": "UK biotech organisations outline their needs to the British government to scale, manufacture and commercialise biological products.",
+      "id": "eb7664c69e",
+      "title": "Isomorphic Labs raises $5bn to advance drug pipeline",
+      "url": "https://www.pharmaceutical-technology.com/news/isomorphic-labs-5bn-advance-drug-pipeline/",
+      "summary": "Isomorphic Labs has raised $5bn in a Series C financing round to support the development of its AI platform and advance its therapeutic candidates towards clinical evaluation.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-17T11:00:32+00:00",
-      "pub_ts": 1794913232
+      "pub_date": "2026-11-18T10:49:50+00:00",
+      "pub_ts": 1794998990
     },
     {
-      "id": "4b9ac3b5f0",
-      "title": "Lilly agrees to acquire Calytrix Bio for $1.5bn",
-      "url": "https://www.pharmaceutical-technology.com/news/lilly-to-acquire-calytrix-bio-1-5bn/",
-      "summary": "Eli Lilly and Company has agreed to acquire Calytrix Bio in a deal valued at up to $1.5bn to advance an investigational biparatopic antibody targeting mCALR-driven ET and MF.",
+      "id": "d290ac8c94",
+      "title": "Revolution Medicines’ Rasonque gains EC authorisation for pancreatic cancer",
+      "url": "https://www.pharmaceutical-technology.com/news/revolution-medicines-rasonque-ec-pancreatic-cancer/",
+      "summary": "The EC has granted marketing authorisation for Revolution Medicines’ rasonque to treat adult patients with metastatic pancreatic adenocarcinoma who have undergone at least one systemic therapy earlier.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-17T09:52:24+00:00",
-      "pub_ts": 1794909144
+      "pub_date": "2026-11-18T10:17:11+00:00",
+      "pub_ts": 1794997031
     }
   ],
   "source_success_count": 1,
