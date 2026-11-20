@@ -3,9 +3,59 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-11-19T06:55:00.651074+00:00",
+  "updated_at": "2026-11-20T06:45:13.249739+00:00",
   "item_count": 10,
   "items": [
+    {
+      "id": "b5e234fe6c",
+      "title": "China Completes Main Installation of 3,000-Cubic-Metre Hydrogen Storage System as Hubei Plant Reaches 90% Construction",
+      "url": "https://fuelcellsworks.com/2026/11/16/h2/china-completes-main-installation-of-3-000-cubic-metre-hydrogen-storage-system-as-hubei-plant-reaches-90-percent-construction",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-19T16:44:18+00:00",
+      "pub_ts": 1795106658
+    },
+    {
+      "id": "1a440b4db1",
+      "title": "TESMauricie H2 Plant Project: The Minister Mandates the BAPE to Hold a Public Hearing as Early as December",
+      "url": "https://fuelcellsworks.com/2026/11/11/h2/tesmauricie-h2-plant-project-the-minister-mandates-the-bape-to-hold-a-public-hearing-as-early-as-december",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-19T16:41:39+00:00",
+      "pub_ts": 1795106499
+    },
+    {
+      "id": "dc4fa50cc5",
+      "title": "Next Energy Takes Grand Prize at WHE 2026’S H2 Innovation Award for Hydrogen Refuelling Communication System",
+      "url": "https://fuelcellsworks.com/2026/11/09/h2/next-energy-takes-grand-prize-at-whe-2026-s-h2-innovation-award-for-hydrogen-refuelling-communication-system",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-19T16:39:40+00:00",
+      "pub_ts": 1795106380
+    },
+    {
+      "id": "9853634a82",
+      "title": "U of A and CPKC Partner to Advance Hydrogen Locomotive Research",
+      "url": "https://fuelcellsworks.com/2026/11/16/fuel-cells/u-of-a-and-cpkc-partner-to-advance-hydrogen-locomotive-research",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-19T16:29:18+00:00",
+      "pub_ts": 1795105758
+    },
+    {
+      "id": "d37ecbc7c8",
+      "title": "Hellenic Hydrogen Files for 25 MW Electrolyser Licence in Amyntaio as Motor Oil-PPC Consortium Advances €70 Million Project",
+      "url": "https://fuelcellsworks.com/2026/11/18/h2/hellenic-hydrogen-files-for-25-mw-electrolyser-licence-in-amyntaio-as-motor-oil-ppc-consortium-advances-70-million-project",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-19T16:23:52+00:00",
+      "pub_ts": 1795105432
+    },
     {
       "id": "bc8f740f7d",
       "title": "JERA Invests in Koloma to Explore Natural Hydrogen as a Future Low-Carbon Energy Source",
@@ -55,56 +105,6 @@
       "lang": "en",
       "pub_date": "2026-11-19T04:05:09+00:00",
       "pub_ts": 1795061109
-    },
-    {
-      "id": "6fb45a41b6",
-      "title": "45-8 Energy Signs UAE MoU to Advance Natural Hydrogen Exploration in Ras Al Khaimah",
-      "url": "https://fuelcellsworks.com/2026/11/18/h2/45-8-energy-signs-uae-mou-to-advance-natural-hydrogen-exploration-in-ras-al-khaimah",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-18T18:02:07+00:00",
-      "pub_ts": 1795024927
-    },
-    {
-      "id": "485f5c2e2f",
-      "title": "H-Power Launches 100kW Fuel Cell Generator with First Revenue-Generating Customer Application",
-      "url": "https://fuelcellsworks.com/2026/11/18/clean-energy/h-power-launches-100kw-fuel-cell-generator-with-first-revenue-generating-customer-application",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-18T17:06:09+00:00",
-      "pub_ts": 1795021569
-    },
-    {
-      "id": "af48634b91",
-      "title": "Could Ammonia Replace Diesel in the Fields?",
-      "url": "https://fuelcellsworks.com/2026/11/17/clean-energy/could-ammonia-replace-diesel-in-the-fields",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-18T16:51:15+00:00",
-      "pub_ts": 1795020675
-    },
-    {
-      "id": "9a2b5b1dae",
-      "title": "How Safety Shaped the Pioneer 25, From Crash Tests to the Paddock",
-      "url": "https://fuelcellsworks.com/2026/11/12/fuel-cells/how-safety-shaped-the-pioneer-25-from-crash-tests-to-the-paddock",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-18T16:32:14+00:00",
-      "pub_ts": 1795019534
-    },
-    {
-      "id": "c7815b874b",
-      "title": "Bavaria Backs RAG Austria's Hydrogen Storage Plans",
-      "url": "https://fuelcellsworks.com/2026/11/18/h2/bavaria-backs-rag-austria-s-hydrogen-storage-plans",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-18T16:20:00+00:00",
-      "pub_ts": 1795018800
     }
   ],
   "source_success_count": 2,

@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-11-19T06:55:13.141380+00:00",
+  "updated_at": "2026-11-20T06:45:25.653653+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "481e96215e",
-      "title": "Will AI cure cancer? Probably not, but it could change how we fight it",
-      "url": "https://www.pharmaceutical-technology.com/news/will-ai-cure-cancer-probably-not-but-it-could-change-how-we-fight-it/",
-      "summary": "",
+      "id": "c9cdc0e988",
+      "title": "Recursion CEO details novel Phase III endpoint for rare disease drug",
+      "url": "https://www.pharmaceutical-technology.com/news/recursion-ceo-details-novel-phase-iii-endpoint-for-rare-disease-drug/",
+      "summary": "The AI-driven biotech has secured FDA alignment on a pivotal trial for its FAP therapy, with a study start planned for 2027.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-18T21:31:41+00:00",
-      "pub_ts": 1795037501
+      "pub_date": "2026-11-19T16:55:42+00:00",
+      "pub_ts": 1795107342
     },
     {
-      "id": "f0888417d2",
-      "title": "European capital markets require efforts to attract biotech listings",
-      "url": "https://www.pharmaceutical-technology.com/news/european-capital-markets-require-efforts-to-attract-biotech-listings/",
-      "summary": "Experts are looking at broader reforms and reorganization to revitalise biotech’s interest in European capital markets.",
+      "id": "31785d965d",
+      "title": "Geopolitical pressures and greater buyer selectivity hamper M&A deal closure rates",
+      "url": "https://www.pharmaceutical-technology.com/news/geopolitical-pressures-and-greater-buyer-selectivity-hamper-ma-deal-closure-rates/",
+      "summary": "Despite substantial M&amp;A activity and capital availability, some companies are struggling to get deals over the line.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-18T17:30:01+00:00",
-      "pub_ts": 1795023001
+      "pub_date": "2026-11-19T16:21:29+00:00",
+      "pub_ts": 1795105289
     },
     {
-      "id": "4e0a64699f",
-      "title": "GSK’s $10.6bn Nuvalent bet pays off with second lung cancer drug approval",
-      "url": "https://www.pharmaceutical-technology.com/news/gsks-10-6bn-nuvalent-bet-pays-off-with-second-lung-cancer-drug-approval/",
-      "summary": "GSK’s Nelkarmi will now be in direct competition with Roche’s established ALK inhibitor Alecensa.",
+      "id": "cabcaeb25f",
+      "title": "Ellipses Pharma plots London listing that could end British biotech IPO drought",
+      "url": "https://www.pharmaceutical-technology.com/news/ellipses-pharma-plots-london-listing-that-could-end-british-biotech-ipo-drought/",
+      "summary": "The oncology biotech could go public in a SPAC reverse takeover, though an IPO is not guaranteed.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-18T14:50:44+00:00",
-      "pub_ts": 1795013444
+      "pub_date": "2026-11-19T15:49:55+00:00",
+      "pub_ts": 1795103395
     },
     {
-      "id": "eb7664c69e",
-      "title": "Isomorphic Labs raises $5bn to advance drug pipeline",
-      "url": "https://www.pharmaceutical-technology.com/news/isomorphic-labs-5bn-advance-drug-pipeline/",
-      "summary": "Isomorphic Labs has raised $5bn in a Series C financing round to support the development of its AI platform and advance its therapeutic candidates towards clinical evaluation.",
+      "id": "153e2d7779",
+      "title": "Lineage enters race to Huntington’s market with NeuroAirmid takeover",
+      "url": "https://www.pharmaceutical-technology.com/news/lineage-neuroairmid-acquisition-huntingtons-disease/",
+      "summary": "Lineage hopes that hNSC-01, a novel cell therapy, could offer symptomatic and disease-slowing benefits in Huntington’s.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-18T10:49:50+00:00",
-      "pub_ts": 1794998990
+      "pub_date": "2026-11-19T15:38:21+00:00",
+      "pub_ts": 1795102701
     },
     {
-      "id": "d290ac8c94",
-      "title": "Revolution Medicines’ Rasonque gains EC authorisation for pancreatic cancer",
-      "url": "https://www.pharmaceutical-technology.com/news/revolution-medicines-rasonque-ec-pancreatic-cancer/",
-      "summary": "The EC has granted marketing authorisation for Revolution Medicines’ rasonque to treat adult patients with metastatic pancreatic adenocarcinoma who have undergone at least one systemic therapy earlier.",
+      "id": "dbb61c9b4e",
+      "title": "AbbVie and Disco ink $2.5bn pact for next-generation cancer bispecifics",
+      "url": "https://www.pharmaceutical-technology.com/news/abbvie-disco-partnership-bispecific-cancer-therapies/",
+      "summary": "The drugs developed through AbbVie and Disco's collaboration will look to address significant unmet needs plaguing the solid tumour space.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-18T10:17:11+00:00",
-      "pub_ts": 1794997031
+      "pub_date": "2026-11-19T14:33:40+00:00",
+      "pub_ts": 1795098820
     }
   ],
   "source_success_count": 1,
