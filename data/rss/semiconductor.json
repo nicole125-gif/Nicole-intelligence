@@ -3,108 +3,118 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-11-20T06:44:41.569632+00:00",
+  "updated_at": "2026-11-21T06:38:15.282980+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "46a2eb4c1f",
-      "title": "增速89.4%之下，国产芯片该怎么走?魏少军给出五条建议",
-      "url": "https://mp.weixin.qq.com/s/FdkKswOre_BxYs9nA6MHzw",
-      "summary": "增速89.4%之下，国产芯片该怎么走?魏少军给出五条建议",
+      "id": "0c87df90ae",
+      "title": "AI，正在改写RISC-V的命题",
+      "url": "https://mp.weixin.qq.com/s/krk_k2nj4TzVAqIaw1HhJw",
+      "summary": "AI，正在改写RISC-V的命题",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-20T06:44:37.268943+00:00",
-      "pub_ts": 1795157077
+      "pub_date": "2026-11-21T06:38:11.103189+00:00",
+      "pub_ts": 1795243091
     },
     {
-      "id": "d797996daa",
-      "title": "联想集团第二财季财报发布：营收首破2000亿元，净利润同比增长16..",
-      "url": "https://mp.weixin.qq.com/s/mptE9Qh-PWFvsLM7jQXMqw",
-      "summary": "联想集团第二财季财报发布：营收首破2000亿元，净利润同比增长16..",
+      "id": "9484a60fa9",
+      "title": "英伟达、英特尔都验证过的嘉实多，靠一体化打通液冷闭环",
+      "url": "https://mp.weixin.qq.com/s/AkPLqnTKbSC75IRfXqgIfg",
+      "summary": "英伟达、英特尔都验证过的嘉实多，靠一体化打通液冷闭环",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-20T06:44:37.268983+00:00",
-      "pub_ts": 1795157077
+      "pub_date": "2026-11-21T06:38:11.103226+00:00",
+      "pub_ts": 1795243091
     },
     {
-      "id": "00e1144064",
-      "title": "魏少军教授最新报告：2026年中国芯片销售将破1.5万亿，同比增89%",
-      "url": "https://mp.weixin.qq.com/s/ej_S2uKs1PnULAAz1yHGOA",
-      "summary": "魏少军教授最新报告：2026年中国芯片销售将破1.5万亿，同比增89%",
+      "id": "ecbf19eff1",
+      "title": "4万亿美元砸向A，近六成交给了服务器",
+      "url": "https://mp.weixin.qq.com/s/bFO9HulG24GwFNYa22a8_w",
+      "summary": "4万亿美元砸向A，近六成交给了服务器",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-20T06:44:37.269000+00:00",
-      "pub_ts": 1795157077
+      "pub_date": "2026-11-21T06:38:11.103253+00:00",
+      "pub_ts": 1795243091
     },
     {
-      "id": "7075692059",
-      "title": "更低功耗、更强端侧A：安谋科技“星辰100e”正式发布",
-      "url": "https://mp.weixin.qq.com/s/XbvNOlRYO038qtuXlueFSg",
-      "summary": "更低功耗、更强端侧A：安谋科技“星辰100e”正式发布",
+      "id": "e11275b3bd",
+      "title": "封测还在涨价，日月光已把504亿元押给2029年",
+      "url": "https://mp.weixin.qq.com/s/RBTnIhUvBfNK0wy9pf-1tQ",
+      "summary": "封测还在涨价，日月光已把504亿元押给2029年",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-20T06:44:37.269014+00:00",
-      "pub_ts": 1795157077
+      "pub_date": "2026-11-21T06:38:11.103276+00:00",
+      "pub_ts": 1795243091
     },
     {
-      "id": "aeefe2a03c",
-      "title": "印度封装产业，突然火了",
-      "url": "https://mp.weixin.qq.com/s/I4gUxAh_H6RnizHqbk-EpQ",
-      "summary": "印度封装产业，突然火了",
+      "id": "82c7db1831",
+      "title": "4亿欧元建一条中试线，欧洲要在光子芯片上抢一个身位",
+      "url": "https://mp.weixin.qq.com/s/d_IznHqwM9IRU4uELa-wKw",
+      "summary": "4亿欧元建一条中试线，欧洲要在光子芯片上抢一个身位",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-20T06:44:37.269027+00:00",
-      "pub_ts": 1795157077
+      "pub_date": "2026-11-21T06:38:11.103296+00:00",
+      "pub_ts": 1795243091
     },
     {
-      "id": "6bcab6bc62",
-      "title": "腾讯总裁：都得靠国产芯片",
-      "url": "https://mp.weixin.qq.com/s/VsOKDH1vLhSup3XtiB_74Q",
-      "summary": "腾讯总裁：都得靠国产芯片",
+      "id": "f5198ddcde",
+      "title": "里程碑进展|迈特芯MEGA188（国产3D-TPU）端侧AI芯片成功点亮，….",
+      "url": "https://mp.weixin.qq.com/s/dT3o1IB9womY2lMxgkrO8Q",
+      "summary": "里程碑进展|迈特芯MEGA188（国产3D-TPU）端侧AI芯片成功点亮，….",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-20T06:44:29.812628+00:00",
-      "pub_ts": 1795157069
+      "pub_date": "2026-11-21T06:37:59.696464+00:00",
+      "pub_ts": 1795243079
     },
     {
-      "id": "13fecfec0d",
-      "title": "中国芯片销售规模达1.58万亿，魏少军教授最新分享！",
-      "url": "https://mp.weixin.qq.com/s/CLGM3Yqam0X1GktK-kM0KQ",
-      "summary": "中国芯片销售规模达1.58万亿，魏少军教授最新分享！",
+      "id": "eadba1ea99",
+      "title": "晶圆代工再涨价，IC设计公司开始犯难",
+      "url": "https://mp.weixin.qq.com/s/tFdQYyopclQvPIVtPi-ZhA",
+      "summary": "晶圆代工再涨价，IC设计公司开始犯难",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-20T06:44:29.812675+00:00",
-      "pub_ts": 1795157069
+      "pub_date": "2026-11-21T06:37:59.696509+00:00",
+      "pub_ts": 1795243079
     },
     {
-      "id": "6384e6be46",
-      "title": "半导体设备赛道，变了",
-      "url": "https://mp.weixin.qq.com/s/llcuoVyUa-ylWKYrG2Qyxw",
-      "summary": "半导体设备赛道，变了",
+      "id": "552d54e87d",
+      "title": "国产晶圆键合设备商，获亿元融资，已批量交付量产线！",
+      "url": "https://mp.weixin.qq.com/s/ITScnKBjzq-_58Eh0-P0uA",
+      "summary": "国产晶圆键合设备商，获亿元融资，已批量交付量产线！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-20T06:44:29.812690+00:00",
-      "pub_ts": 1795157069
+      "pub_date": "2026-11-21T06:37:59.696533+00:00",
+      "pub_ts": 1795243079
     },
     {
-      "id": "43cfc17a02",
-      "title": "芯片行业TOP20，最新榜单",
-      "url": "https://mp.weixin.qq.com/s/iIhQKdTIu-wcUEzYPPie-w",
-      "summary": "芯片行业TOP20，最新榜单",
+      "id": "cfe1a85b13",
+      "title": "CPO的命门",
+      "url": "https://mp.weixin.qq.com/s/eQ3xFN6YHEjfhAO6sFuhrw",
+      "summary": "CPO的命门",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-20T06:44:29.812703+00:00",
-      "pub_ts": 1795157069
+      "pub_date": "2026-11-21T06:37:59.696555+00:00",
+      "pub_ts": 1795243079
     },
     {
-      "id": "45ae1a4c81",
-      "title": "DDR6标准，预览版发布",
-      "url": "https://mp.weixin.qq.com/s/BLVOOv63T3Al5ISaji1s7g",
-      "summary": "DDR6标准，预览版发布",
+      "id": "e1e153357e",
+      "title": "芯片暴涨背后，风险骤增",
+      "url": "https://mp.weixin.qq.com/s/t8vY6JzlVS8re9o_GWsSIQ",
+      "summary": "芯片暴涨背后，风险骤增",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-20T06:44:29.812716+00:00",
-      "pub_ts": 1795157069
+      "pub_date": "2026-11-21T06:37:59.696576+00:00",
+      "pub_ts": 1795243079
+    },
+    {
+      "id": "05001ee278",
+      "title": "Chip Industry Week In Review",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-165/",
+      "summary": "Intel's first 18A-P external customer; Siemens buys Breker; backside clock distribution; Microsoft taps EMIB; export controls tighten around China; Nvidia expands packaging capacity; SC26 brings new HPC HW; JEDEC previews DDR6; Europe pushes ahead with €33B in chip projects.\nThe post Chip Industry W…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-11-20T08:01:14+00:00",
+      "pub_ts": 1795161674
     },
     {
       "id": "f74b19eef0",
@@ -145,16 +155,6 @@
       "lang": "en",
       "pub_date": "2026-11-19T08:02:31+00:00",
       "pub_ts": 1795075351
-    },
-    {
-      "id": "4e46c30609",
-      "title": "What Is Driving Silicon Wafer Demand Recovery?",
-      "url": "https://semiengineering.com/what-is-driving-silicon-wafer-demand-recovery/",
-      "summary": "The high number of new and upcoming production lines is a unique factor influencing this particular cycle. \nThe post What Is Driving Silicon Wafer Demand Recovery? appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-11-19T08:01:54+00:00",
-      "pub_ts": 1795075314
     }
   ],
   "source_success_count": 3,

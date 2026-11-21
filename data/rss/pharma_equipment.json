@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-11-20T06:45:25.653653+00:00",
+  "updated_at": "2026-11-21T06:38:53.582957+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "c9cdc0e988",
-      "title": "Recursion CEO details novel Phase III endpoint for rare disease drug",
-      "url": "https://www.pharmaceutical-technology.com/news/recursion-ceo-details-novel-phase-iii-endpoint-for-rare-disease-drug/",
-      "summary": "The AI-driven biotech has secured FDA alignment on a pivotal trial for its FAP therapy, with a study start planned for 2027.",
+      "id": "7e1079b0d1",
+      "title": "MSD and Isomorphic join forces to develop oncology drugs",
+      "url": "https://www.pharmaceutical-technology.com/news/msd-isomorphic-labs-cancer-oncology-partnership/",
+      "summary": "MSD inks this deal as it looks to offset the looming impact of Keytruda’s patent expiry and secure its long-term growth prospects.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-19T16:55:42+00:00",
-      "pub_ts": 1795107342
+      "pub_date": "2026-11-20T14:59:58+00:00",
+      "pub_ts": 1795186798
     },
     {
-      "id": "31785d965d",
-      "title": "Geopolitical pressures and greater buyer selectivity hamper M&A deal closure rates",
-      "url": "https://www.pharmaceutical-technology.com/news/geopolitical-pressures-and-greater-buyer-selectivity-hamper-ma-deal-closure-rates/",
-      "summary": "Despite substantial M&amp;A activity and capital availability, some companies are struggling to get deals over the line.",
+      "id": "2d2d85cb86",
+      "title": "AI and the digitalisation of pharma manufacturing",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ai-digitalisation-pharma-manufacturing/",
+      "summary": "Executives from Thermo Fisher, Fujifilm and Recipharm outline CDMOs’ uses of, and considerations for, artificial intelligence.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-19T16:21:29+00:00",
-      "pub_ts": 1795105289
+      "pub_date": "2026-11-20T11:51:38+00:00",
+      "pub_ts": 1795175498
     },
     {
-      "id": "cabcaeb25f",
-      "title": "Ellipses Pharma plots London listing that could end British biotech IPO drought",
-      "url": "https://www.pharmaceutical-technology.com/news/ellipses-pharma-plots-london-listing-that-could-end-british-biotech-ipo-drought/",
-      "summary": "The oncology biotech could go public in a SPAC reverse takeover, though an IPO is not guaranteed.",
+      "id": "3ba32e74cd",
+      "title": "Novartis CEO leans on surge of pipeline readouts to quell growth fears",
+      "url": "https://www.pharmaceutical-technology.com/news/novartis-ceo-leans-on-surge-of-pipeline-readouts-to-quell-growth-fears/",
+      "summary": "Novartis has earmarked pipeline assets with multi-billion-dollar sale peaks as it tackles a wave of patent expirations.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-19T15:49:55+00:00",
-      "pub_ts": 1795103395
+      "pub_date": "2026-11-20T11:37:45+00:00",
+      "pub_ts": 1795174665
     },
     {
-      "id": "153e2d7779",
-      "title": "Lineage enters race to Huntington’s market with NeuroAirmid takeover",
-      "url": "https://www.pharmaceutical-technology.com/news/lineage-neuroairmid-acquisition-huntingtons-disease/",
-      "summary": "Lineage hopes that hNSC-01, a novel cell therapy, could offer symptomatic and disease-slowing benefits in Huntington’s.",
+      "id": "450e16a824",
+      "title": "Sanofi rumoured to be eyeing high-profile Insmed takeover",
+      "url": "https://www.pharmaceutical-technology.com/news/sanofi-rumoured-insmed-takeover-respiratory-disease/",
+      "summary": "Insmed’s shares spiked 20% following these rumours, while Sanofi’s stock dropped 2%, despite analysts backing the potential deal rationale.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-19T15:38:21+00:00",
-      "pub_ts": 1795102701
+      "pub_date": "2026-11-20T11:28:52+00:00",
+      "pub_ts": 1795174132
     },
     {
-      "id": "dbb61c9b4e",
-      "title": "AbbVie and Disco ink $2.5bn pact for next-generation cancer bispecifics",
-      "url": "https://www.pharmaceutical-technology.com/news/abbvie-disco-partnership-bispecific-cancer-therapies/",
-      "summary": "The drugs developed through AbbVie and Disco's collaboration will look to address significant unmet needs plaguing the solid tumour space.",
+      "id": "8591e39b72",
+      "title": "Merz Therapeutics: Staying focused while scaling a global neuroscience business",
+      "url": "https://www.pharmaceutical-technology.com/interviews/merz-therapeutics-staying-focused-while-scaling-a-global-neuroscience-business/",
+      "summary": "",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-19T14:33:40+00:00",
-      "pub_ts": 1795098820
+      "pub_date": "2026-11-20T08:00:00+00:00",
+      "pub_ts": 1795161600
     }
   ],
   "source_success_count": 1,

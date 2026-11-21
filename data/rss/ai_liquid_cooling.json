@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-11-20T06:44:55.248210+00:00",
+  "updated_at": "2026-11-21T06:38:30.561597+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "71a53d47e7",
-      "title": "具身机器人进入真机时代，华为云CloudRobo开始组队发力了",
-      "url": "https://mp.weixin.qq.com/s/VLy-gSMwwiVxScenWJDmVw",
-      "summary": "具身机器人进入真机时代，华为云CloudRobo开始组队发力了",
+      "id": "4aa0eb4340",
+      "title": "团队要造最强国产Token工厂",
+      "url": "https://mp.weixin.qq.com/s/t5fKrKTRAILeW2v8jrUKxA",
+      "summary": "团队要造最强国产Token工厂",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-20T06:44:50.941537+00:00",
-      "pub_ts": 1795157090
+      "pub_date": "2026-11-21T06:38:25.028000+00:00",
+      "pub_ts": 1795243105
     },
     {
-      "id": "ac1bd5a44b",
-      "title": "英伟达RTXSpark迷你主机来了！书桌角落放一台，全家MacBook的A...",
-      "url": "https://mp.weixin.qq.com/s/rcWhskgt1I_5fKCV8ZgrOA",
-      "summary": "英伟达RTXSpark迷你主机来了！书桌角落放一台，全家MacBook的A...",
+      "id": "a91af46842",
+      "title": "昇腾算力训出了双榜SOTA的具身世界模型，华为云这次想把整套底座.",
+      "url": "https://mp.weixin.qq.com/s/g9Vpk9pllMtI438QXUCtCA",
+      "summary": "昇腾算力训出了双榜SOTA的具身世界模型，华为云这次想把整套底座.",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-20T06:44:50.941575+00:00",
-      "pub_ts": 1795157090
+      "pub_date": "2026-11-21T06:38:25.028039+00:00",
+      "pub_ts": 1795243105
     },
     {
-      "id": "a0fb41268a",
-      "title": "10GB显存跑图像模型，误差从9.4%降到4.26%：魔搭开源码率可调的..",
-      "url": "https://mp.weixin.qq.com/s/-oBN3QygsnOVUbq0XypqBg",
-      "summary": "10GB显存跑图像模型，误差从9.4%降到4.26%：魔搭开源码率可调的..",
+      "id": "489374c37c",
+      "title": "“Agent版arXiv”来了！936个智能体12个星期狂发近千篇论文，连同..",
+      "url": "https://mp.weixin.qq.com/s/LKQ8u0LqaGTrWK_lJrn57A",
+      "summary": "“Agent版arXiv”来了！936个智能体12个星期狂发近千篇论文，连同..",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-20T06:44:50.941588+00:00",
-      "pub_ts": 1795157090
+      "pub_date": "2026-11-21T06:38:25.028062+00:00",
+      "pub_ts": 1795243105
     },
     {
-      "id": "5cc095a173",
-      "title": "活动报名|量子位「MEET2027智能未来大会」重磅嘉宾阵容公布！",
-      "url": "https://mp.weixin.qq.com/s/ElxPx85cHdfBbndhYr0LpQ",
-      "summary": "活动报名|量子位「MEET2027智能未来大会」重磅嘉宾阵容公布！",
+      "id": "04b4e12566",
+      "title": "未来大会」重磅嘉宾阵容公布！",
+      "url": "https://mp.weixin.qq.com/s/6olFRFKOQlmNK8j0NFKi7Q",
+      "summary": "未来大会」重磅嘉宾阵容公布！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-20T06:44:50.941601+00:00",
-      "pub_ts": 1795157090
+      "pub_date": "2026-11-21T06:38:25.028098+00:00",
+      "pub_ts": 1795243105
     },
     {
-      "id": "3449e897db",
-      "title": "GTA6刷屏！零AI纯手搓的3A大作玩一个少一个了",
-      "url": "https://mp.weixin.qq.com/s/oyJ6k-birXeKW1jBjCyxww",
-      "summary": "GTA6刷屏！零AI纯手搓的3A大作玩一个少一个了",
+      "id": "276427f2c1",
+      "title": "双系统决策+双层自进化，Agnes让Agent效率最高提速14倍，成本...",
+      "url": "https://mp.weixin.qq.com/s/24ZdiST69OpUi7ERPhc7Zw",
+      "summary": "双系统决策+双层自进化，Agnes让Agent效率最高提速14倍，成本...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-20T06:44:50.941613+00:00",
-      "pub_ts": 1795157090
+      "pub_date": "2026-11-21T06:38:25.028121+00:00",
+      "pub_ts": 1795243105
     }
   ],
   "source_success_count": 1,

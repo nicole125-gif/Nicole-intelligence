@@ -3,108 +3,108 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-11-20T06:45:13.249739+00:00",
+  "updated_at": "2026-11-21T06:38:41.125461+00:00",
   "item_count": 10,
   "items": [
     {
-      "id": "b5e234fe6c",
-      "title": "China Completes Main Installation of 3,000-Cubic-Metre Hydrogen Storage System as Hubei Plant Reaches 90% Construction",
-      "url": "https://fuelcellsworks.com/2026/11/16/h2/china-completes-main-installation-of-3-000-cubic-metre-hydrogen-storage-system-as-hubei-plant-reaches-90-percent-construction",
+      "id": "59e2786460",
+      "title": "Plug Power – GenEco™ Electrolyzer Now Operational at Avina’s California Plant, Adding Commercial Hydrogen Capacity in North America",
+      "url": "https://hydrogen-central.com/plug-power-geneco-electrolyzer-now-operational-at-avinas-california-plant-adding-commercial-hydrogen-capacity-in-north-america/",
+      "summary": "Plug Power &#8211; GenEco™ Electrolyzer Now Operational at Avina’s California Plant, Adding Commercial Hydrogen Capacity in North America SLINGERLANDS, N.Y., Nov. 19, 2026 (GLOBE NEWSWIRE) &#8212; Plug Power Inc. (NASDAQ: PLUG), a global leader in comprehensive hydrogen solutions, today announced th…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-21T04:44:37+00:00",
+      "pub_ts": 1795236277
+    },
+    {
+      "id": "fa400fa798",
+      "title": "PowerCell receives SEK 440 million order for utility-scale green hydrogen power generation installation in the US",
+      "url": "https://hydrogen-central.com/powercell-receives-sek-440-million-order-for-utility-scale-green-hydrogen-power-generation-installation-in-the-us/",
+      "summary": "PowerCell receives SEK 440 million order for utility-scale green hydrogen power generation installation in the US PowerCell Group has, through its U.S. subsidiary PowerCell Inc., signed an agreement worth SEK 440 million with an established U.S.-based electric cooperative for a utility-scale fuel ce…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-21T04:44:03+00:00",
+      "pub_ts": 1795236243
+    },
+    {
+      "id": "5f11ee2b68",
+      "title": "HY2GEN SIGNS €139,8 MILLION EUROPEAN HYDROGEN BANK GRANT AGREEMENT FOR ALBATROS",
+      "url": "https://hydrogen-central.com/hy2gen-signs-e1398-million-european-hydrogen-bank-grant-agreement-for-albatros/",
+      "summary": "HY2GEN SIGNS €139,8 MILLION EUROPEAN HYDROGEN BANK GRANT AGREEMENT FOR ALBATROS Kassø, Denmark, 16 November 2026 –&#160; Hy2gen Nordic AS, the Nordic subsidiary of renewable hydrogen producer Hy2gen, has signed the grant agreement under the European Hydrogen Bank for its Albatros project in Kassø, A…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-21T04:43:43+00:00",
+      "pub_ts": 1795236223
+    },
+    {
+      "id": "df5ed615b2",
+      "title": "China’s first hydrogen pipeline exceeding 100 km begins operation, cutting transport costs by 77 pct",
+      "url": "https://hydrogen-central.com/chinas-first-hydrogen-pipeline-exceeding-100-km-begins-operation-cutting-transport-costs-by-77-pct/",
+      "summary": "China&#8217;s first hydrogen pipeline exceeding 100 km begins operation, cutting transport costs by 77 pct HOHHOT, Nov. 19 (Xinhua) &#8212; China&#8217;s first pure hydrogen pipeline longer than 100 kilometers started operation on Thursday in Baotou, north China&#8217;s Inner Mongolia Autonomous Reg…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-21T04:39:29+00:00",
+      "pub_ts": 1795235969
+    },
+    {
+      "id": "d32dc8f419",
+      "title": "Plug Symposium Makes the Case for Hydrogen as a Path to Energy Security and Independence",
+      "url": "https://hydrogen-central.com/plug-symposium-makes-the-case-for-hydrogen-as-a-path-to-energy-security-and-independence/",
+      "summary": "Plug Symposium Makes the Case for Hydrogen as a Path to Energy Security and Independence Energy, policy and finance leaders join Plug customers to show how locally produced hydrogen reduces import dependence and eases grid strain around the world SLINGERLANDS, N.Y., Nov. 19, 2026 (GLOBE NEWSWIRE) &#…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-21T04:39:21+00:00",
+      "pub_ts": 1795235961
+    },
+    {
+      "id": "cd18e200ad",
+      "title": "PowerCell Receives SEK 440 Million Order for Utility-Scale Green Hydrogen Power Generation Installation in the US",
+      "url": "https://fuelcellsworks.com/2026/11/20/electrolyzer/powercell-receives-sek-440-million-order-for-utility-scale-green-hydrogen-power-generation-installation-in-the-us",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-19T16:44:18+00:00",
-      "pub_ts": 1795106658
+      "pub_date": "2026-11-20T17:13:54+00:00",
+      "pub_ts": 1795194834
     },
     {
-      "id": "1a440b4db1",
-      "title": "TESMauricie H2 Plant Project: The Minister Mandates the BAPE to Hold a Public Hearing as Early as December",
-      "url": "https://fuelcellsworks.com/2026/11/11/h2/tesmauricie-h2-plant-project-the-minister-mandates-the-bape-to-hold-a-public-hearing-as-early-as-december",
+      "id": "f054cf6cb2",
+      "title": "Hydrogen Must Be Competitive to Scale, Says Aragon Economy Minister",
+      "url": "https://fuelcellsworks.com/2026/11/20/h2/hydrogen-must-be-competitive-to-scale-says-aragon-economy-minister",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-19T16:41:39+00:00",
-      "pub_ts": 1795106499
+      "pub_date": "2026-11-20T17:05:17+00:00",
+      "pub_ts": 1795194317
     },
     {
-      "id": "dc4fa50cc5",
-      "title": "Next Energy Takes Grand Prize at WHE 2026’S H2 Innovation Award for Hydrogen Refuelling Communication System",
-      "url": "https://fuelcellsworks.com/2026/11/09/h2/next-energy-takes-grand-prize-at-whe-2026-s-h2-innovation-award-for-hydrogen-refuelling-communication-system",
+      "id": "d07731dd74",
+      "title": "TEAL Mobility Starts Construction of Its Hydrogen Refueling Station in Antwerp",
+      "url": "https://fuelcellsworks.com/2026/11/19/electrolyzer/teal-mobility-starts-construction-of-its-hydrogen-refueling-station-in-antwerp",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-19T16:39:40+00:00",
-      "pub_ts": 1795106380
+      "pub_date": "2026-11-20T16:57:48+00:00",
+      "pub_ts": 1795193868
     },
     {
-      "id": "9853634a82",
-      "title": "U of A and CPKC Partner to Advance Hydrogen Locomotive Research",
-      "url": "https://fuelcellsworks.com/2026/11/16/fuel-cells/u-of-a-and-cpkc-partner-to-advance-hydrogen-locomotive-research",
+      "id": "0e32e66204",
+      "title": "Italy's Road Haulage Industry Plans Hydrogen Truck Pilot to Test Fuel Costs and Refuelling Infrastructure",
+      "url": "https://fuelcellsworks.com/2026/11/18/fuel-cells/italy-s-road-haulage-industry-plans-hydrogen-truck-pilot-to-test-fuel-costs-and-refuelling-infrastructure",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-19T16:29:18+00:00",
-      "pub_ts": 1795105758
+      "pub_date": "2026-11-20T16:42:06+00:00",
+      "pub_ts": 1795192926
     },
     {
-      "id": "d37ecbc7c8",
-      "title": "Hellenic Hydrogen Files for 25 MW Electrolyser Licence in Amyntaio as Motor Oil-PPC Consortium Advances €70 Million Project",
-      "url": "https://fuelcellsworks.com/2026/11/18/h2/hellenic-hydrogen-files-for-25-mw-electrolyser-licence-in-amyntaio-as-motor-oil-ppc-consortium-advances-70-million-project",
+      "id": "da9e7297f7",
+      "title": "Hyundai Hydrogen Mobility Delivers Two Additional Next-Generation XCIENT Fuel Cell Trucks to Migros Eastern Switzerland",
+      "url": "https://fuelcellsworks.com/2026/11/18/fuel-cells/hyundai-hydrogen-mobility-delivers-two-additional-next-generation-xcient-fuel-cell-trucks-to-migros-eastern-switzerland",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-19T16:23:52+00:00",
-      "pub_ts": 1795105432
-    },
-    {
-      "id": "bc8f740f7d",
-      "title": "JERA Invests in Koloma to Explore Natural Hydrogen as a Future Low-Carbon Energy Source",
-      "url": "https://hydrogen-central.com/jera-invests-in-koloma-to-explore-natural-hydrogen-as-a-future-low-carbon-energy-source/",
-      "summary": "JERA Invests in Koloma to Explore Natural Hydrogen as a Future Low-Carbon Energy Source JERA Co., Inc. (JERA), through its corporate venture capital arm JERA Ventures, has invested in Koloma, Inc. (Koloma), a U.S.-based natural hydrogen exploration and development company. The investment, as well as…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-19T04:16:27+00:00",
-      "pub_ts": 1795061787
-    },
-    {
-      "id": "07ce40fe5b",
-      "title": "Molten Industries Commissions World’s First Plant to Produce Battery-Grade Graphite – and hydrogen – from Natural Gas",
-      "url": "https://hydrogen-central.com/molten-industries-commissions-worlds-first-plant-to-produce-battery-grade-graphite-and-hydrogen-from-natural-gas/",
-      "summary": "Molten Industries Commissions World’s First Plant to Produce Battery-Grade Graphite &#8211; and hydrogen &#8211; from Natural Gas Building a domestic supply of critical materials, Molten’s Oakland demonstration plant is now operational, producing battery-grade graphite and clean hydrogen in an end-t…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-19T04:13:34+00:00",
-      "pub_ts": 1795061614
-    },
-    {
-      "id": "c96cbc72d2",
-      "title": "Airport Energie Management GmbH Chooses EBZ Electrolysis System",
-      "url": "https://hydrogen-central.com/airport-energie-management-gmbh-chooses-ebz-electrolysis-system/",
-      "summary": "Airport Energie Management GmbH Chooses EBZ Electrolysis System EBZ is supplying the electrolysis technology for the expansion of the hydrogen infrastructure at Memmingen Airport Airport Energie Management GmbH (AEM) is relying on technology from the EBZ Group in Ravensburg to expand the hydrogen in…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-19T04:13:21+00:00",
-      "pub_ts": 1795061601
-    },
-    {
-      "id": "d013d3fc09",
-      "title": "Hydros Power – Hydrogen cylinder filling with a gas booster pump: pressure, flow rate and system design",
-      "url": "https://hydrogen-central.com/hydros-power-hydrogen-cylinder-filling-with-a-gas-booster-pump-pressure-flow-rate-and-system-design/",
-      "summary": "Hydros Power &#8211; Hydrogen cylinder filling with a gas booster pump: pressure, flow rate and system design Hydrogen cylinder filling requires a clear understanding of supply pressure, receiving cylinder capacity and available flow rate. These parameters determine how much hydrogen can be transfer…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-19T04:07:17+00:00",
-      "pub_ts": 1795061237
-    },
-    {
-      "id": "8c22df3b85",
-      "title": "Gascade – Approval Process for the HYROW Hydrogen Pipeline Begins",
-      "url": "https://hydrogen-central.com/gascade-approval-process-for-the-hyrow-hydrogen-pipeline-begins/",
-      "summary": "Gascade &#8211; Approval Process for the HYROW Hydrogen Pipeline Begins A 115-kilometer pipeline will connect Rostock to the north-south axis of “Flow – making hydrogen happen” near Wrangelsburg. Commissioning is scheduled for late 2028. Kassel. With the launch of the planning approval process for t…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-19T04:05:09+00:00",
-      "pub_ts": 1795061109
+      "pub_date": "2026-11-20T16:32:18+00:00",
+      "pub_ts": 1795192338
     }
   ],
   "source_success_count": 2,
