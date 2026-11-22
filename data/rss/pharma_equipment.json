@@ -3,9 +3,19 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-11-21T06:38:53.582957+00:00",
+  "updated_at": "2026-11-22T06:06:38.712648+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "2d9e7793ec",
+      "title": "Preventative healthcare powers new wave of UK regulatory reform",
+      "url": "https://www.pharmaceutical-technology.com/features/dia-mhra-global-summit-2026-prevenative-healthcare-uk-regulatory-reform/",
+      "summary": "Speakers at the 2026 DIA-MHRA Global Summit talked of a healthcare system overhaul with preventative medicine at the core.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-11-20T16:46:29+00:00",
+      "pub_ts": 1795193189
+    },
     {
       "id": "7e1079b0d1",
       "title": "MSD and Isomorphic join forces to develop oncology drugs",
@@ -45,16 +55,6 @@
       "lang": "en",
       "pub_date": "2026-11-20T11:28:52+00:00",
       "pub_ts": 1795174132
-    },
-    {
-      "id": "8591e39b72",
-      "title": "Merz Therapeutics: Staying focused while scaling a global neuroscience business",
-      "url": "https://www.pharmaceutical-technology.com/interviews/merz-therapeutics-staying-focused-while-scaling-a-global-neuroscience-business/",
-      "summary": "",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-11-20T08:00:00+00:00",
-      "pub_ts": 1795161600
     }
   ],
   "source_success_count": 1,
