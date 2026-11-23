@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-11-22T06:06:15.662715+00:00",
+  "updated_at": "2026-11-23T06:58:40.230425+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "8d7d0b3a20",
-      "title": "中国计算，走出新的登峰之路",
-      "url": "https://mp.weixin.qq.com/s/kTU9yhIxSgVP4-RmFSAtAQ",
-      "summary": "中国计算，走出新的登峰之路",
+      "id": "9f4e763081",
+      "title": "AI“朋友圈”大聚会MEET2027喊你来参会",
+      "url": "https://mp.weixin.qq.com/s/I_P2V8TEM7kP-E3dYJSZ7Q",
+      "summary": "AI“朋友圈”大聚会MEET2027喊你来参会",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-22T06:06:10.340952+00:00",
-      "pub_ts": 1795327570
+      "pub_date": "2026-11-23T06:58:35.596144+00:00",
+      "pub_ts": 1795417115
     },
     {
-      "id": "e5a14c09cd",
-      "title": "A给乐队现场搓MV，这是黑客松还是音乐节啊",
-      "url": "https://mp.weixin.qq.com/s/DLUnhoEUENy-G5gkuc-DKQ",
-      "summary": "A给乐队现场搓MV，这是黑客松还是音乐节啊",
+      "id": "aca14134db",
+      "title": "03年小天才投身RSI创业：Qwen后训练实习生，刚刚本科毕业",
+      "url": "https://mp.weixin.qq.com/s/mJi0E4oG_l0K3wYHazjeiw",
+      "summary": "03年小天才投身RSI创业：Qwen后训练实习生，刚刚本科毕业",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-22T06:06:10.341001+00:00",
-      "pub_ts": 1795327570
+      "pub_date": "2026-11-23T06:58:35.596188+00:00",
+      "pub_ts": 1795417115
     },
     {
-      "id": "19cbba02f3",
-      "title": "反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢",
-      "url": "https://mp.weixin.qq.com/s/4N8Y12bIPGWnLBp95gtqgw",
-      "summary": "反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢",
+      "id": "7b77a0e901",
+      "title": "哈佛开源虚拟细胞模型：编辑DNA前先预演整个细胞，AlphaGenome...",
+      "url": "https://mp.weixin.qq.com/s/KEEKLuRS4VF3mSftwReyng",
+      "summary": "哈佛开源虚拟细胞模型：编辑DNA前先预演整个细胞，AlphaGenome...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-22T06:06:10.341016+00:00",
-      "pub_ts": 1795327570
+      "pub_date": "2026-11-23T06:58:35.596203+00:00",
+      "pub_ts": 1795417115
     },
     {
-      "id": "6a7ff4a0b5",
-      "title": "全网疯传！Grok一姐教你如何月提交3000个PR",
-      "url": "https://mp.weixin.qq.com/s/DKdyv95tbi2WzzpomBCHQg",
-      "summary": "全网疯传！Grok一姐教你如何月提交3000个PR",
+      "id": "29efa45cfc",
+      "title": "A社数学家用Claude又证明另一干禧难题，逼出一份写了12年的940...",
+      "url": "https://mp.weixin.qq.com/s/W2rhOCcpLcAQL-a27KNMTQ",
+      "summary": "A社数学家用Claude又证明另一干禧难题，逼出一份写了12年的940...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-22T06:06:10.341030+00:00",
-      "pub_ts": 1795327570
+      "pub_date": "2026-11-23T06:58:35.596217+00:00",
+      "pub_ts": 1795417115
     },
     {
-      "id": "b4b332de79",
-      "title": "8万条群聊消息做成考卷：腾讯元宝×KCL发布首个基于群聊构建的Age...",
-      "url": "https://mp.weixin.qq.com/s/CG8ony2wkCKSF1etPtOa1A",
-      "summary": "8万条群聊消息做成考卷：腾讯元宝×KCL发布首个基于群聊构建的Age...",
+      "id": "4231c90541",
+      "title": "Nature：糖尿病大鼠成功恢复正常血糖！用电刺激迷走神经控糖",
+      "url": "https://mp.weixin.qq.com/s/5Z5JWmC4yxmlIgND_LD06w",
+      "summary": "Nature：糖尿病大鼠成功恢复正常血糖！用电刺激迷走神经控糖",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-22T06:06:10.341043+00:00",
-      "pub_ts": 1795327570
+      "pub_date": "2026-11-23T06:58:35.596231+00:00",
+      "pub_ts": 1795417115
     }
   ],
   "source_success_count": 1,
