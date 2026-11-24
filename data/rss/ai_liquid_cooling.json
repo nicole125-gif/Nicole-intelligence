@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-11-23T06:58:40.230425+00:00",
+  "updated_at": "2026-11-24T09:24:40.311070+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "9f4e763081",
-      "title": "AI“朋友圈”大聚会MEET2027喊你来参会",
-      "url": "https://mp.weixin.qq.com/s/I_P2V8TEM7kP-E3dYJSZ7Q",
-      "summary": "AI“朋友圈”大聚会MEET2027喊你来参会",
+      "id": "71ab808738",
+      "title": "智谱刚刚发了GLM-5.4，全新架构的那种！网友直呼：超过预期",
+      "url": "https://mp.weixin.qq.com/s/ln8fIodXFxbow3kanPhcxA",
+      "summary": "智谱刚刚发了GLM-5.4，全新架构的那种！网友直呼：超过预期",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-23T06:58:35.596144+00:00",
-      "pub_ts": 1795417115
+      "pub_date": "2026-11-24T09:24:35.702309+00:00",
+      "pub_ts": 1795512275
     },
     {
-      "id": "aca14134db",
-      "title": "03年小天才投身RSI创业：Qwen后训练实习生，刚刚本科毕业",
-      "url": "https://mp.weixin.qq.com/s/mJi0E4oG_l0K3wYHazjeiw",
-      "summary": "03年小天才投身RSI创业：Qwen后训练实习生，刚刚本科毕业",
+      "id": "4c480b4974",
+      "title": "马斯克黑科技刷屏！特斯拉FSDV15把《GTA》搬上车了",
+      "url": "https://mp.weixin.qq.com/s/ixZh0c_VXb6vt-yLyLFCJA",
+      "summary": "马斯克黑科技刷屏！特斯拉FSDV15把《GTA》搬上车了",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-23T06:58:35.596188+00:00",
-      "pub_ts": 1795417115
+      "pub_date": "2026-11-24T09:24:35.702379+00:00",
+      "pub_ts": 1795512275
     },
     {
-      "id": "7b77a0e901",
-      "title": "哈佛开源虚拟细胞模型：编辑DNA前先预演整个细胞，AlphaGenome...",
-      "url": "https://mp.weixin.qq.com/s/KEEKLuRS4VF3mSftwReyng",
-      "summary": "哈佛开源虚拟细胞模型：编辑DNA前先预演整个细胞，AlphaGenome...",
+      "id": "05027f44cd",
+      "title": "实测：1450亿参数塞进笔记本，每秒狂飙8O+Token！国产端侧大模型...",
+      "url": "https://mp.weixin.qq.com/s/9siMEVk-4cd2mCFnT1YtBQ",
+      "summary": "实测：1450亿参数塞进笔记本，每秒狂飙8O+Token！国产端侧大模型...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-23T06:58:35.596203+00:00",
-      "pub_ts": 1795417115
+      "pub_date": "2026-11-24T09:24:35.702407+00:00",
+      "pub_ts": 1795512275
     },
     {
-      "id": "29efa45cfc",
-      "title": "A社数学家用Claude又证明另一干禧难题，逼出一份写了12年的940...",
-      "url": "https://mp.weixin.qq.com/s/W2rhOCcpLcAQL-a27KNMTQ",
-      "summary": "A社数学家用Claude又证明另一干禧难题，逼出一份写了12年的940...",
+      "id": "42e2b429a5",
+      "title": "报名从速Ⅰ来MEET2027！听AI前沿实践者交出“判断”",
+      "url": "https://mp.weixin.qq.com/s/YL-4nxqzw8Xhef-RxjZcGw",
+      "summary": "报名从速Ⅰ来MEET2027！听AI前沿实践者交出“判断”",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-23T06:58:35.596217+00:00",
-      "pub_ts": 1795417115
+      "pub_date": "2026-11-24T09:24:35.702430+00:00",
+      "pub_ts": 1795512275
     },
     {
-      "id": "4231c90541",
-      "title": "Nature：糖尿病大鼠成功恢复正常血糖！用电刺激迷走神经控糖",
-      "url": "https://mp.weixin.qq.com/s/5Z5JWmC4yxmlIgND_LD06w",
-      "summary": "Nature：糖尿病大鼠成功恢复正常血糖！用电刺激迷走神经控糖",
+      "id": "de796577ed",
+      "title": "约束满足率超Codex14.4个点！清华新框架让Agent长程设计守住约束",
+      "url": "https://mp.weixin.qq.com/s/LVHZkZQSq8dYp41_w5n7fQ",
+      "summary": "约束满足率超Codex14.4个点！清华新框架让Agent长程设计守住约束",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-23T06:58:35.596231+00:00",
-      "pub_ts": 1795417115
+      "pub_date": "2026-11-24T09:24:35.702453+00:00",
+      "pub_ts": 1795512275
     }
   ],
   "source_success_count": 1,

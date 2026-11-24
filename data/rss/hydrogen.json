@@ -3,9 +3,59 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-11-23T06:58:50.858193+00:00",
+  "updated_at": "2026-11-24T09:24:51.119416+00:00",
   "item_count": 10,
   "items": [
+    {
+      "id": "f604f19bf9",
+      "title": "Takenaka Corporation Proves Seasonal Hydrogen Storage in Apartment Block",
+      "url": "https://fuelcellsworks.com/2026/11/22/electrolyzer/takenaka-corporation-proves-seasonal-hydrogen-storage-in-apartment-block",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-23T18:07:51+00:00",
+      "pub_ts": 1795457271
+    },
+    {
+      "id": "6c1b3b7e1e",
+      "title": "Stegra Moves Closer to Domestic Iron Ore Supply for Swedish Green Hydrogen Steel Project",
+      "url": "https://fuelcellsworks.com/2026/11/23/h2/stegra-moves-closer-to-domestic-iron-ore-supply-for-swedish-green-hydrogen-steel-project",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-23T18:00:14+00:00",
+      "pub_ts": 1795456814
+    },
+    {
+      "id": "c21ea814ba",
+      "title": "Study Finds LOHC Hydrogen Trains Could Match Diesel Operating Costs on Regional Rail Routes",
+      "url": "https://fuelcellsworks.com/2026/11/23/fuel-cells/study-finds-lohc-hydrogen-trains-could-match-diesel-operating-costs-on-regional-rail-routes",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-23T17:52:18+00:00",
+      "pub_ts": 1795456338
+    },
+    {
+      "id": "c2f75ab3ea",
+      "title": "Green Cat Hydrogen’s Creca Hydrogen Facility Secures Planning Permission",
+      "url": "https://fuelcellsworks.com/2026/11/23/electrolyzer/green-cat-hydrogen-s-creca-hydrogen-facility-secures-planning-permission",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-23T17:45:37+00:00",
+      "pub_ts": 1795455937
+    },
+    {
+      "id": "48d30f1bee",
+      "title": "Fuel Cell and Hydrogen News Highlights From China: Nov. 16-20, 2026",
+      "url": "https://fuelcellsworks.com/2026/11/21/clean-energy/fuel-cell-and-hydrogen-news-highlights-from-china-nov-16-20-2026",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-23T17:11:56+00:00",
+      "pub_ts": 1795453916
+    },
     {
       "id": "59e2786460",
       "title": "Plug Power – GenEco™ Electrolyzer Now Operational at Avina’s California Plant, Adding Commercial Hydrogen Capacity in North America",
@@ -55,56 +105,6 @@
       "lang": "en",
       "pub_date": "2026-11-21T04:39:21+00:00",
       "pub_ts": 1795235961
-    },
-    {
-      "id": "cd18e200ad",
-      "title": "PowerCell Receives SEK 440 Million Order for Utility-Scale Green Hydrogen Power Generation Installation in the US",
-      "url": "https://fuelcellsworks.com/2026/11/20/electrolyzer/powercell-receives-sek-440-million-order-for-utility-scale-green-hydrogen-power-generation-installation-in-the-us",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-20T17:13:54+00:00",
-      "pub_ts": 1795194834
-    },
-    {
-      "id": "f054cf6cb2",
-      "title": "Hydrogen Must Be Competitive to Scale, Says Aragon Economy Minister",
-      "url": "https://fuelcellsworks.com/2026/11/20/h2/hydrogen-must-be-competitive-to-scale-says-aragon-economy-minister",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-20T17:05:17+00:00",
-      "pub_ts": 1795194317
-    },
-    {
-      "id": "d07731dd74",
-      "title": "TEAL Mobility Starts Construction of Its Hydrogen Refueling Station in Antwerp",
-      "url": "https://fuelcellsworks.com/2026/11/19/electrolyzer/teal-mobility-starts-construction-of-its-hydrogen-refueling-station-in-antwerp",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-20T16:57:48+00:00",
-      "pub_ts": 1795193868
-    },
-    {
-      "id": "0e32e66204",
-      "title": "Italy's Road Haulage Industry Plans Hydrogen Truck Pilot to Test Fuel Costs and Refuelling Infrastructure",
-      "url": "https://fuelcellsworks.com/2026/11/18/fuel-cells/italy-s-road-haulage-industry-plans-hydrogen-truck-pilot-to-test-fuel-costs-and-refuelling-infrastructure",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-20T16:42:06+00:00",
-      "pub_ts": 1795192926
-    },
-    {
-      "id": "da9e7297f7",
-      "title": "Hyundai Hydrogen Mobility Delivers Two Additional Next-Generation XCIENT Fuel Cell Trucks to Migros Eastern Switzerland",
-      "url": "https://fuelcellsworks.com/2026/11/18/fuel-cells/hyundai-hydrogen-mobility-delivers-two-additional-next-generation-xcient-fuel-cell-trucks-to-migros-eastern-switzerland",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-20T16:32:18+00:00",
-      "pub_ts": 1795192338
     }
   ],
   "source_success_count": 2,
