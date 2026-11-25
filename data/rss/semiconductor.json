@@ -3,68 +3,108 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-11-24T09:24:26.004705+00:00",
-  "item_count": 11,
+  "updated_at": "2026-11-25T07:57:17.155560+00:00",
+  "item_count": 15,
   "items": [
     {
-      "id": "24395454ce",
-      "title": "执行官职务",
-      "url": "https://mp.weixin.qq.com/s/Aa8XZQq1Mllx75FToIAXoQ",
-      "summary": "执行官职务",
+      "id": "3ddbdd5176",
+      "title": "西门子EDA凌琳：AI原生EDA不是外挂功能，是EDA平台底层范式的升级",
+      "url": "https://mp.weixin.qq.com/s/lV4mY-_99hbZ4LP6EDuLBA",
+      "summary": "西门子EDA凌琳：AI原生EDA不是外挂功能，是EDA平台底层范式的升级",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-24T09:24:21.716357+00:00",
-      "pub_ts": 1795512261
+      "pub_date": "2026-11-25T07:57:12.956408+00:00",
+      "pub_ts": 1795593432
     },
     {
-      "id": "0815d5eda9",
-      "title": "不等英伟达了，机器人公司自己造芯",
-      "url": "https://mp.weixin.qq.com/s/NZPpJb9B2PyuLog_vj03fQ",
-      "summary": "不等英伟达了，机器人公司自己造芯",
+      "id": "6cffa222c2",
+      "title": "TOP500新增28套超算：国产CPU、GPU各一家上榜",
+      "url": "https://mp.weixin.qq.com/s/ZI1d7ywL4l8OZINPoEtgDg",
+      "summary": "TOP500新增28套超算：国产CPU、GPU各一家上榜",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-24T09:24:21.716413+00:00",
-      "pub_ts": 1795512261
+      "pub_date": "2026-11-25T07:57:12.956450+00:00",
+      "pub_ts": 1795593432
     },
     {
-      "id": "a33743bb7c",
-      "title": "营收翻倍与场景定义：安路如何在AI算力与工控扎下根？",
-      "url": "https://mp.weixin.qq.com/s/sJ3x-9CZpYMNdNIpDmWqRw",
-      "summary": "营收翻倍与场景定义：安路如何在AI算力与工控扎下根？",
+      "id": "03c32d9a2d",
+      "title": "华为MateX8登场，全系标配麒麟9050Pro逻辑折叠τ芯片",
+      "url": "https://mp.weixin.qq.com/s/xSKT-nI4aEPEI4fYFMZ5rw",
+      "summary": "华为MateX8登场，全系标配麒麟9050Pro逻辑折叠τ芯片",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-24T09:24:21.716445+00:00",
-      "pub_ts": 1795512261
+      "pub_date": "2026-11-25T07:57:12.956466+00:00",
+      "pub_ts": 1795593432
     },
     {
-      "id": "ff87f9a391",
-      "title": "最高涨幅45%，AI服务器订单敲定还能涨价？",
-      "url": "https://mp.weixin.qq.com/s/RIw4wK34VV_6UpLWRhmbPA",
-      "summary": "最高涨幅45%，AI服务器订单敲定还能涨价？",
+      "id": "cb7aea9366",
+      "title": "时隔24年，佳能再推ArF干式半导体光刻机新产品",
+      "url": "https://mp.weixin.qq.com/s/7JpnXqx6uYxda22gdbivaA",
+      "summary": "时隔24年，佳能再推ArF干式半导体光刻机新产品",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-24T09:24:21.716476+00:00",
-      "pub_ts": 1795512261
+      "pub_date": "2026-11-25T07:57:12.956479+00:00",
+      "pub_ts": 1795593432
     },
     {
-      "id": "10d1c5f644",
-      "title": "借15亿入股一家半年亏14亿的工厂思特威在赌什么",
-      "url": "https://mp.weixin.qq.com/s/clqRvgEMQ04Q6vvlqQmOkQ",
-      "summary": "借15亿入股一家半年亏14亿的工厂思特威在赌什么",
+      "id": "2569fe1824",
+      "title": "模拟IC涨价压力，延续至2027年",
+      "url": "https://mp.weixin.qq.com/s/UgUxNalz1rzPJBQtfVJ-kA",
+      "summary": "模拟IC涨价压力，延续至2027年",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-24T09:24:21.716507+00:00",
-      "pub_ts": 1795512261
+      "pub_date": "2026-11-25T07:57:12.956490+00:00",
+      "pub_ts": 1795593432
     },
     {
-      "id": "df9ba264fc",
-      "title": "ArmCEO，官宣续约，到2033年！",
-      "url": "https://mp.weixin.qq.com/s/Nwr8ZQ-fSCr9tLdrBuxlAA",
-      "summary": "ArmCEO，官宣续约，到2033年！",
+      "id": "4d5fd6d2f5",
+      "title": "台积电，再砸1500亿！建2nm工厂?",
+      "url": "https://mp.weixin.qq.com/s/BEbPnAUo3d5Ne9jhYPRcTw",
+      "summary": "台积电，再砸1500亿！建2nm工厂?",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-24T09:24:14.827928+00:00",
-      "pub_ts": 1795512254
+      "pub_date": "2026-11-25T07:57:00.093007+00:00",
+      "pub_ts": 1795593420
+    },
+    {
+      "id": "56d21ad052",
+      "title": "光互连，迎来大变局",
+      "url": "https://mp.weixin.qq.com/s/A5SVAFq3tF1xKy9VJcRn_w",
+      "summary": "光互连，迎来大变局",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-11-25T07:57:00.093057+00:00",
+      "pub_ts": 1795593420
+    },
+    {
+      "id": "7c808398ed",
+      "title": "专家预警：存储或闪崩！",
+      "url": "https://mp.weixin.qq.com/s/H3ekk1Gb72pnkeBQLqyaLA",
+      "summary": "专家预警：存储或闪崩！",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-11-25T07:57:00.093071+00:00",
+      "pub_ts": 1795593420
+    },
+    {
+      "id": "8fb23742ec",
+      "title": "用AI设计模拟芯片，迈出重要一步",
+      "url": "https://mp.weixin.qq.com/s/pMvBOJrtzenxfZOvHgdBMA",
+      "summary": "用AI设计模拟芯片，迈出重要一步",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-11-25T07:57:00.093082+00:00",
+      "pub_ts": 1795593420
+    },
+    {
+      "id": "ab40d879b4",
+      "title": "为了卖芯片，亚马逊宣布收购",
+      "url": "https://mp.weixin.qq.com/s/AgBG1LDzDQ-UW9ES_vNdXw",
+      "summary": "为了卖芯片，亚马逊宣布收购",
+      "source": "半导体行业观察",
+      "lang": "zh",
+      "pub_date": "2026-11-25T07:57:00.093093+00:00",
+      "pub_ts": 1795593420
     },
     {
       "id": "61d3de5b3a",

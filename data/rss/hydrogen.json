@@ -3,108 +3,108 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-11-24T09:24:51.119416+00:00",
+  "updated_at": "2026-11-25T07:57:44.120541+00:00",
   "item_count": 10,
   "items": [
     {
-      "id": "f604f19bf9",
-      "title": "Takenaka Corporation Proves Seasonal Hydrogen Storage in Apartment Block",
-      "url": "https://fuelcellsworks.com/2026/11/22/electrolyzer/takenaka-corporation-proves-seasonal-hydrogen-storage-in-apartment-block",
+      "id": "2544ad9408",
+      "title": "HTEC One Step Closer to Putting More Hydrogen Trucks on BC Roads Through Fuel Innovation Fund Support",
+      "url": "https://hydrogen-central.com/htec-one-step-closer-to-putting-more-hydrogen-trucks-on-bc-roads-through-fuel-innovation-fund-support/",
+      "summary": "HTEC One Step Closer to Putting More Hydrogen Trucks on BC Roads Through Fuel Innovation Fund Support HTEC is pleased to be one of eight projects selected for funding through Emission Reduction Alberta’s Fuel Innovation Fund, which reinvests federal Clean Fuel Regulations compliance contributions in…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-25T06:55:27+00:00",
+      "pub_ts": 1795589727
+    },
+    {
+      "id": "3c2cf6f00b",
+      "title": "Aragón Seeks to Involve SMEs in the Renewable Hydrogen Industry",
+      "url": "https://hydrogen-central.com/aragon-seeks-to-involve-smes-in-the-renewable-hydrogen-industry/",
+      "summary": "Aragón Seeks to Involve SMEs in the Renewable Hydrogen Industry The development of renewable hydrogen could create new business opportunities for companies in Aragon, particularly in engineering, component manufacturing, and technology services. That was the message from Eva Valle, the Aragon region…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-25T06:53:09+00:00",
+      "pub_ts": 1795589589
+    },
+    {
+      "id": "24b2ff81e6",
+      "title": "TEAL Mobility starts construction of its hydrogen refueling station in Antwerp",
+      "url": "https://hydrogen-central.com/teal-mobility-starts-construction-of-its-hydrogen-refueling-station-in-antwerp/",
+      "summary": "TEAL Mobility starts construction of its hydrogen refueling station in Antwerp Scheduled to open in September 2027, the new station will support the decarbonization of heavy duty transport at the heart of one of Europe’s leading logistics hubs.  TEAL Mobility announces the start of construction of i…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-25T06:52:57+00:00",
+      "pub_ts": 1795589577
+    },
+    {
+      "id": "a92086fc81",
+      "title": "H2APEX Subsidiary HydroExceed: Certification Paves the Way Into the Hydrogen Trailer Market",
+      "url": "https://hydrogen-central.com/h2apex-subsidiary-hydroexceed-certification-paves-the-way-into-the-hydrogen-trailer-market/",
+      "summary": "H2APEX Subsidiary HydroExceed: Certification Paves the Way Into the Hydrogen Trailer Market ROSTOCK and GREVENMACHER, GERMANY &#8211; November 17, 2026 (NEWMEDIAWIRE) &#8211; H2APEX Group SCA (ISIN: LU0472835155), a leading developer and operator of green hydrogen plants for the decarbonization of i…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-25T06:50:52+00:00",
+      "pub_ts": 1795589452
+    },
+    {
+      "id": "5df61c6970",
+      "title": "Técnicas Reunidas will execute three hydrogen-ready combined-cycle gas power plants for RWE in Germany",
+      "url": "https://hydrogen-central.com/tecnicas-reunidas-will-execute-three-hydrogen-ready-combined-cycle-gas-power-plants-for-rwe-in-germany/",
+      "summary": "Técnicas Reunidas will execute three hydrogen-ready combined-cycle gas power plants for RWE in Germany The three plants were awarded to RWE by the German Government on 3rd November. RWE has since taken the Final Investment Decision (FID), and TR has received already the Notice to Proceed of the firs…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-25T06:48:18+00:00",
+      "pub_ts": 1795589298
+    },
+    {
+      "id": "79fd7fc0b9",
+      "title": "Tokyo and Yamanashi Governors Set Out Green Hydrogen Zone Vision at Fuji Hydrogen Summit 2026",
+      "url": "https://fuelcellsworks.com/2026/11/23/h2/tokyo-and-yamanashi-governors-set-out-green-hydrogen-zone-vision-at-fuji-hydrogen-summit-2026",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-23T18:07:51+00:00",
-      "pub_ts": 1795457271
+      "pub_date": "2026-11-24T18:03:49+00:00",
+      "pub_ts": 1795543429
     },
     {
-      "id": "6c1b3b7e1e",
-      "title": "Stegra Moves Closer to Domestic Iron Ore Supply for Swedish Green Hydrogen Steel Project",
-      "url": "https://fuelcellsworks.com/2026/11/23/h2/stegra-moves-closer-to-domestic-iron-ore-supply-for-swedish-green-hydrogen-steel-project",
+      "id": "4279ad4d9a",
+      "title": "Moeve Supplies First Green Hydrogen-Based E-SAF for Spanish Inter-City Flight",
+      "url": "https://fuelcellsworks.com/2026/11/24/h2/moeve-supplies-first-green-hydrogen-based-e-saf-for-spanish-inter-city-flight",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-23T18:00:14+00:00",
-      "pub_ts": 1795456814
+      "pub_date": "2026-11-24T17:49:00+00:00",
+      "pub_ts": 1795542540
     },
     {
-      "id": "c21ea814ba",
-      "title": "Study Finds LOHC Hydrogen Trains Could Match Diesel Operating Costs on Regional Rail Routes",
-      "url": "https://fuelcellsworks.com/2026/11/23/fuel-cells/study-finds-lohc-hydrogen-trains-could-match-diesel-operating-costs-on-regional-rail-routes",
+      "id": "14a2c1fed2",
+      "title": "Cranfield Aerospace Drops Project Fresson Hydrogen Passenger Aircraft, Pivots to Hydrogen Drones",
+      "url": "https://fuelcellsworks.com/2026/11/24/h2/cranfield-aerospace-drops-project-fresson-hydrogen-passenger-aircraft-pivots-to-hydrogen-drones",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-23T17:52:18+00:00",
-      "pub_ts": 1795456338
+      "pub_date": "2026-11-24T17:05:18+00:00",
+      "pub_ts": 1795539918
     },
     {
-      "id": "c2f75ab3ea",
-      "title": "Green Cat Hydrogen’s Creca Hydrogen Facility Secures Planning Permission",
-      "url": "https://fuelcellsworks.com/2026/11/23/electrolyzer/green-cat-hydrogen-s-creca-hydrogen-facility-secures-planning-permission",
+      "id": "75fc93ad0c",
+      "title": "Germany Breaks Ground on 10MW Green Hydrogen Plant With 30-Tonne Underground Storage Capacity",
+      "url": "https://fuelcellsworks.com/2026/11/19/electrolyzer/germany-breaks-ground-on-10mw-green-hydrogen-plant-with-30-tonne-underground-storage-capacity",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-23T17:45:37+00:00",
-      "pub_ts": 1795455937
+      "pub_date": "2026-11-24T16:45:53+00:00",
+      "pub_ts": 1795538753
     },
     {
-      "id": "48d30f1bee",
-      "title": "Fuel Cell and Hydrogen News Highlights From China: Nov. 16-20, 2026",
-      "url": "https://fuelcellsworks.com/2026/11/21/clean-energy/fuel-cell-and-hydrogen-news-highlights-from-china-nov-16-20-2026",
+      "id": "1d72cfecbe",
+      "title": "Windcat Orders Second Damen MP-ASV With Hydrogen-Capable Auxiliary Power System",
+      "url": "https://fuelcellsworks.com/2026/11/24/h2/windcat-orders-second-damen-mp-asv-with-hydrogen-capable-auxiliary-power-system",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-23T17:11:56+00:00",
-      "pub_ts": 1795453916
-    },
-    {
-      "id": "59e2786460",
-      "title": "Plug Power – GenEco™ Electrolyzer Now Operational at Avina’s California Plant, Adding Commercial Hydrogen Capacity in North America",
-      "url": "https://hydrogen-central.com/plug-power-geneco-electrolyzer-now-operational-at-avinas-california-plant-adding-commercial-hydrogen-capacity-in-north-america/",
-      "summary": "Plug Power &#8211; GenEco™ Electrolyzer Now Operational at Avina’s California Plant, Adding Commercial Hydrogen Capacity in North America SLINGERLANDS, N.Y., Nov. 19, 2026 (GLOBE NEWSWIRE) &#8212; Plug Power Inc. (NASDAQ: PLUG), a global leader in comprehensive hydrogen solutions, today announced th…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-21T04:44:37+00:00",
-      "pub_ts": 1795236277
-    },
-    {
-      "id": "fa400fa798",
-      "title": "PowerCell receives SEK 440 million order for utility-scale green hydrogen power generation installation in the US",
-      "url": "https://hydrogen-central.com/powercell-receives-sek-440-million-order-for-utility-scale-green-hydrogen-power-generation-installation-in-the-us/",
-      "summary": "PowerCell receives SEK 440 million order for utility-scale green hydrogen power generation installation in the US PowerCell Group has, through its U.S. subsidiary PowerCell Inc., signed an agreement worth SEK 440 million with an established U.S.-based electric cooperative for a utility-scale fuel ce…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-21T04:44:03+00:00",
-      "pub_ts": 1795236243
-    },
-    {
-      "id": "5f11ee2b68",
-      "title": "HY2GEN SIGNS €139,8 MILLION EUROPEAN HYDROGEN BANK GRANT AGREEMENT FOR ALBATROS",
-      "url": "https://hydrogen-central.com/hy2gen-signs-e1398-million-european-hydrogen-bank-grant-agreement-for-albatros/",
-      "summary": "HY2GEN SIGNS €139,8 MILLION EUROPEAN HYDROGEN BANK GRANT AGREEMENT FOR ALBATROS Kassø, Denmark, 16 November 2026 –&#160; Hy2gen Nordic AS, the Nordic subsidiary of renewable hydrogen producer Hy2gen, has signed the grant agreement under the European Hydrogen Bank for its Albatros project in Kassø, A…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-21T04:43:43+00:00",
-      "pub_ts": 1795236223
-    },
-    {
-      "id": "df5ed615b2",
-      "title": "China’s first hydrogen pipeline exceeding 100 km begins operation, cutting transport costs by 77 pct",
-      "url": "https://hydrogen-central.com/chinas-first-hydrogen-pipeline-exceeding-100-km-begins-operation-cutting-transport-costs-by-77-pct/",
-      "summary": "China&#8217;s first hydrogen pipeline exceeding 100 km begins operation, cutting transport costs by 77 pct HOHHOT, Nov. 19 (Xinhua) &#8212; China&#8217;s first pure hydrogen pipeline longer than 100 kilometers started operation on Thursday in Baotou, north China&#8217;s Inner Mongolia Autonomous Reg…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-21T04:39:29+00:00",
-      "pub_ts": 1795235969
-    },
-    {
-      "id": "d32dc8f419",
-      "title": "Plug Symposium Makes the Case for Hydrogen as a Path to Energy Security and Independence",
-      "url": "https://hydrogen-central.com/plug-symposium-makes-the-case-for-hydrogen-as-a-path-to-energy-security-and-independence/",
-      "summary": "Plug Symposium Makes the Case for Hydrogen as a Path to Energy Security and Independence Energy, policy and finance leaders join Plug customers to show how locally produced hydrogen reduces import dependence and eases grid strain around the world SLINGERLANDS, N.Y., Nov. 19, 2026 (GLOBE NEWSWIRE) &#…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-21T04:39:21+00:00",
-      "pub_ts": 1795235961
+      "pub_date": "2026-11-24T16:30:23+00:00",
+      "pub_ts": 1795537823
     }
   ],
   "source_success_count": 2,

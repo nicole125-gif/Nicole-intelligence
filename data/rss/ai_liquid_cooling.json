@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-11-24T09:24:40.311070+00:00",
+  "updated_at": "2026-11-25T07:57:32.276052+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "71ab808738",
-      "title": "智谱刚刚发了GLM-5.4，全新架构的那种！网友直呼：超过预期",
-      "url": "https://mp.weixin.qq.com/s/ln8fIodXFxbow3kanPhcxA",
-      "summary": "智谱刚刚发了GLM-5.4，全新架构的那种！网友直呼：超过预期",
+      "id": "ccad72fb55",
+      "title": "我以为这是摄影作品，你告诉我这是最新的国产AI？！",
+      "url": "https://mp.weixin.qq.com/s/7G6iYC43W6CHfd6AfilcaA",
+      "summary": "我以为这是摄影作品，你告诉我这是最新的国产AI？！",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-24T09:24:35.702309+00:00",
-      "pub_ts": 1795512275
+      "pub_date": "2026-11-25T07:57:26.600121+00:00",
+      "pub_ts": 1795593446
     },
     {
-      "id": "4c480b4974",
-      "title": "马斯克黑科技刷屏！特斯拉FSDV15把《GTA》搬上车了",
-      "url": "https://mp.weixin.qq.com/s/ixZh0c_VXb6vt-yLyLFCJA",
-      "summary": "马斯克黑科技刷屏！特斯拉FSDV15把《GTA》搬上车了",
+      "id": "ef782d35be",
+      "title": "A社OpenAI同步证明：VP≠VNP",
+      "url": "https://mp.weixin.qq.com/s/H_HBDozgnM7UGbLvNta9Lg",
+      "summary": "A社OpenAI同步证明：VP≠VNP",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-24T09:24:35.702379+00:00",
-      "pub_ts": 1795512275
+      "pub_date": "2026-11-25T07:57:26.600161+00:00",
+      "pub_ts": 1795593446
     },
     {
-      "id": "05027f44cd",
-      "title": "实测：1450亿参数塞进笔记本，每秒狂飙8O+Token！国产端侧大模型...",
-      "url": "https://mp.weixin.qq.com/s/9siMEVk-4cd2mCFnT1YtBQ",
-      "summary": "实测：1450亿参数塞进笔记本，每秒狂飙8O+Token！国产端侧大模型...",
+      "id": "463ff030ef",
+      "title": "华为发布史上最薄折叠屏，薄过iPhone Duo，12999元起",
+      "url": "https://mp.weixin.qq.com/s/Cu3lLAny6cAseN_tosbRhA",
+      "summary": "华为发布史上最薄折叠屏，薄过iPhone Duo，12999元起",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-24T09:24:35.702407+00:00",
-      "pub_ts": 1795512275
+      "pub_date": "2026-11-25T07:57:26.600173+00:00",
+      "pub_ts": 1795593446
     },
     {
-      "id": "42e2b429a5",
-      "title": "报名从速Ⅰ来MEET2027！听AI前沿实践者交出“判断”",
-      "url": "https://mp.weixin.qq.com/s/YL-4nxqzw8Xhef-RxjZcGw",
-      "summary": "报名从速Ⅰ来MEET2027！听AI前沿实践者交出“判断”",
+      "id": "b5ad9645e7",
+      "title": "业界首提“端侧超节点”，让端侧AI组队计算：AI效率暴涨270%，不用...",
+      "url": "https://mp.weixin.qq.com/s/30LYZjMxET7l5JO7gKsVWw",
+      "summary": "业界首提“端侧超节点”，让端侧AI组队计算：AI效率暴涨270%，不用...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-24T09:24:35.702430+00:00",
-      "pub_ts": 1795512275
+      "pub_date": "2026-11-25T07:57:26.600185+00:00",
+      "pub_ts": 1795593446
     },
     {
-      "id": "de796577ed",
-      "title": "约束满足率超Codex14.4个点！清华新框架让Agent长程设计守住约束",
-      "url": "https://mp.weixin.qq.com/s/LVHZkZQSq8dYp41_w5n7fQ",
-      "summary": "约束满足率超Codex14.4个点！清华新框架让Agent长程设计守住约束",
+      "id": "08490831a6",
+      "title": "黎曼猜想证明两天砍掉240万行！全球接力压缩，马斯克在线围观",
+      "url": "https://mp.weixin.qq.com/s/iOTcD2MBzSNyg6_q2EkrIQ",
+      "summary": "黎曼猜想证明两天砍掉240万行！全球接力压缩，马斯克在线围观",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-24T09:24:35.702453+00:00",
-      "pub_ts": 1795512275
+      "pub_date": "2026-11-25T07:57:26.600196+00:00",
+      "pub_ts": 1795593446
     }
   ],
   "source_success_count": 1,
