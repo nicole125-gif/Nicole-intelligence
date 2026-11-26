@@ -3,9 +3,39 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-11-25T07:57:56.608478+00:00",
+  "updated_at": "2026-11-26T07:49:19.754984+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "2b8a91b1c6",
+      "title": "AI could help with early diagnosis of breast cancer",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ai-early-diagnosis-breast-cancer/",
+      "summary": "The UK NHS has launched the EDITH trial with 700,000 women, making it the world's largest trial of AI in breast cancer screening.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-11-25T17:06:44+00:00",
+      "pub_ts": 1795626404
+    },
+    {
+      "id": "bd6e94d99c",
+      "title": "Cogent Biosciences gains FDA approval for Ekitna combo in GIST",
+      "url": "https://www.pharmaceutical-technology.com/news/cogent-biosciences-fda-ekitna-combo-gist/",
+      "summary": "The US FDA has approved Cogent Biosciences’ Ekitna in combination with sunitinib for adult patients with advanced GIST who previously received imatinib.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-11-25T10:25:54+00:00",
+      "pub_ts": 1795602354
+    },
+    {
+      "id": "34383528b5",
+      "title": "MAXONA’s MAX-001 secures FDA fast track status for non-opioid pain drug",
+      "url": "https://www.pharmaceutical-technology.com/news/maxonas-max-001-fda-ftd-acute-pain/",
+      "summary": "The US FDA has granted fast track designation (FTD) for MAXONA Pharmaceuticals’ oral therapy, MAX-001, aimed at treating acute pain.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-11-25T09:12:35+00:00",
+      "pub_ts": 1795597955
+    },
     {
       "id": "f35e0a1c09",
       "title": "From detecting contamination to predicting risk",
@@ -25,36 +55,6 @@
       "lang": "en",
       "pub_date": "2026-11-24T12:02:17+00:00",
       "pub_ts": 1795521737
-    },
-    {
-      "id": "f5a62dafcb",
-      "title": "Sanofi buys US drugmaker Insmed for $41bn to expand respiratory portfolio",
-      "url": "https://www.pharmaceutical-technology.com/news/sanofi-buys-us-drugmaker-insmed-for-41bn-to-expand-respiratory-portfolio/",
-      "summary": "The deal marks the largest pharma acquisition since 2023, and the most Sanofi has outlaid in a deal since 2004.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-11-24T11:39:18+00:00",
-      "pub_ts": 1795520358
-    },
-    {
-      "id": "4ab7d3b23b",
-      "title": "Platforms vs assets: More innovation bolsters pharma pipelines",
-      "url": "https://www.pharmaceutical-technology.com/news/platforms-vs-assets-more-innovation-bolsters-pharma-pipelines/",
-      "summary": "At the London Biotechnology Show, experts highlighted how pharma has changed its deal-making strategy as it undergoes a patent cliff.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-11-24T11:18:29+00:00",
-      "pub_ts": 1795519109
-    },
-    {
-      "id": "a38f2f1259",
-      "title": "FDA approves AbbVie’s Rinvoq for nonsegmental vitiligo",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-abbvies-rinvoq-nonsegmental-vitiligo/",
-      "summary": "The US FDA has approved AbbVie's Rinvoq (upadacitinib) for adults and paediatric patients aged 12 years and older with nonsegmental vitiligo.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-11-24T10:59:13+00:00",
-      "pub_ts": 1795517953
     }
   ],
   "source_success_count": 1,

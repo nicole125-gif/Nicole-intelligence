@@ -3,9 +3,59 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-11-25T07:57:44.120541+00:00",
+  "updated_at": "2026-11-26T07:49:07.338453+00:00",
   "item_count": 10,
   "items": [
+    {
+      "id": "2052a15842",
+      "title": "Yanmar Unveils New Multi-Fuel Marine Engine Lineup Including Hydrogen-Fired Model",
+      "url": "https://fuelcellsworks.com/2026/11/19/h2/yanmar-unveils-new-multi-fuel-marine-engine-lineup-including-hydrogen-fired-model",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-25T17:16:25+00:00",
+      "pub_ts": 1795626985
+    },
+    {
+      "id": "cd9f73faa0",
+      "title": "Técnicas Reunidas Awarded the Engineering Contract for a Sustainable Synthetic Aviation Fuel Plant in Sweden",
+      "url": "https://fuelcellsworks.com/2026/11/10/h2/tecnicas-reunidas-wins-feed-for-alby-ptx-e-saf-plant-in-sweden",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-25T16:40:44+00:00",
+      "pub_ts": 1795624844
+    },
+    {
+      "id": "8c83a1ca76",
+      "title": "Dutch Hydrogen Prices Fall 42% as Fountain Fuel Challenges Diesel on Transport Costs",
+      "url": "https://fuelcellsworks.com/2026/11/23/electrolyzer/dutch-hydrogen-prices-fall-42-percent-as-fountain-fuel-challenges-diesel-on-transport-costs",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-25T16:30:53+00:00",
+      "pub_ts": 1795624253
+    },
+    {
+      "id": "be269e9dda",
+      "title": "Next Hydrogen and H2 Manufacturing Announce Strategic Collaboration to Deliver Integrated Hydrogen Production Solutions Across North America",
+      "url": "https://fuelcellsworks.com/2026/11/25/electrolyzer/next-hydrogen-and-h2-manufacturing-announce-strategic-collaboration-to-deliver-integrated-hydrogen-production-solutions-across-north-america",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-25T16:24:03+00:00",
+      "pub_ts": 1795623843
+    },
+    {
+      "id": "8a4bb6e7f7",
+      "title": "Ajou University Team Cracks Catalyst Degradation Problem in Methane Pyrolysis Hydrogen Production",
+      "url": "https://fuelcellsworks.com/2026/11/23/h2/ajou-university-team-cracks-catalyst-degradation-problem-in-methane-pyrolysis-hydrogen-production",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-25T16:04:32+00:00",
+      "pub_ts": 1795622672
+    },
     {
       "id": "2544ad9408",
       "title": "HTEC One Step Closer to Putting More Hydrogen Trucks on BC Roads Through Fuel Innovation Fund Support",
@@ -55,56 +105,6 @@
       "lang": "en",
       "pub_date": "2026-11-25T06:48:18+00:00",
       "pub_ts": 1795589298
-    },
-    {
-      "id": "79fd7fc0b9",
-      "title": "Tokyo and Yamanashi Governors Set Out Green Hydrogen Zone Vision at Fuji Hydrogen Summit 2026",
-      "url": "https://fuelcellsworks.com/2026/11/23/h2/tokyo-and-yamanashi-governors-set-out-green-hydrogen-zone-vision-at-fuji-hydrogen-summit-2026",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-24T18:03:49+00:00",
-      "pub_ts": 1795543429
-    },
-    {
-      "id": "4279ad4d9a",
-      "title": "Moeve Supplies First Green Hydrogen-Based E-SAF for Spanish Inter-City Flight",
-      "url": "https://fuelcellsworks.com/2026/11/24/h2/moeve-supplies-first-green-hydrogen-based-e-saf-for-spanish-inter-city-flight",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-24T17:49:00+00:00",
-      "pub_ts": 1795542540
-    },
-    {
-      "id": "14a2c1fed2",
-      "title": "Cranfield Aerospace Drops Project Fresson Hydrogen Passenger Aircraft, Pivots to Hydrogen Drones",
-      "url": "https://fuelcellsworks.com/2026/11/24/h2/cranfield-aerospace-drops-project-fresson-hydrogen-passenger-aircraft-pivots-to-hydrogen-drones",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-24T17:05:18+00:00",
-      "pub_ts": 1795539918
-    },
-    {
-      "id": "75fc93ad0c",
-      "title": "Germany Breaks Ground on 10MW Green Hydrogen Plant With 30-Tonne Underground Storage Capacity",
-      "url": "https://fuelcellsworks.com/2026/11/19/electrolyzer/germany-breaks-ground-on-10mw-green-hydrogen-plant-with-30-tonne-underground-storage-capacity",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-24T16:45:53+00:00",
-      "pub_ts": 1795538753
-    },
-    {
-      "id": "1d72cfecbe",
-      "title": "Windcat Orders Second Damen MP-ASV With Hydrogen-Capable Auxiliary Power System",
-      "url": "https://fuelcellsworks.com/2026/11/24/h2/windcat-orders-second-damen-mp-asv-with-hydrogen-capable-auxiliary-power-system",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-24T16:30:23+00:00",
-      "pub_ts": 1795537823
     }
   ],
   "source_success_count": 2,

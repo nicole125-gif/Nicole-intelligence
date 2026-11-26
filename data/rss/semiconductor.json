@@ -3,108 +3,128 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-11-25T07:57:17.155560+00:00",
+  "updated_at": "2026-11-26T07:48:38.232692+00:00",
   "item_count": 15,
   "items": [
     {
-      "id": "3ddbdd5176",
-      "title": "西门子EDA凌琳：AI原生EDA不是外挂功能，是EDA平台底层范式的升级",
-      "url": "https://mp.weixin.qq.com/s/lV4mY-_99hbZ4LP6EDuLBA",
-      "summary": "西门子EDA凌琳：AI原生EDA不是外挂功能，是EDA平台底层范式的升级",
+      "id": "0909207522",
+      "title": "交期最长20周，高端PCB正在卡住AI扩产",
+      "url": "https://mp.weixin.qq.com/s/cwLLcE52VG_Hstd_XaO1ig",
+      "summary": "交期最长20周，高端PCB正在卡住AI扩产",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-25T07:57:12.956408+00:00",
-      "pub_ts": 1795593432
+      "pub_date": "2026-11-26T07:48:34.066833+00:00",
+      "pub_ts": 1795679314
     },
     {
-      "id": "6cffa222c2",
-      "title": "TOP500新增28套超算：国产CPU、GPU各一家上榜",
-      "url": "https://mp.weixin.qq.com/s/ZI1d7ywL4l8OZINPoEtgDg",
-      "summary": "TOP500新增28套超算：国产CPU、GPU各一家上榜",
+      "id": "6e70e824d5",
+      "title": "ISSCC2027前瞻：华为、长鑫放大招，定制HBM、LPDDR6浮出水面",
+      "url": "https://mp.weixin.qq.com/s/pF8EJBWepq1cRE-thsW1sw",
+      "summary": "ISSCC2027前瞻：华为、长鑫放大招，定制HBM、LPDDR6浮出水面",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-25T07:57:12.956450+00:00",
-      "pub_ts": 1795593432
+      "pub_date": "2026-11-26T07:48:34.066877+00:00",
+      "pub_ts": 1795679314
     },
     {
-      "id": "03c32d9a2d",
-      "title": "华为MateX8登场，全系标配麒麟9050Pro逻辑折叠τ芯片",
-      "url": "https://mp.weixin.qq.com/s/xSKT-nI4aEPEI4fYFMZ5rw",
-      "summary": "华为MateX8登场，全系标配麒麟9050Pro逻辑折叠τ芯片",
+      "id": "12687b1f66",
+      "title": "老黄回归，存储下跌，半导体的繁荣周期还有多久？",
+      "url": "https://mp.weixin.qq.com/s/L3cQ9Y-2LOCR389nZKpihg",
+      "summary": "老黄回归，存储下跌，半导体的繁荣周期还有多久？",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-25T07:57:12.956466+00:00",
-      "pub_ts": 1795593432
+      "pub_date": "2026-11-26T07:48:34.066904+00:00",
+      "pub_ts": 1795679314
     },
     {
-      "id": "cb7aea9366",
-      "title": "时隔24年，佳能再推ArF干式半导体光刻机新产品",
-      "url": "https://mp.weixin.qq.com/s/7JpnXqx6uYxda22gdbivaA",
-      "summary": "时隔24年，佳能再推ArF干式半导体光刻机新产品",
+      "id": "3e5308b1f9",
+      "title": "年产30万台服务器，联想加码超节点布局",
+      "url": "https://mp.weixin.qq.com/s/IOvqsf-3PnHEnz3OglS1yw",
+      "summary": "年产30万台服务器，联想加码超节点布局",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-25T07:57:12.956479+00:00",
-      "pub_ts": 1795593432
+      "pub_date": "2026-11-26T07:48:34.066927+00:00",
+      "pub_ts": 1795679314
     },
     {
-      "id": "2569fe1824",
-      "title": "模拟IC涨价压力，延续至2027年",
-      "url": "https://mp.weixin.qq.com/s/UgUxNalz1rzPJBQtfVJ-kA",
-      "summary": "模拟IC涨价压力，延续至2027年",
+      "id": "62698cf069",
+      "title": "226亿美元，台积电又要盖2nm晶圆厂",
+      "url": "https://mp.weixin.qq.com/s/JT9LVFvOUPBWmlqBn0-qYQ",
+      "summary": "226亿美元，台积电又要盖2nm晶圆厂",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-25T07:57:12.956490+00:00",
-      "pub_ts": 1795593432
+      "pub_date": "2026-11-26T07:48:34.066947+00:00",
+      "pub_ts": 1795679314
     },
     {
-      "id": "4d5fd6d2f5",
-      "title": "台积电，再砸1500亿！建2nm工厂?",
-      "url": "https://mp.weixin.qq.com/s/BEbPnAUo3d5Ne9jhYPRcTw",
-      "summary": "台积电，再砸1500亿！建2nm工厂?",
+      "id": "434292dc19",
+      "title": "不止于芯片国产化：东方算芯打通算力全链路自主可控",
+      "url": "https://mp.weixin.qq.com/s/RKBBDuJmxqPEMwDu4GWjug",
+      "summary": "不止于芯片国产化：东方算芯打通算力全链路自主可控",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-25T07:57:00.093007+00:00",
-      "pub_ts": 1795593420
+      "pub_date": "2026-11-26T07:48:26.876034+00:00",
+      "pub_ts": 1795679306
     },
     {
-      "id": "56d21ad052",
-      "title": "光互连，迎来大变局",
-      "url": "https://mp.weixin.qq.com/s/A5SVAFq3tF1xKy9VJcRn_w",
-      "summary": "光互连，迎来大变局",
+      "id": "301d1a8c76",
+      "title": "行芯科技：展示韬EDA，亮相华为论坛！",
+      "url": "https://mp.weixin.qq.com/s/EhfiGz6WYeHwPqxyeRD1Sg",
+      "summary": "行芯科技：展示韬EDA，亮相华为论坛！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-25T07:57:00.093057+00:00",
-      "pub_ts": 1795593420
+      "pub_date": "2026-11-26T07:48:26.876084+00:00",
+      "pub_ts": 1795679306
     },
     {
-      "id": "7c808398ed",
-      "title": "专家预警：存储或闪崩！",
-      "url": "https://mp.weixin.qq.com/s/H3ekk1Gb72pnkeBQLqyaLA",
-      "summary": "专家预警：存储或闪崩！",
+      "id": "6be520e913",
+      "title": "将晶圆厂，塞进卡车里?",
+      "url": "https://mp.weixin.qq.com/s/JNyXWcc3jneFtSXLYzx1PA",
+      "summary": "将晶圆厂，塞进卡车里?",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-25T07:57:00.093071+00:00",
-      "pub_ts": 1795593420
+      "pub_date": "2026-11-26T07:48:26.876109+00:00",
+      "pub_ts": 1795679306
     },
     {
-      "id": "8fb23742ec",
-      "title": "用AI设计模拟芯片，迈出重要一步",
-      "url": "https://mp.weixin.qq.com/s/pMvBOJrtzenxfZOvHgdBMA",
-      "summary": "用AI设计模拟芯片，迈出重要一步",
+      "id": "405af6dd99",
+      "title": "AI能看懂代码，未必能看懂版图",
+      "url": "https://mp.weixin.qq.com/s/8QJBk6CSuTsF4bHrDNsjqQ",
+      "summary": "AI能看懂代码，未必能看懂版图",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-25T07:57:00.093082+00:00",
-      "pub_ts": 1795593420
+      "pub_date": "2026-11-26T07:48:26.876132+00:00",
+      "pub_ts": 1795679306
     },
     {
-      "id": "ab40d879b4",
-      "title": "为了卖芯片，亚马逊宣布收购",
-      "url": "https://mp.weixin.qq.com/s/AgBG1LDzDQ-UW9ES_vNdXw",
-      "summary": "为了卖芯片，亚马逊宣布收购",
+      "id": "c1695a1206",
+      "title": "时隔24年，佳能再发ArF光刻机",
+      "url": "https://mp.weixin.qq.com/s/WDUWE-3mXWfs-g2QcfqM5g",
+      "summary": "时隔24年，佳能再发ArF光刻机",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-25T07:57:00.093093+00:00",
-      "pub_ts": 1795593420
+      "pub_date": "2026-11-26T07:48:26.876153+00:00",
+      "pub_ts": 1795679306
+    },
+    {
+      "id": "5dd82e9d6e",
+      "title": "Blog Review: Nov. 25",
+      "url": "https://semiengineering.com/blog-review-nov-25-3/",
+      "summary": "PCIe SVC; co-packaged optics; liquid-cooled data center model; LUT-GEMM; automotive traceability.\nThe post Blog Review: Nov. 25 appeared first on Semiconductor Engineering.",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-11-25T08:01:39+00:00",
+      "pub_ts": 1795593699
+    },
+    {
+      "id": "1baf772e5d",
+      "title": "Chip Industry Technical Paper Roundup: Nov. 25",
+      "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-nov-25-2/",
+      "summary": "Hybrid-bonded 3D NAND analog IMC; defect-aware chiplet matching for HI yield; HBF latency reduction for GPU systems; backside clock meshes for BSPDN; LLM-agent verification for post-quantum HW; self-supervised CMP virtual metrology; e-beam stitching losses in SOI waveguides.\nThe post Chip Industry T…",
+      "source": "Semiconductor Engineering",
+      "lang": "en",
+      "pub_date": "2026-11-25T08:01:01+00:00",
+      "pub_ts": 1795593661
     },
     {
       "id": "61d3de5b3a",
@@ -135,26 +155,6 @@
       "lang": "en",
       "pub_date": "2026-11-24T08:11:31+00:00",
       "pub_ts": 1795507891
-    },
-    {
-      "id": "a575acd3fa",
-      "title": "Hope Is Not A Strategy: What First-Silicon Success Really Takes",
-      "url": "https://semiengineering.com/hope-is-not-a-strategy-what-first-silicon-success-really-takes/",
-      "summary": "Most re-spins are caused by logic and functional flaws, not hard-to-predict physical effects.\nThe post Hope Is Not A Strategy: What First-Silicon Success Really Takes appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-11-24T08:08:01+00:00",
-      "pub_ts": 1795507681
-    },
-    {
-      "id": "26c1bf4d9b",
-      "title": "Why Photonic Design Is Becoming a System-Level Challenge",
-      "url": "https://semiengineering.com/why-photonic-design-is-becoming-a-system-level-challenge/",
-      "summary": "A component can meet its individual design targets and still behave differently as part of a complete optical link. \nThe post Why Photonic Design Is Becoming a System-Level Challenge appeared first on Semiconductor Engineering.",
-      "source": "Semiconductor Engineering",
-      "lang": "en",
-      "pub_date": "2026-11-24T08:07:22+00:00",
-      "pub_ts": 1795507642
     }
   ],
   "source_success_count": 3,
