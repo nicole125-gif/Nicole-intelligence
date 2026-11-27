@@ -3,108 +3,108 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-11-26T07:49:07.338453+00:00",
+  "updated_at": "2026-11-27T07:48:39.515623+00:00",
   "item_count": 10,
   "items": [
     {
-      "id": "2052a15842",
-      "title": "Yanmar Unveils New Multi-Fuel Marine Engine Lineup Including Hydrogen-Fired Model",
-      "url": "https://fuelcellsworks.com/2026/11/19/h2/yanmar-unveils-new-multi-fuel-marine-engine-lineup-including-hydrogen-fired-model",
+      "id": "387eb67546",
+      "title": "Fraunhofer confirms performance of Stiesdal electrolyser",
+      "url": "https://hydrogen-central.com/fraunhofer-confirms-performance-of-stiesdal-electrolyser/",
+      "summary": "Fraunhofer confirms performance of Stiesdal electrolyser 24 November 2026 – Independent third-party validation by the Fraunhofer IWES has verified the performance figures of Stiesdal’s 3.1 MW alkaline electrolyser.&#160; Electricity is the highest operating cost in hydrogen production. For plants ru…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-27T04:28:36+00:00",
+      "pub_ts": 1795753716
+    },
+    {
+      "id": "b577b239be",
+      "title": "Hydrogen storage innovation enters deployment phase – full report",
+      "url": "https://hydrogen-central.com/hydrogen-storage-innovation-enters-deployment-phase-full-report/",
+      "summary": "Hydrogen storage innovation enters deployment phase – full report The latest figures for innovation in hydrogen storage, a key enabler for green hydrogen, reveal a continued slowing – though they remain about double the 2018 level – according to the latest patent data* reported by Appleyard Lees. Pa…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-27T04:28:33+00:00",
+      "pub_ts": 1795753713
+    },
+    {
+      "id": "0d7b6fbf25",
+      "title": "Envision Energy and IATA Launch Strategic Collaboration on eSAF",
+      "url": "https://hydrogen-central.com/envision-energy-and-iata-launch-strategic-collaboration-on-esaf/",
+      "summary": "Envision Energy and IATA Launch Strategic Collaboration on eSAF GUANGZHOU, China, Nov. 24, 2026 /PRNewswire/ &#8212; Envision, a global leader in green technology, and the International Air Transport Association (IATA) signed a memorandum of understanding (MoU) at the IATA Aviation Energy Forum in G…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-27T04:21:39+00:00",
+      "pub_ts": 1795753299
+    },
+    {
+      "id": "ec270fe5d1",
+      "title": "ULEMCo Powers First Hydrogen-Converted Fendt Tractor",
+      "url": "https://hydrogen-central.com/ulemco-powers-first-hydrogen-converted-fendt-tractor/",
+      "summary": "ULEMCo Powers First Hydrogen-Converted Fendt Tractor ULEMCo has completed the conversion of a Fendt agricultural tractor to operate on hydrogen dual-fuel, marking the first time such technology has been applied to a Fendt tractor, and a significant milestone in the company’s expansion into European …",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-27T04:21:27+00:00",
+      "pub_ts": 1795753287
+    },
+    {
+      "id": "cf79534a39",
+      "title": "Envision Energy Partners with Greensteel Australia on 400 MW Green Hydrogen System for Low-Carbon Steelmaking",
+      "url": "https://hydrogen-central.com/envision-energy-partners-with-greensteel-australia-on-400-mw-green-hydrogen-system-for-low-carbon-steelmaking/",
+      "summary": "Envision Energy Partners with Greensteel Australia on 400 MW Green Hydrogen System for Low-Carbon Steelmaking SYDNEY, Nov. 25, 2026 /PRNewswire/ &#8212; Envision Energy, a global leader in green technology, today announced a strategic partnership with Greensteel Australia, the Australian-owned compa…",
+      "source": "Hydrogen Central",
+      "lang": "en",
+      "pub_date": "2026-11-27T04:17:32+00:00",
+      "pub_ts": 1795753052
+    },
+    {
+      "id": "15f9f46f66",
+      "title": "Fincantieri Delivers Viking Libra Cruise Ship With Liquefied Hydrogen and Fuel-Cell Propulsion",
+      "url": "https://fuelcellsworks.com/2026/11/26/electrolyzer/fincantieri-delivers-viking-libra-cruise-ship-with-liquefied-hydrogen-and-fuel-cell-propulsion",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-25T17:16:25+00:00",
-      "pub_ts": 1795626985
+      "pub_date": "2026-11-26T16:24:14+00:00",
+      "pub_ts": 1795710254
     },
     {
-      "id": "cd9f73faa0",
-      "title": "Técnicas Reunidas Awarded the Engineering Contract for a Sustainable Synthetic Aviation Fuel Plant in Sweden",
-      "url": "https://fuelcellsworks.com/2026/11/10/h2/tecnicas-reunidas-wins-feed-for-alby-ptx-e-saf-plant-in-sweden",
+      "id": "52ff1a388b",
+      "title": "Upper Austria and Bavaria Target Cross-Border Hydrogen Supply and Storage Network",
+      "url": "https://fuelcellsworks.com/2026/11/25/h2/upper-austria-and-bavaria-strengthen-hydrogen-cooperation-to-develop-cross-border-supply-and-storage-network",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-25T16:40:44+00:00",
-      "pub_ts": 1795624844
+      "pub_date": "2026-11-26T16:21:19+00:00",
+      "pub_ts": 1795710079
     },
     {
-      "id": "8c83a1ca76",
-      "title": "Dutch Hydrogen Prices Fall 42% as Fountain Fuel Challenges Diesel on Transport Costs",
-      "url": "https://fuelcellsworks.com/2026/11/23/electrolyzer/dutch-hydrogen-prices-fall-42-percent-as-fountain-fuel-challenges-diesel-on-transport-costs",
+      "id": "37cca110dd",
+      "title": "Charbone Reports C$1.2m [$840,000] in Nine-Month Gas Income as Q3 Margin Jumps to 26%",
+      "url": "https://fuelcellsworks.com/2026/11/26/h2/charbone-reports-c-1-2m-840-000-in-nine-month-gas-income-as-q3-margin-jumps-to-26-percent",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-25T16:30:53+00:00",
-      "pub_ts": 1795624253
+      "pub_date": "2026-11-26T15:53:42+00:00",
+      "pub_ts": 1795708422
     },
     {
-      "id": "be269e9dda",
-      "title": "Next Hydrogen and H2 Manufacturing Announce Strategic Collaboration to Deliver Integrated Hydrogen Production Solutions Across North America",
-      "url": "https://fuelcellsworks.com/2026/11/25/electrolyzer/next-hydrogen-and-h2-manufacturing-announce-strategic-collaboration-to-deliver-integrated-hydrogen-production-solutions-across-north-america",
+      "id": "a787efa391",
+      "title": "Danish Hydrogen Companies Slam Government's 2030 Fuel Quota as Too Weak to Support Green Hydrogen Industry",
+      "url": "https://fuelcellsworks.com/2026/11/26/h2/danish-hydrogen-companies-slam-government-s-2030-fuel-quota-as-too-weak-to-support-green-hydrogen-industry",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-25T16:24:03+00:00",
-      "pub_ts": 1795623843
+      "pub_date": "2026-11-26T15:46:27+00:00",
+      "pub_ts": 1795707987
     },
     {
-      "id": "8a4bb6e7f7",
-      "title": "Ajou University Team Cracks Catalyst Degradation Problem in Methane Pyrolysis Hydrogen Production",
-      "url": "https://fuelcellsworks.com/2026/11/23/h2/ajou-university-team-cracks-catalyst-degradation-problem-in-methane-pyrolysis-hydrogen-production",
+      "id": "de5a44ba9a",
+      "title": "Fraunhofer Develops Lightweight Hybrid Bipolar Plates for Fuel Cells",
+      "url": "https://fuelcellsworks.com/2026/11/22/fuel-cells/fraunhofer-develops-lightweight-hybrid-bipolar-plates-for-fuel-cells",
       "summary": "",
       "source": "Fuel Cells Works",
       "lang": "en",
-      "pub_date": "2026-11-25T16:04:32+00:00",
-      "pub_ts": 1795622672
-    },
-    {
-      "id": "2544ad9408",
-      "title": "HTEC One Step Closer to Putting More Hydrogen Trucks on BC Roads Through Fuel Innovation Fund Support",
-      "url": "https://hydrogen-central.com/htec-one-step-closer-to-putting-more-hydrogen-trucks-on-bc-roads-through-fuel-innovation-fund-support/",
-      "summary": "HTEC One Step Closer to Putting More Hydrogen Trucks on BC Roads Through Fuel Innovation Fund Support HTEC is pleased to be one of eight projects selected for funding through Emission Reduction Alberta’s Fuel Innovation Fund, which reinvests federal Clean Fuel Regulations compliance contributions in…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-25T06:55:27+00:00",
-      "pub_ts": 1795589727
-    },
-    {
-      "id": "3c2cf6f00b",
-      "title": "Aragón Seeks to Involve SMEs in the Renewable Hydrogen Industry",
-      "url": "https://hydrogen-central.com/aragon-seeks-to-involve-smes-in-the-renewable-hydrogen-industry/",
-      "summary": "Aragón Seeks to Involve SMEs in the Renewable Hydrogen Industry The development of renewable hydrogen could create new business opportunities for companies in Aragon, particularly in engineering, component manufacturing, and technology services. That was the message from Eva Valle, the Aragon region…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-25T06:53:09+00:00",
-      "pub_ts": 1795589589
-    },
-    {
-      "id": "24b2ff81e6",
-      "title": "TEAL Mobility starts construction of its hydrogen refueling station in Antwerp",
-      "url": "https://hydrogen-central.com/teal-mobility-starts-construction-of-its-hydrogen-refueling-station-in-antwerp/",
-      "summary": "TEAL Mobility starts construction of its hydrogen refueling station in Antwerp Scheduled to open in September 2027, the new station will support the decarbonization of heavy duty transport at the heart of one of Europe’s leading logistics hubs.  TEAL Mobility announces the start of construction of i…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-25T06:52:57+00:00",
-      "pub_ts": 1795589577
-    },
-    {
-      "id": "a92086fc81",
-      "title": "H2APEX Subsidiary HydroExceed: Certification Paves the Way Into the Hydrogen Trailer Market",
-      "url": "https://hydrogen-central.com/h2apex-subsidiary-hydroexceed-certification-paves-the-way-into-the-hydrogen-trailer-market/",
-      "summary": "H2APEX Subsidiary HydroExceed: Certification Paves the Way Into the Hydrogen Trailer Market ROSTOCK and GREVENMACHER, GERMANY &#8211; November 17, 2026 (NEWMEDIAWIRE) &#8211; H2APEX Group SCA (ISIN: LU0472835155), a leading developer and operator of green hydrogen plants for the decarbonization of i…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-25T06:50:52+00:00",
-      "pub_ts": 1795589452
-    },
-    {
-      "id": "5df61c6970",
-      "title": "Técnicas Reunidas will execute three hydrogen-ready combined-cycle gas power plants for RWE in Germany",
-      "url": "https://hydrogen-central.com/tecnicas-reunidas-will-execute-three-hydrogen-ready-combined-cycle-gas-power-plants-for-rwe-in-germany/",
-      "summary": "Técnicas Reunidas will execute three hydrogen-ready combined-cycle gas power plants for RWE in Germany The three plants were awarded to RWE by the German Government on 3rd November. RWE has since taken the Final Investment Decision (FID), and TR has received already the Notice to Proceed of the firs…",
-      "source": "Hydrogen Central",
-      "lang": "en",
-      "pub_date": "2026-11-25T06:48:18+00:00",
-      "pub_ts": 1795589298
+      "pub_date": "2026-11-26T15:33:07+00:00",
+      "pub_ts": 1795707187
     }
   ],
   "source_success_count": 2,

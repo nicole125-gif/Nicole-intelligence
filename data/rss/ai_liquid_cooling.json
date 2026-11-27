@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-11-26T07:48:52.353518+00:00",
+  "updated_at": "2026-11-27T07:48:23.776737+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "fa4a4ec01b",
-      "title": "丢个故事就行！直出15分钟AI短片，家里二舅也能上手",
-      "url": "https://mp.weixin.qq.com/s/fewt-OXQLhesHHOuprEjcw",
-      "summary": "丢个故事就行！直出15分钟AI短片，家里二舅也能上手",
+      "id": "0325acf846",
+      "title": "活动报名Ⅰ一场大会看懂明年AI风向：量子位「MEET2027智能未来大会...",
+      "url": "https://mp.weixin.qq.com/s/wu-LNhQxCNIJLIJ_IAYrIw",
+      "summary": "活动报名Ⅰ一场大会看懂明年AI风向：量子位「MEET2027智能未来大会...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-26T07:48:48.068422+00:00",
-      "pub_ts": 1795679328
+      "pub_date": "2026-11-27T07:48:19.155676+00:00",
+      "pub_ts": 1795765699
     },
     {
-      "id": "7d73abbcbf",
-      "title": "OpenAl证明矩阵乘法速度极限！复杂度指数下界=9/4，57年数学竞赛...",
-      "url": "https://mp.weixin.qq.com/s/sdDSaVvNoTdCHhPw2lweRw",
-      "summary": "OpenAl证明矩阵乘法速度极限！复杂度指数下界=9/4，57年数学竞赛...",
+      "id": "1920a2941c",
+      "title": "AI3D界的“X光”来了！一图直出巴洛克雕塑，3D打印开箱即用",
+      "url": "https://mp.weixin.qq.com/s/UslS5EMnFIDmyCQ4EzGy-A",
+      "summary": "AI3D界的“X光”来了！一图直出巴洛克雕塑，3D打印开箱即用",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-26T07:48:48.068482+00:00",
-      "pub_ts": 1795679328
+      "pub_date": "2026-11-27T07:48:19.155734+00:00",
+      "pub_ts": 1795765699
     },
     {
-      "id": "bbba986e5d",
-      "title": "AI影视高地正在北影海淀一带崛起，「一人制片厂」基建搭好了",
-      "url": "https://mp.weixin.qq.com/s/tFz0y-BS_o3pSZFoSXPTtg",
-      "summary": "AI影视高地正在北影海淀一带崛起，「一人制片厂」基建搭好了",
+      "id": "cf80a703cd",
+      "title": "20个AlAgents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩",
+      "url": "https://mp.weixin.qq.com/s/s4dPl1b0IwXvcWKKY3M8qw",
+      "summary": "20个AlAgents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-26T07:48:48.068506+00:00",
-      "pub_ts": 1795679328
+      "pub_date": "2026-11-27T07:48:19.155765+00:00",
+      "pub_ts": 1795765699
     },
     {
-      "id": "148e4545ed",
-      "title": "OpenAl两次拆掉机器人团队：只靠大模型，为什么撑不起物理AI?",
-      "url": "https://mp.weixin.qq.com/s/iUdwsuxtjWaPAONBdBP75w",
-      "summary": "OpenAl两次拆掉机器人团队：只靠大模型，为什么撑不起物理AI?",
+      "id": "0bc0d47ebf",
+      "title": "具身公司抱团回应：通用大模型跨维打击？没那么简单",
+      "url": "https://mp.weixin.qq.com/s/iSXAu7ey8gvvRRmUtMBTrw",
+      "summary": "具身公司抱团回应：通用大模型跨维打击？没那么简单",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-26T07:48:48.068526+00:00",
-      "pub_ts": 1795679328
+      "pub_date": "2026-11-27T07:48:19.155793+00:00",
+      "pub_ts": 1795765699
     },
     {
-      "id": "418f6f3bcb",
-      "title": "9400万参数硬刚50亿，权重显存直降98%！Loop架构被这家中国团...",
-      "url": "https://mp.weixin.qq.com/s/r5n6qJ7B7gW9RHcA-bXAaw",
-      "summary": "9400万参数硬刚50亿，权重显存直降98%！Loop架构被这家中国团...",
+      "id": "635aa6c416",
+      "title": "报名从速|来MEET2027！听AI前沿实践者交出“判断”",
+      "url": "https://mp.weixin.qq.com/s/xVtYI4L14qjlxaz3uIRScQ",
+      "summary": "报名从速|来MEET2027！听AI前沿实践者交出“判断”",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-26T07:48:48.068547+00:00",
-      "pub_ts": 1795679328
+      "pub_date": "2026-11-27T07:48:19.155820+00:00",
+      "pub_ts": 1795765699
     }
   ],
   "source_success_count": 1,

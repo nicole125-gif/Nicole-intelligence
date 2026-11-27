@@ -3,9 +3,39 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-11-26T07:49:19.754984+00:00",
+  "updated_at": "2026-11-27T07:48:51.913713+00:00",
   "item_count": 5,
   "items": [
+    {
+      "id": "f160197c76",
+      "title": "First on-demand pill for hereditary angioedema attacks recommended for NHS use",
+      "url": "https://www.pharmaceutical-technology.com/news/first-on-demand-pill-for-hereditary-angioedema-attacks-recommended-for-nhs-use/",
+      "summary": "NICE highlighted Ekterly’s advantages such as convenience and easier self-administration compared to injectable treatments.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-11-26T14:35:24+00:00",
+      "pub_ts": 1795703724
+    },
+    {
+      "id": "ec4402dcd9",
+      "title": "Pharming Group pauses Ruconest manufacturing in US",
+      "url": "https://www.pharmaceutical-technology.com/news/pharming-group-pauses-ruconest-manufacturing-us/",
+      "summary": "Pharming Group has temporarily paused the manufacturing of Ruconest and alerted the US FDA on anticipated supply constraints across the country.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-11-26T11:07:39+00:00",
+      "pub_ts": 1795691259
+    },
+    {
+      "id": "62cfd37071",
+      "title": "Bayer signs $3.25bn oncology deal with Hansoh Pharma",
+      "url": "https://www.pharmaceutical-technology.com/news/bayer-oncology-deal-hansoh-pharma/",
+      "summary": "Bayer has entered into an exclusive worldwide licensing agreement potentially valued at up to $3.25bn with Hansoh Pharma to develop, manufacture, and commercialise the Phase I oncology candidate HS-20122.",
+      "source": "Pharmaceutical Technology",
+      "lang": "en",
+      "pub_date": "2026-11-26T09:37:53+00:00",
+      "pub_ts": 1795685873
+    },
     {
       "id": "2b8a91b1c6",
       "title": "AI could help with early diagnosis of breast cancer",
@@ -25,36 +55,6 @@
       "lang": "en",
       "pub_date": "2026-11-25T10:25:54+00:00",
       "pub_ts": 1795602354
-    },
-    {
-      "id": "34383528b5",
-      "title": "MAXONA’s MAX-001 secures FDA fast track status for non-opioid pain drug",
-      "url": "https://www.pharmaceutical-technology.com/news/maxonas-max-001-fda-ftd-acute-pain/",
-      "summary": "The US FDA has granted fast track designation (FTD) for MAXONA Pharmaceuticals’ oral therapy, MAX-001, aimed at treating acute pain.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-11-25T09:12:35+00:00",
-      "pub_ts": 1795597955
-    },
-    {
-      "id": "f35e0a1c09",
-      "title": "From detecting contamination to predicting risk",
-      "url": "https://www.pharmaceutical-technology.com/sponsored/from-detecting-contamination-to-predicting-risk/",
-      "summary": "Environmental monitoring helps sterile manufacturers spot weaknesses early, protect product quality and prevent costly disruptions.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-11-24T16:56:47+00:00",
-      "pub_ts": 1795539407
-    },
-    {
-      "id": "5bcbe2a39b",
-      "title": "London Life Sciences Week: Dealmaking, AI, and China the talk of the town",
-      "url": "https://www.pharmaceutical-technology.com/features/london-life-sciences-week-dealmaking-ai-and-china-the-talk-of-the-town/",
-      "summary": "Included in this episode are key takeaways from several events across London Life Sciences Week, including Jeffries, London Biotech Show and the DIA-MHRA.",
-      "source": "Pharmaceutical Technology",
-      "lang": "en",
-      "pub_date": "2026-11-24T12:02:17+00:00",
-      "pub_ts": 1795521737
     }
   ],
   "source_success_count": 1,
