@@ -3,58 +3,58 @@
   "vertical_name": "AI液冷",
   "vertical_en": "AI Liquid Cooling",
   "color": "#00ff88",
-  "updated_at": "2026-11-27T07:48:23.776737+00:00",
+  "updated_at": "2026-11-28T07:17:19.424634+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "0325acf846",
-      "title": "活动报名Ⅰ一场大会看懂明年AI风向：量子位「MEET2027智能未来大会...",
-      "url": "https://mp.weixin.qq.com/s/wu-LNhQxCNIJLIJ_IAYrIw",
-      "summary": "活动报名Ⅰ一场大会看懂明年AI风向：量子位「MEET2027智能未来大会...",
+      "id": "dae751d22a",
+      "title": "机器人也有“三折叠”了！明年量产进家庭",
+      "url": "https://mp.weixin.qq.com/s/aSipU3Yx3-bpibDc_glq6Q",
+      "summary": "机器人也有“三折叠”了！明年量产进家庭",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-27T07:48:19.155676+00:00",
-      "pub_ts": 1795765699
+      "pub_date": "2026-11-28T07:17:15.268515+00:00",
+      "pub_ts": 1795850235
     },
     {
-      "id": "1920a2941c",
-      "title": "AI3D界的“X光”来了！一图直出巴洛克雕塑，3D打印开箱即用",
-      "url": "https://mp.weixin.qq.com/s/UslS5EMnFIDmyCQ4EzGy-A",
-      "summary": "AI3D界的“X光”来了！一图直出巴洛克雕塑，3D打印开箱即用",
+      "id": "05e86f8785",
+      "title": "AI巨头被曝藏着密码学「核弹」！量子计算大牛ScottAaronson博客刷屏",
+      "url": "https://mp.weixin.qq.com/s/77I42hIvyH-KlLV4w4GIDA",
+      "summary": "AI巨头被曝藏着密码学「核弹」！量子计算大牛ScottAaronson博客刷屏",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-27T07:48:19.155734+00:00",
-      "pub_ts": 1795765699
+      "pub_date": "2026-11-28T07:17:15.268558+00:00",
+      "pub_ts": 1795850235
     },
     {
-      "id": "cf80a703cd",
-      "title": "20个AlAgents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩",
-      "url": "https://mp.weixin.qq.com/s/s4dPl1b0IwXvcWKKY3M8qw",
-      "summary": "20个AlAgents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩",
+      "id": "3a7b3f3f74",
+      "title": "人形机器人开发者集合！众擎开放大小脑，10亿产业级生态支持计划...",
+      "url": "https://mp.weixin.qq.com/s/vReAnsJosf2M3vd86dR4hA",
+      "summary": "人形机器人开发者集合！众擎开放大小脑，10亿产业级生态支持计划...",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-27T07:48:19.155765+00:00",
-      "pub_ts": 1795765699
+      "pub_date": "2026-11-28T07:17:15.268581+00:00",
+      "pub_ts": 1795850235
     },
     {
-      "id": "0bc0d47ebf",
-      "title": "具身公司抱团回应：通用大模型跨维打击？没那么简单",
-      "url": "https://mp.weixin.qq.com/s/iSXAu7ey8gvvRRmUtMBTrw",
-      "summary": "具身公司抱团回应：通用大模型跨维打击？没那么简单",
+      "id": "bedc790b94",
+      "title": "王虹再获数学大奖！奖名背后是另一位传奇女性的故事",
+      "url": "https://mp.weixin.qq.com/s/icTW1VmBCwKPOZcbwOi3Gw",
+      "summary": "王虹再获数学大奖！奖名背后是另一位传奇女性的故事",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-27T07:48:19.155793+00:00",
-      "pub_ts": 1795765699
+      "pub_date": "2026-11-28T07:17:15.268601+00:00",
+      "pub_ts": 1795850235
     },
     {
-      "id": "635aa6c416",
-      "title": "报名从速|来MEET2027！听AI前沿实践者交出“判断”",
-      "url": "https://mp.weixin.qq.com/s/xVtYI4L14qjlxaz3uIRScQ",
-      "summary": "报名从速|来MEET2027！听AI前沿实践者交出“判断”",
+      "id": "80ddd2d76f",
+      "title": "只改0.015%参数，问答提速10倍！NYU等新方法把大模型思考换成..",
+      "url": "https://mp.weixin.qq.com/s/qovDOdqnf-cjPNJA4P8IWg",
+      "summary": "只改0.015%参数，问答提速10倍！NYU等新方法把大模型思考换成..",
       "source": "量子位-AI硬件",
       "lang": "zh",
-      "pub_date": "2026-11-27T07:48:19.155820+00:00",
-      "pub_ts": 1795765699
+      "pub_date": "2026-11-28T07:17:15.268620+00:00",
+      "pub_ts": 1795850235
     }
   ],
   "source_success_count": 1,

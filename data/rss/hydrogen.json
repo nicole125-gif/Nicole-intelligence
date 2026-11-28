@@ -3,9 +3,59 @@
   "vertical_name": "氢能",
   "vertical_en": "Hydrogen Energy",
   "color": "#ffd700",
-  "updated_at": "2026-11-27T07:48:39.515623+00:00",
+  "updated_at": "2026-11-28T07:17:29.497151+00:00",
   "item_count": 10,
   "items": [
+    {
+      "id": "6a4d9dcbd4",
+      "title": "Mercedes-Benz Trucks to Launch 100 NextGenH2 Hydrogen Trucks in 2027",
+      "url": "https://fuelcellsworks.com/2026/11/25/fuel-cells/mercedes-benz-trucks-to-launch-100-nextgenh2-hydrogen-trucks-in-2027",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-27T16:44:16+00:00",
+      "pub_ts": 1795797856
+    },
+    {
+      "id": "2079ce98e4",
+      "title": "German MPs Visit Hydrogen-Powered Liebherr L 566 H Wheel Loader Trial in Bremerhaven",
+      "url": "https://fuelcellsworks.com/2026/11/26/fuel-cells/german-mps-visit-hydrogen-powered-liebherr-l-566-h-wheel-loader-trial-in-bremerhaven",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-27T16:37:32+00:00",
+      "pub_ts": 1795797452
+    },
+    {
+      "id": "a6abc038cd",
+      "title": "BASF Receives RFNBO Certification for Ammonia Produced From Renewable Hydrogen at Its Ludwigshafen Site",
+      "url": "https://fuelcellsworks.com/2026/11/26/h2/basf-receives-rfnbo-certification-for-ammonia-produced-from-renewable-hydrogen-at-its-ludwigshafen-site",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-27T16:16:50+00:00",
+      "pub_ts": 1795796210
+    },
+    {
+      "id": "ddbefe2be9",
+      "title": "Water Is Becoming a Site-Selection Factor for Green Hydrogen — Not Just an Operational Detail",
+      "url": "https://fuelcellsworks.com/2026/11/24/h2/water-is-becoming-a-site-selection-factor-for-green-hydrogen-not-just-an-operational-detail",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-27T16:03:09+00:00",
+      "pub_ts": 1795795389
+    },
+    {
+      "id": "2acd832f90",
+      "title": "Dutch Greenhouses Could Become Green Hydrogen Producers — and Use the Waste Heat to Grow Vegetables",
+      "url": "https://fuelcellsworks.com/2026/11/26/h2/dutch-greenhouses-could-become-green-hydrogen-producers-and-use-the-waste-heat-to-grow-vegetables",
+      "summary": "",
+      "source": "Fuel Cells Works",
+      "lang": "en",
+      "pub_date": "2026-11-27T15:59:49+00:00",
+      "pub_ts": 1795795189
+    },
     {
       "id": "387eb67546",
       "title": "Fraunhofer confirms performance of Stiesdal electrolyser",
@@ -55,56 +105,6 @@
       "lang": "en",
       "pub_date": "2026-11-27T04:17:32+00:00",
       "pub_ts": 1795753052
-    },
-    {
-      "id": "15f9f46f66",
-      "title": "Fincantieri Delivers Viking Libra Cruise Ship With Liquefied Hydrogen and Fuel-Cell Propulsion",
-      "url": "https://fuelcellsworks.com/2026/11/26/electrolyzer/fincantieri-delivers-viking-libra-cruise-ship-with-liquefied-hydrogen-and-fuel-cell-propulsion",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-26T16:24:14+00:00",
-      "pub_ts": 1795710254
-    },
-    {
-      "id": "52ff1a388b",
-      "title": "Upper Austria and Bavaria Target Cross-Border Hydrogen Supply and Storage Network",
-      "url": "https://fuelcellsworks.com/2026/11/25/h2/upper-austria-and-bavaria-strengthen-hydrogen-cooperation-to-develop-cross-border-supply-and-storage-network",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-26T16:21:19+00:00",
-      "pub_ts": 1795710079
-    },
-    {
-      "id": "37cca110dd",
-      "title": "Charbone Reports C$1.2m [$840,000] in Nine-Month Gas Income as Q3 Margin Jumps to 26%",
-      "url": "https://fuelcellsworks.com/2026/11/26/h2/charbone-reports-c-1-2m-840-000-in-nine-month-gas-income-as-q3-margin-jumps-to-26-percent",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-26T15:53:42+00:00",
-      "pub_ts": 1795708422
-    },
-    {
-      "id": "a787efa391",
-      "title": "Danish Hydrogen Companies Slam Government's 2030 Fuel Quota as Too Weak to Support Green Hydrogen Industry",
-      "url": "https://fuelcellsworks.com/2026/11/26/h2/danish-hydrogen-companies-slam-government-s-2030-fuel-quota-as-too-weak-to-support-green-hydrogen-industry",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-26T15:46:27+00:00",
-      "pub_ts": 1795707987
-    },
-    {
-      "id": "de5a44ba9a",
-      "title": "Fraunhofer Develops Lightweight Hybrid Bipolar Plates for Fuel Cells",
-      "url": "https://fuelcellsworks.com/2026/11/22/fuel-cells/fraunhofer-develops-lightweight-hybrid-bipolar-plates-for-fuel-cells",
-      "summary": "",
-      "source": "Fuel Cells Works",
-      "lang": "en",
-      "pub_date": "2026-11-26T15:33:07+00:00",
-      "pub_ts": 1795707187
     }
   ],
   "source_success_count": 2,

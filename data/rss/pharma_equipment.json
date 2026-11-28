@@ -3,58 +3,58 @@
   "vertical_name": "医药设备",
   "vertical_en": "Pharma Equipment",
   "color": "#ff8c42",
-  "updated_at": "2026-11-27T07:48:51.913713+00:00",
+  "updated_at": "2026-11-28T07:17:41.802236+00:00",
   "item_count": 5,
   "items": [
     {
-      "id": "f160197c76",
-      "title": "First on-demand pill for hereditary angioedema attacks recommended for NHS use",
-      "url": "https://www.pharmaceutical-technology.com/news/first-on-demand-pill-for-hereditary-angioedema-attacks-recommended-for-nhs-use/",
-      "summary": "NICE highlighted Ekterly’s advantages such as convenience and easier self-administration compared to injectable treatments.",
+      "id": "ebdff8b675",
+      "title": "EU’s new pharma package an “opportunity missed” industry says",
+      "url": "https://www.pharmaceutical-technology.com/news/eus-new-pharma-package-an-opportunity-missed-industry-says/",
+      "summary": "The European Commission’s range of competitiveness-boosting measures aim to close the biopharma innovation and funding gap to global rivals.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-26T14:35:24+00:00",
-      "pub_ts": 1795703724
+      "pub_date": "2026-11-27T16:01:10+00:00",
+      "pub_ts": 1795795270
     },
     {
-      "id": "ec4402dcd9",
-      "title": "Pharming Group pauses Ruconest manufacturing in US",
-      "url": "https://www.pharmaceutical-technology.com/news/pharming-group-pauses-ruconest-manufacturing-us/",
-      "summary": "Pharming Group has temporarily paused the manufacturing of Ruconest and alerted the US FDA on anticipated supply constraints across the country.",
+      "id": "c7d019896e",
+      "title": "MASH market expected to reach $17.7bn across the 7MM by 2035",
+      "url": "https://www.pharmaceutical-technology.com/analyst-comment/mash-market-7mm-2035/",
+      "summary": "The MASH market across the 7MM is set to grow from $1.5bn in 2025 to $17.7bn in 2035, at a compound annual growth rate (CAGR) of 28%.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-26T11:07:39+00:00",
-      "pub_ts": 1795691259
+      "pub_date": "2026-11-27T15:47:07+00:00",
+      "pub_ts": 1795794427
     },
     {
-      "id": "62cfd37071",
-      "title": "Bayer signs $3.25bn oncology deal with Hansoh Pharma",
-      "url": "https://www.pharmaceutical-technology.com/news/bayer-oncology-deal-hansoh-pharma/",
-      "summary": "Bayer has entered into an exclusive worldwide licensing agreement potentially valued at up to $3.25bn with Hansoh Pharma to develop, manufacture, and commercialise the Phase I oncology candidate HS-20122.",
+      "id": "3df6275ff4",
+      "title": "German PEI approves two Stallergenes’ allergy therapies for paediatric use",
+      "url": "https://www.pharmaceutical-technology.com/news/german-pei-two-stallergenes-allergy-paediatric-use/",
+      "summary": "Germany’s PEI has approved paediatric indication extensions for Stallergenes Greer’s Staloral 3 Trees and Staloral Birch SLIT treatments.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-26T09:37:53+00:00",
-      "pub_ts": 1795685873
+      "pub_date": "2026-11-27T11:06:41+00:00",
+      "pub_ts": 1795777601
     },
     {
-      "id": "2b8a91b1c6",
-      "title": "AI could help with early diagnosis of breast cancer",
-      "url": "https://www.pharmaceutical-technology.com/analyst-comment/ai-early-diagnosis-breast-cancer/",
-      "summary": "The UK NHS has launched the EDITH trial with 700,000 women, making it the world's largest trial of AI in breast cancer screening.",
+      "id": "bda4f6c3a1",
+      "title": "CGT: Bottlenecks slowing development",
+      "url": "https://www.pharmaceutical-technology.com/features/cgt-bottlenecks-slowing-development/",
+      "summary": "Safety concerns and complex manufacturing bottlenecks have curtailed funding across CGT, forcing several developers to wind down operations.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-25T17:06:44+00:00",
-      "pub_ts": 1795626404
+      "pub_date": "2026-11-27T11:00:15+00:00",
+      "pub_ts": 1795777215
     },
     {
-      "id": "bd6e94d99c",
-      "title": "Cogent Biosciences gains FDA approval for Ekitna combo in GIST",
-      "url": "https://www.pharmaceutical-technology.com/news/cogent-biosciences-fda-ekitna-combo-gist/",
-      "summary": "The US FDA has approved Cogent Biosciences’ Ekitna in combination with sunitinib for adult patients with advanced GIST who previously received imatinib.",
+      "id": "e18978e3d5",
+      "title": "Hetero starts lenacapavir rollout for HIV prevention in Africa",
+      "url": "https://www.pharmaceutical-technology.com/news/hetero-generic-lenacapavir-rollout-hiv-africa/",
+      "summary": "Hetero has commenced phased shipments of generic injectable lenacapavir for HIV prevention to Africa, dispatching an initial batch of 300,000 vials across Uganda, Zambia, and Zimbabwe.",
       "source": "Pharmaceutical Technology",
       "lang": "en",
-      "pub_date": "2026-11-25T10:25:54+00:00",
-      "pub_ts": 1795602354
+      "pub_date": "2026-11-27T09:46:05+00:00",
+      "pub_ts": 1795772765
     }
   ],
   "source_success_count": 1,

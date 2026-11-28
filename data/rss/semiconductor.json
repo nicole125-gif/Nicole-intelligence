@@ -3,108 +3,88 @@
   "vertical_name": "半导体",
   "vertical_en": "Semiconductor",
   "color": "#ff6b9d",
-  "updated_at": "2026-11-27T07:48:09.802823+00:00",
-  "item_count": 15,
+  "updated_at": "2026-11-28T07:17:05.540989+00:00",
+  "item_count": 13,
   "items": [
     {
-      "id": "b1489aba49",
-      "title": "消费级显卡正在变成一门边缘生意",
-      "url": "https://mp.weixin.qq.com/s/8hTh4RQIP1-4fyLraS0rNA",
-      "summary": "消费级显卡正在变成一门边缘生意",
+      "id": "f5cbc51420",
+      "title": "全球晶圆代工TOP5，中芯国际紧追三星",
+      "url": "https://mp.weixin.qq.com/s/A6v_QADsi9lRqhj03GQELw",
+      "summary": "全球晶圆代工TOP5，中芯国际紧追三星",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-27T07:48:05.731105+00:00",
-      "pub_ts": 1795765685
+      "pub_date": "2026-11-28T07:17:00.879166+00:00",
+      "pub_ts": 1795850220
     },
     {
-      "id": "8f7a5e7e9f",
-      "title": "英伟达，暂停向东南亚四国交付AI服务器",
-      "url": "https://mp.weixin.qq.com/s/MvfV45QRqlF5S3a7xL9gNA",
-      "summary": "英伟达，暂停向东南亚四国交付AI服务器",
+      "id": "4aee8a89f7",
+      "title": "Solidigm能否靠PLC能否改写3DNAND竞争格局",
+      "url": "https://mp.weixin.qq.com/s/HWC5E1V_T_doh9T3Hz0tRQ",
+      "summary": "Solidigm能否靠PLC能否改写3DNAND竞争格局",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-27T07:48:05.731145+00:00",
-      "pub_ts": 1795765685
+      "pub_date": "2026-11-28T07:17:00.879228+00:00",
+      "pub_ts": 1795850220
     },
     {
-      "id": "e6b8699983",
-      "title": "2026旗舰手机芯片拆解：苹果、vivo、小米、华为等机型对比",
-      "url": "https://mp.weixin.qq.com/s/D63QVcHy85_HZT3RmxqwlQ",
-      "summary": "2026旗舰手机芯片拆解：苹果、vivo、小米、华为等机型对比",
+      "id": "3ed627f97a",
+      "title": "全球PCGPU出货量突然下滑，英伟达、AMD双双下跌",
+      "url": "https://mp.weixin.qq.com/s/RY6jXAc2SmAd_wKvyTov-Q",
+      "summary": "全球PCGPU出货量突然下滑，英伟达、AMD双双下跌",
       "source": "半导体产业纵横",
       "lang": "zh",
-      "pub_date": "2026-11-27T07:48:05.731165+00:00",
-      "pub_ts": 1795765685
+      "pub_date": "2026-11-28T07:17:00.879258+00:00",
+      "pub_ts": 1795850220
     },
     {
-      "id": "b496fa75cd",
-      "title": "CoWoS产能外溢，2027年OSAT封装需求大增5.5倍",
-      "url": "https://mp.weixin.qq.com/s/R8OF6tPGoOn6ozZLaxyxEw",
-      "summary": "CoWoS产能外溢，2027年OSAT封装需求大增5.5倍",
-      "source": "半导体产业纵横",
-      "lang": "zh",
-      "pub_date": "2026-11-27T07:48:05.731181+00:00",
-      "pub_ts": 1795765685
-    },
-    {
-      "id": "01318df3aa",
-      "title": "设备交期最长达30个月，FC-BGA基板扩产遭遇供应链瓶颈",
-      "url": "https://mp.weixin.qq.com/s/0kp9OQHoV_D_u8Cq9r0qoA",
-      "summary": "设备交期最长达30个月，FC-BGA基板扩产遭遇供应链瓶颈",
-      "source": "半导体产业纵横",
-      "lang": "zh",
-      "pub_date": "2026-11-27T07:48:05.731197+00:00",
-      "pub_ts": 1795765685
-    },
-    {
-      "id": "67bbfc9de4",
-      "title": "马云闪现平头哥办公室",
-      "url": "https://mp.weixin.qq.com/s/pZgfY8iiYrA7gXUEbdBIwg",
-      "summary": "马云闪现平头哥办公室",
+      "id": "8850e9f0fc",
+      "title": "天数智芯，暴涨30%",
+      "url": "https://mp.weixin.qq.com/s/DeXTpswCCtwLjmsnxYrkkg",
+      "summary": "天数智芯，暴涨30%",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-27T07:47:58.892004+00:00",
-      "pub_ts": 1795765678
+      "pub_date": "2026-11-28T07:16:53.795766+00:00",
+      "pub_ts": 1795850213
     },
     {
-      "id": "23d6c50dc0",
-      "title": "2026RISC-V产业发展大会开始报名",
-      "url": "https://mp.weixin.qq.com/s/mMC8YFhM2GBIz0hBxiOdAw",
-      "summary": "2026RISC-V产业发展大会开始报名",
+      "id": "6c8df3343f",
+      "title": "3D DRAM，重磅官宣！",
+      "url": "https://mp.weixin.qq.com/s/F2b2MMDdPZNEvInK-l4aBw",
+      "summary": "3D DRAM，重磅官宣！",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-27T07:47:58.892052+00:00",
-      "pub_ts": 1795765678
+      "pub_date": "2026-11-28T07:16:53.795823+00:00",
+      "pub_ts": 1795850213
     },
     {
-      "id": "dc3ed285b6",
-      "title": "光互联，AMD出手了",
-      "url": "https://mp.weixin.qq.com/s/8ReqXlklds5zwROtg-MhAA",
-      "summary": "光互联，AMD出手了",
+      "id": "be549796a0",
+      "title": "奕成科技，150亿项目，落地成都高新区",
+      "url": "https://mp.weixin.qq.com/s/1mt5pGU-xa24CHg0VshFaQ",
+      "summary": "奕成科技，150亿项目，落地成都高新区",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-27T07:47:58.892070+00:00",
-      "pub_ts": 1795765678
+      "pub_date": "2026-11-28T07:16:53.795848+00:00",
+      "pub_ts": 1795850213
     },
     {
-      "id": "f13ac5e9e9",
-      "title": "CXL技术迈入成熟期：紫光国芯的“内存新基建”进行时，国产算力自主..",
-      "url": "https://mp.weixin.qq.com/s/zNF7ZV7PYHX9O7EeBjdiLQ",
-      "summary": "CXL技术迈入成熟期：紫光国芯的“内存新基建”进行时，国产算力自主..",
+      "id": "7e7c63b45d",
+      "title": "ASMLCEO万字访谈：反对对华全面禁售，分享未来路线图",
+      "url": "https://mp.weixin.qq.com/s/xc4iqcBVN51W4UkbDZ79pQ",
+      "summary": "ASMLCEO万字访谈：反对对华全面禁售，分享未来路线图",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-27T07:47:58.892086+00:00",
-      "pub_ts": 1795765678
+      "pub_date": "2026-11-28T07:16:53.795870+00:00",
+      "pub_ts": 1795850213
     },
     {
-      "id": "0e9bc54a0d",
-      "title": "这些芯片设备，奇缺！",
-      "url": "https://mp.weixin.qq.com/s/dEpuWBBiXc07BXEUV7PQuw",
-      "summary": "这些芯片设备，奇缺！",
+      "id": "192d6023bf",
+      "title": "GaN，正在突破1200V!",
+      "url": "https://mp.weixin.qq.com/s/JFo5wsmLvvBDda4a0AUSbw",
+      "summary": "GaN，正在突破1200V!",
       "source": "半导体行业观察",
       "lang": "zh",
-      "pub_date": "2026-11-27T07:47:58.892100+00:00",
-      "pub_ts": 1795765678
+      "pub_date": "2026-11-28T07:16:53.795891+00:00",
+      "pub_ts": 1795850213
     },
     {
       "id": "5dd82e9d6e",
